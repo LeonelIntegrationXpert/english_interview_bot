@@ -1,27 +1,18 @@
 version: "3.1"
 
 rules:
-  - rule: Responder sobre a MuleSoft
-    steps:
-      - intent: explain_mulesoft
-      - action: utter_explain_mulesoft
 
-  - rule: Responder sobre API-led
+  - rule: Responder como as camadas do API-led se conectam
     steps:
       - intent: explain_api_led
-      - action: utter_explain_api_led
+      - action: utter_explain_api_led_layers_connection
 
-  - rule: Responder sobre a camada Experience API
+  - rule: Saudação inicial
     steps:
-      - intent: experience_api_layer
-      - action: utter_experience_api_layer
+      - intent: greet
+      - action: utter_greet
 
-  - rule: Responder sobre a camada Process API
+  - rule: Acionar fallback quando não houver correspondência
     steps:
-      - intent: process_api_layer
-      - action: utter_process_api_layer
-
-  - rule: Responder sobre a camada System API
-    steps:
-      - intent: system_api_layer
-      - action: utter_system_api_layer
+      - intent: random_input
+      - action: utter_random_input

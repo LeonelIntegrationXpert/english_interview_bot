@@ -1,0 +1,20 @@
+version: "3.1"
+
+responses:
+  utter_greet:
+    - text: |
+        Estou bem, obrigado por perguntar. Feliz por estar aqui para essa conversa.
+    - text: |
+        Tudo ótimo, e muito animado com essa oportunidade. Obrigado pelo convite.
+    - text: |
+        Estou tranquilo e pronto para compartilhar minha experiência com você.
+    - text: |
+        Estou bem, com foco total para contribuir com essa entrevista.
+    - text: |
+        Me sinto preparado e motivado para esse momento, obrigado por perguntar.
+    - text: |
+        Estou ótimo, obrigado. Pronto para iniciarmos.
+    - text: |
+        Tudo certo por aqui. Ansioso para essa conversa produtiva.
+    - text: |
+        Estou bem, com energia para essa entrevista. Vamos lá.

@@ -1,0 +1,7 @@
+version: "3.1"
+
+responses:
+  utter_random_input:
+    - text: "Desculpe, não consegui entender o que você disse. Poderia reformular a pergunta ou fornecer mais detalhes?"
+    - text: "Não estou certo do que você quis dizer. Pode tentar reformular a sua pergunta de outra forma?"
+    - text: "Parece que houve um erro. Que tal tentar novamente, talvez de uma maneira diferente?"

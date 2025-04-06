@@ -1,42 +1,10 @@
 version: "3.1"
 
 intents:
-  - explain_mulesoft
+  - random_input
+  - greet
   - explain_api_led
-  - experience_api_layer
-  - process_api_layer
-  - system_api_layer
 
-responses:
-  utter_explain_mulesoft:
-    - text: >
-        A MuleSoft é uma empresa especializada em integração de sistemas. Ela oferece uma plataforma chamada Anypoint Platform, que permite conectar aplicações, dados e dispositivos de forma ágil e segura. Com a MuleSoft, organizações conseguem criar redes de aplicações utilizando APIs, facilitando a comunicação entre sistemas diferentes — sejam eles locais, em nuvem ou legados. Em outras palavras, a MuleSoft ajuda empresas a simplificarem seus processos de integração, promovendo maior eficiência, agilidade e inovação digital.
-
-  utter_explain_api_led:
-    - text: >
-        API-led é um modelo de arquitetura criado pela MuleSoft que organiza as integrações em três camadas bem definidas: System APIs, Process APIs e Experience APIs.
-        - As **System APIs** são responsáveis por acessar diretamente os sistemas de backend, como bancos de dados, ERPs, CRMs, SAP, Salesforce, entre outros. Elas encapsulam as particularidades de cada sistema, expondo dados de forma segura e consistente. São como conectores reutilizáveis com foco em acesso aos dados.
-        - As **Process APIs** orquestram e transformam os dados recebidos das System APIs. Elas aplicam regras de negócio, combinam dados de múltiplas fontes e entregam um resultado coeso e otimizado para o consumo. Essas APIs não estão ligadas diretamente ao sistema de origem ou ao consumidor final — elas existem para tratar a lógica de negócio.
-        - As **Experience APIs** servem os dados prontos para o consumidor final, seja ele um app mobile, um portal web, um chatbot ou parceiros externos. Elas adaptam o conteúdo e o formato das informações de acordo com o canal que vai consumi-las, garantindo uma experiência personalizada e eficiente.
-        Ao separar as integrações em camadas, o **API-led** facilita a reutilização, o versionamento, a governança e a escalabilidade de soluções. É um modelo ideal para empresas que desejam acelerar sua transformação digital com segurança e agilidade.
-
-  utter_experience_api_layer:
-    - text: >
-        A camada **Experience API** é responsável por entregar os dados de forma personalizada para o consumidor final, seja ele um app mobile, sistema web, portal interno, chatbot ou parceiro externo. Ela adapta o formato, o conteúdo e a estrutura dos dados conforme a necessidade de cada canal, garantindo uma experiência fluida e consistente. 
-        Por exemplo, uma Experience API pode fornecer os mesmos dados de cliente para um aplicativo móvel em um formato leve e específico, enquanto entrega os mesmos dados de forma mais detalhada para um painel de atendimento ao cliente.
-        Essa camada não se preocupa com as regras de negócio nem com a origem dos dados — ela apenas consome as **Process APIs** e apresenta os dados de forma otimizada para quem vai usá-los.
-
-  utter_process_api_layer:
-    - text: >
-        A camada **Process API** orquestra, transforma e aplica regras de negócio nos dados vindos das System APIs. Ela funciona como o cérebro da arquitetura API-led, agregando informações de diferentes fontes e estruturando-as de forma útil para o consumo.
-        Diferente das outras camadas, a Process API não está ligada diretamente nem ao sistema de origem, nem ao consumidor final. Seu papel é intermediar: combinar dados, aplicar lógica de negócio, validar informações e garantir consistência.
-        Por exemplo, uma Process API pode reunir dados de clientes e pedidos (vindos de diferentes System APIs), aplicar uma lógica de cálculo e entregar o resultado pronto para a camada Experience. Essa camada favorece reutilização e agilidade na construção de soluções compostas.
-
-  utter_system_api_layer:
-    - text: >
-        A camada **System API** é responsável por acessar diretamente os sistemas de backend, como bancos de dados, SAP, Salesforce, Oracle, ERPs e outros sistemas legados. Seu objetivo é expor os dados de forma segura, confiável e reutilizável, encapsulando toda a complexidade técnica do sistema de origem.
-        Essas APIs normalmente não contêm lógica de negócio — seu papel é atuar como um gateway simples, padronizado e protegido para que os dados fiquem acessíveis. 
-        Por exemplo, uma System API pode se conectar ao banco de dados de clientes, transformar o resultado em JSON e disponibilizar isso para as Process APIs. Isso facilita a manutenção, segurança e governança dos sistemas existentes, isolando-os de acessos diretos.
 
 session_config:
   session_expiration_time: 60

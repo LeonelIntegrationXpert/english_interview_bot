@@ -1,0 +1,65 @@
+responses:
+  utter_explain_api_led_layers_connection:
+    - text: |
+        🌐 *API-led - Conexão entre as camadas*
+        🟩🇧🇷 **Português: Como as camadas do API-led se conectam?**
+        No modelo **API-led connectivity**, a arquitetura é dividida em três camadas que se comunicam de forma organizada e sequencial. Essa abordagem permite **escalabilidade**, **reutilização** e **clara divisão de responsabilidades**.
+        🔌 **1. System APIs**  
+        São responsáveis por conectar aos sistemas de backend, como SAP, bancos de dados e Salesforce.  
+        Elas escondem a complexidade técnica e expõem os dados de forma **padronizada, segura e reutilizável**.
+        🧠 **2. Process APIs**  
+        Funcionam como o cérebro das integrações. Elas consomem as System APIs, aplicam lógica de negócio e transformam os dados conforme necessário.  
+        São essenciais para integrar informações de diferentes fontes de maneira estratégica.
+        📱 **3. Experience APIs**  
+        Entregam os dados para o canal final (web, app, chatbot, parceiros), ajustando o formato para cada caso.  
+        Isso garante **uma experiência sob medida e de alto desempenho**.
+        ✅ *Fluxo completo:*  
+        System APIs → Process APIs → Experience APIs  
+        Cada camada aproveita a anterior, promovendo um ecossistema **modular, reutilizável e fácil de manter**.
+
+        🗽🇺🇸 **English: How do API-led layers connect?**
+        The **API-led architecture** splits integration into three well-defined layers that work in a structured flow. This model encourages **scalability**, **component reuse**, and **clear responsibilities**.
+        🔌 **1. System APIs**  
+        They link directly to backend systems like databases, SAP, or Salesforce.  
+        These APIs hide complexity and provide a **standard, secure, and reusable** way to expose data.
+        🧠 **2. Process APIs**  
+        These act as the logic layer — consuming System APIs, transforming data, and applying business rules.  
+        They are crucial to combine and manipulate information from different sources.
+        📱 **3. Experience APIs**  
+        This layer adapts and delivers data to the final channels such as mobile apps, web portals, or external partners.  
+        It ensures the **user gets exactly the data they need**, in the right format.
+        ✅ *Full connection flow:*  
+        System APIs → Process APIs → Experience APIs  
+        Each layer builds on the previous one, supporting **clean design, reuse, and evolution**.
+
+    - text: |
+        🌐 *API-led - Integração em camadas conectadas*
+        🟩🇧🇷 **Português: Como as camadas se integram no API-led?**
+        No modelo **API-led connectivity**, as integrações seguem uma arquitetura em camadas com responsabilidades distintas. Essa separação garante **flexibilidade**, **governança** e **facilidade de manutenção**.
+        🔌 **1. System APIs**  
+        Acessam sistemas como SAP, bancos de dados, ou Salesforce.  
+        Servem como uma camada de abstração, **expondo dados de forma confiável e padronizada**.
+        🧠 **2. Process APIs**  
+        Realizam a orquestração entre fontes de dados. Elas consomem System APIs, aplicam validações e lógica de negócio, e entregam dados tratados.  
+        Atuam como elo entre os dados brutos e a camada de experiência.
+        📱 **3. Experience APIs**  
+        Fornecem os dados processados ao consumidor final (site, aplicativo, chatbot, etc).  
+        São otimizadas para garantir **boa performance e personalização da entrega**.
+        ✅ *Fluxo lógico:*  
+        System APIs → Process APIs → Experience APIs  
+        Essa ordem cria um **pipeline escalável**, com **baixo acoplamento** e **alta reutilização**.
+
+        🗽🇺🇸 **English: How do the API-led layers integrate?**
+        The **API-led model** organizes integration into three connected layers, each handling a specific scope. This setup leads to **modular design**, **governed reuse**, and **clear maintenance paths**.
+        🔌 **1. System APIs**  
+        Designed to reach backend systems like SAP or databases.  
+        They **expose internal data in a clean, reusable, and secure way**, simplifying system interaction.
+        🧠 **2. Process APIs**  
+        Handle business logic, data aggregation, and transformation.  
+        These APIs consume System APIs and prepare the information for delivery.
+        📱 **3. Experience APIs**  
+        Send the prepared data to consumers such as mobile apps, web, or partners.  
+        They provide **a tailored response for each channel**, enhancing user experience.
+        ✅ *Complete flow:*  
+        System APIs → Process APIs → Experience APIs  
+        This structure ensures **separation of concerns**, high **reusability**, and better **team collaboration**.

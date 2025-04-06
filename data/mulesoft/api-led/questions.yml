@@ -1,0 +1,522 @@
+version: "3.1"
+
+nlu:
+- intent: explain_api_led
+  examples: |
+    
+    # Português
+    - o que e apiled
+    - o que e api led
+    - o q é api-led
+    - oq é apiled
+    - oque é api-led?
+    - o que significa apiled
+    - oque é essa api led
+    - o q é api led
+    - oq e api-led
+    - apiled é o q?
+    - apiled e oq
+    - o q é apiled?
+    - o q significa api led
+    - oq eh api-led
+    - oq e apiled?
+    - oque significa apiled
+    - oque e api-led
+    - apiled significa o que
+    - api-led e o que msm?
+    - essa api-led e oque
+    - apiled é oq msm?
+    - quais sao as camadas do apiled
+    - quais as camadas do api led
+    - quais sao as camadas apiled
+    - quais as camadas de apiled?
+    - apiled tem qtas camadas
+    - quais sao as camadas api-led?
+    - quais camadas do apiled?
+    - o apiled tem quais camadas
+    - qnts camadas tem o apiled?
+    - api led camadas quais sao?
+    - quais camadas tem api-led?
+    - oque tem no api-led
+    - camadas do apiled
+    - me diz as camadas do api led
+    - quais sao as partes do apiled
+    - apiled estrutura como?
+    - estrutura api led como e
+    - estrutura do api-led tem oq
+    - quais são camada api-led
+    - api-led tem 3 camada ne?
+    - pode me explica as 3 camada do api led
+    - me explica as 3 camada do apiled
+    - consegue explicar as tres camadas do apiled?
+    - quais sao as 3 camada do api led
+    - apiled tem 3 camada me fala?
+    - da pra explicar as tres camada api-led
+    - explica pra mim as 3 camada do api-led
+    - como funciona as 3 camada do api led
+    - me diz quais sao as tres camada apiled
+    - como é essas três camadas do apiled?
+    - me explica o negocio das 3 camada do api-led
+    - oque sao as tres camada do api-led?
+    - vc sabe as 3 camada do api-led?
+    - q q tem nas 3 camada do api-led?
+    - pode fala as 3 camada de api-led?
+    - as três camadas do API-led, o que são?
+    - quais os niveis da arquitetura apiled
+    - quais são os nivel da arquitetura api led?
+    - arquitetura do api-led tem quantos nivel?
+    - me fala os niveis da arquitetura apiled?
+    - apiled tem niveis? quais são?
+    - sabe os niveis do api led?
+    - quais nível tem o api-led?
+    - api-led possui niveis?
+    - explica os niveis do api-led
+    - os niveis da arquitetura do apiled sao quais?
+    - quantos niveis tem a arquitetura api-led
+    - qnts nivel tem arquitetura api-led?
+    - me explica os nivel de apiled
+    - os nivel do api led são oq?
+    - oq são os níveis da arquitetura api led?
+    - os tais niveis do api-led, quais são?
+    - q niveis sao esses da arquitetura apiled?
+    - o que faz cada camada no apiled?
+    - cada camada do api-led faz oq?
+    - pra que serve cada camada no api-led?
+    - o q faz cada camada do api led?
+    - quais as funções das camadas no apiled?
+    - oq faz as camadas do api-led?
+    - apiled: função de cada camada?
+    - função de cada camada do api-led
+    - explica as camadas do api led e oq fazem
+    - o que fazem as camadas do apiled
+    - o que cada camada faz no api-led?
+    - no api-led, o que faz cada camada?
+    - o api-led tem o que em cada camada?
+    - cada camada do api-led serve pra quê?
+    - pode explicar pra que serve cada camada?
+    - apiled camadas explicadas
+    - me diz a função de cada camada no api led
+    - o que significa cada camada no api-led?
+    - pode detalhar as camadas da abordagem api-led?
+    - me explica as camadas do api led em detalhes?
+    - detale as camadas do api-led pra mim
+    - fala mais sobre as camadas do apiled
+    - pode me mostrar o que tem em cada camada do api led?
+    - como são as camadas da arquitetura api-led?
+    - api-led tem quais camadas mesmo?
+    - detalha melhor essa estrutura de camadas do api led
+    - o que tem dentro de cada camada do api-led?
+    - apiled camadas detalhadas
+    - quero entender mais das camadas do apiled
+    - explica detalhado as camadas do api led
+    - me fala certinho como funciona cada camada do api-led
+    - pode dar detalhes das três camadas do api-led?
+    - tem como explicar melhor as camadas do apiled?
+    - o que compõe cada camada do api-led?
+    - pode esmiuçar as camadas do apiled?
+    - me mostra detalhadamente as camadas do api led
+    - como o api-led separa as responsabilidades por camadas?
+    - de que jeito o apiled divide as responsabilidades?
+    - como funciona a divisão de tarefas nas camadas do api led?
+    - como cada camada do api-led tem sua responsabilidade?
+    - apiled divide responsabilidades como?
+    - api-led separa as funções por camada?
+    - como as camadas do apiled ficam com suas responsabilidades?
+    - explica como o api led divide as responsabilidades em partes
+    - qual camada faz o que no api-led?
+    - que parte faz oq no api-led?
+    - api-led tem divisão de responsabilidades por camada?
+    - o que cada camada faz no api-led?
+    - como o api-led distribui as funções entre as camadas?
+    - cada camada do api-led tem uma função diferente?
+    - como são separadas as tarefas no api-led?
+    - como as apis são organizadas nas camadas do api-led?
+    - como que as api são divididas no api led?
+    - as apis são separadas como nas camadas do api-led?
+    - qual é a organização das apis no modelo api-led?
+    - api-led organiza as apis por camada?
+    - as api são arrumadas como dentro do api-led?
+    - como o apiled separa as api em camadas?
+    - api-led tem uma organização pra cada api?
+    - como api-led gerencia as apis nas suas camadas?
+    - onde ficam as apis no modelo api-led?
+    - como funciona a separação das apis no api-led?
+    - as apis ficam organizadas de que forma nas camadas do api-led?
+    - existe uma ordem de api no api-led?
+    - api-led distribui as apis como?
+    - apis ficam em quais camadas no api-led?
+    - me explica o papel de cada camada do api-led
+    - qual é o papel de cada camada do api-led?
+    - pra que serve cada camada do api-led?
+    - o que cada camada faz no api-led?
+    - pode me dizer o que cada camada faz no api-led?
+    - explica o que faz cada camada no modelo api-led
+    - as camadas do api-led tem qual função?
+    - cada camada no api-led tem um papel, né? qual é?
+    - qual a responsa de cada camada no api-led?
+    - como funciona cada camada no api-led?
+    - me detalha o papel das camadas do api-led
+    - o que faz a camada system, process e experience?
+    - me conta o que faz cada parte do api-led
+    - como cada camada atua no api-led?
+    - função de cada camada no api-led, pode explicar?
+    - api-led: o que significa cada camada?
+    - me fale sobre as camadas do api-led
+    - pode me falar sobre as camadas do api-led?
+    - fala das camadas do api-led
+    - fala pra mim quais são as camadas do api-led
+    - me conta quais são as camadas do api-led
+    - quais são as camadas api-led?
+    - me explica sobre as camadas do api-led
+    - fala um pouco das camadas do modelo api-led
+    - camadas do api-led, pode falar?
+    - tem como me falar sobre camadas do api-led?
+    - camadas api-led, me diz ai
+    - que camadas tem no api-led?
+    - camadas no api-led? me explica
+    - pode explicar as camadas que tem no api-led?
+    - camadas de api-led, como funciona?
+    - api-led é dividido em camadas? quais?
+    - to curioso sobre as camadas do api-led
+    - o que são as camadas do api-led?
+    - quais são as camadas do api-led?
+    - quais sao as camada do api-led
+    - pode me falar quais são as camadas do api-led?
+    - que camadas tem no api-led?
+    - quais camadas existem no api-led?
+    - api-led tem quantas camadas?
+    - as camadas do api-led são quais?
+    - quantas camadas existem na arquitetura api-led?
+    - api-led se divide em que camadas?
+    - pode dizer as camadas do api-led?
+    - me fala quais são as camadas do api-led
+    - camada do api-led, quais são?
+    - qnts camadas tem no api-led?
+    - me conta as camadas api-led
+    - quais camada tem em api-led?
+    - pode me explicar cada camada do api-led com exemplos?
+    - me explica cada camada do api-led com exemplo?
+    - cada camada do api-led com exemplo, pode?
+    - você pode me mostrar com exemplos cada camada do api-led?
+    - exemplo das camadas do api-led, me explica
+    - pode detalhar as camadas do api-led com exemplos?
+    - api-led com exemplos das camadas, pode explicar?
+    - quero entender as camadas do api-led com exemplo
+    - exemplos para cada camada do api-led, pode me dizer?
+    - me da exemplo das camadas do api-led
+    - explica o api-led camada por camada com exemplo
+    - explica cada camada com exemplo no api-led
+    - camada do api-led com exemplo, pode falar?
+    - o que faz cada camada do api-led com exemplo?
+    - exemplo prático de cada camada do api-led, tem?
+    - como a mulesoft organiza as apis com api-led?
+    - como mulesoft organiza as api usando api-led?
+    - mulesoft usa api-led como pra organizar api?
+    - como as apis são organizadas pela mulesoft com api-led?
+    - pode explicar como a mulesoft usa o api-led pra organizar as apis?
+    - mulesoft organiza as api como com o api-led?
+    - api-led organiza as apis na mulesoft como?
+    - de que forma a mulesoft estrutura as apis com api-led?
+    - como fica a organização das apis na mulesoft com api-led?
+    - me mostra como a mulesoft organiza as api com api-led
+    - mulesoft e api-led, como funciona a organização das apis?
+    - organização de api com api-led na mulesoft, como é?
+    - quais são as funções da system, process e experience apis?
+    - qual a função de cada camada: system, process e experience?
+    - pra que serve a camada system, process e experience?
+    - função das apis system, process e experience é o que?
+    - pode dizer a função das camadas do api-led?
+    - o que cada api faz no modelo api-led?
+    - me explica a função da camada system, process e experience
+    - quais funções tem cada camada do api-led?
+    - o que fazem as apis do tipo system, process e experience?
+    - mulesoft: o que faz cada api system/process/experience?
+    - função de cada tipo de api no api-led?
+    - system api, process api e experience api servem pra que?
+    - serve pra quê cada uma: system, process e experience?
+    - qual o papel da experience, process e system api?
+    - pode dar exemplos das camadas do API-led?
+    - tem como mostrar exemplos das camadas do api-led?
+    - me mostre exemplos de cada camada do api-led
+    - exemplo da system, process e experience?
+    - api-led tem exemplos das camadas?
+    - exemplos reais de system, process e experience apis?
+    - mostra um exemplo de camada experience
+    - você pode me explicar com exemplo o api-led?
+    - pode me dar exemplo das apis system, process e experience?
+    - tem exemplo da estrutura do api-led?
+    - api-led com exemplos práticos das camadas
+    - exemplo de uso da camada system api?
+    - exemplos de como funciona cada camada no api-led?
+    - pode da exemplo prático de cada camada?
+    - me da um exemplo de system/process/experience
+    - da um exemplo pra cada camada do api-led
+    - api-led com exemplo de aplicação?
+    - consegue me dar exemplos pra system, process e experience?
+    - quero ver exemplos reais do api-led
+    - mostra ai um exemplo de cada camada
+    - como as tres camadas do api-led se conectam?
+    - de que forma as camadas do api-led se ligam?
+    - como se da a conexão entre system, process e experience?
+    - api-led conecta como as camadas?
+    - me explica a ligação entre system, process e experience
+    - como funciona a integração entre as camadas do api-led?
+    - as três camadas do api-led se comunicam como?
+    - como system, process e experience trocam dados?
+    - qual a relação entre as camadas do api-led?
+    - como system api manda info pra process e depois pra experience?
+    - me mostra como as camadas se falam no api-led
+    - o que liga uma camada à outra no modelo api-led?
+    - como elas se integram no modelo api-led?
+    - conexão entre system, process e experience?
+    - como se faz a ponte entre as camadas api-led?
+    - como funciona o fluxo entre as três camadas do api-led?
+    - elas se conectam diretamente? system, process, experience?
+    - existe dependência entre as camadas api-led?
+    
+    # English
+    - what is apiled
+    - what is api led?
+    - wht is api-led
+    - wat is apiled?
+    - wats api-led
+    - api-led what is
+    - what api-led means
+    - whats api led
+    - api led mean what
+    - what means api-led
+    - what is the apiled
+    - what does api led mean
+    - whats that api led
+    - what is apiled tech
+    - what is this api-led?
+    - what is api-lead (erro comum de spelling)
+    - whats api led connectivity
+    - what means apiled?
+    - what do u mean api-led
+    - tell me what api led
+    - whats apiledd
+    - whts api-lead
+    - what are the layers of api-led
+    - what are api led layers
+    - api-led has how many layers
+    - what layers api-led has
+    - what r the api-led layers?
+    - how many layers in apiled
+    - tell me apiled layers
+    - whats the layers of apiled
+    - apiled layers how many
+    - apiled layers?
+    - how many layers api led
+    - api-led structure layers
+    - what are layers of apiledd
+    - api-led got how many layers
+    - api led layer details
+    - what is the structure of api-led
+    - explain api-led layers
+    - api-led 3 layers what
+    - how is api-led organized
+    - give me layers of apiled
+    - can u explain 3 layers of api-led?
+    - pls explain the three layers of apiled
+    - what are the 3 layers in api led?
+    - explain api-leds 3 layers
+    - api led have 3 layer right?
+    - can you tell the 3 api-led layers?
+    - what the three layer of apiled are?
+    - explain me three apiled layers
+    - api led 3 layers what are
+    - what’s in the 3 layers api-led
+    - give a explanaition of apiled 3 layers
+    - do apiled have 3 parts?
+    - apiled three layer explain pls
+    - tell the 3 layers of api-led
+    - explain api-led three layerz
+    - what api led 3 layers means?
+    - what are the levels of api led arch?
+    - tell me api-led architecture levels
+    - how many level in apiled?
+    - apiled arch has which levels?
+    - levels of the api-led arch?
+    - can u tell the api led levels?
+    - explain levels of apiled arch
+    - apiled has levels right?
+    - architecture of api-led has how many levels?
+    - apiled architechture levels pls?
+    - what apiled level mean?
+    - api-led levels explain?
+    - what’s the 3 levels in api led?
+    - api-led architecture got levels?
+    - give me api led level names
+    - what levels api-led have?
+    - what does each layer do in api-led?
+    - each api led layer do what?
+    - what api-led layers does?
+    - purpose of each layer in apiled?
+    - explain apiled layers purpose
+    - what do layers do in apiled arch?
+    - what every layer in apiled does?
+    - apiled layers: what they do?
+    - what does apiled layer mean?
+    - can u tell what each apiled layer does?
+    - api-led: function of every layer?
+    - what is function of api-led layers?
+    - apiled what is for each layer?
+    - why api-led has 3 layers? what do?
+    - use of each apiled layer?
+    - each layer api-led usage?
+    - can you detail the layers of api-led?
+    - pls explain apiled layers in detail
+    - explain layers in api-led approach?
+    - api-led approach layers, what are they?
+    - whats in each apiled layer?
+    - apiled detailed layers?
+    - detail what apiled layers do
+    - show all apiled layers step by step
+    - how api-led layers work?
+    - break down api-led layers
+    - apiled arch: layers explained
+    - explain api-led 3 layers with detail
+    - how are the layers of api-led made?
+    - api-led layer structure detailed
+    - tell me how each api-led layer works
+    - what's inside each api-led layer?
+    - how api-led splits responsabilities between layers?
+    - how does apiled seperate layers roles?
+    - what's the responsability of each layer in api-led?
+    - api-led layer division, how it works?
+    - what layer does what in api-led?
+    - explain roles of each layer in api-led arch
+    - how api-led separates what each layer do?
+    - how is responsibility assigned in api-led?
+    - each api-led layer has its own task?
+    - what layers do in api-led?
+    - api-led divide logic how?
+    - explain layers separation in api-led
+    - what function each layer has in api-led?
+    - apiled divided by functions?
+    - apiled separate layers by roles?
+    - how are the apis organized in api-led?
+    - apis in api-led are put in what layers?
+    - where does each api go in api-led?
+    - api-led organize apis by layer how?
+    - how does api-led model split the apis?
+    - what layer each api goes in api-led?
+    - api-led layer structure for organizing apis?
+    - how api-led structure organize the apis?
+    - where do apis belong in api-led architecture?
+    - api-led split apis into what?
+    - is there a rule for api organization in api-led?
+    - how api-led handle organization of its apis?
+    - in api-led, how are apis separated?
+    - how do the apis get layered in api-led?
+    - explain me the role of each layer in api-led
+    - what is the role of each layer in api-led?
+    - what does each api-led layer do?
+    - tell me what every layer does in api-led
+    - what every layer means in api-led?
+    - api-led layers function, can you explain?
+    - whats each layer for in api-led?
+    - api-led roles per layer?
+    - can you explain api-led by its layers?
+    - what the function of system/process/experience layer?
+    - describe the job of each api-led layer
+    - what is system api do? and process? and experience?
+    - api-led structure: what each layer do?
+    - how each layer work in api-led?
+    - tell me about the api-led layers
+    - can you tell me about the layers of api-led?
+    - what are the layers of api-led?
+    - talk about the layers in api-led
+    - what layers does api-led have?
+    - api-led layers, what are they?
+    - tell me what are the api-led layers
+    - api led have layers? tell me
+    - can u talk about layers of api-led
+    - api-led has how many layers?
+    - api-led divided in layers? explain
+    - i want to know about api-led layers
+    - tell me api-led layers
+    - what the layers means in api-led?
+    - give me a description of layers in api-led
+    - what's the layers of api-led structure?
+    - what are the layers of api-led?
+    - api-led layers, what are they?
+    - how many layers in api-led?
+    - can you tell the layers in api-led?
+    - tell me the api-led layers
+    - how api-led is layered?
+    - api led has how many layers?
+    - what layers does api-led have?
+    - can u tell me what are layers of api led?
+    - layers in api-led? what are them?
+    - what is api-led layers
+    - layers from api-led? explain me
+    - pls tell me the layers of api-led
+    - can you explain each layer of api-led with examples?
+    - api-led layers with examples please?
+    - explain every layer in api-led with example
+    - give me examples of each api-led layer
+    - each layer of the api-led explained with example?
+    - examples for api-led layers?
+    - can u show api-led layers using examples?
+    - show api-led architecture with examples per layer
+    - example for every api-led layer pls
+    - explain api-led with layer examples
+    - api led example for every layer
+    - pls explain api led layers using examples
+    - how each layer works in api-led with example?
+    - how does mulesoft organize apis using api-led?
+    - how mulesoft organize apis with api led?
+    - mulesoft organize apis by api led how?
+    - can you explain how apis are organized in mulesoft using api-led?
+    - how is api-led used in mulesoft to structure apis?
+    - api-led organizing apis in mulesoft, how?
+    - what is the way mulesoft uses api-led to manage apis?
+    - mulesoft and api-led how do they organize the apis?
+    - how mulesoft use api-led for api organizing?
+    - organizing apis with api-led in mulesoft?
+    - what are the roles of system, process and experience apis?
+    - what does each api do in api-led?
+    - what system, process and experience apis are for?
+    - can you explain what each layer does? system, process and experience
+    - what is the purpose of system, process, experience api?
+    - each api layer function in api-led?
+    - what the api-led layers do? system/process/experience
+    - api-led: function of system, process, experience?
+    - what does a system api do? and process? and experience?
+    - purpose of each api-led layer?
+    - why system, process and experience apis exists?
+    - mulesoft layers: what each api does?
+    - tell me what system, process, and experience layers are for
+    - can you give examples of api-led layers?
+    - show me one example of system, process and experience
+    - api-led layers with example?
+    - give me api-led examples, please
+    - can u provide real example for system, process, experience?
+    - examples of api-led archtecture layers?
+    - api-led example for each layer?
+    - any example of system api?
+    - i want an example of api-led
+    - api-led layers example please
+    - give example of experience layer
+    - tell me example for process api
+    - example of api-led with system and process
+    - show example how api-led works
+    - api-led layer sample?
+    - one example per api-led layer?
+    - what’s an example of system/process/experience layer?
+    - how do the three layers of api-led connect?
+    - what connects system, process and experience in api-led?
+    - api-led layers connection?
+    - how do system and process and experience talk to each other?
+    - how does api-led flow between layers?
+    - what’s the relation between the layers in api-led?
+    - how are the api-led layers related?
+    - do the layers of api-led integrate with each other?
+    - how the api-led layers share data?
+    - how does data go from system to process to experience?
+    - explain how the api-led layers are connected
+    - is there a connection flow between api-led layers?
+    - api-led how layers link?
+    - how each api-led layer communicate?
