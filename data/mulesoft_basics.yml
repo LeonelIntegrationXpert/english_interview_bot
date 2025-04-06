@@ -1,0 +1,139 @@
+version: "3.1"
+
+nlu:
+- intent: explain_mulesoft
+  examples: |
+    - O que é MuleSoft?
+    - Pode me explicar o que é MuleSoft?
+    - Você sabe o que é MuleSoft?
+    - Me fale sobre a MuleSoft
+    - Gostaria de entender o que é a MuleSoft
+    - Para que serve a MuleSoft?
+    - Qual é o propósito da MuleSoft?
+    - MuleSoft é o quê?
+    - Pode me dizer o que significa MuleSoft?
+    - Estou curioso, o que é MuleSoft?
+    - Você pode me dizer o que é MuleSoft?
+    - Como você define MuleSoft?
+    - Pode me explicar o que é MuleSoft?
+    - O que é MuleSoft? Pra que serve?
+    - Poderia me explicar o que significa MuleSoft?
+    - Gostaria de saber mais sobre a MuleSoft
+    - O que exatamente é MuleSoft?
+    - MuleSoft é uma empresa? O que ela faz?
+    - Nunca ouvi falar da MuleSoft, o que é isso?
+    - Pode me dar uma visão geral do que é MuleSoft?
+    - Me dá uma explicação sobre a MuleSoft
+    - O que quer dizer MuleSoft?
+    - Você conhece a MuleSoft? O que é?
+    - MuleSoft se trata de quê?
+    - Me conta mais sobre essa tal de MuleSoft
+    - Qual é a definição de MuleSoft?
+    - Como funciona a MuleSoft?
+    - A MuleSoft serve pra quê?
+    - Me ajuda a entender o que é MuleSoft
+    - Já ouviu falar em MuleSoft? O que é isso?
+
+- intent: explain_api_led
+  examples: |
+    - Quais são as camadas do API-led?
+    - Pode me explicar as três camadas do API-led?
+    - Quais os níveis da arquitetura API-led?
+    - Como funciona cada camada do API-led?
+    - O que faz cada camada no API-led?
+    - Pode detalhar as camadas da abordagem API-led?
+    - Como o API-led separa as responsabilidades por camadas?
+    - Como as APIs são organizadas nas camadas do API-led?
+    - Me explica o papel de cada camada do API-led
+    - Me fale sobre as camadas do API-led
+    - Quais são as camadas do API-led?
+    - Pode me explicar cada camada do API-led com exemplos?
+    - Como a MuleSoft organiza as APIs usando API-led?
+    - Quais são as funções da System, Process e Experience APIs?
+    - Pode dar exemplos das camadas do API-led?
+    - Como as três camadas do API-led se conectam?
+
+- intent: experience_api_layer
+  examples: |
+    - o que é a camada de experience
+    - o que essa tal camada de experience
+    - o que é a camada de experience
+    - o que essa tal camada de experience
+    - pode me explicar a camada experience
+    - você sabe o que faz a camada de experience?
+    - qual o papel da camada de experience?
+    - pra que serve a camada de experience?
+    - essa camada de experience faz o que?
+    - como funciona a camada experience?
+    - camada experience é usada pra quê?
+    - me explica melhor essa camada de experience
+    - a camada experience entrega o quê?
+    - qual é a função da camada experience?
+    - O que é a camada Experience no API-led?
+    - Para que serve a Experience API?
+    - Como funciona a camada Experience na arquitetura API-led?
+    - Pode me explicar o papel da Experience API?
+    - A camada Experience entrega os dados para quem?
+    - Quem consome as Experience APIs?
+    - A camada Experience é voltada para o usuário final?
+    - Quais canais costumam usar as Experience APIs?
+    - Pode me dar um exemplo de Experience API?
+    - A camada Experience transforma os dados para consumo?
+    - Qual a principal função das APIs da camada Experience?
+    - Quando devo usar uma Experience API?
+    - Como a camada Experience adapta os dados?
+    - A camada Experience serve para personalizar o consumo?
+
+- intent: process_api_layer
+  examples: |
+    - o que é a camada de process
+    - pode me explicar a camada process
+    - o que essa tal camada de process faz?
+    - qual é a função da camada de process?
+    - a camada process é usada pra quê?
+    - como funciona essa camada process?
+    - camada process serve pra orquestrar?
+    - process layer faz o que exatamente?
+    - pra que serve a camada de process?
+    - você sabe pra que existe a camada process?
+    - O que é a camada Process no API-led?
+    - Qual é a função das Process APIs?
+    - Para que serve a camada Process?
+    - As Process APIs fazem transformação de dados?
+    - Pode me explicar como funciona a camada Process?
+    - Como as Process APIs se conectam com as outras camadas?
+    - Quando devo usar uma Process API?
+    - A camada Process aplica regras de negócio?
+    - Pode dar um exemplo prático de Process API?
+    - As Process APIs recebem dados de onde?
+    - Quem consome as Process APIs?
+    - As Process APIs agregam dados de múltiplas fontes?
+    - A camada Process é intermediária?
+
+- intent: system_api_layer
+  examples: |
+    - O que é a camada System no API-led?
+    - Para que serve uma System API?
+    - Como funciona a camada System?
+    - As System APIs acessam diretamente os sistemas legados?
+    - Pode me explicar o papel das System APIs?
+    - A camada System conecta com bancos de dados?
+    - Pode dar exemplos de System APIs?
+    - Quando devo criar uma System API?
+    - As System APIs encapsulam sistemas externos?
+    - A camada System trata da segurança no acesso aos sistemas?
+    - As System APIs isolam os detalhes técnicos dos sistemas?
+    - Quais tecnologias se integram via System API?
+    - A camada System faz parte do backend?
+    - o que é a camada de system
+    - pra que serve essa camada de system?
+    - pode me explicar a camada system?
+    - camada system é o quê?
+    - qual é o papel da camada system?
+    - a camada system acessa sistemas legados?
+    - a camada system conecta com banco de dados?
+    - essa tal de system layer serve pra quê?
+    - qual a função da camada de system?
+    - system layer tem relação com backend?
+    - como funciona a camada system?
+    - o que a camada system expõe?

@@ -1,0 +1,26 @@
+# Versão principal do Rasa
+rasa==3.6.10
+
+# Versões compatíveis e confiáveis com Rasa 3.6
+tensorflow<2.12,>=2.11
+scikit-learn<1.2.0
+sqlalchemy<2.0
+python-dateutil<3.0.0
+coloredlogs~=15.0
+matplotlib<4.0
+aiohttp<4.0,>=3.8
+uvicorn==0.23.2
+fastapi==0.103.0
+
+# Suporte adicional (opcional)
+python-dotenv==1.0.0
+pydot==1.4.2
+networkx==2.8
+joblib==1.2.0
+
+# Testes e depuração (opcional)
+pytest==7.2.0
+pytest-asyncio==0.20.3
+
+# CLI amigável (opcional)
+rich==13.3.3
