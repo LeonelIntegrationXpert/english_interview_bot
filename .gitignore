@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Rasa model files
+models/
+*.tar.gz
+
+# Rasa cache and logs
+*.db
+.rasa/
+.rasa_cache/
+.rasa.lock
+rasa.db
+events.db
+tracker.db
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter and IPython files
+.ipynb_checkpoints
+
+# VSCode / IDE configs
+.vscode/
+.idea/
+
+# Mac OS and system files
+.DS_Store
+Thumbs.db
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+*.log.*
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Misc
+*.bak
+*.swp
