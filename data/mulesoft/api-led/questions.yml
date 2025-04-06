@@ -4,7 +4,7 @@ nlu:
 - intent: explain_api_led
   examples: |
     
-    # Português
+    # 🇧🇷 Português
     - o que e apiled
     - o que e api led
     - o q é api-led
@@ -274,7 +274,7 @@ nlu:
     - elas se conectam diretamente? system, process, experience?
     - existe dependência entre as camadas api-led?
     
-    # English
+    # 🇺🇸 English
     - what is apiled
     - what is api led?
     - wht is api-led

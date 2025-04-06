@@ -2,12 +2,32 @@ version: "3.1"
 
 stories:
 
-- story: Explicação sobre as camadas do API-led
-  steps:
-    - intent: explain_api_led
-    - action: utter_explain_api_led_layers_connection
+  # História para iniciar a interação com saudação
+  - story: Saudação inicial
+    steps:
+      - intent: greet  # Usuário envia uma saudação
+      - action: utter_greet  # Bot responde com uma saudação
 
-- story: Saudação inicial
-  steps:
-    - intent: greet
-    - action: utter_greet
+  # História para explicar o que é a MuleSoft
+  - story: Explicação sobre a MuleSoft
+    steps:
+      - intent: explain_mulesoft  # Usuário quer saber mais sobre MuleSoft
+      - action: utter_explain_mulesoft  # Bot responde com a explicação sobre MuleSoft
+
+  - story: Saudação e explicação sobre DataWeave
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: explain_dataweave
+      - action: utter_explain_dataweave
+
+  - story: Explicação sobre a diferença entre map e mapObject
+    steps:
+      - intent: explain_map_vs_mapobject
+      - action: utter_explain_map_vs_mapobject
+
+  # História para explicar as camadas do API-led
+  - story: Explicação sobre as camadas do API-led
+    steps:
+      - intent: explain_api_led  # Usuário quer saber sobre as camadas do API-led
+      - action: utter_explain_api_led_layers_connection  # Bot explica as camadas do API-led

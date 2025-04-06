@@ -1,0 +1,21 @@
+responses:
+  utter_explain_mulesoft:
+    - text: |
+        🧩 *Explicando MuleSoft*
+        🟩🇧🇷 **Português: O que é a MuleSoft?**
+        A **MuleSoft** é uma empresa especializada em integração de sistemas e APIs. Ela oferece a **Anypoint Platform**, uma plataforma completa para desenvolver, gerenciar e monitorar integrações entre sistemas diferentes — sejam eles legados, on-premise ou na nuvem.
+        Com a MuleSoft, é possível conectar aplicativos, bancos de dados, ERPs, CRMs, serviços web e muito mais, de forma **rápida, segura e escalável**. A plataforma segue a abordagem de **API-led connectivity**, que organiza a arquitetura em três camadas reutilizáveis: *System APIs*, *Process APIs* e *Experience APIs* — promovendo desacoplamento e reusabilidade.
+        A principal proposta da MuleSoft é **acelerar a transformação digital**, permitindo que as empresas entreguem novas funcionalidades ao mercado com mais agilidade, reduzam custos de manutenção e evitem integrações ponto a ponto complexas.
+        🔧 *Exemplos de uso:*
+        - Conectar o Salesforce a um sistema de faturamento
+        - Integrar um app mobile com o ERP da empresa
+        - Expor dados de um banco legado como API REST
+
+        🗽🇺🇸 **English: What is MuleSoft?**
+        **MuleSoft** is a company that provides a powerful integration platform called **Anypoint Platform**, designed to connect applications, data, and devices across cloud and on-premises environments.
+        It enables developers to build APIs and integrations in a **modular, reusable, and scalable** way using the **API-led connectivity** approach. This model separates integrations into three logical layers: *System APIs*, *Process APIs*, and *Experience APIs* — allowing for better maintenance, governance, and speed of delivery.
+        MuleSoft is widely used to support **digital transformation** initiatives by helping organizations create efficient, flexible integrations between systems, thus eliminating point-to-point connectivity and reducing technical debt.
+        🔧 *Use cases:*
+        - Sync data between Salesforce and a billing system
+        - Integrate a mobile app with an enterprise ERP
+        - Expose data from a legacy system as a REST API

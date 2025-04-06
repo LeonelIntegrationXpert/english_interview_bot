@@ -1,0 +1,79 @@
+responses:
+  utter_explain_map_vs_mapobject:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🔍 *Map vs MapObject no DataWeave*  
+                ✅ `map` é usado para **listas** (arrays).  
+                ✅ `mapObject` é usado para **objetos** com chave e valor.  
+                ✨ Exemplo rápido com `map`:  
+                ```dw
+                [1, 2] map (x) -> x + 1  → [2, 3]
+                ```  
+                ✨ Exemplo com `mapObject`:  
+                ```dw
+                {a: 1} mapObject (v, k) -> v * 2  → {a: 2}
+                ```  
+                🧠 Resumo: Use `map` para listas, `mapObject` para objetos.
+            - vr_en: |
+                🔍 *Map vs MapObject in DataWeave*  
+                ✅ `map` is used for **lists** (arrays).  
+                ✅ `mapObject` is used for **objects** with key-value pairs.  
+                ✨ Quick example with `map`:  
+                ```dw
+                [1, 2] map (x) -> x + 1  → [2, 3]
+                ```  
+                ✨ Example with `mapObject`:  
+                ```dw
+                {a: 1} mapObject (v, k) -> v * 2  → {a: 2}
+                ```  
+                🧠 Summary: Use `map` for lists, `mapObject` for objects.
+
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                📘 *Diferença prática entre `map` e `mapObject`*  
+                🔹 `map` → transforma **itens de uma lista**  
+                🔹 `mapObject` → transforma **pares de chave:valor**  
+                🛠️ Dica de entrevista:  
+                - Antes de usar, verifique se o dado é uma lista ou um objeto.  
+                ✅ Saber isso mostra domínio da linguagem!
+            - vr_en: |
+                📘 *Practical difference between `map` and `mapObject`*  
+                🔹 `map` → transforms **items in a list**  
+                🔹 `mapObject` → transforms **key:value pairs**  
+                🛠️ Interview tip:  
+                - Always check if the data is a list or an object before using.  
+                ✅ Knowing this shows you really know the language!
+
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧬 *Map e MapObject — quando usar cada um?*  
+                - Use `map` com listas (`[1,2,3]`)  
+                - Use `mapObject` com objetos (`{a:1, b:2}`)  
+                🎯 Entrevista? Responda:  
+                "Map para arrays, MapObject para objetos. A escolha depende do tipo de dado."
+            - vr_en: |
+                🧬 *Map and MapObject — when to use each one?*  
+                - Use `map` with lists (`[1,2,3]`)  
+                - Use `mapObject` with objects (`{a:1, b:2}`)  
+                🎯 In an interview, say:  
+                "Map is for arrays, MapObject is for objects. It depends on the data type."
+
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                💡 *Resumo rápido: map vs mapObject*  
+                - `map`: percorre uma lista, item por item  
+                - `mapObject`: percorre cada par chave/valor  
+                🧠 Dica: em dúvida? Use `is Object` ou `is Array` para decidir.
+            - vr_en: |
+                💡 *Quick summary: map vs mapObject*  
+                - `map`: loops through a list, item by item  
+                - `mapObject`: loops through key/value pairs  
+                🧠 Tip: not sure? Use `is Object` or `is Array` to decide.

@@ -2,17 +2,36 @@ version: "3.1"
 
 rules:
 
-  - rule: Responder como as camadas do API-led se conectam
-    steps:
-      - intent: explain_api_led
-      - action: utter_explain_api_led_layers_connection
-
+  # Regra para iniciar a interação com saudação
   - rule: Saudação inicial
     steps:
-      - intent: greet
-      - action: utter_greet
+      - intent: greet  # Detecta a saudação do usuário
+      - action: utter_greet  # Responde com uma mensagem de saudação
 
+  # Regra para explicar o que é MuleSoft
+  - rule: Explicação sobre a MuleSoft
+    steps:
+      - intent: explain_mulesoft  # Detecta a intenção de perguntar sobre MuleSoft
+      - action: utter_explain_mulesoft  # Responde com a explicação sobre MuleSoft
+
+  # Regra para explicar as camadas do API-led
+  - rule: Explicação sobre as camadas do API-led
+    steps:
+      - intent: explain_api_led  # Detecta a intenção de perguntar sobre as camadas do API-led
+      - action: utter_explain_api_led_layers_connection  # Responde com a explicação das camadas do API-led
+
+  - rule: Explicação sobre DataWeave
+    steps:
+      - intent: explain_dataweave
+      - action: utter_explain_dataweave
+
+  # Regra para acionar fallback quando a intenção não for reconhecida
   - rule: Acionar fallback quando não houver correspondência
     steps:
-      - intent: random_input
-      - action: utter_random_input
+      - intent: random_input  # Detecta uma entrada irrelevante ou desconhecida
+      - action: utter_random_input  # Responde com uma mensagem padrão de fallback, indicando que a entrada não foi compreendida
+
+  - rule: Responder a diferença entre map e mapObject
+    steps:
+      - intent: explain_map_vs_mapobject
+      - action: utter_explain_map_vs_mapobject

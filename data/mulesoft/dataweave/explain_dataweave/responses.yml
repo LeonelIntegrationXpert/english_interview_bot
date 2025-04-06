@@ -1,0 +1,97 @@
+responses:
+  utter_explain_dataweave:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧬 *O que é o DataWeave?*  
+                O **DataWeave** é a linguagem principal de transformação de dados usada no MuleSoft.  
+                Com ela, é possível converter dados entre diversos formatos como **JSON**, **XML**, **CSV** e **Java**, de forma estruturada e eficiente.  
+                📚 **Vantagens principais:**  
+                - Transformações rápidas e reutilizáveis  
+                - Suporte nativo a múltiplos tipos de dados  
+                - Permite lógica condicional e funções personalizadas  
+                ✅ Útil para transformar payloads em APIs REST, trabalhar com fluxos ETL e organizar dados para consumo.
+            - vr_en: |
+                🧬 *What is DataWeave?*  
+                **DataWeave** is the main data transformation language in MuleSoft.  
+                It allows converting between formats like **JSON**, **XML**, **CSV**, and **Java** in a structured and efficient way.  
+                📚 **Main advantages:**  
+                - Fast and reusable transformations  
+                - Native support for various data types  
+                - Enables conditional logic and custom functions  
+                ✅ Useful for transforming payloads in REST APIs, ETL flows, and preparing data for consumption.
+
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                💡 *Conhecendo o DataWeave*  
+                O **DataWeave** foi criado para facilitar a manipulação de dados no MuleSoft.  
+                Sua sintaxe declarativa permite transformar entradas complexas em saídas limpas e organizadas.  
+                🧰 **Ideal para:**  
+                - Integrações entre sistemas  
+                - Criação de APIs que exigem transformação de dados  
+                - Padronização de formatos de resposta  
+                📎 Exemplo simples:  
+                ```dw
+                %dw 2.0
+                output application/json
+                ---
+                { nome: payload.name }
+                ```
+            - vr_en: |
+                💡 *Getting to know DataWeave*  
+                **DataWeave** was built to simplify data manipulation in MuleSoft.  
+                Its declarative syntax transforms complex inputs into clean, organized outputs.  
+                🧰 **Perfect for:**  
+                - System integrations  
+                - APIs that require data transformation  
+                - Standardizing response formats  
+                📎 Simple example:  
+                ```dw
+                %dw 2.0
+                output application/json
+                ---
+                { nome: payload.name }
+                ```
+
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🔍 *Entendendo o papel do DataWeave*  
+                Dentro da arquitetura MuleSoft, o **DataWeave** é a peça-chave para transformar dados entre sistemas com diferentes padrões.  
+                Ele oferece clareza e produtividade para os desenvolvedores que lidam com integrações diárias.  
+                🛠️ **Destaques:**  
+                - Facilidade para filtrar campos  
+                - Conversão entre formatos (ex: XML → JSON)  
+                - Uso de funções e estruturas condicionais
+            - vr_en: |
+                🔍 *Understanding the role of DataWeave*  
+                In MuleSoft’s architecture, **DataWeave** is the key to transforming data between systems with different formats.  
+                It provides clarity and productivity for developers working with daily integrations.  
+                🛠️ **Highlights:**  
+                - Easy field filtering  
+                - Format conversion (e.g., XML → JSON)  
+                - Use of functions and conditional structures
+
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                📦 *DataWeave no mundo real*  
+                No dia a dia, usamos o **DataWeave** para transformar respostas de sistemas legados, aplicar regras de negócio e construir APIs robustas.  
+                Ele é tão essencial quanto o `payload` em qualquer fluxo Mule.  
+                🧪 **Casos de uso frequentes:**  
+                - Obter dados do banco e convertê-los em JSON para uma API  
+                - Normalizar estruturas de entrada para sistemas diferentes  
+                - Agrupar e resumir informações com lógica personalizada
+            - vr_en: |
+                📦 *DataWeave in the real world*  
+                In practice, **DataWeave** is used to transform responses from legacy systems, apply business rules, and build robust APIs.  
+                It’s as essential as the `payload` in any Mule flow.  
+                🧪 **Common use cases:**  
+                - Fetching database data and converting it to JSON for APIs  
+                - Normalizing input structures across systems  
+                - Grouping and summarizing information with custom logic

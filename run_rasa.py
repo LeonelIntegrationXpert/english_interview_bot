@@ -1,6 +1,7 @@
 import subprocess
 import os
 import glob
+import sys
 
 def delete_old_models():
     model_dir = "models"
@@ -16,19 +17,27 @@ def delete_old_models():
     else:
         print(f"📁 Pasta `{model_dir}` não encontrada. Nenhuma ação necessária.\n")
 
-def run_rasa_pipeline():
+def run_rasa_pipeline(test_file=None):
     try:
-        delete_old_models()
+        if test_file:
+            test_path = os.path.join("tests", test_file)
+            if not os.path.isfile(test_path):
+                print(f"❌ Arquivo de teste `{test_path}` não encontrado.")
+                return
+            print(f"🧪 Executando testes com o arquivo `{test_path}`...\n")
+            subprocess.run(["rasa", "test", "--stories", test_path], check=True)
+        else:
+            delete_old_models()
+            print("🔧 Treinando modelo com `rasa train`...\n")
+            subprocess.run(["rasa", "train"], check=True)
+            #subprocess.run(["rasa", "shell", "nlu"], check=True)
 
-        print("🔧 Treinando modelo com `rasa train`...\n")
-        subprocess.run(["rasa", "train"], check=True)
-
-        print("🚀 Iniciando o shell com `rasa shell`...\n")
-        subprocess.run(["rasa", "shell"], check=True)
-        #subprocess.run(["rasa", "shell", "nlu"], check=True)
+            print("🚀 Iniciando o shell com `rasa shell`...\n")
+            subprocess.run(["rasa", "shell"], check=True)
 
     except subprocess.CalledProcessError as e:
         print(f"❌ Erro ao executar comando: {e}")
 
 if __name__ == "__main__":
-    run_rasa_pipeline()
+    test_file = sys.argv[1] if len(sys.argv) > 1 else None
+    run_rasa_pipeline(test_file)

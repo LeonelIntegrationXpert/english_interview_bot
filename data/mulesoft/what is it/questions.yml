@@ -103,13 +103,51 @@ nlu:
     - Qual a definição de MuleSoft?
     - Qual é a sua definição sobre MuleSoft?
     - Como você vê MuleSoft?
-
     - Pode me explicar o que é MuleSoft?
+    - Você pode me explicar o que é MuleSoft?
+    - Pode me falar sobre o que é MuleSoft?
+    - Você sabe o que é MuleSoft? Pode explicar?
+    - Você pode me dizer o que é MuleSoft?
+    - Pode explicar o que é MuleSoft?
+    - O que é MuleSoft, pode me explicar?
     - O que é MuleSoft? Pra que serve?
+    - O que é MuleSoft e pra que serve?
+    - O que é a MuleSoft? Qual a sua função?
+    - Pra que serve a MuleSoft? O que ela faz?
+    - Você sabe o que é MuleSoft e pra que serve?
+    - O que exatamente é a MuleSoft e qual a sua utilidade?
     - Poderia me explicar o que significa MuleSoft?
+    - Você poderia me explicar o que significa MuleSoft?
+    - Me explica o que significa MuleSoft?
+    - Pode me dizer o que significa MuleSoft?
+    - O que significa MuleSoft, pode explicar?
+    - Qual o significado de MuleSoft? Você pode me explicar?
     - Gostaria de saber mais sobre a MuleSoft
+    - Eu gostaria de saber mais sobre a MuleSoft
+    - Quero saber mais sobre a MuleSoft
+    - Você pode me contar mais sobre a MuleSoft?
+    - Pode me falar mais sobre a MuleSoft?
+    - Queria aprender mais sobre a MuleSoft
     - O que exatamente é MuleSoft?
+    - O que é exatamente a MuleSoft?
+    - Me explica o que exatamente é MuleSoft?
+    - O que exatamente faz a MuleSoft?
+    - O que a MuleSoft é exatamente?
+    - Pode me dizer o que é exatamente a MuleSoft?
     - MuleSoft é uma empresa? O que ela faz?
+    - MuleSoft é uma empresa e o que ela faz?
+    - O que a empresa MuleSoft faz?
+    - MuleSoft é uma empresa? O que faz exatamente?
+    - A MuleSoft é uma empresa? O que ela oferece?
+    - MuleSoft é uma empresa, né? O que ela faz?
+    - O que exatamente a empresa MuleSoft faz?
+    - O que é a MuleSoft, já ouviu falar?
+    - Já ouviu falar da MuleSoft, o que é?
+    - O que a MuleSoft faz, você já ouviu falar?
+    - MuleSoft, o que é isso? Você já ouviu falar?
+    - Você já ouviu falar de MuleSoft, o que é?
+    - Já ouviu falar na MuleSoft? O que é?
+    - O que é a MuleSoft, sabe me dizer?
     - Nunca ouvi falar da MuleSoft, o que é isso?
     - Pode me dar uma visão geral do que é MuleSoft?
     - Me dá uma explicação sobre a MuleSoft
@@ -122,8 +160,273 @@ nlu:
     - A MuleSoft serve pra quê?
     - Me ajuda a entender o que é MuleSoft
     - Já ouviu falar em MuleSoft? O que é isso?
+    - MuleSoft, já ouviu falar? O que é isso?
+    - Você conhece a MuleSoft? O que é isso?
+    - Já ouviu falar da MuleSoft? O que é isso mesmo?
+    - MuleSoft, você sabe o que é isso?
+    - Você sabe o que é MuleSoft? Já ouviu falar?
+    - Nunca ouvi falar da MuleSoft, o que é isso?
+    - Nunca ouvi sobre MuleSoft, o que é isso mesmo?
+    - O que é MuleSoft? Nunca ouvi falar disso.
+    - MuleSoft, nunca ouvi falar, o que é isso?
+    - Nunca ouvi falar sobre MuleSoft, o que seria isso?
+    - MuleSoft, nunca ouvi falar. O que é isso?
+    - Não conheço MuleSoft, o que é isso?
+    - Nunca soube do que se trata a MuleSoft, o que é isso?
+    - MuleSoft? Nunca escutei falar, o que é isso?
+    - O que é MuleSoft? Não sei o que é isso.
+    - Pode me dar uma visão geral do que é MuleSoft?
+    - Você pode me dar uma visão geral sobre o que é MuleSoft?
+    - Me dá uma visão geral do que é MuleSoft, por favor?
+    - Você pode explicar o que é MuleSoft de uma forma geral?
+    - MuleSoft, você pode me dar uma visão geral sobre isso?
+    - Poderia me dar uma explicação geral sobre a MuleSoft?
+    - Me fala sobre a MuleSoft de uma forma geral?
+    - Me dá uma visão geral sobre a MuleSoft, o que é isso?
+    - Você poderia me dar um resumo do que é a MuleSoft?
+    - O que é a MuleSoft? Pode me dar uma visão geral?
+    - MuleSoft, você sabe o que é isso?
+    - Você sabe o que é isso, MuleSoft?
+    - MuleSoft, você conhece o que é isso?
+    - Você sabe o que é MuleSoft? O que é isso?
+    - MuleSoft, você sabe o que quer dizer?
+    - MuleSoft, você entende o que é isso?
+    - O que é MuleSoft, você sabe o que é isso?
+    - MuleSoft, você sabe me dizer o que é isso?
+    - MuleSoft, o que é isso, você sabe?
+    - Você sabe o que é isso? MuleSoft?
+    - Já ouviu falar da MuleSoft? O que é isso mesmo?
+    - MuleSoft, já ouviu falar? O que é isso mesmo?
+    - O que é isso mesmo, MuleSoft? Já ouviu falar?
+    - MuleSoft, o que é isso mesmo? Já ouviu falar?
+    - Você já ouviu falar da MuleSoft? O que é isso mesmo?
+    - O que é isso mesmo? MuleSoft, já ouviu falar?
+    - O que exatamente é isso? Já ouviu falar da MuleSoft?
+    - MuleSoft, você já ouviu falar? O que é isso mesmo?
+    - Já ouviu falar da MuleSoft? O que isso mesmo é?
+    - MuleSoft, já ouviu falar? O que é isso de fato?
+    - O que quer dizer MuleSoft?
+    - O que significa MuleSoft?
+    - O que quer dize MuleSoft?
+    - O que quer dizer essa tal de MuleSoft?
+    - O que quer diser MuleSoft?
+    - O que significa essa MuleSoft?
+    - O que é MuleSoft, o que quer dizer?
+    - O que MuleSoft quer dizer?
+    - O que significa esse nome MuleSoft?
+    - O que quer dizer esse nome MuleSoft?
+    - O que quer dizer MuleSoft?
+    - O que significa MuleSoft?
+    - O que quer dize MuleSoft?
+    - O que quer dizer essa tal de MuleSoft?
+    - O que quer diser MuleSoft?
+    - O que significa essa MuleSoft?
+    - O que é MuleSoft, o que quer dizer?
+    - O que MuleSoft quer dizer?
+    - O que significa esse nome MuleSoft?
+    - O que quer dizer esse nome MuleSoft?
+    - MuleSoft se trata de quê?
+    - MuleSoft se trata de qual assunto?
+    - O que MuleSoft trata?
+    - MuleSoft, de que se trata?
+    - O que se trata MuleSoft?
+    - MuleSoft trata do quê?
+    - MuleSoft, o que se trata?
+    - O que é que MuleSoft trata?
+    - MuleSoft, trata-se de o quê?
+    - MuleSoft trata de que?
+    - Me conta mais sobre essa tal de MuleSoft
+    - Me fala mais sobre essa tal MuleSoft
+    - Me diz mais sobre essa tal MuleSoft
+    - Me explica mais sobre essa tal MuleSoft
+    - Me conta sobre essa tal de MuleSoft
+    - O que você pode me contar sobre a tal MuleSoft?
+    - Fala mais dessa tal de MuleSoft
+    - Conta mais pra mim sobre a tal MuleSoft
+    - Me fala mais sobre esse tal MuleSoft
+    - O que é essa tal MuleSoft?
+    - Qual é a definição de MuleSoft?
+    - O que é a definição de MuleSoft?
+    - Como definir a MuleSoft?
+    - Como você definiria MuleSoft?
+    - MuleSoft, qual a definição?
+    - O que significa MuleSoft?
+    - Qual a definição que você dá para MuleSoft?
+    - Defina MuleSoft pra mim
+    - MuleSoft, qual é a definição?
+    - Me explica a definição de MuleSoft
+    - Como funciona a MuleSoft?
+    - Como é que funciona a MuleSoft?
+    - Como que a MuleSoft funciona?
 
-     # 🇺🇸 English
+    # 🇺🇸 English
+    - What is the definition of MuleSoft?
+    - How would you define MuleSoft?
+    - What does MuleSoft mean?
+    - Can you define MuleSoft for me?
+    - How do you define MuleSoft?
+    - What’s the definition of MuleSoft?
+    - Can you tell me the definition of MuleSoft?
+    - How would you explain MuleSoft?
+    - MuleSoft, how would you define that?
+    - Can you give me the definition of MuleSoft?     
+    - Tell me more about this MuleSoft thing
+    - Can you tell me more about MuleSoft?
+    - What's MuleSoft all about?
+    - Tell me more about this MuleSoft thing
+    - Can you explain more about MuleSoft?
+    - What can you tell me about MuleSoft?
+    - What's this MuleSoft thing about?
+    - Tell me about MuleSoft
+    - Can you explain MuleSoft more?
+    - What is MuleSoft, can you tell me more?     
+    - What is MuleSoft about?
+    - MuleSoft, what is it about?
+    - What does MuleSoft deal with?
+    - What does MuleSoft handle?
+    - What is MuleSoft dealing with?
+    - MuleSoft is about what?
+    - What does MuleSoft focus on?
+    - What is MuleSoft concerned with?
+    - MuleSoft, what's it all about?
+    - What is MuleSoft related to?     
+    - What does MuleSoft mean?
+    - What does MuleSoft stand for?
+    - What is MuleSoft mean?
+    - What do you mean by MuleSoft?
+    - What is the meaning of MuleSoft?
+    - What does this MuleSoft mean?
+    - What is MuleSoft about?
+    - Can you tell me what MuleSoft means?
+    - What is the definition of MuleSoft?
+    - Could you explain what MuleSoft means?     
+    - What does MuleSoft mean?
+    - What does MuleSoft stand for?
+    - What is MuleSoft mean?
+    - What do you mean by MuleSoft?
+    - What is the meaning of MuleSoft?
+    - What does this MuleSoft mean?
+    - What is MuleSoft about?
+    - Can you tell me what MuleSoft means?
+    - What is the definition of MuleSoft?
+    - Could you explain what MuleSoft means?     
+    - Can you give me an explanation about MuleSoft?
+    - Could you explain MuleSoft to me?
+    - Please explain MuleSoft to me
+    - Can you tell me about MuleSoft?
+    - Could you give me an explanation of MuleSoft?
+    - Tell me about MuleSoft
+    - Please give me an explanation of MuleSoft
+    - Could you tell me what MuleSoft is?
+    - Can you tell me more about MuleSoft?
+    - Please, tell me about MuleSoft     
+    - Have you heard of MuleSoft? What is that exactly?
+    - MuleSoft, have you heard of it? What is it really?
+    - What is this really? Have you heard of MuleSoft?
+    - Have you heard of MuleSoft? What exactly is that?
+    - What exactly is MuleSoft? Have you heard of it?
+    - MuleSoft, what is that exactly? Have you heard of it?
+    - Have you heard about MuleSoft? What does it actually mean?
+    - MuleSoft, have you heard of it? What is it about?
+    - What is MuleSoft? Have you heard of it yet?
+    - Do you know MuleSoft? What is that about?     
+    - MuleSoft, do you know what this is?
+    - Do you know what MuleSoft is? What is it?
+    - MuleSoft, do you understand what this is?
+    - What is MuleSoft, do you know what it is?
+    - MuleSoft, do you know what this means?
+    - Do you know what MuleSoft is? Do you understand what it is?
+    - MuleSoft, do you know what that is?
+    - Do you know what MuleSoft is? What does it mean?
+    - MuleSoft, do you know what this refers to?
+    - Do you know what MuleSoft is? Do you know what it is?     
+    - Can you give me an overview of what MuleSoft is?
+    - Can you provide an overview of MuleSoft?
+    - Could you give me a general overview of what MuleSoft is?
+    - Can you explain what MuleSoft is in a general way?
+    - Can you tell me what MuleSoft is, briefly?
+    - What is MuleSoft? Can you give me a general overview?
+    - Could you explain MuleSoft to me in general terms?
+    - Can you give me a general explanation of MuleSoft?
+    - Could you provide an overview of what MuleSoft is?
+    - Can you give me a summary of what MuleSoft is about?     
+    - Never heard of MuleSoft, what is it?
+    - I’ve never heard of MuleSoft, what is that?
+    - What is MuleSoft? Never heard of it.
+    - MuleSoft, never heard of it, what is it?
+    - Never heard about MuleSoft, what is it?
+    - I’ve never heard of MuleSoft, what exactly is it?
+    - Never knew what MuleSoft is, what is that?
+    - MuleSoft? Never heard of it, what is it?
+    - What is MuleSoft? I don’t know what that is.
+    - I’ve never heard of it, what is MuleSoft?     
+    - Never heard of MuleSoft, what is it?
+    - Can you give me an overview of what MuleSoft is?
+    - Tell me about MuleSoft
+    - What does MuleSoft mean?
+    - Do you know MuleSoft? What is it?
+    - What is MuleSoft about?
+    - Tell me more about this MuleSoft
+    - What's the definition of MuleSoft?
+    - How does MuleSoft work?
+    - What does MuleSoft serve for?
+    - Help me understand what MuleSoft is
+    - Have you heard of MuleSoft? What is it?
+    - MuleSoft, have you heard of it? What is it?
+    - Do you know MuleSoft? What is it?
+    - Have you heard of MuleSoft? What is it really?
+    - MuleSoft, do you know what it is?
+    - Do you know what MuleSoft is? Have you heard of it?
+    - What is MuleSoft, have you heard of it?
+    - Have you heard of MuleSoft, what is it?
+    - Do you know what MuleSoft is, have you heard of it?
+    - Have you heard of MuleSoft? What does it do?
+    - What is MuleSoft, do you know about it?
+    - Do you know what MuleSoft is? Have you heard of it?     
+    - Have you heard of MuleSoft? What is it?
+    - Have you heard about MuleSoft? What is it?
+    - Do you know what MuleSoft is? Have you heard of it?
+    - Have you heard of MuleSoft? What exactly is it?
+    - Do you know what MuleSoft is? Have you heard of it before?
+    - Have you heard of MuleSoft? What is that?
+    - What is MuleSoft, have you heard of it?
+    - Is MuleSoft a company? What does it do?
+    - Is MuleSoft a company and what does it do?
+    - What does MuleSoft, the company, do?
+    - Is MuleSoft a company? What exactly does it do?
+    - What does the company MuleSoft offer?
+    - Is MuleSoft a company? What does it provide?
+    - What exactly does the company MuleSoft do?     
+    - What exactly is MuleSoft?
+    - What exactly does MuleSoft do?
+    - Can you explain what MuleSoft exactly is?
+    - Could you tell me exactly what MuleSoft is?
+    - What is exactly MuleSoft?
+    - Can you tell me exactly what MuleSoft does?     
+    - I would like to know more about MuleSoft
+    - Can you tell me more about MuleSoft?
+    - I want to learn more about MuleSoft
+    - Could you explain more about MuleSoft?
+    - I'd like to know more about MuleSoft
+    - Can you tell me about MuleSoft?     
+    - Could you explain what MuleSoft means?
+    - Can you tell me what MuleSoft means?
+    - What does MuleSoft mean? Can you explain?
+    - Please explain what MuleSoft means.
+    - Could you explain the meaning of MuleSoft?
+    - What is the meaning of MuleSoft?     
+    - What is MuleSoft? What is it used for?
+    - Can you tell me what MuleSoft is and what it does?
+    - What does MuleSoft do? What is it for?
+    - What is MuleSoft? And what purpose does it serve?
+    - Could you explain what MuleSoft is and its uses?
+    - What is MuleSoft and how does it work?     
+    - Can you explain what MuleSoft is?
+    - Can you tell me what MuleSoft is?
+    - Could you explain what MuleSoft is?
+    - What is MuleSoft? Can you explain it?
+    - Can you explain the meaning of MuleSoft?
+    - Could you tell me what MuleSoft is about?     
     - How do you define MuleSoft?
     - How would you explain MuleSoft?
     - How would you describe MuleSoft?
@@ -215,3 +518,5 @@ nlu:
     - What's the meaning of MuleSoft?
     - Can you explain the meaning of MuleSoft?
     - What is the definition of MuleSoft?
+    - How does MuleSoft work?
+    - How does MuleSoft function?
