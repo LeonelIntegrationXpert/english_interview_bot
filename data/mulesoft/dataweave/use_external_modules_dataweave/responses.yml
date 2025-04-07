@@ -1,0 +1,27 @@
+responses:
+  utter_use_external_modules_dataweave:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                📦 *Uso de módulos e bibliotecas externas no DataWeave*  
+                Sim, já utilizei **módulos externos** em projetos com DataWeave para **reutilizar funções personalizadas**. Isso é muito útil quando precisamos aplicar **validações, cálculos ou transformações comuns** em vários scripts.
+                🔹 Para usar, criamos um arquivo `.dwl` separado com funções e depois usamos o comando `import` no início do script principal.  
+                Exemplo:
+                ```dw
+                import * from dw::utils::meuModulo
+                ```
+                Isso melhora a **manutenção**, **organização** e **reutilização** do código, além de deixar os scripts mais limpos.
+                ✅ *Resumo:*  
+                Reutilizar módulos externos no DataWeave traz **padronização**, **clareza** e evita duplicação de lógica entre APIs.
+            - vr_en: |
+                📦 *Using external modules and libraries in DataWeave*  
+                Yes, I’ve used **external modules** in DataWeave projects to **reuse custom functions**. This is extremely helpful for **validations, transformations, or business rules** shared across multiple scripts.
+                🔹 You define these functions in a separate `.dwl` file and then import them using the `import` keyword.  
+                Example:
+                ```dw
+                import * from dw::utils::myModule
+                ```
+                This makes your codebase more **maintainable**, **modular**, and **reusable**, keeping your main scripts clean.
+                ✅ *Summary:*  
+                Reusing external modules in DataWeave improves **consistency**, **readability**, and reduces logic duplication across APIs.

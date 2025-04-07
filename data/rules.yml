@@ -130,3 +130,18 @@ rules:
     steps:
       - intent: optimize_dataweave_large_data
       - action: utter_optimize_dataweave_large_data
+
+  - rule: Explicar como acessar metadata de payloads
+    steps:
+      - intent: access_metadata_payload
+      - action: utter_access_metadata_payload
+
+  - rule: Explicar diferença entre tipo e formato no DataWeave
+    steps:
+      - intent: difference_type_format_string
+      - action: utter_difference_type_format_string
+
+  - rule: Explicar uso de módulos externos no DataWeave
+    steps:
+      - intent: use_external_modules_dataweave
+      - action: utter_use_external_modules_dataweave

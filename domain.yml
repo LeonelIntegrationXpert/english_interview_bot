@@ -24,6 +24,7 @@ intents:
   - convert_csv_to_object
   - explain_recursive_functions
   - optimize_dataweave_large_data
+  - access_metadata_payload
 
 session_config:
   session_expiration_time: 60

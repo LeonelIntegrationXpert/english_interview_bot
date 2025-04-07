@@ -1,0 +1,44 @@
+responses:
+  utter_difference_type_format_string:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧠 *Diferença entre `:type` e `String {format:...}` no DataWeave*  
+                Em DataWeave, ambos servem para definir tipos, mas com **propósitos diferentes**:
+                🔹 **`:type` (anotação simples de tipo)**  
+                Usado para indicar o tipo básico do valor, como `: String`, `: Number`, `: Boolean`, etc.  
+                Exemplo:  
+                ```dw
+                payload.nome as String
+                ```
+                🔸 **`String {format:...}` (metadado adicional de tipo)**  
+                Define **um tipo com restrições ou formatos esperados**. Muito usado com tipos como datas ou campos que precisam de validação.  
+                Exemplo:  
+                ```dw
+                tipo: String { format: "date-time" }
+                ```
+                📌 *Resumo:*  
+                - `:type` → apenas declara o tipo de dado  
+                - `String {format:}` → adiciona **metadados sobre o formato** esperado  
+                Usar o `format` ajuda a validar e documentar dados de entrada ou saída de forma mais precisa.
+
+            - vr_en: |
+                🧠 *Difference between `:type` and `String {format:...}` in DataWeave*  
+                In DataWeave, both are used to define types, but for **different purposes**:
+                🔹 **`:type` (basic type annotation)**  
+                It declares the data type, like `: String`, `: Number`, `: Boolean`, etc.  
+                Example:  
+                ```dw
+                payload.name as String
+                ```
+                🔸 **`String {format:...}` (type with metadata)**  
+                It defines a **type with additional formatting rules or validation hints**. Often used for dates or structured strings.  
+                Example:  
+                ```dw
+                type: String { format: "date-time" }
+                ```
+                📌 *Summary:*  
+                - `:type` → declares the basic type  
+                - `String {format:}` → adds **metadata about the expected format**  
+                Using `format` is useful for validation, documentation, and stricter API definitions.

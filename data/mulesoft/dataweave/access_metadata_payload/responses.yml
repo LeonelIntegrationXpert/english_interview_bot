@@ -1,0 +1,28 @@
+responses:
+  utter_access_metadata_payload:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                📦 *Como acessar metadata de payloads em DataWeave*  
+                O **metadata** no contexto do MuleSoft representa **informações sobre a estrutura dos dados** que entram e saem do fluxo (tipos, nomes de campos, etc.).
+                🧠 No DataWeave, o script não acessa diretamente os metadados, mas o Studio e o Auto-Complete usam essas definições para **validar e sugerir campos**.
+                🔍 **Dicas práticas:**  
+                - Use o painel de metadata do Anypoint Studio para inspecionar a estrutura esperada  
+                - Configure exemplos de entrada nos "Set Payload" ou "Transform Message"  
+                - Para testes manuais, use funções como `typeOf(payload)` para **verificar o tipo em tempo de execução**  
+                - Também é possível validar campos com `isEmpty`, `isObject`, `isArray`, etc.
+                ✅ *Resumo:*  
+                Embora não acessemos "metadata" diretamente no script, **é possível inferir a estrutura e validar tipos**, o que ajuda a prevenir erros de transformação.
+
+            - vr_en: |
+                📦 *How to access payload metadata in DataWeave*  
+                In MuleSoft, **metadata** refers to information about the structure of incoming/outgoing data — like field names and types.
+                🧠 In DataWeave, you don’t directly access metadata in the script, but the Studio uses it for **auto-complete and validation**.
+                🔍 **Practical tips:**  
+                - Use the metadata panel in Anypoint Studio to inspect expected data structure  
+                - Set sample input using “Set Payload” or “Transform Message”  
+                - For runtime validation, use `typeOf(payload)` to check the structure  
+                - You can also use helpers like `isEmpty`, `isObject`, `isArray`, etc.
+                ✅ *Summary:*  
+                While you don’t access metadata directly in scripts, **you can infer structure and validate types**, which helps avoid transformation errors.

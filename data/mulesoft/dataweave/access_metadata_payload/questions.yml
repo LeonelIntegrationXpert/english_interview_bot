@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+  - intent: access_metadata_payload
+    examples: |
+      # 🇧🇷 Português
+      - Como acessar metadata de payloads dentro de um script?
+      - Como vejo os metadados no DataWeave?
+      - Tem como pegar o tipo ou propriedades do payload?
+      - Dá para acessar informações extras do payload?
+      - Como inspecionar metadata de entrada no MuleSoft?
+      - Consigo ver o tipo do payload no DataWeave?
+
+      # 🇺🇸 English
+      - How to access metadata from payloads inside a script?
+      - Can I read metadata in DataWeave?
+      - Is there a way to inspect the payload structure?
+      - How do I get payload properties in DataWeave?
+      - Can I see input metadata in MuleSoft?
+      - How to detect payload type in a DW script?

@@ -121,3 +121,18 @@ stories:
     steps:
       - intent: optimize_dataweave_large_data
       - action: utter_optimize_dataweave_large_data
+
+  - story: Acesso a metadata do payload
+    steps:
+      - intent: access_metadata_payload
+      - action: utter_access_metadata_payload
+
+  - story: Explicação sobre :type vs String format
+    steps:
+      - intent: difference_type_format_string
+      - action: utter_difference_type_format_string
+
+  - story: Uso de bibliotecas externas no DataWeave
+    steps:
+      - intent: use_external_modules_dataweave
+      - action: utter_use_external_modules_dataweave
