@@ -136,3 +136,18 @@ stories:
     steps:
       - intent: use_external_modules_dataweave
       - action: utter_use_external_modules_dataweave
+
+  - story: Conversão de string para número no DataWeave
+    steps:
+      - intent: string_to_number_dataweave
+      - action: utter_string_to_number_dataweave
+
+  - story: Formatação de data para dd/MM/yyyy
+    steps:
+      - intent: format_date_ddmmyyyy
+      - action: utter_format_date_ddmmyyyy
+
+  - story: Conversão de payload para base64
+    steps:
+      - intent: encode_payload_base64
+      - action: utter_encode_payload_base64

@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+  - intent: format_date_ddmmyyyy
+    examples: |
+      # 🇧🇷 Português
+      - Como formatar uma data no padrão dd/MM/yyyy?
+      - Como deixo a data no formato brasileiro?
+      - Quero a data como 25/12/2024 no DataWeave
+      - Como formatar data como dd/MM/yyyy no MuleSoft?
+      - Formatar data estilo Brasil em DataWeave
+      - Como transformar uma data para dd/MM/yyyy?
+      - Dá pra deixar a data como 01/01/2023 em DataWeave?
+
+      # 🇺🇸 English
+      - How to format a date to dd/MM/yyyy in DataWeave?
+      - Format date as 25/12/2024 using DataWeave
+      - Convert date to dd/MM/yyyy pattern in DW
+      - I want date in Brazilian format using DataWeave
+      - How can I output date as dd/MM/yyyy?

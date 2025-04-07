@@ -1,0 +1,28 @@
+responses:
+  utter_format_date_ddmmyyyy:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                📆 *Formatação de Data no padrão dd/MM/yyyy*  
+                Para formatar uma data no padrão brasileiro **dd/MM/yyyy** no DataWeave, usamos a função `format()` com o padrão desejado.
+                📌 **Exemplo básico:**  
+                ```dw
+                now() as String {format: "dd/MM/yyyy"}
+                ```
+                Isso vai retornar a data atual no formato: **"06/04/2025"** (por exemplo).
+                🧠 *Dica:* você pode aplicar isso também a campos de data vindos do `payload`.
+                ✅ *Resumo:*  
+                Use `as String {format: "dd/MM/yyyy"}` para formatar datas com clareza e padronização no estilo brasileiro.
+
+            - vr_en: |
+                📆 *Date Formatting to dd/MM/yyyy*  
+                To format a date in the **dd/MM/yyyy** pattern using DataWeave, you can use the `format()` function with the desired pattern.
+                📌 **Basic example:**  
+                ```dw
+                now() as String {format: "dd/MM/yyyy"}
+                ```
+                This returns the current date as: **"06/04/2025"** (for example).
+                🧠 *Tip:* You can also apply this formatting to date fields from the `payload`.
+                ✅ *Summary:*  
+                Use `as String {format: "dd/MM/yyyy"}` to format dates in the Brazilian or European style.

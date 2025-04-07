@@ -1,30 +1,34 @@
 version: "3.1"
 
 intents:
-  - random_input
-  - greet
+  - access_metadata_payload
+  - access_nonexistent_field_dataweave
+  - complex_dataweave_logic_example
+  - convert_csv_to_object
+  - create_custom_function_dataweave
+  - difference_dataweave_versions
+  - encode_payload_base64
   - explain_api_led
   - explain_dataweave
   - explain_map_vs_mapobject
-  - how_to_map_dataweave
-  - difference_dataweave_versions
-  - map_vs_filter_usage
-  - extract_values_nested_object
-  - create_custom_function_dataweave
-  - supported_data_types_dataweave
-  - purpose_output_application_json
-  - how_to_map_list_dataweave
-  - how_to_avoid_type_errors_dataweave
-  - access_nonexistent_field_dataweave
-  - handle_null_values_dataweave
-  - handle_missing_fields_dataweave
-  - transform_xml_to_json_dataweave
-  - generate_custom_payload_dataweave
-  - complex_dataweave_logic_example
-  - convert_csv_to_object
   - explain_recursive_functions
+  - extract_values_nested_object
+  - format_date_ddmmyyyy
+  - generate_custom_payload_dataweave
+  - greet
+  - handle_missing_fields_dataweave
+  - handle_null_values_dataweave
+  - how_to_avoid_type_errors_dataweave
+  - how_to_map_dataweave
+  - how_to_map_list_dataweave
+  - map_vs_filter_usage
   - optimize_dataweave_large_data
-  - access_metadata_payload
+  - purpose_output_application_json
+  - random_input
+  - string_to_number_dataweave
+  - supported_data_types_dataweave
+  - transform_xml_to_json_dataweave
+  - use_external_modules_dataweave
 
 session_config:
   session_expiration_time: 60

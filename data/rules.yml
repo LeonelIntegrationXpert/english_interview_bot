@@ -145,3 +145,20 @@ rules:
     steps:
       - intent: use_external_modules_dataweave
       - action: utter_use_external_modules_dataweave
+
+  - rule: Converter string para número com DataWeave
+    steps:
+      - intent: string_to_number_dataweave
+      - action: utter_string_to_number_dataweave
+
+  - rule: Formatar data para padrão dd/MM/yyyy
+    steps:
+      - intent: format_date_ddmmyyyy
+      - action: utter_format_date_ddmmyyyy
+
+  - rule: Transformar payload em base64
+    steps:
+      - intent: encode_payload_base64
+      - action: utter_encode_payload_base64
+
+      
