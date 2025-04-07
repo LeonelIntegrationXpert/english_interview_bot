@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: supported_data_types_dataweave
+    examples: |
+      # 🇧🇷 Português
+      - Quais são os tipos de dados suportados pelo DataWeave?
+      - Que tipos de dados o DataWeave entende?
+      - O DataWeave aceita quais tipos de dados?
+      - Quais tipos de valor posso usar no DataWeave?
+      - DataWeave trabalha com string, número, objeto?
+      - Tipos de dados que posso usar no DataWeave?
+      - Que formatos são aceitos pelo DataWeave?
+      - DataWeave suporta quais tipos?
+      - DataWeave entende boolean, string, array?
+
+      # 🇺🇸 English
+      - What data types are supported by DataWeave?
+      - Which types does DataWeave accept?
+      - What kind of values can be used in DataWeave?
+      - Is boolean supported in DataWeave?
+      - Does DataWeave handle arrays and objects?
+      - Which data formats are valid in DataWeave?
+      - What types are allowed in DataWeave?
+      - Can I use strings and numbers in DataWeave?

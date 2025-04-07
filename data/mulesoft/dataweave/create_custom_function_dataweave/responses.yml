@@ -1,0 +1,30 @@
+responses:
+  utter_create_custom_function_dataweave:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧠 *Funções personalizadas no DataWeave*  
+                Criar uma função personalizada no **DataWeave** permite **reutilizar lógica** e **organizar melhor o código**.  
+                📌 **Como funciona:**  
+                Você pode definir uma função no cabeçalho do script usando `fun`.  
+                Por exemplo:  
+                ```dw
+                fun soma(a, b) = a + b
+                ```  
+                Depois, pode chamá-la dentro do bloco principal (`---`).  
+                Isso é útil para cálculos, formatações ou transformações recorrentes.  
+                ✅ *Resumo:* Criar funções ajuda a **evitar repetição** e melhora a **clareza da transformação**.
+
+            - vr_en: |
+                🧠 *Custom Functions in DataWeave*  
+                Creating a custom function in **DataWeave** helps to **reuse logic** and **organize your transformation** better.  
+                📌 **How it works:**  
+                You can define a function in the script header using `fun`.  
+                Example:  
+                ```dw
+                fun sum(a, b) = a + b
+                ```  
+                Then, you can call it inside the main block (`---`).  
+                It's useful for repeated logic like formatting, calculations, or filtering.  
+                ✅ *Summary:* Defining functions in DataWeave improves **readability** and promotes **reusability**.

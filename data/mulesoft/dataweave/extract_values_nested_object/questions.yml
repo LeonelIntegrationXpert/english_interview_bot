@@ -1,0 +1,28 @@
+version: "3.1"
+
+nlu:
+  - intent: extract_values_nested_object
+    examples: |
+      # 🇧🇷 Português
+      - Como extrair valores de um objeto aninhado?
+      - Como acessar dados dentro de objetos aninhados?
+      - Preciso pegar valores de um JSON com estrutura interna
+      - Como faço para acessar campos dentro de objetos internos?
+      - Como acessar campos aninhados em DataWeave?
+      - Quero extrair informações de um nested object
+      - Como faço para extrair dados de um objeto dentro de outro?
+      - Preciso buscar valor dentro de um objeto aninhado
+      - Como trabalhar com objetos aninhados no MuleSoft?
+      - Como pegar um valor que está dentro de um objeto interno?
+
+      # 🇺🇸 English
+      - How to extract values from a nested object?
+      - How do I access data inside a nested structure?
+      - I need to get a value from a nested JSON
+      - How to retrieve a field from an inner object?
+      - How can I reach nested fields in DataWeave?
+      - Accessing data inside nested objects – how?
+      - How to fetch values from deeply nested objects?
+      - Need to extract values from internal structure
+      - How do you handle nested JSON in MuleSoft?
+      - How to get inner values from a nested object?

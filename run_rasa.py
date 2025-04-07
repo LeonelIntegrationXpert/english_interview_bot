@@ -2,9 +2,9 @@ import subprocess
 import os
 import glob
 import sys
+import shutil
 
 def clear_console():
-    # Limpa o console dependendo do sistema operacional
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def delete_old_models():
@@ -21,10 +21,30 @@ def delete_old_models():
     else:
         print(f"📁 Pasta `{model_dir}` não encontrada. Nenhuma ação necessária.\n")
 
-def run_rasa_pipeline(test_file=None):
-    clear_console()  # ← Aqui limpa o console logo no início
+def delete_caches():
+    cache_dirs = [".rasa", "__pycache__"]
+    pyc_files = glob.glob("**/*.pyc", recursive=True)
+
+    for dir_name in cache_dirs:
+        if os.path.exists(dir_name):
+            print(f"🧹 Removendo cache de `{dir_name}`...")
+            shutil.rmtree(dir_name, ignore_errors=True)
     
+    if pyc_files:
+        print(f"🧽 Removendo {len(pyc_files)} arquivos `.pyc`...")
+        for file in pyc_files:
+            try:
+                os.remove(file)
+            except Exception as e:
+                print(f"Erro ao remover {file}: {e}")
+    
+    print("✅ Caches limpos.\n")
+
+def run_rasa_pipeline(test_file=None):
+    clear_console()
     try:
+        delete_caches()
+
         if test_file:
             test_path = os.path.join("tests", test_file)
             if not os.path.isfile(test_path):
@@ -33,12 +53,12 @@ def run_rasa_pipeline(test_file=None):
             print(f"🧪 Executando testes com o arquivo `{test_path}`...\n")
             subprocess.run(["rasa", "test", "--stories", test_path], check=True)
         else:
-            #delete_old_models()
+            delete_old_models()
             print("🔧 Treinando modelo com `rasa train`...\n")
             subprocess.run(["rasa", "train"], check=True)
             #subprocess.run(["rasa", "train", "nlu"], check=True)
 
-            print("🚀 Iniciando o shell com `rasa shell`...\n")
+            print("🚀 Iniciando o shell com `rasa shell nlu`...\n")
             subprocess.run(["rasa", "shell"], check=True)
             #subprocess.run(["rasa", "shell", "nlu"], check=True)
 

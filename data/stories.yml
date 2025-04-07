@@ -41,3 +41,23 @@ stories:
     steps:
       - intent: difference_dataweave_versions
       - action: utter_difference_dataweave_versions
+
+  - story: História explicando uso de map e filter
+    steps:
+      - intent: map_vs_filter_usage
+      - action: utter_map_vs_filter_usage
+
+  - story: Explicação sobre objetos aninhados
+    steps:
+      - intent: extract_values_nested_object
+      - action: utter_extract_values_nested_object
+
+  - story: Criar função personalizada no DataWeave
+    steps:
+      - intent: create_custom_function_dataweave
+      - action: utter_create_custom_function_dataweave
+
+  - story: Quais tipos de dados o DataWeave suporta
+    steps:
+      - intent: supported_data_types_dataweave
+      - action: utter_supported_data_types_dataweave

@@ -1,0 +1,26 @@
+responses:
+  utter_extract_values_nested_object:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧩 *Como extrair valores de objetos aninhados no DataWeave?*  
+                No **DataWeave**, objetos aninhados (ou "nested objects") são estruturas em que um campo contém outro objeto. Para acessar valores dentro deles, usamos a notação de ponto (`.`).  
+                📌 **Exemplo:**  
+                Se temos `payload.pessoa.nome`, estamos acessando o campo `nome` dentro do objeto `pessoa`.  
+                🛡️ Para evitar erros se um campo não existir, podemos usar o operador seguro `?.`, como:  
+                `payload?.pessoa?.nome`  
+                ✅ Também é possível usar `default` para definir um valor caso o campo esteja ausente:  
+                `payload?.pessoa?.nome default "Desconhecido"`  
+                🧠 *Resumo:* Navegue pela hierarquia com `.` e trate ausências com `?.` e `default` para evitar falhas.
+
+            - vr_en: |
+                🧩 *How to extract values from nested objects in DataWeave?*  
+                In **DataWeave**, nested objects are structures where one field contains another object. To access their values, we use dot notation (`.`).  
+                📌 **Example:**  
+                If we write `payload.person.name`, we are accessing the `name` field inside the `person` object.  
+                🛡️ To avoid errors if a field is missing, we can use the safe navigation operator `?.`, like:  
+                `payload?.person?.name`  
+                ✅ You can also use `default` to assign a fallback value when the field is missing:  
+                `payload?.person?.name default "Unknown"`  
+                🧠 *Summary:* Navigate through hierarchy using `.` and handle missing values with `?.` and `default` to avoid errors.

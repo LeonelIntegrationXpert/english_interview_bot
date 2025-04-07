@@ -1,0 +1,27 @@
+version: "3.1"
+
+nlu:
+  - intent: create_custom_function_dataweave
+    examples: |
+      # 🇧🇷 Português
+      - Como criar uma função personalizada no DataWeave?
+      - Como faço para definir uma função no DataWeave?
+      - Posso criar funções no DataWeave?
+      - Qual é a sintaxe para criar uma função no DataWeave?
+      - Como declarar funções personalizadas em DataWeave?
+      - DataWeave permite criar funções? Como?
+      - Como escrever uma função no DataWeave?
+      - Dá pra criar funções no DataWeave?
+      - Como funciona função customizada no DataWeave?
+      - Qual estrutura uso para função em DataWeave?
+
+      # 🇺🇸 English
+      - How to create a custom function in DataWeave?
+      - Can I define a function in DataWeave?
+      - What's the syntax to declare a function in DataWeave?
+      - How do I write a function in DataWeave?
+      - Is it possible to use custom functions in DataWeave?
+      - Can I use user-defined functions in DataWeave?
+      - How do you build reusable functions in DataWeave?
+      - How to define custom logic in DataWeave?
+      - How are functions declared in DataWeave?

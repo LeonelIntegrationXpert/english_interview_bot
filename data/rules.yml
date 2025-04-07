@@ -45,3 +45,28 @@ rules:
     steps:
       - intent: difference_dataweave_versions
       - action: utter_difference_dataweave_versions
+
+  - rule: Explicação sobre uso de map e filter
+    steps:
+      - intent: map_vs_filter_usage
+      - action: utter_map_vs_filter_usage
+
+  - rule: Explicação sobre como extrair valores de objetos aninhados
+    steps:
+      - intent: extract_values_nested_object
+      - action: utter_extract_values_nested_object
+
+  - rule: Explicação sobre como criar funções no DataWeave
+    steps:
+      - intent: create_custom_function_dataweave
+      - action: utter_create_custom_function_dataweave
+
+  - rule: Tipos de dados suportados pelo DataWeave
+    steps:
+      - intent: supported_data_types_dataweave
+      - action: utter_supported_data_types_dataweave
+
+  - rule: Tipos de dados suportados pelo DataWeave
+    steps:
+      - intent: supported_data_types_dataweave
+      - action: utter_supported_data_types_dataweave
