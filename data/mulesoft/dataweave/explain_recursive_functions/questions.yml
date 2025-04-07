@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+  - intent: explain_recursive_functions
+    examples: |
+      # 🇧🇷 Português
+      - O que são funções recursivas no DataWeave?
+      - Para que serve recursão em DataWeave?
+      - Como funciona função recursiva em DataWeave?
+      - Quando usar recursividade no DataWeave?
+      - Pode explicar função recursiva no DataWeave?
+      - Em que casos usamos recursão em DataWeave?
+
+      # 🇺🇸 English
+      - What are recursive functions in DataWeave?
+      - When should I use recursion in DataWeave?
+      - Explain recursive logic in DataWeave
+      - What is a recursive function used for in DataWeave?
+      - When to apply recursion with DataWeave functions?
+      - How does recursion work in DataWeave?

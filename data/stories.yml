@@ -101,3 +101,23 @@ stories:
     steps:
       - intent: generate_custom_payload_dataweave
       - action: utter_generate_custom_payload_dataweave
+
+  - story: Exemplo real de lógica complexa no DataWeave
+    steps:
+      - intent: complex_dataweave_logic_example
+      - action: utter_complex_dataweave_logic_example
+
+  - story: Conversão de CSV em objeto no DataWeave
+    steps:
+      - intent: convert_csv_to_object
+      - action: utter_convert_csv_to_object
+
+  - story: Funções recursivas com DataWeave
+    steps:
+      - intent: explain_recursive_functions
+      - action: utter_explain_recursive_functions
+
+  - story: Otimização de performance em DataWeave
+    steps:
+      - intent: optimize_dataweave_large_data
+      - action: utter_optimize_dataweave_large_data

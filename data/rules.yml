@@ -110,3 +110,23 @@ rules:
     steps:
       - intent: generate_custom_payload_dataweave
       - action: utter_generate_custom_payload_dataweave
+
+  - rule: Explicar uso real de lógica complexa no DataWeave
+    steps:
+      - intent: complex_dataweave_logic_example
+      - action: utter_complex_dataweave_logic_example
+
+  - rule: Transformar CSV em objeto estruturado
+    steps:
+      - intent: convert_csv_to_object
+      - action: utter_convert_csv_to_object
+
+  - rule: Explicar funções recursivas no DataWeave
+    steps:
+      - intent: explain_recursive_functions
+      - action: utter_explain_recursive_functions
+
+  - rule: Explicar como otimizar DataWeave para grandes volumes
+    steps:
+      - intent: optimize_dataweave_large_data
+      - action: utter_optimize_dataweave_large_data

@@ -1,0 +1,28 @@
+responses:
+  utter_explain_recursive_functions:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🔁 *Funções Recursivas no DataWeave*  
+                Funções recursivas são aquelas que **chamam a si mesmas** para resolver um problema em partes menores.  
+                Em **DataWeave**, são úteis quando precisamos **percorrer listas complexas**, **analisar objetos aninhados**, ou **executar lógica que exige repetição controlada**.
+                📌 **Quando usar:**  
+                - Para somar os elementos de uma lista  
+                - Para navegar por estruturas aninhadas  
+                - Para aplicar uma transformação condicional várias vezes  
+                ⚠️ *Dica:* Sempre inclua uma **condição de parada** para evitar loops infinitos.
+                ✅ *Resumo:*  
+                Recursão é uma técnica poderosa no DataWeave, ideal para casos onde o `map` ou `filter` não são suficientes para tratar estruturas complexas.
+
+            - vr_en: |
+                🔁 *Recursive Functions in DataWeave*  
+                Recursive functions are those that **call themselves** to solve a problem in smaller chunks.  
+                In **DataWeave**, they're useful when you need to **process deep lists**, **navigate nested objects**, or **repeat logic conditionally**.
+                📌 **When to use:**  
+                - Summing list elements  
+                - Traversing nested structures  
+                - Applying logic multiple times until a condition is met  
+                ⚠️ *Tip:* Always include a **termination condition** to prevent infinite loops.
+                ✅ *Summary:*  
+                Recursion is a powerful tool in DataWeave, best used when `map` or `filter` are not enough to handle complex scenarios.

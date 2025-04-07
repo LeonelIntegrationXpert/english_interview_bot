@@ -1,0 +1,18 @@
+version: "3.1"
+
+nlu:
+  - intent: complex_dataweave_logic_example
+    examples: |
+      # 🇧🇷 Português
+      - Explique um caso real onde usou lógica complexa no DataWeave (ex: groupBy, partition, flatten)
+      - Já usou groupBy, partition ou flatten no DataWeave? Como foi?
+      - Pode me dar um exemplo real com lógica avançada em DataWeave?
+      - Como você aplicou groupBy ou flatten numa situação real?
+      - Tem algum uso prático de lógica complexa no DataWeave?
+
+      # 🇺🇸 English
+      - Explain a real use case where you used complex logic in DataWeave (e.g., groupBy, partition, flatten)
+      - Have you used groupBy or flatten in a real scenario? Tell me how.
+      - Can you give a real-life example of advanced DataWeave logic?
+      - How did you apply groupBy or partition in production?
+      - Any practical use of complex logic with DataWeave?

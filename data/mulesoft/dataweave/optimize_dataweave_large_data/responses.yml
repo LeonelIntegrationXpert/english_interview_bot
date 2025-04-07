@@ -1,0 +1,30 @@
+responses:
+  utter_optimize_dataweave_large_data:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🚀 *Otimização de Scripts DataWeave para Grandes Volumes*  
+                Trabalhar com grandes volumes de dados no **DataWeave** exige atenção à **performance e uso eficiente de memória**.
+                📌 **Boas práticas para otimização:**  
+                - Evite `map` ou `filter` desnecessários em grandes listas  
+                - Prefira **transformações diretas** em vez de múltiplos encadeamentos  
+                - Utilize **funções específicas** como `pluck`, `groupBy` ou `reduce` com cautela  
+                - Use `as` para **converter tipos com segurança**, evitando erros que quebram a execução  
+                - Aproveite `dw::util::Values::flatten` para simplificar estruturas aninhadas  
+                - Minimize o uso de `if` encadeados — use `when` com `match` para melhorar legibilidade e performance
+                ✅ *Resumo:*  
+                Para grandes volumes, mantenha o script **simples, direto e modular**. Testar com exemplos reais e usar ferramentas como o profiler do Anypoint Studio ajuda a identificar gargalos.
+
+            - vr_en: |
+                🚀 *Optimizing DataWeave Scripts for Large Data Volumes*  
+                When working with heavy payloads, **DataWeave performance** can be impacted if not carefully structured.
+                📌 **Best practices for optimization:**  
+                - Avoid unnecessary `map` or `filter` calls on large arrays  
+                - Prefer **direct transformations** over chained operations  
+                - Use powerful functions like `pluck`, `groupBy`, and `reduce` wisely  
+                - Apply `as` to **safely cast data types**, preventing type errors  
+                - Flatten nested structures using `dw::util::Values::flatten`  
+                - Replace multiple `if` statements with clean `match` expressions for readability and speed
+                ✅ *Summary:*  
+                Keep your script **clean, concise, and modular**. Test with real data samples and leverage tools like the Anypoint Studio profiler to catch performance bottlenecks.

@@ -1,0 +1,32 @@
+responses:
+  utter_complex_dataweave_logic_example:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧠 *Exemplo real com lógica complexa no DataWeave*  
+                Em um projeto de integração com Salesforce, recebi uma lista de **pedidos de venda** contendo múltiplos itens por pedido.  
+                Para preparar o payload para uma API externa, precisei usar:
+                🔸 `groupBy` → Para agrupar os itens por número de pedido  
+                🔸 `flatten` → Para achatar listas aninhadas após transformação  
+                🔸 `mapObject` + lógica condicional → Para organizar os blocos por tipo de item
+                🧪 **Desafio:**  
+                A API de destino esperava os itens agrupados por categoria e com campos normalizados. Além disso, havia casos em que alguns itens vinham nulos e precisavam ser filtrados.
+                📌 **Solução:**  
+                Usei `groupBy` para agrupar por `category`, `filter` para remover nulos, e `flatten` para reorganizar a saída. No final, a transformação consolidava todos os dados em uma estrutura limpa, pronta para envio.
+                ✅ *Resumo:*  
+                O DataWeave foi essencial para aplicar uma lógica **de agrupamento, limpeza e reestruturação** que evitou retrabalho e garantiu compatibilidade com a API externa.
+
+            - vr_en: |
+                🧠 *Real example with complex logic in DataWeave*  
+                In a Salesforce integration project, I received a list of **sales orders** where each order had multiple items.  
+                To prepare the payload for an external API, I had to use:
+                🔸 `groupBy` → To group items by order number  
+                🔸 `flatten` → To simplify nested arrays after transformations  
+                🔸 `mapObject` + conditional logic → To organize items by type
+                🧪 **Challenge:**  
+                The destination API expected items grouped by category and formatted fields. There were also cases with `null` values that needed to be filtered out.
+                📌 **Solution:**  
+                I used `groupBy` on `category`, `filter` to remove `null` entries, and `flatten` to reshape the final output. This ensured the payload was clean and API-ready.
+                ✅ *Summary:*  
+                DataWeave allowed me to apply **grouping, filtering, and transformation** logic in a powerful way, improving efficiency and ensuring external system compatibility.

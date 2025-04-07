@@ -20,6 +20,10 @@ intents:
   - handle_missing_fields_dataweave
   - transform_xml_to_json_dataweave
   - generate_custom_payload_dataweave
+  - complex_dataweave_logic_example
+  - convert_csv_to_object
+  - explain_recursive_functions
+  - optimize_dataweave_large_data
 
 session_config:
   session_expiration_time: 60

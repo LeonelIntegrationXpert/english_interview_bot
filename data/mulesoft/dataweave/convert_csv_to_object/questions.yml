@@ -1,0 +1,18 @@
+version: "3.1"
+
+nlu:
+  - intent: convert_csv_to_object
+    examples: |
+      # 🇧🇷 Português
+      - Como transformar um CSV em objeto?
+      - Como faço para converter CSV em objeto estruturado?
+      - Tem como converter arquivo CSV para JSON no DataWeave?
+      - Como transformar CSV em um payload JSON?
+      - Como ler e mapear um CSV em MuleSoft?
+
+      # 🇺🇸 English
+      - How to convert CSV into an object?
+      - How to transform CSV into structured data?
+      - Can DataWeave parse CSV into JSON?
+      - How do I turn a CSV file into an object?
+      - How to read CSV and convert to JSON in MuleSoft?
