@@ -122,6 +122,43 @@ english-interview-bot/
 
 ---
 
+## 🙌 Conecte-se comigo!
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0059FF,100:4C83FF&height=100&section=footer" />
+
+  <!-- 📧 Email -->
+  <a href="mailto:leoneldornelesporto@outlook.com.br">
+    <img src="https://img.shields.io/badge/Email-leoneldornelesporto@outlook.com.br-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+
+  <!-- 💼 LinkedIn -->
+  <a href="https://www.linkedin.com/in/leonel-dorneles-porto-b88600122" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Leonel%20Dorneles%20Porto-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+
+  <!-- 🐙 GitHub Followers -->
+  <a href="https://github.com/LeonelIntegrationXpert?tab=followers" target="_blank">
+    <img src="https://img.shields.io/github/followers/LeonelIntegrationXpert?label=Seguidores&style=social" alt="GitHub Followers"/>
+  </a>
+
+  <!-- ☎️ Telefone / WhatsApp -->
+  <a href="tel:+5553991804869">
+    <img src="https://img.shields.io/badge/Telefone-%2B55%2053%2099180--4869-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Telefone/WhatsApp"/>
+  </a>
+
+  <!-- 🎖️ Trailblazer -->
+  <a href="https://www.salesforce.com/trailblazer/leonelporto" target="_blank">
+    <img src="https://img.shields.io/badge/Trailblazer-Leonel%20Porto-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="Salesforce Trailblazer"/>
+  </a>
+
+</p>
+
+---
+
+<!-- ✍️ Mensagem animada (Typing Effect) -->
+<p align="center">
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=47E3FF&center=true&width=600&lines=Obrigado+por+visitar!+🚀;Vamos+conectar+no+LinkedIn!+💼;MuleSoft+%7C+Salesforce+%7C+API+Integration+Expert+🔌;Rasa+Bot+%7C+Trailblazer+🏆"
+    alt="Typing SVG Footer"
+  />
 </p>
