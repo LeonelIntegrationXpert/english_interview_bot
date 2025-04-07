@@ -61,3 +61,23 @@ stories:
     steps:
       - intent: supported_data_types_dataweave
       - action: utter_supported_data_types_dataweave
+
+  - story: Explicação da diretiva output application/json
+    steps:
+      - intent: purpose_output_application_json
+      - action: utter_purpose_output_application_json
+
+  - story: Explicação sobre como mapear listas no DataWeave
+    steps:
+      - intent: how_to_map_list_dataweave
+      - action: utter_how_to_map_list_dataweave
+
+  - story: Evitar erros de tipo no DataWeave
+    steps:
+      - intent: how_to_avoid_type_errors_dataweave
+      - action: utter_how_to_avoid_type_errors_dataweave
+
+  - story: Acesso a campo que não existe no DataWeave
+    steps:
+      - intent: access_nonexistent_field_dataweave
+      - action: utter_access_nonexistent_field_dataweave

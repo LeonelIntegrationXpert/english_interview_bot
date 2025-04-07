@@ -1,0 +1,23 @@
+version: "3.1"
+
+nlu:
+  - intent: how_to_avoid_type_errors_dataweave
+    examples: |
+      # 🇧🇷 Português
+      - Como evitar erros de tipo no DataWeave?
+      - Como prevenir erros de tipo no DataWeave?
+      - Como lidar com erros de tipo em DataWeave?
+      - O que fazer para evitar erro de tipo no DataWeave?
+      - Dica para evitar erro de tipo no DataWeave
+      - DataWeave erro de tipo, como evitar?
+      - Como garantir que o tipo esteja correto no DataWeave?
+      - Como tratar tipo de dado no DataWeave sem erro?
+
+      # 🇺🇸 English
+      - How to avoid type errors in DataWeave?
+      - How can I prevent type errors using DataWeave?
+      - What to do to avoid type mismatch in DataWeave?
+      - Type error in DataWeave, how to fix?
+      - How to handle data types safely in DataWeave?
+      - Tips to avoid type issues in DataWeave?
+      - How to ensure correct types in DataWeave?

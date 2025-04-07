@@ -1,0 +1,26 @@
+responses:
+  utter_how_to_map_list_dataweave:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🔁 *Como mapear uma lista no DataWeave?*  
+                Para transformar uma lista no DataWeave, usamos a função **`map`**, que percorre todos os elementos e aplica uma lógica personalizada.
+                📌 **Quando usar `map`:**  
+                - Para **alterar, formatar ou extrair** dados de cada item  
+                - Quando você quer **retornar uma nova lista modificada**
+                🧠 Exemplo prático sem código:  
+                Imagine que você tem uma lista de nomes. Com `map`, você pode percorrer cada nome e aplicar uma transformação, como deixar todos em maiúsculo ou adicionar um prefixo.
+                ✅ *Resumo:*  
+                O `map` é ideal para **processar elementos de listas**, retornando uma **nova lista com os valores transformados**.
+
+            - vr_en: |
+                🔁 *How to map a list in DataWeave?*  
+                To transform a list in DataWeave, we use the **`map`** function, which iterates through each item and applies custom logic.
+                📌 **When to use `map`:**  
+                - To **modify, format or extract** information from each item  
+                - When you want to **return a new, updated list**
+                🧠 Simple explanation without code:  
+                Imagine you have a list of names. With `map`, you can go through each name and apply transformations like turning them all to uppercase or adding a prefix.
+                ✅ *Summary:*  
+                `map` is perfect for **processing list items**, returning a **new list with the transformed values**.

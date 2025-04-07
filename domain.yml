@@ -12,6 +12,10 @@ intents:
   - extract_values_nested_object
   - create_custom_function_dataweave
   - supported_data_types_dataweave
+  - purpose_output_application_json
+  - how_to_map_list_dataweave
+  - how_to_avoid_type_errors_dataweave
+  - access_nonexistent_field_dataweave
 
 session_config:
   session_expiration_time: 60

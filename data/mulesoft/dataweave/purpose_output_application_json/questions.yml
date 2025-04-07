@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+  - intent: purpose_output_application_json
+    examples: |
+      # 🇧🇷 Português
+      - Para que serve a diretiva output application/json?
+      - O que faz o output application/json no DataWeave?
+      - Qual a função do output application/json?
+      - Pra que usar output application/json?
+      - Por que colocamos output application/json no script?
+      - Qual o objetivo da linha output application/json?
+      - O que significa output application/json?
+      - Em que momento usamos output application/json?
+      - output application/json serve para quê?
+
+      # 🇺🇸 English
+      - What is output application/json for?
+      - What does output application/json mean?
+      - Why use output application/json in DataWeave?
+      - What’s the role of output application/json?
+      - What does the output directive do?
+      - When should I use output application/json?
+      - Purpose of output application/json?
+      - Why include output application/json in DW script?

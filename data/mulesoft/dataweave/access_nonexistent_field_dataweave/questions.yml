@@ -1,0 +1,19 @@
+version: "3.1"
+
+nlu:
+  - intent: access_nonexistent_field_dataweave
+    examples: |
+      # 🇧🇷 Português
+      - O que acontece se eu acessar um campo que não existe no DataWeave?
+      - E se o campo não existir, o que acontece?
+      - DataWeave acessando campo inexistente, o que dá?
+      - Como o DataWeave lida com campo que não existe?
+      - Se eu tentar acessar algo que não existe no payload?
+      - E se o campo estiver faltando?
+
+      # 🇺🇸 English
+      - What happens if I access a field that doesn't exist in DataWeave?
+      - What does DataWeave do when a field is missing?
+      - How does DataWeave handle missing fields?
+      - Accessing a nonexistent field in DataWeave — what happens?
+      - What if the field is not present in the input?

@@ -1,0 +1,26 @@
+responses:
+  utter_purpose_output_application_json:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧾 *Para que serve a diretiva `output application/json`?*  
+                No **DataWeave**, a diretiva `output application/json` indica que o **formato de saída** da transformação será **JSON**.  
+                Isso define **como os dados transformados serão entregues** ao final do script.
+                📌 **Funções principais:**  
+                - Define o tipo MIME do conteúdo de saída  
+                - Garante que os dados sejam convertidos para o formato JSON  
+                - É essencial quando a API espera uma resposta no padrão JSON
+                ✅ *Resumo:*  
+                Essa diretiva é usada sempre que queremos que a resposta final da transformação esteja no **formato JSON legível e compatível com APIs REST**.
+
+            - vr_en: |
+                🧾 *What is `output application/json` used for?*  
+                In **DataWeave**, the directive `output application/json` tells the engine that the **output format** should be **JSON**.  
+                It defines **how the transformed data will be returned** at the end of the script.
+                📌 **Main purposes:**  
+                - Sets the MIME type of the output content  
+                - Ensures that the result is formatted as JSON  
+                - It’s crucial when the API expects a JSON response
+                ✅ *Summary:*  
+                This directive is used when we want the final output to be in **readable JSON format**, especially for **RESTful APIs**.

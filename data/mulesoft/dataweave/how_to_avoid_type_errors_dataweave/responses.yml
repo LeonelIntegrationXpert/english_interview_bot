@@ -1,0 +1,26 @@
+responses:
+  utter_how_to_avoid_type_errors_dataweave:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                ⚠️ *Como evitar erros de tipo no DataWeave?*  
+                Erros de tipo em DataWeave são comuns quando os dados de entrada não estão no formato esperado.
+                📌 **Dicas práticas para evitar esses erros:**  
+                - 🧪 Use `is` para verificar o tipo antes de aplicar lógica.  
+                - 🛡️ Utilize `default` para fornecer um valor seguro caso o campo esteja ausente ou com tipo incorreto.  
+                - 🔄 Converta explicitamente os tipos com `as String`, `as Number`, etc.  
+                - 🧠 Faça debug com `typeOf` para entender o tipo real da variável em tempo de execução.
+                ✅ *Resumo:*  
+                Sempre valide e converta os tipos quando necessário. Isso garante **resiliência, legibilidade e evita falhas em tempo de execução**.
+
+            - vr_en: |
+                ⚠️ *How to avoid type errors in DataWeave?*  
+                Type errors often occur in DataWeave when the input data is not in the expected format.
+                📌 **Practical tips to avoid these errors:**  
+                - 🧪 Use `is` to check the type before applying logic.  
+                - 🛡️ Use `default` to provide a safe fallback if the field is missing or has the wrong type.  
+                - 🔄 Explicitly cast types using `as String`, `as Number`, etc.  
+                - 🧠 Debug with `typeOf` to understand the actual runtime type.
+                ✅ *Summary:*  
+                Always validate and cast types when needed. This ensures **robustness, clarity, and prevents runtime failures**.

@@ -70,3 +70,23 @@ rules:
     steps:
       - intent: supported_data_types_dataweave
       - action: utter_supported_data_types_dataweave
+
+  - rule: Para que serve a diretiva output application/json
+    steps:
+      - intent: purpose_output_application_json
+      - action: utter_purpose_output_application_json
+
+  - rule: Como mapear uma lista no DataWeave
+    steps:
+      - intent: how_to_map_list_dataweave
+      - action: utter_how_to_map_list_dataweave
+
+  - rule: Como evitar erros de tipo no DataWeave
+    steps:
+      - intent: how_to_avoid_type_errors_dataweave
+      - action: utter_how_to_avoid_type_errors_dataweave
+
+  - rule: Campo inexistente no DataWeave
+    steps:
+      - intent: access_nonexistent_field_dataweave
+      - action: utter_access_nonexistent_field_dataweave
