@@ -1,13 +1,15 @@
 import subprocess
 import datetime
 
-def get_git_changes():
-    # Executa git status --porcelain para obter os arquivos modificados de forma simples
-    result = subprocess.run(["git", "status", "--porcelain"], stdout=subprocess.PIPE, text=True)
-    lines = result.stdout.strip().split('\n')
-    
-    changes = []
+def run_command(command):
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    return result.stdout.strip()
 
+def get_git_changes():
+    result = run_command(["git", "status", "--porcelain"])
+    lines = result.split('\n')
+
+    changes = []
     for line in lines:
         if not line:
             continue
@@ -17,24 +19,48 @@ def get_git_changes():
     
     return changes
 
+def get_git_user_info():
+    name = run_command(["git", "config", "user.name"])
+    email = run_command(["git", "config", "user.email"])
+    return name, email
+
+def get_current_branch():
+    return run_command(["git", "rev-parse", "--abbrev-ref", "HEAD"])
+
 def auto_commit():
+    print("🔍 Verificando alterações no repositório Git...\n")
     changes = get_git_changes()
-    
+
     if not changes:
-        print("✅ Nenhuma alteração para commitar.")
+        print("✅ Nenhuma alteração para commitar.\n")
         return
 
-    # Adiciona todos os arquivos
+    # Coleta informações
+    username, email = get_git_user_info()
+    branch = get_current_branch()
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # Adiciona arquivos
     subprocess.run(["git", "add", "."], check=True)
 
-    # Monta mensagem de commit com timestamp e arquivos
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    commit_message = f"🤖 Auto-commit em {timestamp}\n\nArquivos:\n" + "\n".join(changes)
+    # Monta mensagem de commit
+    commit_message = (
+        f"🤖 Auto-commit realizado em {timestamp}\n"
+        f"👤 Autor: {username} <{email}>\n"
+        f"🌿 Branch: {branch}\n"
+        f"📦 Arquivos alterados ({len(changes)}):\n"
+        + "\n".join(changes)
+    )
 
-    # Realiza o commit
+    # Faz o commit
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
-    print("✅ Commit realizado com sucesso.")
+    # Push para o branch atual
+    print("\n🚀 Enviando commit para o repositório remoto...\n")
+    subprocess.run(["git", "push", "origin", branch], check=True)
+
+    print("✅ Commit e push concluídos com sucesso!")
+    print("🔒 Detalhes salvos no histórico do Git.\n")
 
 if __name__ == "__main__":
     auto_commit()
