@@ -1,0 +1,41 @@
+responses:
+  utter_difference_dataweave_versions:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧠 *DataWeave 1.0 vs 2.0 — Principais diferenças*
+                A transição do **DataWeave 1.0 para o 2.0** trouxe melhorias significativas na linguagem de transformação usada no MuleSoft.
+                Aqui estão as principais diferenças:
+                🔄 **Compatibilidade com Mule**
+                - 1.0 era usado no Mule 3
+                - 2.0 é usado no Mule 4
+                ✍️ **Sintaxe aprimorada**
+                - O 2.0 é mais expressivo, limpo e intuitivo
+                - Permite a utilização de módulos externos, como `dw::core::Strings`
+                🛠️ **Novo cabeçalho de script**
+                - 1.0: `%dw 1.0`
+                - 2.0: `%dw 2.0` com especificação de `output`, `import` etc.
+                🚀 **Melhor performance e reutilização**
+                - 2.0 é mais eficiente e modular
+                - Introduz funções customizadas com `fun`, `if/else` melhorado, `match`, `when`
+                ✅ *Resumo:*
+                O DataWeave 2.0 tornou a transformação de dados mais poderosa, flexível e fácil de manter.
+            - vr_en: |
+                🧠 *DataWeave 1.0 vs 2.0 — Key Differences*
+                The upgrade from **DataWeave 1.0 to 2.0** brought important improvements in MuleSoft’s data transformation language.
+                Here are the main differences:
+                🔄 **Mule compatibility**
+                - 1.0 was used with Mule 3
+                - 2.0 is used with Mule 4
+                ✍️ **Improved syntax**
+                - 2.0 is more expressive, clean, and intuitive
+                - Supports external modules like `dw::core::Strings`
+                🛠️ **New script header**
+                - 1.0: `%dw 1.0`
+                - 2.0: `%dw 2.0` with `output`, `import`, etc.
+                🚀 **Better performance and modularity**
+                - 2.0 is more efficient and flexible
+                - Introduces custom functions with `fun`, enhanced `if/else`, `match`, `when`
+                ✅ *Summary:*
+                DataWeave 2.0 makes data transformation more powerful, reusable, and maintainable.

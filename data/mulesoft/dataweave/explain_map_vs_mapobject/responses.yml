@@ -29,10 +29,8 @@ responses:
                 {a: 1} mapObject (v, k) -> v * 2  → {a: 2}
                 ```  
                 🧠 Summary: Use `map` for lists, `mapObject` for objects.
-
     - custom:
         response_array:
-          -
             - vr_pt: |
                 📘 *Diferença prática entre `map` e `mapObject`*  
                 🔹 `map` → transforma **itens de uma lista**  
@@ -47,10 +45,8 @@ responses:
                 🛠️ Interview tip:  
                 - Always check if the data is a list or an object before using.  
                 ✅ Knowing this shows you really know the language!
-
     - custom:
         response_array:
-          -
             - vr_pt: |
                 🧬 *Map e MapObject — quando usar cada um?*  
                 - Use `map` com listas (`[1,2,3]`)  
@@ -63,10 +59,8 @@ responses:
                 - Use `mapObject` with objects (`{a:1, b:2}`)  
                 🎯 In an interview, say:  
                 "Map is for arrays, MapObject is for objects. It depends on the data type."
-
     - custom:
         response_array:
-          -
             - vr_pt: |
                 💡 *Resumo rápido: map vs mapObject*  
                 - `map`: percorre uma lista, item por item  

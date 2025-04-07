@@ -3,6 +3,10 @@ import os
 import glob
 import sys
 
+def clear_console():
+    # Limpa o console dependendo do sistema operacional
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 def delete_old_models():
     model_dir = "models"
     if os.path.exists(model_dir):
@@ -18,6 +22,8 @@ def delete_old_models():
         print(f"📁 Pasta `{model_dir}` não encontrada. Nenhuma ação necessária.\n")
 
 def run_rasa_pipeline(test_file=None):
+    clear_console()  # ← Aqui limpa o console logo no início
+    
     try:
         if test_file:
             test_path = os.path.join("tests", test_file)
@@ -27,13 +33,14 @@ def run_rasa_pipeline(test_file=None):
             print(f"🧪 Executando testes com o arquivo `{test_path}`...\n")
             subprocess.run(["rasa", "test", "--stories", test_path], check=True)
         else:
-            delete_old_models()
+            #delete_old_models()
             print("🔧 Treinando modelo com `rasa train`...\n")
             subprocess.run(["rasa", "train"], check=True)
-            #subprocess.run(["rasa", "shell", "nlu"], check=True)
+            #subprocess.run(["rasa", "train", "nlu"], check=True)
 
             print("🚀 Iniciando o shell com `rasa shell`...\n")
             subprocess.run(["rasa", "shell"], check=True)
+            #subprocess.run(["rasa", "shell", "nlu"], check=True)
 
     except subprocess.CalledProcessError as e:
         print(f"❌ Erro ao executar comando: {e}")

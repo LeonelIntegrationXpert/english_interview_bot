@@ -6,6 +6,8 @@ intents:
   - explain_api_led
   - explain_dataweave
   - explain_map_vs_mapobject
+  - how_to_map_dataweave
+  - difference_dataweave_versions
 
 session_config:
   session_expiration_time: 60

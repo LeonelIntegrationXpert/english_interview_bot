@@ -31,3 +31,13 @@ stories:
     steps:
       - intent: explain_api_led  # Usuário quer saber sobre as camadas do API-led
       - action: utter_explain_api_led_layers_connection  # Bot explica as camadas do API-led
+
+  - story: Usuário pergunta como mapear com DataWeave
+    steps:
+      - intent: how_to_map_dataweave
+      - action: utter_how_to_map_dataweave
+
+  - story: Diferença entre DataWeave 1.0 e 2.0
+    steps:
+      - intent: difference_dataweave_versions
+      - action: utter_difference_dataweave_versions

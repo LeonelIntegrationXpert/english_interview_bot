@@ -35,3 +35,13 @@ rules:
     steps:
       - intent: explain_map_vs_mapobject
       - action: utter_explain_map_vs_mapobject
+
+  - rule: Explicação sobre como mapear dados com DataWeave
+    steps:
+      - intent: how_to_map_dataweave
+      - action: utter_how_to_map_dataweave
+
+  - rule: Explicação sobre a diferença entre DataWeave 1.0 e 2.0
+    steps:
+      - intent: difference_dataweave_versions
+      - action: utter_difference_dataweave_versions

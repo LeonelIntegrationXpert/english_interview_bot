@@ -1,0 +1,37 @@
+responses:
+  utter_how_to_map_dataweave:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧬 *DataWeave para mapeamento de dados*  
+                O **DataWeave** permite remodelar os dados de entrada conforme a estrutura que o sistema de destino precisa.  
+                Você pode modificar o nome dos campos, transformar tipos de dados, agrupar ou até remover campos indesejados.  
+                ✅ Exemplo em entrevista: "Uso o DataWeave para adaptar os dados da origem, garantindo que o destino receba exatamente o que precisa."
+            - vr_en: |
+                🧬 *DataWeave for data mapping*  
+                **DataWeave** enables you to reshape incoming data to fit the structure expected by downstream systems.  
+                You can rename keys, transform data types, filter records, and more.  
+                ✅ Example for interviews: "I use DataWeave to adapt and clean up input so that it fits what the destination needs exactly."
+    - custom:
+        response_array:
+            - vr_pt: |
+                🧬 *Mapeando com DataWeave*  
+                Com o **DataWeave**, é possível fazer conversões como `cpf` para `document`, ou alterar estruturas aninhadas para listas simples.  
+                O recurso de `map`, `mapObject`, `filter` e outras funções tornam a transformação poderosa e flexível.  
+                ✅ Entrevista: "Se eu recebo um JSON com estrutura X, posso rapidamente entregá-lo no formato Y com DataWeave."
+            - vr_en: |
+                🧬 *Mapping logic using DataWeave*  
+                With **DataWeave**, you can convert, transform, and reorganize JSON, XML, or CSV data into formats your API expects.  
+                It gives full control to rename, filter, loop, and restructure payloads.  
+                ✅ Interview line: "DataWeave gives me total control over how I shape the data to meet business and technical requirements."
+    - custom:
+        response_array:
+            - vr_pt: |
+                🧬 *Transformação com DataWeave*  
+                **DataWeave** é a linguagem principal de transformação no MuleSoft. É usada para reestruturar, converter e enriquecer dados entre sistemas.  
+                ✅ Exemplo típico: mudar um payload de XML para JSON, ou transformar uma lista de objetos em um mapa indexado.
+            - vr_en: |
+                🧬 *Using DataWeave in real-world mapping*  
+                Imagine getting `clientId` and needing to output `user.id` — that's where **DataWeave** shines.  
+                You can combine, split, and refine data into optimized forms for Experience APIs or external systems.

@@ -21,7 +21,6 @@ responses:
                 - Native support for various data types  
                 - Enables conditional logic and custom functions  
                 ✅ Useful for transforming payloads in REST APIs, ETL flows, and preparing data for consumption.
-
     - custom:
         response_array:
           -
@@ -55,7 +54,6 @@ responses:
                 ---
                 { nome: payload.name }
                 ```
-
     - custom:
         response_array:
           -
@@ -75,7 +73,6 @@ responses:
                 - Easy field filtering  
                 - Format conversion (e.g., XML → JSON)  
                 - Use of functions and conditional structures
-
     - custom:
         response_array:
           -
