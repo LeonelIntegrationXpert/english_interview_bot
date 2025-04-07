@@ -1,0 +1,18 @@
+version: "3.1"
+
+nlu:
+  - intent: generate_custom_payload_dataweave
+    examples: |
+      # 🇧🇷 Português
+      - Como faria para gerar um payload customizado com campos fixos e dados vindos do input?
+      - Como criar um JSON com campos fixos e dados da entrada no DataWeave?
+      - Quero montar uma saída com valores fixos e outros do payload, como faço?
+      - Como adicionar campos fixos no DataWeave junto com dados do input?
+      - DataWeave: como criar payload personalizado misturando dados?
+
+      # 🇺🇸 English
+      - How can I generate a custom payload with fixed fields and input data?
+      - How to build a response with static and dynamic values in DataWeave?
+      - I want to create a custom output using both fixed and input values, how?
+      - How to combine hardcoded fields with input values in DataWeave?
+      - DataWeave: how do I generate a payload using constants and payload data?

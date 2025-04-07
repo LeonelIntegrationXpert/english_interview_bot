@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+  - intent: handle_null_values_dataweave
+    examples: |
+      # 🇧🇷 Português
+      - Como garantir que o script seja resiliente a valores null?
+      - O que fazer para não quebrar se o valor for null?
+      - Como tratar campos nulos no DataWeave?
+      - DataWeave como evitar erros com null?
+      - Como lidar com valores null no payload?
+      - Como escrever um script que funcione mesmo com dados nulos?
+
+      # 🇺🇸 English
+      - How to make the script resilient to null values?
+      - What to do when a field is null in DataWeave?
+      - How to avoid breaking when the value is null?
+      - Best way to handle nulls in DataWeave?
+      - DataWeave null value handling?
+      - How do I safely deal with null values in a DataWeave script?

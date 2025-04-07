@@ -1,0 +1,40 @@
+responses:
+  utter_generate_custom_payload_dataweave:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                📦 *Gerando um payload customizado no DataWeave*  
+                Para gerar um payload com **campos fixos e dados da entrada**, você pode simplesmente montar um objeto no corpo do script do DataWeave, misturando valores fixos com dados dinâmicos do `payload`.
+                🧱 **Exemplo básico:**
+                ```dw
+                %dw 2.0
+                output application/json
+                ---
+                {
+                  status: "success",
+                  timestamp: now(),
+                  nome: payload.nome,
+                  idade: payload.idade
+                }
+                ```
+                ✅ *Resumo:*  
+                Basta criar um objeto com os campos desejados e atribuir valores diretamente ou usar os dados do `payload`. Isso é útil para **respostas padronizadas**, logs, integrações com APIs e muito mais.
+
+            - vr_en: |
+                📦 *Creating a custom payload in DataWeave*  
+                To generate a payload with **fixed fields and input data**, you simply construct an object in the DataWeave body using constants and dynamic values from the `payload`.
+                🧱 **Basic example:**
+                ```dw
+                %dw 2.0
+                output application/json
+                ---
+                {
+                  status: "success",
+                  timestamp: now(),
+                  name: payload.name,
+                  age: payload.age
+                }
+                ```
+                ✅ *Summary:*  
+                Just build the desired object and assign fixed values or pull from `payload`. This is useful for **standard responses**, logging, integrations with APIs, and more.

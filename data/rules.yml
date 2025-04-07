@@ -90,3 +90,23 @@ rules:
     steps:
       - intent: access_nonexistent_field_dataweave
       - action: utter_access_nonexistent_field_dataweave
+
+  - rule: Garantir resiliência com valores null
+    steps:
+      - intent: handle_null_values_dataweave
+      - action: utter_handle_null_values_dataweave
+
+  - rule: Tratar campos ausentes no DataWeave
+    steps:
+      - intent: handle_missing_fields_dataweave
+      - action: utter_handle_missing_fields_dataweave
+
+  - rule: Transformar XML em JSON com DataWeave
+    steps:
+      - intent: transform_xml_to_json_dataweave
+      - action: utter_transform_xml_to_json_dataweave
+
+  - rule: Gerar payload customizado com DataWeave
+    steps:
+      - intent: generate_custom_payload_dataweave
+      - action: utter_generate_custom_payload_dataweave

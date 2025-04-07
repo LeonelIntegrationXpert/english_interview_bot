@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+  - intent: handle_missing_fields_dataweave
+    examples: |
+      # 🇧🇷 Português
+      - Como lidar com dados ausentes durante a transformação?
+      - O que fazer se um campo estiver ausente no payload?
+      - Como tratar campos que não existem?
+      - DataWeave como tratar campo faltando?
+      - Como garantir que o script não quebre com campo ausente?
+      - Como verificar se o campo existe no DataWeave?
+
+      # 🇺🇸 English
+      - How to handle missing fields in DataWeave?
+      - What happens if a field is missing in the payload?
+      - How do I avoid errors when a field is not present?
+      - DataWeave missing fields handling?
+      - How to check if a field exists in DataWeave?
+      - What to do when the field is not available?

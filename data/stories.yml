@@ -81,3 +81,23 @@ stories:
     steps:
       - intent: access_nonexistent_field_dataweave
       - action: utter_access_nonexistent_field_dataweave
+
+  - story: Resiliência com valores null no DataWeave
+    steps:
+      - intent: handle_null_values_dataweave
+      - action: utter_handle_null_values_dataweave
+
+  - story: Como tratar campos ausentes no DataWeave
+    steps:
+      - intent: handle_missing_fields_dataweave
+      - action: utter_handle_missing_fields_dataweave
+
+  - story: Conversão XML para JSON com DataWeave
+    steps:
+      - intent: transform_xml_to_json_dataweave
+      - action: utter_transform_xml_to_json_dataweave
+
+  - story: Criar payload customizado com campos fixos e input
+    steps:
+      - intent: generate_custom_payload_dataweave
+      - action: utter_generate_custom_payload_dataweave

@@ -1,0 +1,34 @@
+responses:
+  utter_handle_null_values_dataweave:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🛡️ *Como tornar o script resiliente a valores `null`?*  
+                Para evitar erros no DataWeave causados por valores nulos, é importante aplicar boas práticas de **tratamento preventivo**:
+                ✅ **1. Usar o operador `default`**  
+                Substitui o valor `null` por um valor seguro.  
+                Ex: `payload.nome default "Desconhecido"`
+                ✅ **2. Verificação com `if`, `when`, `is`, `!= null`**  
+                Impede que funções sejam aplicadas em `null`.  
+                Ex: `if (payload.valor != null) upper(payload.valor)`
+                ✅ **3. Funções como `coalesce()`**  
+                Retorna o primeiro valor não-nulo da lista.  
+                Ex: `coalesce(payload.a, payload.b, "vazio")`
+                ✅ **Resumo:**  
+                A chave está em **verificar antes de aplicar funções** e sempre garantir um valor alternativo para evitar falhas de tempo de execução.
+
+            - vr_en: |
+                🛡️ *How to make your DataWeave script resilient to `null` values?*  
+                To avoid runtime errors caused by `null`, follow these good practices for **defensive scripting**:
+                ✅ **1. Use the `default` operator**  
+                Replaces `null` with a safe fallback value.  
+                Ex: `payload.name default "Unknown"`
+                ✅ **2. Check with `if`, `when`, `is`, or `!= null`**  
+                Prevents functions from being applied to `null`.  
+                Ex: `if (payload.value != null) upper(payload.value)`
+                ✅ **3. Use `coalesce()`**  
+                Returns the first non-null value.  
+                Ex: `coalesce(payload.a, payload.b, "empty")`
+                ✅ **Summary:**  
+                The key is to **check before using a value** and always provide a fallback to avoid breaking the flow at runtime.

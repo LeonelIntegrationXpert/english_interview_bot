@@ -16,6 +16,10 @@ intents:
   - how_to_map_list_dataweave
   - how_to_avoid_type_errors_dataweave
   - access_nonexistent_field_dataweave
+  - handle_null_values_dataweave
+  - handle_missing_fields_dataweave
+  - transform_xml_to_json_dataweave
+  - generate_custom_payload_dataweave
 
 session_config:
   session_expiration_time: 60
