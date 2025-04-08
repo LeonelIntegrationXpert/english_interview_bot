@@ -1,15 +1,19 @@
 Você é um especialista em NLP treinando intents para um chatbot no Rasa.
 
-Seu objetivo é gerar uma intent com exatamente 100 exemplos de frases de usuário, mantendo um único tópico bem definido, sem misturar outros assuntos.  
-Todos os exemplos devem ser frases que uma pessoa poderia digitar em português ou inglês com naturalidade, incluindo erros comuns e informalidades, sempre respeitando o escopo da pergunta original.
+Sua missão é gerar **exatamente 100 frases de exemplo** que representem variações naturais de uma **única pergunta específica**, mantendo **foco absoluto em apenas um tópico por intent**.
 
 ---
 
-🧠 EXEMPLO DE INTENT BEM DEFINIDA:
+🎯 OBJETIVO:
+Criar uma intent robusta, com 100 variações naturais que um usuário real poderia digitar — sem abrir espaço para subtemas, frases genéricas ou interpretações múltiplas. O resultado será usado para treinar um modelo de compreensão de linguagem natural (NLU) no Rasa.
 
-Tópico: Como acessar metadata de payloads dentro de um script?
+---
 
-Exemplos válidos:
+✅ EXEMPLO DE INTENT BEM DEFINIDA:
+
+**Tópico**: Como acessar metadata de payloads dentro de um script?
+
+**Exemplos válidos:**
 - Como acessar metadata de payloads dentro de um script?
 - É possível pegar o metadado de um payload no script?
 - O metadado é acessível dentro do payload?
@@ -19,33 +23,81 @@ Exemplos válidos:
 - Consigo extrair metadata direto no DataWeave?
 - como ve metadado dentro do payload dw?
 - e se o payload for nulo, o metadata ainda aparece?
-- da pra puxar os metadados do input no dw?
-- tem como acessar os metadados de forma dinamica?
 - what’s the way to read payload metadata in script?
 - is metadata available from inside a DataWeave script?
 
-⚠️ Exemplo de frase que **NÃO** deve ser incluída:
-❌ Dá para acessar informações extras do payload? → Isso já abre escopo para outro tipo de pergunta.
+---
+
+❌ Exemplos inválidos (não devem ser incluídos):
+
+> Estas frases fogem do tópico original ou introduzem subtemas. Mesmo que pareçam semelhantes, elas representam **outras intenções** e devem ser tratadas em intents separadas.
+
+- ❌ Dá para acessar informações extras do payload?  
+  *(fala sobre "informações extras", que pode incluir dados do corpo, headers, etc.)*
+
+- ❌ Como saber o tipo do payload?  
+  *(abre um novo tópico sobre "tipo", não necessariamente sobre metadata)*
+
+- ❌ Como acessar headers no MuleSoft?  
+  *(introduz outro elemento do contexto do fluxo, que são os headers)*
+
+- ❌ Dá pra logar o payload inteiro no script?  
+  *(muda o foco para logging e não metadata)*
+
+- ❌ Como extrair dados do payload JSON?  
+  *(intenção relacionada a extração de conteúdo, não metadata)*
+
+- ❌ O DataWeave permite validar estrutura do payload?  
+  *(introduz o conceito de validação de schema, diferente de acessar metadata)*
+
+- ❌ Como transformar um XML em JSON usando DataWeave?  
+  *(esse é um processo de transformação, não de acesso ao metadata)*
+
+- ❌ Como lidar com payloads nulos no script DW?  
+  *(foco está no tratamento de nulos, não em acessar metadata)*
+
+- ❌ Qual a diferença entre input e metadata no MuleSoft?  
+  *(essa frase compara conceitos e foge da intenção principal)*
 
 ---
 
-📏 Regras obrigatórias para o resultado:
+📏 REGRAS OBRIGATÓRIAS:
 
-1. Gere exatamente 200 frases, nem mais, nem menos.
-2. Use cerca de 50% das frases em português e 50% em inglês.
-3. Mantenha o foco **100% em uma única pergunta**. Todas as variações devem significar a mesma intenção.
-4. Inclua no mínimo 25 frases com **erros gramaticais, ortográficos ou abreviações naturais**.
-5. Varie a forma de perguntar (curta, longa, formal, informal, direta, indireta).
-6. Não use frases genéricas ou sem contexto.
-7. Não adicione sufixos como `teste1`, `var2`, nem comentários `#`.
-8. Use o seguinte formato YAML:
+1. Gere **exatamente 100 frases**, nem mais, nem menos.
+2. Use cerca de **50% das frases em português (🇧🇷)** e **50% em inglês (🇺🇸)**.
+3. Todas as frases devem ser variações **da mesma intenção única e específica**.
+4. **Não inclua frases que abram subtemas**, como:
+   - headers
+   - transformação de dados
+   - tipos de payload
+   - tratamento de erro ou null
+   - logging
+5. Inclua no mínimo **25 frases com erros ortográficos, abreviações ou informalidades**, como:
+   - "como ve o metadata no dw?"
+   - "da pra pegar o tipo do payload?"
+   - "dw acessa metadado?"
+
+6. Varie os estilos:
+   - Curtas, longas, formais, informais, diretas, indiretas.
+7. Evite duplicatas semânticas (ex: não inclua 3 frases que significam o mesmo com mínimas alterações).
+8. Mantenha **nível técnico balanceado**: sem exageros nos jargões nem simplificações exageradas.
+9. Não use frases sem contexto ("me explica isso aí?") nem frases robóticas.
+10. Não adicione sufixos como `teste1`, `var2`, nem comentários `#`.
+
+---
+
+📦 FORMATO DE SAÍDA YAML (Rasa 3.1):
 
 ```yaml
 version: "3.1"
 
 nlu:
-  - intent: access_metadata_payload
+  - intent: NOME_DA_INTENT
     examples: |
       # 🇧🇷 Português
-
+      - ...
+      - ...
+      
       # 🇺🇸 English
+      - ...
+      - ...
