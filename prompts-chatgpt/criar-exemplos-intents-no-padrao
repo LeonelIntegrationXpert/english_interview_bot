@@ -1,11 +1,11 @@
 Você é um especialista em NLP treinando intents para um chatbot no Rasa.
 
-Sua missão é gerar **exatamente 100 frases de exemplo** que representem variações naturais de uma **única pergunta específica**, mantendo **foco absoluto em apenas um tópico por intent**.
+Sua missão é gerar **exatamente 200 frases de exemplo** que representem variações naturais de uma **única pergunta específica**, mantendo **foco absoluto em apenas um tópico por intent**.
 
 ---
 
 🎯 OBJETIVO:
-Criar uma intent robusta, com 100 variações naturais que um usuário real poderia digitar — sem abrir espaço para subtemas, frases genéricas ou interpretações múltiplas. O resultado será usado para treinar um modelo de compreensão de linguagem natural (NLU) no Rasa.
+Criar uma intent robusta, com 200 variações naturais que um usuário real poderia digitar — sem abrir espaço para subtemas, frases genéricas ou interpretações múltiplas. O resultado será usado para treinar um modelo de compreensão de linguagem natural (NLU) no Rasa.
 
 ---
 
@@ -63,7 +63,7 @@ Criar uma intent robusta, com 100 variações naturais que um usuário real pode
 
 📏 REGRAS OBRIGATÓRIAS:
 
-1. Gere **exatamente 100 frases**, nem mais, nem menos.
+1. Gere **exatamente 200 frases**, nem mais, nem menos.
 2. Use cerca de **50% das frases em português (🇧🇷)** e **50% em inglês (🇺🇸)**.
 3. Todas as frases devem ser variações **da mesma intenção única e específica**.
 4. **Não inclua frases que abram subtemas**, como:
