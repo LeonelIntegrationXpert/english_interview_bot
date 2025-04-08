@@ -4,16 +4,192 @@ nlu:
   - intent: access_nonexistent_field_dataweave
     examples: |
       # 🇧🇷 Português
-      - O que acontece se eu acessar um campo que não existe no DataWeave?
-      - E se o campo não existir, o que acontece?
-      - DataWeave acessando campo inexistente, o que dá?
-      - Como o DataWeave lida com campo que não existe?
-      - Se eu tentar acessar algo que não existe no payload?
-      - E se o campo estiver faltando?
+      - Como acessar um campo que não existe no payload usando DataWeave?
+      - É possível puxar um campo que não tá no payload com DW?
+      - O que acontece se eu tentar acessar um campo que não existe no DW?
+      - Dá pra acessar campo inexistente no payload com DataWeave?
+      - Posso acessar um atributo que não tá no JSON?
+      - O DW quebra se eu puxar campo que não existe?
+      - Tem como evitar erro quando campo não existe no DW?
+      - DataWeave consegue lidar com campos que não existem?
+      - Como o DataWeave trata campos ausentes?
+      - E se o campo não estiver no payload, o DW dá erro?
+      - Dá erro se tentar acessar um campo não definido?
+      - Como acessar um campo opcional no DW?
+      - Se o campo não estiver presente, como tratar no script DW?
+      - Como pegar um campo que talvez não exista no input?
+      - Dá pra acessar atributo que pode estar ausente?
+      - Preciso verificar se campo existe antes de acessar?
+      - Como evitar crash se o campo não vier no payload?
+      - Campo não existe e deu erro no DataWeave, o que faço?
+      - É obrigatório existir o campo pra acessar no DW?
+      - Dá pra acessar campo inexistente sem erro?
+      - O DW ignora campo ausente ou quebra?
+      - como acesso campo q n tem no payload?
+      - e se o campo q quero pegar n existe?
+      - dw reclama se campo n exister?
+      - como previnir erro qnd campo n vem?
+      - tem jeit de puxar campo faltando sem dar ruim?
+      - posso usar default se campo n tiver?
+      - campo ausente da erro no dw?
+      - precisa validar campo antes de acessar no dw?
+      - campo faltando gera exceção no DW?
+      - posso usar if pra ver se campo existe?
+      - posso fazer checagem de campo nulo no DW?
+      - como faço acesso seguro a campo opcional?
+      - como lidar com campos inexistentes no json?
+      - da pra tratar campo opcional com dw?
+      - qual sintaxe pra acessar campo que talvez não exista?
+      - dw acessa campo vazio?
+      - como saber se o campo vem no payload?
+      - payload sem campo quebra DW?
+      - posso acessar um campo mesmo sem ele existir?
+      - o DW retorna null se campo não existir?
+      - é possível prevenir erro ao acessar campo ausente?
+      - como fazer fallback de valor se campo não existir?
+      - consigo acessar campo opcional no input do DW?
+      - e se o campo não tiver vindo no payload?
+      - como tratar quando o campo some do JSON?
+      - como capturar campo inexistente sem erro?
+      - acesso de campo ausente gera null ou exception?
+      - qual a melhor prática pra campo que não existe?
+      - como proteger script DW de campos que não existem?
+      - como lidar com dados ausentes no payload?
+      - acesso opcional no DW é seguro?
+      - tem operador de segurança pra acessar campo?
+      - acesso com ? funciona se campo não tiver?
+      - uso safe navigation pra campo que não existe?
+      - qual operador usar pra acessar campo que pode não vir?
+      - campo inexistente pode quebrar o fluxo?
+      - é melhor validar antes ou tentar acessar direto?
+      - dá pra combinar default com campo ausente?
+      - como tratar isso com if no DW?
+      - posso logar se o campo existir e ignorar se não?
+      - preciso checar existência do campo toda hora?
+      - tem como evitar erro se campo não existir no script?
+      - dá pra deixar o acesso ao campo mais tolerante?
+      - e se for um array que não vem?
+      - como acessar item que pode não estar no JSON?
+      - dw acessa campo com valor null igual?
+      - campo null é igual a inexistente no DW?
+      - e se o campo for undefined?
+      - o que DW retorna se campo não existir?
+      - como saber se um campo existe de forma segura?
+      - dá pra acessar campo que só vem em alguns casos?
+      - dá pra acessar campo sem validar antes?
+      - campo opcional precisa de tratamento especial?
+      - acesso de campo opcional precisa de if?
+      - consigo usar "?" pra evitar erro no DW?
+      - qual melhor forma de acessar campo q talvez n exista?
+      - como usar default se campo for ausente?
+      - posso usar defaultValue pra campo que não vem?
+      - o que acontece se campo estiver ausente no payload?
+      - é seguro acessar um campo que pode não existir?
+      - tem como saber se campo está presente no payload?
+      - payload sem campo = erro?
+      - se campo não existir, posso atribuir outro valor?
+      - como colocar valor padrão se campo for ausente?
+      - consigo checar se campo tá no payload no DW?
+      - dw aceita acessar campo inexistente com fallback?
+      - posso acessar campo direto mesmo sem saber se vem?
+      - preciso sempre verificar se o campo tá lá?
+      - como o DW trata acesso a campos ausentes?
+      - campo que não vem sempre quebra script?
+      - acesso nulo no DW precisa tratamento?
+      - posso usar operador ternário pro campo opcional?
+      - acesso de campo opcional tem sintaxe especial?
 
       # 🇺🇸 English
-      - What happens if I access a field that doesn't exist in DataWeave?
-      - What does DataWeave do when a field is missing?
-      - How does DataWeave handle missing fields?
-      - Accessing a nonexistent field in DataWeave — what happens?
-      - What if the field is not present in the input?
+      - How can I access a field that doesn’t exist in the payload?
+      - Is it safe to access a non-existent field in DataWeave?
+      - What happens if I try to access a missing field?
+      - Will DW throw an error if the field is not present?
+      - How to handle optional fields in DW?
+      - Can I access a field even if it's not there?
+      - What if the field I'm trying to get doesn't exist?
+      - Does DW support safe access for missing fields?
+      - How to avoid an error when a field is missing?
+      - Is null the result when a field doesn’t exist in DW?
+      - DW gives error for undefined field?
+      - can i get field if not exist?
+      - dw crash if field not there?
+      - how 2 access optional field safely?
+      - what if json doesnt have the field?
+      - missing field in payload = exception?
+      - access field that might be missing in DW?
+      - how to prevent crash if field absent?
+      - what’s DW behavior for nonexistent field?
+      - is there safe way to access field in DW?
+      - does ? operator help if field not found?
+      - how to access maybe field in dataweave?
+      - can I provide default if field is absent?
+      - how do I return fallback if no field?
+      - is it ok to access field without checking?
+      - do I always need to check field exists?
+      - DW optional field syntax?
+      - can DW read field that’s not always in input?
+      - can I use null-coalescing for missing fields?
+      - field not coming, what to do in DW?
+      - missing key causes error in DW?
+      - how to use default if field not in payload?
+      - is safe navigation supported in DW?
+      - DW allows undefined field read?
+      - how to detect if a field exists in DW?
+      - does DW return null or error for missing field?
+      - how to use optional chaining in DataWeave?
+      - what is best practice for optional fields?
+      - can we log missing field without crash?
+      - if field is missing, can we skip it?
+      - DW and undefined fields — how it behaves?
+      - does DW accept field access with default?
+      - DW throws error if field undefined?
+      - how to treat optional fields in JSON with DW?
+      - DW return null or crash for missing field?
+      - if field not exists, assign default?
+      - DW exception on missing fields?
+      - missing fields require validation first?
+      - can I ignore missing fields in DW script?
+      - how to write safe expression for field access?
+      - how to avoid breaking if field not in input?
+      - DW supports fallback value for missing key?
+      - DW field lookup fails silently or throws?
+      - DW payload missing field = null?
+      - DW null vs undefined field access?
+      - do I need to wrap optional fields in condition?
+      - should I use if to check field in payload?
+      - how to avoid accessing absent field?
+      - what’s best DW way to deal with absent field?
+      - do I have to map before accessing a field?
+      - is DW tolerant with missing field access?
+      - how to access field if might be null?
+      - if field is missing, will DW return null?
+      - DW optional access syntax?
+      - is DW field access nullable?
+      - do we need try-catch for missing fields?
+      - is field?.value syntax valid in DW?
+      - how to combine field access with fallback?
+      - DW safe access to possibly missing field?
+      - how to access field only if it exists?
+      - does DW check field before access?
+      - DW treat missing field like null?
+      - what’s the way to test if field exists?
+      - can I use defaultValue if field is not there?
+      - DW conditional for non-existent field?
+      - DW throws error for missing key?
+      - is there a way to bypass error if key missing?
+      - should I check every field before using?
+      - DW field access with safety?
+      - DW check if key exists before accessing?
+      - what syntax to prevent error if no field?
+      - DW try field access or return fallback?
+      - can I avoid exception on missing fields?
+      - how to build robust DW script with optional fields?
+      - do I validate all fields before mapping in DW?
+      - DW expression for checking field existence?
+      - can we handle field absence gracefully?
+      - DW supports optional chaining like JS?
+      - how DW behaves when field not in payload?
+      - does DW fail when field is not there?
+      - DW throws exception for absent fields?
+      - how to gracefully skip missing field in DW?
+      - what happens if key doesn’t exist in DW?

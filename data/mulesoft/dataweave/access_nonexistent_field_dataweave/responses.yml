@@ -4,27 +4,7 @@ responses:
         response_array:
           -
             - vr_pt: |
-                ⚠️ *O que acontece se acessar um campo inexistente no DataWeave?*  
-                Se você tentar acessar um campo que **não existe** no `payload`, o **DataWeave retorna `null` por padrão**, sem gerar erro imediatamente.
-                📌 **Exemplos comuns:**  
-                - `payload.nome` retorna `null` se `nome` não estiver presente.  
-                - Isso pode causar erros se você tentar aplicar funções em `null`, como `upper(null)`.
-                🛡️ **Boas práticas:**  
-                - Use `default` para garantir um valor alternativo:  
-                  `payload.nome default "Desconhecido"`  
-                - Use `if` ou `is` para verificar se o campo existe antes de usá-lo.
-                ✅ *Resumo:*  
-                Acessar campos inexistentes não quebra o código, mas **exige cuidado com valores nulos** para evitar falhas em etapas seguintes.
+                Quando tentamos acessar um campo que não existe no payload usando DataWeave, o comportamento padrão é retornar `null`. O script não quebra, desde que esse acesso seja feito de forma segura, utilizando operadores como `?` ou combinando com funções de fallback, como `default`. Isso é especialmente útil em casos em que o campo é opcional ou pode não estar presente em todas as chamadas. Também é possível verificar se o campo existe antes de acessá-lo com expressões condicionais simples. Esse tipo de abordagem ajuda a evitar exceções e torna o fluxo mais resiliente.
 
             - vr_en: |
-                ⚠️ *What happens if you access a nonexistent field in DataWeave?*  
-                If you try to access a field that **doesn’t exist** in the `payload`, **DataWeave returns `null` by default**, without throwing an error immediately.
-                📌 **Typical examples:**  
-                - `payload.name` returns `null` if `name` is not present.  
-                - Applying functions like `upper(null)` may cause errors.
-                🛡️ **Best practices:**  
-                - Use `default` to ensure a fallback value:  
-                  `payload.name default "Unknown"`  
-                - Use `if` or `is` to check if the field exists before using it.
-                ✅ *Summary:*  
-                Accessing missing fields doesn’t break the flow, but **handling `null` properly is essential** to prevent runtime issues later.
+                When we try to access a field that doesn't exist in the payload using DataWeave, the default behavior is to return `null`. The script won't break as long as the access is done safely, using operators like `?` or combining it with fallback functions like `default`. This is especially useful when the field is optional or may not be present in every request. You can also check for the field’s existence before accessing it using simple conditional expressions. This approach helps prevent exceptions and makes the flow more resilient.
