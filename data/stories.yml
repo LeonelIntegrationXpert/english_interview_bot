@@ -1,124 +1,114 @@
 version: '3.1'
 stories:
-- story: Saudação inicial
-  steps:
-  - intent: greet
-  - action: utter_greet
-- story: Explicação sobre a MuleSoft
-  steps:
-  - intent: explain_mulesoft
-  - action: utter_explain_mulesoft
-- story: Saudação e explicação sobre DataWeave
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: explain_dataweave
-  - action: utter_explain_dataweave
-- story: Explicação sobre a diferença entre map e mapObject
-  steps:
-  - intent: explain_map_vs_mapobject
-  - action: utter_explain_map_vs_mapobject
-- story: Explicação sobre as camadas do API-led
-  steps:
-  - intent: explain_api_led
-  - action: utter_explain_api_led_layers_connection
-- story: Usuário pergunta como mapear com DataWeave
-  steps:
-  - intent: how_to_map_dataweave
-  - action: utter_how_to_map_dataweave
-- story: Diferença entre DataWeave 1.0 e 2.0
-  steps:
-  - intent: difference_dataweave_versions
-  - action: utter_difference_dataweave_versions
-- story: História explicando uso de map e filter
-  steps:
-  - intent: map_vs_filter_usage
-  - action: utter_map_vs_filter_usage
-- story: Explicação sobre objetos aninhados
-  steps:
-  - intent: extract_values_nested_object
-  - action: utter_extract_values_nested_object
-- story: Criar função personalizada no DataWeave
-  steps:
-  - intent: create_custom_function_dataweave
-  - action: utter_create_custom_function_dataweave
-- story: Quais tipos de dados o DataWeave suporta
-  steps:
-  - intent: supported_data_types_dataweave
-  - action: utter_supported_data_types_dataweave
-- story: Explicação da diretiva output application/json
-  steps:
-  - intent: purpose_output_application_json
-  - action: utter_purpose_output_application_json
-- story: Explicação sobre como mapear listas no DataWeave
-  steps:
-  - intent: how_to_map_list_dataweave
-  - action: utter_how_to_map_list_dataweave
-- story: Evitar erros de tipo no DataWeave
-  steps:
-  - intent: how_to_avoid_type_errors_dataweave
-  - action: utter_how_to_avoid_type_errors_dataweave
-- story: Acesso a campo que não existe no DataWeave
-  steps:
-  - intent: access_nonexistent_field_dataweave
-  - action: utter_access_nonexistent_field_dataweave
-- story: Resiliência com valores null no DataWeave
-  steps:
-  - intent: handle_null_values_dataweave
-  - action: utter_handle_null_values_dataweave
-- story: Como tratar campos ausentes no DataWeave
-  steps:
-  - intent: handle_missing_fields_dataweave
-  - action: utter_handle_missing_fields_dataweave
-- story: Conversão XML para JSON com DataWeave
-  steps:
-  - intent: transform_xml_to_json_dataweave
-  - action: utter_transform_xml_to_json_dataweave
-- story: Criar payload customizado com campos fixos e input
-  steps:
-  - intent: generate_custom_payload_dataweave
-  - action: utter_generate_custom_payload_dataweave
-- story: Exemplo real de lógica complexa no DataWeave
-  steps:
-  - intent: complex_dataweave_logic_example
-  - action: utter_complex_dataweave_logic_example
-- story: Conversão de CSV em objeto no DataWeave
-  steps:
-  - intent: convert_csv_to_object
-  - action: utter_convert_csv_to_object
-- story: Funções recursivas com DataWeave
-  steps:
-  - intent: explain_recursive_functions
-  - action: utter_explain_recursive_functions
-- story: Otimização de performance em DataWeave
-  steps:
-  - intent: optimize_dataweave_large_data
-  - action: utter_optimize_dataweave_large_data
-- story: Acesso a metadata do payload
-  steps:
-  - intent: access_metadata_payload
-  - action: utter_access_metadata_payload
-- story: Explicação sobre :type vs String format
-  steps:
-  - intent: difference_type_format_string
-  - action: utter_difference_type_format_string
-- story: Uso de bibliotecas externas no DataWeave
-  steps:
-  - intent: use_external_modules_dataweave
-  - action: utter_use_external_modules_dataweave
-- story: Conversão de string para número no DataWeave
-  steps:
-  - intent: string_to_number_dataweave
-  - action: utter_string_to_number_dataweave
-- story: Formatação de data para dd/MM/yyyy
-  steps:
-  - intent: format_date_ddmmyyyy
-  - action: utter_format_date_ddmmyyyy
-- story: Conversão de payload para base64
-  steps:
-  - intent: encode_payload_base64
-  - action: utter_encode_payload_base64
-- story: Parsing de XML/HTML com DataWeave
-  steps:
-  - intent: parse_html_xml_dataweave
-  - action: utter_parse_html_xml_dataweave
+  - story: storie_access_metadata_payload
+    steps:
+      - intent: access_metadata_payload
+      - action: utter_access_metadata_payload
+  - story: storie_access_nonexistent_field_dataweave
+    steps:
+      - intent: access_nonexistent_field_dataweave
+      - action: utter_access_nonexistent_field_dataweave
+  - story: storie_complex_dataweave_logic_example
+    steps:
+      - intent: complex_dataweave_logic_example
+      - action: utter_complex_dataweave_logic_example
+  - story: storie_convert_csv_to_object
+    steps:
+      - intent: convert_csv_to_object
+      - action: utter_convert_csv_to_object
+  - story: storie_create_custom_function_dataweave
+    steps:
+      - intent: create_custom_function_dataweave
+      - action: utter_create_custom_function_dataweave
+  - story: storie_difference_dataweave_versions
+    steps:
+      - intent: difference_dataweave_versions
+      - action: utter_difference_dataweave_versions
+  - story: storie_difference_type_format_string
+    steps:
+      - intent: difference_type_format_string
+      - action: utter_difference_type_format_string
+  - story: storie_encode_payload_base64
+    steps:
+      - intent: encode_payload_base64
+      - action: utter_encode_payload_base64
+  - story: storie_explain_dataweave
+    steps:
+      - intent: explain_dataweave
+      - action: utter_explain_dataweave
+  - story: storie_explain_map_vs_mapobject
+    steps:
+      - intent: explain_map_vs_mapobject
+      - action: utter_explain_map_vs_mapobject
+  - story: storie_explain_recursive_functions
+    steps:
+      - intent: explain_recursive_functions
+      - action: utter_explain_recursive_functions
+  - story: storie_extract_values_nested_object
+    steps:
+      - intent: extract_values_nested_object
+      - action: utter_extract_values_nested_object
+  - story: storie_format_date_ddmmyyyy
+    steps:
+      - intent: format_date_ddmmyyyy
+      - action: utter_format_date_ddmmyyyy
+  - story: storie_generate_custom_payload_dataweave
+    steps:
+      - intent: generate_custom_payload_dataweave
+      - action: utter_generate_custom_payload_dataweave
+  - story: storie_handle_missing_fields_dataweave
+    steps:
+      - intent: handle_missing_fields_dataweave
+      - action: utter_handle_missing_fields_dataweave
+  - story: storie_handle_null_values_dataweave
+    steps:
+      - intent: handle_null_values_dataweave
+      - action: utter_handle_null_values_dataweave
+  - story: storie_how_to_avoid_type_errors_dataweave
+    steps:
+      - intent: how_to_avoid_type_errors_dataweave
+      - action: utter_how_to_avoid_type_errors_dataweave
+  - story: storie_how_to_map_dataweave
+    steps:
+      - intent: how_to_map_dataweave
+      - action: utter_how_to_map_dataweave
+  - story: storie_how_to_map_list_dataweave
+    steps:
+      - intent: how_to_map_list_dataweave
+      - action: utter_how_to_map_list_dataweave
+  - story: storie_map_vs_filter_usage
+    steps:
+      - intent: map_vs_filter_usage
+      - action: utter_map_vs_filter_usage
+  - story: storie_optimize_dataweave_large_data
+    steps:
+      - intent: optimize_dataweave_large_data
+      - action: utter_optimize_dataweave_large_data
+  - story: storie_parse_html_xml_dataweave
+    steps:
+      - intent: parse_html_xml_dataweave
+      - action: utter_parse_html_xml_dataweave
+  - story: storie_purpose_output_application_json
+    steps:
+      - intent: purpose_output_application_json
+      - action: utter_purpose_output_application_json
+  - story: storie_string_to_number_dataweave
+    steps:
+      - intent: string_to_number_dataweave
+      - action: utter_string_to_number_dataweave
+  - story: storie_supported_data_types_dataweave
+    steps:
+      - intent: supported_data_types_dataweave
+      - action: utter_supported_data_types_dataweave
+  - story: storie_transform_xml_to_json_dataweave
+    steps:
+      - intent: transform_xml_to_json_dataweave
+      - action: utter_transform_xml_to_json_dataweave
+  - story: storie_truncate_number_dataweave
+    steps:
+      - intent: truncate_number_dataweave
+      - action: utter_truncate_number_dataweave
+  - story: storie_use_external_modules_dataweave
+    steps:
+      - intent: use_external_modules_dataweave
+      - action: utter_use_external_modules_dataweave
