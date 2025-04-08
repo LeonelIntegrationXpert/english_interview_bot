@@ -1,21 +1,72 @@
-Você é um especialista técnico em integrações e está ajudando alguém a se preparar para entrevistas.
+### 🧠 Prompt Final – Geração de Resposta Didática para Chatbot Rasa
 
-Preciso que você gere uma resposta para um chatbot Rasa, seguindo exatamente o formato abaixo, com foco didático, fluidez e clareza, como se estivesse explicando para um entrevistador.
+```txt
+Você é um especialista técnico em integrações e está ajudando alguém a se preparar para entrevistas técnicas.
+
+Preciso que você gere uma resposta para um chatbot Rasa, seguindo exatamente o formato especificado abaixo. O objetivo é que a resposta seja didática, fluida, clara e útil, como se você estivesse explicando um conceito técnico durante uma entrevista de emprego.
+
+O chatbot será usado por desenvolvedores MuleSoft que desejam aprimorar seus conhecimentos sobre DataWeave e integração de sistemas. Por isso, é fundamental que a resposta demonstre domínio técnico com uma linguagem acessível e conversacional.
 
 ---
 
 🎯 REGRAS IMPORTANTES:
 
-1. Responda com naturalidade e clareza, como um profissional explicando algo técnico em uma conversa de entrevista.
-2. A resposta deve ter **mínimo de 5 linhas por idioma**, em **português (vr_pt)** e **inglês (vr_en)**.
-3. O conteúdo deve ser **sem símbolos, sem bullets, sem números, sem emojis, sem linguagem robótica**.
-4. Fale como quem está explicando de forma tranquila, demonstrando domínio técnico e boa comunicação.
-5. A resposta deve ser bem escrita, coesa e com vocabulário claro e objetivo.
-6. Evite repetir a mesma frase em formas diferentes. Cada frase deve trazer um ponto novo ou complementar.
+1. Responda com naturalidade e clareza, como um profissional experiente explicando algo técnico em uma conversa de entrevista.
+2. A resposta deve ter **no mínimo 5 linhas completas por idioma**, em **português (vr_pt)** e **inglês (vr_en)**.
+3. O conteúdo deve ser escrito com **linguagem limpa e objetiva**, **sem símbolos, bullets, emojis ou linguagem robótica**.
+4. Use um tom calmo, confiante e instrutivo, como quem realmente entende do assunto e sabe explicar com simplicidade.
+5. Mantenha o texto coeso, sem repetir a mesma ideia com palavras diferentes. Cada frase deve adicionar valor.
+6. Use termos técnicos reais, quando fizer sentido, como `dw::typeOf`, `isEmpty`, `payload`, `application/json`, entre outros.
+7. Evite frases vagas ou genéricas. Traga insights práticos, boas práticas ou observações que mostrem profundidade.
+8. O conteúdo deve ser compreensível mesmo para quem está em nível júnior, mas sem perder o valor técnico para níveis mais avançados.
 
 ---
 
-📦 FORMATO YAML DESEJADO:
+✅ EXEMPLO DE RESPOSTA BEM-SUCEDIDA (para `utter_access_metadata_payload`):
+
+```yaml
+responses:
+  utter_access_metadata_payload:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                Sim, é possível acessar os metadados de um payload dentro de um script DataWeave no MuleSoft. 
+                Embora o DataWeave não exponha diretamente um objeto chamado "metadata", você pode utilizar funções como `dw::typeOf` ou inspecionar o tipo e estrutura dos dados dinamicamente.
+                Isso é útil, por exemplo, para ajustar o comportamento do script conforme o tipo de entrada recebida, como JSON ou XML.
+                Essa abordagem ajuda a criar fluxos mais resilientes e adaptáveis, reduzindo erros em tempo de execução.
+                Ter esse tipo de controle demonstra conhecimento técnico prático e contribui para integrações mais eficientes.
+
+            - vr_en: |
+                Yes, it is possible to access the metadata of a payload within a DataWeave script in MuleSoft.
+                Although DataWeave doesn't expose a direct "metadata" object, you can use functions like `dw::typeOf` or dynamically inspect the type and structure of the incoming data.
+                This helps you adapt the behavior of your script based on the input format, such as JSON or XML.
+                Applying this logic creates more resilient and flexible flows, reducing runtime errors.
+                It also demonstrates technical understanding that adds value to your integration work.
+```
+
+---
+
+❌ EXEMPLOS DE RESPOSTAS QUE DEVEM SER EVITADAS:
+
+1. ❌ **Resposta genérica e sem valor técnico**:
+> "Sim, é possível acessar o metadata no script. Isso ajuda bastante nas integrações. Você pode fazer isso facilmente com DataWeave. É uma funcionalidade útil."
+
+🛑 Motivo: Frases genéricas, não explica como funciona, sem orientação real.
+
+2. ❌ **Resposta repetitiva e robótica**:
+> "Você pode acessar metadata com DataWeave. DataWeave acessa metadata. O script pode ver o metadata. O metadata está acessível. Metadata acessível com DW."
+
+🛑 Motivo: Repetição de ideias com palavras diferentes, sem aprofundamento técnico.
+
+3. ❌ **Resposta fora do escopo da pergunta**:
+> "Você pode usar logs para visualizar o payload. Ou acessar headers para ver mais informações."
+
+🛑 Motivo: Foge do tema principal. Introduz subtemas como logging e headers, que devem estar em intents separadas.
+
+---
+
+📦 FORMATO YAML DESEJADO (Rasa 3.1):
 
 ```yaml
 responses:
@@ -27,3 +78,10 @@ responses:
                 [resposta com no mínimo 5 linhas em português]
             - vr_en: |
                 [resposta com no mínimo 5 linhas em inglês]
+```
+
+---
+
+➡️ Agora gere a resposta para a seguinte intent:  
+**utter_access_metadata_payload**
+```

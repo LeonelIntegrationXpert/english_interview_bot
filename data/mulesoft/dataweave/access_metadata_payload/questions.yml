@@ -4,210 +4,205 @@ nlu:
   - intent: access_metadata_payload
     examples: |
       # 🇧🇷 Português
-      - Como acessar metadata de payloads dentro de um script?
-      - Dá pra pegar o metadado do payload no script?
-      - Os metadados são visíveis dentro do DataWeave?
-      - Consigo acessar o metadata dentro do script?
-      - Tem como extrair metadata direto no DataWeave?
-      - Eu consigo ver os metadados de um payload usando DW?
-      - Queria saber como acessar os metadados do payload
-      - Dá pra puxar metadata no script DW?
-      - Onde eu vejo os metadados do payload?
-      - Tem metadado acessível quando uso script?
-      - como ve os metadado do payload dw?
-      - tem metadado nos payloads?
-      - metadata tá disponivel no script?
-      - script pode ler metadata do payload?
-      - é possível usar metadata dentro do código DW?
-      - os metadados são lidos junto com o payload?
-      - consigo acessar metadados automaticamente no dw?
-      - se o payload for nulo, o metadata ainda aparece?
-      - como puxar metadado de input no DW?
-      - como pega os metadado do input payload?
-      - dw mostra os metadata do payload?
-      - da pra ler os metadata dos payloads?
-      - script acessa os metadata do payload?
-      - os metadata vem junto no payload?
-      - os metadado são dinamicos ou fixo?
-      - como vejo metadata inline?
-      - consigo ver metadata direto no console?
-      - metadata é parte do payload no mule?
-      - é possível extrair os metadados no script?
-      - como inspecionar os metadata do payload?
-      - qual a forma de ver metadados no DW?
-      - da pra ver metadata com alguma função?
-      - precisa de lib pra acessar metadata?
-      - payload vem com metadado padrão?
-      - metadados aparecem no debugger do mule?
-      - quero saber como pegar os metadata
-      - como manipular metadata do payload?
-      - metadado vem com o payload input?
-      - dw reconhece metadados automaticamente?
-      - consigo logar os metadados com logger?
-      - dá pra mapear o metadata dentro do DW?
-      - como mostrar os metadados de um payload?
-      - qual a sintaxe pra acessar metadata?
-      - como faço pra ler metadata do input?
-      - metadata do payload precisa ser declarado?
-      - script do mule tem acesso aos metadados?
-      - payload traz os metadados automaticamente?
-      - onde encontro os metadata no DW?
-      - tem alguma função pra ler metadata?
-      - é possível enxergar metadados nos logs?
-      - consigo acessar o tipo do payload?
-      - os metadata são parte do tipo de dado?
-      - metadata e payload estão separados no DW?
-      - posso acessar metadata sem usar variables?
-      - metadados aparecem no transformation?
-      - posso acessar metadado sem configuração extra?
-      - onde o DW guarda os metadados?
-      - os metadados do payload são visíveis no console?
-      - tem como debugar os metadados?
-      - como faço pra enxergar o metadata no flow?
-      - metadata tá disponível por padrão?
-      - como obtenho o metadata do payload?
-      - tem como acessar metadado com expressão DW?
-      - payload carrega metadata por padrão?
-      - payload metadata é acessível com script simples?
-      - o script DW permite ler os metadados?
-      - se o input for vazio, metadata some?
-      - script pega os header como metadata?
-      - os atributos do payload são metadata?
-      - como vejo o tipo de dado do payload?
-      - como saber o tipo do payload dentro do DW?
-      - metadado pode ser lido via function?
-      - função customizada acessa metadata?
-      - como pegar os detalhes do metadata?
-      - da pra ver metadata com println?
-      - metadata e payload são mesmo objeto?
-      - consigo fazer um if com base no metadata?
-      - da pra ler metadata em qualquer parte do flow?
-      - preciso configurar algo pra metadata aparecer?
-      - metadata é igual em todos os payloads?
-      - dá pra usar metadata como condição?
-      - metadado vem antes ou depois do payload?
-      - como ler os atributos técnicos do payload?
-      - dw mostra os detalhes técnicos do payload?
-      - payload metadata é parte da definição do flow?
-      - se eu mudar o payload, muda o metadata?
-      - metadata é fixo ou depende do input?
-      - metadado do payload muda em runtime?
-      - dá pra acessar o tipo do arquivo vindo no payload?
-      - como saber o content-type do payload?
-      - tem como pegar o encoding do payload via metadata?
-      - é possível acessar o MIME type do payload?
-      - payload tem campo metadata disponível?
-      - tem como validar metadata antes do script?
-      - posso acessar metadata como uma variável DW?
-      - como vejo os headers do payload via script?
-      - é possível usar metadata pra debug?
-      - metadata é acessível via input vars?
-      - preciso de permissão pra ver metadados?
-      - metadata pode ser alterado no DW?
-      - metadata vem com estrutura JSON?
-      - como transformar metadata pra logar?
-      - os logs mostram metadata automaticamente?
-      - consigo ver metadata com set-payload?
+      - Como acessar os metadados do payload dentro de um script DataWeave?
+      - Qual a forma de acessar a metadata do payload em um script?
+      - É possível acessar os metadados do payload usando DataWeave?
+      - Como posso obter os metadados do payload pelo script?
+      - como ve o meta do payload no dw?
+      - No DataWeave, como consigo acessar os metadados do payload?
+      - Como acessar o metadata do payload utilizando script no MuleSoft?
+      - Existe uma forma de pegar os metadados do payload dentro do script?
+      - De que maneira consigo acessar a metadata de um payload via DataWeave?
+      - Como extrair os metadados do payload no script do DataWeave?
+      - Qual comando usa pra acessar os metadados do payload no script?
+      - como vizualisar os metadat do payload pelo script?
+      - Como acessar os metadados do payload em um script do MuleSoft?
+      - Poderia me informar como acessar metadata de payload pelo script?
+      - Existe modo de acessar os metadados do payload usando DataWeave?
+      - Qual é a sintaxe para acessar metadata de payload no DW?
+      - cm acessar os metadados do payload no script DW?
+      - Como é realizado o acesso aos metadados do payload dentro do script?
+      - Que função devo usar para acessar a metadata do payload?
+      - Como faço pra ver os metadados do payload via script DataWeave?
+      - Existe um método simples pra acessar o metadata de payload no DW?
+      - Como acesso os metadados do payload dentro de um script simples?
+      - Qual é a melhor forma de acessar a metadata dos payloads via DataWeave?
+      - posso pder acesar metadados do payload no dw?
+      - Como faço pra acessar os metadados dos payloads no DW?
+      - Qual comando do DataWeave permite acessar os metadados do payload?
+      - O script do DataWeave consegue acessar metadata de payload?
+      - Existe alguma função no DW que acesse os metadados do payload?
+      - Qual método utilizar para extrair metadata de payload no script?
+      - cm como axcessar os metadados do payload no script dw?
+      - Como consigo acessar a metadata do payload num script DataWeave?
+      - Me ensina como acessar os metadados do payload usando script?
+      - Qual a técnica para acessar a metadata de um payload em um script?
+      - DataWeave: como acessar os metadados do payload no script?
+      - De que maneira posso acessar metadata de payload dentro do script DW?
+      - como faz pra acssear os meta do payload no DW?
+      - Como faço para ter acesso aos metadados do payload no script?
+      - Como acessar a informação de metadata do payload via script no DW?
+      - Qual o processo para acessar os metadados do payload no MuleSoft?
+      - Como acessar metadata de payload usando código no DataWeave?
+      - me diz como acsessar metadado do payload no script dw?
+      - Como conseguir acessar os metadados do payload em um script?
+      - Como o DW permite acessar metadata de payload?
+      - Qual a abordagem para acessar os metadados do payload em um script DataWeave?
+      - Como posso ver os metadados do payload via script no MuleSoft?
+      - Pode me dizer como acessar metadata de payload dentro de um script DW?
+      - Qual é o comando para acessar metadados do payload no script do DataWeave?
+      - Como acessar os metadados do payload via código script no DW?
+      - Existe uma instrução para acessar metadata de payload no DataWeave?
+      - como peg o meta do payload no dw?
+      - Como fazer para ver os metadados do payload dentro do script?
+      - Qual comando usar para puxar os metadados do payload no DW?
+      - Como posso ler metadata de payload em um script do MuleSoft?
+      - Como pegar os metadados do payload usando DataWeave?
+      - dá pra acssear meta do payload no scrit dw?
+      - Como acessar os metadados do payload com script no DataWeave?
+      - De que forma posso acessar metadata de payload no MuleSoft?
+      - Como recuperar os metadados do payload através do script DataWeave?
+      - Como fazer o acesso aos metadados do payload em um script?
+      - Como acessar de maneira simples os metadados do payload via DW?
+      - Existe uma função no script do DataWeave que mostra metadata de payload?
+      - Como acessar os metadados do payload num código script?
+      - Como extrair metadata de payload dentro do script no DataWeave?
+      - Qual comando do DW permite ver os metadados do payload?
+      - Como consultar os metadados do payload usando DataWeave?
+      - Como acessar os metadados de payload através do código DW?
+      - Onde encontro o comando para acessar metadata do payload no script?
+      - Como posso acessar os metadados do payload por meio de um script?
+      - Posso acessar os metadados do payload direto pelo script do DW?
+      - cm faço pra acssear meta de payload no dw?
+      - Há um comando em DW para acessar os metadados do payload?
+      - Como posso capturar os metadados do payload em um script?
+      - Qual a linha de código pra acessar metadata de payload no DataWeave?
+      - Como acessar os metadados dos payloads com um script em DW?
+      - me ajude a acssear os meta do payload com scrit no mulesoft?
+      - Como usar o DataWeave para acessar os metadados do payload no script?
+      - Qual o método para acessar metadata de payload em um script DW?
+      - Como recuperar a metadata do payload dentro de um script DataWeave?
+      - como acssusar metadado do payload no scrit?
+      - Qual é a consulta para acessar metadados do payload em um script?
+      - Como posso acessar os metadados do payload via script DW?
+      - Existe uma forma de acessar metadata de payload com código no MuleSoft?
+      - como exrrtrair metadato do payload no script dw?
+      - Qual função utilizar para acessar os metadados do payload em um script?
+      - Como acessar os metadados do payload no DW sem complicação?
+      - Como acessar metadata de payload com um script simples em DataWeave?
+      - Me diga como acessar os metadados do payload dentro do script?
+      - cm se faz p pegar meta de payload via dw?
+      - Existe uma função para extrair metadata de payload no script?
+      - Como posso verificar os metadados do payload pelo script?
+      - Que comando do DataWeave acessa os metadados do payload?
+      - Como acessar os metadados do payload numa rotina de script DW?
+      - Qual código preciso usar para acessar metadata de payload?
+      - Como acessar os metadados de um payload via script no DataWeave?
+      - Qual a forma recomendada para acessar metadados do payload?
+      - Como pego os metadados do payload dentro de um script DW?
+      - Posso ver os metadados do payload utilizando um script em DataWeave?
+      - Como é possível acessar os metadados do payload usando script?
+      - Quais métodos permitem acessar metadata de payload no script?
+      - cm acessa metadado do payload num scrit de dw de forma simplificada?
 
       # 🇺🇸 English
-      - How can I access payload metadata in a script?
-      - Is it possible to get the payload metadata from DW?
-      - Can I see the metadata of a payload inside a script?
-      - Does the script have access to payload metadata?
-      - Can I fetch the metadata from input payload?
-      - Is metadata available in DataWeave?
-      - DW lets me read payload metadata?
-      - What’s the way to read metadata inside the script?
-      - Can I extract metadata using DataWeave?
-      - How do I see payload metadata inline?
-      - Is there any way to log the payload metadata?
-      - script can acess payload metadata?
-      - dataweave get payload metadatas?
-      - how 2 access metadata of the input?
-      - do metadata come with payload always?
-      - i wanna read metadata inside dw
-      - is metadata readable on script runtime?
-      - do i need to enable metadata in mule?
-      - how to fetch metadatas from a payload?
-      - can i debug metadata on mule?
-      - do headers count as metadata?
-      - can a dw function read the metadata?
-      - is the payload metadata static?
-      - do i get metadata even if payload is null?
-      - is there default metadata on input?
-      - dw show metadata?
-      - can i log payload metadata?
-      - is there metadata info in logger?
-      - can I condition based on metadata?
-      - what type is the payload?
-      - how to get payload type metadata?
-      - is content-type stored in metadata?
-      - can I see encoding from metadata?
-      - where is metadata stored in mule?
-      - can i read technical metadata in dw?
-      - metadata is available by default?
-      - does DW allow metadata access?
-      - how to show payload metadata in console?
-      - is metadata part of payload structure?
-      - does payload has metadatas?
-      - do I get metadata without doing anything?
-      - how can I extract the MIME type from payload?
-      - do metadata come along with payload input?
-      - can we get input metadata dynamically?
-      - do I need a function to access metadata?
-      - is metadata accessible at runtime?
-      - can metadata be printed?
-      - does metadata show in debugger?
-      - metadata available in transformation?
-      - dw script extract metadata?
-      - is metadata shown with loggers?
-      - can i use metadata in if condition?
-      - how to handle payload metadata in mule?
-      - how to use metadata inside dataweave map?
-      - do i need metadata declaration?
-      - how to detect payload metadata?
-      - how can i get access to input metadata?
-      - how do i display the payload metadata?
-      - is metadata considered in transformation logic?
-      - can DW output metadata for analysis?
-      - can i trace payload metadata in flow?
-      - can I access input mime type?
-      - is there a way to map payload metadata?
-      - does DW support metadata extraction?
-      - do i need config to use metadata?
-      - what kind of metadata can be read in DW?
-      - how to see if payload has metadata?
-      - can i inspect the payload metadata directly?
-      - where’s the payload type info stored?
-      - can i extract payload format from metadata?
-      - can metadata be part of DW logic?
-      - how do i print payload meta?
-      - how do i retrieve metadata in script?
-      - payload metadata dw readable?
-      - is metadata in DW a variable?
-      - how to access content-type metadata?
-      - script can read metadata from payload?
-      - how DW exposes payload metadata?
-      - where does DW keep metadata?
-      - can I grab metadata with function?
-      - DW metadata available always?
-      - script runtime see input metadata?
-      - is metadata useful for mapping?
-      - how to transform payload metadata to log?
-      - dw get input headers as metadata?
-      - payload metadata needed to parse data?
-      - how do i filter metadata inside DW?
-      - is metadata accessible in subflows?
-      - DW payload meta extraction possible?
-      - can i get the schema from metadata?
-      - is schema part of payload metadata?
-      - how to debug metadata without logs?
-      - DW log metadata inline?
-      - payload meta auto generated?
-      - how does DW read metadata?
-      - how to extract payload info with DW?
-      - where to see the DW payload metadata?
-      - can I extract metadata safely?
-      - is metadata input same as attributes?
-      - how do i test DW metadata?
-      - is mime type metadata or not?
+      - How can I access payload metadata within a DataWeave script?
+      - What is the method to retrieve payload metadata in a script?
+      - Can I get the metadata of a payload using a DataWeave script?
+      - how do i acces payload meta in dw script?
+      - Is it possible to access payload metadata through a DataWeave script?
+      - What's the command to access payload metadata in a DataWeave script?
+      - How do I retrieve the metadata from a payload in a script?
+      - Could you explain how to access payload metadata using DataWeave?
+      - How can payload metadata be accessed within a DataWeave script?
+      - Which function is used to access payload metadata in a script?
+      - How do I view payload metadata in a DataWeave script?
+      - wht is the syntx to acces payload meta in script?
+      - How do I extract payload metadata using a DataWeave script?
+      - Can a script access the metadata of a payload in DataWeave?
+      - What is the best way to access payload metadata in a script?
+      - Is there a way to fetch payload metadata inside a DataWeave script?
+      - How can one access metadata of a payload from a script?
+      - What command retrieves payload metadata in DataWeave?
+      - How do you access payload metadata via a script?
+      - Could you show me how to access payload metadata in DataWeave?
+      - What is the process to access the metadata of a payload in a script?
+      - How can I extract payload metadata inside a DataWeave script?
+      - Which method allows me to access payload metadata in a script?
+      - How do I check payload metadata using a DataWeave script?
+      - Can payload metadata be read from inside a script?
+      - What's the recommended approach to access payload metadata in DataWeave?
+      - how do i call the funtion to acces payload meta?
+      - How is payload metadata accessed within a script?
+      - What technique is used to access payload metadata via DataWeave?
+      - How do I get the metadata of a payload through a script?
+      - Is it possible to obtain payload metadata within a DataWeave script?
+      - How do I display the metadata of a payload in my script?
+      - How do I query payload metadata using DataWeave?
+      - What code is used to access payload metadata in a DataWeave script?
+      - How can I inspect payload metadata within a script?
+      - Which syntax should I use to access payload metadata?
+      - How do I access payload metadata with a DataWeave script?
+      - What function do I use to get payload metadata in my script?
+      - how do i retriev meta data from payload in a scrpt?
+      - How do I retrieve metadata from a payload using DataWeave?
+      - What is the correct way to access payload metadata in a script?
+      - How can I fetch payload metadata within a DataWeave script?
+      - Which command should I employ to access payload metadata?
+      - How do I uncover payload metadata in a script?
+      - What approach is recommended to access payload metadata in DataWeave?
+      - How can payload metadata be obtained inside a script?
+      - What's the method to display payload metadata in a DataWeave script?
+      - How can I programmatically access payload metadata within a script?
+      - What is the simplest way to fetch payload metadata using DataWeave?
+      - can u guide me on accesing payload meta in script?
+      - What is the procedure to retrieve payload metadata in a script?
+      - How do I check metadata of a payload via a DataWeave script?
+      - What do I type to access payload metadata in my script?
+      - How can I retrieve payload metadata with a simple script?
+      - What's the process to get payload metadata within a script?
+      - How do I use DataWeave to access payload metadata?
+      - Is there a built-in function for accessing payload metadata in a script?
+      - How do I reveal payload metadata within a DataWeave script?
+      - What line of code accesses payload metadata in a script?
+      - how do i acces payload meta data in my scrpt?
+      - How can I get metadata from a payload in my DataWeave script?
+      - What is the method to display payload metadata in a script?
+      - How do I extract payload metadata from a DataWeave script?
+      - Is it feasible to access payload metadata directly in a script?
+      - How can the metadata of a payload be retrieved via script?
+      - What is the approach to fetch payload metadata in DataWeave?
+      - How do you extract payload metadata using a simple script?
+      - wat's the syntx for retrievin payload meta?
+      - What is the syntax for retrieving payload metadata in a script?
+      - How can I go about accessing payload metadata in DataWeave?
+      - What is required to access payload metadata within a script?
+      - How do I acquire payload metadata using a DataWeave script?
+      - What steps are needed to access payload metadata in a script?
+      - how can i quickly acces payload meta through dw?
+      - How do I unlock payload metadata in a DataWeave script?
+      - What would be the proper way to access payload metadata in a script?
+      - How do I fetch metadata from payload in a script?
+      - What's the simple method to access payload metadata in DataWeave?
+      - How do I obtain payload metadata using code in a script?
+      - What command should I use to fetch payload metadata in DataWeave?
+      - How can I extract metadata from a payload using a script?
+      - Which function in DataWeave is used to access payload metadata?
+      - How do I implement code to access payload metadata in my script?
+      - What is needed to retrieve payload metadata inside a script?
+      - how do i acces meta info of payload in dw?
+      - What method fetches payload metadata within a script?
+      - How do I check for payload metadata in a DataWeave script?
+      - How can I successfully access payload metadata through my script?
+      - What is the code to extract payload metadata in a DataWeave script?
+      - how do i set up scrpt to acces meta dat from payload?
+      - Can you show me the process to access payload metadata in DataWeave?
+      - How would you retrieve payload metadata within a script?
+      - What do you suggest to access payload metadata through DataWeave?
+      - How can I leverage script to get payload metadata in DataWeave?
+      - Which line of code shows payload metadata in a DataWeave script?
+      - How do I programmatically retrieve payload metadata in a script?
+      - Can DataWeave scripts access payload metadata directly?
+      - What's the best method to access metadata of payload in a script?
+      - How can I quickly retrieve payload metadata using a DataWeave script?
+      - What is the easiest way to access payload metadata within a script?

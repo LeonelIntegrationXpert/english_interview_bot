@@ -4,7 +4,14 @@ responses:
         response_array:
           -
             - vr_pt: |
-                Sim, é possível acessar os metadados de um payload dentro de um script em MuleSoft, especialmente ao trabalhar com DataWeave. Esses metadados podem incluir informações como o tipo do conteúdo, a estrutura esperada do dado, ou até detalhes técnicos da origem do payload. Eles não fazem parte direta do corpo do dado, mas são acessíveis por meio de variáveis internas do Mule, como `attributes`, ou utilizando funções como `typeOf` no DataWeave. Além disso, essas informações podem ser úteis para validar, transformar ou condicionar a lógica do fluxo com base nas características do conteúdo. É importante lembrar que, mesmo quando o payload está vazio ou nulo, alguns metadados ainda podem estar disponíveis, dependendo da configuração do flow.
-
+                No contexto do MuleSoft, acessar os metadados de um payload em um script DataWeave pode ser feito de forma indireta utilizando funções que analisam o tipo ou a estrutura dos dados. 
+                Uma prática comum é usar a função dw::typeOf para identificar o tipo de dado recebido, o que possibilita adaptar a lógica do script conforme a necessidade. 
+                Esse método é útil para garantir que operações específicas sejam realizadas apenas quando o payload corresponde a um determinado formato, como JSON ou XML. 
+                Além disso, o uso desse recurso demonstra um entendimento profundo da ferramenta, pois permite criar scripts mais robustos e flexíveis. 
+                A capacidade de ajustar dinamicamente o comportamento do código conforme as características dos dados também contribui para reduzir erros em tempo de execução.
             - vr_en: |
-                Yes, it is possible to access payload metadata within a script in MuleSoft, especially when using DataWeave. This metadata may include details such as content type, expected data structure, or technical information about the source of the payload. Although it is not part of the payload body itself, it can be accessed through internal Mule variables like `attributes` or using functions like `typeOf` in DataWeave. This information is often useful for validation, transformation, or making decisions based on the nature of the incoming content. It's also worth noting that even if the payload is empty or null, some metadata might still be available depending on how the flow is configured.
+                In the context of MuleSoft, accessing payload metadata within a DataWeave script can be achieved indirectly by using functions that analyze the data type or structure. 
+                A common practice is to use the dw::typeOf function to determine the type of the incoming data, enabling you to tailor the script logic as needed. 
+                This method is useful to ensure that specific operations are performed only when the payload matches a certain format such as JSON or XML. 
+                Furthermore, employing this feature demonstrates a deep understanding of the tool since it allows for the development of more robust and adaptable scripts. 
+                The ability to dynamically adjust the code behavior according to data characteristics also helps to reduce runtime errors.

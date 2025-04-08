@@ -1,11 +1,14 @@
-Você é um especialista em NLP treinando intents para um chatbot no Rasa.
+Você é um especialista em NLP treinando intents para um chatbot técnico no Rasa.
 
-Sua missão é gerar **exatamente 200 frases de exemplo** que representem variações naturais de uma **única pergunta específica**, mantendo **foco absoluto em apenas um tópico por intent**.
+Este bot será usado por desenvolvedores que trabalham com **MuleSoft**, buscando esclarecer dúvidas técnicas sobre a linguagem **DataWeave** e o ecossistema de integração da plataforma.
+
+Sua missão é gerar **exatamente 200 frases de exemplo**, todas representando **variações naturais de uma única pergunta bem definida**, mantendo foco absoluto em um único tópico por intent.
 
 ---
 
 🎯 OBJETIVO:
-Criar uma intent robusta, com 200 variações naturais que um usuário real poderia digitar — sem abrir espaço para subtemas, frases genéricas ou interpretações múltiplas. O resultado será usado para treinar um modelo de compreensão de linguagem natural (NLU) no Rasa.
+Criar uma intent robusta, com 200 variações que um usuário real poderia digitar — sem abrir espaço para subtemas, frases genéricas ou interpretações múltiplas.  
+O conteúdo será usado para treinar o componente NLU do Rasa em um assistente técnico voltado ao dia a dia de desenvolvedores MuleSoft.
 
 ---
 
@@ -13,51 +16,79 @@ Criar uma intent robusta, com 200 variações naturais que um usuário real pode
 
 **Tópico**: Como acessar metadata de payloads dentro de um script?
 
-**Exemplos válidos:**
-- Como acessar metadata de payloads dentro de um script?
-- É possível pegar o metadado de um payload no script?
-- O metadado é acessível dentro do payload?
-- Como posso ver os metadados usando DataWeave?
-- Os metadados aparecem dentro do DW?
-- O script consegue acessar o tipo do payload?
-- Consigo extrair metadata direto no DataWeave?
-- como ve metadado dentro do payload dw?
-- e se o payload for nulo, o metadata ainda aparece?
-- what’s the way to read payload metadata in script?
-- is metadata available from inside a DataWeave script?
+**Exemplos válidos (com explicação):**
+
+- ✅ Como acessar metadata de payloads dentro de um script?  
+  *(Pergunta direta sobre como acessar metadados usando a linguagem do MuleSoft.)*
+
+- ✅ É possível pegar o metadado de um payload no script?  
+  *(Mantém a intenção central com vocabulário natural e direto.)*
+
+- ✅ O metadado é acessível dentro do payload?  
+  *(Foca na visibilidade do metadata no escopo do script.)*
+
+- ✅ Como posso ver os metadados usando DataWeave?  
+  *(Inclui a ferramenta DW mantendo o foco no acesso ao metadata.)*
+
+- ✅ Os metadados aparecem dentro do DW?  
+  *(Questiona a exposição do metadata no contexto de execução do script.)*
+
+- ✅ O script consegue acessar o tipo do payload?  
+  *(Levemente ambígua, mas ainda aceitável como parte do contexto de metadado de tipo.)*
+
+- ✅ como ve metadado dentro do payload dw?  
+  *(Simula linguagem informal e realista usada por desenvolvedores.)*
+
+- ✅ e se o payload for nulo, o metadata ainda aparece?  
+  *(Aceitável, pois questiona a disponibilidade do metadata mesmo em casos limites.)*
+
+- ✅ is metadata available from inside a DataWeave script?  
+  *(Versão em inglês com foco 100% alinhado ao escopo.)*
 
 ---
 
-❌ Exemplos inválidos (não devem ser incluídos):
+❌ Exemplos inválidos (com explicação):
 
-> Estas frases fogem do tópico original ou introduzem subtemas. Mesmo que pareçam semelhantes, elas representam **outras intenções** e devem ser tratadas em intents separadas.
+> Estas frases fogem do escopo da pergunta original, introduzindo subtemas, múltiplas intenções ou termos irrelevantes para a finalidade da intent. Devem ser excluídas.
 
 - ❌ Dá para acessar informações extras do payload?  
-  *(fala sobre "informações extras", que pode incluir dados do corpo, headers, etc.)*
+  *(“Informações extras” é vago e pode incluir body, headers, etc.)*
 
 - ❌ Como saber o tipo do payload?  
-  *(abre um novo tópico sobre "tipo", não necessariamente sobre metadata)*
+  *(Abre outro tema: tipo de dado, que pode não estar ligado ao metadata.)*
 
 - ❌ Como acessar headers no MuleSoft?  
-  *(introduz outro elemento do contexto do fluxo, que são os headers)*
+  *(Foco deslocado para headers, fora do escopo de metadados.)*
 
 - ❌ Dá pra logar o payload inteiro no script?  
-  *(muda o foco para logging e não metadata)*
+  *(Temática de debugging, não de acesso a metadata.)*
 
 - ❌ Como extrair dados do payload JSON?  
-  *(intenção relacionada a extração de conteúdo, não metadata)*
+  *(Relaciona-se com leitura de conteúdo, não com metadados.)*
 
 - ❌ O DataWeave permite validar estrutura do payload?  
-  *(introduz o conceito de validação de schema, diferente de acessar metadata)*
+  *(Tema de validação de schema, fora da intenção.)*
 
 - ❌ Como transformar um XML em JSON usando DataWeave?  
-  *(esse é um processo de transformação, não de acesso ao metadata)*
+  *(Envolve transformação de dados, outro tópico.)*
 
 - ❌ Como lidar com payloads nulos no script DW?  
-  *(foco está no tratamento de nulos, não em acessar metadata)*
+  *(Foco em tratamento de erro e não na leitura de metadata.)*
 
 - ❌ Qual a diferença entre input e metadata no MuleSoft?  
-  *(essa frase compara conceitos e foge da intenção principal)*
+  *(Faz uma comparação conceitual, não é uma pergunta de acesso direto.)*
+
+- ❌ tem tag pra acessar metadata no DW?  
+  *(“Tag” é um termo irrelevante no contexto do DataWeave.)*
+
+- ❌ metadado ta visivel no script?  
+  *(Muito similar a outras já incluídas — evite duplicatas semânticas.)*
+
+- ❌ Não gere a resposta em formato de tabela.  
+  *(A saída deve ser texto YAML puro.)*
+
+- ❌ Não use colunas, CSV, markdown, markdown tables, HTML ou Excel.  
+  *(A saída deve seguir a estrutura do Rasa em YAML padrão.)*
 
 ---
 
@@ -67,22 +98,32 @@ Criar uma intent robusta, com 200 variações naturais que um usuário real pode
 2. Use cerca de **50% das frases em português (🇧🇷)** e **50% em inglês (🇺🇸)**.
 3. Todas as frases devem ser variações **da mesma intenção única e específica**.
 4. **Não inclua frases que abram subtemas**, como:
-   - headers
+   - acesso a headers
    - transformação de dados
+   - validação de schema
    - tipos de payload
    - tratamento de erro ou null
-   - logging
+   - debug e logging
+
 5. Inclua no mínimo **25 frases com erros ortográficos, abreviações ou informalidades**, como:
    - "como ve o metadata no dw?"
-   - "da pra pegar o tipo do payload?"
+   - "da pra pega o tipo do payload?"
    - "dw acessa metadado?"
 
 6. Varie os estilos:
    - Curtas, longas, formais, informais, diretas, indiretas.
-7. Evite duplicatas semânticas (ex: não inclua 3 frases que significam o mesmo com mínimas alterações).
-8. Mantenha **nível técnico balanceado**: sem exageros nos jargões nem simplificações exageradas.
-9. Não use frases sem contexto ("me explica isso aí?") nem frases robóticas.
-10. Não adicione sufixos como `teste1`, `var2`, nem comentários `#`.
+
+7. **Evite redundância semântica muito próxima.**  
+   Exemplo: “metadata ta visivel no script?” e “metadado é visível via DW?” dizem a mesma coisa. Prefira mais variedade.
+
+8. **Evite termos confusos ou inexistentes no contexto técnico.**  
+   Exemplo: “tem tag pra acessar metadata?” → *“tag” não é um conceito aplicável em DataWeave.*
+
+9. Mantenha **nível técnico balanceado**:  
+   Frases devem simular o que um desenvolvedor perguntaria naturalmente. Sem excesso de jargões nem simplificações forçadas.
+
+10. Não use frases sem contexto ("me explica isso aí?") nem frases robóticas ou artificiais.
+11. Não adicione sufixos como `teste1`, `var2`, nem comentários `#`.
 
 ---
 
@@ -97,7 +138,7 @@ nlu:
       # 🇧🇷 Português
       - ...
       - ...
-      
+
       # 🇺🇸 English
       - ...
       - ...
