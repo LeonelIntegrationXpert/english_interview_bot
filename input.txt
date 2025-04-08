@@ -1,0 +1,17 @@
+#intent:truncate_number_dataweave123
+
+#pt:
+Qual função uso para truncar casas decimais?
+Como tirar as casas decimais em DataWeave?
+
+#en:
+What function do I use to truncate decimals?
+How to truncate decimal numbers in DataWeave?
+
+#vr_pt:
+🧮 *Como truncar casas decimais no DataWeave?*  
+Use a função `floor()` ou `round()`.
+
+#vr_en:
+🧮 *How to truncate decimal places in DataWeave?*  
+Use the function `floor()` or `round()`.
