@@ -29,9 +29,6 @@ intents:
 - transform_xml_to_json_dataweave
 - use_external_modules_dataweave
 - parse_html_xml_dataweave
-- truncate_number_dataweave
-- truncate_number_dataweave_test1
-- parse_html_xml_dataweave_test2
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

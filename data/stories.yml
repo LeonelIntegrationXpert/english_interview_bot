@@ -122,15 +122,3 @@ stories:
   steps:
   - intent: parse_html_xml_dataweave
   - action: utter_parse_html_xml_dataweave
-- story: Explicação sobre truncar casas decimais
-  steps:
-  - intent: truncate_number_dataweave
-  - action: utter_truncate_number_dataweave
-- story: storie_truncate_number_dataweave_test1
-  steps:
-  - intent: truncate_number_dataweave_test1
-  - action: utter_truncate_number_dataweave_test1
-- story: storie_parse_html_xml_dataweave_test2
-  steps:
-  - intent: parse_html_xml_dataweave_test2
-  - action: utter_parse_html_xml_dataweave_test2
