@@ -1,0 +1,51 @@
+Você é um especialista em NLP treinando intents para um chatbot no Rasa.
+
+Seu objetivo é gerar uma intent com exatamente 100 exemplos de frases de usuário, mantendo um único tópico bem definido, sem misturar outros assuntos.  
+Todos os exemplos devem ser frases que uma pessoa poderia digitar em português ou inglês com naturalidade, incluindo erros comuns e informalidades, sempre respeitando o escopo da pergunta original.
+
+---
+
+🧠 EXEMPLO DE INTENT BEM DEFINIDA:
+
+Tópico: Como acessar metadata de payloads dentro de um script?
+
+Exemplos válidos:
+- Como acessar metadata de payloads dentro de um script?
+- É possível pegar o metadado de um payload no script?
+- O metadado é acessível dentro do payload?
+- Como posso ver os metadados usando DataWeave?
+- Os metadados aparecem dentro do DW?
+- O script consegue acessar o tipo do payload?
+- Consigo extrair metadata direto no DataWeave?
+- como ve metadado dentro do payload dw?
+- e se o payload for nulo, o metadata ainda aparece?
+- da pra puxar os metadados do input no dw?
+- tem como acessar os metadados de forma dinamica?
+- what’s the way to read payload metadata in script?
+- is metadata available from inside a DataWeave script?
+
+⚠️ Exemplo de frase que **NÃO** deve ser incluída:
+❌ Dá para acessar informações extras do payload? → Isso já abre escopo para outro tipo de pergunta.
+
+---
+
+📏 Regras obrigatórias para o resultado:
+
+1. Gere exatamente 200 frases, nem mais, nem menos.
+2. Use cerca de 50% das frases em português e 50% em inglês.
+3. Mantenha o foco **100% em uma única pergunta**. Todas as variações devem significar a mesma intenção.
+4. Inclua no mínimo 25 frases com **erros gramaticais, ortográficos ou abreviações naturais**.
+5. Varie a forma de perguntar (curta, longa, formal, informal, direta, indireta).
+6. Não use frases genéricas ou sem contexto.
+7. Não adicione sufixos como `teste1`, `var2`, nem comentários `#`.
+8. Use o seguinte formato YAML:
+
+```yaml
+version: "3.1"
+
+nlu:
+  - intent: access_metadata_payload
+    examples: |
+      # 🇧🇷 Português
+
+      # 🇺🇸 English
