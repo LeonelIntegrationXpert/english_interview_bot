@@ -1,174 +1,142 @@
-version: "3.1"
-
+version: '3.1'
 rules:
-
-  # Regra para iniciar a interação com saudação
-  - rule: Saudação inicial
-    steps:
-      - intent: greet  # Detecta a saudação do usuário
-      - action: utter_greet  # Responde com uma mensagem de saudação
-
-  # Regra para explicar o que é MuleSoft
-  - rule: Explicação sobre a MuleSoft
-    steps:
-      - intent: explain_mulesoft  # Detecta a intenção de perguntar sobre MuleSoft
-      - action: utter_explain_mulesoft  # Responde com a explicação sobre MuleSoft
-
-  # Regra para explicar as camadas do API-led
-  - rule: Explicação sobre as camadas do API-led
-    steps:
-      - intent: explain_api_led  # Detecta a intenção de perguntar sobre as camadas do API-led
-      - action: utter_explain_api_led_layers_connection  # Responde com a explicação das camadas do API-led
-
-  - rule: Explicação sobre DataWeave
-    steps:
-      - intent: explain_dataweave
-      - action: utter_explain_dataweave
-
-  # Regra para acionar fallback quando a intenção não for reconhecida
-  - rule: Acionar fallback quando não houver correspondência
-    steps:
-      - intent: random_input  # Detecta uma entrada irrelevante ou desconhecida
-      - action: utter_random_input  # Responde com uma mensagem padrão de fallback, indicando que a entrada não foi compreendida
-
-  - rule: Responder a diferença entre map e mapObject
-    steps:
-      - intent: explain_map_vs_mapobject
-      - action: utter_explain_map_vs_mapobject
-
-  - rule: Explicação sobre como mapear dados com DataWeave
-    steps:
-      - intent: how_to_map_dataweave
-      - action: utter_how_to_map_dataweave
-
-  - rule: Explicação sobre a diferença entre DataWeave 1.0 e 2.0
-    steps:
-      - intent: difference_dataweave_versions
-      - action: utter_difference_dataweave_versions
-
-  - rule: Explicação sobre uso de map e filter
-    steps:
-      - intent: map_vs_filter_usage
-      - action: utter_map_vs_filter_usage
-
-  - rule: Explicação sobre como extrair valores de objetos aninhados
-    steps:
-      - intent: extract_values_nested_object
-      - action: utter_extract_values_nested_object
-
-  - rule: Explicação sobre como criar funções no DataWeave
-    steps:
-      - intent: create_custom_function_dataweave
-      - action: utter_create_custom_function_dataweave
-
-  - rule: Tipos de dados suportados pelo DataWeave
-    steps:
-      - intent: supported_data_types_dataweave
-      - action: utter_supported_data_types_dataweave
-
-  - rule: Tipos de dados suportados pelo DataWeave
-    steps:
-      - intent: supported_data_types_dataweave
-      - action: utter_supported_data_types_dataweave
-
-  - rule: Para que serve a diretiva output application/json
-    steps:
-      - intent: purpose_output_application_json
-      - action: utter_purpose_output_application_json
-
-  - rule: Como mapear uma lista no DataWeave
-    steps:
-      - intent: how_to_map_list_dataweave
-      - action: utter_how_to_map_list_dataweave
-
-  - rule: Como evitar erros de tipo no DataWeave
-    steps:
-      - intent: how_to_avoid_type_errors_dataweave
-      - action: utter_how_to_avoid_type_errors_dataweave
-
-  - rule: Campo inexistente no DataWeave
-    steps:
-      - intent: access_nonexistent_field_dataweave
-      - action: utter_access_nonexistent_field_dataweave
-
-  - rule: Garantir resiliência com valores null
-    steps:
-      - intent: handle_null_values_dataweave
-      - action: utter_handle_null_values_dataweave
-
-  - rule: Tratar campos ausentes no DataWeave
-    steps:
-      - intent: handle_missing_fields_dataweave
-      - action: utter_handle_missing_fields_dataweave
-
-  - rule: Transformar XML em JSON com DataWeave
-    steps:
-      - intent: transform_xml_to_json_dataweave
-      - action: utter_transform_xml_to_json_dataweave
-
-  - rule: Gerar payload customizado com DataWeave
-    steps:
-      - intent: generate_custom_payload_dataweave
-      - action: utter_generate_custom_payload_dataweave
-
-  - rule: Explicar uso real de lógica complexa no DataWeave
-    steps:
-      - intent: complex_dataweave_logic_example
-      - action: utter_complex_dataweave_logic_example
-
-  - rule: Transformar CSV em objeto estruturado
-    steps:
-      - intent: convert_csv_to_object
-      - action: utter_convert_csv_to_object
-
-  - rule: Explicar funções recursivas no DataWeave
-    steps:
-      - intent: explain_recursive_functions
-      - action: utter_explain_recursive_functions
-
-  - rule: Explicar como otimizar DataWeave para grandes volumes
-    steps:
-      - intent: optimize_dataweave_large_data
-      - action: utter_optimize_dataweave_large_data
-
-  - rule: Explicar como acessar metadata de payloads
-    steps:
-      - intent: access_metadata_payload
-      - action: utter_access_metadata_payload
-
-  - rule: Explicar diferença entre tipo e formato no DataWeave
-    steps:
-      - intent: difference_type_format_string
-      - action: utter_difference_type_format_string
-
-  - rule: Explicar uso de módulos externos no DataWeave
-    steps:
-      - intent: use_external_modules_dataweave
-      - action: utter_use_external_modules_dataweave
-
-  - rule: Converter string para número com DataWeave
-    steps:
-      - intent: string_to_number_dataweave
-      - action: utter_string_to_number_dataweave
-
-  - rule: Formatar data para padrão dd/MM/yyyy
-    steps:
-      - intent: format_date_ddmmyyyy
-      - action: utter_format_date_ddmmyyyy
-
-  - rule: Transformar payload em base64
-    steps:
-      - intent: encode_payload_base64
-      - action: utter_encode_payload_base64
-
-  - rule: Parsing de XML ou HTML
-    steps:
-      - intent: parse_html_xml_dataweave
-      - action: utter_parse_html_xml_dataweave
-
-  - rule: Truncar casas decimais
-    steps:
-      - intent: truncate_number_dataweave
-      - action: utter_truncate_number_dataweave
-
-      
+- rule: Saudação inicial
+  steps:
+  - intent: greet
+  - action: utter_greet
+- rule: Explicação sobre a MuleSoft
+  steps:
+  - intent: explain_mulesoft
+  - action: utter_explain_mulesoft
+- rule: Explicação sobre as camadas do API-led
+  steps:
+  - intent: explain_api_led
+  - action: utter_explain_api_led_layers_connection
+- rule: Explicação sobre DataWeave
+  steps:
+  - intent: explain_dataweave
+  - action: utter_explain_dataweave
+- rule: Acionar fallback quando não houver correspondência
+  steps:
+  - intent: random_input
+  - action: utter_random_input
+- rule: Responder a diferença entre map e mapObject
+  steps:
+  - intent: explain_map_vs_mapobject
+  - action: utter_explain_map_vs_mapobject
+- rule: Explicação sobre como mapear dados com DataWeave
+  steps:
+  - intent: how_to_map_dataweave
+  - action: utter_how_to_map_dataweave
+- rule: Explicação sobre a diferença entre DataWeave 1.0 e 2.0
+  steps:
+  - intent: difference_dataweave_versions
+  - action: utter_difference_dataweave_versions
+- rule: Explicação sobre uso de map e filter
+  steps:
+  - intent: map_vs_filter_usage
+  - action: utter_map_vs_filter_usage
+- rule: Explicação sobre como extrair valores de objetos aninhados
+  steps:
+  - intent: extract_values_nested_object
+  - action: utter_extract_values_nested_object
+- rule: Explicação sobre como criar funções no DataWeave
+  steps:
+  - intent: create_custom_function_dataweave
+  - action: utter_create_custom_function_dataweave
+- rule: Tipos de dados suportados pelo DataWeave
+  steps:
+  - intent: supported_data_types_dataweave
+  - action: utter_supported_data_types_dataweave
+- rule: Tipos de dados suportados pelo DataWeave
+  steps:
+  - intent: supported_data_types_dataweave
+  - action: utter_supported_data_types_dataweave
+- rule: Para que serve a diretiva output application/json
+  steps:
+  - intent: purpose_output_application_json
+  - action: utter_purpose_output_application_json
+- rule: Como mapear uma lista no DataWeave
+  steps:
+  - intent: how_to_map_list_dataweave
+  - action: utter_how_to_map_list_dataweave
+- rule: Como evitar erros de tipo no DataWeave
+  steps:
+  - intent: how_to_avoid_type_errors_dataweave
+  - action: utter_how_to_avoid_type_errors_dataweave
+- rule: Campo inexistente no DataWeave
+  steps:
+  - intent: access_nonexistent_field_dataweave
+  - action: utter_access_nonexistent_field_dataweave
+- rule: Garantir resiliência com valores null
+  steps:
+  - intent: handle_null_values_dataweave
+  - action: utter_handle_null_values_dataweave
+- rule: Tratar campos ausentes no DataWeave
+  steps:
+  - intent: handle_missing_fields_dataweave
+  - action: utter_handle_missing_fields_dataweave
+- rule: Transformar XML em JSON com DataWeave
+  steps:
+  - intent: transform_xml_to_json_dataweave
+  - action: utter_transform_xml_to_json_dataweave
+- rule: Gerar payload customizado com DataWeave
+  steps:
+  - intent: generate_custom_payload_dataweave
+  - action: utter_generate_custom_payload_dataweave
+- rule: Explicar uso real de lógica complexa no DataWeave
+  steps:
+  - intent: complex_dataweave_logic_example
+  - action: utter_complex_dataweave_logic_example
+- rule: Transformar CSV em objeto estruturado
+  steps:
+  - intent: convert_csv_to_object
+  - action: utter_convert_csv_to_object
+- rule: Explicar funções recursivas no DataWeave
+  steps:
+  - intent: explain_recursive_functions
+  - action: utter_explain_recursive_functions
+- rule: Explicar como otimizar DataWeave para grandes volumes
+  steps:
+  - intent: optimize_dataweave_large_data
+  - action: utter_optimize_dataweave_large_data
+- rule: Explicar como acessar metadata de payloads
+  steps:
+  - intent: access_metadata_payload
+  - action: utter_access_metadata_payload
+- rule: Explicar diferença entre tipo e formato no DataWeave
+  steps:
+  - intent: difference_type_format_string
+  - action: utter_difference_type_format_string
+- rule: Explicar uso de módulos externos no DataWeave
+  steps:
+  - intent: use_external_modules_dataweave
+  - action: utter_use_external_modules_dataweave
+- rule: Converter string para número com DataWeave
+  steps:
+  - intent: string_to_number_dataweave
+  - action: utter_string_to_number_dataweave
+- rule: Formatar data para padrão dd/MM/yyyy
+  steps:
+  - intent: format_date_ddmmyyyy
+  - action: utter_format_date_ddmmyyyy
+- rule: Transformar payload em base64
+  steps:
+  - intent: encode_payload_base64
+  - action: utter_encode_payload_base64
+- rule: Parsing de XML ou HTML
+  steps:
+  - intent: parse_html_xml_dataweave
+  - action: utter_parse_html_xml_dataweave
+- rule: Truncar casas decimais
+  steps:
+  - intent: truncate_number_dataweave
+  - action: utter_truncate_number_dataweave
+- rule: rule_truncate_number_dataweave_test1
+  steps:
+  - intent: truncate_number_dataweave_test1
+  - action: utter_truncate_number_dataweave_test1
+- rule: rule_parse_html_xml_dataweave_test2
+  steps:
+  - intent: parse_html_xml_dataweave_test2
+  - action: utter_parse_html_xml_dataweave_test2

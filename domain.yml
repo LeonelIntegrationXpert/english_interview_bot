@@ -1,37 +1,37 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - access_metadata_payload
-  - access_nonexistent_field_dataweave
-  - complex_dataweave_logic_example
-  - convert_csv_to_object
-  - create_custom_function_dataweave
-  - difference_dataweave_versions
-  - encode_payload_base64
-  - explain_api_led
-  - explain_dataweave
-  - explain_map_vs_mapobject
-  - explain_recursive_functions
-  - extract_values_nested_object
-  - format_date_ddmmyyyy
-  - generate_custom_payload_dataweave
-  - greet
-  - handle_missing_fields_dataweave
-  - handle_null_values_dataweave
-  - how_to_avoid_type_errors_dataweave
-  - how_to_map_dataweave
-  - how_to_map_list_dataweave
-  - map_vs_filter_usage
-  - optimize_dataweave_large_data
-  - purpose_output_application_json
-  - random_input
-  - string_to_number_dataweave
-  - supported_data_types_dataweave
-  - transform_xml_to_json_dataweave
-  - use_external_modules_dataweave
-  - parse_html_xml_dataweave
-  - truncate_number_dataweave
-
+- access_metadata_payload
+- access_nonexistent_field_dataweave
+- complex_dataweave_logic_example
+- convert_csv_to_object
+- create_custom_function_dataweave
+- difference_dataweave_versions
+- encode_payload_base64
+- explain_api_led
+- explain_dataweave
+- explain_map_vs_mapobject
+- explain_recursive_functions
+- extract_values_nested_object
+- format_date_ddmmyyyy
+- generate_custom_payload_dataweave
+- greet
+- handle_missing_fields_dataweave
+- handle_null_values_dataweave
+- how_to_avoid_type_errors_dataweave
+- how_to_map_dataweave
+- how_to_map_list_dataweave
+- map_vs_filter_usage
+- optimize_dataweave_large_data
+- purpose_output_application_json
+- random_input
+- string_to_number_dataweave
+- supported_data_types_dataweave
+- transform_xml_to_json_dataweave
+- use_external_modules_dataweave
+- parse_html_xml_dataweave
+- truncate_number_dataweave
+- truncate_number_dataweave_test1
+- parse_html_xml_dataweave_test2
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

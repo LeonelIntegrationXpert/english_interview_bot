@@ -1,17 +1,37 @@
-#intent:truncate_number_dataweave123
+#intent: truncate_number_dataweave_test1
 
 #pt:
 Qual função uso para truncar casas decimais?
-Como tirar as casas decimais em DataWeave?
+Como tiro casas decimais?
 
 #en:
 What function do I use to truncate decimals?
-How to truncate decimal numbers in DataWeave?
+How do I remove decimal places?
 
 #vr_pt:
-🧮 *Como truncar casas decimais no DataWeave?*  
-Use a função `floor()` ou `round()`.
+🧮 Como truncar casas decimais no DataWeave?
+Use floor() ou round().
 
 #vr_en:
-🧮 *How to truncate decimal places in DataWeave?*  
-Use the function `floor()` or `round()`.
+🧮 How to truncate decimal places in DataWeave?
+Use floor() or round().
+
+---
+
+#intent: parse_html_xml_dataweave_test2
+
+#pt:
+Como faço para converter HTML em XML?
+Dá pra converter HTML em XML no DataWeave?
+
+#en:
+How do I convert HTML to XML?
+Can I convert HTML to XML in DataWeave?
+
+#vr_pt:
+🔄 Como converter HTML em XML no DataWeave?
+Use o módulo parse e a função write para XML.
+
+#vr_en:
+🔄 How to convert HTML to XML in DataWeave?
+Use parse module and write function to XML.
