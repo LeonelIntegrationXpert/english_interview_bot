@@ -1,37 +1,61 @@
-#intent: truncate_number_dataweave_test1
+#intent: flatten_nested_list_dataweave
 
 #pt:
-Qual função uso para truncar casas decimais?
-Como tiro casas decimais?
+Como achatar listas aninhadas no DataWeave?
+Existe alguma função para "achatar" arrays?
 
 #en:
-What function do I use to truncate decimals?
-How do I remove decimal places?
+How do I flatten nested lists in DataWeave?
+Is there a function to flatten arrays in DataWeave?
 
 #vr_pt:
-🧮 Como truncar casas decimais no DataWeave?
-Use floor() ou round().
+📚 Como achatar listas aninhadas no DataWeave?  
+Use a função `flatten()` para transformar uma lista de listas em uma lista única.  
+Exemplo: `[[1,2],[3,4]]` se torna `[1,2,3,4]`.
 
 #vr_en:
-🧮 How to truncate decimal places in DataWeave?
-Use floor() or round().
+📚 How to flatten nested lists in DataWeave?  
+Use the `flatten()` function to turn a list of lists into a single flat list.  
+Example: `[[1,2],[3,4]]` becomes `[1,2,3,4]`.
 
 ---
 
-#intent: parse_html_xml_dataweave_test2
+#intent: validate_data_structure_dataweave
 
 #pt:
-Como faço para converter HTML em XML?
-Dá pra converter HTML em XML no DataWeave?
+Como validar a estrutura de um dado no DataWeave?
+Tem como verificar se o dado tem um campo específico?
 
 #en:
-How do I convert HTML to XML?
-Can I convert HTML to XML in DataWeave?
+How to validate a data structure in DataWeave?
+Can I check if a field exists in the data?
 
 #vr_pt:
-🔄 Como converter HTML em XML no DataWeave?
-Use o módulo parse e a função write para XML.
+🔎 Como validar estrutura de dados em DataWeave?  
+Você pode usar operadores como `if`, `is`, `default`, ou `?` para verificar a existência de campos e validar tipos.  
+Isso evita erros quando campos estão ausentes ou em formatos inesperados.
 
 #vr_en:
-🔄 How to convert HTML to XML in DataWeave?
-Use parse module and write function to XML.
+🔎 How to validate data structure in DataWeave?  
+You can use `if`, `is`, `default`, or `?` operators to check for field existence and validate types.  
+This helps avoid errors from missing or unexpected data formats.
+
+---
+
+#intent: combine_multiple_payloads_dataweave
+
+#pt:
+Como combinar vários payloads em um só?
+É possível mesclar dados de múltiplas fontes no DataWeave?
+
+#en:
+How to combine multiple payloads into one?
+Is it possible to merge data from multiple sources in DataWeave?
+
+#vr_pt:
+🔗 Como unir múltiplos payloads em DataWeave?  
+Use funções como `++` para combinar listas, ou `...` para mesclar objetos. Também é possível usar `zip`, `map`, `join` e outras para lidar com múltiplas fontes simultaneamente.
+
+#vr_en:
+🔗 How to merge multiple payloads in DataWeave?  
+Use `++` to join lists, or spread `...` to merge objects. You can also use `zip`, `map`, `join` and other tools to handle multiple sources efficiently.

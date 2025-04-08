@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: validate_data_structure_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como validar a estrutura de um dado no DataWeave?
+      - Tem como verificar se o dado tem um campo específico?
+
+      # 🇺🇸 English
+      - How to validate a data structure in DataWeave?
+      - Can I check if a field exists in the data?

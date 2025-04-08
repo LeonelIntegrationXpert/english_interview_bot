@@ -112,3 +112,15 @@ stories:
     steps:
       - intent: use_external_modules_dataweave
       - action: utter_use_external_modules_dataweave
+  - story: storie_flatten_nested_list_dataweave
+    steps:
+      - intent: flatten_nested_list_dataweave
+      - action: utter_flatten_nested_list_dataweave
+  - story: storie_validate_data_structure_dataweave
+    steps:
+      - intent: validate_data_structure_dataweave
+      - action: utter_validate_data_structure_dataweave
+  - story: storie_combine_multiple_payloads_dataweave
+    steps:
+      - intent: combine_multiple_payloads_dataweave
+      - action: utter_combine_multiple_payloads_dataweave

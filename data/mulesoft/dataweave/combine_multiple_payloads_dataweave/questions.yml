@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: combine_multiple_payloads_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como combinar vários payloads em um só?
+      - É possível mesclar dados de múltiplas fontes no DataWeave?
+
+      # 🇺🇸 English
+      - How to combine multiple payloads into one?
+      - Is it possible to merge data from multiple sources in DataWeave?

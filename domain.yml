@@ -28,6 +28,9 @@ intents:
   - transform_xml_to_json_dataweave
   - truncate_number_dataweave
   - use_external_modules_dataweave
+  - flatten_nested_list_dataweave
+  - validate_data_structure_dataweave
+  - combine_multiple_payloads_dataweave
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
