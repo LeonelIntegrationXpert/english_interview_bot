@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+  - intent: truncate_number_dataweave
+    examples: |
+      # 🇧🇷 Português
+      - Qual função uso para truncar casas decimais?
+      - Como tirar as casas decimais em DataWeave?
+      - Dá para truncar número no DataWeave?
+      - Como limitar o número de casas decimais?
+      - Como arredondar para baixo no DataWeave?
+      - Tem como cortar casas decimais no DataWeave?
+
+      # 🇺🇸 English
+      - What function do I use to truncate decimals?
+      - How to truncate decimal numbers in DataWeave?
+      - Can I remove decimal places in DW?
+      - How to limit decimal precision?
+      - How to round down a number in DataWeave?
+      - Is there a truncate function in DataWeave?

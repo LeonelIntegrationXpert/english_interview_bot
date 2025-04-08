@@ -1,0 +1,25 @@
+responses:
+  utter_truncate_number_dataweave:
+    - custom:
+        response_array:
+          -
+            - vr_pt: |
+                🧮 *Como truncar casas decimais no DataWeave?*  
+                Para **truncar casas decimais**, ou seja, remover os dígitos após o ponto sem arredondar, você pode usar a função **`floor()`**, **`ceil()`** ou manipular como **string**.
+                ✂️ *Exemplo com `floor`:*  
+                - `floor(10.75)` → `10` (arredonda para baixo)
+                🧠 *Outras abordagens:*  
+                - Multiplicar, truncar e dividir para manter 1 ou 2 casas.  
+                - Converter em string e cortar com substring.
+                ✅ *Resumo:*  
+                O DataWeave não tem uma função `truncate` nativa para casas específicas, mas você pode fazer com lógica matemática (`floor`, `round`, `as String`) dependendo do caso.
+            - vr_en: |
+                🧮 *How to truncate decimal places in DataWeave?*  
+                To **truncate decimals** (remove digits after the point without rounding), you can use **`floor()`**, **`ceil()`**, or manipulate the number as a **string**.
+                ✂️ *Example with `floor`:*  
+                - `floor(10.75)` → `10` (rounds down)
+                🧠 *Other ways:*  
+                - Multiply, truncate, and divide to keep 1-2 decimals.  
+                - Convert to string and use substring.
+                ✅ *Summary:*  
+                DataWeave doesn’t have a native `truncate` for specific decimals, but you can use math logic (`floor`, `round`, `as String`) depending on the context.

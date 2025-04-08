@@ -29,6 +29,8 @@ intents:
   - supported_data_types_dataweave
   - transform_xml_to_json_dataweave
   - use_external_modules_dataweave
+  - parse_html_xml_dataweave
+  - truncate_number_dataweave
 
 session_config:
   session_expiration_time: 60

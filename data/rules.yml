@@ -161,4 +161,14 @@ rules:
       - intent: encode_payload_base64
       - action: utter_encode_payload_base64
 
+  - rule: Parsing de XML ou HTML
+    steps:
+      - intent: parse_html_xml_dataweave
+      - action: utter_parse_html_xml_dataweave
+
+  - rule: Truncar casas decimais
+    steps:
+      - intent: truncate_number_dataweave
+      - action: utter_truncate_number_dataweave
+
       

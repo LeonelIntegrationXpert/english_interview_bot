@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+  - intent: parse_html_xml_dataweave
+    examples: |
+      # 🇧🇷 Português
+      - É possível fazer parsing de HTML com DataWeave?
+      - Dá para ler um XML no DataWeave?
+      - Como faço para transformar HTML em objeto no MuleSoft?
+      - DataWeave lê XML?
+      - Posso processar HTML com DataWeave?
+      - Consigo fazer parsing de XML em DW?
+      - O DataWeave entende XML?
+
+      # 🇺🇸 English
+      - Is it possible to parse HTML using DataWeave?
+      - Can I process XML with DataWeave?
+      - How to parse XML in MuleSoft?
+      - Can DataWeave read HTML structure?
+      - Does DataWeave support HTML parsing?
+      - Can I read XML files with DW?
+      - DataWeave and XML parsing — how does it work?
