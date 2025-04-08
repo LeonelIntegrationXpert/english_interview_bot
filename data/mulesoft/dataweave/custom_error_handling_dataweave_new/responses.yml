@@ -1,0 +1,8 @@
+responses:
+  utter_custom_error_handling_dataweave_new:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  🚨 Utilize blocos `try/catch` para capturar erros e fornecer valores padrão ou mensagens personalizadas, evitando a interrupção do fluxo.
+              - vr_en: |-
+                  🚨 Use `try/catch` blocks to capture errors and provide default values or custom messages, preventing the flow from breaking.

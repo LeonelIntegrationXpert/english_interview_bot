@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: performance_tips_dataweave
+    examples: |-
+      # 🌟 Português
+      - Quais são as dicas para melhorar a performance no DataWeave?
+      - Como otimizar scripts para execução rápida?
+
+      # 🇺🇸 English
+      - What are the tips for improving performance in DataWeave?
+      - How can I optimize scripts for faster execution?

@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: convert_binary_to_string_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como converter dados binários para string no DataWeave?
+      - Qual a função para transformar binário em texto?
+
+      # 🇺🇸 English
+      - How do I convert binary data to a string in DataWeave?
+      - What function converts binary to text in DataWeave?

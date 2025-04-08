@@ -1,0 +1,8 @@
+responses:
+  utter_custom_error_handling_dataweave:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  🚨 Utilize blocos `try/catch` para capturar exceções e definir valores padrão ou mensagens de erro personalizadas.
+              - vr_en: |-
+                  🚨 Use `try/catch` blocks to catch exceptions and define fallback values or custom error messages.

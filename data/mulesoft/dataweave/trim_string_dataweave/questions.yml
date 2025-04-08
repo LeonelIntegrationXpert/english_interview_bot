@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: trim_string_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como remover espaços de uma string no DataWeave?
+      - Como limpar os espaços extras no início e fim de um texto?
+
+      # 🇺🇸 English
+      - How do I trim spaces from a string in DataWeave?
+      - What is the method to remove extra spaces from the beginning and end of a string?

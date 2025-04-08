@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: memory_optimization_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como otimizar o uso de memória em scripts DataWeave?
+      - Tem como reduzir consumo de memória em transformações?
+
+      # 🇺🇸 English
+      - How do I optimize memory usage in DataWeave scripts?
+      - Can I reduce memory consumption in transformations?

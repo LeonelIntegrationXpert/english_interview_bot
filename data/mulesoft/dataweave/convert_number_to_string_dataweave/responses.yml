@@ -1,0 +1,8 @@
+responses:
+  utter_convert_number_to_string_dataweave:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  🔢 Use `as String` para converter um número em uma representação textual.
+              - vr_en: |-
+                  🔢 Use `as String` to cast a number into its string representation.

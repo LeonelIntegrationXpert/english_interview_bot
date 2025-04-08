@@ -1,0 +1,8 @@
+responses:
+  utter_extract_array_element_dataweave_new:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  📌 Acesse o elemento desejado utilizando a notação de índice, por exemplo, `payload[1]` para o segundo item.
+              - vr_en: |-
+                  📌 Access the desired element using index notation, e.g., `payload[1]` for the second item.

@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: handle_special_characters_dataweave_new
+    examples: |-
+      # 🌟 Português
+      - Como tratar caracteres especiais em DataWeave?
+      - Qual a abordagem para limpar símbolos em um texto?
+
+      # 🇺🇸 English
+      - How do I handle special characters in DataWeave?
+      - What is the approach to clean symbols in a string?

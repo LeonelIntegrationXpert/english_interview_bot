@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: remove_duplicates_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como remover duplicatas de uma lista no DataWeave?
+      - Existe função para eliminar itens repetidos?
+
+      # 🇺🇸 English
+      - How do I remove duplicates from a list in DataWeave?
+      - Is there a function to eliminate duplicate items?

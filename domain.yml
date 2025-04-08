@@ -31,6 +31,49 @@ intents:
   - flatten_nested_list_dataweave
   - validate_data_structure_dataweave
   - combine_multiple_payloads_dataweave
+  - extract_array_element_dataweave
+  - sort_list_dataweave
+  - remove_duplicates_dataweave
+  - convert_number_to_string_dataweave
+  - handle_special_characters_dataweave
+  - format_currency_dataweave
+  - date_arithmetic_dataweave
+  - conditional_logic_dataweave
+  - combine_strings_dataweave
+  - split_string_dataweave
+  - trim_string_dataweave
+  - extract_substring_dataweave
+  - convert_binary_to_string_dataweave
+  - custom_error_handling_dataweave
+  - logging_in_dataweave
+  - performance_tips_dataweave
+  - memory_optimization_dataweave
+  - reusable_functions_dataweave
+  - debug_dataweave_scripts
+  - unit_testing_dataweave
+  - extract_element_from_array
+  - sort_list_dataweave_new
+  - merge_objects_dataweave
+  - remove_duplicates_dataweave_new
+  - convert_number_to_string_dataweave_new
+  - handle_special_characters_dataweave_new
+  - format_currency_dataweave_new
+  - date_arithmetic_dataweave_new
+  - conditional_logic_dataweave_new
+  - combine_strings_dataweave_new
+  - split_string_dataweave_new
+  - trim_string_dataweave_new
+  - extract_substring_dataweave_new
+  - convert_binary_to_string_dataweave_new
+  - custom_error_handling_dataweave_new
+  - logging_in_dataweave_new
+  - performance_tips_dataweave_new
+  - memory_optimization_dataweave_new
+  - reusable_functions_dataweave_new
+  - debug_dataweave_scripts_new
+  - unit_testing_dataweave_new
+  - extract_array_element_dataweave_new
+  - merge_objects_dataweave_new
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: custom_error_handling_dataweave_new
+    examples: |-
+      # 🌟 Português
+      - Como implementar tratamento de erro personalizado no DataWeave?
+      - Como capturar exceções de forma customizada?
+
+      # 🇺🇸 English
+      - How do I implement custom error handling in DataWeave?
+      - What is the way to capture exceptions in a custom manner?

@@ -1,0 +1,8 @@
+responses:
+  utter_reusable_functions_dataweave:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  ♻️ Utilize `fun` para declarar funções e organize-as em módulos para reutilização e manutenção fácil.
+              - vr_en: |-
+                  ♻️ Use the `fun` keyword to declare functions and organize them into modules for reuse and easy maintenance.

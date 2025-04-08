@@ -1,0 +1,8 @@
+responses:
+  utter_conditional_logic_dataweave_new:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  🔀 Utilize expressões `if/else` ou `match` para criar condições que direcionem a transformação conforme os dados.
+              - vr_en: |-
+                  🔀 Use `if/else` expressions or `match` to create conditions that drive the transformation based on the data.

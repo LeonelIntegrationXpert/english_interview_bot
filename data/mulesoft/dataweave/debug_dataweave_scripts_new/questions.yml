@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: debug_dataweave_scripts_new
+    examples: |-
+      # 🌟 Português
+      - Como debugar scripts no DataWeave?
+      - Qual a forma de identificar erros em transformações?
+
+      # 🇺🇸 English
+      - How do I debug DataWeave scripts?
+      - What is the best method to identify errors in transformations?

@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: extract_substring_dataweave_new
+    examples: |-
+      # 🌟 Português
+      - Como extrair uma substring específica no DataWeave?
+      - Qual função retorna parte de uma string?
+
+      # 🇺🇸 English
+      - How do I extract a specific substring in DataWeave?
+      - Which function returns a portion of a string?

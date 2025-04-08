@@ -1,0 +1,8 @@
+responses:
+  utter_remove_duplicates_dataweave_new:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  🧹 Utilize `distinct()` para filtrar e retornar apenas elementos únicos de uma lista.
+              - vr_en: |-
+                  🧹 Use `distinct()` to filter and return only unique elements from a list.

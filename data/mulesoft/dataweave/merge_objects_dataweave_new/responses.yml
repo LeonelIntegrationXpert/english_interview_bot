@@ -1,0 +1,8 @@
+responses:
+  utter_merge_objects_dataweave_new:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  🔗 Utilize o operador spread (`...`) para combinar os campos de múltiplos objetos em um único objeto.
+              - vr_en: |-
+                  🔗 Use the spread operator (`...`) to combine fields from multiple objects into a single object.

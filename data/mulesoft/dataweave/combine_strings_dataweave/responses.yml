@@ -1,0 +1,8 @@
+responses:
+  utter_combine_strings_dataweave:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  🔗 Utilize o operador `++` para unir strings de forma simples e direta.
+              - vr_en: |-
+                  🔗 Use the `++` operator to concatenate strings straightforwardly.

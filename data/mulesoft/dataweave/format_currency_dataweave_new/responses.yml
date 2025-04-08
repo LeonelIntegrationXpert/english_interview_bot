@@ -1,0 +1,8 @@
+responses:
+  utter_format_currency_dataweave_new:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  💰 Use `write()` com um padrão específico, como `#,##0.00`, para formatar números como valores monetários.
+              - vr_en: |-
+                  💰 Use `write()` with a specific pattern, such as `#,##0.00`, to format numbers as currency.

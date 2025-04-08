@@ -1,0 +1,8 @@
+responses:
+  utter_format_currency_dataweave:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  💰 Use a função `write()` com um padrão de formatação, ex: `#,##0.00`, para exibir valores monetários.
+              - vr_en: |-
+                  💰 Use the `write()` function with a formatting pattern, e.g., `#,##0.00`, to display currency values.

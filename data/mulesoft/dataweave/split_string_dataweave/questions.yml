@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: split_string_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como dividir uma string em um array no DataWeave?
+      - Qual a função para separar uma string por delimitador?
+
+      # 🇺🇸 English
+      - How do I split a string into an array in DataWeave?
+      - What function is used to split a string by a delimiter in DataWeave?

@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: extract_array_element_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como extrair um elemento específico de uma lista no DataWeave?
+      - Qual a forma de acessar um item por índice em uma lista?
+
+      # 🇺🇸 English
+      - How do I extract a specific element from a list in DataWeave?
+      - What is the method to access an item by index in a list?

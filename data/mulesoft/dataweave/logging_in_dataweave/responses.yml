@@ -1,0 +1,8 @@
+responses:
+  utter_logging_in_dataweave:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  📝 Embora o DataWeave não tenha funções de log nativas, você pode combinar com o logger do Mule em flows para registrar saídas.
+              - vr_en: |-
+                  📝 Although DataWeave itself doesn’t include native logging functions, you can combine it with Mule’s logger in flows to log outputs.

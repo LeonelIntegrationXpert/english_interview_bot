@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: reusable_functions_dataweave_new
+    examples: |-
+      # 🌟 Português
+      - Como criar funções reutilizáveis no DataWeave?
+      - Qual a maneira de definir funções para uso em múltiplos scripts?
+
+      # 🇺🇸 English
+      - How do I create reusable functions in DataWeave?
+      - What is the best way to define functions for use in multiple scripts?

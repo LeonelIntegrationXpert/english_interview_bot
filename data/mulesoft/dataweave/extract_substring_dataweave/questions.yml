@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: extract_substring_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como extrair uma substring de uma string no DataWeave?
+      - Qual a forma de pegar parte de um texto?
+
+      # 🇺🇸 English
+      - How do I extract a substring from a string in DataWeave?
+      - What is the method to get a part of a text?

@@ -1,0 +1,8 @@
+responses:
+  utter_date_arithmetic_dataweave:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  📅 Use funções como `now()`, `plus()`, e `minus()` para manipular datas e realizar cálculos.
+              - vr_en: |-
+                  📅 Use functions such as `now()`, `plus()`, and `minus()` to manipulate dates and perform calculations.

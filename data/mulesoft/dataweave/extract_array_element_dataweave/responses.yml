@@ -1,0 +1,8 @@
+responses:
+  utter_extract_array_element_dataweave:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  📌 Para acessar um elemento, use a notação com índice, ex: `payload[0]` acessa o primeiro item da lista.
+              - vr_en: |-
+                  📌 To access an element, use index notation, e.g., `payload[0]` retrieves the first item.

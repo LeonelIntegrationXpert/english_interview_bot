@@ -1,0 +1,8 @@
+responses:
+  utter_unit_testing_dataweave_new:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  🧪 Use o MUnit para criar testes que validem a saída das transformações, garantindo que os scripts se comportem como esperado.
+              - vr_en: |-
+                  🧪 Use MUnit to build tests that validate the outputs of your transformations, ensuring expected behavior.

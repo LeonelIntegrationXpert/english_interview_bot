@@ -1,0 +1,8 @@
+responses:
+  utter_extract_element_from_array:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  📌 Use a notação com índice, como `payload[2]`, para acessar o terceiro elemento de uma lista.
+              - vr_en: |-
+                  📌 Use index notation, e.g., `payload[2]`, to access the third element of an array.

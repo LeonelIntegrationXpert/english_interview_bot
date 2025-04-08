@@ -1,61 +1,695 @@
-#intent: flatten_nested_list_dataweave
-
+#intent: extract_array_element_dataweave
 #pt:
-Como achatar listas aninhadas no DataWeave?
-Existe alguma função para "achatar" arrays?
-
+Como extrair um elemento específico de uma lista no DataWeave?
+Qual a forma de acessar um item por índice em uma lista?
 #en:
-How do I flatten nested lists in DataWeave?
-Is there a function to flatten arrays in DataWeave?
-
+How do I extract a specific element from a list in DataWeave?
+What is the method to access an item by index in a list?
 #vr_pt:
-📚 Como achatar listas aninhadas no DataWeave?  
-Use a função `flatten()` para transformar uma lista de listas em uma lista única.  
-Exemplo: `[[1,2],[3,4]]` se torna `[1,2,3,4]`.
-
+📌 Para acessar um elemento, use a notação com índice, ex: `payload[0]` acessa o primeiro item da lista.
 #vr_en:
-📚 How to flatten nested lists in DataWeave?  
-Use the `flatten()` function to turn a list of lists into a single flat list.  
-Example: `[[1,2],[3,4]]` becomes `[1,2,3,4]`.
-
+📌 To access an element, use index notation, e.g., `payload[0]` retrieves the first item.
 ---
-
-#intent: validate_data_structure_dataweave
-
+#intent: sort_list_dataweave
 #pt:
-Como validar a estrutura de um dado no DataWeave?
-Tem como verificar se o dado tem um campo específico?
-
+Como ordenar uma lista no DataWeave?
+Qual a função para ordenar arrays?
 #en:
-How to validate a data structure in DataWeave?
-Can I check if a field exists in the data?
-
+How do I sort a list in DataWeave?
+What function is used to sort arrays?
 #vr_pt:
-🔎 Como validar estrutura de dados em DataWeave?  
-Você pode usar operadores como `if`, `is`, `default`, ou `?` para verificar a existência de campos e validar tipos.  
-Isso evita erros quando campos estão ausentes ou em formatos inesperados.
-
+📚 Utilize `sortBy()` para ordenar uma lista com base em um critério específico.
 #vr_en:
-🔎 How to validate data structure in DataWeave?  
-You can use `if`, `is`, `default`, or `?` operators to check for field existence and validate types.  
-This helps avoid errors from missing or unexpected data formats.
-
+📚 Use `sortBy()` to sort a list based on a specific criterion.
 ---
-
-#intent: combine_multiple_payloads_dataweave
-
+#intent: remove_duplicates_dataweave
 #pt:
-Como combinar vários payloads em um só?
-É possível mesclar dados de múltiplas fontes no DataWeave?
-
+Como remover duplicatas de uma lista no DataWeave?
+Existe função para eliminar itens repetidos?
 #en:
-How to combine multiple payloads into one?
-Is it possible to merge data from multiple sources in DataWeave?
-
+How do I remove duplicates from a list in DataWeave?
+Is there a function to eliminate duplicate items?
 #vr_pt:
-🔗 Como unir múltiplos payloads em DataWeave?  
-Use funções como `++` para combinar listas, ou `...` para mesclar objetos. Também é possível usar `zip`, `map`, `join` e outras para lidar com múltiplas fontes simultaneamente.
-
+🔄 Use `distinct()` ou `distinctBy()` para remover valores repetidos de uma lista.
 #vr_en:
-🔗 How to merge multiple payloads in DataWeave?  
-Use `++` to join lists, or spread `...` to merge objects. You can also use `zip`, `map`, `join` and other tools to handle multiple sources efficiently.
+🔄 Use `distinct()` or `distinctBy()` to remove duplicate values from a list.
+---
+#intent: convert_number_to_string_dataweave
+#pt:
+Como converter um número para string no DataWeave?
+Como faço o cast de número para texto?
+#en:
+How do I convert a number to a string in DataWeave?
+What is the method to cast a number to text?
+#vr_pt:
+🔢 Use `as String` para converter um número em uma representação textual.
+#vr_en:
+🔢 Use `as String` to cast a number into its string representation.
+---
+#intent: handle_special_characters_dataweave
+#pt:
+Como lidar com caracteres especiais no DataWeave?
+O que fazer com símbolos não alfanuméricos?
+#en:
+How do I handle special characters in DataWeave?
+What should I do with non-alphanumeric symbols in DataWeave?
+#vr_pt:
+✨ Utilize funções de substituição ou expressões regulares para tratar caracteres especiais conforme necessário.
+#vr_en:
+✨ Use string replacement functions or regular expressions to handle special characters as needed.
+---
+#intent: format_currency_dataweave
+#pt:
+Como formatar valores monetários no DataWeave?
+Qual a forma de exibir números como moedas?
+#en:
+How do I format currency values in DataWeave?
+What is the method to display numbers as currency?
+#vr_pt:
+💰 Use a função `write()` com um padrão de formatação, ex: `#,##0.00`, para exibir valores monetários.
+#vr_en:
+💰 Use the `write()` function with a formatting pattern, e.g., `#,##0.00`, to display currency values.
+---
+#intent: date_arithmetic_dataweave
+#pt:
+Como realizar operações com datas no DataWeave?
+Como somar ou subtrair dias em uma data?
+#en:
+How do I perform arithmetic on dates in DataWeave?
+How can I add or subtract days from a date?
+#vr_pt:
+📅 Use funções como `now()`, `plus()`, e `minus()` para manipular datas e realizar cálculos.
+#vr_en:
+📅 Use functions such as `now()`, `plus()`, and `minus()` to manipulate dates and perform calculations.
+---
+#intent: conditional_logic_dataweave
+#pt:
+Como implementar lógica condicional avançada no DataWeave?
+Qual a forma de usar condições no script?
+#en:
+How do I implement advanced conditional logic in DataWeave?
+What is the method to apply conditions in a DataWeave script?
+#vr_pt:
+🔀 Utilize `if/else` ou a expressão `match` para criar condições dinâmicas e transformar dados conforme regras.
+#vr_en:
+🔀 Use `if/else` or the `match` expression to build dynamic conditions and transform data based on rules.
+---
+#intent: combine_strings_dataweave
+#pt:
+Como concatenar strings no DataWeave?
+Qual é a forma de unir textos?
+#en:
+How do I combine strings in DataWeave?
+What is the method to concatenate text?
+#vr_pt:
+🔗 Utilize o operador `++` para unir strings de forma simples e direta.
+#vr_en:
+🔗 Use the `++` operator to concatenate strings straightforwardly.
+---
+#intent: split_string_dataweave
+#pt:
+Como dividir uma string em um array no DataWeave?
+Qual a função para separar uma string por delimitador?
+#en:
+How do I split a string into an array in DataWeave?
+What function is used to split a string by a delimiter in DataWeave?
+#vr_pt:
+✂️ Use a função `splitBy()` para dividir uma string em um array com base em um delimitador.
+#vr_en:
+✂️ Use the `splitBy()` function to split a string into an array based on a delimiter.
+---
+#intent: trim_string_dataweave
+#pt:
+Como remover espaços de uma string no DataWeave?
+Como limpar os espaços extras no início e fim de um texto?
+#en:
+How do I trim spaces from a string in DataWeave?
+What is the method to remove extra spaces from the beginning and end of a string?
+#vr_pt:
+🧹 Use a função `trim()` para remover espaços em branco do início e do fim da string.
+#vr_en:
+🧹 Use the `trim()` function to remove white spaces from the beginning and end of a string.
+---
+#intent: extract_substring_dataweave
+#pt:
+Como extrair uma substring de uma string no DataWeave?
+Qual a forma de pegar parte de um texto?
+#en:
+How do I extract a substring from a string in DataWeave?
+What is the method to get a part of a text?
+#vr_pt:
+🔍 Utilize a função `substring()` para obter uma parte da string, especificando o índice inicial e o comprimento.
+#vr_en:
+🔍 Use the `substring()` function to obtain part of the string by specifying the starting index and length.
+---
+#intent: convert_binary_to_string_dataweave
+#pt:
+Como converter dados binários para string no DataWeave?
+Qual a função para transformar binário em texto?
+#en:
+How do I convert binary data to a string in DataWeave?
+What function converts binary to text in DataWeave?
+#vr_pt:
+🔄 Use `as String` com especificação de encoding (por exemplo, UTF-8) para converter dados binários em string.
+#vr_en:
+🔄 Use `as String` along with an encoding specification (e.g., UTF-8) to convert binary data into a string.
+---
+#intent: custom_error_handling_dataweave
+#pt:
+Como implementar tratamento de erros personalizado no DataWeave?
+Como capturar e tratar erros em scripts DataWeave?
+#en:
+How do I implement custom error handling in DataWeave?
+What is the method to catch and handle errors in DataWeave scripts?
+#vr_pt:
+🚨 Utilize blocos `try/catch` para capturar exceções e definir valores padrão ou mensagens de erro personalizadas.
+#vr_en:
+🚨 Use `try/catch` blocks to catch exceptions and define fallback values or custom error messages.
+---
+#intent: logging_in_dataweave
+#pt:
+Como fazer logging durante transformações no DataWeave?
+É possível registrar logs em scripts DataWeave?
+#en:
+How do I log information during transformations in DataWeave?
+Can I generate logs within DataWeave scripts?
+#vr_pt:
+📝 Embora o DataWeave não tenha funções de log nativas, você pode combinar com o logger do Mule em flows para registrar saídas.
+#vr_en:
+📝 Although DataWeave itself doesn’t include native logging functions, you can combine it with Mule’s logger in flows to log outputs.
+---
+#intent: performance_tips_dataweave
+#pt:
+Quais são as dicas para melhorar a performance no DataWeave?
+Como otimizar scripts para execução rápida?
+#en:
+What are the tips for improving performance in DataWeave?
+How can I optimize scripts for faster execution?
+#vr_pt:
+🚀 Reduza o número de transformações encadeadas, utilize funções nativas, e teste com dados reais para identificar gargalos.
+#vr_en:
+🚀 Minimize chained transformations, leverage built-in functions, and test with real data to identify bottlenecks.
+---
+#intent: memory_optimization_dataweave
+#pt:
+Como otimizar o uso de memória em scripts DataWeave?
+Tem como reduzir consumo de memória em transformações?
+#en:
+How do I optimize memory usage in DataWeave scripts?
+Can I reduce memory consumption in transformations?
+#vr_pt:
+💾 Use operações eficientes, evite duplicar dados desnecessariamente e libere variáveis que não serão mais usadas.
+#vr_en:
+💾 Use efficient operations, avoid unnecessary data duplication, and clear unused variables.
+---
+#intent: reusable_functions_dataweave
+#pt:
+Como criar funções reutilizáveis no DataWeave?
+Posso definir funções para usar em vários scripts?
+#en:
+How do I create reusable functions in DataWeave?
+Can I define functions to use across multiple scripts?
+#vr_pt:
+♻️ Utilize `fun` para declarar funções e organize-as em módulos para reutilização e manutenção fácil.
+#vr_en:
+♻️ Use the `fun` keyword to declare functions and organize them into modules for reuse and easy maintenance.
+---
+#intent: debug_dataweave_scripts
+#pt:
+Como debugar scripts no DataWeave?
+Qual a melhor forma de identificar erros em transformações?
+#en:
+How do I debug DataWeave scripts?
+What is the best way to identify errors in transformations?
+#vr_pt:
+🐞 Use `typeOf()` para inspecionar tipos e o painel do Anypoint Studio para visualizar o payload em cada etapa.
+#vr_en:
+🐞 Use `typeOf()` to inspect types and leverage the Anypoint Studio panel to view the payload at each stage.
+---
+#intent: unit_testing_dataweave
+#pt:
+Como testar scripts DataWeave utilizando MUnit?
+Qual a abordagem para testes unitários de transformações?
+#en:
+How do I test DataWeave scripts using MUnit?
+What is the approach for unit testing transformations in DataWeave?
+#vr_pt:
+🧪 Utilize o MUnit para criar testes que validem a saída das transformações, garantindo que os dados sejam convertidos conforme esperado.
+#vr_en:
+🧪 Use MUnit to build tests that validate the outputs of your transformations, ensuring the data is processed as expected.
+---
+#intent: extract_element_from_array
+#pt:
+Como extrair um elemento específico de uma lista no DataWeave?
+Qual a forma de acessar um item por índice?
+#en:
+How do I extract a specific element from an array in DataWeave?
+What is the method to access an item by its index?
+#vr_pt:
+📌 Use a notação com índice, como `payload[2]`, para acessar o terceiro elemento de uma lista.
+#vr_en:
+📌 Use index notation, e.g., `payload[2]`, to access the third element of an array.
+---
+#intent: sort_list_dataweave_new
+#pt:
+Como ordenar uma lista no DataWeave de forma ascendente?
+Qual a função para organizar uma lista em ordem?
+#en:
+How do I sort a list in ascending order in DataWeave?
+Which function sorts a list in order?
+#vr_pt:
+📚 Utilize `sortBy()` para ordenar a lista com base em um critério ascendente.
+#vr_en:
+📚 Use `sortBy()` to sort a list in ascending order based on a specified criterion.
+---
+#intent: merge_objects_dataweave
+#pt:
+Como mesclar dois objetos no DataWeave?
+Qual a forma de unir dados de dois objetos?
+#en:
+How do I merge two objects in DataWeave?
+What is the method to combine two objects?
+#vr_pt:
+🔗 Use o operador spread (`...`) para mesclar objetos e combinar seus campos em um único objeto.
+#vr_en:
+🔗 Use the spread operator (`...`) to merge objects and combine their fields into one object.
+---
+#intent: remove_duplicates_dataweave_new
+#pt:
+Como remover duplicatas de uma lista no DataWeave?
+Qual função elimina itens repetidos?
+#en:
+How do I remove duplicates from a list in DataWeave?
+Which function eliminates duplicate items?
+#vr_pt:
+🧹 Utilize a função `distinct()` para remover elementos duplicados e retornar uma lista com valores únicos.
+#vr_en:
+🧹 Use the `distinct()` function to remove duplicate elements and return a list with unique values.
+---
+#intent: convert_number_to_string_dataweave_new
+#pt:
+Como converter um número em string no DataWeave?
+Qual a forma de transformar um número em texto?
+#en:
+How do I convert a number to a string in DataWeave?
+What is the method to turn a number into text?
+#vr_pt:
+🔄 Use `as String` para converter um número em sua representação textual.
+#vr_en:
+🔄 Use `as String` to convert a number into its string representation.
+---
+#intent: handle_special_characters_dataweave_new
+#pt:
+Como tratar caracteres especiais em DataWeave?
+Qual a abordagem para lidar com símbolos não alfanuméricos?
+#en:
+How do I handle special characters in DataWeave?
+What approach is used to manage non-alphanumeric symbols?
+#vr_pt:
+✨ Utilize funções de substituição e expressões regulares para limpar ou substituir caracteres especiais conforme necessário.
+#vr_en:
+✨ Use replacement functions and regular expressions to clean or substitute special characters as required.
+---
+#intent: format_currency_dataweave_new
+#pt:
+Como formatar valores monetários no DataWeave?
+Qual a forma de exibir números no formato de moeda?
+#en:
+How do I format currency values in DataWeave?
+What is the method to display numbers as currency?
+#vr_pt:
+💰 Use a função `write()` com um padrão de formatação, como `#,##0.00`, para exibir números como valores monetários.
+#vr_en:
+💰 Use the `write()` function with a formatting pattern like `#,##0.00` to display numbers as currency.
+---
+#intent: date_arithmetic_dataweave_new
+#pt:
+Como realizar operações aritméticas com datas no DataWeave?
+Como somar ou subtrair dias de uma data?
+#en:
+How do I perform date arithmetic in DataWeave?
+How can I add or subtract days from a date?
+#vr_pt:
+📅 Utilize funções como `now()`, `plus()`, e `minus()` para realizar cálculos com datas e gerar novos valores de tempo.
+#vr_en:
+📅 Use functions such as `now()`, `plus()`, and `minus()` to perform calculations on dates and generate new time values.
+---
+#intent: conditional_logic_dataweave_new
+#pt:
+Como implementar lógica condicional avançada no DataWeave?
+Qual a abordagem para usar condições complexas?
+#en:
+How do I implement advanced conditional logic in DataWeave?
+What is the approach for complex conditions in a DataWeave script?
+#vr_pt:
+🔀 Utilize expressões `if/else` ou `match` para implementar lógica condicional avançada que adapta a transformação com base nos dados.
+#vr_en:
+🔀 Use `if/else` expressions or `match` to implement advanced conditional logic that adapts transformation based on data.
+---
+#intent: combine_strings_dataweave_new
+#pt:
+Como concatenar várias strings no DataWeave?
+Qual método une textos em um único valor?
+#en:
+How do I combine multiple strings in DataWeave?
+What method concatenates texts into a single value?
+#vr_pt:
+🔗 Use o operador `++` para unir strings, formando uma única sequência de texto.
+#vr_en:
+🔗 Use the `++` operator to concatenate strings into one continuous text.
+---
+#intent: split_string_dataweave_new
+#pt:
+Como dividir uma string em partes no DataWeave?
+Qual função separa uma string em um array?
+#en:
+How do I split a string into parts in DataWeave?
+What function breaks a string into an array?
+#vr_pt:
+✂️ Utilize `splitBy()` para quebrar uma string em um array com base em um delimitador específico.
+#vr_en:
+✂️ Use the `splitBy()` function to split a string into an array based on a specific delimiter.
+---
+#intent: trim_string_dataweave_new
+#pt:
+Como remover espaços extras de uma string no DataWeave?
+Qual função limpa os espaços em branco de um texto?
+#en:
+How do I trim extra spaces from a string in DataWeave?
+What function removes whitespace from a text?
+#vr_pt:
+🧹 Use a função `trim()` para eliminar espaços em branco no início e no final de uma string.
+#vr_en:
+🧹 Use the `trim()` function to remove whitespace at the beginning and end of a string.
+---
+#intent: extract_substring_dataweave_new
+#pt:
+Como extrair uma parte específica de uma string no DataWeave?
+Qual método permite obter uma substring de um texto?
+#en:
+How do I extract a specific part of a string in DataWeave?
+Which method retrieves a substring from text?
+#vr_pt:
+🔍 Utilize `substring()` para extrair parte de uma string, especificando a posição inicial e o tamanho.
+#vr_en:
+🔍 Use the `substring()` function to extract part of a string by specifying the starting position and length.
+---
+#intent: convert_binary_to_string_dataweave_new
+#pt:
+Como converter dados binários para string no DataWeave?
+Qual função converte binário em texto?
+#en:
+How do I convert binary data to a string in DataWeave?
+What function converts binary to text?
+#vr_pt:
+🔄 Use `as String` com a codificação adequada (por exemplo, UTF-8) para converter dados binários em uma string.
+#vr_en:
+🔄 Use `as String` with the appropriate encoding (e.g., UTF-8) to convert binary data into a string.
+---
+#intent: custom_error_handling_dataweave_new
+#pt:
+Como implementar tratamento de erros personalizado no DataWeave?
+Qual abordagem evita que erros interrompam a transformação?
+#en:
+How do I implement custom error handling in DataWeave?
+What method prevents errors from stopping the transformation?
+#vr_pt:
+🚨 Utilize blocos `try/catch` para capturar exceções e definir valores padrão, garantindo que o fluxo continue.
+#vr_en:
+🚨 Use `try/catch` blocks to capture exceptions and set default values, ensuring the flow continues.
+---
+#intent: logging_in_dataweave_new
+#pt:
+Como registrar logs durante a execução de um script DataWeave?
+Há maneira de gerar logs dentro do DataWeave?
+#en:
+How do I log information during a DataWeave script execution?
+Is there a way to generate logs within DataWeave?
+#vr_pt:
+📝 Embora o DataWeave não possua logging nativo, integre com o logger do MuleSoft para registrar saídas no flow.
+#vr_en:
+📝 Although DataWeave lacks native logging, integrate with MuleSoft’s logger to record outputs in the flow.
+---
+#intent: performance_tips_dataweave_new
+#pt:
+Quais são as melhores práticas para otimizar a performance dos scripts DataWeave?
+Como melhorar a velocidade das transformações no DataWeave?
+#en:
+What are the best practices for optimizing DataWeave performance?
+How can I improve transformation speed in DataWeave?
+#vr_pt:
+🚀 Evite transformações desnecessárias, utilize funções nativas e teste com dados reais para identificar e eliminar gargalos.
+#vr_en:
+🚀 Avoid unnecessary transformations, use native functions, and test with real data to identify and eliminate bottlenecks.
+---
+#intent: memory_optimization_dataweave_new
+#pt:
+Como otimizar o uso de memória em scripts DataWeave?
+Quais técnicas reduzem o consumo de memória nas transformações?
+#en:
+How do I optimize memory usage in DataWeave scripts?
+What techniques reduce memory consumption in transformations?
+#vr_pt:
+💾 Use operações eficientes, evite duplicação de dados e descarte variáveis não utilizadas para otimizar o uso de memória.
+#vr_en:
+💾 Use efficient operations, avoid data duplication, and clear unused variables to optimize memory usage.
+---
+#intent: reusable_functions_dataweave_new
+#pt:
+Como criar funções reutilizáveis no DataWeave?
+Qual a maneira de definir funções para uso em múltiplos scripts?
+#en:
+How do I create reusable functions in DataWeave?
+What is the best way to define functions for use in multiple scripts?
+#vr_pt:
+♻️ Declare funções com `fun` e organize-as em módulos para promover a reutilização e facilitar a manutenção.
+#vr_en:
+♻️ Declare functions using `fun` and organize them into modules to promote reuse and maintainability.
+---
+#intent: debug_dataweave_scripts_new
+#pt:
+Como debugar scripts no DataWeave?
+Qual a forma de identificar erros em transformações?
+#en:
+How do I debug DataWeave scripts?
+What is the best method to identify errors in transformations?
+#vr_pt:
+🐞 Utilize a função `typeOf()` para verificar tipos e o painel de debugging do Anypoint Studio para inspecionar o payload.
+#vr_en:
+🐞 Use the `typeOf()` function to check types and leverage Anypoint Studio’s debugging panel to inspect the payload.
+---
+#intent: unit_testing_dataweave_new
+#pt:
+Como testar scripts DataWeave usando MUnit?
+Qual a abordagem para realizar testes unitários em transformações?
+#en:
+How do I test DataWeave scripts using MUnit?
+What is the approach for unit testing transformations in DataWeave?
+#vr_pt:
+🧪 Use o MUnit para criar testes que validem a saída das transformações, garantindo que os scripts se comportem como esperado.
+#vr_en:
+🧪 Use MUnit to build tests that validate the outputs of your transformations, ensuring expected behavior.
+---
+#intent: extract_array_element_dataweave_new
+#pt:
+Como extrair um elemento específico de uma lista no DataWeave?
+Qual a maneira de acessar um item por índice?
+#en:
+How do I extract a specific element from a list in DataWeave?
+What is the method to access an element by index?
+#vr_pt:
+📌 Acesse o elemento desejado utilizando a notação de índice, por exemplo, `payload[1]` para o segundo item.
+#vr_en:
+📌 Access the desired element using index notation, e.g., `payload[1]` for the second item.
+---
+#intent: sort_list_dataweave_new
+#pt:
+Como ordenar uma lista de números no DataWeave?
+Qual função organiza arrays em ordem crescente?
+#en:
+How do I sort a list of numbers in DataWeave?
+Which function organizes arrays in ascending order?
+#vr_pt:
+📚 Utilize `sortBy()` para ordenar a lista com base nos valores de cada item.
+#vr_en:
+📚 Use `sortBy()` to sort the list based on the value of each item.
+---
+#intent: merge_objects_dataweave_new
+#pt:
+Como mesclar dois objetos no DataWeave?
+Qual a forma de unir dados de objetos diferentes?
+#en:
+How do I merge two objects in DataWeave?
+What is the method to combine data from different objects?
+#vr_pt:
+🔗 Utilize o operador spread (`...`) para combinar os campos de múltiplos objetos em um único objeto.
+#vr_en:
+🔗 Use the spread operator (`...`) to combine fields from multiple objects into a single object.
+---
+#intent: remove_duplicates_dataweave_new
+#pt:
+Como remover elementos duplicados de uma lista no DataWeave?
+Qual função elimina itens repetidos?
+#en:
+How do I remove duplicate elements from a list in DataWeave?
+Which function removes repeated items?
+#vr_pt:
+🧹 Utilize `distinct()` para filtrar e retornar apenas elementos únicos de uma lista.
+#vr_en:
+🧹 Use `distinct()` to filter and return only unique elements from a list.
+---
+#intent: convert_number_to_string_dataweave_new
+#pt:
+Como converter um número para string no DataWeave?
+Como transformar um valor numérico em texto?
+#en:
+How do I convert a number to a string in DataWeave?
+What is the method to turn a numeric value into text?
+#vr_pt:
+🔄 Use `as String` para converter um número em sua representação textual.
+#vr_en:
+🔄 Use `as String` to convert a number into its text representation.
+---
+#intent: handle_special_characters_dataweave_new
+#pt:
+Como tratar caracteres especiais em DataWeave?
+Qual a abordagem para limpar símbolos em um texto?
+#en:
+How do I handle special characters in DataWeave?
+What is the approach to clean symbols in a string?
+#vr_pt:
+✨ Utilize expressões regulares ou funções de substituição para remover ou substituir caracteres especiais.
+#vr_en:
+✨ Use regular expressions or replacement functions to remove or substitute special characters.
+---
+#intent: format_currency_dataweave_new
+#pt:
+Como formatar um número como valor monetário no DataWeave?
+Qual função exibe números em formato de moeda?
+#en:
+How do I format a number as currency in DataWeave?
+Which function displays numbers in a monetary format?
+#vr_pt:
+💰 Use `write()` com um padrão específico, como `#,##0.00`, para formatar números como valores monetários.
+#vr_en:
+💰 Use `write()` with a specific pattern, such as `#,##0.00`, to format numbers as currency.
+---
+#intent: date_arithmetic_dataweave_new
+#pt:
+Como realizar operações aritméticas com datas no DataWeave?
+Como somar ou subtrair dias de uma data?
+#en:
+How do I perform arithmetic operations on dates in DataWeave?
+How can I add or subtract days from a date?
+#vr_pt:
+📅 Utilize funções como `now()`, `plus()`, e `minus()` para manipular datas e realizar operações aritméticas.
+#vr_en:
+📅 Use functions like `now()`, `plus()`, and `minus()` to manipulate dates and perform arithmetic operations.
+---
+#intent: conditional_logic_dataweave_new
+#pt:
+Como implementar lógica condicional avançada no DataWeave?
+Qual a melhor maneira de usar condições em transformações?
+#en:
+How do I implement advanced conditional logic in DataWeave?
+What is the best method to apply conditions in transformations?
+#vr_pt:
+🔀 Utilize expressões `if/else` ou `match` para criar condições que direcionem a transformação conforme os dados.
+#vr_en:
+🔀 Use `if/else` expressions or `match` to create conditions that drive the transformation based on the data.
+---
+#intent: combine_strings_dataweave_new
+#pt:
+Como concatenar duas ou mais strings no DataWeave?
+Qual operador une textos em uma única string?
+#en:
+How do I concatenate two or more strings in DataWeave?
+Which operator joins texts into a single string?
+#vr_pt:
+🔗 Utilize o operador `++` para unir várias strings em um único texto.
+#vr_en:
+🔗 Use the `++` operator to join multiple strings into a single text.
+---
+#intent: split_string_dataweave_new
+#pt:
+Como dividir uma string em um array no DataWeave?
+Qual função separa uma string por delimitador?
+#en:
+How do I split a string into an array in DataWeave?
+What function splits a string by a delimiter?
+#vr_pt:
+✂️ Use `splitBy()` para dividir uma string em um array com base no delimitador informado.
+#vr_en:
+✂️ Use the `splitBy()` function to split a string into an array based on the specified delimiter.
+---
+#intent: trim_string_dataweave_new
+#pt:
+Como remover espaços extras de uma string no DataWeave?
+Qual é o método para limpar espaços em branco no início e fim?
+#en:
+How do I trim extra spaces from a string in DataWeave?
+What method is used to remove whitespace from both ends of a string?
+#vr_pt:
+🧹 Utilize a função `trim()` para eliminar os espaços em branco do início e do fim da string.
+#vr_en:
+🧹 Use the `trim()` function to eliminate whitespace from the beginning and end of the string.
+---
+#intent: extract_substring_dataweave_new
+#pt:
+Como extrair uma substring específica no DataWeave?
+Qual função retorna parte de uma string?
+#en:
+How do I extract a specific substring in DataWeave?
+Which function returns a portion of a string?
+#vr_pt:
+🔍 Use `substring()` para extrair uma parte de uma string, definindo o índice inicial e o comprimento desejado.
+#vr_en:
+🔍 Use the `substring()` function to extract a part of a string by specifying the starting index and desired length.
+---
+#intent: convert_binary_to_string_dataweave_new
+#pt:
+Como converter dados binários em string no DataWeave?
+Como transformar binário em texto?
+#en:
+How do I convert binary data to a string in DataWeave?
+What is the method to transform binary into text?
+#vr_pt:
+🔄 Converta dados binários em string usando `as String` com a codificação adequada, como UTF-8.
+#vr_en:
+🔄 Convert binary data into a string using `as String` with the proper encoding, such as UTF-8.
+---
+#intent: custom_error_handling_dataweave_new
+#pt:
+Como implementar tratamento de erro personalizado no DataWeave?
+Como capturar exceções de forma customizada?
+#en:
+How do I implement custom error handling in DataWeave?
+What is the way to capture exceptions in a custom manner?
+#vr_pt:
+🚨 Utilize blocos `try/catch` para capturar erros e fornecer valores padrão ou mensagens personalizadas, evitando a interrupção do fluxo.
+#vr_en:
+🚨 Use `try/catch` blocks to capture errors and provide default values or custom messages, preventing the flow from breaking.
+---
+#intent: logging_in_dataweave_new
+#pt:
+Como registrar logs durante a execução de um script DataWeave?
+Existe uma forma de logar informações dentro do DataWeave?
+#en:
+How do I log information during the execution of a DataWeave script?
+Is there a way to log details within DataWeave?
+#vr_pt:
+📝 Embora o DataWeave não tenha logging embutido, integre com o logger do Mule para registrar saídas e diagnosticar o fluxo.
+#vr_en:
+📝 Although DataWeave doesn’t have built-in logging, integrate it with Mule’s logger to capture outputs and diagnose the flow.
+---
+#intent: performance_tips_dataweave_new
+#pt:
+Quais são as melhores práticas para otimizar a performance de scripts DataWeave?
+Como melhorar a velocidade das transformações no DataWeave?
+#en:
+What are the best practices to optimize DataWeave script performance?
+How can I speed up transformations in DataWeave?
+#vr_pt:
+🚀 Minimize transformações desnecessárias, use funções nativas e teste com dados reais para identificar e otimizar possíveis gargalos.
+#vr_en:
+🚀 Minimize unnecessary transformations, leverage built-in functions, and test with real data to identify and optimize performance bottlenecks.

@@ -1,0 +1,8 @@
+responses:
+  utter_debug_dataweave_scripts_new:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  🐞 Utilize a função `typeOf()` para verificar tipos e o painel de debugging do Anypoint Studio para inspecionar o payload.
+              - vr_en: |-
+                  🐞 Use the `typeOf()` function to check types and leverage Anypoint Studio’s debugging panel to inspect the payload.

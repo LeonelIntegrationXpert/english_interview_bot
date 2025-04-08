@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: sort_list_dataweave_new
+    examples: |-
+      # 🌟 Português
+      - Como ordenar uma lista de números no DataWeave?
+      - Qual função organiza arrays em ordem crescente?
+
+      # 🇺🇸 English
+      - How do I sort a list of numbers in DataWeave?
+      - Which function organizes arrays in ascending order?

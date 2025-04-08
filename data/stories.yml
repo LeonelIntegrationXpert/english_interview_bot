@@ -124,3 +124,175 @@ stories:
     steps:
       - intent: combine_multiple_payloads_dataweave
       - action: utter_combine_multiple_payloads_dataweave
+  - story: storie_extract_array_element_dataweave
+    steps:
+      - intent: extract_array_element_dataweave
+      - action: utter_extract_array_element_dataweave
+  - story: storie_sort_list_dataweave
+    steps:
+      - intent: sort_list_dataweave
+      - action: utter_sort_list_dataweave
+  - story: storie_remove_duplicates_dataweave
+    steps:
+      - intent: remove_duplicates_dataweave
+      - action: utter_remove_duplicates_dataweave
+  - story: storie_convert_number_to_string_dataweave
+    steps:
+      - intent: convert_number_to_string_dataweave
+      - action: utter_convert_number_to_string_dataweave
+  - story: storie_handle_special_characters_dataweave
+    steps:
+      - intent: handle_special_characters_dataweave
+      - action: utter_handle_special_characters_dataweave
+  - story: storie_format_currency_dataweave
+    steps:
+      - intent: format_currency_dataweave
+      - action: utter_format_currency_dataweave
+  - story: storie_date_arithmetic_dataweave
+    steps:
+      - intent: date_arithmetic_dataweave
+      - action: utter_date_arithmetic_dataweave
+  - story: storie_conditional_logic_dataweave
+    steps:
+      - intent: conditional_logic_dataweave
+      - action: utter_conditional_logic_dataweave
+  - story: storie_combine_strings_dataweave
+    steps:
+      - intent: combine_strings_dataweave
+      - action: utter_combine_strings_dataweave
+  - story: storie_split_string_dataweave
+    steps:
+      - intent: split_string_dataweave
+      - action: utter_split_string_dataweave
+  - story: storie_trim_string_dataweave
+    steps:
+      - intent: trim_string_dataweave
+      - action: utter_trim_string_dataweave
+  - story: storie_extract_substring_dataweave
+    steps:
+      - intent: extract_substring_dataweave
+      - action: utter_extract_substring_dataweave
+  - story: storie_convert_binary_to_string_dataweave
+    steps:
+      - intent: convert_binary_to_string_dataweave
+      - action: utter_convert_binary_to_string_dataweave
+  - story: storie_custom_error_handling_dataweave
+    steps:
+      - intent: custom_error_handling_dataweave
+      - action: utter_custom_error_handling_dataweave
+  - story: storie_logging_in_dataweave
+    steps:
+      - intent: logging_in_dataweave
+      - action: utter_logging_in_dataweave
+  - story: storie_performance_tips_dataweave
+    steps:
+      - intent: performance_tips_dataweave
+      - action: utter_performance_tips_dataweave
+  - story: storie_memory_optimization_dataweave
+    steps:
+      - intent: memory_optimization_dataweave
+      - action: utter_memory_optimization_dataweave
+  - story: storie_reusable_functions_dataweave
+    steps:
+      - intent: reusable_functions_dataweave
+      - action: utter_reusable_functions_dataweave
+  - story: storie_debug_dataweave_scripts
+    steps:
+      - intent: debug_dataweave_scripts
+      - action: utter_debug_dataweave_scripts
+  - story: storie_unit_testing_dataweave
+    steps:
+      - intent: unit_testing_dataweave
+      - action: utter_unit_testing_dataweave
+  - story: storie_extract_element_from_array
+    steps:
+      - intent: extract_element_from_array
+      - action: utter_extract_element_from_array
+  - story: storie_sort_list_dataweave_new
+    steps:
+      - intent: sort_list_dataweave_new
+      - action: utter_sort_list_dataweave_new
+  - story: storie_merge_objects_dataweave
+    steps:
+      - intent: merge_objects_dataweave
+      - action: utter_merge_objects_dataweave
+  - story: storie_remove_duplicates_dataweave_new
+    steps:
+      - intent: remove_duplicates_dataweave_new
+      - action: utter_remove_duplicates_dataweave_new
+  - story: storie_convert_number_to_string_dataweave_new
+    steps:
+      - intent: convert_number_to_string_dataweave_new
+      - action: utter_convert_number_to_string_dataweave_new
+  - story: storie_handle_special_characters_dataweave_new
+    steps:
+      - intent: handle_special_characters_dataweave_new
+      - action: utter_handle_special_characters_dataweave_new
+  - story: storie_format_currency_dataweave_new
+    steps:
+      - intent: format_currency_dataweave_new
+      - action: utter_format_currency_dataweave_new
+  - story: storie_date_arithmetic_dataweave_new
+    steps:
+      - intent: date_arithmetic_dataweave_new
+      - action: utter_date_arithmetic_dataweave_new
+  - story: storie_conditional_logic_dataweave_new
+    steps:
+      - intent: conditional_logic_dataweave_new
+      - action: utter_conditional_logic_dataweave_new
+  - story: storie_combine_strings_dataweave_new
+    steps:
+      - intent: combine_strings_dataweave_new
+      - action: utter_combine_strings_dataweave_new
+  - story: storie_split_string_dataweave_new
+    steps:
+      - intent: split_string_dataweave_new
+      - action: utter_split_string_dataweave_new
+  - story: storie_trim_string_dataweave_new
+    steps:
+      - intent: trim_string_dataweave_new
+      - action: utter_trim_string_dataweave_new
+  - story: storie_extract_substring_dataweave_new
+    steps:
+      - intent: extract_substring_dataweave_new
+      - action: utter_extract_substring_dataweave_new
+  - story: storie_convert_binary_to_string_dataweave_new
+    steps:
+      - intent: convert_binary_to_string_dataweave_new
+      - action: utter_convert_binary_to_string_dataweave_new
+  - story: storie_custom_error_handling_dataweave_new
+    steps:
+      - intent: custom_error_handling_dataweave_new
+      - action: utter_custom_error_handling_dataweave_new
+  - story: storie_logging_in_dataweave_new
+    steps:
+      - intent: logging_in_dataweave_new
+      - action: utter_logging_in_dataweave_new
+  - story: storie_performance_tips_dataweave_new
+    steps:
+      - intent: performance_tips_dataweave_new
+      - action: utter_performance_tips_dataweave_new
+  - story: storie_memory_optimization_dataweave_new
+    steps:
+      - intent: memory_optimization_dataweave_new
+      - action: utter_memory_optimization_dataweave_new
+  - story: storie_reusable_functions_dataweave_new
+    steps:
+      - intent: reusable_functions_dataweave_new
+      - action: utter_reusable_functions_dataweave_new
+  - story: storie_debug_dataweave_scripts_new
+    steps:
+      - intent: debug_dataweave_scripts_new
+      - action: utter_debug_dataweave_scripts_new
+  - story: storie_unit_testing_dataweave_new
+    steps:
+      - intent: unit_testing_dataweave_new
+      - action: utter_unit_testing_dataweave_new
+  - story: storie_extract_array_element_dataweave_new
+    steps:
+      - intent: extract_array_element_dataweave_new
+      - action: utter_extract_array_element_dataweave_new
+  - story: storie_merge_objects_dataweave_new
+    steps:
+      - intent: merge_objects_dataweave_new
+      - action: utter_merge_objects_dataweave_new

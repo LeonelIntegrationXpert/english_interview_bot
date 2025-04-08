@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: convert_number_to_string_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como converter um número para string no DataWeave?
+      - Como faço o cast de número para texto?
+
+      # 🇺🇸 English
+      - How do I convert a number to a string in DataWeave?
+      - What is the method to cast a number to text?

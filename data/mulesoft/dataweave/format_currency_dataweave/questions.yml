@@ -1,0 +1,11 @@
+version: '3.1'
+nlu:
+  - intent: format_currency_dataweave
+    examples: |-
+      # 🌟 Português
+      - Como formatar valores monetários no DataWeave?
+      - Qual a forma de exibir números como moedas?
+
+      # 🇺🇸 English
+      - How do I format currency values in DataWeave?
+      - What is the method to display numbers as currency?
