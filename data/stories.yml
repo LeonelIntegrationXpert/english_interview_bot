@@ -16,3 +16,7 @@ stories:
     steps:
       - intent: what_is_system_layer
       - action: utter_what_is_system_layer
+  - story: storie_api_led_integration_best_practices
+    steps:
+      - intent: api_led_integration_best_practices
+      - action: utter_api_led_integration_best_practices
