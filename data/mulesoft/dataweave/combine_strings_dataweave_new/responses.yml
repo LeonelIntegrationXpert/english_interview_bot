@@ -1,8 +1,0 @@
-responses:
-  utter_combine_strings_dataweave_new:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  🔗 Utilize o operador `++` para unir várias strings em um único texto.
-              - vr_en: |-
-                  🔗 Use the `++` operator to join multiple strings into a single text.

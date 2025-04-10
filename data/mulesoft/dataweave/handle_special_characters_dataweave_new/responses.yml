@@ -1,8 +1,0 @@
-responses:
-  utter_handle_special_characters_dataweave_new:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  ✨ Utilize expressões regulares ou funções de substituição para remover ou substituir caracteres especiais.
-              - vr_en: |-
-                  ✨ Use regular expressions or replacement functions to remove or substitute special characters.

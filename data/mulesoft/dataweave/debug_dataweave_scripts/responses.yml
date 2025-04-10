@@ -1,8 +1,0 @@
-responses:
-  utter_debug_dataweave_scripts:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  🐞 Use `typeOf()` para inspecionar tipos e o painel do Anypoint Studio para visualizar o payload em cada etapa.
-              - vr_en: |-
-                  🐞 Use `typeOf()` to inspect types and leverage the Anypoint Studio panel to view the payload at each stage.

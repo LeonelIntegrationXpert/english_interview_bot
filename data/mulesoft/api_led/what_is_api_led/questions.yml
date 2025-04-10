@@ -1,0 +1,205 @@
+version: '3.1'
+nlu:
+  - intent: what_is_api_led
+    examples: |-
+      # 🇧🇷 Português
+      - o que é api-led
+      - oq é apiled
+      - oq é a pi led
+      - o que eh api leg
+      - o q eh happi led
+      - o queéapiled
+      - oq e api led
+      - qual q eh api-led
+      - oqueéapileg
+      - oque e api led
+      - oqéapiled
+      - o que e a pi led
+      - que é api led
+      - q eh api led
+      - q é api leg
+      - q seria api led
+      - apiled é o que
+      - o que seria apiled
+      - a pi led oq é
+      - oqéapi_led
+      - oq eh api.lad
+      - q é ap l e d
+      - o q e api-led
+      - api-led oq é
+      - api leg o que é
+      - oqeh apilede
+      - que q eh api-led
+      - apiled que eh
+      - apiled que é
+      - api led significa o que
+      - qual é apiled
+      - apiled é que
+      - o que q é apileg
+      - oq eh a p i led
+      - oq eh api lede
+      - o q é apylede
+      - oqueé apilad
+      - o q é apilede
+      - oq eh apíled
+      - oq é api@led
+      - o q é api_led
+      - oq eh ap led
+      - api-led oq q eh
+      - oque eh api led
+      - oq eh apyléd
+      - q q é apilled
+      - oq é api@led
+      - oq é api led?
+      - oq eh api-LED
+      - q eh api led?
+      - oq é api l e d
+      - apilêde o que é
+      - api léde q eh
+      - oqueé a pi led
+      - oque eh apilede
+      - oq é api.lead
+      - oque q eh api led
+      - o q eh api.léd
+      - apí led o que é
+      - a p i l e d
+      - oque q é apiled
+      - o q eh api@led
+      - oque q eh apyled
+      - apiled oque é
+      - oq é apyleg
+      - apilede q é
+      - api lédi o q é
+      - api.léd oq é
+      - oqehapiled
+      - oq é ap.iled
+      - api leg eh o q
+      - o q e apyled
+      - oqe apilede
+      - oq e api.led
+      - o que eh apiled
+      - o q eh api_led?
+      - oq é apiléd?
+      - oq é apilad
+      - q eh api-LED
+      - o que q é apyleg
+      - oq é apíled
+      - o que q é ap.léd
+      - apyleg oq é
+      - api_led é o que
+      - q q é apyled
+      - apiléde o que é
+      - oqeh api-léd
+      - api-LED q é
+      - apyled eh oq
+      - oq é a-p-i-led
+      - o q é ap.léd
+      - oq é @pi-led
+      - o que eh a pi led
+      - oq eh api l e d
+      - oq é api_lad
+      - o que e a-p-i-led
+      - oq é api-l3d
+      - oq eh ap1led
+      - oq e api.lede
+      - oq eh a.pi.led
+
+      # 🇺🇸 English
+      - what is api-led
+      - what’s api led
+      - wuts apiled
+      - what is a pi led
+      - wat is api led
+      - what’s happi led
+      - wht is api-lead
+      - wha’s apyled
+      - wats api_led
+      - what is api leg
+      - what’s a.p.i led
+      - wat is apyled
+      - what api-led means
+      - what is apiled
+      - api-led what is
+      - api lead what’s that
+      - whuts api-lead
+      - what is happi led
+      - what’s apy led
+      - api-led meaning?
+      - api led wha is
+      - what is apy_led
+      - apiled what is that
+      - what’s api l e d
+      - what’s api@led
+      - what is @pi-led
+      - what is apy leg
+      - wat is apíled
+      - what’s api-lad
+      - what does api-led mean
+      - api-lad whats that
+      - apyled meaning?
+      - what is apilad
+      - api.lead what is
+      - what’s api-léd
+      - what is api.léd
+      - what’s a pi_led
+      - what api-léd means
+      - what is ap1led
+      - whats api.lede
+      - what is apiled?
+      - wat’s apilede
+      - whas api-lead
+      - api l e d what is
+      - apyled what’s that
+      - api-LED what is
+      - what’s api.lead
+      - apyled meaning?
+      - api_leg what is
+      - what is api-l3d
+      - what is api.led
+      - api.led wut is
+      - what’s a-p-i led
+      - whas happi-LED
+      - what is api.lad
+      - wat is a.p.i led
+      - whas api_leg
+      - what is ap.léd
+      - api.led what is?
+      - what’s api.lede
+      - wats @pi-led
+      - api-lad what it is
+      - apiled what is?
+      - what’s api-l3d
+      - api-lead whats it
+      - apíled whats that
+      - whats apyled
+      - what is a.pi.led
+      - api_leg what’s that
+      - api l e d what’s
+      - api.léd wut is
+      - what api-léd is
+      - what is api@led
+      - api-lead what is it
+      - apiled what is that
+      - what is api_lead
+      - wut is a pi led
+      - api.léd meaning
+      - api-LED whas that
+      - whuts api.lede
+      - what is api lede
+      - what is api_lad
+      - api-léd what is
+      - whats api_l e d
+      - api-lad wut is
+      - what is api.l e d
+      - api_led whas that
+      - whats apyleg
+      - api-léd what’s that
+      - what’s api.lead?
+      - api.lead what’s that
+      - what’s api-lede
+      - api.lede what’s that
+      - api.led what means
+      - api_led what is it
+      - what is api-lead?
+      - api-l3d what is
+      - what is apyleg

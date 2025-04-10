@@ -1,8 +1,0 @@
-responses:
-  utter_memory_optimization_dataweave:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  💾 Use operações eficientes, evite duplicar dados desnecessariamente e libere variáveis que não serão mais usadas.
-              - vr_en: |-
-                  💾 Use efficient operations, avoid unnecessary data duplication, and clear unused variables.

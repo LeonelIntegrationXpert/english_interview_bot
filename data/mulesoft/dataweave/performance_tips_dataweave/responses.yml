@@ -1,8 +1,0 @@
-responses:
-  utter_performance_tips_dataweave:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  🚀 Reduza o número de transformações encadeadas, utilize funções nativas, e teste com dados reais para identificar gargalos.
-              - vr_en: |-
-                  🚀 Minimize chained transformations, leverage built-in functions, and test with real data to identify bottlenecks.

@@ -1,8 +1,0 @@
-responses:
-  utter_remove_duplicates_dataweave:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  🔄 Use `distinct()` ou `distinctBy()` para remover valores repetidos de uma lista.
-              - vr_en: |-
-                  🔄 Use `distinct()` or `distinctBy()` to remove duplicate values from a list.

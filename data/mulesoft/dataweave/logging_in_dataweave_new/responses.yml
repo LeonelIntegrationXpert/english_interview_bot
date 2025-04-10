@@ -1,8 +1,0 @@
-responses:
-  utter_logging_in_dataweave_new:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  📝 Embora o DataWeave não tenha logging embutido, integre com o logger do Mule para registrar saídas e diagnosticar o fluxo.
-              - vr_en: |-
-                  📝 Although DataWeave doesn’t have built-in logging, integrate it with Mule’s logger to capture outputs and diagnose the flow.

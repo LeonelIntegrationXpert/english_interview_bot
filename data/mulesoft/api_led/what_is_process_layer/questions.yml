@@ -1,0 +1,160 @@
+version: '3.1'
+nlu:
+  - intent: what_is_process_layer
+    examples: |-
+      # 🇧🇷 Português
+      - o que é camada process
+      - oq eh process layer
+      - o que é a camada process
+      - camada process o que é
+      - qual a função da camada process
+      - camada de processamento o que é
+      - o que faz a camada process
+      - camada process significa o que
+      - process layer q eh
+      - o que é camada de processo
+      - o que é layer de processamento
+      - qual a camada de process
+      - camada de processo o que faz
+      - qual a função da camada de processo
+      - process layer significa o que
+      - camada de processamento o que faz
+      - oq eh a camada process
+      - camada process é o que
+      - camada de processamento q eh
+      - o que significa camada process
+      - o que faz a camada de processamento
+      - o que process layer faz
+      - qual função da camada de process
+      - process layer faz o que
+      - qual a diferença da camada process
+      - o que é camada de process
+      - o que process layer faz
+      - camada process é responsável por?
+      - o que eh process layer no api-led
+      - qual a função do process layer
+      - camada de process o que responde
+      - qual o papel da camada process
+      - process camada o que é
+      - oqeh camada process
+      - o que é camada de processo no api-led
+      - o que process layer faz no api-led
+      - camada process e o que faz
+      - camada process responde por?
+      - camada de process é utilizada para?
+      - o que process layer faz no api-led?
+      - como funciona a camada process?
+      - o que process layer executa
+      - qual o papel da camada de processamento
+      - o que layer process faz
+      - qual papel do process layer
+      - camada process o que executa
+      - o que a camada process lida
+      - camada process no api-led o que faz
+      - camada process o que processa
+      - o que processa a camada de processamento
+      - qual camda process faz
+      - process layer é a camada que faz o que
+      - process layer o que processa
+      - camada process é responsável por qual ação
+      - qual ação a camada process executa
+      - o que camada process gerencia
+      - o que faz camada process na arquitetura
+      - process layer é a camada que faz o que
+      - camada de process o que define
+      - qual é a função da camada process no mule
+      - camada de processo é qual
+      - o que process layer faz para as APIs
+      - o que a camada de process entrega
+      - camada process entrega o que
+      - o que processa a camada process
+      - qual a tarefa da camada process
+      - process layer o que define
+      - camada process é qual na arquitetura
+      - process layer gera o que
+      - camada process executa o que
+      - o que a camada de process facilita
+      - qual função da camada de process no mule
+      - process camada o que significa
+      - camada process lida com o que
+      - o que a camada process vai fazer
+      - qual é o papel da camada de processamento
+      - process layer faz qual operação
+      - camada process trabalha com o que
+      - o que camada de processamento faz
+      - qual ação a camada process executa
+      - qual tipo de processamento a camada process faz
+      - qual a definição da camada process
+      - o que process layer traz
+      - camada process trata o que
+      - o que define a camada process
+      - process layer o que garante
+
+      # 🇺🇸 English
+      - what is process layer
+      - what’s process layer
+      - what is the process layer
+      - process layer what does it do
+      - what is the function of process layer
+      - what does process layer mean
+      - process layer what is it
+      - what does process layer do
+      - what is layer process
+      - what is the role of process layer
+      - what does the process layer do
+      - what is the main function of process layer
+      - process layer does what
+      - what is process in api-led
+      - what is processing layer in api-led
+      - process layer what it means
+      - what does the process layer do in mule
+      - what is the role of processing layer
+      - how does process layer function
+      - what does processing layer do
+      - what is process layer responsible for
+      - process layer means what
+      - process layer executes what
+      - what does process layer handle
+      - what role does process layer play
+      - how does process layer work
+      - what does processing layer do
+      - process layer executes what
+      - what is the task of process layer
+      - process layer deals with what
+      - how does process layer process data
+      - what task is performed by process layer
+      - what does the process layer manage
+      - what defines the process layer
+      - what does the process layer ensure
+      - what does process layer deliver
+      - what defines processing layer
+      - what does the process layer facilitate
+      - process layer handles what
+      - what is the task of process layer
+      - what is the responsibility of process layer
+      - what does process layer focus on
+      - process layer operates on what
+      - how does process layer execute
+      - what operation is handled by process layer
+      - what defines process layer in api-led
+      - process layer deals with what type of processing
+      - what does the process layer handle in api-led
+      - what is the processing role of process layer
+      - what does process layer facilitate in api-led
+      - process layer handles what tasks
+      - what does process layer perform in architecture
+      - what action does process layer handle
+      - what does the process layer execute
+      - what type of operation does process layer perform
+      - what’s the responsibility of the process layer
+      - how does process layer manage tasks
+      - process layer helps with what
+      - what happens in process layer
+      - what function does process layer play
+      - how does process layer define tasks
+      - what does processing layer involve
+      - what does process layer control
+      - what does the process layer execute in api-led
+      - what type of processing happens in process layer
+      - what is done by process layer in api-led
+      - how does process layer work in mule

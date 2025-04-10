@@ -1,0 +1,209 @@
+version: '3.1'
+nlu:
+  - intent: what_is_experience_layer
+    examples: |-
+      # 🇧🇷 Português
+      - o que é camada experience
+      - oque eh experiencia
+      - oq eh ex layer
+      - o q e experience layer
+      - camada experiencia q é
+      - oq eh exp layer
+      - camda exprience o que é
+      - q é camada exp
+      - o que e exp
+      - oqeh experiencia layer
+      - oq é experience camada
+      - camada ex q eh
+      - oq e layer de experiencia
+      - o que seria camada exp
+      - experiencia eh oq
+      - camada exprience oque é
+      - oque q eh experience
+      - camada de experiencia q é
+      - oq eh camada ex
+      - oq é camda exp
+      - o que eh a camada experience
+      - q é experience
+      - camada xperience o q é
+      - experience eh oq
+      - o que q é a exp
+      - oqe a camada de experiencia
+      - qual q é a camada exp
+      - oq eh experience
+      - camada esp eh oq
+      - experiance layer o que é
+      - o que significa experience
+      - oq é layer de experiencia
+      - experience layer eh o que
+      - camada experience q significa
+      - oq e a camada do user
+      - oque eh experience
+      - oq eh a camada final
+      - oque e camada do usuario
+      - oq é exp layer
+      - q camada e experience
+      - qual o significado de experience
+      - experience layer oq é
+      - oq é a user camada
+      - camda user o que é
+      - camada do topo oq é
+      - camada do user o q eh
+      - oqeh camada do usuario
+      - user layer oq eh
+      - oq e a experience
+      - experiencia camda oq é
+      - oq q eh camada de user
+      - exp camada eh oq
+      - camada que chama exp
+      - camada do cliente eh oq
+      - o que é a camada exp?
+      - camda experience eh oque
+      - q seria a camada experience
+      - o que é a xperience
+      - oq e user-facing layer
+      - oq eh a experiencia
+      - oqeh xperience
+      - camada do user final oq é
+      - camada mais externa oq é
+      - camd experience oqeh
+      - oq é camada externa
+      - oq eh cam experience
+      - cam experience q eh
+      - camada que lida com user
+      - cam da experience eh oq
+      - oq eh expe layer
+      - oque significa camada experience
+      - experience layer quer dizer o q
+      - q q eh experience
+      - oq eh experiencia do user
+      - exp layer eh o que
+      - qual camada mostra pro user
+      - camada que conecta user eh oq
+      - experience é oq
+      - oq eh exp layer user
+      - oq eh camada que conecta user
+      - oq é exp.cam
+      - camada exp é oq
+      - oqeh camada cliente
+      - camda experience quer dizer o que
+      - cam exp q significa
+      - o q eh ex.p layer
+      - oq significa layer experience
+      - camada de experiance
+      - o que significa layer de experiencia
+      - qual layer expõe ao cliente
+      - camada de saida q eh
+      - oq eh camada cliente
+      - experience do api led oq eh
+      - o que experience faz
+      - camada top user-facing q eh
+      - camada externa oq e
+      - o q é a camada que entrega
+      - layer que lida com user
+      - oq é layer experiencia
+      - camada user interface eh oq
+      - oque é camada final
+      - camada que retorna resposta eh oq
+
+      # 🇺🇸 English
+      - what is experience layer
+      - what’s the experience layer
+      - wat is exp layer
+      - what experience means
+      - what’s user-facing layer
+      - what experience layer do
+      - exp layer what is
+      - what is the exp layer
+      - experience layer wut is
+      - layer experience meaning
+      - what’s exp
+      - what is xperience layer
+      - what’s exp layer in mule
+      - what layer is experience
+      - what is the client layer
+      - exp what it means
+      - what’s the top layer
+      - user layer what is
+      - what is the ui layer
+      - what means experience layer
+      - xperience what it is
+      - explain experience layer
+      - what does experience mean
+      - what is user-facing
+      - what exp layer do
+      - user side layer what is
+      - what is layer exp
+      - exp layer meaning
+      - what is experiance layer
+      - experience level what is
+      - exp. layer what’s that
+      - what’s final layer
+      - what is the outer layer
+      - what is the layer of user
+      - experience layer explanation
+      - xperience meaning?
+      - what is top layer mule
+      - exp-layer what it does
+      - what’s the client-facing layer
+      - what is exp facing
+      - what is layer that faces user
+      - what does layer exp do
+      - what is the experience one
+      - what is user view layer
+      - user-facing what’s that
+      - what is api user layer
+      - experience api-led layer?
+      - what layer responds to user
+      - ui layer what is
+      - what experience stands for
+      - what’s exp facing
+      - what is experience level
+      - what’s topmost layer
+      - exp facing what is
+      - what layer users see
+      - what is user touch layer
+      - explain exp layer
+      - experience layer what’s it
+      - user response layer what’s that
+      - experience layer meaning?
+      - exp user layer what’s that
+      - what’s the exposed layer
+      - what user interacts with?
+      - what’s the top api layer
+      - what’s xperiance layer
+      - what does user layer do
+      - what’s exp layer mean
+      - what is user-level layer
+      - what api layer is user
+      - what is api experience
+      - what is the api exp
+      - what’s client exp layer
+      - what is layer that talks to user
+      - what’s layer user sees
+      - what is the exposure layer
+      - what is exposed layer
+      - exp what’s that
+      - what’s the touch layer
+      - what’s the first layer
+      - what’s the response layer
+      - what is the visual layer
+      - what’s the layer with ui
+      - what exp means
+      - what is layer user-facing
+      - experience facing what is
+      - exp-user layer meaning
+      - what’s the presentation layer
+      - user interaction layer what is
+      - user api layer what is
+      - client exp layer what is
+      - what’s exposed experience
+      - what layer user consumes
+      - what’s frontend api layer
+      - what is exp. in api
+      - what api exposes to user
+      - what is user api experience
+      - what is exp-level in mule
+      - what layer talks to client
+      - experience meaning in api
+      - what api shows to user

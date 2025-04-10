@@ -1,8 +1,0 @@
-responses:
-  utter_split_string_dataweave:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  ✂️ Use a função `splitBy()` para dividir uma string em um array com base em um delimitador.
-              - vr_en: |-
-                  ✂️ Use the `splitBy()` function to split a string into an array based on a delimiter.

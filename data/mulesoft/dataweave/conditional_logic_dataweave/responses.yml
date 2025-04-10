@@ -1,8 +1,0 @@
-responses:
-  utter_conditional_logic_dataweave:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  🔀 Utilize `if/else` ou a expressão `match` para criar condições dinâmicas e transformar dados conforme regras.
-              - vr_en: |-
-                  🔀 Use `if/else` or the `match` expression to build dynamic conditions and transform data based on rules.

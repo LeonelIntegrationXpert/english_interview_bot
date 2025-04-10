@@ -1,8 +1,0 @@
-responses:
-  utter_sort_list_dataweave:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  📚 Utilize `sortBy()` para ordenar uma lista com base em um critério específico.
-              - vr_en: |-
-                  📚 Use `sortBy()` to sort a list based on a specific criterion.

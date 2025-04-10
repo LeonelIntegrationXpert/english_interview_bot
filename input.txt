@@ -1,695 +1,762 @@
-#intent: extract_array_element_dataweave
+#intent: what_is_api_led
 #pt:
-Como extrair um elemento específico de uma lista no DataWeave?
-Qual a forma de acessar um item por índice em uma lista?
+- o que é api-led
+- oq é apiled
+- oq é a pi led
+- o que eh api leg
+- o q eh happi led
+- o queéapiled
+- oq e api led
+- qual q eh api-led
+- oqueéapileg
+- oque e api led
+- oqéapiled
+- o que e a pi led
+- que é api led
+- q eh api led
+- q é api leg
+- q seria api led
+- apiled é o que
+- o que seria apiled
+- a pi led oq é
+- oqéapi_led
+- oq eh api.lad
+- q é ap l e d
+- o q e api-led
+- api-led oq é
+- api leg o que é
+- oqeh apilede
+- que q eh api-led
+- apiled que eh
+- apiled que é
+- api led significa o que
+- qual é apiled
+- apiled é que
+- o que q é apileg
+- oq eh a p i led
+- oq eh api lede
+- o q é apylede
+- oqueé apilad
+- o q é apilede
+- oq eh apíled
+- oq é api@led
+- o q é api_led
+- oq eh ap led
+- api-led oq q eh
+- oque eh api led
+- oq eh apyléd
+- q q é apilled
+- oq é api@led
+- oq é api led?
+- oq eh api-LED
+- q eh api led?
+- oq é api l e d
+- apilêde o que é
+- api léde q eh
+- oqueé a pi led
+- oque eh apilede
+- oq é api.lead
+- oque q eh api led
+- o q eh api.léd
+- apí led o que é
+- a p i l e d
+- oque q é apiled
+- o q eh api@led
+- oque q eh apyled
+- apiled oque é
+- oq é apyleg
+- apilede q é
+- api lédi o q é
+- api.léd oq é
+- oqehapiled
+- oq é ap.iled
+- api leg eh o q
+- o q e apyled
+- oqe apilede
+- oq e api.led
+- o que eh apiled
+- o q eh api_led?
+- oq é apiléd?
+- oq é apilad
+- q eh api-LED
+- o que q é apyleg
+- oq é apíled
+- o que q é ap.léd
+- apyleg oq é
+- api_led é o que
+- q q é apyled
+- apiléde o que é
+- oqeh api-léd
+- api-LED q é
+- apyled eh oq
+- oq é a-p-i-led
+- o q é ap.léd
+- oq é @pi-led
+- o que eh a pi led
+- oq eh api l e d
+- oq é api_lad
+- o que e a-p-i-led
+- oq é api-l3d
+- oq eh ap1led
+- oq e api.lede
+- oq eh a.pi.led
 #en:
-How do I extract a specific element from a list in DataWeave?
-What is the method to access an item by index in a list?
+- what is api-led
+- what’s api led
+- wuts apiled
+- what is a pi led
+- wat is api led
+- what’s happi led
+- wht is api-lead
+- wha’s apyled
+- wats api_led
+- what is api leg
+- what’s a.p.i led
+- wat is apyled
+- what api-led means
+- what is apiled
+- api-led what is
+- api lead what’s that
+- whuts api-lead
+- what is happi led
+- what’s apy led
+- api-led meaning?
+- api led wha is
+- what is apy_led
+- apiled what is that
+- what’s api l e d
+- what’s api@led
+- what is @pi-led
+- what is apy leg
+- wat is apíled
+- what’s api-lad
+- what does api-led mean
+- api-lad whats that
+- apyled meaning?
+- what is apilad
+- api.lead what is
+- what’s api-léd
+- what is api.léd
+- what’s a pi_led
+- what api-léd means
+- what is ap1led
+- whats api.lede
+- what is apiled?
+- wat’s apilede
+- whas api-lead
+- api l e d what is
+- apyled what’s that
+- api-LED what is
+- what’s api.lead
+- apyled meaning?
+- api_leg what is
+- what is api-l3d
+- what is api.led
+- api.led wut is
+- what’s a-p-i led
+- whas happi-LED
+- what is api.lad
+- wat is a.p.i led
+- whas api_leg
+- what is ap.léd
+- api.led what is?
+- what’s api.lede
+- wats @pi-led
+- api-lad what it is
+- apiled what is?
+- what’s api-l3d
+- api-lead whats it
+- apíled whats that
+- whats apyled
+- what is a.pi.led
+- api_leg what’s that
+- api l e d what’s
+- api.léd wut is
+- what api-léd is
+- what is api@led
+- api-lead what is it
+- apiled what is that
+- what is api_lead
+- wut is a pi led
+- api.léd meaning
+- api-LED whas that
+- whuts api.lede
+- what is api lede
+- what is api_lad
+- api-léd what is
+- whats api_l e d
+- api-lad wut is
+- what is api.l e d
+- api_led whas that
+- whats apyleg
+- api-léd what’s that
+- what’s api.lead?
+- api.lead what’s that
+- what’s api-lede
+- api.lede what’s that
+- api.led what means
+- api_led what is it
+- what is api-lead?
+- api-l3d what is
+- what is apyleg
 #vr_pt:
-📌 Para acessar um elemento, use a notação com índice, ex: `payload[0]` acessa o primeiro item da lista.
+API-led é uma abordagem de integração que organiza as APIs em três camadas: Experience, Process e System.  
+Essa estrutura facilita a reutilização de componentes, acelera o desenvolvimento e reduz a duplicação de esforço.  
+Ao dividir as responsabilidades entre as camadas, as equipes conseguem manter as integrações de forma mais eficiente.  
+Além disso, o modelo permite maior controle, governança e segurança sobre os serviços expostos.  
+É um dos principais fundamentos da arquitetura MuleSoft para conectar sistemas de forma escalável e organizada.
 #vr_en:
-📌 To access an element, use index notation, e.g., `payload[0]` retrieves the first item.
+API-led is an integration approach that organizes APIs into three layers: Experience, Process, and System.  
+This layered model promotes reusability, speeds up development, and reduces redundancy.  
+By separating concerns across layers, teams can manage integrations more effectively.  
+It also allows for better governance, security, and control over exposed services.  
+API-led is a foundational principle in MuleSoft architecture for scalable and organized system connectivity.
 ---
-#intent: sort_list_dataweave
+#intent: what_is_experience_layer
 #pt:
-Como ordenar uma lista no DataWeave?
-Qual a função para ordenar arrays?
+- o que é camada experience
+- oque eh experiencia
+- oq eh ex layer
+- o q e experience layer
+- camada experiencia q é
+- oq eh exp layer
+- camda exprience o que é
+- q é camada exp
+- o que e exp
+- oqeh experiencia layer
+- oq é experience camada
+- camada ex q eh
+- oq e layer de experiencia
+- o que seria camada exp
+- experiencia eh oq
+- camada exprience oque é
+- oque q eh experience
+- camada de experiencia q é
+- oq eh camada ex
+- oq é camda exp
+- o que eh a camada experience
+- q é experience
+- camada xperience o q é
+- experience eh oq
+- o que q é a exp
+- oqe a camada de experiencia
+- qual q é a camada exp
+- oq eh experience
+- camada esp eh oq
+- experiance layer o que é
+- o que significa experience
+- oq é layer de experiencia
+- experience layer eh o que
+- camada experience q significa
+- oq e a camada do user
+- oque eh experience
+- oq eh a camada final
+- oque e camada do usuario
+- oq é exp layer
+- q camada e experience
+- qual o significado de experience
+- experience layer oq é
+- oq é a user camada
+- camda user o que é
+- camada do topo oq é
+- camada do user o q eh
+- oqeh camada do usuario
+- user layer oq eh
+- oq e a experience
+- experiencia camda oq é
+- oq q eh camada de user
+- exp camada eh oq
+- camada que chama exp
+- camada do cliente eh oq
+- o que é a camada exp?
+- camda experience eh oque
+- q seria a camada experience
+- o que é a xperience
+- oq e user-facing layer
+- oq eh a experiencia
+- oqeh xperience
+- camada do user final oq é
+- camada mais externa oq é
+- camd experience oqeh
+- oq é camada externa
+- oq eh cam experience
+- cam experience q eh
+- camada que lida com user
+- cam da experience eh oq
+- oq eh expe layer
+- oque significa camada experience
+- experience layer quer dizer o q
+- q q eh experience
+- oq eh experiencia do user
+- exp layer eh o que
+- qual camada mostra pro user
+- camada que conecta user eh oq
+- experience é oq
+- oq eh exp layer user
+- oq eh camada que conecta user
+- oq é exp.cam
+- camada exp é oq
+- oqeh camada cliente
+- camda experience quer dizer o que
+- cam exp q significa
+- o q eh ex.p layer
+- oq significa layer experience
+- camada de experiance
+- o que significa layer de experiencia
+- qual layer expõe ao cliente
+- camada de saida q eh
+- oq eh camada cliente
+- experience do api led oq eh
+- o que experience faz
+- camada top user-facing q eh
+- camada externa oq e
+- o q é a camada que entrega
+- layer que lida com user
+- oq é layer experiencia
+- camada user interface eh oq
+- oque é camada final
+- camada que retorna resposta eh oq
 #en:
-How do I sort a list in DataWeave?
-What function is used to sort arrays?
+- what is experience layer
+- what’s the experience layer
+- wat is exp layer
+- what experience means
+- what’s user-facing layer
+- what experience layer do
+- exp layer what is
+- what is the exp layer
+- experience layer wut is
+- layer experience meaning
+- what’s exp
+- what is xperience layer
+- what’s exp layer in mule
+- what layer is experience
+- what is the client layer
+- exp what it means
+- what’s the top layer
+- user layer what is
+- what is the ui layer
+- what means experience layer
+- xperience what it is
+- explain experience layer
+- what does experience mean
+- what is user-facing
+- what exp layer do
+- user side layer what is
+- what is layer exp
+- exp layer meaning
+- what is experiance layer
+- experience level what is
+- exp. layer what’s that
+- what’s final layer
+- what is the outer layer
+- what is the layer of user
+- experience layer explanation
+- xperience meaning?
+- what is top layer mule
+- exp-layer what it does
+- what’s the client-facing layer
+- what is exp facing
+- what is layer that faces user
+- what does layer exp do
+- what is the experience one
+- what is user view layer
+- user-facing what’s that
+- what is api user layer
+- experience api-led layer?
+- what layer responds to user
+- ui layer what is
+- what experience stands for
+- what’s exp facing
+- what is experience level
+- what’s topmost layer
+- exp facing what is
+- what layer users see
+- what is user touch layer
+- explain exp layer
+- experience layer what’s it
+- user response layer what’s that
+- experience layer meaning?
+- exp user layer what’s that
+- what’s the exposed layer
+- what user interacts with?
+- what’s the top api layer
+- what’s xperiance layer
+- what does user layer do
+- what’s exp layer mean
+- what is user-level layer
+- what api layer is user
+- what is api experience
+- what is the api exp
+- what’s client exp layer
+- what is layer that talks to user
+- what’s layer user sees
+- what is the exposure layer
+- what is exposed layer
+- exp what’s that
+- what’s the touch layer
+- what’s the first layer
+- what’s the response layer
+- what is the visual layer
+- what’s the layer with ui
+- what exp means
+- what is layer user-facing
+- experience facing what is
+- exp-user layer meaning
+- what’s the presentation layer
+- user interaction layer what is
+- user api layer what is
+- client exp layer what is
+- what’s exposed experience
+- what layer user consumes
+- what’s frontend api layer
+- what is exp. in api
+- what api exposes to user
+- what is user api experience
+- what is exp-level in mule
+- what layer talks to client
+- experience meaning in api
+- what api shows to user
 #vr_pt:
-📚 Utilize `sortBy()` para ordenar uma lista com base em um critério específico.
+A camada **Experience** é a camada mais próxima do consumidor final em uma arquitetura API-led.  
+Ela é responsável por **apresentar os dados** de forma personalizada para diferentes canais, como web, mobile ou parceiros.  
+Sua principal função é **adaptar e expor** as informações de outras camadas (Process e System) de forma acessível.  
+Essa camada facilita a reutilização da lógica principal sem duplicar código em cada canal de consumo.  
+É a interface pública da API, focada na experiência do usuário e na entrega personalizada de valor.
 #vr_en:
-📚 Use `sortBy()` to sort a list based on a specific criterion.
+The **Experience Layer** is the closest layer to the end-user in an API-led architecture.  
+It is responsible for **presenting data** in a personalized way across different channels like web, mobile, or partners.  
+Its main role is to **adapt and expose** information from other layers (Process and System) in an accessible format.  
+This layer enables reuse of core logic without duplicating code in every consumer channel.  
+It acts as the public interface of the API, focused on user experience and tailored value delivery.
 ---
-#intent: remove_duplicates_dataweave
+#intent: what_is_process_layer
 #pt:
-Como remover duplicatas de uma lista no DataWeave?
-Existe função para eliminar itens repetidos?
+- o que é camada process
+- oq eh process layer
+- o que é a camada process
+- camada process o que é
+- qual a função da camada process
+- camada de processamento o que é
+- o que faz a camada process
+- camada process significa o que
+- process layer q eh
+- o que é camada de processo
+- o que é layer de processamento
+- qual a camada de process
+- camada de processo o que faz
+- qual a função da camada de processo
+- process layer significa o que
+- camada de processamento o que faz
+- oq eh a camada process
+- camada process é o que
+- camada de processamento q eh
+- o que significa camada process
+- o que faz a camada de processamento
+- o que process layer faz
+- qual função da camada de process
+- process layer faz o que
+- qual a diferença da camada process
+- o que é camada de process
+- o que process layer faz
+- camada process é responsável por?
+- o que eh process layer no api-led
+- qual a função do process layer
+- camada de process o que responde
+- qual o papel da camada process
+- process camada o que é
+- oqeh camada process
+- o que é camada de processo no api-led
+- o que process layer faz no api-led
+- camada process e o que faz
+- camada process responde por?
+- camada de process é utilizada para?
+- o que process layer faz no api-led?
+- como funciona a camada process?
+- o que process layer executa
+- qual o papel da camada de processamento
+- o que layer process faz
+- qual papel do process layer
+- camada process o que executa
+- o que a camada process lida
+- camada process no api-led o que faz
+- camada process o que processa
+- o que processa a camada de processamento
+- qual camda process faz
+- process layer é a camada que faz o que
+- process layer o que processa
+- camada process é responsável por qual ação
+- qual ação a camada process executa
+- o que camada process gerencia
+- o que faz camada process na arquitetura
+- process layer é a camada que faz o que
+- camada de process o que define
+- qual é a função da camada process no mule
+- camada de processo é qual
+- o que process layer faz para as APIs
+- o que a camada de process entrega
+- camada process entrega o que
+- o que processa a camada process
+- qual a tarefa da camada process
+- process layer o que define
+- camada process é qual na arquitetura
+- process layer gera o que
+- camada process executa o que
+- o que a camada de process facilita
+- qual função da camada de process no mule
+- process camada o que significa
+- camada process lida com o que
+- o que a camada process vai fazer
+- qual é o papel da camada de processamento
+- process layer faz qual operação
+- camada process trabalha com o que
+- o que camada de processamento faz
+- qual ação a camada process executa
+- qual tipo de processamento a camada process faz
+- qual a definição da camada process
+- o que process layer traz
+- camada process trata o que
+- o que define a camada process
+- process layer o que garante
 #en:
-How do I remove duplicates from a list in DataWeave?
-Is there a function to eliminate duplicate items?
+- what is process layer
+- what’s process layer
+- what is the process layer
+- process layer what does it do
+- what is the function of process layer
+- what does process layer mean
+- process layer what is it
+- what does process layer do
+- what is layer process
+- what is the role of process layer
+- what does the process layer do
+- what is the main function of process layer
+- process layer does what
+- what is process in api-led
+- what is processing layer in api-led
+- process layer what it means
+- what does the process layer do in mule
+- what is the role of processing layer
+- how does process layer function
+- what does processing layer do
+- what is process layer responsible for
+- process layer means what
+- process layer executes what
+- what does process layer handle
+- what role does process layer play
+- how does process layer work
+- what does processing layer do
+- process layer executes what
+- what is the task of process layer
+- process layer deals with what
+- how does process layer process data
+- what task is performed by process layer
+- what does the process layer manage
+- what defines the process layer
+- what does the process layer ensure
+- what does process layer deliver
+- what defines processing layer
+- what does the process layer facilitate
+- process layer handles what
+- what is the task of process layer
+- what is the responsibility of process layer
+- what does process layer focus on
+- process layer operates on what
+- how does process layer execute
+- what operation is handled by process layer
+- what defines process layer in api-led
+- process layer deals with what type of processing
+- what does the process layer handle in api-led
+- what is the processing role of process layer
+- what does process layer facilitate in api-led
+- process layer handles what tasks
+- what does process layer perform in architecture
+- what action does process layer handle
+- what does the process layer execute
+- what type of operation does process layer perform
+- what’s the responsibility of the process layer
+- how does process layer manage tasks
+- process layer helps with what
+- what happens in process layer
+- what function does process layer play
+- how does process layer define tasks
+- what does processing layer involve
+- what does process layer control
+- what does the process layer execute in api-led
+- what type of processing happens in process layer
+- what is done by process layer in api-led
+- how does process layer work in mule
 #vr_pt:
-🔄 Use `distinct()` ou `distinctBy()` para remover valores repetidos de uma lista.
+A camada **Process** é responsável por orquestrar os fluxos de dados entre sistemas e realizar o processamento necessário.  
+Ela lida com a **lógica de negócios**, validando, transformando e direcionando dados entre as camadas Experience e System.  
+Essa camada é fundamental para garantir que os dados certos sejam entregues da maneira correta para o usuário ou sistema final.  
+Além disso, a camada Process também é responsável pela **integração** com outros sistemas e pelo **gerenciamento de erros** e falhas.  
+É a camada que atua diretamente na **lógica de transformação e integração**, conectando os sistemas e controlando o fluxo de dados.
 #vr_en:
-🔄 Use `distinct()` or `distinctBy()` to remove duplicate values from a list.
+The **Process Layer** is responsible for orchestrating data flows between systems and performing the necessary processing.  
+It handles **business logic**, validating, transforming, and routing data between the Experience and System layers.  
+This layer is key to ensuring that the correct data is delivered in the proper format to the end user or system.  
+In addition, the Process Layer is also responsible for **integration** with other systems and **error handling**.  
+It acts directly on the **logic of transformation and integration**, connecting systems and managing data flow.
 ---
-#intent: convert_number_to_string_dataweave
+#intent: what_is_system_layer
 #pt:
-Como converter um número para string no DataWeave?
-Como faço o cast de número para texto?
+- o que é camada system
+- oq eh system layer
+- o que é a camada system
+- camada system o que é
+- qual a função da camada system
+- o que faz a camada system
+- camada system significa o que
+- system layer q eh
+- o que é camada de sistema
+- camada de sistema o que faz
+- qual a camada de system
+- camada de sistema o que responde
+- qual a função da camada de sistema
+- system layer significa o que
+- camada de sistema o que faz
+- oq eh a camada system
+- camada system é o que
+- camada de sistema q eh
+- o que significa camada system
+- o que faz a camada system no api-led
+- o que system layer faz
+- qual função da camada de sistema
+- system layer faz o que
+- qual a diferença da camada system
+- o que é camada de system
+- o que system layer faz
+- camada system é responsável por?
+- o que eh system layer no api-led
+- qual a função do system layer
+- camada de system o que responde
+- qual o papel da camada system
+- system camada o que é
+- oqeh camada system
+- o que é camada de sistema no api-led
+- o que system layer faz no api-led
+- camada system e o que faz
+- camada system responde por?
+- camada de system é utilizada para?
+- o que system layer faz no api-led?
+- como funciona a camada system?
+- o que system layer executa
+- qual o papel da camada de sistema
+- o que layer system faz
+- qual papel do system layer
+- camada system o que executa
+- o que a camada system lida
+- camada system no api-led o que faz
+- camada system o que processa
+- o que processa a camada de sistema
+- qual camda system faz
+- system layer é a camada que faz o que
+- system layer o que processa
+- camada system é responsável por qual ação
+- qual ação a camada system executa
+- o que camada system gerencia
+- o que faz camada system na arquitetura
+- system layer é a camada que faz o que
+- camada de system o que define
+- qual é a função da camada system no mule
+- camada de sistema é qual
+- o que system layer faz para as APIs
+- o que a camada de system entrega
+- camada system entrega o que
+- o que processa a camada system
+- qual a tarefa da camada system
+- system layer o que define
+- camada system é qual na arquitetura
+- system layer gera o que
+- camada system executa o que
+- o que a camada de system facilita
+- qual função da camada de system no mule
+- system camada o que significa
+- camada system lida com o que
+- o que a camada system vai fazer
+- qual é o papel da camada de sistema
+- system layer faz qual operação
+- camada system trabalha com o que
+- o que camada de sistema faz
+- qual ação a camada system executa
+- qual tipo de processamento a camada system faz
+- qual a definição da camada system
+- o que system layer traz
+- camada system trata o que
+- o que define a camada system
+- system layer o que garante
 #en:
-How do I convert a number to a string in DataWeave?
-What is the method to cast a number to text?
+- what is system layer
+- what’s system layer
+- what is the system layer
+- system layer what does it do
+- what is the function of system layer
+- what does system layer mean
+- system layer what is it
+- what does system layer do
+- what is layer system
+- what is the role of system layer
+- what does the system layer do
+- what is the main function of system layer
+- system layer does what
+- what is system in api-led
+- what is system layer in api-led
+- system layer what it means
+- what does system layer do in mule
+- what is the role of system layer
+- how does system layer function
+- what does system layer do
+- what is system layer responsible for
+- system layer means what
+- system layer executes what
+- what does system layer handle
+- what role does system layer play
+- how does system layer work
+- what does system layer process
+- what defines the system layer
+- what does the system layer ensure
+- what does system layer deliver
+- what defines system layer
+- what does system layer facilitate
+- system layer handles what
+- what is the task of system layer
+- what is the responsibility of system layer
+- what does system layer focus on
+- system layer operates on what
+- how does system layer execute
+- what operation is handled by system layer
+- what defines system layer in api-led
+- system layer deals with what type of processing
+- what does the system layer handle in api-led
+- what is the processing role of system layer
+- what does system layer facilitate in api-led
+- system layer handles what tasks
+- what does system layer perform in architecture
+- what action does system layer handle
+- what does the system layer execute
+- what type of operation does system layer perform
+- what’s the responsibility of the system layer
+- how does system layer manage tasks
+- system layer helps with what
+- what happens in system layer
+- what function does system layer play
+- how does system layer define tasks
+- what does system layer involve
+- what does system layer control
+- what does the system layer execute in api-led
+- what type of processing happens in system layer
+- what is done by system layer in api-led
+- how does system layer work in mule
 #vr_pt:
-🔢 Use `as String` para converter um número em uma representação textual.
+A camada **System** é responsável por **gerenciar os sistemas internos**, como bancos de dados, aplicações legadas e outros serviços de back-end.  
+Ela lida com a **integração e persistência** de dados, conectando as fontes de dados com a camada Process para que as informações sejam acessíveis e utilizáveis.  
+Essa camada também é responsável por **gerenciar a comunicação entre sistemas** e garantir que a infraestrutura de TI suporte as integrações.  
+Além disso, a camada System oferece **segurança e consistência** ao garantir que as APIs estejam conectadas corretamente e que as trocas de dados sejam realizadas de forma eficiente.  
+É a camada mais voltada à **infraestrutura e ao processamento de dados** dentro da arquitetura MuleSoft.
 #vr_en:
-🔢 Use `as String` to cast a number into its string representation.
----
-#intent: handle_special_characters_dataweave
-#pt:
-Como lidar com caracteres especiais no DataWeave?
-O que fazer com símbolos não alfanuméricos?
-#en:
-How do I handle special characters in DataWeave?
-What should I do with non-alphanumeric symbols in DataWeave?
-#vr_pt:
-✨ Utilize funções de substituição ou expressões regulares para tratar caracteres especiais conforme necessário.
-#vr_en:
-✨ Use string replacement functions or regular expressions to handle special characters as needed.
----
-#intent: format_currency_dataweave
-#pt:
-Como formatar valores monetários no DataWeave?
-Qual a forma de exibir números como moedas?
-#en:
-How do I format currency values in DataWeave?
-What is the method to display numbers as currency?
-#vr_pt:
-💰 Use a função `write()` com um padrão de formatação, ex: `#,##0.00`, para exibir valores monetários.
-#vr_en:
-💰 Use the `write()` function with a formatting pattern, e.g., `#,##0.00`, to display currency values.
----
-#intent: date_arithmetic_dataweave
-#pt:
-Como realizar operações com datas no DataWeave?
-Como somar ou subtrair dias em uma data?
-#en:
-How do I perform arithmetic on dates in DataWeave?
-How can I add or subtract days from a date?
-#vr_pt:
-📅 Use funções como `now()`, `plus()`, e `minus()` para manipular datas e realizar cálculos.
-#vr_en:
-📅 Use functions such as `now()`, `plus()`, and `minus()` to manipulate dates and perform calculations.
----
-#intent: conditional_logic_dataweave
-#pt:
-Como implementar lógica condicional avançada no DataWeave?
-Qual a forma de usar condições no script?
-#en:
-How do I implement advanced conditional logic in DataWeave?
-What is the method to apply conditions in a DataWeave script?
-#vr_pt:
-🔀 Utilize `if/else` ou a expressão `match` para criar condições dinâmicas e transformar dados conforme regras.
-#vr_en:
-🔀 Use `if/else` or the `match` expression to build dynamic conditions and transform data based on rules.
----
-#intent: combine_strings_dataweave
-#pt:
-Como concatenar strings no DataWeave?
-Qual é a forma de unir textos?
-#en:
-How do I combine strings in DataWeave?
-What is the method to concatenate text?
-#vr_pt:
-🔗 Utilize o operador `++` para unir strings de forma simples e direta.
-#vr_en:
-🔗 Use the `++` operator to concatenate strings straightforwardly.
----
-#intent: split_string_dataweave
-#pt:
-Como dividir uma string em um array no DataWeave?
-Qual a função para separar uma string por delimitador?
-#en:
-How do I split a string into an array in DataWeave?
-What function is used to split a string by a delimiter in DataWeave?
-#vr_pt:
-✂️ Use a função `splitBy()` para dividir uma string em um array com base em um delimitador.
-#vr_en:
-✂️ Use the `splitBy()` function to split a string into an array based on a delimiter.
----
-#intent: trim_string_dataweave
-#pt:
-Como remover espaços de uma string no DataWeave?
-Como limpar os espaços extras no início e fim de um texto?
-#en:
-How do I trim spaces from a string in DataWeave?
-What is the method to remove extra spaces from the beginning and end of a string?
-#vr_pt:
-🧹 Use a função `trim()` para remover espaços em branco do início e do fim da string.
-#vr_en:
-🧹 Use the `trim()` function to remove white spaces from the beginning and end of a string.
----
-#intent: extract_substring_dataweave
-#pt:
-Como extrair uma substring de uma string no DataWeave?
-Qual a forma de pegar parte de um texto?
-#en:
-How do I extract a substring from a string in DataWeave?
-What is the method to get a part of a text?
-#vr_pt:
-🔍 Utilize a função `substring()` para obter uma parte da string, especificando o índice inicial e o comprimento.
-#vr_en:
-🔍 Use the `substring()` function to obtain part of the string by specifying the starting index and length.
----
-#intent: convert_binary_to_string_dataweave
-#pt:
-Como converter dados binários para string no DataWeave?
-Qual a função para transformar binário em texto?
-#en:
-How do I convert binary data to a string in DataWeave?
-What function converts binary to text in DataWeave?
-#vr_pt:
-🔄 Use `as String` com especificação de encoding (por exemplo, UTF-8) para converter dados binários em string.
-#vr_en:
-🔄 Use `as String` along with an encoding specification (e.g., UTF-8) to convert binary data into a string.
----
-#intent: custom_error_handling_dataweave
-#pt:
-Como implementar tratamento de erros personalizado no DataWeave?
-Como capturar e tratar erros em scripts DataWeave?
-#en:
-How do I implement custom error handling in DataWeave?
-What is the method to catch and handle errors in DataWeave scripts?
-#vr_pt:
-🚨 Utilize blocos `try/catch` para capturar exceções e definir valores padrão ou mensagens de erro personalizadas.
-#vr_en:
-🚨 Use `try/catch` blocks to catch exceptions and define fallback values or custom error messages.
----
-#intent: logging_in_dataweave
-#pt:
-Como fazer logging durante transformações no DataWeave?
-É possível registrar logs em scripts DataWeave?
-#en:
-How do I log information during transformations in DataWeave?
-Can I generate logs within DataWeave scripts?
-#vr_pt:
-📝 Embora o DataWeave não tenha funções de log nativas, você pode combinar com o logger do Mule em flows para registrar saídas.
-#vr_en:
-📝 Although DataWeave itself doesn’t include native logging functions, you can combine it with Mule’s logger in flows to log outputs.
----
-#intent: performance_tips_dataweave
-#pt:
-Quais são as dicas para melhorar a performance no DataWeave?
-Como otimizar scripts para execução rápida?
-#en:
-What are the tips for improving performance in DataWeave?
-How can I optimize scripts for faster execution?
-#vr_pt:
-🚀 Reduza o número de transformações encadeadas, utilize funções nativas, e teste com dados reais para identificar gargalos.
-#vr_en:
-🚀 Minimize chained transformations, leverage built-in functions, and test with real data to identify bottlenecks.
----
-#intent: memory_optimization_dataweave
-#pt:
-Como otimizar o uso de memória em scripts DataWeave?
-Tem como reduzir consumo de memória em transformações?
-#en:
-How do I optimize memory usage in DataWeave scripts?
-Can I reduce memory consumption in transformations?
-#vr_pt:
-💾 Use operações eficientes, evite duplicar dados desnecessariamente e libere variáveis que não serão mais usadas.
-#vr_en:
-💾 Use efficient operations, avoid unnecessary data duplication, and clear unused variables.
----
-#intent: reusable_functions_dataweave
-#pt:
-Como criar funções reutilizáveis no DataWeave?
-Posso definir funções para usar em vários scripts?
-#en:
-How do I create reusable functions in DataWeave?
-Can I define functions to use across multiple scripts?
-#vr_pt:
-♻️ Utilize `fun` para declarar funções e organize-as em módulos para reutilização e manutenção fácil.
-#vr_en:
-♻️ Use the `fun` keyword to declare functions and organize them into modules for reuse and easy maintenance.
----
-#intent: debug_dataweave_scripts
-#pt:
-Como debugar scripts no DataWeave?
-Qual a melhor forma de identificar erros em transformações?
-#en:
-How do I debug DataWeave scripts?
-What is the best way to identify errors in transformations?
-#vr_pt:
-🐞 Use `typeOf()` para inspecionar tipos e o painel do Anypoint Studio para visualizar o payload em cada etapa.
-#vr_en:
-🐞 Use `typeOf()` to inspect types and leverage the Anypoint Studio panel to view the payload at each stage.
----
-#intent: unit_testing_dataweave
-#pt:
-Como testar scripts DataWeave utilizando MUnit?
-Qual a abordagem para testes unitários de transformações?
-#en:
-How do I test DataWeave scripts using MUnit?
-What is the approach for unit testing transformations in DataWeave?
-#vr_pt:
-🧪 Utilize o MUnit para criar testes que validem a saída das transformações, garantindo que os dados sejam convertidos conforme esperado.
-#vr_en:
-🧪 Use MUnit to build tests that validate the outputs of your transformations, ensuring the data is processed as expected.
----
-#intent: extract_element_from_array
-#pt:
-Como extrair um elemento específico de uma lista no DataWeave?
-Qual a forma de acessar um item por índice?
-#en:
-How do I extract a specific element from an array in DataWeave?
-What is the method to access an item by its index?
-#vr_pt:
-📌 Use a notação com índice, como `payload[2]`, para acessar o terceiro elemento de uma lista.
-#vr_en:
-📌 Use index notation, e.g., `payload[2]`, to access the third element of an array.
----
-#intent: sort_list_dataweave_new
-#pt:
-Como ordenar uma lista no DataWeave de forma ascendente?
-Qual a função para organizar uma lista em ordem?
-#en:
-How do I sort a list in ascending order in DataWeave?
-Which function sorts a list in order?
-#vr_pt:
-📚 Utilize `sortBy()` para ordenar a lista com base em um critério ascendente.
-#vr_en:
-📚 Use `sortBy()` to sort a list in ascending order based on a specified criterion.
----
-#intent: merge_objects_dataweave
-#pt:
-Como mesclar dois objetos no DataWeave?
-Qual a forma de unir dados de dois objetos?
-#en:
-How do I merge two objects in DataWeave?
-What is the method to combine two objects?
-#vr_pt:
-🔗 Use o operador spread (`...`) para mesclar objetos e combinar seus campos em um único objeto.
-#vr_en:
-🔗 Use the spread operator (`...`) to merge objects and combine their fields into one object.
----
-#intent: remove_duplicates_dataweave_new
-#pt:
-Como remover duplicatas de uma lista no DataWeave?
-Qual função elimina itens repetidos?
-#en:
-How do I remove duplicates from a list in DataWeave?
-Which function eliminates duplicate items?
-#vr_pt:
-🧹 Utilize a função `distinct()` para remover elementos duplicados e retornar uma lista com valores únicos.
-#vr_en:
-🧹 Use the `distinct()` function to remove duplicate elements and return a list with unique values.
----
-#intent: convert_number_to_string_dataweave_new
-#pt:
-Como converter um número em string no DataWeave?
-Qual a forma de transformar um número em texto?
-#en:
-How do I convert a number to a string in DataWeave?
-What is the method to turn a number into text?
-#vr_pt:
-🔄 Use `as String` para converter um número em sua representação textual.
-#vr_en:
-🔄 Use `as String` to convert a number into its string representation.
----
-#intent: handle_special_characters_dataweave_new
-#pt:
-Como tratar caracteres especiais em DataWeave?
-Qual a abordagem para lidar com símbolos não alfanuméricos?
-#en:
-How do I handle special characters in DataWeave?
-What approach is used to manage non-alphanumeric symbols?
-#vr_pt:
-✨ Utilize funções de substituição e expressões regulares para limpar ou substituir caracteres especiais conforme necessário.
-#vr_en:
-✨ Use replacement functions and regular expressions to clean or substitute special characters as required.
----
-#intent: format_currency_dataweave_new
-#pt:
-Como formatar valores monetários no DataWeave?
-Qual a forma de exibir números no formato de moeda?
-#en:
-How do I format currency values in DataWeave?
-What is the method to display numbers as currency?
-#vr_pt:
-💰 Use a função `write()` com um padrão de formatação, como `#,##0.00`, para exibir números como valores monetários.
-#vr_en:
-💰 Use the `write()` function with a formatting pattern like `#,##0.00` to display numbers as currency.
----
-#intent: date_arithmetic_dataweave_new
-#pt:
-Como realizar operações aritméticas com datas no DataWeave?
-Como somar ou subtrair dias de uma data?
-#en:
-How do I perform date arithmetic in DataWeave?
-How can I add or subtract days from a date?
-#vr_pt:
-📅 Utilize funções como `now()`, `plus()`, e `minus()` para realizar cálculos com datas e gerar novos valores de tempo.
-#vr_en:
-📅 Use functions such as `now()`, `plus()`, and `minus()` to perform calculations on dates and generate new time values.
----
-#intent: conditional_logic_dataweave_new
-#pt:
-Como implementar lógica condicional avançada no DataWeave?
-Qual a abordagem para usar condições complexas?
-#en:
-How do I implement advanced conditional logic in DataWeave?
-What is the approach for complex conditions in a DataWeave script?
-#vr_pt:
-🔀 Utilize expressões `if/else` ou `match` para implementar lógica condicional avançada que adapta a transformação com base nos dados.
-#vr_en:
-🔀 Use `if/else` expressions or `match` to implement advanced conditional logic that adapts transformation based on data.
----
-#intent: combine_strings_dataweave_new
-#pt:
-Como concatenar várias strings no DataWeave?
-Qual método une textos em um único valor?
-#en:
-How do I combine multiple strings in DataWeave?
-What method concatenates texts into a single value?
-#vr_pt:
-🔗 Use o operador `++` para unir strings, formando uma única sequência de texto.
-#vr_en:
-🔗 Use the `++` operator to concatenate strings into one continuous text.
----
-#intent: split_string_dataweave_new
-#pt:
-Como dividir uma string em partes no DataWeave?
-Qual função separa uma string em um array?
-#en:
-How do I split a string into parts in DataWeave?
-What function breaks a string into an array?
-#vr_pt:
-✂️ Utilize `splitBy()` para quebrar uma string em um array com base em um delimitador específico.
-#vr_en:
-✂️ Use the `splitBy()` function to split a string into an array based on a specific delimiter.
----
-#intent: trim_string_dataweave_new
-#pt:
-Como remover espaços extras de uma string no DataWeave?
-Qual função limpa os espaços em branco de um texto?
-#en:
-How do I trim extra spaces from a string in DataWeave?
-What function removes whitespace from a text?
-#vr_pt:
-🧹 Use a função `trim()` para eliminar espaços em branco no início e no final de uma string.
-#vr_en:
-🧹 Use the `trim()` function to remove whitespace at the beginning and end of a string.
----
-#intent: extract_substring_dataweave_new
-#pt:
-Como extrair uma parte específica de uma string no DataWeave?
-Qual método permite obter uma substring de um texto?
-#en:
-How do I extract a specific part of a string in DataWeave?
-Which method retrieves a substring from text?
-#vr_pt:
-🔍 Utilize `substring()` para extrair parte de uma string, especificando a posição inicial e o tamanho.
-#vr_en:
-🔍 Use the `substring()` function to extract part of a string by specifying the starting position and length.
----
-#intent: convert_binary_to_string_dataweave_new
-#pt:
-Como converter dados binários para string no DataWeave?
-Qual função converte binário em texto?
-#en:
-How do I convert binary data to a string in DataWeave?
-What function converts binary to text?
-#vr_pt:
-🔄 Use `as String` com a codificação adequada (por exemplo, UTF-8) para converter dados binários em uma string.
-#vr_en:
-🔄 Use `as String` with the appropriate encoding (e.g., UTF-8) to convert binary data into a string.
----
-#intent: custom_error_handling_dataweave_new
-#pt:
-Como implementar tratamento de erros personalizado no DataWeave?
-Qual abordagem evita que erros interrompam a transformação?
-#en:
-How do I implement custom error handling in DataWeave?
-What method prevents errors from stopping the transformation?
-#vr_pt:
-🚨 Utilize blocos `try/catch` para capturar exceções e definir valores padrão, garantindo que o fluxo continue.
-#vr_en:
-🚨 Use `try/catch` blocks to capture exceptions and set default values, ensuring the flow continues.
----
-#intent: logging_in_dataweave_new
-#pt:
-Como registrar logs durante a execução de um script DataWeave?
-Há maneira de gerar logs dentro do DataWeave?
-#en:
-How do I log information during a DataWeave script execution?
-Is there a way to generate logs within DataWeave?
-#vr_pt:
-📝 Embora o DataWeave não possua logging nativo, integre com o logger do MuleSoft para registrar saídas no flow.
-#vr_en:
-📝 Although DataWeave lacks native logging, integrate with MuleSoft’s logger to record outputs in the flow.
----
-#intent: performance_tips_dataweave_new
-#pt:
-Quais são as melhores práticas para otimizar a performance dos scripts DataWeave?
-Como melhorar a velocidade das transformações no DataWeave?
-#en:
-What are the best practices for optimizing DataWeave performance?
-How can I improve transformation speed in DataWeave?
-#vr_pt:
-🚀 Evite transformações desnecessárias, utilize funções nativas e teste com dados reais para identificar e eliminar gargalos.
-#vr_en:
-🚀 Avoid unnecessary transformations, use native functions, and test with real data to identify and eliminate bottlenecks.
----
-#intent: memory_optimization_dataweave_new
-#pt:
-Como otimizar o uso de memória em scripts DataWeave?
-Quais técnicas reduzem o consumo de memória nas transformações?
-#en:
-How do I optimize memory usage in DataWeave scripts?
-What techniques reduce memory consumption in transformations?
-#vr_pt:
-💾 Use operações eficientes, evite duplicação de dados e descarte variáveis não utilizadas para otimizar o uso de memória.
-#vr_en:
-💾 Use efficient operations, avoid data duplication, and clear unused variables to optimize memory usage.
----
-#intent: reusable_functions_dataweave_new
-#pt:
-Como criar funções reutilizáveis no DataWeave?
-Qual a maneira de definir funções para uso em múltiplos scripts?
-#en:
-How do I create reusable functions in DataWeave?
-What is the best way to define functions for use in multiple scripts?
-#vr_pt:
-♻️ Declare funções com `fun` e organize-as em módulos para promover a reutilização e facilitar a manutenção.
-#vr_en:
-♻️ Declare functions using `fun` and organize them into modules to promote reuse and maintainability.
----
-#intent: debug_dataweave_scripts_new
-#pt:
-Como debugar scripts no DataWeave?
-Qual a forma de identificar erros em transformações?
-#en:
-How do I debug DataWeave scripts?
-What is the best method to identify errors in transformations?
-#vr_pt:
-🐞 Utilize a função `typeOf()` para verificar tipos e o painel de debugging do Anypoint Studio para inspecionar o payload.
-#vr_en:
-🐞 Use the `typeOf()` function to check types and leverage Anypoint Studio’s debugging panel to inspect the payload.
----
-#intent: unit_testing_dataweave_new
-#pt:
-Como testar scripts DataWeave usando MUnit?
-Qual a abordagem para realizar testes unitários em transformações?
-#en:
-How do I test DataWeave scripts using MUnit?
-What is the approach for unit testing transformations in DataWeave?
-#vr_pt:
-🧪 Use o MUnit para criar testes que validem a saída das transformações, garantindo que os scripts se comportem como esperado.
-#vr_en:
-🧪 Use MUnit to build tests that validate the outputs of your transformations, ensuring expected behavior.
----
-#intent: extract_array_element_dataweave_new
-#pt:
-Como extrair um elemento específico de uma lista no DataWeave?
-Qual a maneira de acessar um item por índice?
-#en:
-How do I extract a specific element from a list in DataWeave?
-What is the method to access an element by index?
-#vr_pt:
-📌 Acesse o elemento desejado utilizando a notação de índice, por exemplo, `payload[1]` para o segundo item.
-#vr_en:
-📌 Access the desired element using index notation, e.g., `payload[1]` for the second item.
----
-#intent: sort_list_dataweave_new
-#pt:
-Como ordenar uma lista de números no DataWeave?
-Qual função organiza arrays em ordem crescente?
-#en:
-How do I sort a list of numbers in DataWeave?
-Which function organizes arrays in ascending order?
-#vr_pt:
-📚 Utilize `sortBy()` para ordenar a lista com base nos valores de cada item.
-#vr_en:
-📚 Use `sortBy()` to sort the list based on the value of each item.
----
-#intent: merge_objects_dataweave_new
-#pt:
-Como mesclar dois objetos no DataWeave?
-Qual a forma de unir dados de objetos diferentes?
-#en:
-How do I merge two objects in DataWeave?
-What is the method to combine data from different objects?
-#vr_pt:
-🔗 Utilize o operador spread (`...`) para combinar os campos de múltiplos objetos em um único objeto.
-#vr_en:
-🔗 Use the spread operator (`...`) to combine fields from multiple objects into a single object.
----
-#intent: remove_duplicates_dataweave_new
-#pt:
-Como remover elementos duplicados de uma lista no DataWeave?
-Qual função elimina itens repetidos?
-#en:
-How do I remove duplicate elements from a list in DataWeave?
-Which function removes repeated items?
-#vr_pt:
-🧹 Utilize `distinct()` para filtrar e retornar apenas elementos únicos de uma lista.
-#vr_en:
-🧹 Use `distinct()` to filter and return only unique elements from a list.
----
-#intent: convert_number_to_string_dataweave_new
-#pt:
-Como converter um número para string no DataWeave?
-Como transformar um valor numérico em texto?
-#en:
-How do I convert a number to a string in DataWeave?
-What is the method to turn a numeric value into text?
-#vr_pt:
-🔄 Use `as String` para converter um número em sua representação textual.
-#vr_en:
-🔄 Use `as String` to convert a number into its text representation.
----
-#intent: handle_special_characters_dataweave_new
-#pt:
-Como tratar caracteres especiais em DataWeave?
-Qual a abordagem para limpar símbolos em um texto?
-#en:
-How do I handle special characters in DataWeave?
-What is the approach to clean symbols in a string?
-#vr_pt:
-✨ Utilize expressões regulares ou funções de substituição para remover ou substituir caracteres especiais.
-#vr_en:
-✨ Use regular expressions or replacement functions to remove or substitute special characters.
----
-#intent: format_currency_dataweave_new
-#pt:
-Como formatar um número como valor monetário no DataWeave?
-Qual função exibe números em formato de moeda?
-#en:
-How do I format a number as currency in DataWeave?
-Which function displays numbers in a monetary format?
-#vr_pt:
-💰 Use `write()` com um padrão específico, como `#,##0.00`, para formatar números como valores monetários.
-#vr_en:
-💰 Use `write()` with a specific pattern, such as `#,##0.00`, to format numbers as currency.
----
-#intent: date_arithmetic_dataweave_new
-#pt:
-Como realizar operações aritméticas com datas no DataWeave?
-Como somar ou subtrair dias de uma data?
-#en:
-How do I perform arithmetic operations on dates in DataWeave?
-How can I add or subtract days from a date?
-#vr_pt:
-📅 Utilize funções como `now()`, `plus()`, e `minus()` para manipular datas e realizar operações aritméticas.
-#vr_en:
-📅 Use functions like `now()`, `plus()`, and `minus()` to manipulate dates and perform arithmetic operations.
----
-#intent: conditional_logic_dataweave_new
-#pt:
-Como implementar lógica condicional avançada no DataWeave?
-Qual a melhor maneira de usar condições em transformações?
-#en:
-How do I implement advanced conditional logic in DataWeave?
-What is the best method to apply conditions in transformations?
-#vr_pt:
-🔀 Utilize expressões `if/else` ou `match` para criar condições que direcionem a transformação conforme os dados.
-#vr_en:
-🔀 Use `if/else` expressions or `match` to create conditions that drive the transformation based on the data.
----
-#intent: combine_strings_dataweave_new
-#pt:
-Como concatenar duas ou mais strings no DataWeave?
-Qual operador une textos em uma única string?
-#en:
-How do I concatenate two or more strings in DataWeave?
-Which operator joins texts into a single string?
-#vr_pt:
-🔗 Utilize o operador `++` para unir várias strings em um único texto.
-#vr_en:
-🔗 Use the `++` operator to join multiple strings into a single text.
----
-#intent: split_string_dataweave_new
-#pt:
-Como dividir uma string em um array no DataWeave?
-Qual função separa uma string por delimitador?
-#en:
-How do I split a string into an array in DataWeave?
-What function splits a string by a delimiter?
-#vr_pt:
-✂️ Use `splitBy()` para dividir uma string em um array com base no delimitador informado.
-#vr_en:
-✂️ Use the `splitBy()` function to split a string into an array based on the specified delimiter.
----
-#intent: trim_string_dataweave_new
-#pt:
-Como remover espaços extras de uma string no DataWeave?
-Qual é o método para limpar espaços em branco no início e fim?
-#en:
-How do I trim extra spaces from a string in DataWeave?
-What method is used to remove whitespace from both ends of a string?
-#vr_pt:
-🧹 Utilize a função `trim()` para eliminar os espaços em branco do início e do fim da string.
-#vr_en:
-🧹 Use the `trim()` function to eliminate whitespace from the beginning and end of the string.
----
-#intent: extract_substring_dataweave_new
-#pt:
-Como extrair uma substring específica no DataWeave?
-Qual função retorna parte de uma string?
-#en:
-How do I extract a specific substring in DataWeave?
-Which function returns a portion of a string?
-#vr_pt:
-🔍 Use `substring()` para extrair uma parte de uma string, definindo o índice inicial e o comprimento desejado.
-#vr_en:
-🔍 Use the `substring()` function to extract a part of a string by specifying the starting index and desired length.
----
-#intent: convert_binary_to_string_dataweave_new
-#pt:
-Como converter dados binários em string no DataWeave?
-Como transformar binário em texto?
-#en:
-How do I convert binary data to a string in DataWeave?
-What is the method to transform binary into text?
-#vr_pt:
-🔄 Converta dados binários em string usando `as String` com a codificação adequada, como UTF-8.
-#vr_en:
-🔄 Convert binary data into a string using `as String` with the proper encoding, such as UTF-8.
----
-#intent: custom_error_handling_dataweave_new
-#pt:
-Como implementar tratamento de erro personalizado no DataWeave?
-Como capturar exceções de forma customizada?
-#en:
-How do I implement custom error handling in DataWeave?
-What is the way to capture exceptions in a custom manner?
-#vr_pt:
-🚨 Utilize blocos `try/catch` para capturar erros e fornecer valores padrão ou mensagens personalizadas, evitando a interrupção do fluxo.
-#vr_en:
-🚨 Use `try/catch` blocks to capture errors and provide default values or custom messages, preventing the flow from breaking.
----
-#intent: logging_in_dataweave_new
-#pt:
-Como registrar logs durante a execução de um script DataWeave?
-Existe uma forma de logar informações dentro do DataWeave?
-#en:
-How do I log information during the execution of a DataWeave script?
-Is there a way to log details within DataWeave?
-#vr_pt:
-📝 Embora o DataWeave não tenha logging embutido, integre com o logger do Mule para registrar saídas e diagnosticar o fluxo.
-#vr_en:
-📝 Although DataWeave doesn’t have built-in logging, integrate it with Mule’s logger to capture outputs and diagnose the flow.
----
-#intent: performance_tips_dataweave_new
-#pt:
-Quais são as melhores práticas para otimizar a performance de scripts DataWeave?
-Como melhorar a velocidade das transformações no DataWeave?
-#en:
-What are the best practices to optimize DataWeave script performance?
-How can I speed up transformations in DataWeave?
-#vr_pt:
-🚀 Minimize transformações desnecessárias, use funções nativas e teste com dados reais para identificar e otimizar possíveis gargalos.
-#vr_en:
-🚀 Minimize unnecessary transformations, leverage built-in functions, and test with real data to identify and optimize performance bottlenecks.
+The **System Layer** is responsible for **managing internal systems**, such as databases, legacy applications, and other back-end services.  
+It handles **data integration and persistence**, connecting data sources to the Process layer so that information is accessible and usable.  
+This layer is also responsible for **managing communication between systems** and ensuring that the IT infrastructure supports the integrations.  
+Additionally, the System Layer provides **security and consistency** by ensuring that APIs are correctly connected and that data exchanges are efficient.  
+It is the layer most focused on **infrastructure and data processing** within the MuleSoft architecture.

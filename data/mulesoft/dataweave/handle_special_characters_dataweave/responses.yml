@@ -1,8 +1,0 @@
-responses:
-  utter_handle_special_characters_dataweave:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  ✨ Utilize funções de substituição ou expressões regulares para tratar caracteres especiais conforme necessário.
-              - vr_en: |-
-                  ✨ Use string replacement functions or regular expressions to handle special characters as needed.

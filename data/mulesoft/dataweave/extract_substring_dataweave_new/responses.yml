@@ -1,8 +1,0 @@
-responses:
-  utter_extract_substring_dataweave_new:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  🔍 Use `substring()` para extrair uma parte de uma string, definindo o índice inicial e o comprimento desejado.
-              - vr_en: |-
-                  🔍 Use the `substring()` function to extract a part of a string by specifying the starting index and desired length.

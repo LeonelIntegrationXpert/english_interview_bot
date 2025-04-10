@@ -1,8 +1,0 @@
-responses:
-  utter_convert_binary_to_string_dataweave_new:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  🔄 Converta dados binários em string usando `as String` com a codificação adequada, como UTF-8.
-              - vr_en: |-
-                  🔄 Convert binary data into a string using `as String` with the proper encoding, such as UTF-8.

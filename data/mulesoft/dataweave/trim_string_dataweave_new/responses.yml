@@ -1,8 +1,0 @@
-responses:
-  utter_trim_string_dataweave_new:
-    - custom:
-        response_array:
-          -   - vr_pt: |-
-                  🧹 Utilize a função `trim()` para eliminar os espaços em branco do início e do fim da string.
-              - vr_en: |-
-                  🧹 Use the `trim()` function to eliminate whitespace from the beginning and end of the string.

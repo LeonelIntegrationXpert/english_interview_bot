@@ -171,7 +171,7 @@ def verify_existing_intents(base_dir, rules_path, stories_path, domain_path):
 
 def main():
     input_file = 'input.txt'
-    base_dir = 'data/mulesoft/dataweave'
+    base_dir = 'data/mulesoft/api_led'
     rules_path = 'data/rules.yml'
     stories_path = 'data/stories.yml'
     domain_path = 'domain.yml'
