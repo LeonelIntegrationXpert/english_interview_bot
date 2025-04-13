@@ -4,6 +4,7 @@ intents:
   - what_is_process_layer
   - what_is_system_layer
   - api_led_integration_best_practices
+  - when_to_use_api_led
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

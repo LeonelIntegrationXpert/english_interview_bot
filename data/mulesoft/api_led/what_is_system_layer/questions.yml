@@ -4,150 +4,204 @@ nlu:
     examples: |-
       # 🇧🇷 Português
       - o que é camada system
-      - oq eh system layer
-      - o que é a camada system
-      - camada system o que é
-      - qual a função da camada system
-      - o que faz a camada system
-      - camada system significa o que
-      - system layer q eh
-      - o que é camada de sistema
-      - camada de sistema o que faz
-      - qual a camada de system
-      - camada de sistema o que responde
-      - qual a função da camada de sistema
-      - system layer significa o que
-      - camada de sistema o que faz
-      - oq eh a camada system
-      - camada system é o que
-      - camada de sistema q eh
-      - o que significa camada system
-      - o que faz a camada system no api-led
-      - o que system layer faz
-      - qual função da camada de sistema
-      - system layer faz o que
-      - qual a diferença da camada system
-      - o que é camada de system
-      - o que system layer faz
-      - camada system é responsável por?
-      - o que eh system layer no api-led
-      - qual a função do system layer
-      - camada de system o que responde
-      - qual o papel da camada system
-      - system camada o que é
-      - oqeh camada system
-      - o que é camada de sistema no api-led
-      - o que system layer faz no api-led
-      - camada system e o que faz
-      - camada system responde por?
-      - camada de system é utilizada para?
-      - o que system layer faz no api-led?
-      - como funciona a camada system?
-      - o que system layer executa
-      - qual o papel da camada de sistema
-      - o que layer system faz
-      - qual papel do system layer
-      - camada system o que executa
-      - o que a camada system lida
-      - camada system no api-led o que faz
-      - camada system o que processa
-      - o que processa a camada de sistema
-      - qual camda system faz
-      - system layer é a camada que faz o que
-      - system layer o que processa
-      - camada system é responsável por qual ação
-      - qual ação a camada system executa
-      - o que camada system gerencia
-      - o que faz camada system na arquitetura
-      - system layer é a camada que faz o que
-      - camada de system o que define
-      - qual é a função da camada system no mule
-      - camada de sistema é qual
-      - o que system layer faz para as APIs
-      - o que a camada de system entrega
-      - camada system entrega o que
-      - o que processa a camada system
-      - qual a tarefa da camada system
-      - system layer o que define
-      - camada system é qual na arquitetura
-      - system layer gera o que
-      - camada system executa o que
-      - o que a camada de system facilita
-      - qual função da camada de system no mule
-      - system camada o que significa
-      - camada system lida com o que
-      - o que a camada system vai fazer
-      - qual é o papel da camada de sistema
-      - system layer faz qual operação
-      - camada system trabalha com o que
-      - o que camada de sistema faz
-      - qual ação a camada system executa
-      - qual tipo de processamento a camada system faz
-      - qual a definição da camada system
-      - o que system layer traz
-      - camada system trata o que
-      - o que define a camada system
-      - system layer o que garante
+      - o que é camada systm
+      - o que é camada sytem
+      - o que é camada sistem
+      - o que é camada systen
+      - o que é camada sysstem
+      - o que é camda system
+      - o que é camda systm
+      - o que é camda sytem
+      - o que é camda sistem
+      - o que é camda systen
+      - o que é camda sysstem
+      - o que é cmada system
+      - o que é cmada systm
+      - o que é cmada sytem
+      - o que é cmada sistem
+      - o que é cmada systen
+      - o que é cmada sysstem
+      - o que e camada system
+      - o que e camada systm
+      - o que e camada sytem
+      - o que e camada sistem
+      - o que e camada systen
+      - o que e camada sysstem
+      - o que e camda system
+      - o que e camda systm
+      - o que e camda sytem
+      - o que e camda sistem
+      - o que e camda systen
+      - o que e camda sysstem
+      - o que e cmada system
+      - o que e cmada systm
+      - o que e cmada sytem
+      - o que e cmada sistem
+      - o que e cmada systen
+      - o que e cmada sysstem
+      - o q é camada system
+      - o q é camada systm
+      - o q é camada sytem
+      - o q é camada sistem
+      - o q é camada systen
+      - o q é camada sysstem
+      - o q é camda system
+      - o q é camda systm
+      - o q é camda sytem
+      - o q é camda sistem
+      - o q é camda systen
+      - o q é camda sysstem
+      - o q é cmada system
+      - o q é cmada systm
+      - o q é cmada sytem
+      - o q é cmada sistem
+      - o q é cmada systen
+      - o q é cmada sysstem
+      - o q e camada system
+      - o q e camada systm
+      - o q e camada sytem
+      - o q e camada sistem
+      - o q e camada systen
+      - o q e camada sysstem
+      - o q e camda system
+      - o q e camda systm
+      - o q e camda sytem
+      - o q e camda sistem
+      - o q e camda systen
+      - o q e camda sysstem
+      - o q e cmada system
+      - o q e cmada systm
+      - o q e cmada sytem
+      - o q e cmada sistem
+      - o q e cmada systen
+      - o q e cmada sysstem
+      - oque é camada system
+      - oque é camada systm
+      - oque é camada sytem
+      - oque é camada sistem
+      - oque é camada systen
+      - oque é camada sysstem
+      - oque é camda system
+      - oque é camda systm
+      - oque é camda sytem
+      - oque é camda sistem
+      - oque é camda systen
+      - oque é camda sysstem
+      - oque é cmada system
+      - oque é cmada systm
+      - oque é cmada sytem
+      - oque é cmada sistem
+      - oque é cmada systen
+      - oque é cmada sysstem
+      - oque e camada system
+      - oque e camada systm
+      - oque e camada sytem
+      - oque e camada sistem
+      - oque e camada systen
+      - oque e camada sysstem
+      - oque e camda system
+      - oque e camda systm
+      - oque e camda sytem
+      - oque e camda sistem
 
       # 🇺🇸 English
       - what is system layer
-      - what’s system layer
-      - what is the system layer
-      - system layer what does it do
-      - what is the function of system layer
-      - what does system layer mean
-      - system layer what is it
-      - what does system layer do
-      - what is layer system
-      - what is the role of system layer
-      - what does the system layer do
-      - what is the main function of system layer
-      - system layer does what
-      - what is system in api-led
-      - what is system layer in api-led
-      - system layer what it means
-      - what does system layer do in mule
-      - what is the role of system layer
-      - how does system layer function
-      - what does system layer do
-      - what is system layer responsible for
-      - system layer means what
-      - system layer executes what
-      - what does system layer handle
-      - what role does system layer play
-      - how does system layer work
-      - what does system layer process
-      - what defines the system layer
-      - what does the system layer ensure
-      - what does system layer deliver
-      - what defines system layer
-      - what does system layer facilitate
-      - system layer handles what
-      - what is the task of system layer
-      - what is the responsibility of system layer
-      - what does system layer focus on
-      - system layer operates on what
-      - how does system layer execute
-      - what operation is handled by system layer
-      - what defines system layer in api-led
-      - system layer deals with what type of processing
-      - what does the system layer handle in api-led
-      - what is the processing role of system layer
-      - what does system layer facilitate in api-led
-      - system layer handles what tasks
-      - what does system layer perform in architecture
-      - what action does system layer handle
-      - what does the system layer execute
-      - what type of operation does system layer perform
-      - what’s the responsibility of the system layer
-      - how does system layer manage tasks
-      - system layer helps with what
-      - what happens in system layer
-      - what function does system layer play
-      - how does system layer define tasks
-      - what does system layer involve
-      - what does system layer control
-      - what does the system layer execute in api-led
-      - what type of processing happens in system layer
-      - what is done by system layer in api-led
-      - how does system layer work in mule
+      - what is system layre
+      - what is system layar
+      - what is system laer
+      - what is system layr
+      - what is systm layer
+      - what is systm layre
+      - what is systm layar
+      - what is systm laer
+      - what is systm layr
+      - what is sytem layer
+      - what is sytem layre
+      - what is sytem layar
+      - what is sytem laer
+      - what is sytem layr
+      - what is sistem layer
+      - what is sistem layre
+      - what is sistem layar
+      - what is sistem laer
+      - what is sistem layr
+      - what is systen layer
+      - what is systen layre
+      - what is systen layar
+      - what is systen laer
+      - what is systen layr
+      - what is sysstem layer
+      - what is sysstem layre
+      - what is sysstem layar
+      - what is sysstem laer
+      - what is sysstem layr
+      - what iz system layer
+      - what iz system layre
+      - what iz system layar
+      - what iz system laer
+      - what iz system layr
+      - what iz systm layer
+      - what iz systm layre
+      - what iz systm layar
+      - what iz systm laer
+      - what iz systm layr
+      - what iz sytem layer
+      - what iz sytem layre
+      - what iz sytem layar
+      - what iz sytem laer
+      - what iz sytem layr
+      - what iz sistem layer
+      - what iz sistem layre
+      - what iz sistem layar
+      - what iz sistem laer
+      - what iz sistem layr
+      - what iz systen layer
+      - what iz systen layre
+      - what iz systen layar
+      - what iz systen laer
+      - what iz systen layr
+      - what iz sysstem layer
+      - what iz sysstem layre
+      - what iz sysstem layar
+      - what iz sysstem laer
+      - what iz sysstem layr
+      - wht is system layer
+      - wht is system layre
+      - wht is system layar
+      - wht is system laer
+      - wht is system layr
+      - wht is systm layer
+      - wht is systm layre
+      - wht is systm layar
+      - wht is systm laer
+      - wht is systm layr
+      - wht is sytem layer
+      - wht is sytem layre
+      - wht is sytem layar
+      - wht is sytem laer
+      - wht is sytem layr
+      - wht is sistem layer
+      - wht is sistem layre
+      - wht is sistem layar
+      - wht is sistem laer
+      - wht is sistem layr
+      - wht is systen layer
+      - wht is systen layre
+      - wht is systen layar
+      - wht is systen laer
+      - wht is systen layr
+      - wht is sysstem layer
+      - wht is sysstem layre
+      - wht is sysstem layar
+      - wht is sysstem laer
+      - wht is sysstem layr
+      - wht iz system layer
+      - wht iz system layre
+      - wht iz system layar
+      - wht iz system laer
+      - wht iz system layr
+      - wht iz systm layer
+      - wht iz systm layre
+      - wht iz systm layar
+      - wht iz systm laer
+      - wht iz systm layr

@@ -20,3 +20,7 @@ stories:
     steps:
       - intent: api_led_integration_best_practices
       - action: utter_api_led_integration_best_practices
+  - story: story_when_to_use_api_led
+    steps:
+      - intent: when_to_use_api_led
+      - action: utter_when_to_use_api_led

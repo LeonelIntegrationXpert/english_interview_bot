@@ -4,157 +4,204 @@ nlu:
     examples: |-
       # 🇧🇷 Português
       - o que é camada process
-      - oq eh process layer
-      - o que é a camada process
-      - camada process o que é
-      - qual a função da camada process
-      - camada de processamento o que é
-      - o que faz a camada process
-      - camada process significa o que
-      - process layer q eh
-      - o que é camada de processo
-      - o que é layer de processamento
-      - qual a camada de process
-      - camada de processo o que faz
-      - qual a função da camada de processo
-      - process layer significa o que
-      - camada de processamento o que faz
-      - oq eh a camada process
-      - camada process é o que
-      - camada de processamento q eh
-      - o que significa camada process
-      - o que faz a camada de processamento
-      - o que process layer faz
-      - qual função da camada de process
-      - process layer faz o que
-      - qual a diferença da camada process
-      - o que é camada de process
-      - o que process layer faz
-      - camada process é responsável por?
-      - o que eh process layer no api-led
-      - qual a função do process layer
-      - camada de process o que responde
-      - qual o papel da camada process
-      - process camada o que é
-      - oqeh camada process
-      - o que é camada de processo no api-led
-      - o que process layer faz no api-led
-      - camada process e o que faz
-      - camada process responde por?
-      - camada de process é utilizada para?
-      - o que process layer faz no api-led?
-      - como funciona a camada process?
-      - o que process layer executa
-      - qual o papel da camada de processamento
-      - o que layer process faz
-      - qual papel do process layer
-      - camada process o que executa
-      - o que a camada process lida
-      - camada process no api-led o que faz
-      - camada process o que processa
-      - o que processa a camada de processamento
-      - qual camda process faz
-      - process layer é a camada que faz o que
-      - process layer o que processa
-      - camada process é responsável por qual ação
-      - qual ação a camada process executa
-      - o que camada process gerencia
-      - o que faz camada process na arquitetura
-      - process layer é a camada que faz o que
-      - camada de process o que define
-      - qual é a função da camada process no mule
-      - camada de processo é qual
-      - o que process layer faz para as APIs
-      - o que a camada de process entrega
-      - camada process entrega o que
-      - o que processa a camada process
-      - qual a tarefa da camada process
-      - process layer o que define
-      - camada process é qual na arquitetura
-      - process layer gera o que
-      - camada process executa o que
-      - o que a camada de process facilita
-      - qual função da camada de process no mule
-      - process camada o que significa
-      - camada process lida com o que
-      - o que a camada process vai fazer
-      - qual é o papel da camada de processamento
-      - process layer faz qual operação
-      - camada process trabalha com o que
-      - o que camada de processamento faz
-      - qual ação a camada process executa
-      - qual tipo de processamento a camada process faz
-      - qual a definição da camada process
-      - o que process layer traz
-      - camada process trata o que
-      - o que define a camada process
-      - process layer o que garante
+      - o que é camada proces
+      - o que é camada proccess
+      - o que é camada prcess
+      - o que é camada proess
+      - o que é camda process
+      - o que é camda proces
+      - o que é camda proccess
+      - o que é camda prcess
+      - o que é camda proess
+      - o que é cmada process
+      - o que é cmada proces
+      - o que é cmada proccess
+      - o que é cmada prcess
+      - o que é cmada proess
+      - o que eh camada process
+      - o que eh camada proces
+      - o que eh camada proccess
+      - o que eh camada prcess
+      - o que eh camada proess
+      - o que eh camda process
+      - o que eh camda proces
+      - o que eh camda proccess
+      - o que eh camda prcess
+      - o que eh camda proess
+      - o que eh cmada process
+      - o que eh cmada proces
+      - o que eh cmada proccess
+      - o que eh cmada prcess
+      - o que eh cmada proess
+      - o que e camada process
+      - o que e camada proces
+      - o que e camada proccess
+      - o que e camada prcess
+      - o que e camada proess
+      - o que e camda process
+      - o que e camda proces
+      - o que e camda proccess
+      - o que e camda prcess
+      - o que e camda proess
+      - o que e cmada process
+      - o que e cmada proces
+      - o que e cmada proccess
+      - o que e cmada prcess
+      - o que e cmada proess
+      - o q é camada process
+      - o q é camada proces
+      - o q é camada proccess
+      - o q é camada prcess
+      - o q é camada proess
+      - o q é camda process
+      - o q é camda proces
+      - o q é camda proccess
+      - o q é camda prcess
+      - o q é camda proess
+      - o q é cmada process
+      - o q é cmada proces
+      - o q é cmada proccess
+      - o q é cmada prcess
+      - o q é cmada proess
+      - o q eh camada process
+      - o q eh camada proces
+      - o q eh camada proccess
+      - o q eh camada prcess
+      - o q eh camada proess
+      - o q eh camda process
+      - o q eh camda proces
+      - o q eh camda proccess
+      - o q eh camda prcess
+      - o q eh camda proess
+      - o q eh cmada process
+      - o q eh cmada proces
+      - o q eh cmada proccess
+      - o q eh cmada prcess
+      - o q eh cmada proess
+      - o q e camada process
+      - o q e camada proces
+      - o q e camada proccess
+      - o q e camada prcess
+      - o q e camada proess
+      - o q e camda process
+      - o q e camda proces
+      - o q e camda proccess
+      - o q e camda prcess
+      - o q e camda proess
+      - o q e cmada process
+      - o q e cmada proces
+      - o q e cmada proccess
+      - o q e cmada prcess
+      - o q e cmada proess
+      - oque é camada process
+      - oque é camada proces
+      - oque é camada proccess
+      - oque é camada prcess
+      - oque é camada proess
+      - oque é camda process
+      - oque é camda proces
+      - oque é camda proccess
+      - oque é camda prcess
+      - oque é camda proess
 
       # 🇺🇸 English
       - what is process layer
-      - what’s process layer
-      - what is the process layer
-      - process layer what does it do
-      - what is the function of process layer
-      - what does process layer mean
-      - process layer what is it
-      - what does process layer do
-      - what is layer process
-      - what is the role of process layer
-      - what does the process layer do
-      - what is the main function of process layer
-      - process layer does what
-      - what is process in api-led
-      - what is processing layer in api-led
-      - process layer what it means
-      - what does the process layer do in mule
-      - what is the role of processing layer
-      - how does process layer function
-      - what does processing layer do
-      - what is process layer responsible for
-      - process layer means what
-      - process layer executes what
-      - what does process layer handle
-      - what role does process layer play
-      - how does process layer work
-      - what does processing layer do
-      - process layer executes what
-      - what is the task of process layer
-      - process layer deals with what
-      - how does process layer process data
-      - what task is performed by process layer
-      - what does the process layer manage
-      - what defines the process layer
-      - what does the process layer ensure
-      - what does process layer deliver
-      - what defines processing layer
-      - what does the process layer facilitate
-      - process layer handles what
-      - what is the task of process layer
-      - what is the responsibility of process layer
-      - what does process layer focus on
-      - process layer operates on what
-      - how does process layer execute
-      - what operation is handled by process layer
-      - what defines process layer in api-led
-      - process layer deals with what type of processing
-      - what does the process layer handle in api-led
-      - what is the processing role of process layer
-      - what does process layer facilitate in api-led
-      - process layer handles what tasks
-      - what does process layer perform in architecture
-      - what action does process layer handle
-      - what does the process layer execute
-      - what type of operation does process layer perform
-      - what’s the responsibility of the process layer
-      - how does process layer manage tasks
-      - process layer helps with what
-      - what happens in process layer
-      - what function does process layer play
-      - how does process layer define tasks
-      - what does processing layer involve
-      - what does process layer control
-      - what does the process layer execute in api-led
-      - what type of processing happens in process layer
-      - what is done by process layer in api-led
-      - how does process layer work in mule
+      - what is process layre
+      - what is process layar
+      - what is process laer
+      - what is process layr
+      - what is proces layer
+      - what is proces layre
+      - what is proces layar
+      - what is proces laer
+      - what is proces layr
+      - what is proccess layer
+      - what is proccess layre
+      - what is proccess layar
+      - what is proccess laer
+      - what is proccess layr
+      - what is prcess layer
+      - what is prcess layre
+      - what is prcess layar
+      - what is prcess laer
+      - what is prcess layr
+      - what is proess layer
+      - what is proess layre
+      - what is proess layar
+      - what is proess laer
+      - what is proess layr
+      - what iz process layer
+      - what iz process layre
+      - what iz process layar
+      - what iz process laer
+      - what iz process layr
+      - what iz proces layer
+      - what iz proces layre
+      - what iz proces layar
+      - what iz proces laer
+      - what iz proces layr
+      - what iz proccess layer
+      - what iz proccess layre
+      - what iz proccess layar
+      - what iz proccess laer
+      - what iz proccess layr
+      - what iz prcess layer
+      - what iz prcess layre
+      - what iz prcess layar
+      - what iz prcess laer
+      - what iz prcess layr
+      - what iz proess layer
+      - what iz proess layre
+      - what iz proess layar
+      - what iz proess laer
+      - what iz proess layr
+      - what iss process layer
+      - what iss process layre
+      - what iss process layar
+      - what iss process laer
+      - what iss process layr
+      - what iss proces layer
+      - what iss proces layre
+      - what iss proces layar
+      - what iss proces laer
+      - what iss proces layr
+      - what iss proccess layer
+      - what iss proccess layre
+      - what iss proccess layar
+      - what iss proccess laer
+      - what iss proccess layr
+      - what iss prcess layer
+      - what iss prcess layre
+      - what iss prcess layar
+      - what iss prcess laer
+      - what iss prcess layr
+      - what iss proess layer
+      - what iss proess layre
+      - what iss proess layar
+      - what iss proess laer
+      - what iss proess layr
+      - wht is process layer
+      - wht is process layre
+      - wht is process layar
+      - wht is process laer
+      - wht is process layr
+      - wht is proces layer
+      - wht is proces layre
+      - wht is proces layar
+      - wht is proces laer
+      - wht is proces layr
+      - wht is proccess layer
+      - wht is proccess layre
+      - wht is proccess layar
+      - wht is proccess laer
+      - wht is proccess layr
+      - wht is prcess layer
+      - wht is prcess layre
+      - wht is prcess layar
+      - wht is prcess laer
+      - wht is prcess layr
+      - wht is proess layer
+      - wht is proess layre
+      - wht is proess layar
+      - wht is proess laer
+      - wht is proess layr
