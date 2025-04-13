@@ -1,9 +1,10 @@
 intents:
+  - api_led_integration_best_practices
+  - benefits_of_api_led
   - what_is_api_led
   - what_is_experience_layer
   - what_is_process_layer
   - what_is_system_layer
-  - api_led_integration_best_practices
   - when_to_use_api_led
 session_config:
   session_expiration_time: 60
