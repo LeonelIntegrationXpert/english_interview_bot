@@ -8,6 +8,8 @@ venv/
 .env/
 .venv/
 env/
+venv_rasa/
+.venv_rasa
 
 # Rasa model files
 models/
