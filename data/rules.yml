@@ -28,3 +28,11 @@ rules:
     steps:
       - intent: benefits_of_api_led
       - action: utter_benefits_of_api_led
+  - rule: rule_api_led_vs_point_to_point
+    steps:
+      - intent: api_led_vs_point_to_point
+      - action: utter_api_led_vs_point_to_point
+  - rule: rule_api_led_vs_event_driven
+    steps:
+      - intent: api_led_vs_event_driven
+      - action: utter_api_led_vs_event_driven

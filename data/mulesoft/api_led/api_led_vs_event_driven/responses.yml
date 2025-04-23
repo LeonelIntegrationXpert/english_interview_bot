@@ -1,0 +1,15 @@
+responses:
+  utter_api_led_vs_event_driven:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  A **arquitetura orientada a eventos** é ideal quando você precisa reagir a mudanças em tempo real, como fluxos assíncronos ou sistemas distribuídos com alta latência.  
+                  Já o modelo **API-led** funciona melhor quando há uma estrutura clara de solicitação e resposta, com camadas bem definidas: *Experience*, *Process* e *System*.  
+                  Em geral, usamos **event-driven** para cenários com alto volume de dados e integração assíncrona, enquanto **API-led** é excelente para orquestração e governança em integrações modulares.  
+                  A escolha depende do nível de acoplamento, tipo de comunicação e requisitos de escalabilidade.
+
+              - vr_en: |-
+                  **Event-driven architecture** is ideal when you need to react to changes in real time, such as asynchronous flows or distributed systems with high latency.  
+                  The **API-led** model, on the other hand, works best when there’s a clear request-response structure, with well-defined layers: *Experience*, *Process*, and *System*.  
+                  In general, we use **event-driven** for high-volume, async scenarios, while **API-led** is excellent for orchestration and governance in modular integrations.  
+                  The choice depends on coupling level, communication style, and scalability requirements.

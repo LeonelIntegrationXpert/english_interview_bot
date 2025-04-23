@@ -1,0 +1,188 @@
+version: '3.1'
+nlu:
+- intent: api_led_vs_event_driven
+  examples: |-
+    # 🇧🇷 Português
+    - quando usar arquitetura orientada a eventos vs api-led
+    - qndo usar arquitetura orientada a eventos vs api-led
+    - qndo usar arq orientada a eventos vs api-led
+    - qndo usar arq. orientada a eventos vs api-led
+    - quando utilizar arquitetura orientada a eventos vs api-led
+    - quando utilizar arq orientada a eventos vs api-led
+    - quando utilizar arq. orientada a eventos vs api-led
+    - quando usar arquitetura orientada eventos vs api-led
+    - quando usar arquitetura orientada a eventos versus api-led
+    - quando usar arquitetura orientada a eventos x api-led
+    - quando usar arquitetura orientada a eventos ou api-led
+    - quando usar arquitetura orientada eventos ou api-led
+    - quando usar arq orient eventos vs api-led
+    - qdo usar arq orient eventos vs api-led
+    - qdo usar arq orient eventos vs apiled
+    - qdo usar arq orient eventos vs api led
+    - qnd usar arq orient eventos vs api-led
+    - qnd usar arq orient eventos vs apiled
+    - qnd usar arq orient eventos vs api led
+    - quando usar arq orient eventos vs api-led
+    - quando usar arq orient eventos vs apiled
+    - quando usar arq orient eventos vs api led
+    - quando usar arq orient eventos vs a pi led
+    - quando usar arq orient eventos vs api_led
+    - quando usar arq orient eventos vs api.led
+    - quando usar arq orient eventos vs apíled
+    - quando usar arq orient eventos v/s api-led
+    - quando usar arq orient eventos ou api-led
+    - quando usar arq orient eventos ou api led
+    - quando usar arq orient eventos ou apiled
+    - quando usar arq event driven vs api-led
+    - quando usar arq event-driven vs api-led
+    - quando usar arq event driven vs apiled
+    - quando usar arq event‑driven vs api led
+    - quando usar arq eventdriven vs api-led
+    - quando usar arq eventdrivn vs api-led
+    - quando usar arq evnt driven vs api-led
+    - qdo usar arq event driven vs api-led
+    - qdo usar arq event driven vs apiled
+    - qdo usar arq event driven vs api led
+    - qnd usar arq event driven vs api-led
+    - qnd usar arq event driven vs apiled
+    - qnd usar arq event driven vs api led
+    - kd usar arq event driven vs api-led
+    - kd usar arq event driven v/s api-led
+    - kd usar arq event driven vs apiled
+    - kd usar arq event-driven vs api-led
+    - quando usar arquitetura eventos vs api-led
+    - quando usar arquitetura eventos x api-led
+    - quando usar arquitetura eventos ou api-led
+    - quando usar arquitetura eventos vs apiled
+    - quando usar arquitetura evento vs api-led
+    - quando usar arquitetura evento vs apiled
+    - quando usar arq eventos vs api led
+    - quando usar arq eventos vs apiled
+    - quando usar arq eventos vs api-led
+    - quando usar arq eventos x api-led
+    - quando usar arq eventos v/s api-led
+    - qdo usar arq eventos vs api-led
+    - qdo usar arq eventos vs apiled
+    - qdo usar arq eventos vs api led
+    - qnd usar arq eventos vs api-led
+    - qnd usar arq eventos vs apiled
+    - qnd usar arq eventos vs api led
+    - kd usar arq eventos vs api-led
+    - kd usar arq eventos vs apiled
+    - kd usar arq eventos vs api led
+    - quando utilizar arquitetura eventos vs api-led
+    - quando utilizar arq eventos vs api-led
+    - quando utilizar arq eventos vs apiled
+    - quando utilizar arq eventos vs api led
+    - quando utilizar event driven vs api-led
+    - quando utilizar event-driven vs api-led
+    - quando utilizar event‑driven vs api-led
+    - quando utilizar eventdriven vs api-led
+    - quando utilizar eventdrivn vs api-led
+    - quando utilizar event vs api-led
+    - quando se usa arquitetura orientada a eventos vs api-led
+    - quando se usa arq orientada a eventos vs api-led
+    - quando se usa arq orientada eventos vs api-led
+    - quando se usa arq event driven vs api-led
+    - quando se usa arq evento vs api-led
+    - quando se usa arq eventos vs api-led
+    - em que casos usar arquitetura orientada a eventos vs api-led
+    - em que casos usar arq orientada a eventos vs api-led
+    - em que casos usar arq event driven vs api-led
+    - em quais casos usar arquitetura orientada a eventos vs api-led
+    - em quais casos usar arq eventos vs api-led
+    - em quais casos usar arq orient eventos vs api-led
+    - quando escolher eventos vs api-led
+    - quando escolher eventos e não api-led
+    - quando escolher eventos ao invés de api-led
+    - quando escolher eventos versus api-led
+    - quando escolher event driven vs api-led
+    - quando escolher event‑driven vs api-led
+    - quando escolher eventdriven vs api-led
+    - quando preferir eventos vs api-led
+    - quando priorizar eventos vs api-led
+    - quando optar por eventos vs api-led
+    - quando optar por event driven vs api-led
+    
+    # 🇺🇸 English
+    - when to use event-driven architecture vs api-led
+    - when to use event driven architecture vs api led
+    - when use event-driven architecture vs api-led
+    - when should I use event-driven architecture vs api-led
+    - when should we use event-driven architecture vs api-led
+    - when should you use event-driven architecture vs api-led
+    - when to choose event-driven architecture vs api-led
+    - when choose event-driven architecture vs api-led
+    - when to adopt event-driven architecture vs api-led
+    - when adopt event-driven architecture vs api-led
+    - when to pick event-driven architecture vs api-led
+    - when pick event-driven architecture vs api-led
+    - when do we use event-driven architecture vs api-led
+    - when do you use event-driven architecture vs api-led
+    - when do I use event-driven architecture vs api-led
+    - when can I use event-driven architecture vs api-led
+    - when could I use event-driven architecture vs api-led
+    - when do we choose event-driven architecture vs api-led
+    - when to go for event-driven architecture vs api-led
+    - when go for event-driven architecture vs api-led
+    - when to leverage event-driven architecture vs api-led
+    - when leverage event-driven architecture vs api-led
+    - when to utilize event-driven architecture vs api-led
+    - when utilize event-driven architecture vs api-led
+    - when to apply event-driven architecture vs api-led
+    - when apply event-driven architecture vs api-led
+    - when is event-driven architecture better than api-led
+    - when is event-driven architecture preferable to api-led
+    - when is event-driven architecture preferred over api-led
+    - when is event-driven architecture superior to api-led
+    - when would event-driven architecture beat api-led
+    - when event-driven architecture vs api-led makes sense
+    - when does event-driven architecture make sense vs api-led
+    - when does event-driven architecture make more sense than api-led
+    - when is event-driven architecture the right choice vs api-led
+    - when to use event-driven vs api-led
+    - when use event-driven vs api-led
+    - when to choose event-driven vs api-led
+    - when choose event-driven vs api-led
+    - when to adopt event-driven vs api-led
+    - when adopt event-driven vs api-led
+    - when to pick event-driven vs api-led
+    - when pick event-driven vs api-led
+    - when to go event-driven vs api-led
+    - when go event-driven vs api-led
+    - when to leverage event-driven vs api-led
+    - when leverage event-driven vs api-led
+    - when to utilize event-driven vs api-led
+    - when utilize event-driven vs api-led
+    - when to apply event-driven vs api-led
+    - when apply event-driven vs api-led
+    - when to use event driven arch vs api led
+    - wen to use event-driven arch vs api-led
+    - whn to use event-driven arch vs api-led
+    - when 2 use event-driven arch vs api-led
+    - when to use event‑driven arch vs api‑led
+    - when to use eventdriven architecture vs api-led
+    - when use eventdriven architecture vs api-led
+    - when to use eventdrivn architecture vs api-led
+    - when use eventdrivn architecture vs api-led
+    - when to use evnt-driven architecture vs api-led
+    - when use evnt-driven architecture vs api-led
+    - when to use e.v.d architecture vs api-led
+    - when to use event architecture vs api-led
+    - when to use event architecture vs api led
+    - when use event architecture vs api-led
+    - when to use event architecture versus api-led
+    - when use event architecture versus api-led
+    - when should I choose event-driven architecture vs api-led
+    - when should I pick event-driven architecture vs api-led
+    - when should we choose event-driven architecture vs api-led
+    - when should we pick event-driven architecture vs api-led
+    - when should you choose event-driven architecture vs api-led
+    - when should you pick event-driven architecture vs api-led
+    - when do we select event-driven architecture vs api-led
+    - when do I select event-driven architecture vs api-led
+    - when do you select event-driven architecture vs api-led
+    - when can we use event-driven architecture vs api-led
+    - when can you use event-driven architecture vs api-led
+    - when can I choose event-driven architecture vs api-led
+    - when could we use event-driven architecture vs api-led

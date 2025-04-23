@@ -1,0 +1,155 @@
+version: '3.1'
+nlu:
+- intent: api_led_vs_point_to_point
+  examples: |-
+    # 🇧🇷 Português
+    - qual a diferença entre api-led e ponto a ponto
+    - qual a diferença entre api led e ponto a ponto
+    - qual a diferença entre apiled e ponto a ponto
+    - qual a diferença entre a pi led e ponto a ponto
+    - qual a diferenca entre api-led e ponto a ponto
+    - qual a diferenca entre api led e ponto a ponto
+    - qual a diferenca entre apiled e ponto a ponto
+    - qual a diferenca entre a pi led e ponto a ponto
+    - qual a diferensa entre api-led e ponto a ponto
+    - qual a diferensa entre api led e ponto a ponto
+    - qual a diferensa entre apiled e ponto a ponto
+    - qual a diferensa entre a pi led e ponto a ponto
+    - qual a difereça entre api-led e ponto a ponto
+    - qual a difereça entre api led e ponto a ponto
+    - qual a difereça entre apiled e ponto a ponto
+    - qual a difereça entre a pi led e ponto a ponto
+    - qual a difença entre api-led e ponto a ponto
+    - qual a difença entre api led e ponto a ponto
+    - qual a difença entre apiled e ponto a ponto
+    - qual a difença entre a pi led e ponto a ponto
+    - qual a difrença entre api-led e ponto a ponto
+    - qual a difrença entre api led e ponto a ponto
+    - qual a difrença entre apiled e ponto a ponto
+    - qual a difrença entre a pi led e ponto a ponto
+    - qual a diferença entre api-led e pontoaponto
+    - qual a diferença entre api-led e ponto a.ponto
+    - qual a diferença entre api-led e pontoa ponto
+    - qual a diferensa entre apiled e pontoaponto
+    - qual a diferença entre a.piled e ponto a ponto
+    - qual a difernça entre api-led e pontoa ponto
+    - qual a diferença entre api-led e ponta ponto
+    - qual a diferensa entre apiled e ponta ponto
+    - qual a diferença entre a pi led e pontu a ponto
+    - qual a difernsa entre api-led e pont a ponto
+    - qual a difenrça entre api-led e ponto a ponto
+    - qual a diferemça entre apiled e ponto a ponto
+    - qual a diferena entre api-led e ponto a ponto
+    - qual a diferença entre apilede e ponto a ponto
+    - qual a diferença entre api-lad e ponto a ponto
+    - qual a diferença entre ap.iled e ponto a ponto
+    - qual a diferença entre apí-led e ponto a ponto
+    - qual a diferença entre api-lede e ponto a ponto
+    - qual a diferença entre apiled e pont a ponto
+    - qual a diferença entre api_led e ponto a ponto
+    - qual a diferença entre api.led e ponto a ponto
+    - qual a diferença entre ap1-led e ponto a ponto
+    - qual a diferença entre api-led e ponto a ponto?
+    - qual a diferença entre api-led e ponto a ponto .
+    - qual a diferença entre api-led e ponto  a  ponto
+    - qual a diferença entre  api-led  e  ponto a ponto
+    - qual a diferença entre api-led e  ponto   a ponto
+    - qual a diferença entre apiled e pontto a ponto
+    - qual a diferença entre api led e ponto-a-ponto
+    - qual a diferença entre api-led e ponto-a ponto
+    - qual a diferensa entre a pi led e ponto-a ponto
+    - qual a difença entre api led e ponto-a ponto
+    - qual a difença entre a pi led e ponto-a-ponto
+    - qual a diferenca entre api-led e pontoaponto
+    - qual a diferençaa entre api-led e ponto a ponto
+    - qual a diferenssa entre apiled e ponto a ponto
+    - qual a difernca entre api-led e ponto a ponto
+    - qual a difença entre api-léd e ponto a ponto
+    - qual a diferençaa entre apiled e pont a ponto
+    - qual a diferensa entre api_led e pont a ponto
+    - qual a diferençaa entre apíled e ponto a ponto
+    - qual a diferensa entre apí led e ponto a ponto
+    - qual a difença entre api-led e pontua ponto
+    - qual a diferensa entre api-led e ponto-a.ponto
+    - qual a diferensa entre api-led e ponto.a.ponto
+    - qual a diferença entre api-led e ponta.aponto
+    - qual a diferençã entre api-led e ponto a ponto
+    - qual a difernça entre apiled e pontto a ponto
+    - qual a diferença entre apiled e ponto-a ponto
+    - qual a diferença entre api-led e ponto a pontu
+    - qual a diferenca entre api_led e pont a ponto
+    - qual a difença entre api.léd e ponto a ponto
+    - qual a diferenca entre api.lad e ponto a ponto
+    - qual a diferenca entre ap.led e ponto a ponto
+    - qual a diferença entre api-led & ponto a ponto
+    - qual a diferença entre api-led x ponto a ponto
+    - qual a diferença entre apiledd e ponto a ponto
+    - qual a diferenca entre api ledd e ponto a ponto
+    - qual a difrença entre api.ledd e ponto a ponto
+    - qual a difernça entre api-lad e ponto a ponto
+    - qual a diferensa entre a.pi.led e ponto a ponto
+    - qual a diferenca entre api-led. e ponto a ponto
+    - qual a difença entre api_led e ponto a ponto
+    - qual a diferença entre ap!led e ponto a ponto
+    - qual a diferença entre @pi-led e ponto a ponto
+    - qual a diferenca entre ap1led e ponto a ponto
+    - qual a diferença entre api-led e pontto a ponto
+    - qual a diferençaa entre api led e pontoa ponto
+    - qual a difernça entre apiled e ponttoaponto
+    - qual a diferença entre api-led e pon to a ponto
+    - qual a diferença entre api-led e pontoa ponto
+    - qual a difernça entre api-led e pontoaponto
+    - qual a difrença entre apíled e pont a ponto
+    - qual a diferensa entre api-led e pontuaponto
+    - qual a diferenca entre api-led e pont.a.ponto
+    - qual a difença entre api_led e pont.a.ponto
+    - qual a diferensa entre api_led e ponto.a.ponto
+    - qual a diferença entre api-led e ponto.a.pontto
+    - qual a diferençaa entre api-led e ponto-a.ponto
+
+    # 🇺🇸 English
+    - what is the difference between api-led and point to point
+    - what is the diference between api-led and point to point
+    - what is the diffrence between api-led and point to point
+    - what is the difference between api led and point to point
+    - what is the difference between apiled and point to point
+    - what is the difference between a pi led and point to point
+    - what's the difference between api-led and point to point
+    - what s the difference between api-led and point to point
+    - whats the difference between api-led and point to point
+    - what is the diferenca between api-led and point to point
+    - what is the difrence between api-led and point to point
+    - what is the difrence between apiled and point to point
+    - what is the differance between api-led and point to point
+    - what is the diferance between api-led and point to point
+    - what is the diferenca between apiled and point to point
+    - what is the diff between api-led and point to point
+    - whats the dif between api-led and point to point
+    - what’s the difference between apiled and point to point
+    - what s the diference between api led and point to point
+    - what’s the difference between api-led and pointo to point
+    - what is the difference between api-lad and point to point
+    - what is the difference between api.led and point to point
+    - what is the difference between api_led and point to point
+    - what is the difference between @pi-led and point to point
+    - what is the difference between ap1-led and point to point
+    - what is the diferense between api-led and point to point
+    - whats the difference between api-led n point to point
+    - whats the diff b/w api-led and point to point
+    - what s the diff b/w api-led and point2point
+    - what is diff between api-led and point to point
+    - what is the difernce between api-led and point to point
+    - what is the difference between api-lead and point to point
+    - what is the difference btw api-led and point to point
+    - what is the difference between api-led and point-2-point
+    - what is the difference between api-led & point to point
+    - what is the difference between apiledd and point to point
+    - what is the difference between api ledd and point to point
+    - what is the difference between apí-led and point to point
+    - what is the difference between api-led and pont to point
+    - what is the difference between apiled and poínt to point
+    - what is the difference between api-led and pointo a point
+    - what is the difference between api-led and point. to point
+    - what is the difference between api-led and pointoapoint
+    - what is the diference between apiled and pont to point
+    - what is the diff between apiled and point a point

@@ -6,6 +6,8 @@ intents:
   - what_is_process_layer
   - what_is_system_layer
   - when_to_use_api_led
+  - api_led_vs_point_to_point
+  - api_led_vs_event_driven
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
