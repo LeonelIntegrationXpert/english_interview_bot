@@ -2,6 +2,9 @@ import subprocess
 import datetime
 import re
 
+DEFAULT_NAME = "Leonel Dorneles Porto"
+DEFAULT_EMAIL = "leoneldornelesporto@outlook.com.br"
+
 def run_command(command):
     result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
     return result.stdout.strip()
@@ -15,19 +18,25 @@ def get_git_changes():
         if not line.strip():
             continue
 
-        # Captura o status e o caminho do arquivo, mesmo com espaços
         match = re.match(r"^(\S+)\s+(.*)$", line.strip())
         if match:
             status, file_path = match.groups()
             changes.append(f"[{status}] {file_path}")
         else:
-            changes.append(f"[?] {line.strip()}")  # fallback
-
+            changes.append(f"[?] {line.strip()}")
     return changes
 
-def get_git_user_info():
+def ensure_git_user_info():
     name = run_command(["git", "config", "user.name"])
     email = run_command(["git", "config", "user.email"])
+
+    if not name:
+        subprocess.run(["git", "config", "--local", "user.name", DEFAULT_NAME], check=True)
+        name = DEFAULT_NAME
+    if not email:
+        subprocess.run(["git", "config", "--local", "user.email", DEFAULT_EMAIL], check=True)
+        email = DEFAULT_EMAIL
+
     return name, email
 
 def get_current_branch():
@@ -41,15 +50,12 @@ def auto_commit():
         print("✅ Nenhuma alteração para commitar.\n")
         return
 
-    # Coleta informações do usuário e contexto
-    username, email = get_git_user_info()
+    username, email = ensure_git_user_info()
     branch = get_current_branch()
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    # Adiciona arquivos
     subprocess.run(["git", "add", "."], check=True)
 
-    # Monta mensagem de commit
     commit_message = (
         f"🤖 Auto-commit realizado em {timestamp}\n"
         f"👤 Autor: {username} <{email}>\n"
@@ -58,10 +64,8 @@ def auto_commit():
         + "\n".join(changes)
     )
 
-    # Faz o commit
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
-    # Push para o branch atual
     print("\n🚀 Enviando commit para o repositório remoto...\n")
     subprocess.run(["git", "push", "origin", branch], check=True)
 
