@@ -1,0 +1,18 @@
+responses:
+  utter_how_to_handle_authentication:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  |
+                  A **autenticação e autorização em uma arquitetura API-led** devem ser tratadas de forma específica para cada camada:  
+                  ➤ Nas *Experience APIs*, recomenda-se o uso de **OAuth 2.0** ou **JWT**, garantindo a autenticação de usuários externos.  
+                  ➤ Já nas *Process APIs*, o foco está na **validação dos escopos e permissões** contidos no token.  
+                  ➤ Para as *System APIs*, pode-se utilizar **autenticação mútua** ou baseada em certificados, elevando o nível de segurança no acesso a sistemas legados.  
+                  Além disso, é uma boa prática aplicar **políticas de segurança no API Manager**, fortalecendo o controle de acesso e a governança das APIs.
+              - vr_en: |-
+                  |
+                  **Authentication and authorization in an API-led architecture** should be addressed according to each layer’s purpose:  
+                  ➤ In *Experience APIs*, it’s recommended to use **OAuth 2.0** or **JWT** to authenticate external users.  
+                  ➤ In *Process APIs*, the focus is on **validating token scopes and permissions** to ensure proper access control.  
+                  ➤ For *System APIs*, consider using **mutual authentication** or certificates to secure communication with backend systems.  
+                  Additionally, applying **security policies in the API Manager** helps reinforce access control and governance across all APIs.

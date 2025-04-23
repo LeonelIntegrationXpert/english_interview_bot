@@ -1,0 +1,207 @@
+version: '3.1'
+nlu:
+  - intent: how_to_handle_authentication
+    examples: |-
+      # 🇧🇷 Português
+      - como funciona a autenticação em api-led
+      - cm funciona a autenticaçao em api-led
+      - como fuciona a autenticação em apiled
+      - cmo funciona a auth em api led
+      - como funciona a autenticacao em api led
+      - cm fuciona autenticação em api-led
+      - como funsiona a autenticasao em api-led
+      - como funciona autenticao em api-led
+      - como funsiona auth em api led
+      - como fuciona a autenticação em api-l3d
+      - cm funciona a autenticaçao em apiled
+      - como funcina a autenticação em api-led
+      - cmo fucionaa autenticação em api led
+      - kom funciona a autenticação em api-led
+      - como funciona a autentiçaum em api-led
+      - cm fucina a autenticação n apiled
+      - cm func auth em api led
+      - como funciona auth em apy-led
+      - cm funsona a autenticaçao em api-led
+      - como funciona a authenticação em apiled
+      - cmo funsiona a autenticaçao em apilede
+      - como funciona a autentication em apiled
+      - cm fuciona a autencação em api-led
+      - cm funciona a autenicação em api led
+      - cm funcona a autencicao em api led
+      - cmo funçiona a autenticaçao em api led
+      - como fuciona a autenticação em api led
+      - kmo funciona a autenticação em api-led
+      - cm funciona autentição em api-led
+      - cmo funciona a authnticação em apiled
+      - como fuciona auth em apilede
+      - como fuciona a auten em api led
+      - cm funçona a autenticacão em api-led
+      - cm funcoina a autenticação em apiled
+      - kom funciona a autenticação em apí-led
+      - com funciona a autenticação em api-led
+      - cmo funsiona a autenticação em ap1-led
+      - cm funciona a autenticaçao em api lde
+      - cm fuciona autentição em apiled
+      - cm funcina a auth em api-led
+      - como func. a autenticação em api-led
+      - cm fucion a autenticação em apiled
+      - komo funciona a autenticação em api-led
+      - cm funciona a autentikacao em api-led
+      - com funciona a autenticção em apiled
+      - cm funnciona a autenticação em api-led
+      - cm funciona a aut. em api-led
+      - cmo fucina a autenticação em apyled
+      - kamo funciona autenticação em api-led
+      - como fuciona a auntenticação em apiled
+      - cmo funcioa a autenticação em api-led
+      - cm funcona a autentiçao em apiled
+      - com funciona a autienticação em api-led
+      - cmo funçoina a autenticasao em api led
+      - como funcina a autenticação em apī-led
+      - cm fuciona a autenticação em a.pi-led
+      - com funciona autentiçaõ em api led
+      - cmo funçiona a autencaçao em apiled
+      - cm fuciona autentiçao em api led
+      - kmo funsiona a autenticação em api-led
+      - cm funccina a autenticação em apiled
+      - como funsiona a autentiacao em api-led
+      - cmo fuciona a auntenticação em api-led
+      - cm fuciona a authenticação em api-led
+      - cm funsiona auten em apiled
+      - cmo funçona a autentição em api-led
+      - kom funciona a autentição em api-led
+      - cm funçina a autenticação em api_led
+      - com funciona a autenticação em api—led
+      - cm funcioa a autentificação em apiled
+      - cm ficiona a autenticação em apiled
+      - cmo funçona autenticação em api led
+      - cm funciona a auteticação em api-led
+      - cm fucionaa a autenticação em api-led
+      - como funsiona auth em api—led
+      - cmo funcina auth em apiled
+      - cm funsiona a autenticaçao n apiled
+      - como funsiona a autenticacão em api-led
+      - cm funçiona autentiçaum em apiled
+      - como funciona a autenticacão em apiled
+      - cm fuziona a autenticação em api-led
+      - cmo fucionaa autentiçao em api led
+      - cm fuciona a autencão em api_led
+      - cmo funçiona a autenticação em api.led
+      - komo funçiona a autenticação em api-led
+      - cm funcioa a auth em api-led
+      - cm funçiona a autotenticação em apiled
+      - cm fuciona aut. em api-led
+      - como funciona a auth em api_led
+      - cmo fuciona a autenticacao em api led
+      - cm funçiona a autenticassao em apiled
+      - kom func. autenticação em api-led
+      - cmo funsina a autenticação em api-led
+      - cm fuçiona a autenticação em api-led
+      - cmo funç., autenticação em api-led
+      - cm func. a autenticação em apile d
+      - cm funsiona a autotencição em api led
+      - cm fuciona a authenticaçao em apiled
+      - cmo funsiona a auth em api_led
+      - como funça a autenticação em api-led
+
+      # 🇺🇸 English
+      - how does authentication work in api-led
+      - how does auth work in api-led
+      - how auth work in api led
+      - how does authentication wrk in api-led
+      - how duz authentication work in apiled
+      - hw does authentication work in api-led
+      - how does authn work in api-led
+      - how dos auth work in api-led
+      - how auth wrks api-led
+      - how does authentcation work in api-led
+      - how does autentication work in api-led
+      - how does auth work in apiled
+      - how’s authentication work in api-led
+      - how does auth wrk in api-led
+      - how ds authentication work in api_led
+      - how does auth work in api-l3d
+      - how ddos authentication work in api-led
+      - hw authentication works in apiled
+      - how does authetication work in api led
+      - how does authenication wrk in api-led
+      - how auth works in api-led?
+      - how does authenticaton work api-led
+      - how works authentication in api-led
+      - how does authn wrk in apiled
+      - how does auth work.. in api-led
+      - how dose auth work in api led
+      - how duz auth wrk in api led
+      - how does auth wkr in api-led
+      - how do auth work in api-led
+      - how's auth workin in api-led
+      - how auth works api-led
+      - h0w does auth work in api-led
+      - how does auth work in a.pi-led
+      - how daz authentication work in api led
+      - how does authetnication work in api-led
+      - hw does auth work in apiled
+      - how doez authentication work in api-led
+      - hows authentication work in api_led
+      - how does authentcation work in apiled
+      - how does autch work in api-led
+      - how auth works in apy-led
+      - how to authentication work in api-led
+      - how dose authentication wrk in api led
+      - how does authn w0rk in api-led
+      - how does authentiaction work in api-led
+      - how d0es authentication work in api-led
+      - how does auth work in ap1-led
+      - how do authentication works in api-led
+      - how ds auth function in api-led
+      - how's auth func in api-led
+      - how do auth functn api-led
+      - hw ds auth work in api-led
+      - how does authn work api led
+      - how does authetication wrk api-led
+      - how does authntication work in api-led
+      - how does auth wrk apiled
+      - how does auth work api—led
+      - how do authentication wrk in api led
+      - how does auth run in api-led
+      - how does auth work in api—led?
+      - how dl auth work in api-led
+      - how does auth work in api led?
+      - hw does auth work n api-led
+      - how does auth work in api_led?
+      - how does auth wrk in api_l e d
+      - how does auth wrk in api_ledd
+      - how do authentication work in apiled
+      - how dos authn work in api-led
+      - how does auth w0rks in api-led
+      - how auth work in api_lv
+      - how authentication work in api-led
+      - how does authent work in api-led
+      - how doe authentication work in api-led
+      - how does athentication work in api-led
+      - how des authentication work in api-led
+      - how authantication works in api-led
+      - how does authntcation wrk in apiled
+      - how does auth work on api-led
+      - hw does auth w0rk in api-led
+      - how does auth work in api-ledd
+      - how does auth work in api leg
+      - how does auth work in api-l3d?
+      - how doez auth work in api-led
+      - how does autocn work in api-led
+      - how auth works in api-leed
+      - how dose auth wkr in apiled
+      - how does authenticaion work in api-led
+      - how docs authentication work in api-led
+      - how does auth work in api-led (?)
+      - how does auth work in API-LED
+      - how's auth work in api led
+      - how duz authn work in apiled
+      - how do auth wrks in api led
+      - how does auth wrks in apyled
+      - how auth wrk in api-led
+      - how does authentication wok in apiled
+      - how does aunthentication work in api led
+      - how doe auth work in api-led
+      - how auth workz in api-led
+      - how does auth. work in api-led

@@ -36,3 +36,39 @@ stories:
     steps:
       - intent: api_led_vs_event_driven
       - action: utter_api_led_vs_event_driven
+  - story: storie_api_led_vs_event_driven
+    steps:
+      - intent: api_led_vs_event_driven
+      - action: utter_api_led_vs_event_driven
+  - story: storie_api_led_vs_point_to_point
+    steps:
+      - intent: api_led_vs_point_to_point
+      - action: utter_api_led_vs_point_to_point
+  - story: storie_benefits_of_api_led
+    steps:
+      - intent: benefits_of_api_led
+      - action: utter_benefits_of_api_led
+  - story: storie_when_to_use_api_led
+    steps:
+      - intent: when_to_use_api_led
+      - action: utter_when_to_use_api_led
+  - story: storie_how_to_design_api_led_layers
+    steps:
+      - intent: how_to_design_api_led_layers
+      - action: utter_how_to_design_api_led_layers
+  - story: storie_governance_in_api_led
+    steps:
+      - intent: governance_in_api_led
+      - action: utter_governance_in_api_led
+  - story: storie_naming_conventions_api_led
+    steps:
+      - intent: naming_conventions_api_led
+      - action: utter_naming_conventions_api_led
+  - story: storie_security_in_api_led
+    steps:
+      - intent: security_in_api_led
+      - action: utter_security_in_api_led
+  - story: storie_how_to_handle_authentication
+    steps:
+      - intent: how_to_handle_authentication
+      - action: utter_how_to_handle_authentication

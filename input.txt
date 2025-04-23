@@ -1,172 +1,118 @@
-#intent: api_led_integration_best_practices
+#intent: naming_conventions_api_led
 #pt:
-- o que são boas práticas api-led
-- o que sao boas práticas api-led
-- como aplicar boas práticas api-led
-- como são as boas práticas api-led
-- oque são boas práticas no api-led
-- o q são boas práticas api-led
-- boas práticas no api-led o que são
-- como utilizar boas práticas api-led
-- o que são as melhores práticas em api-led
-- oq eh boas práticas api-led
-- como aplicar api-led boas práticas
-- boas práticas de integração api-led quais são
-- oque eh boas práticas de api-led
-- oq são as melhores práticas em api-led
-- qual o melhor jeito de usar boas práticas api-led
-- como usar boas práticas na arquitetura api-led
-- quais as melhores práticas em api-led
-- o que são as práticas recomendadas para api-led
-- como integrar boas práticas com api-led
-- oq são boas práticas na integração api-led
-- o que são boas práticas ao usar api-led
-- o que são as boas práticas de integração com api-led
-- qual a definição de boas práticas api-led
-- boas práticas de design api-led são o que
-- quais as boas práticas de segurança no api-led
-- como aplicar boas práticas de segurança api-led
-- como organizar boas práticas para api-led
-- o que são as práticas ideais para usar api-led
-- como garantir boas práticas ao trabalhar com api-led
-- boas práticas no uso de api-led para integração
-- como definir boas práticas em arquitetura api-led
-- o que são boas práticas em integração de dados com api-led
-- boas práticas de integração api-led são fundamentais para quê
-- como utilizar boas práticas para uma arquitetura api-led escalável
-- o que são boas práticas de design em api-led
-- o que são práticas recomendadas no api-led
-- qual a estratégia para seguir boas práticas com api-led
-- o que são boas práticas ao lidar com camada system api-led
-- boas práticas na integração de sistemas com api-led
-- como usar boas práticas de governança no api-led
-- o que são boas práticas na gestão de APIs com api-led
-- como implementar boas práticas no design das APIs com api-led
-- o que são boas práticas em integrações com api-led
-- o que são boas práticas no gerenciamento de APIs com api-led
-- como melhorar a arquitetura com boas práticas api-led
-- como integrar com boas práticas api-led em mule
-- o que são as boas práticas de integração de sistemas com api-led
-- quais as boas práticas de segurança no uso do api-led
-- como aplicar boas práticas de governança nas integrações api-led
-- o que são as boas práticas de arquitetura api-led
-- boas práticas para implementação de API-led na camada system
-- o que são boas práticas de API-led para sistemas legados
-- quais as boas práticas para seguir uma arquitetura api-led eficiente
-- boas práticas em integração de sistemas no api-led
-- como usar boas práticas de controle e segurança no api-led
-- quais boas práticas de design em integração com api-led
-- boas práticas de segurança nas camadas de API-led
-- como melhorar a integração com boas práticas api-led
-- quais as boas práticas para escalabilidade com api-led
-- o que são boas práticas em desenvolvimento com api-led
-- como aplicar boas práticas de testes em integração com api-led
-- o que são boas práticas para performance em api-led
-- como usar boas práticas de autenticação e autorização em api-led
-- o que são boas práticas para manutenibilidade em API-led
-- boas práticas para integração de APIs no api-led
-- o que são boas práticas de orquestração com api-led
-- quais as boas práticas para otimizar o uso de api-led
-- o que são boas práticas no uso de API-led com MuleSoft
-- como aplicar boas práticas de arquitetura em api-led
-- o que são boas práticas em integração e API-led
-- quais boas práticas em design para arquitetura api-led
-- o que são boas práticas em segurança para uso de api-led
-- como seguir boas práticas na arquitetura api-led
-- quais boas práticas de performance em api-led
-- boas práticas na integração de serviços com api-led
-- como seguir as boas práticas na implementação de api-led
-- o que são boas práticas de governança de APIs no api-led
-- quais as melhores práticas em integração com api-led
-- o que são boas práticas em construção de APIs com api-led
-- como aplicar boas práticas de escalabilidade no api-led
-- boas práticas em uso de componentes no api-led
-- como utilizar boas práticas em design de API-led
-- o que são boas práticas para a camada de sistema no api-led
-- boas práticas em configuração e deploy de api-led
-- o que são boas práticas de orquestração em api-led
-- como usar boas práticas de segurança na integração api-led
-- o que são boas práticas para integração de sistemas usando api-led
-- boas práticas para escalabilidade de integrações com api-led
-- o que são boas práticas de eficiência com api-led
+- quais são as boas práticas de nomenclatura no api-led
+- como nomear APIs corretamente no api-led
+- qual padrão de nomes usar em APIs no modelo api-led
+- como padronizar nomes de APIs no api-led
+- quais convenções de nome devo seguir em api-led
+- como aplicar convenção de nomes nas APIs api-led
+- como definir nomes para APIs nas camadas api-led
+- boas práticas de nomeação no api-led
+- padronização de nomes em APIs api-led como fazer
+- nomear APIs corretamente em arquitetura api-led
 
 #en:
-- what are best practices api-led
-- how to apply api-led best practices
-- what is the best practice for api-led
-- how to implement best practices with api-led
-- what are the recommended practices for api-led
-- what are the good practices in api-led
-- what’s the best way to apply api-led best practices
-- how to follow best practices in api-led
-- what does api-led best practices mean
-- how to use api-led best practices
-- best practices for api-led integrations
-- what are the best practices to follow in api-led
-- how to apply best practices in api-led integrations
-- what is the role of best practices in api-led
-- best practices for securing api-led
-- how to integrate with best practices in api-led
-- what are the best practices for api-led security
-- what is the most efficient way to implement api-led
-- what’s the right way to use best practices in api-led
-- what are the key best practices for api-led
-- how to use best practices in api-led architecture
-- how to ensure best practices with api-led
-- what is the best practice for api-led integration
-- what does best practice mean in api-led
-- how to apply api-led best practices in mule
-- best practices for using api-led effectively
-- how to follow best practices in api-led design
-- what’s the ideal approach to api-led integration
-- best practices for maintaining api-led integrations
-- how to apply best practices to api-led systems
-- what are the security best practices for api-led
-- what is the best approach to follow api-led principles
-- how to implement best practices in API design with api-led
-- what are the best practices for scalability in api-led
-- how to implement governance with api-led best practices
-- what are the best practices for managing API-led connections
-- best practices for API-led performance
-- how to follow API-led integration best practices
-- how to apply best practices to api-led services
-- what’s the best practice for using API-led with MuleSoft
-- what are best practices for managing APIs in api-led
-- what are the design best practices for API-led
-- how to ensure performance with api-led best practices
-- how to use best practices for building APIs with api-led
-- what are the best practices for api-led transformation
-- best practices for API-led security and management
-- how to optimize api-led integrations using best practices
-- what are the key best practices for api-led development
-- how to ensure security in api-led integration
-- best practices for api-led testing and quality assurance
-- what are the top best practices for using api-led
-- how to implement best practices for data integration in api-led
-- what are the best practices for scaling api-led
-- what’s the best approach for api-led design
-- how to apply best practices for API-led transformation
-- what’s the role of API-led best practices
-- how to define best practices for api-led
-- what is the best practice for designing APIs with api-led
-- how to ensure reusability with best practices in api-led
-- best practices for api-led architecture implementation
-- how to follow API-led best practices for scalability
-- what are the best practices for API-led integrations and deployment
-- best practices for managing api-led APIs effectively
-- how to ensure performance and scalability with best practices in api-led
-- how to apply best practices for error handling in api-led
+- what are the naming best practices in api-led
+- how to name APIs properly in api-led
+- what naming pattern should I follow in api-led
+- how to standardize API names in api-led architecture
+- what conventions should be used for naming in api-led
+- how to apply naming conventions in api-led APIs
+- how to define API names in api-led layers
+- naming best practices in api-led model
+- how to structure names for APIs in api-led
+- best practices for naming APIs in api-led
 
-#vr_pt:
-As **boas práticas API-led** envolvem a criação de camadas bem definidas, como *Experience*, *Process* e *System*.  
-Além disso, a **padronização das APIs** e a reutilização de componentes são fundamentais para evitar a duplicação de esforços.  
-A implementação de **segurança** e **monitoramento** contínuo também são práticas essenciais para garantir a integridade das integrações.  
-A **governança das APIs** é outro aspecto importante, permitindo maior controle sobre acessos e a evolução das soluções.  
-Seguir as melhores práticas no **design das APIs** permite que elas sejam mais escaláveis e fáceis de manter ao longo do tempo.
+#vr_pt: |
+Boas práticas de **nomenclatura em APIs API-led** incluem o uso de nomes claros, descritivos e consistentes por camada.  
+Exemplo: `customer-system-api`, `order-process-api`, `mobile-experience-api`.  
+Evite siglas obscuras e mantenha o padrão *<objeto>-<camada>-api*.  
+Use *kebab-case* para URLs e evite misturar idiomas.  
+A padronização melhora a legibilidade, manutenção e integração entre times.
 
-#vr_en:
-**API-led best practices** involve creating well-defined layers such as *Experience*, *Process*, and *System*.  
-Additionally, **standardizing APIs** and reusing components are key to avoiding duplication of effort.  
-Implementing **security** and continuous **monitoring** are essential practices to ensure the integrity of integrations.  
-**API governance** is another important aspect, enabling better control over access and the evolution of solutions.  
-Following best practices in **API design** allows them to be more scalable and easier to maintain over time.
+#vr_en: |
+**Naming best practices in API-led APIs** include using clear, descriptive, and consistent names per layer.  
+Example: `customer-system-api`, `order-process-api`, `mobile-experience-api`.  
+Avoid unclear acronyms and stick to the *<object>-<layer>-api* pattern.  
+Use *kebab-case* for URLs and avoid language mixing.  
+Standardization improves readability, maintenance, and team integration.
+---
+#intent: security_in_api_led
+#pt:
+- como implementar segurança nas camadas api-led
+- segurança no api-led como aplicar
+- como proteger as APIs em api-led
+- boas práticas de segurança em arquitetura api-led
+- como aplicar autenticação e criptografia em api-led
+- segurança na system API como funciona
+- como adicionar políticas de segurança no api-led
+- como garantir proteção nas camadas do api-led
+- o que usar para segurança nas APIs api-led
+- segurança nas camadas system process e experience do api-led
+
+#en:
+- how to implement security in api-led layers
+- security in api-led architecture how to apply
+- how to protect APIs in api-led
+- best practices for security in api-led
+- how to apply authentication and encryption in api-led
+- securing system APIs in api-led
+- how to add security policies in api-led
+- how to ensure protection across api-led layers
+- what to use for securing APIs in api-led
+- security in system process and experience layers of api-led
+
+#vr_pt: |
+A **segurança no API-led** deve ser aplicada em todas as camadas:  
+• Na camada *System*, use autenticação mútua e restrições de IP.  
+• Em *Process APIs*, adote validação de tokens, rate limits e proteção contra ataques.  
+• Em *Experience APIs*, implemente CORS, OAuth 2.0 e validações de entrada.  
+Utilize o **API Manager** para aplicar políticas centralizadas e manter logs auditáveis.  
+A segurança deve ser pensada desde o design até o deploy.
+
+#vr_en: |
+**Security in API-led** should be enforced across all layers:  
+• In *System APIs*, use mutual authentication and IP restrictions.  
+• In *Process APIs*, adopt token validation, rate limits, and attack protection.  
+• In *Experience APIs*, implement CORS, OAuth 2.0, and input validation.  
+Use **API Manager** to apply centralized policies and keep auditable logs.  
+Security must be considered from design to deployment.
+---
+#intent: how_to_handle_authentication
+#pt:
+- como funciona a autenticação em api-led
+- como fazer autenticação nas APIs api-led
+- como gerenciar autorização no modelo api-led
+- autenticação e autorização no api-led como fazer
+- como implementar segurança com oauth em api-led
+- como usar JWT para autenticação em api-led
+- como controlar acesso nas APIs do api-led
+- quais métodos de autenticação usar no api-led
+- como aplicar controle de acesso em APIs api-led
+- boas práticas de autenticação no api-led
+
+#en:
+- how does authentication work in api-led
+- how to handle authentication in api-led APIs
+- how to manage authorization in api-led model
+- authentication and authorization in api-led how to do
+- how to implement oauth security in api-led
+- how to use JWT for authentication in api-led
+- how to control access in api-led APIs
+- what authentication methods to use in api-led
+- how to apply access control in api-led APIs
+- best practices for authentication in api-led
+
+#vr_pt: |
+A **autenticação e autorização no API-led** deve ser adequada a cada camada:  
+Use **OAuth 2.0** ou **JWT** em *Experience APIs* para autenticar usuários externos.  
+Nas *Process APIs*, valide escopos e permissões do token.  
+Para *System APIs*, considere autenticação mútua ou com certificados.  
+Combine autenticação com políticas de segurança no **API Manager** para reforçar o controle de acesso.
+
+#vr_en: |
+**Authentication and authorization in API-led** must suit each layer:  
+Use **OAuth 2.0** or **JWT** in *Experience APIs* to authenticate external users.  
+In *Process APIs*, validate scopes and token permissions.  
+For *System APIs*, consider mutual authentication or certificates.  
+Combine authentication with security policies in **API Manager** to strengthen access control.

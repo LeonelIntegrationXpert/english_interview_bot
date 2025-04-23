@@ -8,6 +8,11 @@ intents:
   - when_to_use_api_led
   - api_led_vs_point_to_point
   - api_led_vs_event_driven
+  - how_to_design_api_led_layers
+  - governance_in_api_led
+  - naming_conventions_api_led
+  - security_in_api_led
+  - how_to_handle_authentication
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

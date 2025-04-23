@@ -1,0 +1,180 @@
+version: '3.1'
+nlu:
+  - intent: security_in_api_led
+    examples: |-
+      # 🇧🇷 Português
+      - como implementar segurança nas camadas api-led
+      - como implementar seguranca nas camadas api-led
+      - como implementar segurnça nas camadas api-led
+      - como implementar segurança nas camadas apiled
+      - como implementar segurança nas camadas api led
+      - como implementar segurança nas camadas a-p-i-led
+      - como implmentar segurança nas camadas api-led
+      - como implemetar segurança nas camadas api-led
+      - como implementar segurança nas camadas api_l-e-d
+      - como implementar seguranca nas camadas apiled
+      - como implementar segurança nas camadas api.léd
+      - como implementar segurança nas camadas apí-led
+      - como implementar segurança nas camadas api_led
+      - cm implementar segurança nas camadas api-led
+      - como implementar segurança nas camdas api-led
+      - como implementar segurança nas camadas a.p.i.l.e.d
+      - como implementar segurança nas camadas apiled?
+      - como implementar segurança nas camadas api—led
+      - como implementar segurança nas camadas apíled
+      - como implementar segurança nas camadas api-l3d
+      - como implementar segurança nas camadas api l3d
+      - como implementar segurança nas camdas apiled
+      - como implementar segurança nas camadas apiled!
+      - como implementar segurnça nas camadas apiled
+      - como implementar segurança nas camadas api_led?
+      - como implementar segurança nas camadas api-led?
+      - como implementar security nas camadas api-led
+      - como implementar segurança nas camadas apile d
+      - como implementar segurança nas camadas ap i led
+      - como implementar segurança nas camadas ap.i.l.e.d
+      - como implementar segurança nas camadas apiled!!
+      - como implementar seguridad nas camadas api-led
+      - como implementar segurança nas camadas api—léd
+      - como implementar segurança nas camadas a p i l e d
+      - como implementar seguranÇa nas camadas api-led
+      - como implementar segurança nas camada api-led
+      - como implementar segurança nas camadas apile d?
+      - como implementar segurança nas camadas apiled?
+      - como implementar segurança nas camadas apiled!
+      - como implementar segurança nas camadas api-led!!
+      - como implementar seguranca nas camadas api-led?
+      - cm implementar seguridad nas camadas api-led
+      - como implementar segurança nas camadas API-LED
+      - como implementar segurança nas camadas API LED
+      - como implementar segurança nas camadas API_L–E–D
+      - como implementar segurança nas camadas Api-Led
+      - como implementar segurnaça nas camadas api-led
+      - como implementar segurança nas camadas apilé d
+      - como implementar seguranca nas camadas apiled
+      - como implementar segurança nas camadas apiled??  
+      - como implementar segurança nas camadas apiled??  
+      - como implementar segurança nas camadas apiled?!  
+      - como implementar segurança nas camadas apiled.!  
+      - como implementar segurança nas camadas apLed
+      - como implementar seguranca nas camadas apI-LED
+      - como implementar seguranÇa nas camadas apiled
+      - como implementar segurança nas camadas a-p-i-l-e-d?
+      - como implementar seguranca nas camadas api·léd
+      - como implementar segurança nas camadas apiled?!
+      - como implementar seguranccia nas camadas api-led
+      - como implementar segurança nas camadas apiled.
+      - como implementar segurança nas camadas api-led~
+      - como implementar segurança nas camadas apíled!
+      - como implementar segurança nas camadas apiled?
+      - como implementar segurança nas camadas apí-léd
+      - como implementar segurança nas camadas apiled??
+      - como implementar seguranÇas nas camadas api-led
+      - como implementar segurança nas camadas apiled ;;
+      - como implementar segurança nas camadas apiled --
+      - como implementar segurança nas camadas apiled ^^
+      - como implementar proteção nas camadas apiled
+      - como implementar segurança nas camadas apiled :)
+      - como implementar seguranÇa nas camadas apiled!!
+      - como implementar segurnaça nas camadas apiled?
+      - cm implementar segurança nas camadas apiled!!
+      - cm implementar seguranca nas camadas apiled?!
+      - como implementar seguraça nas camadas api-led
+      - como implementar segurança nas camadas apiledd
+      - como implementar segurança nas camadas apiled!!
+      - como implementar segurança nas camadas apiled?!
+      - como implementar segurança nas camadas ápi-led
+      - como implementar segurança nas camadas ápi-léd
+      - como implementar seguranca nas camadas ápi-led
+      - como implementar proteção nas camadas api-led
+      - como implementar seguranÇa nas camadas ápi-led
+      - como implementar segurança nas camadas API_L-E-D!
+      - como implementar segurança nas camadas API-LEd?
+      - como implementar segurança nas camadas ApiLed!!
+      - como implementar segurança nas camadas Api Led??
+      - como implementar seguranÇa nas camadas Api-Led
+
+      # 🇺🇸 English
+      - how to implement security in api-led layers
+      - how to implement securty in api-led layers
+      - how to implement security in apiled layers
+      - how to implement security in api led layers
+      - how to implement security in a-p-i-led layers
+      - how to implment security in api-led layers
+      - how to implemet security in api-led layers
+      - how to implement security in api_l-e-d layers
+      - how to implement security in api.léd layers
+      - how to implement securit in api-led layers
+      - how to implement security in apí-led layers
+      - how to implement securty in apiled layers
+      - how to implement security in api—led layers
+      - how to implement security in api-l3d layers
+      - how to implement security in apiled layer
+      - how to implement security in api led layer
+      - how to implement security in api-led layer?
+      - how to implement security in apiled layers?
+      - how to implement security in apiled layers!!
+      - how to implement security in apiled layer?
+      - how to implement security in api-led layers!!
+      - how to implement securitty in api-led layers
+      - how to implement security in API-LED layers
+      - how to implement security in API LED layers
+      - how to implement security in Api-Led layers
+      - how to implment securty in api-led layers
+      - how to implement security in API_L–E–D layers
+      - how to implement security in api-led layering
+      - how to implement security in api-led layers?
+      - how to implement security in apiled layers?!
+      - how to implement securit in apiled layers
+      - how to implement securitty in apiled layers
+      - how to implement security in api-led layrs
+      - how to implement security in apiled layer?
+      - how to implement security in api_l-e-d layer
+      - how to implement security in apí-led layers?
+      - how to implement security in apiled layers.
+      - how to implement security in api—led layers?
+      - how to implement security in apiled layer!!
+      - how to implement security in api-led layes
+      - how to implement securiyy in api-led layers
+      - how to implement security in api-léd layers
+      - how to implement security in API-LEd layers
+      - how to implement security in apiled layers^^
+      - how to implement security in apiled layers??
+      - how to implment security in apiled layers
+      - how to implement securit in api led layers
+      - how to implement security in api-led laysers
+      - how to implement security in apiled layers?!
+      - how to implement security in api-led layrs?
+      - how to implement security in API_LED layers
+      - how to implement security in apiled layers..  
+      - how to implement securit in api.léd layers
+      - how to implement security in api—léd layers
+      - how to implement security in apí-led layers!
+      - how to implement security in apiled layers;  
+      - how to implement securitty in a-p-i-led layers
+      - how to implement security in api-led layers~
+      - how to implement security in apiled layers...  
+      - how to implement security in api-led l3yers
+      - how to implement security in apiled layers:-)
+      - how to implement security in apiled layers?!
+      - how to implement security in apiled layer!!
+      - how to implement securitt in api-led l3yers
+      - how to implement security in api-led layering?
+      - how to implement security in apiled layers?
+      - how to implement security in API—LED layers
+      - how to implement security in ApiLed layers?
+      - how to implement security in Api Led layering
+      - how to implement security in apiled layers!!
+      - how to implement securyty in apiled layers
+      - how to implement security in API-LED layering?
+      - how to implement security in a-p-i-l-e-d layers
+      - how to implement security in Api-Led layering
+      - how to implement security in apíled layers
+      - how to implment securitty in api-led layers
+      - how to implement security in apiled layers?!  
+      - how to implement security in apiled layering  
+      - how to implement securitty in api-led layering  
+      - how to implement security in apiled layers?!  
+      - how to implement securit in api-led layes  
+      - how to implement security in apiled layes  
+      - how to implement security in api-led layers???

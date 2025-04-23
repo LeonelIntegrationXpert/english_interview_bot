@@ -36,3 +36,23 @@ rules:
     steps:
       - intent: api_led_vs_event_driven
       - action: utter_api_led_vs_event_driven
+  - rule: rule_how_to_design_api_led_layers
+    steps:
+      - intent: how_to_design_api_led_layers
+      - action: utter_how_to_design_api_led_layers
+  - rule: rule_governance_in_api_led
+    steps:
+      - intent: governance_in_api_led
+      - action: utter_governance_in_api_led
+  - rule: rule_naming_conventions_api_led
+    steps:
+      - intent: naming_conventions_api_led
+      - action: utter_naming_conventions_api_led
+  - rule: rule_security_in_api_led
+    steps:
+      - intent: security_in_api_led
+      - action: utter_security_in_api_led
+  - rule: rule_how_to_handle_authentication
+    steps:
+      - intent: how_to_handle_authentication
+      - action: utter_how_to_handle_authentication
