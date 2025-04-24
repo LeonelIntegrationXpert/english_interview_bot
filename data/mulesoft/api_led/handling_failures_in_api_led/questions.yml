@@ -1,0 +1,181 @@
+version: '3.1'
+nlu:
+  - intent: handling_failures_in_api_led
+    examples: |-
+      # 🇧🇷 Português
+      - como lidarc om falhas no api-led
+      - como lidar comáfalhas no api-led
+      - como lidar com fahlas no api-led
+      - como lzdar com falhas no api-led
+      - como lidar cúom falhas no api-led
+      - como lidar com falhas no api-lexd
+      - como lidar com falhasqno api-led
+      - como lidar com falhas on api-led
+      - õomo lidar com falhas no api-led
+      - como lidar com falham no api-led
+      - como lidar comalhas no api-led
+      - cmo lidar com falhas no api-led
+      - como lídar com falhas no api-led
+      - como lidar com falhas no apiled
+      - como lidar com falhas no api led
+      - como lidar com falhas no a-p-i-led
+      - como lidar com falhas no api_led
+      - cm lidar com falhas no api-led
+      - como lidar com falhas no api-l3d
+      - como lidar com falhas no api-léd
+      - como lidar com falhas no apí-led
+      - como lidar com falhas no api—led
+      - como lidar com falhas no api—léd
+      - komo lidar com falhas no api-led
+      - como lidar comalhas no apiled
+      - como lidar com falash no api-led
+      - como lidar com falhasm no api-led
+      - como lidar com falhas i api-led
+      - como lidar com falhas in api-led
+      - como lidar com falash no api-led?
+      - como lidar com falhas no api-led?
+      - como lidar com falhas no apiled?
+      - cm lidar c falhas no api-led?
+      - como lidiar com falhas no api-led
+      - como lidar com falahs no api-led
+      - como lidar c falhas no api led
+      - como lidar com falhas no a pi led
+      - como lidar com falhas no a.p.i.l.e.d
+      - como lidar com falhasapiled
+      - como lidar com falhasapiled?
+      - como lida com falhas no api-led
+      - como lidar com falhas nas api-led
+      - como lidar com falhas nas apiled
+      - como lidar com falhas nas api led
+      - cm lidar com falhas nas api-led
+      - como lidar com falhas nas a-p-i-led
+      - como lidar com falhas na api-led
+      - como lidar com falhas na apiled
+      - como lidar com falashs no api-led
+      - como lidar com falha s no api-led
+      - como lidar com falhas no api-led!!
+      - como lidar com falhas no apiled!!
+      - como lidar com falhas no api-led!!
+      - como lidar com falhas no apí-led!!
+      - como lidar com faltas no api-led
+      - como lidrar com falhas no api-led
+      - como lidqr com falhas no api-led
+      - como lidar com falhas n a p i l e d
+      - como lidar com falhas n a.p.i.l.e.d
+      - como lidar com falhas n apiled
+      - como lidar com falhas n api-led?
+      - como lidar com falahs in api-led
+      - como lidr com falhas no api-led
+      - como ldr com falhas no api-led
+      - como lidar com falhas no arpi-led
+      - como lidar com falhas no api-led~
+      - como lidar comf alhas no api-led
+      - como lidar com falhas no apiled~
+      - como lidar com falhas no api-led…
+      - como lidar com falhas no apiled…
+      - como lidar com falhas no API-LED
+      - como lidar com falhas no Api-Led
+      - como lidar com falhas no API_led
+      - como lidar com falhash no api-led
+      - como lidar com falhas no api-led?
+      - como lidar com falhas no apobleed
+      - como lidar com falhas no apololed
+      - como lidar com falhas no api-led?
+      - como lidarcm com falhas no api-led
+      - como lidar co falhas no api-led
+      - como lidar comfalhas no api-led
+      - como lidar com falahs no apiled
+      - como lidar com falhas no api-led?
+      - como lidar com falhas no apiled!
+      - como lidar com falhas no api-lêd
+      - como lidar com falhas no api-led?
+      - como lidar c falhas no a.p.i.l.e.d
+      
+      # 🇺🇸 English
+      - how to handle failures in api-led
+      - how to handle failurs in api-led
+      - how to handle failures in apiled
+      - how to handle failures in api led
+      - how to handle failures in a-p-i-led
+      - how to handle failures in api_led
+      - how to handle failures in api-l3d
+      - how to handle failures in api-léd
+      - how to handle failures in apí-led
+      - how to handle failures in api—led
+      - how to handle failures in api—léd
+      - howto handle failures in api-led
+      - how to handlefailures in api-led
+      - how tohandle failures in api-led
+      - how to handle failures in api-led?
+      - how to handle failures in apiled?
+      - how to handele failures in api-led?
+      - how to handel failures in api-led?
+      - how to handl failures in api-led?
+      - how to handle failures in api-led!!
+      - how to handle failures in apiled!!
+      - how handle failures in api-led
+      - how to handle failure s in api-led
+      - how to handle failuresin api-led
+      - how to handle failures in api-led~
+      - how to handle failures in apiled~
+      - how to handlle failures in api-led
+      - how to handle failur in api-led
+      - how to handle failures in api-led…
+      - how to handle failures in apiled…
+      - how to handle failures in API-LED
+      - how to handle failures in Api-Led
+      - how to handle failures in API_led
+      - how to handle failures in api led?
+      - how to handle failures in a pi led
+      - how to handle failures in a.p.i.l.e.d
+      - how to handle failuresin apiled
+      - how to handlefailures in apiled
+      - how to handle failures api-led
+      - how to handle failures in apiled?
+      - how to handle failures in a.p.i.-l.e.d
+      - how to handle failuresin api-led?
+      - how to handle failures in apiled?
+      - how to handle failures in api-led??
+      - how to handle failures in apiled??
+      - how to handle failures in api-led?!
+      - how to handle failures in apiled?!
+      - how tohan dle failures in api-led?!
+      - how to handle failures in api-led!!
+      - how to handle failures in apiled!!
+      - how to handle flilures in api-led!!
+      - how to handle failures in api-led:?
+      - how to handle failures in apiled:?
+      - how to handle failures in api-led;?
+      - how to handle failures in apiled;?
+      - how to handle failures in api-led123
+      - how to handle failures in apiled123
+      - how to handle failures in api-led???
+      - how to handle failures in apiled???
+      - how to handle failures in api-led???
+      - how to handle failures in apiled!!!
+      - how to handle failures in api-led!!!
+      - how to hande failures in api-led!!!
+      - how to handle fialures in api-led!!!
+      - how to handle failures in apiled!!!
+      - how to handle failures in api-led?
+      - how to handle failures in apiled?
+      - how to handle failures in api-led?
+      - how tohandlefailures in api-led?
+      - how to handle failures in api-led??
+      - how to handle failures in apiled??
+      - how to hanlde failures in api-led??
+      - how to handle failures in api-led!!
+      - how to handle failures in apiled!!
+      - how to handle fialures in api-led!!
+      - how to handle failures in apiled!!
+      - how to handle failures in api-led!!!
+      - how to handle failures in apiled!!!
+      - how to handle req failures in api-led!!!
+      - how to handle failures in api-led ###
+      - how to handle failures in apiled ###
+      - how to handle failures in api-led###
+      - how to handle failures in apiled###
+      - how to handle failures in api-led##
+      - how to handle failures in apiled##
+      - how to handle failures in api-led (?)
+      - how to handle failures in apiled (?)

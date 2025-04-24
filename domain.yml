@@ -13,6 +13,12 @@ intents:
   - naming_conventions_api_led
   - security_in_api_led
   - how_to_handle_authentication
+  - monitoring_api_led
+  - handling_failures_in_api_led
+  - api_versioning_strategies
+  - deployment_strategies_api_led
+  - real_use_cases_api_led
+  - api_led_in_enterprise_integration
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

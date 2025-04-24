@@ -1,0 +1,20 @@
+responses:
+  utter_api_versioning_strategies:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  |
+                  O **versionamento em API-led** deve ser aplicado com clareza e consistência:  
+                  • Use o padrão `v1`, `v2`, etc. no caminho da API (`/v1/customers`).  
+                  • Evite breaking changes em versões estáveis.  
+                  • Documente cada versão e use tags no repositório.  
+                  • Para mudanças internas, prefira versionar apenas camadas afetadas.  
+                  Essa prática facilita a manutenção e comunicação com os consumidores.
+              - vr_en: |-
+                  |
+                  **Versioning in API-led** should be applied clearly and consistently:  
+                  • Use the `v1`, `v2`, etc. pattern in the API path (`/v1/customers`).  
+                  • Avoid breaking changes in stable versions.  
+                  • Document each version and tag them in the repository.  
+                  • For internal changes, prefer to version only the affected layers.  
+                  This makes maintenance and consumer communication easier.

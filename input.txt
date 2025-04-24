@@ -1,118 +1,233 @@
-#intent: naming_conventions_api_led
+#intent: monitoring_api_led
 #pt:
-- quais são as boas práticas de nomenclatura no api-led
-- como nomear APIs corretamente no api-led
-- qual padrão de nomes usar em APIs no modelo api-led
-- como padronizar nomes de APIs no api-led
-- quais convenções de nome devo seguir em api-led
-- como aplicar convenção de nomes nas APIs api-led
-- como definir nomes para APIs nas camadas api-led
-- boas práticas de nomeação no api-led
-- padronização de nomes em APIs api-led como fazer
-- nomear APIs corretamente em arquitetura api-led
+- como monitorar APIs nas camadas do api-led
+- como fazer o monitoramento no modelo api-led
+- boas práticas de monitoramento em api-led
+- como acompanhar performance das APIs api-led
+- o que usar para monitorar APIs no api-led
+- como rastrear falhas e métricas em api-led
+- como monitorar system process e experience APIs
+- ferramentas de monitoramento para api-led
+- como fazer observabilidade nas APIs api-led
+- como configurar alertas e métricas em api-led
 
 #en:
-- what are the naming best practices in api-led
-- how to name APIs properly in api-led
-- what naming pattern should I follow in api-led
-- how to standardize API names in api-led architecture
-- what conventions should be used for naming in api-led
-- how to apply naming conventions in api-led APIs
-- how to define API names in api-led layers
-- naming best practices in api-led model
-- how to structure names for APIs in api-led
-- best practices for naming APIs in api-led
+- how to monitor APIs in api-led layers
+- best monitoring practices in api-led
+- how to track API performance in api-led
+- what to use for monitoring in api-led architecture
+- how to trace failures and metrics in api-led
+- how to monitor system, process and experience APIs
+- monitoring tools for api-led architecture
+- how to do observability in api-led APIs
+- how to set up alerts and metrics for api-led
+- how to analyze performance in api-led APIs
 
 #vr_pt: |
-Boas práticas de **nomenclatura em APIs API-led** incluem o uso de nomes claros, descritivos e consistentes por camada.  
-Exemplo: `customer-system-api`, `order-process-api`, `mobile-experience-api`.  
-Evite siglas obscuras e mantenha o padrão *<objeto>-<camada>-api*.  
-Use *kebab-case* para URLs e evite misturar idiomas.  
-A padronização melhora a legibilidade, manutenção e integração entre times.
+O **monitoramento em API-led** deve cobrir as três camadas:  
+• *System APIs*: rastreie latência e disponibilidade de sistemas legados.  
+• *Process APIs*: monitore transformações, erros de negócio e tempos de resposta.  
+• *Experience APIs*: avalie uso por canal e tempo de resposta ao consumidor.  
+Use ferramentas como **Anypoint Monitoring**, **Splunk** ou **Datadog** para gerar alertas, métricas e logs detalhados.
 
 #vr_en: |
-**Naming best practices in API-led APIs** include using clear, descriptive, and consistent names per layer.  
-Example: `customer-system-api`, `order-process-api`, `mobile-experience-api`.  
-Avoid unclear acronyms and stick to the *<object>-<layer>-api* pattern.  
-Use *kebab-case* for URLs and avoid language mixing.  
-Standardization improves readability, maintenance, and team integration.
+**Monitoring in API-led** should cover all three layers:  
+• *System APIs*: track latency and legacy system availability.  
+• *Process APIs*: monitor transformations, business errors, and response times.  
+• *Experience APIs*: evaluate channel usage and consumer response times.  
+Use tools like **Anypoint Monitoring**, **Splunk**, or **Datadog** to generate alerts, metrics, and detailed logs.
 ---
-#intent: security_in_api_led
+#intent: handling_failures_in_api_led
 #pt:
-- como implementar segurança nas camadas api-led
-- segurança no api-led como aplicar
-- como proteger as APIs em api-led
-- boas práticas de segurança em arquitetura api-led
-- como aplicar autenticação e criptografia em api-led
-- segurança na system API como funciona
-- como adicionar políticas de segurança no api-led
-- como garantir proteção nas camadas do api-led
-- o que usar para segurança nas APIs api-led
-- segurança nas camadas system process e experience do api-led
+- como lidar com falhas no api-led
+- estratégias de tolerância a falhas em api-led
+- como implementar fallback em APIs api-led
+- como evitar indisponibilidade em camadas api-led
+- técnicas de resiliência em api-led
+- como fazer retry e fallback no api-led
+- como tratar erros de integração no modelo api-led
+- como evitar falhas no processamento em api-led
+- como aplicar circuit breaker em api-led
+- boas práticas para lidar com falhas nas APIs do api-led
 
 #en:
-- how to implement security in api-led layers
-- security in api-led architecture how to apply
-- how to protect APIs in api-led
-- best practices for security in api-led
-- how to apply authentication and encryption in api-led
-- securing system APIs in api-led
-- how to add security policies in api-led
-- how to ensure protection across api-led layers
-- what to use for securing APIs in api-led
-- security in system process and experience layers of api-led
+- how to handle failures in api-led
+- failure tolerance strategies in api-led
+- how to implement fallback in api-led APIs
+- how to avoid downtime in api-led architecture
+- resilience techniques in api-led
+- how to apply retry and fallback in api-led
+- how to manage integration errors in api-led
+- how to prevent failures in api-led flows
+- how to use circuit breaker in api-led
+- best practices for error handling in api-led APIs
 
 #vr_pt: |
-A **segurança no API-led** deve ser aplicada em todas as camadas:  
-• Na camada *System*, use autenticação mútua e restrições de IP.  
-• Em *Process APIs*, adote validação de tokens, rate limits e proteção contra ataques.  
-• Em *Experience APIs*, implemente CORS, OAuth 2.0 e validações de entrada.  
-Utilize o **API Manager** para aplicar políticas centralizadas e manter logs auditáveis.  
-A segurança deve ser pensada desde o design até o deploy.
+Para lidar com **falhas em API-led**, utilize estratégias como:  
+• **Retry automático** em falhas temporárias.  
+• **Fallbacks** para rotas alternativas ou respostas padrão.  
+• **Circuit Breaker** para evitar sobrecarga de sistemas instáveis.  
+• Logs centralizados e monitoramento contínuo para respostas rápidas.  
+Essas práticas aumentam a **resiliência** e garantem alta disponibilidade.
 
 #vr_en: |
-**Security in API-led** should be enforced across all layers:  
-• In *System APIs*, use mutual authentication and IP restrictions.  
-• In *Process APIs*, adopt token validation, rate limits, and attack protection.  
-• In *Experience APIs*, implement CORS, OAuth 2.0, and input validation.  
-Use **API Manager** to apply centralized policies and keep auditable logs.  
-Security must be considered from design to deployment.
+To handle **failures in API-led**, apply strategies like:  
+• **Automatic retry** for temporary issues.  
+• **Fallbacks** for alternative routes or default responses.  
+• **Circuit Breaker** to avoid overloading unstable systems.  
+• Centralized logging and continuous monitoring for quick reaction.  
+These practices improve **resilience** and ensure high availability.
 ---
-#intent: how_to_handle_authentication
+#intent: api_versioning_strategies
 #pt:
-- como funciona a autenticação em api-led
-- como fazer autenticação nas APIs api-led
-- como gerenciar autorização no modelo api-led
-- autenticação e autorização no api-led como fazer
-- como implementar segurança com oauth em api-led
-- como usar JWT para autenticação em api-led
-- como controlar acesso nas APIs do api-led
-- quais métodos de autenticação usar no api-led
-- como aplicar controle de acesso em APIs api-led
-- boas práticas de autenticação no api-led
+- como versionar APIs em arquitetura api-led
+- boas práticas de versionamento em api-led
+- como aplicar versionamento de APIs no api-led
+- como lidar com múltiplas versões de APIs api-led
+- qual o melhor jeito de versionar APIs api-led
+- como manter versões de APIs em api-led
+- estratégias para versionamento de APIs no api-led
+- como definir versionamento de API nas três camadas
+- como aplicar versionamento em system process e experience
+- versionamento no api-led como funciona
 
 #en:
-- how does authentication work in api-led
-- how to handle authentication in api-led APIs
-- how to manage authorization in api-led model
-- authentication and authorization in api-led how to do
-- how to implement oauth security in api-led
-- how to use JWT for authentication in api-led
-- how to control access in api-led APIs
-- what authentication methods to use in api-led
-- how to apply access control in api-led APIs
-- best practices for authentication in api-led
+- how to version APIs in api-led architecture
+- best practices for API versioning in api-led
+- how to manage multiple API versions in api-led
+- how to apply versioning in api-led APIs
+- what are the strategies for API versioning in api-led
+- how to maintain API versions in api-led
+- how to handle versioning across all layers of api-led
+- versioning in system, process and experience APIs
+- api-led versioning strategy how to implement
+- versioning best practices for api-led integrations
 
 #vr_pt: |
-A **autenticação e autorização no API-led** deve ser adequada a cada camada:  
-Use **OAuth 2.0** ou **JWT** em *Experience APIs* para autenticar usuários externos.  
-Nas *Process APIs*, valide escopos e permissões do token.  
-Para *System APIs*, considere autenticação mútua ou com certificados.  
-Combine autenticação com políticas de segurança no **API Manager** para reforçar o controle de acesso.
+O **versionamento em API-led** deve ser aplicado com clareza e consistência:  
+• Use o padrão `v1`, `v2`, etc. no caminho da API (`/v1/customers`).  
+• Evite breaking changes em versões estáveis.  
+• Documente cada versão e use tags no repositório.  
+• Para mudanças internas, prefira versionar apenas camadas afetadas.  
+Essa prática facilita a manutenção e comunicação com os consumidores.
 
 #vr_en: |
-**Authentication and authorization in API-led** must suit each layer:  
-Use **OAuth 2.0** or **JWT** in *Experience APIs* to authenticate external users.  
-In *Process APIs*, validate scopes and token permissions.  
-For *System APIs*, consider mutual authentication or certificates.  
-Combine authentication with security policies in **API Manager** to strengthen access control.
+**Versioning in API-led** should be applied clearly and consistently:  
+• Use the `v1`, `v2`, etc. pattern in the API path (`/v1/customers`).  
+• Avoid breaking changes in stable versions.  
+• Document each version and tag them in the repository.  
+• For internal changes, prefer to version only the affected layers.  
+This makes maintenance and consumer communication easier.
+---
+#intent: deployment_strategies_api_led
+#pt:
+- quais as estratégias de deploy no api-led
+- como fazer blue green deployment no api-led
+- como aplicar canary release em api-led
+- boas práticas de deployment em arquitetura api-led
+- estratégias de lançamento para APIs no api-led
+- como fazer deploy contínuo em api-led
+- como publicar APIs de forma segura em api-led
+- como fazer rollback em deployment de api-led
+- deploy no api-led com zero downtime
+- como aplicar práticas de devops em api-led
+
+#en:
+- what are deployment strategies for api-led
+- how to do blue green deployment in api-led
+- how to apply canary release in api-led architecture
+- best deployment practices in api-led
+- api-led deployment techniques
+- how to implement safe deployment for api-led APIs
+- how to do continuous deployment in api-led
+- how to deploy with zero downtime in api-led
+- how to perform rollback in api-led deployments
+- devops practices for deploying api-led APIs
+
+#vr_pt: |
+As principais **estratégias de deploy no API-led** incluem:  
+• **Blue-Green Deployment**: permite alternar entre versões sem downtime.  
+• **Canary Release**: libera a nova versão gradualmente para usuários selecionados.  
+• **Rollback rápido**: importante para reversão imediata em caso de falha.  
+Use pipelines CI/CD e ambientes isolados para garantir segurança e controle.
+
+#vr_en: |
+The main **deployment strategies in API-led** include:  
+• **Blue-Green Deployment**: allows switching between versions with zero downtime.  
+• **Canary Release**: gradually rolls out the new version to selected users.  
+• **Fast Rollback**: essential for immediate reversal in case of failure.  
+Use CI/CD pipelines and isolated environments to ensure safety and control.
+---
+#intent: real_use_cases_api_led
+#pt:
+- quais são os casos reais de uso de api-led
+- exemplos de uso do modelo api-led
+- onde o api-led é usado na prática
+- aplicações reais de arquitetura api-led
+- exemplos reais de integração com api-led
+- como o api-led é usado em projetos
+- casos de uso do api-led em empresas
+- onde aplicar api-led no mundo real
+- exemplos práticos de api-led
+- situações reais que usam api-led
+
+#en:
+- what are real use cases of api-led
+- practical examples of api-led usage
+- how is api-led used in real projects
+- where is api-led applied in real scenarios
+- real life applications of api-led
+- use cases of api-led in enterprise
+- how companies apply api-led in real world
+- practical api-led integration examples
+- examples of real api-led implementations
+- where to use api-led in actual solutions
+
+#vr_pt: |
+Casos reais de uso da arquitetura **API-led** incluem:  
+• Integração de sistemas legados com Salesforce e SAP.  
+• Exposição de APIs para canais mobile e web via Experience APIs.  
+• Reutilização de System APIs para diferentes processos internos.  
+Empresas usam API-led para aumentar agilidade, modularidade e governança das integrações.
+
+#vr_en: |
+Real use cases of **API-led architecture** include:  
+• Integrating legacy systems with Salesforce and SAP.  
+• Exposing APIs to mobile and web channels via Experience APIs.  
+• Reusing System APIs for multiple internal processes.  
+Companies use API-led to increase agility, modularity, and governance in integrations.
+---
+#intent: api_led_in_enterprise_integration
+#pt:
+- como grandes empresas usam o api-led
+- api-led em integrações corporativas
+- qual o uso de api-led em grandes empresas
+- api-led em projetos de larga escala
+- como aplicar api-led em integrações empresariais
+- como o api-led ajuda empresas com muitos sistemas
+- exemplos de uso do api-led em empresas grandes
+- api-led em ambientes corporativos complexos
+- como o api-led melhora integração empresarial
+- onde usar api-led em grandes organizações
+
+#en:
+- how do large companies use api-led
+- api-led in enterprise integration
+- how api-led is used in big organizations
+- api-led for large scale integration
+- how to apply api-led in enterprise projects
+- use of api-led in corporate environments
+- examples of api-led usage in large companies
+- where api-led fits in enterprise architecture
+- how api-led supports complex integration
+- api-led adoption in big tech companies
+
+#vr_pt: |
+Grandes empresas adotam o modelo **API-led** para estruturar integrações de forma escalável e governada.  
+Com camadas bem definidas, é possível reutilizar APIs, dividir responsabilidades e acelerar entregas.  
+O uso de gateways, políticas centralizadas e versionamento facilita a gestão de ambientes complexos e distribuídos.
+
+#vr_en: |
+Large companies adopt the **API-led model** to structure integrations in a scalable and governed way.  
+With well-defined layers, it’s possible to reuse APIs, separate responsibilities, and accelerate delivery.  
+Using gateways, centralized policies, and versioning makes managing complex and distributed environments easier.

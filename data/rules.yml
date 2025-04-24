@@ -56,3 +56,27 @@ rules:
     steps:
       - intent: how_to_handle_authentication
       - action: utter_how_to_handle_authentication
+  - rule: rule_monitoring_api_led
+    steps:
+      - intent: monitoring_api_led
+      - action: utter_monitoring_api_led
+  - rule: rule_handling_failures_in_api_led
+    steps:
+      - intent: handling_failures_in_api_led
+      - action: utter_handling_failures_in_api_led
+  - rule: rule_api_versioning_strategies
+    steps:
+      - intent: api_versioning_strategies
+      - action: utter_api_versioning_strategies
+  - rule: rule_deployment_strategies_api_led
+    steps:
+      - intent: deployment_strategies_api_led
+      - action: utter_deployment_strategies_api_led
+  - rule: rule_real_use_cases_api_led
+    steps:
+      - intent: real_use_cases_api_led
+      - action: utter_real_use_cases_api_led
+  - rule: rule_api_led_in_enterprise_integration
+    steps:
+      - intent: api_led_in_enterprise_integration
+      - action: utter_api_led_in_enterprise_integration

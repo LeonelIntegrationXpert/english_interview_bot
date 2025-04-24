@@ -1,0 +1,18 @@
+responses:
+  utter_deployment_strategies_api_led:
+    - custom:
+        response_array:
+          -   - vr_pt: |-
+                  |
+                  As principais **estratégias de deploy no API-led** incluem:  
+                  • **Blue-Green Deployment**: permite alternar entre versões sem downtime.  
+                  • **Canary Release**: libera a nova versão gradualmente para usuários selecionados.  
+                  • **Rollback rápido**: importante para reversão imediata em caso de falha.  
+                  Use pipelines CI/CD e ambientes isolados para garantir segurança e controle.
+              - vr_en: |-
+                  |
+                  The main **deployment strategies in API-led** include:  
+                  • **Blue-Green Deployment**: allows switching between versions with zero downtime.  
+                  • **Canary Release**: gradually rolls out the new version to selected users.  
+                  • **Fast Rollback**: essential for immediate reversal in case of failure.  
+                  Use CI/CD pipelines and isolated environments to ensure safety and control.
