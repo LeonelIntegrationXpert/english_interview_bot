@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_unsubscribe_from_asset_updates:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu clico unsubscribe na lista de subscriptions.
+                  Exchange para de enviar eventos relacionados.
+                  Permite gerenciar o volume de notificacoes.
+              - vr_en: |
+                  I click unsubscribe in the subscriptions list.
+                  Exchange stops sending related events.
+                  It lets me manage notification volume.

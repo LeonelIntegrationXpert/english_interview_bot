@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_mule-http-policy-transform-extension:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Na http-policy-transform-extension criei uma policy custom para manipulacao HTTP:
+                  - capturo e transformo cabeçalhos, path e queryParams
+                  - enriqueço requisições e respostas no API Gateway
+                  - uso Mule SDK para performance máxima
+              - vr_en: |
+                  In http-policy-transform-extension I built a custom HTTP policy:
+                  - capture and transform headers, path and queryParams
+                  - enrich requests and responses at the API Gateway
+                  - use Mule SDK for maximum performance

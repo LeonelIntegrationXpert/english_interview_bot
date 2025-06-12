@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_oauth2_flow
+    examples: |
+      - como definir fluxo OAuth2 no RAML DC?
+      - como usar oauth2 flow no Design Center?
+      - pra que serve oauth2 flow no DC?
+      - como configurar oauth2 flow no RAML DC?
+      - como aplicar oauth2 flow no DC?
+      - how do you define an OAuth2 flow in RAML in Design Center?
+      - how do u use oauth2 flow in DC?
+      - what is oauth2 flow used for in DC?
+      - how do you configure oauth2 flow in RAML in DC?
+      - how do you apply oauth2 flow in DC?

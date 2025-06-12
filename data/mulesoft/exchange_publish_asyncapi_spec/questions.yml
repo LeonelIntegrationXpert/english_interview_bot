@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_publish_asyncapi_spec
+    examples: |
+      - como publico spec asyncapi no Exchange
+      - como adiciono arquivo asyncapi
+      - como lanço especificacao de eventos
+      - como disponibilizo asyncapi spec
+      - como coloco spec de eventos no Exchange
+      - how do you publish an asyncapi spec in Exchange
+      - how do u add an AsyncAPI file
+      - how do you release event specification
+      - how do you make an AsyncAPI spec available
+      - how do you place an events spec in Exchange

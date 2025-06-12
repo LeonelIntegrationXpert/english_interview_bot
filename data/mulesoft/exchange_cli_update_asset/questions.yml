@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_cli_update_asset
+    examples: |
+      - como atualizo asset pelo CLI
+      - como faço update via terminal
+      - como reviso recurso sem portal
+      - como modifico asset com CLI
+      - como publico nova versao pelo CLI
+      - how do you update an asset via the Exchange CLI
+      - how do u perform an update via terminal
+      - how do you revise a resource without portal
+      - how do you modify an asset with CLI
+      - how do you publish a new version via CLI

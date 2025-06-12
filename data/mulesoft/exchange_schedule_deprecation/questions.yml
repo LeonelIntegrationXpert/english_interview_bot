@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_schedule_deprecation
+    examples: |
+      - como agendar depreciacao de asset
+      - como marco data futura de deprecation
+      - como programo obsolescencia de asset
+      - como defino agendamento de retire
+      - como ponho delecao programada
+      - how do you schedule asset deprecation in Exchange
+      - how do u set a future deprecation date
+      - how do you program asset obsolescence
+      - how do you define a retirement schedule
+      - how do you set a scheduled removal

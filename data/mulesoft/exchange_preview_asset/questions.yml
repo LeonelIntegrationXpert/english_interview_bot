@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_preview_asset
+    examples: |
+      - como visualizar preview de asset no Exchange
+      - como faço preview de recurso no Exchange
+      - como ver amostra do asset
+      - como mostrar preview no portal
+      - como examino asset sem download
+      - how do you preview an asset in Exchange
+      - how do u view a resource preview in Exchange
+      - how do you see an asset sample
+      - how do you show a preview in the portal
+      - how do you examine the asset without downloading

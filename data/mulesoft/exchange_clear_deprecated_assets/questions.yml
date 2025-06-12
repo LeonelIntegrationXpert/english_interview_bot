@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_clear_deprecated_assets
+    examples: |
+      - como limpar assets depreciados
+      - como removo items deprecated
+      - como excluo recursos obsoletos
+      - como purgo assets deprecated
+      - como faço cleanup
+      - how do you clear deprecated assets from Exchange
+      - how do u remove deprecated items
+      - how do you delete obsolete resources
+      - how do you purge deprecated assets
+      - how do you perform cleanup

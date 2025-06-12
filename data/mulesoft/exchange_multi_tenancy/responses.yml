@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_multi_tenancy:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Exchange cria partitions lógicas por organizacao garantindo isolação.
+                  Cada tenant tem configuracoes, quotas e policies independentes.
+                  Admins podem auditar e gerenciar cada tenancy separadamente.
+              - vr_en: |
+                  Exchange creates logical partitions per organization ensuring isolation.
+                  Each tenant has independent settings quotas and policies.
+                  Admins can audit and manage each tenancy individually.

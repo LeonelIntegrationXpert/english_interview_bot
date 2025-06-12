@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_cli_search_by_tag:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu executo cli exchange assets search tag e forneço valor.
+                  O CLI retorna lista de assets com aquela tag.
+                  Útil para integracao com scripts de discovery.
+              - vr_en: |
+                  I run cli exchange assets search tag and provide the tag value.
+                  The CLI returns a list of assets with that tag.
+                  Useful for integration with discovery scripts.

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_resourceTypes
+    examples: |
+      - como usar resourceTypes em RAML no DC?
+      - como criar resourceTypes no Design Center?
+      - como configuro resourceTypes em RAML?
+      - como especificar resourceTypes no DC?
+      - como aplicar resourceTypes no Design Center?
+      - how do you use resourceTypes in RAML in Design Center?
+      - how do u create resourceTypes in DC?
+      - how do u configure resourceTypes in RAML?
+      - how do u specify resourceTypes in DC?
+      - how do u apply resourceTypes in Design Center?

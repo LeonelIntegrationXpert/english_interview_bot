@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_follow_asset:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu clico follow no detalhe do asset para receber alertas.
+                  Notificacoes chegam por email ou Slack conforme configuracao.
+                  Isso me mantém informado sobre novas versoes.
+              - vr_en: |
+                  I click follow on the asset detail to receive alerts.
+                  Notifications arrive by email or Slack as configured.
+                  This keeps me informed of new versions.

@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_head:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso head no Design Center para retornar cabeçalhos sem body definindo responses no RAML
+              - vr_en: |
+                  I use head in Design Center to return headers without body by defining responses in RAML

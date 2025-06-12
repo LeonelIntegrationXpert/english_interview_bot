@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: mule-tests-allure
+    examples: |
+      - pode explicar mule-tests-allure?
+      - o que faz tests-allure?
+      - como funciona o tests-allure?
+      - fala do mule-tests-allure?
+      - para que serve essa coleção?
+      - can you explain mule-tests-allure?
+      - what does tests-allure do?
+      - how does tests-allure work?
+      - talk about mule-tests-allure?
+      - what is this collection for?

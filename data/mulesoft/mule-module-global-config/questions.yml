@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: mule-module-global-config
+    examples: |
+      - pode explicar mule-module-global-config?
+      - para que serve module-global-config?
+      - como funciona o global-config?
+      - fala do mule-module-global-config?
+      - o que faz esse módulo de configuração?
+      - can you explain mule-module-global-config?
+      - what is the global config module for?
+      - how does global-config work?
+      - talk about module-global-config?
+      - what does that config module do?

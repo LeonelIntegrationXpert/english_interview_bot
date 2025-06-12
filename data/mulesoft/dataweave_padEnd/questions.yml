@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_padEnd
+    examples: |
+      - como usar padEnd no DataWeave?
+      - como aplica padEnd DW?
+      - pra que serve padEnd em DW?
+      - oque faz padEnd no dataweave?
+      - como usar operador padEnd DW?
+      - how do you use padEnd in DataWeave?
+      - how do u apply padEnd in DW?
+      - what is padEnd used for in DataWeave?
+      - what does padEnd do in DW?
+      - how do you use the padEnd operator in DW?

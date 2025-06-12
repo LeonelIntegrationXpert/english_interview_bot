@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_pow
+    examples: |
+      - como usar pow no DataWeave?
+      - como aplica pow DW?
+      - pra que serve pow em DW?
+      - oque faz pow no dataweave?
+      - como usar operador pow DW?
+      - how do you use pow in DataWeave?
+      - how do u apply pow in DW?
+      - what is pow used for in DataWeave?
+      - what does pow do in DW?
+      - how do you use the pow operator in DW?

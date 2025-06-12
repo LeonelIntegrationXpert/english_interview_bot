@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_clone_asset
+    examples: |
+      - como clono asset no Exchange
+      - como duplico asset
+      - como faço copy de asset
+      - como replico asset no Exchange
+      - como duplico recurso
+      - how do you clone an asset in Exchange
+      - how do u duplicate an asset
+      - how do you copy an asset
+      - how do you replicate an asset in Exchange
+      - how do you clone a resource

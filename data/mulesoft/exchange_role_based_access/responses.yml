@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_role_based_access:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu crio roles custom e associo policies e ACLs no Exchange.
+                  Users herdam permissoes conforme sua role.
+                  Auditoria mostra qual role executou cada acao.
+              - vr_en: |
+                  I create custom roles and associate policies and ACLs in Exchange.
+                  Users inherit permissions according to their role.
+                  Audit logs show which role performed each action.

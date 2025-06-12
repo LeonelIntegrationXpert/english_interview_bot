@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_cli_publish_asset:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso cli exchange assets publish apontando pasta do projeto.
+                  CLI valida e carrega arquivos automaticamente.
+                  Ótimo para scripts de CI e CD.
+              - vr_en: |
+                  I use cli exchange assets publish pointing to the project folder.
+                  CLI validates and uploads files automatically.
+                  Great for CI and CD scripting.

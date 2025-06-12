@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_purge_old_versions:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso purge na lista de versoes para remover antigas.
+                  Isso libera espaco e simplifica visualizacao.
+                  Mantem apenas versoes recentes ativas.
+              - vr_en: |
+                  I use purge in the versions list to remove old ones.
+                  This frees up space and simplifies view.
+                  It keeps only recent versions active.

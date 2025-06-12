@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_ssl_tls_management
+    examples: |
+      - como gerenciar SSL TLS no Exchange
+      - como atualizar certificados
+      - como configurar TLS minimo
+      - como forcar HTTPS
+      - como validar cipher suites
+      - how do you manage SSL TLS in Exchange
+      - how do you update certificates
+      - how do you configure minimum TLS
+      - how do you enforce HTTPS
+      - how do you validate cipher suites

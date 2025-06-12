@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: jwt_oauth
+    examples: |
+      - como você implementa JWT e OAuthTwo nas APIs?
+      - como vc implementa JWT e OAuthTwo nas apis?
+      - como tu faz JWT e OAuth no Mule?
+      - como vc configura JWT OAuthTwo no Anypoint?
+      - como faz JWT e OAuthtwo Mule?
+      - como tu roda JWT e OAuthTwo no Mule?
+      - como vc integra JWT e OAuth nas APIs?
+      - como tu faz autenticação JWT OAuth?
+      - como vc usa JWT e OAuthtwo Mule?
+      - como faz pra JWT OAuthtwo no Mule?
+      - how do you implement JWT and OAuthtwo in your APIs?
+      - how do u implement JWT and OAuthtwo in APIs?
+      - how u do JWT and OAuth in Mule?
+      - how do u configure JWT OAuthtwo in Anypoint?
+      - how u set up JWT and OAuthtwo in Mule?
+      - how u integrate JWT and OAuth in APIs?
+      - how do u handle JWT OAuthtwo in Mule?
+      - how u use JWT and OAuthtwo in MuleSoft?
+      - how do u implement JWT OAuth in Mule?
+      - how u do JWT and OAuthtwo Mule?

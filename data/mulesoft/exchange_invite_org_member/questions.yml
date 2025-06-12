@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_invite_org_member
+    examples: |
+      - como convidar membro pra organizacao Exchange
+      - como mando convite pra colega
+      - como envio email de convite
+      - como adiciono novo membro
+      - como faço invite de usuario
+      - how do you invite a member to the organization in Exchange
+      - how do u send a colleague an invite
+      - how do you send an invitation email
+      - how do you add a new member
+      - how do you invite a user

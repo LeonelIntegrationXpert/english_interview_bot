@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_publish_graphql_schema
+    examples: |
+      - como publico schema GraphQL no Exchange
+      - como adiciono arquivo GraphQL
+      - como lanço schema de GraphQL
+      - como disponibilizo GraphQL schema
+      - como coloco schema no Exchange
+      - how do you publish a GraphQL schema in Exchange
+      - how do u add a GraphQL file
+      - how do you release a GraphQL schema
+      - how do you make a GraphQL schema available
+      - how do you place schema in Exchange

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_basic
+    examples: |
+      - como vc faz transformação de payload com DataWeave?
+      - como tu usa DataWeave pra transformar payload?
+      - como vc cria transformação simples em DataWeave?
+      - como tu aplica DataWeave no payload?
+      - como vc faz map no DataWeave?
+      - how do you perform payload transformation with DataWeave?
+      - how do u use DataWeave to transform payload?
+      - how u create simple transformation in DataWeave?
+      - how do u apply DataWeave on payload?
+      - how u map data with DataWeave?

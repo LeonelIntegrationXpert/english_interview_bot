@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: accountability
+    examples: |
+      - como vc assume responsabilidade por erros?
+      - como tu assume culpa cazo de erro?
+      - como vc dá conta de falha?
+      - como tu v se responsabiliza por erro?
+      - como vc mostra que assume erro?
+      - how do you take accountability for mistakes?
+      - how do u own up to errors?
+      - how u assume responsibility when things go wrong?
+      - how do u show you take fault?
+      - how u accept blame for mistakes?

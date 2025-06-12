@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_communication:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Tenho comunicação clara e objetiva:
+                  - envio atualizações regulares por chat e vídeo.
+                  - confirmo entendimento fazendo perguntas de follow-up.
+                  - documento decisões em repositórios compartilhados.
+              - vr_en: |
+                  I communicate clearly and concisely:
+                  - I send regular updates via chat and video.
+                  - I confirm understanding by asking follow-up questions.
+                  - I document decisions in shared repositories.

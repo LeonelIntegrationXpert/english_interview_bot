@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_rest_api
+    examples: |
+      - como usar REST API do Exchange
+      - como autenticar chamadas
+      - como chamar endpoints de assets
+      - como publicar specs via REST
+      - como obter dados do portal via API
+      - how do you use the Exchange REST API
+      - how do you authenticate calls
+      - how do you call asset endpoints
+      - how do you publish specs via REST
+      - how do you retrieve portal data via API

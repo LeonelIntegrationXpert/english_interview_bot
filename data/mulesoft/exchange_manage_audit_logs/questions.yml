@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_manage_audit_logs
+    examples: |
+      - como gerenciar logs de auditoria
+      - como visualizar audit logs
+      - como exportar registros de acesso
+      - como filtrar eventos
+      - como apagar logs antigos
+      - how do you manage audit logs
+      - how do u view audit logs
+      - how do you export access records
+      - how do you filter events
+      - how do you delete old logs

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_oasFragmentImport
+    examples: |
+      - como importar fragmentos OAS no RAML DC?
+      - como usar oas fragmentImport no Design Center?
+      - pra que serve fragmentImport OAS no RAML DC?
+      - oque faz fragmentImport no DC?
+      - como usar fragmentImport no editor RAML DC?
+      - how do you import OAS fragments in RAML in Design Center?
+      - how do u use oasFragmentImport in DC?
+      - what is fragmentImport used for in RAML in DC?
+      - what does fragmentImport do in DC?
+      - how do you use fragmentImport in the RAML editor in DC?

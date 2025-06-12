@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_change_asset_logo
+    examples: |
+      - como trocar logo de asset no Exchange
+      - como altero imagem do recurso
+      - como atualizo icone no portal
+      - como mudo logo do asset
+      - como modifico thumb de asset
+      - how do you change the logo of an asset in Exchange
+      - how do u alter the resource image
+      - how do you update the icon on the portal
+      - how do you change the asset logo
+      - how do you modify the asset thumbnail

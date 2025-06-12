@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_cli_diff_asset_versions
+    examples: |
+      - como comparar versoes pelo CLI do Exchange
+      - como vejo diff de asset
+      - como confiro mudancas entre versoes
+      - como faço diff via terminal
+      - como analiso diferencas de resource
+      - how do you compare versions via the Exchange CLI
+      - how do u view asset diff
+      - how do you check changes between versions
+      - how do you perform diff in terminal
+      - how do you analyze resource differences

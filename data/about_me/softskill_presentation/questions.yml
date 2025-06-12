@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: softskill_presentation
+    examples: |
+      - como vc faz apresentações técnicas?
+      - como tu faz slide técnico?
+      - como vc prepara demo tech?
+      - como tu apresenta solução?
+      - como vc mostra arquitetura?
+      - como tu faz workshop tech?
+      - como vc conduz apresentação?
+      - como tu fala na frente?
+      - como vc ensina tech?
+      - como tu explica diagrama?
+      - how do you deliver technical presentations?
+      - how do u prepare tech slides?
+      - how u demo technical solution?
+      - how do u present architecture?
+      - how u conduct tech workshop?
+      - how do u lead a presentation?
+      - how u teach tech concepts?
+      - how do u explain diagrams?
+      - how u speak in front of audience?
+      - how do u lead demos?

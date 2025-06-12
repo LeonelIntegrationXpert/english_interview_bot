@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_tags:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu crio tags no Design Center para agrupar endpoints por funcionalidade.
+                  Isso facilita navegacao e documentacao em portais de API.
+                  Auxilia times a encontrar rapidamente recursos relacionados.
+              - vr_en: |
+                  I create tags in Design Center to group endpoints by functionality.
+                  This aids navigation and documentation in API portals.
+                  It helps teams quickly find related resources.

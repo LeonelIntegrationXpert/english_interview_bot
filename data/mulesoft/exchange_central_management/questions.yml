@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_central_management
+    examples: |
+      - como usar Exchange para gerenciar multiplas orgs
+      - como centralizar ativos
+      - como compartilhar politicas
+      - como replicar configuracoes
+      - como consolidar governanca
+      - how do you use Exchange to manage multiple orgs
+      - how do you centralize assets
+      - how do you share policies
+      - how do you replicate settings
+      - how do you consolidate governance

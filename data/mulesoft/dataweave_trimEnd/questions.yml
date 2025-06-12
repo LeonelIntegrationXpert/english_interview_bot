@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_trimEnd
+    examples: |
+      - como usar trimEnd no DataWeave?
+      - como aplica trimEnd DW?
+      - pra que serve trimEnd em DW?
+      - oque faz trimEnd no dataweave?
+      - como usar operador trimEnd DW?
+      - how do you use trimEnd in DataWeave?
+      - how do u apply trimEnd in DW?
+      - what is trimEnd used for in DataWeave?
+      - what does trimEnd do in DW?
+      - how do you use the trimEnd operator in DW?

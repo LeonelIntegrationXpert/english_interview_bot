@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: challenges
+    examples: |
+      - quais principais desafios você enfrentou em projetos MuleSoft?
+      - quais principais desafio vc enfrentou em projet mule?
+      - quais desafio enfrentou em projetos MuleSoft?
+      - quais prncipais desafios vc enfntou em MuleSoft?
+      - quais desafios vc teve em projet MuleSoft?
+      - q desafios tu viveu em MuleSoft?
+      - quais desafios em Mule projetos?
+      - q prblemas vc teve no MuleSoft?
+      - quais trouxas vc encarou em integrações Mule?
+      - quais desafios você ja passou no Mule?
+      - what main challenges did you face in MuleSoft projects?
+      - what main challnges u faced in MuleSoft?
+      - what challenges u had in Mule projects?
+      - what challnges did you face in MuleSoft?
+      - what problems did u encounter in MuleSoft?
+      - what challenges did u hit in Mule projects?
+      - what issues did u face with MuleSoft?
+      - what challnges u saw in MuleSoft?
+      - what hurdles u faced in Mule?
+      - what difficulties did u have in MuleSoft?

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_multipleTraits
+    examples: |
+      - como aplicar multiplas traits no RAML DC?
+      - como usar multiple traits no Design Center?
+      - pra que serve multiple traits no RAML DC?
+      - oque faz multiple traits no DC?
+      - como configurar multiple traits no RAML DC?
+      - how do you apply multiple traits in RAML in Design Center?
+      - how do u use multiple traits in DC?
+      - what is multiple traits used for in RAML in DC?
+      - what do multiple traits do in DC?
+      - how do you configure multiple traits in RAML in DC?

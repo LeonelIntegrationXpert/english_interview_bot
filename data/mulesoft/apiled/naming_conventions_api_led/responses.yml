@@ -3,16 +3,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  As **boas práticas de nomenclatura em APIs API-led** seguem um padrão claro e consistente por camada:  
-                  ➤ Use nomes descritivos que indiquem o propósito e a posição na arquitetura, como:  
-                  `customer-system-api`, `order-process-api`, `mobile-experience-api`.  
-                  ➤ Mantenha o padrão *<objeto>-<camada>-api* e evite siglas ambíguas ou difíceis de entender.  
-                  ➤ Para os endpoints, prefira *kebab-case* e evite misturar idiomas no nome dos recursos.  
-                  A padronização favorece a legibilidade, facilita a manutenção e melhora a colaboração entre equipes.
+                  As boas práticas de nomenclatura em APIs dentro da arquitetura API led seguem um padrão claro e consistente para cada camada.  
+                  É importante utilizar nomes descritivos que indiquem claramente o propósito da API e sua posição na arquitetura, como por exemplo cliente sistema api, pedido processo api ou aplicativo experiencia api.  
+                  Recomenda se manter o padrão composto por nome do objeto, seguido pela camada e pelo sufixo api, evitando siglas ambíguas ou difíceis de compreender.  
+                  Para os caminhos dos endpoints, é recomendável utilizar palavras separadas por traço, conhecidas como formato com hífens, e evitar a mistura de idiomas nos nomes dos recursos.  
+                  Essa padronização contribui para maior legibilidade, facilita a manutenção e melhora a colaboração entre as equipes envolvidas.
               - vr_en: |
-                  **Naming best practices in API-led APIs** follow a clear and consistent pattern across layers:  
-                  ➤ Use descriptive names that reflect the purpose and layer, such as:  
-                  `customer-system-api`, `order-process-api`, `mobile-experience-api`.  
-                  ➤ Stick to the *<object>-<layer>-api* format and avoid ambiguous or hard-to-read acronyms.  
-                  ➤ For endpoints, prefer *kebab-case* and avoid mixing languages in resource names.  
-                  Standardized naming improves readability, eases maintenance, and enhances cross-team collaboration.
+                  Naming best practices in APIs built with the API led architecture follow a clear and consistent pattern for each layer.  
+                  It is important to use descriptive names that clearly reflect the API's purpose and its architectural position, such as customer system api, order process api, or mobile experience api.  
+                  It is recommended to follow the pattern that combines the name of the object, the layer, and the suffix api, while avoiding ambiguous or hard to understand acronyms.  
+                  For endpoint paths, it is advisable to use words separated by hyphens, and to avoid mixing different languages in resource names.  
+                  This kind of naming standard improves readability, simplifies maintenance, and enhances collaboration across teams.

@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_titleCase:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso titleCase para converter cada palavra da string com a primeira letra maiúscula e o restante minúsculo
+              - vr_en: |
+                  I use titleCase to convert each word in the string to start with an uppercase letter and the rest lowercase

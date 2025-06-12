@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_xmlFacet
+    examples: |
+      - como usar xml facets no RAML DC?
+      - como definir xmlFacet no Design Center?
+      - pra que serve xml facets no RAML DC?
+      - oque faz xml facets no DC?
+      - como configurar xml facets no RAML DC?
+      - how do you use xml facets in RAML in Design Center?
+      - how do u define xmlFacet in DC?
+      - what are xml facets used for in RAML in DC?
+      - what does xml facets do in DC?
+      - how do you configure xml facets in RAML in DC?

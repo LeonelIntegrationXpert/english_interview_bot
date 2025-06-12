@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_ai_search_assist:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu habilito AI search e indexo metadados e conteudo completo.
+                  O motor sugere termos alternativos e corrige erros de digitação.
+                  Isso aumenta produtividade na descoberta de assets.
+              - vr_en: |
+                  I enable AI search and index full metadata and content.
+                  The engine suggests alternative terms and corrects typos.
+                  It increases productivity in asset discovery.

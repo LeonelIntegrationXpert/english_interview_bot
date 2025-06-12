@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_trace:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso trace para registrar valores intermediários durante transformação para debug facil
+              - vr_en: |
+                  I use trace to log intermediate values during transformation for easy debugging

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_autodoc
+    examples: |
+      - como gerar documentação automática no DC?
+      - como faz autodoc DC?
+      - pra que serve autodoc DC?
+      - oque faz autodoc?
+      - como usar autodoc no DC?
+      - how do you generate automatic documentation in Design Center?
+      - how do u do autodoc in DC?
+      - what is autodoc used for in DC?
+      - what does autodoc do?
+      - how do you use autodoc in DC?

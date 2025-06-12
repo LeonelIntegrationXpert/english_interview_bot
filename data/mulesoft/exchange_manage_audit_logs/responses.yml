@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_manage_audit_logs:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu acesso aba audit e aplico filtros por usuario e periodo.
+                  Exporta CSV com todas as ações de asset.
+                  Uso para compliance e investigações.
+              - vr_en: |
+                  I access the audit tab and apply filters by user and period.
+                  I export a CSV with all asset actions.
+                  I use it for compliance and investigations.

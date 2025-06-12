@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_put
+    examples: |
+      - como implementar put em RAML no DC?
+      - como criar put no Design Center?
+      - como uso put em RAML no DC?
+      - como configuro put em API no DC?
+      - como especifico put no Design Center?
+      - how do you implement put in RAML in Design Center?
+      - how do u create put in DC?
+      - how do u use put in RAML in DC?
+      - how do u configure put on API in DC?
+      - how do u specify put in Design Center?

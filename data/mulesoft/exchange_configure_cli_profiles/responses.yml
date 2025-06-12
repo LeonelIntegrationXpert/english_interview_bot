@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_configure_cli_profiles:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso comando CLI rpc l o gin para criar e selecionar perfil.
+                  Profiles guardam credenciais e contexto de organizacao.
+                  Facilitam trocar rapidamente entre ambientes.
+              - vr_en: |
+                  I use the CLI rpc login command to create and select a profile.
+                  Profiles store credentials and organization context.
+                  They enable quick switching between environments.

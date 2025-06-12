@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_queryparams_required
+    examples: |
+      - como definir queryParameters obrigatórios no RAML DC?
+      - como usar required queryParams no Design Center?
+      - pra que serve queryParams required no DC?
+      - como obrigar queryParameters no RAML DC?
+      - como configuro required queryParams no DC?
+      - how do you define required queryParameters in RAML in Design Center?
+      - how do u use required queryParams in DC?
+      - what is required queryParams used for in DC?
+      - how do you enforce queryParameters as required in RAML in DC?
+      - how do you configure required queryParams in DC?

@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_creativity:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Estimulo criatividade assim:
+                  - realizo sessões de brainstorming com equipe.
+                  - testo protótipos rápidos de ideias.
+                  - incorporo feedback para iteração veloz.
+              - vr_en: |
+                  I foster creativity by:
+                  - holding brainstorming sessions with team.
+                  - prototyping ideas rapidly.
+                  - incorporating feedback for fast iteration.

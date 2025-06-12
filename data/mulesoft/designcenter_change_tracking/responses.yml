@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_change_tracking:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso version control integrado do Design Center para visualizar alterações entre commits e restaurar versões anteriores
+              - vr_en: |
+                  I use Design Center’s integrated version control to view diffs between commits and restore previous versions

@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_github-actions:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  No github-actions pipeline automato testes e deploy MuleSoft:
+                  - executa MUnit, gera cobertura e publica no Exchange
+                  - faz deploy em CloudHub dois ponto zero e RTF
+                  - gerencia múltiplos ambientes LTS e EDGE
+              - vr_en: |
+                  In the github-actions pipeline I automate tests and deploy for MuleSoft:
+                  - run MUnit, generate coverage and publish to Exchange
+                  - deploy to CloudHub two-zero and RTF
+                  - manage multiple LTS and EDGE environments

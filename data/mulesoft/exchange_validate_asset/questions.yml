@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_validate_asset
+    examples: |
+      - como validar asset no Exchange
+      - como faco teste de asset
+      - como verifico integridade de asset
+      - como confirmo que asset esta ok
+      - como faco check de asset
+      - how do you validate an asset in Exchange
+      - how do u test an asset
+      - how do you verify asset integrity
+      - how do you confirm the asset is correct
+      - how do you perform an asset check

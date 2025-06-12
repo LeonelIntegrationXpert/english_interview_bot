@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_manage_rate_limits
+    examples: |
+      - como gerenciar limites de taxa
+      - como configurar rate limit
+      - como adicionar throttle
+      - como monitorar limites
+      - como ajustar politicas de rate
+      - how do you manage rate limits
+      - how do u configure rate limit
+      - how do you add a throttle
+      - how do you monitor limits
+      - how do you adjust rate policies

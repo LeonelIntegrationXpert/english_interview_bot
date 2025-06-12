@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_feedback:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Dou e recebo feedback assim:
+                  - peço opinião clara sobre pontos de melhoria.
+                  - agradeço e reflito sobre sugestões.
+                  - faço follow-up sobre ações definidas.
+              - vr_en: |
+                  I give and receive feedback by:
+                  - asking for clear improvement points.
+                  - thanking and reflecting on suggestions.
+                  - following up on agreed actions.

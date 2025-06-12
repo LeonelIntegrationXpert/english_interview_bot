@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_lower
+    examples: |
+      - como usar lower no DataWeave?
+      - como aplica lower DW?
+      - pra que serve lower em DW?
+      - oque faz lower no dataweave?
+      - como usar operador lower DW?
+      - how do you use lower in DataWeave?
+      - how do u apply lower in DW?
+      - what is lower used for in DataWeave?
+      - what does lower do in DW?
+      - how do you use the lower operator in DW?

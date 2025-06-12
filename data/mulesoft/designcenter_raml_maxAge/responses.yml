@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_maxAge:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro maxAge via cors slash maxAge para determinar tempo de cache de politicas cors.
+                  Isso reduz numero de preflight requests em navegadores.
+                  Melhora performance de chamadas cross domain.
+              - vr_en: |
+                  I configure maxAge via cors slash maxAge to set cors policy cache duration.
+                  This reduces the number of preflight requests in browsers.
+                  It improves cross domain call performance.

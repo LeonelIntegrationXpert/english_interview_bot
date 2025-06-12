@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_asset_chaining:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino dependencia de um asset em outro no Exchange.
+                  Isso cria fluxo de publicacao e consumo em cadeia.
+                  Facilita sequenciamento de implementacoes complexas.
+              - vr_en: |
+                  I define one asset’s dependency on another in Exchange.
+                  This creates a chain of publish and consume flows.
+                  It simplifies sequencing of complex deployments.

@@ -1,0 +1,17 @@
+version: '3.1'
+responses:
+  utter_architecture:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso padrão API-led dividindo em:
+                  • System APIs para acesso a dados.
+                  • Process APIs para lógica de negócio.
+                  • Experience APIs para canais específicos.
+                  Isso garante governança e reutilização máxima.
+              - vr_en: |
+                  I apply API-led by splitting into:
+                  • System APIs for data access.
+                  • Process APIs for business logic.
+                  • Experience APIs for channel-specific needs.
+                  This ensures governance and maximum reuse.

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_uriParameters
+    examples: |
+      - como usar uriParameters no RAML no DC?
+      - como definir uriParameters no Design Center?
+      - pra que serve uriParameters no RAML?
+      - oque faz uriParameters no DC?
+      - como configurar uriParameters no editor RAML DC?
+      - how do you use uriParameters in RAML in Design Center?
+      - how do u define uriParameters in DC?
+      - what are uriParameters used for in RAML?
+      - what do uriParameters do in DC?
+      - how do you configure uriParameters in the RAML editor in DC?

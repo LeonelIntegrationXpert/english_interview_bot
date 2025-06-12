@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_user_roles_overview
+    examples: |
+      - quais sãos roles disponiveis no Exchange
+      - como funcionam roles de usuario
+      - quais permissoes cada role tem
+      - como roles controlam acesso
+      - como atribuir roles a usuarios
+      - what are the available roles in Exchange
+      - how do user roles work
+      - what permissions does each role have
+      - how do roles control access
+      - how to assign roles to users

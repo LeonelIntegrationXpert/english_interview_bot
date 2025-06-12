@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_conflict_resolution:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Resolvo conflitos assim:
+                  - ouço cada parte sem julgar.
+                  - encontro pontos em comum.
+                  - proponho solução colaborativa e follow-up.
+              - vr_en: |
+                  I resolve conflicts by:
+                  - listening to each side without judgment.
+                  - finding common ground.
+                  - proposing a collaborative solution and following up.

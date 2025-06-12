@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_request_asset_access
+    examples: |
+      - como solicitar acesso a asset no Exchange
+      - como peço permissao em asset
+      - como requisito de acesso ao recurso
+      - como faço pedido de visualizacao de asset
+      - como peço para ver asset privado
+      - how do you request access to an asset in Exchange
+      - how do u ask for permission on an asset
+      - how do you request asset viewing rights
+      - how do you submit an access request for a private asset
+      - how do you petition to view a private asset

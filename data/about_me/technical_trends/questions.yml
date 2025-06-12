@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: technical_trends
+    examples: |
+      - quais tendências técnicas você acompanha no mercado?
+      - q tendências técnicas vc segue?
+      - quais trends vc acompanha?
+      - quais tendências vc vê no mercado?
+      - que tendencias tecnicas vc observa?
+      - quais tech trends vc segue?
+      - que tendencias vc tem visto?
+      - quais trends vc acha importantes?
+      - q tendencias vc percebe?
+      - quais tech trends vc acompanha?
+      - what technical trends do you follow in the market?
+      - what tech trends u follow?
+      - which technical trends u watch?
+      - what trends u see in market?
+      - what technical trends u observe?
+      - which tech trends u keep up with?
+      - what trends r you seeing?
+      - what trends u find important?
+      - what tech trends u notice?
+      - what technical trends u track?

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_list_deprecated_assets:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu aplico filtro deprecated na pesquisa de assets.
+                  Exchange mostra apenas itens marcados como depreciados.
+                  Ajuda planejar remocao ou migracao.
+              - vr_en: |
+                  I apply the deprecated filter in asset search.
+                  Exchange shows only items marked as deprecated.
+                  It helps plan removal or migration.

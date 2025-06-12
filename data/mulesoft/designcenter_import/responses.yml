@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_import:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu importo projetos ZIP gerados no Studio ou DSL para continuar design colaborativo no portal
+              - vr_en: |
+                  I import ZIP projects generated in Studio or DSL to continue collaborative design in the portal

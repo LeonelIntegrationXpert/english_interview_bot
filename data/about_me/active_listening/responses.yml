@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_active_listening:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Ouço ativamente:
+                  - foco total no interlocutor sem distrações.
+                  - reformulo pontos para confirmar entendimento.
+                  - uso linguagem corporal aberta.
+              - vr_en: |
+                  I practice active listening by:
+                  - giving full attention without distractions.
+                  - paraphrasing points to confirm understanding.
+                  - using open body language.

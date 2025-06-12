@@ -1,0 +1,17 @@
+version: '3.1'
+responses:
+  utter_custom_policies:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Sim, já desenvolvi policies customizadas usando Mule SDK:
+                  • criei extensão para fallback JWKS em múltiplos IdPs.
+                  • implementei validação avançada de claims custom.
+                  • tratei logs estruturados e métricas custom.
+                  • publiquei no Exchange privado.
+              - vr_en: |
+                  Yes, I have built custom policies with Mule SDK:
+                  • created a fallback JWKS extension for multiple IdPs.
+                  • implemented advanced custom claim validation.
+                  • handled structured logging and custom metrics.
+                  • published to private Exchange.

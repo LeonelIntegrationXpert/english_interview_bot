@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_options:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino options no Design Center para habilitar CORS e CRUD discovery no RAML
+              - vr_en: |
+                  I define options in Design Center to enable CORS and CRUD discovery in RAML

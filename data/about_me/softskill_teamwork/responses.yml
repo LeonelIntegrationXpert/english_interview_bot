@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_teamwork:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Valorizo trabalho em equipe:
+                  - compartilho progresso diariamente.
+                  - ajudo colegas em dificuldades.
+                  - celebro conquistas coletivas.
+              - vr_en: |
+                  I value teamwork:
+                  - I share progress daily.
+                  - I help colleagues in need.
+                  - I celebrate collective successes.

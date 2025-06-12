@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_attach_connector_to_api:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu seleciono connector e clico attach no asset.
+                  Isso faz disponivel conector para uso nas integracoes.
+                  Projetos Studio podem importar diretamente.
+              - vr_en: |
+                  I select the connector and click attach on the asset.
+                  This makes the connector available for use in integrations.
+                  Studio projects can import it directly.

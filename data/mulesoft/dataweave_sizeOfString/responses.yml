@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_sizeOfString:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso sizeOfString para retornar comprimento de strings em numero de caracteres
+              - vr_en: |
+                  I use sizeOfString to return the length of strings in number of characters

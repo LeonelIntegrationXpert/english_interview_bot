@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_baseUri_override
+    examples: |
+      - como sobrescrever baseUri no RAML DC?
+      - como usar baseUriOverride no Design Center?
+      - pra que serve override de baseUri no DC?
+      - como definir baseUriOverride no RAML DC?
+      - como configurar baseUriOverride no DC?
+      - how do you override baseUri in RAML in Design Center?
+      - how do u use baseUriOverride in DC?
+      - what is baseUri override used for in DC?
+      - how do you define baseUriOverride in RAML in DC?
+      - how do you configure baseUriOverride in DC?

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_cli_login_logout:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu executo cli exchange login para autenticar com credenciais.
+                  Para logout uso cli exchange logout e removo token local.
+                  Garante seguranca entre sessões distintas.
+              - vr_en: |
+                  I run cli exchange login to authenticate with credentials.
+                  For logout I use cli exchange logout and remove the local token.
+                  It ensures security between distinct sessions.

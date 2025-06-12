@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_purge_old_versions
+    examples: |
+      - como limpar versoes antigas no Exchange
+      - como purgo versoes obsoletas
+      - como removo historico antigo
+      - como excluo versoes passadas
+      - como faco limpeza de versoes
+      - how do you purge old versions in Exchange
+      - how do u remove obsolete versions
+      - how do you delete past history
+      - how do you clear previous versions
+      - how do you perform a version cleanup

@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_creativity:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Estimulo criatividade:
+                  - promovo sessões de brainstorming.
+                  - testo protótipos rápidos de ideias.
+                  - exploro referências diversas.
+              - vr_en: |
+                  I foster creativity by:
+                  - facilitating brainstorming sessions.
+                  - prototyping ideas quickly.
+                  - exploring diverse references.

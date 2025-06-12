@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_cli_search_assets
+    examples: |
+      - como procuro asset via CLI do Exchange
+      - como uso comando de busca no CLI
+      - como faço search de recursos pelo terminal
+      - como filtro assets no CLI
+      - como localizo asset via linha de comando
+      - how do you search for assets via the Exchange CLI
+      - how do u use the search command in CLI
+      - how do you perform a resource search in the terminal
+      - how do you filter assets in CLI
+      - how do you locate an asset via command line

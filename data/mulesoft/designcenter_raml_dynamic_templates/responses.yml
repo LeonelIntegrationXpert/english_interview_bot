@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_dynamic_templates:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu crio dynamic templates no Design Center usando traits parametrizados.
+                  Isso gera endpoints com variações baseadas em parâmetros.
+                  Acelera design de APIs complexas.
+              - vr_en: |
+                  I create dynamic templates in Design Center using parameterized traits.
+                  This yields endpoints with variations based on parameters.
+                  It speeds up complex API design.

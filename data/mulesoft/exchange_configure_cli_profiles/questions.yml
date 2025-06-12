@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_configure_cli_profiles
+    examples: |
+      - como configuro perfis no CLI do Exchange
+      - como crio profile CLI para org
+      - como adiciono config de perfil
+      - como mudo perfil ativo no CLI
+      - como ajusto contexto de perfil no CLI
+      - how do you configure profiles in the Exchange CLI
+      - how do u create a CLI profile for an org
+      - how do you add profile config
+      - how do you change active profile in the CLI
+      - how do you adjust profile context in the CLI

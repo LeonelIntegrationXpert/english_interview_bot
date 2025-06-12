@@ -3,14 +3,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Para desenhar as **três camadas da arquitetura API-led**, siga esta abordagem:  
-                  1. **System APIs**: conectam diretamente aos sistemas legados, bancos de dados ou serviços backend. Devem ser reutilizáveis e com pouca lógica.  
-                  2. **Process APIs**: orquestram dados vindos de múltiplos sistemas. Contêm regras de negócio e lógica de transformação.  
-                  3. **Experience APIs**: expõem os dados de forma específica para canais (web, mobile, parceiros), adaptando o conteúdo conforme o público-alvo.  
-                  Essa estrutura promove desacoplamento, reutilização e evolução independente das camadas.
+                  Para desenhar as três camadas da arquitetura API led, siga a seguinte abordagem estruturada.  
+                  A primeira camada é composta pelas APIs do tipo System, que se conectam diretamente a sistemas legados, bancos de dados ou serviços de backend. Elas devem ser reutilizáveis e conter o mínimo de lógica possível.  
+                  A segunda camada é formada pelas APIs do tipo Process, responsáveis por orquestrar dados provenientes de múltiplos sistemas. Essas APIs concentram regras de negócio e lógica de transformação.  
+                  A terceira camada é representada pelas APIs do tipo Experience, que expõem os dados de maneira adaptada para cada canal, como web, dispositivos móveis ou parceiros. Elas ajustam o conteúdo conforme o público alvo.  
+                  Essa estrutura favorece o desacoplamento entre os componentes, promove a reutilização de serviços e permite que cada camada evolua de forma independente.
               - vr_en: |
-                  To design the **three layers of the API-led architecture**, follow this approach:  
-                  1. **System APIs**: connect directly to legacy systems, databases, or backend services. They should be reusable with minimal logic.  
-                  2. **Process APIs**: orchestrate data from multiple systems. They include business logic and data transformation.  
-                  3. **Experience APIs**: expose data tailored to specific channels (web, mobile, partners), adapting the format to the target audience.  
-                  This structure promotes decoupling, reusability, and independent evolution of each layer.
+                  To design the three layers of the API led architecture, follow a structured approach.  
+                  The first layer consists of System type APIs, which connect directly to legacy systems, databases, or backend services. These APIs should be reusable and contain minimal logic.  
+                  The second layer is made up of Process type APIs, responsible for orchestrating data coming from multiple systems. These APIs hold business rules and transformation logic.  
+                  The third layer is represented by Experience type APIs, which expose data in a format tailored to each channel, such as web applications, mobile devices, or partners. They adapt the content based on the target audience.  
+                  This structure encourages decoupling, promotes service reusability, and allows each layer to evolve independently.

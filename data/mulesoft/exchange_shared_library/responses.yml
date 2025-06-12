@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_shared_library:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu empacoto componentes comuns como shared library e publico no Exchange.
+                  Projetos podem referenciar a library via dependencias no pom.
+                  Isso promove reuso e padroes corporativos.
+              - vr_en: |
+                  I package common components as a shared library and publish it in Exchange.
+                  Projects can reference the library via dependencies in the pom.
+                  It promotes reuse and corporate standards.

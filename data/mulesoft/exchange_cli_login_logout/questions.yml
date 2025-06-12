@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_cli_login_logout
+    examples: |
+      - como faço login e logout no CLI
+      - como entra no Exchange via terminal
+      - como sai do Exchange CLI
+      - como autentico CLI
+      - como deslogar no Exchange
+      - how do you do login and logout in the Exchange CLI
+      - how do u sign in to Exchange via terminal
+      - how do you sign out from Exchange CLI
+      - how do you authenticate CLI
+      - how do you log off from Exchange

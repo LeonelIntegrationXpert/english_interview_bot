@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_cli_consume_asset:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu executo cli exchange assets consume especificando id e versao.
+                  Ele baixa e adiciona dependencias no pom ou build file.
+                  Garante reproducibilidade no projeto.
+              - vr_en: |
+                  I run cli exchange assets consume specifying id and version.
+                  It downloads and adds dependencies to the pom or build file.
+                  It ensures project reproducibility.

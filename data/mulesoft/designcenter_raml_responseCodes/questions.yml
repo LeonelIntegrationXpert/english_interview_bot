@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_responseCodes
+    examples: |
+      - como especificar response codes no RAML DC?
+      - como definir códigos de resposta no Design Center?
+      - pra que serv response codes no RAML?
+      - oque faz response codes no DC?
+      - como usar response codes no editor RAML DC?
+      - how do you specify response codes in RAML in Design Center?
+      - how do u define response codes in DC?
+      - what are response codes used for in RAML?
+      - what do response codes do in DC?
+      - how do you use response codes in the RAML editor in DC?

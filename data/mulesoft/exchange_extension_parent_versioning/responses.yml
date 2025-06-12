@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_extension_parent_versioning:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino semantic versioning no extension parent para controlar alteracoes.
+                  Child assets referenciam a versao desejada do parent para estabilidade.
+                  Rollback mantem childs intactos ate atualizacao manual.
+              - vr_en: |
+                  I define semantic versioning on the extension parent to control changes.
+                  Child assets reference the desired parent version for stability.
+                  Rollback leaves children untouched until manual update.

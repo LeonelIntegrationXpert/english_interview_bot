@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_certifications:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Possuo:
+                  • Salesforce Certified MuleSoft Platform Architect – Level 1.
+                  • Salesforce Certified MuleSoft Developer – Level 1.
+                  • Várias badges no Trailhead sobre API-led e Anypoint CLI.
+              - vr_en: |
+                  I hold:
+                  • Salesforce Certified MuleSoft Platform Architect – Level One.
+                  • Salesforce Certified MuleSoft Developer – Level One.
+                  • Multiple Trailhead badges on API-led and Anypoint CLI.

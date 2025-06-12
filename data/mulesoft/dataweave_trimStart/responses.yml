@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_trimStart:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso trimStart para remover espaços à esquerda de strings
+              - vr_en: |
+                  I use trimStart to remove leading whitespace from strings

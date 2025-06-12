@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_runtime_manager_integration:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro pipelines que deployam APIs do Exchange ao Runtime Manager.
+                  Isso garante que versoes aprovadas cheguem automaticamente ao ambiente.
+                  Permite rollback facil a partir do historico de versoes.
+              - vr_en: |
+                  I configure pipelines that deploy APIs from Exchange to Runtime Manager.
+                  It ensures that approved versions automatically reach the environment.
+                  It enables easy rollback from version history.

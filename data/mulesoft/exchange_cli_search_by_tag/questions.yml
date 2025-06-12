@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_cli_search_by_tag
+    examples: |
+      - como buscar tag pelo CLI do Exchange
+      - como filtro por tag no terminal
+      - como localizo recursos por etiqueta
+      - como uso search tag no CLI
+      - como pesquiso tag via comando
+      - how do you search by tag in the Exchange CLI
+      - how do u filter by tag in terminal
+      - how do you locate resources by label
+      - how do you use search tag in CLI
+      - how do you query tag via command

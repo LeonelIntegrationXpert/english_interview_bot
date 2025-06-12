@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_security
+    examples: |
+      - como garantir segurança no DC?
+      - como faz security DC?
+      - pra que serve security DC?
+      - oque faz security?
+      - como usar security no DC?
+      - how do you ensure security in Design Center?
+      - how do u do security in DC?
+      - what is security used for in DC?
+      - what does security do?
+      - how do you use security in DC?

@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_time_management:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Gerencio tempo assim:
+                  - crio lista de tarefas priorizadas.
+                  - bloqueio períodos de foco sem interrupção.
+                  - reviso progresso no meio do prazo.
+              - vr_en: |
+                  I manage time by:
+                  - creating a prioritized task list.
+                  - blocking focus periods without interruption.
+                  - reviewing progress mid-sprint.

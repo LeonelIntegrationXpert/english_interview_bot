@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_traits_usage:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu aplico traits no Design Center listando traits no método ou recurso.
+                  Isso adiciona comportamento comum como CORS ou autenticação.
+                  Promove consistência sem repetição de código.
+              - vr_en: |
+                  I apply traits in Design Center by listing traits on the method or resource.
+                  This adds common behavior like CORS or authentication.
+                  It promotes consistency without code duplication.

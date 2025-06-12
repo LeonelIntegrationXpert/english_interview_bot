@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_manage_caching_policies:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu anexo caching policy definindo TTL e scope no Exchange.
+                  Isso reduz latencia e chamadas repetidas.
+                  Melhora performance geral da API.
+              - vr_en: |
+                  I attach a caching policy defining TTL and scope in Exchange.
+                  It reduces latency and repeated calls.
+                  It improves overall API performance.

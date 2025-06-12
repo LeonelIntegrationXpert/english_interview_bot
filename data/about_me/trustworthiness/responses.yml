@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_trustworthiness:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Construo confiança:
+                  - entrego o prometido no prazo.
+                  - comunico riscos de forma transparente.
+                  - mantenho integridade em todas decisões.
+              - vr_en: |
+                  I build trust by:
+                  - delivering on my commitments on time.
+                  - communicating risks transparently.
+                  - upholding integrity in every decision.

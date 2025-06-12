@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: prioritization
+    examples: |
+      - como vc define prioridades?
+      - como tu prioriza tarefas?
+      - como vc escolhe o que vem primeiro?
+      - como tu ordena trabalho?
+      - como vc decide urgência?
+      - how do you set priorities?
+      - how do u prioritize tasks?
+      - how u decide what comes first?
+      - how do u order your workload?
+      - how u determine urgency?

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: trustworthiness
+    examples: |
+      - como vc demonstra confiança?
+      - como tu constrói confiança?
+      - como vc faz pra ser confiável?
+      - como tu mantém credibilidade?
+      - como vc prova ser digno de confiança?
+      - how do you demonstrate trustworthiness?
+      - how do u build trust?
+      - how u become reliable?
+      - how do u maintain credibility?
+      - how u prove you’re trustworthy?

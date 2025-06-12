@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_ssl_tls_management:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu faço upload de certificados e configuro TLS minimo um dois no portal.
+                  Habilito HTTP slash two e ciphers seguros via settings.
+                  Exchange rejeita conexoes que nao atendem o padrao.
+              - vr_en: |
+                  I upload certificates and configure minimum TLS one two in the portal.
+                  I enable HTTP slash two and secure ciphers via settings.
+                  Exchange rejects connections that do not meet the standard.

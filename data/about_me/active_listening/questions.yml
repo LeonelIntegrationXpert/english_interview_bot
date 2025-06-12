@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: active_listening
+    examples: |
+      - como vc pratica escuta ativa?
+      - como tu faz escuta atv?
+      - como vc mostra que ouve?
+      - como tu confirma entendimento?
+      - como vc garante ouvir bem?
+      - how do you practice active listening?
+      - how do u show you’re listening?
+      - how u confirm understanding?
+      - how do u ensure you really hear?
+      - how u check you got the message?

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_substringAfter
+    examples: |
+      - como usar substringAfter no DataWeave?
+      - como aplica substringAfter DW?
+      - pra que serve substringAfter em DW?
+      - oque faz substringAfter no dataweave?
+      - como usar operador substringAfter DW?
+      - how do you use substringAfter in DataWeave?
+      - how do u apply substringAfter in DW?
+      - what is substringAfter used for in DataWeave?
+      - what does substringAfter do in DW?
+      - how do you use the substringAfter operator in DW?

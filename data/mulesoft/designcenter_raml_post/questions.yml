@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_post
+    examples: |
+      - como adicionar post em RAML no DC?
+      - como criar método post no Design Center?
+      - como uso post em RAML no DC?
+      - como configurar post em API no DC?
+      - como especifico post no Design Center?
+      - how do you add a post method in RAML in Design Center?
+      - how do u create a post method in DC?
+      - how do u use post in RAML in DC?
+      - how do u configure post on API in DC?
+      - how do u specify post in Design Center?

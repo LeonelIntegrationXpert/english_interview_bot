@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_quality_controls:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso validate e lint de RAML no Exchange para impedir publish de specs com erro.
+                  Integro MUnit e custom policies para checar integridade.
+                  Isso reduz falhas em runtime e aumenta confianca.
+              - vr_en: |
+                  I use validate and RAML lint in Exchange to prevent publishing specs with errors.
+                  I integrate MUnit and custom policies to check integrity.
+                  It reduces runtime failures and increases confidence.

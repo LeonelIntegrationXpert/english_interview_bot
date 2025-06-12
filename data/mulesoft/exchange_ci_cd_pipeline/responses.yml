@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_ci_cd_pipeline:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu crio jobs que usam CLI para publicar e consumir assets.
+                  Pipeline roda MUnit e valida contracts antes do publish.
+                  Ao final arquivos são deployados e metrics coletadas.
+              - vr_en: |
+                  I create jobs that use CLI to publish and consume assets.
+                  The pipeline runs MUnit and validates contracts before publishing.
+                  Finally artifacts are deployed and metrics collected.

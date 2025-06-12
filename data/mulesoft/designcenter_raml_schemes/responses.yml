@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_schemes:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro schemes no Design Center para tls e ssl garantindo comunicação segura
+              - vr_en: |
+                  I configure schemes in Design Center for tls and ssl ensuring secure communication

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: softskill_resilience
+    examples: |
+      - como vc lida com pressão alta?
+      - como tu resiste a stress intenso?
+      - como vc enfrenta crise?
+      - como tu suporta pressão?
+      - como vc reage a estresse?
+      - como tu aguenta pressão?
+      - como vc permanece firme sob stress?
+      - como tu se mantem resiliente?
+      - como vc resiste em caos?
+      - como tu supera momentos dificeis?
+      - how do you handle high pressure?
+      - how do u endure intense stress?
+      - how u face crisis?
+      - how do u cope with pressure?
+      - how u react to stress?
+      - how do u stay resilient?
+      - how u withstand chaos?
+      - how do u persevere under stress?
+      - how u manage tough situations?
+      - how do u bounce back?

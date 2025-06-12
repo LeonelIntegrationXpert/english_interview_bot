@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_cli_list_assets
+    examples: |
+      - como listar assets no CLI do Exchange
+      - como ver inventario pelo terminal
+      - como faço listagem de recursos
+      - como mostro todos os assets no CLI
+      - como obtenho lista de assets via comando
+      - how do you list assets in the Exchange CLI
+      - how do u view inventory in the terminal
+      - how do you perform a resource listing
+      - how do you display all assets in CLI
+      - how do you get an asset list via command

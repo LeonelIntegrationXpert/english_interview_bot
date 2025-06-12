@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_ceil:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso ceil para arredondar valores numéricos para o próximo inteiro superior
+              - vr_en: |
+                  I use ceil to round numeric values up to the next integer

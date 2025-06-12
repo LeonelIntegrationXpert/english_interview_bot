@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_rollback_asset:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu seleciono a versao anterior e clico rollback no Exchange.
+                  Isso restaura o conteudo e metadados correspondentes.
+                  Mantem o historico completo de mudancas.
+              - vr_en: |
+                  I select the previous version and click rollback in Exchange.
+                  This restores the corresponding content and metadata.
+                  It preserves the complete change history.

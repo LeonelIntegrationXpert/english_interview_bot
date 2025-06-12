@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_branching:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu crio ramificações no Design Center para isolar features e depois realizo merge via pull request integrado
+              - vr_en: |
+                  I create branches in Design Center to isolate features and then merge via integrated pull request

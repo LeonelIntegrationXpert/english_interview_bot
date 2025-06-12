@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_documentation:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu gero documentação de RAML no Design Center incluindo endpoints parâmetros respostas e exemplos
+              - vr_en: |
+                  I generate RAML documentation in Design Center including endpoints parameters responses and examples

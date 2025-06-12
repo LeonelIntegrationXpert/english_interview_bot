@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_ip_whitelisting:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu adiciono faixas de IP permitidas nas settings de segurança.
+                  Requests de IPs fora do range sao rejeitados.
+                  Isso aumenta seguranca de administracao.
+              - vr_en: |
+                  I add allowed IP ranges in the security settings.
+                  Requests from outside the range are rejected.
+                  It enhances admin security.

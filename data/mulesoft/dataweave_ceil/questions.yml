@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_ceil
+    examples: |
+      - como usar ceil no DataWeave?
+      - como aplica ceil DW?
+      - pra que serve ceil em DW?
+      - oque faz ceil no dataweave?
+      - como usar operador ceil DW?
+      - how do you use ceil in DataWeave?
+      - how do u apply ceil in DW?
+      - what is ceil used for in DataWeave?
+      - what does ceil do in DW?
+      - how do you use the ceil operator in DW?

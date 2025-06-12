@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_publish_asyncapi_spec:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu seleciono arquivo AsyncAPI e publico no Exchange.
+                  Isso documenta topicos e mensagens assíncronas.
+                  Consumers de events podem importar o spec.
+              - vr_en: |
+                  I select an AsyncAPI file and publish it to Exchange.
+                  This documents asynchronous topics and messages.
+                  Event consumers can import the spec.

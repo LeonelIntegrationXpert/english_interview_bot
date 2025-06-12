@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_accountability:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu assumo responsabilidade:
+                  - admito o erro imediatamente sem adiantar culpa.
+                  - comunico impactos ao time e planejo correção.
+                  - aprendo com a situação para evitar repetição.
+              - vr_en: |
+                  I take accountability by:
+                  - admitting the mistake promptly without shifting blame.
+                  - informing the team of impacts and planning remediation.
+                  - learning from the incident to prevent recurrence.

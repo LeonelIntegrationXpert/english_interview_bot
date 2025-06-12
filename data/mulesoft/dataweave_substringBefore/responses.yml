@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_substringBefore:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso substringBefore para retornar a parte antes de um delimitador especificado na string
+              - vr_en: |
+                  I use substringBefore to return the portion before a specified delimiter in the string

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_cli_view_asset_details:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso cli exchange assets info com id do asset.
+                  Recebo JSON com todas as propriedades e metadados.
+                  Ótimo para automatizar coleta de dados.
+              - vr_en: |
+                  I use cli exchange assets info with the asset id.
+                  I receive JSON with all properties and metadata.
+                  Great for automating data collection.

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_toNumber
+    examples: |
+      - como usar toNumber no DataWeave?
+      - como aplica toNumber DW?
+      - pra que serve toNumber em DW?
+      - oque faz toNumber no dataweave?
+      - como usar operador toNumber DW?
+      - how do you use toNumber in DataWeave?
+      - how do u apply toNumber in DW?
+      - what is toNumber used for in DataWeave?
+      - what does toNumber do in DW?
+      - how do you use the toNumber operator in DW?

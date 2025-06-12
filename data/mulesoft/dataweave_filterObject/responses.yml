@@ -1,0 +1,264 @@
+version: '3.1'
+responses:
+  utter_dataweave_filterObject:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso filterObject para selecionar pares chave valor de um objeto conforme predicado retornando novo objeto com somente entradas filtradas
+              - vr_en: |
+                  I use filterObject to select key value pairs from an object based on a predicate returning a new object with only the filtered entries
+                  #intent: mulesoft/dataweave_pluck
+                  #pt:
+                  - como usar pluck no DataWeave?
+                  - como aplica pluck DW?
+                  - pra que serve pluck em DW?
+                  - oque pluck faz no DataWeave?
+                  - como usar operador pluck DW?
+                  #en:
+                  - how do you use pluck in DataWeave?
+                  - how do u apply pluck in DW?
+                  - what is pluck used for in DataWeave?
+                  - what does pluck do in DW?
+                  - how do you use the pluck operator in DW?
+                  #vr_pt: |
+                  Uso pluck para extrair valores ou chaves de objetos ou listas gerando nova lista de mapas simples com key e value
+                  #vr_en: |
+                  I use pluck to extract values or keys from objects or lists producing a new list of simple maps with key and value
+                  #intent: mulesoft/dataweave_caseWhen
+                  #pt:
+                  - como usar caseWhen no DataWeave?
+                  - como aplica caseWhen DW?
+                  - pra que serve caseWhen em DW?
+                  - oque faz caseWhen no dataweave?
+                  - como usar operador caseWhen DW?
+                  #en:
+                  - how do you use caseWhen in DataWeave?
+                  - how do u apply caseWhen in DW?
+                  - what is caseWhen used for in DataWeave?
+                  - what does caseWhen do in DW?
+                  - how do you use the caseWhen operator in DW?
+                  #vr_pt: |
+                  Uso caseWhen para avaliar múltiplas condições sequenciais retornando primeiro resultado cujo predicado for verdadeiro
+                  #vr_en: |
+                  I use caseWhen to evaluate multiple sequential conditions returning the first result whose predicate is true
+                  #intent: mulesoft/dataweave_sizeOf
+                  #pt:
+                  - como usar sizeOf no DataWeave?
+                  - como aplica sizeOf DW?
+                  - pra que serve sizeOf em DW?
+                  - oque faz sizeOf no dataweave?
+                  - como usar operador sizeOf DW?
+                  #en:
+                  - how do you use sizeOf in DataWeave?
+                  - how do u apply sizeOf in DW?
+                  - what is sizeOf used for in DataWeave?
+                  - what does sizeOf do in DW?
+                  - how do you use the sizeOf operator in DW?
+                  #vr_pt: |
+                  Uso sizeOf para retornar tamanho de listas arrays strings ou objetos contando número de elementos ou caracteres
+                  #vr_en: |
+                  I use sizeOf to return the length of lists arrays strings or objects counting the number of elements or characters
+                  #intent: mulesoft/dataweave_isObject
+                  #pt:
+                  - como usar isObject no DataWeave?
+                  - pra que serve isObject DW?
+                  - como aplica isObject em DW?
+                  - oque faz isObject no dataweave?
+                  - como usar operador isObject DW?
+                  #en:
+                  - how do you use isObject in DataWeave?
+                  - what is isObject used for in DW?
+                  - how do u apply isObject in DW?
+                  - what does isObject do in dataweave?
+                  - how do you use the isObject operator in DW?
+                  #vr_pt: |
+                  Uso isObject para validar se um valor em runtime é um objeto antes de aplicá lo em operações de mapeamento
+                  #vr_en: |
+                  I use isObject to validate if a runtime value is an object before applying it in mapping operations
+                  #intent: mulesoft/dataweave_isArray
+                  #pt:
+                  - como usar isArray no DataWeave?
+                  - pra que serve isArray DW?
+                  - como aplica isArray em DW?
+                  - oque faz isArray no dataweave?
+                  - como usar operador isArray DW?
+                  #en:
+                  - how do you use isArray in DataWeave?
+                  - what is isArray used for in DW?
+                  - how do u apply isArray in DW?
+                  - what does isArray do in dataweave?
+                  - how do you use the isArray operator in DW?
+                  #vr_pt: |
+                  Uso isArray para verificar se um valor é uma lista antes de iterar com map ou filter
+                  #vr_en: |
+                  I use isArray to check if a value is a list before iterating with map or filter
+                  #intent: mulesoft/dataweave_mergeDeep
+                  #pt:
+                  - como usar mergeDeep no DataWeave?
+                  - pra que serve mergeDeep DW?
+                  - como aplica mergeDeep em DW?
+                  - oque faz mergeDeep no dataweave?
+                  - como usar operador mergeDeep DW?
+                  #en:
+                  - how do you use mergeDeep in DataWeave?
+                  - what is mergeDeep used for in DW?
+                  - how do u apply mergeDeep in DW?
+                  - what does mergeDeep do in dataweave?
+                  - how do you use the mergeDeep operator in DW?
+                  #vr_pt: |
+                  Uso mergeDeep para combinar recursivamente objetos ou listas de objetos sobrescrevendo chaves conflitantes
+                  #vr_en: |
+                  I use mergeDeep to recursively combine objects or lists of objects overwriting conflicting keys
+                  #intent: mulesoft/dataweave_zipWith
+                  #pt:
+                  - como usar zipWith no DataWeave?
+                  - pra que serve zipWith DW?
+                  - como aplica zipWith em DW?
+                  - oque faz zipWith no dataweave?
+                  - como usar operador zipWith DW?
+                  #en:
+                  - how do you use zipWith in DataWeave?
+                  - what is zipWith used for in DW?
+                  - how do u apply zipWith in DW?
+                  - what does zipWith do in dataweave?
+                  - how do you use the zipWith operator in DW?
+                  #vr_pt: |
+                  Uso zipWith para combinar duas listas aplicando função de pareamento elemento a elemento
+                  #vr_en: |
+                  I use zipWith to combine two lists applying a pairing function element by element
+                  #intent: mulesoft/dataweave_readURL
+                  #pt:
+                  - como usar readUrl no DataWeave?
+                  - pra que serve readUrl DW?
+                  - como aplica readUrl em DW?
+                  - oque faz readUrl no dataweave?
+                  - como usar operador readUrl DW?
+                  #en:
+                  - how do you use readUrl in DataWeave?
+                  - what is readUrl used for in DW?
+                  - how do u apply readUrl in DW?
+                  - what does readUrl do in dataweave?
+                  - how do you use the readUrl operator in DW?
+                  #vr_pt: |
+                  Uso readUrl para buscar conteúdo HTTP ou arquivos locais retornando como string ou binário processável
+                  #vr_en: |
+                  I use readUrl to fetch HTTP content or local files returning as a string or binary for processing
+                  #intent: mulesoft/dataweave_base64
+                  #pt:
+                  - como codificar base64 no DataWeave?
+                  - pra que serve base64 DW?
+                  - como aplica base64 em DW?
+                  - oque faz base64 no dataweave?
+                  - como usar operador base64 DW?
+                  #en:
+                  - how do you encode base64 in DataWeave?
+                  - what is base64 used for in DW?
+                  - how do u apply base64 in DW?
+                  - what does base64 do in dataweave?
+                  - how do you use the base64 operator in DW?
+                  #vr_pt: |
+                  Uso base64 para codificar e decodificar dados binários transformando em string ASCII segura para transporte
+                  #vr_en: |
+                  I use base64 to encode and decode binary data turning it into an ASCII string safe for transport
+                  #intent: mulesoft/dataweave_uuid
+                  #pt:
+                  - como gerar uuid no DataWeave?
+                  - pra que serve uuid DW?
+                  - como aplica uuid em DW?
+                  - oque faz uuid no dataweave?
+                  - como usar operador uuid DW?
+                  #en:
+                  - how do you generate a uuid in DataWeave?
+                  - what is uuid used for in DW?
+                  - how do u apply uuid in DW?
+                  - what does uuid do in dataweave?
+                  - how do you use the uuid operator in DW?
+                  #vr_pt: |
+                  Uso uuid para gerar identificadores unicos version quatro para recursos dinamicos
+                  #vr_en: |
+                  I use uuid to generate unique version four identifiers for dynamic resources
+                  #intent: mulesoft/dataweave_date_format
+                  #pt:
+                  - como formatar data no DataWeave?
+                  - pra que serve dateTimeFormat DW?
+                  - como aplica formatDateTime em DW?
+                  - oque faz formatDateTime no dataweave?
+                  - como usar operador formatDateTime DW?
+                  #en:
+                  - how do you format dates in DataWeave?
+                  - what is dateTimeFormat used for in DW?
+                  - how do u apply formatDateTime in DW?
+                  - what does formatDateTime do in dataweave?
+                  - how do you use the formatDateTime operator in DW?
+                  #vr_pt: |
+                  Uso formatDateTime para converter objetos dateTime em strings formatadas conforme pattern especificado
+                  #vr_en: |
+                  I use formatDateTime to convert dateTime objects into formatted strings according to the specified pattern
+                  #intent: mulesoft/dataweave_locale
+                  #pt:
+                  - como lidar com locale no DataWeave?
+                  - pra que serve locale DW?
+                  - como aplica locale em DW?
+                  - oque faz locale no dataweave?
+                  - como usar operador locale DW?
+                  #en:
+                  - how do you handle locale in DataWeave?
+                  - what is locale used for in DW?
+                  - how do u apply locale in DW?
+                  - what does locale do in dataweave?
+                  - how do you use the locale operator in DW?
+                  #vr_pt: |
+                  Uso locale para definir regras de formatação de data e número adaptadas a região especifica
+                  #vr_en: |
+                  I use locale to set date and number formatting rules adapted to the specific region
+                  #intent: mulesoft/dataweave_truncate
+                  #pt:
+                  - como truncar strings no DataWeave?
+                  - pra que serve truncate DW?
+                  - como aplica truncate em DW?
+                  - oque faz truncate no dataweave?
+                  - como usar operador truncate DW?
+                  #en:
+                  - how do you truncate strings in DataWeave?
+                  - what is truncate used for in DW?
+                  - how do u apply truncate in DW?
+                  - what does truncate do in dataweave?
+                  - how do you use the truncate operator in DW?
+                  #vr_pt: |
+                  Uso truncate para limitar comprimento de strings cortando caracteres excedentes conforme tamanho especificado
+                  #vr_en: |
+                  I use truncate to limit string length by cutting off excess characters according to the specified size
+                  #intent: mulesoft/dataweave_trim
+                  #pt:
+                  - como usar trim no DataWeave?
+                  - pra que serve trim DW?
+                  - como aplica trim em DW?
+                  - oque faz trim no dataweave?
+                  - como usar operador trim DW?
+                  #en:
+                  - how do you use trim in DataWeave?
+                  - what is trim used for in DW?
+                  - how do u apply trim in DW?
+                  - what does trim do in dataweave?
+                  - how do you use the trim operator in DW?
+                  #vr_pt: |
+                  Uso trim para remover espaços em branco nas extremidades de strings limpando input antes de processar
+                  #vr_en: |
+                  I use trim to remove leading and trailing whitespace from strings cleaning input before processing
+                  #intent: mulesoft/dataweave_rfc3339
+                  #pt:
+                  - como gerar iso date rfc3339 DW?
+                  - pra que serve rfc3339 em DW?
+                  - como aplica rfc3339 no dataweave?
+                  - oque faz operador rfc3339 DW?
+                  - como usar rfc3339 DW?
+                  #en:
+                  - how do you generate iso date rfc3339 in DataWeave?
+                  - what is rfc3339 used for in DW?
+                  - how do u apply rfc3339 in DW?
+                  - what does the rfc3339 operator do in dataweave?
+                  - how do you use rfc3339 in DW?
+                  #vr_pt: |
+                  Uso rfc3339 para serializar objetos dateTime em strings compatíveis com iso sete mil trezentos e trinta e nove
+                  #vr_en: |
+                  I use rfc3339 to serialize dateTime objects into strings compliant with iso seven thousand three hundred thirty three

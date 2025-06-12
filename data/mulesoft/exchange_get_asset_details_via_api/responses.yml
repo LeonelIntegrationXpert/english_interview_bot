@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_get_asset_details_via_api:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu envio GET request para o endpoint slash assets slash id.
+                  Recebo JSON com detalhes e metadados do asset.
+                  Pode ser integrado em dashboards externos.
+              - vr_en: |
+                  I send a GET request to the slash assets slash id endpoint.
+                  I receive JSON with details and metadata of the asset.
+                  It can be integrated into external dashboards.

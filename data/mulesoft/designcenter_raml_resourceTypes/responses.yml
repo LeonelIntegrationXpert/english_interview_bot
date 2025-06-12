@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_resourceTypes:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso resourceTypes no Design Center para padronizar rotas e métodos reutilizando no RAML
+              - vr_en: |
+                  I use resourceTypes in Design Center to standardize routes and methods for reuse in RAML

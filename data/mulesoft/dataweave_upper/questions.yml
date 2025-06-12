@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_upper
+    examples: |
+      - como usar upper no DataWeave?
+      - como aplica upper DW?
+      - pra que serve upper em DW?
+      - oque faz upper no dataweave?
+      - como usar operador upper DW?
+      - how do you use upper in DataWeave?
+      - how do u apply upper in DW?
+      - what is upper used for in DataWeave?
+      - what does upper do in DW?
+      - how do you use the upper operator in DW?

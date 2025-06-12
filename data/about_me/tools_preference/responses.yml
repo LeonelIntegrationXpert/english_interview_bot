@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_tools_preference:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Minha ferramenta favorita é o API Console no Anypoint Design Center, pois facilita testes rápidos de APIs e documentação interativa.
+              - vr_en: |
+                  My favorite tool is the API Console in Anypoint Design Center, as it enables quick API testing and interactive documentation.

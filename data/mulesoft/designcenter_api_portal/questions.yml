@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_api_portal
+    examples: |
+      - como usar API Portal do DC?
+      - como faz portal DC?
+      - pra que serve portal DC?
+      - oque faz portal?
+      - como usar portal no DC?
+      - how do you use the API Portal in Design Center?
+      - how do u do portal in DC?
+      - what is portal used for in DC?
+      - what does portal do?
+      - how do you use the portal in DC?

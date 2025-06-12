@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_maxAge
+    examples: |
+      - como definir maxAge no RAML DC?
+      - como usar maxAge no Design Center?
+      - pra que serve maxAge no RAML DC?
+      - o que faz maxAge no DC?
+      - como usar maxAge no editor RAML DC?
+      - how do you define maxAge in RAML in Design Center?
+      - how do u use maxAge in DC?
+      - what is maxAge used for in RAML in DC?
+      - what does maxAge do in RAML in DC?
+      - how do you use maxAge in the RAML editor in DC?

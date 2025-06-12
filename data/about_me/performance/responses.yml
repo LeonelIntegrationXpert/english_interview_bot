@@ -1,0 +1,17 @@
+version: '3.1'
+responses:
+  utter_performance:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu garanto performance usando:
+                  • tuning de thread e pool no Runtime Fabric.
+                  • cache em Process APIs com Object Store.
+                  • limitação de payloads e uso de streaming.
+                  • monitoramento de SLAs com Anypoint Monitoring.
+              - vr_en: |
+                  I ensure performance by:
+                  • tuning thread pools on Runtime Fabric.
+                  • caching in Process APIs via Object Store.
+                  • limiting payloads and using streaming.
+                  • SLA monitoring with Anypoint Monitoring.

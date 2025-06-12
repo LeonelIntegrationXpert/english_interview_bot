@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_externalDocumentation:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu incluo externalDocumentation no Design Center para linkar guias e tutoriais externos
+              - vr_en: |
+                  I include externalDocumentation in Design Center to link external guides and tutorials

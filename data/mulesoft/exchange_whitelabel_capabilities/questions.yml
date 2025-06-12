@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_whitelabel_capabilities
+    examples: |
+      - como fazer white label no Exchange
+      - como customizar branding
+      - como alterar logo e cores
+      - como personalizar URL
+      - como adequar portal a empresa
+      - how do you white label Exchange
+      - how do you customize branding
+      - how do you change logo and colors
+      - how do you personalize the URL
+      - how do you tailor the portal for your company

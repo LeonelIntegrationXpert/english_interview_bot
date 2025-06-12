@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_concatenate
+    examples: |
+      - como usar concatenate no DataWeave?
+      - como aplica concatenate DW?
+      - pra que serve concatenate em DW?
+      - oque faz concatenate no dataweave?
+      - como usar operador concatenate DW?
+      - how do you use concatenate in DataWeave?
+      - how do u apply concatenate in DW?
+      - what is concatenate used for in DataWeave?
+      - what does concatenate do in DW?
+      - how do you use the concatenate operator in DW?

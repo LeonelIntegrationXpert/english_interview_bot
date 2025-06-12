@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_policy_templates:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu aplico policy templates no Design Center para padronizar políticas de segurança em APIs com parâmetros configuráveis
+              - vr_en: |
+                  I apply policy templates in Design Center to standardize security policies on APIs with configurable parameters

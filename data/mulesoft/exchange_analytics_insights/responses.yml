@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_analytics_insights:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro dashboards custom em Kibana ou Tableau via API.
+                  Uso dados de downloads e chamadas para detectar trends.
+                  Insights guiam evolucao de APIs e prioridades de negocio.
+              - vr_en: |
+                  I configure custom dashboards in Kibana or Tableau via API.
+                  I use download and call data to detect trends.
+                  Insights guide API evolution and business priorities.

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_errorResponse:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino respostas de erro no Design Center especificando codigos e descricoes personalizadas.
+                  Isso ajuda clientes a identificar causa de falhas rapidamente.
+                  Melhora a experiencia de integracao com feedback claro.
+              - vr_en: |
+                  I define error responses in Design Center by specifying status codes and custom descriptions.
+                  This helps clients quickly identify failure causes.
+                  It enhances integration experience with clear feedback.

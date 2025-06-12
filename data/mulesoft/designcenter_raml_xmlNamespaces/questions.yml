@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_xmlNamespaces
+    examples: |
+      - como definir xml namespaces no RAML DC?
+      - como usar xmlNamespaces no Design Center?
+      - pra que serv xml namespaces no RAML DC?
+      - oque faz xmlNamespaces no DC?
+      - como configurar xml namespaces no RAML DC?
+      - how do you define xml namespaces in RAML in Design Center?
+      - how do u use xmlNamespaces in DC?
+      - what are xml namespaces used for in RAML in DC?
+      - what does xml namespaces do in DC?
+      - how do you configure xml namespaces in RAML in DC?

@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_uriParameters:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso uriParameters no Design Center para capturar valores dinâmicos na URI do recurso
+              - vr_en: |
+                  I use uriParameters in Design Center to capture dynamic values in the resource URI

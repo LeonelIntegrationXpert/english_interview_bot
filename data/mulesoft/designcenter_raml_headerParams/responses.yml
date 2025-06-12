@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_headerParams:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino header parameters no Design Center para autenticação via tokens.
+                  Isso documenta quais cabecalhos devem ser enviados pelo cliente.
+                  Evita ambiguidade e erros de requisicao.
+              - vr_en: |
+                  I define header parameters in Design Center for token-based authentication.
+                  This documents which headers clients must send.
+                  It prevents ambiguity and request errors.

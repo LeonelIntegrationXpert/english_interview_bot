@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_api_design:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso Design Center para modelar APIs com RAML ou OAS, validar contratos e publicar no Exchange diretamente do portal
+              - vr_en: |
+                  I use Design Center to model APIs with RAML or OAS, validate contracts, and publish to Exchange directly from the portal

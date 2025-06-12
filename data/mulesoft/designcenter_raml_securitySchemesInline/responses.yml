@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_securitySchemesInline:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino securitySchemes inline no Design Center descrevendo oauth two flows ou basic inline no contrato
+              - vr_en: |
+                  I define inline securitySchemes in Design Center by describing oauth two flows or basic inline in the contract

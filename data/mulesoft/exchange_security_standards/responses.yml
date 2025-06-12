@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_security_standards:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino securitySchemes e securedBy no RAML e publico no Exchange.
+                  Applico policies de OAuth2 e JWT automaticas via attach.
+                  Exchange valida e bloqueia specs que nao atendem regras.
+              - vr_en: |
+                  I define securitySchemes and securedBy in RAML and publish to Exchange.
+                  I apply OAuth2 and JWT policies automatically via attach.
+                  Exchange validates and blocks specs that do not meet rules.

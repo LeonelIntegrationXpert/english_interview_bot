@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_response_examples
+    examples: |
+      - como adicionar exemplos de resposta no RAML DC?
+      - como usar response examples no Design Center?
+      - pra que servem examples de resposta no DC?
+      - como definir exemplos de response no RAML DC?
+      - como configurar response examples no DC?
+      - how do you add response examples in RAML in Design Center?
+      - how do u use response examples in DC?
+      - what are response examples used for in DC?
+      - how do you define response examples in RAML in DC?
+      - how do you configure response examples in DC?

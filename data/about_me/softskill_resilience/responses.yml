@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_resilience:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Sou resiliente porque:
+                  - mantenho calma e foco em solução.
+                  - aprendo com falhas e ajusto rota.
+                  - busco apoio e compartilho desafio.
+              - vr_en: |
+                  I’m resilient because:
+                  - I stay calm and solution-focused.
+                  - I learn from failures and adjust course.
+                  - I seek support and share challenges.

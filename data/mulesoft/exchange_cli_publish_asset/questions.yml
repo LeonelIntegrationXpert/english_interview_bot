@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_cli_publish_asset
+    examples: |
+      - como publico asset pelo CLI do Exchange
+      - como faço upload via linha de comando
+      - como lanço recurso sem portal
+      - como uso CLI para publish
+      - como coloco asset no Exchange via CLI
+      - how do you publish an asset via the Exchange CLI
+      - how do u upload via command line
+      - how do you release a resource without portal
+      - how do you use CLI for publish
+      - how do you place an asset in Exchange via CLI

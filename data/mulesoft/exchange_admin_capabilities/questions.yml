@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_admin_capabilities
+    examples: |
+      - oque um admin consegue fazer no Exchange
+      - como diferenca admin de editor
+      - como admin gerencia politicas
+      - como admin controla organizacao
+      - quais poderes de admin
+      - what can an admin do in Exchange
+      - how is admin different from editor
+      - how does admin manage policies
+      - how does admin control the organization
+      - what are admin powers

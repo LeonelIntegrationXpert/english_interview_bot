@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_defaultResponse
+    examples: |
+      - como definir resposta padrao no RAML DC?
+      - como configurar default response no Design Center?
+      - pra que serve resposta padrao no RAML DC?
+      - oque faz default response no DC?
+      - como usar default response no editor RAML DC?
+      - how do you define a default response in RAML in Design Center?
+      - how do u configure default response in DC?
+      - what is default response used for in DC?
+      - what does default response do in RAML in DC?
+      - how do you use default response in the RAML editor in DC?

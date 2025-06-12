@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_continuous_improvement:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Busco melhoria contínua:
+                  - reviso retrospectivas de entregas.
+                  - incorporo feedback rapidamente.
+                  - estudo novas práticas e as aplico.
+              - vr_en: |
+                  I pursue continuous improvement by:
+                  - reviewing delivery retrospectives.
+                  - incorporating feedback swiftly.
+                  - studying and applying new practices.

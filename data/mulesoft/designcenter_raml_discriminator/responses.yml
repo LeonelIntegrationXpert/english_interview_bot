@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_discriminator:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso discriminator no Design Center definindo campo e mapeando valores para cada subtype
+              - vr_en: |
+                  I use discriminator in Design Center by defining the field and mapping values for each subtype

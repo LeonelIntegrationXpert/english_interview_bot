@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: universal-java-builder
+    examples: |
+      - pode falar do universal-java-builder?
+      - o que faz o universal-java-builder?
+      - explica o java-builder universal?
+      - como funciona o universal-java-builder?
+      - para que serve esse CLI?
+      - can you explain universal-java-builder?
+      - what does universal-java-builder do?
+      - how does the java-builder work?
+      - talk about universal-java-builder?
+      - what is this CLI used for?

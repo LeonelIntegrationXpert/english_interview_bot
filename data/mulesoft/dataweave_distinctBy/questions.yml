@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_distinctBy
+    examples: |
+      - como usar distinctBy no DataWeave?
+      - como aplica distinctBy DW?
+      - pra que serve distinctBy em DW?
+      - oque faz distinctBy no dataweave?
+      - como usar operador distinctBy DW?
+      - how do you use distinctBy in DataWeave?
+      - how do u apply distinctBy in DW?
+      - what is distinctBy used for in DataWeave?
+      - what does distinctBy do in DW?
+      - how do you use the distinctBy operator in DW?

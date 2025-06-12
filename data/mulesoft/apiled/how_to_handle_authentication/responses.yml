@@ -3,14 +3,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  A **autenticação e autorização em uma arquitetura API-led** devem ser tratadas de forma específica para cada camada:  
-                  ➤ Nas *Experience APIs*, recomenda-se o uso de **OAuth 2.0** ou **JWT**, garantindo a autenticação de usuários externos.  
-                  ➤ Já nas *Process APIs*, o foco está na **validação dos escopos e permissões** contidos no token.  
-                  ➤ Para as *System APIs*, pode-se utilizar **autenticação mútua** ou baseada em certificados, elevando o nível de segurança no acesso a sistemas legados.  
-                  Além disso, é uma boa prática aplicar **políticas de segurança no API Manager**, fortalecendo o controle de acesso e a governança das APIs.
+                  A autenticação e a autorização em uma arquitetura API led devem ser tratadas de forma específica para cada camada.  
+                  Nas APIs do tipo Experience, recomenda se o uso de padrões como OAuth dois ponto zero ou tokens do tipo JWT, garantindo a autenticação de usuários externos.  
+                  Nas APIs do tipo Process, o foco deve estar na validação dos escopos e das permissões presentes no token, assegurando o controle correto de acesso aos recursos internos.  
+                  Já nas APIs do tipo System, recomenda se o uso de autenticação mútua baseada em certificados para proteger a comunicação com sistemas legados e de backend.  
+                  Além disso, é uma boa prática aplicar políticas de segurança diretamente no gerenciador de APIs da plataforma, fortalecendo o controle de acesso e a governança de toda a estrutura.
               - vr_en: |
-                  **Authentication and authorization in an API-led architecture** should be addressed according to each layer’s purpose:  
-                  ➤ In *Experience APIs*, it’s recommended to use **OAuth 2.0** or **JWT** to authenticate external users.  
-                  ➤ In *Process APIs*, the focus is on **validating token scopes and permissions** to ensure proper access control.  
-                  ➤ For *System APIs*, consider using **mutual authentication** or certificates to secure communication with backend systems.  
-                  Additionally, applying **security policies in the API Manager** helps reinforce access control and governance across all APIs.
+                  Authentication and authorization in an API led architecture should be handled specifically for each layer.  
+                  In Experience type APIs, it is recommended to use standards such as OAuth two point zero or JWT tokens to authenticate external users.  
+                  In Process type APIs, the main focus should be on validating scopes and permissions within the token to ensure proper internal access control.  
+                  In System type APIs, mutual authentication with certificates is recommended to secure communication with legacy systems and backend services.  
+                  Additionally, applying security policies directly in the API management platform helps strengthen access control and governance across the entire architecture.

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_openid_connect:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu insiro metadata OIDC do provider no portal do Exchange.
+                  Claims como sub e groups sao mapeados para roles.
+                  Isso garante identidade unificada e segura.
+              - vr_en: |
+                  I enter the provider’s OIDC metadata in the Exchange portal.
+                  Claims like sub and groups are mapped to roles.
+                  It ensures unified secure identity.

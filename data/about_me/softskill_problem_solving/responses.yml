@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_problem_solving:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Encaro problemas assim:
+                  - isolo causa raiz com logs e testes.
+                  - testo hipóteses em ambiente isolado.
+                  - implemento solução incremental e monitoro efeitos.
+              - vr_en: |
+                  I solve problems by:
+                  - isolating root cause using logs and tests.
+                  - testing hypotheses in a sandbox.
+                  - implementing incremental fixes and monitoring impact.

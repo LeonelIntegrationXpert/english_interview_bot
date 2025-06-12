@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_lineage_tracking:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Exchange gera grafo que mostra hierarquia de assets e pipelines.
+                  Permite entender de onde vieram schemas e como estao ligados.
+                  Isso auxilia compliance e troubleshooting.
+              - vr_en: |
+                  Exchange generates a graph showing asset and pipeline hierarchy.
+                  It allows understanding where schemas originated and how they connect.
+                  It aids compliance and troubleshooting.

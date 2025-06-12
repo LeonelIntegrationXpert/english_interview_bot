@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_ci_cd_integration
+    examples: |
+      - como integrar DC com CI CD?
+      - como faz integração DC CI CD?
+      - pra que serve DC CI CD?
+      - oque faz DC CI CD?
+      - como usar DC CI CD?
+      - how do you integrate Design Center with CI CD?
+      - how do u do DC CI CD integration?
+      - what is DC CI CD used for?
+      - what does DC CI CD do?
+      - how do you use DC CI CD?

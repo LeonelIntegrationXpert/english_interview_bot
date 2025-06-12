@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_security_templates
+    examples: |
+      - como usar security templates no RAML DC?
+      - como aplicar security templates no Design Center?
+      - pra que servem security templates no DC?
+      - como definir templates de segurança no RAML DC?
+      - como configurar security templates no DC?
+      - how do you use security templates in RAML in Design Center?
+      - how do u apply security templates in DC?
+      - what are security templates used for in DC?
+      - how do you define security templates in RAML in DC?
+      - how do you configure security templates in DC?

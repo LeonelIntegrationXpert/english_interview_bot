@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_asset_workflow
+    examples: |
+      - como gerenciar workflow de asset no Exchange
+      - como configurar etapas de aprovacao
+      - como automatizar publish
+      - como definir gates de qualidade
+      - como criar ciclo de vida de asset
+      - how do you manage asset workflow in Exchange
+      - how do you configure approval steps
+      - how do you automate publishing
+      - how do you define quality gates
+      - how do you create an asset lifecycle

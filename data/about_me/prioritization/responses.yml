@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_prioritization:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Prioritizo assim:
+                  - avalio impacto de cada tarefa.
+                  - discuto prioridades com stakeholders.
+                  - reajusto conforme necessidade do negócio.
+              - vr_en: |
+                  I set priorities by:
+                  - assessing impact of each task.
+                  - discussing priorities with stakeholders.
+                  - adjusting based on business needs.

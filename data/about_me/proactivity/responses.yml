@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_proactivity:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Sou proativo:
+                  - identifico riscos antes que virem problema.
+                  - proponho soluções sem aguardar comando.
+                  - compartilho ideias para otimizar processos.
+              - vr_en: |
+                  I’m proactive by:
+                  - identifying risks before they become issues.
+                  - proposing solutions without waiting to be asked.
+                  - sharing ideas to optimize processes.

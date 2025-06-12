@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_extension_parent_concept
+    examples: |
+      - o que e extension parent no Exchange
+      - como funciona extension parent
+      - para que serve extension parent no Exchange
+      - o que significa inheritance de asset
+      - como entender extension parent
+      - what is extension parent in Exchange
+      - how does extension parent work
+      - what is the purpose of extension parent in Exchange
+      - what does asset inheritance mean
+      - how to understand extension parent

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: mule-http-policy-transform-extension
+    examples: |
+      - pode falar do http-policy-transform-extension?
+      - o que faz a extension HTTP?
+      - explica o policy-transform?
+      - como funciona o transform-extension?
+      - para que serve essa extensão?
+      - can you explain http-policy-transform-extension?
+      - what does the HTTP transform extension do?
+      - how does the policy-transform work?
+      - talk about the transform-extension?
+      - what is this extension used for?

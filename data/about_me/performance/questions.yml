@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: performance
+    examples: |
+      - como você garante performance em integrações MuleSoft?
+      - como vc garante performance em integrações Mule?
+      - como tu mantem performance no Mule?
+      - como vc otimiza performance no MuleSoft?
+      - como faz pra manter perf no Mule?
+      - como tu garante perf nas APIs Mule?
+      - como vc lida com performance em flows Mule?
+      - como tu faz tuning de performance no Mule?
+      - como vc melhora perf em MuleSoft?
+      - como tu otimiza perf no Anypoint?
+      - how do you ensure performance in MuleSoft integrations?
+      - how do u ensure performance in Mule integrations?
+      - how u maintain performance in Mule?
+      - how do u optimize performance in MuleSoft?
+      - how u tune performance in Mule?
+      - how do u improve perf in MuleSoft?
+      - how u guarantee perf in Mule APIs?
+      - how do u do performance tuning in Mule?
+      - how u handle performance in Mule flows?
+      - how u optimize perf in Anypoint?

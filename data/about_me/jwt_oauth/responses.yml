@@ -1,0 +1,17 @@
+version: '3.1'
+responses:
+  utter_jwt_oauth:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu implemento JWT/OAuth2 assim:
+                  • crio policy personalizada de validação com múltiplos JWKS.
+                  • configuro OAuth2 Provider no API Manager.
+                  • valido claims críticos (exp, aud, scope).
+                  • uso Anypoint SDK para lógica custom se necessário.
+              - vr_en: |
+                  I implement JWT/OAuthtwo by:
+                  • creating a custom validation policy with multiple JWKS.
+                  • configuring OAuthtwo Provider in API Manager.
+                  • validating critical claims (exp, aud, scope).
+                  • using Anypoint SDK for custom logic when needed.

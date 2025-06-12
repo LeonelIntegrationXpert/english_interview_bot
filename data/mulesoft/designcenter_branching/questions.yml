@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_branching
+    examples: |
+      - como criar branch no DC?
+      - como faz branching DC?
+      - pra que serve branch DC?
+      - oque faz branch?
+      - como usar branch no DC?
+      - how do you create branches in Design Center?
+      - how do u do branching in DC?
+      - what is branching used for in DC?
+      - what does branch do?
+      - how do you use branches in DC?

@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_ethical_behavior:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Ajo eticamente:
+                  - sigo políticas e condutas da empresa.
+                  - reporto conflitos de interesse.
+                  - respeito confidencialidade e privacidade.
+              - vr_en: |
+                  I act ethically by:
+                  - following company policies and conduct.
+                  - reporting conflicts of interest.
+                  - respecting confidentiality and privacy.

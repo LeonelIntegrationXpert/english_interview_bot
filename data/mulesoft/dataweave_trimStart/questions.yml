@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_trimStart
+    examples: |
+      - como usar trimStart no DataWeave?
+      - como aplica trimStart DW?
+      - pra que serve trimStart em DW?
+      - oque faz trimStart no dataweave?
+      - como usar operador trimStart DW?
+      - how do you use trimStart in DataWeave?
+      - how do u apply trimStart in DW?
+      - what is trimStart used for in DataWeave?
+      - what does trimStart do in DW?
+      - how do you use the trimStart operator in DW?

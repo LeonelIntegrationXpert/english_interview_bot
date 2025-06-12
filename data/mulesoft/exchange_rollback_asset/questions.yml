@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_rollback_asset
+    examples: |
+      - como reverte asset no Exchange
+      - como reverter asset no Exchange
+      - como desfaz rollback de asset
+      - como eu rolo para tras asset no Exchange
+      - como recupero versao anterior de asset
+      - how do you rollback an asset in Exchange
+      - how do u revert an asset in Exchange
+      - how do you undo an asset version in Exchange
+      - how do you roll back an asset in Exchange
+      - how do you restore a previous asset version

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_examplesMultiple
+    examples: |
+      - como adicionar varios examples em RAML no DC?
+      - como usar multiplos examples no DC RAML?
+      - pra que serve examples multiple no DC?
+      - oque faz multiple examples no RAML DC?
+      - como configurar exemplos multiple no RAML DC?
+      - how do you add multiple examples in RAML in Design Center?
+      - how do u use multiple examples in DC RAML?
+      - what is multiple examples used for in DC?
+      - what does multiple examples do in RAML in DC?
+      - how do you configure multiple examples in RAML in DC?

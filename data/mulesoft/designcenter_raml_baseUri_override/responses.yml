@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_baseUri_override:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso baseUriOverride no Design Center para apontar mocks ou ambientes de teste.
+                  Isso permite simular chamadas sem alterar contrato.
+                  Facilita debugging e QA.
+              - vr_en: |
+                  I use baseUriOverride in Design Center to point to mocks or test environments.
+                  It allows simulating calls without changing the contract.
+                  It eases debugging and QA processes.

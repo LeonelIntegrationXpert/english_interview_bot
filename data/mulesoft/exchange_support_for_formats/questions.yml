@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_support_for_formats
+    examples: |
+      - quais formatos o Exchange suporta
+      - como adicionar novos formatos
+      - como o Exchange lida com JSON e YAML
+      - como versionar specs em outros formatos
+      - como configurar formatos de upload
+      - what formats does Exchange support
+      - how do you add new formats
+      - how does Exchange handle JSON and YAML
+      - how do you version specs in other formats
+      - how do you configure upload formats

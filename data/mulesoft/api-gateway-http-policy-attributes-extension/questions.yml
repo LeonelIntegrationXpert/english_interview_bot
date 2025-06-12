@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: api-gateway-http-policy-attributes-extension
+    examples: |
+      - pode falar do api-gateway-http-policy-attributes-extension?
+      - o que faz a extension de atributos?
+      - explica a policy-attributes?
+      - como funciona o attributes-extension?
+      - para que serve essa extensão?
+      - can you explain api-gateway-http-policy-attributes-extension?
+      - what does the attributes extension do?
+      - how does policy-attributes work?
+      - talk about the attributes-extension?
+      - what is this extension used for?

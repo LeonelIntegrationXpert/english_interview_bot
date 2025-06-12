@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_toNumber:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso toNumber para converter strings ou booleans em valores numéricos
+              - vr_en: |
+                  I use toNumber to convert strings or booleans into numeric values

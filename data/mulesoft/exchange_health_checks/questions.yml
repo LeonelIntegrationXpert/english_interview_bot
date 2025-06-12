@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_health_checks
+    examples: |
+      - como configurar health checks de asset
+      - como monitorar saude de recurso
+      - como definir endpoints de heartbeat
+      - como receber alertas de falhas
+      - como auditar disponibilidade
+      - how do you configure health checks for an asset
+      - how do you monitor resource health
+      - how do you define heartbeat endpoints
+      - how do you receive failure alerts
+      - how do you audit availability

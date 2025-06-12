@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_traits
+    examples: |
+      - como usar traits em RAML no DC?
+      - como criar traits no Design Center?
+      - como configuro traits em RAML?
+      - como especificar traits no DC?
+      - como aplicar traits no Design Center?
+      - how do you use traits in RAML in Design Center?
+      - how do u create traits in DC?
+      - how do u configure traits in RAML?
+      - how do u specify traits in DC?
+      - how do u apply traits in Design Center?

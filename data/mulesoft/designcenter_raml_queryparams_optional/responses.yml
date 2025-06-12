@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_queryparams_optional:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino queryParameters como optional via required false no Design Center.
+                  Isso permite chamadas sem aquele parâmetro quando não for necessário.
+                  Facilita flexibilidade nas APIs.
+              - vr_en: |
+                  I set queryParameters as optional by using required false in Design Center.
+                  This allows calls without that parameter when not needed.
+                  It adds flexibility to the API.

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_shared_library
+    examples: |
+      - como criar biblioteca compartilhada no Exchange
+      - como publicar library no portal
+      - como consumir shared library
+      - como versionar bibliotecas
+      - como reusar library em projetos
+      - how do you create a shared library in Exchange
+      - how do you publish a library to the portal
+      - how do you consume a shared library
+      - how do you version libraries
+      - how do you reuse libraries in projects

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_grant_asset_access:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu aprovo request no painel de ACL e concedo acesso ao usuario.
+                  Usuario passa a ver e baixar o asset.
+                  Aprovacao fica registrada no historico de acessos.
+              - vr_en: |
+                  I approve the request in the ACL panel and grant access to the user.
+                  The user can then view and download the asset.
+                  The approval is recorded in the access history.

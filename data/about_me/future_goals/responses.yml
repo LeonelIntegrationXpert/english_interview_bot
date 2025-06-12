@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_future_goals:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu pretendo:
+                  • aprofundar-me em Runtime Fabric e Anypoint Next-Gen.
+                  • liderar times globais em projetos de transformação.
+                  • contribuir com comunidades MuleSoft e dar palestras.
+              - vr_en: |
+                  I plan to:
+                  • deepen my expertise in Runtime Fabric and Anypoint Next-Gen.
+                  • lead global teams on transformation projects.
+                  • contribute to MuleSoft communities and speak at events.

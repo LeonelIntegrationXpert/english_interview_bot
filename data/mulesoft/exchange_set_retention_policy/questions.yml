@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_set_retention_policy
+    examples: |
+      - como definir politica de retencao no Exchange
+      - como configuro retencao de data de asset
+      - como aplico retention policy
+      - como especifico periodo de retencao
+      - como ajusto politica de historico
+      - how do you set a retention policy in Exchange
+      - how do u configure asset data retention
+      - how do you apply retention policy
+      - how do you specify retention period
+      - how do you adjust history policy

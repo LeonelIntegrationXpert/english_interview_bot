@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_schema_registry_integration:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu publico esquemas Avro no Exchange e configuro registry externo.
+                  Consumers validam eventos antes de processar.
+                  Isso garante compatibilidade em pipelines de eventos.
+              - vr_en: |
+                  I publish Avro schemas in Exchange and configure an external registry.
+                  Consumers validate events before processing.
+                  It ensures compatibility in event pipelines.

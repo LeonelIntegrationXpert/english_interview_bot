@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: softskill_conflict_resolution
+    examples: |
+      - como vc resolve conflitos na equipe?
+      - como tu resolve conflito de time?
+      - como vc lida c desentendimento?
+      - como tu apazigua atrito?
+      - como vc mediba briga de equipe?
+      - cm tu apazigua conflito?
+      - como vc negocia paz no time?
+      - como tu resolve treta no trabalho?
+      - como vc acalma atrito?
+      - como tu gerencia atrito de equipe?
+      - how do you resolve conflicts in a team?
+      - how do u handle team disagreements?
+      - how u mediate disputes?
+      - how do u ease tensions on team?
+      - how u manage workplace conflict?
+      - how do u calm team disputes?
+      - how u negotiate peace in team?
+      - how do u smooth over frictions?
+      - how u address disagreement?
+      - how do u defuse conflict?

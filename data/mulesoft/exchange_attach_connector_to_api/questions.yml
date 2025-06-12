@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_attach_connector_to_api
+    examples: |
+      - como anexar conector a API no Exchange
+      - como coloco connector em asset
+      - como adiciono connector no Exchange
+      - como vinculo connector a API asset
+      - como grudo connector no Exchange
+      - how do you attach a connector to an API in Exchange
+      - how do u add a connector to an asset
+      - how do you bind a connector in Exchange
+      - how do you affix a connector to an asset
+      - how do you link a connector to an API asset

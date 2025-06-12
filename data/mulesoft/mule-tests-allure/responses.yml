@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_mule-tests-allure:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  No mule-tests-allure eu forneço constantes para padronizar testes Allure:
+                  - defino templates de features e stories para Mule 4 EE
+                  - integro relatórios de MUnit com Allure UI
+                  - garanto consistência de nomenclatura em suítes de teste
+              - vr_en: |
+                  In mule-tests-allure I provide constants to standardize Allure tests:
+                  - define feature and story templates for Mule 4 EE
+                  - integrate MUnit reports with the Allure UI
+                  - ensure naming consistency across test suites

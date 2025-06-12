@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_substringAfter:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso substringAfter para retornar a parte após um delimitador especificado na string
+              - vr_en: |
+                  I use substringAfter to return the portion after a specified delimiter in the string

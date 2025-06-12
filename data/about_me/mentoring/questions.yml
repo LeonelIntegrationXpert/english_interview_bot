@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: mentoring
+    examples: |
+      - como vc orienta colegas menos experientes?
+      - como tu faz mentoria no time?
+      - como vc guia junior?
+      - como tu compartilha conhecimento?
+      - como vc ajuda quem é novo?
+      - how do you mentor less experienced colleagues?
+      - how do u provide mentorship?
+      - how u guide juniors?
+      - how do u share knowledge?
+      - how u help team newcomers?

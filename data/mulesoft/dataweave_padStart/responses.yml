@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_padStart:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso padStart para preencher o início de uma string com caracteres até atingir o tamanho desejado
+              - vr_en: |
+                  I use padStart to fill the beginning of a string with characters until it reaches the desired length

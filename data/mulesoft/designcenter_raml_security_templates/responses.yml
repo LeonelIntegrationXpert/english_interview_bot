@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_security_templates:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu crio security templates no Design Center para OAuth2 e API Key padrão.
+                  Aplico esses templates em métodos via traits.
+                  Asseguro políticas de autenticação consistentes.
+              - vr_en: |
+                  I create security templates in Design Center for OAuth2 and API Key defaults.
+                  I apply these templates to methods via traits.
+                  I ensure consistent authentication policies.

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_object_vs_map
+    examples: |
+      - qual diferença entre object e map no DataWeave?
+      - qual diferenca obj e map no DW?
+      - oque difere object map DW?
+      - como dif object e map no dataweave?
+      - pra que serve object vs map no DW?
+      - what is the difference between object and map in DataWeave?
+      - how do object and map differ in DataWeave?
+      - what distinguishes object from map in DW?
+      - how do you use object versus map in DataWeave?
+      - what are object and map used for in DW?

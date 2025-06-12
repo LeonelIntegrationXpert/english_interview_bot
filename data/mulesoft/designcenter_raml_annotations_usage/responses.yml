@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_annotations_usage:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu insiro annotations no Design Center com @annotationName no RAML.
+                  Isso adiciona metadados customizados para documentação ou lógica.
+                  Permite extensibilidade sem alterar padrão RAML.
+              - vr_en: |
+                  I insert annotations in Design Center with @annotationName in RAML.
+                  This adds custom metadata for documentation or logic.
+                  It allows extensibility without changing the RAML standard.

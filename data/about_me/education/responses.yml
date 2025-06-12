@@ -1,0 +1,11 @@
+version: '3.1'
+responses:
+  utter_education:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Sou Tecnólogo em Sistemas para Internet pelo IFSul (2020–2023).
+                  Também participei de Pibid e monitorias em C e C++ durante a graduação.
+              - vr_en: |
+                  I hold a Technology degree in Internet Systems from IFSul (twenty twenty to twenty twenty-three(2020–2023)).
+                  I also took part in PIBID and served as a monitor for C and C++(plus plus) courses.

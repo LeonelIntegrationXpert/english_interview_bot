@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_contract_driven
+    examples: |
+      - como usa contract driven no Design Center?
+      - como faz contract driven DC?
+      - pra que serve contract driven DC?
+      - oque faz contract driven?
+      - como usar contract driven no DC?
+      - how do you use contract driven development in Design Center?
+      - how do u do contract driven in DC?
+      - what is contract driven used for in DC?
+      - what does contract driven do?
+      - how do you use contract driven in DC?

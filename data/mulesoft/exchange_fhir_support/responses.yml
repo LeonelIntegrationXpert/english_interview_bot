@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_fhir_support:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu publico o OpenAPI FHIR no Exchange.
+                  Pipelines usam validações de recursos e bundling.
+                  Isso acelera conformidade em integracoes de saude.
+              - vr_en: |
+                  I publish the FHIR OpenAPI spec in Exchange.
+                  Pipelines use resource validation and bundling.
+                  It speeds compliance in healthcare integrations.

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_retire_asset:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso a opcao retire para tornar o asset inacessivel a novos consumidores.
+                  O asset permanece no historico mas nao aparece em pesquisas ativas.
+                  Facilita gerenciar obsolescencia sem perda de dados.
+              - vr_en: |
+                  I use the retire option to make the asset inaccessible to new consumers.
+                  The asset remains in history but does not appear in active searches.
+                  It helps manage obsolescence without data loss.

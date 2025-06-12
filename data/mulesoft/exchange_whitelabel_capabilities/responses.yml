@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_whitelabel_capabilities:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro custom domains, logo e paleta de cores no portal.
+                  Tambem ajusto texto default e contatos de suporte.
+                  Isso entrega experiencia de marca consistente.
+              - vr_en: |
+                  I configure custom domains logo and color palette in the portal.
+                  I also adjust default text and support contacts.
+                  It delivers a consistent branded experience.

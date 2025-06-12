@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_mule-module-global-config:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  No module-global-config eu implementei carregamento de configurações globais:
+                  - suporte a HOCON e JSON com Everit JSON Schema
+                  - recarga thread-safe usando StampedLock
+                  - construção dinâmica de objetos de configuração em runtime
+              - vr_en: |
+                  In module-global-config I implemented global configuration loading:
+                  - support for HOCON and JSON via Everit JSON Schema
+                  - thread-safe reload using StampedLock
+                  - dynamic construction of config objects at runtime

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_includeDirective
+    examples: |
+      - como usar include no RAML DC?
+      - como aplicar includeDirective no Design Center?
+      - pra que serve include no RAML DC?
+      - oque faz include no DC?
+      - como usar include no editor RAML DC?
+      - how do you use include in RAML in Design Center?
+      - how do u apply includeDirective in DC?
+      - what is include used for in RAML in DC?
+      - what does include do in DC?
+      - how do you use include in the RAML editor in DC?

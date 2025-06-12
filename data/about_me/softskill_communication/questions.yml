@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: softskill_communication
+    examples: |
+      - como vc se comunica com times remotos?
+      - como vc comunica com time remoto?
+      - como tu se comunica com equipe remota?
+      - como comunica c equipe longe?
+      - cmo tu fal com ppl fora do local?
+      - como vc lida communicacao remota?
+      - como faz para falar c time remoto?
+      - como vc mantém comunic remota?
+      - como tu troca info c equipe longe?
+      - como vc gerencia conversa remota?
+      - how do you communicate with remote teams?
+      - how do u talk with remote team?
+      - how u communicate with offsite team?
+      - how do u handle remote communication?
+      - how u keep remote team updated?
+      - how do u stay in touch with remote colleagues?
+      - how u share info with remote team?
+      - how do u maintain remote comms?
+      - how u coordinate with remote team?
+      - how do u manage remote communication?

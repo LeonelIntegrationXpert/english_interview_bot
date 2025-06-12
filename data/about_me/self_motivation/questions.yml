@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: self_motivation
+    examples: |
+      - como vc se mantém motivado?
+      - como tu encontra motivação?
+      - como vc se inspira no trabalho?
+      - como tu mantém energia?
+      - como vc continua engajado?
+      - how do you stay self-motivated?
+      - how do u find motivation?
+      - how u stay inspired at work?
+      - how do u keep your energy up?
+      - how u remain engaged?

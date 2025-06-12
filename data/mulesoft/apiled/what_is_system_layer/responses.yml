@@ -3,14 +3,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  A camada **System** é responsável por **gerenciar os sistemas internos**, como bancos de dados, aplicações legadas e outros serviços de back-end.  
-                  Ela lida com a **integração e persistência** de dados, conectando as fontes de dados com a camada Process para que as informações sejam acessíveis e utilizáveis.  
-                  Essa camada também é responsável por **gerenciar a comunicação entre sistemas** e garantir que a infraestrutura de TI suporte as integrações.  
-                  Além disso, a camada System oferece **segurança e consistência** ao garantir que as APIs estejam conectadas corretamente e que as trocas de dados sejam realizadas de forma eficiente.  
-                  É a camada mais voltada à **infraestrutura e ao processamento de dados** dentro da arquitetura MuleSoft.
+                  A camada chamada System é responsável por gerenciar os sistemas internos da organização, como bancos de dados, aplicações legadas e outros serviços de backend.  
+                  Ela cuida da integração com as fontes de dados e da persistência das informações, garantindo que esses dados possam ser acessados e utilizados pela camada Process.  
+                  Essa camada também gerencia a comunicação entre sistemas e assegura que a infraestrutura de tecnologia da informação esteja preparada para suportar as integrações.  
+                  Além disso, a camada System oferece segurança e consistência ao garantir que as APIs estejam corretamente conectadas e que as trocas de dados ocorram de maneira eficiente.  
+                  Trata se da camada mais voltada para a infraestrutura e o processamento técnico de dados dentro da arquitetura baseada em API led da MuleSoft.
               - vr_en: |
-                  The **System Layer** is responsible for **managing internal systems**, such as databases, legacy applications, and other back-end services.  
-                  It handles **data integration and persistence**, connecting data sources to the Process layer so that information is accessible and usable.  
-                  This layer is also responsible for **managing communication between systems** and ensuring that the IT infrastructure supports the integrations.  
-                  Additionally, the System Layer provides **security and consistency** by ensuring that APIs are correctly connected and that data exchanges are efficient.  
-                  It is the layer most focused on **infrastructure and data processing** within the MuleSoft architecture.
+                  The layer called System is responsible for managing the internal systems of the organization, such as databases, legacy applications, and other backend services.  
+                  It handles integration with data sources and the persistence of information, ensuring that data can be accessed and utilized by the Process layer.  
+                  This layer also manages communication between systems and ensures that the information technology infrastructure is ready to support integrations.  
+                  Additionally, the System layer provides security and consistency by making sure that APIs are properly connected and that data exchanges happen efficiently.  
+                  It is the layer most focused on infrastructure and technical data processing within MuleSoft's API led architecture.

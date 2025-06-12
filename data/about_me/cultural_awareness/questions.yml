@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: cultural_awareness
+    examples: |
+      - como vc lida com diversidade cultural?
+      - como tu respeita diferenças culturais?
+      - como vc trabalha com pessoas de outras culturas?
+      - como tu adapta comunicação?
+      - como vc entende contexto diverso?
+      - how do you handle cultural diversity?
+      - how do u respect cultural differences?
+      - how u work with people from other cultures?
+      - how do u adapt communication?
+      - how u understand diverse contexts?

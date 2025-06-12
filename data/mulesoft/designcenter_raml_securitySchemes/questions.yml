@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_securitySchemes
+    examples: |
+      - como definir securitySchemes em RAML no DC?
+      - como criar securitySchemes no Design Center?
+      - como uso securitySchemes em RAML?
+      - como configuro securitySchemes no DC?
+      - como especifico securitySchemes no Design Center?
+      - how do you define securitySchemes in RAML in Design Center?
+      - how do u create securitySchemes in DC?
+      - how do u use securitySchemes in RAML?
+      - how do u configure securitySchemes in DC?
+      - how do u specify securitySchemes in Design Center?

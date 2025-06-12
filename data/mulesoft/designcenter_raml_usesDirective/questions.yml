@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_usesDirective
+    examples: |
+      - como usar uses no RAML DC?
+      - como aplicar usesDirective no Design Center?
+      - pra que serve uses no RAML DC?
+      - oque faz uses no DC?
+      - como usar uses no editor RAML DC?
+      - how do you use uses in RAML in Design Center?
+      - how do u apply usesDirective in DC?
+      - what is uses used for in RAML in DC?
+      - what does uses do in DC?
+      - how do you use uses in the RAML editor in DC?

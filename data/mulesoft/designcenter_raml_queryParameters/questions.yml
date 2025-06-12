@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_queryParameters
+    examples: |
+      - como definir queryParameters no RAML no DC?
+      - como configurar queryParameters no Design Center?
+      - pra que serv queryParameters no RAML?
+      - oque faz queryParameters no DC?
+      - como usar queryParameters no editor RAML DC?
+      - how do you define queryParameters in RAML in Design Center?
+      - how do u configure queryParameters in DC?
+      - what are queryParameters used for in RAML?
+      - what do queryParameters do in DC?
+      - how do you use queryParameters in the RAML editor in DC?

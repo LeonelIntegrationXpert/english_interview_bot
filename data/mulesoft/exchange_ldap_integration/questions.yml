@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_ldap_integration
+    examples: |
+      - como ligar Exchange ao LDAP
+      - como usar AD para auth
+      - como mapear grupos LDAP
+      - como sincronizar usuarios
+      - como configurar single sign on via LDAP
+      - how do you integrate Exchange with LDAP
+      - how do you use AD for auth
+      - how do you map LDAP groups
+      - how do you synchronize users
+      - how do you configure single sign on via LDAP

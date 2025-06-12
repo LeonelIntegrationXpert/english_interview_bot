@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_protocols_variations:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro protocols como HTTP e HTTPS no Design Center.
+                  Assim API aceita requisições seguras e não seguras.
+                  Permite teste em ambientes variados.
+              - vr_en: |
+                  I configure protocols as HTTP and HTTPS in Design Center.
+                  Thus API accepts secure and nonsecure requests.
+                  It allows testing in varied environments.

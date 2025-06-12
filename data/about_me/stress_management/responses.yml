@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_stress_management:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Gerencio stress:
+                  - faço pausas estratégicas de respiração.
+                  - pratico atividade física regular.
+                  - compartilho preocupações com mentor.
+              - vr_en: |
+                  I manage stress by:
+                  - taking strategic breathing breaks.
+                  - practicing regular exercise.
+                  - sharing concerns with a mentor.

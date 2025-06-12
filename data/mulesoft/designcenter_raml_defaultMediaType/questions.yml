@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_defaultMediaType
+    examples: |
+      - como definir defaultMediaType no RAML no DC?
+      - como configurar defaultMediaType no Design Center?
+      - pra que serve defaultMediaType no RAML DC?
+      - oque faz defaultMediaType no DC?
+      - como usar defaultMediaType no editor RAML DC?
+      - how do you define defaultMediaType in RAML in Design Center?
+      - how do u configure defaultMediaType in DC?
+      - what is defaultMediaType used for in RAML in DC?
+      - what does defaultMediaType do in DC?
+      - how do you use defaultMediaType in the RAML editor in DC?

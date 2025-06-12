@@ -3,16 +3,16 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Casos reais de uso da arquitetura **API-led** demonstram seu valor em cenários corporativos diversos:  
-                  • 🔗 Integração de sistemas legados (como SAP e mainframes) com plataformas modernas como Salesforce.  
-                  • 📱 Exposição de dados para aplicações mobile e web por meio de *Experience APIs*, garantindo segurança e performance.  
-                  • ♻️ Reutilização de *System APIs* em múltiplos fluxos, promovendo padronização e redução de retrabalho.  
-                  • 🧩 Criação de *Process APIs* para orquestrar lógica de negócio entre diferentes sistemas e serviços.  
-                  Essa abordagem melhora a **agilidade, a modularidade e a governança**, além de acelerar a entrega de valor ao negócio.
+                  Casos reais de uso da arquitetura API led demonstram seu valor em diversos cenários corporativos.  
+                  Um exemplo comum é a integração de sistemas legados, como plataformas SAP ou ambientes mainframe, com soluções modernas como Salesforce.  
+                  Outro uso frequente é a exposição segura e eficiente de dados para aplicações móveis e web por meio das APIs do tipo Experience.  
+                  Também é recorrente a reutilização de APIs do tipo System em múltiplos fluxos de integração, promovendo padronização e reduzindo retrabalho.  
+                  Além disso, a criação de APIs do tipo Process permite orquestrar regras de negócio entre diferentes sistemas e serviços de forma estruturada.  
+                  Essa abordagem melhora a agilidade, a modularidade e a governança, acelerando a entrega de valor para o negócio.
               - vr_en: |
-                  Real-world use cases of **API-led architecture** showcase its effectiveness across enterprise environments:  
-                  • 🔗 Integrating legacy systems (e.g., SAP, mainframes) with modern platforms like Salesforce.  
-                  • 📱 Delivering secure and performant access to mobile and web apps via *Experience APIs*.  
-                  • ♻️ Reusing *System APIs* across different business processes to ensure standardization and reduce redundancy.  
-                  • 🧩 Using *Process APIs* to orchestrate business logic across systems and services.  
-                  This approach enhances **agility, modularity, and governance**, while accelerating time-to-value for the business.
+                  Real use cases of the API led architecture demonstrate its value across various corporate scenarios.  
+                  A common example is the integration of legacy systems such as SAP platforms or mainframe environments with modern solutions like Salesforce.  
+                  Another frequent application is the secure and efficient exposure of data to mobile and web applications through Experience type APIs.  
+                  It is also common to reuse System type APIs across multiple integration flows, promoting standardization and reducing rework.  
+                  Additionally, the creation of Process type APIs enables structured orchestration of business logic across different systems and services.  
+                  This approach improves agility, modularity, and governance, while accelerating the delivery of business value.

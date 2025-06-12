@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_leadership:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Exerço liderança assim:
+                  - assumo iniciativa em momentos críticos.
+                  - ofereço suporte técnico e orientação.
+                  - compartilho conhecimento e mentorias ad hoc.
+              - vr_en: |
+                  I demonstrate leadership by:
+                  - taking initiative in critical moments.
+                  - providing technical guidance and support.
+                  - sharing knowledge and ad-hoc mentoring.

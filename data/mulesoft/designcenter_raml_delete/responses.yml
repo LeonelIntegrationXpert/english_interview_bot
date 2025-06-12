@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_delete:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro delete no Design Center definindo código de status e descrição no RAML
+              - vr_en: |
+                  I configure delete in Design Center by defining status code and description in RAML

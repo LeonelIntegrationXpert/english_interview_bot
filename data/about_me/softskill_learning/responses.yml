@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_learning:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Aprendo rápido assim:
+                  - sigo documentação oficial e tutoriais hands-on.
+                  - participo de comunidades e webinars.
+                  - aplico em pequenos projetos práticos.
+              - vr_en: |
+                  I learn quickly by:
+                  - following official docs and hands-on tutorials.
+                  - attending communities and webinars.
+                  - applying in small practical projects.

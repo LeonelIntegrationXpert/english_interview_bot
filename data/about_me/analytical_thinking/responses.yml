@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_analytical_thinking:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Penso analiticamente:
+                  - crio hipóteses e testo com números.
+                  - desconstruo problema em etapas lógicas.
+                  - reviso resultados para ajustar abordagem.
+              - vr_en: |
+                  I think analytically by:
+                  - formulating hypotheses and testing with data.
+                  - breaking problems into logical steps.
+                  - reviewing outcomes to refine my approach.

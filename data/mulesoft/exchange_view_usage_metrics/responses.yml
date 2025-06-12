@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_view_usage_metrics:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu acesso aba metrics no detalhe do asset no Exchange.
+                  Isso mostra downloads, cliques e dependencias.
+                  Ajuda avaliar popularidade e impacto do asset.
+              - vr_en: |
+                  I access the metrics tab on the asset detail page in Exchange.
+                  This shows downloads, clicks, and dependencies.
+                  It helps assess the asset’s popularity and impact.

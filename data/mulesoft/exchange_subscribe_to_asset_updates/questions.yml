@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_subscribe_to_asset_updates
+    examples: |
+      - como inscrever em atualizacoes de asset
+      - como recebo feed de asset
+      - como ativo subscription no Exchange
+      - como sigo atualizacoes
+      - como configuro live update
+      - how do you subscribe to asset updates in Exchange
+      - how do u get an asset update feed
+      - how do you enable a subscription in Exchange
+      - how do you follow live updates
+      - how do you set up real time notifications

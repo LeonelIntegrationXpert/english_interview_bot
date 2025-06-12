@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_manage_api_metrics
+    examples: |
+      - como gerenciar metricas de API no Exchange
+      - como configuro analytics de API
+      - como vejo estatisticas de API
+      - como acompanho consumo de API
+      - como monitoro uso de APIs
+      - how do you manage API metrics in Exchange
+      - how do u configure API analytics
+      - how do you see API statistics
+      - how do you track API consumption
+      - how do you monitor API usage

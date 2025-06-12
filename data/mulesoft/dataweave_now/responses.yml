@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_now:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso now para obter timestamp atual do sistema como objeto dateTime
+              - vr_en: |
+                  I use now to get the current system timestamp as a dateTime object

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_attach_policy_to_asset:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu seleciono policy e clico attach no asset detail.
+                  Isso associa regras de seguranca ou cors.
+                  Assets passam a aplicar policy automaticamente.
+              - vr_en: |
+                  I select the policy and click attach on the asset details.
+                  This associates security or cors rules.
+                  Assets then enforce the policy automatically.

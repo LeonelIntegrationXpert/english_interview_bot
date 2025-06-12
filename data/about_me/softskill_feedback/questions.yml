@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: softskill_feedback
+    examples: |
+      - como vc dá e recebe feedback?
+      - como tu dá e recebi feedback?
+      - como vc gerencia feedback?
+      - como tu lida c criticas?
+      - como vc acolhe opinião?
+      - como tu compartilha retorno?
+      - como vc recebe crítica?
+      - como tu dá sugestão?
+      - como vc conversa sobre feedback?
+      - como tu reage a review?
+      - how do you give and receive feedback?
+      - how do u manage feedback?
+      - how u handle criticism?
+      - how do u accept input?
+      - how u share suggestions?
+      - how do u provide feedback?
+      - how u receive critiques?
+      - how do u discuss feedback?
+      - how u react to reviews?
+      - how do u handle feedback?

@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_mediaType:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino mediaType no Design Center para application json xml ou custom no RAML
+              - vr_en: |
+                  I define mediaType in Design Center for application json xml or custom in RAML

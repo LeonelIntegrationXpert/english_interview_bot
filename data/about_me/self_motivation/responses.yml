@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_self_motivation:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Mantenho motivação:
+                  - defino metas desafiadoras mas alcançáveis.
+                  - celebro pequenas vitórias ao longo do caminho.
+                  - busco aprendizado constante.
+              - vr_en: |
+                  I stay motivated by:
+                  - setting challenging yet achievable goals.
+                  - celebrating small wins along the way.
+                  - pursuing continuous learning.

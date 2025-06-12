@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_motivation:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Sou motivado por:
+                  • criar integrações que simplificam processos de negócio.
+                  • aprender novas features e evoluir com a plataforma.
+                  • trabalhar em projetos de alto impacto global.
+              - vr_en: |
+                  I’m motivated by:
+                  • building integrations that simplify business processes.
+                  • learning new features and evolving with the platform.
+                  • working on high-impact global projects.

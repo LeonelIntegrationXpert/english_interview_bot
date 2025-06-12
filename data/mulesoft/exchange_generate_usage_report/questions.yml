@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_generate_usage_report
+    examples: |
+      - como gerar relatorio de uso do Exchange
+      - como exporto relatorio de metricas
+      - como extraio dados de uso
+      - como faço report de downloads
+      - como crio relatorio de consumo
+      - how do you generate a usage report from Exchange
+      - how do u export usage metrics report
+      - how do you extract usage data
+      - how do you create a download report
+      - how do you build a consumption report

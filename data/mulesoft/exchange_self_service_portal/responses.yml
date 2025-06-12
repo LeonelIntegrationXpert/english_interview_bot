@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_self_service_portal:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu habilito registro publico com aprovação via email.
+                  Users completam perfil e recebem roles iniciais automaticamente.
+                  Isso reduz overhead de administracao de usuarios.
+              - vr_en: |
+                  I enable public registration with email approval.
+                  Users complete their profile and get initial roles automatically.
+                  This reduces user management overhead.

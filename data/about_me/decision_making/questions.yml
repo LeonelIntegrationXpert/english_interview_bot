@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: decision_making
+    examples: |
+      - como vc toma decisões difíceis?
+      - como tu decide em dilema?
+      - como vc escolhe caminho em dúvida?
+      - como tu avalia opções críticas?
+      - como vc faz escolha complexa?
+      - how do you make difficult decisions?
+      - how do u decide in a dilemma?
+      - how u choose a path when unsure?
+      - how do u evaluate critical options?
+      - how u make complex choices?

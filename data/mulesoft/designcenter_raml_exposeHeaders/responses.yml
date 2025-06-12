@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_exposeHeaders:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro exposeHeaders via cors slash exposeHeaders para tornar cabecalhos visiveis no cliente.
+                  Isso permite acesso a cabecalhos de resposta customizados em front end.
+                  Facilita debugging e logs em navegadores.
+              - vr_en: |
+                  I configure exposeHeaders via cors slash exposeHeaders to make headers visible to clients.
+                  This allows access to custom response headers in front end applications.
+                  It aids debugging and logging in browsers.

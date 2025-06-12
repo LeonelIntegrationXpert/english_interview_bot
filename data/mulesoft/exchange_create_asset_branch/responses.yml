@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_create_asset_branch:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu clico new branch e informo nome de feature no Exchange.
+                  Isso cria copia isolada para alteracoes.
+                  Permite trabalho paralelo sem interferir no master.
+              - vr_en: |
+                  I click new branch and enter a feature name in Exchange.
+                  This creates an isolated copy for changes.
+                  It enables parallel work without affecting master.

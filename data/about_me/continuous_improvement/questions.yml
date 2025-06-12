@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: continuous_improvement
+    examples: |
+      - como vc busca melhoria contínua?
+      - como tu faz kaizen pessoal?
+      - como vc evolui sempre?
+      - como tu otimiza processos?
+      - como vc investe em autoaprendizado?
+      - how do you pursue continuous improvement?
+      - how do u practice personal kaizen?
+      - how u keep evolving?
+      - how do u optimize processes?
+      - how u invest in self-learning?

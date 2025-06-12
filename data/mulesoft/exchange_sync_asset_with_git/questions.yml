@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_sync_asset_with_git
+    examples: |
+      - como sincronizo asset do Exchange com Git
+      - como conexo Exchange ao repositorio
+      - como linko asset a Git
+      - como integro Exchange com Git
+      - como faco sync com GitHub
+      - how do you sync an Exchange asset with Git
+      - how do u connect Exchange to repository
+      - how do you link asset to Git
+      - how do you integrate Exchange with Git
+      - how do you sync with GitHub

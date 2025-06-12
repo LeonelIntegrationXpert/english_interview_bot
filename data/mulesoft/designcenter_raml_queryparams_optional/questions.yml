@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_queryparams_optional
+    examples: |
+      - como tornar queryParameters opcionais no RAML DC?
+      - como usar optional queryParams no Design Center?
+      - pra que serve optional queryParams no DC?
+      - como configurar queryParams opcionais no RAML DC?
+      - como setar optional queryParams no DC?
+      - how do you make queryParameters optional in RAML in Design Center?
+      - how do u use optional queryParams in DC?
+      - what is optional queryParams used for in DC?
+      - how do you configure optional queryParams in RAML in DC?
+      - how do you set optional queryParams in DC?

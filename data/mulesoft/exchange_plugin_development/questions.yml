@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_plugin_development
+    examples: |
+      - como desenvolver plugins para Exchange
+      - quais APIs de extensao usar
+      - como registrar um plugin
+      - como debuggar extensoes
+      - como distribuir plugins
+      - how do you develop plugins for Exchange
+      - which extension APIs to use
+      - how do you register a plugin
+      - how do you debug extensions
+      - how do you distribute plugins

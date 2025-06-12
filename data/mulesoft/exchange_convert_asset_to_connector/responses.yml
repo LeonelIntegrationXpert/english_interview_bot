@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_convert_asset_to_connector:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso opcao convert e seleciono tipo conector.
+                  Exchange ajusta pacotes e dependencies para connector.
+                  Facilita criacao de componentes reutilizaveis.
+              - vr_en: |
+                  I use the convert option and select connector type.
+                  Exchange adjusts packages and dependencies for a connector.
+                  It eases creation of reusable components.

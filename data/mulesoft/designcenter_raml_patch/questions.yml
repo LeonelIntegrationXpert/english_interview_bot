@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_patch
+    examples: |
+      - como criar patch em RAML no DC?
+      - como definir patch no Design Center?
+      - como uso patch em RAML no DC?
+      - como configuro patch em API no DC?
+      - como especifico patch no Design Center?
+      - how do you create a patch method in RAML in Design Center?
+      - how do u define patch in DC?
+      - how do u use patch in RAML in DC?
+      - how do u configure patch on API in DC?
+      - how do u specify patch in Design Center?

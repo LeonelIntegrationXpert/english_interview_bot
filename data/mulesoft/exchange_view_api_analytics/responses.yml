@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_view_api_analytics:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu acesso aba analytics no portal do Exchange.
+                  Visualizo graficos de latencia, erros e throughput.
+                  Dados ajudam otimizar performance da API.
+              - vr_en: |
+                  I access the analytics tab in the Exchange portal.
+                  I view latency error and throughput charts.
+                  Data helps optimize API performance.

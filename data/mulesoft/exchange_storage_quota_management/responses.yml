@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_storage_quota_management:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino quotas de giga por organizacao e ativo alertas.
+                  Monitoro dashboard de uso e recebo notificacoes proximas ao limite.
+                  Isso evita saturacao e garante disponibilidade.
+              - vr_en: |
+                  I set gigabyte quotas per organization and enable alerts.
+                  I monitor the usage dashboard and get notifications near limits.
+                  This prevents saturation and ensures availability.

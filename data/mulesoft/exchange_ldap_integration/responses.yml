@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_ldap_integration:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro o IdP LDAP em SSO settings no portal do Exchange.
+                  Mapeio grupos para roles e permissões automaticamente.
+                  Usuarios do AD acessam sem login extra.
+              - vr_en: |
+                  I configure the LDAP IdP in SSO settings on the Exchange portal.
+                  I map groups to roles and permissions automatically.
+                  AD users access without extra login.

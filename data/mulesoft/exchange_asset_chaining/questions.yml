@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_asset_chaining
+    examples: |
+      - como encadear assets no Exchange
+      - como criar pipeline de assets
+      - como linkar recursos em fluxo
+      - como orquestrar assets
+      - como usar asset chaining
+      - how do you chain assets in Exchange
+      - how do you create an asset pipeline
+      - how do you link resources in a flow
+      - how do you orchestrate assets
+      - how do you use asset chaining

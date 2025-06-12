@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_reuse_best_practices
+    examples: |
+      - quais melhores praticas para reuso no Exchange
+      - como garantir padroes de reuso
+      - como documentar ativos para reuso
+      - como versionar para reuso seguro
+      - como incentivar teams a reusar
+      - what are best practices for reuse in Exchange
+      - how do you ensure reuse standards
+      - how do you document assets for reuse
+      - how do you version for safe reuse
+      - how do you encourage teams to reuse

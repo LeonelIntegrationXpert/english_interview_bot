@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_as_innovation_hub
+    examples: |
+      - como o Exchange funciona como hub de inovacao
+      - como o Exchange estimula a criacao de ativos
+      - como usar o Exchange para fomentar inovações
+      - como o Exchange apoia experimentacao
+      - como o Exchange facilita testes de conceito
+      - how does Exchange serve as an innovation hub
+      - how does Exchange foster asset creation
+      - how do you use Exchange to drive innovation
+      - how does Exchange support experimentation
+      - how does Exchange enable proofs of concept

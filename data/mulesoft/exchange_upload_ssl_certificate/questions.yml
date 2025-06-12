@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_upload_ssl_certificate
+    examples: |
+      - como fazer upload de certificado SSL
+      - como carrego certificado no Exchange
+      - como configurar TLS
+      - como adicionar key store
+      - como instalar certificado
+      - how do you upload an SSL certificate
+      - how do u load a certificate into Exchange
+      - how do you configure TLS
+      - how do you add a key store
+      - how do you install a certificate

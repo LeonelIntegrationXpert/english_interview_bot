@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_mounting
+    examples: |
+      - como montar APIs no Design Center?
+      - como usar mounting no RAML DC?
+      - pra que serve mounting no DC?
+      - como definir montagem de API no RAML DC?
+      - como configurar mounting no DC?
+      - how do you mount APIs in Design Center?
+      - how do u use mounting in RAML in DC?
+      - what is mounting used for in DC?
+      - how do you define API mounting in RAML in DC?
+      - how do you configure mounting in DC?

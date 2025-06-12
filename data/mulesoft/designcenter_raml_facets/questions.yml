@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_facets
+    examples: |
+      - como usar facets no RAML DC?
+      - como definir facets no Design Center?
+      - pra que serv facets no RAML?
+      - oque faz facets no DC?
+      - como usar facets no editor RAML DC?
+      - how do you use facets in RAML in Design Center?
+      - how do u define facets in DC?
+      - what are facets used for in RAML?
+      - what do facets do in DC?
+      - how do you use facets in the RAML editor in DC?

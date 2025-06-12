@@ -3,14 +3,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  O **monitoramento em API-led** deve cobrir as três camadas:  
-                  • *System APIs*: rastreie latência e disponibilidade de sistemas legados.  
-                  • *Process APIs*: monitore transformações, erros de negócio e tempos de resposta.  
-                  • *Experience APIs*: avalie uso por canal e tempo de resposta ao consumidor.  
-                  Use ferramentas como **Anypoint Monitoring**, **Splunk** ou **Datadog** para gerar alertas, métricas e logs detalhados.
+                  O monitoramento em uma arquitetura API led deve abranger as três camadas principais da estrutura.  
+                  Nas APIs do tipo System, é importante rastrear a latência e a disponibilidade dos sistemas legados conectados.  
+                  Nas APIs do tipo Process, o foco deve estar no monitoramento das transformações de dados, dos erros de negócio e dos tempos de resposta.  
+                  Já nas APIs do tipo Experience, deve se avaliar o uso por canal e o tempo de resposta percebido pelo consumidor final.  
+                  Para isso, é recomendável utilizar ferramentas como Anypoint Monitoring, Splunk ou Datadog, que permitem a geração de alertas, métricas e registros detalhados de execução.
               - vr_en: |
-                  **Monitoring in API-led** should cover all three layers:  
-                  • *System APIs*: track latency and legacy system availability.  
-                  • *Process APIs*: monitor transformations, business errors, and response times.  
-                  • *Experience APIs*: evaluate channel usage and consumer response times.  
-                  Use tools like **Anypoint Monitoring**, **Splunk**, or **Datadog** to generate alerts, metrics, and detailed logs.
+                  Monitoring in an API led architecture should cover the three main layers of the structure.  
+                  In System type APIs, it is important to track latency and the availability of the connected legacy systems.  
+                  In Process type APIs, the focus should be on monitoring data transformations, business rule errors, and response times.  
+                  In Experience type APIs, channel specific usage and the response time perceived by the end user should be evaluated.  
+                  For that purpose, it is recommended to use tools such as Anypoint Monitoring, Splunk, or Datadog, which allow for generating alerts, metrics, and detailed execution logs.

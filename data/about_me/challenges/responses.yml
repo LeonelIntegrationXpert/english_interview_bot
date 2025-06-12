@@ -1,0 +1,19 @@
+version: '3.1'
+responses:
+  utter_challenges:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu enfrentei desafios como:
+                  • lidar com múltiplos IdPs e endpoints JWKS dinâmicos.
+                  • otimizar pipelines CI/CD e garantir deploys sem downtime.
+                  • manter performance sob alta carga e throttling de APIs.
+                  • implementar políticas customizadas de segurança sem impactar latência.
+                  • integrar sistemas legados complexos com DataWeave avançado.
+              - vr_en: |
+                  I faced challenges such as:
+                  • handling multiple IdPs and dynamic JWKS endpoints.
+                  • optimizing CI/CD pipelines and ensuring zero-downtime deployments.
+                  • maintaining performance under high load and API throttling.
+                  • implementing custom security policies without adding latency.
+                  • integrating complex legacy systems with advanced DataWeave.

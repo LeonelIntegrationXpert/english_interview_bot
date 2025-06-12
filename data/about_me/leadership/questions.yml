@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: leadership
+    examples: |
+      - como você lidera equipes em projetos MuleSoft?
+      - como vc lidera equipes em Mule?
+      - tu como lidera time no MuleSoft?
+      - como vc gerencia time Mule?
+      - como faz liderança em projetos Mule?
+      - tu como coordena equipe Mule?
+      - como vc conduz times em Mule?
+      - como tu lidera time de integração?
+      - como vc guia equipe Mule?
+      - como tu lidera projetos Mule?
+      - how do you lead teams on MuleSoft projects?
+      - how do u lead teams on Mule?
+      - how u manage team in MuleSoft?
+      - how do u coordinate Mule teams?
+      - how u lead integration teams?
+      - how do u guide teams in Mule?
+      - how u run team projects Mule?
+      - how u handle leadership in MuleSoft?
+      - how do u manage teams in Mule?
+      - how u lead projects in MuleSoft?

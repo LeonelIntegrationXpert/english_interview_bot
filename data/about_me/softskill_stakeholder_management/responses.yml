@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_stakeholder_management:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Gerencio stakeholders assim:
+                  - mantenho comunicação regular e transparente.
+                  - compartilho KPIs e progressos.
+                  - ajusto entregas conforme feedback.
+              - vr_en: |
+                  I manage stakeholders by:
+                  - maintaining regular, transparent communication.
+                  - sharing KPIs and progress.
+                  - adjusting deliverables based on feedback.

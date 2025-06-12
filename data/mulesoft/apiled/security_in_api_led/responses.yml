@@ -3,16 +3,16 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  A **segurança em uma arquitetura API-led** deve ser pensada de forma abrangente e aplicada em todas as camadas:  
-                  🔒 Na *System API*, utilize **autenticação mútua**, restrições de IP e certificados para proteger a comunicação com sistemas legados.  
-                  🛡️ Nas *Process APIs*, implemente **validação de tokens**, controle de taxa (**rate limiting**) e proteção contra ataques como DoS.  
-                  🌐 Já nas *Experience APIs*, adote **CORS**, **OAuth 2.0** e validações rigorosas de entrada para proteger a exposição pública.  
-                  Para reforçar a governança, centralize as regras com o **API Manager**, aplicando políticas reutilizáveis e mantendo logs auditáveis.  
-                  ➤ A segurança deve ser considerada desde a fase de design até a publicação da API.
+                  A segurança em uma arquitetura API led deve ser tratada de forma abrangente e aplicada em todas as camadas do modelo.  
+                  Na camada de APIs do tipo System, recomenda se o uso de autenticação mútua, restrições por endereço de IP e certificados digitais para proteger a comunicação com sistemas legados.  
+                  Na camada de APIs do tipo Process, é importante implementar a validação de tokens de acesso, o controle de taxa por meio de limitação de requisições e mecanismos contra ataques de negação de serviço.  
+                  Já na camada de APIs do tipo Experience, é fundamental aplicar validações rigorosas de entrada, controle de acesso com base em OAuth dois ponto zero e políticas de origem cruzada conhecidas como CORS.  
+                  Para reforçar a governança, recomenda se centralizar as regras de segurança utilizando o gerenciador de APIs da plataforma, aplicando políticas reutilizáveis e mantendo registros detalhados para auditoria.  
+                  A segurança deve ser considerada desde a fase de desenho da API até o momento de sua publicação e exposição em ambientes produtivos.
               - vr_en: |
-                  **Security in an API-led architecture** must be addressed holistically and enforced at every layer:  
-                  🔒 In *System APIs*, use **mutual authentication**, IP whitelisting, and certificates to protect backend integrations.  
-                  🛡️ In *Process APIs*, apply **token validation**, **rate limiting**, and safeguards against attacks like DoS.  
-                  🌐 In *Experience APIs*, enforce **CORS**, **OAuth 2.0**, and strong input validation to secure public-facing endpoints.  
-                  Leverage the **API Manager** to apply reusable security policies and maintain detailed, auditable logs.  
-                  ➤ Security should be embedded from design to deployment for consistent protection.
+                  Security in an API led architecture must be addressed in a comprehensive way and enforced across all layers of the model.  
+                  In the System type API layer, it is recommended to use mutual authentication, IP based restrictions, and digital certificates to secure communication with legacy systems.  
+                  In the Process type API layer, token validation, rate limiting, and protection mechanisms against denial of service attacks are key.  
+                  In the Experience type API layer, strong input validation, access control using OAuth two point zero, and cross origin policies known as CORS should be enforced.  
+                  To strengthen governance, it is recommended to centralize security rules using the API management platform, applying reusable policies and maintaining detailed logs for audit purposes.  
+                  Security must be considered from the initial design phase through to deployment and exposure of the API in production environments.

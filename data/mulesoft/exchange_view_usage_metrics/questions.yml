@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_view_usage_metrics
+    examples: |
+      - como ver metricas de uso de asset no Exchange
+      - como acompanho downloads e estimativas
+      - como vejo estatisticas de asset
+      - como visualizo uso de asset
+      - como recebo dados de uso do Exchange
+      - how do you view usage metrics for an asset in Exchange
+      - how do u track downloads and usage stats
+      - how do you see asset statistics in Exchange
+      - how do you view asset usage in Exchange
+      - how do you get usage data for an asset

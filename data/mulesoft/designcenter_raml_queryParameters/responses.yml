@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_queryParameters:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino queryParameters no Design Center para permitir filtros e paginação em recursos
+              - vr_en: |
+                  I define queryParameters in Design Center to allow filtering and pagination on resources

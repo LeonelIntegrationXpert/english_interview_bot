@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: troubleshooting
+    examples: |
+      - como você faz troubleshooting em APIs MuleSoft?
+      - como vc faz troubleshooting em Mule?
+      - tu como faz troubleshooting no Mule?
+      - como vc investiga problemas no MuleSoft?
+      - como faz troubleshooting em Mule?
+      - como tu faz debug em APIs Mule?
+      - como vc resolve erros no MuleSoft?
+      - tu como corrige erros no Mule?
+      - como vc lida com bugs em Mule?
+      - como faz diagnóstico no Mule?
+      - how do you troubleshoot MuleSoft APIs?
+      - how do u troubleshoot Mule?
+      - how u debug Mule APIs?
+      - how do u investigate issues in MuleSoft?
+      - how u fix errors in Mule?
+      - how do u handle bugs in MuleSoft?
+      - how u resolve problems in Mule?
+      - how u perform diagnostics in Mule?
+      - how do u debug issues in MuleSoft?
+      - how u troubleshoot Mule flows?

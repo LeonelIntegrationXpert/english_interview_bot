@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_generate_usage_report:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu clico gerar report na aba metrics para baixar csv.
+                  Isso inclui periodos e estatisticas detalhadas.
+                  Permite analise externa e apresentacao a stakeholders.
+              - vr_en: |
+                  I click generate report in the metrics tab to download a csv.
+                  This includes time periods and detailed statistics.
+                  It enables external analysis and stakeholder reporting.

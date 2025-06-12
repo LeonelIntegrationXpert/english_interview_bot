@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_synchronization
+    examples: |
+      - como sincronizar DC com Studio?
+      - como faz sync DC Studio?
+      - pra que serve sync DC?
+      - oque faz sync?
+      - como usar sync no DC?
+      - how do you synchronize Design Center with Studio?
+      - how do u do DC Studio sync?
+      - what is DC sync used for?
+      - what does sync do?
+      - how do you use sync in DC?

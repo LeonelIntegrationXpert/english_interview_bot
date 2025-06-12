@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_revoke_asset_access:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu revogo acesso no painel ACL impedindo download e view.
+                  Usuario perde visibilidade imediata do asset.
+                  Acao é registrada para auditoria.
+              - vr_en: |
+                  I revoke access in the ACL panel preventing download and view.
+                  The user immediately loses visibility of the asset.
+                  The action is recorded for audit purposes.

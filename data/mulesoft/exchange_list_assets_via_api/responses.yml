@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_list_assets_via_api:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso GET em slash assets com queryParameters.
+                  Recebo array de assets com id title e version.
+                  Isso possibilita automacao de inventario.
+              - vr_en: |
+                  I use GET on slash assets with queryParameters.
+                  I receive an array of assets with id title and version.
+                  This enables inventory automation.

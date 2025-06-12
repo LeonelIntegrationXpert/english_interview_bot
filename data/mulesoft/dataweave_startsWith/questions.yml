@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_startsWith
+    examples: |
+      - como usar startsWith no DataWeave?
+      - como aplica startsWith DW?
+      - pra que serve startsWith em DW?
+      - oque faz startsWith no dataweave?
+      - como usar operador startsWith DW?
+      - how do you use startsWith in DataWeave?
+      - how do u apply startsWith in DW?
+      - what is startsWith used for in DataWeave?
+      - what does startsWith do in DW?
+      - how do you use the startsWith operator in DW?

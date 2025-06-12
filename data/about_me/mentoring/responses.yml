@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_mentoring:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Mentoro assim:
+                  - ofereço sessões one-on-one regulares.
+                  - preparo exercícios práticos e reviso resultados.
+                  - incentivo autonomia e acompanho evolução.
+              - vr_en: |
+                  I mentor by:
+                  - holding regular one-on-one sessions.
+                  - preparing hands-on exercises and reviewing outcomes.
+                  - encouraging autonomy and tracking progress.

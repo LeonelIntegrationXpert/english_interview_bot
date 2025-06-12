@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_mediaType
+    examples: |
+      - como definir mediaType em RAML no DC?
+      - como configuro mediaType no Design Center?
+      - como uso mediaType em RAML?
+      - como especifico mediaType no DC?
+      - como criar mediaType no Design Center?
+      - how do you define mediaType in RAML in Design Center?
+      - how do u configure mediaType in DC?
+      - how do u use mediaType in RAML?
+      - how do u specify mediaType in DC?
+      - how do u create mediaType in Design Center?

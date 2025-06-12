@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_open_mindedness:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Sou mente aberta:
+                  - avalio ideias sem pré-julgamento.
+                  - peço contexto antes de decidir.
+                  - utilizo feedback para ajustar meu ponto de vista.
+              - vr_en: |
+                  I stay open-minded by:
+                  - evaluating ideas without pre-judgment.
+                  - seeking context before deciding.
+                  - using feedback to refine my perspective.

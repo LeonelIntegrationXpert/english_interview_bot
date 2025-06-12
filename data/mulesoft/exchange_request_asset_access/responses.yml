@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_request_asset_access:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu clico request access no asset privado e envio justificaçao.
+                  Proprietario recebe notificação para aprovar ou rejeitar.
+                  Permissao é concedida após aprovacao manual.
+              - vr_en: |
+                  I click request access on a private asset and submit justification.
+                  The owner receives a notification to approve or deny.
+                  Permission is granted upon manual approval.

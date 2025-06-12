@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_fine_grained_permissions
+    examples: |
+      - como configurar permissoes granulares
+      - como definir acessos por recurso
+      - como ajustar direitos em nivel de metodo
+      - como controlar operacoes especificas
+      - como auditar permissoes minimas
+      - how do you configure fine grained permissions
+      - how do you define resource level access
+      - how do you adjust rights at method granularity
+      - how do you control specific operations
+      - how do you audit minimal permissions

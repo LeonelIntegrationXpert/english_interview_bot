@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_convert_asset_to_template
+    examples: |
+      - como converto asset em template
+      - como transformo asset em modelo
+      - como faco asset virar template
+      - como troco asset por template
+      - como mudo asset para padrao
+      - how do you convert an asset to a template
+      - how do u turn an asset into a template
+      - how do you make an asset become a template
+      - how do you switch asset to a template
+      - how do you change an asset into a template

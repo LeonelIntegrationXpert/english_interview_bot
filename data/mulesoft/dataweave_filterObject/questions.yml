@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_filterObject
+    examples: |
+      - como usar filterObject no DataWeave?
+      - como aplica filterObject DW?
+      - pra que serve filterObject em DW?
+      - oque faz filterObject no dataweave?
+      - como usar operador filterObject DW?
+      - how do you use filterObject in DataWeave?
+      - how do u apply filterObject in DW?
+      - what is filterObject used for in DataWeave?
+      - what does filterObject do in DW?
+      - how do you use the filterObject operator in DW?

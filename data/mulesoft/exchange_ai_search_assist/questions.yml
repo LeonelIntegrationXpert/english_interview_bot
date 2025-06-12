@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_ai_search_assist
+    examples: |
+      - como usar busca assistida por IA
+      - como ativo sugestoes inteligentes
+      - como configurar AI search
+      - como melhorar resultados via machine learning
+      - como ajustar relevancia com IA
+      - how do you use AI assisted search
+      - how do you enable intelligent suggestions
+      - how do you configure AI search
+      - how do you improve results via machine learning
+      - how do you tune relevance with AI

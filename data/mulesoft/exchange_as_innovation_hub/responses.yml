@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_as_innovation_hub:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso Exchange para publicar prototipos e compartilhar rapidamente.
+                  Ele valida ideias com feedback imediato de times e partes interessadas.
+                  Promove colaboracao e aceleracao de desenvolvimento de novas solucoes.
+              - vr_en: |
+                  I use Exchange to publish prototypes and share quickly.
+                  It validates ideas with immediate feedback from teams and stakeholders.
+                  It fosters collaboration and accelerates new solution development.

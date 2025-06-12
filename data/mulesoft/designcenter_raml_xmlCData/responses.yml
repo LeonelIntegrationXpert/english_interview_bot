@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_xmlCData:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu ativo xml cdata no Design Center para preservar conteúdo especial sem parsing pelo XML parser
+              - vr_en: |
+                  I enable xml cdata in Design Center to preserve special content without parsing by the XML parser

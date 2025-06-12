@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_clear_deprecated_assets:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso purge deprecated no painel de filtros.
+                  Isso apaga permanentemente assets obsoletos.
+                  Libera espaco e simplifica catalogo.
+              - vr_en: |
+                  I use the purge deprecated option in the filter panel.
+                  This permanently deletes obsolete assets.
+                  It frees space and simplifies the catalog.

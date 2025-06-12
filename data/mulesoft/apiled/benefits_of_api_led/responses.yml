@@ -3,14 +3,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  O API-led oferece **modularidade, reusabilidade e governança**, promovendo um desenvolvimento mais organizado.  
-                  Ele facilita a **manutenção e escalabilidade**, pois separa as APIs por camadas com responsabilidades bem definidas.  
-                  A abordagem permite que times trabalhem de forma **paralela e independente**, acelerando as entregas.  
-                  Além disso, promove **desacoplamento**, o que reduz o impacto de mudanças em sistemas integrados.  
-                  Em projetos complexos, o API-led garante **padronização, segurança e controle sobre os fluxos de integração**.
+                  A abordagem API led oferece modularidade, reutilização e governança, promovendo um desenvolvimento mais organizado.  
+                  Ela facilita a manutenção e a escalabilidade, pois separa as APIs em camadas com responsabilidades bem definidas.  
+                  Essa estratégia permite que os times trabalhem de forma paralela e independente, acelerando as entregas.  
+                  Além disso, promove o desacoplamento, o que reduz o impacto de mudanças em sistemas integrados.  
+                  Em projetos complexos, a abordagem API led garante padronização, segurança e controle sobre os fluxos de integração.
               - vr_en: |
-                  API-led provides **modularity, reusability, and governance**, enabling more organized development.  
-                  It makes **maintenance and scalability** easier by separating APIs into well-defined layers.  
-                  The approach allows teams to work **in parallel and independently**, accelerating delivery.  
-                  It also promotes **decoupling**, reducing the impact of changes in integrated systems.  
-                  In complex projects, API-led ensures **standardization, security, and control over integration flows**.
+                  The API led approach provides modularity, reusability, and governance, enabling more organized development.  
+                  It simplifies maintenance and scalability by separating APIs into layers with well defined responsibilities.  
+                  This strategy allows teams to work in parallel and independently, accelerating their deliveries.  
+                  It also promotes decoupling, which reduces the impact of changes in integrated systems.  
+                  In complex projects, the API led approach ensures standardization, security, and control over integration flows.

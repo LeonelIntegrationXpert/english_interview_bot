@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_graphql_api:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu habilito GraphQL no portal e uso GraphiQL para queries.
+                  Mutations permitem criar e atualizar assets programaticamente.
+                  Schemas documentam campos disponiveis e tipos.
+              - vr_en: |
+                  I enable GraphQL in the portal and use GraphiQL for queries.
+                  Mutations allow programmatic asset creation and updates.
+                  Schemas document available fields and types.

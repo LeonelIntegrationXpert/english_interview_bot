@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_log:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso log para calcular o logaritmo natural de valores numéricos
+              - vr_en: |
+                  I use log to calculate the natural logarithm of numeric values

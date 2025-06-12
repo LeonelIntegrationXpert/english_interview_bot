@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_documentationItem
+    examples: |
+      - como usar documentationItem no RAML DC?
+      - como criar documentationItem no Design Center?
+      - pra que serve documentationItem no RAML DC?
+      - oque faz documentationItem no DC?
+      - como usar documentationItem no editor RAML DC?
+      - how do you use documentationItem in RAML in Design Center?
+      - how do u create documentationItem in DC?
+      - what is documentationItem used for in RAML in DC?
+      - what does documentationItem do in DC?
+      - how do you use documentationItem in the RAML editor in DC?

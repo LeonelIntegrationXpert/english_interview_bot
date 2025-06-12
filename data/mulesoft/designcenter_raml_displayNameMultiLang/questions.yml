@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_displayNameMultiLang
+    examples: |
+      - como usar displayName multilíngue no RAML DC?
+      - como definir displayName em varios idiomas no DC?
+      - pra que serve displayName multilingue no RAML DC?
+      - oque faz displayName multilíngue no DC?
+      - como configurar displayName multilingual no RAML DC?
+      - how do you use multilingual displayName in RAML in Design Center?
+      - how do u define displayName in multiple languages in DC?
+      - what is multilingual displayName used for in RAML in DC?
+      - what does multilingual displayName do in DC?
+      - how do you configure multilingual displayName in RAML in DC?

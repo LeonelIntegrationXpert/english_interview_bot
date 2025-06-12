@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_substring
+    examples: |
+      - como usar substring no DataWeave?
+      - como aplica substring DW?
+      - pra que serve substring em DW?
+      - oque faz substring no dataweave?
+      - como usar operador substring DW?
+      - how do you use substring in DataWeave?
+      - how do u apply substring in DW?
+      - what is substring used for in DataWeave?
+      - what does substring do in DW?
+      - how do you use the substring operator in DW?

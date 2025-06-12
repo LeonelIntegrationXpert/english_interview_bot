@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_allowHeaders:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro allowHeaders via cors slash allowHeaders listando nomes de cabecalhos.
+                  Isso autoriza o envio de cabecalhos customizados em chamadas cross domain.
+                  Melhora compatibilidade com requisitos de autenticacao.
+              - vr_en: |
+                  I configure allowHeaders via cors slash allowHeaders by listing header names.
+                  This authorizes sending custom headers in cross domain calls.
+                  It improves compatibility with authentication requirements.

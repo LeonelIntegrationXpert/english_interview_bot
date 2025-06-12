@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_now
+    examples: |
+      - como usar now no DataWeave?
+      - como aplica now DW?
+      - pra que serve now em DW?
+      - oque faz now no dataweave?
+      - como usar operador now DW?
+      - how do you use now in DataWeave?
+      - how do u apply now in DW?
+      - what is now used for in DataWeave?
+      - what does now do in DW?
+      - how do you use the now operator in DW?

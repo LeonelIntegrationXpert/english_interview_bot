@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_request_asset_ownership
+    examples: |
+      - como solicitar proprietario de asset
+      - como peço ownership no Exchange
+      - como requerer transferencia de recurso
+      - como peço para ser dono do asset
+      - como faço peticao de posse
+      - how do you request ownership of an asset in Exchange
+      - how do u ask for asset ownership
+      - how do you request resource transfer
+      - how do you ask to become the owner
+      - how do you petition for possession

@@ -3,16 +3,16 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Para lidar com **falhas em API-led**, utilize estratégias como:  
-                  • **Retry automático** em falhas temporárias.  
-                  • **Fallbacks** para rotas alternativas ou respostas padrão.  
-                  • **Circuit Breaker** para evitar sobrecarga de sistemas instáveis.  
-                  • Logs centralizados e monitoramento contínuo para respostas rápidas.  
-                  Essas práticas aumentam a **resiliência** e garantem alta disponibilidade.
+                  Para lidar com falhas em uma arquitetura API led, é importante aplicar estratégias robustas.  
+                  Uma delas é a tentativa automática de nova execução em casos de falhas temporárias.  
+                  Outra abordagem é o uso de caminhos alternativos ou respostas padrão, conhecidas como respostas de contingência.  
+                  Também é recomendado aplicar o padrão conhecido como disjuntor, que protege sistemas instáveis contra sobrecarga.  
+                  Por fim, é fundamental adotar o monitoramento contínuo com centralização de logs para permitir reações rápidas.  
+                  Essas práticas aumentam a resiliência e contribuem para manter alta disponibilidade das integrações.
               - vr_en: |
-                  To handle **failures in API-led**, apply strategies like:  
-                  • **Automatic retry** for temporary issues.  
-                  • **Fallbacks** for alternative routes or default responses.  
-                  • **Circuit Breaker** to avoid overloading unstable systems.  
-                  • Centralized logging and continuous monitoring for quick reaction.  
-                  These practices improve **resilience** and ensure high availability.
+                  To handle failures in an API led architecture, it is important to apply robust strategies.  
+                  One of them is automatic retry for situations involving temporary errors.  
+                  Another approach is using fallback responses or alternative paths to ensure continuity.  
+                  It is also recommended to apply the circuit breaker pattern, which protects unstable systems from being overloaded.  
+                  Finally, continuous monitoring combined with centralized logging enables quick detection and resolution of issues.  
+                  These practices increase resilience and help maintain high availability across integrations.

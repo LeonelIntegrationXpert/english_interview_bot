@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_retire_asset
+    examples: |
+      - como aposento asset no Exchange
+      - como retiro asset do servico
+      - como descontinuo asset no Exchange
+      - como marco asset como aposentado
+      - como removo asset sem apagar
+      - how do you retire an asset in Exchange
+      - how do u withdraw an asset from service
+      - how do you discontinue an asset in Exchange
+      - how do you mark an asset as retired
+      - how do you remove an asset without deleting

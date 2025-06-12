@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: github-actions
+    examples: |
+      - pode explicar seu pipeline github-actions?
+      - o que faz o github-actions?
+      - como funciona o pipeline no GitHub?
+      - fala do github-actions MuleSoft?
+      - para que serve esse workflow?
+      - can you explain your github-actions pipeline?
+      - what does the GitHub Actions do?
+      - how does the pipeline on GitHub work?
+      - talk about GitHub Actions for MuleSoft?
+      - what is this workflow used for?

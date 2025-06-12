@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_merge:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu faço merge de branch no Design Center resolvendo conflitos via editor visual antes de publicar
+              - vr_en: |
+                  I perform branch merges in Design Center resolving conflicts via the visual editor before publishing

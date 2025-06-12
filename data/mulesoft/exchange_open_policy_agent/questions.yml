@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_open_policy_agent
+    examples: |
+      - como integrar OPA com Exchange
+      - como usar Open Policy Agent
+      - como validar politicas externas
+      - como auditar decisions
+      - como aplicar regas custom via OPA
+      - how do you integrate OPA with Exchange
+      - how do you use Open Policy Agent
+      - how do you validate external policies
+      - how do you audit decisions
+      - how do you enforce custom rules via OPA

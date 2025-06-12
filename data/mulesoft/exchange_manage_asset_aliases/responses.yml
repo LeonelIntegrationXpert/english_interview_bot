@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_manage_asset_aliases:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro alias no asset para encurtar URIs ou nomes longos.
+                  Aliases facilitam consumo via CLI e scripts.
+                  Mantem legibilidade sem alterar id principal.
+              - vr_en: |
+                  I configure aliases on the asset to shorten URIs or long names.
+                  Aliases ease consumption via CLI and scripts.
+                  It maintains readability without altering the main id.

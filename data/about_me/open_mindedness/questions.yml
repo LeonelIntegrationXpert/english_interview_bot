@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: open_mindedness
+    examples: |
+      - como vc mantém mente aberta?
+      - como tu é receptivo a ideias?
+      - como vc aceita opinião diversa?
+      - como tu acolhe perspectivas?
+      - como vc se mantém flexível?
+      - how do you remain open-minded?
+      - how do u welcome new ideas?
+      - how u accept diverse opinions?
+      - how do u embrace perspectives?
+      - how u stay flexible?

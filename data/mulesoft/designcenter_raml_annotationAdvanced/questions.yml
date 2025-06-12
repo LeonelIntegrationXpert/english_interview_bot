@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_annotationAdvanced
+    examples: |
+      - como usar annotations avançadas no RAML DC?
+      - como aplicar metadata annotation DC?
+      - pra que serv advanced annotation no RAML DC?
+      - oque faz advanced annotation no DC?
+      - como usar annotation avançada no editor RAML DC?
+      - how do you use advanced annotations in RAML in Design Center?
+      - how do u apply metadata annotation in DC?
+      - what is advanced annotation used for in RAML in DC?
+      - what does advanced annotation do in DC?
+      - how do you use advanced annotation in the RAML editor in DC?

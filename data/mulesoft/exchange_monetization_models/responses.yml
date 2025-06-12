@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_monetization_models:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro planos com quotas e tarifas por chamda.
+                  Exchange calcula faturas com base no uso registrado.
+                  Isso permite gerar relatórios de faturamento e cobranças.
+              - vr_en: |
+                  I configure plans with quotas and per call fees.
+                  Exchange computes invoices based on recorded usage.
+                  It enables generating billing and charge reports.

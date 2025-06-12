@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_splitBy
+    examples: |
+      - como usar splitBy no DataWeave?
+      - como aplica splitBy DW?
+      - pra que serve splitBy em DW?
+      - oque faz splitBy no dataweave?
+      - como usar operador splitBy DW?
+      - how do you use splitBy in DataWeave?
+      - how do u apply splitBy in DW?
+      - what is splitBy used for in DataWeave?
+      - what does splitBy do in DW?
+      - how do you use the splitBy operator in DW?

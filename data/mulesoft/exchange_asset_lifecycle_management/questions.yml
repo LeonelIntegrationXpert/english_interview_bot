@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_asset_lifecycle_management
+    examples: |
+      - como gerenciar ciclo de vida de assets
+      - como definir fases de asset
+      - como automatizar transicoes
+      - como monitorar status
+      - como auditar mudanças de lifecycle
+      - how do you manage asset lifecycle
+      - how do you define asset phases
+      - how do you automate transitions
+      - how do you monitor status
+      - how do you audit lifecycle changes

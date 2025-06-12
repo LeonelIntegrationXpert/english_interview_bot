@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_merge_asset_branch:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu abro merge request no Exchange e reviso conflitos.
+                  Apos aprovacao, branch e automaticamente mesclado.
+                  Mantem historico e log de merge.
+              - vr_en: |
+                  I open a merge request in Exchange and review conflicts.
+                  Upon approval, the branch is automatically merged.
+                  It preserves merge history and logs.

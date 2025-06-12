@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_manage_custom_domains
+    examples: |
+      - como gerenciar dominios custom no Exchange
+      - como adicionar domínio
+      - como verificar CNAME
+      - como remover domínio
+      - como setar vanity URL
+      - how do you manage custom domains in Exchange
+      - how do u add a domain
+      - how do you verify CNAME
+      - how do you remove a domain
+      - how do you set a vanity URL

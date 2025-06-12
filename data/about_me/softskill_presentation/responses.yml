@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_presentation:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Apresento técnico assim:
+                  - preparo slides claros e objetivos.
+                  - uso exemplos práticos e demos ao vivo.
+                  - interajo com perguntas do público.
+              - vr_en: |
+                  I give technical presentations by:
+                  - preparing clear, concise slides.
+                  - using practical examples and live demos.
+                  - engaging with audience questions.

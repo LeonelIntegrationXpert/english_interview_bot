@@ -3,12 +3,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  A **governança de APIs no modelo API-led** envolve o controle de acesso, versionamento, rastreabilidade e definição clara de contratos.  
-                  Utilize o **API Manager** da Anypoint Platform para aplicar políticas como rate limiting, autenticação e validação de schema.  
-                  Além disso, mantenha uma estratégia de versionamento consistente e monitore o uso das APIs com alertas e dashboards.  
-                  A governança garante mais segurança, controle e previsibilidade na evolução das integrações.
+                  A governança de APIs na arquitetura API led envolve o controle de acesso, o versionamento, a rastreabilidade e a definição clara de contratos entre produtores e consumidores.  
+                  É possível utilizar a ferramenta de gerenciamento de APIs da plataforma Anypoint para aplicar políticas como limitação de taxa, autenticação e validação de esquema.  
+                  Além disso, é essencial manter uma estratégia de versionamento consistente e monitorar o uso das APIs por meio de alertas e painéis de acompanhamento.  
+                  A governança contribui para aumentar a segurança, o controle e a previsibilidade na evolução das integrações.
               - vr_en: |
-                  **Governance in API-led architecture** involves managing access control, versioning, traceability, and clearly defined contracts.  
-                  Use **Anypoint Platform’s API Manager** to apply policies like rate limiting, authentication, and schema validation.  
-                  Also, enforce consistent versioning strategies and monitor API usage with alerts and dashboards.  
-                  Governance ensures better security, control, and predictable evolution of integrations.
+                  Governance in the API led architecture involves managing access control, versioning, traceability, and clear definition of contracts between producers and consumers.  
+                  You can use the API management tool from the Anypoint Platform to apply policies such as rate limiting, authentication, and schema validation.  
+                  In addition, it is essential to maintain a consistent versioning strategy and monitor API usage through alerts and monitoring dashboards.  
+                  Governance helps ensure increased security, better control, and predictable evolution of integrations.

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_oauth2_integration
+    examples: |
+      - como integrar OAuth2 no Exchange
+      - como configurar client credentials
+      - como usar tokens no CLI
+      - como validar refresh tokens
+      - como proteger a API via OAuth2
+      - how do you integrate OAuth2 in Exchange
+      - how do you configure client credentials
+      - how do you use tokens in the CLI
+      - how do you validate refresh tokens
+      - how do you secure the API via OAuth2

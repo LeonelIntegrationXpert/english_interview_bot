@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_transfer_asset_ownership:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu escolho novo owner no painel e confirmo transferencia.
+                  Exchange envia notificacao aos envolvidos.
+                  Metadados do asset refletem o novo proprietario.
+              - vr_en: |
+                  I select a new owner in the panel and confirm the transfer.
+                  Exchange sends notifications to all parties.
+                  The asset metadata reflects the new owner.

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_discriminator
+    examples: |
+      - como usar discriminator em RAML no DC?
+      - como definir discriminator no Design Center?
+      - pra que serve discriminator no RAML DC?
+      - oque faz discriminator no DC?
+      - como configurar discriminator no RAML DC?
+      - how do you use discriminator in RAML in Design Center?
+      - how do u define discriminator in DC?
+      - what is discriminator used for in RAML in DC?
+      - what does discriminator do in DC?
+      - how do you configure discriminator in RAML in DC?

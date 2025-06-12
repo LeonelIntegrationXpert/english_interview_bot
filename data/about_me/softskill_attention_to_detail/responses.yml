@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_attention_to_detail:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Cuido dos detalhes assim:
+                  - uso checklists de revisão.
+                  - faço pares de revisão cross-team.
+                  - testo cenários extremos.
+              - vr_en: |
+                  I ensure detail by:
+                  - using review checklists.
+                  - pairing for cross-team reviews.
+                  - testing edge-case scenarios.

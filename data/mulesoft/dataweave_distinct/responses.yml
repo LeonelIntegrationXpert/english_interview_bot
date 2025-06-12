@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_distinct:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso distinct para remover valores duplicados de uma lista mantendo ordem
+              - vr_en: |
+                  I use distinct to remove duplicate values from a list while preserving order

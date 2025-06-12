@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_runtime_manager_integration
+    examples: |
+      - como ligar Exchange ao Runtime Manager
+      - como configurar deploy automatizado
+      - como usar assets em runtime
+      - como monitorar runtime via Exchange
+      - como sincronizar configuracoes
+      - how do you link Exchange to Runtime Manager
+      - how do you configure automated deployment
+      - how do you use assets at runtime
+      - how do you monitor runtime via Exchange
+      - how do you sync configurations

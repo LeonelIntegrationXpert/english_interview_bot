@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_extension_parent_dependency:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Exchange exibe grafo de dependencia entre parent e childs.
+                  Isso ajuda identificar e resolver conflitos de versao.
+                  Mantem integridade do fluxo de desenvolvimento.
+              - vr_en: |
+                  Exchange displays a dependency graph between parent and children.
+                  It helps identify and resolve version conflicts.
+                  It maintains the integrity of the development flow.

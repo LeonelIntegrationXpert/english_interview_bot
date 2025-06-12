@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_markdown_support
+    examples: |
+      - como usar Markdown no RAML DC?
+      - como aplicar markdown syntax no Design Center?
+      - pra que serve markdown no RAML DC?
+      - como definir markdown no editor DC?
+      - como configurar markdown no RAML DC?
+      - how do you use Markdown in RAML in Design Center?
+      - how do u apply markdown syntax in DC?
+      - what is markdown used for in RAML in DC?
+      - how do you define markdown in the RAML editor in DC?
+      - how do you configure markdown in RAML in DC?

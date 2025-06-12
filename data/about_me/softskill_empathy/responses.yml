@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_empathy:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Pratico empatia ouvindo ativamente:
+                  - busco entender preocupações antes de responder.
+                  - verifico se meu suporte atende necessidades.
+                  - ajusto tom para oferecer acolhimento.
+              - vr_en: |
+                  I practice empathy by active listening:
+                  - I seek to understand concerns before responding.
+                  - I ensure my support meets their needs.
+                  - I adjust tone to provide reassurance.

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_portal_customization:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso theme editor no portal para ajustar layout e cores.
+                  Widgets custom mostram metrics e links rapidos.
+                  Homepage e configuravel por roles e preferencias.
+              - vr_en: |
+                  I use the portal’s theme editor to adjust layout and colors.
+                  Custom widgets display metrics and quick links.
+                  The homepage is configurable by roles and preferences.

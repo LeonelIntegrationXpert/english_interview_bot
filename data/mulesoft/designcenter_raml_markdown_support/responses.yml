@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_markdown_support:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu insiro blocos de descrição com Markdown no Design Center para formatação rica.
+                  Uso listas, links e código inline para documentação clara.
+                  Melhora a legibilidade em portais e docs exportados.
+              - vr_en: |
+                  I insert description blocks with Markdown in Design Center for rich formatting.
+                  I use lists, links, and inline code for clear documentation.
+                  It enhances readability in portals and exported docs.

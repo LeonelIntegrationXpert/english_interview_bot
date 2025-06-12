@@ -1,0 +1,19 @@
+version: '3.1'
+responses:
+  utter_leadership:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu lidero times assim:
+                  • defino papéis e responsabilidades claras.
+                  • faço daily stand-ups e reviews de código.
+                  • promovo pair programming e mentoring.
+                  • garanto comunicação entre negócio e dev.
+                  • apoio capacitação com treinamentos hands-on.
+              - vr_en: |
+                  I lead teams by:
+                  • defining clear roles and responsibilities.
+                  • holding daily stand-ups and code reviews.
+                  • promoting pair programming and mentoring.
+                  • ensuring communication between business and dev.
+                  • providing hands-on training sessions.

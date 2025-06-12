@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_attach_policy_to_asset
+    examples: |
+      - como anexar policy a asset no Exchange
+      - como coloco politica no asset
+      - como adiciono policy em asset
+      - como vinculo policy a API
+      - como grudo policy no Exchange
+      - how do you attach a policy to an asset in Exchange
+      - how do u add a policy to an asset
+      - how do you bind a policy to an API asset
+      - how do you affix a policy in Exchange
+      - how do you link a policy to an asset in Exchange

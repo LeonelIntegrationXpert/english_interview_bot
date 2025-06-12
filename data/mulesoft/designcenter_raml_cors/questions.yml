@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_cors
+    examples: |
+      - como configurar cors no RAML DC?
+      - como usar cors no Design Center?
+      - pra que serve cors no RAML DC?
+      - o que faz cors no DC?
+      - como usar cors no editor RAML DC?
+      - how do you configure cors in RAML in Design Center?
+      - how do u use cors in DC?
+      - what is cors used for in RAML in DC?
+      - what does cors do in RAML in DC?
+      - how do you use cors in the RAML editor in DC?

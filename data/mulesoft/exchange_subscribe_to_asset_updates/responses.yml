@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_subscribe_to_asset_updates:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro subscription para eventos publish e approve.
+                  Exchange envia webhooks ou emails conforme preferencia.
+                  Consumidores ficam sincronizados automaticamente.
+              - vr_en: |
+                  I set up a subscription for publish and approve events.
+                  Exchange sends webhooks or emails as preferred.
+                  Consumers stay automatically synchronized.

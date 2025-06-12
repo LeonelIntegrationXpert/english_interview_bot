@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_lower:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso lower para converter todos os caracteres de uma string em minúsculas
+              - vr_en: |
+                  I use lower to convert all characters in a string to lowercase

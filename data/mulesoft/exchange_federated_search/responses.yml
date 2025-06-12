@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_federated_search:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Exchange pode fazer federated search entre organizacoes e repositorios externos.
+                  Isso retorna assets de varias fontes em um unico resultado.
+                  Facilita descoberta em cenarios multiservico.
+              - vr_en: |
+                  Exchange can perform federated search across organizations and external repositories.
+                  It returns assets from multiple sources in a single result.
+                  It facilitates discovery in multi service scenarios.

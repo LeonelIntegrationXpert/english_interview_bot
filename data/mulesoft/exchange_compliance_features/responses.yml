@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_compliance_features:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu adiciono annotations de conformidade e configuro retention policies.
+                  Logs de acesso e auditoria sao obrigatorios para regulacoes.
+                  Exchange fornece relatórios prontos para compliance checks.
+              - vr_en: |
+                  I add compliance annotations and configure retention policies.
+                  Access logs and audit trails are mandatory for regulations.
+                  Exchange provides out of the box reports for compliance checks.

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_extension_parent_usage:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu publico um template como extension parent no Exchange.
+                  Depois crio novos assets que estendem esse parent e alteram apenas detalhes.
+                  Isso acelera criacao padronizada de ativos complexos.
+              - vr_en: |
+                  I publish a template as extension parent in Exchange.
+                  Then I create new assets that extend this parent and only change specifics.
+                  It accelerates standardized creation of complex assets.

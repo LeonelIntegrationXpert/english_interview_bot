@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: mule-build-tree
+    examples: |
+      - pode explicar seu repositório mule-build-tree?
+      - pode falar do mule-build-tree?
+      - o que faz o mule-build-tree?
+      - mule-build-tree como funciona?
+      - para que serve mule-build-tree?
+      - can you explain your mule-build-tree repo?
+      - what does mule-build-tree do?
+      - how does mule-build-tree work?
+      - can you talk about mule-build-tree?
+      - what is mule-build-tree used for?

@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_autodoc:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu publico documentação automática no Design Center que inclui exemplos, esquemas e descrições extraídas do RAML
+              - vr_en: |
+                  I publish automatic documentation in Design Center that includes examples, schemas, and descriptions extracted from the RAML

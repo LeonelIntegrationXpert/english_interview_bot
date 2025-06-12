@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_set_default_dependency_version
+    examples: |
+      - como definir versao padrao de dependencia
+      - como configuro dependencia default
+      - como determino versao base
+      - como ajusto dependencia padrao
+      - como seto dependencia inizial
+      - how do you set a default dependency version in Exchange
+      - how do u configure the default dependency
+      - how do you determine the base version
+      - how do you adjust the default dependency
+      - how do you set the initial dependency

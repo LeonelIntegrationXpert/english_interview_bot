@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_openid_connect
+    examples: |
+      - como configurar OpenID Connect no Exchange
+      - como usar OIDC para autenticação
+      - como validar id token
+      - como integrar Azure AD via OIDC
+      - como mapear claims
+      - how do you configure OpenID Connect in Exchange
+      - how do you use OIDC for authentication
+      - how do you validate an id token
+      - how do you integrate Azure AD via OIDC
+      - how do you map claims

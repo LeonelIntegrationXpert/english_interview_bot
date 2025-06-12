@@ -1,0 +1,17 @@
+version: '3.1'
+responses:
+  utter_ci_cd:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu estruturo CI/CD com:
+                  • repositórios Git organizados por API.
+                  • GitHub Actions para builds, testes MUnit e upload para Exchange.
+                  • Jenkins para deploy em CloudHub e Runtime Fabric.
+                  • validações automáticas de policies via Anypoint CLI.
+              - vr_en: |
+                  I structure CI/CD with:
+                  • Git repos organized per API.
+                  • GitHub Actions for builds, MUnit tests, and Exchange uploads.
+                  • Jenkins for deployments to CloudHub and Runtime Fabric.
+                  • automated policy validations via Anypoint CLI.

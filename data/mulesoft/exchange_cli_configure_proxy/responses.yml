@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_cli_configure_proxy:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu edito config file do CLI e adiciono proxy host e port.
+                  O CLI passa a rotear requisicoes via o proxy.
+                  Essencial para ambientes corporativos restritos.
+              - vr_en: |
+                  I edit the CLI config file and add proxy host and port.
+                  The CLI then routes requests through the proxy.
+                  Essential for restricted corporate environments.

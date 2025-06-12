@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_adaptability:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Tenho alta adaptabilidade:
+                  - reviso prioridades imediatamente.
+                  - comunico ajustes ao time sem demora.
+                  - mantenho foco em entregas mesmo em mudança.
+              - vr_en: |
+                  I’m highly adaptable:
+                  - I review priorities immediately.
+                  - I communicate adjustments to the team promptly.
+                  - I stay focused on delivery despite change.

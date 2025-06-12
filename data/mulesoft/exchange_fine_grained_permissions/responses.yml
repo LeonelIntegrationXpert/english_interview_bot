@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_fine_grained_permissions:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso ACLs por asset e policies por endpoint para permitir ou negar opcoes.
+                  Posso restringir apenas leitura ou acesso apenas a determinados metodos.
+                  Isso implementa princìpio do menor privilegio.
+              - vr_en: |
+                  I use ACLs per asset and policies per endpoint to allow or deny operations.
+                  I can restrict read only or access only to certain methods.
+                  This enforces the principle of least privilege.

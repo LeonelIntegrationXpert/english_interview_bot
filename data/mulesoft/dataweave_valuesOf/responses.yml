@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_valuesOf:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso valuesOf para extrair somente os valores de um objeto retornando lista
+              - vr_en: |
+                  I use valuesOf to extract only the values from an object returning a list

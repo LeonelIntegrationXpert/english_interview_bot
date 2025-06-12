@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_import_asyncapi_spec
+    examples: |
+      - como importar spec asyncapi no Exchange
+      - como trago arquivo asyncapi
+      - como carrego AsyncAPI spec
+      - como adiciono eventos via spec
+      - como importo especificacao AsyncAPI
+      - how do you import an asyncapi spec into Exchange
+      - how do u bring in an AsyncAPI file
+      - how do you upload AsyncAPI spec
+      - how do you add events via spec
+      - how do you import AsyncAPI specification

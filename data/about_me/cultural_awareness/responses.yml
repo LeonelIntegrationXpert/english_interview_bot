@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_cultural_awareness:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Respeito diversidade:
+                  - pesquiso costumes antes de reuniões.
+                  - ajusto linguagem para evitar mal‐entendidos.
+                  - celebro tradições de cada colega.
+              - vr_en: |
+                  I respect diversity by:
+                  - researching customs before meetings.
+                  - adapting language to avoid misunderstandings.
+                  - celebrating each colleague’s traditions.

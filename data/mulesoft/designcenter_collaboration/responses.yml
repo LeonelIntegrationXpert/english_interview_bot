@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_collaboration:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu compartilho APIs no Design Center e uso feedback inline com comentários de colegas antes de publicar
+              - vr_en: |
+                  I share APIs in Design Center and use inline feedback with peer comments before publishing

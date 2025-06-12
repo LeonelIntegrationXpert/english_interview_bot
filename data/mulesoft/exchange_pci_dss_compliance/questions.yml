@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_pci_dss_compliance
+    examples: |
+      - como atender PCI DSS no Exchange
+      - como mascarar dados de cartao
+      - como auditar transacoes
+      - como configurar encryption
+      - como validar controle de acesso
+      - how do you achieve PCI DSS compliance in Exchange
+      - how do you mask card data
+      - how do you audit transactions
+      - how do you configure encryption
+      - how do you validate access controls

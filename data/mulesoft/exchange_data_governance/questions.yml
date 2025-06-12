@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_data_governance
+    examples: |
+      - como o Exchange ajuda na governança de dados
+      - como catalogar dados sensiveis
+      - como controlar uso de dados
+      - como mascarar informacoes
+      - como auditar acesso a dados
+      - how does Exchange help in data governance
+      - how do you catalog sensitive data
+      - how do you control data usage
+      - how do you mask information
+      - how do you audit data access

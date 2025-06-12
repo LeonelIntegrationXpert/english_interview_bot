@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_api_security
+    examples: |
+      - como aplicar segurança em APIs no RAML DC?
+      - como usar api security no Design Center?
+      - pra que serve api security no DC?
+      - como definir segurança no RAML DC?
+      - como configurar api security no DC?
+      - how do you apply security to APIs in RAML in Design Center?
+      - how do u use api security in DC?
+      - what is api security used for in DC?
+      - how do you define security in RAML in DC?
+      - how do you configure api security in DC?

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: dataweave_log
+    examples: |
+      - como usar log no DataWeave?
+      - como aplica log DW?
+      - pra que serve log em DW?
+      - oque faz log no dataweave?
+      - como usar operador log DW?
+      - how do you use log in DataWeave?
+      - how do u apply log in DW?
+      - what is log used for in DataWeave?
+      - what does log do in DW?
+      - how do you use the log operator in DW?

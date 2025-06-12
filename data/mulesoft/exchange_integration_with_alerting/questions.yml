@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_integration_with_alerting
+    examples: |
+      - como ligar Exchange a sistemas de alerta
+      - como configurar notifications no PagerDuty
+      - como enviar SMS ou Slack de alertas
+      - como disparar alarmes proativos
+      - como monitorar incidentes
+      - how do you link Exchange to alerting systems
+      - how do you configure PagerDuty notifications
+      - how do you send SMS or Slack alerts
+      - how do you trigger proactive alarms
+      - how do you monitor incidents

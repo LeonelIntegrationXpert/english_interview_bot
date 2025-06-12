@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_support_for_formats:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Exchange suporta RAML JSON YAML OpenAPI e AsyncAPI.
+                  Eu publico specs nos formatos adequados para cada use case.
+                  Isso garante compatibilidade com diferentes ferramentas.
+              - vr_en: |
+                  Exchange supports RAML JSON YAML OpenAPI and AsyncAPI.
+                  I publish specs in the appropriate formats for each use case.
+                  It ensures compatibility with various tools.

@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_unionTypes:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso union types no Design Center definindo type como string pipe number para aceitar ambos
+              - vr_en: |
+                  I use union types in Design Center by defining type as string pipe number to accept both

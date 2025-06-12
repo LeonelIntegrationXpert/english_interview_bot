@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: creativity
+    examples: |
+      - como vc estimula criatividade?
+      - como tu gera ideia nova?
+      - como vc pensa fora da caixa?
+      - como tu inova no projeto?
+      - como vc busca inspiração?
+      - how do you foster creativity?
+      - how u generate new ideas?
+      - how do u think outside the box?
+      - how u innovate in projects?
+      - how u seek inspiration?

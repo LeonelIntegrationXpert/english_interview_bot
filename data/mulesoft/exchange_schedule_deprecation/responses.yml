@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_schedule_deprecation:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu seleciono data de deprecation e ativo notificacoes no Exchange.
+                  Consumers recebem alertas antes da obsolescencia.
+                  Facilita migracao planejada para novas versoes.
+              - vr_en: |
+                  I select a deprecation date and enable notifications in Exchange.
+                  Consumers receive alerts prior to obsolescence.
+                  It facilitates planned migration to newer versions.

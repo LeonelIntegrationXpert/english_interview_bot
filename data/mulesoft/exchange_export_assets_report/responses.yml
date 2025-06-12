@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_export_assets_report:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu clico export report em assets list e baixo CSV.
+                  Relatorio contem nome versao owner e tags.
+                  Uso para auditorias e controle interno.
+              - vr_en: |
+                  I click export report in the assets list and download a CSV.
+                  The report contains name version owner and tags.
+                  I use it for audits and internal control.

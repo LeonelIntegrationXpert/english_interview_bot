@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_extension_parent_usage
+    examples: |
+      - como usar extension parent no Exchange
+      - como criar asset filho de um parent
+      - como derivar de um asset no Exchange
+      - como aplicar inheritance no Exchange
+      - como chamar parent asset
+      - how to use extension parent in Exchange
+      - how to create a child asset from a parent
+      - how to derive from an asset in Exchange
+      - how to apply inheritance in Exchange
+      - how to reference a parent asset

@@ -3,14 +3,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  O API-led deve ser utilizado quando é necessário **estruturar integrações de forma modular e reutilizável**.  
-                  Ele é ideal em **ambientes corporativos complexos**, onde diversas aplicações precisam se comunicar entre si.  
-                  Também é recomendado para **projetos com múltiplos times**, pois promove separação de responsabilidades entre camadas.  
-                  Quando há necessidade de **governança, escalabilidade e versionamento**, o API-led se destaca como melhor abordagem.  
-                  Em resumo, use API-led quando quiser **orquestrar sistemas com flexibilidade, controle e segurança**.
+                  A abordagem API led deve ser adotada quando há a necessidade de estruturar integrações de maneira modular, reutilizável e escalável.  
+                  Ela é especialmente indicada para ambientes corporativos complexos, onde múltiplas aplicações precisam se comunicar entre si de forma controlada.  
+                  Também é recomendada em projetos que envolvem diversos times, pois promove a separação de responsabilidades por camada, facilitando o desenvolvimento paralelo.  
+                  Quando há demandas por governança, versionamento e segurança na exposição de serviços, a arquitetura API led se destaca como uma das melhores opções.  
+                  Em resumo, utilize API led sempre que for preciso orquestrar sistemas com flexibilidade, controle e previsibilidade.
               - vr_en: |
-                  API-led should be used when you need to **structure integrations in a modular and reusable way**.  
-                  It is ideal in **complex enterprise environments** where multiple systems need to communicate with each other.  
-                  It is also recommended for **projects involving multiple teams**, as it promotes layer-based separation of concerns.  
-                  When **governance, scalability, and versioning** are required, API-led becomes the best-fit approach.  
-                  In short, use API-led when aiming to **orchestrate systems with flexibility, control, and security**.
+                  The API led approach should be adopted when there is a need to structure integrations in a modular, reusable, and scalable way.  
+                  It is especially suitable for complex enterprise environments where multiple applications need to communicate with each other in a controlled manner.  
+                  It is also recommended for projects involving multiple teams, as it promotes the separation of concerns by layer, enabling parallel development.  
+                  When governance, versioning, and security are required for exposing services, the API led architecture stands out as one of the best choices.  
+                  In summary, use API led whenever you need to orchestrate systems with flexibility, control, and predictability.

@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_api-gateway-http-policy-attributes-extension:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Na api-gateway-http-policy-attributes-extension extraio atributos de requisição:
+                  - headers, queryParams, método, host e caminho
+                  - disponibilizo dados para uso em outras policies
+                  - desenvolvi com Mule SDK garantindo segurança
+              - vr_en: |
+                  In api-gateway-http-policy-attributes-extension I extract request attributes:
+                  - headers, queryParams, method, host and path
+                  - expose data for use in other policies
+                  - built with Mule SDK ensuring security

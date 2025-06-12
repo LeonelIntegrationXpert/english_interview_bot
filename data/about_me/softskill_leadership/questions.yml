@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: softskill_leadership
+    examples: |
+      - como vc demonstra liderança sem cargo?
+      - como tu mostra liderança informal?
+      - como vc lidera sem ser gerente?
+      - como tu assume liderança no projeto?
+      - como vc toma frente sem título?
+      - cm tu lidera sem posição?
+      - como vc guia sem cargo?
+      - como tu inspira sem status?
+      - como vc conduz sem ser chefe?
+      - como tu motiva sem cargo?
+      - how do you demonstrate leadership without title?
+      - how do u lead informally?
+      - how u take charge without being manager?
+      - how do u guide without title?
+      - how u inspire without authority?
+      - how do u step up without role?
+      - how u show leadership as peer?
+      - how do u take initiative?
+      - how u motivate without position?
+      - how do u drive outcomes as equal?

@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_padEnd:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso padEnd para preencher o final de uma string com caracteres até atingir o tamanho desejado
+              - vr_en: |
+                  I use padEnd to fill the end of a string with characters until it reaches the desired length

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_response_examples:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino exemplos de resposta no Design Center em cada status code.
+                  Incluo payloads JSON ou XML para mostrar formatos reais.
+                  Ajudam consumidores a entender saída da API.
+              - vr_en: |
+                  I define response examples in Design Center under each status code.
+                  I include JSON or XML payloads to show real formats.
+                  They help consumers understand the API output.

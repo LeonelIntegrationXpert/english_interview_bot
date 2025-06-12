@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_track_downloads:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu vejo contagem de downloads na aba metrics.
+                  Exchange mostra totais e historico por periodo.
+                  Isso indica adocao do asset.
+              - vr_en: |
+                  I view download counts in the metrics tab.
+                  Exchange shows totals and historical trends.
+                  It indicates asset adoption.

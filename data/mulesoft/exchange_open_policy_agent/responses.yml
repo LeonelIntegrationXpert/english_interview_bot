@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_open_policy_agent:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro OPA como policy enforcement point no Exchange.
+                  Solicitacoes passam pela engine OPA para validacao em tempo real.
+                  Isso atua como camada extra de governanca.
+              - vr_en: |
+                  I configure OPA as a policy enforcement point in Exchange.
+                  Requests pass through the OPA engine for real-time validation.
+                  It acts as an extra governance layer.

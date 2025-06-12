@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_export
+    examples: |
+      - como exportar projeto do DC?
+      - como faz export DC?
+      - pra que serve export DC?
+      - oque faz export?
+      - como usar export no DC?
+      - how do you export a project from Design Center?
+      - how do u do DC export?
+      - what is export used for in DC?
+      - what does export do?
+      - how do you use export in DC?

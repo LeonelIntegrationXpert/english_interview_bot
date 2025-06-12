@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_globalAnnotations:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu aplico annotations no nivel de contrato para metadados que valem para toda API.
+                  Isso evita repeticao em cada recurso e padroniza informacoes.
+                  Melhora coesao e manutenibilidade do contrato.
+              - vr_en: |
+                  I apply annotations at the contract level for metadata that applies to the entire API.
+                  This prevents repetition on each resource and standardizes information.
+                  It improves contract cohesion and maintainability.

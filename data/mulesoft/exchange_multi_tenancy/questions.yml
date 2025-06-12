@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_multi_tenancy
+    examples: |
+      - como o Exchange suporta multi tenancy
+      - como isolar dados de tenants
+      - como gerenciar tenants
+      - como configurar quotas por tenant
+      - como garantir segregaçao
+      - how does Exchange support multi tenancy
+      - how do you isolate tenant data
+      - how do you manage tenants
+      - how do you configure quotas per tenant
+      - how do you ensure segregation

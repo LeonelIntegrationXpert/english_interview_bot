@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_resourceInheritance
+    examples: |
+      - como herdar recurso no RAML DC?
+      - como usar resource inheritance no Design Center?
+      - pra que serve heranca de recurso no RAML DC?
+      - oque faz resource inheritance no DC?
+      - como configurar resource inheritance no RAML DC?
+      - how do you inherit a resource in RAML in Design Center?
+      - how do u use resource inheritance in DC?
+      - what is resource inheritance used for in RAML in DC?
+      - what does resource inheritance do in DC?
+      - how do you configure resource inheritance in RAML in DC?

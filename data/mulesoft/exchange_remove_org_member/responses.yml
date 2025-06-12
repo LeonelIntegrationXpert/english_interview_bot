@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_remove_org_member:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu seleciono membro e clico remove para revogar acesso.
+                  Dados de consumo continuam gravados no historico.
+                  Membro nao aparece mais na lista.
+              - vr_en: |
+                  I select the member and click remove to revoke access.
+                  Consumption data remains in history.
+                  The member no longer appears in the list.

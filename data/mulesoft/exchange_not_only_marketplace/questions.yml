@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_not_only_marketplace
+    examples: |
+      - por que o Exchange nao e so um marketplace
+      - qual a diferenca entre Exchange e marketplace
+      - como o Exchange vai alem de um mercado de ativos
+      - o que faz do Exchange mais que um marketplace
+      - como o Exchange se diferencia de um marketplace
+      - why is Exchange not just a marketplace
+      - what is the difference between Exchange and a marketplace
+      - how does Exchange go beyond an asset marketplace
+      - what makes Exchange more than a marketplace
+      - how is Exchange distinct from a marketplace

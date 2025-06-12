@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_manage_quota_limits
+    examples: |
+      - como gerenciar limites de quota no Exchange
+      - como configuro quotas de download
+      - como aplico limite de uso
+      - como defino threshold de API
+      - como ajusto quotas de asset
+      - how do you manage quota limits in Exchange
+      - how do u configure download quotas
+      - how do you apply usage limits
+      - how do you set API thresholds
+      - how do you adjust asset quotas

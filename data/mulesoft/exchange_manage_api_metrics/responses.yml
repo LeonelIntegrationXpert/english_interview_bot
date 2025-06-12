@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_manage_api_metrics:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu habilito metrics na configuracao do asset.
+                  Exchange coleta dados de chamadas e latencia.
+                  Resultados exibidos em dashboards integrados.
+              - vr_en: |
+                  I enable metrics in the asset settings.
+                  Exchange collects call and latency data.
+                  Results are shown in integrated dashboards.

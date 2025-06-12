@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_multi_language_support
+    examples: |
+      - como o Exchange suporta varios idiomas
+      - como adicionar traducoes de descriptions
+      - como configurar locale no portal
+      - como gerenciar conteúdos multilíngues
+      - como testar internacionalizacao
+      - how does Exchange support multiple languages
+      - how do you add translations of descriptions
+      - how do you configure locale in the portal
+      - how do you manage multilingual content
+      - how do you test internationalization

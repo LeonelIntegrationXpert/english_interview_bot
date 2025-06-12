@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_jsonSchemaIntegration
+    examples: |
+      - como integrar JSON Schema no RAML DC?
+      - como usar jsonSchema no Design Center?
+      - pra que serve JSON Schema no RAML DC?
+      - oque faz jsonSchema no DC?
+      - como usar jsonSchema no editor RAML DC?
+      - how do you integrate JSON Schema in RAML in Design Center?
+      - how do u use jsonSchema in DC?
+      - what is JSON Schema used for in RAML in DC?
+      - what does jsonSchema do in DC?
+      - how do you use jsonSchema in the RAML editor in DC?

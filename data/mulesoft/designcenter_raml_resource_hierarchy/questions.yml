@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_resource_hierarchy
+    examples: |
+      - como organizar hierarquia de recursos no RAML DC?
+      - como usar resource hierarchy no Design Center?
+      - pra que serve hierarquia de recursos no DC?
+      - como estruturar recursos no RAML DC?
+      - como defino subrecursos no DC?
+      - how do you organize resource hierarchy in RAML in Design Center?
+      - how do u use resource hierarchy in DC?
+      - what is resource hierarchy used for in DC?
+      - how do you structure resources in RAML in DC?
+      - how do you define subresources in DC?

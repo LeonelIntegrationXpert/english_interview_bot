@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_security:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu defino permissões de acesso por usuário e grupo no Design Center e uso SSO via Identity Provider
+              - vr_en: |
+                  I set access permissions by user and group in Design Center and use SSO via an Identity Provider

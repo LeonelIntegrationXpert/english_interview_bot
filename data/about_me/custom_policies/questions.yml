@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: custom_policies
+    examples: |
+      - você já desenvolveu policies customizadas no MuleSoft?
+      - vc ja desenvolveu policies custom no Mule?
+      - tu ja fez policy custom no MuleSoft?
+      - tu ja desenvolveu policies no Mule?
+      - vc ja criou policy custom no Anypoint?
+      - vc ja fez políticas custom no Mule?
+      - ja desenvolveu policy personaliz no Mule?
+      - ja criou policy customizada Mule?
+      - vc ja fez custom policies Mule?
+      - tu ja usou policy custom no Mule?
+      - have you developed custom policies in MuleSoft?
+      - have u developed custom policies in Mule?
+      - did u make custom policies in MuleSoft?
+      - did u create custom policies in Mule?
+      - have u created policies in Anypoint?
+      - have u built custom policies in Mule?
+      - did u develop policy extensions in Mule?
+      - have u written custom policies in MuleSoft?
+      - have u implemented custom policies in Mule?
+      - did u build custom policies in Mule?

@@ -3,14 +3,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  **API-led** suporta múltiplos padrões de comunicação:  
-                  • **Síncrono (REST/HTTP)** para consultas e operações imediatas.  
-                  • **Assíncrono (filas, eventos)** para processos desacoplados e tolerantes a falhas.  
-                  • **Pub/Sub** para notificar diversos consumidores sobre alterações.  
-                  Escolha o padrão considerando **latência desejada**, **acoplamento** e **resiliência**.
+                  A abordagem API led suporta diferentes padrões de comunicação.  
+                  O padrão síncrono, como chamadas via REST sobre HTTP, é indicado para consultas e operações imediatas.  
+                  O padrão assíncrono, utilizando filas ou eventos, é ideal para processos desacoplados e tolerantes a falhas.  
+                  Já o modelo publicação e assinatura, conhecido como pub sub, permite notificar múltiplos consumidores sobre alterações em tempo real.  
+                  A escolha do padrão deve considerar a latência desejada, o nível de acoplamento e os requisitos de resiliência da integração.
               - vr_en: |
-                  **API-led** supports multiple communication patterns:  
-                  • **Synchronous (REST/HTTP)** for immediate queries and operations.  
-                  • **Asynchronous (queues, events)** for decoupled, fault-tolerant processing.  
-                  • **Pub/Sub** to notify many consumers of changes.  
-                  Select the pattern based on **desired latency**, **coupling**, and **resilience** requirements.
+                  The API led approach supports different communication patterns.  
+                  The synchronous pattern, such as calls using REST over HTTP, is suitable for immediate queries and operations.  
+                  The asynchronous pattern, using queues or events, is ideal for decoupled and fault tolerant processes.  
+                  The publish and subscribe model, also known as pub sub, allows notifying multiple consumers about changes in real time.  
+                  The choice of pattern should consider the desired latency, the level of coupling, and the resilience requirements of the integration.

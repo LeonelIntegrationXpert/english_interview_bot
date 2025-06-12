@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_not_only_marketplace:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Exchange nao e apenas um local de compra e venda de ativos.
+                  E um portal de governanca, distribuicao, controle de versao e colaboracao.
+                  Serve como fonte unica de verdade para integracoes e padroes corporativos.
+              - vr_en: |
+                  Exchange is not merely a venue for buying and selling assets.
+                  It is a portal for governance distribution version control and collaboration.
+                  It serves as a single source of truth for corporate integrations and standards.

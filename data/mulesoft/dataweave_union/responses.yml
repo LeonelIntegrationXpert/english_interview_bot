@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_dataweave_union:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Uso union para combinar listas e remover duplicatas
+              - vr_en: |
+                  I use union to combine lists and remove duplicates

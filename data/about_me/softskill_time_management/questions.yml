@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: softskill_time_management
+    examples: |
+      - como vc gerencia seu tempo em prazos curtos?
+      - como tu gerencia tempo em deadline apertado?
+      - como vc organiza tempo rapid?
+      - como tu faz pra cumprir prazo?
+      - como vc administra tempo em urgência?
+      - cm tu agenda tarefas em rush?
+      - como vc divide tempo em rush?
+      - como tu faz time management?
+      - como vc controla hora em sprint?
+      - como tu gerencia horas em pressão?
+      - how do you manage your time under tight deadlines?
+      - how do u organize time when rush?
+      - how u handle deadlines quickly?
+      - how do u schedule tasks under pressure?
+      - how u divide time in crunch?
+      - how do u do time management?
+      - how u track hours under stress?
+      - how do u control your schedule in sprint?
+      - how u manage hours in pressure?
+      - how do u prioritize when time is short?

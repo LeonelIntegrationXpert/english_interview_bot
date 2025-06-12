@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_types:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu crio types no Design Center para esquemas reutilizáveis definindo propriedades e exemplos no RAML
+              - vr_en: |
+                  I create types in Design Center for reusable schemas by defining properties and examples in RAML

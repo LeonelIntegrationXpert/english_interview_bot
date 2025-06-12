@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_resourceTypeParams:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro resourceTypeParams no Design Center para tornar resourceTypes parametrizáveis por URI e métodos
+              - vr_en: |
+                  I configure resourceTypeParams in Design Center to make resourceTypes parameterizable by URI and methods

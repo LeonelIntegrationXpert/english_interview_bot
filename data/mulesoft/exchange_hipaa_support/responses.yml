@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_hipaa_support:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu configuro criptografia e retention de logs de PHI.
+                  Acesso a dados de paciente e controlado via ACLs granulares.
+                  Exchange fornece trilha de auditoria completa para HIPAA.
+              - vr_en: |
+                  I configure encryption and log retention for PHI.
+                  Patient data access is controlled via fine grained ACLs.
+                  Exchange provides a full audit trail for HIPAA.

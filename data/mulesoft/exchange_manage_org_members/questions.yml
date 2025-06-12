@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_manage_org_members
+    examples: |
+      - como gerenciar membros da organizacao no Exchange
+      - como adiciono ou removo usuarios
+      - como vejo lista de membros
+      - como edito roles de membro
+      - como configuro equipes
+      - how do you manage organization members in Exchange
+      - how do u add or remove users
+      - how do you view the member list
+      - how do you edit member roles
+      - how do you configure teams

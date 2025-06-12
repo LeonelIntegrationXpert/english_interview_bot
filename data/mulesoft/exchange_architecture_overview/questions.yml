@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_architecture_overview
+    examples: |
+      - como e arquitetura do Exchange no Anypoint
+      - como e construído o Exchange
+      - como funciona a estrutura do Exchange
+      - como o Exchange se organiza internamente
+      - como e o desenho arquitetural do Exchange
+      - how is the Exchange architecture structured in Anypoint
+      - how is the Exchange built
+      - how does the Exchange internal structure work
+      - how is the Exchange organized internally
+      - how does the Exchange architectural design look

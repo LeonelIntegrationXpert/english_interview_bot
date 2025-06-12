@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_types_composition
+    examples: |
+      - como compor types no RAML DC?
+      - como usar composição de types no Design Center?
+      - pra que serve composição de types no DC?
+      - como definir composição de types no RAML DC?
+      - como configurar type composition no DC?
+      - how do you compose types in RAML in Design Center?
+      - how do u use type composition in DC?
+      - what is type composition used for in DC?
+      - how do you define type composition in RAML in DC?
+      - how do you configure type composition in DC?

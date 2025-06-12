@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_publish_graphql_schema:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu seleciono esquema GraphQL e publico no Exchange.
+                  Isso documenta queries, mutações e tipos.
+                  Clientes podem gerar SDKs automaticamente.
+              - vr_en: |
+                  I select the GraphQL schema and publish it to Exchange.
+                  This documents queries mutations and types.
+                  Clients can automatically generate SDKs.

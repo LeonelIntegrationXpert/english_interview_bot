@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_resource_hierarchy:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu organizo recursos no Design Center com indentação clara e paths aninhados.
+                  Uso resourceTypes para padronizar subrecursos e herança de rota.
+                  Isso melhora legibilidade e manutenção de APIs.
+              - vr_en: |
+                  I structure resources in Design Center with clear indentation and nested paths.
+                  I use resourceTypes to standardize subresources and route inheritance.
+                  This improves API readability and maintainability.

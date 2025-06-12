@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_head
+    examples: |
+      - como implementar head em RAML no DC?
+      - como criar método head no Design Center?
+      - como configuro head em RAML?
+      - como uso head em API no DC?
+      - como especifico head no RAML DC?
+      - how do you implement head in RAML in Design Center?
+      - how do u create a head method in DC?
+      - how do u configure head in RAML?
+      - how do u use head on API in DC?
+      - how do u specify head in RAML DC?

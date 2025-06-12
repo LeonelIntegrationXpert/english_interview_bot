@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_clear_alerts:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu seleciono clear all para remover todos os alertas ativos.
+                  Isso limpa a lista mas historico permanece.
+                  Portal fica sem notificacoes pendentes.
+              - vr_en: |
+                  I select clear all to remove all active alerts.
+                  It clears the list but keeps history.
+                  The portal shows no pending notifications.

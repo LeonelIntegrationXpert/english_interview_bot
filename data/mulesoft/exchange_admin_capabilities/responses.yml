@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_admin_capabilities:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Admin pode criar e excluir orgs, definir SSO, custom domains e quotas.
+                  Também gerencia membros, roles e politicas globais.
+                  Tem acesso total a logs e configuracoes sensiveis.
+              - vr_en: |
+                  Admin can create and delete orgs configure SSO custom domains and quotas.
+                  They also manage members roles and global policies.
+                  They have full access to logs and sensitive settings.

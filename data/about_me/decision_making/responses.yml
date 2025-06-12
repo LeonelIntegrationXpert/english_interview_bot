@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_decision_making:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Decido assim:
+                  - reúno dados e opiniões relevantes.
+                  - peso prós e contras de cada cenário.
+                  - ajo de forma ponderada e comunico claramente.
+              - vr_en: |
+                  I make decisions by:
+                  - gathering relevant data and opinions.
+                  - weighing pros and cons of each scenario.
+                  - acting thoughtfully and communicating clearly.

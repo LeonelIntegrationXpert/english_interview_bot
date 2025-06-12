@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_tag_version
+    examples: |
+      - como marcar versao com tag no Exchange
+      - como etiqueto versao de asset
+      - como coloco tag em versao
+      - como rotulo versao no Exchange
+      - como defino tag de release
+      - how do you tag a version in Exchange
+      - how do u label a version of an asset
+      - how do you add a tag to a version
+      - how do you categorize a version in Exchange
+      - how do you set a release tag

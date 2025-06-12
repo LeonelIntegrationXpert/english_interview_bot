@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: softskill_negotiation
+    examples: |
+      - como vc negocia requisitos com stakeholders?
+      - como tu negocia c stakeholder?
+      - como vc alinha requisito de negócio?
+      - como tu faz nego com negócio?
+      - como vc concilia desejo de cliente?
+      - como tu discuss scope com cliente?
+      - como vc ajusta expectativa?
+      - como tu negocia prazo e escopo?
+      - como vc contr nego?
+      - como tu negocia mudança?
+      - how do you negotiate requirements with stakeholders?
+      - how do u align requirements with business?
+      - how u negotiate scope changes?
+      - how do u discuss requirements with client?
+      - how u reconcile stakeholder wishes?
+      - how do u set expectations?
+      - how u balance deadline and scope?
+      - how do u negotiate changes?
+      - how u bargain project terms?
+      - how do u handle requirement negotiations?

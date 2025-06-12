@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_traitParams
+    examples: |
+      - como usar parâmetros em traits no RAML DC?
+      - como definir traitParams no Design Center?
+      - pra que serv traitParams no RAML DC?
+      - oque faz traitParams no DC?
+      - como usar traitParams no RAML DC?
+      - how do you use parameters in traits in RAML in Design Center?
+      - how do u define traitParams in DC?
+      - what is traitParams used for in RAML in DC?
+      - what does traitParams do in DC?
+      - how do you use traitParams in RAML in DC?

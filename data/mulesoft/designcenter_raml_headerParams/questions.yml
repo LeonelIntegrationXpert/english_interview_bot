@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_headerParams
+    examples: |
+      - como usar header parameters no RAML DC?
+      - como definir header params no Design Center?
+      - pra que servem header parameters no RAML DC?
+      - o que faz header params no DC?
+      - como usar header params no editor RAML DC?
+      - how do you use header parameters in RAML in Design Center?
+      - how do u define header params in DC?
+      - what are header parameters used for in RAML in DC?
+      - what do header params do in RAML in DC?
+      - how do you use header params in the RAML editor in DC?

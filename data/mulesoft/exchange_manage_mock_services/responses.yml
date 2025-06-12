@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_manage_mock_services:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu habilito mocks no asset e configuro endpoints simulados.
+                  Mock responde exemplos baseados em contrato.
+                  Ajuda testar consumos sem implementacao real.
+              - vr_en: |
+                  I enable mocks on the asset and configure simulated endpoints.
+                  The mock responds with contract-based examples.
+                  It helps test consumption without a real implementation.

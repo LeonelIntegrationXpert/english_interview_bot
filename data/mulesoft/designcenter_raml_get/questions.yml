@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_get
+    examples: |
+      - como definir método get no RAML pelo Design Center?
+      - como criar recurso get no DC?
+      - como uso get em RAML no DC?
+      - como configurar get em API no DC?
+      - como especifico get no Design Center?
+      - how do you define a get method in RAML via Design Center?
+      - how do u create a get resource in DC?
+      - how do u use get in RAML in DC?
+      - how do u configure get on API in DC?
+      - how do u specify get in Design Center?

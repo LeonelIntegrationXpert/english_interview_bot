@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_validate_asset:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso opcao validate no menu para checar configuracoes.
+                  Exchange executa verificacoes automatizadas de formato.
+                  Isso garante bom funcionamento antes do publish.
+              - vr_en: |
+                  I use the validate option in the menu to check configurations.
+                  Exchange runs automated format verifications.
+                  It ensures proper functioning before publishing.

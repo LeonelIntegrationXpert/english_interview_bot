@@ -1,0 +1,17 @@
+version: '3.1'
+responses:
+  utter_teamwork:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu colaboro com:
+                  • reuniões de levantamento com negócio e arquitetura.
+                  • definição conjunta de APIs e SLAs.
+                  • workshops hands-on e design sessions.
+                  • feedback contínuo via Anypoint Exchange.
+              - vr_en: |
+                  I collaborate by:
+                  • holding discovery meetings with business and architecture.
+                  • co-defining APIs and SLAs.
+                  • running hands-on workshops and design sessions.
+                  • continuous feedback via Anypoint Exchange.

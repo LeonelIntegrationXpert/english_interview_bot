@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: proactivity
+    examples: |
+      - como vc demonstra proatividade?
+      - como tu age de forma proativa?
+      - como vc faz pra antecipar problema?
+      - como tu toma iniciativa sem pedir?
+      - como vc vê oportunidade e age?
+      - how do you show proactivity?
+      - how do u act proactively?
+      - how u anticipate issues?
+      - how do u take initiative without being asked?
+      - how u spot opportunities and act?

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_defaultHeaders
+    examples: |
+      - como definir cabecalhos padrao no RAML DC?
+      - como configurar default headers no Design Center?
+      - pra que servem cabecalhos padrao no RAML DC?
+      - o que faz default headers no DC?
+      - como usar default headers no editor RAML DC?
+      - how do you define default headers in RAML in Design Center?
+      - how do u configure default headers in DC?
+      - what are default headers used for in RAML in DC?
+      - what do default headers do in RAML in DC?
+      - how do you use default headers in the RAML editor in DC?

@@ -1,0 +1,17 @@
+version: '3.1'
+responses:
+  utter_projects:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Um projeto marcante foi a migração de 3.8 para Mule 4 CloudHub para a Enel:
+                  • coordenei testes de regressão e rollback seguro.
+                  • refatorei flows complexos para MQ e S3 batch.
+                  • implementei monitoramento pró-ativo com Anypoint Monitoring.
+                  • entreguei em 4 semanas com zero incidentes em produção.
+              - vr_en: |
+                  A notable project was migrating Enel from Mule three point eight to Mule four CloudHub:
+                  • I coordinated regression tests and safe rollback plans.
+                  • I refactored complex MQ and S3 batch flows.
+                  • I implemented proactive monitoring with Anypoint Monitoring.
+                  • I delivered in four weeks with zero production incidents.

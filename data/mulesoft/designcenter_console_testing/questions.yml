@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_console_testing
+    examples: |
+      - como testar API no API Console do DC?
+      - como usa console de API DC?
+      - pra que serve console DC?
+      - oque faz console DC?
+      - como testar no API Console DC?
+      - how do you test APIs in Design Center’s API Console?
+      - how do u use the API Console in DC?
+      - what is the DC console used for?
+      - what does the DC console do?
+      - how do you test via API Console in DC?

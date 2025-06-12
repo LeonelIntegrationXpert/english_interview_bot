@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_export_assets_report
+    examples: |
+      - como exportar relatorio de assets do Exchange
+      - como gero report de todos assets
+      - como extraio inventario completo
+      - como obtenho csv de assets
+      - como faço export de inventario
+      - how do you export an assets report from Exchange
+      - how do u generate a full assets report
+      - how do you extract a complete inventory
+      - how do you get a csv of assets
+      - how do you perform an inventory export

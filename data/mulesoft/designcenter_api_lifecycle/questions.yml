@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_api_lifecycle
+    examples: |
+      - como gerenciar ciclo de vida de API no DC?
+      - como faz lifecycle DC?
+      - pra que serve lifecycle DC?
+      - oque faz lifecycle?
+      - como usar lifecycle no DC?
+      - how do you manage API lifecycle in Design Center?
+      - how do u do lifecycle in DC?
+      - what is lifecycle used for in DC?
+      - what does lifecycle do?
+      - how do you use lifecycle in DC?

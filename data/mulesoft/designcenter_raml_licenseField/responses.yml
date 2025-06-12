@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_licenseField:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu adiciono license no Design Center para registrar direitos autorais e termos de uso da API
+              - vr_en: |
+                  I add a license field in Design Center to record copyright and usage terms of the API

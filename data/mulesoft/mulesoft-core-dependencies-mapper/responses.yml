@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_mulesoft-core-dependencies-mapper:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  No core-dependencies-mapper eu varro o repositório local de .m2 e extraio artefatos MuleSoft:
+                  - construo grafo visual em PNG para arquitetos
+                  - uso Python para parsing de POMs e identificação de dependências
+                  - gero relatórios que auxiliam equipes DevOps e arquitetos
+              - vr_en: |
+                  In core-dependencies-mapper I scan the local .m2 repo and extract MuleSoft artifacts:
+                  - build a visual graph in PNG for architects
+                  - use Python to parse POMs and identify dependencies
+                  - generate reports that help DevOps teams and architects

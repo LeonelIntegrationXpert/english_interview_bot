@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_manage_folders
+    examples: |
+      - como gerenciar pastas no Exchange
+      - como crio ou deleto folder
+      - como organizo asset em pastas
+      - como movo pasta no portal
+      - como altero estrutura de pastas
+      - how do you manage folders in Exchange
+      - how do u create or delete a folder
+      - how do you organize assets into folders
+      - how do you move a folder on the portal
+      - how do you change the folder structure

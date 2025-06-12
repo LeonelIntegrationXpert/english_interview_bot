@@ -3,10 +3,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  **API-led** foca na **exposição, governança e reutilização de APIs** para integração entre sistemas.  
-                  **Service Mesh** gerencia a **comunicação interna entre microsserviços**, oferecendo tráfego seguro, observabilidade e políticas de rede.  
-                  Use **API-led** para integração externa e orquestração; use **Service Mesh** para controle fino do tráfego **dentro** do cluster de microsserviços.
+                  A abordagem API led é voltada para a exposição, governança e reutilização de APIs com foco na integração entre sistemas.  
+                  Já o service mesh atua no gerenciamento da comunicação interna entre microsserviços, oferecendo roteamento seguro, observabilidade e aplicação de políticas de rede.  
+                  Utilize a abordagem API led quando o objetivo for a integração externa e a orquestração de serviços.  
+                  Utilize o service mesh quando for necessário controlar com precisão o tráfego dentro do cluster de microsserviços.
               - vr_en: |
-                  **API-led** focuses on **API exposure, governance, and reuse** for system-to-system integration.  
-                  **Service Mesh** manages **internal microservice-to-microservice traffic**, providing secure routing, observability, and network policies.  
-                  Use **API-led** for external integration and orchestration; use **Service Mesh** for fine-grained traffic control **inside** a microservices cluster.
+                  The API led approach focuses on exposing, governing, and reusing APIs for integration between systems.  
+                  The service mesh, on the other hand, manages internal communication between microservices, providing secure routing, observability, and enforcement of network policies.  
+                  Use the API led approach when the goal is external integration and orchestration of services.  
+                  Use the service mesh when fine grained traffic control is needed inside the microservices cluster.

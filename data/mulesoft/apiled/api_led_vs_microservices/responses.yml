@@ -3,12 +3,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  **API-led** e **microservices** são abordagens complementares:  
-                  • *Microservices* dividem a lógica de negócio em serviços independentes.  
-                  • *API-led* organiza o acesso e a orquestração desses serviços em três camadas (System, Process, Experience).  
-                  Juntos, aumentam a **modularidade**, a **governança** e a **escalabilidade** das integrações.
+                  A abordagem API led e a arquitetura de microsserviços são estratégias complementares.  
+                  Os microsserviços dividem a lógica de negócio em serviços independentes e autônomos.  
+                  A abordagem API led organiza o acesso e a orquestração desses serviços por meio de três camadas chamadas System, Process e Experience.  
+                  Quando aplicadas em conjunto, essas abordagens aumentam a modularidade, a governança e a escalabilidade das integrações.
               - vr_en: |
-                  **API-led** and **microservices** are complementary approaches:  
-                  • *Microservices* split business logic into independent services.  
-                  • *API-led* structures access and orchestration of those services across three layers (System, Process, Experience).  
-                  Combined, they enhance **modularity**, **governance**, and **scalability** of integrations.
+                  The API led approach and microservices architecture are complementary strategies.  
+                  Microservices divide business logic into independent and autonomous services.  
+                  The API led approach structures access and orchestration of those services through three layers known as System, Process, and Experience.  
+                  When applied together, these approaches enhance modularity, governance, and scalability of integrations.

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_licenseField
+    examples: |
+      - como adicionar license no RAML DC?
+      - como definir licenseField no Design Center?
+      - pra que serve license no RAML DC?
+      - oque faz license no DC?
+      - como usar licenseField no RAML DC?
+      - how do you add a license field in RAML in Design Center?
+      - how do u define licenseField in DC?
+      - what is license used for in RAML in DC?
+      - what does license do in DC?
+      - how do you use licenseField in RAML in DC?

@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_queryparams_required:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu marco queryParameters como required no Design Center via atributo required true.
+                  Isso indica ao cliente que aquele parâmetro é obrigatório na chamada.
+                  Melhora a clareza e evita erros em tempo de execução.
+              - vr_en: |
+                  I mark queryParameters as required in Design Center by setting required true.
+                  This tells the client that the parameter is mandatory in the call.
+                  It improves clarity and prevents runtime errors.

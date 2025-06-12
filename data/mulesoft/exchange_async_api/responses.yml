@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_async_api:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu publico AsyncAPI spec e gero mocks de producers e consumers.
+                  CLI consome topicos e exibe mensagens conforme contrato.
+                  Permite testar arquiteturas orientadas a eventos.
+              - vr_en: |
+                  I publish the AsyncAPI spec and generate producer and consumer mocks.
+                  CLI consumes topics and displays messages as per contract.
+                  It enables testing event driven architectures.

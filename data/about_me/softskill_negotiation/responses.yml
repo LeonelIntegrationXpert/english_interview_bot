@@ -1,0 +1,15 @@
+version: '3.1'
+responses:
+  utter_softskill_negotiation:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Negocio com stakeholder assim:
+                  - apresento trade-offs claros.
+                  - documento decisões acordadas.
+                  - priorizo com base em impacto de negócio.
+              - vr_en: |
+                  I negotiate with stakeholders by:
+                  - presenting clear trade-offs.
+                  - documenting agreed decisions.
+                  - prioritizing based on business impact.

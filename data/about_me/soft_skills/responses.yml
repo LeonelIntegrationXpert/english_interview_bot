@@ -1,0 +1,17 @@
+version: '3.1'
+responses:
+  utter_soft_skills:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Essenciais para mim:
+                  • comunicação clara com clientes e devs.
+                  • empatia para entender necessidades.
+                  • solução criativa de problemas em equipe.
+                  • adaptação a mudanças rápidas.
+              - vr_en: |
+                  Essential for me:
+                  • clear communication with clients and devs.
+                  • empathy to understand needs.
+                  • creative team problem‐solving.
+                  • adaptability to rapid change.

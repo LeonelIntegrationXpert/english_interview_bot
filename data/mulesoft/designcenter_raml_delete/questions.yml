@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: designcenter_raml_delete
+    examples: |
+      - como definir delete em RAML no DC?
+      - como criar método delete no Design Center?
+      - como uso delete em RAML no DC?
+      - como configuro delete em API no DC?
+      - como especifico delete no Design Center?
+      - how do you define a delete method in RAML in Design Center?
+      - how do u create delete in DC?
+      - how do u use delete in RAML in DC?
+      - how do u configure delete on API in DC?
+      - how do u specify delete in Design Center?

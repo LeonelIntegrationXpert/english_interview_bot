@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_cli_search_assets:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso cli exchange a s sets search com palavras chave.
+                  Posso filtrar por tag e tipo direto no terminal.
+                  Resultados mostram nome, versão e descrição breve.
+              - vr_en: |
+                  I use cli exchange assets search with keywords.
+                  I can filter by tag and type right in the terminal.
+                  Results show name version and a brief description.

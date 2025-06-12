@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: analytical_thinking
+    examples: |
+      - como vc aplica pensamento analítico?
+      - como tu pensa de forma analítica?
+      - como vc divide problema em partes?
+      - como tu faz raciocínio lógico?
+      - como vc avalia dados pra resolver?
+      - how do you apply analytical thinking?
+      - how do u think analytically?
+      - how u break problems into parts?
+      - how do u use logical reasoning?
+      - how u evaluate data to solve issues?

@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_token_management
+    examples: |
+      - como gerenciar tokens no Exchange
+      - como gerar tokens de acesso
+      - como expirar tokens
+      - como auditar emissao de tokens
+      - como renovar tokens automaticos
+      - how do you manage tokens in Exchange
+      - how do you generate access tokens
+      - how do you expire tokens
+      - how do you audit token issuance
+      - how do you renew tokens automatically

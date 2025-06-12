@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_exchange_import_assets_report:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso opcao import report e seleciono arquivo CSV.
+                  Exchange valida e atualiza metadados dos assets.
+                  Facilita atualizacao em massa.
+              - vr_en: |
+                  I use the import report option and select the CSV file.
+                  Exchange validates and updates asset metadata.
+                  It facilitates bulk updates.

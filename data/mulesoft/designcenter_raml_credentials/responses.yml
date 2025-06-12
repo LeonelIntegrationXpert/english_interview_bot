@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_designcenter_raml_credentials:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu habilito credentials via cors slash allowCredentials para permitir envio de cookies.
+                  Isso torna possivel manter sessoes autenticadas em cross domain.
+                  Melhora seguranca e experiencia de usuario.
+              - vr_en: |
+                  I enable credentials via cors slash allowCredentials to permit cookie transmission.
+                  This makes it possible to maintain authenticated sessions cross domain.
+                  It improves security and user experience.

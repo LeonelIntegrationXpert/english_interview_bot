@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: exchange_move_asset_to_folder
+    examples: |
+      - como mover asset para pasta no Exchange
+      - como organizo asset em folder
+      - como coloco recurso em categoria pasta
+      - como arrasto asset para pasta
+      - como agrupo asset em folder
+      - how do you move an asset to a folder in Exchange
+      - how do u organize an asset into a folder
+      - how do you place a resource in a folder
+      - how do you drag an asset into a folder
+      - how do you group assets in folders

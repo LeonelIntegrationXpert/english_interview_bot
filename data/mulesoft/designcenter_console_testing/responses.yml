@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_designcenter_console_testing:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Eu uso o API Console do Design Center para enviar requests de exemplo e validar respostas antes de exportar integrações
+              - vr_en: |
+                  I use Design Center’s API Console to send sample requests and validate responses before exporting integrations

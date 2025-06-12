@@ -1,0 +1,14 @@
+version: '3.1'
+nlu:
+  - intent: stress_management
+    examples: |
+      - como vc gerencia stress?
+      - como tu lida c estresse?
+      - como vc controla ansiedade?
+      - como tu acalma pressão?
+      - como vc mantém calma?
+      - how do you manage stress?
+      - how do u handle stress?
+      - how u control anxiety?
+      - how do u stay calm under pressure?
+      - how u keep composure?
