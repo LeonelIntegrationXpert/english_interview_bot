@@ -1,0 +1,177 @@
+version: '3.1'
+nlu:
+  - intent: naming_conventions_api_led
+    examples: |
+      - quais são as boas práticas de nomenclatura no api-led
+      - quais sao as boas práticas de nomclatura no api-led
+      - quais são as boas praticas de nomenclatura no apiled
+      - quais sao as boas práticas de nomenclatura no a-p-i-led
+      - quais são as boas práticas de nomeclatura no api led
+      - quais são as boas prátcas de nomenclatura no api-led
+      - quais são as boas práticas de nomeclatura no apiled
+      - quais são as boas prácticas de nomenclatura no api-led
+      - quais são as boas práticas de nomenclatura no api léd
+      - quais são as boas práticas de nomenclatura no apiled?
+      - quais sao as boas praticas de nomeclatura no api-led
+      - quais são as boas práticas de nomeclatura no apiled?
+      - quais são as boas práticas de nomeclatura no apiled
+      - quais são as boas praticas de nomenclatura no api led
+      - quais sao as boas práticas de nomeclatura no apiled
+      - quais sao as boas práticas dee nomenclatura no api-led
+      - quais são as boas práticas de nomencaltura no api-led
+      - quais são as boas práticas de noemclatura no api-led
+      - quais sao as boas práticas de n0menclatura no api-led
+      - quais são as boas práticas de nomenclatura no apiled
+      - quais sao as boas praticas de nomenclatura no apiled
+      - quais são as boas praticas de nomenclatura no api-led
+      - quais sao as boas práticas de nomenclatura no apiled
+      - quais sao as boas práticas de nomenclartura no api-led
+      - quais são as boas práticas de nomenclatura no api-led!
+      - quais sao as boas praticas de nomenclatura no api-led?
+      - quais são as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de nomenclatura no api lekd
+      - quais sao as boas práticas de nomenclatura no a p i led
+      - quais são as boas práticas de nomenclatura no api_led
+      - quais são as boas práticas de nomenclatura no apiled?
+      - quais são as boas práticas de nomeclatura no apiled
+      - quais sao as boas práticas de nomenclatura no api-led?
+      - quais sào as boas práticas de nomenclatura no api-led
+      - quais são as boas práticas de nomenclatura no a.pi.led
+      - quais são as boas práticas de nomencaltura no apiled
+      - quais sao as boas práticas de nominaltura no api-led
+      - quais são boas práticas de nomenclatura no api-led
+      - quais sao as boas práticas de nomenclatura no api-led?
+      - quais são as boas praticas de nomeclatura no apiled
+      - quais são as boas práticas de nomenclatura no apiled?
+      - quais sao as boas praticas de nomenclatura no api led
+      - quais são as boas práticas de nomenclatura no api-lead
+      - quais sao as boas práticas de nomeclatura no api-led
+      - quais são as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de nomenclatura no apiled?
+      - quais sao as boas práticas de nomenclatura no api-led?
+      - quais são as boas práticas de nomenclatura no a.p.i.l.e.d
+      - quais são as boas práticas de nomaclatura no api-led
+      - quais sao as boas práticas de nomenclatura no ap-iled
+      - q u a i s são as boas práticas de nomenclatura no api-led
+      - quais são as boas práticas de nomenclatura no apiled!
+      - quais sao as boas práticas de nomenclatura no api-led
+      - quais são as boas prácticas de nomenclatura no apiled
+      - quais são as boas práticas de nomenclatura no api-lêd
+      - quais sao as boas práticas de nomenclatura no a-p-i-l-e-d
+      - quais são as boas práticas de nomenclatura no apiled?
+      - quais são as boas práticas de nomenclatura no api-led~
+      - quais sao as boas práticas de nomenclatura no api-led!
+      - quais são as boas práticas de nomemclatura no apiled
+      - quais são as boas práticas de nomenclatura no apiled?
+      - quais sao as boas práticas de nomenclatura no api-led?
+      - quais sao as boas práticas de nomeclatura no a-p-i-led
+      - quais são as boas práticas de nomenclatura no api lėd
+      - quais sao as boas práticas de nomencaltura no apiled
+      - quais são as boas práticas de nomenclatura no api-led?
+      - quais são as boas práticas de nomeclatura no api-led?
+      - quais sao as boas práticas de nomenclatura no a-p-i-led?
+      - quais são as boas práticas de nomenclatura no apiled
+      - quais sao as boas práticas de nomenclatura no api-lēd
+      - quais são as boas práticas de nomenclatura no apiled?
+      - quais sao as boas práticas de nomenclatura no api-led?
+      - quais são as boas práticas de nomenclatura no apiled!
+      - quais sao as boas práticas de nomenclatura no api-led!
+      - quais são as boas práticas de nomenclatura no apiled?
+      - quais sao as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de nomenclatura no api-led?
+      - quais sao as boas práticas de nomenclatura no apiled?
+      - quais são as boas práticas de nomenclatura no api-led!
+      - quais sao as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de nomenclatura no api-led?
+      - quais sao as boas práticas de nomenclatura no apiled?
+      - quais são as boas práticas de nomaclatura no api-led!
+      - quais sao as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de nomenclatura no api-led?
+      - quais sao as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de noumenclatura no api-led
+      - quais sao as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de nomenclatura no api-led?
+      - quais sao as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de nomenclatura no api-led?
+      - quais sao as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de nomeclatura no api-led
+      - quais sao as boas práticas de nomenclatura no apiled!
+      - quais são as boas práticas de nomenclatura no api-led?
+      - what are the naming best practices in api-led
+      - what are the naming best practies in api-led
+      - what are the naming best practices in apiled
+      - what are the naming best practices in a-p-i-led
+      - what r the naming best practices in api-led
+      - what are the naming best practices in api led
+      - what are the naming bst practices in api-led
+      - what are the naming best pracitces in api-led
+      - what are the naming best practices in apiled?
+      - what are the naming best practices in api-led?
+      - what are the naming best practs in api-led
+      - what are the naming best practices in api_l e d
+      - what are the naming best practices in a.p.i.l.e.d
+      - what are the naming best practices in api—led
+      - what are the naming bst practises in api-led
+      - what ar the naming best practices in api-led
+      - what are the naming best practices in api-l3d
+      - what are the naming best practices in ap1-led
+      - what are the naming best practies in api-led?
+      - wh@t are the naming best practices in api-led
+      - what are the namng best practices in api-led
+      - what are the naming best practices in api-led!
+      - what are the naming best pracices in api-led
+      - what are the naming best practices in api—led?
+      - what are the naming best practices in api-ledd
+      - what are the naming best practices in apiled?
+      - what are th naming best practices in api-led
+      - what are the naming best practics in api-led
+      - what are the naming best practices in a.p.i.-l.e.d
+      - what are the naming best practices in api-led??
+      - what are the naming best practies in api-led!
+      - what are the naming best practies in apiled?
+      - what are the naming best practices in api led?
+      - what re the naming best practices in api-led
+      - what are the naming bst practises in api-led?
+      - what are the naming best practices in apiled!
+      - what are the naming best practices in api—led!!
+      - what are the naming best practices in api-led..
+      - what are the naming best practices in apiled!!
+      - what are the naming best practices in api-led??
+      - what are the naming best practics in apiled
+      - what are the nmaming best practices in api-led
+      - what are the naming best practics in api-led?
+      - what are the naming best practices in api-lead
+      - what are the naming best practices in ap-led
+      - what are the naming best practices in api-l-ed
+      - what are the naming best practicess in api-led
+      - what are the naming best practices in api-led???
+      - what are the naming best prcatices in api-led
+      - what are the naming best practices in a pi led
+      - what are the naming best practices in api-led?!
+      - what are the naming best practies in api_led
+      - what are the naming best practices in api-ledd?
+      - what are the naming best practies in a-p-i-led
+      - what are the naming best practices in a.p.i.l.e.d?
+      - what ar the naming best practies in api-led
+      - what are the naming best practices in api_led?
+      - what are the naming best practices in api-led!!
+      - what are the naming best practices in apiled?!
+      - what are the naming best practices in api—led?
+      - what are the naming best practies in api-led!!
+      - what are the naming best practices in api-led..?
+      - what are the naming best practies in api_led!!
+      - what are the naming best practices in apiled..?
+      - what are the naming best practices in api-led??
+      - what are the naming best practies in apiled!!
+      - what are the naming best practices in api-led?
+      - what are the naming best practices in api-led!!!
+      - what are the naming best practies in api-led?
+      - what are the naming best practies in api-led!!  
+      - what are the naming best practices in api_led!!  
+      - what are the naming best practices in a-p-i-led!!  
+      - what are the naming best practis in api-led  
+      - what are the naming best practices in apile d  
+      - what are the naming best practices in api-led?  
+      - what are the naming best practices in api-led!!  
+      - what are the naming best practices in api-led?  
+      - what are the naming best practies in api-led!!  

@@ -1,0 +1,171 @@
+version: '3.1'
+nlu:
+  - intent: monitoring_api_led
+    examples: |
+      - como monitorarAPIs nas camadas do api-led
+      - como monitorar APIs nasJcamadas do api-led
+      - como monitorar APIs nas camadas do api-leR
+      - cmoo monitorar APIs nas camadas do api-led
+      - como monitorar APIs nas camadaps do api-led
+      - cLmo monitorar APIs nas camadas do api-led
+      - como monitorar APIs nas camadas do ai-led
+      - como monitorar APIs nasT camadas do api-led
+      - qomo monitorar APIs nas camadas do api-led
+      - como monitorar API snas camadas do api-led
+      - como moonitorar APIs nas camadas do api-led
+      - como monitorarAPIs nas camadas apiled
+      - como monitorar APIs nas camadas do a-p-i-led
+      - como monitorar APIs n as camadas do api-led
+      - cm monitorar APIs nas camadas do api-led
+      - como monitorar APIs nas camadas do api_led
+      - como monitorAPIs monitorar nas camadas do api-led
+      - como monitorar APIs nas camadas do api-l3d
+      - como monitorar APIs nas camadas apiled?
+      - como monitorar APIs nas camadas do api-led?
+      - como monitorrrar APIs nas camadas do api-led
+      - como monitorar APIs ns camadas do api-led
+      - como monit orar APIs nas camadas do api-led
+      - como monitorar APIs nas camadas do apí-led
+      - komo monitorar APIs nas camadas do api-led
+      - como monitorar APIs nas camadas do api–led
+      - como monitorar APIs nas camadas d0 api-led
+      - como monitorar APIs nas camadas do apiled!!
+      - como monitorar APIs nas camadas do api-led!!
+      - como monitorar APIs nas camadas do api—led
+      - como monitorar APIs nas camadas do api-léd
+      - como monitorear APIs nas camadas do api-led
+      - como monitorar APIs nas camadas do api-led~
+      - como monitorar APIs nas camadas do api-led..
+      - como monitorar APIs nas camadas da api-led
+      - como monitorar APIs nas camadas do api-led…
+      - como monitorar APIs nas camadas du api-led
+      - como monitorar APIs nas camadas dapiled
+      - como monitorar APIs nas camadas do api_lead
+      - como monitorar A P I S nas camadas do api-led
+      - como monitorar APIs nas camadas do apile d
+      - como monitorAr APIs nas camadas do api-led
+      - como monitorar APIs nas camadas no api-led
+      - como monitorar APIs nas camadas do api-led?
+      - como monitorar APIs nas camadas do apiled?
+      - cmmo monitorar APIs nas camadas do api-led
+      - como monitorar APIs nas camadas do api-led??
+      - como monitorar APIs nas camadas do apiled??
+      - como monitorar APIs nas camadas do a.p.i.l.e.d
+      - como monitorar APIs nas camadas do a.p.i.l.e.d?
+      - como monit0rar APIs nas camadas do api-led
+      - como monitorar APIs nas camadas do api—l3d
+      - como monitorar APIs n as camadas do apiled
+      - como monitorarAPIs nas camadas do api-lêd?
+      - como monitorar APIs nas camadas do api-led?!
+      - como monitorar APIs nas camadas do apiled?!
+      - como monitorarAPI S nas camadas do api-led
+      - como monitorar APIs nas camadas do api-led123
+      - como monitorar APIs nas camadas do api-led### 
+      - como monitorar APIs nas camadas do apiled###
+      - como monitorar APIs nas camadas do api-led??
+      - como monitorar APIs nas camadas do apiled!!
+      - como monitorar APIs nas camadas do Api-Led
+      - como monitorar APIs nas camadas do API-LED
+      - como monitorarAPIs nas camadas do api-led123
+      - como monitorar APIs nas camadas do a.p.i.-l.e.d
+      - como monitorar APIs nas camadas do api-led??
+      - como monitorar APIs nas camadas do api-led!
+      - como monitorar APIs nas camadas do apiledd
+      - como monitorar APIs nas camadas do apiled…
+      - como monitorar APIs nas camadas do api-led..
+      - como monitorar APIs nas camadas do apiled..
+      - como monitorar APIs nas camadas do api-led…
+      - como monitorar APIs nas camadas do apíl-ed
+      - como monitorar APIs nas camadas do apile-d
+      - komo monitorar APIs nas camadas do apiled
+      - cm monitorar APIs nas camadas do api-led!
+      - como monitorar aPIs nas camadas do api-led
+      - como monitorar APIs nas camadas do api-led;  
+      - como monitorar APIs nas camadas do apiled;  
+      - como monitorar APIs nas camadas do api-led:?
+      - como monitorar APIs nas camadas do apiled:?
+      - como monotorar APIs nas camadas do api-led
+      - como monitorar APIs nas camadas do api-led?
+      - como monitorar APIs nas camadas do apiled?
+      - how to monitor APIs in api-led layers
+      - hw to monitor APIs in api-led layers
+      - how to monitor APIs in apiled layers
+      - how to monitor APIs in api led layers
+      - how to monitor APIs in a-p-i-led layers
+      - how to monitor APIs in api_l-e-d layers
+      - how to monitor APIs in api-l3d layers
+      - how to monitor APIs in api-léd layers
+      - how to monitor APIs in api—led layers
+      - how to monitor APIs in api—léd layers
+      - howto monitor APIs in api-led layers
+      - how to monitorAPIs in api-led layers
+      - how to monitor APIs in api—led layers?
+      - how to m0nitor APIs in api-led layers
+      - how to monitor APIs in apiled layers?
+      - how to monitor APIs in api-led layers!!
+      - how to monitor APIs in apiled layers!!
+      - how to monitior APIs in api-led layers
+      - how to monitor APIs in api-led layer
+      - how to monitor APIs in api-led layer?
+      - how to monit or APIs in api-led layers
+      - how to monitor APIs in api-ledlayers
+      - how to monitor APIs in apiled layers?
+      - how to monitor APIs in api-led layers?
+      - how to monitor APIs in apiled layers?
+      - how to monitor APIs in api-led layers??
+      - how to monitor APIs in apiledlayers?
+      - how to monitor APIs in apiled layers!!
+      - how to pořitor APIs in api-led layers
+      - how to monitor APIs in api-led layers~
+      - how to monitor APIs in api-led layers..
+      - how to monitor APIs in api-led layers…
+      - how to monitor APIs in api-led layers;  
+      - how to monitor APIs in apiled layers;  
+      - how to monitor APIs in api-led layers:?
+      - how to monitor APIs in apiled layers:?
+      - how to monitor APIs in api-led layers???
+      - how to monitor APIs in apiled layers???
+      - how to monitor APIs in api-led layers123
+      - how to monitor APIs in apiled layers123
+      - how to montior APIs in api-led layers!!!
+      - how to monitor APIs in api-led layers?!
+      - how to monit or APIs in api-led layers?!
+      - how to monitorAPIs in apiled layers?!
+      - how to monitor APIs in api-led layers?
+      - how to monitor APIs in apiledlayers?
+      - how to monitorA PIs in api-led layers
+      - how to monitor APIs in api-led layers?
+      - how to monitor APIs in apiled layers?
+      - how to monitor APIs in api-led layers!!
+      - how to monitor APIs in apiled layers!!
+      - how to monitor APIs in api-led layers?!!
+      - how to montior API S in api-led layers
+      - how to monitor APIs in api-led lieyrs
+      - how to monitor APIs in apiled leyrs
+      - how to monitor APIs in api-led l3yers
+      - how to monitor APIs in apiled l3yers
+      - how to monitor APIs in api-led layer~
+      - how to monitor APIs in apiled layers...
+      - how to monitor APIs in api_led layers
+      - how to monitor APIs in api—led layering
+      - how to monitorAPIs in api-led layering
+      - how to monitor APIs in a-p-i-l-e-d layers
+      - how to monitor APIs in a.p.i.l.e.d layers
+      - how to monitor APIs in a-p-i-led layers
+      - how to monito APIs in api-led layers
+      - how to monitor APIs in api-led layers?
+      - how to monitor AâPIs in api-led layers
+      - how t omonitor APIs in api-led layers
+      - how to mnitor APIs in api-led layers
+      - how to monitor APIs in api-ledlayers
+      - how to monitor APIs in api-ledE layers
+      - how to monitor APIs in api-eld layers
+      - úow to monitor APIs in api-led layers
+      - how to monitor APIs in apu-led layers
+      - how to mÂonitor APIs in api-led layers
+      - how to moniXtor APIs in api-led layers
+      - how to monitor APIs in api-led layervs
+      - how to monitor APIs in api-led layerJ
+      - how to monitor APIs in api-led layerÂ
+      - how to monitor APIs in api-led layes
+      - how to monitor APIs in api-led layes?

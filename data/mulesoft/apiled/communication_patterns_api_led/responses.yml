@@ -1,0 +1,16 @@
+responses:
+  utter_communication_patterns_api_led:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  **API-led** suporta múltiplos padrões de comunicação:  
+                  • **Síncrono (REST/HTTP)** para consultas e operações imediatas.  
+                  • **Assíncrono (filas, eventos)** para processos desacoplados e tolerantes a falhas.  
+                  • **Pub/Sub** para notificar diversos consumidores sobre alterações.  
+                  Escolha o padrão considerando **latência desejada**, **acoplamento** e **resiliência**.
+              - vr_en: |
+                  **API-led** supports multiple communication patterns:  
+                  • **Synchronous (REST/HTTP)** for immediate queries and operations.  
+                  • **Asynchronous (queues, events)** for decoupled, fault-tolerant processing.  
+                  • **Pub/Sub** to notify many consumers of changes.  
+                  Select the pattern based on **desired latency**, **coupling**, and **resilience** requirements.

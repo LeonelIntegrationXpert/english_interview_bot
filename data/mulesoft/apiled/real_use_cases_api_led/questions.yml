@@ -1,0 +1,142 @@
+version: '3.1'
+nlu:
+  - intent: real_use_cases_api_led
+    examples: |
+      - quais são os casos reais de uso de api-led
+      - quais sao os casos reais de uso de api-led
+      - quais são os casos reais de uso do api-led
+      - quais são os casos reais d uso de api-led
+      - quais são os casos reias de uso de api-led
+      - quais são os cassos reais de uso de api-led
+      - quais são os casos reais de uso de apiled
+      - quais são os casos reais de uso do apiled
+      - quais são os casos reais de uso de a-p-i-led
+      - quais são os casos reais de uso do api_l-e-d
+      - quais são os casos reais de uso do api-l3d
+      - quais são os caso reais de uso de api-led
+      - quais são os casos reais de usso de api-led
+      - quais são os casos reais de uso de api led
+      - quais são os casos reais uso de api-led
+      - quais são os casos reais de uso de api.léd
+      - quais são os casos reais de uso do a.p.i.l.e.d
+      - quais sao os caso reais de uso de api-led
+      - quais são os casos reais de uso de api_led
+      - quais são os casos reais de uso do apí-led
+      - quais são os casos reais de uso de api—led
+      - quais são os casos reais de uso de api–led
+      - qais são os casos reais de uso de api-led
+      - quais são os casos reais de uso de apile d
+      - quais são os casos reais de uso de api-led?
+      - quais sao os casos reais de uso de apiled?
+      - quais são os casos reais d uso d api-led
+      - quais são os casos real de uso de api-led
+      - quais são os casos reais de usso d api-led
+      - quais são os casos reais de uso de ap1-led
+      - quais são os casos reais de us de api-led
+      - quais são os casos reais de uso do apiled?
+      - quais são os casos reais de uso do api-led!!
+      - quais são os casos reais de uso de apiled!!
+      - quais são os casos reais de uso de api_led?
+      - quais sao os casos reais de uso d api-led?
+      - quais são os casos reais d uso d api-led?
+      - quais são os casos reais de uso da arquitetura api-led
+      - quais sao os casos reais de uso na arquitetura api-led
+      - quais são os casos reais de uso com api-led
+      - quais os casos reais de uso de api-led
+      - quais são os casos de uso reais de api-led
+      - quais são os casos reais d uso api-led
+      - quais são os casos reais uso api-led
+      - qls são os casos reais de uso de api-led
+      - quais são os casos reais de uso d api-led
+      - quais sao os casos reais de usod e api-led
+      - quais são os casos reais d uso com api-led
+      - quais são os casos reais de api-led em uso
+      - quais são os casos reais de uso do api led
+      - quais são os casos reais de uso apiled
+      - quais são os casos reais de uso a.p.i.l.e.d
+      - quais são os casos reais do uso apiled
+      - quais são os casos reais de uso de api-led!!
+      - quais são os casos reais de uso d api-l3d
+      - quais são os casos reais de uso de apiled...
+      - quais são os casos reais de uso de api-led...
+      - quais são os casos reais de uso de api–l3d
+      - quais são os casos reais de uso de api_led!!
+      - quais são os casos reais de uso do api-lêd
+      - quais são os casos reais de uso de api-lêd?
+      - quais são os casos reais de uso de apí-led?
+      - quais são os casos reais de uso de api-led??
+      - quais são os casos reais de uso do api-led??
+      - quais são os casos reais de uso de api-leed
+      - quais são os casos reais de uso de api_lead
+      - quais são os casos reais de uso d api_le d
+      - quais são os casos reais de uso do apiled123
+      - quais são os casos reais de uso do api-led123
+      - quais são os casos reais de uso do a.p.i.-l.e.d
+      - quais são os casos reais de uso com API LED
+      - quais são os casos reais de uso com API-LED
+      - quais são os casos reais de uso do api LED
+      - quais são os casos reais de uso do Api-Led
+      - quais são os casos reais do uso da api-led
+      - quais são os casos reais de uso d@ api-led
+      - quais são os casos reais de uso da API-LED
+      - what are real use cases of api-led
+      - what r real use cases of api-led
+      - what are real use case of api-led
+      - what are real use cases for api-led
+      - what are real use cases of apiled
+      - what are real usecases of api-led
+      - what are real use cases of api led
+      - what are real use-cases of api-led
+      - what are real usage cases of api-led
+      - what are real life use cases of api-led
+      - what are real world use cases of api-led
+      - what are real use cases in api-led
+      - what are some real use cases of api-led
+      - what are examples of real use cases of api-led
+      - what are real use cases with api-led
+      - what are use cases of api-led in real world
+      - what are the real use cases of api-led
+      - what are real use cases of api_l-e-d
+      - what are real use cases of a-p-i-led
+      - what are real use cases of api—led
+      - what are real use cases of api–led
+      - what are real use cases for a.p.i.l.e.d
+      - what are real use cases in api_led
+      - what are real use cases api-led?
+      - what are real use cases of api-led?
+      - what are real use cases of apiled?
+      - what are real use cases of api_led?
+      - what are real use cases of api-l3d?
+      - what are real use cases of api-led!!
+      - what are real use cases of apiled!!
+      - what are real use cases for api led?
+      - what are real usecases of api-led?
+      - what r real use cases for api-led?
+      - what are the real use cases for api-led?
+      - what are real use-cases for api-led?
+      - what are practical use cases of api-led
+      - what are real implementation cases of api-led
+      - what are actual use cases of api-led
+      - what are real production use cases of api-led
+      - what are field-tested use cases of api-led
+      - what are validated use cases of api-led
+      - what are some verified use cases of api-led
+      - what are use cases of api-led in companies
+      - what are real business use cases of api-led
+      - what are confirmed use cases of api-led
+      - what are case studies of api-led in real use
+      - what are api-led real use cases?
+      - what are real api-led usage examples?
+      - what are applied use cases of api-led
+      - what are working use cases of api-led
+      - what are actual cases of api-led application
+      - what are functional use cases of api-led
+      - what are practical applications of api-led
+      - what are successful real use cases of api-led
+      - what are enterprise examples of api-led use
+      - what are top real use cases for api-led
+      - what are proven use cases of api-led
+      - what are field applications of api-led
+      - what are client use cases of api-led
+      - what are api-led real world cases
+      - what are results of api-led in real cases

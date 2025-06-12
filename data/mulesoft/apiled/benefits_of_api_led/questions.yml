@@ -1,0 +1,211 @@
+version: '3.1'
+nlu:
+  - intent: benefits_of_api_led
+    examples: |
+      - quais os beneficios do api-led
+      - quais os beneficios do api led
+      - quais os beneficíos do api-led
+      - quais os beneficios do apiled
+      - qais os beneficios do api-led
+      - qls os beneficios do api-led
+      - qls beneficios do api-led
+      - quais beneficios do api-led
+      - quais beneficios do apiled
+      - quais os beneficos do api-led
+      - quais os benficios do api-led
+      - quais os beneficios do a pi-led
+      - quais os beneficios do api_led
+      - quais os beneficios do api.lead
+      - quais os beneficios do api–led
+      - quais os beneficios do api—led
+      - quais os beneficios do api_lad
+      - quais os benf do api-led
+      - quais benficios do api-led
+      - quais os benificios do api-led
+      - quais os benef do apiled
+      - quais os benef do api led
+      - quais beneficios apiled
+      - quais beneficios da api-led
+      - quais os beneficios api-led
+      - quais os benefs do api-led
+      - qais os benef do api-led
+      - beneficios do api-led
+      - beneficios do api led
+      - beneficios apiled
+      - beneficío do api-led
+      - benfício do api-led
+      - quais os beneficios do apilede
+      - quais os beneficios do apilead
+      - quais os beneficios doapi-led
+      - quais os beneficiosdo api-led
+      - quais os beneficíos do api-led
+      - qls os benefic do api-led
+      - quais os benficio do api-led
+      - quais beneficios d api-led
+      - quais os benefiçios do api-led
+      - quais os beneficios do a-pi-led
+      - quais os beneficios do api-led?
+      - quais os beneficios do api-led.
+      - quais os beneficios do api-led!
+      - quais os beneficios doapi led
+      - quais os beneficios dapi-led
+      - quais beneficios doapi-led
+      - quais beneficios do a.pi.led
+      - qls benef do api-led
+      - quais beneficios do a-pi led
+      - quais beneficios api led
+      - quais beneficios do a pi led
+      - quais beneficios do api-lad
+      - quais os benefícos api-led
+      - quais beneficios da abordagem api-led
+      - quais ganhos do api-led
+      - quais as vantagens do api-led
+      - beneficios do uso do api-led
+      - beneficios do uso do apiled
+      - beneficios da arquitetura api-led
+      - beneficios no api-led
+      - beneficios da camada api-led
+      - api-led beneficios
+      - api-led traz beneficios
+      - beneficios que o api-led traz
+      - o api-led tem quais beneficios
+      - api-led tem beneficios?
+      - beneficios vindos do api-led
+      - beneficios do apii-led
+      - beneficios do api-leeed
+      - beneficios do api.leed
+      - beneficios do api_lead
+      - quais beneficios o api-led tem
+      - quais os beneficios dele (api-led)
+      - quais beneficios no uso de api-led
+      - quais vantagens de api-led
+      - quais beneficios com api-led
+      - quais beneficios com apiled
+      - quais beneficios traz o api-led
+      - quais beneficios oferece o api-led
+      - beneficios que api-led oferece
+      - quais beneficios api-led oferece
+      - q beneficios api-led
+      - q beneficios apiled
+      - kais os beneficios do api-led
+      - quais os benefícios doapi-led
+      - quais benefícios do apiled
+      - quais benefícios apileed
+      - quais os benifícios do api-led
+      - quais beneficios do api_leed
+      - quais benefícios do api_led
+      - quais os benefíccios do api-led
+      - quais beneficios do a.pi.led
+      - quais benefícios do api_led?
+      - quais os beneficios do api_led?
+      - quais beneficios a pi-led
+      - quais benefiçios do apiled
+      - quais beneficios do ap.lid
+      - quais beneficios do api-ld
+      - beneficios do api-led são quais
+      - beneficios que vêm do api-led
+      - api-led traz o que de bom
+      - o que o api-led oferece de beneficio
+      - beneficios do api led q são
+      - what are the benefits of api-led
+      - what are benefits of api-led
+      - what are the benefits api-led
+      - what are the benefits of apiled
+      - what are the benifits of api-led
+      - what are the benfits of api-led
+      - what are the benèfits of api-led
+      - wht are the benefits of api-led
+      - what r the benefits of api-led
+      - what're the benefits of api-led
+      - whats the benefits of api-led
+      - whats benefits of api-led
+      - what are the bennefits of api-led
+      - what are the api-led benefits
+      - api-led benefits
+      - benefits of api-led
+      - apiled benefits
+      - what are api-led benfits
+      - what are api-led benefits
+      - what is the benefit of api-led
+      - what are api-leds benefits
+      - what are the benefits of api led
+      - what are the benefits from api-led
+      - benefits from api-led
+      - what benefits does api-led have
+      - what benefits does apiled have
+      - benefits that api-led provides
+      - api-led what are the benefits
+      - what are the benefits for api-led
+      - what are the advantages of api-led
+      - advantages of api-led
+      - what is good about api-led
+      - what is helpful in api-led
+      - what is api-led good for
+      - what is api-led benefit
+      - api-led is good for what
+      - what can api-led do
+      - what benefits api-led brings
+      - what benefits with api-led
+      - what r benefits of api-led
+      - what benefits does the api-led have
+      - what the benefits of api-led
+      - what is api-led advantages
+      - benefits from apiled
+      - what is strong in api-led
+      - what are the benefit of api-led
+      - what api-led provides
+      - what api-led offers
+      - what api-led gives you
+      - what does api-led give
+      - benefits for api-led
+      - benifits of api-led
+      - benfits of api-led
+      - api led what benefits
+      - what benefits api led
+      - what is benefit in api-led
+      - what are the benfits api-led
+      - what are the benefits of api_lad
+      - what are the benefits of api_led
+      - what are the benefits of api.lead
+      - what are benefits of api.leed
+      - what are the benifits of apiled
+      - what are the benefit of apiled
+      - what are the benefits of a pi-led
+      - what benefits come from api-led
+      - what gains api-led
+      - what are api-led gains
+      - what gain from api-led
+      - gains with api-led
+      - what benefits are from api-led
+      - what’s good about api-led
+      - what’s helpful in api-led
+      - what makes api-led good
+      - api-led helps what
+      - how api-led helps
+      - why api-led is good
+      - what api-led improves
+      - why is api-led useful
+      - what are some api-led benefits
+      - api-led benefits?
+      - benefits of api-led?
+      - what are api-leds benifits
+      - api-leds benefits?
+      - api-led provides what
+      - what value in api-led
+      - value of api-led
+      - api-led usefulness
+      - api-led features
+      - what’s the point of api-led
+      - api-led positive points
+      - what’s api-led for
+      - what benefits exist in api-led
+      - what are the perks of api-led
+      - perks of api-led
+      - api-led advantage?
+      - what is best in api-led
+      - what is a benefit of api-led
+      - api-led do what
+      - what api-led do better
+      - what help api-led give
+      - what help api-led brings
+      - what’s the benefit for api-led

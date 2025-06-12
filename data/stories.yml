@@ -1,5 +1,81 @@
 version: '3.1'
 stories:
+  - story: storie_api_led_in_enterprise_integration
+    steps:
+      - intent: api_led_in_enterprise_integration
+      - action: utter_api_led_in_enterprise_integration
+  - story: storie_api_led_in_layered_architecture
+    steps:
+      - intent: api_led_in_layered_architecture
+      - action: utter_api_led_in_layered_architecture
+  - story: storie_api_led_integration_best_practices
+    steps:
+      - intent: api_led_integration_best_practices
+      - action: utter_api_led_integration_best_practices
+  - story: storie_api_led_vs_event_driven
+    steps:
+      - intent: api_led_vs_event_driven
+      - action: utter_api_led_vs_event_driven
+  - story: storie_api_led_vs_microservices
+    steps:
+      - intent: api_led_vs_microservices
+      - action: utter_api_led_vs_microservices
+  - story: storie_api_led_vs_point_to_point
+    steps:
+      - intent: api_led_vs_point_to_point
+      - action: utter_api_led_vs_point_to_point
+  - story: storie_api_versioning_strategies
+    steps:
+      - intent: api_versioning_strategies
+      - action: utter_api_versioning_strategies
+  - story: storie_benefits_of_api_led
+    steps:
+      - intent: benefits_of_api_led
+      - action: utter_benefits_of_api_led
+  - story: storie_communication_patterns_api_led
+    steps:
+      - intent: communication_patterns_api_led
+      - action: utter_communication_patterns_api_led
+  - story: storie_comparison_api_led_vs_mesh
+    steps:
+      - intent: comparison_api_led_vs_mesh
+      - action: utter_comparison_api_led_vs_mesh
+  - story: storie_deployment_strategies_api_led
+    steps:
+      - intent: deployment_strategies_api_led
+      - action: utter_deployment_strategies_api_led
+  - story: storie_governance_in_api_led
+    steps:
+      - intent: governance_in_api_led
+      - action: utter_governance_in_api_led
+  - story: storie_handling_failures_in_api_led
+    steps:
+      - intent: handling_failures_in_api_led
+      - action: utter_handling_failures_in_api_led
+  - story: storie_how_to_design_api_led_layers
+    steps:
+      - intent: how_to_design_api_led_layers
+      - action: utter_how_to_design_api_led_layers
+  - story: storie_how_to_handle_authentication
+    steps:
+      - intent: how_to_handle_authentication
+      - action: utter_how_to_handle_authentication
+  - story: storie_monitoring_api_led
+    steps:
+      - intent: monitoring_api_led
+      - action: utter_monitoring_api_led
+  - story: storie_naming_conventions_api_led
+    steps:
+      - intent: naming_conventions_api_led
+      - action: utter_naming_conventions_api_led
+  - story: storie_real_use_cases_api_led
+    steps:
+      - intent: real_use_cases_api_led
+      - action: utter_real_use_cases_api_led
+  - story: storie_security_in_api_led
+    steps:
+      - intent: security_in_api_led
+      - action: utter_security_in_api_led
   - story: storie_what_is_api_led
     steps:
       - intent: what_is_api_led
@@ -16,83 +92,7 @@ stories:
     steps:
       - intent: what_is_system_layer
       - action: utter_what_is_system_layer
-  - story: storie_api_led_integration_best_practices
-    steps:
-      - intent: api_led_integration_best_practices
-      - action: utter_api_led_integration_best_practices
-  - story: story_when_to_use_api_led
-    steps:
-      - intent: when_to_use_api_led
-      - action: utter_when_to_use_api_led
-  - story: story_benefits_of_api_led
-    steps:
-      - intent: benefits_of_api_led
-      - action: utter_benefits_of_api_led
-  - story: story_api_led_vs_point_to_point
-    steps:
-      - intent: api_led_vs_point_to_point
-      - action: utter_api_led_vs_point_to_point
-  - story: story_api_led_vs_event_driven
-    steps:
-      - intent: api_led_vs_event_driven
-      - action: utter_api_led_vs_event_driven
-  - story: storie_api_led_vs_event_driven
-    steps:
-      - intent: api_led_vs_event_driven
-      - action: utter_api_led_vs_event_driven
-  - story: storie_api_led_vs_point_to_point
-    steps:
-      - intent: api_led_vs_point_to_point
-      - action: utter_api_led_vs_point_to_point
-  - story: storie_benefits_of_api_led
-    steps:
-      - intent: benefits_of_api_led
-      - action: utter_benefits_of_api_led
   - story: storie_when_to_use_api_led
     steps:
       - intent: when_to_use_api_led
       - action: utter_when_to_use_api_led
-  - story: storie_how_to_design_api_led_layers
-    steps:
-      - intent: how_to_design_api_led_layers
-      - action: utter_how_to_design_api_led_layers
-  - story: storie_governance_in_api_led
-    steps:
-      - intent: governance_in_api_led
-      - action: utter_governance_in_api_led
-  - story: storie_naming_conventions_api_led
-    steps:
-      - intent: naming_conventions_api_led
-      - action: utter_naming_conventions_api_led
-  - story: storie_security_in_api_led
-    steps:
-      - intent: security_in_api_led
-      - action: utter_security_in_api_led
-  - story: storie_how_to_handle_authentication
-    steps:
-      - intent: how_to_handle_authentication
-      - action: utter_how_to_handle_authentication
-  - story: storie_monitoring_api_led
-    steps:
-      - intent: monitoring_api_led
-      - action: utter_monitoring_api_led
-  - story: storie_handling_failures_in_api_led
-    steps:
-      - intent: handling_failures_in_api_led
-      - action: utter_handling_failures_in_api_led
-  - story: storie_api_versioning_strategies
-    steps:
-      - intent: api_versioning_strategies
-      - action: utter_api_versioning_strategies
-  - story: storie_deployment_strategies_api_led
-    steps:
-      - intent: deployment_strategies_api_led
-      - action: utter_deployment_strategies_api_led
-  - story: storie_real_use_cases_api_led
-    steps:
-      - intent: real_use_cases_api_led
-      - action: utter_real_use_cases_api_led
-  - story: storie_api_led_in_enterprise_integration
-    steps:
-      - intent: api_led_in_enterprise_integration
-      - action: utter_api_led_in_enterprise_integration

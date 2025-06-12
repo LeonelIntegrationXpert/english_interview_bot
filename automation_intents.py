@@ -3,7 +3,6 @@ import re
 import subprocess
 import sys
 
-# Instala dependências necessárias, se não existirem
 REQUIRED_PACKAGES = ["ruamel.yaml"]
 
 def install_missing_packages():
@@ -20,7 +19,10 @@ from ruamel.yaml.scalarstring import LiteralScalarString
 
 yaml = YAML()
 yaml.indent(mapping=2, sequence=4, offset=2)
-yaml.allow_unicode = True  # Permite salvar emojis diretamente
+yaml.allow_unicode = True
+
+def normalize_intent_name(intent_path):
+    return intent_path.strip().split('/')[-1]
 
 def parse_input(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -33,56 +35,70 @@ def parse_input(file_path):
         en_examples = re.findall(r'#en:(.*?)(?:#vr_pt:)', intent_block, re.DOTALL)[0].strip().splitlines()
         vr_pt = re.findall(r'#vr_pt:(.*?)(?:#vr_en:)', intent_block, re.DOTALL)[0].strip()
         vr_en = re.findall(r'#vr_en:(.*)', intent_block, re.DOTALL)[0].strip()
-
         intents.append((intent, pt_examples, en_examples, vr_pt, vr_en))
-
     return intents
 
-def create_files(intent, pt_examples, en_examples, vr_pt, vr_en, base_dir):
-    intent_folder = os.path.join(base_dir, intent)
+def clean_multiline_response(text):
+    """
+    Limpa espaços e prepara conteúdo multilinha para YAML sem duplicar '|'.
+    Se houver '|' acidental no input.txt, remove automaticamente.
+    """
+    cleaned = text.strip()
+    if cleaned.startswith('|'):
+        cleaned = cleaned.lstrip('|').strip()
+    return LiteralScalarString(cleaned + '\n')
+
+def create_files(intent_path, pt_examples, en_examples, vr_pt, vr_en, base_dir):
+    intent_folder = os.path.join(base_dir, *intent_path.split('/'))
     os.makedirs(intent_folder, exist_ok=True)
+    intent_name = normalize_intent_name(intent_path)
 
-    formatted_examples = (
-        "# 🌟 Português\n" +
-        '\n'.join(f"- {ex.strip('- ').strip()}" for ex in pt_examples if ex.strip()) +
-        "\n\n# 🇺🇸 English\n" +
-        '\n'.join(f"- {ex.strip('- ').strip()}" for ex in en_examples if ex.strip())
-    )
+    # Combine examples
+    formatted_examples = '\n'.join(
+        f"- {ex.strip('- ').strip()}"
+        for ex in (pt_examples + en_examples)
+        if ex.strip()
+    ) + '\n'
 
+    # Prepare questions.yml
     questions = {
         'version': '3.1',
         'nlu': [
             {
-                'intent': intent,
+                'intent': intent_name,
                 'examples': LiteralScalarString(formatted_examples)
             }
         ]
     }
 
+    # Prepare responses.yml
     responses = {
+        'version': '3.1',
         'responses': {
-            f'utter_{intent}': [
+            f'utter_{intent_name}': [
                 {
                     'custom': {
-                        'response_array': [
-                            [
-                                {'vr_pt': LiteralScalarString(vr_pt.strip())},
-                                {'vr_en': LiteralScalarString(vr_en.strip())}
-                            ]
-                        ]
+                        'response_array': [[
+                            {'vr_pt': clean_multiline_response(vr_pt)},
+                            {'vr_en': clean_multiline_response(vr_en)}
+                        ]]
                     }
                 }
             ]
         }
     }
 
+    # Write questions.yml
     with open(os.path.join(intent_folder, 'questions.yml'), 'w', encoding='utf-8') as qf:
         yaml.dump(questions, qf)
 
+    # Write responses.yml
     with open(os.path.join(intent_folder, 'responses.yml'), 'w', encoding='utf-8') as rf:
         yaml.dump(responses, rf)
 
-def update_file(file_path, data_key, intent):
+def update_file(file_path, data_key, intent_path):
+    intent_name = normalize_intent_name(intent_path)
+
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             data = yaml.load(file) or {}
@@ -94,57 +110,21 @@ def update_file(file_path, data_key, intent):
     if data_key not in data or data[data_key] is None:
         data[data_key] = []
 
-    entry_name = f"{data_key[:-1]}_{intent}"
-    existing_names = set()
-    for entry in data[data_key]:
-        if entry:
-            name = entry.get('rule') or entry.get('story')
-            if name:
-                existing_names.add(name)
+    entry_name = f"{data_key[:-1]}_{intent_name}"
+    existing = {entry.get('rule') or entry.get('story') for entry in data[data_key] if entry}
 
-    if entry_name not in existing_names:
-        entry = {
+    if entry_name not in existing:
+        data[data_key].append({
             'rule' if data_key == 'rules' else 'story': entry_name,
-            'steps': [{'intent': intent}, {'action': f'utter_{intent}'}]
-        }
-        data[data_key].append(entry)
+            'steps': [{'intent': intent_name}, {'action': f'utter_{intent_name}'}]
+        })
 
         with open(file_path, 'w', encoding='utf-8') as file:
             yaml.dump(data, file)
 
-def clean_up_files(base_dir, rules_path, stories_path, domain_path):
-    existing_intents = set(name for name in os.listdir(base_dir)
-                           if os.path.isdir(os.path.join(base_dir, name)))
+def update_domain(intent_path, domain_path):
+    intent_name = normalize_intent_name(intent_path)
 
-    for path, key in [(rules_path, 'rules'), (stories_path, 'stories')]:
-        if os.path.exists(path):
-            with open(path, 'r', encoding='utf-8') as file:
-                data = yaml.load(file) or {}
-
-            if key in data:
-                data[key] = [
-                    entry for entry in data[key]
-                    if entry.get('steps') and any(
-                        step.get('intent') in existing_intents for step in entry.get('steps')
-                    )
-                ]
-
-                with open(path, 'w', encoding='utf-8') as file:
-                    yaml.dump(data, file)
-
-    if os.path.exists(domain_path):
-        with open(domain_path, 'r', encoding='utf-8') as file:
-            domain_data = yaml.load(file) or {}
-
-        if 'intents' not in domain_data or domain_data['intents'] is None:
-            domain_data['intents'] = []
-
-        domain_data['intents'] = [i for i in domain_data['intents'] if i in existing_intents]
-
-        with open(domain_path, 'w', encoding='utf-8') as file:
-            yaml.dump(domain_data, file)
-
-def update_domain(intent, domain_path):
     if os.path.exists(domain_path):
         with open(domain_path, 'r', encoding='utf-8') as file:
             domain_data = yaml.load(file) or {}
@@ -154,39 +134,50 @@ def update_domain(intent, domain_path):
     if 'intents' not in domain_data or domain_data['intents'] is None:
         domain_data['intents'] = []
 
-    if intent not in domain_data['intents']:
-        domain_data['intents'].append(intent)
+    if intent_name not in domain_data['intents']:
+        domain_data['intents'].append(intent_name)
 
         with open(domain_path, 'w', encoding='utf-8') as file:
             yaml.dump(domain_data, file)
 
-def verify_existing_intents(base_dir, rules_path, stories_path, domain_path):
-    existing_intents = [name for name in os.listdir(base_dir)
-                        if os.path.isdir(os.path.join(base_dir, name))]
+def clean_up_files(base_dir, rules_path, stories_path, domain_path):
+    existing_intents = set()
+    for root, dirs, _ in os.walk(base_dir):
+        for d in dirs:
+            existing_intents.add(d)
 
-    for intent in existing_intents:
-        update_file(rules_path, 'rules', intent)
-        update_file(stories_path, 'stories', intent)
-        update_domain(intent, domain_path)
+    for path, key in [(rules_path, 'rules'), (stories_path, 'stories')]:
+        if os.path.exists(path):
+            with open(path, 'r', encoding='utf-8') as file:
+                data = yaml.load(file) or {}
+            if key in data:
+                data[key] = [e for e in data[key] if any(s.get('intent') in existing_intents for s in e.get('steps', []))]
+            with open(path, 'w', encoding='utf-8') as file:
+                yaml.dump(data, file)
+
+    if os.path.exists(domain_path):
+        with open(domain_path, 'r', encoding='utf-8') as file:
+            domain_data = yaml.load(file) or {}
+        domain_data['intents'] = [i for i in domain_data.get('intents', []) if i in existing_intents]
+        with open(domain_path, 'w', encoding='utf-8') as file:
+            yaml.dump(domain_data, file)
 
 def main():
     input_file = 'input.txt'
-    base_dir = 'data/mulesoft/api_led'
+    base_dir = 'data'
     rules_path = 'data/rules.yml'
     stories_path = 'data/stories.yml'
     domain_path = 'domain.yml'
 
     clean_up_files(base_dir, rules_path, stories_path, domain_path)
-    verify_existing_intents(base_dir, rules_path, stories_path, domain_path)
-
     intents = parse_input(input_file)
-    for intent, pt_examples, en_examples, vr_pt, vr_en in intents:
-        create_files(intent, pt_examples, en_examples, vr_pt, vr_en, base_dir)
-        update_file(rules_path, 'rules', intent)
-        update_file(stories_path, 'stories', intent)
-        update_domain(intent, domain_path)
+    for intent_path, pt, en, vr_pt, vr_en in intents:
+        create_files(intent_path, pt, en, vr_pt, vr_en, base_dir)
+        update_file(rules_path, 'rules', intent_path)
+        update_file(stories_path, 'stories', intent_path)
+        update_domain(intent_path, domain_path)
 
-    print("🎉 Processo concluído com sucesso!")
+    print("🎉 Intents processadas com sucesso!")
 
 if __name__ == "__main__":
     main()

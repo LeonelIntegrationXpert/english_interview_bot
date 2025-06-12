@@ -1,0 +1,16 @@
+responses:
+  utter_api_led_vs_point_to_point:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  A principal **diferença entre API-led e integração ponto a ponto** está na **estrutura e escalabilidade** da solução.  
+                  No **modelo ponto a ponto**, os sistemas se conectam diretamente, criando uma teia difícil de manter conforme crescem as integrações.  
+                  Já o **API-led connectivity** organiza a comunicação em **três camadas**: *System APIs*, *Process APIs* e *Experience APIs*.  
+                  Essa abordagem permite maior **reutilização**, **governança**, **facilidade de manutenção** e **menor acoplamento** entre os sistemas.  
+                  Em resumo, o modelo **API-led é modular, flexível e ideal para ambientes complexos**.
+              - vr_en: |
+                  The main **difference between API-led and point-to-point integration** lies in the **structure and scalability** of the solution.  
+                  In the **point-to-point model**, systems connect directly, forming a web that's difficult to maintain as integrations grow.  
+                  **API-led connectivity**, on the other hand, organizes communication into **three layers**: *System APIs*, *Process APIs*, and *Experience APIs*.  
+                  This approach enables greater **reusability**, **governance**, **easier maintenance**, and **lower coupling** between systems.  
+                  In short, **API-led is modular, flexible, and ideal for complex environments**.

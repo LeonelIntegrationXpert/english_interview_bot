@@ -1,0 +1,16 @@
+responses:
+  utter_api_led_in_layered_architecture:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Dentro de uma **arquitetura em camadas**, o **API-led** atua como camada de **integração e orquestração**:  
+                  • *System APIs* conectam sistemas e dados.  
+                  • *Process APIs* aplicam regras de negócio.  
+                  • *Experience APIs* entregam experiências sob medida aos canais.  
+                  Essa separação aumenta o **desacoplamento** e facilita a **evolução** da arquitetura.
+              - vr_en: |
+                  Within a **layered architecture**, **API-led** serves as the **integration and orchestration layer**:  
+                  • *System APIs* connect systems and data sources.  
+                  • *Process APIs* apply business logic.  
+                  • *Experience APIs* provide channel-specific experiences.  
+                  This separation boosts **decoupling** and eases architectural **evolution**.

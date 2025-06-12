@@ -1,0 +1,12 @@
+responses:
+  utter_comparison_api_led_vs_mesh:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  **API-led** foca na **exposição, governança e reutilização de APIs** para integração entre sistemas.  
+                  **Service Mesh** gerencia a **comunicação interna entre microsserviços**, oferecendo tráfego seguro, observabilidade e políticas de rede.  
+                  Use **API-led** para integração externa e orquestração; use **Service Mesh** para controle fino do tráfego **dentro** do cluster de microsserviços.
+              - vr_en: |
+                  **API-led** focuses on **API exposure, governance, and reuse** for system-to-system integration.  
+                  **Service Mesh** manages **internal microservice-to-microservice traffic**, providing secure routing, observability, and network policies.  
+                  Use **API-led** for external integration and orchestration; use **Service Mesh** for fine-grained traffic control **inside** a microservices cluster.

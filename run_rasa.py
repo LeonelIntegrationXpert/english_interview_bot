@@ -89,13 +89,13 @@ def delete_caches():
         if os.path.exists(dir_name):
             print(f"🧹 Removendo cache `{dir_name}`...")
             shutil.rmtree(dir_name, ignore_errors=True)
-    
+
     for file in pyc_files:
         try:
             os.remove(file)
         except Exception as e:
             print(f"⚠️ Erro ao remover {file}: {e}")
-    
+
     print("✅ Caches limpos.\n")
 
 def run_rasa_pipeline(test_file=None):
@@ -119,7 +119,7 @@ def run_rasa_pipeline(test_file=None):
             subprocess.run(python_cmd + ["train"], check=True)
 
             print_header("🚀 Iniciando o shell interativo do Rasa...")
-            subprocess.run(python_cmd + ["shell"], check=True)
+            subprocess.run(python_cmd + ["run", "--enable-api", "--cors", "*", "--debug"], check=True)
 
     except subprocess.CalledProcessError as e:
         print(f"❌ Erro ao executar comando: {e}")

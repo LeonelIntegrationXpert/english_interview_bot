@@ -1,0 +1,16 @@
+responses:
+  utter_what_is_api_led:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  API-led é uma abordagem de integração que organiza as APIs em três camadas: Experience, Process e System.  
+                  Essa estrutura facilita a reutilização de componentes, acelera o desenvolvimento e reduz a duplicação de esforço.  
+                  Ao dividir as responsabilidades entre as camadas, as equipes conseguem manter as integrações de forma mais eficiente.  
+                  Além disso, o modelo permite maior controle, governança e segurança sobre os serviços expostos.  
+                  É um dos principais fundamentos da arquitetura MuleSoft para conectar sistemas de forma escalável e organizada.
+              - vr_en: |
+                  API-led is an integration approach that organizes APIs into three layers: Experience, Process, and System.  
+                  This layered model promotes reusability, speeds up development, and reduces redundancy.  
+                  By separating concerns across layers, teams can manage integrations more effectively.  
+                  It also allows for better governance, security, and control over exposed services.  
+                  API-led is a foundational principle in MuleSoft architecture for scalable and organized system connectivity.

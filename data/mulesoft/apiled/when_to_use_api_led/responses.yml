@@ -1,0 +1,16 @@
+responses:
+  utter_when_to_use_api_led:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  O API-led deve ser utilizado quando é necessário **estruturar integrações de forma modular e reutilizável**.  
+                  Ele é ideal em **ambientes corporativos complexos**, onde diversas aplicações precisam se comunicar entre si.  
+                  Também é recomendado para **projetos com múltiplos times**, pois promove separação de responsabilidades entre camadas.  
+                  Quando há necessidade de **governança, escalabilidade e versionamento**, o API-led se destaca como melhor abordagem.  
+                  Em resumo, use API-led quando quiser **orquestrar sistemas com flexibilidade, controle e segurança**.
+              - vr_en: |
+                  API-led should be used when you need to **structure integrations in a modular and reusable way**.  
+                  It is ideal in **complex enterprise environments** where multiple systems need to communicate with each other.  
+                  It is also recommended for **projects involving multiple teams**, as it promotes layer-based separation of concerns.  
+                  When **governance, scalability, and versioning** are required, API-led becomes the best-fit approach.  
+                  In short, use API-led when aiming to **orchestrate systems with flexibility, control, and security**.

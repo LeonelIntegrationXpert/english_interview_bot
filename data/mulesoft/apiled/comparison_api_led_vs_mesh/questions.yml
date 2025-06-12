@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: comparison_api_led_vs_mesh
+    examples: |
+      - diferença entre api-led e service mesh
+      - api-led é igual a service mesh?
+      - quando usar api-led ou service mesh
+      - como api-led se compara ao service mesh
+      - service mesh substitui o api-led?
+      - api-led vs service mesh qual escolher
+      - arquitetura api-led ou service mesh
+      - posso usar api-led com service mesh?
+      - api-led é compatível com service mesh?
+      - principais diferenças entre api-led e malha de serviços
+      - difference between api-led and service mesh
+      - is api-led the same as service mesh?
+      - when to use api-led or service mesh
+      - how api-led compares to service mesh
+      - does service mesh replace api-led?
+      - api-led vs service mesh which to choose
+      - service mesh or api-led architecture
+      - can api-led work with service mesh?
+      - api-led compatibility with service mesh
+      - key differences between api-led and service mesh

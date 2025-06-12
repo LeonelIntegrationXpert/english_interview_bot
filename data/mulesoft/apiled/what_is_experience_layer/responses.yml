@@ -1,0 +1,16 @@
+responses:
+  utter_what_is_experience_layer:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  A camada **Experience** é a camada mais próxima do consumidor final em uma arquitetura API-led.  
+                  Ela é responsável por **apresentar os dados** de forma personalizada para diferentes canais, como web, mobile ou parceiros.  
+                  Sua principal função é **adaptar e expor** as informações de outras camadas (Process e System) de forma acessível.  
+                  Essa camada facilita a reutilização da lógica principal sem duplicar código em cada canal de consumo.  
+                  É a interface pública da API, focada na experiência do usuário e na entrega personalizada de valor.
+              - vr_en: |
+                  The **Experience Layer** is the closest layer to the end-user in an API-led architecture.  
+                  It is responsible for **presenting data** in a personalized way across different channels like web, mobile, or partners.  
+                  Its main role is to **adapt and expose** information from other layers (Process and System) in an accessible format.  
+                  This layer enables reuse of core logic without duplicating code in every consumer channel.  
+                  It acts as the public interface of the API, focused on user experience and tailored value delivery.

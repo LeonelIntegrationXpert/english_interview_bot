@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: api_led_vs_microservices
+    examples: |-
+      - qual a diferença entre api-led e microsserviços
+      - api-led e microservices são a mesma coisa?
+      - api-led substitui arquitetura de microservices?
+      - diferenças entre api-led e microsserviços
+      - posso usar api-led com microservices?
+      - vantagens do api-led sobre microservices
+      - quando usar api-led ou microservices
+      - relação entre api-led e microservices
+      - api-led é uma abordagem de microsserviços?
+      - api-led complementa microservices como funciona
+      - what's the difference between api-led and microservices
+      - is api-led the same as microservices?
+      - does api-led replace microservices architecture?
+      - differences between api-led and microservices
+      - can api-led work with microservices?
+      - advantages of api-led over microservices
+      - when to use api-led or microservices
+      - relationship between api-led and microservices
+      - is api-led a microservices approach?
+      - how api-led complements microservices
