@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Pratico empatia ouvindo ativamente:
-                  - busco entender preocupações antes de responder.
-                  - verifico se meu suporte atende necessidades.
-                  - ajusto tom para oferecer acolhimento.
+                  Demonstro empatia ouvindo de verdade, sem pressa nem julgamento.  
+                  Antes de agir, confirmo se entendi o que a pessoa realmente precisa.  
+                  Ajusto meu tom para que ela se sinta acolhida e respeitada.
               - vr_en: |
-                  I practice empathy by active listening:
-                  - I seek to understand concerns before responding.
-                  - I ensure my support meets their needs.
-                  - I adjust tone to provide reassurance.
+                  I show empathy by truly listening, without rushing or judging.  
+                  Before acting, I confirm I’ve understood what the person really needs.  
+                  I adjust my tone so they feel respected and supported.

@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Valorizo trabalho em equipe:
-                  - compartilho progresso diariamente.
-                  - ajudo colegas em dificuldades.
-                  - celebro conquistas coletivas.
+                  Trabalho em equipe é parte do meu dia a dia.  
+                  Compartilho progresso com transparência e apoio colegas sempre que preciso.  
+                  Faço questão de celebrar conquistas como vitórias do grupo.
               - vr_en: |
-                  I value teamwork:
-                  - I share progress daily.
-                  - I help colleagues in need.
-                  - I celebrate collective successes.
+                  Teamwork is part of my daily routine.  
+                  I share progress transparently and support colleagues whenever needed.  
+                  I make a point of celebrating achievements as shared victories.

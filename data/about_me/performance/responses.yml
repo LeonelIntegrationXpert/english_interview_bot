@@ -4,14 +4,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Eu garanto performance usando:
-                  • tuning de thread e pool no Runtime Fabric.
-                  • cache em Process APIs com Object Store.
-                  • limitação de payloads e uso de streaming.
-                  • monitoramento de SLAs com Anypoint Monitoring.
+                  Eu garanto alta performance nas integrações adotando práticas específicas em cada camada.  
+                  Realizo o ajuste fino de threads e pools no Runtime Fabric para melhorar o throughput da aplicação.  
+                  Nas Process APIs, aplico cache estratégico utilizando o Object Store para evitar chamadas redundantes.  
+                  Também limito o tamanho dos payloads e adoto streaming para reduzir o uso de memória e acelerar o processamento.  
+                  Além disso, monitoro os SLAs continuamente com o Anypoint Monitoring para detectar gargalos e agir proativamente.
               - vr_en: |
-                  I ensure performance by:
-                  • tuning thread pools on Runtime Fabric.
-                  • caching in Process APIs via Object Store.
-                  • limiting payloads and using streaming.
-                  • SLA monitoring with Anypoint Monitoring.
+                  I ensure high performance in integrations by applying targeted practices across layers.  
+                  I fine tune thread and pool configurations on Runtime Fabric to maximize application throughput.  
+                  In Process APIs, I apply strategic caching using Object Store to avoid redundant calls.  
+                  I also limit payload sizes and implement streaming to reduce memory usage and speed up processing.  
+                  Additionally, I monitor SLAs continuously with Anypoint Monitoring to detect bottlenecks and respond proactively.

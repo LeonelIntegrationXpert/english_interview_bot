@@ -2,13 +2,23 @@ version: '3.1'
 nlu:
   - intent: curiosity
     examples: |
-      - como vc demonstra curiosidade no trabalho?
-      - como tu mostra curiosidade na tarefa?
-      - como vc pesquisa coisas novas?
+      - como você demonstra curiosidade no trabalho?
+      - como tu mostra curiosidade nas tarefas?
+      - como você pesquisa coisas novas no dia a dia?
       - como tu busca entender algo diferente?
-      - como vc explora tema novo no job?
+      - como você explora um tema novo no trabalho?
+      - o que você faz quando encontra algo que não conhece?
+      - como reage diante de uma tecnologia desconhecida?
+      - como você costuma investigar soluções alternativas?
+      - como mantém o hábito de aprender coisas novas?
+      - como tu descobre o funcionamento de algo novo?
       - how do you show curiosity at work?
-      - how do u demonstrate curiosity on tasks?
-      - how u research new topics?
-      - how do u explore unfamiliar areas?
-      - how u dig into new subjects on the job?
+      - how do you demonstrate curiosity in tasks?
+      - how do you research new topics?
+      - how do you explore unfamiliar areas?
+      - how do you dig into new subjects on the job?
+      - what do you do when you find something you don’t know?
+      - how do you investigate new tools or concepts?
+      - how do you stay curious in your daily work?
+      - how do you keep learning new things?
+      - how do you handle unknown technologies or frameworks?

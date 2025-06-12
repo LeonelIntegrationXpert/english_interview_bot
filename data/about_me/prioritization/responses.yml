@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Prioritizo assim:
-                  - avalio impacto de cada tarefa.
-                  - discuto prioridades com stakeholders.
-                  - reajusto conforme necessidade do negócio.
+                  Eu defino prioridades avaliando o impacto de cada tarefa no contexto do projeto.  
+                  Converso com stakeholders para alinhar o que é mais urgente e relevante para o negócio.  
+                  Sempre que surgem mudanças, reavalio os objetivos e reajusto o foco para garantir entregas com valor máximo.
               - vr_en: |
-                  I set priorities by:
-                  - assessing impact of each task.
-                  - discussing priorities with stakeholders.
-                  - adjusting based on business needs.
+                  I set priorities by assessing the impact of each task within the project’s context.  
+                  I engage with stakeholders to align on what is most urgent and valuable for the business.  
+                  When changes arise, I reevaluate goals and shift focus to ensure maximum value in deliveries.

@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Resolvo conflitos assim:
-                  - ouço cada parte sem julgar.
-                  - encontro pontos em comum.
-                  - proponho solução colaborativa e follow-up.
+                  Quando surge um conflito, escuto com calma e sem julgamentos.  
+                  Busco entender o que temos em comum e construo pontes em vez de muros.  
+                  Juntos, definimos um caminho viável e combino o próximo passo.
               - vr_en: |
-                  I resolve conflicts by:
-                  - listening to each side without judgment.
-                  - finding common ground.
-                  - proposing a collaborative solution and following up.
+                  When conflict arises, I listen calmly and without judgment.  
+                  I look for common ground and build bridges instead of walls.  
+                  Together, we define a way forward and agree on the next step.

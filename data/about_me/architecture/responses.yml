@@ -4,14 +4,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Eu uso padrão API-led dividindo em:
-                  • System APIs para acesso a dados.
-                  • Process APIs para lógica de negócio.
-                  • Experience APIs para canais específicos.
-                  Isso garante governança e reutilização máxima.
+                  Eu aplico o padrão de arquitetura API led dividindo as integrações em três camadas distintas e complementares.  
+                  Utilizo APIs do tipo System para realizar o acesso seguro e padronizado aos dados de sistemas legados e bases corporativas.  
+                  Em seguida, aplico APIs do tipo Process para concentrar a lógica de negócio e orquestrar os dados entre múltiplas fontes.  
+                  Por fim, uso APIs do tipo Experience para adaptar e expor essas informações de forma específica para cada canal, como web, mobile ou parceiros.  
+                  Essa estrutura garante alta governança, máxima reutilização de componentes e maior agilidade nas entregas.
               - vr_en: |
-                  I apply API-led by splitting into:
-                  • System APIs for data access.
-                  • Process APIs for business logic.
-                  • Experience APIs for channel-specific needs.
-                  This ensures governance and maximum reuse.
+                  I apply the API led architecture pattern by dividing integrations into three distinct and complementary layers.  
+                  I use System type APIs to securely and consistently access data from legacy systems and corporate databases.  
+                  Then, I implement Process type APIs to centralize business logic and orchestrate data across multiple sources.  
+                  Finally, I use Experience type APIs to adapt and expose this information in a format tailored to each channel, such as web, mobile, or partner applications.  
+                  This structure ensures strong governance, maximum component reuse, and greater agility in delivery.

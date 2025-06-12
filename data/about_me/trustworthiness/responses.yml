@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Construo confiança:
-                  - entrego o prometido no prazo.
-                  - comunico riscos de forma transparente.
-                  - mantenho integridade em todas decisões.
+                  Eu construo confiança cumprindo o que prometo e no tempo certo.  
+                  Quando há riscos, comunico com clareza e sem omitir impacto.  
+                  Em qualquer decisão, mantenho integridade e coerência com meus valores.
               - vr_en: |
-                  I build trust by:
-                  - delivering on my commitments on time.
-                  - communicating risks transparently.
-                  - upholding integrity in every decision.
+                  I build trust by keeping my promises and delivering on time.  
+                  When risks arise, I communicate them clearly without hiding impact.  
+                  In every decision, I act with integrity and stay true to my values.

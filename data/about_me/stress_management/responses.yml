@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Gerencio stress:
-                  - faço pausas estratégicas de respiração.
-                  - pratico atividade física regular.
-                  - compartilho preocupações com mentor.
+                  Lido com o stress de forma preventiva e consciente.  
+                  Faço pausas curtas para respiração, mantenho exercícios físicos na rotina e converso com meu mentor.  
+                  Isso me ajuda a manter clareza mesmo em momentos de pressão.
               - vr_en: |
-                  I manage stress by:
-                  - taking strategic breathing breaks.
-                  - practicing regular exercise.
-                  - sharing concerns with a mentor.
+                  I handle stress proactively and mindfully.  
+                  I take short breathing breaks, keep regular workouts in my routine, and talk to my mentor.  
+                  This helps me stay clear-headed even under pressure.

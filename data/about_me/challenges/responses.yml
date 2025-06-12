@@ -4,16 +4,16 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Eu enfrentei desafios como:
-                  • lidar com múltiplos IdPs e endpoints JWKS dinâmicos.
-                  • otimizar pipelines CI/CD e garantir deploys sem downtime.
-                  • manter performance sob alta carga e throttling de APIs.
-                  • implementar políticas customizadas de segurança sem impactar latência.
-                  • integrar sistemas legados complexos com DataWeave avançado.
+                  Ao longo da minha experiência com integração, enfrentei diversos desafios técnicos e arquiteturais.  
+                  Um deles foi lidar com múltiplos provedores de identidade e a validação de endpoints JWKS dinâmicos em fluxos de autenticação.  
+                  Também trabalhei na otimização de pipelines de integração e entrega contínua, garantindo implantações sem tempo de indisponibilidade.  
+                  Outro desafio foi manter a performance das aplicações sob alta carga, lidando com limites de requisição e estratégias de throttling de APIs.  
+                  Atuei ainda na implementação de políticas customizadas de segurança, com foco em autenticação e autorização, sem comprometer a latência.  
+                  Por fim, participei de integrações com sistemas legados complexos utilizando DataWeave em um nível avançado para transformação e enriquecimento de dados.
               - vr_en: |
-                  I faced challenges such as:
-                  • handling multiple IdPs and dynamic JWKS endpoints.
-                  • optimizing CI/CD pipelines and ensuring zero-downtime deployments.
-                  • maintaining performance under high load and API throttling.
-                  • implementing custom security policies without adding latency.
-                  • integrating complex legacy systems with advanced DataWeave.
+                  Throughout my integration experience, I have faced several technical and architectural challenges.  
+                  One of them was managing multiple identity providers and validating dynamic JWKS endpoints within authentication flows.  
+                  I also worked on optimizing continuous integration and delivery pipelines to ensure zero downtime deployments.  
+                  Another challenge involved maintaining application performance under high load while handling request limits and API throttling strategies.  
+                  I implemented custom security policies focused on authentication and authorization, ensuring that latency was not impacted.  
+                  Lastly, I contributed to complex legacy system integrations using advanced DataWeave techniques for data transformation and enrichment.

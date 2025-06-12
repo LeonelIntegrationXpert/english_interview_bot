@@ -2,13 +2,23 @@ version: '3.1'
 nlu:
   - intent: decision_making
     examples: |
-      - como vc toma decisões difíceis?
-      - como tu decide em dilema?
-      - como vc escolhe caminho em dúvida?
-      - como tu avalia opções críticas?
-      - como vc faz escolha complexa?
+      - como você toma decisões difíceis?
+      - como tu decide em um dilema?
+      - como você escolhe o caminho certo quando está em dúvida?
+      - como tu avalia opções críticas em momentos chave?
+      - como você faz uma escolha complexa no trabalho?
+      - como lida com decisões de alto impacto?
+      - como você prioriza quando há muitas alternativas?
+      - como decide entre dois caminhos importantes?
+      - como equilibra lógica e intuição em decisões?
+      - como costuma tomar decisões sob pressão?
       - how do you make difficult decisions?
-      - how do u decide in a dilemma?
-      - how u choose a path when unsure?
-      - how do u evaluate critical options?
-      - how u make complex choices?
+      - how do you decide in a dilemma?
+      - how do you choose a path when unsure?
+      - how do you evaluate critical options?
+      - how do you make complex choices?
+      - how do you decide under pressure?
+      - how do you weigh pros and cons before deciding?
+      - how do you handle high-stakes decision making?
+      - how do you balance logic and instinct?
+      - how do you choose when both options seem right?

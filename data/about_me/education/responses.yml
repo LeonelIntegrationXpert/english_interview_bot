@@ -4,8 +4,8 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Sou Tecnólogo em Sistemas para Internet pelo IFSul (2020–2023).
-                  Também participei de Pibid e monitorias em C e C++ durante a graduação.
+                  Sou tecnólogo em Sistemas para Internet pelo Instituto Federal Sul rio grandense, com formação entre os anos de dois mil e vinte e dois mil e vinte e três.  
+                  Durante a graduação, participei do programa institucional de bolsas de iniciação à docência e atuei como monitor nas disciplinas de linguagem C e C mais mais.
               - vr_en: |
-                  I hold a Technology degree in Internet Systems from IFSul (twenty twenty to twenty twenty-three(2020–2023)).
-                  I also took part in PIBID and served as a monitor for C and C++(plus plus) courses.
+                  I hold a technology degree in Internet Systems from the Federal Institute of Southern Brazil, completed between the years twenty twenty and twenty twenty three.  
+                  During my undergraduate studies, I participated in the institutional teaching initiation program and served as a monitor for C and C plus plus programming courses.

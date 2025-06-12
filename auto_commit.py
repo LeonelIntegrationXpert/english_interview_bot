@@ -1,6 +1,8 @@
 import subprocess
 import datetime
 import re
+import tempfile
+import os
 
 DEFAULT_NAME = "Leonel Dorneles Porto"
 DEFAULT_EMAIL = "leoneldornelesporto@outlook.com.br"
@@ -64,7 +66,19 @@ def auto_commit():
         + "\n".join(changes)
     )
 
-    subprocess.run(["git", "commit", "-m", commit_message], check=True)
+    # Escrever mensagem de commit em arquivo temporário para evitar limite de tamanho
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False, encoding='utf-8') as tf:
+        tf.write(commit_message)
+        temp_file = tf.name
+
+    # Usar --file para ler a mensagem de commit do arquivo
+    subprocess.run(["git", "commit", "--file", temp_file], check=True)
+
+    # Remover arquivo temporário
+    try:
+        os.remove(temp_file)
+    except OSError:
+        pass
 
     print("\n🚀 Enviando commit para o repositório remoto...\n")
     subprocess.run(["git", "push", "origin", branch], check=True)

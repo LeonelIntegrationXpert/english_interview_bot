@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Negocio com stakeholder assim:
-                  - apresento trade-offs claros.
-                  - documento decisões acordadas.
-                  - priorizo com base em impacto de negócio.
+                  Negocio com stakeholders de forma estratégica.  
+                  Apresento prós, contras e impacto no negócio com transparência.  
+                  Registro decisões e ajusto prioridades conforme alinhamento.
               - vr_en: |
-                  I negotiate with stakeholders by:
-                  - presenting clear trade-offs.
-                  - documenting agreed decisions.
-                  - prioritizing based on business impact.
+                  I negotiate with stakeholders strategically.  
+                  I present pros, cons, and business impact transparently.  
+                  I document decisions and adjust priorities accordingly.

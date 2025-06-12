@@ -2,13 +2,23 @@ version: '3.1'
 nlu:
   - intent: prioritization
     examples: |
-      - como vc define prioridades?
-      - como tu prioriza tarefas?
-      - como vc escolhe o que vem primeiro?
-      - como tu ordena trabalho?
-      - como vc decide urgência?
+      - como você define prioridades?
+      - como tu prioriza tarefas no dia a dia?
+      - como você escolhe o que vem primeiro no trabalho?
+      - como tu organiza o que precisa ser feito?
+      - como você decide o que é mais urgente?
+      - como lida com várias demandas ao mesmo tempo?
+      - como você identifica tarefas críticas?
+      - como equilibra tarefas importantes e urgentes?
+      - como tu gerencia prazos apertados?
+      - como você mantém foco quando há muita coisa pra fazer?
       - how do you set priorities?
-      - how do u prioritize tasks?
-      - how u decide what comes first?
-      - how do u order your workload?
-      - how u determine urgency?
+      - how do you prioritize tasks at work?
+      - how do you decide what comes first?
+      - how do you organize your workload?
+      - how do you determine urgency?
+      - how do you handle multiple demands?
+      - how do you identify critical tasks?
+      - how do you balance urgent and important tasks?
+      - how do you manage tight deadlines?
+      - how do you stay focused with many things to do?

@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Gerencio tempo assim:
-                  - crio lista de tarefas priorizadas.
-                  - bloqueio períodos de foco sem interrupção.
-                  - reviso progresso no meio do prazo.
+                  Organizo meu tempo com foco em entrega e equilíbrio.  
+                  Defino prioridades claras, bloqueio horários para foco profundo e evito multitarefa.  
+                  No meio do prazo, reviso o andamento para ajustar o ritmo se necessário.
               - vr_en: |
-                  I manage time by:
-                  - creating a prioritized task list.
-                  - blocking focus periods without interruption.
-                  - reviewing progress mid-sprint.
+                  I manage my time with a focus on delivery and balance.  
+                  I set clear priorities, block deep-focus time, and avoid multitasking.  
+                  Midway through deadlines, I review progress and adjust pace if needed.

@@ -4,12 +4,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Sou mente aberta:
-                  - avalio ideias sem pré-julgamento.
-                  - peço contexto antes de decidir.
-                  - utilizo feedback para ajustar meu ponto de vista.
+                  Eu cultivo uma postura de mente aberta em ambientes colaborativos e técnicos.  
+                  Avalio ideias com imparcialidade, sem julgamentos prévios, considerando sempre a proposta antes da pessoa.  
+                  Busco compreender o contexto completo antes de tomar decisões ou emitir opiniões.  
+                  Utilizo feedback como ferramenta para revisar e ajustar minha própria perspectiva, reconhecendo que pontos de vista diferentes agregam valor.
               - vr_en: |
-                  I stay open-minded by:
-                  - evaluating ideas without pre-judgment.
-                  - seeking context before deciding.
-                  - using feedback to refine my perspective.
+                  I maintain an open minded attitude in both collaborative and technical environments.  
+                  I evaluate ideas impartially, without pre judging, always focusing on the proposal rather than the person.  
+                  I seek to understand the full context before making decisions or sharing opinions.  
+                  I use feedback as a tool to review and adjust my own perspective, recognizing that different viewpoints add value.

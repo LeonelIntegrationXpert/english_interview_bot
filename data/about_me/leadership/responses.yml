@@ -4,16 +4,16 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Eu lidero times assim:
-                  • defino papéis e responsabilidades claras.
-                  • faço daily stand-ups e reviews de código.
-                  • promovo pair programming e mentoring.
-                  • garanto comunicação entre negócio e dev.
-                  • apoio capacitação com treinamentos hands-on.
+                  Eu exerço liderança de forma estruturada, colaborativa e técnica.  
+                  Começo definindo papéis e responsabilidades claras para que cada pessoa saiba onde contribuir com autonomia.  
+                  Conduzo reuniões diárias de alinhamento e revisões de código com foco em qualidade e aprendizado coletivo.  
+                  Incentivo práticas como programação em dupla e mentoria entre os membros do time para fortalecer o conhecimento compartilhado.  
+                  Facilito a comunicação entre áreas de negócio e desenvolvimento, atuando como ponte para garantir entendimento mútuo.  
+                  Também promovo treinamentos práticos e capacitações técnicas contínuas, alinhadas às necessidades do projeto e dos profissionais.
               - vr_en: |
-                  I lead teams by:
-                  • defining clear roles and responsibilities.
-                  • holding daily stand-ups and code reviews.
-                  • promoting pair programming and mentoring.
-                  • ensuring communication between business and dev.
-                  • providing hands-on training sessions.
+                  I lead teams in a structured, collaborative, and technically grounded way.  
+                  I start by defining clear roles and responsibilities so that each team member understands how to contribute with autonomy.  
+                  I conduct daily alignment meetings and code reviews focused on quality and collective learning.  
+                  I encourage practices like pair programming and mentoring to strengthen knowledge sharing across the team.  
+                  I facilitate communication between business and development areas, acting as a bridge to ensure mutual understanding.  
+                  I also promote practical training and continuous technical development tailored to project and team needs.

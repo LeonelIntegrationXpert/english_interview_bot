@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Aprendo rápido assim:
-                  - sigo documentação oficial e tutoriais hands-on.
-                  - participo de comunidades e webinars.
-                  - aplico em pequenos projetos práticos.
+                  Aprendo rápido conectando teoria com prática real.  
+                  Exploro documentações, tutoriais e comunidades ativamente.  
+                  Valido o aprendizado em projetos pequenos com entregas visíveis.
               - vr_en: |
-                  I learn quickly by:
-                  - following official docs and hands-on tutorials.
-                  - attending communities and webinars.
-                  - applying in small practical projects.
+                  I learn fast by connecting theory to real practice.  
+                  I actively explore docs, tutorials, and communities.  
+                  I validate learning through small projects with visible outcomes.

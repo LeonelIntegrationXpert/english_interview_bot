@@ -4,12 +4,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Possuo:
-                  • Salesforce Certified MuleSoft Platform Architect – Level 1.
-                  • Salesforce Certified MuleSoft Developer – Level 1.
-                  • Várias badges no Trailhead sobre API-led e Anypoint CLI.
+                  Possuo certificações reconhecidas na área de integração com MuleSoft.  
+                  Sou certificado como arquiteto de plataforma MuleSoft pela Salesforce, no nível um.  
+                  Também sou certificado como desenvolvedor MuleSoft pela Salesforce, igualmente no nível um.  
+                  Além disso, conquistei diversas insígnias no Trailhead relacionadas a API led, Anypoint CLI e práticas de integração modernas.
               - vr_en: |
-                  I hold:
-                  • Salesforce Certified MuleSoft Platform Architect – Level One.
-                  • Salesforce Certified MuleSoft Developer – Level One.
-                  • Multiple Trailhead badges on API-led and Anypoint CLI.
+                  I hold well recognized certifications in the MuleSoft integration ecosystem.  
+                  I am certified as a MuleSoft Platform Architect by Salesforce at level one.  
+                  I am also certified as a MuleSoft Developer by Salesforce, also at level one.  
+                  In addition, I have earned several Trailhead badges focused on API led practices, Anypoint CLI, and modern integration strategies.

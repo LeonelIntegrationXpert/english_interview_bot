@@ -4,14 +4,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Eu implemento JWT/OAuth2 assim:
-                  • crio policy personalizada de validação com múltiplos JWKS.
-                  • configuro OAuth2 Provider no API Manager.
-                  • valido claims críticos (exp, aud, scope).
-                  • uso Anypoint SDK para lógica custom se necessário.
+                  Eu implemento autenticação baseada em JWT e OAuth dois ponto zero com foco em segurança e escalabilidade.  
+                  Desenvolvo policies personalizadas que suportam múltiplos endpoints JWKS, permitindo validação distribuída em ambientes com diversos provedores de identidade.  
+                  Configuro o provedor OAuth dois ponto zero diretamente no API Manager para controlar o fluxo de autorização e emissão de tokens.  
+                  Valido claims críticos como expiração, audiência e escopos, garantindo conformidade com regras de acesso da organização.  
+                  Quando necessário, utilizo o Anypoint SDK para implementar lógicas customizadas de validação ou enriquecimento de contexto.
               - vr_en: |
-                  I implement JWT/OAuthtwo by:
-                  • creating a custom validation policy with multiple JWKS.
-                  • configuring OAuthtwo Provider in API Manager.
-                  • validating critical claims (exp, aud, scope).
-                  • using Anypoint SDK for custom logic when needed.
+                  I implement authentication using JWT and OAuth two point zero with a focus on security and scalability.  
+                  I develop custom policies that support multiple JWKS endpoints, enabling distributed validation across environments with multiple identity providers.  
+                  I configure the OAuth two point zero provider directly in the API Manager to manage authorization flows and token issuance.  
+                  I validate critical claims such as expiration, audience, and scopes to ensure compliance with organizational access rules.  
+                  When needed, I use the Anypoint SDK to implement custom validation logic or context enrichment.

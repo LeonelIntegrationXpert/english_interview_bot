@@ -4,14 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Eu acompanho:
-                  • adoção de Next-Gen RTF e Workers autogerenciados.
-                  • serverless e eventos em MuleSoft.
-                  • GitOps para deploys declarativos.
-                  • evolução de OpenAPI (three point one(3.1)) e AsyncAPI.
+                  Estou sempre antenado às tendências mais relevantes.  
+                  Sigo a evolução do Next-Gen RTF, GitOps, eventos e OpenAPI 3.1 para APIs modernas.  
+                  Busco aplicar essas inovações em projetos reais sempre que possível.
               - vr_en: |
-                  I follow:
-                  • adoption of Next-Gen RTF and self-managed workers.
-                  • serverless and event-driven MuleSoft.
-                  • GitOps for declarative deployments.
-                  • evolution of OpenAPI (three point one(3.1)_ and AsyncAPI.
+                  I stay tuned to the most relevant technical trends.  
+                  I follow Next-Gen RTF, GitOps, event-driven patterns, and OpenAPI three point one(3.1).  
+                  I aim to bring these innovations into real-world projects whenever possible.

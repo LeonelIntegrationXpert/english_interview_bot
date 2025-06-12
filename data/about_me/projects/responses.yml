@@ -4,14 +4,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Um projeto marcante foi a migração de 3.8 para Mule 4 CloudHub para a Enel:
-                  • coordenei testes de regressão e rollback seguro.
-                  • refatorei flows complexos para MQ e S3 batch.
-                  • implementei monitoramento pró-ativo com Anypoint Monitoring.
-                  • entreguei em 4 semanas com zero incidentes em produção.
+                  Um dos projetos mais impactantes foi a migração da Enel do Mule 3.8 para Mule 4 no CloudHub.  
+                  Atuei como responsável técnico pela transição, coordenando testes de regressão e definindo um plano de rollback seguro.  
+                  Refatorei integrações críticas com processamento em lote via MQ e S3, além de implementar monitoramento pró-ativo com Anypoint Monitoring.  
+                  A entrega foi concluída em quatro semanas, sem incidentes em produção — um case de sucesso com alta complexidade técnica e impacto real no negócio.
               - vr_en: |
-                  A notable project was migrating Enel from Mule three point eight to Mule four CloudHub:
-                  • I coordinated regression tests and safe rollback plans.
-                  • I refactored complex MQ and S3 batch flows.
-                  • I implemented proactive monitoring with Anypoint Monitoring.
-                  • I delivered in four weeks with zero production incidents.
+                  One of the most impactful projects I led was migrating Enel from Mule three point eight to Mule four on CloudHub.  
+                  I served as the technical lead, coordinating regression testing and defining a safe rollback strategy.  
+                  I refactored critical batch processing flows using MQ and S3, and implemented proactive monitoring through Anypoint Monitoring.  
+                  The project was delivered in four weeks with zero production incidents — a high-complexity success case with tangible business value.

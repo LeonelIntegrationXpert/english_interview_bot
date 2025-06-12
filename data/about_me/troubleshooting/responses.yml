@@ -4,14 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Meu troubleshooting inclui:
-                  • análise de logs detalhados com ELK e Anypoint Monitoring.
-                  • replicação local com MUnit e debugging remoto.
-                  • verificação de métricas de latência e throughput.
-                  • aplicação de correções hotfix em runtime se necessário.
+                  Quando preciso investigar algo, começo analisando logs no ELK e Anypoint Monitoring.  
+                  Se necessário, replico o problema localmente com MUnit e debug remoto.  
+                  Também acompanho métricas como latência e throughput e aplico hotfixes em runtime com segurança.
               - vr_en: |
-                  My troubleshooting approach includes:
-                  • detailed log analysis with ELK and Anypoint Monitoring.
-                  • local replication with MUnit and remote debugging.
-                  • reviewing latency and throughput metrics.
-                  • applying hotfixes in runtime when needed.
+                  When troubleshooting, I start by analyzing logs in ELK and Anypoint Monitoring.  
+                  If needed, I replicate the issue locally using MUnit and remote debugging.  
+                  I also monitor latency and throughput metrics and apply runtime hotfixes safely when required.

@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Cuido dos detalhes assim:
-                  - uso checklists de revisão.
-                  - faço pares de revisão cross-team.
-                  - testo cenários extremos.
+                  Sou atento aos detalhes em cada entrega:  
+                  sigo checklists criteriosos, reviso com colegas de outros times  
+                  e sempre cubro os cenários de borda pra evitar surpresa na produção.
               - vr_en: |
-                  I ensure detail by:
-                  - using review checklists.
-                  - pairing for cross-team reviews.
-                  - testing edge-case scenarios.
+                  I pay close attention to every detail:  
+                  I follow thorough checklists, review with peers across teams,  
+                  and always test edge cases to avoid surprises in production.

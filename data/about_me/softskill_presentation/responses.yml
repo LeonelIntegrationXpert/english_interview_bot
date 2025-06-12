@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Apresento técnico assim:
-                  - preparo slides claros e objetivos.
-                  - uso exemplos práticos e demos ao vivo.
-                  - interajo com perguntas do público.
+                  Apresento temas técnicos com clareza e engajamento.  
+                  Estruturo slides objetivos, trago exemplos reais e faço demonstrações ao vivo.  
+                  Estimulo perguntas e adapto o ritmo conforme a audiência.
               - vr_en: |
-                  I give technical presentations by:
-                  - preparing clear, concise slides.
-                  - using practical examples and live demos.
-                  - engaging with audience questions.
+                  I present technical topics with clarity and engagement.  
+                  I structure concise slides, bring real-world examples, and run live demos.  
+                  I encourage questions and adapt the pace to the audience.

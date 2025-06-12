@@ -4,12 +4,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Penso analiticamente:
-                  - crio hipóteses e testo com números.
-                  - desconstruo problema em etapas lógicas.
-                  - reviso resultados para ajustar abordagem.
+                  Eu aplico pensamento analítico ao abordar problemas de forma estruturada e orientada por dados.  
+                  Começo formulando hipóteses com base em indícios e depois testo essas hipóteses com apoio de dados e métricas concretas.  
+                  Em seguida, decomponho o problema em etapas lógicas para facilitar a análise e identificar padrões relevantes.  
+                  Por fim, reviso os resultados obtidos e ajusto minha abordagem conforme necessário para alcançar soluções mais eficazes.
               - vr_en: |
-                  I think analytically by:
-                  - formulating hypotheses and testing with data.
-                  - breaking problems into logical steps.
-                  - reviewing outcomes to refine my approach.
+                  I apply analytical thinking by approaching problems in a structured and data driven way.  
+                  I start by formulating hypotheses based on evidence and then test those hypotheses using concrete data and metrics.  
+                  Next, I break the problem into logical steps to simplify the analysis and identify meaningful patterns.  
+                  Finally, I review the outcomes and adjust my approach as needed to reach more effective solutions.

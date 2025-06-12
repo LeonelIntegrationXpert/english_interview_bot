@@ -2,13 +2,23 @@ version: '3.1'
 nlu:
   - intent: analytical_thinking
     examples: |
-      - como vc aplica pensamento analítico?
+      - como você aplica pensamento analítico?
       - como tu pensa de forma analítica?
-      - como vc divide problema em partes?
-      - como tu faz raciocínio lógico?
-      - como vc avalia dados pra resolver?
+      - como você costuma dividir um problema em partes menores?
+      - como tu aborda um desafio com lógica?
+      - como você usa dados para tomar decisões?
+      - como você avalia as opções antes de agir?
+      - como identifica causas raiz de um problema?
+      - como você analisa situações complexas?
+      - como resolve problemas que exigem raciocínio lógico?
+      - como costuma organizar informações para tomar uma decisão?
       - how do you apply analytical thinking?
-      - how do u think analytically?
-      - how u break problems into parts?
-      - how do u use logical reasoning?
-      - how u evaluate data to solve issues?
+      - how do you think analytically?
+      - how do you break problems into smaller parts?
+      - how do you use logic to approach problems?
+      - how do you evaluate data to solve issues?
+      - how do you identify root causes of problems?
+      - how do you structure your thought process?
+      - how do you deal with complex problem solving?
+      - how do you assess different options before deciding?
+      - how do you use analytical skills in real scenarios?

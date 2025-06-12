@@ -4,14 +4,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Eu estruturo CI/CD com:
-                  • repositórios Git organizados por API.
-                  • GitHub Actions para builds, testes MUnit e upload para Exchange.
-                  • Jenkins para deploy em CloudHub e Runtime Fabric.
-                  • validações automáticas de policies via Anypoint CLI.
+                  Eu estruturo a automação de integração e entrega contínua com base em boas práticas de repositório, testes e governança.  
+                  Mantenho os repositórios Git organizados por API, garantindo rastreabilidade e isolamento de versionamento por artefato.  
+                  Utilizo fluxos automatizados com GitHub Actions para realizar build, executar testes MUnit e publicar os pacotes no Exchange da Anypoint Platform.  
+                  Para as etapas de implantação, utilizo o Jenkins como orquestrador, realizando deploys tanto em ambientes CloudHub quanto em Runtime Fabric.  
+                  Também aplico validações automáticas de políticas e configurações utilizando a interface de linha de comando da Anypoint, assegurando compliance e consistência nos pipelines.
               - vr_en: |
-                  I structure CI/CD with:
-                  • Git repos organized per API.
-                  • GitHub Actions for builds, MUnit tests, and Exchange uploads.
-                  • Jenkins for deployments to CloudHub and Runtime Fabric.
-                  • automated policy validations via Anypoint CLI.
+                  I structure continuous integration and delivery automation based on best practices for repositories, testing, and governance.  
+                  I maintain Git repositories organized by API, ensuring traceability and isolated version control per artifact.  
+                  I use GitHub Actions workflows to automate the build process, run MUnit tests, and publish packages to Anypoint Exchange.  
+                  For deployment steps, I use Jenkins as the orchestrator, handling deployments to both CloudHub environments and Runtime Fabric.  
+                  I also apply automated validations of policies and configurations using the Anypoint Command Line Interface, ensuring compliance and consistency across pipelines.

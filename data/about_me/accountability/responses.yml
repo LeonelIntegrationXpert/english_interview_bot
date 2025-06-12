@@ -4,12 +4,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Eu assumo responsabilidade:
-                  - admito o erro imediatamente sem adiantar culpa.
-                  - comunico impactos ao time e planejo correção.
-                  - aprendo com a situação para evitar repetição.
+                  Eu assumo responsabilidade de forma transparente e proativa.  
+                  Primeiro, reconheço o erro imediatamente, sem transferir culpa para outras pessoas.  
+                  Em seguida, comunico ao time os impactos causados e contribuo ativamente com o plano de correção.  
+                  Por fim, reflito sobre a situação para aprender com ela e evitar que o mesmo problema ocorra novamente.
               - vr_en: |
-                  I take accountability by:
-                  - admitting the mistake promptly without shifting blame.
-                  - informing the team of impacts and planning remediation.
-                  - learning from the incident to prevent recurrence.
+                  I take accountability in a transparent and proactive manner.  
+                  First, I acknowledge the mistake promptly without placing blame on others.  
+                  Then, I inform the team about the impact and actively contribute to the remediation plan.  
+                  Finally, I reflect on the situation to learn from it and prevent similar issues in the future.

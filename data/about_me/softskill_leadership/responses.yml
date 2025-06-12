@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Exerço liderança assim:
-                  - assumo iniciativa em momentos críticos.
-                  - ofereço suporte técnico e orientação.
-                  - compartilho conhecimento e mentorias ad hoc.
+                  Exerço liderança tomando frente em momentos decisivos.  
+                  Dou suporte técnico com escuta ativa e orientação prática.  
+                  Comparto conhecimento no dia a dia, com mentorias que destravam o time.
               - vr_en: |
-                  I demonstrate leadership by:
-                  - taking initiative in critical moments.
-                  - providing technical guidance and support.
-                  - sharing knowledge and ad-hoc mentoring.
+                  I lead by stepping up in decisive moments.  
+                  I provide technical support through active listening and hands-on guidance.  
+                  I share knowledge daily with mentoring that unblocks the team.

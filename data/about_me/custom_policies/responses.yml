@@ -4,14 +4,14 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Sim, já desenvolvi policies customizadas usando Mule SDK:
-                  • criei extensão para fallback JWKS em múltiplos IdPs.
-                  • implementei validação avançada de claims custom.
-                  • tratei logs estruturados e métricas custom.
-                  • publiquei no Exchange privado.
+                  Sim, já desenvolvi policies customizadas utilizando o Mule SDK em contextos avançados de segurança e governança.  
+                  Criei uma extensão de fallback para validação de chaves JWKS em múltiplos provedores de identidade, garantindo resiliência em ambientes com autenticação distribuída.  
+                  Implementei validações avançadas de claims personalizados, alinhadas às regras de negócio e requisitos específicos de autorização.  
+                  Também estruturei o tratamento de logs customizados e geração de métricas específicas para rastreabilidade e monitoramento.  
+                  Todas essas policies foram empacotadas e publicadas em um Exchange privado para uso interno e versionamento controlado.
               - vr_en: |
-                  Yes, I have built custom policies with Mule SDK:
-                  • created a fallback JWKS extension for multiple IdPs.
-                  • implemented advanced custom claim validation.
-                  • handled structured logging and custom metrics.
-                  • published to private Exchange.
+                  Yes, I have developed custom policies using the Mule SDK in advanced security and governance scenarios.  
+                  I created a fallback extension for validating JWKS keys across multiple identity providers, ensuring resilience in distributed authentication environments.  
+                  I implemented advanced validations for custom claims based on business rules and specific authorization requirements.  
+                  I also structured the handling of custom logs and the generation of specific metrics for traceability and monitoring.  
+                  All these policies were packaged and published to a private Exchange for internal use and controlled versioning.

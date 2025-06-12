@@ -4,12 +4,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Mentoro assim:
-                  - ofereço sessões one-on-one regulares.
-                  - preparo exercícios práticos e reviso resultados.
-                  - incentivo autonomia e acompanho evolução.
+                  Minha abordagem de mentoria é focada em desenvolvimento técnico e autonomia progressiva.  
+                  Realizo sessões individuais com regularidade para entender desafios, alinhar objetivos e construir confiança.  
+                  Crio exercícios práticos personalizados conforme o nível da pessoa mentorada e reviso os resultados junto com ela.  
+                  Estimulo a tomada de decisão com base em contexto real e acompanho de perto a evolução ao longo do tempo.
               - vr_en: |
-                  I mentor by:
-                  - holding regular one-on-one sessions.
-                  - preparing hands-on exercises and reviewing outcomes.
-                  - encouraging autonomy and tracking progress.
+                  My mentoring approach is focused on technical development and progressive autonomy.  
+                  I hold regular one-on-one sessions to understand challenges, align goals, and build trust.  
+                  I create customized hands-on exercises based on the mentee’s level and review the outcomes together.  
+                  I encourage decision making based on real-world context and closely monitor progress over time.

@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Gerencio stakeholders assim:
-                  - mantenho comunicação regular e transparente.
-                  - compartilho KPIs e progressos.
-                  - ajusto entregas conforme feedback.
+                  Gerencio stakeholders com confiança e clareza.  
+                  Mantenho comunicação aberta, compartilho resultados e escuto ativamente.  
+                  Ajusto entregas com base no feedback e foco no valor para o negócio.
               - vr_en: |
-                  I manage stakeholders by:
-                  - maintaining regular, transparent communication.
-                  - sharing KPIs and progress.
-                  - adjusting deliverables based on feedback.
+                  I manage stakeholders with confidence and clarity.  
+                  I keep communication open, share results, and listen actively.  
+                  I adjust deliverables based on feedback and focus on business value.

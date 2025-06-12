@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Estimulo criatividade assim:
-                  - realizo sessões de brainstorming com equipe.
-                  - testo protótipos rápidos de ideias.
-                  - incorporo feedback para iteração veloz.
+                  Para estimular a criatividade, promovo trocas francas com o time.  
+                  Gosto de testar ideias rápido, mesmo que simples no começo.  
+                  Com feedback ágil, evoluímos juntos até encontrar soluções inovadoras.
               - vr_en: |
-                  I foster creativity by:
-                  - holding brainstorming sessions with team.
-                  - prototyping ideas rapidly.
-                  - incorporating feedback for fast iteration.
+                  To spark creativity, I promote open exchanges with the team.  
+                  I enjoy testing quick ideas, even if they start small.  
+                  With fast feedback, we evolve together toward innovative solutions.

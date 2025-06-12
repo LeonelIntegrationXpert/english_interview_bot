@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Tenho comunicação clara e objetiva:
-                  - envio atualizações regulares por chat e vídeo.
-                  - confirmo entendimento fazendo perguntas de follow-up.
-                  - documento decisões em repositórios compartilhados.
+                  Minha comunicação é clara e constante:  
+                  atualizo o time por vídeo e chat, valido entendimento com perguntas diretas  
+                  e registro tudo em repositórios acessíveis pra manter alinhamento.
               - vr_en: |
-                  I communicate clearly and concisely:
-                  - I send regular updates via chat and video.
-                  - I confirm understanding by asking follow-up questions.
-                  - I document decisions in shared repositories.
+                  My communication is clear and consistent:  
+                  I keep the team updated through video and chat, check understanding with direct questions,  
+                  and document everything in shared repositories to keep everyone aligned.

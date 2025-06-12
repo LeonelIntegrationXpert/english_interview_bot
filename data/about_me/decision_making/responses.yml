@@ -4,12 +4,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Decido assim:
-                  - reúno dados e opiniões relevantes.
-                  - peso prós e contras de cada cenário.
-                  - ajo de forma ponderada e comunico claramente.
+                  Eu tomo decisões com base em análise criteriosa e comunicação clara.  
+                  Primeiro, reúno os dados mais relevantes e ouço as opiniões de pessoas envolvidas no contexto.  
+                  Em seguida, avalio os prós e contras de cada cenário possível, considerando impactos de curto e longo prazo.  
+                  Por fim, ajo de forma ponderada, assumo a responsabilidade pela escolha e comunico de forma transparente ao time.
               - vr_en: |
-                  I make decisions by:
-                  - gathering relevant data and opinions.
-                  - weighing pros and cons of each scenario.
-                  - acting thoughtfully and communicating clearly.
+                  I make decisions based on thoughtful analysis and clear communication.  
+                  First, I gather the most relevant data and listen to the perspectives of those involved.  
+                  Then, I evaluate the pros and cons of each possible scenario, considering both short and long term impacts.  
+                  Finally, I act deliberately, take responsibility for the decision, and communicate it transparently to the team.

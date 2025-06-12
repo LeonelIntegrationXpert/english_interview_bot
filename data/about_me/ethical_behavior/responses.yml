@@ -4,12 +4,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Ajo eticamente:
-                  - sigo políticas e condutas da empresa.
-                  - reporto conflitos de interesse.
-                  - respeito confidencialidade e privacidade.
+                  Eu ajo com ética profissional em todas as situações do ambiente de trabalho.  
+                  Sigo as políticas internas e os códigos de conduta definidos pela empresa.  
+                  Caso perceba conflitos de interesse, comunico de forma transparente às partes responsáveis.  
+                  Também respeito a confidencialidade de informações sensíveis e preservo a privacidade de colegas, clientes e parceiros.
               - vr_en: |
-                  I act ethically by:
-                  - following company policies and conduct.
-                  - reporting conflicts of interest.
-                  - respecting confidentiality and privacy.
+                  I act with professional ethics in all workplace situations.  
+                  I follow internal policies and the company’s code of conduct.  
+                  If I identify any conflicts of interest, I report them transparently to the responsible parties.  
+                  I also respect the confidentiality of sensitive information and preserve the privacy of colleagues, clients, and partners.

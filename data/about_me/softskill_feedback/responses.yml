@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Dou e recebo feedback assim:
-                  - peço opinião clara sobre pontos de melhoria.
-                  - agradeço e reflito sobre sugestões.
-                  - faço follow-up sobre ações definidas.
+                  Busco feedback claro sobre como posso evoluir, sem defensiva.  
+                  Agradeço, reflito com seriedade e incorporo o que faz sentido.  
+                  Depois, mostro retorno prático com ações e melhorias visíveis.
               - vr_en: |
-                  I give and receive feedback by:
-                  - asking for clear improvement points.
-                  - thanking and reflecting on suggestions.
-                  - following up on agreed actions.
+                  I seek clear feedback on how I can improve, without being defensive.  
+                  I thank, reflect seriously, and apply what makes sense.  
+                  Then, I follow through with visible actions and improvements.

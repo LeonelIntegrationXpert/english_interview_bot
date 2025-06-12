@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  Mantenho motivação:
-                  - defino metas desafiadoras mas alcançáveis.
-                  - celebro pequenas vitórias ao longo do caminho.
-                  - busco aprendizado constante.
+                  Eu mantenho a motivação definindo metas que me desafiem sem serem inalcançáveis.  
+                  Celebro cada pequena conquista, porque sei que o progresso vem em etapas.  
+                  Além disso, estou sempre buscando aprender algo novo — é isso que me mantém em movimento constante.
               - vr_en: |
-                  I stay motivated by:
-                  - setting challenging yet achievable goals.
-                  - celebrating small wins along the way.
-                  - pursuing continuous learning.
+                  I stay motivated by setting goals that challenge me without overwhelming.  
+                  I celebrate small wins, knowing progress happens step by step.  
+                  And I keep learning constantly — that’s what keeps me moving forward.
