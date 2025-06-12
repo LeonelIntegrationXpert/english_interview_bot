@@ -4,14 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  No mule-build-tree eu criei uma estrutura de build universal para projetos MuleSoft:
-                  - defino módulos padronizados de policies, extensões e templates
-                  - rastreio dependências via Maven para builds limpos
-                  - automatizo CI/CD garantindo consistência entre versões
-                  - facilito manutenção e escalabilidade de pipelines
+                  No `mule-build-tree`, criei uma estrutura universal de build para projetos MuleSoft.  
+                  Modularizei policies, extensões e templates, com rastreamento Maven para builds limpos.  
+                  A automação CI/CD garante versões consistentes e facilita a manutenção em escala.
               - vr_en: |
-                  In mule-build-tree I created a universal build structure for MuleSoft projects:
-                  - define standardized modules for policies, extensions and templates
-                  - track dependencies via Maven for clean builds
-                  - automate CI/CD ensuring consistency across versions
-                  - simplify maintenance and scalability of pipelines
+                  In `mule-build-tree`, I designed a universal build structure for MuleSoft projects.  
+                  I modularized policies, extensions, and templates, tracking dependencies with Maven.  
+                  CI/CD automation ensures version consistency and streamlines large-scale maintenance.

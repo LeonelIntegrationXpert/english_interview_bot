@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  No jwt-fallback-extension desenvolvi validação resiliente de JWT:
-                  - suporte a múltiplos Identity Providers com JWKS dinâmico
-                  - fallback seguro caso endpoint primário falhe
-                  - registro de métricas e logs customizados
+                  No `jwt-fallback-extension`, implementei validação de JWT com alta resiliência.  
+                  Suporta múltiplos IdPs com fallback automático entre endpoints JWKS configuráveis.  
+                  Também registra métricas customizadas e logs estruturados para observabilidade total.
               - vr_en: |
-                  In jwt-fallback-extension I developed resilient JWT validation:
-                  - support for multiple Identity Providers with dynamic JWKS
-                  - safe fallback if primary endpoint fails
-                  - custom metrics and structured logging
+                  In `jwt-fallback-extension`, I built resilient JWT validation with high fault tolerance.  
+                  It supports multiple IdPs with automatic fallback across configurable JWKS endpoints.  
+                  It also logs custom metrics and structured data for full observability.

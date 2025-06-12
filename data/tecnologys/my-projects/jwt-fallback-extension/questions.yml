@@ -7,8 +7,18 @@ nlu:
       - explica a fallback-extension?
       - como funciona o jwt-fallback?
       - para que serve essa extensão?
+      - pra que serve o módulo fallback no JWT?
+      - o jwt-fallback tenta vários JWKS?
+      - essa extensão valida múltiplos certificados?
+      - ela resolve o problema de JWKS único?
+      - como funciona a lógica de fallback nessa extensão?
       - can you explain jwt-fallback-extension?
       - what does jwt-fallback do?
       - how does the fallback-extension work?
       - talk about jwt-fallback?
       - what is this extension used for?
+      - is jwt-fallback used to try multiple JWKS?
+      - does the extension validate against several certificates?
+      - how does the fallback logic operate?
+      - does it solve the single JWKS limitation?
+      - what problem does jwt-fallback-extension address?

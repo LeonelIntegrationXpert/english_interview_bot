@@ -4,12 +4,12 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  No github-actions pipeline automato testes e deploy MuleSoft:
-                  - executa MUnit, gera cobertura e publica no Exchange
-                  - faz deploy em CloudHub dois ponto zero e RTF
-                  - gerencia múltiplos ambientes LTS e EDGE
+                  No pipeline `github-actions`, automatizo testes e deploy contínuo para MuleSoft:  
+                  - executo MUnit com geração de cobertura e publicação no Anypoint Exchange.  
+                  - faço deploy para CloudHub dois ponto zero e Runtime Fabric com controle de versão.  
+                  - gerencio múltiplos ambientes (LTS e EDGE) com validações em paralelo.
               - vr_en: |
-                  In the github-actions pipeline I automate tests and deploy for MuleSoft:
-                  - run MUnit, generate coverage and publish to Exchange
-                  - deploy to CloudHub two-zero and RTF
-                  - manage multiple LTS and EDGE environments
+                  In the `github-actions` pipeline, I automate continuous testing and deployment for MuleSoft:  
+                  - run MUnit with coverage reports and publish to Anypoint Exchange.  
+                  - deploy to CloudHub two-point-zero and Runtime Fabric with version control.  
+                  - manage multiple environments (LTS and EDGE) with parallel validations.

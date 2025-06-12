@@ -7,8 +7,18 @@ nlu:
       - explica o policy-transform?
       - como funciona o transform-extension?
       - para que serve essa extensão?
+      - pra que serve http-policy-transform-extension?
+      - qual a utilidade da extensão de transformação?
+      - essa extension muda headers ou payload?
+      - como aplicar o transform-extension em policies?
+      - o que posso alterar com essa extensão?
       - can you explain http-policy-transform-extension?
       - what does the HTTP transform extension do?
       - how does the policy-transform work?
       - talk about the transform-extension?
       - what is this extension used for?
+      - what can be transformed with it?
+      - does it modify headers or body?
+      - how is this used in custom policies?
+      - what scenarios call for the transform-extension?
+      - is this extension for runtime HTTP manipulation?

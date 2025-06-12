@@ -1656,3 +1656,7 @@ rules:
     steps:
       - intent: exchange_hipaa_support
       - action: utter_exchange_hipaa_support
+  - rule: Resposta default via ChatGPT para intents desconhecidas
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback_chatgpt

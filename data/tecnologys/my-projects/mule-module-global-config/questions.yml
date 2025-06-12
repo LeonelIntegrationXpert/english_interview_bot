@@ -3,12 +3,22 @@ nlu:
   - intent: mule-module-global-config
     examples: |
       - pode explicar mule-module-global-config?
-      - para que serve module-global-config?
+      - para que serve o module-global-config?
       - como funciona o global-config?
       - fala do mule-module-global-config?
       - o que faz esse módulo de configuração?
+      - esse módulo define propriedades globais?
+      - onde se usa o module-global-config em policies?
+      - ele injeta valores no runtime?
+      - esse módulo carrega config externa?
+      - global-config é obrigatório?
       - can you explain mule-module-global-config?
       - what is the global config module for?
       - how does global-config work?
       - talk about module-global-config?
       - what does that config module do?
+      - does it define global properties?
+      - how is it used in policy runtime?
+      - does it inject values into execution?
+      - is the config loaded at runtime?
+      - is the global-config required?

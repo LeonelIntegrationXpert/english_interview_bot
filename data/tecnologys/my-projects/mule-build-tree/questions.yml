@@ -7,8 +7,18 @@ nlu:
       - o que faz o mule-build-tree?
       - mule-build-tree como funciona?
       - para que serve mule-build-tree?
+      - qual a utilidade do projeto mule-build-tree?
+      - esse mule-build-tree automatiza alguma coisa?
+      - pra que usar mule-build-tree num projeto Mule?
+      - o que esse repositório resolve?
+      - como usar o mule-build-tree na prática?
       - can you explain your mule-build-tree repo?
       - what does mule-build-tree do?
       - how does mule-build-tree work?
       - can you talk about mule-build-tree?
       - what is mule-build-tree used for?
+      - does mule-build-tree automate something?
+      - why use mule-build-tree in a Mule project?
+      - what problem does mule-build-tree solve?
+      - how to apply mule-build-tree in real projects?
+      - is mule-build-tree useful for CI/CD pipelines?

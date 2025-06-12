@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  No module-global-config eu implementei carregamento de configurações globais:
-                  - suporte a HOCON e JSON com Everit JSON Schema
-                  - recarga thread-safe usando StampedLock
-                  - construção dinâmica de objetos de configuração em runtime
+                  No `module-global-config`, implementei um módulo para carregar configurações globais em runtime.  
+                  Suporta HOCON e JSON com validação via Everit JSON Schema, garantindo integridade dos dados.  
+                  A recarga é thread-safe com `StampedLock`, e os objetos são montados dinamicamente conforme a execução.
               - vr_en: |
-                  In module-global-config I implemented global configuration loading:
-                  - support for HOCON and JSON via Everit JSON Schema
-                  - thread-safe reload using StampedLock
-                  - dynamic construction of config objects at runtime
+                  In `module-global-config`, I implemented a module to load global configurations at runtime.  
+                  It supports HOCON and JSON with Everit JSON Schema validation to ensure data integrity.  
+                  Reloading is thread-safe using `StampedLock`, with dynamic object construction during execution.

@@ -4,12 +4,10 @@ responses:
     - custom:
         response_array:
           -   - vr_pt: |
-                  No universal-java-builder eu criei uma CLI Python para gerenciar JDK e Maven:
-                  - alterno entre versões oito, onze, dezessete e vinte e um
-                  - baixo e configuro builds Maven com suporte a --add-opens
-                  - permito integração simples em pipelines locais
+                  No `universal-java-builder`, criei uma CLI em Python para gerenciar ambientes Java e Maven.  
+                  Alterno entre JDKs (oito, onze, dezessete e vinte e um) com configuração automática.  
+                  Suporte a `--add-opens` e integração fácil em pipelines locais garantem flexibilidade total.
               - vr_en: |
-                  In universal-java-builder I built a Python CLI to manage JDK and Maven:
-                  - switch between versions eight, eleven, seventeen and twenty-one
-                  - download and configure Maven builds with --add-opens support
-                  - enable easy integration into local pipelines
+                  In `universal-java-builder`, I built a Python CLI to manage Java and Maven environments.  
+                  It switches between JDKs (eight, eleven, seventeen, and twenty-one) with auto setup.  
+                  Support for `--add-opens` and seamless local pipeline integration ensure full flexibility.

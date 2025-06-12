@@ -3,6 +3,7 @@ import os
 import glob
 import sys
 import shutil
+import time
 
 VENV_DIR = "venv_rasa"
 PYTHON_INSTALLER_PATH = "installers/python-3.10.9-amd64.exe"
@@ -31,25 +32,14 @@ def create_virtualenv():
         print_header(f"🐍 Criando ambiente virtual `{VENV_DIR}`...")
         subprocess.run([sys.executable, "-m", "venv", VENV_DIR], check=True)
         print("✅ Ambiente virtual criado.")
-
-        if os.name == "nt":
-            print("\n⚡ Ativando o ambiente virtual automaticamente...\n")
-            activate_and_continue = f"""
-            call {VENV_DIR}\\Scripts\\activate.bat
-            python --version
-            python run_rasa.py
-            """
-            subprocess.run(["cmd.exe", "/K", activate_and_continue])
-        else:
-            print("\n⚡ Ative o ambiente manualmente:")
-            print(f"source {VENV_DIR}/bin/activate")
+        print("\n⚡ Ative o ambiente e execute este script novamente.\n")
         sys.exit(0)
     else:
         print(f"✅ Ambiente virtual `{VENV_DIR}` já existe.\n")
 
 def install_dependencies():
     print_header("📦 Verificando dependências...")
-    required_packages = ["rasa", "tensorflow"]
+    required_packages = ["rasa", "rasa-sdk", "tensorflow"]
     for package in required_packages:
         try:
             subprocess.run(
@@ -76,9 +66,9 @@ def delete_old_models():
                 os.remove(file)
             print("✅ Modelos antigos removidos.")
         else:
-            print(f"📁 Nenhum modelo `.tar.gz` encontrado.")
+            print("📁 Nenhum modelo `.tar.gz` encontrado.")
     else:
-        print(f"📁 Pasta `{model_dir}` não encontrada. Nenhuma ação necessária.")
+        print("📁 Pasta `models` não encontrada. Nenhuma ação necessária.")
 
 def delete_caches():
     print_header("🧹 Limpando caches...")
@@ -101,9 +91,20 @@ def delete_caches():
 def run_rasa_pipeline(test_file=None):
     install_dependencies()
     clear_console()
-    try:
-        delete_caches()
+    delete_caches()
+    delete_old_models()
 
+    # Inicia o servidor de ações customizadas em background
+    print_header("🚀 Iniciando servidor de ações customizadas...")
+    action_proc = subprocess.Popen(
+        [sys.executable, "-m", "rasa", "run", "actions"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE
+    )
+    # dá um tempo para o server subir antes de prosseguir
+    time.sleep(5)
+
+    try:
         python_cmd = [sys.executable, "-m", "rasa"]
 
         if test_file:
@@ -111,18 +112,24 @@ def run_rasa_pipeline(test_file=None):
             if not os.path.isfile(test_path):
                 print(f"❌ Arquivo de teste `{test_path}` não encontrado.")
                 return
-            print_header(f"🧪 Executando testes do Rasa...")
+            print_header("🧪 Executando testes do Rasa...")
             subprocess.run(python_cmd + ["test", "--stories", test_path], check=True)
         else:
-            delete_old_models()
             print_header("🔧 Treinando modelo do Rasa...")
             subprocess.run(python_cmd + ["train"], check=True)
 
-            print_header("🚀 Iniciando o shell interativo do Rasa...")
-            subprocess.run(python_cmd + ["run", "--enable-api", "--cors", "*", "--debug"], check=True)
-
+            print_header("🚀 Iniciando o Rasa Server...")
+            subprocess.run(
+                python_cmd + ["run", "--enable-api", "--cors", "*", "--debug"],
+                check=True
+            )
     except subprocess.CalledProcessError as e:
         print(f"❌ Erro ao executar comando: {e}")
+    finally:
+        # Finaliza o servidor de ações
+        print_header("🛑 Finalizando servidor de ações customizadas...")
+        action_proc.terminate()
+        action_proc.wait()
 
 def try_find_and_use_python310():
     local_programs = os.path.join(os.environ['LOCALAPPDATA'], 'Programs', 'Python')
@@ -142,12 +149,15 @@ def try_find_and_use_python310():
 
 if __name__ == "__main__":
     clear_console()
-    print_header("🚀 Inicializando setup do projeto Rasa...")
+    print_header("🚀 Setup e pipeline Rasa Automatizados")
 
     if not is_python_supported():
         if not try_find_and_use_python310():
             install_python()
 
     create_virtualenv()
+
+    # Se quiser passar um arquivo de teste, basta fazer:
+    #   python run_rasa.py nome_do_teste.yml
     test_file = sys.argv[1] if len(sys.argv) > 1 else None
     run_rasa_pipeline(test_file)
