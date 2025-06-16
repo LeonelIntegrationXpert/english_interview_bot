@@ -12,6 +12,93 @@ nlu:
       - o que entende por System APIs?
       - me fale sobre as APIs de sistema
       - o que é uma System API?
+      - oq são System APIs?
+      - qual definição de APIs de sistema?
+      - pra que servem as APIs de sistema?
+      - qual a finalidade das System APIs?
+      - qual propósito de System APIs?
+      - me conte o que são System APIs
+      - System APIs serve pra que?
+      - System APIs, qual função?
+      - o que System APIs fazem?
+      - como funcionam as APIs de sistema?
+      - por que adotar System APIs?
+      - benefício de System APIs?
+      - vantagem das APIs de sistema?
+      - diferença entre System APIs e outras?
+      - descreva System APIs
+      - define System APIs pra mim
+      - System APIs, explique resumido
+      - System APIs, me diz o que é
+      - System APIs, como funciona?
+      - System APIs, para que?
+      - q são System APIs?
+      - q siginifca System APIs?
+      - oque são System APIs?
+      - oque significam as APIs de sistema?
+      - oque System APIs fazem?
+      - oque serve System APIs?
+      - pra q serve System APIs?
+      - pq usar as APIs de sistema?
+      - pq usar System APIs?
+      - pr que usar System APIs?
+      - prq usar System APIs?
+      - me explica System APIs
+      - me conta sobre System APIs
+      - me fale System APIs
+      - me fala System APIs
+      - me diz sobre System APIs
+      - me diz o que é System APIs
+      - System APIs, me explica?
+      - System APIs, me conta?
+      - System APIs, me fala?
+      - System APIs, me diz?
+      - quero saber System APIs
+      - quero entender System APIs
+      - quero info sobre System APIs
+      - busco info System APIs
+      - info System APIs, por favor
+      - mais sobre System APIs
+      - detalhes de System APIs
+      - detalhes System APIs
+      - System APIs detalhes?
+      - System APIs resumo?
+      - resumo System APIs?
+      - diga o que é System APIs
+      - diga System APIs
+      - diz System APIs
+      - expica System APIs
+      - explic System APIs
+      - explicação System APIs
+      - conceitue System APIs
+      - conceitue APIs de sistema
+      - conceituar System APIs
+      - conceituar APIs de sistema
+      - conceituar api de sistema
+      - defina APIs de sistema
+      - defina System APIs
+      - defina api de sistema
+      - definição System APIs
+      - definição APIs de sistema
+      - qual conceito System APIs?
+      - qual conceito APIs de sistema?
+      - conceito de System APIs?
+      - conceito APIs de sistema?
+      - significado System APIs?
+      - significado APIs de sistema?
+      - System APIs significado?
+      - APIs de sistema significado?
+      - contexto de System APIs?
+      - contexto APIs de sistema?
+      - role de System APIs?
+      - papel de APIs de sistema?
+      - papel das System APIs?
+      - papel System APIs?
+      - função System APIs?
+      - função das APIs de sistema?
+      - função de System APIs?
+      - System APIs pra que servem?
+      - APIs de sistema pra que servem?
       - oq são as apis de sistema?
       - o que significado System APIs no MuleSoft?
       - para que serve as System APIs?
@@ -202,6 +289,19 @@ nlu:
       - descreva api sistema?
       - cite system apis?
       - cite apis sistema?
+      - cite api sistema?
+      - informe system apis?
+      - informe apis sistema?
+      - informe api sistema?
+      - caracterize system apis?
+      - caracterize apis sistema?
+      - caracterize api sistema?
+      - exemplifique system apis?
+      - exemplifique apis sistema?
+      - exemplifique api sistema?
+      - oque é system apis?
+      - oque é apis sistema?
+      - oque é api sistema?
       - what are System APIs?
       - what are system APIs?
       - what does System APIs mean in MuleSoft?
@@ -232,6 +332,97 @@ nlu:
       - what do you undestand by System APIs?
       - tell me abt system APIS?
       - waht is a System API?
+      - you know System APIs, what are they?
+      - hey you, what’s the purpose of System APIs?
+      - you know System APIs, why use them?
+      - so you know System APIs, explain the concept?
+      - you know System APIs, what do they do?
+      - you know System APIs, why would you use them?
+      - you know System APIs, tell me about them?
+      - you know System APIs, what’s their role?
+      - you know System APIs, define them?
+      - you know System APIs, outline their purpose?
+      - you know System APIs, clarify what they are?
+      - you know System APIs, describe their function?
+      - you know System APIs, point out their purpose?
+      - you know System APIs, summarize them?
+      - you know System APIs, what’s their function?
+      - you know System APIs, what’s the point?
+      - you know System APIs, give me a definition?
+      - you know System APIs, illustrate their use?
+      - you know System APIs, explain briefly?
+      - you know System APIs, break down their concept?
+      - you know System APIs, detail their purpose?
+      - you know System APIs, tell me why they matter?
+      - you know System APIs, what’s so special?
+      - you know System APIs, what problem do they solve?
+      - you know System APIs, how do they work?
+      - you know System APIs, what’s their benefit?
+      - you know System APIs, why are they needed?
+      - you know System APIs, what’s their value?
+      - you know System APIs, what’s the advantage?
+      - you know System APIs, outline their benefits?
+      - you know System APIs, list their uses?
+      - you know System APIs, what do they serve?
+      - you know System APIs, describe their use cases?
+      - you know System APIs, what’s their function in MuleSoft?
+      - you know System APIs, why MuleSoft uses them?
+      - you know System APIs, what’s their function in architecture?
+      - you know System APIs, how do they fit architecture?
+      - you know System APIs, what’s their architectural role?
+      - you know System APIs, in a sentence?
+      - you know System APIs, succinctly?
+      - you know System APIs, concisely?
+      - you know System APIs, in simple terms?
+      - you know System APIs, in plain English?
+      - you know System APIs, what’s your take?
+      - you know System APIs, what do you think?
+      - you know System APIs, can you explain?
+      - you know System APIs, elaborate?
+      - you know System APIs, expand on that?
+      - you know System APIs, walk me through?
+      - you know System APIs, guide me?
+      - you know System APIs, show their purpose?
+      - you know System APIs, illustrate their role?
+      - you know System APIs, run me through?
+      - you know System APIs, spell out?
+      - you know System APIs, break it down?
+      - you know System APIs, outline steps?
+      - you know System APIs, highlight functions?
+      - you know System APIs, underscore role?
+      - you know System APIs, emphasize purpose?
+      - you know System APIs, pinpoint usage?
+      - you know System APIs, frame their role?
+      - you know System APIs, contextualize?
+      - you know System APIs, set the scene?
+      - you know System APIs, explain context?
+      - you know System APIs, detail usage?
+      - you know System APIs, list benefits?
+      - you know System APIs, enumerate uses?
+      - you know System APIs, mention features?
+      - you know System APIs, note advantages?
+      - you know System APIs, specify functions?
+      - you know System APIs, clarify benefits?
+      - you know System APIs, distinguish them?
+      - you know System APIs, compare to others?
+      - you know System APIs, differentiate?
+      - you know System APIs, contrast uses?
+      - you know System APIs, illustrate difference?
+      - you know System APIs, how differ?
+      - you know System APIs, why distinct?
+      - you know System APIs, what makes them unique?
+      - you know System APIs, what sets them apart?
+      - you know System APIs, what distinguishes them?
+      - you know System APIs, key characteristics?
+      - you know System APIs, main attributes?
+      - you know System APIs, core functions?
+      - you know System APIs, essential features?
+      - you know System APIs, primary role?
+      - you know System APIs, top purpose?
+      - you know System APIs, principal function?
+      - you know System APIs, chief aim?
+      - you know System APIs, leading use?
+      - you know System APIs, main benefit?
       - wut are system apis?
       - wh@t are system apis?
       - what r System APIs?
@@ -402,3 +593,12 @@ nlu:
       - desc systm apis?
       - desc systen apis?
       - desc system apiz?
+      - desc sys apis?
+      - what’s the deal with systm apis?
+      - what’s the deal with systen apis?
+      - what’s the deal with system apiz?
+      - what’s the deal with sys apis?
+      - why r systm apis useful?
+      - why r systen apis useful?
+      - why r system apiz useful?
+      - why r sys apis useful?

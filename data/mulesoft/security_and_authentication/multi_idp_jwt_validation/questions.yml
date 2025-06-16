@@ -202,6 +202,38 @@ nlu:
       - como configurar poliicy de JWT multi-IdP?
       - como configurar policy de JTW multi-IDP?
       - como exigir audiència múltipla na validção?
+      - como usar audience múltpla na validação?
+      - como usar audience mltipla na validation?
+      - como usar audiència múltipla na valiação?
+      - como usar audiênca múltipla na validação?
+      - como diferenciar issueer de vários IdPs?
+      - como diferenciar issuer de variIs IdPs?
+      - como diferenciar issuer de véários IdPs?
+      - como diferenciar issur de vários IdPs?
+      - o que é issuer validation multi-IdP?
+      - oq é issuer validtion multi-IdP?
+      - o que é issur validation multi-IdP?
+      - o que é issuer validation multi-IDP?
+      - como importar JWKS de varios provedore?
+      - como importar JWKS de vários provedods?
+      - como emportar JWKS de vários IdPs?
+      - como importar WTKS de IdPs?
+      - como importar jWKS de vários providers?
+      - como proteger APIs cm JWT multi-IdP?
+      - como prteger APIs com JWT multi-IdP?
+      - como proteger APIS com JTW multi-IdP?
+      - como proteger APIS com JWT multi-IDP?
+      - como definir trust store para vários IdPs?
+      - como definir trust stores para vários IdPs?
+      - como definir trust stores par vários IdPs?
+      - como definir trust stores para mútliplos IdPs?
+      - como implementar validção multi-IdP de JWT?
+      - como implmentar validção multi-IdP de JWT?
+      - como implemntar validação multi-IdP de JWT?
+      - como implantar validação multi-IdP de JWT?
+      - como implement multi-IdP JWT validation?
+      - o que é validação de JWT multi-IdP?
+      - o que significa multi IdP JWT validation?
       - what is multi-IdP JWT validation?
       - what does multi-IdP JWT validation mean?
       - what is the purpose of multi-IdP JWT validation?
@@ -402,3 +434,35 @@ nlu:
       - how does multi-IdP JWT validation wrk?
       - why use multi-IdP JWT valdiation?
       - what are challenges of multi-IdP JTW?
+      - what are chalenges of multi-IdP JWT?
+      - how to handle JWKs fr multiple IdPs?
+      - how to handle JWKS from multple IdPs?
+      - how to fetch keys from multiple providors?
+      - what is JWKS URI in multi-IdP context?
+      - what is JWKS URI in multi IP context?
+      - how to switch IdPs during JWT validation?
+      - how to swith IdPs during token validation?
+      - how to map claims from differrent IdPs?
+      - what is key rotaion in multi-IDP?
+      - what is key rotaton in multi-IdP?
+      - how to manage tokens acrss domains?
+      - how to manage tokens across doamins?
+      - how to configure JWT policiy for multiple IdPs?
+      - how to configure JWT policy for multi IP?
+      - how to use multiple audience in JWT validation?
+      - how to distinguish issuers in multi-IdP?
+      - how to distinguish issueers in multi-IDP?
+      - what is issuer validtion in multi-IdP?
+      - what is issuer validation in multi IDP?
+      - how to import JWKS from multple IDPs?
+      - how to secure APIs with multi-IdP JTW?
+      - how to secure APIs with multi-IDP JWT?
+      - how to define truststore for multiple IdPs?
+      - how to difine trust stores for multiple IdPs?
+      - how to adapt JWT polcies for multiple IdPs?
+      - how to adapt JWT policies for multi-IP?
+      - how to use public key set for multi-IDP?
+      - what is validation contex for multi-IdP?
+      - what is validaton context for multi IDP?
+      - how to fallback to second IdP on failure?
+      - how to fallback to second IDP on validtion fail?

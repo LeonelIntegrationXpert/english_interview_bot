@@ -90,6 +90,85 @@ nlu:
       - apiled cnnectivity, o q è?
       - api-led, cê pode falar?
       - api-led, me mostre o que é?
+      - vc sabe o que é api-led, explica?
+      - vc conhece api-led, define?
+      - me explica api-led, por favor?
+      - tu sabe api-led, descreve?
+      - me fala api-led, o que significa?
+      - explica api-led, direto?
+      - define api-led, curti?
+      - descreve api-led, rapidamente?
+      - esclarece api-led, tá?
+      - aponta o que é api-led?
+      - detalha api-led, agora?
+      - diz o que é api-led?
+      - me conta api-led, por favor?
+      - tu conhece api-led, esclarece?
+      - vc sabe api-led connectivity, explica?
+      - vc sabe api-led connectivity, define?
+      - me explica api-led connectivity, por favor?
+      - tu sabe api-led connectivity, descreve?
+      - me fala api-led connectivity, o que significa?
+      - explica api-led connectivity, direto?
+      - define api-led connectivity, curto?
+      - descreve api-led connectivity, rápido?
+      - esclarece api-led connectivity, tá?
+      - aponta o que é api-led connectivity?
+      - detalha api-led connectivity, agora?
+      - diz o que é api-led connectivity?
+      - me conta api-led connectivity, por favor?
+      - tu conhece api-led connectivity, esclarece?
+      - vc sabe sobre api-led, explica?
+      - vc conhece api-led, resume?
+      - me explica api-led, resumido?
+      - tu sabe api-led, sintetiza?
+      - me fala api-led, em poucas palavras?
+      - explica api-led, de forma simples?
+      - define api-led, direto ao ponto?
+      - descreve api-led, de modo conciso?
+      - esclarece api-led, sem enrolar?
+      - aponta o que é api-led, objetivamente?
+      - detalha api-led, sem rodeios?
+      - diz o que é api-led, resumindo?
+      - me conta api-led, em poucas linhas?
+      - tu conhece api-led, sem demora?
+      - vc sabe api-led, me dá o resumo?
+      - vc conhece api-led, mande o resumo?
+      - me explica api-led, sem firulas?
+      - tu sabe api-led, sem blábláblá?
+      - me fala api-led, sem rodeios?
+      - explica api-led, sem enrolação?
+      - define api-led, com clareza?
+      - descreve api-led, com precisão?
+      - esclarece api-led, com objetividade?
+      - aponta o que é api-led, claramente?
+      - detalha api-led, sem complicar?
+      - diz o que é api-led, de modo claro?
+      - me conta api-led, direto ao ponto?
+      - tu conhece api-led, sem complicação?
+      - vc sabe api-led, sem complicar?
+      - vc conhece api-led, me diz?
+      - me explica api-led, me diz?
+      - tu sabe api-led, me diz?
+      - me fala api-led, me diz?
+      - explica api-led, me diz?
+      - define api-led, me diz?
+      - descreve api-led, me diz?
+      - esclarece api-led, me diz?
+      - aponta api-led, me diz?
+      - detalha api-led, me diz?
+      - diz api-led, me diz?
+      - me conta api-led, me diz?
+      - tu conhece api-led, me diz?
+      - vc sabe api-led, me diz?
+      - vc sabe o que é api-led, me diz?
+      - vc manda resumir api-led, explica?
+      - me dá o resumo de api-led, explica?
+      - tu dá um resumo de api-led, explica?
+      - manda resumir api-led, explica?
+      - dá um panorama de api-led, explica?
+      - dá um overview de api-led, explica?
+      - manda um overview de api-led, explica?
       - apiled connectivity, diga ai?
       - o q é api led?
       - oq é api-led?
@@ -180,29 +259,147 @@ nlu:
       - api-led, me conta?
       - api-led, descreva!
       - api(ld, o que?
-      - api+léd, o que é?
-      - api~led, o q é?
-      - api_led, qual função?
-      - api–led, explique!
-      - aplíd, o que é?
-      - api-led, fale sobre!
-      - api-led, o que exatamente significa?
-      - api-led, pode detalhar para mim?
-      - apiled, me diz a definição?
-      - api-led, qual é a função principal?
-      - api-led, em que cenários usar?
-      - api-led, qual o impacto?
-      - apiled connectivity, explique rápido
-      - api-led, como se estrutura?
-      - api-led, quais padrões usa?
-      - api-led, como melhora performance?
-      - api-led, dá um exemplo prático
-      - apiled, qual a arquitetura?
-      - api-led, onde se aplica?
-      - api-led, qual a vantagem competitiva?
-      - api-led, como facilita a manutenção?
-      - apiled, quais ferramentas suportam?
+      - vc manda explicar api-led?
+      - tu explica api-led, por favor?
+      - me diz api-led com palavras simples?
+      - tu descreve api-led rápido?
+      - vc resume api-led em poucas palavras?
+      - me fala api-led de forma objetiva?
+      - tu define api-led direto?
+      - vc aponta api-led sem enrolar?
+      - me conta api-led em frase curta?
+      - tu esclarece api-led agora?
+      - vc descreve api-led resumido?
+      - me explica api-led em poucas linhas?
+      - tu sintetiza api-led breve?
+      - vc resume api-led resumidamente?
+      - me diz api-led conciso?
+      - tu fala api-led sintético?
+      - vc explica api-led sem blá blá?
+      - me conta api-led sem rodeios?
+      - tu descreve api-led sem demora?
+      - vc define api-led sem complicar?
+      - me fala api-led sem enrolação?
+      - tu esclarece api-led sem firulas?
+      - vc diz api-led sem rodeios?
+      - me explica api-led sem rodeios?
+      - tu resume api-led sem enrolar?
+      - vc sintetiza api-led sem mimimi?
+      - me conta api-led sem mimimi?
+      - tu define api-led num fôlego?
+      - vc descreve api-led num fôlego?
+      - me diz api-led num fôlego?
+      - tu explica api-led num fôlego?
+      - vc fala api-led num fôlego?
+      - me conta api-led num fôlego?
+      - tu manda resumo de api-led?
+      - vc manda resumo de api-led?
+      - me passa resumo de api-led?
+      - tu fornece resumo de api-led?
+      - vc dá panorama de api-led?
+      - me dá visão geral de api-led?
+      - tu dá visão geral de api-led?
+      - vc oferece overview de api-led?
+      - me oferece overview de api-led?
+      - tu expõe overview de api-led?
       - what is api-led?
+      - you explain api-led, please?
+      - you define api-led, please?
+      - you describe api-led, please?
+      - you clarify api-led, please?
+      - you outline api-led, please?
+      - you illustrate api-led, please?
+      - you specify api-led, please?
+      - you present api-led, please?
+      - you show api-led, please?
+      - you tell me api-led, please?
+      - you summarize api-led, please?
+      - you condense api-led, please?
+      - you spell out api-led, please?
+      - you break down api-led, please?
+      - you run through api-led, please?
+      - you give me api-led, please?
+      - you spell api-led, please?
+      - you expand on api-led, please?
+      - you talk about api-led, please?
+      - you give insights on api-led, please?
+      - you articulate api-led, please?
+      - you provide api-led, please?
+      - you share api-led, please?
+      - you elaborate on api-led, please?
+      - you distill api-led, please?
+      - you detail api-led, please?
+      - you recap api-led, please?
+      - you walk me through api-led, please?
+      - you fill me in on api-led, please?
+      - you give the rundown on api-led, please?
+      - you give the gist of api-led, please?
+      - you brief me on api-led, please?
+      - you enlighten me on api-led, please?
+      - you shed light on api-led, please?
+      - you unravel api-led, please?
+      - you decode api-led, please?
+      - you unpack api-led, please?
+      - you sketch api-led, please?
+      - you draft api-led, please?
+      - you elucidate api-led, please?
+      - you demystify api-led, please?
+      - you impart api-led, please?
+      - you divulge api-led, please?
+      - you recapitulate api-led, please?
+      - you review api-led, please?
+      - you highlight api-led, please?
+      - you pinpoint api-led, please?
+      - you emphasize api-led, please?
+      - you underscore api-led, please?
+      - you frame api-led, please?
+      - you contextualize api-led, please?
+      - you examine api-led, please?
+      - you investigate api-led, please?
+      - you explore api-led, please?
+      - you probe api-led, please?
+      - you inspect api-led, please?
+      - you survey api-led, please?
+      - you analyze api-led, please?
+      - you critique api-led, please?
+      - you evaluate api-led, please?
+      - you interpret api-led, please?
+      - you assess api-led, please?
+      - you appraise api-led, please?
+      - you review api-led connectivity, please?
+      - you define api-led connectivity, please?
+      - you explain api-led connectivity, please?
+      - you describe api-led connectivity, please?
+      - you clarify api-led connectivity, please?
+      - you outline api-led connectivity, please?
+      - you illustrate api-led connectivity, please?
+      - you specify api-led connectivity, please?
+      - you present api-led connectivity, please?
+      - you show api-led connectivity, please?
+      - you tell me api-led connectivity, please?
+      - you summarize api-led connectivity, please?
+      - you condense api-led connectivity, please?
+      - you spell out api-led connectivity, please?
+      - you break down api-led connectivity, please?
+      - you run through api-led connectivity, please?
+      - you give me api-led connectivity, please?
+      - you expand on api-led connectivity, please?
+      - you talk about api-led connectivity, please?
+      - you give insights on api-led connectivity, please?
+      - you share api-led connectivity, please?
+      - you elaborate on api-led connectivity, please?
+      - you distill api-led connectivity, please?
+      - you detail api-led connectivity, please?
+      - you recap api-led connectivity, please?
+      - you walk me through api-led connectivity, please?
+      - you fill me in on api-led connectivity, please?
+      - you give the rundown on api-led connectivity, please?
+      - you give the gist of api-led connectivity, please?
+      - you brief me on api-led connectivity, please?
+      - you enlighten me on api-led connectivity, please?
+      - you shed light on api-led connectivity, please?
+      - you decode api-led connectivity, please?
+      - you unpack api-led connectivity, please?
       - what is api led?
       - wut is api-led?
       - wut is api led?
@@ -371,6 +568,26 @@ nlu:
       - api lrd, what's it?
       - api-led;, what's?
       - api-led?, tell me?
+      - you know api-led, what is it?
+      - you know apiled connectivity, right?
+      - hey, apiled, you know what that means?
+      - you know api-led, can you explain?
+      - so, api-led, you know what that is?
+      - you know api-led connectivity, what’s up with that?
+      - you know apiled, what does that mean?
+      - you know api-led, can you xplain?
+      - you know applead connectivity, what is it?
+      - you know api-led, care to clarify?
+      - you know api-led, tell me what it is?
+      - you know apiled, explain it?
+      - you know api-led connectivity, define it?
+      - you know apiled connectivity, describe it?
+      - you know api-led, clarify its meaning?
+      - you know apiled, outline its purpose?
+      - you know api-led connectivity, illustrate it?
+      - you know apiled, point out what it does?
+      - you know api-led, spell out its function?
+      - you know apiled connectivity, detail its role?
       - api led, how works?
       - xplain apiled connectivity?
       - what is api-ledly?
@@ -385,20 +602,3 @@ nlu:
       - what is api led connet?
       - can you explain aplied?
       - what is api – led?
-      - wut is api ledd?
-      - apiled, wut is it?
-      - what is api-led pae?
-      - what is api-laid?
-      - wut iz api led?
-      - can u xplain apiled?
-      - what is api–led?
-      - what is api ledd?
-      - wut is apiled connctivity?
-      - pls explain apiled
-      - what iz api led connectivity?
-      - what is api-leddd?
-      - can you xplaine api-led?
-      - what is api led connetivity?
-      - what does api–led mean?
-      - what is api laid?
-      - can you xplain api-led?

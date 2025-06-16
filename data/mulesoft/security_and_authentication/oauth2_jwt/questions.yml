@@ -202,6 +202,11 @@ nlu:
       - quando expira token?
       - quando expira JWT?
       - como lidar com expiração de token?
+      - o que é token bearer?
+      - oq é bearer token?
+      - o que eh bearer token?
+      - como uso bearer token?
+      - para que serve bearer token?
       - what is OAuth2?
       - what is Oauth2?
       - what is OAth2?
@@ -402,3 +407,8 @@ nlu:
       - how to cal token endpoint?
       - what is client credentials flow?
       - what is client credentials flo?
+      - how to use client credentials flow?
+      - how to use client credentals flow?
+      - what is PKCE?
+      - what is PCKE?
+      - why use PKCE?

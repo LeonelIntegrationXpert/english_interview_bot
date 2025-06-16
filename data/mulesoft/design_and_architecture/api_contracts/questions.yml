@@ -3,6 +3,112 @@ nlu:
   - intent: api_contracts
     examples: |
       - o que são contrato api?
+      - o q são contrato api?
+      - o que é contrato api?
+      - o que são contratos api?
+      - o que significa contrato api?
+      - oq são contrato api?
+      - oq é contrato api?
+      - oque são contrato api?
+      - oque é contrato api?
+      - o q é contrato api?
+      - qual definição contrato api?
+      - qual o conceito de contrato api?
+      - define contrato api
+      - define contrato de api
+      - defina contrato api
+      - defina contrato de api
+      - descreva contrato api
+      - descreva contrato de api
+      - conte sobre contrato api
+      - conte sobre contrato de api
+      - me fale contrato api
+      - me fale contrato de api
+      - explica contrato api
+      - explica contrato de api
+      - explika contrato api
+      - explika contrato de api
+      - mostra contrato api
+      - mostra contrato de api
+      - demonstre contrato api
+      - demonstre contrato de api
+      - pra que serve contrato api?
+      - pra que serve contrato de api?
+      - para que serve contrato api?
+      - para que serve contrato de api?
+      - qual utilidade contrato api?
+      - qual utilidade contrato de api?
+      - qual finalidade contrato api?
+      - qual finalidade contrato de api?
+      - qual propósito contrato api?
+      - qual propósito contrato de api?
+      - por que contrato api?
+      - por que contrato de api?
+      - pq contrato api?
+      - pq contrato de api?
+      - por que usar contrato api?
+      - por que usar contrato de api?
+      - pq usar contrato api?
+      - pq usar contrato de api?
+      - contrato api serve pra que?
+      - contrato de api serve pra que?
+      - o que o contrato api faz?
+      - o que o contrato de api faz?
+      - pra que contrato api serve?
+      - pra que contrato de api serve?
+      - qual a função contrato api?
+      - qual a função contrato de api?
+      - função contrato api?
+      - função contrato de api?
+      - papel do contrato api?
+      - papel do contrato de api?
+      - role do contrato api?
+      - role do contrato de api?
+      - conceitue contrato api
+      - conceitue contrato de api
+      - conceito contrato api?
+      - conceito contrato de api?
+      - significado contrato api?
+      - significado contrato de api?
+      - contrato api significado?
+      - contrato de api significado?
+      - o que é api contrato?
+      - o que são api contrato?
+      - oq são api contrato?
+      - qual conceito api contrato?
+      - define api contrato
+      - defina api contrato
+      - me explica api contrato
+      - me conta api contrato
+      - descreve api contrato
+      - explika api contrato
+      - api contrato, o que é?
+      - contrato api, o que é?
+      - contrato de api, o que é?
+      - contrato api, serve pra?
+      - contrato de api, serve pra?
+      - api contrato serve pra que?
+      - api contrato, qual função?
+      - api contrato, qual propósito?
+      - api contrato, por que usar?
+      - api contrato, utilidade?
+      - api contrato, significado?
+      - no que consiste contrato api?
+      - no que consiste contrato de api?
+      - em que consiste contrato api?
+      - em que consiste contrato de api?
+      - em resumo, contrato api?
+      - em resumo, contrato de api?
+      - resumo contrato api?
+      - resumo contrato de api?
+      - defina brevemente contrato api
+      - defina brevemente contrato de api
+      - explique resumido contrato api
+      - explique resumido contrato de api
+      - tu sabe contrato api?
+      - vc sabe contrato api?
+      - tu conhece contrato api?
+      - vc conhece contrato api?
       - o que é contrato apis?
       - oq são contratos de apis?
       - o que são conratos de api?
@@ -196,12 +302,95 @@ nlu:
       - o que é especificação OpnAPI?
       - como validar um cnotrato de API?
       - como validar um contrato de AP?
-      - como validar um conrato de APi?
-      - como validar um contracto de APi?
-      - o que representa um RAML trat?
-      - para que servem schmas no OpenAPI?
-      - para que servem schemas no OenAPI?
-      - para que servem schemas no OpenAPi?
+      - you know API contract, what is it?
+      - you know API contract, define it?
+      - you know API contract, explain?
+      - you know API contract, describe it?
+      - you know API contract, clarify?
+      - you know API contract, outline it?
+      - you know API contract, illustrate?
+      - you know API contract, spell it out?
+      - you know API contract, break it down?
+      - you know API contract, point out?
+      - you know API contract, what does it mean?
+      - you know API contract, what’s that?
+      - you know API contract, what does it do?
+      - you know API contract, what’s its purpose?
+      - you know API contract, what’s its role?
+      - you know API contract, what’s its use?
+      - you know API contract, what’s the point?
+      - you know API contract, why use it?
+      - you know API contract, why is it needed?
+      - you know API contract, why does it matter?
+      - you know API contract, why important?
+      - you know API contract, why implement?
+      - you know API contract, why define?
+      - you know API contract, why enforce?
+      - you know API contract, why maintain?
+      - you know API contract, why manage?
+      - you know API contract, why document?
+      - you know API contract, why version?
+      - you know API contract, why govern?
+      - you know API contract, why test?
+      - you know API contract, why validate?
+      - you know API contract, why standardize?
+      - you know API contract, why formalize?
+      - you know API contract, why centralize?
+      - you know API contract, why automate?
+      - you know API contract, why secure?
+      - you know API contract, why monitor?
+      - you know API contract, why audit?
+      - you know API contract, why review?
+      - you know API contract, why evolve?
+      - you know API contract, why scale?
+      - you know API contract, why decouple?
+      - you know API contract, why reuse?
+      - you know API contract, why integrate?
+      - you know API contract, why CI/CD?
+      - you know API contract, why CI?
+      - you know API contract, why CD?
+      - you know API contract, why TDD?
+      - you know API contract, why BDD?
+      - you know API contract, why docs?
+      - you know API contract, why RAML?
+      - you know API contract, why OpenAPI?
+      - you know API contract, why YAML?
+      - you know API contract, why JSON?
+      - you know API contract, why Swagger?
+      - you know API contract, why AsyncAPI?
+      - you know API contract, why GraphQL?
+      - you know API contract, why gRPC?
+      - you know API contract, why SOAP?
+      - you know API contract, why REST?
+      - you know API contract, why HTTP?
+      - you know API contract, why transport?
+      - you know API contract, why schema?
+      - you know API contract, why validation?
+      - you know API contract, why types?
+      - you know API contract, why parameters?
+      - you know API contract, why responses?
+      - you know API contract, why headers?
+      - you know API contract, why security?
+      - you know API contract, why auth?
+      - you know API contract, why OAuth2?
+      - you know API contract, why JWT?
+      - you know API contract, why API key?
+      - you know API contract, why HMAC?
+      - you know API contract, why TLS?
+      - you know API contract, why CORS?
+      - you know API contract, why rate limiting?
+      - you know API contract, why quotas?
+      - you know API contract, why SLAs?
+      - you know API contract, why versioning?
+      - you know API contract, why backward compatible?
+      - you know API contract, why forward compatible?
+      - you know API contract, why deprecation?
+      - you know API contract, why deprecate?
+      - you know API contract, why lifecycle?
+      - you know API contract, why governance?
+      - you know API contract, why discovery?
+      - you know API contract, why catalog?
+      - you know API contract, why exchange?
       - what are API contracts?
       - what does API contract mean in RAML?
       - what are OpenAPI contracts used for?
@@ -402,3 +591,14 @@ nlu:
       - what are API contrcacts?
       - what are API conrtracts?
       - what are API contextual?
+      - what are APi contracts?
+      - what are API contarct?
+      - what is API contracts?
+      - what does API contracts mean?
+      - whats API conracts?
+      - what their API contracts?
+      - where are API contracts?
+      - when API contracts used?
+      - why API contracts matter?
+      - how API contracts work?
+      - how do API contracts wrk?

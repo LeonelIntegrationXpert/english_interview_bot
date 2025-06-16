@@ -3,6 +3,101 @@ nlu:
   - intent: lifecycle_management_exchange
     examples: |
       - o que é gerenciamento de ciclo de vida no Anypoint Exchange?
+      - oq é gerenciamento de ciclo de vida no Anypoint Exchange?
+      - o q é gerenciamento de ciclo de vida no Anypoint Exchange?
+      - o que significa gerenciamento de ciclo de vida no Anypoint Exchange?
+      - o que quer dizer gerenciamento de ciclo de vida no Anypoint Exchange?
+      - qual o conceito de gerenciamento de ciclo de vida no Anypoint Exchange?
+      - qual a definição de gerenciamento de ciclo de vida no Anypoint Exchange?
+      - me explica gerenciamento de ciclo de vida no Anypoint Exchange?
+      - explica gerenciamento de ciclo de vida no Anypoint Exchange?
+      - descreve gerenciamento de ciclo de vida no Anypoint Exchange?
+      - descreva gerenciamento de ciclo de vida no Anypoint Exchange?
+      - define gerenciamento de ciclo de vida no Anypoint Exchange?
+      - defina gerenciamento de ciclo de vida no Anypoint Exchange?
+      - pra que serve gerenciamento de ciclo de vida no Anypoint Exchange?
+      - para que serve gerenciamento de ciclo de vida no Anypoint Exchange?
+      - para que serve o gerenciamento de ciclo de vida no Anypoint Exchange?
+      - por que usar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - pq usar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - pq aplicar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - por que aplicar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - qual a função do gerenciamento de ciclo de vida no Anypoint Exchange?
+      - qual o papel do gerenciamento de ciclo de vida no Anypoint Exchange?
+      - qual a utilidade do gerenciamento de ciclo de vida no Anypoint Exchange?
+      - qual a importância do gerenciamento de ciclo de vida no Anypoint Exchange?
+      - qual benefício do gerenciamento de ciclo de vida no Anypoint Exchange?
+      - quais vantagens do gerenciamento de ciclo de vida no Anypoint Exchange?
+      - me conta sobre gerenciamento de ciclo de vida no Anypoint Exchange?
+      - me fale sobre gerenciamento de ciclo de vida no Anypoint Exchange?
+      - me diz sobre gerenciamento de ciclo de vida no Anypoint Exchange?
+      - tu sabe o que é gerenciamento de ciclo de vida no Anypoint Exchange?
+      - vc sabe o que é gerenciamento de ciclo de vida no Anypoint Exchange?
+      - tu conhece gerenciamento de ciclo de vida no Anypoint Exchange?
+      - vc conhece gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como funciona gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como opera gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como é feito gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como implementar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como aplicar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como configurar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como realizar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como executar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como acontece gerenciamento de ciclo de vida no Anypoint Exchange?
+      - onde faço gerenciamento de ciclo de vida no Anypoint Exchange?
+      - onde configurar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - onde acessar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - quando usar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - quando aplicar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - quando revisar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - quando validar gerenciamento de ciclo de vida no Anypoint Exchange?
+      - quem faz gerenciamento de ciclo de vida no Anypoint Exchange?
+      - quem é responsável pelo gerenciamento de ciclo de vida no Anypoint Exchange?
+      - quem gerencia ciclo de vida no Anypoint Exchange?
+      - qual time gerencia ciclo de vida no Anypoint Exchange?
+      - quais etapas do ciclo de vida são gerenciadas no Anypoint Exchange?
+      - quais fases do ciclo de vida o Anypoint Exchange gerencia?
+      - quais estágios o Anypoint Exchange abrange no ciclo de vida?
+      - quais recursos de ciclo de vida existem no Anypoint Exchange?
+      - que recursos de ciclo de vida o Anypoint Exchange oferece?
+      - que funcionalidades de ciclo de vida o Anypoint Exchange tem?
+      - que capacidades de ciclo de vida o Anypoint Exchange disponibiliza?
+      - qual fluxo de ciclo de vida no Anypoint Exchange?
+      - qual processo de ciclo de vida no Anypoint Exchange?
+      - qual pipeline de ciclo de vida no Anypoint Exchange?
+      - qual workflow de ciclo de vida no Anypoint Exchange?
+      - qual automação de ciclo de vida no Anypoint Exchange?
+      - qual ferramenta de ciclo de vida no Anypoint Exchange?
+      - gerenciamento de ciclo de vida no Exchange, o que é?
+      - gerenciamento de ciclo de vida no Exchange, como funciona?
+      - lifecycle management no Anypoint Exchange, o que é?
+      - lifecycle management no Anypoint Exchange, como faz?
+      - API lifecycle no Anypoint Exchange, o que é?
+      - API lifecycle no Anypoint Exchange, como usar?
+      - gestão de ciclo de vida no Anypoint Exchange, o que é?
+      - gestão de ciclo de vida no Anypoint Exchange, como funciona?
+      - gestão de ciclo de vida no Anypoint Exchange, pra que serve?
+      - gestão de ciclo de vida no Anypoint Exchange, qual função?
+      - adoção de ciclo de vida no Anypoint Exchange, o que significa?
+      - adoção de ciclo de vida no Anypoint Exchange, como faz?
+      - adoção de ciclo de vida no Anypoint Exchange, qual o propósito?
+      - adoção de ciclo de vida no Anypoint Exchange, por que usar?
+      - controle de ciclo de vida no Anypoint Exchange, o que é?
+      - controle de ciclo de vida no Anypoint Exchange, como funciona?
+      - orquestração de ciclo de vida no Anypoint Exchange, o que é?
+      - orquestração de ciclo de vida no Anypoint Exchange, como faz?
+      - gerenciamento de versões no Anypoint Exchange, o que é?
+      - versionamento no Anypoint Exchange, como acontece?
+      - versionamento de APIs no Anypoint Exchange, o que é?
+      - versionamento de APIs no Anypoint Exchange, como usar?
+      - promoção de APIs no Anypoint Exchange, o que é?
+      - promoção de APIs no Anypoint Exchange, como faz?
+      - estágios de API no Anypoint Exchange, o que são?
+      - estágios de API no Anypoint Exchange, como gerenciar?
+      - ciclo de vida de API no Anypoint Exchange, definições?
+      - ciclo de vida de API no Anypoint Exchange, explicação?
+      - pipeline de release no Anypoint Exchange, o que é?
+      - pipeline de release no Anypoint Exchange, como funciona?
       - como promovo versões de API no Exchange?
       - para que serve o status de produção no Exchange?
       - como marco uma API como deprecated?
@@ -17,7 +112,6 @@ nlu:
       - como desativo uma API no Exchange?
       - por que usar tags de ambiente no lifecycle?
       - como controlar permissões por estágio?
-      - oq é gerenciamento de ciclo de vida no Anypoint Exchange?
       - o que é gerenciameno de ciclo de vida no Anypoint Exchange?
       - o que é gerenciamento de ciclo de vida no AnyPoint Exchange?
       - o que é gerenciamento de ciclo de vida no Anypoint Exchnge?
@@ -202,8 +296,174 @@ nlu:
       - como promovo versões de APi no Anypont Exchange?
       - para que serve status de produção no Exhange?
       - como marco uam API como deprecated?
+      - onde configuro fase de desenvolvimento no Exchnge?
+      - como faco aprovacão de nova versão de API?
+      - o que signfica estagio beta no AnyPoint Exchage?
+      - pode definir gerenciamento de ciclo de vida no Anypoint Exchange?
+      - explique gerenciamento de ciclo de vida no Anypoint Exchange
+      - descreva gerenciamento de ciclo de vida no Anypoint Exchange
       - what is lifecycle management in Anypoint Exchange?
       - how do I promote API versions in Exchange?
+      - you know lifecycle management in Anypoint Exchange, what is it?
+      - you know lifecycle management in Anypoint Exchange, explain it?
+      - you know lifecycle management in Anypoint Exchange, define it?
+      - you know lifecycle management in Anypoint Exchange, describe it?
+      - you know lifecycle management in Anypoint Exchange, detail it?
+      - you know lifecycle management in Anypoint Exchange, outline it?
+      - you know lifecycle management in Anypoint Exchange, clarify it?
+      - you know lifecycle management in Anypoint Exchange, illustrate it?
+      - you know lifecycle management in Anypoint Exchange, break it down?
+      - you know lifecycle management in Anypoint Exchange, spell it out?
+      - can you walk me through lifecycle management in Anypoint Exchange?
+      - can you talk me through lifecycle management in Anypoint Exchange?
+      - can you run me through lifecycle management in Anypoint Exchange?
+      - can you show me lifecycle management in Anypoint Exchange?
+      - can you guide me through lifecycle management in Anypoint Exchange?
+      - can you give me lifecycle management in Anypoint Exchange?
+      - can you provide lifecycle management in Anypoint Exchange?
+      - can you share lifecycle management in Anypoint Exchange?
+      - could you walk through lifecycle management in Anypoint Exchange?
+      - could you talk through lifecycle management in Anypoint Exchange?
+      - could you run through lifecycle management in Anypoint Exchange?
+      - could you show lifecycle management in Anypoint Exchange?
+      - could you guide me on lifecycle management in Anypoint Exchange?
+      - could you give insight on lifecycle management in Anypoint Exchange?
+      - could you provide insight on lifecycle management in Anypoint Exchange?
+      - please walk me through lifecycle management in Anypoint Exchange
+      - please talk me through lifecycle management in Anypoint Exchange
+      - please run me through lifecycle management in Anypoint Exchange
+      - please show lifecycle management in Anypoint Exchange
+      - please guide me through lifecycle management in Anypoint Exchange
+      - please give me details on lifecycle management in Anypoint Exchange
+      - please provide details on lifecycle management in Anypoint Exchange
+      - please share details on lifecycle management in Anypoint Exchange
+      - explain life cycle management in Anypoint Exchange?
+      - define life cycle management in Anypoint Exchange?
+      - describe life cycle management in Anypoint Exchange?
+      - detail life cycle management in Anypoint Exchange?
+      - outline life cycle management in Anypoint Exchange?
+      - clarify life cycle management in Anypoint Exchange?
+      - illustrate life cycle management in Anypoint Exchange?
+      - break down life cycle management in Anypoint Exchange?
+      - spell out life cycle management in Anypoint Exchange?
+      - walk through life cycle management in Anypoint Exchange?
+      - talk through life cycle management in Anypoint Exchange?
+      - run through life cycle management in Anypoint Exchange?
+      - show life cycle management in Anypoint Exchange?
+      - guide me on life cycle management in Anypoint Exchange?
+      - give me life cycle management in Anypoint Exchange?
+      - provide life cycle management in Anypoint Exchange?
+      - share life cycle management in Anypoint Exchange?
+      - outline life cycle stages in Anypoint Exchange?
+      - describe life cycle stages in Anypoint Exchange?
+      - explain life cycle phases in Anypoint Exchange?
+      - define life cycle phases in Anypoint Exchange?
+      - detail life cycle processes in Anypoint Exchange?
+      - can you define lifecycle management in Anypoint Exchange?
+      - could you explain lifecycle management in Anypoint Exchange?
+      - please describe lifecycle management in Anypoint Exchange
+      - tell me about lifecycle management in Anypoint Exchange
+      - outline lifecycle management in Anypoint Exchange
+      - clarify lifecycle management in Anypoint Exchange
+      - illustrate lifecycle management in Anypoint Exchange
+      - spell out lifecycle management in Anypoint Exchange
+      - break down lifecycle management in Anypoint Exchange
+      - summarize lifecycle management in Anypoint Exchange
+      - detail lifecycle management in Anypoint Exchange
+      - specify lifecycle management in Anypoint Exchange
+      - pinpoint lifecycle management in Anypoint Exchange
+      - highlight lifecycle management in Anypoint Exchange
+      - emphasize lifecycle management in Anypoint Exchange
+      - underscore lifecycle management in Anypoint Exchange
+      - describe the purpose of lifecycle management in Anypoint Exchange
+      - explain the function of lifecycle management in Anypoint Exchange
+      - define the role of lifecycle management in Anypoint Exchange
+      - outline the benefits of lifecycle management in Anypoint Exchange
+      - discuss lifecycle management in Anypoint Exchange
+      - review lifecycle management in Anypoint Exchange
+      - examine lifecycle management in Anypoint Exchange
+      - evaluate lifecycle management in Anypoint Exchange
+      - assess lifecycle management in Anypoint Exchange
+      - characterize lifecycle management in Anypoint Exchange
+      - contextualize lifecycle management in Anypoint Exchange
+      - demonstrate lifecycle management in Anypoint Exchange
+      - illustrate how lifecycle management works in Anypoint Exchange
+      - show lifecycle management in Anypoint Exchange in action
+      - map out lifecycle management in Anypoint Exchange
+      - sketch lifecycle management in Anypoint Exchange
+      - depict lifecycle management in Anypoint Exchange
+      - model lifecycle management in Anypoint Exchange
+      - visualize lifecycle management in Anypoint Exchange
+      - elaborate on lifecycle management in Anypoint Exchange
+      - expand on lifecycle management in Anypoint Exchange
+      - delve into lifecycle management in Anypoint Exchange
+      - probe lifecycle management in Anypoint Exchange
+      - inspect lifecycle management in Anypoint Exchange
+      - investigate lifecycle management in Anypoint Exchange
+      - survey lifecycle management in Anypoint Exchange
+      - contrast lifecycle management stages in Anypoint Exchange
+      - compare lifecycle management phases in Anypoint Exchange
+      - differentiate lifecycle management processes in Anypoint Exchange
+      - explore lifecycle management capabilities in Anypoint Exchange
+      - review lifecycle management features in Anypoint Exchange
+      - list lifecycle management tasks in Anypoint Exchange
+      - enumerate lifecycle management steps in Anypoint Exchange
+      - itemize lifecycle management activities in Anypoint Exchange
+      - outline lifecycle management workflow in Anypoint Exchange
+      - chart lifecycle management pipeline in Anypoint Exchange
+      - detail lifecycle management stages in Anypoint Exchange
+      - describe lifecycle management workflow in Anypoint Exchange
+      - explain lifecycle management pipeline in Anypoint Exchange
+      - define lifecycle management stages in Anypoint Exchange
+      - spell out lifecycle management stages in Anypoint Exchange
+      - break down lifecycle management pipeline in Anypoint Exchange
+      - summarize lifecycle management stages in Anypoint Exchange
+      - illustrate lifecycle management workflow in Anypoint Exchange
+      - clarify lifecycle management phases in Anypoint Exchange
+      - specify lifecycle management process in Anypoint Exchange
+      - highlight lifecycle management sequence in Anypoint Exchange
+      - emphasize lifecycle management flow in Anypoint Exchange
+      - underscore lifecycle management order in Anypoint Exchange
+      - showcase lifecycle management in Anypoint Exchange
+      - demonstrate lifecycle management process in Anypoint Exchange
+      - portray lifecycle management in Anypoint Exchange
+      - recount lifecycle management in Anypoint Exchange
+      - narrate lifecycle management in Anypoint Exchange
+      - recapitulate lifecycle management in Anypoint Exchange
+      - review lifecycle management concepts in Anypoint Exchange
+      - revisit lifecycle management in Anypoint Exchange
+      - rehearse lifecycle management in Anypoint Exchange
+      - recap lifecycle management in Anypoint Exchange
+      - distill lifecycle management in Anypoint Exchange
+      - distill lifecycle management essentials in Anypoint Exchange
+      - condense lifecycle management in Anypoint Exchange
+      - compress lifecycle management overview in Anypoint Exchange
+      - shorten lifecycle management explanation in Anypoint Exchange
+      - abbreviate lifecycle management details in Anypoint Exchange
+      - simplify lifecycle management description in Anypoint Exchange
+      - clarify lifecycle management basics in Anypoint Exchange
+      - demystify lifecycle management in Anypoint Exchange
+      - decode lifecycle management in Anypoint Exchange
+      - unpack lifecycle management in Anypoint Exchange
+      - unlock lifecycle management in Anypoint Exchange
+      - illuminate lifecycle management in Anypoint Exchange
+      - shed light on lifecycle management in Anypoint Exchange
+      - address lifecycle management in Anypoint Exchange
+      - tackle lifecycle management in Anypoint Exchange
+      - handle lifecycle management in Anypoint Exchange
+      - approach lifecycle management in Anypoint Exchange
+      - navigate lifecycle management in Anypoint Exchange
+      - manage lifecycle management in Anypoint Exchange
+      - govern lifecycle management in Anypoint Exchange
+      - orchestrate lifecycle management in Anypoint Exchange
+      - control lifecycle management in Anypoint Exchange
+      - administer lifecycle management in Anypoint Exchange
+      - operate lifecycle management in Anypoint Exchange
+      - oversee lifecycle management in Anypoint Exchange
+      - supervise lifecycle management in Anypoint Exchange
+      - facilitate lifecycle management in Anypoint Exchange
+      - enable lifecycle management in Anypoint Exchange
+      - integrate lifecycle management in Anypoint Exchange
       - what is the purpose of production status in Exchange?
       - how do I mark an API as deprecated?
       - where do I configure development phases in Exchange?
@@ -342,63 +602,3 @@ nlu:
       - how do I retire an API in AnyPoint Exchange?
       - how do I retire an API in Exhange?
       - how do I retire an API in Anypont Exchange?
-      - how do I retire a API in Exchange?
-      - how do I retire an API?
-      - how do I retire an API in Anypoint Exchane?
-      - why use environment tags for lifecyle?
-      - why use env tags for lifecycle in Exchange?
-      - why use environment tags for lifecycle in AnyPoint Exchange?
-      - why use environment tags for lifecycle on Exchange?
-      - why use environment tags for life cycle?
-      - why use environment tags for lifecycle in Exchnge?
-      - why use environment tags for lifecyce?
-      - why use environment tags for lifecyle in Anypont Exchange?
-      - why use environment tags for lifecycle stages?
-      - how to manage permissions per stege?
-      - how do I manage permissions per stage in Exchange?
-      - how to manage permissions per stage in AnyPoint Exchange?
-      - how to manage permissions per stage on Exchange?
-      - how to manage permissions per stag in Exchange?
-      - how to manage permissions per stage in Exchnge?
-      - how to manage permisions per stage?
-      - how to manage permissions per stge?
-      - how to manage permissions per stage in Anypont Exchange?
-      - how to manage permissions per stage for APIs?
-      - what is lifecyle managment in Anypoint Exchnge?
-      - what is lifecycle managment in AnyPoint Exchange?
-      - what is lifecyle management on AnyPoint Exchange?
-      - what is lifecycle management at Anypoint Exchange?
-      - what is lifecyle mangement in Anypoint Exchange?
-      - what is lifecycle manageent in Anypoint Exchage?
-      - what is lifecycle management in Anypoint Exchane?
-      - what is life cycle management in Anypoin Exchange?
-      - what is lifecycle management in Anypoint Exchage?
-      - how do I promte API versions in Exchange?
-      - how do I promte API verions in Exchange?
-      - how do I promote APIs version in Exchange?
-      - how to promote API versions at Exchange?
-      - how do I promote API versioons in Exchange?
-      - how do I promote APi versions in Exchange?
-      - how do I promote API versionns in AnyPoint Exchange?
-      - how do I promote API version in Anypoin Exchange?
-      - how do I promote API versions on Exchnge?
-      - how do I promoto API version in Exchange?
-      - what is purpose of producton status in Exchange?
-      - what is the purpose of producion status in Exchange?
-      - what does production status means in Exchange?
-      - what's purpose of production stat in Exchange?
-      - why production status important in Exchnge?
-      - why use production status on Exchange?
-      - why production status mattter in Exchange?
-      - what is purspose of production status in AnyPoint Exchange?
-      - what is the purpose of production stat in Anypont Exchange?
-      - how do I mark API as deprecatted?
-      - how do I make an API deprecated in Exchange?
-      - how do I mark API deprcated?
-      - how do I mark API as depreacted?
-      - how do I mark API as deprcated in AnyPoint Exchange?
-      - how to mark API as deprecated at Exchange?
-      - how do I mark a APi as deprecated?
-      - how do I mark the API as depricated?
-      - how to mark API depricated in Exchange?
-      - where do configure development phases in Exchange?

@@ -3,6 +3,112 @@ nlu:
   - intent: facade_vs_orchestration
     examples: |
       - o que é um padrão Facade?
+      - o q é um padrão Facade?
+      - oq é um padrão Facade?
+      - o que é padrao Facade?
+      - o que é um padrao Facade?
+      - o que é um padrão fachada?
+      - o que é o padrão Facade?
+      - qual é o padrão Facade?
+      - qual é o padrao Facade?
+      - qual padrão Facade?
+      - qual padrão fachada?
+      - define padrão Facade?
+      - defina padrão Facade?
+      - descreve padrão Facade?
+      - descreva padrão Facade?
+      - explica padrão Facade?
+      - explika padrão Facade?
+      - me explica padrão Facade?
+      - tu explica padrão Facade?
+      - vc explica padrão Facade?
+      - me diz o que é padrão Facade?
+      - diz o que é padrão Facade?
+      - me fala padrão Facade?
+      - tu fala padrão Facade?
+      - vc fala padrão Facade?
+      - me conta padrão Facade?
+      - conta padrão Facade?
+      - define padrao Facade?
+      - defina padrao Facade?
+      - descreve padrao Facade?
+      - descreva padrao Facade?
+      - explica padrao Facade?
+      - explika padrao Facade?
+      - me explica padrao Facade?
+      - tu explica padrao Facade?
+      - vc explica padrao Facade?
+      - me diz o que é padrao Facade?
+      - diz o que é padrao Facade?
+      - me fala padrao Facade?
+      - tu fala padrao Facade?
+      - vc fala padrao Facade?
+      - me conta padrao Facade?
+      - conta padrao Facade?
+      - o que seria um padrão Facade?
+      - o que seria um padrao Facade?
+      - como funciona o padrão Facade?
+      - como funciona padrao Facade?
+      - pra que serve o padrão Facade?
+      - pra que serve padrao Facade?
+      - qual a função do padrão Facade?
+      - qual a função do padrao Facade?
+      - qual utilidade do padrão Facade?
+      - qual utilidade do padrao Facade?
+      - q é padrão Facade?
+      - q é padrao Facade?
+      - pq usar padrão Facade?
+      - pq usar padrao Facade?
+      - por que usar padrão Facade?
+      - por que usar padrao Facade?
+      - tu sabe o que é padrão Facade?
+      - vc sabe o que é padrão Facade?
+      - tu sabe padrao Facade?
+      - vc sabe padrao Facade?
+      - tu conhece padrão Facade?
+      - vc conhece padrão Facade?
+      - tu conhece padrao Facade?
+      - vc conhece padrao Facade?
+      - me fala o que é padrão Facade?
+      - me fala o que é padrao Facade?
+      - tu fala o que é padrão Facade?
+      - vc fala o que é padrão Facade?
+      - tu sabe me dizer o que é padrão Facade?
+      - vc sabe me dizer o que é padrão Facade?
+      - diz aí o que é padrão Facade?
+      - diz aí padrao Facade?
+      - o que faz o padrão Facade?
+      - o que faz o padrao Facade?
+      - qual é a ideia do padrão Facade?
+      - qual é a ideia do padrao Facade?
+      - qual concepção do padrão Facade?
+      - qual concepção do padrao Facade?
+      - conceitue padrão Facade?
+      - conceitue padrao Facade?
+      - conceituar padrão Facade?
+      - conceituar padrao Facade?
+      - descreve padrão fachada?
+      - descreva padrão fachada?
+      - explica padrão fachada?
+      - explika padrão fachada?
+      - me explica padrão fachada?
+      - tu explica padrão fachada?
+      - vc explica padrão fachada?
+      - me diz o que é padrão fachada?
+      - diz o que é padrão fachada?
+      - me fala padrão fachada?
+      - tu fala padrão fachada?
+      - vc fala padrão fachada?
+      - me conta padrão fachada?
+      - conta padrão fachada?
+      - qual a definição de padrão Facade?
+      - qual a definição de padrao Facade?
+      - qual o conceito de padrão Facade?
+      - qual o conceito de padrao Facade?
+      - define conceito Facade?
+      - defina conceito Facade?
+      - como definir padrão Facade?
+      - como definir padrao Facade?
       - o que significa Facade em arquitetura MuleSoft?
       - para que serve o padrão Facade?
       - qual a diferença entre Facade e Orquestração?
@@ -196,13 +302,125 @@ nlu:
       - o que é um padrao Fadd?
       - o que signfica Fadd em arquitertua MuleSoft?
       - para que serv Fadd?
-      - qual a diferenca entre Fadd e Orquestra??
-      - quando usar Fadd ao inves de Orquestra??
-      - como aplicar o padrao Fadd?
-      - o que faz uma fadade (Fadd)?
-      - explaing Fadd vs Orquestra??
-      - o que é Orqestracao de A P I S?
       - what is the Facade pattern?
+      - what does the Facade pattern mean?
+      - can you define the Facade pattern?
+      - can you explain the Facade pattern?
+      - could you describe the Facade pattern?
+      - could you outline the Facade pattern?
+      - what’s the purpose of the Facade pattern?
+      - why use the Facade pattern?
+      - how do you implement the Facade pattern?
+      - how does the Facade pattern work?
+      - you know the Facade pattern, right?
+      - you know Facade pattern, what is it?
+      - you know Facade pattern, explain?
+      - you know Facade pattern, define it?
+      - you know Facade pattern, describe it?
+      - you know Facade pattern, break it down?
+      - you know Facade pattern, outline it?
+      - why would you choose the Facade pattern?
+      - what problem does the Facade pattern solve?
+      - how do you apply the Facade pattern?
+      - what are the benefits of the Facade pattern?
+      - what are the use cases for the Facade pattern?
+      - where do you use the Facade pattern?
+      - when should you use the Facade pattern?
+      - who uses the Facade pattern?
+      - which scenarios call for the Facade pattern?
+      - which classes does the Facade pattern involve?
+      - which components does the Facade pattern abstract?
+      - you explain Facade pattern, please?
+      - you define Facade pattern, please?
+      - you show Facade pattern, please?
+      - you illustrate Facade pattern, please?
+      - you demonstrate the Facade pattern, please?
+      - can you spell out Facade pattern?
+      - can you break down Facade pattern?
+      - can you sketch Facade pattern?
+      - can you map out Facade pattern?
+      - how would you characterize the Facade pattern?
+      - how would you summarize the Facade pattern?
+      - what distinguishes the Facade pattern?
+      - what sets the Facade pattern apart?
+      - what makes the Facade pattern unique?
+      - what’s the core idea of the Facade pattern?
+      - what’s the essence of the Facade pattern?
+      - what’s the key concept of the Facade pattern?
+      - what’s the main goal of the Facade pattern?
+      - what’s the main benefit of the Facade pattern?
+      - what’s the primary purpose of the Facade pattern?
+      - can you highlight Facade pattern?
+      - can you pinpoint Facade pattern?
+      - can you emphasize Facade pattern?
+      - can you stress Facade pattern?
+      - can you underscore Facade pattern?
+      - why implement the Facade pattern?
+      - why adopt the Facade pattern?
+      - why favor the Facade pattern?
+      - why embrace the Facade pattern?
+      - why select the Facade pattern?
+      - what value does the Facade pattern bring?
+      - what advantage does the Facade pattern offer?
+      - what gain from the Facade pattern?
+      - what leverage from the Facade pattern?
+      - what leverage do you get from the Facade pattern?
+      - can you list Facade pattern advantages?
+      - can you list Facade pattern drawbacks?
+      - what are the trade-offs of the Facade pattern?
+      - what are the limitations of the Facade pattern?
+      - what are the pitfalls of the Facade pattern?
+      - what are the common mistakes with the Facade pattern?
+      - what anti-patterns exist around the Facade pattern?
+      - what alternatives to the Facade pattern exist?
+      - what patterns complement the Facade pattern?
+      - how does Facade pattern relate to MVC?
+      - how does Facade pattern relate to Adapter?
+      - how does Facade pattern relate to Proxy?
+      - how does Facade pattern relate to Decorator?
+      - how does Facade pattern relate to Observer?
+      - how does Facade pattern integrate with layers?
+      - how does Facade pattern integrate with modules?
+      - how does Facade pattern integrate with services?
+      - how does Facade pattern interact with APIs?
+      - how does Facade pattern interact with microservices?
+      - in a sentence, what is the Facade pattern?
+      - in one word, what is the Facade pattern?
+      - in simple terms, what is the Facade pattern?
+      - in plain English, what is the Facade pattern?
+      - in non-technical terms, what is the Facade pattern?
+      - give me a one-liner for the Facade pattern
+      - give me a brief definition of the Facade pattern
+      - give me a short overview of the Facade pattern
+      - give me a quick summary of the Facade pattern
+      - give me a high-level view of the Facade pattern
+      - give me a bird’s-eye view of the Facade pattern
+      - you walk me through the Facade pattern?
+      - you talk me through the Facade pattern?
+      - you guide me through the Facade pattern?
+      - you run me through the Facade pattern?
+      - you fill me in on the Facade pattern?
+      - you walk me through Facade pattern use?
+      - you talk me through Facade pattern code?
+      - you guide me through Facade pattern example?
+      - you run me through Facade pattern UML?
+      - you fill me in on Facade pattern diagram?
+      - you can illustrate Facade pattern with code?
+      - you can illustrate Facade pattern with UML?
+      - you can demo Facade pattern?
+      - you can show Facade pattern in action?
+      - you can provide Facade pattern snippet?
+      - you can sketch Facade pattern in code?
+      - you can diagram the Facade pattern?
+      - you can model the Facade pattern?
+      - you can depict the Facade pattern?
+      - you can visualize the Facade pattern?
+      - why is Facade pattern called Facade?
+      - why the name Facade for this pattern?
+      - why is it called the Facade pattern?
+      - why that name for this pattern?
+      - what’s behind the name Facade pattern?
+      - what’s the origin of the Facade pattern?
       - what does Facade mean in MuleSoft architecture?
       - what is the purpose of the Facade pattern?
       - how does Facade differ from orchestration?
@@ -242,7 +460,6 @@ nlu:
       - what is the puropse of the Facade pattrn?
       - what is the purpose of the Facade patten?
       - what is the purpose for the Facade pattern?
-      - why use the Facade pattern?
       - why use the Fascade pattern?
       - why use the Facdde pattern?
       - why choose the Facade pattern?
@@ -385,20 +602,3 @@ nlu:
       - what does orchestration achiev?
       - examples of Facade and orquestration
       - examples of Facdde and orchestration
-      - examples of Facade and orchestraton
-      - examples of Facade vs orchestration
-      - sample of Facade and orchestration
-      - what is the Fasade pattern?
-      - what is teh Facade pattern?
-      - what is the Fascade patttern?
-      - whta does Facade mean?
-      - what does Facdde mean in MuleSoft?
-      - what does Fasade mean in MuleSoft?
-      - what does Facade meen in Mulesoft?
-      - what does teh Facade mean?
-      - what do Facade do?
-      - what do Facdd do?
-      - explain teh Facade vs orchestration
-      - explain Facde vs orchestration
-      - explain Fascade vs orquestration
-      - how does Fasade differ from orchestration?

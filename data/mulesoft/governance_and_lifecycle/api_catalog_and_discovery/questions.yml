@@ -5,7 +5,113 @@ nlu:
       - oq é catáologo de APIs?
       - oq é catalógo de APIs?
       - o que é catáologo de APIs?
+      - oq é catálogo de APIs?
+      - o q é catálogo de APIs?
+      - o que é catálogo de APIs?
       - o que é catalógo de APIs?
+      - qual é o catálogo de APIs?
+      - qual o catálogo de APIs?
+      - define catálogo de APIs?
+      - defina catálogo de APIs?
+      - descreve catálogo de APIs?
+      - descreva catálogo de APIs?
+      - explica catálogo de APIs?
+      - explika catálogo de APIs?
+      - me explica catálogo de APIs?
+      - tu explica catálogo de APIs?
+      - vc explica catálogo de APIs?
+      - me fala catálogo de APIs?
+      - tu fala catálogo de APIs?
+      - vc fala catálogo de APIs?
+      - me conta catálogo de APIs?
+      - tu conta catálogo de APIs?
+      - vc conta catálogo de APIs?
+      - tu sabe catálogo de APIs?
+      - vc sabe catálogo de APIs?
+      - tu conhece catálogo de APIs?
+      - vc conhece catálogo de APIs?
+      - me diz catálogo de APIs?
+      - diz catálogo de APIs?
+      - mostra catálogo de APIs?
+      - me mostra catálogo de APIs?
+      - ilustra catálogo de APIs?
+      - exemplifica catálogo de APIs?
+      - evidencia catálogo de APIs?
+      - aponta catálogo de APIs?
+      - detalhe catálogo de APIs?
+      - detalha catálogo de APIs?
+      - aponta o que é catálogo de APIs?
+      - indica catálogo de APIs?
+      - menciona catálogo de APIs?
+      - cita catálogo de APIs?
+      - aborda catálogo de APIs?
+      - discute catálogo de APIs?
+      - apresenta catálogo de APIs?
+      - expõe catálogo de APIs?
+      - esclarece catálogo de APIs?
+      - clarifica catálogo de APIs?
+      - destaca catálogo de APIs?
+      - realça catálogo de APIs?
+      - justifica catálogo de APIs?
+      - argumenta catálogo de APIs?
+      - defina o que é catálogo de APIs?
+      - explique o que é catálogo de APIs?
+      - descreva o que é catálogo de APIs?
+      - me diga o que é catálogo de APIs?
+      - tu diga o que é catálogo de APIs?
+      - vc diga o que é catálogo de APIs?
+      - prq catálogo de APIs?
+      - pq catálogo de APIs?
+      - pra que catálogo de APIs?
+      - para que catálogo de APIs?
+      - qual função catálogo de APIs?
+      - qual utilidade catálogo de APIs?
+      - qual propósito catálogo de APIs?
+      - pq usar catálogo de APIs?
+      - prq usar catálogo de APIs?
+      - por que usar catálogo de APIs?
+      - pra que serve catálogo de APIs?
+      - para que serve catálogo de APIs?
+      - qual objetivo catálogo de APIs?
+      - qual meta catálogo de APIs?
+      - qual papel catálogo de APIs?
+      - qual cargo catálogo de APIs?
+      - qual importância catálogo de APIs?
+      - qual relevância catálogo de APIs?
+      - qual valor catálogo de APIs?
+      - qual benefício catálogo de APIs?
+      - qual vantagem catálogo de APIs?
+      - por que catálogo de APIs é útil?
+      - como funciona catálogo de APIs?
+      - como usa catálogo de APIs?
+      - como se usa catálogo de APIs?
+      - como operar catálogo de APIs?
+      - como acessar catálogo de APIs?
+      - onde fica catálogo de APIs?
+      - onde encontrar catálogo de APIs?
+      - onde usar catálogo de APIs?
+      - onde consultar catálogo de APIs?
+      - quando revisar catálogo de APIs?
+      - quando atualizar catálogo de APIs?
+      - quem gerencia catálogo de APIs?
+      - quem mantém catálogo de APIs?
+      - quem usa catálogo de APIs?
+      - quem acessa catálogo de APIs?
+      - com quem catálogo de APIs interage?
+      - com certeza catálogo de APIs?
+      - em resumo catálogo de APIs?
+      - em poucas linhas catálogo de APIs?
+      - em poucas palavras catálogo de APIs?
+      - num fôlego catálogo de APIs?
+      - de forma rápida catálogo de APIs?
+      - sem enrolar catálogo de APIs?
+      - sem enrolação catálogo de APIs?
+      - sem blá blá catálogo de APIs?
+      - resumidamente catálogo de APIs?
+      - sinteticamente catálogo de APIs?
+      - objetivamente catálogo de APIs?
+      - concisamente catálogo de APIs?
+      - claramente catálogo de APIs?
       - o que é catálago de APIs?
       - oq é catálago de APIS?
       - o que é catálgo de APIs?
@@ -103,7 +209,6 @@ nlu:
       - o que inclui aprovisionamento?
       - o que envolve aprovisionamento?
       - o que compoe aprovisionamento?
-      - o que é catálogo de APIs?
       - como funciona o catálogo de APIs no Anypoint?
       - para que serve a descoberta de APIs?
       - como faço para descobrir APIs existentes?
@@ -118,7 +223,6 @@ nlu:
       - para que serve a publicação no catálogo?
       - como buscar APIs no catálogo?
       - o que é aprovisionamento de API no catálogo?
-      - oq é catálogo de APIs?
       - o que é catálogo de A P I s?
       - o que é catálogo de APIS?
       - o que e catálogo de APIs?
@@ -198,10 +302,6 @@ nlu:
       - como o Anypoint Exchange facilita a descobrta?
       - como o Anypoint Exchange facilitta a descoberta?
       - cumo o Anypoint Exchange facilita a descoberta?
-      - como Anypoint Exchange facilita descoberta?
-      - com o Anypoint Exchange facilita a descoberta?
-      - como organizar meu catalogo de APIs?
-      - como organnizar meu catálogo de APIs?
       - what is an API catalog?
       - how does the API catalog work in Anypoint?
       - what is API discovery for?
@@ -218,6 +318,104 @@ nlu:
       - how to search APIs in the catalog?
       - what is API provisioning in the catalog?
       - what is an API catlog?
+      - can you define an API catalog?
+      - could you explain API catalog?
+      - please describe API catalog
+      - you know API catalog, what is it?
+      - tell me about API catalog
+      - outline the concept of API catalog
+      - clarify what API catalog means
+      - illustrate API catalog for me
+      - spell out API catalog
+      - break down API catalog
+      - outline API catalog’s purpose
+      - summarize API catalog
+      - what does API catalog refer to?
+      - what does API catalog mean?
+      - how would you define API catalog?
+      - how would you explain API catalog?
+      - what’s the role of API catalog?
+      - what’s the function of API catalog?
+      - why use an API catalog?
+      - why do we need an API catalog?
+      - why implement API catalog?
+      - why maintain API catalog?
+      - when to use API catalog?
+      - when should you use API catalog?
+      - where can I find API catalog?
+      - where is API catalog used?
+      - where does API catalog reside?
+      - who uses the API catalog?
+      - who manages the API catalog?
+      - who maintains the API catalog?
+      - who accesses the API catalog?
+      - which teams need API catalog?
+      - which projects require API catalog?
+      - which environments use API catalog?
+      - which tools integrate API catalog?
+      - can you give me an overview of API catalog?
+      - can you provide API catalog examples?
+      - can you list API catalog features?
+      - can you name API catalog benefits?
+      - can you share API catalog use cases?
+      - can you highlight API catalog advantages?
+      - can you pinpoint API catalog drawbacks?
+      - can you outline API catalog best practices?
+      - can you detail API catalog guidelines?
+      - could you illustrate API catalog workflow?
+      - could you map API catalog components?
+      - could you sketch API catalog architecture?
+      - could you diagram API catalog integration?
+      - please spell out API catalog steps
+      - please enumerate API catalog capabilities
+      - please enumerate API catalog components
+      - please enumerate API catalog patterns
+      - please outline API catalog lifecycle
+      - please outline API catalog governance
+      - please elaborate on API catalog management
+      - explain API catalog in simple terms
+      - describe API catalog concisely
+      - define API catalog succinctly
+      - clarify API catalog briefly
+      - illustrate API catalog quickly
+      - summarize API catalog rapidly
+      - what problem does API catalog solve?
+      - what value does API catalog provide?
+      - what benefit does API catalog offer?
+      - what impact does API catalog have?
+      - what outcomes result from API catalog?
+      - what challenges does API catalog address?
+      - what pain points does API catalog relieve?
+      - what scenarios require API catalog?
+      - what configurations suit API catalog?
+      - what standards govern API catalog?
+      - how is API catalog structured?
+      - how does API catalog work?
+      - how does API catalog function?
+      - how does API catalog operate?
+      - how to implement API catalog?
+      - how to configure API catalog?
+      - how to manage API catalog?
+      - how to secure API catalog?
+      - how to scale API catalog?
+      - how to optimize API catalog?
+      - how to monitor API catalog?
+      - how to document API catalog?
+      - how to test API catalog?
+      - how to version API catalog?
+      - how to publish API catalog?
+      - how to discover API catalog?
+      - how to search API catalog?
+      - how to query API catalog?
+      - how to update API catalog?
+      - how to integrate API catalog?
+      - how to audit API catalog?
+      - how to report API catalog metrics?
+      - what metrics track API catalog?
+      - what KPIs measure API catalog?
+      - what logs record API catalog?
+      - what dashboards show API catalog data?
+      - what alerts monitor API catalog issues?
       - what is a API catalog?
       - what is an API catolog?
       - what is an API catalod?
@@ -247,7 +445,6 @@ nlu:
       - where can I find the API catelog?
       - where can I find the API catalague?
       - where can I find the API catolog?
-      - where can I find API catalog?
       - why is the catlog important in governance?
       - why is the catlog impotant in governance?
       - why is the catalog impotant for governance?
@@ -402,3 +599,6 @@ nlu:
       - where can I view the API catalog?
       - where can I veiw the API catalouge?
       - how do I navigate the API catlog?
+      - how do I navigte the API catalogue?
+      - how do I acceess the API catalog?
+      - how do I access the API catelogue?

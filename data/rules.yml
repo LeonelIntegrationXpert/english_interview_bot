@@ -60,4 +60,4 @@ rules:
   - rule: rule_nlu_fallback
     steps:
       - intent: nlu_fallback
-      - action: action_fallback
+      - action: utter_nlu_fallback
