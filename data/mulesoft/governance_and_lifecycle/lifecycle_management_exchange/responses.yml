@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_lifecycle_management_exchange:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  No Anypoint Exchange o gerenciamento de ciclo de vida permite promover APIs através de estágios como desenvolvimento, homologação e produção; definir políticas de aprovação, desativação e depreciação; controlar permissões de acesso por ambiente; automatizar fluxos de versão e consultar histórico completo de alterações.
+              - vr_en: |
+                  In Anypoint Exchange lifecycle management lets you promote APIs through stages such as development, staging and production; define approval, deprecation and retirement policies; manage access permissions per environment; automate version workflows and view full change history.

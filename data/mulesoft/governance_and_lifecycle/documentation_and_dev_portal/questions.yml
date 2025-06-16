@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: documentation_and_dev_portal
+    examples: |
+      - oq é portal de desenvolvedor?
+      - o que e portal de desenvolvedor?
+      - o q é portal de desenvolvedor no Anypoint?
+      - o que e portal de dev no AnyPoint?
+      - para q serve portal de desenvolvedor?
+      - pra que serve portal de desenvolvedor?
+      - para que serve o portal de dev?
+      - como uso o portal dev?
+      - como usar portal de desenolvedor?
+      - como eu uso portal desenvolvedor?
+      - onde encontra documentação de APIs?
+      - onde acho doc de APIS?
+      - onde enconto a documentaçao de APIs?
+      - onde esta a doc de API no Exchange?
+      - onde tá doc no Anypoint Exchange?
+      - como acessar a doc de APIs?
+      - como acessa doc de API?
+      - como percorar documentaçao de APIs?
+      - para que serve documentação de API?
+      - para q serve doc de APi?
+      - o que contem doc no Exchange?
+      - o que contêm a doc no Exchange?
+      - o q tem na doc do portal?
+      - como publico docs no portal?
+      - como pubicar docs no portal?
+      - como publiar documentação no portal?
+      - como coloco doc no portal?
+      - como usa portal dev do MuleSoft?
+      - como usar portal dev MuleSoft?
+      - usar portal dev MuleSoft como?
+      - o que significa developer portal?
+      - o q é developer portal?
+      - o que quer dizer developer portal?
+      - onde configuro portal de dev?
+      - onde configurar portal de desenvolvedor?
+      - onde seto o portal de dev?
+      - como personalizo portal dev?
+      - como personolizar portal de desenvolvedor?
+      - como personalizo portal de desenvolvedor?
+      - como faço autodocumentação de API?
+      - como auto gerar doc de API?
+      - como eu autogero doc de APi?
+      - o que é self service de APIs?
+      - o q é self service de API?
+      - o que significa self-service de APIs?
+      - como disponibilizo docs para devs?
+      - como disponiblizar docs para dev?
+      - onde ach docs para devs?
+      - onde ficam tutoriais no portal?
+      - onde ta tutoriais no portal?
+      - onde encrontra tutoriais no portal?
+      - como navego no portal de dev?
+      - como navergar no portal de dev?
+      - como navo por portal de desenvolvedor?
+      - o que inclui guia de referência?
+      - o que inclue guia de ref de API?
+      - o que tem na guia de ref de APIs?
+      - como gerenciar doc no Exchange?
+      - como gerencair doc no Exchange?
+      - como gerencia documentação no Exchange?
+      - o que é portal desenvolvedor em uma linha?
+      - oq é portal dev resumido?
+      - para q serve portal dev resumido?
+      - como abreviar doc no portal?
+      - como simplificar portal de dev?
+      - o q posso fazer no portal?
+      - o q faz portal de dev?
+      - quais recursos no portal?
+      - quais funcoes do portal?
+      - o que e portal dev no Mule?
+      - o que e portal dev Mulesoft?
+      - como se loga no portal?
+      - como logar no portal de dev?
+      - onde me registro no portal?
+      - como registro no portal?
+      - como crio conta no portal?
+      - como me cadastra no portal de dev?
+      - como configuro tutorial no portal?
+      - como ponho tutorial no portal?
+      - onde coloco exemplos no portal?
+      - como coloco exemplos de uso no portal?
+      - o q é swagger no portal?
+      - o que significa swagger no portal?
+      - como integrar swagger no portal?
+      - o que são SDKs no portal?
+      - o q são SDKs mostrados no portal?
+      - como publico SDKs no portal?
+      - como deposita SDK no portal?
+      - como adiciono tutoriais no portal?
+      - como adiciono keys no portal?
+      - como gero chave API no portal?
+      - como solicito chave no portal?
+      - onde configuro rate limit no portal?
+      - onde faz rate limit no portal?
+      - como monitora métricas no portal?
+      - como ver métricas no portal?
+      - como extrair analytics do portal?
+      - como exportar analytics do portal?
+      - como personalizar layout do portal?
+      - como mudar tema do portal?
+      - como ajusto cores no portal?
+      - como edito menu do portal?
+      - como adiciono páginas no portal?
+      - como removo página no portal?
+      - como reorganizo nav do portal?
+      - como defino sidebar no portal?
+      - como configuro busca no portal?
+      - como habilito busca no portal?
+      - como indexar APIs no portal?
+      - como faço search no portal?
+      - o que é portal de desenvolvedor?
+      - o que é portal de desenvolvedor no Anypoint?
+      - para que serve o portal de desenvolvedor?
+      - como uso o portal de desenvolvedor?
+      - onde encontro a documentação de APIs?
+      - como acessar a documentaçao de APIs?
+      - para que serve a docummentação de API?
+      - o que contem a documentação no Exchange?
+      - como usar o portal dev do MuleSoft?
+      - onde configuro o portal de desenvolvedor?
+      - como personalizo o portal de dev?
+      - como faço auto documentaçao de API?
+      - o que é self-service de APIs?
+      - como disponibilizar docs para devs?
+      - onde ficam os tutoriais no portal?
+      - como navego na portal de desenvolvedor?
+      - o que inclui a guia de referência de APIs?
+      - como gerenciar documentação no Anypoint Exchange?
+      - o que é portal de desenvolvedor no Anypoint Exchange?
+      - o que é portl de desenvolvedor?
+      - oq é portal de dev?
+      - o que e portal de dev MuleSoft?
+      - o q é portal de desenvovedor?
+      - para que serve portal de dev?
+      - para que serce portal desenvolvedor?
+      - para que serve portl dev?
+      - como uso o portal de dev MuleSoft?
+      - como uço portal de desenvolvedor?
+      - como uso portal desenolvedor?
+      - onde encontro portal de dev?
+      - onde encontoro portal de desenvolvedor?
+      - onde acha portal de dev?
+      - onde ta portal de dev?
+      - como achar portal de dev?
+      - como aesso portal de dev?
+      - como acsesso portal de desenvolvedor?
+      - como aceso portal de desemvolvedor?
+      - para que serve doc no portal?
+      - para que serve documentação no portal?
+      - para que serve doc no portl?
+      - o que contem portal de dev?
+      - oq contem portal de desenvolvedor?
+      - oq contém portal de dev?
+      - oq contem portal dev?
+      - o que mostra portal de dev?
+      - o que mostra portl dev?
+      - como personalizo portal?
+      - como perssonalizo portal de dev?
+      - como customizo portal de desenv?
+      - como personaliza portal?
+      - como configuro portal dev?
+      - como configuro portal do MuleSoft?
+      - como configro portal de dev?
+      - como seto portal de dev?
+      - onde configuro portal?
+      - onde seto portal de dev?
+      - onde configro portal dev?
+      - como adiciono tutorial no portal?
+      - como adciono tutorial no portal?
+      - como adicion tutorial ao portal?
+      - como incluo tutorial no portal?
+      - como publico tutorial no portal?
+      - como public tutorial no portal?
+      - como subo tutorial no portal?
+      - como faço documentação no portal?
+      - como fço documentação no portal?
+      - como gerar docs no portal?
+      - como ger docs no portal?
+      - como gero docs no portal?
+      - como pegar docs no portal?
+      - como obtem docs no portal?
+      - onde aparece docs no portal?
+      - onde tá documentação no portal?
+      - onde ta doc no portal?
+      - como auto gerar docs?
+      - como auto gerar doc no portal?
+      - comme auto gerar docs?
+      - como mgatur docs no portal?
+      - o que é self-service dev?
+      - o que é serve Self-Service de APIs?
+      - o que siginifica Self-Service?
+      - oq é self-service no portal?
+      - como funciona self-service no portal?
+      - como funcina self-service no portl?
+      - como habilito self-service?
+      - como habilto self-service no portal?
+      - como ativar self-service?
+      - como ativ self-service?
+      - como gerar chave API?
+      - como ger chave no portal?
+      - what is the developer portal?
+      - what is the developer portal in Anypoint?
+      - what is the purpose of the developer portal?
+      - how do I use the developer portal?
+      - where do I find the API documentation?
+      - how do I access API documentation?
+      - what does API documentation include?
+      - how do I publish docs in the portal?
+      - how to use MuleSoft’s dev portal?
+      - what does developer portal mean?
+      - where do I configure the developer portal?
+      - how do I customize the dev portal?
+      - how to auto-generate API docs?
+      - what is self-service API?
+      - how to expose docs to developers?
+      - where are tutorials located in the portal?
+      - how to navigate the developer portal?
+      - what is the reference guide section?
+      - how to manage documentation in Anypoint Exchange?
+      - how to enable versioned docs in the portal?
+      - what is the develope portal?
+      - what is the developer poral?
+      - what is the developer portl?
+      - what is the developer portal in AnyPoint?
+      - what is the developer portal in Anypont?
+      - what is the developer portal in Anypoing?
+      - what is the purpse of the developer portal?
+      - what is the purpose of the developr portal?
+      - what is the purpose of the devoloper portal?
+      - how do I use the develper portal?
+      - how do I use the developer poratl?
+      - how do I us the developer portal?
+      - where do I find the API documenation?
+      - where do I find the API doc?
+      - where can I find the API documentation?
+      - how do I access API documenation?
+      - how do I acces the API documentation?
+      - how do I acces API docs?
+      - what does API documenttion include?
+      - what does API doc include?
+      - what does API documentation inclde?
+      - how do I publish docs in the poratl?
+      - how do I publish docs in the develper portal?
+      - how to publish docs in the portal?
+      - how to use MuleSoft’s dev poral?
+      - how to use Mulesoft’s dev portal?
+      - how to use Mulesoft dev portal?
+      - what does develper portal mean?
+      - what does developer poral mean?
+      - what does developer portal mens?
+      - where do I configure the developer poratl?
+      - where do I configure dev portal?
+      - how do I customize the deveLoper portal?
+      - how do I custmize the dev portal?
+      - how to customize the dev portal?
+      - how to auto-generate API documenation?
+      - how to auto-generate API doc?
+      - how to autogen API docs?
+      - what is selfservice API?
+      - what is self service API?
+      - what is self-service APi?
+      - how to exose docs to developers?
+      - how to expose docs to developrs?
+      - how to expose doc to developers?
+      - where are tutorials located in the poral?
+      - where are tutorials in the developer portal?
+      - where find tutorials in the portal?
+      - how to navigate the dev portal?
+      - how to navigte the developer portal?
+      - how do I navigate the developer portal?
+      - what is the reference guide secion?
+      - what is the reference guide sectrion?
+      - what is the refernce guide section?
+      - how to manage documention in Anypoint Exchage?
+      - how to manage docs in Anypoint Exchange?
+      - how to manage documentation in AnyPoint Exchange?
+      - how to enable versioned docs in the poratl?
+      - how to enable versioned docs in the dev portal?
+      - how to enable versioned doc in the portal?
+      - what is the developer portal for?
+      - what is the developer portal used for?
+      - why use the developer portal?
+      - why use developer portal?
+      - why use the dev portal?
+      - what features does the developer portal offer?
+      - what features does the developer poral offer?
+      - what feaures does the developer portal offer?
+      - what features does the dev portal offer?
+      - how to login to the developer portal?
+      - how to login to the develper portal?
+      - how do I login to the developer portal?
+      - how do I log in to the developer portal?
+      - how to register on the developer portal?
+      - how to register on the developer poratl?
+      - how to register on dev portal?
+      - how do I register on the developer portal?
+      - how to customize portal theme?
+      - how to customize portal teem?
+      - how to change portal theme?
+      - how to change portal theeme?
+      - what is the deveoper portal?
+      - what is the devloper portal?
+      - what is the developer poortal?
+      - what is the developer portaal?
+      - what is the developer poratl?
+      - what is the dev portal?
+      - what is the dev poral?
+      - what is the dev portall?
+      - what is the dev porta?
+      - what is the develp portal?
+      - how to access the dev portal?
+      - how to acces the dev portal?
+      - how to acess the dev poral?
+      - how to acces the dev porta?
+      - where find API docs?
+      - where find API doc?
+      - where to find API docs?
+      - where 2 find API docs?
+      - where do I find API doc?
+      - how to publish doc?
+      - how to publish docs?
+      - how to publih docs?
+      - how to pubish docs?
+      - how to pubish doc?
+      - how do I publsh docs?
+      - how do I publish doc?
+      - how to generate SDK?
+      - how to generate SDKs?
+      - how to genrate SDK?
+      - how to genrate SDKs?
+      - how to gen SDK?
+      - how to git SDK?
+      - how to crate SDK?
+      - how to crate SDKs?
+      - how to add SDK?
+      - how to add SDks?
+      - how to add SDk?
+      - what is custom portal?
+      - what is customise portal?
+      - what is customze portal?
+      - what is customize poral?
+      - what is customize poratl?
+      - why use dev portal?
+      - why use dev poral?
+      - why use dev porta?
+      - why use develp portal?
+      - when use portal?
+      - when to use portal?
+      - wnen to use portal?
+      - wen to use portal?
+      - whento use portal?
+      - how to update portal?
+      - how to update poral?
+      - how to update porta?
+      - how to updte portal?
+      - how to upate portal?
+      - how to login portal?
+      - how to login poral?
+      - how do I log in portal?
+      - how do I logon portal?
+      - how do I logn portal?
+      - how do i log in portal?
+      - how to signup portal?
+      - how to signup poral?
+      - how to sign up portal?
+      - how to sign up poral?
+      - how to sign up porta?
+      - how to register portal?
+      - how to regster portal?
+      - how do I regiser portal?
+      - how do I register poral?
+      - how do I register porta?
+      - what is portal URL?
+      - what is portal URl?
+      - what is portal Url?
+      - what is portal url?
+      - what is portal uRL?
+      - how to navigate poral?
+      - how to navigate poortal?
+      - how to nvigate portal?
+      - how to navigte poral?
+      - how to navgate portal?
+      - what is API explorer?
+      - what is API explor?
+      - what is API exporer?
+      - what is API explore?
+      - how to use API explorer?
+      - how to use API explor?
+      - how to use API exporer?
+      - how to use API expore?
+      - where is API explorer?
+      - where is API explor?
+      - where is API exporer?
+      - where is API expore?
+      - how to test in portal?
+      - how to test in poral?
+      - how to test in porta?
+      - how to test in poortal?
+      - how to tst in portal?
+      - how to test APIs online?

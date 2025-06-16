@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: lifecycle_management_exchange
+    examples: |
+      - o que é gerenciamento de ciclo de vida no Anypoint Exchange?
+      - como promovo versões de API no Exchange?
+      - para que serve o status de produção no Exchange?
+      - como marco uma API como deprecated?
+      - onde configuro fases de desenvolvimento no Exchange?
+      - como faço aprovação de nova versão de API?
+      - o que significa estágio beta no Exchange?
+      - como faço rollback de versão no Exchange?
+      - como defino políticas de revisão de API?
+      - onde vejo histórico de versões no Exchange?
+      - como automatizo promoção de APIs?
+      - quais estágios padrão de ciclo de vida existem?
+      - como desativo uma API no Exchange?
+      - por que usar tags de ambiente no lifecycle?
+      - como controlar permissões por estágio?
+      - oq é gerenciamento de ciclo de vida no Anypoint Exchange?
+      - o que é gerenciameno de ciclo de vida no Anypoint Exchange?
+      - o que é gerenciamento de ciclo de vida no AnyPoint Exchange?
+      - o que é gerenciamento de ciclo de vida no Anypoint Exchnge?
+      - o que é gerenciamento de ciclo de vida no Anypoint Exhange?
+      - o que é gerenciamento de ciclo de vida no AnyPoint Exhange?
+      - o que e gerenciamento de ciclo de vida no Anypoint Exchange?
+      - o que é gerenciamanto de ciclo de vida no Anypoint Exchange?
+      - o que é gerenciamento de ciclo de vida no Anypint Exchange?
+      - o que é gerenciamento de ciclo de vida no Anypoint Exhcnage?
+      - como promovo versoes de API no Exchange?
+      - como promovo versões de APi no Exchange?
+      - como promovo versões de API no Exchnge?
+      - como promovo versões de API no AnyPoint Exchange?
+      - como promovo versoes de API no AnyPoint Exhange?
+      - como promovo versoes de API no Anypoint Exchange?
+      - como promovo versoes de APi no Anypoint Exchange?
+      - como promovo versões de Api no Anypoint Exchange?
+      - para que serve o status de producao no Exchange?
+      - para que serve o status de produçao no Exchange?
+      - para que serve o status de produção no Exhange?
+      - para que serve o status de produção no AnyPoint Exchange?
+      - para que salas o status de produção no Exchange?
+      - para que serve o status de produção no Anypont Exchange?
+      - porque serve o status de produção no Exchange?
+      - para que serve o status de produção no Anypoint Exchnge?
+      - para que serve o status de produção no AnyPoint Exchage?
+      - como marco uma API como deprecared?
+      - como marco uma API como depracated?
+      - como marco uma API como deprecated no Exchange?
+      - como marco uma API como deprecated no Anypoint Exchange?
+      - como marco um API como deprecated?
+      - como marco uma API como deprecatd?
+      - como marco uma API como deprecate?
+      - como marco uma API como deprecaded?
+      - onde configuro fases de desenvolvimento no AnyPoint Exchange?
+      - onde configuro fases de desenvolvmento no Exchange?
+      - onde configuro fases de desenvolvimento no Anypont Exchange?
+      - onde configuro fase de desenvolvimento no Exchange?
+      - onde config phase de desenvolvimento no Exchange?
+      - onde configuro fases de desenvolviment no Exchange?
+      - onde configuro fases de desenvolvmento no AnyPoint Exchange?
+      - onde configuro fases de desenvolvimento no Anypoint Exchnge?
+      - como faco aprovação de nova versão de API?
+      - como faço aprovacao de nova versao de API?
+      - como faço aprovação de nova versão de APi?
+      - como faço aprovação de nova versão de API no Exchange?
+      - como faço aprovação de nova versao de Api?
+      - como faço aprovação de nova versão de API no AnyPoint Exchange?
+      - como faço aprovação de nova versão de API no Anypont Exchange?
+      - como faço aprovação de nova versão de APi no Exchange?
+      - o que significa estágio beta no Exchange?
+      - o que significa estagio beta no Exchnge?
+      - o que significa estágio beta no AnyPoint Exchange?
+      - o que significa estágio beta no Anypont Exchange?
+      - o que significa estágio betta no Exchange?
+      - o que signfica estágio beta no Exchange?
+      - o que significa estágio beta no Anypoint Exchaneg?
+      - como faço rollback de versao no Exchange?
+      - como faco rollback de versão no Exchange?
+      - como faço rollback de versão no AnyPoint Exchange?
+      - como faço rollback de versão no Anypont Exchange?
+      - como faço rollbac de versão no Exchange?
+      - como faço rollback de versao no Anypoint Exchange?
+      - como faço rollback de versao no AnyPoint Exhange?
+      - como defino politicas de revisión de API?
+      - como defino políticas de revisao de API?
+      - como defino políticas de revisão de APi?
+      - como defino políticas de revisão de API no Exchange?
+      - como defino politicas de revisão de API no AnyPoint Exchange?
+      - como defino políticas de revisão de API no Anypont Exchange?
+      - como defino políticas de revisao de API no Exchange?
+      - como defino políticas de revisão de versao de API?
+      - onde vejo historico de versões no Exchnge?
+      - onde vejo histórico de versões no AnyPoint Exchange?
+      - onde vejo histórico de versões no Anypont Exchange?
+      - onde vejo histórico de versoes no Exchange?
+      - onde vejo historico de versoes no AnyPoint Exchange?
+      - onde vejo histórico de versões no Anypoint Exchage?
+      - como automatizo promocao de APIs?
+      - como automatizo promoção de APis?
+      - como automatizo promoção de APIs no Exchange?
+      - como otomarizo promoção de APIs?
+      - como automarizo promoção de APIs?
+      - como automatizo promoção de APIs no AnyPoint Exchange?
+      - como automatizo promoção de APIs no Anypont Exchange?
+      - quais estagios padrao de ciclo de vida existem?
+      - quais estágios padrão de ciclo de vida existam?
+      - quais estágios padrão de ciclo de vida exitem?
+      - quais estágios padrao de ciclo de vida existam?
+      - quais estágios padrão de ciclo de vida no Exchange?
+      - quais estágios padrão de ciclo de vida no AnyPoint Exchange?
+      - quais estágios padrão de ciclo de vida no Anypont Exchange?
+      - como desativo uma APi no Exchange?
+      - como desativo uma API no AnyPoint Exchange?
+      - como desativ o Exchange?
+      - como desatovo uma API no Exchange?
+      - como desativo uma API no Anypont Exchange?
+      - por que usar tags de ambiente no life cycle?
+      - por que usar tags de amiente no lifecycle?
+      - por que usr tags de ambiente no lifecycle?
+      - por que usar tgs de ambiente no lifecycle?
+      - por que usar tags de ambiente no AnyPoint Exchange?
+      - por que usar tags de ambiente no Anypont Exchange?
+      - por que usar tags de ambiente no Exchange?
+      - como controlar permisões por estágio?
+      - como controlar permissão por estágio?
+      - como controlar permissoes por estagio?
+      - como controlar permissões pór estágio?
+      - como controlar permisões por estágio?
+      - como controlar permissões por estágio no Exchange?
+      - o que é gerenciamanto de ciclo de vida no Exchange?
+      - oq é gerenciamento de ciclo de vida no Exchange?
+      - o que é gerenciamento de cilco de vida no Exchange?
+      - o que é gerenciamento de ciclo de vida no Exchnge?
+      - o que é gerenciamento de ciclo de vida n0 Exchange?
+      - o que é gerenciamento de ciclo de vida no AnyPoing Exchange?
+      - o que é gerenciamente de ciclo de vida no Exchange?
+      - o que é gerenciamento de ciclo de vda no Exchange?
+      - o que é gerenciamento de clclo de vida no Exchange?
+      - o que é gerenciamento de ciclo de vida no Exchagne?
+      - como promovo verões de API no Exchange?
+      - como promo voerões de API no Exchange?
+      - como promovo versões de API no AnyPoint Exchane?
+      - como promovo versões de API no Exhcnage?
+      - para que serve status procução no Exchange?
+      - para que serve status de producao no Exchnge?
+      - para que serve o status de prdução no Exchange?
+      - para que serve o status de producao no AnyPoint Exchange?
+      - para que serve o status de produção no Exchane?
+      - como marco uma API como deprcated?
+      - como marc0 uma API como deprecated?
+      - como marco uma API como deprcated no Exchange?
+      - como marcco uma API como deprecated?
+      - como marco uma API como deprcated no Anypoint?
+      - onde configuro fases de desenvovlimento no Exchange?
+      - onde configufo fases de desenvolvimento no Exchange?
+      - onde configuro fases de dominio no Exchange?
+      - onde configuro fases de desenvlovimento no AnyPoint Exchange?
+      - onde confguro fases de desenvolvimento no Exchange?
+      - como faco aprovação de nvova versão de API?
+      - como faço aprovaçâo de nova versão de API?
+      - como faço aprovação de nova versao de APi?
+      - como faço aprovação de nova versao de API no Exchange?
+      - o que significa eságio beta no Exchange?
+      - o que significa estágio bet no Exchange?
+      - o que significa estágio beta no Exchane?
+      - o que significa estágio beta no AnyPoint Exchage?
+      - como faço rollbak de versão no Exchange?
+      - como faço rollback de versao no AnyPoint Exchange?
+      - como defino políticas de revisao de API no Exchnge?
+      - como defino politicas de revisao de API no Exchange?
+      - onde vejo historico de verões no Exchange?
+      - onde vejo histórico de versoes no AnyPoint Exchange?
+      - como automatizo promoco de APIs no Exchange?
+      - como automatizo promção de APIs no Exchange?
+      - quais estágios padrao de ciclo de vida existn?
+      - quais estágios padrão de ciclo de vida no Exchnge?
+      - como desativo uma API no Exchnge?
+      - por que usar tags de ambinte no lifecycle?
+      - por que usar tags de ambinte no Exchange?
+      - como controlar permissoes por estagio no Exchange?
+      - como controlar pessmissoes por estágio no Exchange?
+      - o que é gerencimanto de ciclo de vida no Exchange?
+      - oq é gerenciamento de ciclo de vida no Anypont Exchange?
+      - o que é gerenciamento de cicl0 de vida no Exchange?
+      - o que é gerenciamento de ciclio de vida no Exchange?
+      - o que é gerenciamento de ciclo de vid no Exchange?
+      - como promovo versoes de APi no AnyPoint Exchange?
+      - como promoço versões de API no Exchange?
+      - para que serve o status de producão no Exchange?
+      - como marc0 uma API como deprecaded?
+      - onde configuro fases de desenvlvimento no Exchange?
+      - onde configuro fases de desenvolvimneto no Exchange?
+      - como faço aprovacao de nova versao de APi?
+      - como faco aprovação de nova versao de API no Exchnge?
+      - o que signfica estágio beta no AnyPoint Exchange?
+      - como faco rollback de version no Exchange?
+      - o que é gerencimamento de ciclo de vida no Exchange?
+      - oq é gerenciamiento de ciclo de vida no Exchange?
+      - o que é gerencimanto de ciclio de vida no Exchnge?
+      - o que é gerencimaneto de ciclo de vida no Anypont Exchange?
+      - como promovo versões de APi no Anypont Exchange?
+      - para que serve status de produção no Exhange?
+      - como marco uam API como deprecated?
+      - what is lifecycle management in Anypoint Exchange?
+      - how do I promote API versions in Exchange?
+      - what is the purpose of production status in Exchange?
+      - how do I mark an API as deprecated?
+      - where do I configure development phases in Exchange?
+      - how do I approve a new API version?
+      - what does beta stage mean in Exchange?
+      - how do I roll back a version in Exchange?
+      - how do I set API governance policies?
+      - where can I view version history in Exchange?
+      - how do I automate API promotion?
+      - what are the default lifecycle stages?
+      - how do I retire an API in Exchange?
+      - why use environment tags for lifecycle?
+      - how to manage permissions per stage?
+      - what is lifecyle management in Anypoint Exchange?
+      - what is life cycle managment in Exchange?
+      - whats lifecycle management in Anypoint Exchnge?
+      - what is lifecycle management on Anypoint Exchange?
+      - what is lifecycel management in AnyPoint Exchange?
+      - what is lifecycle manage in Anypoint Exchange?
+      - what is lifecycle mangement in Anypoint Exchange?
+      - what is life cycle mangement in Anypoint Exchange?
+      - what is life cycle management in Anypont Exchange?
+      - what is lifecyle management in AnyPoint Exhange?
+      - how do I promote API versios in Exchange?
+      - how do I promote API version in Exhange?
+      - how to promote API versions in Exchange?
+      - how do I proomote API versions in Anypoint Exchange?
+      - how I promote API versions in Exchange?
+      - how do I promote API versions at Exchange?
+      - how to promote API version in AnyPoint Exchange?
+      - how do I promote API verssions in Exchange?
+      - how do I promote API versions in Exchage?
+      - how do I promote API versiosn in Exchange?
+      - what is purpose of production status in Exchange?
+      - what is the purpose of prodution status in Exchange?
+      - what the purpose of production status in Exchange?
+      - why production status matter in Anypoint Exchange?
+      - what is purpose of production status on Exchange?
+      - what is the purpose of production stat in Exchange?
+      - what does production status do in Exhange?
+      - what's purpose of production status in Exchange?
+      - what is the purpse of production status in Exchange?
+      - what is the purpose of prodution status in AnyPoint Exchange?
+      - how do I mark an API as deprcated?
+      - how do I mark an API as deprecated in Exchange?
+      - how to mark an API deprecated?
+      - how do I mark API as deprecated?
+      - how do I mark a API as deprecated in Exchange?
+      - how do I mark an API as deprecared?
+      - how do I mark an API as depritecated?
+      - how do I mark an API as deprected?
+      - how to mark an API as depricated?
+      - how do I mark API deprecated in Exchange?
+      - where do I configure developent phases in Exchange?
+      - where do I configure development phases on Exchange?
+      - where to configure development phases in Anypoint Exchange?
+      - where can I configure dev phases in Exchange?
+      - where do I set development stages in Exchange?
+      - where do I configure devleopment phases in Exchange?
+      - where do I configure development phaes in Exchange?
+      - where do I configure developement phases in AnyPoint Exchange?
+      - where do I configure development phases in Exchnge?
+      - where do I configure development fasees in Exchange?
+      - how do I approve a new API versin?
+      - how to approve a new API version?
+      - how do I approve new API version in Exchange?
+      - how do I appove a new API version?
+      - how do I approve a new API version on Exchange?
+      - how do I approve new API versions in AnyPoint Exchange?
+      - how to approve a new API verssion?
+      - how do I approve a new API versoin?
+      - how do I approve a new API versioon?
+      - how do I approve a new API verion?
+      - what does beta stage meen in Exchange?
+      - what does beta stage mean in Exhange?
+      - what does beta stage mean on Exchange?
+      - what does beta stage mean in AnyPoint Exchange?
+      - what does beta stage mena in Exchange?
+      - what does beta stage mean in Anypont Exchange?
+      - what does beta step mean in Exchange?
+      - whats beta stage mean in Exchange?
+      - what does beta stage mean in Anypoint Exchane?
+      - what doe beta stage mean in Exchange?
+      - how do I roll back a version in Exchnge?
+      - how to roll back a version in Exchange?
+      - how do I roll back version in Anypoint Exchange?
+      - how do I roll back API version?
+      - how do I rollback a version in Exchange?
+      - how do I roll back a versoin in Exchange?
+      - how do I roll back a verssion in Exchage?
+      - how do I roll back version in AnyPoint Exchange?
+      - how do I roll back a version on Exchange?
+      - how do I roll back a version in Anypont Exchange?
+      - how do I set API governance policis?
+      - how do I set API governance policies in Exchange?
+      - how to set API governance policies?
+      - how do I set API gov policies?
+      - how do I set API goverance policies?
+      - how do I set API governance policys?
+      - how do I set API governance policies on Exchange?
+      - how to set API governance policies in AnyPoint Exchange?
+      - how do I set API governance policies in Exchnge?
+      - how do I set API governance poicies?
+      - where can I view version history in Exchnge?
+      - where to view version history in Anypoint Exchange?
+      - where can I see version history in Exchange?
+      - where can I view versions history?
+      - where can I view version history on Exchange?
+      - where can I view version hstory in Exchange?
+      - where can I view version history in AnyPoint Exchange?
+      - where can I view version history for APIs?
+      - where can I view version history in Anypont Exchange?
+      - how do I automate API prommtion?
+      - how to automate API promotion?
+      - how do I automate API promotion in Exchange?
+      - how do I automate API prmootion?
+      - how to automate API promotions in Anypoint Exchange?
+      - how do I automate API promotion on Exchange?
+      - how do I automate API promotiion?
+      - how do I automate API promotion in Exchnge?
+      - how do I automate API promtotion?
+      - how do I automate API promition?
+      - what are default lifecycle stges?
+      - what are default lifecycle stages?
+      - what are default lifecycle stages in Exchange?
+      - what are default life cycle stages?
+      - what are default lifecycle stages on Exchange?
+      - what are default lifecycle stags?
+      - what are default lifecycle stges in AnyPoint Exchange?
+      - what are default lifecycle stages in Anypont Exchange?
+      - what are the default lifecycle stges?
+      - how do I retire an API in Exchnge?
+      - how to retire an API in Exchange?
+      - how do I retire API in Anypoint Exchange?
+      - how do I retire an API on Exchange?
+      - how do I retire an API in AnyPoint Exchange?
+      - how do I retire an API in Exhange?
+      - how do I retire an API in Anypont Exchange?
+      - how do I retire a API in Exchange?
+      - how do I retire an API?
+      - how do I retire an API in Anypoint Exchane?
+      - why use environment tags for lifecyle?
+      - why use env tags for lifecycle in Exchange?
+      - why use environment tags for lifecycle in AnyPoint Exchange?
+      - why use environment tags for lifecycle on Exchange?
+      - why use environment tags for life cycle?
+      - why use environment tags for lifecycle in Exchnge?
+      - why use environment tags for lifecyce?
+      - why use environment tags for lifecyle in Anypont Exchange?
+      - why use environment tags for lifecycle stages?
+      - how to manage permissions per stege?
+      - how do I manage permissions per stage in Exchange?
+      - how to manage permissions per stage in AnyPoint Exchange?
+      - how to manage permissions per stage on Exchange?
+      - how to manage permissions per stag in Exchange?
+      - how to manage permissions per stage in Exchnge?
+      - how to manage permisions per stage?
+      - how to manage permissions per stge?
+      - how to manage permissions per stage in Anypont Exchange?
+      - how to manage permissions per stage for APIs?
+      - what is lifecyle managment in Anypoint Exchnge?
+      - what is lifecycle managment in AnyPoint Exchange?
+      - what is lifecyle management on AnyPoint Exchange?
+      - what is lifecycle management at Anypoint Exchange?
+      - what is lifecyle mangement in Anypoint Exchange?
+      - what is lifecycle manageent in Anypoint Exchage?
+      - what is lifecycle management in Anypoint Exchane?
+      - what is life cycle management in Anypoin Exchange?
+      - what is lifecycle management in Anypoint Exchage?
+      - how do I promte API versions in Exchange?
+      - how do I promte API verions in Exchange?
+      - how do I promote APIs version in Exchange?
+      - how to promote API versions at Exchange?
+      - how do I promote API versioons in Exchange?
+      - how do I promote APi versions in Exchange?
+      - how do I promote API versionns in AnyPoint Exchange?
+      - how do I promote API version in Anypoin Exchange?
+      - how do I promote API versions on Exchnge?
+      - how do I promoto API version in Exchange?
+      - what is purpose of producton status in Exchange?
+      - what is the purpose of producion status in Exchange?
+      - what does production status means in Exchange?
+      - what's purpose of production stat in Exchange?
+      - why production status important in Exchnge?
+      - why use production status on Exchange?
+      - why production status mattter in Exchange?
+      - what is purspose of production status in AnyPoint Exchange?
+      - what is the purpose of production stat in Anypont Exchange?
+      - how do I mark API as deprecatted?
+      - how do I make an API deprecated in Exchange?
+      - how do I mark API deprcated?
+      - how do I mark API as depreacted?
+      - how do I mark API as deprcated in AnyPoint Exchange?
+      - how to mark API as deprecated at Exchange?
+      - how do I mark a APi as deprecated?
+      - how do I mark the API as depricated?
+      - how to mark API depricated in Exchange?
+      - where do configure development phases in Exchange?

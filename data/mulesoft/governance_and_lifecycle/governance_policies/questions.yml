@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: governance_policies
+    examples: |
+      - o que são políticas de governança em APIs?
+      - o que são politicas de governanca em APIs?
+      - o que significa conformidade em políticas de API?
+      - para que servem as políticas de SLA?
+      - como definir SLA em uma API?
+      - o que é tempo de resposta mínimo em SLA?
+      - como medir conformidade de contrato?
+      - o que significa RPO e RTO?
+      - como aplico policy de segurança e conformidade?
+      - o que contempla uma política de quota?
+      - como definir limites de taxa (rate limiting)?
+      - qual a função do SLA em APIs?
+      - o que é garantia de disponibilidade?
+      - como monitorar SLA em Anypoint?
+      - quais métricas de conformidade usar?
+      - por que precisamos de políticas de governança?
+      - como aplico políticas de compliance?
+      - o que é política de versionamento obrigatório?
+      - como definir política de transformação de dados?
+      - o que é política de retry/back-off?
+      - como assegurar políticas de criptografia?
+      - o que significa “circuit breaker”?
+      - como impor contratos de SLA?
+      - o que é SLA de throughput?
+      - como configurar política de timeout?
+      - para que serve política de autorização?
+      - como faço auditoria de compliance?
+      - o que é “audit trail” em APIs?
+      - como criar política de expiração de sessão?
+      - por que impor limites de payload?
+      - o que é polis de governanca em APIs?
+      - o que sao politic as de governanca em APIs?
+      - o que são politicas de govenranca em APIs?
+      - o que signific conformidade em politicas de API?
+      - o que singnifica conformidade em politicas de API?
+      - o que siginifica conspiridade em politicas de API?
+      - para que serve politicas de SLA?
+      - para que serve politica de SLA?
+      - para que serve o SLA em APIs?
+      - como defino SLA numa APi?
+      - como definr SLA em API?
+      - como defino SLa em API?
+      - o que é tempo de responsta minimo em SLA?
+      - o que é tempo minmo de resposta em SLA?
+      - qual o tempo de responta minimo no SLA?
+      - como medir conformidade de contarto?
+      - como medir conforidade de contrato?
+      - o que significa RTO e RPO?
+      - o que signfica RPO e RTO?
+      - o que é RPO e RPT?
+      - como aplico policy de compliance?
+      - como aplico politicas de complance?
+      - como aplico policie de compliance?
+      - o que contem quotas policy?
+      - o que contem quota politic?
+      - o que contem politicas de quota?
+      - como definir limtes de taxa?
+      - como definir rate limitting?
+      - como definir ratelimiting?
+      - qual a funcao do SLA em API?
+      - qual a funçao do SLA em APIs?
+      - o que é garantia de disponiblidade?
+      - o que é garantia de disponbilidade?
+      - como monitorar SLA no AnyPoint?
+      - como monitro SLA no Anypoint?
+      - como moniotr SLA no Anypoint?
+      - quais metricas de conformidade usar?
+      - quais metricas de confomidade usar?
+      - quais mettricas de conformidade usar?
+      - porque precisamos de govrnanca em APIs?
+      - por que precisaos de politicas?
+      - por que precisamos de governanca?
+      - como aplicar politicas de compliance?
+      - como aplicar politicas de compiance?
+      - como aplicar policias de compliance?
+      - o que é politca de versionamento obrigatorio?
+      - o que é politca de versionamento obrigtorio?
+      - o que é versionamento obrgatorio?
+      - como definir politicas de transformacao?
+      - como definir politicas de transfomacao?
+      - como definir policias de transformaçao?
+      - o que é politico de retry/backoff?
+      - o que é politca de retry/back-off?
+      - o que é policia de retry/backoff?
+      - como garantir policias de criptografia?
+      - como guarntir politicas de criptografia?
+      - como garntir politicas de criptografia?
+      - o que signfica circuit braker?
+      - o que é circuit breaker?
+      - o que é circuit breker?
+      - como impor contractos de SLA?
+      - como impor contratos de SlA?
+      - o que é SLA de througput?
+      - o que é throughput SLA?
+      - como configurar politica de timeout?
+      - como configurar politica de timout?
+      - como configuar politica de timeout?
+      - para que serve politca de autorizacao?
+      - para q serve politic de autorizao?
+      - como faço audit de compliance?
+      - como faco autdit de compliance?
+      - como fzo auditrias de compliance?
+      - o que é audit trail em APIs?
+      - o que é aduit trail em APIs?
+      - o que é auidt trail em APIs?
+      - como criar politica de expiracao de sessao?
+      - como criar politca de expiraco de sessao?
+      - por que impor limtes de payload?
+      - por que impor limtes de paylod?
+      - como implementar politicas de governanca?
+      - como implementar policias de govrnanca?
+      - como implantar politicas de governanca?
+      - o que abrange politicas de governance?
+      - o que abrange politicas de governaça?
+      - o que inclui politicas de governaça?
+      - como auditar politicas de SLA?
+      - como auditar policias de SLA?
+      - como auditar politicas de SlA?
+      - o que é policy enforcement?
+      - o que é enforcement de politicas?
+      - o que é enforcement de polcia?
+      - como aplicar polici enforcement?
+      - como aplicar policy enforce?
+      - por que definir politicas de SLA?
+      - por que defnir politicas de SLA?
+      - por que definir policias de SLA?
+      - como atualizar politicas de SLA?
+      - como atualzar politicas de SLA?
+      - como atualzar politicas de SlA?
+      - como medir compliace via politicas?
+      - como medir compliance via policias?
+      - como mensurar compliance via politicas?
+      - o que são thresholds em politicas?
+      - oque são threholds em politicas?
+      - o que signifca thresholds em politicas?
+      - como defino thresholds em SLA?
+      - como setar threholds em SLA?
+      - oq são politicas de governanca em APIs?
+      - o que sae politicas de governança em APIs?
+      - o que siginifica conformidade em politicas de API?
+      - para que serve as políticas de SLA?
+      - pra que servem as políticas de SLA?
+      - como defino SLA numa API?
+      - como definir SLA numa API?
+      - como definr SLA em uma API?
+      - o que é tempo minimo de resposta em SLA?
+      - o que é temp de resposta minimo em SLA?
+      - qual o tempo de resposta minimo no SLA?
+      - como meder conformidade de contrato?
+      - oq significa RPO e RTO?
+      - o que siognifica RPO e RTO?
+      - como aplico policie de segurança e conformidade?
+      - como aplico policy de seguranÇa e compliance?
+      - como aplicar politicas de seguranÇa?
+      - o que contem política de quota?
+      - o que contêm uma politca de quota?
+      - como definir limites de taxa?
+      - como definir limtes de rate limiting?
+      - como defenir rate limiting?
+      - qual função do SLA em apis?
+      - o que e garantia de disponiblidade?
+      - como monitrr SLA no Anypoint?
+      - como monitor SLA no Anypoint?
+      - quais metricas de compliance usar?
+      - quais metrices de conformidade usar?
+      - por q precisamos de politicas de governanca?
+      - por que precismos de políticas de governanca?
+      - como aplico politicas de compliance?
+      - o que è politica de versionamento obrigatorio?
+      - o que é política de versionamento obrigátorio?
+      - o que significa versionamento obrigatório?
+      - como definir política de transfoemação de dados?
+      - como defino politique de transformação?
+      - como definir politca de transformação de dados?
+      - o que é policia de retry/back-off?
+      - o que é poĺıtica de retry/backoff?
+      - como assegurar politicas de criptografia?
+      - como asegura politicas de cripto?
+      - como garantir politicas de criptografia?
+      - o que significa circuit breaker?
+      - o que signfica circuit breaker?
+      - o que é “circuit breake”?
+      - como impor contratos de slA?
+      - como impedir contratos de SLA?
+      - o que é SLA de throughtput?
+      - o que significa throughput SLA?
+      - como configurar politíca de timeout?
+      - como configuro política de timout?
+      - para que serve politica de autorizacao?
+      - para que serve polit́ıca de autorização?
+      - como faço audotoria de compliance?
+      - como fzo auditoria de compliance?
+      - o que é “aduit trail” em APIs?
+      - o que significa “audit trael”?
+      - como criar poĺıtica de expiracao de sessão?
+      - como criar politíca de expiração de sessao?
+      - por que impor limitess de payload?
+      - por que impor limit de payload?
+      - como implemetar policias de governanca?
+      - como implementar políticas de govrnanca?
+      - what are API governance policies?
+      - what are API governence policies?
+      - what are API govrnance policies?
+      - what are governance policiees in APIs?
+      - what are governance policys in APIs?
+      - what are governence policies in APIs?
+      - what does compliance mean in API policies?
+      - what does complience mean in API policies?
+      - what does compliance mean in API policys?
+      - what does compliance meen in API policies?
+      - what are SLA policies used for?
+      - what are SLA polisies used for?
+      - what are SLA policys used for?
+      - what are SLA policies used4?
+      - how do I define SLA for an API?
+      - how do I defne SLA for an API?
+      - how do I define SLa for an API?
+      - how do I define SLA for API?
+      - how do I define SLA 4 an API?
+      - what is minimum response time in SLA?
+      - what is minumum response time in SLA?
+      - what is minimun response time in SLA?
+      - what is minimum responce time in SLA?
+      - what is minimum response time in SL?
+      - how to measure contract compliance?
+      - how to measur contract compliance?
+      - how to measure contraact compliance?
+      - how to measure contract complianc?
+      - how to measure contract complience?
+      - what do RPO and RTO stand for?
+      - what do RPO and RPT stand for?
+      - what do RPO and RTO stan for?
+      - what do RPO and RTO stand4?
+      - what do RPO an RTO stand for?
+      - how do I apply security and compliance policy?
+      - how do I apply securty and compliance policy?
+      - how do I apply security and complience policy?
+      - how do I apply security and compliance polic?
+      - how do apply security and compliance policy?
+      - what does a quota policy include?
+      - what does a quota policie include?
+      - what does a quota policy inlude?
+      - what does quota policy include?
+      - what does a quota policy inclde?
+      - how to set rate limiting policies?
+      - how to set rate limiting policys?
+      - how to set rat limiting policies?
+      - how to set rate limitting policies?
+      - how to set rate limiting polis?
+      - what is the role of SLA in APIs?
+      - what is the role of SLA in API?
+      - what is the role of SL in APIs?
+      - what is the role of SLA in Apis?
+      - what is the role of SLA in APIS?
+      - what is availability guarantee?
+      - what is availablity guarantee?
+      - what is availability garantee?
+      - what is availability guarentee?
+      - what is availability guaranty?
+      - how to monitor SLAs in Anypoint?
+      - how to monitor SLAs in AnyPoint?
+      - how to mointor SLAs in Anypoint?
+      - how to monitor SLA in Anypoint?
+      - how to monitor SLAs in Anypoin Exchange?
+      - which compliance metrics to use?
+      - which complience metrics to use?
+      - which compliance metrix to use?
+      - which compliance metrics to ues?
+      - why do we need governance policies?
+      - why do we need governence policies?
+      - why do we need governance policys?
+      - why do we need govrnance policies?
+      - why need governance policies?
+      - how to enforce compliance policies?
+      - how to enforce complience policies?
+      - how to enforce compliance polis?
+      - how to enforc compliance policies?
+      - how to enforce compliace policies?
+      - what is enforced versioning policy?
+      - what is enforced versioning polic?
+      - what is enforced versioning polcy?
+      - what is enforce versioning policy?
+      - what is enforced versioning polcies?
+      - how to define data transformation policy?
+      - how to define data transformtion policy?
+      - how to define data transformation polic?
+      - how to define data transmformation policy?
+      - how to define data transformation polcy?
+      - what is retry/back-off policy?
+      - what is retry/backoff policy?
+      - what is retry back-off policy?
+      - what is retrie/back-off policy?
+      - what is retry/back-off polic?
+      - how to ensure encryption policies?
+      - how to ensure encryption policys?
+      - how to ensure encription policies?
+      - how to ensure encryption polcies?
+      - how ensure encryption policies?
+      - what does “circuit breaker” mean?
+      - what does “circuit breker” mean?
+      - what does circuit breaker mean?
+      - what does “circuit breaker” meen?
+      - what does “cicruit breaker” mean?
+      - how to enforce SLA contracts?
+      - how to enforce SLA contracs?
+      - how to enforce SLA contract?
+      - how to enforce SLA contrcts?
+      - how to enforce SLa contracts?
+      - what is throughput SLA?
+      - what is thrughput SLA?
+      - what is throughput SL?
+      - what is throughput SLa?
+      - what is throughtput SLA?
+      - how to configure timeout policy?
+      - how to configure timout policy?
+      - how to configure timeout polic?
+      - how to configure timeot policy?
+      - how to cnfigure timeout policy?
+      - why use authorization policy?
+      - why use authorizaton policy?
+      - why use authorization polic?
+      - why use authrization policy?
+      - why use authorization polcy?
+      - how to audit compliance?
+      - how to audit complience?
+      - how to audit compliancee?
+      - how to aduit compliance?
+      - how to audit compliace?
+      - what is an “audit trail” in APIs?
+      - what is an “aduit trail” in APIs?
+      - what is an “audit trael” in APIs?
+      - what is an “audit trail” in API?
+      - what is an audit trail in APIs?
+      - how to create session expiration policy?
+      - how to create session experation policy?
+      - how to create session expiration polic?
+      - how to create session expiretion policy?
+      - how to create session expiration polcy?
+      - why enforce payload size limits?
+      - why enforce payload size limts?
+      - why enforce payload size lmits?
+      - why enforce paylod size limits?
+      - why enfource payload size limits?
+      - what are API goverance policies?
+      - what are API governance policys?
+      - what are API governace policies?
+      - what are API governence policys?
+      - what does complianc mean in API policies?
+      - what does compliane mean in API policies?
+      - what does compliance mean in API policie?
+      - what does compliance mean in API policy?
+      - what are SLA policies used 4?
+      - what r SLA policies used for?
+      - what are SLA policiez used for?
+      - how do I defne SLA for API?
+      - how do I define SL4 for an API?
+      - how do I define SLA for An API?
+      - how do I define SLA for an ApI?
+      - what is minimum response tiem in SLA?
+      - what is minimum reposnse time in SLA?
+      - what is minimum response tim in SLA?
+      - how to mesure contract compliance?
+      - how measure contract compliance?
+      - what do RPO and RTO stnad for?
+      - what do RPO and RTO standfor?
+      - how do I apply securtiy and compliance policy?
+      - how do I apply security and compliance policie?
+      - how do I aplly security and compliance policy?
+      - what does a quato policy include?
+      - how to set rate limitng policies?
+      - what is the role of SLa in APIs?
+      - what is the rule of SLA in APIs?
+      - what is the role of SLA in ApI?
+      - what is availabilty guarantee?
+      - what is availability garuntee?
+      - how to monitor SLA in Anypoint Exch?
+      - how to montior SLAs in Anypoint?
+      - how to monitor SLAs in Anypoint Ex?
+      - which compliance metrics do we use?
+      - why must we have governance policies?
+      - why we need governance policies?
+      - how to enforece compliance policies?
+      - how to enforce compliance police?
+      - what is enforced versioning policie?
+      - what is enforced versioning policis?
+      - how to define data transform policy?
+      - how to define data transfermation policy?
+      - how to define data trasnformation policy?
+      - how to define data transformation policiy?
+      - what is retry backoff policy?
+      - what is retry/backup policy?
+      - what is retry/back-off policie?
+      - how to ensure encryption polices?
+      - how to ensure encryption polciies?
+      - how to ensure encryption policy?
+      - what does circuit breaker meam?
+      - what does cicruit breaker mean?
+      - what does circuit breker mean?
+      - what does circuit breaker meen?
+      - how to enforce SLA contrct?

@@ -9,6 +9,11 @@ intents:
   - facade_vs_orchestration
   - responsibility_boundaries
   - versioning_patterns
+  - api_catalog_and_discovery
+  - documentation_and_dev_portal
+  - governance_policies
+  - lifecycle_management_exchange
+  - oauth2_jwt
   - nlu_fallback
 actions:
   - action_fallback

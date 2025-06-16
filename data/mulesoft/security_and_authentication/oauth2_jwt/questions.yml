@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: oauth2_jwt
+    examples: |
+      - o que é OAuth2?
+      - para que serve OAuth2?
+      - como funciona o fluxo OAuth2?
+      - quais são os tipos de grant no OAuth2?
+      - o que é JWT?
+      - para que serve um token JWT?
+      - como validar um JWT no MuleSoft?
+      - como configurar OAuth2 no Anypoint?
+      - o que significa “access token” no OAuth2?
+      - como renovar um token OAuth2?
+      - o que é “refresh token”?
+      - qual a diferença entre bearer token e JWT?
+      - como extrair claims de um JWT?
+      - como proteger APIs com OAuth2?
+      - como implementar client credentials grant?
+      - o que é authorization code grant?
+      - para que serve o ID token no OpenID Connect?
+      - como integrar OAuth2 com múltiplos IdPs?
+      - como configurar policy de JWT validation?
+      - quais boas práticas para armazenar tokens?
+      - o que e OAuth2?
+      - oq é OAuth2?
+      - o que é Oauth2?
+      - o que é OAtuh2?
+      - oque é OAuth2?
+      - oq é Oauth2?
+      - o que é OAuth-2?
+      - o que è OAuth2?
+      - o que eh OAuth2?
+      - o que é Oauth 2?
+      - para q serve OAuth2?
+      - para que serve Oauth2?
+      - para que serve OAtuh2?
+      - para que serve OAuth-2?
+      - pra que serve OAuth2?
+      - para que esrve OAuth2?
+      - para que serve AOuth2?
+      - para que serve oAuth2?
+      - para que srve OAuth2?
+      - como funciona o fluxo Oauth2?
+      - como funciona o fluxo OAtuh2?
+      - como funciona o fluxo OAuth-2?
+      - como funciona o fluoxo OAuth2?
+      - como funcona o fluxo OAuth2?
+      - como funciona o fluxo de OAuth2?
+      - como funciona o floxo OAuth2?
+      - como funconia o fluxo OAuth2?
+      - como funciona o flores OAuth2?
+      - quais sao os tipos de grant no OAuth2?
+      - quais são os tipos de graant no OAuth2?
+      - quais são os tipos de grant no Oauth2?
+      - quais são os tipos de grant no OAtuh2?
+      - quais são os tipos de grant no OAuth-2?
+      - quais são os tipos de grante no OAuth2?
+      - quais sao os tipos de grant em OAuth2?
+      - quais são os tipoes de grant no OAuth2?
+      - quais são os tipos de grant no Auth2?
+      - oq é JWT?
+      - o que eh JWT?
+      - o que é JTW?
+      - oque é JWT?
+      - o que é jwt?
+      - o que è JWT?
+      - o que é JT2?
+      - para q serve um token JWT?
+      - para que serve um token jWT?
+      - para que serve um token JTW?
+      - para que serve o token JWT?
+      - para que serve token JWT?
+      - pra que serve um token JWT?
+      - para que serve um token JWT2?
+      - para que serve um token J TW?
+      - como validar um JWT no Mulesoft?
+      - como validar um JTW no MuleSoft?
+      - como validar um JWT no Mule Soft?
+      - como validar JWT no MuleSoft?
+      - como validar um jwT no MuleSoft?
+      - como validar um JWT no MuleSof?
+      - como validar um token JWT no MuleSoft?
+      - como validr um JWT no MuleSoft?
+      - como configurar OAuth2 no AnyPoint?
+      - como configuar OAuth2 no Anypoint?
+      - como configurar OAuth-2 no Anypoint?
+      - como configurar oAuth2 no Anypoint?
+      - como configurar OAuth2 no Anypoint Platorm?
+      - como configurar OAuth2 no Anypoint Platfrom?
+      - como configurr OAuth2 no Anypoint?
+      - como configurar OAuth2 no Anypont?
+      - como configur OAuth2 no Anypoint?
+      - o que significa access token no OAuth2?
+      - o que significa “acess token” no OAuth2?
+      - o que significa “access toke” no OAuth2?
+      - o que significa “acess token” no Oauth2?
+      - o que significa “access token” no OAuth-2?
+      - o que signfica “access token” no OAuth2?
+      - o que signica “access token” no OAuth2?
+      - o que significa “access token” no Aut2?
+      - como renovar o token OAuth2?
+      - como renova um token OAuth2?
+      - como renovar um tokem OAuth2?
+      - como renovar um token Oauth2?
+      - como renovar um token OAuth-2?
+      - como renvar um token OAuth2?
+      - como renova token OAuth2?
+      - como renovar um toke OAuth2?
+      - como renovr um token OAuth2?
+      - o que e refresh token?
+      - oq é “refresh token”?
+      - o que eh “refresh token”?
+      - o que significa “refresh token”?
+      - o que significa rrefresh token?
+      - o que significa “refresh toke”?
+      - o que é “refres token”?
+      - o que é “refresh-token”?
+      - o que é “refresh tken”?
+      - qual a difereça entre bearer token e JWT?
+      - qual a diferença entre bearer toke e JWT?
+      - qual a diferença entre bearer token e JTW?
+      - qual a diferença entre bearer token e jwt?
+      - qual a dif entre bearer token e JWT?
+      - qual diferenca bearer token e JWT?
+      - qual a diferença bearer token vs JWT?
+      - qual a diferença entre bearer token x JWT?
+      - qual a diferenca entre bearer token e JWT?
+      - como extrair claims de um jWT?
+      - como extrair clains de um JWT?
+      - como extair claims de um JWT?
+      - como extrair clams de um JWT?
+      - como extrar claims de um JWT?
+      - como extrar claims do JWT?
+      - como extrair claims via JWT?
+      - como extrair cliams de um JWT?
+      - como extrair claims de um JTW?
+      - como proteger APIS com OAuth2?
+      - como proteger APIs com Oauth2?
+      - como proteger APIs com OAuth-2?
+      - como protger APIs com OAuth2?
+      - como proteger APIs via OAuth2?
+      - como proteger APIs usando OAuth2?
+      - como proteger API com OAuth2?
+      - como protger APIs c OAuth2?
+      - como proteger APis com OAuth2?
+      - como implementar client credentias grant?
+      - como implementar client credentials grand?
+      - como implementar client credencials grant?
+      - como implemntar client credentials grant?
+      - como implementar client credentials grant no MuleSoft?
+      - como implementar client credentails grant?
+      - quais os tipos de grant OAuth2?
+      - quais são os tipos de grant em OAuth2?
+      - para que serve JWT?
+      - como validar JWT no Mule Soft?
+      - como configurar OAtuh2 no Anypoint?
+      - o que significa access token?
+      - o que signfica access token?
+      - o que significa “access toke”?
+      - o que significa “acess token”?
+      - como renovar token OAuth2?
+      - o que é refresh token?
+      - oq é refresh token?
+      - o que eh refresh token?
+      - qual a diferença bearer e JWT?
+      - qual dif entre bearer token e JWT?
+      - como extrair claims JWT?
+      - como proteger APIS c OAuth2?
+      - o que é authorization code?
+      - o que eh authorization code grant?
+      - como uso refresh token?
+      - para que serve refresh token?
+      - como extrio claims JWT?
+      - como obtenho claims JWT?
+      - como configuro JWT validation?
+      - como aplicar política JWT?
+      - quais boas práticas tokens?
+      - quais melhores práticas token?
+      - por que usar OAuth2?
+      - pq usar OAuth2?
+      - por que usar Oauth2?
+      - como funciona grant type?
+      - como funciona o grant type?
+      - o que sao grant types?
+      - oq sao grant types?
+      - para que serve grant type?
+      - o que significa “scope” no OAuth2?
+      - o que é scope no OAuth2?
+      - como defino scopes no OAuth2?
+      - como defino scopes em JWT?
+      - o que são scopes?
+      - oq são scopes?
+      - como armazenar tokens?
+      - como guardar tokens?
+      - como salvar token JWT?
+      - como salvo JWT?
+      - qual diferença JWT x OAuth?
+      - qual diff JWT vs OAuth?
+      - como renovo JWT?
+      - como renovar JWT?
+      - quando expira token?
+      - quando expira JWT?
+      - como lidar com expiração de token?
+      - what is OAuth2?
+      - what is Oauth2?
+      - what is OAth2?
+      - what is OAut2?
+      - what is Oauth 2?
+      - what is OAuth 2?
+      - what is the Oauth2 protocol?
+      - what is the purpse of OAuth2?
+      - what is the porpose of OAuth2?
+      - what is the purpose of Oauth2?
+      - what is the purpose of OAuth 2?
+      - what is the purpose of OAut2?
+      - how does OAuth2 flow work?
+      - how does the OAuth2 flo work?
+      - how does the OAuth flow work?
+      - how does Oauth2 flow wurk?
+      - how does the Oauth2 flow work?
+      - how does the OAuth2 flow wrk?
+      - how does the O Aut2 flow work?
+      - how does the OAuth2 protocol work?
+      - what are the grant types in OAuth2?
+      - what are the grant typs in OAuth2?
+      - what are the grant typps in Oauth2?
+      - what are the grant types in OAut2?
+      - what are grant types in OAuth2?
+      - what ar the grant types in OAuth2?
+      - what grant types does OAuth2 have?
+      - what grants types in OAuth2?
+      - what are the grant types for OAuth2?
+      - what is JWT?
+      - what is J TW?
+      - what is JT?
+      - what is JTW?
+      - what is the JWT token?
+      - what is jwt?
+      - what is the purpose of JWT?
+      - what is the purpose of JTW?
+      - what is the porpose of JWT?
+      - what is the purpose of JWT tokens?
+      - how to validate a JWT in MuleSoft?
+      - how to validate JWT in Mulesoft?
+      - how to validate a JTW in MuleSoft?
+      - how to validate a JWT in Mule Soft?
+      - how do I validate JWT in MuleSoft?
+      - how to validate jwt in MuleSoft?
+      - how do I valdiate a JWT?
+      - how to valdate a JWT in MuleSoft?
+      - how to configure OAuth2 in Anypoint?
+      - how to configure Oauth2 in Anypoint?
+      - how to config OAuth2 in AnyPoint?
+      - how to configure OAuth 2 in Anypoint?
+      - how to set up OAuth2 in Anypoint?
+      - how do I configure OAuth2 in Anypoint?
+      - how to config OAut2 in Anypoint?
+      - what does “access token” mean in OAuth2?
+      - what does access token meen in OAuth2?
+      - what does “access tokn” mena in OAuth2?
+      - what does access token mean for OAuth2?
+      - what is “access token” in Oauth2?
+      - what does “access token” m ean in OAuth2?
+      - what does “acess token” mean?
+      - how to refresh an OAuth2 token?
+      - how to refresh OAuth2 token?
+      - how to renwesh an OAuth2 token?
+      - how to refesh an OAuth2 token?
+      - how to refresh a Oauth2 token?
+      - how do I refresh an OAuth2 token?
+      - how to refresh token in OAuth2?
+      - what is a “refresh token”?
+      - what is the “refresh tokn”?
+      - what is a refresh tken?
+      - what does “refresh token” mean?
+      - what is the purpose of a refresh token?
+      - what is “refresh token” in OAuth2?
+      - what is the function of refresh token?
+      - what is the difference between bearer token and JWT?
+      - what is the diference between bearer token and JWT?
+      - what is the difference between bearer tokn and JWT?
+      - what is the dif between bearer token and JWT?
+      - what is the diff between bearer token and JTW?
+      - bearer token vs JWT – what’s the difference?
+      - how to extract claims from a JWT?
+      - how to extract claims from jwt?
+      - how to extract cliams from a JWT?
+      - how to extact claims from a JTW?
+      - how to extract clams from JWT?
+      - how to extract claims fom a JWT?
+      - how do I extract claims from JWT?
+      - how to secure APIs with OAuth2?
+      - how to secure APIS with OAuth2?
+      - how to secure APIs using Oauth2?
+      - how to secure APIs with OAuth 2?
+      - how to protect APIs via OAuth2?
+      - how do I secure APIs with OAuth2?
+      - how to protect APIs with OAut2?
+      - how to implement the client credentials grant?
+      - how to implement client credntials grant?
+      - how to implement client credentals grant?
+      - how to implement client credentials grand?
+      - how to implement client credentials grant in MuleSoft?
+      - how to implement client credentials grant?
+      - how to configure client credentials grant?
+      - what is the authorization code grant?
+      - what is authorization code grant?
+      - what is the authorisation code grant?
+      - what is the auth code grant?
+      - what is the authrization code grant?
+      - how to use authorization code grant?
+      - what is an ID token in OpenID Connect?
+      - what is an ID tokn in OpenID Connect?
+      - what is ID token in OpenID?
+      - what is id token in OpenID Connect?
+      - what is an ID token in OIDC?
+      - how to integrate OAuth2 with multiple IdPs?
+      - how to integrate Oauth2 with multiple IdPs?
+      - how to integrate OAuth2 with mutiple IdPs?
+      - how to integrate OAuth2 with multiple identity providers?
+      - how to integrate OAuth2 with multi IdPs?
+      - how do I integrate OAuth2 with multiple IdPs?
+      - how to configure a JWT validation policy?
+      - how to configure JWT validation policy?
+      - how to configure a JTW validation policy?
+      - how to set up JWT validation policy?
+      - how to add JWT validation policy?
+      - how to enable JWT validation policy?
+      - what are best practices for token storage?
+      - what are best practises for token storage?
+      - what are best practices for token storge?
+      - what are best practices for storing tokens?
+      - what are best practices for token managment?
+      - best practices for storing JWT tokens?
+      - what is the purpose of OAuth2?
+      - how does the OAuth2 flow work?
+      - what is a JWT token used for?
+      - what is the difference between a bearer token and JWT?
+      - what iz OAuth2?
+      - what is the purpos of OAuth2?
+      - how dose OAuth2 flow work?
+      - how does OAuth2 flo work?
+      - how does OAuth2 flow wrok?
+      - how do I use OAuth2?
+      - what are the grant types in Oauth2?
+      - what are grant typs in OAuth2?
+      - what iz JWT?
+      - what is a JWT tokne used for?
+      - how to validate JWT in MuleSoft?
+      - how to validate JWT in Mule Soft?
+      - how to config OAuth2 in Anypoint?
+      - how to config OAuht2 in Anypoint?
+      - what does access token mean?
+      - what does “access tokn” mean?
+      - what does acess token mean?
+      - how to refesh OAuth2 token?
+      - how to renwews OAuth2 token?
+      - what is refresh token?
+      - what iz refresh token?
+      - why use OAuth2?
+      - why use Oauth2?
+      - why choose OAuth2?
+      - how to implement client crdentials grant?
+      - what is auth code grant?
+      - what is autorization code grant?
+      - what is ID token?
+      - what is an ID tokn?
+      - what is the ID token in OIDC?
+      - how to integrate OAuth2 with multiple IdPS?
+      - how to config JWT validation policy?
+      - how to add JWT validation poliy?
+      - what are best pratices for token storage?
+      - what is bearer token?
+      - what is a bearer tokne?
+      - how to use bearer token?
+      - how to protect APIs with OAuth2?
+      - how to secure APIs via OAuth2?
+      - how to secuere APIs with OAuth2?
+      - how to exract claims from JWT?
+      - how to extract claims fom a JTW?
+      - what is scopes in OAuth2?
+      - what are scopes in OAuth2?
+      - how to define scopes?
+      - how to defin scopes in OAuth2?
+      - how to defne scopes in JWT?
+      - what is refresh-token?
+      - what does “refresh-token” mean?
+      - how to exchange refresh token?
+      - how to exchange a refresh tokn?
+      - what is Token revocation?
+      - what is token revocaton?
+      - how to revoke a token?
+      - how to revoe token?
+      - what is token introspection?
+      - what is token introspectin?
+      - how to introspect a JWT?
+      - how to introspt a JWT?
+      - what is token endpoint?
+      - what is token endpont?
+      - how to call token endpoint?
+      - how to cal token endpoint?
+      - what is client credentials flow?
+      - what is client credentials flo?

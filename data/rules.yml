@@ -33,6 +33,26 @@ rules:
     steps:
       - intent: versioning_patterns
       - action: utter_versioning_patterns
+  - rule: rule_api_catalog_and_discovery
+    steps:
+      - intent: api_catalog_and_discovery
+      - action: utter_api_catalog_and_discovery
+  - rule: rule_documentation_and_dev_portal
+    steps:
+      - intent: documentation_and_dev_portal
+      - action: utter_documentation_and_dev_portal
+  - rule: rule_governance_policies
+    steps:
+      - intent: governance_policies
+      - action: utter_governance_policies
+  - rule: rule_lifecycle_management_exchange
+    steps:
+      - intent: lifecycle_management_exchange
+      - action: utter_lifecycle_management_exchange
+  - rule: rule_oauth2_jwt
+    steps:
+      - intent: oauth2_jwt
+      - action: utter_oauth2_jwt
   - rule: rule_nlu_fallback
     steps:
       - intent: nlu_fallback

@@ -4762,3 +4762,2662 @@ Versioning patterns include semantic versioning (major dot minor dot patch), URI
   Facade é uma camada de abstração que unifica múltiplos serviços ou APIs atrás de uma única interface simples, enquanto Orquestração coordena fluxos e regras de negócio entre serviços de forma centralizada.
 #vr_en: |
   Facade is an abstraction layer that hides multiple services or APIs behind a simple unified interface, whereas orchestration coordinates flows and business rules across services in a centralized manner.
+---
+#intent: mulesoft/governance_and_lifecycle/api_catalog_and_discovery
+#pt:
+- oq é catáologo de APIs?
+- oq é catalógo de APIs?
+- o que é catáologo de APIs?
+- o que é catalógo de APIs?
+- o que é catálago de APIs?
+- oq é catálago de APIS?
+- o que é catálago de APIs?
+- o que é catálgo de APIs?
+- o que é catálago de APIS?
+- o que é catálago de API?
+- cumo funcioa catálogo de APIs?
+- como foi catálogo de APIs?
+- onde acho catálogo de APIs?
+- onde acho catalógo de APIS?
+- onde acho catálago de APIs?
+- onde eu acho catálogo de APIs?
+- onde eu acncia catálogo de APIs?
+- onde encontro catalogu de APIs?
+- onde encontro catálogo de API?
+- onde encontro catáologo de APIs?
+- onde encontro catálago de APIs?
+- onde encontro catágolo de APIs?
+- para q serv catalogo de APIs?
+- para q serve catalógo de APIs?
+- para q serve catálago de APIs?
+- para que serve catálago de APIs?
+- pra que serve catalógo de APIs?
+- pra que serve catáologo de APIs?
+- pra que serve catágolo de APIs?
+- para que é catálogo de APIs?
+- para que serve catalógo de APIS?
+- qual importânica do catálogo?
+- qual importáncia do catalogo?
+- qual importéncia do catalógo?
+- qual a importéncia do catálogo?
+- qual a importancia do catálago?
+- qual a importãncia do catálogo?
+- qual a importânncia do catálogo?
+- qual a importáncia do catálago?
+- qual a importância do catalogo?
+- como catalago ajuda ciclo de vida?
+- como catalógo ajuda ciclo de vida?
+- como catálago ajuda ciclo de vida?
+- como catálogo ajdua ciclo de vida?
+- como catálogo ajuda cicli vida?
+- como catálogo ajdua ciclo de viida?
+- como catálogo ajuda ciclo de vda?
+- como catálogo ajuda ciclo de vid?
+- o que signfica descoberta de API?
+- o que signfica descoverta de APIS?
+- o que significa descoverta de APIs?
+- o que significa descoberTA de APIs?
+- o que signifca descoberta de APIS?
+- o que signific descoberta de APIs?
+- o que segifica descoberta de APIs?
+- como automatar descoberta de APIs?
+- como automatizar descoberTA de APIs?
+- como automitizar descoberta de APIs?
+- cumo automatizar descoverta de APIs?
+- como automatar descoverta de APIS?
+- quais benfícios do catálogo?
+- quais benificios do catálago?
+- quais benefícios do catálogo?
+- quais benefícios do catalógo?
+- quais benefícios do catálago?
+- quais benfícios do catalógo?
+- como Anypoint Exchnage facilita?
+- como AnyPoint Exchange facilita?
+- cumo Anypoint Exchange facilita?
+- como Anypoint Exchange facilita?
+- como Anypont Exchange facilita?
+- como Anypoint Exchannge facilita?
+- como Anypoint Exchange facillita?
+- como organizo catalogo APIs?
+- como organizo catálago de APIs?
+- como organizo catalógo de APIs?
+- cumo organizo catálogo de APIs?
+- como organizo catálogo de APIS?
+- para que serve publicar no catalogo?
+- para que serve publicção no catalógo?
+- para que serve publicação no catálago?
+- para que serve publicção no catálogo?
+- como busco catáologo de APIs?
+- como busco catáogo de APIS?
+- como busco catálago de APIs?
+- cumo busco catálogo de APIs?
+- como busco catalogo de API?
+- o que eh aprovisionamenTo de API?
+- o que é aprovisionament de APIS?
+- o que é aprovisionamento de API?
+- oq é aprovisionamento de API?
+- como funcioa aprovisionamento?
+- como aprovisionar no catálogo?
+- cumo aprovisionar de API?
+- como aprovisionar API no catálago?
+- quais passos para aprovisionamento?
+- quais etaps de aprovisionamento?
+- quais pásos aprovisionamento de API?
+- quais fases de aprovisionamento?
+- o que inclui aprovisionamento?
+- o que envolve aprovisionamento?
+- o que compoe aprovisionamento?
+- o que é catálogo de APIs?
+- como funciona o catálogo de APIs no Anypoint?
+- para que serve a descoberta de APIs?
+- como faço para descobrir APIs existentes?
+- onde encontro o catálogo de APIs?
+- qual a importância do catálogo na governança?
+- como o catálogo ajuda no ciclo de vida?
+- o que significa descoberta de APIs?
+- como automatizar a descoberta de APIs?
+- quais benefícios do catálogo de APIs?
+- como o Anypoint Exchange facilita a descoberta?
+- como organizar meu catálogo de APIs?
+- para que serve a publicação no catálogo?
+- como buscar APIs no catálogo?
+- o que é aprovisionamento de API no catálogo?
+- oq é catálogo de APIs?
+- o que é catalógo de APIs?
+- o que é catálogo de A P I s?
+- o que é catálago de APIs?
+- o que é catálogo de APIS?
+- o que e catálogo de APIs?
+- o que é catlogo de APIs?
+- o que e catalogo de A P I s?
+- oq é catálogo de APIS?
+- o que é catálogo de APi?
+- o que é catalógo de APIS?
+- o queue é catálogo de APIs?
+- o que é catálgoo de APIs?
+- o que é catalogo de APIs?
+- o que é catáolgo de APIs?
+- o que é catálago de APIs?
+- o que é catalog de APIs?
+- o que é catálogo de API?
+- o que é catálogo de Api’s?
+- como funciona o catálogo de APIs no Anypoint?
+- como funciona o catáloko de APIs no Anypoint?
+- cumo funciona o catálogo de APIS no Anypoint?
+- como funciona o catalogo de APIs no AnyPoint?
+- como funciona o catálogo de API no Anypoint?
+- como funciona o catálogo de APIs no Anypoint?
+- como funcina o catálogo de APIs no Anypoint?
+- como funciona catálogo de A P I s no Anypoint?
+- comofunciona o catálogo de APIs no Anypoint?
+- para que serve a descoberta de APIs?
+- para que serve a desoberta de APIs?
+- para que serve a descoberta de APIS?
+- pra que serve a descoberta de APIs?
+- para que serve a decoberta de APIs?
+- para que servi a descoberta de APIs?
+- para que sevre a descoberta de APIs?
+- para que sirve a descoberta de APIs?
+- para que serve descoberta de APIs?
+- como faço para descobrir APIs existentes?
+- como faco pra descobrir APIs existentes?
+- como faço pra descurbrir APIs existentes?
+- como faço para descobrir API existente?
+- como faco para descobri APIs existentes?
+- como faço para descobrir A P I s existentes?
+- como faço p/ descobrir APIs existentes?
+- como faç para descobrir APIs existentes?
+- onde encontro o catálogo de APIs?
+- onde encontro o catáloko de APIs?
+- onde encontra o catálogo de APIs?
+- onde eu encontro catálogo de APIS?
+- onde enconto o catálogo de APIs?
+- onde encontro catalogo de APIs?
+- onte encontro o catálogo de APIs?
+- onde eu encotro o catálogo de APIs?
+- qual a importância do catálogo na governança?
+- qual a importancia do catálogo na governanca?
+- qual importância do catalogo na governança?
+- qual a importância do catálogo na governança?
+- qual a importancia do catálogo na governânça?
+- qual a importância do catáloko na gobernança?
+- qual a importância do catálogo na governance?
+- qual a importância do catálogo na governação?
+- como o catálogo ajuda no ciclo de vida?
+- como o catalogo ajuda no ciclo de vida?
+- como o catálogo ajua no ciclo de vida?
+- como o catálogo ajuda no ciclo de vida?
+- como o catálogo ajuda no ciclo de vida?
+- como o catálogo ajuda no ciclo de vid?
+- como o catálogo ajuda o ciclo de vida?
+- como catálogo ajuda no ciclo de vida?
+- o que significa descoberta de APIs?
+- o que significa descoverta de APIs?
+- o que significa descoberta de APIS?
+- o que significa descoberta de Api’s?
+- oq significa descoberta de APIs?
+- o que signfica descoberta de APIs?
+- o que significa descoberta de APIs?
+- o que significa desoberta de APIs?
+- como automatizar a descoberta de APIs?
+- como automatizar a descoverta de APIs?
+- como automatizar descoberta de APIs?
+- como automatizar a descobreta de APIs?
+- como automatizar a descoberta de APIS?
+- cumo automatizar a descoberta de APIs?
+- como automatiar a descoberta de APIs?
+- como automatizar a descuberta de APIs?
+- quais benefícios do catálogo de APIs?
+- quais beneficios do catalogo de APIs?
+- quais beneficíos do catálogo de APIs?
+- quais benefícios do catáloko de APIs?
+- quais benefícios do catálogo de APIS?
+- quais beneficios do catálogo de Api’s?
+- quais benfícios do catálogo de APIs?
+- quais benefícios catalogo de APIs?
+- como o Anypoint Exchange facilita a descoberta?
+- como o Anypont Exchange facilita a descoberta?
+- como o Anypoint Exchage facilita a descoverta?
+- como o Anypoint Exchange facilita a descobrta?
+- como o Anypoint Exchange facilitta a descoberta?
+- cumo o Anypoint Exchange facilita a descoberta?
+- como Anypoint Exchange facilita descoberta?
+- com o Anypoint Exchange facilita a descoberta?
+- como organizar meu catálogo de APIs?
+- como organizar meu catalogo de APIs?
+- como organnizar meu catálogo de APIs?
+- como organizar meu catálogo de APIS?
+- como organizar meu catáloko de APIs?
+- cumo organizar meu catálogo de APIs?
+- como  orgnizar meu catálogo de APIs?
+- como organizar meu catalogo de Api’s?
+- para que serve a publicação no catálogo?
+- para que serve a publicacão no catálogo?
+- pra que serve a publicação no catalogo?
+- para que serve publicação no catálogo?
+- para que serve a publicação no catáloko?
+- para que serve a publicacão no catálogo?
+- para que serve a publicação no catálogo?
+- para que serve a publicação no A P I catalog?
+- como buscar APIs no catálogo?
+- como buscar APIS no catálogo?
+- como buscar APIs no catalogo?
+- como buscar A P I s no catálogo?
+- cumo buscar APIs no catálogo?
+- como buscar APIs no catáloko?
+- como buscarr APIs no catálogo?
+- como buscar APIs no catalogue?
+- o que é aprovisionamento de API no catálogo?
+- o que é aprovisionamente de API no catálogo?
+- o que é aprovisionamento de APIS no catálogo?
+- o que é aprovisionamento de API no catalogo?
+- o que é aprovisionamento de Api’s no catálogo?
+- o que é aprovisionament de API no catálogo?
+- oq é aprovisionamento de API no catálogo?
+- o que é aprovisionamento de API no catálogo?
+- oq é catalogo de API?
+- oq é catálago de API?
+- o que é catálago de APIS?
+- o que é catalógo de API?
+- o que é catáologo de APIs?
+- o que é catálogo de APIS?
+- o que é o catalogo de APIs?
+- oquê é catálogo de APIs?
+- oqu é catálogo de APIs?
+- o que é catálogo de A P I s?
+- como funciona catalogo de APIs?
+- cumo funciona catálogo de APIs?
+- como funcciona catálogo de APIs?
+- como funciona catalógo de APIs?
+- como funciona o catálago de APIs?
+- como funciona catálogo de APIS?
+- como funciona catálogo d eAPIs?
+- para que serve descoberta de APIs?
+- para que serve descoberTA de APIs?
+- para que serve descoverta de APIs?
+- pra que serve descoberta de APIS?
+- pra que serve descorberta de APIs?
+- para que servi descoberta de APIs?
+- para que serve descoberta d eAPIs?
+- para k serve descoberta de APIs?
+- como descobr API existentes?
+- como descobrir API exístentes?
+- como descorbrir APIs existentes?
+- como descubro APIs existenntes?
+- como faço descobrir APIs exist?
+- onde encontro catalogo de APIs?
+- onde enconstro catálogo de APIs?
+- onde Encontro catálago de APIs?
+- onde eu encontro catalógo de APIs?
+- onde acho catálogo de APIS?
+- qual importancia do catalogo?
+- qual a importancia do catalógo?
+- qual a importância do catalogo?
+- qual importância do catálago?
+- qual importância do catálogo de APIs?
+- como catalog ajuda ciclo vida?
+- como catalog auxilia ciclo de vida?
+- como catálogo ajua ciclo de vida?
+- como o catalógo ajuda ciclop vida?
+- como o catálogo ajuDA ciclo de vida?
+- o que signfica descoberta de API?
+- o que signifca descoverta de APIs?
+- o que singnifica descoberta de APIs?
+- o que significa descobra de APIs?
+- o que significa descentra de APIs?
+- como automatizar descoberta?
+- como automatar descoberta de APIs?
+- como automtizar descoberta de APIs?
+- como automatizar descoberTA de APIs?
+- cumo automatizar descoberta de API?
+- quais benefícios catalogo?
+- quais benefíos do catálogo?
+- quais benéficos do catalogo?
+- quais benfícios do catálogo de APIs?
+- quais benefícios do catalógo?
+- como Exchange facilita descoberta?
+- como Exchage facilita descoberta?
+- como Anypoint Exchange faciliTA descoberta?
+- como Anypont Exchange facilita descobrta?
+- como Anypoint Exchange facilitta descuberta?
+- como organizo catalogo?
+- como organizr catálogo de APIs?
+- cumo organizar catalogo de APIs?
+- como organizarr catálogo de APIs?
+- como organizar catálago de APIs?
+- para que publicação catalogo?
+- pra que publicaçao no catalogo?
+- para que sirve publicação no catálogo?
+- para que serve publição no catálogo?
+- para que publicar no catalogo?
+- como buscar no catalogo?
+- como buscar API no catalogo?
+- como buscar APIS no catalógo?
+- cumo buscar APIs no katalogo?
+- como busco catálago de APIs?
+- oq é aprovisionamento de API?
+- oq é aprovisionamento no catalogo?
+- o que é aprovisionamente de APIs?
+- o que é aprovisionamento de APIS?
+- o que significa aprovisionamento de API?
+- como funciona aprovisionamento?
+- como funcciona aprovisionamento de API?
+- como aprovisionar API no catalógo?
+- como aprovisiono API no catálogo?
+- cumo aprovisionar API no catálogo?
+- quais etapas aprovisionamento?
+- quais etapas de aprovisionamento?
+- quais ps passos de aprovisionamento?
+- que e aprovisionamento de APIs?
+- o que inclui aprovisionamento?
+#en:
+- what is an API catalog?
+- how does the API catalog work in Anypoint?
+- what is API discovery for?
+- how do I discover existing APIs?
+- where can I find the API catalog?
+- why is the catalog important in governance?
+- how does the catalog support the lifecycle?
+- what does API discovery mean?
+- how to automate API discovery?
+- what are the benefits of an API catalog?
+- how does Anypoint Exchange enable discovery?
+- how to organize my API catalog?
+- what is publishing in the catalog for?
+- how to search APIs in the catalog?
+- what is API provisioning in the catalog?
+- what is an API catlog?
+- what is a API catalog?
+- what is an API catolog?
+- what is an API catalod?
+- what is an API catelogue?
+- what is an API catelogue?
+- what is an API cataloque?
+- what is an API catelogue?
+- what is an API catelouge?
+- what is an API catolgue?
+- how does the API catlog work in Anypoint?
+- how doe the API catalog work in Anypoint?
+- how does the API catalod work in Anypoint?
+- how does the API catlog work on Anypoint?
+- how does the API catelog work in Anypont?
+- how does the API catalog work in AnyPoint?
+- how does the API catalog work in Anypooint?
+- how does the API catalog work Anypoint?
+- how do I discover existing API?
+- how do I discover existng APIs?
+- how do I discover exisiting APIs?
+- how do I descover existing APIs?
+- how do I discoer existing APIs?
+- how do I discover exsiting APIs?
+- how do I discover existing API’s?
+- how do I discuver existing APIs?
+- how do I discover existing A P I s?
+- where can I find the API catlog?
+- where can I find the API catalod?
+- where can I find the API catelog?
+- where can I find the API catalague?
+- where can I find the API catolog?
+- where can I find API catalog?
+- why is the catlog important in governance?
+- why is the catlog impotant in governance?
+- why is the catalog impotant for governance?
+- why is the catalog importnt in governance?
+- why is the catlog important in governence?
+- why is the catalog important in goverance?
+- how does the catlog support the lifecycle?
+- how does the catalog support the lifecycle?
+- how does the catalog supprt the lifecycle?
+- how does the catalog support the life cycle?
+- how does the catalog support the life-cycle?
+- what does API discoery mean?
+- what does API discovery meen?
+- what does API discovey mean?
+- what does API discovry mean?
+- what does API discover nay?
+- what does API disover mean?
+- how to automate API discoery?
+- how to automate API discover?
+- how to automate API discovry?
+- how to automate API discoverly?
+- how to automate API discovry?
+- what are the benefits of an API catlog?
+- what are the benefits of an API catalod?
+- what are the benfits of an API catalog?
+- what are the benefits of an API catelog?
+- what are the benefits of an API catalouge?
+- what are the benfits of an API catelogue?
+- how does Anypoint Exchange enable discovry?
+- how does AnyPoint Exchange enable discovery?
+- how does Anypoint Exchnage enable discovery?
+- how does Anypoint Exchange enable discoery?
+- how does Anypoint Exchange enble discovery?
+- how does Anypoint Exchange enabke discovery?
+- how to organize my API catlog?
+- how to organize my API catalog?
+- how to organise my API catalog?
+- how to organize my API catalod?
+- how to organze my API catalog?
+- how to organise my API catelogue?
+- what is publishing in the catlog for?
+- what is publishing in the catalog for?
+- what is publishing in the catelog for?
+- what is publishing in the catalod for?
+- what is publishing in the catelogue for?
+- how to search APIs in the catlog?
+- how to search APIs in the catalog?
+- how to search APIs in the catelog?
+- how to serach APIs in the catalog?
+- how to search API’s in the catalog?
+- what is API provisioning in the catlog?
+- what is API provisioning in the catalog?
+- what is API provsioning in the catalog?
+- what is API provisionig in the catalog?
+- what is API provisioning the catalog?
+- what is API provissioning in the catalog?
+- what is an API catlog?
+- what is a API catalog?
+- what iz an API catalog?
+- what is an API catalague?
+- what is an API catelogue?
+- what is an API catalod?
+- where do I find the API catlog?
+- where do I find the API catalog?
+- where do I find the API catelogue?
+- where do I find the API catelod?
+- where do I find the API catalague?
+- where can I access the API catlog?
+- how do I lookup the API catalog?
+- how do I look up the API catalog?
+- how do I lookup API catalogue?
+- how do I lookup API catlog?
+- how can I locate APIs in the catlog?
+- how can I locate apis in the catalog?
+- how can I locate APIs in the catelog?
+- how can I locate APIS in the catalgue?
+- why is the catlog key for governance?
+- why is the catalog critical governance?
+- why is the catelog important for governance?
+- why is the catalgue important in governance?
+- how does AnyPoint Exchange help discovery?
+- how does Anypiont Exchange enable discovery?
+- how does Anyoint Exchange enable discovry?
+- how does Anypoint Exchange allow disocvery?
+- how do I automate API disocvery?
+- how do I automate API discovry?
+- how do I automate API discover?
+- how do I automat API discovery?
+- how to auto API discovery?
+- what does API disovery mean?
+- what does API discoery mean?
+- what does API dicovery mean?
+- whats API discovery?
+- whats API discoery?
+- whats API discovry?
+- what are benfits of API catalog?
+- what are benefits of API catalo?
+- what are benfits of API catelogue?
+- what are benefits of API ctalogue?
+- what are benefits of API catalog?
+- how do I search API?
+- how do I serach API in catlog?
+- how do I search APis in catolog?
+- how can I search apis in the catalgue?
+- how can I search apis in the catlog?
+- what is publishing API catlog?
+- what is publishing API catalog?
+- what is publishing API catelogue?
+- what is publishing API catelod?
+- what is purpose of catalog publishing?
+- what is purpose of catalgue publishing?
+- what is purpose of catalog publshing?
+- how to publish API in catlog?
+- how to publish API in catalog?
+- how to publish API in catelogue?
+- what is API provsioning?
+- what is API provisioning?
+- what is API providning?
+- what is API provoving?
+- how to provsion API in catlog?
+- how to provision API in catalog?
+- how to provision API in catelogue?
+- where to provsion APIs?
+- where to provision apis?
+- how catlog support lifecycle?
+- how catalog support lifecycle?
+- how catelogue support lifecycle?
+- how catalgue support lifecycle?
+- how does catlog support lifecycle?
+- why is catalog needed lifecycle?
+- why needed API catalog?
+- why needed API catlog?
+- why needed API catalgue?
+- why needed API catelogue?
+- what role does catalog play?
+- what role does catlog play?
+- what role does catalgue play?
+- what role does catelogue play?
+- what role catalog play in lifecycle?
+- what role catalog play governance?
+- what role catelogue play governance?
+- what does catalog auto do?
+- what does catlog auto do?
+- what does catalgue auto do?
+- what does catelogue auto do?
+- how catalog manage metadata?
+- how catlog manage metadata?
+- how catalgue manage metadata?
+- how catelogue manage metadata?
+- what metadata in API catalog?
+- what metadata in API catlog?
+- what metadata in API catelogue?
+- how many APIs in catalog?
+- how many apis in catlog?
+- how to find the API catlaog?
+- how to find the API catelouge?
+- where is the API cateloge?
+- where is the API catalag?
+- where is the API catelaog?
+- where is the API catelouge?
+- where is the API catlaog in Anypoint?
+- where is the API catlog in Anypoint?
+- where can I view the API catalog?
+- where can I veiw the API catalouge?
+- how do I navigate the API catlog?
+- how do I navigte the API catalogue?
+- how do I acceess the API catalog?
+- how do I access the API catelogue?
+- how do I acces the API catalouge?
+- how do I acces the API catlog?
+- what is the API catelouge endpoint?
+- what is the API cataogue endpoint?
+- what is the API catlog endpint?
+- what is the API catalouge endpoint?
+- how to list all APIs in catlog?
+- how to list all APIs in catalouge?
+- how to list all APIs in catalod?
+- how to list all APIs in catelaogue?
+- how to search the catelog for APIs?
+- how to searh the catalog for APIs?
+- how to searh the catalouge for APIs?
+- how to find APIs in the catelogue?
+- how to locate APIs in the catelaog?
+- how to filter APIs in the catlog?
+- how to filer APIs in the cataloue?
+- how to group APIs in the catelog?
+- how to group APIs in the catalog?
+- how to sort APIs in the catalouge?
+- how to sort APIs in the catelaogue?
+- why catalog is key for API reuse?
+- why catlog is key for API reuse?
+- why catalouge is key for API reuse?
+- why catelouge is key for API reuse?
+- why I need an API catalog?
+- why I need an API catelogue?
+- why I need an API catalaog?
+- why I need a API catalog?
+- why I need a API catelag?
+- how to maintain the catelog?
+- how to maintain the catalog?
+- how to maintain the catalouge?
+- how to maintain the catelogue?
+- how to update the API catalog?
+- how to update the API catelaogue?
+#vr_pt: |
+O catálogo de APIs é um repositório centralizado onde todas as APIs são registradas, documentadas e categorizadas; facilita a descoberta, reutilização e padronização; no Anypoint Exchange você publica contratos, exemplos e metadados; garante visibilidade e governança ao longo do ciclo de vida; permite controle de acesso, versionamento e auditoria de cada API.
+#vr_en: |
+The API catalog is a centralized repository where all APIs are registered, documented and categorized; it enables discovery, reuse and standardization; in Anypoint Exchange you publish contracts, examples and metadata; it provides visibility and governance throughout the lifecycle; it supports access control, versioning and auditing of each API.
+---
+#intent: mulesoft/governance_and_lifecycle/lifecycle_management_exchange
+#pt:
+- o que é gerenciamento de ciclo de vida no Anypoint Exchange?
+- como promovo versões de API no Exchange?
+- para que serve o status de produção no Exchange?
+- como marco uma API como deprecated?
+- onde configuro fases de desenvolvimento no Exchange?
+- como faço aprovação de nova versão de API?
+- o que significa estágio beta no Exchange?
+- como faço rollback de versão no Exchange?
+- como defino políticas de revisão de API?
+- onde vejo histórico de versões no Exchange?
+- como automatizo promoção de APIs?
+- quais estágios padrão de ciclo de vida existem?
+- como desativo uma API no Exchange?
+- por que usar tags de ambiente no lifecycle?
+- como controlar permissões por estágio?
+- oq é gerenciamento de ciclo de vida no Anypoint Exchange?
+- o que é gerenciameno de ciclo de vida no Anypoint Exchange?
+- o que é gerenciamento de ciclo de vida no AnyPoint Exchange?
+- o que é gerenciamento de ciclo de vida no Anypoint Exchnge?
+- o que é gerenciamento de ciclo de vida no Anypoint Exhange?
+- o que é gerenciamento de ciclo de vida no AnyPoint Exhange?
+- o que e gerenciamento de ciclo de vida no Anypoint Exchange?
+- o que é gerenciamanto de ciclo de vida no Anypoint Exchange?
+- o que é gerenciamento de ciclo de vida no Anypint Exchange?
+- o que é gerenciamento de ciclo de vida no Anypoint Exhcnage?
+- como promovo versões de API no Exchange?
+- como promovo versoes de API no Exchange?
+- como promovo versões de APi no Exchange?
+- como promovo versões de API no Exchnge?
+- como promovo versões de API no AnyPoint Exchange?
+- como promovo versoes de API no AnyPoint Exhange?
+- como promovo versoes de API no Anypoint Exchange?
+- como promovo versoes de APi no Anypoint Exchange?
+- como promovo versões de Api no Anypoint Exchange?
+- para que serve o status de producao no Exchange?
+- para que serve o status de produçao no Exchange?
+- para que serve o status de produção no Exhange?
+- para que serve o status de produção no AnyPoint Exchange?
+- para que salas o status de produção no Exchange?
+- para que serve o status de produção no Anypont Exchange?
+- porque serve o status de produção no Exchange?
+- para que serve o status de produção no Anypoint Exchnge?
+- para que serve o status de produção no AnyPoint Exchage?
+- como marco uma API como deprecated?
+- como marco uma API como deprecared?
+- como marco uma API como depracated?
+- como marco uma API como deprecated no Exchange?
+- como marco uma API como deprecated no Anypoint Exchange?
+- como marco um API como deprecated?
+- como marco uma API como deprecatd?
+- como marco uma API como deprecate?
+- como marco uma API como deprecaded?
+- onde configuro fases de desenvolvimento no Exchange?
+- onde configuro fases de desenvolvimento no AnyPoint Exchange?
+- onde configuro fases de desenvolvmento no Exchange?
+- onde configuro fases de desenvolvimento no Anypont Exchange?
+- onde configuro fase de desenvolvimento no Exchange?
+- onde config phase de desenvolvimento no Exchange?
+- onde configuro fases de desenvolviment no Exchange?
+- onde configuro fases de desenvolvmento no AnyPoint Exchange?
+- onde configuro fases de desenvolvimento no Anypoint Exchnge?
+- como faço aprovação de nova versão de API?
+- como faco aprovação de nova versão de API?
+- como faço aprovacao de nova versao de API?
+- como faço aprovação de nova versão de APi?
+- como faço aprovação de nova versão de API no Exchange?
+- como faço aprovação de nova versao de Api?
+- como faço aprovação de nova versão de API no AnyPoint Exchange?
+- como faço aprovação de nova versão de API no Anypont Exchange?
+- como faço aprovação de nova versão de APi no Exchange?
+- o que significa estágio beta no Exchange?
+- o que significa estágio beta no Exchange?
+- o que significa estagio beta no Exchnge?
+- o que significa estágio beta no AnyPoint Exchange?
+- o que significa estágio beta no Anypont Exchange?
+- o que significa estágio betta no Exchange?
+- o que signfica estágio beta no Exchange?
+- o que significa estágio beta no Anypoint Exchaneg?
+- o que significa estágio beta no Exchange?
+- como faço rollback de versão no Exchange?
+- como faço rollback de versao no Exchange?
+- como faco rollback de versão no Exchange?
+- como faço rollback de versão no AnyPoint Exchange?
+- como faço rollback de versão no Anypont Exchange?
+- como faço rollbac de versão no Exchange?
+- como faço rollback de versao no Anypoint Exchange?
+- como faço rollback de versao no AnyPoint Exhange?
+- como faço rollback de versão no Exchange?
+- como defino políticas de revisão de API?
+- como defino politicas de revisión de API?
+- como defino políticas de revisao de API?
+- como defino políticas de revisão de APi?
+- como defino políticas de revisão de API no Exchange?
+- como defino politicas de revisão de API no AnyPoint Exchange?
+- como defino políticas de revisão de API no Anypont Exchange?
+- como defino políticas de revisao de API no Exchange?
+- como defino políticas de revisão de versao de API?
+- onde vejo histórico de versões no Exchange?
+- onde vejo historico de versões no Exchnge?
+- onde vejo histórico de versões no AnyPoint Exchange?
+- onde vejo histórico de versões no Anypont Exchange?
+- onde vejo histórico de versoes no Exchange?
+- onde vejo histórico de versoes no Exchange?
+- onde vejo historico de versoes no AnyPoint Exchange?
+- onde vejo histórico de versões no Anypoint Exchage?
+- como automatizo promoção de APIs?
+- como automatizo promocao de APIs?
+- como automatizo promoção de APis?
+- como automatizo promoção de APIs no Exchange?
+- como otomarizo promoção de APIs?
+- como automarizo promoção de APIs?
+- como automatizo promoção de APIs no AnyPoint Exchange?
+- como automatizo promoção de APIs no Anypont Exchange?
+- quais estágios padrão de ciclo de vida existem?
+- quais estagios padrao de ciclo de vida existem?
+- quais estágios padrão de ciclo de vida existam?
+- quais estágios padrão de ciclo de vida exitem?
+- quais estágios padrao de ciclo de vida existam?
+- quais estágios padrão de ciclo de vida no Exchange?
+- quais estágios padrão de ciclo de vida no AnyPoint Exchange?
+- quais estágios padrão de ciclo de vida no Anypont Exchange?
+- quais estágios padrão de ciclo de vida existem?
+- como desativo uma API no Exchange?
+- como desativo uma APi no Exchange?
+- como desativo uma API no AnyPoint Exchange?
+- como desativ o Exchange?
+- como desatovo uma API no Exchange?
+- como desativo uma API no Anypont Exchange?
+- por que usar tags de ambiente no lifecycle?
+- por que usar tags de ambiente no life cycle?
+- por que usar tags de amiente no lifecycle?
+- por que usr tags de ambiente no lifecycle?
+- por que usar tgs de ambiente no lifecycle?
+- por que usar tags de ambiente no AnyPoint Exchange?
+- por que usar tags de ambiente no Anypont Exchange?
+- por que usar tags de ambiente no Exchange?
+- como controlar permissões por estágio?
+- como controlar permisões por estágio?
+- como controlar permissão por estágio?
+- como controlar permissoes por estagio?
+- como controlar permissões pór estágio?
+- como controlar permisões por estágio?
+- como controlar permissões por estágio no Exchange?
+- o que é gerenciamanto de ciclo de vida no Exchange?
+- oq é gerenciamento de ciclo de vida no Exchange?
+- o que é gerenciamento de cilco de vida no Exchange?
+- o que é gerenciamento de ciclo de vida no Exchnge?
+- o que é gerenciamento de ciclo de vida n0 Exchange?
+- o que é gerenciamento de ciclo de vida no AnyPoing Exchange?
+- o que é gerenciamente de ciclo de vida no Exchange?
+- o que é gerenciamento de ciclo de vda no Exchange?
+- o que é gerenciamento de clclo de vida no Exchange?
+- o que é gerenciamento de ciclo de vida no Exchagne?
+- como promovo versoes de API no Exchange?
+- como promovo verões de API no Exchange?
+- como promo voerões de API no Exchange?
+- como promovo versões de API no Exchnge?
+- como promovo versões de API no AnyPoint Exchane?
+- como promovo versões de APi no Exchange?
+- como promovo versões de API no Exhcnage?
+- para que serve status procução no Exchange?
+- para que serve status de producao no Exchnge?
+- para que serve o status de prdução no Exchange?
+- para que serve o status de producao no AnyPoint Exchange?
+- para que serve o status de produção no Exchane?
+- como marco uma API como deprcated?
+- como marc0 uma API como deprecated?
+- como marco uma API como deprcated no Exchange?
+- como marcco uma API como deprecated?
+- como marco uma API como deprcated no Anypoint?
+- onde configuro fases de desenvovlimento no Exchange?
+- onde configufo fases de desenvolvimento no Exchange?
+- onde configuro fases de dominio no Exchange?
+- onde configuro fases de desenvlovimento no AnyPoint Exchange?
+- onde confguro fases de desenvolvimento no Exchange?
+- como faco aprovação de nvova versão de API?
+- como faço aprovaçâo de nova versão de API?
+- como faço aprovação de nova versao de APi?
+- como faço aprovação de nova versao de API no Exchange?
+- o que significa eságio beta no Exchange?
+- o que significa estágio bet no Exchange?
+- o que significa estágio beta no Exchane?
+- o que significa estágio beta no AnyPoint Exchage?
+- como faço rollbak de versão no Exchange?
+- como faço rollback de versao no Exchange?
+- como faço rollback de versao no AnyPoint Exchange?
+- como defino políticas de revisao de API no Exchnge?
+- como defino politicas de revisao de API no Exchange?
+- onde vejo historico de verões no Exchange?
+- onde vejo histórico de versoes no AnyPoint Exchange?
+- como automatizo promoco de APIs no Exchange?
+- como automatizo promção de APIs no Exchange?
+- quais estágios padrao de ciclo de vida existn?
+- quais estágios padrão de ciclo de vida no Exchnge?
+- como desativo uma API no AnyPoint Exchange?
+- como desativo uma API no Exchnge?
+- por que usar tags de ambinte no lifecycle?
+- por que usar tags de ambinte no Exchange?
+- como controlar permissoes por estagio no Exchange?
+- como controlar pessmissoes por estágio no Exchange?
+- o que é gerencimanto de ciclo de vida no Exchange?
+- oq é gerenciamento de ciclo de vida no Anypont Exchange?
+- o que é gerenciamento de cicl0 de vida no Exchange?
+- o que é gerenciamento de ciclio de vida no Exchange?
+- o que é gerenciamento de ciclo de vid no Exchange?
+- como promovo versoes de APi no AnyPoint Exchange?
+- como promoço versões de API no Exchange?
+- para que serve o status de produçao no Exchange?
+- para que serve o status de producão no Exchange?
+- como marco uma API como deprecatd?
+- como marc0 uma API como deprecaded?
+- onde configuro fases de desenvlvimento no Exchange?
+- onde configuro fases de desenvolvimneto no Exchange?
+- como faço aprovacao de nova versao de APi?
+- como faco aprovação de nova versao de API no Exchnge?
+- o que signfica estágio beta no AnyPoint Exchange?
+- como faco rollback de version no Exchange?
+- o que é gerencimamento de ciclo de vida no Exchange?
+- oq é gerenciamiento de ciclo de vida no Exchange?
+- o que é gerencimanto de ciclio de vida no Exchnge?
+- o que é gerencimaneto de ciclo de vida no Anypont Exchange?
+- como promovo versões de APi no Anypont Exchange?
+- para que serve status de produção no Exhange?
+- como marco uam API como deprecated?
+- onde configuro fase de desenvolvimento no Exchnge?
+- como faco aprovacão de nova versão de API?
+- o que signfica estagio beta no AnyPoint Exchage?
+#en:
+- what is lifecycle management in Anypoint Exchange?
+- how do I promote API versions in Exchange?
+- what is the purpose of production status in Exchange?
+- how do I mark an API as deprecated?
+- where do I configure development phases in Exchange?
+- how do I approve a new API version?
+- what does beta stage mean in Exchange?
+- how do I roll back a version in Exchange?
+- how do I set API governance policies?
+- where can I view version history in Exchange?
+- how do I automate API promotion?
+- what are the default lifecycle stages?
+- how do I retire an API in Exchange?
+- why use environment tags for lifecycle?
+- how to manage permissions per stage?
+- what is lifecyle management in Anypoint Exchange?
+- what is life cycle managment in Exchange?
+- whats lifecycle management in Anypoint Exchnge?
+- what is lifecycle management on Anypoint Exchange?
+- what is lifecycel management in AnyPoint Exchange?
+- what is lifecycle manage in Anypoint Exchange?
+- what is lifecycle mangement in Anypoint Exchange?
+- what is life cycle mangement in Anypoint Exchange?
+- what is life cycle management in Anypont Exchange?
+- what is lifecyle management in AnyPoint Exhange?
+- how do I promote API versios in Exchange?
+- how do I promote API version in Exhange?
+- how to promote API versions in Exchange?
+- how do I proomote API versions in Anypoint Exchange?
+- how I promote API versions in Exchange?
+- how do I promote API versions at Exchange?
+- how to promote API version in AnyPoint Exchange?
+- how do I promote API verssions in Exchange?
+- how do I promote API versions in Exchage?
+- how do I promote API versiosn in Exchange?
+- what is purpose of production status in Exchange?
+- what is the purpose of prodution status in Exchange?
+- what the purpose of production status in Exchange?
+- why production status matter in Anypoint Exchange?
+- what is purpose of production status on Exchange?
+- what is the purpose of production stat in Exchange?
+- what does production status do in Exhange?
+- what's purpose of production status in Exchange?
+- what is the purpse of production status in Exchange?
+- what is the purpose of prodution status in AnyPoint Exchange?
+- how do I mark an API as deprcated?
+- how do I mark an API as deprecated in Exchange?
+- how to mark an API deprecated?
+- how do I mark API as deprecated?
+- how do I mark a API as deprecated in Exchange?
+- how do I mark an API as deprecared?
+- how do I mark an API as depritecated?
+- how do I mark an API as deprected?
+- how to mark an API as depricated?
+- how do I mark API deprecated in Exchange?
+- where do I configure developent phases in Exchange?
+- where do I configure development phases on Exchange?
+- where to configure development phases in Anypoint Exchange?
+- where can I configure dev phases in Exchange?
+- where do I set development stages in Exchange?
+- where do I configure devleopment phases in Exchange?
+- where do I configure development phaes in Exchange?
+- where do I configure developement phases in AnyPoint Exchange?
+- where do I configure development phases in Exchnge?
+- where do I configure development fasees in Exchange?
+- how do I approve a new API versin?
+- how to approve a new API version?
+- how do I approve new API version in Exchange?
+- how do I appove a new API version?
+- how do I approve a new API version on Exchange?
+- how do I approve new API versions in AnyPoint Exchange?
+- how to approve a new API verssion?
+- how do I approve a new API versoin?
+- how do I approve a new API versioon?
+- how do I approve a new API verion?
+- what does beta stage meen in Exchange?
+- what does beta stage mean in Exhange?
+- what does beta stage mean on Exchange?
+- what does beta stage mean in AnyPoint Exchange?
+- what does beta stage mena in Exchange?
+- what does beta stage mean in Anypont Exchange?
+- what does beta step mean in Exchange?
+- whats beta stage mean in Exchange?
+- what does beta stage mean in Anypoint Exchane?
+- what doe beta stage mean in Exchange?
+- how do I roll back a version in Exchnge?
+- how to roll back a version in Exchange?
+- how do I roll back version in Anypoint Exchange?
+- how do I roll back API version?
+- how do I rollback a version in Exchange?
+- how do I roll back a versoin in Exchange?
+- how do I roll back a verssion in Exchage?
+- how do I roll back version in AnyPoint Exchange?
+- how do I roll back a version on Exchange?
+- how do I roll back a version in Anypont Exchange?
+- how do I set API governance policis?
+- how do I set API governance policies in Exchange?
+- how to set API governance policies?
+- how do I set API gov policies?
+- how do I set API goverance policies?
+- how do I set API governance policys?
+- how do I set API governance policies on Exchange?
+- how to set API governance policies in AnyPoint Exchange?
+- how do I set API governance policies in Exchnge?
+- how do I set API governance poicies?
+- where can I view version history in Exchnge?
+- where can I view version history in Exchange?
+- where to view version history in Anypoint Exchange?
+- where can I see version history in Exchange?
+- where can I view versions history?
+- where can I view version history on Exchange?
+- where can I view version hstory in Exchange?
+- where can I view version history in AnyPoint Exchange?
+- where can I view version history for APIs?
+- where can I view version history in Anypont Exchange?
+- how do I automate API prommtion?
+- how to automate API promotion?
+- how do I automate API promotion in Exchange?
+- how do I automate API prmootion?
+- how to automate API promotions in Anypoint Exchange?
+- how do I automate API promotion on Exchange?
+- how do I automate API promotiion?
+- how do I automate API promotion in Exchnge?
+- how do I automate API promtotion?
+- how do I automate API promition?
+- what are default lifecycle stges?
+- what are default lifecycle stages?
+- what are default lifecycle stages in Exchange?
+- what are default life cycle stages?
+- what are the default lifecycle stages?
+- what are default lifecycle stages on Exchange?
+- what are default lifecycle stags?
+- what are default lifecycle stges in AnyPoint Exchange?
+- what are default lifecycle stages in Anypont Exchange?
+- what are the default lifecycle stges?
+- how do I retire an API in Exchnge?
+- how to retire an API in Exchange?
+- how do I retire API in Anypoint Exchange?
+- how do I retire an API on Exchange?
+- how do I retire an API in AnyPoint Exchange?
+- how do I retire an API in Exhange?
+- how do I retire an API in Anypont Exchange?
+- how do I retire a API in Exchange?
+- how do I retire an API?
+- how do I retire an API in Anypoint Exchane?
+- why use environment tags for lifecyle?
+- why use environment tags for lifecycle?
+- why use env tags for lifecycle in Exchange?
+- why use environment tags for lifecycle in AnyPoint Exchange?
+- why use environment tags for lifecycle on Exchange?
+- why use environment tags for life cycle?
+- why use environment tags for lifecycle in Exchnge?
+- why use environment tags for lifecyce?
+- why use environment tags for lifecyle in Anypont Exchange?
+- why use environment tags for lifecycle stages?
+- how to manage permissions per stege?
+- how to manage permissions per stage?
+- how do I manage permissions per stage in Exchange?
+- how to manage permissions per stage in AnyPoint Exchange?
+- how to manage permissions per stage on Exchange?
+- how to manage permissions per stag in Exchange?
+- how to manage permissions per stage in Exchnge?
+- how to manage permisions per stage?
+- how to manage permissions per stge?
+- how to manage permissions per stage in Anypont Exchange?
+- how to manage permissions per stage for APIs?
+- what is lifecyle managment in Anypoint Exchnge?
+- what is lifecycle managment in AnyPoint Exchange?
+- what is life cycle managment in Exchange?
+- what is lifecyle management on AnyPoint Exchange?
+- what is lifecycle management at Anypoint Exchange?
+- what is lifecyle mangement in Anypoint Exchange?
+- what is lifecycle manageent in Anypoint Exchage?
+- what is lifecycle management in Anypoint Exchane?
+- what is life cycle management in Anypoin Exchange?
+- what is lifecycle management in Anypoint Exchage?
+- how do I promte API versions in Exchange?
+- how do I promte API verions in Exchange?
+- how do I promote APIs version in Exchange?
+- how to promote API versions at Exchange?
+- how do I promote API versioons in Exchange?
+- how do I promote APi versions in Exchange?
+- how do I promote API versionns in AnyPoint Exchange?
+- how do I promote API version in Anypoin Exchange?
+- how do I promote API versions on Exchnge?
+- how do I promoto API version in Exchange?
+- what is purpose of producton status in Exchange?
+- what is the purpose of producion status in Exchange?
+- what does production status means in Exchange?
+- what's purpose of production stat in Exchange?
+- why production status important in Exchnge?
+- why use production status on Exchange?
+- why production status mattter in Exchange?
+- what is purspose of production status in AnyPoint Exchange?
+- what is the purpose of production stat in Anypont Exchange?
+- how do I mark API as deprecatted?
+- how do I make an API deprecated in Exchange?
+- how do I mark API deprcated?
+- how do I mark API as depreacted?
+- how do I mark API as deprcated in AnyPoint Exchange?
+- how to mark API as deprecated at Exchange?
+- how do I mark a APi as deprecated?
+- how do I mark the API as depricated?
+- how to mark API depricated in Exchange?
+- where do configure development phases in Exchange?
+- where do I config development phases on Exchange?
+- where to config dev phases in Anypoint Exchange?
+- where do I configure develpment phases in Exchnge?
+- where do I set dev phases in AnyPoint Exchange?
+- where can configure stages in Exchange?
+- where do I configure devleopment stage in Exchange?
+- how do I approve new API verion in Exchange?
+- how do I approve new API verions in Exchnge?
+- how to approve new API version on Exchange?
+- how do I approv a new API version?
+- how do I approve API version at Exchange?
+- how to approve new API version in AnyPoint Exchange?
+- how to approve new API versio in Anypoint Exchange?
+- what does beta stage men in Exchange?
+- what does beta stage mean at Exchange?
+- what does beta stage imply in Exchange?
+- what does beta stage do in AnyPoint Exchange?
+- what does beta stage means in Anypiont Exchange?
+- what does beta stage of Exchange mean?
+- how do I roll back a version on Exchange?
+- how to rollback API version in Exchange?
+- how do I rollback version at Anypoint Exchange?
+- how do I roll-back a version in AnyPoint Exchange?
+- how do I rollback the API version in Exchange?
+- how to rollback version in Anypoing Exchange?
+- how to set API governence policies?
+- how to set API governance policys?
+- how do I set API goverance policies in Exchange?
+- how to define API governance polcies?
+- how to set governance policies in AnyPoint Exchange?
+- where view version history in Exchnge?
+- where to view version history on Exchange?
+- how can view version history in Anypoint Exchange?
+- how do I see version history at Exchange?
+- where can I view history of versions in Exchange?
+- how to automate API promtoion?
+- how do I auto-mate API promotion in Exchange?
+- how to automate API promotioon?
+- how do I auto API promotion at Exchange?
+- how to automate APi promotion in AnyPoint Exchange?
+- what are default lifecycle stags?
+- what are default lifecyle stages?
+- what are the default lifecyle stges?
+- what are life cycle default stages in Exchange?
+- what are default lifecycle stages on AnyPoint Exchange?
+- how do I retire API in Exchange?
+- how to retire an API on Exchange?
+- how do I retire an APi on AnyPoint Exchange?
+- how do I retire the API at Exchange?
+- how to retire a API version in Exchange?
+- why use env tags for lifecycle on Exchnge?
+- why use environment tgs for lifecycle?
+- what benefits env tags for lifecycle in Exchange?
+- why use env tags life cycle?
+- why use environment tags life-cycle stages?
+- how to manage perms per stage?
+- how to manage permission per stage in Exchange?
+- how do I manage permissons per stage?
+- how to manage persmissions per stage?
+- how to mange permissions per stage in AnyPoint Exchange?
+- how to manage permission per life-cycle stage?
+#vr_pt: |
+No Anypoint Exchange o gerenciamento de ciclo de vida permite promover APIs através de estágios como desenvolvimento, homologação e produção; definir políticas de aprovação, desativação e depreciação; controlar permissões de acesso por ambiente; automatizar fluxos de versão e consultar histórico completo de alterações.
+#vr_en: |
+In Anypoint Exchange lifecycle management lets you promote APIs through stages such as development, staging and production; define approval, deprecation and retirement policies; manage access permissions per environment; automate version workflows and view full change history.
+---
+#intent: mulesoft/governance_and_lifecycle/governance_policies
+#pt:
+- o que são políticas de governança em APIs?
+- o que são politicas de governanca em APIs?
+- o que significa conformidade em políticas de API?
+- para que servem as políticas de SLA?
+- como definir SLA em uma API?
+- o que é tempo de resposta mínimo em SLA?
+- como medir conformidade de contrato?
+- o que significa RPO e RTO?
+- como aplico policy de segurança e conformidade?
+- o que contempla uma política de quota?
+- como definir limites de taxa (rate limiting)?
+- qual a função do SLA em APIs?
+- o que é garantia de disponibilidade?
+- como monitorar SLA em Anypoint?
+- quais métricas de conformidade usar?
+- por que precisamos de políticas de governança?
+- como aplico políticas de compliance?
+- o que é política de versionamento obrigatório?
+- como definir política de transformação de dados?
+- o que é política de retry/back-off?
+- como assegurar políticas de criptografia?
+- o que significa “circuit breaker”?
+- como impor contratos de SLA?
+- o que é SLA de throughput?
+- como configurar política de timeout?
+- para que serve política de autorização?
+- como faço auditoria de compliance?
+- o que é “audit trail” em APIs?
+- como criar política de expiração de sessão?
+- por que impor limites de payload?
+- o que é polis de governanca em APIs?
+- o que sao politic as de governanca em APIs?
+- o que são politicas de govenranca em APIs?
+- o que signific conformidade em politicas de API?
+- o que singnifica conformidade em politicas de API?
+- o que siginifica conspiridade em politicas de API?
+- para que serve politicas de SLA?
+- para que serve politica de SLA?
+- para que serve o SLA em APIs?
+- como defino SLA numa APi?
+- como definr SLA em API?
+- como defino SLa em API?
+- o que é tempo de responsta minimo em SLA?
+- o que é tempo minmo de resposta em SLA?
+- qual o tempo de responta minimo no SLA?
+- como medir conformidade de contrato?
+- como medir conformidade de contarto?
+- como medir conforidade de contrato?
+- o que significa RTO e RPO?
+- o que signfica RPO e RTO?
+- o que é RPO e RPT?
+- como aplico policy de compliance?
+- como aplico politicas de complance?
+- como aplico policie de compliance?
+- o que contem quotas policy?
+- o que contem quota politic?
+- o que contem politicas de quota?
+- como definir limtes de taxa?
+- como definir rate limitting?
+- como definir ratelimiting?
+- qual a funcao do SLA em API?
+- qual a funçao do SLA em APIs?
+- o que é garantia de disponiblidade?
+- o que é garantia de disponbilidade?
+- como monitorar SLA no AnyPoint?
+- como monitro SLA no Anypoint?
+- como moniotr SLA no Anypoint?
+- quais metricas de conformidade usar?
+- quais metricas de confomidade usar?
+- quais mettricas de conformidade usar?
+- porque precisamos de govrnanca em APIs?
+- por que precisaos de politicas?
+- por que precisamos de governanca?
+- como aplicar politicas de compliance?
+- como aplicar politicas de compiance?
+- como aplicar policias de compliance?
+- o que é politca de versionamento obrigatorio?
+- o que é politca de versionamento obrigtorio?
+- o que é versionamento obrgatorio?
+- como definir politicas de transformacao?
+- como definir politicas de transfomacao?
+- como definir policias de transformaçao?
+- o que é politico de retry/backoff?
+- o que é politca de retry/back-off?
+- o que é policia de retry/backoff?
+- como garantir policias de criptografia?
+- como guarntir politicas de criptografia?
+- como garntir politicas de criptografia?
+- o que signfica circuit braker?
+- o que é circuit breaker?
+- o que é circuit breker?
+- como impor contratos de SLA?
+- como impor contractos de SLA?
+- como impor contratos de SlA?
+- o que é SLA de throughput?
+- o que é SLA de througput?
+- o que é throughput SLA?
+- como configurar politica de timeout?
+- como configurar politica de timout?
+- como configuar politica de timeout?
+- para que serve politca de autorizacao?
+- para q serve politic de autorizao?
+- como faço audit de compliance?
+- como faco autdit de compliance?
+- como fzo auditrias de compliance?
+- o que é audit trail em APIs?
+- o que é aduit trail em APIs?
+- o que é auidt trail em APIs?
+- como criar politica de expiracao de sessao?
+- como criar politica de expiracao de sessao?
+- como criar politca de expiraco de sessao?
+- por que impor limites de payload?
+- por que impor limtes de payload?
+- por que impor limtes de paylod?
+- como implementar politicas de governanca?
+- como implementar policias de govrnanca?
+- como implantar politicas de governanca?
+- o que abrange politicas de governance?
+- o que abrange politicas de governaça?
+- o que inclui politicas de governaça?
+- como auditar politicas de SLA?
+- como auditar policias de SLA?
+- como auditar politicas de SlA?
+- o que é policy enforcement?
+- o que é enforcement de politicas?
+- o que é enforcement de polcia?
+- como aplicar polici enforcement?
+- como aplicar policy enforce?
+- por que definir politicas de SLA?
+- por que defnir politicas de SLA?
+- por que definir policias de SLA?
+- como atualizar politicas de SLA?
+- como atualzar politicas de SLA?
+- como atualzar politicas de SlA?
+- como medir compliace via politicas?
+- como medir compliance via policias?
+- como mensurar compliance via politicas?
+- o que são thresholds em politicas?
+- oque são threholds em politicas?
+- o que signifca thresholds em politicas?
+- como defino thresholds em SLA?
+- como setar threholds em SLA?
+- oq são politicas de governanca em APIs?
+- o que sae politicas de governança em APIs?
+- o que siginifica conformidade em politicas de API?
+- para que serve as políticas de SLA?
+- para que serve politicas de SLA?
+- pra que servem as políticas de SLA?
+- como defino SLA numa API?
+- como definir SLA numa API?
+- como definr SLA em uma API?
+- o que é tempo minimo de resposta em SLA?
+- o que é temp de resposta minimo em SLA?
+- qual o tempo de resposta minimo no SLA?
+- como medir conformidade de contarto?
+- como medir conformidade de contrato?
+- como meder conformidade de contrato?
+- o que significa RPO e RTO?
+- oq significa RPO e RTO?
+- o que siognifica RPO e RTO?
+- como aplico policie de segurança e conformidade?
+- como aplico policy de seguranÇa e compliance?
+- como aplicar politicas de seguranÇa?
+- o que contempla uma política de quota?
+- o que contem política de quota?
+- o que contêm uma politca de quota?
+- como definir limites de taxa?
+- como definir limtes de rate limiting?
+- como defenir rate limiting?
+- qual a função do SLA em APIs?
+- qual a funçao do SLA em APIs?
+- qual função do SLA em apis?
+- o que é garantia de disponbilidade?
+- o que é garantia de disponibilidade?
+- o que e garantia de disponiblidade?
+- como monitorar SLA no AnyPoint?
+- como monitrr SLA no Anypoint?
+- como monitor SLA no Anypoint?
+- quais métricas de conformidade usar?
+- quais metricas de compliance usar?
+- quais metrices de conformidade usar?
+- por que precisamos de políticas de governança?
+- por q precisamos de politicas de governanca?
+- por que precismos de políticas de governanca?
+- como aplico políticas de compliance?
+- como aplico politicas de compliance?
+- como aplicar politicas de compliance?
+- o que è politica de versionamento obrigatorio?
+- o que é política de versionamento obrigátorio?
+- o que significa versionamento obrigatório?
+- como definir política de transfoemação de dados?
+- como defino politique de transformação?
+- como definir politca de transformação de dados?
+- o que é política de retry/back-off?
+- o que é policia de retry/back-off?
+- o que é poĺıtica de retry/backoff?
+- como assegurar politicas de criptografia?
+- como asegura politicas de cripto?
+- como garantir politicas de criptografia?
+- o que significa circuit breaker?
+- o que signfica circuit breaker?
+- o que é “circuit breake”?
+- como impor contratos de SLA?
+- como impor contratos de slA?
+- como impedir contratos de SLA?
+- o que é SLA de throughput?
+- o que é SLA de throughtput?
+- o que significa throughput SLA?
+- como configurar politíca de timeout?
+- como configurar politica de timeout?
+- como configuro política de timout?
+- para que serve política de autorização?
+- para que serve politica de autorizacao?
+- para que serve polit́ıca de autorização?
+- como faço auditoria de compliance?
+- como faço audotoria de compliance?
+- como fzo auditoria de compliance?
+- o que é “audit trail” em APIs?
+- o que é “aduit trail” em APIs?
+- o que significa “audit trael”?
+- como criar politica de expiracao de sessao?
+- como criar poĺıtica de expiracao de sessão?
+- como criar politíca de expiração de sessao?
+- por que impor limites de payload?
+- por que impor limitess de payload?
+- por que impor limit de payload?
+- como implemetar policias de governanca?
+- como implementar políticas de govrnanca?
+- como implementar politcas de governanca?
+- o que abrange politicas de governanca?
+- o que abrange politicas de governanca?
+- o que inclui politicas de governance?
+- como auditar politicas de SLA?
+- como auditar politicas de SLA?
+- como auditar policies de SLA?
+- o que é policy enforcement?
+- o que é aplicacao de policy?
+- como aplicar policy enforcement?
+- por que definir politicas de SLA?
+- por que definir politicas de SLA?
+- por que definir policias de SLA?
+- como renovar politicas de SLA?
+- como renovar policies de SLA?
+- como atualizar politicas de SLA?
+- como medir compliance com policias?
+- como medir compliance com politicas?
+- como mensurar compliance via politicas?
+- o que são thresholds em políticas?
+- o que sao thresholds em politicas?
+- o que signific thresholds em politicas?
+- como defino thresholds em SLA?
+- como chavar thresholds em SLA?
+- como setar thresholds em SLA?
+#en:
+- what are API governance policies?
+- what are API governence policies?
+- what are API govrnance policies?
+- what are governance policiees in APIs?
+- what are governance policys in APIs?
+- what are governence policies in APIs?
+- what does compliance mean in API policies?
+- what does complience mean in API policies?
+- what does compliance mean in API policys?
+- what does compliance meen in API policies?
+- what are SLA policies used for?
+- what are SLA polisies used for?
+- what are SLA policys used for?
+- what are SLA policies used4?
+- how do I define SLA for an API?
+- how do I defne SLA for an API?
+- how do I define SLa for an API?
+- how do I define SLA for API?
+- how do I define SLA 4 an API?
+- what is minimum response time in SLA?
+- what is minumum response time in SLA?
+- what is minimun response time in SLA?
+- what is minimum responce time in SLA?
+- what is minimum response time in SL?
+- how to measure contract compliance?
+- how to measur contract compliance?
+- how to measure contraact compliance?
+- how to measure contract complianc?
+- how to measure contract complience?
+- what do RPO and RTO stand for?
+- what do RPO and RPT stand for?
+- what do RPO and RTO stan for?
+- what do RPO and RTO stand4?
+- what do RPO an RTO stand for?
+- how do I apply security and compliance policy?
+- how do I apply securty and compliance policy?
+- how do I apply security and complience policy?
+- how do I apply security and compliance polic?
+- how do apply security and compliance policy?
+- what does a quota policy include?
+- what does a quota policie include?
+- what does a quota policy inlude?
+- what does quota policy include?
+- what does a quota policy inclde?
+- how to set rate limiting policies?
+- how to set rate limiting policys?
+- how to set rat limiting policies?
+- how to set rate limitting policies?
+- how to set rate limiting polis?
+- what is the role of SLA in APIs?
+- what is the role of SLA in API?
+- what is the role of SL in APIs?
+- what is the role of SLA in Apis?
+- what is the role of SLA in APIS?
+- what is availability guarantee?
+- what is availablity guarantee?
+- what is availability garantee?
+- what is availability guarentee?
+- what is availability guaranty?
+- how to monitor SLAs in Anypoint?
+- how to monitor SLAs in AnyPoint?
+- how to mointor SLAs in Anypoint?
+- how to monitor SLA in Anypoint?
+- how to monitor SLAs in Anypoin Exchange?
+- which compliance metrics to use?
+- which complience metrics to use?
+- which compliance metrix to use?
+- which compliance metrics to ues?
+- which compliance metrics to use?
+- why do we need governance policies?
+- why do we need governence policies?
+- why do we need governance policys?
+- why do we need govrnance policies?
+- why need governance policies?
+- how to enforce compliance policies?
+- how to enforce complience policies?
+- how to enforce compliance polis?
+- how to enforc compliance policies?
+- how to enforce compliace policies?
+- what is enforced versioning policy?
+- what is enforced versioning polic?
+- what is enforced versioning polcy?
+- what is enforce versioning policy?
+- what is enforced versioning polcies?
+- how to define data transformation policy?
+- how to define data transformtion policy?
+- how to define data transformation polic?
+- how to define data transmformation policy?
+- how to define data transformation polcy?
+- what is retry/back-off policy?
+- what is retry/backoff policy?
+- what is retry back-off policy?
+- what is retrie/back-off policy?
+- what is retry/back-off polic?
+- how to ensure encryption policies?
+- how to ensure encryption policys?
+- how to ensure encription policies?
+- how to ensure encryption polcies?
+- how ensure encryption policies?
+- what does “circuit breaker” mean?
+- what does “circuit breker” mean?
+- what does circuit breaker mean?
+- what does “circuit breaker” meen?
+- what does “cicruit breaker” mean?
+- how to enforce SLA contracts?
+- how to enforce SLA contracs?
+- how to enforce SLA contract?
+- how to enforce SLA contrcts?
+- how to enforce SLa contracts?
+- what is throughput SLA?
+- what is thrughput SLA?
+- what is throughput SL?
+- what is throughput SLa?
+- what is throughtput SLA?
+- how to configure timeout policy?
+- how to configure timout policy?
+- how to configure timeout polic?
+- how to configure timeot policy?
+- how to cnfigure timeout policy?
+- why use authorization policy?
+- why use authorizaton policy?
+- why use authorization polic?
+- why use authrization policy?
+- why use authorization polcy?
+- how to audit compliance?
+- how to audit complience?
+- how to audit compliancee?
+- how to aduit compliance?
+- how to audit compliace?
+- what is an “audit trail” in APIs?
+- what is an “aduit trail” in APIs?
+- what is an “audit trael” in APIs?
+- what is an “audit trail” in API?
+- what is an audit trail in APIs?
+- how to create session expiration policy?
+- how to create session experation policy?
+- how to create session expiration polic?
+- how to create session expiretion policy?
+- how to create session expiration polcy?
+- why enforce payload size limits?
+- why enforce payload size limts?
+- why enforce payload size lmits?
+- why enforce paylod size limits?
+- why enfource payload size limits?
+- what are API governance policies?
+- what are API governence policies?
+- what are API goverance policies?
+- what are API governance policys?
+- what are API governace policies?
+- what are API governence policys?
+- what does complianc mean in API policies?
+- what does compliane mean in API policies?
+- what does complience mean in API policies?
+- what does compliance mean in API policie?
+- what does compliance mean in API policy?
+- what are SLA policys used for?
+- what are SLA policies used 4?
+- what r SLA policies used for?
+- what are SLA polisies used for?
+- what are SLA policiez used for?
+- how do I define SLa for an API?
+- how do I defne SLA for API?
+- how do I define SL4 for an API?
+- how do I define SLA for An API?
+- how do I define SLA for an ApI?
+- what is minumum response time in SLA?
+- what is minimum response tiem in SLA?
+- what is minimum reposnse time in SLA?
+- what is minimum response tim in SLA?
+- what is minimum response time in SL?
+- how to measur contract compliance?
+- how to measure contract complience?
+- how to measure contraact compliance?
+- how to mesure contract compliance?
+- how measure contract compliance?
+- what do RPO and RTO stan for?
+- what do RPO and RTO stand4?
+- what do RPO and RTO stnad for?
+- what do RPO and RTO standfor?
+- what do RPO and RTO stand for?
+- how do I apply securty and compliance policy?
+- how do I apply security and complience policy?
+- how do I apply securtiy and compliance policy?
+- how do I apply security and compliance policie?
+- how do I aplly security and compliance policy?
+- what does a quato policy include?
+- what does a quota policie include?
+- what does a quota policy inclde?
+- what does quota policy include?
+- what does a quota policy inlude?
+- how to set rate limitting policies?
+- how to set rate limiting policys?
+- how to set rat limiting policies?
+- how to set rate limiting polis?
+- how to set rate limitng policies?
+- what is the role of SLa in APIs?
+- what is the role of SLA in API?
+- what is the role of SLA in Apis?
+- what is the rule of SLA in APIs?
+- what is the role of SLA in ApI?
+- what is availablity guarantee?
+- what is availability guarentee?
+- what is availabilty guarantee?
+- what is availability guaranty?
+- what is availability garuntee?
+- how to monitor SLA in Anypoint?
+- how to monitor SLAs in AnyPoint?
+- how to monitor SLA in Anypoint Exch?
+- how to montior SLAs in Anypoint?
+- how to monitor SLAs in Anypoint Ex?
+- which compliance metrix to use?
+- which compliance metrics to ues?
+- which complience metrics to use?
+- which compliance metrics to use?
+- which compliance metrics do we use?
+- why do we need govrnance policies?
+- why do we need governance policys?
+- why do we need governence policies?
+- why must we have governance policies?
+- why we need governance policies?
+- how to enforce compliance policies?
+- how to enforce complience policies?
+- how to enforece compliance policies?
+- how to enforce compliance police?
+- how to enforce compliace policies?
+- what is enforced versioning policie?
+- what is enforced versioning polcy?
+- what is enforced versioning policy?
+- what is enforced versioning policis?
+- what is enforced versioning polcies?
+- how to define data transformtion policy?
+- how to define data transform policy?
+- how to define data transfermation policy?
+- how to define data trasnformation policy?
+- how to define data transformation policiy?
+- what is retry/backoff policy?
+- what is retry/back-off policy?
+- what is retry backoff policy?
+- what is retry/backup policy?
+- what is retry/back-off policie?
+- how to ensure encription policies?
+- how to ensure encryption polices?
+- how to ensure encryption polciies?
+- how ensure encryption policies?
+- how to ensure encryption policy?
+- what does circuit breaker meam?
+- what does circuit breaker mean?
+- what does cicruit breaker mean?
+- what does circuit breker mean?
+- what does circuit breaker meen?
+- how to enforce SLA contract?
+- how to enforce SLA contracs?
+- how to enforce SLA contrct?
+- how to enforce SLA contracts?
+- how to enforce SLA contractz?
+- what are governance policies in APIs?
+- what does compliance mean in API policies?
+- what are SLA policies used for?
+- how do I define SLA for an API?
+- what is minimum response time in SLA?
+- how to measure contract compliance?
+- what do RPO and RTO stand for?
+- how do I apply security and compliance policy?
+- what does a quota policy include?
+- how to set rate limiting policies?
+- what is the role of SLA in APIs?
+- what is availability guarantee?
+- how to monitor SLAs in Anypoint?
+- which compliance metrics to use?
+- why do we need governance policies?
+- how to enforce compliance policies?
+- what is enforced versioning policy?
+- how to define data transformation policy?
+- what is retry/back-off policy?
+- how to ensure encryption policies?
+- what does “circuit breaker” mean?
+- how to enforce SLA contracts?
+- what is throughput SLA?
+- how to configure timeout policy?
+- why use authorization policy?
+- how to audit compliance?
+- what is an “audit trail” in APIs?
+- how to create session expiration policy?
+- why enforce payload size limits?
+#vr_pt: |
+Políticas de governança definem regras e SLAs para garantir conformidade, segurança e disponibilidade das APIs. Elas abrangem controle de acesso, rate limiting, quotas, criptografia, monitoramento de métricas (latência, erros, throughput) e acordos de nível de serviço (SLA) como tempo máximo de resposta, taxa mínima de disponibilidade e recuperação (RTO/RPO). Implementadas via Anypoint Policy Manager, asseguram que as APIs operem dentro de limites acordados e atendam requisitos regulatórios.
+#vr_en: |
+Governance policies define rules and SLAs to ensure API compliance, security and availability. They cover access control, rate limiting, quotas, encryption, monitoring of metrics (latency, error rates, throughput), and service-level agreements (SLAs) such as maximum response time, minimum uptime and recovery objectives (RTO/RPO). Enforced through Anypoint Policy Manager, they ensure APIs operate within agreed parameters and meet regulatory requirements.
+---
+#intent: mulesoft/governance_and_lifecycle/documentation_and_dev_portal
+#pt:
+- oq é portal de desenvolvedor?
+- o que e portal de desenvolvedor?
+- o q é portal de desenvolvedor no Anypoint?
+- o que e portal de dev no AnyPoint?
+- para q serve portal de desenvolvedor?
+- pra que serve portal de desenvolvedor?
+- para que serve o portal de dev?
+- como uso o portal dev?
+- como usar portal de desenolvedor?
+- como eu uso portal desenvolvedor?
+- onde encontra documentação de APIs?
+- onde acho doc de APIS?
+- onde enconto a documentaçao de APIs?
+- onde esta a doc de API no Exchange?
+- onde tá doc no Anypoint Exchange?
+- como acessar a doc de APIs?
+- como acessa doc de API?
+- como percorar documentaçao de APIs?
+- para que serve documentação de API?
+- para q serve doc de APi?
+- o que contem doc no Exchange?
+- o que contêm a doc no Exchange?
+- o q tem na doc do portal?
+- como publico docs no portal?
+- como pubicar docs no portal?
+- como publiar documentação no portal?
+- como coloco doc no portal?
+- como usa portal dev do MuleSoft?
+- como usar portal dev MuleSoft?
+- usar portal dev MuleSoft como?
+- o que significa developer portal?
+- o q é developer portal?
+- o que quer dizer developer portal?
+- onde configuro portal de dev?
+- onde configurar portal de desenvolvedor?
+- onde seto o portal de dev?
+- como personalizo portal dev?
+- como personolizar portal de desenvolvedor?
+- como personalizo portal de desenvolvedor?
+- como faço autodocumentação de API?
+- como auto gerar doc de API?
+- como eu autogero doc de APi?
+- o que é self service de APIs?
+- o q é self service de API?
+- o que significa self-service de APIs?
+- como disponibilizo docs para devs?
+- como disponiblizar docs para dev?
+- onde ach docs para devs?
+- onde ficam tutoriais no portal?
+- onde ta tutoriais no portal?
+- onde encrontra tutoriais no portal?
+- como navego no portal de dev?
+- como navergar no portal de dev?
+- como navo por portal de desenvolvedor?
+- o que inclui guia de referência?
+- o que inclue guia de ref de API?
+- o que tem na guia de ref de APIs?
+- como gerenciar doc no Exchange?
+- como gerencair doc no Exchange?
+- como gerencia documentação no Exchange?
+- o que é portal desenvolvedor em uma linha?
+- oq é portal dev resumido?
+- para q serve portal dev resumido?
+- como abreviar doc no portal?
+- como simplificar portal de dev?
+- o q posso fazer no portal?
+- o q faz portal de dev?
+- quais recursos no portal?
+- quais funcoes do portal?
+- o que e portal dev no Mule?
+- o que e portal dev Mulesoft?
+- como se loga no portal?
+- como logar no portal de dev?
+- onde me registro no portal?
+- como registro no portal?
+- como crio conta no portal?
+- como me cadastra no portal de dev?
+- como configuro tutorial no portal?
+- como ponho tutorial no portal?
+- onde coloco exemplos no portal?
+- como coloco exemplos de uso no portal?
+- o q é swagger no portal?
+- o que significa swagger no portal?
+- como integrar swagger no portal?
+- o que são SDKs no portal?
+- o q são SDKs mostrados no portal?
+- como publico SDKs no portal?
+- como deposita SDK no portal?
+- como adiciono tutoriais no portal?
+- como adiciono keys no portal?
+- como gero chave API no portal?
+- como solicito chave no portal?
+- onde configuro rate limit no portal?
+- onde faz rate limit no portal?
+- como monitora métricas no portal?
+- como ver métricas no portal?
+- como extrair analytics do portal?
+- como exportar analytics do portal?
+- como personalizar layout do portal?
+- como mudar tema do portal?
+- como ajusto cores no portal?
+- como edito menu do portal?
+- como adiciono páginas no portal?
+- como removo página no portal?
+- como reorganizo nav do portal?
+- como defino sidebar no portal?
+- como configuro busca no portal?
+- como habilito busca no portal?
+- como indexar APIs no portal?
+- como faço search no portal?
+- o que é portal de desenvolvedor?
+- o que é portal de desenvolvedor no Anypoint?
+- para que serve o portal de desenvolvedor?
+- como uso o portal de desenvolvedor?
+- onde encontro a documentação de APIs?
+- como acessar a documentaçao de APIs?
+- para que serve a docummentação de API?
+- o que contem a documentação no Exchange?
+- como publico docs no portal?
+- como usar o portal dev do MuleSoft?
+- o que significa developer portal?
+- onde configuro o portal de desenvolvedor?
+- como personalizo o portal de dev?
+- como faço auto documentaçao de API?
+- o que é self-service de APIs?
+- como disponibilizar docs para devs?
+- onde ficam os tutoriais no portal?
+- como navego na portal de desenvolvedor?
+- o que inclui a guia de referência de APIs?
+- como gerenciar documentação no Anypoint Exchange?
+- oq é portal de desenvolvedor?
+- o que é portal de desenvolvedor no Anypoint Exchange?
+- o que é portl de desenvolvedor?
+- oq é portal de dev?
+- o que e portal de dev MuleSoft?
+- o q é portal de desenvovedor?
+- para que serve portal de dev?
+- para que serce portal desenvolvedor?
+- para que serve portl dev?
+- como uso o portal de dev MuleSoft?
+- como uço portal de desenvolvedor?
+- como uso portal desenolvedor?
+- onde encontro portal de dev?
+- onde encontoro portal de desenvolvedor?
+- onde acha portal de dev?
+- onde ta portal de dev?
+- como achar portal de dev?
+- como aesso portal de dev?
+- como acsesso portal de desenvolvedor?
+- como aceso portal de desemvolvedor?
+- para que serve doc no portal?
+- para que serve documentação no portal?
+- para que serve doc no portl?
+- o que contem portal de dev?
+- oq contem portal de desenvolvedor?
+- oq contém portal de dev?
+- oq contem portal dev?
+- o que mostra portal de dev?
+- o que mostra portl dev?
+- como personalizo portal?
+- como perssonalizo portal de dev?
+- como customizo portal de desenv?
+- como personaliza portal?
+- como configuro portal dev?
+- como configuro portal do MuleSoft?
+- como configro portal de dev?
+- como seto portal de dev?
+- onde configuro portal?
+- onde seto portal de dev?
+- onde configro portal dev?
+- como adiciono tutorial no portal?
+- como adciono tutorial no portal?
+- como adicion tutorial ao portal?
+- como incluo tutorial no portal?
+- como publico tutorial no portal?
+- como public tutorial no portal?
+- como subo tutorial no portal?
+- como faço documentação no portal?
+- como fço documentação no portal?
+- como gerar docs no portal?
+- como ger docs no portal?
+- como gero docs no portal?
+- como pegar docs no portal?
+- como obtem docs no portal?
+- onde aparece docs no portal?
+- onde tá documentação no portal?
+- onde ta doc no portal?
+- como auto gerar docs?
+- como auto gerar doc no portal?
+- comme auto gerar docs?
+- como mgatur docs no portal?
+- o que é self-service dev?
+- o que é serve Self-Service de APIs?
+- o que siginifica Self-Service?
+- oq é self-service no portal?
+- como funciona self-service no portal?
+- como funcina self-service no portl?
+- como habilito self-service?
+- como habilto self-service no portal?
+- como ativar self-service?
+- como ativ self-service?
+- como gero chave API no portal?
+- como gerar chave API?
+- como ger chave no portal?
+- como solicitar chave no portal?
+- como solicit chave?
+- onde solicito chave?
+- como pego key no portal?
+- como pego API key no portl?
+- como reproduzo exemplos no portal?
+- como exbibo exemplos no portal?
+- como exibo exempleos no portal?
+- como mostro exemplos no portal?
+- onde ficam exemplos?
+- onde encontra exemplos no portal?
+- onde ta exemplos?
+- como incluo SDKs no portal?
+- como incluo sdks no portal?
+- como adicionar SDK no portal?
+- como adicon SDK no portal?
+- como publico SDK no portal?
+- como publico sdks?
+- como subir SDK no portal?
+- como subo SDK?
+- o que são SDKs no portal?
+- oq são SDK no portal?
+- o que contêm SDK no portal?
+- oq contêm sdks no portal?
+- para que servem SDK no portal?
+- por que SDKs no portal?
+- como gerencio docs no portal?
+#en:
+- what is the developer portal?
+- what is the developer portal in Anypoint?
+- what is the purpose of the developer portal?
+- how do I use the developer portal?
+- where do I find the API documentation?
+- how do I access API documentation?
+- what does API documentation include?
+- how do I publish docs in the portal?
+- how to use MuleSoft’s dev portal?
+- what does developer portal mean?
+- where do I configure the developer portal?
+- how do I customize the dev portal?
+- how to auto-generate API docs?
+- what is self-service API?
+- how to expose docs to developers?
+- where are tutorials located in the portal?
+- how to navigate the developer portal?
+- what is the reference guide section?
+- how to manage documentation in Anypoint Exchange?
+- how to enable versioned docs in the portal?
+- what is the developer portal?
+- what is the develope portal?
+- what is the developer poral?
+- what is the developer portl?
+- what is the developer portal in Anypoint?
+- what is the developer portal in AnyPoint?
+- what is the developer portal in Anypont?
+- what is the developer portal in Anypoing?
+- what is the purpose of the developer portal?
+- what is the purpse of the developer portal?
+- what is the purpose of the developr portal?
+- what is the purpose of the devoloper portal?
+- how do I use the developer portal?
+- how do I use the develper portal?
+- how do I use the developer poratl?
+- how do I us the developer portal?
+- where do I find the API documentation?
+- where do I find the API documenation?
+- where do I find the API doc?
+- where can I find the API documentation?
+- how do I access API documentation?
+- how do I access API documenation?
+- how do I acces the API documentation?
+- how do I acces API docs?
+- what does API documentation include?
+- what does API documenttion include?
+- what does API doc include?
+- what does API documentation inclde?
+- how do I publish docs in the portal?
+- how do I publish docs in the poratl?
+- how do I publish docs in the develper portal?
+- how to publish docs in the portal?
+- how to use MuleSoft’s dev portal?
+- how to use MuleSoft’s dev poral?
+- how to use Mulesoft’s dev portal?
+- how to use Mulesoft dev portal?
+- what does developer portal mean?
+- what does develper portal mean?
+- what does developer poral mean?
+- what does developer portal mens?
+- where do I configure the developer portal?
+- where do I configure the developer poratl?
+- where do I configure dev portal?
+- how do I customize the dev portal?
+- how do I customize the deveLoper portal?
+- how do I custmize the dev portal?
+- how to customize the dev portal?
+- how to auto-generate API docs?
+- how to auto-generate API documenation?
+- how to auto-generate API doc?
+- how to autogen API docs?
+- what is self-service API?
+- what is selfservice API?
+- what is self service API?
+- what is self-service APi?
+- how to expose docs to developers?
+- how to exose docs to developers?
+- how to expose docs to developrs?
+- how to expose doc to developers?
+- where are tutorials located in the portal?
+- where are tutorials located in the poral?
+- where are tutorials in the developer portal?
+- where find tutorials in the portal?
+- how to navigate the developer portal?
+- how to navigate the dev portal?
+- how to navigte the developer portal?
+- how do I navigate the developer portal?
+- what is the reference guide section?
+- what is the reference guide secion?
+- what is the reference guide sectrion?
+- what is the refernce guide section?
+- how to manage documentation in Anypoint Exchange?
+- how to manage documention in Anypoint Exchage?
+- how to manage docs in Anypoint Exchange?
+- how to manage documentation in AnyPoint Exchange?
+- how to enable versioned docs in the portal?
+- how to enable versioned docs in the poratl?
+- how to enable versioned docs in the dev portal?
+- how to enable versioned doc in the portal?
+- what is the developer portal for?
+- what is the developer portal used for?
+- why use the developer portal?
+- why use developer portal?
+- why use the dev portal?
+- what features does the developer portal offer?
+- what features does the developer poral offer?
+- what feaures does the developer portal offer?
+- what features does the dev portal offer?
+- how to login to the developer portal?
+- how to login to the develper portal?
+- how do I login to the developer portal?
+- how do I log in to the developer portal?
+- how to register on the developer portal?
+- how to register on the developer poratl?
+- how to register on dev portal?
+- how do I register on the developer portal?
+- how to customize portal theme?
+- how to customize portal teem?
+- how to customize portal theme?
+- how to change portal theme?
+- how to change portal theeme?
+- what is the deveoper portal?
+- what is the devloper portal?
+- what is the developer poortal?
+- what is the developer portaal?
+- what is the developer poratl?
+- what is the dev portal?
+- what is the dev poral?
+- what is the dev portall?
+- what is the dev porta?
+- what is the develp portal?
+- how to access the dev portal?
+- how to acces the dev portal?
+- how to acess the dev poral?
+- how to acces the dev porta?
+- how to acces the dev portal?
+- where find API docs?
+- where find API doc?
+- where to find API docs?
+- where 2 find API docs?
+- where do I find API doc?
+- how to publish doc?
+- how to publish docs?
+- how to publih docs?
+- how to pubish docs?
+- how to pubish doc?
+- how do I publsh docs?
+- how do I publish doc?
+- how to generate SDK?
+- how to generate SDKs?
+- how to genrate SDK?
+- how to genrate SDKs?
+- how to gen SDK?
+- how to git SDK?
+- how to crate SDK?
+- how to crate SDKs?
+- how to add SDK?
+- how to add SDks?
+- how to add SDk?
+- what is custom portal?
+- what is customise portal?
+- what is customze portal?
+- what is customize poral?
+- what is customize poratl?
+- why use dev portal?
+- why use dev poral?
+- why use dev porta?
+- why use dev portal?
+- why use develp portal?
+- when use portal?
+- when to use portal?
+- wnen to use portal?
+- wen to use portal?
+- whento use portal?
+- how to update portal?
+- how to update poral?
+- how to update porta?
+- how to updte portal?
+- how to upate portal?
+- how to login portal?
+- how to login poral?
+- how do I log in portal?
+- how do I logon portal?
+- how do I logn portal?
+- how do i log in portal?
+- how to signup portal?
+- how to signup poral?
+- how to sign up portal?
+- how to sign up poral?
+- how to sign up porta?
+- how to register portal?
+- how to regster portal?
+- how do I regiser portal?
+- how do I register poral?
+- how do I register porta?
+- what is portal URL?
+- what is portal URl?
+- what is portal Url?
+- what is portal url?
+- what is portal uRL?
+- how to navigate poral?
+- how to navigate poortal?
+- how to nvigate portal?
+- how to navigte poral?
+- how to navgate portal?
+- what is API explorer?
+- what is API explor?
+- what is API exporer?
+- what is API explore?
+- what is API exporer?
+- how to use API explorer?
+- how to use API explor?
+- how to use API exporer?
+- how to use API expore?
+- how to use API exporer?
+- where is API explorer?
+- where is API explor?
+- where is API exporer?
+- where is API expore?
+- where is API exporer?
+- how to test in portal?
+- how to test in poral?
+- how to test in porta?
+- how to test in poortal?
+- how to tst in portal?
+- how to test APIs online?
+- how to test API online?
+- how to test APIs onine?
+- how to test APIs on poral?
+- how to test APIs on portl?
+#vr_pt: |
+O portal de desenvolvedor é a interface web onde consumidores acessam documentação, exemplos de uso, SDKs e tutoriais. Ele conecta ao Anypoint Exchange, permite auto-registro, descoberta de APIs, testes interativos e gerenciamento de chaves de API.
+#vr_en: |
+The developer portal is the web interface where consumers access documentation, usage examples, SDKs, and tutorials. It integrates with Anypoint Exchange, supports self-registration, API discovery, interactive testing, and API key management.
+---
+#intent: mulesoft/security_and_authentication/oauth2_jwt
+#pt:
+- o que é OAuth2?
+- para que serve OAuth2?
+- como funciona o fluxo OAuth2?
+- quais são os tipos de grant no OAuth2?
+- o que é JWT?
+- para que serve um token JWT?
+- como validar um JWT no MuleSoft?
+- como configurar OAuth2 no Anypoint?
+- o que significa “access token” no OAuth2?
+- como renovar um token OAuth2?
+- o que é “refresh token”?
+- qual a diferença entre bearer token e JWT?
+- como extrair claims de um JWT?
+- como proteger APIs com OAuth2?
+- como implementar client credentials grant?
+- o que é authorization code grant?
+- para que serve o ID token no OpenID Connect?
+- como integrar OAuth2 com múltiplos IdPs?
+- como configurar policy de JWT validation?
+- quais boas práticas para armazenar tokens?
+- o que e OAuth2?
+- oq é OAuth2?
+- o que é Oauth2?
+- o que é OAtuh2?
+- oque é OAuth2?
+- oq é Oauth2?
+- o que é OAuth-2?
+- o que è OAuth2?
+- o que eh OAuth2?
+- o que é Oauth 2?
+- para que serve OAuth2?
+- para q serve OAuth2?
+- para que serve Oauth2?
+- para que serve OAtuh2?
+- para que serve OAuth-2?
+- pra que serve OAuth2?
+- para que esrve OAuth2?
+- para que serve AOuth2?
+- para que serve oAuth2?
+- para que srve OAuth2?
+- como funciona o fluxo OAuth2?
+- como funciona o fluxo Oauth2?
+- como funciona o fluxo OAtuh2?
+- como funciona o fluxo OAuth-2?
+- como funciona o fluoxo OAuth2?
+- como funcona o fluxo OAuth2?
+- como funciona o fluxo de OAuth2?
+- como funciona o floxo OAuth2?
+- como funconia o fluxo OAuth2?
+- como funciona o flores OAuth2?
+- quais são os tipos de grant no OAuth2?
+- quais sao os tipos de grant no OAuth2?
+- quais são os tipos de graant no OAuth2?
+- quais são os tipos de grant no Oauth2?
+- quais são os tipos de grant no OAtuh2?
+- quais são os tipos de grant no OAuth-2?
+- quais são os tipos de grante no OAuth2?
+- quais sao os tipos de grant em OAuth2?
+- quais são os tipoes de grant no OAuth2?
+- quais são os tipos de grant no Auth2?
+- o que é JWT?
+- oq é JWT?
+- o que eh JWT?
+- o que é JTW?
+- oque é JWT?
+- o que é jwt?
+- o que è JWT?
+- o que é JT2?
+- para que serve um token JWT?
+- para q serve um token JWT?
+- para que serve um token jWT?
+- para que serve um token JTW?
+- para que serve o token JWT?
+- para que serve token JWT?
+- pra que serve um token JWT?
+- para que serve um token JWT?
+- para que serve um token JWT2?
+- para que serve um token J TW?
+- como validar um JWT no MuleSoft?
+- como validar um JWT no Mulesoft?
+- como validar um JTW no MuleSoft?
+- como validar um JWT no Mule Soft?
+- como validar JWT no MuleSoft?
+- como validar um jwT no MuleSoft?
+- como validar um JWT no MuleSof?
+- como validar um token JWT no MuleSoft?
+- como validr um JWT no MuleSoft?
+- como validar um JWT no MuleSoft?
+- como configurar OAuth2 no Anypoint?
+- como configurar OAuth2 no AnyPoint?
+- como configuar OAuth2 no Anypoint?
+- como configurar OAuth-2 no Anypoint?
+- como configurar oAuth2 no Anypoint?
+- como configurar OAuth2 no Anypoint Platorm?
+- como configurar OAuth2 no Anypoint Platfrom?
+- como configurr OAuth2 no Anypoint?
+- como configurar OAuth2 no Anypont?
+- como configur OAuth2 no Anypoint?
+- o que significa “access token” no OAuth2?
+- o que significa access token no OAuth2?
+- o que significa “acess token” no OAuth2?
+- o que significa “access toke” no OAuth2?
+- o que significa “acess token” no Oauth2?
+- o que significa “access token” no OAuth-2?
+- o que signfica “access token” no OAuth2?
+- o que signica “access token” no OAuth2?
+- o que significa “access token” no OAuth2?
+- o que significa “access token” no Aut2?
+- como renovar um token OAuth2?
+- como renovar o token OAuth2?
+- como renova um token OAuth2?
+- como renovar um tokem OAuth2?
+- como renovar um token Oauth2?
+- como renovar um token OAuth-2?
+- como renvar um token OAuth2?
+- como renova token OAuth2?
+- como renovar um toke OAuth2?
+- como renovr um token OAuth2?
+- o que é “refresh token”?
+- o que e refresh token?
+- oq é “refresh token”?
+- o que eh “refresh token”?
+- o que significa “refresh token”?
+- o que significa rrefresh token?
+- o que significa “refresh toke”?
+- o que é “refres token”?
+- o que é “refresh-token”?
+- o que é “refresh tken”?
+- qual a diferença entre bearer token e JWT?
+- qual a difereça entre bearer token e JWT?
+- qual a diferença entre bearer toke e JWT?
+- qual a diferença entre bearer token e JTW?
+- qual a diferença entre bearer token e jwt?
+- qual a dif entre bearer token e JWT?
+- qual diferenca bearer token e JWT?
+- qual a diferença bearer token vs JWT?
+- qual a diferença entre bearer token x JWT?
+- qual a diferenca entre bearer token e JWT?
+- como extrair claims de um JWT?
+- como extrair claims de um jWT?
+- como extrair clains de um JWT?
+- como extair claims de um JWT?
+- como extrair clams de um JWT?
+- como extrar claims de um JWT?
+- como extrar claims do JWT?
+- como extrair claims via JWT?
+- como extrair cliams de um JWT?
+- como extrair claims de um JTW?
+- como proteger APIs com OAuth2?
+- como proteger APIS com OAuth2?
+- como proteger APIs com Oauth2?
+- como proteger APIs com OAuth-2?
+- como protger APIs com OAuth2?
+- como proteger APIs via OAuth2?
+- como proteger APIs usando OAuth2?
+- como proteger API com OAuth2?
+- como protger APIs c OAuth2?
+- como proteger APis com OAuth2?
+- como implementar client credentials grant?
+- como implementar client credentias grant?
+- como implementar client credentials grand?
+- como implementar client credentials grant?
+- como implementar client credencials grant?
+- como implementar client credentials grant?
+- como implemntar client credentials grant?
+- como implementar client credentials grant no MuleSoft?
+- como implementar client credentials grant?
+- como implementar client credentails grant?
+- o que e OAuth2?
+- oq é OAuth2?
+- o que é Oauth2?
+- o que é OAtuh2?
+- oque é OAuth2?
+- oq é Oauth2?
+- o que é OAuth-2?
+- o que eh OAuth2?
+- para que serve OAuth2?
+- para q serve OAuth2?
+- pra que serve OAuth2?
+- para que serve Oauth2?
+- para que serve OAuth-2?
+- para que serve oAuth2?
+- como funciona o fluxo OAuth2?
+- como funciona o fluxo Oauth2?
+- como funciona o fluoxo OAuth2?
+- como funcona o fluxo OAuth2?
+- como funciona o fluxo de OAuth2?
+- quais os tipos de grant OAuth2?
+- quais são os tipos de grant no OAuth2?
+- quais são os tipos de grant em OAuth2?
+- quais são os tipos de grant no Oauth2?
+- o que é JWT?
+- oq é JWT?
+- o que eh JWT?
+- o que é JTW?
+- oque é JWT?
+- o que é jwt?
+- para que serve JWT?
+- para que serve um token JWT?
+- para q serve um token JWT?
+- pra que serve um token JWT?
+- como validar JWT no MuleSoft?
+- como validar um JWT no MuleSoft?
+- como validar JWT no Mule Soft?
+- como validar um JTW no MuleSoft?
+- como configurar OAuth2 no Anypoint?
+- como configurar OAuth2 no AnyPoint?
+- como configuar OAuth2 no Anypoint?
+- como configurar OAtuh2 no Anypoint?
+- o que significa access token?
+- o que signfica access token?
+- o que significa “access toke”?
+- o que significa “acess token”?
+- como renovar token OAuth2?
+- como renovar um token OAuth2?
+- como renova um token OAuth2?
+- o que é refresh token?
+- oq é refresh token?
+- o que eh refresh token?
+- qual a diferença bearer e JWT?
+- qual dif entre bearer token e JWT?
+- qual a diferença entre bearer token e JTW?
+- como extrair claims JWT?
+- como extrair claims de um JTW?
+- como extrair clains de um JWT?
+- como proteger APIs com OAuth2?
+- como protger APIs com OAuth2?
+- como proteger APIS c OAuth2?
+- como implementar client credentials grant?
+- como implementar client credentias grant?
+- o que é authorization code?
+- o que eh authorization code grant?
+- como uso refresh token?
+- para que serve refresh token?
+- como extrio claims JWT?
+- como obtenho claims JWT?
+- como configuro JWT validation?
+- como aplicar política JWT?
+- quais boas práticas tokens?
+- quais melhores práticas token?
+- por que usar OAuth2?
+- pq usar OAuth2?
+- por que usar Oauth2?
+- como funciona grant type?
+- como funciona o grant type?
+- o que sao grant types?
+- oq sao grant types?
+- para que serve grant type?
+- o que significa “scope” no OAuth2?
+- o que é scope no OAuth2?
+- como defino scopes no OAuth2?
+- como defino scopes em JWT?
+- o que são scopes?
+- oq são scopes?
+- como armazenar tokens?
+- como guardar tokens?
+- como salvar token JWT?
+- como salvo JWT?
+- qual diferença JWT x OAuth?
+- qual diff JWT vs OAuth?
+- como renovo JWT?
+- como renovar JWT?
+- quando expira token?
+- quando expira JWT?
+- como lidar com expiração de token?
+- o que é token bearer?
+- oq é bearer token?
+- o que eh bearer token?
+- como uso bearer token?
+- para que serve bearer token?
+#en:
+- what is OAuth2?
+- what is Oauth2?
+- what is OAth2?
+- what is OAut2?
+- what is Oauth 2?
+- what is OAuth 2?
+- what is the Oauth2 protocol?
+- what is the purpse of OAuth2?
+- what is the porpose of OAuth2?
+- what is the purpose of Oauth2?
+- what is the purpose of OAuth 2?
+- what is the purpose of OAut2?
+- how does OAuth2 flow work?
+- how does the OAuth2 flo work?
+- how does the OAuth flow work?
+- how does Oauth2 flow wurk?
+- how does the Oauth2 flow work?
+- how does the OAuth2 flow wrk?
+- how does the O Aut2 flow work?
+- how does the OAuth2 protocol work?
+- what are the grant types in OAuth2?
+- what are the grant typs in OAuth2?
+- what are the grant typps in Oauth2?
+- what are the grant types in OAut2?
+- what are grant types in OAuth2?
+- what ar the grant types in OAuth2?
+- what grant types does OAuth2 have?
+- what grants types in OAuth2?
+- what are the grant types for OAuth2?
+- what is JWT?
+- what is J TW?
+- what is JT?
+- what is JTW?
+- what is the JWT token?
+- what is jwt?
+- what is the purpose of JWT?
+- what is the purpose of JTW?
+- what is the porpose of JWT?
+- what is the purpose of JWT tokens?
+- how to validate a JWT in MuleSoft?
+- how to validate JWT in Mulesoft?
+- how to validate a JTW in MuleSoft?
+- how to validate a JWT in Mule Soft?
+- how do I validate JWT in MuleSoft?
+- how to validate jwt in MuleSoft?
+- how do I valdiate a JWT?
+- how to valdate a JWT in MuleSoft?
+- how to configure OAuth2 in Anypoint?
+- how to configure Oauth2 in Anypoint?
+- how to config OAuth2 in AnyPoint?
+- how to configure OAuth 2 in Anypoint?
+- how to set up OAuth2 in Anypoint?
+- how do I configure OAuth2 in Anypoint?
+- how to config OAut2 in Anypoint?
+- what does “access token” mean in OAuth2?
+- what does access token meen in OAuth2?
+- what does “access tokn” mena in OAuth2?
+- what does access token mean for OAuth2?
+- what is “access token” in Oauth2?
+- what does “access token” m ean in OAuth2?
+- what does “acess token” mean?
+- how to refresh an OAuth2 token?
+- how to refresh OAuth2 token?
+- how to renwesh an OAuth2 token?
+- how to refesh an OAuth2 token?
+- how to refresh a Oauth2 token?
+- how do I refresh an OAuth2 token?
+- how to refresh token in OAuth2?
+- what is a “refresh token”?
+- what is the “refresh tokn”?
+- what is a refresh tken?
+- what does “refresh token” mean?
+- what is the purpose of a refresh token?
+- what is “refresh token” in OAuth2?
+- what is the function of refresh token?
+- what is the difference between bearer token and JWT?
+- what is the diference between bearer token and JWT?
+- what is the difference between bearer tokn and JWT?
+- what is the dif between bearer token and JWT?
+- what is the diff between bearer token and JTW?
+- bearer token vs JWT – what’s the difference?
+- how to extract claims from a JWT?
+- how to extract claims from jwt?
+- how to extract cliams from a JWT?
+- how to extact claims from a JTW?
+- how to extract clams from JWT?
+- how to extract claims fom a JWT?
+- how do I extract claims from JWT?
+- how to secure APIs with OAuth2?
+- how to secure APIS with OAuth2?
+- how to secure APIs using Oauth2?
+- how to secure APIs with OAuth 2?
+- how to protect APIs via OAuth2?
+- how do I secure APIs with OAuth2?
+- how to protect APIs with OAut2?
+- how to implement the client credentials grant?
+- how to implement client credntials grant?
+- how to implement client credentals grant?
+- how to implement client credentials grand?
+- how to implement client credentials grant in MuleSoft?
+- how to implement client credentials grant?
+- how to configure client credentials grant?
+- what is the authorization code grant?
+- what is authorization code grant?
+- what is the authorisation code grant?
+- what is the auth code grant?
+- what is the authrization code grant?
+- how to use authorization code grant?
+- what is an ID token in OpenID Connect?
+- what is an ID tokn in OpenID Connect?
+- what is ID token in OpenID?
+- what is id token in OpenID Connect?
+- what is an ID token in OIDC?
+- how to integrate OAuth2 with multiple IdPs?
+- how to integrate Oauth2 with multiple IdPs?
+- how to integrate OAuth2 with mutiple IdPs?
+- how to integrate OAuth2 with multiple identity providers?
+- how to integrate OAuth2 with multi IdPs?
+- how do I integrate OAuth2 with multiple IdPs?
+- how to configure a JWT validation policy?
+- how to configure JWT validation policy?
+- how to configure a JTW validation policy?
+- how to set up JWT validation policy?
+- how to add JWT validation policy?
+- how to enable JWT validation policy?
+- what are best practices for token storage?
+- what are best practises for token storage?
+- what are best practices for token storge?
+- what are best practices for storing tokens?
+- what are best practices for token managment?
+- best practices for storing JWT tokens?
+- what is OAuth2?
+- what is the purpose of OAuth2?
+- how does the OAuth2 flow work?
+- what are the grant types in OAuth2?
+- what is JWT?
+- what is a JWT token used for?
+- how to validate a JWT in MuleSoft?
+- how to configure OAuth2 in Anypoint?
+- what does “access token” mean in OAuth2?
+- how to refresh an OAuth2 token?
+- what is a “refresh token”?
+- what is the difference between a bearer token and JWT?
+- how to extract claims from a JWT?
+- how to secure APIs with OAuth2?
+- how to implement the client credentials grant?
+- what is the authorization code grant?
+- what is an ID token in OpenID Connect?
+- how to integrate OAuth2 with multiple IdPs?
+- how to configure a JWT validation policy?
+- what are best practices for token storage?
+- what iz OAuth2?
+- what is OAut2?
+- what is Oauth 2?
+- what is the purpos of OAuth2?
+- what is the purpse of OAuth2?
+- how dose OAuth2 flow work?
+- how does OAuth2 flo work?
+- how does the OAuth flow work?
+- how does OAuth2 flow wrok?
+- how do I use OAuth2?
+- what are grant types in OAuth2?
+- what are the grant types in Oauth2?
+- what are grant typs in OAuth2?
+- what is JWT?
+- what iz JWT?
+- what is the JWT token?
+- what is the porpose of JWT?
+- what is a JWT tokne used for?
+- how to validate JWT in MuleSoft?
+- how to validate a JTW in MuleSoft?
+- how to validate JWT in Mule Soft?
+- how to set up OAuth2 in Anypoint?
+- how to config OAuth2 in Anypoint?
+- how to config OAuht2 in Anypoint?
+- what does access token mean?
+- what does “access tokn” mean?
+- what does acess token mean?
+- how to refresh an OAuth2 token?
+- how to refesh OAuth2 token?
+- how to renwews OAuth2 token?
+- what is refresh token?
+- what iz refresh token?
+- what is a refresh tken?
+- why use OAuth2?
+- why use Oauth2?
+- why choose OAuth2?
+- how to implement client credentials grant?
+- how to implement client crdentials grant?
+- how to implement client credentials grand?
+- what is authorization code grant?
+- what is auth code grant?
+- what is autorization code grant?
+- what is ID token?
+- what is an ID tokn?
+- what is the ID token in OIDC?
+- how to integrate OAuth2 with multi IdPs?
+- how to integrate OAuth2 with multiple IdPS?
+- how to integrate OAuth2 with multiple identity providers?
+- how to config JWT validation policy?
+- how to set up JWT validation policy?
+- how to add JWT validation poliy?
+- what are best pratices for token storage?
+- what are best practices for token storge?
+- what are best practices for storing tokens?
+- what is bearer token?
+- what is a bearer tokne?
+- how to use bearer token?
+- how to protect APIs with OAuth2?
+- how to secure APIs via OAuth2?
+- how to secuere APIs with OAuth2?
+- how to extract claims from a JWT?
+- how to extract cliams from a JWT?
+- how to exract claims from JWT?
+- how to extract claims fom a JTW?
+- what is scopes in OAuth2?
+- what are scopes in OAuth2?
+- how to define scopes?
+- how to defin scopes in OAuth2?
+- how to defne scopes in JWT?
+- what is refresh-token?
+- what does “refresh-token” mean?
+- how to exchange refresh token?
+- how to exchange a refresh tokn?
+- what is Token revocation?
+- what is token revocaton?
+- how to revoke a token?
+- how to revoe token?
+- what is token introspection?
+- what is token introspectin?
+- how to introspect a JWT?
+- how to introspt a JWT?
+- what is token endpoint?
+- what is token endpont?
+- how to call token endpoint?
+- how to cal token endpoint?
+- what is client credentials flow?
+- what is client credentials flo?
+- how to use client credentials flow?
+- how to use client credentals flow?
+- what is PKCE?
+- what is PCKE?
+- why use PKCE?
+- why use PECK?
+- how to implement PKCE?
+- how to implment PKCE?
+- what is OpenID Connect?
+- what is OpenID Conect?
+- what is the difference between OAuth2 and OIDC?
+- what is the differnce between OAuth2 and OIDC?
+- how to integrate OIDC?
+- how to integrate OID?
+- how to configure OpenID Connect in Anypoint?
+- how to config OpenID in Anypoint?
+- what is JWS?
+- what is JW S?
+- what is JWE?
+- what is JWT vs JWS?
+- what is JWT vs JWE?
+- how to handle JWT expiration?
+- how to handle JWT expiratoin?
+#vr_pt: |
+OAuth2 é um protocolo de autorização que emite tokens de acesso limitados para cliente, permitindo controle granular de permissões; JWT (JSON Web Token) é um formato compacto e auto-contido de token que carrega informações (claims) de autenticação e autorização de forma segura e verificável.
+#vr_en: |
+OAuth2 is an authorization protocol that issues scoped access tokens to clients, enabling fine-grained permission control; JWT (JSON Web Token) is a compact, self-contained token format carrying authentication and authorization claims securely and verifiably.

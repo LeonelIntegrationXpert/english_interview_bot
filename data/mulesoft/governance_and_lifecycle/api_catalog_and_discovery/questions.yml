@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: api_catalog_and_discovery
+    examples: |
+      - oq é catáologo de APIs?
+      - oq é catalógo de APIs?
+      - o que é catáologo de APIs?
+      - o que é catalógo de APIs?
+      - o que é catálago de APIs?
+      - oq é catálago de APIS?
+      - o que é catálgo de APIs?
+      - o que é catálago de APIS?
+      - o que é catálago de API?
+      - cumo funcioa catálogo de APIs?
+      - como foi catálogo de APIs?
+      - onde acho catálogo de APIs?
+      - onde acho catalógo de APIS?
+      - onde acho catálago de APIs?
+      - onde eu acho catálogo de APIs?
+      - onde eu acncia catálogo de APIs?
+      - onde encontro catalogu de APIs?
+      - onde encontro catálogo de API?
+      - onde encontro catáologo de APIs?
+      - onde encontro catálago de APIs?
+      - onde encontro catágolo de APIs?
+      - para q serv catalogo de APIs?
+      - para q serve catalógo de APIs?
+      - para q serve catálago de APIs?
+      - para que serve catálago de APIs?
+      - pra que serve catalógo de APIs?
+      - pra que serve catáologo de APIs?
+      - pra que serve catágolo de APIs?
+      - para que é catálogo de APIs?
+      - para que serve catalógo de APIS?
+      - qual importânica do catálogo?
+      - qual importáncia do catalogo?
+      - qual importéncia do catalógo?
+      - qual a importéncia do catálogo?
+      - qual a importancia do catálago?
+      - qual a importãncia do catálogo?
+      - qual a importânncia do catálogo?
+      - qual a importáncia do catálago?
+      - qual a importância do catalogo?
+      - como catalago ajuda ciclo de vida?
+      - como catalógo ajuda ciclo de vida?
+      - como catálago ajuda ciclo de vida?
+      - como catálogo ajdua ciclo de vida?
+      - como catálogo ajuda cicli vida?
+      - como catálogo ajdua ciclo de viida?
+      - como catálogo ajuda ciclo de vda?
+      - como catálogo ajuda ciclo de vid?
+      - o que signfica descoberta de API?
+      - o que signfica descoverta de APIS?
+      - o que significa descoverta de APIs?
+      - o que significa descoberTA de APIs?
+      - o que signifca descoberta de APIS?
+      - o que signific descoberta de APIs?
+      - o que segifica descoberta de APIs?
+      - como automatar descoberta de APIs?
+      - como automatizar descoberTA de APIs?
+      - como automitizar descoberta de APIs?
+      - cumo automatizar descoverta de APIs?
+      - como automatar descoverta de APIS?
+      - quais benfícios do catálogo?
+      - quais benificios do catálago?
+      - quais benefícios do catálogo?
+      - quais benefícios do catalógo?
+      - quais benefícios do catálago?
+      - quais benfícios do catalógo?
+      - como Anypoint Exchnage facilita?
+      - como AnyPoint Exchange facilita?
+      - cumo Anypoint Exchange facilita?
+      - como Anypoint Exchange facilita?
+      - como Anypont Exchange facilita?
+      - como Anypoint Exchannge facilita?
+      - como Anypoint Exchange facillita?
+      - como organizo catalogo APIs?
+      - como organizo catálago de APIs?
+      - como organizo catalógo de APIs?
+      - cumo organizo catálogo de APIs?
+      - como organizo catálogo de APIS?
+      - para que serve publicar no catalogo?
+      - para que serve publicção no catalógo?
+      - para que serve publicação no catálago?
+      - para que serve publicção no catálogo?
+      - como busco catáologo de APIs?
+      - como busco catáogo de APIS?
+      - como busco catálago de APIs?
+      - cumo busco catálogo de APIs?
+      - como busco catalogo de API?
+      - o que eh aprovisionamenTo de API?
+      - o que é aprovisionament de APIS?
+      - o que é aprovisionamento de API?
+      - oq é aprovisionamento de API?
+      - como funcioa aprovisionamento?
+      - como aprovisionar no catálogo?
+      - cumo aprovisionar de API?
+      - como aprovisionar API no catálago?
+      - quais passos para aprovisionamento?
+      - quais etaps de aprovisionamento?
+      - quais pásos aprovisionamento de API?
+      - quais fases de aprovisionamento?
+      - o que inclui aprovisionamento?
+      - o que envolve aprovisionamento?
+      - o que compoe aprovisionamento?
+      - o que é catálogo de APIs?
+      - como funciona o catálogo de APIs no Anypoint?
+      - para que serve a descoberta de APIs?
+      - como faço para descobrir APIs existentes?
+      - onde encontro o catálogo de APIs?
+      - qual a importância do catálogo na governança?
+      - como o catálogo ajuda no ciclo de vida?
+      - o que significa descoberta de APIs?
+      - como automatizar a descoberta de APIs?
+      - quais benefícios do catálogo de APIs?
+      - como o Anypoint Exchange facilita a descoberta?
+      - como organizar meu catálogo de APIs?
+      - para que serve a publicação no catálogo?
+      - como buscar APIs no catálogo?
+      - o que é aprovisionamento de API no catálogo?
+      - oq é catálogo de APIs?
+      - o que é catálogo de A P I s?
+      - o que é catálogo de APIS?
+      - o que e catálogo de APIs?
+      - o que é catlogo de APIs?
+      - o que e catalogo de A P I s?
+      - oq é catálogo de APIS?
+      - o que é catálogo de APi?
+      - o que é catalógo de APIS?
+      - o queue é catálogo de APIs?
+      - o que é catálgoo de APIs?
+      - o que é catalogo de APIs?
+      - o que é catáolgo de APIs?
+      - o que é catalog de APIs?
+      - o que é catálogo de API?
+      - o que é catálogo de Api’s?
+      - como funciona o catáloko de APIs no Anypoint?
+      - cumo funciona o catálogo de APIS no Anypoint?
+      - como funciona o catalogo de APIs no AnyPoint?
+      - como funciona o catálogo de API no Anypoint?
+      - como funcina o catálogo de APIs no Anypoint?
+      - como funciona catálogo de A P I s no Anypoint?
+      - comofunciona o catálogo de APIs no Anypoint?
+      - para que serve a desoberta de APIs?
+      - para que serve a descoberta de APIS?
+      - pra que serve a descoberta de APIs?
+      - para que serve a decoberta de APIs?
+      - para que servi a descoberta de APIs?
+      - para que sevre a descoberta de APIs?
+      - para que sirve a descoberta de APIs?
+      - para que serve descoberta de APIs?
+      - como faco pra descobrir APIs existentes?
+      - como faço pra descurbrir APIs existentes?
+      - como faço para descobrir API existente?
+      - como faco para descobri APIs existentes?
+      - como faço para descobrir A P I s existentes?
+      - como faço p/ descobrir APIs existentes?
+      - como faç para descobrir APIs existentes?
+      - onde encontro o catáloko de APIs?
+      - onde encontra o catálogo de APIs?
+      - onde eu encontro catálogo de APIS?
+      - onde enconto o catálogo de APIs?
+      - onde encontro catalogo de APIs?
+      - onte encontro o catálogo de APIs?
+      - onde eu encotro o catálogo de APIs?
+      - qual a importancia do catálogo na governanca?
+      - qual importância do catalogo na governança?
+      - qual a importancia do catálogo na governânça?
+      - qual a importância do catáloko na gobernança?
+      - qual a importância do catálogo na governance?
+      - qual a importância do catálogo na governação?
+      - como o catalogo ajuda no ciclo de vida?
+      - como o catálogo ajua no ciclo de vida?
+      - como o catálogo ajuda no ciclo de vid?
+      - como o catálogo ajuda o ciclo de vida?
+      - como catálogo ajuda no ciclo de vida?
+      - o que significa descoberta de APIS?
+      - o que significa descoberta de Api’s?
+      - oq significa descoberta de APIs?
+      - o que signfica descoberta de APIs?
+      - o que significa desoberta de APIs?
+      - como automatizar a descoverta de APIs?
+      - como automatizar descoberta de APIs?
+      - como automatizar a descobreta de APIs?
+      - como automatizar a descoberta de APIS?
+      - cumo automatizar a descoberta de APIs?
+      - como automatiar a descoberta de APIs?
+      - como automatizar a descuberta de APIs?
+      - quais beneficios do catalogo de APIs?
+      - quais beneficíos do catálogo de APIs?
+      - quais benefícios do catáloko de APIs?
+      - quais benefícios do catálogo de APIS?
+      - quais beneficios do catálogo de Api’s?
+      - quais benfícios do catálogo de APIs?
+      - quais benefícios catalogo de APIs?
+      - como o Anypont Exchange facilita a descoberta?
+      - como o Anypoint Exchage facilita a descoverta?
+      - como o Anypoint Exchange facilita a descobrta?
+      - como o Anypoint Exchange facilitta a descoberta?
+      - cumo o Anypoint Exchange facilita a descoberta?
+      - como Anypoint Exchange facilita descoberta?
+      - com o Anypoint Exchange facilita a descoberta?
+      - como organizar meu catalogo de APIs?
+      - como organnizar meu catálogo de APIs?
+      - what is an API catalog?
+      - how does the API catalog work in Anypoint?
+      - what is API discovery for?
+      - how do I discover existing APIs?
+      - where can I find the API catalog?
+      - why is the catalog important in governance?
+      - how does the catalog support the lifecycle?
+      - what does API discovery mean?
+      - how to automate API discovery?
+      - what are the benefits of an API catalog?
+      - how does Anypoint Exchange enable discovery?
+      - how to organize my API catalog?
+      - what is publishing in the catalog for?
+      - how to search APIs in the catalog?
+      - what is API provisioning in the catalog?
+      - what is an API catlog?
+      - what is a API catalog?
+      - what is an API catolog?
+      - what is an API catalod?
+      - what is an API catelogue?
+      - what is an API cataloque?
+      - what is an API catelouge?
+      - what is an API catolgue?
+      - how does the API catlog work in Anypoint?
+      - how doe the API catalog work in Anypoint?
+      - how does the API catalod work in Anypoint?
+      - how does the API catlog work on Anypoint?
+      - how does the API catelog work in Anypont?
+      - how does the API catalog work in AnyPoint?
+      - how does the API catalog work in Anypooint?
+      - how does the API catalog work Anypoint?
+      - how do I discover existing API?
+      - how do I discover existng APIs?
+      - how do I discover exisiting APIs?
+      - how do I descover existing APIs?
+      - how do I discoer existing APIs?
+      - how do I discover exsiting APIs?
+      - how do I discover existing API’s?
+      - how do I discuver existing APIs?
+      - how do I discover existing A P I s?
+      - where can I find the API catlog?
+      - where can I find the API catalod?
+      - where can I find the API catelog?
+      - where can I find the API catalague?
+      - where can I find the API catolog?
+      - where can I find API catalog?
+      - why is the catlog important in governance?
+      - why is the catlog impotant in governance?
+      - why is the catalog impotant for governance?
+      - why is the catalog importnt in governance?
+      - why is the catlog important in governence?
+      - why is the catalog important in goverance?
+      - how does the catlog support the lifecycle?
+      - how does the catalog supprt the lifecycle?
+      - how does the catalog support the life cycle?
+      - how does the catalog support the life-cycle?
+      - what does API discoery mean?
+      - what does API discovery meen?
+      - what does API discovey mean?
+      - what does API discovry mean?
+      - what does API discover nay?
+      - what does API disover mean?
+      - how to automate API discoery?
+      - how to automate API discover?
+      - how to automate API discovry?
+      - how to automate API discoverly?
+      - what are the benefits of an API catlog?
+      - what are the benefits of an API catalod?
+      - what are the benfits of an API catalog?
+      - what are the benefits of an API catelog?
+      - what are the benefits of an API catalouge?
+      - what are the benfits of an API catelogue?
+      - how does Anypoint Exchange enable discovry?
+      - how does AnyPoint Exchange enable discovery?
+      - how does Anypoint Exchnage enable discovery?
+      - how does Anypoint Exchange enable discoery?
+      - how does Anypoint Exchange enble discovery?
+      - how does Anypoint Exchange enabke discovery?
+      - how to organize my API catlog?
+      - how to organise my API catalog?
+      - how to organize my API catalod?
+      - how to organze my API catalog?
+      - how to organise my API catelogue?
+      - what is publishing in the catlog for?
+      - what is publishing in the catelog for?
+      - what is publishing in the catalod for?
+      - what is publishing in the catelogue for?
+      - how to search APIs in the catlog?
+      - how to search APIs in the catelog?
+      - how to serach APIs in the catalog?
+      - how to search API’s in the catalog?
+      - what is API provisioning in the catlog?
+      - what is API provsioning in the catalog?
+      - what is API provisionig in the catalog?
+      - what is API provisioning the catalog?
+      - what is API provissioning in the catalog?
+      - what iz an API catalog?
+      - what is an API catalague?
+      - where do I find the API catlog?
+      - where do I find the API catalog?
+      - where do I find the API catelogue?
+      - where do I find the API catelod?
+      - where do I find the API catalague?
+      - where can I access the API catlog?
+      - how do I lookup the API catalog?
+      - how do I look up the API catalog?
+      - how do I lookup API catalogue?
+      - how do I lookup API catlog?
+      - how can I locate APIs in the catlog?
+      - how can I locate apis in the catalog?
+      - how can I locate APIs in the catelog?
+      - how can I locate APIS in the catalgue?
+      - why is the catlog key for governance?
+      - why is the catalog critical governance?
+      - why is the catelog important for governance?
+      - why is the catalgue important in governance?
+      - how does AnyPoint Exchange help discovery?
+      - how does Anypiont Exchange enable discovery?
+      - how does Anyoint Exchange enable discovry?
+      - how does Anypoint Exchange allow disocvery?
+      - how do I automate API disocvery?
+      - how do I automate API discovry?
+      - how do I automate API discover?
+      - how do I automat API discovery?
+      - how to auto API discovery?
+      - what does API disovery mean?
+      - what does API dicovery mean?
+      - whats API discovery?
+      - whats API discoery?
+      - whats API discovry?
+      - what are benfits of API catalog?
+      - what are benefits of API catalo?
+      - what are benfits of API catelogue?
+      - what are benefits of API ctalogue?
+      - what are benefits of API catalog?
+      - how do I search API?
+      - how do I serach API in catlog?
+      - how do I search APis in catolog?
+      - how can I search apis in the catalgue?
+      - how can I search apis in the catlog?
+      - what is publishing API catlog?
+      - what is publishing API catalog?
+      - what is publishing API catelogue?
+      - what is publishing API catelod?
+      - what is purpose of catalog publishing?
+      - what is purpose of catalgue publishing?
+      - what is purpose of catalog publshing?
+      - how to publish API in catlog?
+      - how to publish API in catalog?
+      - how to publish API in catelogue?
+      - what is API provsioning?
+      - what is API provisioning?
+      - what is API providning?
+      - what is API provoving?
+      - how to provsion API in catlog?
+      - how to provision API in catalog?
+      - how to provision API in catelogue?
+      - where to provsion APIs?
+      - where to provision apis?
+      - how catlog support lifecycle?
+      - how catalog support lifecycle?
+      - how catelogue support lifecycle?
+      - how catalgue support lifecycle?
+      - how does catlog support lifecycle?
+      - why is catalog needed lifecycle?
+      - why needed API catalog?
+      - why needed API catlog?
+      - why needed API catalgue?
+      - why needed API catelogue?
+      - what role does catalog play?
+      - what role does catlog play?
+      - what role does catalgue play?
+      - what role does catelogue play?
+      - what role catalog play in lifecycle?
+      - what role catalog play governance?
+      - what role catelogue play governance?
+      - what does catalog auto do?
+      - what does catlog auto do?
+      - what does catalgue auto do?
+      - what does catelogue auto do?
+      - how catalog manage metadata?
+      - how catlog manage metadata?
+      - how catalgue manage metadata?
+      - how catelogue manage metadata?
+      - what metadata in API catalog?
+      - what metadata in API catlog?
+      - what metadata in API catelogue?
+      - how many APIs in catalog?
+      - how many apis in catlog?
+      - how to find the API catlaog?
+      - how to find the API catelouge?
+      - where is the API cateloge?
+      - where is the API catalag?
+      - where is the API catelaog?
+      - where is the API catelouge?
+      - where is the API catlaog in Anypoint?
+      - where is the API catlog in Anypoint?
+      - where can I view the API catalog?
+      - where can I veiw the API catalouge?
+      - how do I navigate the API catlog?
