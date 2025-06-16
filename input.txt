@@ -7421,3 +7421,102 @@ The developer portal is the web interface where consumers access documentation, 
 OAuth2 é um protocolo de autorização que emite tokens de acesso limitados para cliente, permitindo controle granular de permissões; JWT (JSON Web Token) é um formato compacto e auto-contido de token que carrega informações (claims) de autenticação e autorização de forma segura e verificável.
 #vr_en: |
 OAuth2 is an authorization protocol that issues scoped access tokens to clients, enabling fine-grained permission control; JWT (JSON Web Token) is a compact, self-contained token format carrying authentication and authorization claims securely and verifiably.
+---
+#intent: mulesoft/security_and_authentication/multi_idp_jwt_validation
+#pt:
+- o que é validação de JWT multi-IdP?
+- o que significa multi IdP JWT validation?
+- para que serve validação de JWT com múltiplos IdPs?
+- como validar JWT de vários provedores?
+- como configuro multi-IdP JWT no MuleSoft?
+- o que faz a validação multi-IdP de JWT?
+- como funciona a validação de JWT entre vários IdPs?
+- por que usar multi-IdP JWT validation?
+- quais são os desafios de multi-IdP JWT?
+- como tratar JWKS de múltiplos provedores?
+- como obter chaves de vários IdPs?
+- o que é JWKS URI em multi-IdP?
+- como alternar entre IdPs na validação?
+- como mapear claims de diferentes IdPs?
+- o que é key rotation em multi-IdP?
+- como lidar com tokens de vários domínios?
+- como configurar policy de JWT para vários IdPs?
+- como usar audience múltipla na validação?
+- como diferenciar issuer de vários IdPs?
+- o que é issuer validation multi-IdP?
+- como importar JWKS de vários provedores?
+- como proteger APIs com multi-IdP JWT?
+- como definir trust stores para vários IdPs?
+- como adaptar políticas JWT para vários IdPs?
+- como usar public key set multi-IdP?
+- o que é validation context para vários IdPs?
+- como fallback entre IdPs ao validar JWT?
+- como tratar expiração diferente por IdP?
+- o que é issuer alias em multi-IdP?
+- como mapear issuer para claims?
+- como implementar multi-IdP JWT validation?
+- quais práticas recomendadas para multi-IdP JWT?
+- como testar validação multi-IdP de JWT?
+- como registrar provedores na policy?
+- como lidar com token binding múltiplo?
+- o que é dynamic JWKS discovery?
+- como usar cache de JWKS em multi-IdP?
+- como configurar timeouts por IdP?
+- como usar rotating keys de vários IdPs?
+- como validar claim “azp” em multi-IdP?
+- como exigir scopes específicos por IdP?
+- o que é mixed-mode JWT validation?
+- como tratar erro de assinatura de um IdP?
+- como monitorar validações multi-IdP?
+- como registrar issuer de cada token?
+#en:
+- what is multi-IdP JWT validation?
+- what does multi-IdP JWT validation mean?
+- what is the purpose of multi-IdP JWT validation?
+- how to validate JWT from multiple IdPs?
+- how to configure multi-IdP JWT in MuleSoft?
+- what does multi-IdP JWT validation do?
+- how does multi-IdP JWT validation work?
+- why use multi-IdP JWT validation?
+- what are the challenges of multi-IdP JWT?
+- how to handle JWKS from multiple IdPs?
+- how to fetch keys from several providers?
+- what is JWKS URI in multi-IdP?
+- how to switch between IdPs during validation?
+- how to map claims from different IdPs?
+- what is key rotation in multi-IdP?
+- how to manage tokens across domains?
+- how to configure JWT policy for multiple IdPs?
+- how to use multiple audiences in validation?
+- how to distinguish issuers of multiple IdPs?
+- what is issuer validation multi-IdP?
+- how to import JWKS from multiple IdPs?
+- how to secure APIs with multi-IdP JWT?
+- how to define trust stores for multiple IdPs?
+- how to adapt JWT policies for multiple IdPs?
+- how to use public key set multi-IdP?
+- what is validation context for multiple IdPs?
+- how to fallback between IdPs on validation failure?
+- how to handle different token expiry per IdP?
+- what is issuer alias in multi-IdP?
+- how to map issuer to claims?
+- how to implement multi-IdP JWT validation?
+- what are best practices for multi-IdP JWT?
+- how to test multi-IdP JWT validation?
+- how to register providers in the policy?
+- how to handle multiple token bindings?
+- what is dynamic JWKS discovery?
+- how to use JWKS cache in multi-IdP?
+- how to configure timeouts per IdP?
+- how to use rotating keys from several IdPs?
+- how to validate “azp” claim in multi-IdP?
+- how to enforce scopes per IdP?
+- what is mixed-mode JWT validation?
+- how to handle signature error from one IdP?
+- how to monitor multi-IdP validations?
+- how to log issuer for each token?
+#vr_pt: |
+  A validação de JWT multi-IdP permite que uma mesma API aceite e verifique tokens emitidos por diferentes provedores de identidade, consultando dinamicamente múltiplos JWKS, validando assinatura, emissor e audience de cada token, suportando key rotation e fallback automático para alta disponibilidade e continuidade de serviço.
+#vr_en: |
+  Multi-IdP JWT validation enables a single API to accept and verify tokens issued by multiple identity providers by dynamically fetching and caching multiple JWKS endpoints, validating each token’s signature, issuer and audience, and supporting automatic key rotation and fallback for high availability and uninterrupted service.
+  
