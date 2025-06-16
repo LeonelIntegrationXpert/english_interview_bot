@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_api_contracts:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Contratos de API em RAML ou OpenAPI definem formalmente recursos, métodos, parâmetros e respostas de uma API. Eles servem como fonte única de verdade para desenvolvedores e consumidores, facilitando geração de documentação, validação automática e testes. Com um contrato bem definido, é possível garantir compatibilidade, versionamento e governança ao longo do ciclo de vida da API.
+              - vr_en: |
+                  API contracts in RAML or OpenAPI formally describe an API’s resources, methods, parameters, and responses. They act as a single source of truth for both developers and consumers, enabling automated documentation, validation, and testing. A well-defined contract ensures compatibility, versioning, and governance throughout the API’s lifecycle.

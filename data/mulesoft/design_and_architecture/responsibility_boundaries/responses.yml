@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_responsibility_boundaries:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  Fronteiras de responsabilidade são limites claros onde cada componente ou API assume apenas um único conjunto de responsabilidades. Elas seguem o princípio da responsabilidade única, melhorando manutenibilidade, testabilidade e escalabilidade. Ao isolar funções, evita-se acoplamento excessivo e facilita-se a evolução independente de cada parte do sistema.
+              - vr_en: |
+                  Responsibility boundaries are clear demarcations where each component or API takes on a single, well-defined set of responsibilities. They adhere to the single-responsibility principle, enhancing maintainability, testability, and scalability. By isolating concerns, you prevent tight coupling and enable independent evolution of each system part.

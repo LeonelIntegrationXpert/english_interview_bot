@@ -5,6 +5,10 @@ intents:
   - what_are_process_apis
   - what_are_system_apis
   - what_is_api_led
+  - api_contracts
+  - facade_vs_orchestration
+  - responsibility_boundaries
+  - versioning_patterns
   - nlu_fallback
 actions:
   - action_fallback

@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: versioning_patterns
+    examples: |
+      - quias são os padrões de versioneamento de API?
+      - quais são os padroes de versionmento de API?
+      - quais são os padrões de versionemanto de API?
+      - quais são os padrões de versinamento de API?
+      - quais são os padrões de versionameto de API?
+      - quias são os padrões de versionamento de APi?
+      - quais são os padroes de versionamento de APi?
+      - quais são os padrões de versionamentoe de API?
+      - quais são os padrões de versionamento de A P I?
+      - quais sãos os padrões de versionamento de API?
+      - quais são os padrões de veersionamento de API?
+      - quaiss são os padrões de versionamento de API?
+      - quais são os padrões de vesionamento de API?
+      - quais são os padrões de versionameneto de API?
+      - quais são os padroes de versionamento de API?
+      - quais são os padroes de versionamento de A P I?
+      - quais são os padrões de versionamento APi?
+      - quias são os padroes de versionamento de API?
+      - quais sao os padrões de versionamento de API?
+      - quais sao os padrões de versionameno de API?
+      - quais sao os padroes de versionamento de API?
+      - quais sao os padrões de versionamente de API?
+      - quais sao os padrões de versionamento de APi?
+      - quais são os padrões de versionamento no API?
+      - quais são os padrões de versionamento em API?
+      - quais são os padrões pra versionamento de API?
+      - quais padrões de versionamento devo usar?
+      - quais padrões de versionamentos usar?
+      - quais padrões de versionamento devo seguir?
+      - quais padrões de versiomaneto seguir?
+      - quais padrões de versionar APIs?
+      - quais práticas de versionamento de API?
+      - quais práticas de versiones de API?
+      - quais praticas de versionamento de API?
+      - quais principais padrões de versionamento?
+      - quais princípel padrões de versionamento?
+      - quias principais padrões de versionamento?
+      - quais princpiais padrões de versionamento?
+      - quais sao os principais padrões de versionamento?
+      - quais são os princípes padrões de versionamento?
+      - quais sao os principais padroes de versionamento?
+      - oq são padrões de versionamento de API?
+      - oq é padrões de versionamento de API?
+      - oq são padroes de versionamento de API?
+      - oq são padrões de versinamento de API?
+      - oq são padrões de vesionamento de API?
+      - oq sao padrões de versionamento de API?
+      - oq sao padrões de versionamento de APi?
+      - oq são os padrões de versionamento de API?
+      - oq sao os padroes de versionamento de API?
+      - o que são pads de versionamento de API?
+      - o que sao pads de versionamento de API?
+      - o que sao padrões de versionamento de API?
+      - por que precisamos de padrões de versionamento?
+      - por que precisamos de padroes de versionamento?
+      - por que precisamos de padrão de versionamento?
+      - pq precisamos de padrões de versionamento?
+      - pq precisamos de padroes de versionamento?
+      - pq precisamos de padrão de versionamento?
+      - por que usar padrões de versionamento?
+      - por que usar padroes de versionamento?
+      - por que usar práticas de versionamento?
+      - por que usar praticas de versionamento?
+      - por que usar padrões de versiomaneto?
+      - pode explicar padrões de versionamento?
+      - pode explicar padroes de versionamento?
+      - pode explica padrões de versionamento?
+      - pode explicar padroes de versionamenento?
+      - pode explicar padrões de versionameto?
+      - como escolher padrões de versionamento?
+      - como escolher padroes de versionamento?
+      - como escolher padrões de versionamento em API?
+      - como escolhe padrões de versionamento?
+      - como escolher padrões de versionamentoo?
+      - como definir padrões de versionamento?
+      - como definir padroes de versionamento?
+      - como definir padrões de versionameneto?
+      - como definir padrões de versionamento em API?
+      - como definir padrões de versionamento de APIs?
+      - qual a melhor prática de versionamento?
+      - qual a melhor pratica de versionamento?
+      - qual a melhor pratica de versioneamento?
+      - qual a melhro prática de versionamento?
+      - qual a melhor prática de versionamento de API?
+      - qual a melhor prática pra versionamento?
+      - quando aplicar padrões de versionamento?
+      - quando aplicar padroes de versionamento?
+      - quando aplicar padrões de versionamento em API?
+      - quando aplicar padrões de versionamenor?
+      - quando aplicar padrões de versionameneto?
+      - quando aplicar práticas de versionamento?
+      - quando aplicar praticas de versionameneto?
+      - onde aplicar padrões de versionamento?
+      - onde aplicar padroes de versionamento?
+      - onde inserir padrões de versionamento?
+      - onde definir padroes de versionamento?
+      - onde definir padrões de versionameneto?
+      - qual os padroes de versionamento de API?
+      - quais são os padroes de versioamento de API?
+      - quais são os pads de versionamento de API?
+      - quias são os padrões de versionamento de API?
+      - quais são os padrões de versionamento de APi?
+      - quais são os padroes de versionamento e API?
+      - quais sao os pardoes de versionamento de API?
+      - quais são os padroes de versoinamento de API?
+      - quais sao os padroes de versioamento de APi?
+      - o que e versionamento semantico?
+      - o que eh versionamento semantico?
+      - o que é versionament semantico?
+      - o que e vesionamento semantico?
+      - o que e semantico versionamento?
+      - oq é versionamento semantico?
+      - o que é versinamento semantico?
+      - o que e versionament semantic?
+      - o que é versionamneto semantico?
+      - o que é semantico versionamen?
+      - como aplicar versionamento via URI?
+      - como aplicar versionamto via URI?
+      - como aplicar versionamento via U R I?
+      - como aplicar vesionamento via URI?
+      - como aplica versionamento via URI?
+      - como apliar versionamento via URI?
+      - com aplicar versionamento via URI?
+      - como aplicar vesionamento via u r i?
+      - como aplicar versionamento via uri?
+      - como usar versionamento via URI?
+      - o que signfica versionamento por cabecalho?
+      - o que significa versionamento pro cabecalho?
+      - o que significa versionamen to por cabeçalho?
+      - o que signica versionamento por cabeçalho?
+      - o que é versionamento por cabeçalho?
+      - o que significa vesionamento por cabeçalho?
+      - o que significa versionament por cabecalho?
+      - o que significa versionamen to por cabeçlh?
+      - como usar versionamento via media type?
+      - como usar versionamento via mediatype?
+      - como usar versionamento via media ttype?
+      - como usar vesionamento via media type?
+      - como usar versionamento via méedia type?
+      - como usar versionamento via media tpye?
+      - com usar versionamento via media type?
+      - para que serve versionamento semantico?
+      - pra que serve versionamento semantico?
+      - para que servir versionamento semantico?
+      - para que serve vesionamento semantico?
+      - para q serve versionamento semantico?
+      - para q serve versmento semantico?
+      - qual a diferenca entre versionamento URI e header?
+      - qual a diferença entre versionamento U R I e header?
+      - qual a diferenç entre versionamento URI e header?
+      - qual a differença entre versioamento URI e header?
+      - qual a difença entre versionamento URI e heder?
+      - qual a diferenca entre versionamento uri e header?
+      - como versionar APIs no MuleSoft?
+      - como versoinar APIs no MuleSoft?
+      - como versionar A P I S no MuleSoft?
+      - como versionar APIs no Mulesoft?
+      - como versionar APIs no Mule Soft?
+      - o que é versionamento por parametro de consulta?
+      - o que é versionamento pr parametro de consulta?
+      - o que é versionamento por paramentro de consulta?
+      - o que é versionamento por paramêtro de consulta?
+      - o que é versionamento por parametro de consula?
+      - como implemeto versionamento ao estilo semantico?
+      - como implemento versionamento ao estilo semantico?
+      - como implemento versionamen to semantico?
+      - como implemento vesionamento ao estilo semantico?
+      - como implemto versionamento semantico?
+      - quais cuidados no versionamento de APIs?
+      - quais cuidadps no versionamento de APIs?
+      - quais cuidaddos no versionamento de APIs?
+      - quais cuidados no versioamento de APIs?
+      - quais cuidados no versionament de APis?
+      - o que é versionamento baseado em conteudo?
+      - o que é versionamento baseaso em conteudo?
+      - o que é versionamento baseado em conteúdo?
+      - oq e versionamento baseado em conteudo?
+      - o que e versionamento basead em conteudo?
+      - como migrar versoes antigas da API?
+      - como migrar vesoes antigas da API?
+      - como migrar versões antiguas da API?
+      - como migrar versoes antigas da APi?
+      - quando criar uma nova versao de API?
+      - quando criar uma nova versao de APi?
+      - quando criar nova versão de API?
+      - quando devo criar nova versao de API?
+      - quando criaro nova versao de API?
+      - como manter compatibilidade entre versoes?
+      - como manter compatiblidade entre versoes?
+      - como manter compativilidade entre versoes?
+      - como manter compatibilidad entre versoes?
+      - como manter backward compatibility entre versoes?
+      - quais padrões de versionamento voce recomenda?
+      - quais patrones de versionamento voce recomenda?
+      - quais padroes de vesionamento voce recomenda?
+      - quais pads de versionamento voce recomenda?
+      - quais padrões de versioamento voce recomenda?
+      - o que considerar ao versionar APIs?
+      - o que considerar ao versionar APis?
+      - o que considerar ao vesionamento de APIs?
+      - what are ccommon API versioning patterns?
+      - what are common API versioning pattrns?
+      - what are API versioning patterns?
+      - what r common API versioning patterns?
+      - wut are common API versioning patterns?
+      - wat are common API versioning patterns?
+      - what are common API versioining patterns?
+      - what are commom API versioning patterns?
+      - what are common API version patterns?
+      - what are common versioning patterns for API?
+      - what’s common API versioning patterns?
+      - what's common API versioning patterns?
+      - whats common API versioning patterns?
+      - whats the difference between common API versioning patterns?
+      - what is semantical versioning?
+      - what is semantic versioning?
+      - what is semnatic versioning?
+      - what is semantic versining?
+      - what is semnatic versioining?
+      - what is sematic versioning?
+      - what is semantic versiong?
+      - what is semantic versionng?
+      - what is semantic version?
+      - how to apply U R I versioning?
+      - how to apply URI versioning?
+      - how to apply U R I version?
+      - how apply URI versioning?
+      - how to use URI versioning?
+      - how to apply URI versioining?
+      - how to aply URI versioning?
+      - how to apply URI version?
+      - what does header versioning mean?
+      - what does header versioning meen?
+      - what does header version mean?
+      - what does hedder versioning mean?
+      - what does header versioining mean?
+      - what does header versioning mesn?
+      - what does header versioning mna?
+      - what does header versionin mean?
+      - what does heade versioning mean?
+      - how to use media type versioning?
+      - how to use media type version?
+      - how to use media type versiong?
+      - how to use media type versioining?
+      - how to use mediatype versioning?
+      - how to apply media type versioning?
+      - how to use media type verioning?
+      - how to media type versioning?
+      - why use semantic versioning?
+      - why use semantic versionng?
+      - why use semnatic versioning?
+      - why use semantic versioing?
+      - why use semantic version?
+      - why use semantics versioning?
+      - why use semantic versionign?
+      - whats the difference between URI and header versioning?
+      - what is the difference between URI and header versioning?
+      - what’s the difference between U R I and header versioning?
+      - what’s the difference between URI and hedder versioning?
+      - whats the difference between URI and header version?
+      - what’s the difference between URI & header versioning?
+      - whats the differnce between URI and header versioning?
+      - how to version APIs in MuleSoft?
+      - how to version APS in MuleSoft?
+      - how to version APIs in Mulesoft?
+      - how to version API in MuleSoft?
+      - how to version APIs in Mule Soft?
+      - how to version Apis in MuleSoft?
+      - how to verion APIs in MuleSoft?
+      - what is query parameter versioning?
+      - what is query paramter versioning?
+      - what is query parameter versioining?
+      - what is query parameter version?
+      - what is query parameter versiong?
+      - what is query param versioning?
+      - what’s query parameter versioning?
+      - how do I implement semantic versioning?
+      - how do I implement semnatic versioning?
+      - how do I implement semantic versioing?
+      - how do I implment semantic versioning?
+      - how do I implement semantic version?
+      - how do implement semantic versioning?
+      - what are best practices for API versioning?
+      - what are best practises for API versioning?
+      - what are best practices for API versioining?
+      - what are best practices for API version?
+      - what are best practices for versioning APIs?
+      - what are best practice for API versioning?
+      - what are best practices for API versionng?
+      - what is content-based versioning?
+      - what is content based versioning?
+      - what is content based version?
+      - what is content-based versioining?
+      - what is content-based version?
+      - what is content based versiong?
+      - how to migrate old API versions?
+      - how to migrate old API version?
+      - how to migrte old API versions?
+      - how to migra te old API versions?
+      - how to migrate old API versioining?
+      - when should I create a new API version?
+      - when shuld I create a new API version?
+      - when should I create a new API versioing?
+      - when should I create new API version?
+      - when to create new API version?
+      - when should I creat a new API version?
+      - how to maintain backward compatibility?
+      - how to maintain backward compatiblity?
+      - how to maintain backward compatability?
+      - how to maintain bakward compatibility?
+      - how to maintain backward compaibility?
+      - what are common API versioning patterns?
+      - what’s the difference between URI and header versioning?
+      - what are commmon API versioning patterns?
+      - what are common API versioning paterns?
+      - what are common API versioning paternz?
+      - what are common API versioning pattens?
+      - what are common APi versioning patterns?
+      - what are common APY versioning patterns?
+      - what are common API versioning ptns?
+      - what are common API vesioning patterns?
+      - what are common API versionign patterns?
+      - what are common API versionning patterns?
+      - what are cmon API versioning patterns?
+      - what are common API versioning pattrens?
+      - what are common API versioning paterens?
+      - what are common API versionig patterns?
+      - what are common API versioning patern?
+      - what are common API versioning patten?
+      - what are cpmmon API versioning patterns?
+      - what are common API versioning pattern?
+      - what are common API versionning paterns?
+      - what are common API versionin patterns?
+      - what are common API versiioning patterns?
+      - what are common API versioing pattrns?
+      - what are common API vesning patterns?
+      - what are common API vesioing patterns?
+      - what are common API versoning patterns?
+      - what are common API vresioning patterns?
+      - what are common API versoining patterns?
+      - what are common API verioning patterns?
+      - what are common API verioning pattrns?
+      - what are common API vrrsioning patterns?
+      - what are common API verioning paterns?
+      - what are commn API versioning patterns?
+      - what are common API versionging patterns?
+      - what are common API versionnign patterns?
+      - what are common API versionign pattrns?
+      - what are common API versionnig patterns?
+      - what are common API versionni patterns?
+      - what are common API persioning patterns?
+      - what are common API versioniing patterns?
+      - what are common API versioninnig patterns?
+      - what are common API versionign pattens?
+      - what are common API versionign ps?
+      - what are common API vesion patterns?
+      - what are common API vesion pattrns?
+      - what are common API verioning templates?
+      - what are common API versioning principles?
+      - what are common APi versiong patterns?
+      - what are commen API versioning patterns?
+      - what are common API versioning princples?
+      - what are common API versionhing patterns?
+      - what are common API vesionhing patterns?
+      - what are common API vesionhing pattrns?
+      - what are common API versioniying patterns?
+      - what are common API versionryng patterns?
+      - what are common API versioing practices?
+      - what are common API versioning practices?
+      - what are common API vesioning practices?
+      - what are common API versioning practise?
+      - what are common API versioning practises?
+      - what are common API verisioning practices?
+      - what are common API vrsioning practices?
+      - what are common API versioning procdures?
+      - what are common API versioning procedurz?
+      - what are common API versioning procedres?
+      - what are common API versioning procedure?
+      - what are common API vesioning procedures?
+      - what are common API versioning proedures?
+      - what are common API versioning procedues?
+      - what are common API versioning procedurs?
+      - what are comon API versioning patterns?
+      - what are common API verisioning patterns?
+      - what are common API versioninng patterns?
+      - what are common API versionnig paterns?
+      - what are common API versioing paternz?
+      - what are common API versoinig patterns?
+      - what are common API versoining pattrns?
+      - what are common API vairsoning patterns?
+      - what are common API vsersioning patterns?
+      - what are common API vesionning patterns?
+      - what are comon API vesioning patterns?
+      - what are common API version hen patterns?
+      - what are common API versioning prattens?
+      - what are common API versioning practics?
+      - what are common API versioning prikels?
+      - what are common API versioning princaples?
+      - what are common API versioning practces?
+      - what are common API versioning proctices?

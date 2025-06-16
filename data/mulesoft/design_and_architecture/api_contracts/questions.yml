@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: api_contracts
+    examples: |
+      - o que são contrato api?
+      - o que é contrato apis?
+      - oq são contratos de apis?
+      - o que são conratos de api?
+      - o que são contratuos de API?
+      - o que sao contraros de API?
+      - o que sao contrtatos de API?
+      - o que sao contratos de APi?
+      - o que são contratos de APl?
+      - o que são contartos de API?
+      - o que são contartos de APi?
+      - o que são contrtos de API?
+      - o que são conratos de API?
+      - oq são contartos de API?
+      - oq são contratos de ApI?
+      - oq são cnotratos de API?
+      - oq são contrtos de APi?
+      - oq sao conratos de API?
+      - oq sao contrato de API?
+      - o que signific contrato de API?
+      - o que segnifica contrato de API?
+      - o que significa conrato de API?
+      - o que significa contrato de AP?
+      - o que significa contrato API?
+      - o que signfica contracto de API?
+      - o que signfica contrato de APi?
+      - o que significa contrato d API?
+      - o que signfica contrato da API?
+      - para que serve contrato de API?
+      - para q serve contrato de API?
+      - para que svrve contratos de API?
+      - para que servem conratos de API?
+      - para que servem contrato API?
+      - para que servem contrato de APi?
+      - para q servem conratos de APi?
+      - para q serve conrato de API?
+      - qual a funcao contrato de API?
+      - qual a funçao contratos de API?
+      - qual a função de conrato de API?
+      - qual a funçao de contrato de APi?
+      - qual a função do contracto de API?
+      - qual a função do conrato API?
+      - qual a funçao do contraro de API?
+      - explique contrato de API
+      - explika contrato de API
+      - explique contraro de API
+      - explique contracto de APi
+      - explique contracto API
+      - explique cnotrato de API
+      - explique cnotrato de APi
+      - como definir contrato de API?
+      - como definir contraro de API?
+      - como definir cnotrato de API?
+      - como definir contracto de APi?
+      - como definir contracto API?
+      - como definir conrato de API?
+      - como defnir contrato de API?
+      - que inclui contrato OpenAPI?
+      - o que inclui contraro OpenAPI?
+      - o que inclue contrato OpenAPI?
+      - o que inclui contracto OpenAPI?
+      - o que inclui cnotrato OpenAPI?
+      - o que inclue cnotrato OpenAPI?
+      - quais benfícios RAML?
+      - quais benf ícios de RAML?
+      - quais beneficios de RAML?
+      - quais benficios de RAML?
+      - quais benfícios de RML?
+      - como validar contrato de API?
+      - como validar conrato de API?
+      - como validar contraro de APi?
+      - como validar contracto de API?
+      - como validar cnotrato de API?
+      - o que é especificao OpenAPI?
+      - o que é especificaçao de OpenAPI?
+      - o que é espceificaçao OpenAPI?
+      - o que é especficaçao OpenAPI?
+      - o que é especifiacão OpenAPI?
+      - para que servem schemas OpenAPI?
+      - para que serven schemas OpenAPI?
+      - para que servem schmas OpenAPI?
+      - para que servem schemes OpenAPI?
+      - para que servem schmes OpenAPI?
+      - como versionar contrato de API?
+      - como versionar conrato de API?
+      - como versionar contraro de APi?
+      - como versionar contracto de API?
+      - como versionar cnotrato de API?
+      - oq e contrato de API?
+      - oq é conrato de API?
+      - oq é contracto de API?
+      - oq é cnotrato de API?
+      - oq é cnotraro de API?
+      - o q é contrato de API?
+      - o q é contracto de API?
+      - o que sao conratos API?
+      - o que sao contrato API?
+      - o que sao contracto API?
+      - o que sao cnotrato API?
+      - para que serv contrato de API?
+      - porque usar RAML OpenAPI?
+      - porque usar RML OpenAPI?
+      - porque usar RML ou OpenAPI?
+      - por que usar RML ou APi?
+      - por que usar RAML e OpenAPi?
+      - oq são contratos de API?
+      - o q são contratos de API?
+      - o que sao contratos de API?
+      - o que significa contrato de API em RAML?
+      - o que signfica contrato de API em RAML?
+      - o que significa conrato de API em RAML?
+      - para que servem contratos OpenAPI?
+      - para que serven contratos OpenAPI?
+      - para q servem contratos OpenAPI?
+      - para que servem conratos OpenAPI?
+      - qual a função do contrato em APIs?
+      - qual a funçao do contratos em APIs?
+      - qual a função do conrato em APIs?
+      - qual a funçao do conrato em APIs?
+      - por que usar RAML ou OpenAPI?
+      - por quê usar RAML ou OpenAPI?
+      - por que usar RAML ou OpenapI?
+      - por que usar RML ou OpenAPI?
+      - explique o conceito de contrato de API
+      - explika o conceito de contrato de API
+      - explique o conceto de contrato de API
+      - explique o conceito de conrato de API
+      - como definir um contrato de API?
+      - como definir um conrato de API?
+      - como definir um contracto de API?
+      - como definir um contrato de APi?
+      - o que inclui um contrato OpenAPI?
+      - o que inclui um conrato OpenAPI?
+      - o que inclui um contrato OpenAPi?
+      - o que inclue um contrato OpenAPI?
+      - quais benefícios de usar RAML?
+      - quais beneficios de usar RML?
+      - quais benfícios de usar RAML?
+      - como contratos asseguram compatibilidade?
+      - como conratos asguram compatibilidade?
+      - como contratos asegura compatibilidade?
+      - como contratos asseguram compativilidade?
+      - o que é especificação OpenAPI?
+      - o que é especificação OpenApI?
+      - o que é especificaçao OpenAPI?
+      - o que é especificação OpenAPi?
+      - como validar um contrato de API?
+      - como validar um conrato de API?
+      - como validar um contrato de APi?
+      - como validar um contracto de API?
+      - o que representa um RAML trait?
+      - o que representa um RAML trate?
+      - o que representa um RML trait?
+      - o que represent um RAML trait?
+      - para que servem schemas no OpenAPI?
+      - para que serven schemas no OpenAPI?
+      - para que servem schemas no OpenApI?
+      - como versionar contratos de API?
+      - como versionar conratos de API?
+      - como versionar contratos de APi?
+      - como versionar contractos de API?
+      - oq são contratos de AP?
+      - oq são contratos de APi?
+      - oq sao contratos de API?
+      - para q servem conratos OpenAPI?
+      - para que servem contratos de OPenAPI?
+      - para que servem contratos de OpenAPI?
+      - para que servem contartos OpenAPI?
+      - qual a função do contrato em AP?
+      - qual a função do contrato em Apis?
+      - qual a função do contrato em API?
+      - por que usar RAML ou OApenAPI?
+      - por que usar RAML ou OpenApI?
+      - por que usar RAML ou OnpenAPI?
+      - explique o conceitu de contrato de API
+      - explique o conceto de contracto de API
+      - como defenir um contrato de API?
+      - como definir um conrarto de API?
+      - como definir um primavera de API?
+      - o que inclui um conrarto OpenAPI?
+      - o que inclui um contrato de OpeAPI?
+      - o que inclui um conrarto de OpenAPI?
+      - o que inclui um contracto de OpenAPI?
+      - quais benfícios de usar RML?
+      - quais benefícios de usar RAM?
+      - como concratos asseguram compatibilidade?
+      - como contratos aseguran compativilidade?
+      - como contratos asseguram compatibilidae?
+      - o que é especificação Open API?
+      - o que é especificação Open-API?
+      - o que é específicação OpenAPI?
+      - o que é especificação OpnAPI?
+      - como validar um cnotrato de API?
+      - como validar um contrato de AP?
+      - como validar um conrato de APi?
+      - como validar um contracto de APi?
+      - o que representa um RAML trat?
+      - para que servem schmas no OpenAPI?
+      - para que servem schemas no OenAPI?
+      - para que servem schemas no OpenAPi?
+      - what are API contracts?
+      - what does API contract mean in RAML?
+      - what are OpenAPI contracts used for?
+      - what is the purpose of an API contract?
+      - why use RAML or OpenAPI?
+      - explain the concept of an API contract
+      - how do you define an API contract?
+      - what does an OpenAPI contract include?
+      - what are the benefits of using RAML?
+      - how do contracts ensure compatibility?
+      - what is an OpenAPI specification?
+      - how to validate an API contract?
+      - what does a RAML trait represent?
+      - what are schemas in OpenAPI for?
+      - how to version API contracts?
+      - what are API conacts?
+      - what ar API contracts?
+      - wat are API contracts?
+      - wut are API contracts?
+      - whar are API contracts?
+      - what are API contractz?
+      - what are API conctracts?
+      - what are API contraacts?
+      - what are API contracs?
+      - what are API contrcts?
+      - wat are API contracs?
+      - wut are API contrcts?
+      - whats API contracts?
+      - whats the API contracts?
+      - wat’s API contracts?
+      - wht are API contracts?
+      - what are API constracts?
+      - what r API contracts?
+      - what r API contractz?
+      - what r API conatracts?
+      - what r API contrets?
+      - what are the API contracts?
+      - what the API contracts?
+      - what are API contract?
+      - what are API conract?
+      - what are API conracts?
+      - wat are API conracts?
+      - wut are API conracts?
+      - what are An API contracts?
+      - what are API contractin?
+      - what are API contruction?
+      - what are API condracts?
+      - what are A PI contracts?
+      - what are A P I contracts?
+      - what are API conradts?
+      - what are API concarts?
+      - what are API contarts?
+      - what are API contratcs?
+      - what are API contreacts?
+      - what are API conratcts?
+      - what are API ccontracts?
+      - what are API cocontracts?
+      - what are API contracots?
+      - what are API contracct?
+      - what are API contractes?
+      - what are API contractees?
+      - what are API contratees?
+      - what are API contactes?
+      - what are API contaches?
+      - what are API contatches?
+      - what are API contackets?
+      - what are API contactz?
+      - what are API contacting?
+      - what's the purpose of API contracts?
+      - whats the purpose of API contracts?
+      - wht’s the purpose of API contracts?
+      - what is the purpose of API contacts?
+      - what is the purpose of API contrac?
+      - what is purpose of API contracts?
+      - what is purpose of API contract?
+      - why use API contracts?
+      - why use API conracts?
+      - why use API contactz?
+      - why use API contractz?
+      - wy use API contracts?
+      - wy use API contacts?
+      - why wud you use API contracts?
+      - why would you use API contracts?
+      - why would you use API conracts?
+      - why choose API contracts?
+      - why choose API conracts?
+      - why choose API constracts?
+      - why choose A PI contracts?
+      - why choose API contract?
+      - explain API contracts?
+      - explain API concarts?
+      - explain API contractz?
+      - explain API constracts?
+      - explaine API contracts?
+      - explane API conracts?
+      - define API contracts?
+      - define API concarts?
+      - define API contractz?
+      - define API conracts?
+      - define API contrats?
+      - how to define API contracts?
+      - how to define API concarts?
+      - how to define API conracts?
+      - how do you define API contracts?
+      - how do you define API conracts?
+      - how do you define API contractz?
+      - how to define an API contract?
+      - how to define AN API contract?
+      - what are API contarcts?
+      - what are API contrcats?
+      - what are API contcracts?
+      - what are API contraccts?
+      - what are API cotnracts?
+      - what are API conrtacts?
+      - what are APIs contracts?
+      - what are APIs conracts?
+      - what are APIs constracts?
+      - what's API contracts?
+      - what's API conracts?
+      - what's API constracts?
+      - what's API contreacts?
+      - wut r API contracts?
+      - wut r API conracts?
+      - wut r API constracts?
+      - wut r API contreacts?
+      - wat r API contracts?
+      - wat r API conracts?
+      - wat r API constracts?
+      - wat r API contreacts?
+      - wh@t are API contracts?
+      - wh@t are API conracts?
+      - wh@t are API constracts?
+      - wh@t are API contreacts?
+      - what are API cotnract?
+      - what are API contrct?
+      - what are API contrect?
+      - what are API contraact?
+      - what is an API contract?
+      - what is an API contrct?
+      - what is an API cotnract?
+      - what is an API contrect?
+      - what is API conract?
+      - what is API cotnract?
+      - what is API contrct?
+      - why use API constracts?
+      - why use API contreacts?
+      - why use API contraccts?
+      - why choose API contreacts?
+      - why choose API contraccts?
+      - explain API conracts?
+      - explain API contreacts?
+      - explain API contraccts?
+      - define API constracts?
+      - define API contreacts?
+      - define API contraccts?
+      - how to define API constracts?
+      - how to define API contreacts?
+      - how to define API contraccts?
+      - what does API contract mean?
+      - what does API conract mean?
+      - what does API cotnract mean?
+      - what does API contrct mean?
+      - what does API contrect mean?
+      - what does API contraact mean?
+      - how do API contracts work?
+      - how do API conracts work?
+      - how do API constracts work?
+      - how do API contreacts work?
+      - how do API contraccts work?
+      - where to find API contracts?
+      - where to find API conracts?
+      - where to find API constracts?
+      - where to find API contreacts?
+      - where to find API contraccts?
+      - when to use API contracts?
+      - when to use API conracts?
+      - when to use API constracts?
+      - when to use API contreacts?
+      - when to use API contraccts?
+      - what are OpenAPI contracts?
+      - what are OpenAPI conracts?
+      - what are OpenAPI constracts?
+      - what are OpenAPI contreacts?
+      - what are OpenAPI contraccts?
+      - how to validate API contracts?
+      - how to validate API conracts?
+      - how to validate API constracts?
+      - how to validate API contreacts?
+      - how to validate API contraccts?
+      - what does a RAML trait mean?
+      - what does a RAML trate mean?
+      - what does a RAML traet mean?
+      - what does a RAML traat mean?
+      - what does a RAML tasit mean?
+      - what are API conractz?
+      - what are API conrracts?
+      - what are API cortacts?
+      - what are API contrcacts?
+      - what are API conrtracts?
+      - what are API contextual?

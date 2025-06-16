@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: facade_vs_orchestration
+    examples: |
+      - o que é um padrão Facade?
+      - o que significa Facade em arquitetura MuleSoft?
+      - para que serve o padrão Facade?
+      - qual a diferença entre Facade e Orquestração?
+      - quando usar Facade ao invés de Orquestração?
+      - como aplicar o padrão Facade?
+      - o que faz uma fachada (Facade)?
+      - explique Facade vs Orquestração
+      - o que é Orquestração de APIs?
+      - para que serve Orquestração em MuleSoft?
+      - qual a função da Orquestração?
+      - como implementar Orquestração de serviços?
+      - quando usar Orquestração em vez de Facade?
+      - o que faz a Orquestração?
+      - exemplos de Facade e Orquestração
+      - o qué é um padão Facade?
+      - o que signifca Facade em arquitetura MuleSoft?
+      - para que serbe o padrão Facade?
+      - qual a diferenç entre Facade e Orquestração?
+      - quando ussar Facade ao inves de Orquestração?
+      - com aplicar o padrão Facade?
+      - o que faz uma facahada (Facde)?
+      - explkka Facade vs Orquestração
+      - o que é Orqestração de APIs?
+      - para que serve Orqestrção em MuleSoft?
+      - qual a funçao da Orqusstração?
+      - como implementar Orquestração de servicos?
+      - quando usar Orquestração em vez de Facaade?
+      - o que faz a Orqustração?
+      - exemplos de Facade e Orqustração
+      - o que e um padrão Facadde?
+      - o que significa Fcade em arquitertua MuleSoft?
+      - pra que serve o padrã Facade?
+      - qual a difrenca entre Fascade e Orquestração?
+      - quando usar Fadce ao invéz de Orquestração?
+      - como aplicarr o padrão Facadde?
+      - o que faz uma fachaada (Fadace)?
+      - exlicae Facade vs Orquestraçao
+      - o que e Orquestração de API?
+      - para quer serve Orquestração no MuleSoft?
+      - qual a funcao da Orquestração?
+      - como imprmentar Orquestração de servicços?
+      - quando usarr Orquestração em vez de Facdde?
+      - o que faz a Orqestraçao?
+      - exemplos Facade vs Orqestração
+      - o que eh um padrao Facadde?
+      - o que signifia Facade em arquitura MuleSoft?
+      - pa que sirve o padrão Facade?
+      - qual a diferenca entra Facde e OrqueStração?
+      - quando aplicar Facade em vez de Orquestraçâo?
+      - cumo aplicar o padrao Facade?
+      - o que ez uma fachadaa (Facde)?
+      - explein Facade vs Orqustraçao
+      - o que é Orqestrção de APIS?
+      - para que serve Orquestraçao no MuleSoft?
+      - qual a funçao da Orqustraçao?
+      - como implmentar Orquestraçao de servisos?
+      - quando usar Orqestraçao em vez de Facadde?
+      - o que faz a Orquestraço?
+      - examplos de Facade e Orquestraçao
+      - o que e um padrao Facde?
+      - o que significa Facde em architetura MuleSoft?
+      - pára que serve o padrão Facde?
+      - qual a diferenca entre Facde e Orquestraaação?
+      - quando usar Facde em vez de Orquestraaação?
+      - cumo aplcara o padrao Facde?
+      - o que faz uma facad (Facde)?
+      - explain Facde vs Orquestraçao
+      - o quê é Orquestraçao de APIS?
+      - para que serbe Orquestraçao no MuleSoft?
+      - qual a funçao da Orquestraça?
+      - como implementarr Orquestraçao de servicos?
+      - quando usar Orquestraçao em vez de Facde?
+      - o quw faz a Orquestraça?
+      - exemploss de Facde e Orquestraça
+      - o que é um padräo Facdde?
+      - o que signific Facdde em arquitura MuleSoft?
+      - pra que serv Facdde?
+      - qual a diferencial entre Facdde e Orquestração?
+      - quando aplicr Facdde em inves de Orquestração?
+      - cumo apicar o padrao Facdde?
+      - o que faz uma facdahada (Facdde)?
+      - oq é padrao Facade?
+      - oq é padrao Fascade?
+      - oq é padrã Facade?
+      - oqu e padrao Facade?
+      - oque e padrã Facade?
+      - oq e padrao Facdae?
+      - oq e padrao Facdde?
+      - oq e padrao Faccade?
+      - oq e padrao Facd?
+      - oq e padrao Fascade?
+      - qual o padrâo Facade?
+      - qual o padrã Fascade?
+      - padrao Facade o que e?
+      - padrao Fascade o que e?
+      - qual diferenca Facade vs Orquestração?
+      - qual diferenca Fascade vs Orqestração?
+      - qual dif Facade e Orquestração?
+      - qual dif Fascade e Orquestração?
+      - quando usar Facade ao inves de Orquestração?
+      - quando usar Fascade em vez de Orqestração?
+      - cumo usar Facade?
+      - cumo usar Fascade?
+      - como usar Facade?
+      - como usar Fascade?
+      - cumo aplicar Facade?
+      - cumo aplicar Fascade?
+      - como aplicar Facade?
+      - como aplicar Fascade?
+      - explica Facade vs Orquestração?
+      - expica Fascade vs Orqestração?
+      - explique Facade vs Orquestração?
+      - explique Fascade vs Orqustração?
+      - o que faz Facade?
+      - oq faz Fascade?
+      - o que faz Fascade?
+      - oq faz Facdde?
+      - oq faz Facade?
+      - o que faz Orquestração?
+      - o que faz Orqestração?
+      - oq faz Orquestração?
+      - oq faz Orquetracao?
+      - para que serve Facade?
+      - pra que serve Fascade?
+      - para que serve Facdde?
+      - por que usar Facade?
+      - pq usar Fascade?
+      - pq usar Facade?
+      - por que usar Facdde?
+      - como implementar Facade?
+      - como implmentar Fascade?
+      - como implentar Facade?
+      - como implementar Facdde?
+      - quando aplicar Facade?
+      - quando aplicar Fascade?
+      - quando aplicr Facade?
+      - quando aplicar Facdde?
+      - qual funcao Facade?
+      - qual funcao Fascade?
+      - qual funçao Facdde?
+      - qual funçao Fascade?
+      - qual funcao Orquestração?
+      - qual funçao Orqestração?
+      - qual função Orquestração?
+      - exemplos Facade e Orquestração?
+      - exemplos Fascade e Orqestração?
+      - exemlpos Facade vs Orquestração?
+      - exemlpos Fascade vs Orqestração?
+      - mostre Facade vs Orquestração?
+      - mostre Fascade vs Orqestração?
+      - apresente Facade vs Orquestração?
+      - apresente Fascade vs Orqsestração?
+      - descreva Facade vs Orquestração?
+      - descreva Fascade vs Orquestração?
+      - benefic Facade?
+      - beneficios Fascade?
+      - beneficis Facade?
+      - vantag Orquestração?
+      - vantagens Fascade?
+      - vantagens Facdde?
+      - ondo usar Facade?
+      - onde usar Fascade?
+      - onde usar Facade?
+      - onte usar Fascade?
+      - compare Facade e Orquestração?
+      - compare Fascade e Orqestração?
+      - compar Facade vs Orquestração?
+      - compar Fascade vs Orqestração?
+      - conclusao Facade vs Orquestração?
+      - conclussao Fascade vs Orqestração?
+      - qualos padroes Facade vs Orquestração?
+      - quias padroes Facade vs Orqestração?
+      - o que é um padrao Facdde?
+      - oq é um padrao Fascade?
+      - o que siginifica Facade?
+      - oq siginifica Fascade?
+      - por que precisamos de Facade?
+      - pq precisamos de Fascade?
+      - qual a diferenca Facade vs Orquestração?
+      - qual a difrenca Fascade vs Orquestração?
+      - como delimitar Facade?
+      - como delimitar Fascade?
+      - expliqe Facdde vs Orquestração
+      - o que é Orqustracao de APIs?
+      - para que serve Orqustracao no MuleSoft?
+      - qual a funçao da Orqustracao?
+      - com implementar Orqustracao de servicos?
+      - quando usar Orqustrcao em vez de Facdde?
+      - o que faz Orqustrcao?
+      - exemplos de Fadde e Orqustrcao
+      - o que é um padrao Fadd?
+      - o que signfica Fadd em arquitertua MuleSoft?
+      - para que serv Fadd?
+      - qual a diferenca entre Fadd e Orquestra??
+      - quando usar Fadd ao inves de Orquestra??
+      - como aplicar o padrao Fadd?
+      - o que faz uma fadade (Fadd)?
+      - explaing Fadd vs Orquestra??
+      - o que é Orqestracao de A P I S?
+      - what is the Facade pattern?
+      - what does Facade mean in MuleSoft architecture?
+      - what is the purpose of the Facade pattern?
+      - how does Facade differ from orchestration?
+      - when to use Facade instead of orchestration?
+      - how to implement the Facade pattern?
+      - what does a Facade do?
+      - explain Facade vs orchestration
+      - what is API orchestration?
+      - what is the purpose of orchestration in MuleSoft?
+      - what does orchestration do?
+      - how do you implement service orchestration?
+      - when to choose orchestration over Facade?
+      - what does orchestration accomplish?
+      - examples of Facade and orchestration
+      - what is the Fcade pattern?
+      - what is the Facad pattern?
+      - what is the Fascade pattern?
+      - what is the Facdde pattern?
+      - what is the Fcade pattrn?
+      - what is the Facade pattrrn?
+      - what is the Facade patten?
+      - what is the Facde pattern?
+      - what is the Faceade pattern?
+      - what does Fcade mean in MuleSoft architecture?
+      - what does Facad mean in MuleSoft architecture?
+      - what does Fascade mean in MuleSoft architecure?
+      - what does Facdde mean in MuleSoft architecture?
+      - what does Facde mean in MuleSoft arhitecture?
+      - what does Facade men in MuleSoft architecture?
+      - what does Facade mean in Mulesoft architecture?
+      - what doe Facade mean in MuleSoft architecture?
+      - what does Facade mean in MuleSoft arch?
+      - what is the purpse of the Facade pattern?
+      - what is the purpose of the Fcade pattern?
+      - what is the purpose of the Facad pattern?
+      - what is the purpose of the Facdde pattern?
+      - what is the puropse of the Facade pattrn?
+      - what is the purpose of the Facade patten?
+      - what is the purpose for the Facade pattern?
+      - why use the Facade pattern?
+      - why use the Fascade pattern?
+      - why use the Facdde pattern?
+      - why choose the Facade pattern?
+      - why choose Fcade instead?
+      - why use the Facade pattrn?
+      - how does Fascade differ from orchestration?
+      - how does Facade differ from orchestratin?
+      - how does Facdde differ from orchestration?
+      - how does Facade differ form orchestration?
+      - how does Facade differ from orquestration?
+      - how does Facade differe from orchestration?
+      - how does the Facade differ from orchestration?
+      - when to use Fascade instead of orchestration?
+      - when to use the Facade insted of orchestration?
+      - when to choose Facade instead of orquestration?
+      - when to use Facade instead of orchestraton?
+      - when to use the Fcade instead of orchestration?
+      - when should I use Facade instead of orchestration?
+      - how to implement the Fascade pattern?
+      - how to implement Facdde pattern?
+      - how to implment the Facade pattern?
+      - how to implment the Facade pattrn?
+      - how do I implement Facade?
+      - how to implement the Facade patten?
+      - how can I implement the Facade pattern?
+      - what does a Fascade do?
+      - what does a Facdde do?
+      - what does a Facad do?
+      - what does a Fcade do?
+      - what does Facade perform?
+      - what function does Facade have?
+      - explane Facade vs orchestration?
+      - explain Fascade vs orchestration?
+      - explain Facdde vs orchestration?
+      - explain Facade vs orquestration?
+      - explain Facade vs orcestration?
+      - explain Facade vs orchestratoin?
+      - explain the difference Facade vs orchestration?
+      - what is API orquestration?
+      - what is API orchestraton?
+      - what is API orcestration?
+      - what is API orchestratoin?
+      - what is API orchstration?
+      - what is API orhcestration?
+      - what is the purpose of orquestration in MuleSoft?
+      - what is the purpose of orchestratoin in MuleSoft?
+      - what is the purpose of orchestradion in MuleSoft?
+      - what is the pupose of orchestration in MuleSoft?
+      - what is the purpose of orchestration in Mulesoft?
+      - what does orquestration do?
+      - what does orchestraton do?
+      - what does orchestratoin do?
+      - what does orcestration do?
+      - what does orchestration do in MuleSoft?
+      - how do you implment service orchestration?
+      - how do you implement service orquestration?
+      - how to implement service orchestration?
+      - how to implement service orchestraton?
+      - how do you implement service orchestratoin?
+      - how do you implement service orcestration?
+      - when to choose orquestration over Facade?
+      - when to choose orchestration over Fascade?
+      - when to choose orchestratoin over Facade?
+      - when should I choose orchestration instead of Facade?
+      - when to choose service orchestration over Facade?
+      - what does orchestratoin accomplish?
+      - what does orquestration accomplish?
+      - whta is the Facade pattern?
+      - what is the Facdae pattern?
+      - what is the Facad patten?
+      - what is the Facade pattren?
+      - what is the Facade pattrn?
+      - what does Facade meen?
+      - what does Facade meaan?
+      - what does Facade mna?
+      - what does Facade men?
+      - what does Facade mea in MuleSoft?
+      - what does Facade mean in MuleSoft archeticture?
+      - what does Facade meann in MuleSoft?
+      - what does Facade mean in MuelSoft?
+      - what does Fadecad mean?
+      - what is the purpsoe of the Facade pattern?
+      - what is the purpse of Facade?
+      - why use the Facde pattern?
+      - why use the Facad pattern?
+      - why choose the Facdde pattern?
+      - how does Facade difffer from orchestration?
+      - how does Facade differ from orchestraton?
+      - how does Facade differ from orcestration?
+      - how does Facade differ etherstration?
+      - how does Facde differ from orchestration?
+      - when to use the Facade instad of orchestration?
+      - when to use Facad instead of orchestration?
+      - when should I use Facade rather than orchestration?
+      - how to implement the Facde pattern?
+      - how to imlement the Facade pattern?
+      - how do I implment Fascade?
+      - what does a Facde do?
+      - explain Fascade vs orchestration
+      - explain Facde vs orquestration
+      - expain Facade vs orchestration
+      - exlain Facade vs orchestraton
+      - what is the purpse of orchestration?
+      - how do you implement service orchestraton?
+      - how to implement service orchestratoin?
+      - how do you implement servce orchestration?
+      - when should I choose orchestration rather than Facade?
+      - what does orchestration acccomplish?
+      - what does orchestraton accomplish?
+      - what does orchestratoin achive?
+      - what does orquestration achieve?
+      - examples of Fascade and orchestration
+      - examples of Facad and orquestration
+      - sample Facade vs orchestration
+      - sample Fascade vs orchestration
+      - sample Facade vs orchestraton
+      - exampels of Facade and orchestration
+      - exmples of Fascade and orquestration
+      - case studies of Facade vs orchestration
+      - case studies of Fascade vs orquestration
+      - ussage of Facade vs orchestration
+      - usage of Facad vs orchestration
+      - diff Facade and orchestration?
+      - differ Facade vs orchestration?
+      - Facade vs orquestration?
+      - Fascade vs orchestration?
+      - pros of Facade?
+      - pros of Fascade?
+      - advantages Facade?
+      - advantages Fascade?
+      - benefits Facade vs orchestration?
+      - benefits Fascade vs orchestraton?
+      - usecases of Facade?
+      - use cases of Fascade?
+      - patterns Facade vs orchestration?
+      - patterns Fascade vs orchestration?
+      - guidelines for Facade vs orchestration?
+      - guidelnes for Fascade vs orchestration?
+      - what does orchestration achive?
+      - what does orchestration achiev?
+      - examples of Facade and orquestration
+      - examples of Facdde and orchestration
+      - examples of Facade and orchestraton
+      - examples of Facade vs orchestration
+      - sample of Facade and orchestration
+      - what is the Fasade pattern?
+      - what is teh Facade pattern?
+      - what is the Fascade patttern?
+      - whta does Facade mean?
+      - what does Facdde mean in MuleSoft?
+      - what does Fasade mean in MuleSoft?
+      - what does Facade meen in Mulesoft?
+      - what does teh Facade mean?
+      - what do Facade do?
+      - what do Facdd do?
+      - explain teh Facade vs orchestration
+      - explain Facde vs orchestration
+      - explain Fascade vs orquestration
+      - how does Fasade differ from orchestration?

@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: responsibility_boundaries
+    examples: |
+      - o q sao fronteira de responsabildade?
+      - oq sao fronteira de responsabildade?
+      - o que sáo fronteiras de responsabildade?
+      - o que saõ fronteiras de responsabildade?
+      - o que são frontirras de responsabildade?
+      - o que são fronteira de responsabildade?
+      - o que são fronetiras de responsabildade?
+      - oq são fronetiras de responsabildade?
+      - oq sao frontieras de responsabildade?
+      - oq sao fronetiras de responsabildade?
+      - o que signífica frontiras de responsabildade?
+      - o que significa frontiras de responsabildade?
+      - para que sevem frontiras de responsabildade?
+      - para que servem frontiras de responsabildade?
+      - para que serv frontiras de responsabildade?
+      - pq serve frontiras de responsabildade?
+      - pq servem frontiras de responsabildade?
+      - por que servem frontiras de responsabildade?
+      - por que serve frontiras de responsabildade?
+      - qual a importncia frontiras de responsabildade?
+      - qual a importncia d frontiras de responsabildade?
+      - qual a importancia frontiras de responsabildade?
+      - qual a importancia fronetiras de responsabildade?
+      - como delimita frontiras de responsabildade?
+      - como delimita fronetiras de responsabildade?
+      - cm delimitar frontiras de responsabildade?
+      - como delimitar frontiras de responsabildade?
+      - me explica frontiras de responsabildade
+      - me explica fronetiras de responsabildade
+      - me esplica frontiras de responsabildade
+      - me esplica fronetiras de responsabildade
+      - me conta frontiras de responsabildade
+      - me conta fronetiras de responsabildade
+      - defina frontiras de responsabildade
+      - defina fronetiras de responsabildade
+      - define frontiras de responsabildade
+      - define fronetiras de responsabildade
+      - qual o papel frontiras de responsabildade?
+      - qual o papel fronetiras de responsabildade?
+      - qual funçao frontiras de responsabildade?
+      - qual funçao fronetiras de responsabildade?
+      - por que usa frontiras de responsabildade?
+      - por que usa fronetiras de responsabildade?
+      - porque usamos frontiras de responsabildade?
+      - porque usamos fronetiras de responsabildade?
+      - onde ficam frontiras de responsabildade?
+      - onde ficam fronetiras de responsabildade?
+      - ondeficam frontiras de responsabildade?
+      - onde fic frontiras de responsabildade?
+      - quais beneficios frontiras de responsabildade?
+      - quais beneficios fronetiras de responsabildade?
+      - quais benefícius frontiras de responsabildade?
+      - quais benefícius fronetiras de responsabildade?
+      - como afetam testes frontiras de responsabildade?
+      - como afetam testes fronetiras de responsabildade?
+      - como afetam deploy frontiras de responsabildade?
+      - como afetam deploy fronetiras de responsabildade?
+      - criteiros frontiras de responsabildade?
+      - critérios frontiras de responsabildade?
+      - criterios fronetiras de responsabildade?
+      - critérios fronetiras de responsabildade?
+      - delimitação frontiras de responsabildade?
+      - delimitação fronetiras de responsabildade?
+      - frontiras de responsabildade em microserviços?
+      - fronetiras de responsabildade em microserviços?
+      - microserviços e frontiras de responsabildade?
+      - microserrviços e fronetiras de responsabildade?
+      - o que eh frontiras de responsabildade?
+      - o que eh fronetiras de responsabildade?
+      - eh frontiras de responsabildade?
+      - eh fronetiras de responsabildade?
+      - qual o conceito frontiras de responsabildade?
+      - qual o conceito fronetiras de responsabildade?
+      - conceituar frontiras de responsabildade?
+      - conceituar fronetiras de responsabildade?
+      - isolar funções frontiras de responsabildade?
+      - isolar funções fronetiras de responsabildade?
+      - isolando funções frontiras de responsabildade?
+      - isolando funções fronetiras de responsabildade?
+      - delimitar escopo frontiras de responsabildade?
+      - delimitar escopo fronetiras de responsabildade?
+      - escopo frontiras de responsabildade?
+      - escopo fronetiras de responsabildade?
+      - exemplos frontiras de responsabildade?
+      - exemplos fronetiras de responsabildade?
+      - cite exemplos frontiras de responsabildade?
+      - cite exemplos fronetiras de responsabildade?
+      - frontiras de responsabildade muleSoft?
+      - fronetiras de responsabildade muleSoft?
+      - no mulesoft frontiras de responsabildade?
+      - no mulesoft fronetiras de responsabildade?
+      - pr que frontiras de responsabildade?
+      - pr que fronetiras de responsabildade?
+      - pq frontiras de responsabildade?
+      - pq fronetiras de responsabildade?
+      - delimite resp frontiras de responsabildade?
+      - delimite resp fronetiras de responsabildade?
+      - resp única frontiras de responsabildade?
+      - resp única fronetiras de responsabildade?
+      - quando revisar frontiras de responsabildade?
+      - quando revisar fronetiras de responsabildade?
+      - revisao frontiras de responsabildade?
+      - revisao fronetiras de responsabildade?
+      - qual diferença frontiras vs limites?
+      - qual diferença fronetiras vs limites?
+      - frontiras vs responsabilidades?
+      - fronetiras vs responsabilidades?
+      - relacionar frontiras e arquitetura?
+      - relacionar fronetiras e arquitetura?
+      - como arquitetura usa frontiras de responsabildade?
+      - como arquitetura usa fronetiras de responsabildade?
+      - oq são fronteiras de responssabilidade em desing e arqutietura?
+      - o que significa definir frontiras de responsabilidade?
+      - para que sevem as fronteiras de responsábilidade?
+      - qual a importncia das fronteiras de respnsabilidade?
+      - como delimitar fronteiras de resposabilidade?
+      - como definir limites de responsabilidade em um sistma?
+      - me explica o coneto de fronreiras de responsabilidade
+      - qual o papel das fronteiras de responsabildade na aruiteura?
+      - como apliar fronteiras de responsabilidades no MuleSoft?
+      - por que precismas de fronteiras de responsábilidade?
+      - como as fronteiras de responsabildiade ajudam na mantenibilidade?
+      - onde ficm as fronteiras de responsabilidade em microsserviços?
+      - quais beneficíos de boes fronteiras de responsabilidade?
+      - como isolar resposabilidades em APIS?
+      - o que é Bondary in responsibl design?
+      - quais critérios para delimitr resposabilidades?
+      - o que signfica Single Responsibity Boundary?
+      - como as frnteiras suportam escabilidade?
+      - quando revizar suas fronteiras de responsabiidade?
+      - como as frnteiras afetam testes e deploiy?
+      - oq e fronteiras de responsabildade?
+      - o que e frontieras de responsabildiade?
+      - o que quer dizer fronteira de responsabiliddae?
+      - para q servem as frontieras de resposabilidade?
+      - qual a funçao de fronteiras de responsablidade?
+      - por que usa fronteiras de responsabildade?
+      - explika fronteiras de responsiblidade
+      - me conta frntieras de responsabidlidade
+      - oq é uma fronteira de resposabilidade?
+      - como delimitr fronteiras de responsabiliade?
+      - frontieras de responsabilidae o que são?
+      - criteios de delimitação de responsabildiade?
+      - respnsabilidade única em frontiras?
+      - frnstieras de responsabilda?
+      - o que são fronteiras de responsabilidade em design e arquitetura?
+      - o que significa definir fronteiras de responsabilidade?
+      - para que servem as fronteiras de responsabilidade?
+      - qual a importância das fronteiras de responsabilidade?
+      - como delimitar fronteiras de responsabilidade?
+      - como definir limites de responsabilidade em um sistema?
+      - me explique o conceito de fronteiras de responsabilidade
+      - qual o papel das fronteiras de responsabilidade na arquitetura?
+      - como aplicar fronteiras de responsabilidade no MuleSoft?
+      - por que precisamos de fronteiras de responsabilidade?
+      - como as fronteiras de responsabilidade ajudam na manutenibilidade?
+      - onde ficam as fronteiras de responsabilidade em microserviços?
+      - quais benefícios de boas fronteiras de responsabilidade?
+      - como isolar responsabilidades em APIs?
+      - o que é Boundary in responsible design?
+      - quais critérios para delimitar responsabilidades?
+      - o que significa Single Responsibility Boundary?
+      - como as fronteiras suportam escalabilidade?
+      - quando revisar suas fronteiras de responsabilidade?
+      - como as fronteiras afetam testes e deploy?
+      - oq são fronterias de responsabiliddae?
+      - oq são frontrias de responsabildade?
+      - oq sao frntreias de responsabildade?
+      - oq saõ frontieiras de responsabildade?
+      - o q são fronteiras de respnsabilidade?
+      - o q sao fronteiras de responsabildade?
+      - oq saõ frnteiras de responsabiliddae?
+      - oq saõ fronteiras de responsbiilidade?
+      - q são fronteiras de responsabildade?
+      - q sao frontieras de responsabiliddae?
+      - qual funçao de frnteiras de responsabiliddae?
+      - por qe usar fronteiras de responsabilidad?
+      - por que usar frontieras de responsabildade?
+      - por que usa frnteiras de responsabilidade?
+      - pra q servem frontieras de responsabildade?
+      - pra que servem frnteiras de responsabiidade?
+      - para q servem frteiras de responsabildade?
+      - para que servem frontieras de responsabiliddae?
+      - qual a importncia de frontieras de responsabiliddae?
+      - qual a importncia de frnteiras de responsabildade?
+      - qual a importncia de responsabildade?
+      - como delimitar frontieras de responsabillidade?
+      - como delimitar frnteiras de responsabiliddae?
+      - como delimitr frnteiras de responsabiliddae?
+      - cm delimitar frontieras de responsabildade?
+      - como delimitar fronterias de responsabildade?
+      - me esplica frontieras de respnsabilidade?
+      - me esplica frnteiras de responsabildade?
+      - me explica frontieras de resposabilidade?
+      - me conta frontieras de responsabildade?
+      - me explica frnteiras de responsabilda?
+      - explica frteiras de responsabildade?
+      - explika frnteiras de responsabiliddae?
+      - oque sao frontieras de responsabiddade?
+      - oq sao frontrias de responsabillidade?
+      - what are responsibility boundaries in design and architecture?
+      - what does defining responsibility boundaries mean?
+      - what are the purpose of responsibility boundaries?
+      - why are responsibility boundaries important?
+      - how do you delimit responsibility boundaries?
+      - how to define responsibility limits in a system?
+      - explain the concept of responsibility boundaries
+      - what role do responsibility boundaries play in architecture?
+      - how to apply responsibility boundaries in MuleSoft?
+      - why do we need responsibility boundaries?
+      - how responsibility boundaries help maintainability?
+      - where are responsibility boundaries in microservices?
+      - what are the benefits of good responsibility boundaries?
+      - how to isolate responsibilities in APIs?
+      - what is a responsibility boundary?
+      - what criteria define responsibility boundaries?
+      - how do boundaries support scalability?
+      - when should you review your responsibility boundaries?
+      - how do boundaries affect testing and deployment?
+      - why enforce clear responsibility boundaries?
+      - what are responsiblity boundries in design and architecture?
+      - what are responibility boundaries in design and architecture?
+      - what are responsibility bordaries in design and architecture?
+      - what are responsibility boundares in design and architecture?
+      - what are responsibility boundries in design and arhitecture?
+      - what are responsibility boundaries in desgn and architecture?
+      - what are responsibility boundaries in design and architecure?
+      - what are responsibility boundaries in design and arquitecture?
+      - what are responsiblity boundaries in design and architecture?
+      - what are responsability boundaries in design and architecture?
+      - what are responsibility boundaries in design & architecture?
+      - what r responsibility boundaries in design and architecture?
+      - what is responsibility boundaries in design and architecture?
+      - what are the responsibility boundaries in design & architecture?
+      - what do responsiblity boundaries mean in design and architecture?
+      - what do responsibility boundaries mean in design and architecure?
+      - what does defining responsibility boundries mean?
+      - what does defining responsiblity boundaries mean?
+      - what does defining responsibility bordaries mean?
+      - what does defining responsibility boundares mean?
+      - what does define responsibility boundaries mean?
+      - what does defining responsability boundaries mean?
+      - what does defined responsibility boundaries mean?
+      - what does definin responsibility boundaries mean?
+      - what does defining responsibility boundaries in MuleSoft mean?
+      - what does defining responsibility boundaries entail?
+      - what does defining responsibility boundaries signify?
+      - what is the purpose of responsiblity boundaries?
+      - what is the purpose of responsibility boundary?
+      - what are the purposes of responsibility boundaries?
+      - what is the main purpose of responsibility boundaries?
+      - what are the purpose of responsiblity boundaries?
+      - why are responsiblity boundaries important?
+      - why are responsibility boundries important?
+      - why are responsibility boundaries impotant?
+      - why are responsibility bounds important?
+      - why are responsibility boundaries crucial?
+      - why is responsibility boundaries important?
+      - why is responsibility boundary important?
+      - why are responsibility boundaries significant?
+      - why are responsibility boundaries valuble?
+      - why responsibility boundaries matter?
+      - why do we need responsiblity boundaries?
+      - why should we enforce responsibility boundaries?
+      - why we need responsibility boundaries?
+      - why we need responsibility boundries?
+      - why we need responsiblity boundaries?
+      - how to delimit responsibility boundaries?
+      - how to delim responsibility boundaries?
+      - how do you delimit responsibility boundries?
+      - how do you delimit responsiblity boundaries?
+      - how delimite responsibility boundaries?
+      - how delimite responsiblity boundaries?
+      - how to define responsibility limits in a sysstem?
+      - how to define responsibility limits in a sytem?
+      - how to define responsiblity limits in a system?
+      - how to define responsibility limits in a sistm?
+      - how to define responsability limits in a system?
+      - explain the concept of responsibility boundries
+      - explain the concept of responsiblity boundaries
+      - explain concept of responsibility boundaries
+      - explain the concept of responsibility boundaries?
+      - explain concept responsibility boundaries?
+      - explain responsibility boundaries concept
+      - explain responsibility boundary concept
+      - what role do responsibility boundaries play in system design?
+      - what role do responsiblity boundaries play in architecture?
+      - what role do responsibility boundries play in architecture?
+      - what role do responsibility boundaries play in app architecture?
+      - how to apply responsiblity boundaries in MuleSoft?
+      - how to apply responsibility boundries in MuleSoft?
+      - how apply responsibility boundaries in MuleSoft?
+      - how to apply responsibility boundaries on Anypoint?
+      - why enforce clear responsiblity boundaries?
+      - why enforce clear boundary of responsibility?
+      - why enforce clear responsibility bordaries?
+      - why enforce crisp responsibility boundaries?
+      - when should you review your responsiblity boundaries?
+      - when should you review responsibility boundries?
+      - when to review responsibility boundaries?
+      - when to review responsiblity boundaries?
+      - when to review responsibility boundaries in a project?
+      - how do responsibility boundaries affect testing?
+      - how do responsibility boundaries effect testing and deployment?
+      - how responsibility boundaries affect tests and deployment?
+      - how responsiblity boundaries affect testing and deployment?
+      - where are responsibility boundaries in microsevices?
+      - where are responsibility boundaries in micro servics?
+      - where are responsiblity boundaries in microservices?
+      - where find responsibility boundaries in microservices?
+      - what are the benefits of good responsiblity boundaries?
+      - what are the benefits of proper responsibility boundaries?
+      - what are the benefits of proper responsiblity boundaries?
+      - what are the benifits of good responsibility boundaries?
+      - how to isolate responsiblities in APIs?
+      - how isolate responsibilities in APIs?
+      - how to isolate responsibilities in Api's?
+      - how to isolate responibility in APIs?
+      - what criteria define responsiblity boundaries?
+      - what criterias define responsibility boundaries?
+      - which criteria define responsibility boundaries?
+      - which criterias define responsibility boundaries?
+      - how do responsiblity boundaries support scalability?
+      - how do responsibility boundaries support scalabilty?
+      - how responsibility boundaries support scalability?
+      - how do boundary conditions support scalability?
+      - what are responsibility boundries in design & architecture?
+      - what are resposibility boundaries in design and architecture?
+      - what are responsibility bounds in design and architecture?
+      - wut are responsibility boundaries in design and architecture?
+      - wat are responsibility boundaries in design and architecture?
+      - what ar responsibility boundaries in design & architecture?
+      - what’s responsibility boundaries in design and architecture?
+      - what is responsibility boundary in design and architecture?
+      - whats responsibility boundary in design and architecture?
+      - what are the responsability boundaries in design and architecture?
+      - what are the responsibility boundries in design and architecture?
+      - what are the responsibility bodaries in design and architecture?
+      - what are the responsible boundaries in design and architecture?
+      - what does responsibility boundaries mean in design and architecture?
+      - what do responsibility boundaries mean in design and arcitecture?
+      - what does responsibility boundaries mean in design & architecture?
+      - what does responsibility boundaries mean in design + architecture?
+      - what does resposibility boundaries mean in design and architecture?
+      - what does responsibility boundries mean in design and architecture?
+      - what does responsibility boundaries mean in mulesoft design?
+      - what is the purpose of responsibility boundaries in design?
+      - what is the purpose of responsibility bounds in design?
+      - what is the purpose of responsability boundaries in design and architecture?
+      - what is the purpose of responsibility boundaries in system design?
+      - why are responsibility boundaries critical in design and architecture?
+      - why are responsibility Boundries important in architecture?
+      - why are responsibility boundaries essential in design?
+      - why we need responsibility boundaries in architecture?
+      - why do we need responsibility boundaries in design and architecture?
+      - why use responsibility boundaries in system design?
+      - how to define responsibility boundaries in a system architecture?
+      - how to delimit responsibility boundaries in design?
+      - how should you define responsibility boundaries in architecture?
+      - how d you define responsibility boundaries in a system?
+      - how do you define responsibility boundries in architecture?
+      - explain responsibility boundaries in design and architecture?
+      - explain concept of responsibility boundaries in design?
+      - explain the concept of responsiblity boundaries in architecture?
+      - what role do responsibility boundaries play in software architecture?
+      - how to apply responsibility boundaries in MuleSoft Anypoint?
+      - how do responsibility boundaries apply in MuleSoft architecture?
+      - how to enforce responsibility boundaries in Anypoint Platform?
+      - why enforce responsibility boundaries in design and architecture?
+      - why enforce clear responsibility boundaries in software architecture?
+      - when review responsibility boundaries in project?
+      - when should you review responsibility boundaries in design?
+      - when should responsibility boundaries be reviewed in architecture?
+      - when do we review responsibility boundaries in system design?
+      - how do responsibility boundaries affect testing & deployment?
+      - how responsibility boundaries affect test and deploy?
+      - how do responsibility boundaries influence CI/CD?
+      - where to find responsibility boundaries in microservices architecture?
+      - where are responsibility boundaries in microservices design?
+      - what are the benefits of responsibility boundaries in architecture?
+      - what are benefits of responsibility boundaries in system design?
+      - what benefits do responsibility boundaries bring to architecture?
+      - what value do responsibility boundaries add to system design?
+      - how to isolate responsibilities using APIs boundaries?
+      - how to isolate responsibilities through API design?
+      - what criteria for setting responsibility boundaries?
+      - what criterias define responsibility boundaries in software?
+      - what rules define responsibility boundaries?
+      - how responsibility boundaries support system scalability?
+      - how do responsibility boundaries help scale systems?
+      - how do boundaries support horizontal scalability?
+      - how responsibility boundaries enable modular scalability?
+      - what are boundary patterns for responsibility in architecture?
+      - what design patterns for responsibility boundaries in APIs?
+      - what best practices for responsibility boundaries in design?
+      - what guidelines for responsibility boundaries in architecture?
+      - what tools enforce responsibility boundaries in MuleSoft?
+      - what policies enforce responsibility boundaries in MuleSoft?
+      - what governance models for responsibility boundaries?
+      - describe responsibility boundaries in domain-driven design?

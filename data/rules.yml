@@ -17,7 +17,23 @@ rules:
     steps:
       - intent: what_is_api_led
       - action: utter_what_is_api_led
+  - rule: rule_api_contracts
+    steps:
+      - intent: api_contracts
+      - action: utter_api_contracts
+  - rule: rule_facade_vs_orchestration
+    steps:
+      - intent: facade_vs_orchestration
+      - action: utter_facade_vs_orchestration
+  - rule: rule_responsibility_boundaries
+    steps:
+      - intent: responsibility_boundaries
+      - action: utter_responsibility_boundaries
+  - rule: rule_versioning_patterns
+    steps:
+      - intent: versioning_patterns
+      - action: utter_versioning_patterns
   - rule: rule_nlu_fallback
     steps:
       - intent: nlu_fallback
-      - action: action_fallback
+      - action: utter_nlu_fallback
