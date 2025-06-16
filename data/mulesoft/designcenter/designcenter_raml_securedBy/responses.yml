@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_securedBy:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso securedBy no Design Center para aplicar securitySchemes em metodos ou recursos
-              - vr_en: |
-                  I use securedBy in Design Center to apply securitySchemes to methods or resources

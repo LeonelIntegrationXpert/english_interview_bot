@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: what_is_api_led
+    examples: |
+      - o que é api-led?
+      - o que é api led?
+      - oque é api-led?
+      - me explica api led
+      - api-led é o que?
+      - o que significa api-led?
+      - qual a definição de api-led?
+      - pode explicar api-led de forma simples?
+      - como você definiria api-led?
+      - me dá uma definição de api-led
+      - api-led connectivity, o que é?
+      - api-led, para que serve?
+      - api-led, explique resumido
+      - api-led, qual conceito?
+      - api-led, me explica como funciona
+      - o que entende por api-led?
+      - me fale sobre api-led
+      - api-led, o que representa?
+      - api-led, qual a função?
+      - api-led, como funciona?
+      - api-led, me conta mais
+      - api-led na prática, o que é?
+      - qual a utilidade de api-led?
+      - api-led, para que serve na integração?
+      - pode detalhar api-led connectivity?
+      - o q é api-led?
+      - oq é api-ld?
+      - o que e api led?
+      - o que apiled?
+      - apiled connectivity oque é?
+      - me esplica api-led
+      - mi explica api led?
+      - agr explika api-led
+      - o que é api lded?
+      - apiled é oq?
+      - api-led e oq?
+      - oq é aplied?
+      - api led o q sê?
+      - pque api-led?
+      - apiled conectivity, o q é?
+      - apiled o que é?
+      - o que é api-leddd?
+      - oque é apiled?
+      - api-led, como qe é?
+      - aplied connectivity, o qu é?
+      - api-led, gm explica?
+      - api led, me fala ae?
+      - api led ñ é?
+      - o que é apiled connectivity?
+      - explika api-ld?
+      - api-led, me diz oq é?
+      - api-led, me conta ae?
+      - apiled connctivity oq é?
+      - me esplica apiled
+      - api-led, o que seje?
+      - api-le d, o que é?
+      - o que é aplied?
+      - api-led, explica pra mim ai?
+      - api-led, mel me explica?
+      - api ledd o que é?
+      - apilead connectivity, oq?
+      - api-led, mi diz o que é?
+      - api-led, me faba?
+      - apiled connectivty, como e?
+      - api-led, mod explica?
+      - api-lad o que é?
+      - apiled conectivity, qual ideia?
+      - api-led, compoe ce?
+      - api-led, qui é?
+      - api led, o que sgnifica?
+      - api-led, oque sgnfca?
+      - apiled, q isso?
+      - api-lied, o que é?
+      - api-lé, oq é?
+      - api-led e para que srv?
+      - api led, oq serve?
+      - api-led, pi me xplicar?
+      - api-lid connectivity, q é?
+      - api-led, sq vc explica?
+      - apiled conecvity, o que sgn?
+      - api-led, cmo funciona?
+      - api léd, oque?
+      - api-led, mne explica?
+      - apiled, q faz?
+      - api-lêd, o que cr?
+      - apiled cnnectivity, o q è?
+      - api-led, cê pode falar?
+      - api-led, me mostre o que é?
+      - apiled connectivity, diga ai?
+      - o q é api led?
+      - oq é api-led?
+      - oq é api led?
+      - o que api-led?
+      - o que api led?
+      - o que é apiled?
+      - o que é api-lied?
+      - o que é api-liad?
+      - o que é api-laed?
+      - o que é aplied connectivity?
+      - o que é apiled connecvtivity?
+      - o que é api-led connecivity?
+      - apiled, oq é?
+      - aplied, oq é?
+      - apiled, o q é?
+      - aplied, o q é?
+      - apiled connectivity, oq é?
+      - aplied connectivity, oq é?
+      - api-leddq oq é?
+      - api-ledd oq é?
+      - api--led oq é?
+      - api - led oq é?
+      - api ledd oq é?
+      - api lend oq é?
+      - api led , oq é?
+      - api led; oq é?
+      - api led. oq é?
+      - api lead oq é?
+      - api lad oq é?
+      - api léd oq é?
+      - api-ld oq é?
+      - ap-i led oq é?
+      - ap-iled oq é?
+      - ap half led oq é?
+      - api ledii oq é?
+      - apiledii oq é?
+      - ap iled oq é?
+      - ap i-led oq é?
+      - ap i led , oq é?
+      - apiled? oq é?
+      - a pi-led oq é?
+      - a pi led oq é?
+      - api l-ed oq é?
+      - api led- oq é?
+      - api-led oq é?
+      - aplied o que é?
+      - apiled connectivity o que é?
+      - api-led connectivity o que é?
+      - aplied connectivity o que é?
+      - api-led connecvtivity o que é?
+      - api-led connectivty o que é?
+      - api-led conctivty o que é?
+      - api-led conectivity o que é?
+      - api-led conetivity o que é?
+      - api-led conectivty o que é?
+      - o que é a pi-led?
+      - o que é a pi led?
+      - o que é ap i led?
+      - o que é api-léd?
+      - o que é api liéd?
+      - o que é ap-i-l-e-d?
+      - o que é apli ed?
+      - o que é ap li ed?
+      - o que é ap l-e-d?
+      - o que é ap-l-e-d?
+      - o que é a-p-i-l-e-d?
+      - o-q-é-api-led?
+      - oq-é-api-led?
+      - oq é ap[l]ed?
+      - oq é a[p]led?
+      - api-l_ed qtd é?
+      - api-led qtd é?
+      - api-led ¿o que é?
+      - api-led, o que é mesmo?
+      - aplied connectivity, me diz o que é?
+      - apilled, o que significa?
+      - api_led, o q é?
+      - apilad, o que é api-led?
+      - api-lead, me explica?
+      - apiled, como funciona?
+      - api-léed, o que?
+      - api–lead, o que é?
+      - ap i led, qual definição?
+      - api-led, q é?
+      - apiled, qual conceito?
+      - a pi led, por favor?
+      - api-led, me conta?
+      - api-led, descreva!
+      - api(ld, o que?
+      - api+léd, o que é?
+      - api~led, o q é?
+      - api_led, qual função?
+      - api–led, explique!
+      - aplíd, o que é?
+      - api-led, fale sobre!
+      - api-led, o que exatamente significa?
+      - api-led, pode detalhar para mim?
+      - apiled, me diz a definição?
+      - api-led, qual é a função principal?
+      - api-led, em que cenários usar?
+      - api-led, qual o impacto?
+      - apiled connectivity, explique rápido
+      - api-led, como se estrutura?
+      - api-led, quais padrões usa?
+      - api-led, como melhora performance?
+      - api-led, dá um exemplo prático
+      - apiled, qual a arquitetura?
+      - api-led, onde se aplica?
+      - api-led, qual a vantagem competitiva?
+      - api-led, como facilita a manutenção?
+      - apiled, quais ferramentas suportam?
+      - what is api-led?
+      - what is api led?
+      - wut is api-led?
+      - wut is api led?
+      - what iz api-led?
+      - what iz api led?
+      - what is apiled?
+      - what is aplied?
+      - what is api-lied?
+      - what is api-liad?
+      - what is api-laed?
+      - what is apiled connectivity?
+      - what is aplied connectivity?
+      - what is apiled connecvtivity?
+      - what is api-led connecivity?
+      - apiled, what is?
+      - aplied, what is?
+      - apiled, wut is?
+      - aplied, wut is?
+      - apiled connectivity, what is?
+      - aplied connectivity, what is?
+      - api-leddq what is?
+      - api-ledd what is?
+      - api--led what is?
+      - api - led what is?
+      - api ledd what is?
+      - api lend what is?
+      - api led , what is?
+      - api led; what is?
+      - api led. what is?
+      - api-led, what is it exactly?
+      - apiled connectivity, what’s that?
+      - api-led, explain please!
+      - api_léd, what does it mean?
+      - a pi led, what is?
+      - apilad, what is api-led?
+      - api–led, describe it!
+      - apiled, how does it work?
+      - api~led, what’s that?
+      - api+led, what is?
+      - api|led, explain!
+      - apiled, define it!
+      - api—led, tell me!
+      - api–léd, what is?
+      - api-led, give definition!
+      - api_led, what’s the concept?
+      - ap i led, what is?
+      - api=led, what do?
+      - api·led, explain!
+      - api®led, what means?
+      - api—lead, what is?
+      - api–l-ed, define!
+      - apil-ed, what’s this?
+      - api--l-ed, explain!
+      - api~led, how works?
+      - apiled, tell me!
+      - api–led, what for?
+      - api_led, what does?
+      - api_led, what’s purpose?
+      - ap i-led, what is?
+      - api lead what is?
+      - api lad what is?
+      - api léd what is?
+      - api-ld what is?
+      - ap-i led what is?
+      - api-led, what exactly does it mean?
+      - api-led, can you detail it for me?
+      - apiled, give me the definition
+      - api-led, what is its main function?
+      - api-led, in which scenarios to use?
+      - api-led, what is the impact?
+      - apiled connectivity, explain briefly
+      - api-led, how is it structured?
+      - api-led, what standards does it use?
+      - api-led, how does it improve performance?
+      - api-led, give a practical example
+      - apiled, what is the architecture?
+      - api-led, where is it applied?
+      - api-led, what is the competitive advantage?
+      - api-led, how does it ease maintenance?
+      - apiled, which tools support it?
+      - api-led, what is the typical flow?
+      - api-led, how to measure success?
+      - apiled, ideal documentation?
+      - api-led, what best practices to follow?
+      - ap half led what is?
+      - api ledii what is?
+      - apiledii what is?
+      - ap iled what is?
+      - ap i-led what is?
+      - ap i led , what is?
+      - apiled? what is?
+      - a pi-led what is?
+      - a pi led what is?
+      - api l-ed what is?
+      - api led- what is?
+      - api-led what is?
+      - apiled what is?
+      - aplied what is?
+      - what is api-led connectivity?
+      - what is api led connectivity?
+      - what is api-led connecvtivity?
+      - what is api-led connectivty?
+      - what is api-led conctivty?
+      - what is api-led conectivity?
+      - what is api-led conetivity?
+      - what is api-led conectivty?
+      - what is a pi-led?
+      - what is a pi led?
+      - what is ap i led?
+      - what is api-léd?
+      - what is api liéd?
+      - what is ap-i-l-e-d?
+      - what is apli ed?
+      - what is ap li ed?
+      - what is ap l-e-d?
+      - what is ap-l-e-d?
+      - what is a-p-i-l-e-d?
+      - wh-at-is-api-led?
+      - wut-iz-api-led?
+      - wut is ap[l]ed?
+      - wut is a[p]led?
+      - api-l_ed what is?
+      - api-led ¿what is?
+      - api-led ¿wut is?
+      - api-led ¿what iz?
+      - api-led – wut is?
+      - api-led — wut is?
+      - api-led ~ wut is?
+      - api-led | wut is?
+      - api+led what is?
+      - api*led what is?
+      - api&led what is?
+      - api%led what is?
+      - what is api-ledity?
+      - what iz apiled?
+      - what is api-lay?
+      - wat is api-ledy?
+      - wut iz api layd?
+      - can you xplain api-lé?
+      - what is api-leading?
+      - pls explain api lead?
+      - what does api-leditty mean?
+      - api lead, what is?
+      - explain apiled connect?
+      - wot iz api led?
+      - what is api-lèd?
+      - what does apiled mean?
+      - pls xpln api-led?
+      - what is api – lied?
+      - ap i led, what is it?
+      - api-laid, what is?
+      - api-leddd, what does?
+      - api-led, pls explain?
+      - apiled, how works?
+      - a-p-i-l-e-d, what is?
+      - ap i led, what's?
+      - api––led, what?
+      - api_led, what is?
+      - api-led, tell me?
+      - api—led, can you?
+      - api–led, what does?
+      - aπi-led, what is?
+      - apiℓed, what mean?
+      - apiled, pls xplain?
+      - api lad, what is?
+      - api lrd, what's it?
+      - api-led;, what's?
+      - api-led?, tell me?
+      - api led, how works?
+      - xplain apiled connectivity?
+      - what is api-ledly?
+      - what iz api lead?
+      - what is api-led connetivity?
+      - what is apiled conn?
+      - can you xplain api led?
+      - what is api-lled?
+      - wut iz apil-ed?
+      - what api-led mean?
+      - pls xplain apiled?
+      - what is api led connet?
+      - can you explain aplied?
+      - what is api – led?
+      - wut is api ledd?
+      - apiled, wut is it?
+      - what is api-led pae?
+      - what is api-laid?
+      - wut iz api led?
+      - can u xplain apiled?
+      - what is api–led?
+      - what is api ledd?
+      - wut is apiled connctivity?
+      - pls explain apiled
+      - what iz api led connectivity?
+      - what is api-leddd?
+      - can you xplaine api-led?
+      - what is api led connetivity?
+      - what does api–led mean?
+      - what is api laid?
+      - can you xplain api-led?

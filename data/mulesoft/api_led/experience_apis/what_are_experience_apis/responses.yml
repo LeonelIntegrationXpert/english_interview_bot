@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_what_are_experience_apis:
+    - custom:
+        response_array:
+          -   - vr_pt: |
+                  As Experience APIs formam a camada superior na arquitetura API-led da MuleSoft; elas adaptam e combinam as saídas das Process APIs para cada canal (web, mobile, chatbots); aplicam transformação de payload e formatam dados para UX específico; implementam cache de front-end para baixa latência; versionam contratos por canal; agregam lógica de personalização (filtros, preferências, contextos); orquestram chamadas a múltiplas Process APIs; expõem endpoints otimizados para performance e responsividade; geram métricas de uso por canal e facilitam testes de interface.
+              - vr_en: |
+                  Experience APIs form the top layer in MuleSoft’s API-led architecture; they adapt and shape outputs from Process APIs for each channel (web, mobile, chatbots); apply payload transformation, format data for specific UX; implement front-end caching for low latency; version contracts per channel; add personalization logic (filters, preferences, contexts); orchestrate calls to multiple Process APIs; expose endpoints optimized for performance and responsiveness; emit channel-specific usage metrics and streamline UI testing.

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_custom_module_loading:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso loadModule para importar dinamicamente módulos externos escritos em .dwl durante execução
-              - vr_en: |
-                  I use loadModule to dynamically import external .dwl modules during execution

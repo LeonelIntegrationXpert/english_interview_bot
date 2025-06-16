@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_put:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso put no Design Center para atualizar recursos definindo body e responses no RAML
-              - vr_en: |
-                  I use put in Design Center to update resources by defining body and responses in RAML

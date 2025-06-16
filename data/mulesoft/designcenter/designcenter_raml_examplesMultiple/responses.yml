@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_examplesMultiple:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu adiciono varios examples no Design Center definindo lista de exemplos nomeados para cada response
-              - vr_en: |
-                  I add multiple examples in Design Center by defining a list of named examples for each response

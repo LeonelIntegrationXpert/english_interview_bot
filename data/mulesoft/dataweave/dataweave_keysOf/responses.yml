@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_keysOf:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso keysOf para extrair somente as chaves de um objeto retornando lista
-              - vr_en: |
-                  I use keysOf to extract only the keys from an object returning a list

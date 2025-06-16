@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_default:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso default para atribuir valor padrão quando expressão retorna null ou vazio
-              - vr_en: |
-                  I use default to assign a fallback value when an expression returns null or empty

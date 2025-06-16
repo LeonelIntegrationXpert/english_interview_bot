@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_schemaDefinitions:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu crio schemas no Design Center definindo dataType com object ou array para validação de payload
-              - vr_en: |
-                  I create schemas in Design Center by defining dataType with object or array for payload validation

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_xmlFacet:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso xml facets no Design Center para customizar namespace prefix e attribute rename em tipos XML
-              - vr_en: |
-                  I use xml facets in Design Center to customize namespace prefix and attribute rename on XML types

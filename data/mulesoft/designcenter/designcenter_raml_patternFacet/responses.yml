@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_patternFacet:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso pattern facet no Design Center para validar string contra regex especificado no schema
-              - vr_en: |
-                  I use pattern facets in Design Center to validate strings against a specified regex in the schema

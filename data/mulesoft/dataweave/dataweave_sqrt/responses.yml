@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_sqrt:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso sqrt para calcular a raiz quadrada de valores numéricos
-              - vr_en: |
-                  I use sqrt to calculate the square root of numeric values

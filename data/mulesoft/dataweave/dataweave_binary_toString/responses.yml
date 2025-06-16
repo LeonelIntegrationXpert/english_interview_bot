@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_binary_toString:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso binaryToString para decodificar conteúdo binário em string conforme encoding especificado
-              - vr_en: |
-                  I use binaryToString to decode binary content into a string using the specified encoding

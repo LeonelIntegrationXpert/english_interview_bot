@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_validation:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso o validador embutido do Design Center para verificar sintaxe e esquemas RAML antes de salvar ou publicar
-              - vr_en: |
-                  I use Design Center’s built-in validator to check RAML syntax and schemas before saving or publishing

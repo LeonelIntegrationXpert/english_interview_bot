@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_oasFragmentImport:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu importo fragmentos OpenAPI no Design Center para mesclar definições OAS em contratos RAML
-              - vr_en: |
-                  I import OpenAPI fragments in Design Center to merge OAS definitions into RAML contracts

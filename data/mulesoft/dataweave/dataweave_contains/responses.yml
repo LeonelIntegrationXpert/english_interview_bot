@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_contains:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso contains para verificar se uma string ou lista contém determinado valor
-              - vr_en: |
-                  I use contains to check whether a string or list contains a given value

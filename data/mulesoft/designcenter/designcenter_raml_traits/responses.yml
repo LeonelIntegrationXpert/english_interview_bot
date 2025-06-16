@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_traits:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu crio traits no Design Center para aplicar comportamento comum como cors auth em métodos no RAML
-              - vr_en: |
-                  I create traits in Design Center to apply common behavior like cors auth on methods in RAML

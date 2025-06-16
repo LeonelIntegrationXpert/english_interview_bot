@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_responseHeaders:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu incluo response headers no Design Center para documentar cabeçalhos customizados no retorno
-              - vr_en: |
-                  I include response headers in Design Center to document custom response headers

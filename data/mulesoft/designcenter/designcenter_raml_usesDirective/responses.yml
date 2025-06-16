@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_usesDirective:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu configuro uses no Design Center para incluir libraries em pastas modules do projeto
-              - vr_en: |
-                  I configure uses in Design Center to include libraries in project modules folders

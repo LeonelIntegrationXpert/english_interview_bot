@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_substring:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso substring para extrair parte de uma string informando posição inicial e comprimento
-              - vr_en: |
-                  I use substring to extract a portion of a string by specifying the start position and length

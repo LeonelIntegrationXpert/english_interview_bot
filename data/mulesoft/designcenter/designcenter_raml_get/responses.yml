@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_get:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu defino o método get no Design Center incluindo URI, responses e queryParameters no editor RAML
-              - vr_en: |
-                  I define the get method in Design Center by adding URI, responses, and queryParameters in the RAML editor

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_pow:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso pow para elevar um valor base a uma potência especificada
-              - vr_en: |
-                  I use pow to raise a base value to a specified exponent

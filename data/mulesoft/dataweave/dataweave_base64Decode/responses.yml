@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_base64Decode:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso baseSixtFourDecode para decodificar strings codificadas em baseSixtFour de volta a binário
-              - vr_en: |
-                  I use baseSixtFourDecode to decode baseSixtFour encoded strings back to binary

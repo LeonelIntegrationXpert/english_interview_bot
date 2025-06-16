@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_replaceAll:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso replaceAll para substituir todas as ocorrências de um padrão por outro
-              - vr_en: |
-                  I use replaceAll to replace all occurrences of a pattern with another

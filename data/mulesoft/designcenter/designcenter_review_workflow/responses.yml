@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_review_workflow:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu configuro revisões obrigatórias antes de merge permitir aprovação e comentários de stakeholders no DC
-              - vr_en: |
-                  I configure mandatory reviews before merge allowing stakeholder approvals and comments in DC

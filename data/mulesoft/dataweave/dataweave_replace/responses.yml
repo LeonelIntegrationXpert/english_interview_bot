@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_replace:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso replace para substituir ocorrências de um padrão por outro em uma string
-              - vr_en: |
-                  I use replace to substitute occurrences of a pattern with another in a string

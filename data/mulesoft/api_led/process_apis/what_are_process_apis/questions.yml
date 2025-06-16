@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: what_are_process_apis
+    examples: |
+      - o que são Process APIs?
+      - o que são as APIs de processo?
+      - para que servem as Process APIs?
+      - qual a função das APIs de processo?
+      - por que usar Process APIs?
+      - explique o conceito de Process APIs
+      - o que entende por Process APIs?
+      - me fale sobre as APIs de processo
+      - o que é uma Process API?
+      - pra que usam as Process APIs?
+      - oq são process apis?
+      - oq são as apis de processo?
+      - pq usar process apis?
+      - explika process apis
+      - me conta sobre process apis?
+      - o q é process apis?
+      - o que significa Process APIs no MuleSoft?
+      - o que faz uma Process API?
+      - qual utilidade das APIs de processo?
+      - oq sao process apis?
+      - oq sao api de processo?
+      - o que sao process apis?
+      - o que sao apis de processo?
+      - o que são process apis?
+      - o que são apis de processo?
+      - pq usar apis de processo?
+      - por que usar process apis?
+      - por que usar apis processo?
+      - pra que servem process apis?
+      - pra que servem apis de processo?
+      - para que servem process apis?
+      - para que servem aps de processo?
+      - qual funcao process apis?
+      - qual funcao apis de processo?
+      - qual a funçao das process apis?
+      - qual a funçao das apis de processo?
+      - explique process apis
+      - explique apis de processo
+      - explika apis processo
+      - expique api de processo
+      - explique api processo
+      - defina apis de processo
+      - defina api de processo
+      - explique o conceito de process apis
+      - explica o conceto de apis de processo
+      - conceituar process apis
+      - conceituar apis de processo
+      - me fala de process apis
+      - me fala sobre apis de processo
+      - me conte sobre process apis
+      - me conte sobre apis processo
+      - me explica process apis
+      - me explica apis de processo
+      - me expica process apis
+      - me expica apis processo
+      - o que significa process apis?
+      - o que significa apis de processo?
+      - qual significado de process apis?
+      - qual significado de apis de processo?
+      - como funcionam process apis?
+      - como funcionam apis de processo?
+      - como funcian process apis
+      - como funciona apis processo
+      - que sao process apis?
+      - que sao apis de processo?
+      - que significa process apis?
+      - que significa apis processo?
+      - o que processo apis?
+      - o que apis de process?
+      - por que process apis?
+      - por que apis processo?
+      - para que process apis?
+      - para que apis processo?
+      - oq é uma process api?
+      - oq é uma api de processo?
+      - o que é um process api?
+      - o que é uma api de processo?
+      - qual é um process api?
+      - qual é uma api de processo?
+      - proces apis oq é?
+      - apis de processo oq é?
+      - process apis para que?
+      - apis de processo para que?
+      - process apis utilização?
+      - apis de processo utilização?
+      - process api uso?
+      - api de processo uso?
+      - process apiz o que é?
+      - apiz de processo o que é?
+      - process apiss o que?
+      - apiss de processo o que?
+      - procress apis o que?
+      - processo apiss o que?
+      - process apis pq?
+      - apis processo pq?
+      - pra q serve process apis?
+      - pra q serve apis processo?
+      - por q process apis?
+      - por q apis de processo?
+      - pr que process apis?
+      - pr que apis de processo?
+      - qual funçao process apis ?
+      - qual funçao apis de processo ?
+      - qual o papel de process apis?
+      - qual o papel de apis de processo?
+      - process apis importancia?
+      - apis de processo importancia?
+      - importanca de process apis?
+      - importanca de apis de processo?
+      - process apis beneficios?
+      - apis de processo beneficios?
+      - beneficios de process apis?
+      - beneficios de apis de processo?
+      - process apis exemplos?
+      - apis de processo exemplos?
+      - oq são processapis?
+      - o que são processapiss?
+      - o q sao prcess apis?
+      - oque são proces apis?
+      - o que são procses apis?
+      - o que são apis de procese?
+      - o que sao apis d processo?
+      - oque sao apis de ppocesso?
+      - o q sao apisd e processo?
+      - oq são apis de prosesso?
+      - oque são apis de prosseso?
+      - o que saõ apis de processo?
+      - oq saõ process apis?
+      - oq sao procses apis?
+      - oq sao apis de procdesso?
+      - qual a funçao d process apis?
+      - qual a funçao d apis de processo?
+      - qual a funçao process apis ?
+      - qual a funçao apis de proc?
+      - para q serve proc apis?
+      - para q serve api d processo?
+      - para qe servem process apis?
+      - para que servem api de prcesso?
+      - para esse serve apis de processo?
+      - pq usar prc apis?
+      - pq usar apis processo?
+      - pq ultilizar process apis?
+      - pq ultilizar apis de proc?
+      - porque usar proc apis?
+      - por que usar apis procedo?
+      - por que usar process apiz?
+      - explique processapiss
+      - explika apis de proc?
+      - explan proc apis?
+      - explana apisd e processo?
+      - explika proces apis?
+      - explaine apis de prcesso?
+      - defina apis de proc?
+      - defin process apis?
+      - defin apis de proc?
+      - oque entende por prc apis?
+      - oq vc entende por apis de processo?
+      - o q vc entende por proces apis?
+      - como funfa process apis?
+      - como funciona apis d eproc?
+      - cmo funfa apis de processo?
+      - cmofunca process apis?
+      - me diz sobre proc apis?
+      - conta sobre apis de prcesso?
+      - fale sobre processapis?
+      - me fala apiss de processo?
+      - me explika process apis?
+      - me explika apis d eproc?
+      - comento process apis?
+      - comente apis de processo?
+      - descreve process apis?
+      - descreva apis de proc?
+      - apresente process apis?
+      - apresente apis de processo?
+      - mostre process apis?
+      - mostre apis de proc?
+      - cite process apis?
+      - cite apis de processo?
+      - informe process apis?
+      - informe apis de proc?
+      - caraterize process apis?
+      - caracterize apis de procs?
+      - exemplifique process apis?
+      - exemplifique apis proc?
+      - qual uso prc apis?
+      - qual uso apis process?
+      - o que fazem prc apis?
+      - o que faz apis de proc?
+      - como se usa process apis?
+      - como usa apisd eproc?
+      - onde usar proc apis?
+      - onde usar apis de proceso?
+      - quando usar process apis?
+      - quando usar apis de proc?
+      - por q serve proc apis?
+      - por q serve apis de proc?
+      - qual def process apis?
+      - qual def apis de proc?
+      - oque define proc apis?
+      - oque define apis de proc?
+      - wut ar proces apiz?
+      - what ar process apiz?
+      - what r process apiz?
+      - what r proces apis?
+      - wat r process apiz?
+      - wat r proces apis?
+      - wh@t r process apiz?
+      - wh@t r proces apis?
+      - w0t r process apiz?
+      - w0t are process apiz?
+      - w0t r proces apis?
+      - w0t ar proces apis?
+      - wht r process apis?
+      - wh@t are proces apiz?
+      - wat are proces apiz?
+      - wat r proces apiz?
+      - wut r proces apiz?
+      - wut r process apiz?
+      - wut ar proces apis?
+      - wat ar process apiz?
+      - wat ar proces apiz?
+      - what r processapi?
+      - what r procesapi?
+      - wat r processapi?
+      - wut r processapi?
+      - wut r procesapi?
+      - w0t r processapi?
+      - w0t r procesapi?
+      - what is proces api?
+      - what is processapi?
+      - what is procesapi?
+      - wat is processapi?
+      - wat is procesapi?
+      - wut is processapi?
+      - wut is procesapi?
+      - wh@t is processapi?
+      - wh@t is procesapi?
+      - w0t is processapi?
+      - w0t is procesapi?
+      - what does proces apis do?
+      - what do process apiz do?
+      - wat do proces apis do?
+      - wut do process apiz do?
+      - wut do proces apis do?
+      - what do processapi do?
+      - what do procesapi do?
+      - wat do processapi do?
+      - wut do processapi do?
+      - rob process apis?
+      - why pick proces apiz?
+      - why pick processapiz?
+      - why select process apis?
+      - why choose proces apiz?
+      - why choose processapiz?
+      - why choose proc ess apis?
+      - why choose procesApi?
+      - why choose Processapi?
+      - why choose processApi?
+      - define proces apiz for me?
+      - define processapiz for me?
+      - define procesapi?
+      - define processapi?
+      - defin proces apiz?
+      - what purpse proces apis?
+      - what purposeprocess apis?
+      - what purpse processapi?
+      - what purposeprocesapi?
+      - what is main use of proces apis?
+      - what is main use of processapi?
+      - wat is main use of processapi?
+      - wh@t is main use of processapi?
+      - w0t is main use of processapi?
+      - how function process apiz?
+      - how function processapi?
+      - how do processapiz work?
+      - how do procesapi work?
+      - how do processapi wrk?
+      - how do procesapi wrk?
+      - how process apis operate?
+      - how processapi operate?
+      - how procesapi operate?
+      - how operate process api?
+      - how operte procesapi?
+      - expln process apis?
+      - explain procesapi?
+      - explan processapi?
+      - explain proces apis bbq?
+      - tell me abt proces apis?
+      - tell me aboutprocess apis?
+      - tell me process apis??
+      - tell me procesapi!!
+      - tel me proces apis?
+      - tel me processapi?
+      - pls explain proces apiz?
+      - pls explain processapi?
+      - pls xpln proces apis?
+      - pls xpln processapi?
+      - can u explain proces apis?
+      - can u explain processapi?
+      - can u explain procesapi?
+      - can you xplain proces apis?
+      - can you xplain process api?
+      - can you xplain procesapi?
+      - wut would u use proces apis?
+      - why u use processapi?
+      - why u use proces api?
+      - yt use proces apiz?
+      - yt use processapiz?
+      - wut are Process APis?
+      - wot are proces api?
+      - wot ar proces api?
+      - wot r proces api?
+      - what r proces api?
+      - what r process apii?
+      - what r process apis?
+      - what ar process apis?
+      - what ar proces apis?
+      - wht are process apis?
+      - wht ar process apis?
+      - wht r proces apis?
+      - what r process apies?
+      - what r proces apies?
+      - what r procss apis?
+      - what r procses apis?
+      - what r procsee apis?
+      - what r process basis?
+      - what ar process BPIs?
+      - wut r process basis?
+      - wut ar process BPIs?
+      - whut ar process apies?
+      - whut r process apies?
+      - wh@t ar process apis?
+      - wh@t r process apizs?
+      - what are proces apizs?
+      - what are procezz apis?
+      - what are procces apis?
+      - what ar procces apis?
+      - wut are procces apis?
+      - wut r procces apis?
+      - wut ar procces api?
+      - wh@t r process apis?
+      - wat r process apies?
+      - wat r proces apisz?
+      - wat ar process apisz?
+      - wat ar proces apisz?
+      - wot r process apisz?
+      - wot ar proces apisz?
+      - wut r process apisz?
+      - wut ar process apisz?
+      - wut ar proccess apisz?
+      - wut r proccess apisz?
+      - wut ar proccess apesz?
+      - what r process apesz?
+      - what are proces apesz?
+      - what are proccess apesz?
+      - why choose process apesz?
+      - why use process apesz?
+      - why pick process apesz?
+      - define process apesz?
+      - explain proces apesz?
+      - explain process apesz?
+      - expln process apesz?
+      - xplain process apesz?
+      - tell me proces apesz?
+      - tell me process apesz?
+      - tell me proccess apesz?
+      - what do process apesz do?
+      - what d process apesz do?
+      - why r process apesz?
+      - why ar process apesz?
+      - wat ar process apesz?
+      - wut ar process apesz?
+      - wot ar process apesz?
+      - can u explain proces apisz?
+      - can u explain process apesz?
+      - can u explain proccess apesz?
+      - can u xplain proces apesz?
+      - can you xplain process apesz?
+      - pls explain process apesz?
+      - pls explain proces apesz?
+      - pls xpln process apesz?
+      - pls xpln proces apesz?
+      - define proces apesz for me?
+      - define process apesz for me?
+      - define proccess apesz for me?
+      - wha are process apis?
+      - what are proces apis?
+      - what are proccess apis?
+      - what are process apiss?
+      - wat are process apis?
+      - what are prcess apis?
+      - what are process apiz?
+      - what are process apys?
+      - what are process aapis?
+      - what are process ap s?
+      - what are processapis?
+      - what ar the process apis?
+      - wh@t are process apis?
+      - what are the proces apis?
+      - what is the prosess apis?

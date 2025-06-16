@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_post:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu configuro o post no Design Center definindo requestBody, schema e responses no contrato RAML
-              - vr_en: |
-                  I configure the post method in Design Center by defining requestBody, schema, and responses in the RAML contract

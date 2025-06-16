@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_toString:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso toString para converter números ou booleans em strings
-              - vr_en: |
-                  I use toString to convert numbers or booleans into strings

@@ -39,7 +39,13 @@ def create_virtualenv():
 
 def install_dependencies():
     print_header("📦 Verificando dependências...")
-    required_packages = ["rasa", "rasa-sdk", "tensorflow"]
+    required_packages = [
+        "rasa",
+        "rasa-sdk",
+        "tensorflow",
+        "transformers",    # necessário para LanguageModelFeaturizer
+        "sentencepiece"    # necessário para tokenização de subpalavras
+    ]
     for package in required_packages:
         try:
             subprocess.run(

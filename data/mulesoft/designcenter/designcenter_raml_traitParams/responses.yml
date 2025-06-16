@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_traitParams:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu configuro traitParams no Design Center para parametrizar comportamento comum como cors ou segurança
-              - vr_en: |
-                  I configure traitParams in Design Center to parameterize common behavior such as cors or security

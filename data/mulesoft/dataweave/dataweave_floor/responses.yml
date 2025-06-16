@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_floor:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso floor para arredondar valores numéricos para o inteiro inferior
-              - vr_en: |
-                  I use floor to round numeric values down to the lower integer

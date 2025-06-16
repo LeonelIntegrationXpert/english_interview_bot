@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_readBinary:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso readBinary para ler conteúdo binário de arquivos ou payloads e processar como byteArray
-              - vr_en: |
-                  I use readBinary to read binary content from files or payloads and process it as byteArray

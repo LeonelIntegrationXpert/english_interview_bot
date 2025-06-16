@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_facetUsage:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso facets avançados no Design Center para anexar informações customizadas a tipos e recursos
-              - vr_en: |
-                  I use advanced facets in Design Center to attach custom information to types and resources

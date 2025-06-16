@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_jsonSchemaIntegration:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu integro JSON Schema no Design Center para validar payload conforme contrato externo
-              - vr_en: |
-                  I integrate JSON Schema in Design Center to validate payloads against external contracts

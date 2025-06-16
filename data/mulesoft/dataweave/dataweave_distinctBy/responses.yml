@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_distinctBy:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso distinctBy para remover duplicatas com base em chave ou função fornecida
-              - vr_en: |
-                  I use distinctBy to remove duplicates based on a specified key or function

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_xmlWrappers:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu configuro xml wrappers no Design Center para envolver list elements com tag custom no XML output
-              - vr_en: |
-                  I configure xml wrappers in Design Center to wrap list elements with custom tag in XML output

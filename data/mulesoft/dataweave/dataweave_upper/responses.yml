@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_upper:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso upper para converter todos os caracteres de uma string em maiúsculas
-              - vr_en: |
-                  I use upper to convert all characters in a string to uppercase

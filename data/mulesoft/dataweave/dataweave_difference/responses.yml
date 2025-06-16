@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_difference:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso difference para obter valores presentes em uma lista e não em outra
-              - vr_en: |
-                  I use difference to get values present in one list and not in another

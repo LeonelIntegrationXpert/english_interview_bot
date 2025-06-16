@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_resourceInheritance:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso resource inheritance no Design Center estendendo um resourceType para criar novos recursos semelhantes
-              - vr_en: |
-                  I use resource inheritance in Design Center by extending a resourceType to create similar new resources

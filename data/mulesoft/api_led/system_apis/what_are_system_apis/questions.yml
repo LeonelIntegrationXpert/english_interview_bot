@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: what_are_system_apis
+    examples: |
+      - o que são System APIs?
+      - o que são as APIs de sistema?
+      - o que significa System APIs no MuleSoft?
+      - para que servem as System APIs?
+      - qual a função das APIs de sistema?
+      - por que usar System APIs?
+      - explique o conceito de System APIs
+      - o que entende por System APIs?
+      - me fale sobre as APIs de sistema
+      - o que é uma System API?
+      - oq são as apis de sistema?
+      - o que significado System APIs no MuleSoft?
+      - para que serve as System APIs?
+      - qual função das apis de sistema?
+      - porque usar System APIs?
+      - explique o conceto de System APIs
+      - me fala sobre as apis de sistema
+      - o que eh uma System API?
+      - o q sao System APIs?
+      - oq eh System APIs no MuleSoft?
+      - para k servem as System APIs?
+      - qual a funçao das APIs de sistema?
+      - por que ussar System APIs?
+      - explika o conceito de System APIs
+      - oq vc entende por apis de sistema?
+      - me conte sobre as apis de sistema
+      - oq sao system apis
+      - oq sao as apis de sistema
+      - oq sao as api de sistema
+      - oq são apis de sistema
+      - oq são as apis de sistema
+      - oq eh system apis
+      - oq eh as apis de sistema
+      - oq eh as api de sistema
+      - oq eh api de sistema
+      - oq eh apis sistema
+      - o q sao system apis
+      - o q sao apis de sistema
+      - o q sao api sistema
+      - o q eh system apis
+      - o que sao apis sistema
+      - o que sao api sistema
+      - o que sao system apis
+      - o que eh apis de sistema
+      - o que eh system apis
+      - o que eh api de sistema
+      - oq significado system apis
+      - oq significado apis sistema
+      - oq significado apis de sistema
+      - oq signifca system apis
+      - oq signifca apis de sistema
+      - pq usar system apis
+      - pq usar apis de sistema
+      - pq usar api de sistema
+      - porque usar system apis
+      - por que usar apis de sistema
+      - por que usar api de sistema
+      - para que serve system apis
+      - para que serve apis de sistema
+      - para que serve api de sistema
+      - para q serve system apis
+      - para q serve apis de sistema
+      - para q serve api de sistema
+      - explika system apis
+      - explika apis de sistema
+      - explika api de sistema
+      - explica sistem apis
+      - explica apis sistema
+      - explica apis de sistema
+      - explica system apis
+      - explica api de sistema
+      - me fala system apis
+      - me fala apis sistema
+      - me fala apis de sistema
+      - me fala api de sistema
+      - me conte sobre system apis
+      - me conte sobre apis de sistema
+      - falo q sao apis sistema
+      - fale sobre system apis
+      - fale sobre apis sistema
+      - fale sobre apis de sistema
+      - qual funcao system apis
+      - qual funcao apis de sistema
+      - qual funcao api sistema
+      - qual finalidade system apis
+      - qual finalidade apis sistema
+      - qual finalidade apis de sistema
+      - qual utilidade system apis
+      - qual utilidade apis sistema
+      - qual utilidade apis de sistema
+      - define system apis
+      - define apis de sistema
+      - define api sistema
+      - defina system apis
+      - defina apis de sistema
+      - defina api sistema
+      - o q entende por system apis
+      - o q entende por apis de sistema
+      - o q entende por api de sistema
+      - vc entende system apis
+      - vc entende apis de sistema
+      - vc entende api sistema
+      - o q sao apis sistema
+      - o que significam system apis
+      - o que significam apis sistema
+      - o que significam api sistema
+      - qual é system apis
+      - qual é apis de sistema
+      - qual é api de sistema
+      - oque sao system apis
+      - oque sao apis de sistema
+      - oque sao api sistema
+      - oque eh system apis
+      - oque eh apis de sistema
+      - oque eh api sistema
+      - como funciona system apis
+      - como funciona apis de sistema
+      - como funciona api de sistema
+      - cmo funciona system apis
+      - cmo funciona apis de sistema
+      - cmo funciona api de sistema
+      - sisten apis oq é
+      - sisten apis de sistema oq eh
+      - sisten apis de sistema o que é
+      - oq sao system apis?
+      - oq saõ system apis?
+      - oq são systen apis?
+      - oq são suis apis?
+      - oq sao sisten apis?
+      - oq sao sistma apis?
+      - oq sao sitma apis?
+      - o que são systen apis?
+      - o que são sisten apis?
+      - o que são sistma apis?
+      - o que sao sistma apis?
+      - o que sao sitma apis?
+      - oq sao apis de sistma?
+      - o que sao apis de sistma?
+      - oq sao apis de sisten?
+      - o que são apis de sisten?
+      - oq sao apis de siten?
+      - o que são apis de siten?
+      - oq são api sistema?
+      - oq sao api de sistema?
+      - o que sao api sistema?
+      - o que são api de sistema?
+      - pq usar system apis?
+      - pq usar apis sistema?
+      - por que usar system apis?
+      - por que usar apis sistema?
+      - para que serve system apis?
+      - para que servem apis sistema?
+      - para que serve api sistema?
+      - para que servem api de sistema?
+      - explique system apis?
+      - explica apis sistema?
+      - explique api de sistema?
+      - explica as apis sistema?
+      - defina system apis?
+      - defina apis sistema?
+      - defina api sistema?
+      - qual funcao system apis?
+      - qual função apis sistema?
+      - qual funçao api sistema?
+      - qual uso system apis?
+      - qual uso apis sistema?
+      - qual uso api de sistema?
+      - como funciona system apis?
+      - como funciona apis sistema?
+      - como funciona api sistema?
+      - cmo funciona system apis?
+      - cmo fun apis sistema?
+      - cmofun api sistema?
+      - me explica system apis?
+      - me explica apis sistema?
+      - me explica api sistema?
+      - xd busca system apis?
+      - me fala system apis?
+      - me fala apis sistema?
+      - me fala api sistema?
+      - conte system apis?
+      - conte apis sistema?
+      - conte api sistema?
+      - me conte system apis?
+      - me conte apis sistema?
+      - me conte api sistema?
+      - diga system apis?
+      - diga apis sistema?
+      - diga api sistema?
+      - fale system apis?
+      - fale apis sistema?
+      - fale api sistema?
+      - mostre system apis?
+      - mostre apis sistema?
+      - mostre api sistema?
+      - descreva system apis?
+      - descreva apis sistema?
+      - descreva api sistema?
+      - cite system apis?
+      - cite apis sistema?
+      - what are System APIs?
+      - what are system APIs?
+      - what does System APIs mean in MuleSoft?
+      - what is the purpose of System APIs?
+      - what function do system APIs serve?
+      - why use System APIs?
+      - explain the concept of System APIs
+      - what do you understand by System APIs?
+      - tell me about system APIs
+      - what is a System API?
+      - wut are System APIs?
+      - what r system apis?
+      - what does System APIz mean in MuleSoft?
+      - what does system api mean in MuleSoft?
+      - whats the purpose of System APIs
+      - why would you use systm APIs?
+      - explain concept of System APIs?
+      - explan the concept of System APIs
+      - what do you understand by system api’s?
+      - tell me abut system APIs?
+      - what is a System ApI?
+      - what is a systm API?
+      - what buf system APIs?
+      - why use system apiz?
+      - what is purpse of System APIs?
+      - what functon do system apis serve?
+      - explain the concpet of System APIs
+      - what do you undestand by System APIs?
+      - tell me abt system APIS?
+      - waht is a System API?
+      - wut are system apis?
+      - wh@t are system apis?
+      - what r System APIs?
+      - wut r system apiz?
+      - what is system apis?
+      - what is systm apis?
+      - what iz system apis?
+      - what iz systen apis?
+      - what do system apis do?
+      - what d system apiz do?
+      - what's system apis?
+      - whats system apiz?
+      - whats a system api?
+      - what's a system api?
+      - what is system api?
+      - what is a system API?
+      - wot is a system api?
+      - whut is a systm api?
+      - what r system api?
+      - why system apis?
+      - why use system apis?
+      - y use system apis?
+      - y use systm api?
+      - explain system apis?
+      - xplain system apiz?
+      - explain system apiz?
+      - explan systm apis?
+      - explain systen apis?
+      - explan the sys apis?
+      - explain the system apiz?
+      - explain the systm apis?
+      - explain concept system apis?
+      - explain conpt system apiz?
+      - explan the concept of system apis?
+      - explain the concept system apiz?
+      - what mean system apis?
+      - what mean system apiz?
+      - what does system apiz mean?
+      - what does sys apis mean?
+      - what d system apiz mean?
+      - wh@t does system apis mean?
+      - tell me system apis?
+      - tell me about system apiz?
+      - tel me system apis?
+      - tell me abbout system apis?
+      - tell me abot system apis?
+      - tell me abt system apis?
+      - tell me abt sys apis?
+      - what do u understand by system apis?
+      - what do you understnd by system apis?
+      - what do you understand by system apiz?
+      - what do you understand by systm apis?
+      - what do you understand by systen apis?
+      - what do u understand by system apiz?
+      - wat d you understand by system apis?
+      - wat do u understand by sys apis?
+      - define system apis?
+      - define systm apis?
+      - define system apiz?
+      - define sys api?
+      - defin system apis?
+      - defin systen apis?
+      - define system aoles?
+      - define system aples?
+      - how works system apis?
+      - how do system apis work?
+      - how do system apiz work?
+      - how do systm apis work?
+      - how do systen apis wrk?
+      - how do system apis wrk?
+      - how does system api work?
+      - how do system api work?
+      - how does systm apis work?
+      - how do system apiz wrk?
+      - how sys apis work?
+      - how system apiz work?
+      - describe system apis?
+      - describe systm apis?
+      - describe system apiz?
+      - dscribe systen apis?
+      - decribe system apiz?
+      - descrbe sys apis?
+      - descr system apis?
+      - what purpse system apis?
+      - what purpose system apis?
+      - what is purpse of system apis?
+      - what is purpose of system apiz?
+      - what is purpose of systm apis?
+      - what is purpose of systen apis?
+      - what is purpose of system apis?
+      - why would you use system apis?
+      - why wud u use system apis?
+      - why wld you use system apis?
+      - why would you use system apiz?
+      - why would u use systm apis?
+      - why would you use systen apis?
+      - #en:
+      - what is system apiz?
+      - wut is system apiz?
+      - wut is systm apis?
+      - what r systen apis?
+      - what r systm apis?
+      - what r system apiz?
+      - wut r systen apis?
+      - wut r systen apiz?
+      - what d system apis do?
+      - what do system apiz do?
+      - what d systm apis do?
+      - what do systen apis do?
+      - whats systen apis?
+      - whats systm apiz?
+      - what's systen apis?
+      - what's systm apiz?
+      - what's system apiz?
+      - wat are system apis??
+      - wat are systen apis??
+      - wat are systm apiz??
+      - wat r system apis??
+      - wat r systen apiz??
+      - wat r systm apis??
+      - what function do systm apis serve?
+      - what function do systen apis serve?
+      - what function do system apiz serve?
+      - what purpose do systm apis serve?
+      - what purpose do systen apis serve?
+      - what purpose do system apiz serve?
+      - why pick system apis?
+      - why pick systm apis?
+      - why pick systen apis?
+      - why pick system apiz?
+      - why choose system apis?
+      - why choose systm apiz?
+      - why choose systen apis?
+      - why choose sys apis?
+      - why pick sys apis?
+      - explain systm apis please?
+      - explain systen apis please?
+      - explain system apiz please?
+      - explain sys apis please?
+      - explan sys apis please?
+      - tell me about systm apis?
+      - tell me about systen apis?
+      - tell me about sys apis?
+      - tell me more about systm apis?
+      - tell me more about systen apis?
+      - tell me more about system apiz?
+      - tell me more about sys apis?
+      - what do u learn about sys apis?
+      - what do we learn abt systm apis?
+      - wat do we know abt systen apis?
+      - wat do we know abt system apiz?
+      - define systm apiz for me?
+      - define systen apis for me?
+      - define system apiz for me?
+      - define sys apis for me?
+      - def systm apis pls?
+      - def systen apis pls?
+      - def system apiz pls?
+      - how do systm apis operate?
+      - how do systen apis operate?
+      - how do system apiz operate?
+      - how do sys apis operate?
+      - how sys apiz operate?
+      - dscrb systm apis?
+      - dscrb systen apis?
+      - dscrb system apiz?
+      - dscrb sys apis?
+      - desc systm apis?
+      - desc systen apis?
+      - desc system apiz?

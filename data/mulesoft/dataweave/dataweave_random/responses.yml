@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_random:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso random para gerar valores aleatórios entre zero e um
-              - vr_en: |
-                  I use random to generate random values between zero and one

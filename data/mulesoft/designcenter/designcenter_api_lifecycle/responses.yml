@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_api_lifecycle:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu defino fases do ciclo de vida como desenvolvimento homologação e produção e aplico transições automáticas no DC
-              - vr_en: |
-                  I define lifecycle phases such as development staging and production and apply automated transitions in DC

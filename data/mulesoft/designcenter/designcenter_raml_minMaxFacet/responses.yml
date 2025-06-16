@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_minMaxFacet:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso minimum e maximum facets no Design Center para limitar valores numéricos entre ranges definidos
-              - vr_en: |
-                  I use minimum and maximum facets in Design Center to limit numeric values within defined ranges

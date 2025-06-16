@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_multipleTraits:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu aplico multiplas traits no Design Center listando cors e security traits juntos em metodos
-              - vr_en: |
-                  I apply multiple traits in Design Center by listing cors and security traits together on methods

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_overlayDefinition:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu defino overlays no Design Center para adicionar customizações sem alterar contrato base
-              - vr_en: |
-                  I define overlays in Design Center to add customizations without altering the base contract

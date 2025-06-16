@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_documentationItem:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso documentationItem no Design Center para fornecer blocos de documentação extras no RAML
-              - vr_en: |
-                  I use documentationItem in Design Center to provide extra documentation blocks in RAML

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_extensionDefinition:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu crio extensions no Design Center para estender esquemas e tipos com metadados adicionais
-              - vr_en: |
-                  I create extensions in Design Center to extend schemas and types with additional metadata

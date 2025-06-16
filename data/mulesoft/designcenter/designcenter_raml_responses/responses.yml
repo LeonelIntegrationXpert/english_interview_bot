@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_responses:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu defino responses no Design Center para especificar status codes e exemplos de payload de saída
-              - vr_en: |
-                  I define responses in Design Center to specify status codes and example response payloads

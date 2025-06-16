@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_versionField:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu defino version no Design Center para indicar versão semântica do contrato RAML
-              - vr_en: |
-                  I define the version field in Design Center to indicate the semantic version of the RAML contract

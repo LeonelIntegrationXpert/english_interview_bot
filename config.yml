@@ -1,35 +1,60 @@
-recipe: default.v1
-assistant_id: 20250405-104104-soft-formant
+version: "3.1"
 
+assistant_id: 20250614-141044-some-commission
 language: en
 
 pipeline:
+  # ─ Tokenização e Features Básicas
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
+    use_word_boundaries: true
   - name: LexicalSyntacticFeaturizer
+
+  # ─ Count Vectors (palavras e subpalavras)
   - name: CountVectorsFeaturizer
-    analyzer: word                  # Para tokens por palavra
+    analyzer: word
+    min_ngram: 1
+    max_ngram: 1
   - name: CountVectorsFeaturizer
-    analyzer: char_wb               # Para tokens de subpalavras
+    analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
+
+  # ─ Classificação de Intents e Entity Recognition
   - name: DIETClassifier
-    epochs: 100                      # Reduzido de 100 → 25
+    epochs: 10
     constrain_similarities: true
-  - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 100                      # Reduzido de 100 → 25
-    constrain_similarities: true
+
+  # ─ FallbackClassifier dispara quando confidence ≤ 0.85
   - name: FallbackClassifier
-    threshold: 0.3
+    threshold: 0.85
     ambiguity_threshold: 0.1
-    
+
+  # ─ Sinônimos de entidades
+  - name: EntitySynonymMapper
+
+  # ─ Response Selector (para retrieval intents)
+  - name: ResponseSelector
+    epochs: 10
+    constrain_similarities: true
+
 policies:
+  # ─ Memoization para capturar sub-histórias exatas
   - name: MemoizationPolicy
     max_history: 5
+
+  # ─ RulePolicy: chama action_fallback quando nlu_fallback chegar
   - name: RulePolicy
-    core_fallback_action_name: "action_fallback_chatgpt"  # 👈 ação que será chamada
+    core_fallback_action_name: "action_fallback"
     enable_fallback_prediction: true
+    core_fallback_threshold: 0.85
+
+  # ─ Lida com intents inesperadas (baixo nível de confiança)
+  - name: UnexpecTEDIntentPolicy
+    nlu_intent_threshold: 0.3
+
+  # ─ TED para generalização de diálogos
   - name: TEDPolicy
     max_history: 5
-    epochs: 100
+    epochs: 10
+    constrain_similarities: true

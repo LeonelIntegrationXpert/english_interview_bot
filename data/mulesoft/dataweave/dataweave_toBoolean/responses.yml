@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_toBoolean:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso toBoolean para converter strings ou números em valores booleanos true ou false
-              - vr_en: |
-                  I use toBoolean to convert strings or numbers into boolean values true or false

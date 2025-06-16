@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_annotations:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu uso annotations no Design Center para estender RAML com metadados customizados e documentação adicional
-              - vr_en: |
-                  I use annotations in Design Center to extend RAML with custom metadata and additional documentation

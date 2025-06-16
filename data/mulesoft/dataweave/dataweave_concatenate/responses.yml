@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_concatenate:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso concatenate para fundir listas ou strings em sequência única
-              - vr_en: |
-                  I use concatenate to merge lists or strings into a single sequence

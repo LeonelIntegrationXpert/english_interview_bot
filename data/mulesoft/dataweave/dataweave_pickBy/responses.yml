@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_pickBy:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso pickBy para selecionar pares chave valor baseados em condição predicado
-              - vr_en: |
-                  I use pickBy to select key value pairs based on a predicate condition

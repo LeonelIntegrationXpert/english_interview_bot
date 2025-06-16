@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_designcenter_raml_responseCodes:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Eu configuro response codes no Design Center como dois zero zero dois zero one quatro oh quatro e outros conforme recurso
-              - vr_en: |
-                  I configure response codes in Design Center such as two zero zero two zero one four zero four and others per resource

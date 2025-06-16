@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dataweave_round:
-    - custom:
-        response_array:
-          -   - vr_pt: |
-                  Uso round para arredondar valores numéricos ao inteiro mais próximo
-              - vr_en: |
-                  I use round to round numeric values to the nearest integer

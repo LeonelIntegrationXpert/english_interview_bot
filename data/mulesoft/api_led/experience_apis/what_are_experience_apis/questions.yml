@@ -1,0 +1,404 @@
+version: '3.1'
+nlu:
+  - intent: what_are_experience_apis
+    examples: |
+      - oq sao experience apis?
+      - oq são as apis de experência?
+      - o que sao experience apis?
+      - o que são as apis de experiéncia?
+      - o q são experience apis?
+      - o q são as apis de experiência?
+      - pra que serve experience apis?
+      - para que serve as apis de experência?
+      - para que servem experience apis?
+      - para que servem apis de experiéncia?
+      - qual a funçao de experience apis?
+      - qual a funçao das apis de experiência?
+      - qual a função d experience apis?
+      - qual a função das apis d experiência?
+      - pq usar experience apis?
+      - porque usar apis de experiéncia?
+      - por que usar experience apis?
+      - por que usar apis de experência?
+      - explique experience apis
+      - explika apis de experiéncia
+      - explica experence apis
+      - explica apis d experiência
+      - me fala experience apis
+      - me fala sobre apis de experência
+      - me conte experience apis
+      - me conte sobre apis de experiéncia
+      - oi, o que sao experience apis?
+      - oi, o que são apis de experiência?
+      - fala experience apis?
+      - fala apis de experiençia?
+      - o que significa experience apis?
+      - o que sigifica apis de experiência?
+      - o que significam experence apis?
+      - o que significam apis d experiência?
+      - oq significa experience apis?
+      - oq significa apis de experiéncia?
+      - que sao experience apis?
+      - que são apis de experiência?
+      - que são experience apis?
+      - que sao apis de experência?
+      - cmo funcionam experience apis?
+      - como funcionam apis d experiência?
+      - como funfa experience apis?
+      - como funfa apis de experiéncia?
+      - explicita experience apis?
+      - explicita apis de experiência?
+      - demonstra experience apis?
+      - demonstra apis de experéncia?
+      - define experience apis
+      - defina apis de experiência
+      - defin experience apis
+      - defin apis de experiéncia
+      - descreve experience apis
+      - descreva apis de experiência
+      - descrebe experence apis
+      - descreba apis d experiência
+      - conte me sobre experience apis
+      - conte-me sobre apis de experiéncia
+      - conte me experience apis
+      - conte-me apis d experiência
+      - qual utilidade das experience apis?
+      - qual utilidade das apis de experiência?
+      - qual utilidade experience apis?
+      - qual utilidade apis de experéncia?
+      - oque faz experience apis?
+      - o que faz apis d experiência?
+      - oque faz experence apis?
+      - o que faz apis de experiencia?
+      - qual beneficio das experience apis?
+      - qual benefcio das apis de experiência?
+      - qual benefício experience apis?
+      - qual benefício apis de experiéncia?
+      - vantgens experience apis?
+      - vantagens apis de experiência?
+      - agrapa experience apis?
+      - agrega apis de experiençia?
+      - explique conceto de experience apis
+      - explique conceto d apis de experiência
+      - expica conceito de experiencie apis
+      - expica conceito d apis de experiência
+      - como se usa experience apis?
+      - como usar apis d experiência?
+      - como se utiliza experence apis?
+      - como utilizar apis de experiênci?
+      - pra que usam as experience apis?
+      - pra que usam apis de experiência?
+      - p que servem experience apis?
+      - p que servem apis de experiéncia?
+      - o conceito de experence apis?
+      - o conceito d apis de experiência?
+      - a utilidade de experience apis?
+      - a utilidade das apis de experiênciA?
+      - me da um resumo de experience apis
+      - me da um resumo d apis de experiência
+      - resumo sobre experence apis
+      - resumo sobre apis de experiência
+      - cite exemplos de experience apis
+      - cite exemplos d apis de experiência
+      - exemplifique experience apis
+      - exemplifique apis de experiéncia
+      - o q vc sabe sobre experience apis?
+      - o que vc sabe sobre apis de experiência?
+      - me diz sobre experience apis
+      - me diz sobre apis d experiência
+      - qual a essencia de experience apis?
+      - qual a essencia das apis de experiência?
+      - essencia de experiencie apis?
+      - essencia de apis d experiência?
+      - oq são experience apiss?
+      - oq são expẽrience apis?
+      - o que são expereince apis?
+      - oq são apis d experiência?
+      - o q são experience apiss?
+      - o q são apis d experiencia?
+      - o que sao experence apis?
+      - o que são expêrience apis?
+      - oq sao apis de experência?
+      - oq são apis de experiéncia?
+      - oque são experiênci apis?
+      - o que sae apis de experiência?
+      - o que sao apis d eperiencia?
+      - oq são apiss de experiência?
+      - oq sao apis de expeRiencia?
+      - o q são apiss de experiencias?
+      - o que seriam experience apis?
+      - oq seriam apis de experiençia?
+      - o que seriam experence apis?
+      - para que expereince apis servem?
+      - para que experence apis servem?
+      - pra que servem apiss de experiência?
+      - pra que servem apis d experiencia?
+      - pq servem experence apis?
+      - por que servem apss de experiencia?
+      - por que usar experiencie apis?
+      - porque usar experiênci apis?
+      - porque usar apis de experênca?
+      - explique experence apis
+      - explika apis de experiencia
+      - explica experiêncie apis
+      - me explika experence apis?
+      - me explica apiss de experiencia?
+      - me conta experence apis?
+      - me conta apis de experiençia?
+      - conte experince apis?
+      - conte apis de experiencia?
+      - fale sobre experence apis
+      - fale sobre apiss de experiencia
+      - descreve experiencie apis
+      - descreva apis d experiencia
+      - caracterize experence apis
+      - caracterize apis de experiençia
+      - defina experence apis
+      - defina apiss de experiência
+      - define apis d experiencia
+      - describa experence apis
+      - descreve apis de experiençia
+      - conceitue experence apis
+      - conceitue apis d eperiencia
+      - qual a funçao experence apis?
+      - qual a funçao apis de experiencia?
+      - qual a utilidade experence apis?
+      - qual a utilidade apiss de experiencia?
+      - que são experence apis?
+      - que são apiss de experiencia?
+      - que seriam experince apis?
+      - que seriam apis de experiençia?
+      - como funfa experence apis?
+      - como funfa apis de experiencia?
+      - como funciona experence apis?
+      - como funciona apiss de experiência?
+      - cmofun experence apis?
+      - cmofun apis d experiencia?
+      - experence apis, o que são?
+      - apis d experiencia, o que são?
+      - experence apis, para que?
+      - apiss de experiençia, para que?
+      - experence apis, pq usar?
+      - apis de experiencia, pq usar?
+      - experensce apis, pq?
+      - apis de experência, pq?
+      - oque significam experence apis?
+      - oque significam apiss de experiencia?
+      - qual significado experence apis?
+      - qual significado apis de experiencia?
+      - me diga experence apis?
+      - me diga apis de experiençia?
+      - o que entendes por experence apis?
+      - o que entendes por apiss de experiencia?
+      - o que vc sabe de experence apis?
+      - o que vc sabe de apis de experiencia?
+      - mencione experence apis?
+      - mencione apiss de experiencia?
+      - exemplifique experence apis
+      - exemplifique apis d experiencia
+      - cite experence apis
+      - cite apiss de experiencia
+      - quais são experence apis?
+      - quais são apis de experiencia?
+      - onde usar experence apis?
+      - onde usar apiss de experiencia?
+      - what are Experience APIs?
+      - what are the experience APIs?
+      - what is the purpose of Experience APIs?
+      - what function do Experience APIs serve?
+      - why use Experience APIs?
+      - explain the concept of Experience APIs
+      - what do you understand by Experience APIs?
+      - tell me about experience APIs
+      - what is an Experience API?
+      - what do Experience APIs do?
+      - wut are experience apiz?
+      - why choose experience apis?
+      - explain experienc apis
+      - tell me abut experience APIs?
+      - define Experience APIs
+      - wut are Experience APIs?
+      - wat are Experience APIs?
+      - wh@t are Experience APIs?
+      - w0t are Experience APIs?
+      - what r Experience APIs?
+      - what ar Experience APIs?
+      - what iz Experience APIs?
+      - what iz the experience apis?
+      - whats the purpose of Experience APIs?
+      - what’s the purpose of Experience APIs?
+      - what is purpose of Experience APIs?
+      - what functions do Experience APIs serve?
+      - why would you use Experience APIs?
+      - why would u use Experience APIs?
+      - why wuld you use Experience APIs?
+      - why choose Experience APIs?
+      - why pick Experience APIs?
+      - explain concept of Experience APIs
+      - explain Experience APIs
+      - explan the concept of Experience APIs
+      - xplain Experience APIs
+      - defin Experience APIs
+      - define the Experience APIs
+      - defince Experience APIs
+      - tell me about Experience APIs
+      - tell me abut Experience APIs
+      - tell me about the Experience APIs
+      - tell me Experience APIs do?
+      - tell me what Experience APIs are?
+      - what do Experience APIs enable?
+      - what do Experience apis do?
+      - what do experiences apis do?
+      - what are experince apis?
+      - what are exprience apis?
+      - what are experince APIs?
+      - what are experience apiz?
+      - what are experience apys?
+      - wat are experince apis?
+      - wat are exprience apiz?
+      - wh@t are exprience apiz?
+      - wh@t are experince apiz?
+      - wut are exprience apis?
+      - wut are experince apis?
+      - w0t are experince apis?
+      - w0t are exprience apiz?
+      - what r experince apis?
+      - what r exprience apis?
+      - what r experince apiz?
+      - what ar experince apis?
+      - what ar experience apiz?
+      - wut r experince apis?
+      - wut ar exprience apiz?
+      - how do Experience APIs work?
+      - how Experience APIs work?
+      - how do Experience apis work?
+      - how do experince apis work?
+      - how do experience apiz work?
+      - how d Experience APIs work?
+      - how do Experince APIs wrk?
+      - how do exprience apis wrk?
+      - whats Experience APIs?
+      - what’s Experience apis?
+      - whats the Experience APIs?
+      - what’s the exprience apis?
+      - wat’s Experience apis?
+      - what’s exprience apiz?
+      - what’s experince apiz?
+      - why Experience APIs?
+      - why experince apis?
+      - why exprience apis?
+      - why experince apiz?
+      - why exprience apiz?
+      - describe Experience APIs
+      - describe experince apis
+      - dscrb Experience APIs
+      - dscrb experince apis
+      - describe exprience apiz
+      - desc Experience APIs
+      - desc experince apis
+      - outline Experience APIs
+      - outline experince apis
+      - outline exprience apis
+      - give me Experience APIs overview
+      - give me experince apis overview
+      - give me exprience apis overview
+      - provide an overview of Experience APIs
+      - provide overview of experince apis
+      - what is Experience API?
+      - wat is an Experience API?
+      - wut is an Experience API?
+      - what is experienc API?
+      - what is exprience API?
+      - wat are experience apiz?
+      - wh@t are experienc apis?
+      - w0t r experience apiz?
+      - what ar experience apis?
+      - wut r exprience apiz?
+      - what r experience apiz?
+      - wat r experienc apis?
+      - wot are experience apis?
+      - what are exprience apies?
+      - what r exprience apies?
+      - what are experince apiz?
+      - what are experinece apis?
+      - what are xpperience apis?
+      - what are xperience apiz?
+      - what is the purpose of experence apis?
+      - what is the purpse of Experience APIs?
+      - what is the purpose of xpierence apis?
+      - what's the purpose of exprience apis?
+      - whats the purpos of experience apiz?
+      - what does Experience APIs do?
+      - what do exprience apis do?
+      - how do exprience apis work?
+      - how do xpperience apis work?
+      - how do experince apiz work?
+      - how do experience apiz wrk?
+      - how does experience API work?
+      - why use exprience apis?
+      - why use experince apiz?
+      - y use exprience apis?
+      - why pick experience apiz?
+      - why choose exprience apiz?
+      - why chooze experience apis?
+      - explain experence apis
+      - explaine exprience apis
+      - xplain experience apis
+      - explain exprience apis?
+      - explain experience apiz?
+      - explain exprience apiz?
+      - describe exprience apis?
+      - dscrb experience apis?
+      - desc exprience apiz?
+      - outline exprience apis?
+      - provide overview of exprience apis
+      - give exprience apis overview
+      - what is experienc apiz?
+      - what is experince api?
+      - what iz experience apis?
+      - wh@t iz experience apis?
+      - wut iz experience apiz?
+      - wat iz experienc apis?
+      - wat iz exprience apiz?
+      - defin exprience apiz
+      - define experience apiz
+      - define exprience apies
+      - defne experience apis
+      - tell me abou experience apis
+      - tell me abot exprience apiz
+      - tell me abt exprience apies
+      - tell me xpperience apis
+      - tell me exprience apiz?
+      - tell me xperience apis?
+      - define the exprience apiz
+      - w0t does exprience apis mean?
+      - wh@t does experience apiz mean?
+      - what d experience apis mean?
+      - what d exprience apiz mean?
+      - why r experience apiz useful?
+      - why r experence apis useful?
+      - why are exprience apiz useful?
+      - why are experience apis useful?
+      - what benefits exprience apis?
+      - what benfits exprience apis?
+      - what befits exprience apiz?
+      - what are experience apis benefits?
+      - how experience apis help?
+      - how xpperience apis help?
+      - how experince apis help?
+      - how exprience apiz help?
+      - what problems xpperience apis solve?
+      - what probem experience apis solve?
+      - what problems exprience apis solve?
+      - what problems exprience apiz solve?
+      - why xpperience apis needed?
+      - why xpperience apiz needed?
+      - why experince apis needed?
+      - why exprience apis needed?
+      - how exprience apis integrate?
+      - how experience apis integrate?
+      - how exprience apiz integrate?
+      - how xpperience apis integrate?
+      - wut are experiencie apis?
+      - wh@t are experiencie apis?
+      - wat are experiencie apis?
