@@ -3,6 +3,51 @@ responses:
   utter_governance_policies:
     - custom:
         vr_pt: |
-          Políticas de governança definem regras e SLAs para garantir conformidade, segurança e disponibilidade das APIs. Elas abrangem controle de acesso, rate limiting, quotas, criptografia, monitoramento de métricas (latência, erros, throughput) e acordos de nível de serviço (SLA) como tempo máximo de resposta, taxa mínima de disponibilidade e recuperação (RTO/RPO). Implementadas via Anypoint Policy Manager, asseguram que as APIs operem dentro de limites acordados e atendam requisitos regulatórios.
+          Políticas de governança definem regras e acordos de nível de serviço para garantir conformidade, segurança e disponibilidade de APIs. Elas abrangem controle de acesso, limitação de taxa, cotas, criptografia, monitoramento de métricas como latência e taxa de erros, além de estipular tempo máximo de resposta e nível mínimo de disponibilidade.
         vr_en: |
-          Governance policies define rules and SLAs to ensure API compliance, security and availability. They cover access control, rate limiting, quotas, encryption, monitoring of metrics (latency, error rates, throughput), and service-level agreements (SLAs) such as maximum response time, minimum uptime and recovery objectives (RTO/RPO). Enforced through Anypoint Policy Manager, they ensure APIs operate within agreed parameters and meet regulatory requirements.
+          Governance policies define rules and service level agreements to ensure compliance, security and availability of APIs. They cover access control, rate limiting, quotas, encryption, monitoring of metrics such as latency and error rate, and specify maximum response time and minimum uptime.
+    - custom:
+        vr_pt: |
+          As políticas são aplicadas via Policy Manager no Anypoint Platform para controlar acesso, impor limites de uso, proteger dados, registrar métricas de desempenho e garantir que APIs atendam a requisitos regulatórios.
+        vr_en: |
+          Policies are enforced through the Policy Manager on the Anypoint Platform to control access, impose usage limits, secure data, log performance metrics and ensure APIs meet regulatory requirements.
+    - custom:
+        vr_pt: |
+          Políticas de governança incluem definição de quotas por consumidor, configuração de limiares de taxa, aplicação de política de criptografia e monitoramento de disponibilidade em cada endpoint.
+        vr_en: |
+          Governance policies include setting quotas per consumer, configuring rate thresholds, enforcing encryption policy, and monitoring availability on each endpoint.
+    - custom:
+        vr_pt: |
+          Com governance policies, é possível bloquear ou priorizar chamadas, auditar tentativas de acesso, definir parâmetros de segurança e coletar métricas de uso para relatórios de conformidade.
+        vr_en: |
+          With governance policies, you can block or prioritize calls, audit access attempts, define security parameters, and collect usage metrics for compliance reporting.
+    - custom:
+        vr_pt: |
+          As políticas definem regras de autenticação e autorização, limites de requisição por segundo, cotas de chamadas por período, e padrões de criptografia de payload e tráfego.
+        vr_en: |
+          Policies define authentication and authorization rules, request-per-second limits, call quotas per time window, and encryption standards for payload and traffic.
+    - custom:
+        vr_pt: |
+          Políticas de SLA estabelecem tempos máximos de resposta, níveis mínimos de disponibilidade e metas de recuperação após falhas, garantindo experiência de uso consistente.
+        vr_en: |
+          SLA policies set maximum response times, minimum uptime levels and recovery objectives after failures, ensuring consistent user experience.
+    - custom:
+        vr_pt: |
+          As políticas coletam métricas de latência, taxa de erro e throughput, permitindo configurar alertas e dashboards para respostas pró-ativas a incidentes.
+        vr_en: |
+          Policies gather metrics on latency, error rate and throughput, enabling you to configure alerts and dashboards for proactive incident response.
+    - custom:
+        vr_pt: |
+          Com políticas de governança é possível definir lista de permissões, listas de bloqueio, limites dinâmicos por perfil de consumidor e aplicar regras específicas por operação.
+        vr_en: |
+          Governance policies allow you to set allowlists, blocklists, dynamic limits per consumer profile and apply operation-specific rules.
+    - custom:
+        vr_pt: |
+          Políticas de governança suportam versionamento e desativação gradual de regras, facilitando atualização sem interromper consumidores existentes.
+        vr_en: |
+          Governance policies support policy versioning and gradual deprecation of rules, facilitating updates without interrupting existing consumers.
+    - custom:
+        vr_pt: |
+          As políticas integram-se a pipelines de CI/CD, permitindo automatizar implantação de regras de segurança, compliance e monitoramento em todos os ambientes.
+        vr_en: |
+          Policies integrate with CI/CD pipelines, allowing you to automate deployment of security, compliance and monitoring rules across all environments.

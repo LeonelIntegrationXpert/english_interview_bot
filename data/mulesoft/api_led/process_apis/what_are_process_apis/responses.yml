@@ -3,6 +3,51 @@ responses:
   utter_what_are_process_apis:
     - custom:
         vr_pt: |
-          Process APIs compõem a camada intermediária da arquitetura API-led da MuleSoft; orquestram e combinam funcionalidades de negócio reutilizáveis, agregando dados de múltiplas System APIs; aplicam regras complexas de negócio, validações, transformações e enriquecimentos de payload; gerenciam fluxos transacionais com retry e compensação em caso de erro; expõem contratos versionados e estáveis, desacoplando a camada de Experiência da lógica interna; e permitem governança e monitoramento granular por meio de políticas de roteamento, logging e métricas.
+          As Process APIs formam a camada intermediária na arquitetura API-led da MuleSoft, orquestrando serviços de negócio reutilizáveis por meio da agregação de dados de múltiplas System APIs, aplicando regras de negócio complexas, validações e transformações de payload, gerenciando transações com retry e compensações, expondo contratos versionados e estáveis, desacoplando a camada de Experiência da lógica de back-end, e permitindo governança e monitoramento granular com políticas de roteamento, logging e métricas.
         vr_en: |
-          Process APIs make up the middle layer of MuleSoft’s API-led architecture; they orchestrate and compose reusable business capabilities by aggregating data from multiple System APIs; enforce complex business rules, perform validations, transformations, and data enrichments; manage transactional flows with retry and compensation mechanisms on failure; expose versioned, stable contracts that decouple the Experience layer from internal logic; and enable granular governance and monitoring via routing policies, logging, and metrics.
+          The Process APIs form the middle layer in MuleSoft’s API-led architecture, orchestrating reusable business services by aggregating data from multiple System APIs, enforcing complex business rules, validations, and payload transformations, managing transactional flows with retry and compensation, exposing versioned, stable contracts, decoupling the Experience layer from backend logic, and enabling granular governance and monitoring through routing policies, logging, and metrics.
+    - custom:
+        vr_pt: |
+          As Process APIs atuam como intermediárias na arquitetura API-led, compondo fluxos de negócio reutilizáveis ao combinar dados de System APIs, aplicando validações, transformações e enriquecimentos de payload, controlando transações com mecanismos de retry e rollback, fornecendo contratos versionados e isolando o front-end da lógica interna, além de suportar monitoramento detalhado por meio de políticas e métricas.
+        vr_en: |
+          The Process APIs act as intermediaries in the API-led architecture, building reusable business flows by combining data from System APIs, applying validations, transformations, and data enrichments, controlling transactions with retry and rollback mechanisms, providing versioned contracts and isolating the front-end from internal logic, as well as supporting detailed monitoring through policies and metrics.
+    - custom:
+        vr_pt: |
+          As Process APIs integram e orquestram funcionalidades de negócio na camada central da arquitetura API-led, agregando respostas de várias System APIs, executando regras complexas, transformando e enriquecendo payloads, gerenciando transações com retentativas e compensações, expondo interfaces versionadas e permitindo rastreamento e governança via logging e métricas.
+        vr_en: |
+          The Process APIs integrate and orchestrate business functionality at the core layer of the API-led architecture, aggregating responses from multiple System APIs, executing complex rules, transforming and enriching payloads, managing transactions with retries and compensations, exposing versioned interfaces, and enabling traceability and governance through logging and metrics.
+    - custom:
+        vr_pt: |
+          As Process APIs conectam a camada de Experiência aos System APIs, compondo serviços de negócio reutilizáveis, aplicando lógica de validação e transformação de dados, gerenciando fluxos transacionais com retry/back-off, publicando contratos versionados e fornecendo métricas detalhadas de desempenho e uso.
+        vr_en: |
+          The Process APIs connect the Experience layer to the System APIs, composing reusable business services, applying data validation and transformation logic, managing transactional flows with retry/back-off, publishing versioned contracts, and providing detailed performance and usage metrics.
+    - custom:
+        vr_pt: |
+          As Process APIs operam na camada intermediária da arquitetura API-led, agregando chamadas a várias System APIs para formar serviços de negócio coerentes, implementando regras de negócio, transformando payloads, coordenando transações com tentativas automáticas e expondo endpoints versionados com monitoramento e logging integrados.
+        vr_en: |
+          The Process APIs operate in the intermediate layer of the API-led architecture, aggregating calls to multiple System APIs to form coherent business services, implementing business rules, transforming payloads, coordinating transactions with automatic retries, and exposing versioned endpoints with integrated monitoring and logging.
+    - custom:
+        vr_pt: |
+          As Process APIs servem para unificar e orquestrar processos de negócio, consumindo múltiplas System APIs, aplicando validações de payload e regras de transformação, controlando transações duráveis com retry e rollback, criando contratos versionados e permitindo governança através de métricas e logs.
+        vr_en: |
+          The Process APIs serve to unify and orchestrate business processes, consuming multiple System APIs, applying payload validations and transformation rules, controlling durable transactions with retry and rollback, creating versioned contracts, and enabling governance through metrics and logs.
+    - custom:
+        vr_pt: |
+          As Process APIs são responsáveis pela lógica de negócio na arquitetura API-led, coletando dados de várias System APIs, aplicando políticas de enriquecimento e validação de payload, gerenciando transações com retentativas automáticas, publicando contratos versionados e fornecendo insights por meio de métricas e registro de logs.
+        vr_en: |
+          The Process APIs are responsible for business logic in the API-led architecture, gathering data from various System APIs, applying payload enrichment and validation policies, managing transactions with automatic retries, publishing versioned contracts, and providing insights through metrics and logging.
+    - custom:
+        vr_pt: |
+          As Process APIs compõem o núcleo da arquitetura API-led, agregando e transformando dados de múltiplas System APIs, aplicando regras de negócio rigorosas, coordenando transações resilientes com retry/back-off, expondo interfaces estáveis e versionadas e alimentando painéis de monitoramento com métricas detalhadas.
+        vr_en: |
+          The Process APIs form the core of the API-led architecture, aggregating and transforming data from multiple System APIs, enforcing strict business rules, coordinating resilient transactions with retry/back-off, exposing stable, versioned interfaces, and feeding monitoring dashboards with detailed metrics.
+    - custom:
+        vr_pt: |
+          As Process APIs orquestram serviços de backend, consumindo diversas System APIs, executando lógicas de negócio complexas, transformando payloads, gerenciando fluxos transacionais com tentativas automáticas, publicando contratos versionados e suportando governança e visibilidade via logging e métricas.
+        vr_en: |
+          The Process APIs orchestrate backend services, consuming various System APIs, executing complex business logic, transforming payloads, managing transactional flows with automatic retries, publishing versioned contracts, and supporting governance and visibility via logging and metrics.
+    - custom:
+        vr_pt: |
+          As Process APIs conectam e coordenam funcionalidades de negócio na arquitetura API-led, agregando dados de múltiplas System APIs, aplicando transformações e validações de payload, gerenciando transações com mecanismos de retry e compensação, expondo endpoints versionados e fornecendo métricas para governança e monitoramento.
+        vr_en: |
+          The Process APIs connect and coordinate business capabilities in the API-led architecture, aggregating data from multiple System APIs, applying payload transformations and validations, managing transactions with retry and compensation mechanisms, exposing versioned endpoints, and providing metrics for governance and monitoring.

@@ -3,6 +3,51 @@ responses:
   utter_oauth2_jwt:
     - custom:
         vr_pt: |
-          OAuth2 é um protocolo de autorização que emite tokens de acesso limitados para cliente, permitindo controle granular de permissões; JWT (JSON Web Token) é um formato compacto e auto-contido de token que carrega informações (claims) de autenticação e autorização de forma segura e verificável.
+          OAuth dois é protocolo de autorização que emite tokens de acesso com escopo limitado para clientes. JWT é token JSON auto contido que carrega declarações de autenticação e autorização de forma segura e verificável.
         vr_en: |
-          OAuth2 is an authorization protocol that issues scoped access tokens to clients, enabling fine-grained permission control; JWT (JSON Web Token) is a compact, self-contained token format carrying authentication and authorization claims securely and verifiably.
+          OAuth two is an authorization protocol that issues scoped access tokens to clients. JWT is a self contained JSON token that carries authentication and authorization claims securely and verifiably.
+    - custom:
+        vr_pt: |
+          No OAuth dois clientes obtêm tokens de acesso e renovação após autenticação. No JWT o token contém cabeçalho, payload e assinatura em base sessenta quatro.
+        vr_en: |
+          In OAuth two clients obtain access and refresh tokens after authentication. In JWT the token includes header, payload and signature encoded in base sixty four.
+    - custom:
+        vr_pt: |
+          OAuth dois define fluxos de autorização como código do autor e credenciais do cliente. JWT encapsula informações de usuário e permissões nos claims do payload.
+        vr_en: |
+          OAuth two defines authorization flows like authorization code and client credentials. JWT encapsulates user information and permissions in the token payload claims.
+    - custom:
+        vr_pt: |
+          Com OAuth dois usamos endpoints de autorização e token. JWT é usado como formato de token legível e assinado para verificar integridade.
+        vr_en: |
+          With OAuth two we use authorization and token endpoints. JWT is used as a readable and signed token format to verify integrity.
+    - custom:
+        vr_pt: |
+          OAuth dois protege recursos delegando permissões via tokens. JWT evita consultas constantes ao servidor de autenticação pois é auto contido.
+        vr_en: |
+          OAuth two secures resources by delegating permissions via tokens. JWT avoids constant authentication server lookups because it is self contained.
+    - custom:
+        vr_pt: |
+          No fluxo OAuth dois o usuário autoriza o cliente e obtém token. JWT é decodificado pelo receptor para extrair claims e validar assinatura.
+        vr_en: |
+          In the OAuth two flow the user authorizes the client and receives a token. JWT is decoded by the receiver to extract claims and validate the signature.
+    - custom:
+        vr_pt: |
+          OAuth dois suporta escopos para limitar ações. JWT inclui campo exp para definir data de expiração do token.
+        vr_en: |
+          OAuth two supports scopes to limit actions. JWT includes an exp field to define token expiration date.
+    - custom:
+        vr_pt: |
+          Tokens OAuth dois podem ser JWT ou opacos. JWT oferece benefício de transporte de informações sem estado.
+        vr_en: |
+          OAuth two tokens may be JWT or opaque. JWT offers the benefit of stateless information transport.
+    - custom:
+        vr_pt: |
+          Implementamos refresh token no OAuth dois para renovar acesso. Em JWT validamos assinatura com chave secreta ou par de chaves assimétrico.
+        vr_en: |
+          We implement refresh token in OAuth two to renew access. In JWT we validate the signature with a secret key or an asymmetric key pair.
+    - custom:
+        vr_pt: |
+          OAuth dois é padrão para autorização em APIs REST. JWT é amplamente usado como formato de token por ser compacto e seguro.
+        vr_en: |
+          OAuth two is the standard for REST API authorization. JWT is widely used as a token format because it is compact and secure.

@@ -3,6 +3,51 @@ responses:
   utter_lifecycle_management_exchange:
     - custom:
         vr_pt: |
-          No Anypoint Exchange o gerenciamento de ciclo de vida permite promover APIs através de estágios como desenvolvimento, homologação e produção; definir políticas de aprovação, desativação e depreciação; controlar permissões de acesso por ambiente; automatizar fluxos de versão e consultar histórico completo de alterações.
+          No Anypoint Exchange o gerenciamento de ciclo de vida permite promover APIs através de estágios como desenvolvimento, homologação e produção, definir políticas de aprovação, desativação e descontinuação, controlar permissões de acesso por ambiente, automatizar fluxos de versão e consultar histórico completo de alterações.
         vr_en: |
-          In Anypoint Exchange lifecycle management lets you promote APIs through stages such as development, staging and production; define approval, deprecation and retirement policies; manage access permissions per environment; automate version workflows and view full change history.
+          In Anypoint Exchange lifecycle management lets you promote APIs through stages such as development, staging and production, define approval, deprecation and retirement policies, manage access permissions per environment, automate version workflows and view full change history.
+    - custom:
+        vr_pt: |
+          O gerenciamento de ciclo de vida no Anypoint Exchange possibilita transicionar APIs entre ambientes de teste, qualificação e produção, configurar regras de aprovação e desativação automática, além de auditar cada mudança realizada.
+        vr_en: |
+          Lifecycle management in Anypoint Exchange enables transitioning APIs between testing, qualification and production environments, setting up approval and automatic decommissioning rules, as well as auditing every change made.
+    - custom:
+        vr_pt: |
+          Com lifecycle management no Exchange, é possível configurar fluxos de release, automatizar versionamento sem intervenção manual, definir políticas de retirada de versões obsoletas e rastrear todo o histórico de deploys.
+        vr_en: |
+          With lifecycle management in Exchange, you can configure release workflows, automate versioning without manual intervention, define deprecation policies for outdated versions and track the entire deployment history.
+    - custom:
+        vr_pt: |
+          A funcionalidade de ciclo de vida organiza estágios de API como rascunho, teste, pré-produção e produção, aplica gates de aprovação e dispara notificações para stakeholders em cada transição.
+        vr_en: |
+          The lifecycle feature organizes API stages such as draft, test, pre-production and production, applies approval gates and triggers notifications to stakeholders at each transition.
+    - custom:
+        vr_pt: |
+          No gerenciamento de ciclo de vida, você pode restringir acesso a versões específicas por ambiente, definir datas de expiração e criar políticas de fallback para manter disponibilidade mesmo após depreciação.
+        vr_en: |
+          In lifecycle management, you can restrict access to specific versions per environment, set expiration dates and create fallback policies to maintain availability even after deprecation.
+    - custom:
+        vr_pt: |
+          O Exchange permite controlar políticas de segurança e compliance em cada fase do ciclo de vida, garantindo que apenas versões autorizadas sejam promovidas e monitorando métricas de uso em todos os ambientes.
+        vr_en: |
+          Exchange allows you to enforce security and compliance policies at each stage of the lifecycle, ensuring only authorized versions are promoted and monitoring usage metrics across all environments.
+    - custom:
+        vr_pt: |
+          Automação de ciclo de vida inclui criação de pipelines de CI/CD que respondem a mudanças no contrato da API, promovem automaticamente versões para homologação e executam testes de regressão antes de liberar para produção.
+        vr_en: |
+          Lifecycle automation includes creating CI/CD pipelines that respond to API contract changes, automatically promote versions to staging and run regression tests before releasing to production.
+    - custom:
+        vr_pt: |
+          Com o ciclo de vida, cada mudança em contrato, código ou configuração é versionada e auditada, fornecendo rastreabilidade completa e facilitando rollback em caso de problemas.
+        vr_en: |
+          With lifecycle management, every change in contract, code or configuration is versioned and audited, providing full traceability and facilitating rollback in case of issues.
+    - custom:
+        vr_pt: |
+          O gerenciamento de ciclo de vida integra-se com o portal de desenvolvedores, atualizando automaticamente documentação e exemplos à medida que novas versões são promovidas.
+        vr_en: |
+          Lifecycle management integrates with the developer portal, automatically updating documentation and examples as new versions are promoted.
+    - custom:
+        vr_pt: |
+          Ferramentas de ciclo de vida permitem definir SLAs por versão, configurar notificações de expiração e gerar relatórios de conformidade para auditoria de APIs em todos os estágios.
+        vr_en: |
+          Lifecycle tools allow you to define SLAs per version, configure expiration notifications and generate compliance reports for API auditing across all stages.

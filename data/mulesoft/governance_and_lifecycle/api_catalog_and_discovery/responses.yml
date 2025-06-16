@@ -3,6 +3,51 @@ responses:
   utter_api_catalog_and_discovery:
     - custom:
         vr_pt: |
-          O catálogo de APIs é um repositório centralizado onde todas as APIs são registradas, documentadas e categorizadas; facilita a descoberta, reutilização e padronização; no Anypoint Exchange você publica contratos, exemplos e metadados; garante visibilidade e governança ao longo do ciclo de vida; permite controle de acesso, versionamento e auditoria de cada API.
+          O catálogo de APIs é um repositório centralizado onde todas as APIs são registradas, documentadas e categorizadas, permitindo descoberta fácil, reutilização eficiente e padronização de interfaces, e no Anypoint Exchange você publica contratos, exemplos e metadados para garantir visibilidade, governança, controle de acesso, versionamento e auditoria ao longo de todo o ciclo de vida.
         vr_en: |
-          The API catalog is a centralized repository where all APIs are registered, documented and categorized; it enables discovery, reuse and standardization; in Anypoint Exchange you publish contracts, examples and metadata; it provides visibility and governance throughout the lifecycle; it supports access control, versioning and auditing of each API.
+          The API catalog is a centralized repository where all APIs are registered, documented and categorized, enabling easy discovery, efficient reuse and interface standardization, and in Anypoint Exchange you publish contracts, examples and metadata to ensure visibility, governance, access control, versioning and auditing throughout the entire lifecycle.
+    - custom:
+        vr_pt: |
+          Um catálogo de APIs centraliza informações sobre endpoints, descrições e esquemas de dados, facilitando para desenvolvedores encontrar serviços existentes, reutilizar contratos e manter consistência em toda a plataforma de integração.
+        vr_en: |
+          An API catalog centralizes information about endpoints, descriptions and data schemas, making it easier for developers to find existing services, reuse contracts and maintain consistency across the integration platform.
+    - custom:
+        vr_pt: |
+          No catálogo de APIs você agrupa APIs por domínio, fornece documentação interativa e exemplos de uso, e publica metadados como versões, tags e políticas de segurança para agilizar adoção e governança.
+        vr_en: |
+          In the API catalog you group APIs by domain, provide interactive documentation and usage examples, and publish metadata such as versions, tags and security policies to streamline adoption and governance.
+    - custom:
+        vr_pt: |
+          O repositório de APIs armazena contratos em RAML ou OpenAPI, exemplos de payload e guias de implementação, servindo como fonte única de verdade e acelerando o desenvolvimento distribuído em equipes.
+        vr_en: |
+          The API repository stores RAML or OpenAPI contracts, payload examples and implementation guides, serving as a single source of truth and accelerating distributed team development.
+    - custom:
+        vr_pt: |
+          Um catálogo bem organizado expõe categorias, faz buscas por palavras-chave e permite filtragem por tags, garantindo que consumidores encontrem rapidamente APIs adequadas para suas necessidades.
+        vr_en: |
+          A well-organized catalog exposes categories, supports keyword search and filtering by tags, ensuring consumers quickly find APIs suited to their needs.
+    - custom:
+        vr_pt: |
+          No Anypoint Exchange, o catálogo de APIs permite versionamento, controle de acesso por função e fluxos de aprovação, promovendo segurança e compliance em ambientes corporativos.
+        vr_en: |
+          In Anypoint Exchange, the API catalog enables versioning, role-based access control and approval workflows, promoting security and compliance in enterprise environments.
+    - custom:
+        vr_pt: |
+          O catálogo também armazena exemplos de políticas aplicáveis, logs de uso e métricas de desempenho, proporcionando insights valiosos para melhorias e monitoramento contínuo.
+        vr_en: |
+          The catalog also stores examples of applicable policies, usage logs and performance metrics, providing valuable insights for improvements and continuous monitoring.
+    - custom:
+        vr_pt: |
+          Consumidores de API podem avaliar facilidade de uso e compatibilidade ao consultar descrições detalhadas, contratos e provas de conceito disponíveis no catálogo, reduzindo riscos de adoção.
+        vr_en: |
+          API consumers can assess usability and compatibility by reviewing detailed descriptions, contracts and proofs of concept available in the catalog, reducing adoption risks.
+    - custom:
+        vr_pt: |
+          O catálogo de APIs integra-se com pipelines de CI/CD, permitindo atualização automática de metadados e alinhamento contínuo entre código e documentação.
+        vr_en: |
+          The API catalog integrates with CI/CD pipelines, allowing automatic metadata updates and continuous alignment between code and documentation.
+    - custom:
+        vr_pt: |
+          APIs publicadas no catálogo recebem tags e classificações de maturidade e conformidade, ajudando equipes a identificar rapidamente serviços estáveis e em evolução.
+        vr_en: |
+          APIs published in the catalog receive tags and maturity and compliance ratings, helping teams quickly identify stable and evolving services.

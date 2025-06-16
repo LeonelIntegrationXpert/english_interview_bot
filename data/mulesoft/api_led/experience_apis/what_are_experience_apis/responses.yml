@@ -3,6 +3,51 @@ responses:
   utter_what_are_experience_apis:
     - custom:
         vr_pt: |
-          As Experience APIs formam a camada superior na arquitetura API-led da MuleSoft; elas adaptam e combinam as saídas das Process APIs para cada canal (web, mobile, chatbots); aplicam transformação de payload e formatam dados para UX específico; implementam cache de front-end para baixa latência; versionam contratos por canal; agregam lógica de personalização (filtros, preferências, contextos); orquestram chamadas a múltiplas Process APIs; expõem endpoints otimizados para performance e responsividade; geram métricas de uso por canal e facilitam testes de interface.
+          As Experience APIs compõem a camada superior da arquitetura API-led, adaptando e combinando saídas das Process APIs para canais web, mobile ou chatbots, transformando payloads e formatando dados para UX personalizado, implementando cache de front-end para baixa latência, versionando contratos por canal, adicionando lógica de personalização, orquestrando múltiplas chamadas de Process APIs, expondo endpoints otimizados e gerando métricas de uso por canal.
         vr_en: |
-          Experience APIs form the top layer in MuleSoft’s API-led architecture; they adapt and shape outputs from Process APIs for each channel (web, mobile, chatbots); apply payload transformation, format data for specific UX; implement front-end caching for low latency; version contracts per channel; add personalization logic (filters, preferences, contexts); orchestrate calls to multiple Process APIs; expose endpoints optimized for performance and responsiveness; emit channel-specific usage metrics and streamline UI testing.
+          The Experience APIs form the top layer of API-led architecture, adapting and combining outputs from Process APIs for web, mobile or chatbot channels, transforming payloads and formatting data for tailored UX, implementing front-end caching for low latency, versioning contracts per channel, adding personalization logic, orchestrating multiple Process API calls, exposing optimized endpoints and emitting channel-specific usage metrics.
+    - custom:
+        vr_pt: |
+          As Experience APIs são responsáveis por entregar dados prontos para cada canal, agregando respostas das Process APIs, aplicando transformação de payload, ajustando formatos para interfaces específicas, usando cache local para performance, versionando contratos, personalizando lógica, orquestrando fluxos de API, definiendo endpoints leves e coletando métricas de interação.
+        vr_en: |
+          The Experience APIs deliver channel-ready data by aggregating Process API responses, applying payload transformation, adjusting formats for specific interfaces, using local caching for performance, versioning contracts, personalizing logic, orchestrating API flows, defining lightweight endpoints and collecting interaction metrics.
+    - custom:
+        vr_pt: |
+          As Experience APIs conectam a camada de Experiência às Process APIs, transformando e combinando dados para cada canal, formatando a saída para UX, aplicando cache para reduzir latência, versionando especificações, incorporando filtros e preferências do usuário, coordenando chamadas de múltiplas Process APIs e expondo endpoints rápidos e responsivos.
+        vr_en: |
+          The Experience APIs link the Experience layer to the Process APIs by transforming and combining data for each channel, formatting output for UX, applying caching to reduce latency, versioning specifications, incorporating user filters and preferences, coordinating multiple Process API calls and exposing fast, responsive endpoints.
+    - custom:
+        vr_pt: |
+          As Experience APIs orquestram as respostas das Process APIs, formatam payloads para web, mobile e chatbots, implementam cache de borda para alta velocidade, versionam contratos por interface, adicionam lógica de personalização, coordenam múltiplas integrações, expõem APIs enxutas para performance e monitoram uso por canal.
+        vr_en: |
+          The Experience APIs orchestrate Process API responses, format payloads for web, mobile and chatbots, implement edge caching for high speed, version contracts per interface, add personalization logic, coordinate multiple integrations, expose lean APIs for performance and monitor channel usage.
+    - custom:
+        vr_pt: |
+          As Experience APIs transformam e apresentam dados vindos das Process APIs de forma otimizada para cada canal, aplicam transformação de payload, ajustam layout de dados para UX, usam cache local, versionam endpoints, personalizam conteúdo via filtros, coordenam orquestração de múltiplas APIs e registram métricas de engajamento.
+        vr_en: |
+          The Experience APIs transform and present data from Process APIs in an optimized manner for each channel, apply payload transformation, adjust data layout for UX, use local caching, version endpoints, personalize content via filters, coordinate orchestration of multiple APIs and record engagement metrics.
+    - custom:
+        vr_pt: |
+          As Experience APIs moldam a saída das Process APIs para interfaces específicas, agregando e transformando payloads, implementando cache de front-end, versionando contratos por canal, incorporando preferências do usuário, orquestrando fluxos de dados, exibindo endpoints ágeis e coletando métricas de performance.
+        vr_en: |
+          The Experience APIs shape Process API output for specific interfaces by aggregating and transforming payloads, implementing front-end caching, versioning contracts per channel, incorporating user preferences, orchestrating data flows, exposing agile endpoints and collecting performance metrics.
+    - custom:
+        vr_pt: |
+          As Experience APIs adaptam e combinam as Process APIs para entregar uma camada de apresentação, transformando payloads, ajustando formatos para UX, usando cache de borda, versionando endpoints, personalizando respostas com base em contexto, gerenciando chamadas paralelas e emitindo métricas específicas de uso.
+        vr_en: |
+          The Experience APIs adapt and combine Process APIs to deliver a presentation layer by transforming payloads, adjusting formats for UX, using edge caching, versioning endpoints, personalizing responses based on context, managing parallel calls and emitting usage-specific metrics.
+    - custom:
+        vr_pt: |
+          As Experience APIs oferecem a interface final ao usuário, reunindo dados das Process APIs, aplicando transformações de payload, formatando para cada canal, habilitando cache local, versionando serviços, adicionando lógica dinâmica, orquestrando múltiplas APIs e monitorando interações por canal.
+        vr_en: |
+          The Experience APIs provide the final user interface by gathering data from Process APIs, applying payload transformations, formatting for each channel, enabling local caching, versioning services, adding dynamic logic, orchestrating multiple APIs and monitoring interactions per channel.
+    - custom:
+        vr_pt: |
+          As Experience APIs compõem a camada de apresentação, processando saídas das Process APIs, transformando e formatando payloads, implementando cache para UX fluido, definindo versões de contrato por canal, incorporando lógica de personalização, orquestrando chamadas e rastreando métricas de interface.
+        vr_en: |
+          The Experience APIs make up the presentation layer by processing Process API outputs, transforming and formatting payloads, implementing caching for a fluid UX, defining contract versions per channel, incorporating personalization logic, orchestrating calls and tracking interface metrics.
+    - custom:
+        vr_pt: |
+          As Experience APIs criam endpoints otimizados para cada canal, adaptando dados das Process APIs, aplicando transformação de payload, formatando para UX específico, usando cache de front-end, versionando contratos por interface, incluindo filtros personalizados, coordenando múltiplas integrações e gerando métricas de uso.
+        vr_en: |
+          The Experience APIs create optimized endpoints for each channel by adapting data from Process APIs, applying payload transformation, formatting for specific UX, using front-end caching, versioning contracts per interface, including personalized filters, coordinating multiple integrations and generating usage metrics.

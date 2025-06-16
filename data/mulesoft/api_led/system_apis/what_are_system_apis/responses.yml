@@ -3,6 +3,51 @@ responses:
   utter_what_are_system_apis:
     - custom:
         vr_pt: |
-          System APIs fazem parte da camada de Sistema da arquitetura API-led do MuleSoft; conectam-se diretamente a sistemas legados, bancos de dados e serviços de terceiros; aplicam políticas de segurança (autenticação, autorização, rate limiting) na borda; transformam e padronizam dados em formatos comuns (JSON, XML, CSV); realizam caching e buffering para melhorar desempenho e resiliência; isolam a complexidade do back-end expondo contratos estáveis; fornecem endpoints versionados para evoluir sem quebrar consumidores; lidam com falhas de rede com retry/back-off automático; e geram logs e métricas que alimentam dashboards de monitoramento e alertas.
+          As System APIs compõem a camada de sistema na arquitetura API-led, fazendo a conexão direta com sistemas legados e bancos de dados, aplicando políticas de segurança na borda, normalizando dados em formatos correntes como JSON, XML e CSV, utilizando cache e buffer para otimizar desempenho, abstraindo a complexidade do back‑end através de contratos estáveis, mantendo endpoints versionados, tratando falhas de rede com retentativas automáticas e gerando logs e métricas para painéis de monitoramento.
         vr_en: |
-          System APIs are part of the System layer in MuleSoft’s API-led architecture; connect directly to legacy systems, databases and third-party services; enforce edge security policies (authentication, authorization, rate limiting); transform and normalize data into common formats (JSON, XML, CSV); implement caching and buffering to improve performance and resiliency; abstract back-end complexity by exposing stable, contract-driven endpoints; provide versioned APIs to evolve without breaking consumers; handle network failures with automatic retry and back-off strategies; and emit logs and metrics to drive monitoring dashboards and alerts.
+          The System APIs make up the system layer in the API‑led architecture, establishing direct connections to legacy systems and databases, enforcing security policies at the edge, normalizing data into common formats such as JSON, XML and CSV, leveraging caching and buffering to improve performance, abstracting back‑end complexity through stable contracts, maintaining versioned endpoints, handling network failures with automatic retries and producing logs and metrics for monitoring dashboards.
+    - custom:
+        vr_pt: |
+          As System APIs integram diretamente sistemas internos e serviços externos, garantindo segurança na borda, convertendo dados em formatos padrão, agilizando acessos com cache e buffer, simplificando a implementação com interfaces robustas e versionadas, promovendo resiliência por meio de retentativas automáticas e alimentando painéis de observabilidade com métricas e registros.
+        vr_en: |
+          The System APIs integrate internal systems and external services directly, ensuring edge security, converting data into standardized formats, speeding up access with caching and buffering, simplifying implementation with robust, versioned interfaces, promoting resilience through automatic retries and feeding observability dashboards with metrics and logs.
+    - custom:
+        vr_pt: |
+          As System APIs formam a base técnica, conectando bancos de dados, sistemas legados e serviços de terceiros, impondo autenticação e autorização, transformando dados em JSON e XML, acelerando respostas com cache, abstraindo complexidade por meio de contratos claros, mantendo versões estáveis de APIs, gerenciando falhas automaticamente e fornecendo informações detalhadas para monitoramento contínuo.
+        vr_en: |
+          The System APIs form the technical foundation by linking databases, legacy systems and third‑party services, enforcing authentication and authorization, transforming data into JSON and XML, accelerating responses through caching, abstracting complexity via clear contracts, maintaining stable API versions, managing failures automatically and providing detailed information for continuous monitoring.
+    - custom:
+        vr_pt: |
+          As System APIs estabelecem conexões diretas com sistemas back‑end, aplicam proteção de segurança logo na entrada, padronizam dados em formatos como JSON e CSV, melhoram performance com cache e buffering, expõem contratos consistentes, suportam evolução sem interrupções por meio de versionamento e registram métricas e logs para análises contínuas.
+        vr_en: |
+          The System APIs establish direct backend connections, apply security protection at the entry point, standardize data in formats such as JSON and CSV, enhance performance with caching and buffering, expose consistent contracts, support uninterrupted evolution through versioning, and log metrics for ongoing analysis.
+    - custom:
+        vr_pt: |
+          As System APIs conectam sistemas legados e serviços de terceiros diretamente, impõem políticas de segurança na borda, convertem e padronizam diversos formatos de dados, aumentam o desempenho com cache, oferecem endpoints estáveis e versionados, automatizam o tratamento de erros de rede e geram registros e métricas para monitoramento efetivo.
+        vr_en: |
+          The System APIs connect legacy systems and third‑party services directly, enforce edge security policies, convert and standardize various data formats, boost performance with caching, offer stable and versioned endpoints, automate network error handling and generate logs and metrics for effective monitoring.
+    - custom:
+        vr_pt: |
+          As System APIs ligam‑se diretamente a sistemas externos e bancos de dados, garantem políticas de segurança, padronizam dados em JSON e XML, utilizam cache para eficiência, abstraem complexidade com contratos estáveis, mantêm versões claras de endpoints, suportam retentativas automáticas em falhas de rede e registram dados de desempenho para dashboards.
+        vr_en: |
+          The System APIs connect directly to external systems and databases, enforce security policies, standardize data in JSON and XML, use caching for efficiency, abstract complexity with stable contracts, maintain clear endpoint versions, support automatic retries on network failures and log performance data for dashboards.
+    - custom:
+        vr_pt: |
+          As System APIs são responsáveis por conectar sistemas legados e serviços de terceiros, realizar autenticação e autorização, transformar dados em XML e JSON, acelerar o processamento com buffering, expor contratos robustos e versionados, lidar com erros sem intervenção manual e alimentar painéis de análise com métricas precisas.
+        vr_en: |
+          The System APIs are responsible for connecting legacy systems and third‑party services, performing authentication and authorization, transforming data into XML and JSON, speeding up processing with buffering, exposing robust, versioned contracts, handling errors automatically and feeding analytics dashboards with accurate metrics.
+    - custom:
+        vr_pt: |
+          As System APIs fazem a interface direta com bancos de dados e sistemas externos, executam verificações de segurança, normalizam dados em JSON e CSV, aplicam cache e buffer para reduzir latência, fornecem APIs versionadas e estáveis, tratam falhas automaticamente e disponibilizam informações para monitoramento centralizado.
+        vr_en: |
+          The System APIs interface directly with databases and external systems, perform security checks, normalize data into JSON and CSV, apply caching and buffering to reduce latency, provide stable, versioned APIs, handle failures automatically and deliver information for centralized monitoring.
+    - custom:
+        vr_pt: |
+          As System APIs estabelecem comunicação direta com sistemas internos e externos, asseguram segurança na borda, convertem dados para formatos padrão como XML e JSON, aceleram respostas com cache, abstraem a complexidade interna, oferecem interfaces versionadas e gerenciam erros de forma autônoma enquanto coletam métricas para dashboards.
+        vr_en: |
+          The System APIs establish direct communication with internal and external systems, ensure edge security, convert data into standard formats like XML and JSON, accelerate responses with caching, abstract internal complexity, provide versioned interfaces and manage errors autonomously while collecting metrics for dashboards.
+    - custom:
+        vr_pt: |
+          As System APIs constituem a camada inicial de integração, conectam‑se diretamente a sistemas legados e externos, impõem políticas rígidas de segurança, padronizam dados, aceleram o tráfego com cache, definem contratos estáveis e versionados, executam retentativas automáticas em falhas e geram registros detalhados para monitoramento aprimorado.
+        vr_en: |
+          The System APIs form the initial integration layer, connect directly to legacy and external systems, enforce strict security policies, standardize data, accelerate traffic with caching, define stable, versioned contracts, perform automatic retries on failures and generate detailed logs for enhanced monitoring.

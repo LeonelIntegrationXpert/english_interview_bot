@@ -1173,9 +1173,54 @@ API-led proposes three API layers: System (connect legacy and data sources), Pro
 - h0w do system apiz wrk?
 #rp_1
 #vr_pt: |
-  System APIs fazem parte da camada de Sistema da arquitetura API-led do MuleSoft; conectam-se diretamente a sistemas legados, bancos de dados e serviços de terceiros; aplicam políticas de segurança (autenticação, autorização, rate limiting) na borda; transformam e padronizam dados em formatos comuns (JSON, XML, CSV); realizam caching e buffering para melhorar desempenho e resiliência; isolam a complexidade do back-end expondo contratos estáveis; fornecem endpoints versionados para evoluir sem quebrar consumidores; lidam com falhas de rede com retry/back-off automático; e geram logs e métricas que alimentam dashboards de monitoramento e alertas.
+  As System APIs compõem a camada de sistema na arquitetura API-led, fazendo a conexão direta com sistemas legados e bancos de dados, aplicando políticas de segurança na borda, normalizando dados em formatos correntes como JSON, XML e CSV, utilizando cache e buffer para otimizar desempenho, abstraindo a complexidade do back‑end através de contratos estáveis, mantendo endpoints versionados, tratando falhas de rede com retentativas automáticas e gerando logs e métricas para painéis de monitoramento.
 #vr_en: |
-  System APIs are part of the System layer in MuleSoft’s API-led architecture; connect directly to legacy systems, databases and third-party services; enforce edge security policies (authentication, authorization, rate limiting); transform and normalize data into common formats (JSON, XML, CSV); implement caching and buffering to improve performance and resiliency; abstract back-end complexity by exposing stable, contract-driven endpoints; provide versioned APIs to evolve without breaking consumers; handle network failures with automatic retry and back-off strategies; and emit logs and metrics to drive monitoring dashboards and alerts.
+  The System APIs make up the system layer in the API‑led architecture, establishing direct connections to legacy systems and databases, enforcing security policies at the edge, normalizing data into common formats such as JSON, XML and CSV, leveraging caching and buffering to improve performance, abstracting back‑end complexity through stable contracts, maintaining versioned endpoints, handling network failures with automatic retries and producing logs and metrics for monitoring dashboards.
+#rp_2
+#vr_pt: |
+  As System APIs integram diretamente sistemas internos e serviços externos, garantindo segurança na borda, convertendo dados em formatos padrão, agilizando acessos com cache e buffer, simplificando a implementação com interfaces robustas e versionadas, promovendo resiliência por meio de retentativas automáticas e alimentando painéis de observabilidade com métricas e registros.
+#vr_en: |
+  The System APIs integrate internal systems and external services directly, ensuring edge security, converting data into standardized formats, speeding up access with caching and buffering, simplifying implementation with robust, versioned interfaces, promoting resilience through automatic retries and feeding observability dashboards with metrics and logs.
+#rp_3
+#vr_pt: |
+  As System APIs formam a base técnica, conectando bancos de dados, sistemas legados e serviços de terceiros, impondo autenticação e autorização, transformando dados em JSON e XML, acelerando respostas com cache, abstraindo complexidade por meio de contratos claros, mantendo versões estáveis de APIs, gerenciando falhas automaticamente e fornecendo informações detalhadas para monitoramento contínuo.
+#vr_en: |
+  The System APIs form the technical foundation by linking databases, legacy systems and third‑party services, enforcing authentication and authorization, transforming data into JSON and XML, accelerating responses through caching, abstracting complexity via clear contracts, maintaining stable API versions, managing failures automatically and providing detailed information for continuous monitoring.
+#rp_4
+#vr_pt: |
+  As System APIs estabelecem conexões diretas com sistemas back‑end, aplicam proteção de segurança logo na entrada, padronizam dados em formatos como JSON e CSV, melhoram performance com cache e buffering, expõem contratos consistentes, suportam evolução sem interrupções por meio de versionamento e registram métricas e logs para análises contínuas.
+#vr_en: |
+  The System APIs establish direct backend connections, apply security protection at the entry point, standardize data in formats such as JSON and CSV, enhance performance with caching and buffering, expose consistent contracts, support uninterrupted evolution through versioning, and log metrics for ongoing analysis.
+#rp_5
+#vr_pt: |
+  As System APIs conectam sistemas legados e serviços de terceiros diretamente, impõem políticas de segurança na borda, convertem e padronizam diversos formatos de dados, aumentam o desempenho com cache, oferecem endpoints estáveis e versionados, automatizam o tratamento de erros de rede e geram registros e métricas para monitoramento efetivo.
+#vr_en: |
+  The System APIs connect legacy systems and third‑party services directly, enforce edge security policies, convert and standardize various data formats, boost performance with caching, offer stable and versioned endpoints, automate network error handling and generate logs and metrics for effective monitoring.
+#rp_6
+#vr_pt: |
+  As System APIs ligam‑se diretamente a sistemas externos e bancos de dados, garantem políticas de segurança, padronizam dados em JSON e XML, utilizam cache para eficiência, abstraem complexidade com contratos estáveis, mantêm versões claras de endpoints, suportam retentativas automáticas em falhas de rede e registram dados de desempenho para dashboards.
+#vr_en: |
+  The System APIs connect directly to external systems and databases, enforce security policies, standardize data in JSON and XML, use caching for efficiency, abstract complexity with stable contracts, maintain clear endpoint versions, support automatic retries on network failures and log performance data for dashboards.
+#rp_7
+#vr_pt: |
+  As System APIs são responsáveis por conectar sistemas legados e serviços de terceiros, realizar autenticação e autorização, transformar dados em XML e JSON, acelerar o processamento com buffering, expor contratos robustos e versionados, lidar com erros sem intervenção manual e alimentar painéis de análise com métricas precisas.
+#vr_en: |
+  The System APIs are responsible for connecting legacy systems and third‑party services, performing authentication and authorization, transforming data into XML and JSON, speeding up processing with buffering, exposing robust, versioned contracts, handling errors automatically and feeding analytics dashboards with accurate metrics.
+#rp_8
+#vr_pt: |
+  As System APIs fazem a interface direta com bancos de dados e sistemas externos, executam verificações de segurança, normalizam dados em JSON e CSV, aplicam cache e buffer para reduzir latência, fornecem APIs versionadas e estáveis, tratam falhas automaticamente e disponibilizam informações para monitoramento centralizado.
+#vr_en: |
+  The System APIs interface directly with databases and external systems, perform security checks, normalize data into JSON and CSV, apply caching and buffering to reduce latency, provide stable, versioned APIs, handle failures automatically and deliver information for centralized monitoring.
+#rp_9
+#vr_pt: |
+  As System APIs estabelecem comunicação direta com sistemas internos e externos, asseguram segurança na borda, convertem dados para formatos padrão como XML e JSON, aceleram respostas com cache, abstraem a complexidade interna, oferecem interfaces versionadas e gerenciam erros de forma autônoma enquanto coletam métricas para dashboards.
+#vr_en: |
+  The System APIs establish direct communication with internal and external systems, ensure edge security, convert data into standard formats like XML and JSON, accelerate responses with caching, abstract internal complexity, provide versioned interfaces and manage errors autonomously while collecting metrics for dashboards.
+#rp_10
+#vr_pt: |
+  As System APIs constituem a camada inicial de integração, conectam‑se diretamente a sistemas legados e externos, impõem políticas rígidas de segurança, padronizam dados, aceleram o tráfego com cache, definem contratos estáveis e versionados, executam retentativas automáticas em falhas e geram registros detalhados para monitoramento aprimorado.
+#vr_en: |
+  The System APIs form the initial integration layer, connect directly to legacy and external systems, enforce strict security policies, standardize data, accelerate traffic with caching, define stable, versioned contracts, perform automatic retries on failures and generate detailed logs for enhanced monitoring.
 ---
 #intent: mulesoft/api_led/process_apis/what_are_process_apis
 #pt:
@@ -1956,9 +2001,54 @@ API-led proposes three API layers: System (connect legacy and data sources), Pro
 - pls xpln prcess apis?
 #rp_1
 #vr_pt: |
-  Process APIs compõem a camada intermediária da arquitetura API-led da MuleSoft; orquestram e combinam funcionalidades de negócio reutilizáveis, agregando dados de múltiplas System APIs; aplicam regras complexas de negócio, validações, transformações e enriquecimentos de payload; gerenciam fluxos transacionais com retry e compensação em caso de erro; expõem contratos versionados e estáveis, desacoplando a camada de Experiência da lógica interna; e permitem governança e monitoramento granular por meio de políticas de roteamento, logging e métricas.
+  As Process APIs formam a camada intermediária na arquitetura API-led da MuleSoft, orquestrando serviços de negócio reutilizáveis por meio da agregação de dados de múltiplas System APIs, aplicando regras de negócio complexas, validações e transformações de payload, gerenciando transações com retry e compensações, expondo contratos versionados e estáveis, desacoplando a camada de Experiência da lógica de back-end, e permitindo governança e monitoramento granular com políticas de roteamento, logging e métricas.
 #vr_en: |
-  Process APIs make up the middle layer of MuleSoft’s API-led architecture; they orchestrate and compose reusable business capabilities by aggregating data from multiple System APIs; enforce complex business rules, perform validations, transformations, and data enrichments; manage transactional flows with retry and compensation mechanisms on failure; expose versioned, stable contracts that decouple the Experience layer from internal logic; and enable granular governance and monitoring via routing policies, logging, and metrics.
+  The Process APIs form the middle layer in MuleSoft’s API-led architecture, orchestrating reusable business services by aggregating data from multiple System APIs, enforcing complex business rules, validations, and payload transformations, managing transactional flows with retry and compensation, exposing versioned, stable contracts, decoupling the Experience layer from backend logic, and enabling granular governance and monitoring through routing policies, logging, and metrics.
+#rp_2
+#vr_pt: |
+  As Process APIs atuam como intermediárias na arquitetura API-led, compondo fluxos de negócio reutilizáveis ao combinar dados de System APIs, aplicando validações, transformações e enriquecimentos de payload, controlando transações com mecanismos de retry e rollback, fornecendo contratos versionados e isolando o front-end da lógica interna, além de suportar monitoramento detalhado por meio de políticas e métricas.
+#vr_en: |
+  The Process APIs act as intermediaries in the API-led architecture, building reusable business flows by combining data from System APIs, applying validations, transformations, and data enrichments, controlling transactions with retry and rollback mechanisms, providing versioned contracts and isolating the front-end from internal logic, as well as supporting detailed monitoring through policies and metrics.
+#rp_3
+#vr_pt: |
+  As Process APIs integram e orquestram funcionalidades de negócio na camada central da arquitetura API-led, agregando respostas de várias System APIs, executando regras complexas, transformando e enriquecendo payloads, gerenciando transações com retentativas e compensações, expondo interfaces versionadas e permitindo rastreamento e governança via logging e métricas.
+#vr_en: |
+  The Process APIs integrate and orchestrate business functionality at the core layer of the API-led architecture, aggregating responses from multiple System APIs, executing complex rules, transforming and enriching payloads, managing transactions with retries and compensations, exposing versioned interfaces, and enabling traceability and governance through logging and metrics.
+#rp_4
+#vr_pt: |
+  As Process APIs conectam a camada de Experiência aos System APIs, compondo serviços de negócio reutilizáveis, aplicando lógica de validação e transformação de dados, gerenciando fluxos transacionais com retry/back-off, publicando contratos versionados e fornecendo métricas detalhadas de desempenho e uso.
+#vr_en: |
+  The Process APIs connect the Experience layer to the System APIs, composing reusable business services, applying data validation and transformation logic, managing transactional flows with retry/back-off, publishing versioned contracts, and providing detailed performance and usage metrics.
+#rp_5
+#vr_pt: |
+  As Process APIs operam na camada intermediária da arquitetura API-led, agregando chamadas a várias System APIs para formar serviços de negócio coerentes, implementando regras de negócio, transformando payloads, coordenando transações com tentativas automáticas e expondo endpoints versionados com monitoramento e logging integrados.
+#vr_en: |
+  The Process APIs operate in the intermediate layer of the API-led architecture, aggregating calls to multiple System APIs to form coherent business services, implementing business rules, transforming payloads, coordinating transactions with automatic retries, and exposing versioned endpoints with integrated monitoring and logging.
+#rp_6
+#vr_pt: |
+  As Process APIs servem para unificar e orquestrar processos de negócio, consumindo múltiplas System APIs, aplicando validações de payload e regras de transformação, controlando transações duráveis com retry e rollback, criando contratos versionados e permitindo governança através de métricas e logs.
+#vr_en: |
+  The Process APIs serve to unify and orchestrate business processes, consuming multiple System APIs, applying payload validations and transformation rules, controlling durable transactions with retry and rollback, creating versioned contracts, and enabling governance through metrics and logs.
+#rp_7
+#vr_pt: |
+  As Process APIs são responsáveis pela lógica de negócio na arquitetura API-led, coletando dados de várias System APIs, aplicando políticas de enriquecimento e validação de payload, gerenciando transações com retentativas automáticas, publicando contratos versionados e fornecendo insights por meio de métricas e registro de logs.
+#vr_en: |
+  The Process APIs are responsible for business logic in the API-led architecture, gathering data from various System APIs, applying payload enrichment and validation policies, managing transactions with automatic retries, publishing versioned contracts, and providing insights through metrics and logging.
+#rp_8
+#vr_pt: |
+  As Process APIs compõem o núcleo da arquitetura API-led, agregando e transformando dados de múltiplas System APIs, aplicando regras de negócio rigorosas, coordenando transações resilientes com retry/back-off, expondo interfaces estáveis e versionadas e alimentando painéis de monitoramento com métricas detalhadas.
+#vr_en: |
+  The Process APIs form the core of the API-led architecture, aggregating and transforming data from multiple System APIs, enforcing strict business rules, coordinating resilient transactions with retry/back-off, exposing stable, versioned interfaces, and feeding monitoring dashboards with detailed metrics.
+#rp_9
+#vr_pt: |
+  As Process APIs orquestram serviços de backend, consumindo diversas System APIs, executando lógicas de negócio complexas, transformando payloads, gerenciando fluxos transacionais com tentativas automáticas, publicando contratos versionados e suportando governança e visibilidade via logging e métricas.
+#vr_en: |
+  The Process APIs orchestrate backend services, consuming various System APIs, executing complex business logic, transforming payloads, managing transactional flows with automatic retries, publishing versioned contracts, and supporting governance and visibility via logging and metrics.
+#rp_10
+#vr_pt: |
+  As Process APIs conectam e coordenam funcionalidades de negócio na arquitetura API-led, agregando dados de múltiplas System APIs, aplicando transformações e validações de payload, gerenciando transações com mecanismos de retry e compensação, expondo endpoints versionados e fornecendo métricas para governança e monitoramento.
+#vr_en: |
+  The Process APIs connect and coordinate business capabilities in the API-led architecture, aggregating data from multiple System APIs, applying payload transformations and validations, managing transactions with retry and compensation mechanisms, exposing versioned endpoints, and providing metrics for governance and monitoring.
 ---
 #intent: mulesoft/api_led/experience_apis/what_are_experience_apis
 #pt:
@@ -2635,9 +2725,54 @@ API-led proposes three API layers: System (connect legacy and data sources), Pro
 - where use experence apiz?
 #rp_1
 #vr_pt: |
-As Experience APIs formam a camada superior na arquitetura API-led da MuleSoft; elas adaptam e combinam as saídas das Process APIs para cada canal (web, mobile, chatbots); aplicam transformação de payload e formatam dados para UX específico; implementam cache de front-end para baixa latência; versionam contratos por canal; agregam lógica de personalização (filtros, preferências, contextos); orquestram chamadas a múltiplas Process APIs; expõem endpoints otimizados para performance e responsividade; geram métricas de uso por canal e facilitam testes de interface.
+  As Experience APIs compõem a camada superior da arquitetura API-led, adaptando e combinando saídas das Process APIs para canais web, mobile ou chatbots, transformando payloads e formatando dados para UX personalizado, implementando cache de front-end para baixa latência, versionando contratos por canal, adicionando lógica de personalização, orquestrando múltiplas chamadas de Process APIs, expondo endpoints otimizados e gerando métricas de uso por canal.
 #vr_en: |
-Experience APIs form the top layer in MuleSoft’s API-led architecture; they adapt and shape outputs from Process APIs for each channel (web, mobile, chatbots); apply payload transformation, format data for specific UX; implement front-end caching for low latency; version contracts per channel; add personalization logic (filters, preferences, contexts); orchestrate calls to multiple Process APIs; expose endpoints optimized for performance and responsiveness; emit channel-specific usage metrics and streamline UI testing.
+  The Experience APIs form the top layer of API-led architecture, adapting and combining outputs from Process APIs for web, mobile or chatbot channels, transforming payloads and formatting data for tailored UX, implementing front-end caching for low latency, versioning contracts per channel, adding personalization logic, orchestrating multiple Process API calls, exposing optimized endpoints and emitting channel-specific usage metrics.
+#rp_2
+#vr_pt: |
+  As Experience APIs são responsáveis por entregar dados prontos para cada canal, agregando respostas das Process APIs, aplicando transformação de payload, ajustando formatos para interfaces específicas, usando cache local para performance, versionando contratos, personalizando lógica, orquestrando fluxos de API, definiendo endpoints leves e coletando métricas de interação.
+#vr_en: |
+  The Experience APIs deliver channel-ready data by aggregating Process API responses, applying payload transformation, adjusting formats for specific interfaces, using local caching for performance, versioning contracts, personalizing logic, orchestrating API flows, defining lightweight endpoints and collecting interaction metrics.
+#rp_3
+#vr_pt: |
+  As Experience APIs conectam a camada de Experiência às Process APIs, transformando e combinando dados para cada canal, formatando a saída para UX, aplicando cache para reduzir latência, versionando especificações, incorporando filtros e preferências do usuário, coordenando chamadas de múltiplas Process APIs e expondo endpoints rápidos e responsivos.
+#vr_en: |
+  The Experience APIs link the Experience layer to the Process APIs by transforming and combining data for each channel, formatting output for UX, applying caching to reduce latency, versioning specifications, incorporating user filters and preferences, coordinating multiple Process API calls and exposing fast, responsive endpoints.
+#rp_4
+#vr_pt: |
+  As Experience APIs orquestram as respostas das Process APIs, formatam payloads para web, mobile e chatbots, implementam cache de borda para alta velocidade, versionam contratos por interface, adicionam lógica de personalização, coordenam múltiplas integrações, expõem APIs enxutas para performance e monitoram uso por canal.
+#vr_en: |
+  The Experience APIs orchestrate Process API responses, format payloads for web, mobile and chatbots, implement edge caching for high speed, version contracts per interface, add personalization logic, coordinate multiple integrations, expose lean APIs for performance and monitor channel usage.
+#rp_5
+#vr_pt: |
+  As Experience APIs transformam e apresentam dados vindos das Process APIs de forma otimizada para cada canal, aplicam transformação de payload, ajustam layout de dados para UX, usam cache local, versionam endpoints, personalizam conteúdo via filtros, coordenam orquestração de múltiplas APIs e registram métricas de engajamento.
+#vr_en: |
+  The Experience APIs transform and present data from Process APIs in an optimized manner for each channel, apply payload transformation, adjust data layout for UX, use local caching, version endpoints, personalize content via filters, coordinate orchestration of multiple APIs and record engagement metrics.
+#rp_6
+#vr_pt: |
+  As Experience APIs moldam a saída das Process APIs para interfaces específicas, agregando e transformando payloads, implementando cache de front-end, versionando contratos por canal, incorporando preferências do usuário, orquestrando fluxos de dados, exibindo endpoints ágeis e coletando métricas de performance.
+#vr_en: |
+  The Experience APIs shape Process API output for specific interfaces by aggregating and transforming payloads, implementing front-end caching, versioning contracts per channel, incorporating user preferences, orchestrating data flows, exposing agile endpoints and collecting performance metrics.
+#rp_7
+#vr_pt: |
+  As Experience APIs adaptam e combinam as Process APIs para entregar uma camada de apresentação, transformando payloads, ajustando formatos para UX, usando cache de borda, versionando endpoints, personalizando respostas com base em contexto, gerenciando chamadas paralelas e emitindo métricas específicas de uso.
+#vr_en: |
+  The Experience APIs adapt and combine Process APIs to deliver a presentation layer by transforming payloads, adjusting formats for UX, using edge caching, versioning endpoints, personalizing responses based on context, managing parallel calls and emitting usage-specific metrics.
+#rp_8
+#vr_pt: |
+  As Experience APIs oferecem a interface final ao usuário, reunindo dados das Process APIs, aplicando transformações de payload, formatando para cada canal, habilitando cache local, versionando serviços, adicionando lógica dinâmica, orquestrando múltiplas APIs e monitorando interações por canal.
+#vr_en: |
+  The Experience APIs provide the final user interface by gathering data from Process APIs, applying payload transformations, formatting for each channel, enabling local caching, versioning services, adding dynamic logic, orchestrating multiple APIs and monitoring interactions per channel.
+#rp_9
+#vr_pt: |
+  As Experience APIs compõem a camada de apresentação, processando saídas das Process APIs, transformando e formatando payloads, implementando cache para UX fluido, definindo versões de contrato por canal, incorporando lógica de personalização, orquestrando chamadas e rastreando métricas de interface.
+#vr_en: |
+  The Experience APIs make up the presentation layer by processing Process API outputs, transforming and formatting payloads, implementing caching for a fluid UX, defining contract versions per channel, incorporating personalization logic, orchestrating calls and tracking interface metrics.
+#rp_10
+#vr_pt: |
+  As Experience APIs criam endpoints otimizados para cada canal, adaptando dados das Process APIs, aplicando transformação de payload, formatando para UX específico, usando cache de front-end, versionando contratos por interface, incluindo filtros personalizados, coordenando múltiplas integrações e gerando métricas de uso.
+#vr_en: |
+  The Experience APIs create optimized endpoints for each channel by adapting data from Process APIs, applying payload transformation, formatting for specific UX, using front-end caching, versioning contracts per interface, including personalized filters, coordinating multiple integrations and generating usage metrics.
 ---
 #intent: mulesoft/design_and_architecture/responsibility_boundaries
 #pt:
@@ -3144,9 +3279,54 @@ Experience APIs form the top layer in MuleSoft’s API-led architecture; they ad
 - when to reconsider responsibility boundaries in project?
 #rp_1
 #vr_pt: |
-  Fronteiras de responsabilidade são limites claros onde cada componente ou API assume apenas um único conjunto de responsabilidades. Elas seguem o princípio da responsabilidade única, melhorando manutenibilidade, testabilidade e escalabilidade. Ao isolar funções, evita-se acoplamento excessivo e facilita-se a evolução independente de cada parte do sistema.
+  Fronteiras de responsabilidade definem limites claros para que cada componente ou API exerça apenas uma única função, seguindo o princípio da responsabilidade única, o que facilita manutenção, testes e escalabilidade ao evitar acoplamento excessivo e permitir evolução independente de cada módulo.
 #vr_en: |
-  Responsibility boundaries are clear demarcations where each component or API takes on a single, well-defined set of responsibilities. They adhere to the single-responsibility principle, enhancing maintainability, testability, and scalability. By isolating concerns, you prevent tight coupling and enable independent evolution of each system part.
+  Responsibility boundaries establish clear limits so that each component or API performs only one function, following the single-responsibility principle, which simplifies maintenance, testing, and scalability by preventing excessive coupling and allowing each module to evolve independently.
+#rp_2
+#vr_pt: |
+  Limites de responsabilidade isolam cada parte do sistema em domínios de atuação únicos, aplicando o princípio da responsabilidade única para reduzir complexidade, melhorar a testabilidade e permitir atualizações isoladas sem impactos colaterais.
+#vr_en: |
+  Responsibility limits isolate each part of the system into unique domains of operation, applying the single-responsibility principle to reduce complexity, improve testability, and allow isolated updates without side effects.
+#rp_3
+#vr_pt: |
+  Fronteiras de responsabilidade segmentam funcionalidades em blocos autônomos, assegurando que cada API lide com apenas uma tarefa, promovendo modularidade, facilidade de testes e capacidade de escalar cada bloco separadamente.
+#vr_en: |
+  Responsibility boundaries segment functionalities into autonomous blocks, ensuring each API handles only one task, promoting modularity, ease of testing, and the ability to scale each block independently.
+#rp_4
+#vr_pt: |
+  Ao definir fronteiras de responsabilidade, cada componente assume um único papel no fluxo de dados, respeitando o princípio da responsabilidade única, o que torna o código mais legível, testável e mais simples de evoluir ou escalar.
+#vr_en: |
+  By defining responsibility boundaries, each component assumes a single role in the data flow, respecting the single-responsibility principle, making the code more readable, testable, and easier to evolve or scale.
+#rp_5
+#vr_pt: |
+  Fronteiras de responsabilidade separam claramente os domínios de lógica, garantindo que cada API tenha apenas uma razão para mudar, o que diminui o risco de regressões e facilita a manutenção e extensão de funcionalidades.
+#vr_en: |
+  Responsibility boundaries clearly separate domains of logic, ensuring each API has only one reason to change, which reduces the risk of regressions and makes maintenance and extension of features easier.
+#rp_6
+#vr_pt: |
+  Limites de responsabilidade são divisões explícitas de funções, onde cada serviço ou API executa somente uma responsabilidade, aprimorando a coesão interna e minimizando dependências entre módulos.
+#vr_en: |
+  Responsibility limits are explicit divisions of functions where each service or API executes only one responsibility, enhancing internal cohesion and minimizing dependencies between modules.
+#rp_7
+#vr_pt: |
+  Definir fronteiras de responsabilidade significa atribuir a cada componente uma única tarefa de negócio, seguindo o single-responsibility principle, o que torna o sistema mais resiliente e simples de testar isoladamente.
+#vr_en: |
+  Defining responsibility boundaries means assigning each component a single business task, following the single-responsibility principle, making the system more resilient and easier to test in isolation.
+#rp_8
+#vr_pt: |
+  Fronteiras de responsabilidade criam zonas de atuação únicas para cada API, assegurando que ela trate somente de um aspecto da lógica, o que facilita a identificação de falhas, a escrita de testes e a escalabilidade do ambiente.
+#vr_en: |
+  Responsibility boundaries create unique operational zones for each API, ensuring it addresses only one aspect of logic, which simplifies fault isolation, test writing, and environment scalability.
+#rp_9
+#vr_pt: |
+  Ao estabelecer limites de responsabilidade, você força cada módulo a focar em uma função única, reduzindo complexidade sistêmica, melhorando a manutenção contínua e permitindo deploys independentes.
+#vr_en: |
+  By establishing responsibility limits, you force each module to focus on a single function, reducing systemic complexity, improving continuous maintenance, and enabling independent deployments.
+#rp_10
+#vr_pt: |
+  Fronteiras de responsabilidade aplicam o princípio da responsabilidade única para separar claramente as responsabilidades de cada API, reduzindo acoplamento, aumentando a coesão e facilitando testes e evoluções isoladas.
+#vr_en: |
+  Responsibility boundaries apply the single-responsibility principle to clearly separate each API’s responsibilities, reducing coupling, increasing cohesion, and facilitating isolated testing and evolutions.
 ---
 #intent: mulesoft/design_and_architecture/api_contracts
 #pt:
@@ -3665,9 +3845,54 @@ Experience APIs form the top layer in MuleSoft’s API-led architecture; they ad
 - API contracts use?
 #rp_1
 #vr_pt: |
-  Contratos de API em RAML ou OpenAPI definem formalmente recursos, métodos, parâmetros e respostas de uma API. Eles servem como fonte única de verdade para desenvolvedores e consumidores, facilitando geração de documentação, validação automática e testes. Com um contrato bem definido, é possível garantir compatibilidade, versionamento e governança ao longo do ciclo de vida da API.
+  Contratos de API em RAML ou OpenAPI estabelecem formalmente os recursos, métodos, parâmetros e respostas de uma interface, servindo como fonte única de verdade para desenvolvedores e consumidores, facilitando a geração de documentação, validação automática e testes, além de garantir compatibilidade, versionamento e governança contínua.
 #vr_en: |
-  API contracts in RAML or OpenAPI formally describe an API’s resources, methods, parameters, and responses. They act as a single source of truth for both developers and consumers, enabling automated documentation, validation, and testing. A well-defined contract ensures compatibility, versioning, and governance throughout the API’s lifecycle.
+  API contracts in RAML or OpenAPI formally define an interface’s resources, methods, parameters, and responses, acting as a single source of truth for developers and consumers, enabling documentation generation, automatic validation and testing, and ensuring compatibility, versioning and governance throughout the lifecycle.
+#rp_2
+#vr_pt: |
+  Um contrato de API escrito em RAML ou OpenAPI descreve todos os endpoints, os verbos HTTP, os esquemas de dados e os códigos de resposta, oferecendo um guia preciso para implementação e consumo, suportando ferramentas de validação, geração de SDKs e monitoramento de conformidade.
+#vr_en: |
+  An API contract authored in RAML or OpenAPI outlines every endpoint, HTTP verb, data schema and response code, providing an accurate guide for implementation and consumption, supporting validation tools, SDK generation and compliance monitoring.
+#rp_3
+#vr_pt: |
+  Os contratos de API em RAML/OpenAPI documentam de forma estruturada recursos, parâmetros de entrada e saída, modelos de dados e cenários de erro, centralizando regras de negócio e políticas em um único artefato que serve a geração de documentação interativa e a validação em tempo de execução.
+#vr_en: |
+  RAML/OpenAPI API contracts structure resources, input and output parameters, data models and error scenarios in a centralized artifact, capturing business rules and policies in a single document used for interactive documentation and runtime validation.
+#rp_4
+#vr_pt: |
+  Ao definir contratos de API em RAML ou OpenAPI, você formaliza recursos, métodos e esquemas de payload, permitindo que ferramentas gerem documentação, verifiquem a conformidade dos requests e responses e auxiliem na simulação de APIs antes do desenvolvimento efetivo.
+#vr_en: |
+  By defining API contracts in RAML or OpenAPI, you formalize resources, methods and payload schemas, allowing tools to generate documentation, verify request and response compliance, and assist in API mocking prior to actual development.
+#rp_5
+#vr_pt: |
+  Contratos de API baseados em RAML/OpenAPI padronizam descrições de endpoints, parâmetros, cabeçalhos e corpos de resposta, atuando como referência unificada para equipes, automatizando testes de contrato, geração de mocks e garantindo que alterações sejam compatíveis e versionadas.
+#vr_en: |
+  RAML/OpenAPI-based API contracts standardize descriptions of endpoints, parameters, headers and response bodies, acting as a unified reference for teams, automating contract tests, mock generation and ensuring changes remain compatible and versioned.
+#rp_6
+#vr_pt: |
+  Um contrato de API em RAML ou OpenAPI especifica detalhadamente os caminhos, tipos de dados, exemplos de payload e códigos de erro, funcionando como um contrato formal entre produtor e consumidor, suportando governance, versionamento e integração com pipelines de CI/CD.
+#vr_en: |
+  An API contract in RAML or OpenAPI specifies detailed paths, data types, payload examples and error codes, serving as a formal agreement between producer and consumer, supporting governance, versioning and integration with CI/CD pipelines.
+#rp_7
+#vr_pt: |
+  As definições de API em RAML/OpenAPI documentam recursos, parâmetros obrigatórios e opcionais, esquemas de resposta e status HTTP, fornecendo base para geração de documentação interativa, validação automática de payloads e testes de compatibilidade entre diferentes versões.
+#vr_en: |
+  API definitions in RAML/OpenAPI document resources, required and optional parameters, response schemas and HTTP statuses, providing a foundation for interactive documentation generation, automatic payload validation and compatibility testing across versions.
+#rp_8
+#vr_pt: |
+  Com contratos de API em RAML ou OpenAPI, você formaliza de forma legível recursos, operações suportadas, exemplos de request/response e políticas de segurança, assegurando que clientes e servidores compartilhem um entendimento exato e podem ser validados automaticamente.
+#vr_en: |
+  With API contracts in RAML or OpenAPI, you formalize resources, supported operations, request/response examples and security policies in a human-readable format, ensuring clients and servers share an exact understanding that can be automatically validated.
+#rp_9
+#vr_pt: |
+  Definir contratos de API usando RAML ou OpenAPI significa capturar recursos, métodos, schemas JSON/XML, descrições e códigos de erro em um único arquivo, que serve como fonte confiável para documentação, geração de mocks, SDKs e testes de regressão de API.
+#vr_en: |
+  Defining API contracts using RAML or OpenAPI means capturing resources, methods, JSON/XML schemas, descriptions and error codes in a single file, which serves as a reliable source for documentation, mock generation, SDKs and API regression testing.
+#rp_10
+#vr_pt: |
+  Os contratos de API em RAML/OpenAPI formalizam o contrato entre sistemas, detalhando rotas, parâmetros, tipos de retorno, exemplos e respostas de erro, apoiando governança de APIs, versionamento controlado, geração de documentação e validação contínua em pipelines de entrega.
+#vr_en: |
+  API contracts in RAML/OpenAPI formalize the agreement between systems by detailing routes, parameters, return types, examples and error responses, supporting API governance, controlled versioning, documentation generation and continuous validation in delivery pipelines.
 ---
 #intent: mulesoft/design_and_architecture/versioning_patterns
 #pt:
@@ -4306,9 +4531,54 @@ Experience APIs form the top layer in MuleSoft’s API-led architecture; they ad
 - what are common API versioning details?
 #rp_1
 #vr_pt: |
-Padrões de versionamento incluem versionamento semântico (versão major ponto minor ponto patch), versionamento via URI (barra v um barra recurso), versionamento por cabeçalho (Accept-Version), versionamento via media type (application barra vnd ponto myapi ponto v um mais json) e versionamento por parâmetro de consulta ponto de interrogação version igual um; cada abordagem tem trade-offs em cache, descoberta e compatibilidade.
+  Padrões de versionamento incluem versionamento semântico usando versão major ponto minor ponto patch. Versionamento por URI utiliza barra v um antes do nome do recurso. Versionamento por cabeçalho define o cabeçalho Accept-Version dois pontos um. Versionamento por tipo de mídia define application barra vnd ponto myapi ponto v um mais json. Versionamento por parâmetro de consulta utiliza interrogação version igual um. Cada abordagem tem impactos distintos em cache, descoberta e compatibilidade.
 #vr_en: |
-Versioning patterns include semantic versioning (major dot minor dot patch), URI versioning slash v one slash resource, header versioning via the Accept-Version header, media type versioning application slash vnd dot myapi dot v one plus json, and query parameter versioning question mark version equals one; each method has trade-offs in caching, discoverability, and backward compatibility.
+  Versioning patterns include semantic versioning using major dot minor dot patch. URI versioning uses slash v one before the resource name. Header versioning sets Accept-Version colon one. Media type versioning uses application slash vnd dot myapi dot v one plus json. Query parameter versioning uses question mark version equals one. Each approach has distinct impacts on caching, discoverability and backward compatibility.
+#rp_2
+#vr_pt: |
+  Padrões de versionamento incluem incrementar major, minor e patch em sequência semântica. URI versioning antepõe v dois ao caminho do recurso. Header versioning usa Accept-Version dois pontos dois. Media type versioning define application barra vnd ponto myapi ponto v dois mais json. Query parameter versioning usa interrogação version igual dois. Cada padrão altera o comportamento de cache e evolução da API.
+#vr_en: |
+  Versioning patterns include bumping major, minor and patch in semantic order. URI versioning prepends v two to the resource path. Header versioning uses Accept-Version colon two. Media type versioning defines application slash vnd dot myapi dot v two plus json. Query parameter versioning uses question mark version equals two. Each pattern affects API caching and evolution differently.
+#rp_3
+#vr_pt: |
+  Versionamento semântico segue formato X ponto Y ponto Z. Versionamento por URI insere barra v três antes do recurso. Versionamento por header usa Accept-Version três. Versionamento por media type define application barra vnd ponto myapi ponto v três mais json. Versionamento por querystring usa interrogação version igual três. Essas opções impactam roteamento e compatibilidade.
+#vr_en: |
+  Semantic versioning follows X dot Y dot Z format. URI versioning inserts slash v three before the resource. Header versioning uses Accept-Version three. Media type versioning defines application slash vnd dot myapi dot v three plus json. Query string versioning uses question mark version equals three. These choices impact routing and compatibility.
+#rp_4
+#vr_pt: |
+  Padrão semântico usa major ponto minor ponto patch. URI versioning adiciona v quatro no caminho. Header versioning define Accept-Version quatro. Media type versioning configura application slash vnd point myapi point v four plus json. Query parameter versioning utiliza ?version=4. Cada método impacta caches e proxies de forma única.
+#vr_en: |
+  Semantic pattern uses major dot minor dot patch. URI versioning adds v four in the path. Header versioning sets Accept-Version four. Media type versioning configures application slash vnd dot myapi dot v four plus json. Query parameter versioning uses question mark version equals four. Each method impacts caches and proxies uniquely.
+#rp_5
+#vr_pt: |
+  SemVer utiliza formato major ponto minor ponto patch. URI versioning insere barra v cinco antes dos recursos de API. Header versioning aplica Accept-Version cinco. Media type versioning define application barra vnd ponto myapi ponto v cinco mais json. Query parameter versioning adiciona interrogação version igual cinco. Diferentes padrões influenciam ferramentas de descoberta.
+#vr_en: |
+  SemVer uses major dot minor dot patch format. URI versioning inserts slash v five before API resources. Header versioning applies Accept-Version five. Media type versioning defines application slash vnd dot myapi dot v five plus json. Query parameter versioning adds question mark version equals five. Different patterns influence discovery tools.
+#rp_6
+#vr_pt: |
+  Versionamento semântico incrementa major, minor e patch por extenso. URI versioning insere v seis no URL. Header versioning define Accept-Version seis. Media type versioning configura application slash vnd dot myapi dot v six plus json. Query parameter versioning usa ?version=6. Cada técnica traz efeitos em cache de CDNs.
+#vr_en: |
+  Semantic versioning increments major, minor and patch in full. URI versioning inserts v six in the URL. Header versioning sets Accept-Version six. Media type versioning configures application slash vnd dot myapi dot v six plus json. Query parameter versioning uses question mark version equals six. Each technique brings effects on CDN caching.
+#rp_7
+#vr_pt: |
+  SemVer segue X ponto Y ponto Z. URI versioning antepõe v sete no path. Header versioning define Accept-Version sete. Media type versioning usa application slash vnd dot myapi dot v seven plus json. Query parameter versioning usa ?version=7. Essas escolhas impactam rotas e consumo.
+#vr_en: |
+  SemVer follows X dot Y dot Z. URI versioning prepends v seven to the path. Header versioning sets Accept-Version seven. Media type versioning uses application slash vnd dot myapi dot v seven plus json. Query parameter versioning uses question mark version equals seven. These choices impact routing and consumption.
+#rp_8
+#vr_pt: |
+  Versionamento semântico adota major.minor.patch. URI versioning insere /v oito. Header versioning usa Accept-Version oito. Media type versioning define application slash vnd dot myapi dot v eight plus json. Query parameter versioning aplica interrogação version igual oito. Cada opção modifica políticas de cache.
+#vr_en: |
+  Semantic versioning uses major dot minor dot patch. URI versioning inserts slash v eight. Header versioning uses Accept-Version eight. Media type versioning defines application slash vnd dot myapi dot v eight plus json. Query parameter versioning applies question mark version equals eight. Each option modifies caching policies.
+#rp_9
+#vr_pt: |
+  SemVer segue formato X ponto Y ponto Z. URI versioning antepõe /v nove. Header versioning define Accept-Version nove. Media type versioning usa application slash vnd dot myapi dot v nine plus json. Query parameter versioning usa ?version=9. Escolhas diferem em descobribilidade e compatibilidade.
+#vr_en: |
+  SemVer follows X dot Y dot Z format. URI versioning prepends slash v nine. Header versioning sets Accept-Version nine. Media type versioning uses application slash vnd dot myapi dot v nine plus json. Query parameter versioning uses question mark version equals nine. Choices differ in discoverability and compatibility.
+#rp_10
+#vr_pt: |
+  Versionamento semântico utiliza major ponto minor ponto patch. URI versioning insere /v dez. Header versioning define Accept-Version dez. Media type versioning configura application slash vnd dot myapi dot v ten plus json. Query parameter versioning adiciona interrogação version igual dez. Cada padrão afeta ciclos de vida de APIs.
+#vr_en: |
+  Semantic versioning uses major dot minor dot patch. URI versioning inserts slash v ten. Header versioning sets Accept-Version ten. Media type versioning configures application slash vnd dot myapi dot v ten plus json. Query parameter versioning adds question mark version equals ten. Each pattern affects API lifecycle management.
 ---
 #intent: mulesoft/design_and_architecture/facade_vs_orchestration
 #pt:
@@ -4812,9 +5082,54 @@ Versioning patterns include semantic versioning (major dot minor dot patch), URI
 - benefits of Facdde vs orchestration?
 #rp_1
 #vr_pt: |
-  Facade é uma camada de abstração que unifica múltiplos serviços ou APIs atrás de uma única interface simples, enquanto Orquestração coordena fluxos e regras de negócio entre serviços de forma centralizada.
+  Facade é camada de abstração que unifica múltiplos serviços em uma interface única simples, enquanto orquestração coordena fluxos e regras de negócio entre serviços de modo centralizado.
 #vr_en: |
-  Facade is an abstraction layer that hides multiple services or APIs behind a simple unified interface, whereas orchestration coordinates flows and business rules across services in a centralized manner.
+  Facade is an abstraction layer that unifies multiple services into a single simple interface, whereas orchestration coordinates flows and business rules across services in a centralized fashion.
+#rp_2
+#vr_pt: |
+  Facade serve para simplificar a interação com várias APIs por trás de um ponto de entrada único, enquanto orquestração gerencia a execução de chamadas e regras entre esses serviços.
+#vr_en: |
+  Facade simplifies interaction with several APIs behind one entry point, while orchestration manages execution of calls and business rules across those services.
+#rp_3
+#vr_pt: |
+  Facade expõe uma fachada única sobre diversos microserviços, abstraindo complexidade, já orquestração define a sequência de operações e lógica de negócio para integrar esses serviços.
+#vr_en: |
+  Facade exposes a single façade over multiple microservices, abstracting complexity, while orchestration defines the sequence of operations and business logic to integrate those services.
+#rp_4
+#vr_pt: |
+  Facade unifica APIs distintas em um único contrato para o cliente, enquanto orquestração controla o fluxo de dados e regras entre essas APIs de forma central.
+#vr_en: |
+  Facade consolidates distinct APIs into one contract for the client, whereas orchestration controls data flow and rules between those APIs centrally.
+#rp_5
+#vr_pt: |
+  Facade fornece interface simplificada por trás da qual múltiplos serviços operam, e orquestração assume responsabilidade de coordenar chamadas e aplicar lógica de negócio.
+#vr_en: |
+  Facade provides a simplified interface behind which multiple services operate, and orchestration takes on the responsibility of coordinating calls and applying business logic.
+#rp_6
+#vr_pt: |
+  Facade atua como ponto único de acesso a vários serviços, enquanto orquestração gerencia o encadeamento de operações e políticas de negócio entre esses serviços.
+#vr_en: |
+  Facade acts as a single access point to various services, while orchestration manages the chaining of operations and business policies among those services.
+#rp_7
+#vr_pt: |
+  Facade esconde detalhes de implementação ao agrupar serviços sob uma interface comum, já orquestração lida com a execução ordenada de tarefas e regras distribuídas.
+#vr_en: |
+  Facade hides implementation details by grouping services under a common interface, while orchestration handles the ordered execution of tasks and distributed rules.
+#rp_8
+#vr_pt: |
+  Facade cria uma fachada única para múltiplos serviços de backend, e orquestração define como esses serviços interagem para atender fluxos de negócio.
+#vr_en: |
+  Facade creates a single façade for multiple backend services, and orchestration defines how those services interact to fulfill business flows.
+#rp_9
+#vr_pt: |
+  Facade oferece interface estável frente a variados serviços, enquanto orquestração orquestra o consumo e a lógica de negócio desses serviços.
+#vr_en: |
+  Facade offers a stable interface in front of varied services, while orchestration orchestrates the consumption and business logic of those services.
+#rp_10
+#vr_pt: |
+  Facade agrupa serviços sob um proxy único para simplificar o cliente, enquanto orquestração controla a lógica de execução distribuída e a aplicação de políticas de negócio.
+#vr_en: |
+  Facade groups services under a single proxy to simplify the client, while orchestration controls distributed execution logic and the application of business policies.
 ---
 #intent: mulesoft/governance_and_lifecycle/api_catalog_and_discovery
 #pt:
@@ -5418,9 +5733,54 @@ Versioning patterns include semantic versioning (major dot minor dot patch), URI
 - how to update the API catelaogue?
 #rp_1
 #vr_pt: |
-O catálogo de APIs é um repositório centralizado onde todas as APIs são registradas, documentadas e categorizadas; facilita a descoberta, reutilização e padronização; no Anypoint Exchange você publica contratos, exemplos e metadados; garante visibilidade e governança ao longo do ciclo de vida; permite controle de acesso, versionamento e auditoria de cada API.
+  O catálogo de APIs é um repositório centralizado onde todas as APIs são registradas, documentadas e categorizadas, permitindo descoberta fácil, reutilização eficiente e padronização de interfaces, e no Anypoint Exchange você publica contratos, exemplos e metadados para garantir visibilidade, governança, controle de acesso, versionamento e auditoria ao longo de todo o ciclo de vida.
 #vr_en: |
-The API catalog is a centralized repository where all APIs are registered, documented and categorized; it enables discovery, reuse and standardization; in Anypoint Exchange you publish contracts, examples and metadata; it provides visibility and governance throughout the lifecycle; it supports access control, versioning and auditing of each API.
+  The API catalog is a centralized repository where all APIs are registered, documented and categorized, enabling easy discovery, efficient reuse and interface standardization, and in Anypoint Exchange you publish contracts, examples and metadata to ensure visibility, governance, access control, versioning and auditing throughout the entire lifecycle.
+#rp_2
+#vr_pt: |
+  Um catálogo de APIs centraliza informações sobre endpoints, descrições e esquemas de dados, facilitando para desenvolvedores encontrar serviços existentes, reutilizar contratos e manter consistência em toda a plataforma de integração.
+#vr_en: |
+  An API catalog centralizes information about endpoints, descriptions and data schemas, making it easier for developers to find existing services, reuse contracts and maintain consistency across the integration platform.
+#rp_3
+#vr_pt: |
+  No catálogo de APIs você agrupa APIs por domínio, fornece documentação interativa e exemplos de uso, e publica metadados como versões, tags e políticas de segurança para agilizar adoção e governança.
+#vr_en: |
+  In the API catalog you group APIs by domain, provide interactive documentation and usage examples, and publish metadata such as versions, tags and security policies to streamline adoption and governance.
+#rp_4
+#vr_pt: |
+  O repositório de APIs armazena contratos em RAML ou OpenAPI, exemplos de payload e guias de implementação, servindo como fonte única de verdade e acelerando o desenvolvimento distribuído em equipes.
+#vr_en: |
+  The API repository stores RAML or OpenAPI contracts, payload examples and implementation guides, serving as a single source of truth and accelerating distributed team development.
+#rp_5
+#vr_pt: |
+  Um catálogo bem organizado expõe categorias, faz buscas por palavras-chave e permite filtragem por tags, garantindo que consumidores encontrem rapidamente APIs adequadas para suas necessidades.
+#vr_en: |
+  A well-organized catalog exposes categories, supports keyword search and filtering by tags, ensuring consumers quickly find APIs suited to their needs.
+#rp_6
+#vr_pt: |
+  No Anypoint Exchange, o catálogo de APIs permite versionamento, controle de acesso por função e fluxos de aprovação, promovendo segurança e compliance em ambientes corporativos.
+#vr_en: |
+  In Anypoint Exchange, the API catalog enables versioning, role-based access control and approval workflows, promoting security and compliance in enterprise environments.
+#rp_7
+#vr_pt: |
+  O catálogo também armazena exemplos de políticas aplicáveis, logs de uso e métricas de desempenho, proporcionando insights valiosos para melhorias e monitoramento contínuo.
+#vr_en: |
+  The catalog also stores examples of applicable policies, usage logs and performance metrics, providing valuable insights for improvements and continuous monitoring.
+#rp_8
+#vr_pt: |
+  Consumidores de API podem avaliar facilidade de uso e compatibilidade ao consultar descrições detalhadas, contratos e provas de conceito disponíveis no catálogo, reduzindo riscos de adoção.
+#vr_en: |
+  API consumers can assess usability and compatibility by reviewing detailed descriptions, contracts and proofs of concept available in the catalog, reducing adoption risks.
+#rp_9
+#vr_pt: |
+  O catálogo de APIs integra-se com pipelines de CI/CD, permitindo atualização automática de metadados e alinhamento contínuo entre código e documentação.
+#vr_en: |
+  The API catalog integrates with CI/CD pipelines, allowing automatic metadata updates and continuous alignment between code and documentation.
+#rp_10
+#vr_pt: |
+  APIs publicadas no catálogo recebem tags e classificações de maturidade e conformidade, ajudando equipes a identificar rapidamente serviços estáveis e em evolução.
+#vr_en: |
+  APIs published in the catalog receive tags and maturity and compliance ratings, helping teams quickly identify stable and evolving services.
 ---
 #intent: mulesoft/governance_and_lifecycle/lifecycle_management_exchange
 #pt:
@@ -5920,9 +6280,54 @@ The API catalog is a centralized repository where all APIs are registered, docum
 - how to manage permission per life-cycle stage?
 #rp_1
 #vr_pt: |
-No Anypoint Exchange o gerenciamento de ciclo de vida permite promover APIs através de estágios como desenvolvimento, homologação e produção; definir políticas de aprovação, desativação e depreciação; controlar permissões de acesso por ambiente; automatizar fluxos de versão e consultar histórico completo de alterações.
+  No Anypoint Exchange o gerenciamento de ciclo de vida permite promover APIs através de estágios como desenvolvimento, homologação e produção, definir políticas de aprovação, desativação e descontinuação, controlar permissões de acesso por ambiente, automatizar fluxos de versão e consultar histórico completo de alterações.
 #vr_en: |
-In Anypoint Exchange lifecycle management lets you promote APIs through stages such as development, staging and production; define approval, deprecation and retirement policies; manage access permissions per environment; automate version workflows and view full change history.
+  In Anypoint Exchange lifecycle management lets you promote APIs through stages such as development, staging and production, define approval, deprecation and retirement policies, manage access permissions per environment, automate version workflows and view full change history.
+#rp_2
+#vr_pt: |
+  O gerenciamento de ciclo de vida no Anypoint Exchange possibilita transicionar APIs entre ambientes de teste, qualificação e produção, configurar regras de aprovação e desativação automática, além de auditar cada mudança realizada.
+#vr_en: |
+  Lifecycle management in Anypoint Exchange enables transitioning APIs between testing, qualification and production environments, setting up approval and automatic decommissioning rules, as well as auditing every change made.
+#rp_3
+#vr_pt: |
+  Com lifecycle management no Exchange, é possível configurar fluxos de release, automatizar versionamento sem intervenção manual, definir políticas de retirada de versões obsoletas e rastrear todo o histórico de deploys.
+#vr_en: |
+  With lifecycle management in Exchange, you can configure release workflows, automate versioning without manual intervention, define deprecation policies for outdated versions and track the entire deployment history.
+#rp_4
+#vr_pt: |
+  A funcionalidade de ciclo de vida organiza estágios de API como rascunho, teste, pré-produção e produção, aplica gates de aprovação e dispara notificações para stakeholders em cada transição.
+#vr_en: |
+  The lifecycle feature organizes API stages such as draft, test, pre-production and production, applies approval gates and triggers notifications to stakeholders at each transition.
+#rp_5
+#vr_pt: |
+  No gerenciamento de ciclo de vida, você pode restringir acesso a versões específicas por ambiente, definir datas de expiração e criar políticas de fallback para manter disponibilidade mesmo após depreciação.
+#vr_en: |
+  In lifecycle management, you can restrict access to specific versions per environment, set expiration dates and create fallback policies to maintain availability even after deprecation.
+#rp_6
+#vr_pt: |
+  O Exchange permite controlar políticas de segurança e compliance em cada fase do ciclo de vida, garantindo que apenas versões autorizadas sejam promovidas e monitorando métricas de uso em todos os ambientes.
+#vr_en: |
+  Exchange allows you to enforce security and compliance policies at each stage of the lifecycle, ensuring only authorized versions are promoted and monitoring usage metrics across all environments.
+#rp_7
+#vr_pt: |
+  Automação de ciclo de vida inclui criação de pipelines de CI/CD que respondem a mudanças no contrato da API, promovem automaticamente versões para homologação e executam testes de regressão antes de liberar para produção.
+#vr_en: |
+  Lifecycle automation includes creating CI/CD pipelines that respond to API contract changes, automatically promote versions to staging and run regression tests before releasing to production.
+#rp_8
+#vr_pt: |
+  Com o ciclo de vida, cada mudança em contrato, código ou configuração é versionada e auditada, fornecendo rastreabilidade completa e facilitando rollback em caso de problemas.
+#vr_en: |
+  With lifecycle management, every change in contract, code or configuration is versioned and audited, providing full traceability and facilitating rollback in case of issues.
+#rp_9
+#vr_pt: |
+  O gerenciamento de ciclo de vida integra-se com o portal de desenvolvedores, atualizando automaticamente documentação e exemplos à medida que novas versões são promovidas.
+#vr_en: |
+  Lifecycle management integrates with the developer portal, automatically updating documentation and examples as new versions are promoted.
+#rp_10
+#vr_pt: |
+  Ferramentas de ciclo de vida permitem definir SLAs por versão, configurar notificações de expiração e gerar relatórios de conformidade para auditoria de APIs em todos os estágios.
+#vr_en: |
+  Lifecycle tools allow you to define SLAs per version, configure expiration notifications and generate compliance reports for API auditing across all stages.
 ---
 #intent: mulesoft/governance_and_lifecycle/governance_policies
 #pt:
@@ -6466,9 +6871,54 @@ In Anypoint Exchange lifecycle management lets you promote APIs through stages s
 - why enforce payload size limits?
 #rp_1
 #vr_pt: |
-Políticas de governança definem regras e SLAs para garantir conformidade, segurança e disponibilidade das APIs. Elas abrangem controle de acesso, rate limiting, quotas, criptografia, monitoramento de métricas (latência, erros, throughput) e acordos de nível de serviço (SLA) como tempo máximo de resposta, taxa mínima de disponibilidade e recuperação (RTO/RPO). Implementadas via Anypoint Policy Manager, asseguram que as APIs operem dentro de limites acordados e atendam requisitos regulatórios.
+  Políticas de governança definem regras e acordos de nível de serviço para garantir conformidade, segurança e disponibilidade de APIs. Elas abrangem controle de acesso, limitação de taxa, cotas, criptografia, monitoramento de métricas como latência e taxa de erros, além de estipular tempo máximo de resposta e nível mínimo de disponibilidade.
 #vr_en: |
-Governance policies define rules and SLAs to ensure API compliance, security and availability. They cover access control, rate limiting, quotas, encryption, monitoring of metrics (latency, error rates, throughput), and service-level agreements (SLAs) such as maximum response time, minimum uptime and recovery objectives (RTO/RPO). Enforced through Anypoint Policy Manager, they ensure APIs operate within agreed parameters and meet regulatory requirements.
+  Governance policies define rules and service level agreements to ensure compliance, security and availability of APIs. They cover access control, rate limiting, quotas, encryption, monitoring of metrics such as latency and error rate, and specify maximum response time and minimum uptime.
+#rp_2
+#vr_pt: |
+  As políticas são aplicadas via Policy Manager no Anypoint Platform para controlar acesso, impor limites de uso, proteger dados, registrar métricas de desempenho e garantir que APIs atendam a requisitos regulatórios.
+#vr_en: |
+  Policies are enforced through the Policy Manager on the Anypoint Platform to control access, impose usage limits, secure data, log performance metrics and ensure APIs meet regulatory requirements.
+#rp_3
+#vr_pt: |
+  Políticas de governança incluem definição de quotas por consumidor, configuração de limiares de taxa, aplicação de política de criptografia e monitoramento de disponibilidade em cada endpoint.
+#vr_en: |
+  Governance policies include setting quotas per consumer, configuring rate thresholds, enforcing encryption policy, and monitoring availability on each endpoint.
+#rp_4
+#vr_pt: |
+  Com governance policies, é possível bloquear ou priorizar chamadas, auditar tentativas de acesso, definir parâmetros de segurança e coletar métricas de uso para relatórios de conformidade.
+#vr_en: |
+  With governance policies, you can block or prioritize calls, audit access attempts, define security parameters, and collect usage metrics for compliance reporting.
+#rp_5
+#vr_pt: |
+  As políticas definem regras de autenticação e autorização, limites de requisição por segundo, cotas de chamadas por período, e padrões de criptografia de payload e tráfego.
+#vr_en: |
+  Policies define authentication and authorization rules, request-per-second limits, call quotas per time window, and encryption standards for payload and traffic.
+#rp_6
+#vr_pt: |
+  Políticas de SLA estabelecem tempos máximos de resposta, níveis mínimos de disponibilidade e metas de recuperação após falhas, garantindo experiência de uso consistente.
+#vr_en: |
+  SLA policies set maximum response times, minimum uptime levels and recovery objectives after failures, ensuring consistent user experience.
+#rp_7
+#vr_pt: |
+  As políticas coletam métricas de latência, taxa de erro e throughput, permitindo configurar alertas e dashboards para respostas pró-ativas a incidentes.
+#vr_en: |
+  Policies gather metrics on latency, error rate and throughput, enabling you to configure alerts and dashboards for proactive incident response.
+#rp_8
+#vr_pt: |
+  Com políticas de governança é possível definir lista de permissões, listas de bloqueio, limites dinâmicos por perfil de consumidor e aplicar regras específicas por operação.
+#vr_en: |
+  Governance policies allow you to set allowlists, blocklists, dynamic limits per consumer profile and apply operation-specific rules.
+#rp_9
+#vr_pt: |
+  Políticas de governança suportam versionamento e desativação gradual de regras, facilitando atualização sem interromper consumidores existentes.
+#vr_en: |
+  Governance policies support policy versioning and gradual deprecation of rules, facilitating updates without interrupting existing consumers.
+#rp_10
+#vr_pt: |
+  As políticas integram-se a pipelines de CI/CD, permitindo automatizar implantação de regras de segurança, compliance e monitoramento em todos os ambientes.
+#vr_en: |
+  Policies integrate with CI/CD pipelines, allowing you to automate deployment of security, compliance and monitoring rules across all environments.
 ---
 #intent: mulesoft/governance_and_lifecycle/documentation_and_dev_portal
 #pt:
@@ -6936,9 +7386,54 @@ Governance policies define rules and SLAs to ensure API compliance, security and
 - how to test APIs on portl?
 #rp_1
 #vr_pt: |
-O portal de desenvolvedor é a interface web onde consumidores acessam documentação, exemplos de uso, SDKs e tutoriais. Ele conecta ao Anypoint Exchange, permite auto-registro, descoberta de APIs, testes interativos e gerenciamento de chaves de API.
+  O portal de desenvolvedor é a interface web onde consumidores encontram documentação detalhada, exemplos de uso, kits de desenvolvimento (SDKs) e tutoriais interativos, integrando-se ao Exchange para auto-registro, descoberta de APIs, testes em sandbox e gerenciamento de chaves de acesso.
 #vr_en: |
-The developer portal is the web interface where consumers access documentation, usage examples, SDKs, and tutorials. It integrates with Anypoint Exchange, supports self-registration, API discovery, interactive testing, and API key management.
+  The developer portal is the web interface where consumers find detailed documentation, usage examples, software development kits and interactive tutorials, integrating with Anypoint Exchange for self-registration, API discovery, sandbox testing and API key management.
+#rp_2
+#vr_pt: |
+  No portal de desenvolvedor, usuários podem navegar por APIs disponíveis, testar endpoints em tempo real, baixar SDKs gerados e acessar métricas de uso, facilitando a adoção e colaboração entre equipes.
+#vr_en: |
+  On the developer portal, users can browse available APIs, test endpoints in real-time, download generated SDKs and access usage metrics, facilitating adoption and collaboration across teams.
+#rp_3
+#vr_pt: |
+  O portal oferece busca por palavras-chave, filtros por categoria e tags, além de seções de exemplos e guias passo a passo, centralizando recursos para acelerar o desenvolvimento de integrações.
+#vr_en: |
+  The portal provides keyword search, filters by category and tags, as well as sections for examples and step-by-step guides, centralizing resources to accelerate integration development.
+#rp_4
+#vr_pt: |
+  Consumidores podem se auto-cadastrar, gerar tokens de acesso, consultar políticas aplicadas e revisar versões de APIs, tudo por meio de uma interface amigável e responsiva.
+#vr_en: |
+  Consumers can self-register, generate access tokens, review applied policies and browse API versions, all through a user-friendly and responsive interface.
+#rp_5
+#vr_pt: |
+  A integração com Exchange garante que toda atualização de contrato, documentação ou exemplos reflita automaticamente no portal, mantendo conteúdo sempre sincronizado.
+#vr_en: |
+  Integration with Exchange ensures that any contract, documentation or example updates automatically reflect on the portal, keeping content always synchronized.
+#rp_6
+#vr_pt: |
+  O portal de desenvolvedor inclui suporte a testes de autenticação e autorização, permitindo validar fluxos de segurança e integração com provedores de identidade diretamente na interface.
+#vr_en: |
+  The developer portal includes support for authentication and authorization testing, allowing users to validate security flows and identity provider integration directly within the interface.
+#rp_7
+#vr_pt: |
+  Desenvolvedores podem acessar exemplos de políticas, executar chamadas simuladas e visualizar respostas modelo, acelerando a curva de aprendizado e reduzindo erros de integração.
+#vr_en: |
+  Developers can access policy examples, execute simulated calls and view sample responses, accelerating the learning curve and reducing integration errors.
+#rp_8
+#vr_pt: |
+  O portal fornece dashboards de uso, exibindo tráfego, latência e erros por API, auxiliando equipes a monitorar adoção e identificar gargalos.
+#vr_en: |
+  The portal provides usage dashboards displaying traffic, latency and error metrics per API, helping teams monitor adoption and identify bottlenecks.
+#rp_9
+#vr_pt: |
+  Ele também suporta a publicação de artigos, FAQ e posts de blog, criando um hub de conhecimento para a comunidade de desenvolvedores.
+#vr_en: |
+  It also supports publishing articles, FAQs and blog posts, creating a knowledge hub for the developer community.
+#rp_10
+#vr_pt: |
+  Políticas de feedback permitem que consumidores avaliem APIs, relatem problemas e sugiram melhorias diretamente pelo portal, alimentando um ciclo contínuo de melhoria.
+#vr_en: |
+  Feedback policies allow consumers to rate APIs, report issues and suggest improvements directly through the portal, feeding a continuous improvement loop.
 ---
 #intent: mulesoft/security_and_authentication/oauth2_jwt
 #pt:
@@ -7476,9 +7971,54 @@ The developer portal is the web interface where consumers access documentation, 
 - how to handle JWT expiratoin?
 #rp_1
 #vr_pt: |
-OAuth2 é um protocolo de autorização que emite tokens de acesso limitados para cliente, permitindo controle granular de permissões; JWT (JSON Web Token) é um formato compacto e auto-contido de token que carrega informações (claims) de autenticação e autorização de forma segura e verificável.
+  OAuth dois é protocolo de autorização que emite tokens de acesso com escopo limitado para clientes. JWT é token JSON auto contido que carrega declarações de autenticação e autorização de forma segura e verificável.
 #vr_en: |
-OAuth2 is an authorization protocol that issues scoped access tokens to clients, enabling fine-grained permission control; JWT (JSON Web Token) is a compact, self-contained token format carrying authentication and authorization claims securely and verifiably.
+  OAuth two is an authorization protocol that issues scoped access tokens to clients. JWT is a self contained JSON token that carries authentication and authorization claims securely and verifiably.
+#rp_2
+#vr_pt: |
+  No OAuth dois clientes obtêm tokens de acesso e renovação após autenticação. No JWT o token contém cabeçalho, payload e assinatura em base sessenta quatro.
+#vr_en: |
+  In OAuth two clients obtain access and refresh tokens after authentication. In JWT the token includes header, payload and signature encoded in base sixty four.
+#rp_3
+#vr_pt: |
+  OAuth dois define fluxos de autorização como código do autor e credenciais do cliente. JWT encapsula informações de usuário e permissões nos claims do payload.
+#vr_en: |
+  OAuth two defines authorization flows like authorization code and client credentials. JWT encapsulates user information and permissions in the token payload claims.
+#rp_4
+#vr_pt: |
+  Com OAuth dois usamos endpoints de autorização e token. JWT é usado como formato de token legível e assinado para verificar integridade.
+#vr_en: |
+  With OAuth two we use authorization and token endpoints. JWT is used as a readable and signed token format to verify integrity.
+#rp_5
+#vr_pt: |
+  OAuth dois protege recursos delegando permissões via tokens. JWT evita consultas constantes ao servidor de autenticação pois é auto contido.
+#vr_en: |
+  OAuth two secures resources by delegating permissions via tokens. JWT avoids constant authentication server lookups because it is self contained.
+#rp_6
+#vr_pt: |
+  No fluxo OAuth dois o usuário autoriza o cliente e obtém token. JWT é decodificado pelo receptor para extrair claims e validar assinatura.
+#vr_en: |
+  In the OAuth two flow the user authorizes the client and receives a token. JWT is decoded by the receiver to extract claims and validate the signature.
+#rp_7
+#vr_pt: |
+  OAuth dois suporta escopos para limitar ações. JWT inclui campo exp para definir data de expiração do token.
+#vr_en: |
+  OAuth two supports scopes to limit actions. JWT includes an exp field to define token expiration date.
+#rp_8
+#vr_pt: |
+  Tokens OAuth dois podem ser JWT ou opacos. JWT oferece benefício de transporte de informações sem estado.
+#vr_en: |
+  OAuth two tokens may be JWT or opaque. JWT offers the benefit of stateless information transport.
+#rp_9
+#vr_pt: |
+  Implementamos refresh token no OAuth dois para renovar acesso. Em JWT validamos assinatura com chave secreta ou par de chaves assimétrico.
+#vr_en: |
+  We implement refresh token in OAuth two to renew access. In JWT we validate the signature with a secret key or an asymmetric key pair.
+#rp_10
+#vr_pt: |
+  OAuth dois é padrão para autorização em APIs REST. JWT é amplamente usado como formato de token por ser compacto e seguro.
+#vr_en: |
+  OAuth two is the standard for REST API authorization. JWT is widely used as a token format because it is compact and secure.
 ---
 #intent: mulesoft/security_and_authentication/multi_idp_jwt_validation
 #pt:
@@ -8098,12 +8638,209 @@ OAuth2 is an authorization protocol that issues scoped access tokens to clients,
 - how to fallback to second IDP on validtion fail?
 #rp_1
 #vr_pt: |
-A validação de JWT multi-IdP permite que uma mesma API aceite e verifique tokens emitidos por diferentes provedores de identidade, consultando dinamicamente múltiplos JWKS, validando assinatura, emissor e audience de cada token, suportando key rotation e fallback automático para alta disponibilidade e continuidade de serviço.
+  Para adaptar políticas JWT para múltiplos provedores de identidade, defina um mapeamento de emissores para URIs de JWKS correspondentes.
+  Configure o carregamento dinâmico de chaves públicas a partir de cada endpoint JWKS sem intervenção manual.
+  Armazene em cache as chaves recuperadas, respeitando cabeçalhos de expiração fornecidos pelos provedores.
+  Aplique políticas de confiança específicas para cada emissor, estabelecendo algoritmos de assinatura compatíveis.
+  Verifique claims de emissor e público contra listas de valores esperados para impedir tokens indevidos.
+  Inclua lógica de fallback sequencial, alternando para provedores secundários em falhas de conexão.
+  Monitore métricas de latência e taxa de sucesso de validação para cada emissor.
+  Gere logs detalhados registrando emissor, endpoint utilizado e resultado da verificação.
+  Faça a configuração via arquivo declarativo para facilitar manutenção sem recompilar.
+  Garantia de alta disponibilidade é assegurada pela rotação automática de chaves e fallback inteligente.
 #vr_en: |
-Multi-IdP JWT validation enables a single API to accept and verify tokens issued by multiple identity providers by dynamically fetching and caching multiple JWKS endpoints, validating each token’s signature, issuer and audience, and supporting automatic key rotation and fallback for high availability and uninterrupted service.
+  To adapt JWT policies for multiple identity providers, define a mapping of issuers to their corresponding JWKS URIs.
+  Configure dynamic loading of public keys from each JWKS endpoint without manual intervention.
+  Cache the retrieved keys, honoring expiration headers provided by the endpoints.
+  Apply issuer-specific trust policies by specifying compatible signature algorithms.
+  Validate issuer and audience claims against expected lists to prevent unauthorized tokens.
+  Include sequential fallback logic, switching to secondary providers on connection failures.
+  Monitor metrics on latency and validation success rates for each issuer.
+  Generate detailed logs recording issuer, endpoint used and validation outcome.
+  Provide configuration via declarative files to ease maintenance without recompilation.
+  Ensure high availability through automatic key rotation and intelligent fallback.
 #rp_2
 #vr_pt: |
-RESPOSTA 22
+  Para adaptar políticas JWT para multi IP, crie uma estrutura que identifique o emissor no token e selecione a política correspondente.
+  As políticas devem incluir parâmetros de escopo, algoritmo e tempo de expiração para cada provedor.
+  Utilize middleware para interceptar chamadas e aplicar validações JWT antes de atingir a lógica principal.
+  Mantenha um cache de políticas e chaves separado por emissor para otimizar desempenho.
+  Defina regras de autorização baseadas em claims customizados para atender diferentes perfis de usuário.
+  Implemente listeners para eventos de rotação de chave e atualize as políticas em runtime.
+  Documente cada emissor e sua política associada em um arquivo centralizado.
+  Forneça endpoints de saúde para verificar integridade de cada provedor.
+  Ajuste parâmetros de retry e timeout para garantir resiliência diante de falhas.
+  Centralize alertas de violação de política para responder rapidamente a incidentes.
 #vr_en: |
-RESPOTA 2
+  To adapt JWT policies for multi IdP, build a mechanism that identifies the token issuer and selects the corresponding policy.
+  Policies should specify scope parameters, algorithm requirements and expiration times per provider.
+  Use middleware to intercept calls and apply JWT validation before business logic execution.
+  Maintain a cache of policies and keys per issuer to optimize performance.
+  Define authorization rules based on custom claims to support different user profiles.
+  Implement listeners for key rotation events and update policies at runtime.
+  Document each issuer and its associated policy in a centralized file.
+  Provide health check endpoints to verify each provider’s availability.
+  Tune retry and timeout settings to ensure resilience against failures.
+  Centralize policy violation alerts for rapid incident response.
+#rp_3
+#vr_pt: |
+  Para usar conjuntos de chaves públicas multi IdP, crie um registro de URIs de JWKS para cada provedor e armazene esse registro centralmente.
+  No momento da validação, recupere a chave pública correspondente ao emissor identificado no token.
+  Use bibliotecas que suportem múltiplos emissores de JWKS em paralelo.
+  Atualize o cache de forma assíncrona para não bloquear solicitações.
+  Valide assinatura, emissor, público e escopo em um único fluxo de processamento.
+  trate erros de falha de endpoint com fallback automático e retries configuráveis.
+  Faça benchmarks periódicos para ajustar tempo de vida do cache conforme carga.
+  Exponha métricas via Prometheus para monitoramento de saúde.
+  Documente os endpoints JWKS e seus parâmetros de configuração.
+  Assegure compatibilidade com OAuth dois e OpenID Connect discovery.
+#vr_en: |
+  To use public key sets for multi IdP, register the JWKS URIs for each provider and store that registry centrally.
+  During validation, fetch the public key corresponding to the token’s issuer.
+  Leverage libraries that support multiple JWKS issuers concurrently.
+  Refresh the cache asynchronously to avoid blocking requests.
+  Validate signature, issuer, audience and scope in a single processing flow.
+  Handle endpoint failures with automatic fallback and configurable retries.
+  Perform periodic benchmarks to tune cache lifetimes according to load.
+  Expose metrics via Prometheus for health monitoring.
+  Document the JWKS endpoints and their configuration parameters.
+  Ensure compatibility with OAuth two and OpenID Connect discovery mechanisms.
+#rp_4
+#vr_pt: |
+  O contexto de validação para multi IdP deve incluir identificação clara de emissor, parâmetros de cache e políticas por emissor.
+  Cada contexto armazena dados como endpoints, algoritmos e regras de validação.
+  Inicialize o contexto na carga da aplicação, garantindo disponibilidade imediata.
+  Atualize dinamicamente o contexto em caso de alteração de configuração.
+  Particione o contexto para isolar políticas sensíveis.
+  Implemente sincronização entre instâncias para coesão.
+  Registre alterações de contexto em logs de auditoria.
+  Valide consistência de configuração antes de aplicar o contexto.
+  Forneça APIs administrativas para gerenciar contextos.
+  Monitore integridade do contexto e alerte em divergências.
+#vr_en: |
+  The validation context for multi IdP should include clear issuer identification, cache parameters and per-issuer policies.
+  Each context holds data such as endpoints, algorithms and validation rules.
+  Initialize the context at application startup to ensure immediate availability.
+  Dynamically update the context upon configuration changes.
+  Partition the context to isolate sensitive policies.
+  Implement synchronization across instances for consistency.
+  Log context changes in audit logs.
+  Validate configuration consistency before applying the context.
+  Provide administrative APIs to manage contexts.
+  Monitor context integrity and alert on discrepancies.
+#rp_5
+#vr_pt: |
+  Para fallback ao segundo IdP em falha de validação, configure uma lista priorizada de emissores.
+  Após falha na validação primária, a API busca chaves no segundo emissor.
+  Implemente delay incremental entre tentativas para reduzir carga.
+  Registre cada tentativa de fallback em métricas.
+  Notifique times responsáveis quando ocorrer fallback mais de um limite.
+  Forneça endpoints de status para revelar uso de fallback.
+  Teste cenários de queda para garantir operação.
+  Documente planos de contingência envolvendo múltiplos IdPs.
+  Ajuste configurações de retry para balancear resiliência e latência.
+  Centralize logs de fallback para auditoria.
+#vr_en: |
+  To fallback to a second IdP on validation failure, configure a prioritized list of issuers.
+  After primary validation fails, the API retrieves keys from the second issuer.
+  Implement incremental delay between attempts to reduce load.
+  Record each fallback attempt in metrics.
+  Notify responsible teams when fallback occurs beyond a threshold.
+  Provide status endpoints to reveal fallback usage.
+  Test failure scenarios to ensure operation.
+  Document contingency plans involving multiple IdPs.
+  Tune retry settings to balance resilience and latency.
+  Centralize fallback logs for auditing.
+#rp_6
+#vr_pt: |
+  Adapte políticas definindo tempo de expiração de cache distinto por emissor.
+  Use controles de taxa para limitar requisições JWKS em casos de pico.
+  Implemente circuit breaker para endpoints com alta latência.
+  Sincronize rotação de chaves para minimizar momentâneos tokens inválidos.
+  Gerencie tokens de refresh conforme políticas de cada IdP.
+  Modifique regras de assinatura para cada domínio de segurança.
+  Priorize emissores críticos com menor tolerância de erro.
+  Agrupe métricas de cada IdP em relatórios separados.
+  Defina SLAs de disponibilidade de cada JWKS.
+  Ajuste parâmetros de clock skew por emissor.
+#vr_en: |
+  Adapt policies by setting distinct cache expiration times per issuer.
+  Use rate controls to limit JWKS requests during spikes.
+  Implement circuit breakers for high-latency endpoints.
+  Synchronize key rotation to minimize temporary invalid tokens.
+  Manage refresh tokens according to each IdP’s policies.
+  Customize signature rules per security domain.
+  Prioritize critical issuers with lower error tolerance.
+  Aggregate each IdP’s metrics into separate reports.
+  Define SLAs for each JWKS availability.
+  Tune clock skew parameters per issuer.
+#rp_7
+#vr_pt: |
+  Combine logs de fallback e validação em dashboards unificados.
+  Destaque emissores com maior índice de falhas.
+  Implemente alertas de anomalia com base em desvios padrões.
+  Correlacione falhas de JWKS com erros de autenticação.
+  Utilize tracing distribuído para acompanhar fluxos JWT.
+  Armazene logs em data lake para análises históricas.
+  Filtre logs por emissor, endpoint e tipo de falha.
+  Expanda relatórios para incluir tempos de resposta e retry count.
+  Ofereça visualizações por timeline de eventos.
+  Automatize geração de relatórios semanais.
+#vr_en: |
+  Combine fallback and validation logs into unified dashboards.
+  Highlight issuers with highest failure rates.
+  Implement anomaly alerts based on standard deviations.
+  Correlate JWKS failures with authentication errors.
+  Use distributed tracing to follow JWT flows.
+  Store logs in a data lake for historical analysis.
+  Filter logs by issuer, endpoint and failure type.
+  Expand reports to include response times and retry counts.
+  Provide timeline views of events.
+  Automate weekly report generation.
+#rp_8
+#vr_pt: |
+  Integre validações multi IdP a gateways e middleware.
+  Fine tune políticas de throttle antes de aplicar validações.
+  Use extensão edge para cache compartilhado na borda.
+  Implemente fallback em nível de gateway para reduzir latência.
+  Sincronize rotas de fallback entre gateway e aplicação.
+  Documente fluxos de chamada para equipes de rede.
+  Ajuste timeouts de gateway para otimizar resiliência.
+  Crie métricas específicas para gateway e aplicação.
+  Harmonize logs de gateway e aplicação para análise conjunta.
+  Implemente rotinas de failback apenas em camada de borda.
+#vr_en: |
+  Integrate multi IdP validations into gateways and middleware.
+  Fine tune throttling policies before applying validations.
+  Use edge extensions for shared caching at the perimeter.
+  Implement fallback at the gateway layer to reduce latency.
+  Synchronize fallback routes between gateway and application.
+  Document call flows for networking teams.
+  Adjust gateway timeouts to optimize resilience.
+  Create separate metrics for gateway and application.
+  Harmonize gateway and application logs for joint analysis.
+  Implement failback routines solely at the edge layer.
+#rp_9
+#vr_pt: |
+  Atualize a documentação inline para cada política adaptada.
+  Inclua exemplos de payload JWT e URIs de JWKS.
+  Detalhe procedimentos de fallback e cache.
+  Gere diagramas de sequência para fluxo de validação.
+  Ofereça snippets de código para SDKs e CLIs.
+  Mantenha changelog de políticas com data e autor.
+  Publique artigos técnicos para casos de uso avançados.
+  Forneça arquivos de configuração de exemplo em YAML.
+  Crie tutoriais interativos no portal de desenvolvedores.
+  Colete feedback de consumidores sobre políticas.
+#vr_en: |
+  Update inline documentation for each adapted policy.
+  Include JWT payload examples and JWKS URIs.
+  Detail fallback and cache procedures.
+  Generate sequence diagrams for the validation flow.
+  Provide code snippets for SDKs and CLIs.
+  Maintain a policy changelog with date and author.
+  Publish technical articles for advanced use cases.
+  Provide sample configuration files in YAML.
+  Create interactive tutorials on the developer portal.
+  Collect consumer feedback on policies.
 ---

@@ -3,6 +3,51 @@ responses:
   utter_facade_vs_orchestration:
     - custom:
         vr_pt: |
-          Facade é uma camada de abstração que unifica múltiplos serviços ou APIs atrás de uma única interface simples, enquanto Orquestração coordena fluxos e regras de negócio entre serviços de forma centralizada.
+          Facade é camada de abstração que unifica múltiplos serviços em uma interface única simples, enquanto orquestração coordena fluxos e regras de negócio entre serviços de modo centralizado.
         vr_en: |
-          Facade is an abstraction layer that hides multiple services or APIs behind a simple unified interface, whereas orchestration coordinates flows and business rules across services in a centralized manner.
+          Facade is an abstraction layer that unifies multiple services into a single simple interface, whereas orchestration coordinates flows and business rules across services in a centralized fashion.
+    - custom:
+        vr_pt: |
+          Facade serve para simplificar a interação com várias APIs por trás de um ponto de entrada único, enquanto orquestração gerencia a execução de chamadas e regras entre esses serviços.
+        vr_en: |
+          Facade simplifies interaction with several APIs behind one entry point, while orchestration manages execution of calls and business rules across those services.
+    - custom:
+        vr_pt: |
+          Facade expõe uma fachada única sobre diversos microserviços, abstraindo complexidade, já orquestração define a sequência de operações e lógica de negócio para integrar esses serviços.
+        vr_en: |
+          Facade exposes a single façade over multiple microservices, abstracting complexity, while orchestration defines the sequence of operations and business logic to integrate those services.
+    - custom:
+        vr_pt: |
+          Facade unifica APIs distintas em um único contrato para o cliente, enquanto orquestração controla o fluxo de dados e regras entre essas APIs de forma central.
+        vr_en: |
+          Facade consolidates distinct APIs into one contract for the client, whereas orchestration controls data flow and rules between those APIs centrally.
+    - custom:
+        vr_pt: |
+          Facade fornece interface simplificada por trás da qual múltiplos serviços operam, e orquestração assume responsabilidade de coordenar chamadas e aplicar lógica de negócio.
+        vr_en: |
+          Facade provides a simplified interface behind which multiple services operate, and orchestration takes on the responsibility of coordinating calls and applying business logic.
+    - custom:
+        vr_pt: |
+          Facade atua como ponto único de acesso a vários serviços, enquanto orquestração gerencia o encadeamento de operações e políticas de negócio entre esses serviços.
+        vr_en: |
+          Facade acts as a single access point to various services, while orchestration manages the chaining of operations and business policies among those services.
+    - custom:
+        vr_pt: |
+          Facade esconde detalhes de implementação ao agrupar serviços sob uma interface comum, já orquestração lida com a execução ordenada de tarefas e regras distribuídas.
+        vr_en: |
+          Facade hides implementation details by grouping services under a common interface, while orchestration handles the ordered execution of tasks and distributed rules.
+    - custom:
+        vr_pt: |
+          Facade cria uma fachada única para múltiplos serviços de backend, e orquestração define como esses serviços interagem para atender fluxos de negócio.
+        vr_en: |
+          Facade creates a single façade for multiple backend services, and orchestration defines how those services interact to fulfill business flows.
+    - custom:
+        vr_pt: |
+          Facade oferece interface estável frente a variados serviços, enquanto orquestração orquestra o consumo e a lógica de negócio desses serviços.
+        vr_en: |
+          Facade offers a stable interface in front of varied services, while orchestration orchestrates the consumption and business logic of those services.
+    - custom:
+        vr_pt: |
+          Facade agrupa serviços sob um proxy único para simplificar o cliente, enquanto orquestração controla a lógica de execução distribuída e a aplicação de políticas de negócio.
+        vr_en: |
+          Facade groups services under a single proxy to simplify the client, while orchestration controls distributed execution logic and the application of business policies.

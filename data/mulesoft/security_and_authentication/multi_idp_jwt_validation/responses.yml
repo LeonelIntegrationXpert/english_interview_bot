@@ -3,11 +3,208 @@ responses:
   utter_multi_idp_jwt_validation:
     - custom:
         vr_pt: |
-          A validação de JWT multi-IdP permite que uma mesma API aceite e verifique tokens emitidos por diferentes provedores de identidade, consultando dinamicamente múltiplos JWKS, validando assinatura, emissor e audience de cada token, suportando key rotation e fallback automático para alta disponibilidade e continuidade de serviço.
+          Para adaptar políticas JWT para múltiplos provedores de identidade, defina um mapeamento de emissores para URIs de JWKS correspondentes.
+            Configure o carregamento dinâmico de chaves públicas a partir de cada endpoint JWKS sem intervenção manual.
+            Armazene em cache as chaves recuperadas, respeitando cabeçalhos de expiração fornecidos pelos provedores.
+            Aplique políticas de confiança específicas para cada emissor, estabelecendo algoritmos de assinatura compatíveis.
+            Verifique claims de emissor e público contra listas de valores esperados para impedir tokens indevidos.
+            Inclua lógica de fallback sequencial, alternando para provedores secundários em falhas de conexão.
+            Monitore métricas de latência e taxa de sucesso de validação para cada emissor.
+            Gere logs detalhados registrando emissor, endpoint utilizado e resultado da verificação.
+            Faça a configuração via arquivo declarativo para facilitar manutenção sem recompilar.
+            Garantia de alta disponibilidade é assegurada pela rotação automática de chaves e fallback inteligente.
         vr_en: |
-          Multi-IdP JWT validation enables a single API to accept and verify tokens issued by multiple identity providers by dynamically fetching and caching multiple JWKS endpoints, validating each token’s signature, issuer and audience, and supporting automatic key rotation and fallback for high availability and uninterrupted service.
+          To adapt JWT policies for multiple identity providers, define a mapping of issuers to their corresponding JWKS URIs.
+            Configure dynamic loading of public keys from each JWKS endpoint without manual intervention.
+            Cache the retrieved keys, honoring expiration headers provided by the endpoints.
+            Apply issuer-specific trust policies by specifying compatible signature algorithms.
+            Validate issuer and audience claims against expected lists to prevent unauthorized tokens.
+            Include sequential fallback logic, switching to secondary providers on connection failures.
+            Monitor metrics on latency and validation success rates for each issuer.
+            Generate detailed logs recording issuer, endpoint used and validation outcome.
+            Provide configuration via declarative files to ease maintenance without recompilation.
+            Ensure high availability through automatic key rotation and intelligent fallback.
     - custom:
         vr_pt: |
-          RESPOSTA 22
+          Para adaptar políticas JWT para multi IP, crie uma estrutura que identifique o emissor no token e selecione a política correspondente.
+            As políticas devem incluir parâmetros de escopo, algoritmo e tempo de expiração para cada provedor.
+            Utilize middleware para interceptar chamadas e aplicar validações JWT antes de atingir a lógica principal.
+            Mantenha um cache de políticas e chaves separado por emissor para otimizar desempenho.
+            Defina regras de autorização baseadas em claims customizados para atender diferentes perfis de usuário.
+            Implemente listeners para eventos de rotação de chave e atualize as políticas em runtime.
+            Documente cada emissor e sua política associada em um arquivo centralizado.
+            Forneça endpoints de saúde para verificar integridade de cada provedor.
+            Ajuste parâmetros de retry e timeout para garantir resiliência diante de falhas.
+            Centralize alertas de violação de política para responder rapidamente a incidentes.
         vr_en: |
-          RESPOTA 2
+          To adapt JWT policies for multi IdP, build a mechanism that identifies the token issuer and selects the corresponding policy.
+            Policies should specify scope parameters, algorithm requirements and expiration times per provider.
+            Use middleware to intercept calls and apply JWT validation before business logic execution.
+            Maintain a cache of policies and keys per issuer to optimize performance.
+            Define authorization rules based on custom claims to support different user profiles.
+            Implement listeners for key rotation events and update policies at runtime.
+            Document each issuer and its associated policy in a centralized file.
+            Provide health check endpoints to verify each provider’s availability.
+            Tune retry and timeout settings to ensure resilience against failures.
+            Centralize policy violation alerts for rapid incident response.
+    - custom:
+        vr_pt: |
+          Para usar conjuntos de chaves públicas multi IdP, crie um registro de URIs de JWKS para cada provedor e armazene esse registro centralmente.
+            No momento da validação, recupere a chave pública correspondente ao emissor identificado no token.
+            Use bibliotecas que suportem múltiplos emissores de JWKS em paralelo.
+            Atualize o cache de forma assíncrona para não bloquear solicitações.
+            Valide assinatura, emissor, público e escopo em um único fluxo de processamento.
+            trate erros de falha de endpoint com fallback automático e retries configuráveis.
+            Faça benchmarks periódicos para ajustar tempo de vida do cache conforme carga.
+            Exponha métricas via Prometheus para monitoramento de saúde.
+            Documente os endpoints JWKS e seus parâmetros de configuração.
+            Assegure compatibilidade com OAuth dois e OpenID Connect discovery.
+        vr_en: |
+          To use public key sets for multi IdP, register the JWKS URIs for each provider and store that registry centrally.
+            During validation, fetch the public key corresponding to the token’s issuer.
+            Leverage libraries that support multiple JWKS issuers concurrently.
+            Refresh the cache asynchronously to avoid blocking requests.
+            Validate signature, issuer, audience and scope in a single processing flow.
+            Handle endpoint failures with automatic fallback and configurable retries.
+            Perform periodic benchmarks to tune cache lifetimes according to load.
+            Expose metrics via Prometheus for health monitoring.
+            Document the JWKS endpoints and their configuration parameters.
+            Ensure compatibility with OAuth two and OpenID Connect discovery mechanisms.
+    - custom:
+        vr_pt: |
+          O contexto de validação para multi IdP deve incluir identificação clara de emissor, parâmetros de cache e políticas por emissor.
+            Cada contexto armazena dados como endpoints, algoritmos e regras de validação.
+            Inicialize o contexto na carga da aplicação, garantindo disponibilidade imediata.
+            Atualize dinamicamente o contexto em caso de alteração de configuração.
+            Particione o contexto para isolar políticas sensíveis.
+            Implemente sincronização entre instâncias para coesão.
+            Registre alterações de contexto em logs de auditoria.
+            Valide consistência de configuração antes de aplicar o contexto.
+            Forneça APIs administrativas para gerenciar contextos.
+            Monitore integridade do contexto e alerte em divergências.
+        vr_en: |
+          The validation context for multi IdP should include clear issuer identification, cache parameters and per-issuer policies.
+            Each context holds data such as endpoints, algorithms and validation rules.
+            Initialize the context at application startup to ensure immediate availability.
+            Dynamically update the context upon configuration changes.
+            Partition the context to isolate sensitive policies.
+            Implement synchronization across instances for consistency.
+            Log context changes in audit logs.
+            Validate configuration consistency before applying the context.
+            Provide administrative APIs to manage contexts.
+            Monitor context integrity and alert on discrepancies.
+    - custom:
+        vr_pt: |
+          Para fallback ao segundo IdP em falha de validação, configure uma lista priorizada de emissores.
+            Após falha na validação primária, a API busca chaves no segundo emissor.
+            Implemente delay incremental entre tentativas para reduzir carga.
+            Registre cada tentativa de fallback em métricas.
+            Notifique times responsáveis quando ocorrer fallback mais de um limite.
+            Forneça endpoints de status para revelar uso de fallback.
+            Teste cenários de queda para garantir operação.
+            Documente planos de contingência envolvendo múltiplos IdPs.
+            Ajuste configurações de retry para balancear resiliência e latência.
+            Centralize logs de fallback para auditoria.
+        vr_en: |
+          To fallback to a second IdP on validation failure, configure a prioritized list of issuers.
+            After primary validation fails, the API retrieves keys from the second issuer.
+            Implement incremental delay between attempts to reduce load.
+            Record each fallback attempt in metrics.
+            Notify responsible teams when fallback occurs beyond a threshold.
+            Provide status endpoints to reveal fallback usage.
+            Test failure scenarios to ensure operation.
+            Document contingency plans involving multiple IdPs.
+            Tune retry settings to balance resilience and latency.
+            Centralize fallback logs for auditing.
+    - custom:
+        vr_pt: |
+          Adapte políticas definindo tempo de expiração de cache distinto por emissor.
+            Use controles de taxa para limitar requisições JWKS em casos de pico.
+            Implemente circuit breaker para endpoints com alta latência.
+            Sincronize rotação de chaves para minimizar momentâneos tokens inválidos.
+            Gerencie tokens de refresh conforme políticas de cada IdP.
+            Modifique regras de assinatura para cada domínio de segurança.
+            Priorize emissores críticos com menor tolerância de erro.
+            Agrupe métricas de cada IdP em relatórios separados.
+            Defina SLAs de disponibilidade de cada JWKS.
+            Ajuste parâmetros de clock skew por emissor.
+        vr_en: |
+          Adapt policies by setting distinct cache expiration times per issuer.
+            Use rate controls to limit JWKS requests during spikes.
+            Implement circuit breakers for high-latency endpoints.
+            Synchronize key rotation to minimize temporary invalid tokens.
+            Manage refresh tokens according to each IdP’s policies.
+            Customize signature rules per security domain.
+            Prioritize critical issuers with lower error tolerance.
+            Aggregate each IdP’s metrics into separate reports.
+            Define SLAs for each JWKS availability.
+            Tune clock skew parameters per issuer.
+    - custom:
+        vr_pt: |
+          Combine logs de fallback e validação em dashboards unificados.
+            Destaque emissores com maior índice de falhas.
+            Implemente alertas de anomalia com base em desvios padrões.
+            Correlacione falhas de JWKS com erros de autenticação.
+            Utilize tracing distribuído para acompanhar fluxos JWT.
+            Armazene logs em data lake para análises históricas.
+            Filtre logs por emissor, endpoint e tipo de falha.
+            Expanda relatórios para incluir tempos de resposta e retry count.
+            Ofereça visualizações por timeline de eventos.
+            Automatize geração de relatórios semanais.
+        vr_en: |
+          Combine fallback and validation logs into unified dashboards.
+            Highlight issuers with highest failure rates.
+            Implement anomaly alerts based on standard deviations.
+            Correlate JWKS failures with authentication errors.
+            Use distributed tracing to follow JWT flows.
+            Store logs in a data lake for historical analysis.
+            Filter logs by issuer, endpoint and failure type.
+            Expand reports to include response times and retry counts.
+            Provide timeline views of events.
+            Automate weekly report generation.
+    - custom:
+        vr_pt: |
+          Integre validações multi IdP a gateways e middleware.
+            Fine tune políticas de throttle antes de aplicar validações.
+            Use extensão edge para cache compartilhado na borda.
+            Implemente fallback em nível de gateway para reduzir latência.
+            Sincronize rotas de fallback entre gateway e aplicação.
+            Documente fluxos de chamada para equipes de rede.
+            Ajuste timeouts de gateway para otimizar resiliência.
+            Crie métricas específicas para gateway e aplicação.
+            Harmonize logs de gateway e aplicação para análise conjunta.
+            Implemente rotinas de failback apenas em camada de borda.
+        vr_en: |
+          Integrate multi IdP validations into gateways and middleware.
+            Fine tune throttling policies before applying validations.
+            Use edge extensions for shared caching at the perimeter.
+            Implement fallback at the gateway layer to reduce latency.
+            Synchronize fallback routes between gateway and application.
+            Document call flows for networking teams.
+            Adjust gateway timeouts to optimize resilience.
+            Create separate metrics for gateway and application.
+            Harmonize gateway and application logs for joint analysis.
+            Implement failback routines solely at the edge layer.
+    - custom:
+        vr_pt: |
+          Atualize a documentação inline para cada política adaptada.
+            Inclua exemplos de payload JWT e URIs de JWKS.
+            Detalhe procedimentos de fallback e cache.
+            Gere diagramas de sequência para fluxo de validação.
+            Ofereça snippets de código para SDKs e CLIs.
+            Mantenha changelog de políticas com data e autor.
+            Publique artigos técnicos para casos de uso avançados.
+            Forneça arquivos de configuração de exemplo em YAML.
+            Crie tutoriais interativos no portal de desenvolvedores.
+            Colete feedback de consumidores sobre políticas.
+        vr_en: |
+          Update inline documentation for each adapted policy.
+            Include JWT payload examples and JWKS URIs.
+            Detail fallback and cache procedures.
+            Generate sequence diagrams for the validation flow.
+            Provide code snippets for SDKs and CLIs.
+            Maintain a policy changelog with date and author.
+            Publish technical articles for advanced use cases.
+            Provide sample configuration files in YAML.
+            Create interactive tutorials on the developer portal.
+            Collect consumer feedback on policies.
