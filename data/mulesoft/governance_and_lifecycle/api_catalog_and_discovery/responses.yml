@@ -2,8 +2,7 @@ version: '3.1'
 responses:
   utter_api_catalog_and_discovery:
     - custom:
-        response_array:
-          -   - vr_pt: |
-                  O catálogo de APIs é um repositório centralizado onde todas as APIs são registradas, documentadas e categorizadas; facilita a descoberta, reutilização e padronização; no Anypoint Exchange você publica contratos, exemplos e metadados; garante visibilidade e governança ao longo do ciclo de vida; permite controle de acesso, versionamento e auditoria de cada API.
-              - vr_en: |
-                  The API catalog is a centralized repository where all APIs are registered, documented and categorized; it enables discovery, reuse and standardization; in Anypoint Exchange you publish contracts, examples and metadata; it provides visibility and governance throughout the lifecycle; it supports access control, versioning and auditing of each API.
+        vr_pt: |
+          O catálogo de APIs é um repositório centralizado onde todas as APIs são registradas, documentadas e categorizadas; facilita a descoberta, reutilização e padronização; no Anypoint Exchange você publica contratos, exemplos e metadados; garante visibilidade e governança ao longo do ciclo de vida; permite controle de acesso, versionamento e auditoria de cada API.
+        vr_en: |
+          The API catalog is a centralized repository where all APIs are registered, documented and categorized; it enables discovery, reuse and standardization; in Anypoint Exchange you publish contracts, examples and metadata; it provides visibility and governance throughout the lifecycle; it supports access control, versioning and auditing of each API.

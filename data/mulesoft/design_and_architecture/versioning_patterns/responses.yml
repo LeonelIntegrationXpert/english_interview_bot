@@ -2,8 +2,7 @@ version: '3.1'
 responses:
   utter_versioning_patterns:
     - custom:
-        response_array:
-          -   - vr_pt: |
-                  Padrões de versionamento incluem versionamento semântico (versão major ponto minor ponto patch), versionamento via URI (barra v um barra recurso), versionamento por cabeçalho (Accept-Version), versionamento via media type (application barra vnd ponto myapi ponto v um mais json) e versionamento por parâmetro de consulta ponto de interrogação version igual um; cada abordagem tem trade-offs em cache, descoberta e compatibilidade.
-              - vr_en: |
-                  Versioning patterns include semantic versioning (major dot minor dot patch), URI versioning slash v one slash resource, header versioning via the Accept-Version header, media type versioning application slash vnd dot myapi dot v one plus json, and query parameter versioning question mark version equals one; each method has trade-offs in caching, discoverability, and backward compatibility.
+        vr_pt: |
+          Padrões de versionamento incluem versionamento semântico (versão major ponto minor ponto patch), versionamento via URI (barra v um barra recurso), versionamento por cabeçalho (Accept-Version), versionamento via media type (application barra vnd ponto myapi ponto v um mais json) e versionamento por parâmetro de consulta ponto de interrogação version igual um; cada abordagem tem trade-offs em cache, descoberta e compatibilidade.
+        vr_en: |
+          Versioning patterns include semantic versioning (major dot minor dot patch), URI versioning slash v one slash resource, header versioning via the Accept-Version header, media type versioning application slash vnd dot myapi dot v one plus json, and query parameter versioning question mark version equals one; each method has trade-offs in caching, discoverability, and backward compatibility.

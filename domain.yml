@@ -13,6 +13,7 @@ intents:
   - documentation_and_dev_portal
   - governance_policies
   - lifecycle_management_exchange
+  - multi_idp_jwt_validation
   - oauth2_jwt
   - nlu_fallback
 actions:

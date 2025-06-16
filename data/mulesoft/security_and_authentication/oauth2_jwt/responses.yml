@@ -2,8 +2,7 @@ version: '3.1'
 responses:
   utter_oauth2_jwt:
     - custom:
-        response_array:
-          -   - vr_pt: |
-                  OAuth2 é um protocolo de autorização que emite tokens de acesso limitados para cliente, permitindo controle granular de permissões; JWT (JSON Web Token) é um formato compacto e auto-contido de token que carrega informações (claims) de autenticação e autorização de forma segura e verificável.
-              - vr_en: |
-                  OAuth2 is an authorization protocol that issues scoped access tokens to clients, enabling fine-grained permission control; JWT (JSON Web Token) is a compact, self-contained token format carrying authentication and authorization claims securely and verifiably.
+        vr_pt: |
+          OAuth2 é um protocolo de autorização que emite tokens de acesso limitados para cliente, permitindo controle granular de permissões; JWT (JSON Web Token) é um formato compacto e auto-contido de token que carrega informações (claims) de autenticação e autorização de forma segura e verificável.
+        vr_en: |
+          OAuth2 is an authorization protocol that issues scoped access tokens to clients, enabling fine-grained permission control; JWT (JSON Web Token) is a compact, self-contained token format carrying authentication and authorization claims securely and verifiably.

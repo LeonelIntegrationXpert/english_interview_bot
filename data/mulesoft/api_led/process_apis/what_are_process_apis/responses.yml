@@ -2,8 +2,7 @@ version: '3.1'
 responses:
   utter_what_are_process_apis:
     - custom:
-        response_array:
-          -   - vr_pt: |
-                  Process APIs compõem a camada intermediária da arquitetura API-led da MuleSoft; orquestram e combinam funcionalidades de negócio reutilizáveis, agregando dados de múltiplas System APIs; aplicam regras complexas de negócio, validações, transformações e enriquecimentos de payload; gerenciam fluxos transacionais com retry e compensação em caso de erro; expõem contratos versionados e estáveis, desacoplando a camada de Experiência da lógica interna; e permitem governança e monitoramento granular por meio de políticas de roteamento, logging e métricas.
-              - vr_en: |
-                  Process APIs make up the middle layer of MuleSoft’s API-led architecture; they orchestrate and compose reusable business capabilities by aggregating data from multiple System APIs; enforce complex business rules, perform validations, transformations, and data enrichments; manage transactional flows with retry and compensation mechanisms on failure; expose versioned, stable contracts that decouple the Experience layer from internal logic; and enable granular governance and monitoring via routing policies, logging, and metrics.
+        vr_pt: |
+          Process APIs compõem a camada intermediária da arquitetura API-led da MuleSoft; orquestram e combinam funcionalidades de negócio reutilizáveis, agregando dados de múltiplas System APIs; aplicam regras complexas de negócio, validações, transformações e enriquecimentos de payload; gerenciam fluxos transacionais com retry e compensação em caso de erro; expõem contratos versionados e estáveis, desacoplando a camada de Experiência da lógica interna; e permitem governança e monitoramento granular por meio de políticas de roteamento, logging e métricas.
+        vr_en: |
+          Process APIs make up the middle layer of MuleSoft’s API-led architecture; they orchestrate and compose reusable business capabilities by aggregating data from multiple System APIs; enforce complex business rules, perform validations, transformations, and data enrichments; manage transactional flows with retry and compensation mechanisms on failure; expose versioned, stable contracts that decouple the Experience layer from internal logic; and enable granular governance and monitoring via routing policies, logging, and metrics.

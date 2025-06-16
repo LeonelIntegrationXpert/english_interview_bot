@@ -49,6 +49,10 @@ stories:
     steps:
       - intent: lifecycle_management_exchange
       - action: utter_lifecycle_management_exchange
+  - story: story_multi_idp_jwt_validation
+    steps:
+      - intent: multi_idp_jwt_validation
+      - action: utter_multi_idp_jwt_validation
   - story: story_oauth2_jwt
     steps:
       - intent: oauth2_jwt

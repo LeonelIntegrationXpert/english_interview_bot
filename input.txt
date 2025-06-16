@@ -529,10 +529,56 @@
 - api-led, what’s the advantage?
 - api-led, give an example of use
 - can you explain api led?
+#rp_1
 #vr_pt: |
-API-led é uma abordagem estruturada para projetar e construir APIs em camadas, permitindo maior reutilização e governança. Essa arquitetura divide as APIs em três camadas principais. primeiro um – Camada de Sistema conecta diretamente aos sistemas legados e fontes de dados segundo dois – Camada de Processo orquestra a lógica de negócio e transforma dados terceiro três – Camada de Experiência expõe APIs voltadas a casos de uso específicos, como aplicações web ou mobile Benefícios: primeiro um – Reutilização de componentes, reduzindo o tempo de desenvolvimento segundo dois – Separação clara de responsabilidades, facilitando a manutenção terceiro três – Governança centralizada de políticas de segurança e versionamento quarto quatro – Escalabilidade, pois cada camada pode crescer de forma independente Cenários de uso: primeiro um – Integração de sistemas legados com novos microserviços segundo dois – Exposição de dados internos para aplicativos móveis ou terceiros terceiro três – Orquestração de fluxos complexos via APIs
+API-led organiza APIs em três camadas distintas para promover reutilização e governança. inicialmente a Camada de Sistema acessa sistemas legados e dados; depois a Camada de Processo aplica lógica de negócio e transforma informações; por fim a Camada de Experiência entrega APIs específicas para canais como web ou mobile. Vantagens: aproveitamento de componentes, clareza de responsabilidades, controle centralizado de políticas e elasticidade independente de cada camada. Exemplos: integração de legados com microserviços, disponibilização de dados para apps móveis, orquestração de fluxos complexos.
 #vr_en: |
-API-led is a layered approach to designing and building APIs, enabling greater reuse and governance. This architecture divides APIs into three main layers. first one – System Layer connects directly to legacy systems and data sources second two – Process Layer orchestrates business logic and transforms data third three – Experience Layer exposes APIs tailored to specific channels such as web or mobile Benefits: first one – Reuse of components, reducing development time second two – Clear separation of concerns, easing maintenance third three – Centralized governance of security policies and versioning fourth four – Scalability, since each layer can scale independently Use cases: first one – Integrating legacy systems with new microservices second two – Exposing internal data to mobile apps or third parties third three – Orchestrating complex workflows via APIs
+API-led structures APIs into three layers to enhance reuse and governance. first the System Layer connects to legacy systems and data sources; next the Process Layer applies business logic and transforms data; finally the Experience Layer delivers APIs tailored to web or mobile channels. Benefits: component reuse, clear separation of concerns, centralized policy control, and independent scalability of each layer. Use cases: integrating legacy with microservices, exposing data to mobile apps, orchestrating complex workflows.
+#rp_2
+#vr_pt: |
+A abordagem API-led segmenta APIs em Camada de Sistema, Camada de Processo e Camada de Experiência para garantir modularidade e governança. a Camada de Sistema se comunica diretamente com bancos e sistemas legados; a de Processo aplica regras de negócio e converte dados; a de Experiência disponibiliza APIs customizadas para diferentes clientes. Benefícios incluem aceleração do desenvolvimento, manutenção facilitada, aplicação central de políticas e escalonamento isolado. Cenários: conectar legados a microserviços, criar APIs para apps móveis, coordenar fluxos via APIs.
+#vr_en: |
+API-led divides APIs into System, Process, and Experience Layers for modularity and governance. the System Layer talks directly to databases and legacy systems; the Process Layer applies business rules and transforms payloads; the Experience Layer exposes custom APIs for various consumers. Benefits include faster development, easier maintenance, centralized policy enforcement, and isolated scaling. Scenarios: linking legacy to microservices, building APIs for mobile apps, orchestrating flows via APIs.
+#rp_3
+#vr_pt: |
+Em API-led, as APIs são organizadas em três níveis: Sistema, Processo e Experiência. a Camada de Sistema abstrai sistemas legados e dados; a Camada de Processo implementa e reutiliza lógica de negócio; a Camada de Experiência entrega endpoints para front-ends específicos. Essa estrutura melhora a reutilização, mantém responsabilidades separadas, centraliza segurança e facilita o dimensionamento independente. Exemplos de uso: modernizar legados, criar APIs para dispositivos móveis e controlar orquestrações.
+#vr_en: |
+In API-led, APIs are arranged in three layers: System, Process, and Experience. the System Layer abstracts legacy systems and data; the Process Layer implements and reuses business logic; the Experience Layer delivers endpoints for specific front-ends. This structure enhances reuse, keeps responsibilities separated, centralizes security, and enables independent scaling. Use cases: modernizing legacy, building APIs for mobile, and managing orchestrations.
+#rp_4
+#vr_pt: |
+API-led propõe três camadas de APIs: Sistema, Processo e Experiência, visando reutilização e governança. na Camada de Sistema, há conexão direta com fontes de dados; na de Processo, ocorre orquestração e transformação; na de Experiência, são expostas APIs customizadas ao consumidor final. Os ganhos são rapidez no desenvolvimento, clareza no design, políticas unificadas e escalabilidade isolada. Casos práticos: integração legada, oferta de serviços a apps móveis e gestão de workflows complexos.
+#vr_en: |
+API-led advocates three API layers: System, Process, and Experience, targeting reuse and governance. the System Layer directly connects to data sources; the Process Layer orchestrates and transforms; the Experience Layer exposes customized APIs to end users. Gains include development speed, clear design, unified policies, and isolated scalability. Practical cases: legacy integration, serving mobile apps, and managing complex workflows.
+#rp_5
+#vr_pt: |
+Na arquitetura API-led, APIs são divididas em Camada de Sistema, Camada de Processo e Camada de Experiência. a primeira conecta sistemas legados; a segunda centraliza lógica e manipulação de dados; a terceira apresenta APIs voltadas a interfaces cliente. Essa divisão facilita o reaproveitamento, define limites claros de responsabilidade, centraliza políticas de segurança e permite escalonar cada camada independentemente. Exemplos: migrar sistemas antigos, criar back-ends para apps e coordenar chamadas de API.
+#vr_en: |
+In API-led architecture, APIs split into System, Process, and Experience Layers. the first connects legacy systems; the second centralizes logic and data handling; the third presents APIs tailored to client interfaces. This separation eases reuse, sets clear responsibility boundaries, centralizes security policies, and allows each layer to scale independently. Examples: migrating old systems, building back-ends for apps, and coordinating API calls.
+#rp_6
+#vr_pt: |
+API-led organiza seus serviços em três camadas: Sistema (acesso a fontes de dados), Processo (lógica de negócio e transformação) e Experiência (APIs para consumidores específicos). Esse modelo promove reutilização de componentes, deixa claro quem faz o quê, uniformiza políticas de segurança e possibilita escalar cada parte sem afetar as outras. Pode ser usado para integrar legados, expor APIs a dispositivos móveis e orquestrar processos complexos.
+#vr_en: |
+API-led arranges services into three layers: System (data source access), Process (business logic and transformation), and Experience (APIs for specific consumers). This model fosters component reuse, clarifies responsibilities, standardizes security policies, and enables scaling each part independently. It’s useful for legacy integration, exposing APIs to mobile devices, and orchestrating complex processes.
+#rp_7
+#vr_pt: |
+A prática API-led estabelece três camadas: a de Sistema para conectar legados e dados, a de Processo para orquestração de regras de negócio e a de Experiência para criar APIs de consumo. Essa abordagem acelera o desenvolvimento ao reutilizar APIs, melhora a manutenção ao separar responsabilidades, garante governança centralizada e permite escalar cada camada conforme a demanda. Exemplo: sincronizar sistemas internos, publicar APIs para front-ends e gerenciar workflows.
+#vr_en: |
+The API-led practice sets three layers: System to connect legacy and data, Process to orchestrate business rules, and Experience to build consumption APIs. This approach speeds development through API reuse, improves maintenance by separating responsibilities, ensures centralized governance, and allows each layer to scale as needed. Example: sync internal systems, publish APIs for front ends, and manage workflows.
+#rp_8
+#vr_pt: |
+API-led é um modelo de três camadas: primeiro a Camada de Sistema expõe dados de back-end, depois a Camada de Processo implementa lógica e repassa informações, e por último a Camada de Experiência fornece APIs adequadas ao contexto do usuário. Benefícios: redução de esforço com APIs reutilizáveis, responsabilidades bem definidas, políticas de segurança padronizadas e escalonamento independente. Usos típicos: expor dados legados, prover endpoints para apps e orquestrar serviços.
+#vr_en: |
+API-led is a three-layer model: first the System Layer exposes back-end data, then the Process Layer implements logic and relays information, and finally the Experience Layer provides context-appropriate APIs. Benefits: reduced effort with reusable APIs, well-defined responsibilities, standardized security policies, and independent scaling. Typical uses: exposing legacy data, providing endpoints for apps, and orchestrating services.
+#rp_9
+#vr_pt: |
+Na estratégia API-led, dividem-se APIs em: Camada de Sistema para acesso direto a legados, Camada de Processo para transformar e unificar dados, e Camada de Experiência para disponibilizar APIs customizadas. Vantagens incluem uso de APIs como blocos de construção, clareza na divisão de responsabilidades, governança central sobre políticas e possibilidade de dimensionamento modular. Exemplos: criação de adaptadores legados, APIs para clientes mobile e coordenação de transações multi-sistema.
+#vr_en: |
+In the API-led strategy, APIs split into: System Layer for direct legacy access, Process Layer to transform and unify data, and Experience Layer to deliver customized APIs. Advantages include using APIs as building blocks, clarity in responsibility division, central governance over policies, and modular scaling. Examples: building legacy adapters, APIs for mobile clients, and coordinating cross-system transactions.
+#rp_10
+#vr_pt: |
+API-led propõe três camadas de APIs: Sistema (conectar legados e fontes de dados), Processo (aplicar regras de negócio e converter formatos) e Experiência (expor APIs para casos de uso específicos). Esse design viabiliza reutilização de serviços, separa responsabilidades, aplica governança unificada e permite escalar cada camada conforme necessidade. Exemplos práticos: conectar ERPs, fornecer APIs a apps móveis e orquestrar jornadas de usuário.
+#vr_en: |
+API-led proposes three API layers: System (connect legacy and data sources), Process (apply business rules and convert formats), and Experience (expose APIs for specific use cases). This design enables service reuse, separates responsibilities, applies unified governance, and lets each layer scale as needed. Practical examples: connecting ERPs, providing APIs to mobile apps, and orchestrating user journeys.
 ---
 #intent: mulesoft/api_led/system_apis/what_are_system_apis
 #pt:
@@ -1125,6 +1171,7 @@ API-led is a layered approach to designing and building APIs, enabling greater r
 - h0w do sys apiz work?
 - h0w do systm apiz wrk?
 - h0w do system apiz wrk?
+#rp_1
 #vr_pt: |
   System APIs fazem parte da camada de Sistema da arquitetura API-led do MuleSoft; conectam-se diretamente a sistemas legados, bancos de dados e serviços de terceiros; aplicam políticas de segurança (autenticação, autorização, rate limiting) na borda; transformam e padronizam dados em formatos comuns (JSON, XML, CSV); realizam caching e buffering para melhorar desempenho e resiliência; isolam a complexidade do back-end expondo contratos estáveis; fornecem endpoints versionados para evoluir sem quebrar consumidores; lidam com falhas de rede com retry/back-off automático; e geram logs e métricas que alimentam dashboards de monitoramento e alertas.
 #vr_en: |
@@ -1907,6 +1954,7 @@ API-led is a layered approach to designing and building APIs, enabling greater r
 - tel me prcess apiss?
 - pls explain process apisz?
 - pls xpln prcess apis?
+#rp_1
 #vr_pt: |
   Process APIs compõem a camada intermediária da arquitetura API-led da MuleSoft; orquestram e combinam funcionalidades de negócio reutilizáveis, agregando dados de múltiplas System APIs; aplicam regras complexas de negócio, validações, transformações e enriquecimentos de payload; gerenciam fluxos transacionais com retry e compensação em caso de erro; expõem contratos versionados e estáveis, desacoplando a camada de Experiência da lógica interna; e permitem governança e monitoramento granular por meio de políticas de roteamento, logging e métricas.
 #vr_en: |
@@ -2585,6 +2633,7 @@ API-led is a layered approach to designing and building APIs, enabling greater r
 - where use exprience apisz?
 - where use experienc apiz?
 - where use experence apiz?
+#rp_1
 #vr_pt: |
 As Experience APIs formam a camada superior na arquitetura API-led da MuleSoft; elas adaptam e combinam as saídas das Process APIs para cada canal (web, mobile, chatbots); aplicam transformação de payload e formatam dados para UX específico; implementam cache de front-end para baixa latência; versionam contratos por canal; agregam lógica de personalização (filtros, preferências, contextos); orquestram chamadas a múltiplas Process APIs; expõem endpoints otimizados para performance e responsividade; geram métricas de uso por canal e facilitam testes de interface.
 #vr_en: |
@@ -3093,6 +3142,7 @@ Experience APIs form the top layer in MuleSoft’s API-led architecture; they ad
 - when to adjust responsibility boundaries over time?
 - when should you refactor responsibility boundaries?
 - when to reconsider responsibility boundaries in project?
+#rp_1
 #vr_pt: |
   Fronteiras de responsabilidade são limites claros onde cada componente ou API assume apenas um único conjunto de responsabilidades. Elas seguem o princípio da responsabilidade única, melhorando manutenibilidade, testabilidade e escalabilidade. Ao isolar funções, evita-se acoplamento excessivo e facilita-se a evolução independente de cada parte do sistema.
 #vr_en: |
@@ -3613,6 +3663,7 @@ Experience APIs form the top layer in MuleSoft’s API-led architecture; they ad
 - API contracts meaning?
 - API contracts purpose?
 - API contracts use?
+#rp_1
 #vr_pt: |
   Contratos de API em RAML ou OpenAPI definem formalmente recursos, métodos, parâmetros e respostas de uma API. Eles servem como fonte única de verdade para desenvolvedores e consumidores, facilitando geração de documentação, validação automática e testes. Com um contrato bem definido, é possível garantir compatibilidade, versionamento e governança ao longo do ciclo de vida da API.
 #vr_en: |
@@ -4253,6 +4304,7 @@ Experience APIs form the top layer in MuleSoft’s API-led architecture; they ad
 - what are common API versioning travails?
 - what are common API versioning travails?
 - what are common API versioning details?
+#rp_1
 #vr_pt: |
 Padrões de versionamento incluem versionamento semântico (versão major ponto minor ponto patch), versionamento via URI (barra v um barra recurso), versionamento por cabeçalho (Accept-Version), versionamento via media type (application barra vnd ponto myapi ponto v um mais json) e versionamento por parâmetro de consulta ponto de interrogação version igual um; cada abordagem tem trade-offs em cache, descoberta e compatibilidade.
 #vr_en: |
@@ -4758,6 +4810,7 @@ Versioning patterns include semantic versioning (major dot minor dot patch), URI
 - advantages of Facade?
 - advantages of Fasade?
 - benefits of Facdde vs orchestration?
+#rp_1
 #vr_pt: |
   Facade é uma camada de abstração que unifica múltiplos serviços ou APIs atrás de uma única interface simples, enquanto Orquestração coordena fluxos e regras de negócio entre serviços de forma centralizada.
 #vr_en: |
@@ -5363,6 +5416,7 @@ Versioning patterns include semantic versioning (major dot minor dot patch), URI
 - how to maintain the catelogue?
 - how to update the API catalog?
 - how to update the API catelaogue?
+#rp_1
 #vr_pt: |
 O catálogo de APIs é um repositório centralizado onde todas as APIs são registradas, documentadas e categorizadas; facilita a descoberta, reutilização e padronização; no Anypoint Exchange você publica contratos, exemplos e metadados; garante visibilidade e governança ao longo do ciclo de vida; permite controle de acesso, versionamento e auditoria de cada API.
 #vr_en: |
@@ -5864,6 +5918,7 @@ The API catalog is a centralized repository where all APIs are registered, docum
 - how to manage persmissions per stage?
 - how to mange permissions per stage in AnyPoint Exchange?
 - how to manage permission per life-cycle stage?
+#rp_1
 #vr_pt: |
 No Anypoint Exchange o gerenciamento de ciclo de vida permite promover APIs através de estágios como desenvolvimento, homologação e produção; definir políticas de aprovação, desativação e depreciação; controlar permissões de acesso por ambiente; automatizar fluxos de versão e consultar histórico completo de alterações.
 #vr_en: |
@@ -6409,6 +6464,7 @@ In Anypoint Exchange lifecycle management lets you promote APIs through stages s
 - what is an “audit trail” in APIs?
 - how to create session expiration policy?
 - why enforce payload size limits?
+#rp_1
 #vr_pt: |
 Políticas de governança definem regras e SLAs para garantir conformidade, segurança e disponibilidade das APIs. Elas abrangem controle de acesso, rate limiting, quotas, criptografia, monitoramento de métricas (latência, erros, throughput) e acordos de nível de serviço (SLA) como tempo máximo de resposta, taxa mínima de disponibilidade e recuperação (RTO/RPO). Implementadas via Anypoint Policy Manager, asseguram que as APIs operem dentro de limites acordados e atendam requisitos regulatórios.
 #vr_en: |
@@ -6878,6 +6934,7 @@ Governance policies define rules and SLAs to ensure API compliance, security and
 - how to test APIs onine?
 - how to test APIs on poral?
 - how to test APIs on portl?
+#rp_1
 #vr_pt: |
 O portal de desenvolvedor é a interface web onde consumidores acessam documentação, exemplos de uso, SDKs e tutoriais. Ele conecta ao Anypoint Exchange, permite auto-registro, descoberta de APIs, testes interativos e gerenciamento de chaves de API.
 #vr_en: |
@@ -7417,6 +7474,7 @@ The developer portal is the web interface where consumers access documentation, 
 - what is JWT vs JWE?
 - how to handle JWT expiration?
 - how to handle JWT expiratoin?
+#rp_1
 #vr_pt: |
 OAuth2 é um protocolo de autorização que emite tokens de acesso limitados para cliente, permitindo controle granular de permissões; JWT (JSON Web Token) é um formato compacto e auto-contido de token que carrega informações (claims) de autenticação e autorização de forma segura e verificável.
 #vr_en: |
@@ -7424,6 +7482,249 @@ OAuth2 is an authorization protocol that issues scoped access tokens to clients,
 ---
 #intent: mulesoft/security_and_authentication/multi_idp_jwt_validation
 #pt:
+- o que é validção de JWT multi-IdP?
+- o que é validação de JTW multi-IdP?
+- o que é validacao de JWT multi IdP?
+- o que é valdação multi-IdP JWT?
+- o que é validacao de JWT multi-IdP?
+- o qu é validação de JWT multi-IdP?
+- o q é validação de JWT multi-IdP?
+- o que é validacao de JTW multi-IdP?
+- o que foi validação de JWT multi-IdP?
+- oq é validação de JWT multi-IdP?
+- oq é validacao de JWT multi IdP?
+- oq significa validacão JWT multi-IdP?
+- oq significa validação de JTW multi-IdP?
+- oq significa validação de JWT multi IdP?
+- oq significa validacão multi-IdP de JWT?
+- pra que serve validção de JWT multi-IdP?
+- pra que serve validação de JWT multi-IdP?
+- pra que serve validacao de JTW multi-IdP?
+- para que serve validação de JTW multi-IdP?
+- para quer serve validação de JWT multi-IdP?
+- pra que serve validacao de JWT muti-IdP?
+- para que serve validacao de JWT multi-IdP?
+- como validar JTW de vários IdPs?
+- como validar JWT multiIdP?
+- como validar JWT multi IdPs?
+- como validar JTW multi-IdP?
+- como valdar JWT multi-IdP?
+- como vlidar JWT multi-IdP?
+- como valiar JWT multi-IdP?
+- como validar JWT multI-IdP?
+- como validar JWT multi-IdP no MuleSoft?
+- cmmo validar JWT multi-IdP no MuleSoft?
+- como configurr multi-IdP JWT?
+- como configurar multi IdP JWT?
+- como confgurar JWT multi-IdP?
+- como confgurar multi-IdP JWT no Mule?
+- como conifgurar multi-IdP JWT no MuleSoft?
+- o que faz a valiação multi-IdP de JWT?
+- o que faz a validação de JTW multi-IdP?
+- o que faz a validção de JWT muli-IdP?
+- o que faz a validadeção de JWT multi-IdP?
+- o que faz a validadão de JWT multi-IdP?
+- como funcia a validação entre IdPs?
+- como funciona a validção de JWT multi-IdP?
+- como funcona validação de JWT multi-IdP?
+- como funciona a valição multi-IdP de JWT?
+- como funciona a validação de JWT multi-IDP?
+- por que usar validação multi-IdP de JWT?
+- por que usar valdiação multi-IdP de JWT?
+- por que usaar validação multi-IdP JWT?
+- pq usar validação multi-IdP JWT?
+- pq usar valição multi-IdP JWT?
+- por que usar validação de JTW multi-IdP?
+- quais desafios da valição multi-IdP JWT?
+- quais défisios multi-IdP de JWT?
+- quais desafios da validção multi-IdP?
+- quias desafios multi-IdP JWT?
+- quais são desfaos de multi-IdP JWT?
+- como tratar JWKS de múltiplos providers?
+- como trtar JWKS de vários IdPs?
+- como trtar JWKS de múltiplos IdPs?
+- como tirar JWKS de vários provedors?
+- como obreter keys de vários IdPs?
+- como obter chves de vários IdPs?
+- como obter chaves de vários provedors?
+- o que é JWKS URI multi-IdP?
+- o que é J WKS URI em multi-IdP?
+- o que é JWKS URi em multi-IdP?
+- o que é JWKS U RI em multi-IdP?
+- o que é JWK URI em multi-IdP?
+- como alternar entre IdPs na valização?
+- como alternar entre I dPs na validação?
+- como almentar entre IdPs na validação?
+- como alternar entr IdPs na validação?
+- como mapear clams de difentes IdPs?
+- como mapear claims de diferetns IdPs?
+- como mapear claims de difernetes IdPs?
+- como mapear claims de diferentes IdPs?
+- o que é key rotaton em multi-IdP?
+- o que é key rotaion em multi-IdP?
+- o que é key rotation em multi IdP?
+- o que é key rotation em mutli-IdP?
+- como lidar com tokes de vários domínios?
+- como lidar com tokens de varis domínios?
+- como lidar com tokens de variados dominios?
+- como lidar com tokens de múltiplos domínios?
+- como configro policy de JWT multi-IdP?
+- como configurro policy JWT multi-IdP?
+- como confgurar policy JWT multi-IdP?
+- como configurar policy de JTW multi-IdP?
+- como usar audience multiplas na validação?
+- como usar multiple audience na validção?
+- como usar audience múltipas na validação?
+- como usar audience múltiplas na validação?
+- como diferenciar issuser de vários IdPs?
+- como diferenciar issuer de vários IdPs?
+- como diferenciar isser de vários IdPs?
+- como diferenciar issuer de varis IdPs?
+- o que é issuer validtion multi-IdP?
+- o que é issuer validation multi IdP?
+- o que é issuer vlidation multi-IdP?
+- o que é issuer validation multi-Idp?
+- como importar JWKS de vários providers?
+- como importar JWKS de varios provedors?
+- como importar JWKS de mútliplos providers?
+- como importar JWKS de múltiplos IdPs?
+- como proteger APIS com JWT multi-IdP?
+- como proteger APIs com JTW multi-IdP?
+- como proteger APIs com JWT multi IdP?
+- como proteger APIS com JWT multi IDP?
+- como definir trust stors para vários IdPs?
+- como definir trust stores para varos IdPs?
+- como definir truststores para vários IdPs?
+- como definir trust stores para múltiplos IdPs?
+- oq é validagão de JWT multi-IdP?
+- oq é valdação de JWT multi-IdP?
+- oq é validção de JWT multi-IdP?
+- oq é validacao de JWT multi-IdP?
+- oq é valdiação de JWT multi-IdP?
+- oq é valicação de JWT multi-IdP?
+- oq é validação de JTW multi-IdP?
+- oq é validção de JTW multi-IdP?
+- oq é valdação de JTW multi-IdP?
+- oq é validação de JWT multi-IDP?
+- o que é valiação de JWT multi-IdP?
+- o que é valiidação de JWT multi-IdP?
+- o que é valdiação de JWT multi-IdP?
+- o que é validção de JWT multi-IdP?
+- o que é validcao de JWT multi-IdP?
+- o que é validção de JWT multi-IdP?
+- o que é validacao de JTW multi-IdP?
+- o que é valiidação de JTW multi-IdP?
+- o que é valdiação de JTW multi-IdP?
+- o que é validção de JTW multi-IdP?
+- o que é valicação de JTW multi-IdP?
+- para que serve validagão multi-IdP JWT?
+- para que serve valdação multi-IdP JWT?
+- para que serve validção multi-IdP JWT?
+- para que serve validacao multi-IdP JWT?
+- para que serve valdiação multi-IdP JWT?
+- para que serve flex multi-IdP JWT?
+- para que serve validação multi-IdP JTW?
+- para q serve valdação multi-IdP JWT?
+- pra qué serve validação multi-IdP JWT?
+- para qui serve validação multi-IdP JWT?
+- para que serve validação JTW multi-IdP?
+- para que serv valdação multi-IdP JWT?
+- como valdar JTW multi-IdP?
+- como valdiação de JWT multi-IdP?
+- como validção de JWT multi-IdP?
+- como ilidar JWT multi-IdP?
+- como armar multi-IdP JWT?
+- como vlidar JWT multi-IdP?
+- como validar JWT multi-IPd?
+- como validar JTW multi-IDP?
+- como vlidar JWT multi-IdP no Mule?
+- como validar JWT multi-IdP no Mulesoft?
+- como validar JWT multi-IdP no Mule Soft?
+- como validar de JWT multi-IdP?
+- como validar JWT multi-IdP no Anypoint?
+- por que usar valdação multi-IdP JWT?
+- pq usar validção multi-IdP JWT?
+- pq usar validacao multi-IdP JTW?
+- pq usar valiação multi-IdP JWT?
+- porque usar valdação multi-IdP JWT?
+- porque usar validção multi-IdP JWT?
+- quais desfios de multi-IdP JWT?
+- quais desafios de valdação multi-IdP JWT?
+- quais dejafios de validção multi-IdP JWT?
+- quais desafios de valiação multi-IdP JTW?
+- quais défisios de validação multi-IdP JWT?
+- como tratar JWK de múltiplos IdPs?
+- como tratar WKJS de múltiplos IdPs?
+- como trtar JWKS multi-IdP?
+- como trtar JWKs multi-IdP?
+- como ttr JWKS de IdPs?
+- como obeter JWKS de múltiplos IdPs?
+- como obter JWK de múltiples IdPs?
+- o que é JWK URI multi-IdP?
+- o que é JWK URI em multi-IdP?
+- o que é UJKS URI em multi-IdP?
+- o que é JWKS RI em multi-IdP?
+- o que é JWKS URI at multi-IdP?
+- como alernar entre IdPs na validação?
+- como alternar intr IdPs na validação?
+- como alternar etnre IdPs na validação?
+- como atlernatr entre IdPs na validação?
+- como alernar entre IdPs na validção?
+- como mapear clmas de diferentes IdPs?
+- como mapear clams de diversos IdPs?
+- como mapear cLiams de IdPs?
+- como mapear clamms de diferentes IdPs?
+- como mapear cLaims de difrentes IdPs?
+- o que é key rotaion em multi-IdP?
+- o que é key rotação em multi-IpD?
+- o que é key rotaton em multi-IdP?
+- o que é key rotação JS multi-IdP?
+- o que é key rotatoin em multi-IdP?
+- como lidar com tokes de múltiplos domínios?
+- como lidar com tokens de múltiplos domínios?
+- como lidar com tokes de vários dominios?
+- como lidar com tokens eman vários domínios?
+- como lidar com tokns de múltiplos domínios?
+- como configurar poliy de JWT multi-IdP?
+- como configurar policy de JTW multi-IdP?
+- como confgurar poliy de JWT multi-IdP?
+- como configurar poliicy de JWT multi-IdP?
+- como configurar policy de JTW multi-IDP?
+- como exigir audiència múltipla na validção?
+- como usar audience múltpla na validação?
+- como usar audience mltipla na validation?
+- como usar audiència múltipla na valiação?
+- como usar audiênca múltipla na validação?
+- como diferenciar issueer de vários IdPs?
+- como diferenciar issuer de variIs IdPs?
+- como diferenciar issuer de véários IdPs?
+- como diferenciar issuer de vários IdPs?
+- como diferenciar issur de vários IdPs?
+- o que é issuer validation multi-IdP?
+- oq é issuer validtion multi-IdP?
+- o que é issur validation multi-IdP?
+- o que é issuer validation multi-IDP?
+- o que é issuer vlidation multi-IdP?
+- como importar JWKS de varios provedore?
+- como importar JWKS de vários provedods?
+- como emportar JWKS de vários IdPs?
+- como importar WTKS de IdPs?
+- como importar jWKS de vários providers?
+- como proteger APIS com JWT multi-IdP?
+- como proteger APIs cm JWT multi-IdP?
+- como prteger APIs com JWT multi-IdP?
+- como proteger APIS com JTW multi-IdP?
+- como proteger APIS com JWT multi-IDP?
+- como definir trust store para vários IdPs?
+- como definir trust stores para vários IdPs?
+- como definir trust stores par vários IdPs?
+- como definir trust stors para vários IdPs?
+- como definir trust stores para mútliplos IdPs?
+- como implementar validção multi-IdP de JWT?
+- como implmentar validção multi-IdP de JWT?
+- como implemntar validação multi-IdP de JWT?
+- como implantar validação multi-IdP de JWT?
+- como implement multi-IdP JWT validation?
 - o que é validação de JWT multi-IdP?
 - o que significa multi IdP JWT validation?
 - para que serve validação de JWT com múltiplos IdPs?
@@ -7515,8 +7816,294 @@ OAuth2 is an authorization protocol that issues scoped access tokens to clients,
 - how to handle signature error from one IdP?
 - how to monitor multi-IdP validations?
 - how to log issuer for each token?
+- what is multi-IP JWT validation?
+- what is multi-IdP JTW validation?
+- what does multi-IDP JWT validation mean?
+- what does multi-IdP JTW validation mean?
+- what’s the purpose of multi-IdP JTW validation?
+- what is the purpose of multi-IP JWT validation?
+- how to valdiate JWT from multiple IdPs?
+- how to validate JTW from multiple IdPs?
+- how to valdate JWT from multiple IdPs?
+- how to validate JWT from multi IdPs?
+- how to validate JWT from multi-IdPs?
+- how to validate JWT from multiple IDPs?
+- how to valdiate JTW from multiple IDPs?
+- how to configure multi-IP JWT in MuleSoft?
+- how to configure multi-IdP JTW in MuleSoft?
+- how to config multi-IdP JWT in MuleSoft?
+- how to configure multi-IdP JTW in Mulesoft?
+- what does multi-IP JWT validation do?
+- what does multi-IdP JTW validation do?
+- what does multi-IDP JWT validation do?
+- how does multi-IP JWT validation work?
+- how does multi-IdP JTW validation work?
+- how does multi-IdP JWT valdiation work?
+- why use multi-IDP JWT validation?
+- why use multi-IdP JTW validation?
+- why use multi-IP JWT validation?
+- what are the challeges of multi-IdP JWT?
+- what are the challanges of multi-IdP JTW?
+- what are the challenges of multi-IP JWT?
+- what are the challenges of multi IdP JWT?
+- what are the challenges of multi-IdP JTW?
+- how to handle JWKS from multi-IdP?
+- how to handle JWKS from multi-IDP?
+- how to handle JWKS from multi IP?
+- how to handle JWKS from multipole IdPs?
+- how to handle JWKs from multiple IdPs?
+- how to handle JWKS from severl IdPs?
+- how to fetch keys from serveral providers?
+- how to fecth keys from several providers?
+- how to fetch keys from severl providers?
+- how to fetch keys from multple providers?
+- what is JWKs URI in multi-IdP?
+- what is JWKS URI in multi IP?
+- what is JWKS UIR in multi-IdP?
+- what is JWKS URI in multi-IDP?
+- how to switch between IdPs during valdiation?
+- how to switch between IdPs during validation?
+- how to swith between IdPs during validation?
+- how to switch between IDPs during validation?
+- how to map clams from different IdPs?
+- how to map claims from diferent IdPs?
+- how to map claims from multi IdPs?
+- what is key rotate in multi-IdP?
+- what is key rotation in multi-IDP?
+- what is key rotation in multi IP?
+- how to manage toknes across domains?
+- how to manage tokens across domians?
+- how to manage tokens across domains?
+- how to configure JWT policy for multple IdPs?
+- how to configure JTW policy for multiple IdPs?
+- how to configure JWT policy for multi IdP?
+- how to use multipel audiences in validation?
+- how to use multiple audences in validation?
+- how to use multiple audiences in valdiation?
+- how to distinguish issuers of multiple IdPs?
+- how to distinguish issuers of multi-IdP?
+- how to distinguish isuers of multiple IdPs?
+- what is issuer valdiation multi-IdP?
+- what is issuer validation multi IDP?
+- how to import JWKS from serval IdPs?
+- how to import JWKS from multple IdPs?
+- how to import JWKs from multiple IDPs?
+- how to secure APIs with multi-IdP JWT?
+- how to secure APIs with multi-IDP JTW?
+- how to secure APIs with multi IP JWT?
+- how to define trust stores for multi-IdP?
+- how to define trust stores for multi IP?
+- how to define trust stores for multi IDP?
+- how to adapt JWT policies for multipel IdPs?
+- how to adapt JTW policies for multiple IdPs?
+- how to use public key set multi IdP?
+- how to use public key set multi-IP?
+- what is validation context for multi-IdP?
+- what is validation context for multi IP?
+- how to fallback between IdPs on valdiation fail?
+- how to fallback between IdPs on validation fail?
+- how to handle different token expriy per IdP?
+- how to handle different token expiry per IP?
+- what is issuer alias in multi-IP?
+- what is issuer alias in multi IDP?
+- how to map issueer to claims?
+- how to map issuer to clams?
+- how to implment multi-IdP JWT validation?
+- how to implement multi-IdP JTW validation?
+- what are best practises for multi-IdP JWT?
+- what are best practices for multi-IP JWT?
+- how to test multi-IdP JWT validation?
+- how to test multi-IP JTW validation?
+- how to register providers in the policty?
+- how to register providers in the policy?
+- how to handle multiple token bindigs?
+- how to handle multiple token binding?
+- what is dynamic JWKs discovey?
+- what is dynamic JWKS discovery?
+- how to use JWKS cahce in multi-IdP?
+- how to use JWKS cache in multi IDP?
+- how to configure timeots per IdP?
+- how to configure timeouts per IP?
+- what is multi-IdP JWT validation?
+- what is multi-IdP JTW validation?
+- what does multi-IdP JWT validation mean?
+- what does multi-IdP JTW validation mean?
+- what’s the purpose of multi-IdP JWT validation?
+- what’s the purpose of multi-IdP JTW validation?
+- how to valdiate JWT from multiple IdPs?
+- how to validate JTW from multiple IdPs?
+- how to valdate JWT from multiple IDPs?
+- how to validate JWT from multi IdPs?
+- how to validate JWT from multi-IDPs?
+- how to validate JWT from multiple IDPS?
+- how to configure multi-IdP JWT in MuleSoft?
+- how to configure multi-IdP JTW in MuleSoft?
+- how to config multi-IdP JWT in MuleSoft?
+- how to configure multi-IDP JWT in MuleSoft?
+- what does multi-IdP JWT validation do?
+- what does multi-IdP JTW validation do?
+- what does multi-IDP JWT validation do?
+- how does multi-IdP JWT validation work?
+- how does multi-IdP JTW validation work?
+- how does multi-IDP JWT validation work?
+- why use multi-IdP JWT validation?
+- why use multi-IdP JTW validation?
+- why use multi-IDP JWT validation?
+- what are the challenges of multi-IdP JWT?
+- what are the challenges of multi-IdP JTW?
+- what are the challenges of multi-IDP JWT?
+- how to handle JWKS from multiple IdPs?
+- how to handle JWKs from multiple IdPs?
+- how to handle JWKS from multi IdPs?
+- how to handle JWKS from multi-IDPs?
+- how to fetch keys from several providers?
+- how to fecth keys from severl providers?
+- how to fetch keys from serveral providers?
+- what is JWKS URI in multi-IdP?
+- what is JWKs URI in multi-IdP?
+- what is JWKS URI in multi-IDP?
+- how to switch between IdPs during validation?
+- how to switch between IdPs during valdiation?
+- how to swith between IdPs during validation?
+- how to map claims from different IdPs?
+- how to map clams from different IDPs?
+- how to map claims from diffrent IdPs?
+- what is key rotation in multi-IdP?
+- what is key rotaton in multi-IDP?
+- what is key rotaion in multi-IdP?
+- how to manage tokens across domains?
+- how to manage toknes across domains?
+- how to manage tokens across domians?
+- how to configure JWT policy for multiple IdPs?
+- how to configure JTW policy for multiple IdPs?
+- how to configure JWT policy for multi-IDP?
+- how to use multiple audiences in validation?
+- how to use multipel audiences in validation?
+- how to use multiple audences in validation?
+- how to distinguish issuers of multiple IdPs?
+- how to distinguish isuers of multiple IdPs?
+- how to distinguish issuers of multi-IDP?
+- what is issuer validation multi-IdP?
+- what is issuerv alidation multi-IdP?
+- what is issuer validation multi IDP?
+- how to import JWKS from multiple IdPs?
+- how to import JWKs from multiple IDPs?
+- how to import JWKS from severl IdPs?
+- how to secure APIs with multi-IdP JWT?
+- how to secure APIs with multi-IDP JTW?
+- how to secure APIs with multi IdP JWT?
+- how to define trust stores for multiple IdPs?
+- how to define truststores for multiple IDPs?
+- how to define trust stores for multi-IdP?
+- how to adapt JWT policies for multiple IdPs?
+- how to adapt JTW policies for multipel IdPs?
+- how to use public key set multi-IdP?
+- how to use public key set multi IDP?
+- what is validation context for multiple IdPs?
+- what is validation context for multi-IDP?
+- how to fallback between IdPs on validation failure?
+- how to fallback between IdPs on validation fail?
+- how to handle different token expiry per IdP?
+- how to handle different token expriy per IDP?
+- what is issuer alias in multi-IdP?
+- what is issuer alias multi-IDP?
+- how to map issuer to claims?
+- how to map issueer to claims?
+- how to implement multi-IdP JWT validation?
+- how to implement multi-IDP JTW validation?
+- what are best practices for multi-IdP JWT?
+- what are best practies for multi-IDP JWT?
+- how to test multi-IdP JWT validation?
+- how to test multi-IDP JTW validation?
+- how to register providers in the policy?
+- how to register providors in the policy?
+- how to handle multiple token bindings?
+- how to handle multiple token bingings?
+- what is dynamic JWKS discovery?
+- what is dynamic JWKs discovey?
+- how to use JWKS cache in multi-IdP?
+- how to use JWKS cahce in multi IDP?
+- how to configure timeouts per IdP?
+- how to configure timeots per IDP?
+- how to use rotating keys from multiple IdPs?
+- how to use roating keys from multiple IdPs?
+- how to validate “azp” claim in multi-IdP?
+- how to validate “azp” claim in multi IDP?
+- how to enforce scopes per IdP?
+- how to enforce scops per IDP?
+- what is mixed-mode JWT validation?
+- what is mixed-mode JTW validation?
+- how to handle signature error from one IdP?
+- how to handle signature eror from one IDP?
+- how to monitor multi-IdP validations?
+- how to monitore multi-IdP validations?
+- how to log issuer for each token?
+- how to log isser for each token?
+- what is multi-IdP JW validation?
+- what is multi-IdP JWT validtion?
+- what does multi-IdP JWT valdiation mean?
+- what does multi-IdP JW validation mean?
+- what’s the porpuse of multi-IdP JWT validation?
+- what’s the purpose of multi-IP JWT validation?
+- how to validate JWT from mutiple IdPs?
+- how to valdiate JWT from multiple IdPs?
+- how to validate JTW from multiple IdPs?
+- how to configure multi-IdP JWT in Anypoint?
+- how to configure multi-IdP JWT in Mule?
+- how to config multi-IdP JTW in MuleSoft?
+- what does multi-IdP JWT valdiation do?
+- what does multi-IP JWT validation do?
+- how does multi-IdP JWT valdiation work?
+- how does multi-IdP JWT validation wrk?
+- why use multi-IdP JTW validation?
+- why use multi-IdP JWT valdiation?
+- what are challenges of multi-IdP JTW?
+- what are chalenges of multi-IdP JWT?
+- how to handle JWKs from multiple IdPs?
+- how to handle JWKs fr multiple IdPs?
+- how to handle JWKS from multple IdPs?
+- how to fetch keys from multiple providors?
+- how to fecth keys from several providers?
+- what is JWKS URI in multi-IdP context?
+- what is JWKS URI in multi IP context?
+- how to switch IdPs during JWT validation?
+- how to swith IdPs during token validation?
+- how to map claims from differrent IdPs?
+- how to map clams from different IdPs?
+- what is key rotaion in multi-IDP?
+- what is key rotaton in multi-IdP?
+- how to manage tokens acrss domains?
+- how to manage tokens across doamins?
+- how to configure JWT policiy for multiple IdPs?
+- how to configure JWT policy for multi IP?
+- how to use multiple audience in JWT validation?
+- how to use multiple audences in validation?
+- how to distinguish issuers in multi-IdP?
+- how to distinguish issueers in multi-IDP?
+- what is issuer validtion in multi-IdP?
+- what is issuer validation in multi IDP?
+- how to import JWKS from serval IdPs?
+- how to import JWKS from multple IDPs?
+- how to secure APIs with multi-IdP JTW?
+- how to secure APIs with multi-IDP JWT?
+- how to define truststore for multiple IdPs?
+- how to difine trust stores for multiple IdPs?
+- how to adapt JWT polcies for multiple IdPs?
+- how to adapt JWT policies for multi-IP?
+- how to use public key set multi-IdP?
+- how to use public key set for multi-IDP?
+- what is validation contex for multi-IdP?
+- what is validaton context for multi IDP?
+- how to fallback to second IdP on failure?
+- how to fallback to second IDP on validtion fail?
+#rp_1
 #vr_pt: |
-  A validação de JWT multi-IdP permite que uma mesma API aceite e verifique tokens emitidos por diferentes provedores de identidade, consultando dinamicamente múltiplos JWKS, validando assinatura, emissor e audience de cada token, suportando key rotation e fallback automático para alta disponibilidade e continuidade de serviço.
+A validação de JWT multi-IdP permite que uma mesma API aceite e verifique tokens emitidos por diferentes provedores de identidade, consultando dinamicamente múltiplos JWKS, validando assinatura, emissor e audience de cada token, suportando key rotation e fallback automático para alta disponibilidade e continuidade de serviço.
 #vr_en: |
-  Multi-IdP JWT validation enables a single API to accept and verify tokens issued by multiple identity providers by dynamically fetching and caching multiple JWKS endpoints, validating each token’s signature, issuer and audience, and supporting automatic key rotation and fallback for high availability and uninterrupted service.
-  
+Multi-IdP JWT validation enables a single API to accept and verify tokens issued by multiple identity providers by dynamically fetching and caching multiple JWKS endpoints, validating each token’s signature, issuer and audience, and supporting automatic key rotation and fallback for high availability and uninterrupted service.
+#rp_2
+#vr_pt: |
+RESPOSTA 22
+#vr_en: |
+RESPOTA 2
+---

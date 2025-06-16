@@ -2,8 +2,7 @@ version: '3.1'
 responses:
   utter_documentation_and_dev_portal:
     - custom:
-        response_array:
-          -   - vr_pt: |
-                  O portal de desenvolvedor é a interface web onde consumidores acessam documentação, exemplos de uso, SDKs e tutoriais. Ele conecta ao Anypoint Exchange, permite auto-registro, descoberta de APIs, testes interativos e gerenciamento de chaves de API.
-              - vr_en: |
-                  The developer portal is the web interface where consumers access documentation, usage examples, SDKs, and tutorials. It integrates with Anypoint Exchange, supports self-registration, API discovery, interactive testing, and API key management.
+        vr_pt: |
+          O portal de desenvolvedor é a interface web onde consumidores acessam documentação, exemplos de uso, SDKs e tutoriais. Ele conecta ao Anypoint Exchange, permite auto-registro, descoberta de APIs, testes interativos e gerenciamento de chaves de API.
+        vr_en: |
+          The developer portal is the web interface where consumers access documentation, usage examples, SDKs, and tutorials. It integrates with Anypoint Exchange, supports self-registration, API discovery, interactive testing, and API key management.

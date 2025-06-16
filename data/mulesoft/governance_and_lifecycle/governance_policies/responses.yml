@@ -2,8 +2,7 @@ version: '3.1'
 responses:
   utter_governance_policies:
     - custom:
-        response_array:
-          -   - vr_pt: |
-                  Políticas de governança definem regras e SLAs para garantir conformidade, segurança e disponibilidade das APIs. Elas abrangem controle de acesso, rate limiting, quotas, criptografia, monitoramento de métricas (latência, erros, throughput) e acordos de nível de serviço (SLA) como tempo máximo de resposta, taxa mínima de disponibilidade e recuperação (RTO/RPO). Implementadas via Anypoint Policy Manager, asseguram que as APIs operem dentro de limites acordados e atendam requisitos regulatórios.
-              - vr_en: |
-                  Governance policies define rules and SLAs to ensure API compliance, security and availability. They cover access control, rate limiting, quotas, encryption, monitoring of metrics (latency, error rates, throughput), and service-level agreements (SLAs) such as maximum response time, minimum uptime and recovery objectives (RTO/RPO). Enforced through Anypoint Policy Manager, they ensure APIs operate within agreed parameters and meet regulatory requirements.
+        vr_pt: |
+          Políticas de governança definem regras e SLAs para garantir conformidade, segurança e disponibilidade das APIs. Elas abrangem controle de acesso, rate limiting, quotas, criptografia, monitoramento de métricas (latência, erros, throughput) e acordos de nível de serviço (SLA) como tempo máximo de resposta, taxa mínima de disponibilidade e recuperação (RTO/RPO). Implementadas via Anypoint Policy Manager, asseguram que as APIs operem dentro de limites acordados e atendam requisitos regulatórios.
+        vr_en: |
+          Governance policies define rules and SLAs to ensure API compliance, security and availability. They cover access control, rate limiting, quotas, encryption, monitoring of metrics (latency, error rates, throughput), and service-level agreements (SLAs) such as maximum response time, minimum uptime and recovery objectives (RTO/RPO). Enforced through Anypoint Policy Manager, they ensure APIs operate within agreed parameters and meet regulatory requirements.

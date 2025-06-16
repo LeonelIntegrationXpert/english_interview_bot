@@ -1,0 +1,13 @@
+version: '3.1'
+responses:
+  utter_multi_idp_jwt_validation:
+    - custom:
+        vr_pt: |
+          A validação de JWT multi-IdP permite que uma mesma API aceite e verifique tokens emitidos por diferentes provedores de identidade, consultando dinamicamente múltiplos JWKS, validando assinatura, emissor e audience de cada token, suportando key rotation e fallback automático para alta disponibilidade e continuidade de serviço.
+        vr_en: |
+          Multi-IdP JWT validation enables a single API to accept and verify tokens issued by multiple identity providers by dynamically fetching and caching multiple JWKS endpoints, validating each token’s signature, issuer and audience, and supporting automatic key rotation and fallback for high availability and uninterrupted service.
+    - custom:
+        vr_pt: |
+          RESPOSTA 22
+        vr_en: |
+          RESPOTA 2

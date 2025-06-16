@@ -2,8 +2,7 @@ version: '3.1'
 responses:
   utter_facade_vs_orchestration:
     - custom:
-        response_array:
-          -   - vr_pt: |
-                  Facade é uma camada de abstração que unifica múltiplos serviços ou APIs atrás de uma única interface simples, enquanto Orquestração coordena fluxos e regras de negócio entre serviços de forma centralizada.
-              - vr_en: |
-                  Facade is an abstraction layer that hides multiple services or APIs behind a simple unified interface, whereas orchestration coordinates flows and business rules across services in a centralized manner.
+        vr_pt: |
+          Facade é uma camada de abstração que unifica múltiplos serviços ou APIs atrás de uma única interface simples, enquanto Orquestração coordena fluxos e regras de negócio entre serviços de forma centralizada.
+        vr_en: |
+          Facade is an abstraction layer that hides multiple services or APIs behind a simple unified interface, whereas orchestration coordinates flows and business rules across services in a centralized manner.
