@@ -53,6 +53,10 @@ stories:
     steps:
       - intent: api_caching
       - action: utter_api_caching
+  - story: story_rate_limiting_throttling
+    steps:
+      - intent: rate_limiting_throttling
+      - action: utter_rate_limiting_throttling
   - story: story_jwks_management
     steps:
       - intent: jwks_management

@@ -14354,3 +14354,822 @@ JWKS management involves creating a JSON Web Key Set with public keys and exposi
   Implementar cache em uma API salva em memória ou disco rápido as respostas de chamadas redundantes, diminuindo o tempo de resposta e aliviando o back end. Com opções para segmentar por recurso, cabeçalho ou query e definir políticas de expiração e invalidação, o cache mantém a aplicação rápida e resiliente.
 #vr_en: |
   Implementing caching in an API saves redundant call responses in memory or fast disk, reducing response times and easing backend load. With options to segment by resource, header, or query and set expiration and eviction policies, caching keeps the application fast and resilient.
+---
+#intent: mulesoft/performance_and_scalability/rate_limiting_throttling
+#pt:
+- o que é rate limiting
+- o que é rate limiting?
+- oq é rate limiting?
+- o que é ratelimiting?
+- o que e rate limiting?
+- o que eh rate limiting?
+- o q é rate limiting?
+- o que é rate limting?
+- o que é rste limiting?
+- o que é rate limiing?
+- o que é ratelim iting?
+- o que é rate liimiting?
+- o que é rarate limiting?
+- o que é rate lmiting?
+- o que e rate limiting?
+- o que é rtae limiting?
+- o que é ratelimiting?
+- o que é rate limitng?
+- o que é rrate limiting?
+- o que é rate limiing?
+- o que é rte limiting?
+- o que é rate lmiting?
+- o qu eo é rate limiting?
+- o que é rate limting?
+- o que é rate limit g?
+- o que é rate limi ting?
+- oq ue é rate limiting?
+- o que é ratelim iting?
+- o que é rate limiing?
+- o que é ratelimiting?
+- o que é rate limitting?
+- o que é rateli miting?
+- o que é rrate limiing?
+- o que é rate limting?
+- o que é rate limitnig?
+- ooque é rate limiting?
+- o que é rate limting?
+- o que é rate limitin?
+- o que é rate limitign?
+- o que e rate lmting?
+- o que é rate limiing?
+- o qu é rate limiting?
+- o que é rat limiting?
+- o que é ratelimit ng?
+- o que é rate limting?
+- o que é rate limityng?
+- o que é rrate limting?
+- o que é rate lmit n?
+- o que é rate limit?
+- o que é rate linmitg?
+- o que é rate limti ng?
+- o que é rate liming?
+- o que é rate limting?
+- o que é rate limimg?
+- o que é ratelimting?
+- o que é rate limting?
+- o que é rate limtiing?
+- o que e ratelimiting?
+- o que é rate lmitng?
+- o que é rate limiti ng?
+- o que é ratelimiti ng?
+- o que é rate liminting?
+- o que é rate liimting?
+- o que é rate limting?
+- o que é rate limitng?
+- o que é rate limi ting?
+- o que é rate lmiting?
+- o que é rate lmitng?
+- oq ue é rate limitting?
+- oque é rate limting?
+- o que é ratelimitign?
+- o que é ratelimting?
+- o que é rate limtig?
+- o que é rate limiign?
+- o que é rate limitg?
+- o que é rate limiing?
+- o qu é rate limting?
+- o que é rate liting?
+- o que é rateli mitng?
+- o que é rate limitign?
+- o queé rate limiting?
+- o que é rate limiing?
+- o que é ratelimitnig?
+- o que é rate limtting?
+- o que é rate limi tng?
+- o que e rate limiing?
+- o que é rate limiing?
+- o que é rate limting?
+- o que é rate limiing?
+- o que é rate limtng?
+- o que é rate limtign?
+- o que é ratelim tng?
+- o que é ratelimtng?
+- o que é rate limitg?
+- o que é ratelimigi ng?
+- o que é rate limiitng?
+- o que é rate limitiing?
+- o que é ratelimit ing?
+- o que é ratelimit ing?
+- o que significa throttling
+- o que significa throttling?
+- oq significa throttling?
+- o que signifca throttling?
+- o que signfica throttling?
+- o que siginifica throttling?
+- o que signifiva throttling?
+- o que singifica throttling?
+- o que significa throtling?
+- o que significa throtlling?
+- o que significa throtllng?
+- o que significa throtting?
+- o que significa throttling?
+- o que significa thrtting?
+- o que significa thrrottling?
+- o que significa thrrotting?
+- o que significa throtling?
+- o que significa throtling?
+- o que significa throtling?
+- o que significa throteling?
+- o que significa throteling?
+- o que significa tthrottling?
+- o que significa throttlng?
+- oque significa throttling?
+- oque significa throttling?
+- oqe significa throttling?
+- o q significa throttling?
+- o que eh throttling?
+- o que é throttling?
+- o que é throtling?
+- o que é throtting?
+- o que é thrtooling?
+- o que é thrtoolling?
+- o que e throttling?
+- o que e throtling?
+- o que e throtting?
+- o que e thrtooling?
+- o que e thrtoolling?
+- o que seria throttling?
+- o que seria throtling?
+- o que seria throtting?
+- o que seria thrtooling?
+- como funciona throttling?
+- como funfa throttling?
+- como funfa throtling?
+- como funfa throtting?
+- como funfa thrtooling?
+- por que throttling?
+- pq throttling?
+- pq throtling?
+- pq throtting?
+- pq thrtooling?
+- quando usar throttling?
+- quando usar throtling?
+- quando usar throtting?
+- quando usar thrtooling?
+- pra que serve throttling?
+- pra que serve throtling?
+- pra que serve throtting?
+- pra que serve thrtooling?
+- para que serve throttling?
+- para que serve throtling?
+- para que serve throtting?
+- para que serve thrtooling?
+- qual o sentido de throttling?
+- qual o sentido de throtling?
+- qual o sentido de throtting?
+- qual o sentido de thrtooling?
+- define throttling
+- defina throttling
+- defina throtling
+- defina throtting
+- defina thrtooling
+- descreva throttling
+- descreva throtling
+- descreva throtting
+- descreva thrtooling
+- explique throttling
+- explika throttling
+- explica throtling
+- explica throtting
+- explica thrtooling
+- o que é esse throttling?
+- o que e esse throttling?
+- o q é esse throttling?
+- oq é esse throttling?
+- o que significa esse throttling?
+- o que eh esse throttling?
+- o q significa esse throttling?
+- oq significa throttling?
+- oq signifca throttling?
+- qual significado de throttling?
+- qual significado de throtling?
+- qual significado de throtting?
+- qual significado de thrtooling?
+- o que quer dizer throttling?
+- o que quer dizer throtling?
+- o que quer dizer throtting?
+- o que quer dizer thrtooling?
+- como definir throttling?
+- como definir throtling?
+- como definir throtting?
+- como definir thrtooling?
+- onde aplicar throttling?
+- onde aplicar throtling?
+- onde aplicar throtting?
+- onde aplicar thrtooling?
+- como funciona rate limiting
+- como funciona rate limiting?
+- como funcina rate limiting?
+- como funcona rate limiting?
+- como funciona ratalimiting?
+- como funciona ratelimitng?
+- como funciona rate limting?
+- como funciona rate limiing?
+- como funciona rate limiing?
+- como funciona ratelimiting?
+- como funciona rate limiting no MuleSoft?
+- como funciona ratelimiting?
+- como funcioina rate limiting?
+- como funcion rate limiting?
+- como funciona rate limitng?
+- como funicoa rate limiting?
+- como funciona rate lmiting?
+- como funciona rate limtng?
+- como funcona rate limiing?
+- como funciona rate liming?
+- como funciona rate liming?
+- como funciona rate limting?
+- como fuciona rate limiting?
+- como fuciona rate limiing?
+- como funciona rtae limiting?
+- como funciona rat e limiting?
+- como funciona rate limiing?
+- como funfa rate limiting?
+- como funfa ratelimiting?
+- como funfa rate limting?
+- como funfa rate limiing?
+- como fuuncia rate limiting?
+- cmomo funciona rate limiting?
+- cmomo funcona rate limiting?
+- como funcona ratalimiting?
+- como funciona o rate limiting?
+- como funciona orate limiting?
+- como funciona rate limitng?
+- como funciona rate limtng?
+- como funciona rate imiting?
+- como funciona rate liming?
+- como funciona rate limitingg?
+- como funciona rataelimitng?
+- como funciona rate limiti ng?
+- como funciona rate limi tng?
+- como funciona rate limi ng?
+- como funciona rate limtng?
+- como funciona rate_ limiting?
+- como funciona rate-limiting?
+- como funciona rate limiting no gateway?
+- como funciona rate limiting no API Manager?
+- como funciona ratelimitng no gateway?
+- como funciona rate limting no gateway?
+- como funciona rating limitin?
+- como funciona ratelimting?
+- como funciona rate limit?
+- como funciona rate limit?
+- como funciona rate liming?
+- como funiona rate limiting?
+- como funciona rate limting?
+- como funciona rate libiting?
+- como funciona rate limting?
+- como funciona rate limitign?
+- como funciona rate limitign?
+- como funciona rate limiing?
+- como funciona rate limiing?
+- como funciona rate limtign?
+- como funciona rate lifiting?
+- como funciona rate lifiting?
+- como funciona rate lifiting?
+- como funcia rate limiting?
+- como funcia ratelimiting?
+- como funcia rate limting?
+- como funcia rate limiing?
+- como fucnioa rate limiting?
+- como fucnioa ratelimiting?
+- como fucnioa rate limting?
+- como fucnioa rate liming?
+- como fucnoa rate limiting?
+- como fucnoa rate liming?
+- como funciona ratlimiting?
+- como funciona ratelimitng?
+- como funciona ratelimi ting?
+- como funciona ratelimiti ng?
+- como funciona rate limti ng?
+- como funciona rate limiti ng?
+- como funciona rata limiting?
+- como funciona rato limiting?
+- como funciona rataelimitng?
+- como funciona rateiteming?
+- como funciona rateiteming?
+- como funciona rite limiting?
+- como funciona rite limiting?
+- como funciona rate limiting na Anypoint?
+- como funciona rate limiting no Anypoint?
+- como funciona rate limiting no runtime?
+- como funciona rate limiting runtime?
+- como funciona rate limiting em APIs?
+- como funciona rate limiting em apis?
+- como funciona rate limiting em API?
+- como funciona rate limiting em apI?
+- como funciona rate limitin em API?
+- como funciona rate limiting em gateway?
+- como funciona rate limiing em gateway?
+- como funciona rate liming em gateway?
+- como funciona rate limting em gateway?
+- como funciona throttling
+- para que serve rate limiting
+- para que serve throttling
+- qual a diferença entre rate limiting e throttling
+- como configurar rate limiting no API Manager
+- como configurar throttling no gateway
+- onde definir limites de requisição
+- como aplicar controle de taxa em APIs
+- como prevenir estouro de requests
+- como limitar chamadas simultâneas
+- como evitar sobrecarga do back end
+- quais são os benefícios do rate limiting
+- quais são os benefícios do throttling
+- quando usar rate limiting versus throttling
+- como ajustar o limite de requisições por segundo
+- como configurar bursts de tráfego
+- como monitorar políticas de rate limiting
+- como funciona rate limitin em API?
+- como funciona rate limiting em API?
+- como funciona rate limitng em API?
+- como funciona rate limting em API?
+- como funciona rate limiing em API?
+- como funcioina rate limiting em API?
+- como funcona rate limiting em API?
+- como funciona rate limitin na API?
+- como funciona rate limtig em API?
+- como funcona rate limting em API?
+- como funciona rate limitin em Apis?
+- como funciona rate limiting em Apis?
+- como funciona rate limiting em api?
+- como funciona rate limitin na APi?
+- como funciona rate limitin em APi?
+- como funciona rate limitting em Apis?
+- como funciona rate limitnig em API?
+- como funiona rate limiting em API?
+- como funca rate limiting em API?
+- como funciona ratelimiting em API?
+- como funciona rata limiting em API?
+- como funciona rate lmiting em API?
+- como funciona rate limitig em API?
+- como funciona rate limtiing em API?
+- como funciona rate limiing em APis?
+- como funciona rate limiing em api?
+- como funciona rat limitin em API?
+- como funciona rate limitiing em API?
+- como funciona rate limitting em API?
+- como funciona rate limitng em Apis?
+- como funciona rate limting em api?
+- como funciona rate limitin no API?
+- como funiona rate limitin em API?
+- como funcniona rate limiting em API?
+- como funciona rate limiting na ApI?
+- como funciona rate limiing na API?
+- como funciona rate limitin em APl?
+- como funciona rate limitin no Apis?
+- como funciona rate limitin em Apis?
+- como funcina rate limitin em API?
+- como funciona rate limitnig em api?
+- como funciona rate limitnin em API?
+- como funciona rate limtin em API?
+- como funciona rate ltimiting em API?
+- como funciona rate limitign em API?
+- como funciona rate llimiting em API?
+- como funciona rate limits em API?
+- como funciona rate limig em API?
+- como funciona rate limitin emAPI?
+- como funciona rate limitin em  API?
+- como funciona rate limitinem API?
+- como funciona rate limit in em API?
+- como funciona rate itming em API?
+- como funciona rate limiting emAPI?
+- como funciona rateLimitin em API?
+- como funciona rate limitng em API?
+- como funciona rate limitin em ApI?
+- como funciona rate limiting em aPI?
+- como funciona rate limiing em ApI?
+- como funciona r rate limiting em API?
+- como funiona rate limitiing em API?
+- como funcioa rate limiting em API?
+- como funciona rate limit em API?
+- como funciona ratelimitingem API?
+- como funciona ratelimitin em API?
+- como funciona ratelimitng em API?
+- como funciona ratelimiting em Apis?
+- como funciona rate limiti ng em API?
+- como funciona rate limiti ngem API?
+- como funciona rate liminitng em API?
+- como funciiona rate limitin em API?
+- como funcona rate limitin em API?
+- como funciona rrate limiting em API?
+- como funciona rate limitting em Apis?
+- como funciona rate lilmiting em API?
+- como funciona rate limting em ApIs?
+- como funciona rate limtiing em Api?
+- como funciona rate lolmiting em API?
+- como funciona rate limmiting em API?
+- como funciona rate limiimg em API?
+- como funciona rate limiing em API??
+- como funciona rate limitin em API??
+- como funciona rate limiting em API??
+- como funciona rate limting em API??
+- como funciona rate limiing em Apis??
+- como funciona rate limitin no Apis??
+- como funcona rate limitin em APlS?
+- como funcona rate limiting em APlS?
+- como funciona rate limitin em Apl?
+- como funciona rate limitin em apil?
+- como funciona rate limitin em api gateway?
+- como funciona rate limitin no gateway?
+- como funciona rate limitin no API Gateway?
+- como funciona rate limitin no MuleSoft?
+- como funciona rate limitin no mulesoft?
+- como funciona rate limitin no Anypoint API Manager?
+- como funciona rate limiiting no API Manager?
+- como funciona rate limiting no api manager?
+- como funciona ratelimiting no APImanager?
+- como funciona rate limitin no APIManager?
+#en:
+- what is rate limiting
+- what is rate limiting
+- what iz rate limiting
+- wut is rate limiting
+- what is ratelimiting
+- what is rate limting
+- what is rate limiing
+- what is rate lmiting
+- what is rtae limiting
+- what is rate limtng
+- what is rete limiting
+- what is rate limiing?
+- what is rate limitng?
+- what is rate limi ting
+- what is rate limi ting?
+- what is rate limting?
+- what is rate lliimiting
+- what is ratelmiting
+- what is ratelimitng
+- what is rate limting?
+- what is rate limiing?
+- what is rate limitiing
+- what is rate limitiing?
+- what is ratelimi ting
+- what is ratelimit ing
+- what is ratelimiting?
+- what is rate-limitng
+- what is rate-limitng?
+- what is rate-limiting
+- what is rate-limiting?
+- what is rate limitingg
+- what is rate capping
+- what is rate limiing?
+- what is r8te limiting
+- what is rate liimiting?
+- what is rate liniting
+- what is rate liniting?
+- what is rat limiting
+- what is rat limiting?
+- what is ratelimit ing?
+- what is rate limi tng?
+- what is rate limtng?
+- what is rate limtingg?
+- what iz rate limting
+- what is rate limitng??
+- what iz rate limting?
+- what is rate lkmiting
+- what is rate lkmiting?
+- what is rate lifiting
+- what is rate lifiing
+- what is rzte limiting
+- what is rzte limiting?
+- what is rate styling
+- what is rate sty liting
+- what is rite limiting
+- what is rite limiting?
+- what is rate limiting in MuleSoft
+- what is rate limiting in mulesoft?
+- what is rate limiting API
+- what is rate limiting API?
+- what is rate limeting API
+- what is rate limitng API
+- what is rate limiting erorr
+- what is rate limiting error
+- what is rate limitting
+- what is rate limitting?
+- what is rate limititing
+- what is rate limititng
+- what is rate limitng?
+- what is rate limitiing?
+- what is rate limiitiing
+- what is rate limiitng
+- what is rratelimiting
+- what is rratelimitng
+- what is rr rate limiting
+- what is rrate limiting
+- what is rrate limiing
+- what is rrate limting
+- what is rattelimiting
+- what is rattelimitng
+- what is rattle limiting
+- what is rattle limitng
+- what is rate linitng?
+- what is rate liimiting?
+- what is rate limitin
+- what is rate limitin?
+- what is rate limi tin
+- what is rate limitin
+- what is rate limitign
+- what is rate limting??
+- wht is rate limiting
+- wht iz rate limiting
+- wht is rate limting
+- wht is ratelimiting
+- wht is rte limiting
+- wht is rate limiting?
+- what is rate lmiting?
+- what is rate lmitting
+- what is rate lmitting?
+- what is rate limi ting?
+- what is r8te limit
+- what is rate limit?
+- what is rate limit?
+- what is rate limit?
+- what does throttling mean
+- what does throttling mean
+- what does throtlling mean
+- what does throtling mean
+- what does throtting mean
+- what does throtling mean
+- what does throtling mean?
+- what does throtlling mean?
+- what does throttling mean
+- what does throtllng mean
+- what does throtling mean?
+- what does thrtoolling mean
+- what does throttleing mean
+- what does throtteling mean
+- what does throteling mean
+- what does throttlingg mean
+- what does trottling mean
+- what does throttlig mean
+- what does thrttling mean
+- what doees throttling mean
+- what does throttling meen
+- what does throttling meen?
+- what does throttling mn?
+- what dash throttling mean
+- what does throtling meen
+- what does throtting meen
+- what does throttling signfy
+- what does throttling signify
+- what does throttling signfy?
+- what does throttling siginify
+- what doees throttling meen
+- what does throttlng mean
+- what does throttling meann
+- what does throtling meann
+- wha does throttling mean
+- what does throtling meaan
+- what does thrttlning mean
+- what does throttling mean?
+- what does throttling means
+- what does throtling means
+- what does throtting means
+- what does throttleing mean?
+- what does throttling meng
+- what does throttling meng?
+- what does throtting mean?
+- what does throtling mang
+- what does throttling mang?
+- what does throtting mang?
+- what does throtlling mang?
+- what does throttling mean?
+- what does throteling mean?
+- what does throotling mean
+- what does throating mean
+- what does threatling mean
+- what does throttlign mean
+- what does throttlig mean?
+- what does throttling means
+- what does throttling mani
+- what does throttling mani?
+- what does throtlling mani
+- what does throting mean
+- what does throttling signific
+- what does throttling signifie
+- what does throttling signifiy
+- what does throttling signiffy
+- what does throttling siginif
+- what does throttling signig
+- what does throttling siginfi?
+- what does trolleying mean
+- what does throttlig mean?
+- what does thrtting mena
+- what does thrttlning mena
+- what does throttling mena
+- what does throtlling mena
+- what does throtting mena?
+- what does throtling mena?
+- what does throttling mean?
+- what deos throttling mean
+- what does throttling men
+- what does throttling men?
+- what does throtting men
+- what does throtting mend
+- what does throttling mend?
+- what does throtting mend?
+- what does throttling mend?
+- what does throttleling mean?
+- what does throttleing mean?
+- what does throtteling mean?
+- what does throtelling mean?
+- what does throtelling mean?
+- what does throttling meen
+- what does throtting meen
+- what does trotteling mean
+- what does trosling mean
+- what does throo ttling mean
+- what does throttlign mean
+- what does trosling mean?
+- what does throttlerg mean
+- what does throttlign mean?
+- you know what throttling means
+- you know what throttling means?
+- you know what does throttling mean
+- you know what does throttling mean?
+- you know what throttling is
+- you know what throttling is?
+- you know what throttling refers to
+- you know what throttling refers to?
+- you know what throttling entails
+- you know what throttling entails?
+- you know what throttling implies
+- you know what throttling implies?
+- you know what throttling indicates
+- you know what throttling indicates?
+- you know what throttling defines
+- you know what throttling defines?
+- you know what throttling represents
+- you know what throttling represents?
+- you know what throttling stands for
+- you know what throttling stands for?
+- you know what throttling covers
+- you know what throttling covers?
+- you know what throttling describes
+- you know what throttling describes?
+- you know what throttling involves
+- you know what throttling involves?
+- you know what throttling covers?
+- you know what throttling signifies
+- you know what throttling signifies?
+- you know what throttling signals
+- you know what throttling signals?
+- you know what throttling covers?
+- you know what throttling entails?
+- you know what throttling is about
+- you know what throttling is about?
+- you know what throttling actually means
+- you know what throttling actually means?
+- you know what throttling really means
+- you know what throttling really means?
+- you know what throttling exactly means
+- you know what throttling exactly means?
+- you know what throttling literally means
+- you know what throttling literally means?
+- you know what throttling technically means
+- you know what throttling technically means?
+- you know what throttling in APIs means
+- you know what throttling in APIs means?
+- you know what throttling in networking means
+- you know what throttling in networking means?
+- you know what throttling in systems means
+- you know what throttling in systems means?
+- you know what throttling mechanism means
+- you know what throttling mechanism means?
+- you know what throttling policy means
+- you know what throttling policy means?
+- you know what throttling rule means
+- you know what throttling rule means?
+- you know what throttling strategy means
+- you know what throttling strategy means?
+- you know what throttling technique means
+- you know what throttling technique means?
+- you know what throttling approach means
+- you know what throttling approach means?
+- you know what throttling concept means
+- you know what throttling concept means?
+- you know what throttling principle means
+- you know what throttling principle means?
+- you know what throttling pattern means
+- you know what throttling pattern means?
+- you know what throttling configuration means
+- you know what throttling configuration means?
+- you know what throttling setting means
+- you know what throttling setting means?
+- you know what throttling feature means
+- you know what throttling feature means?
+- you know what throttling option means
+- you know what throttling option means?
+- you know what throttling parameter means
+- you know what throttling parameter means?
+- you know what throttling value means
+- you know what throttling value means?
+- you know what throttling threshold means
+- you know what throttling threshold means?
+- you know what throttling limit means
+- you know what throttling limit means?
+- you know what throttling cap means
+- you know what throttling cap means?
+- you know what throttling control means
+- you know what throttling control means?
+- you know what throttling enforcement means
+- you know what throttling enforcement means?
+- you know what throttling enforcement entails
+- you know what throttling enforcement entails?
+- you know what throttling enforcement covers
+- you know what throttling enforcement covers?
+- you know what throttling implementation means
+- you know what throttling implementation means?
+- you know what throttling in MuleSoft means
+- you know what throttling in MuleSoft means?
+- you know what throttling in API Gateway means
+- you know what throttling in API Gateway means?
+- you know what throttling configuration in MuleSoft means
+- you know what throttling configuration in MuleSoft means?
+- you know what throttling policy in MuleSoft means
+- you know what throttling policy in MuleSoft means?
+- you know what throttling rule in MuleSoft means
+- you know what throttling rule in MuleSoft means?
+- you know what throttling feature in API Manager means
+- you know what throttling feature in API Manager means?
+- you know what throttling enforcement in API Manager means
+- you know what throttling enforcement in API Manager means?
+- you know what throttling parameter in API Manager means
+- you know what throttling parameter in API Manager means?
+- you know what throttling strategy in API Manager means
+- you know what throttling strategy in API Manager means?
+- how does rate limiting work
+- how does throttling work
+- what is the purpose of rate limiting
+- what is the purpose of throttling
+- what is the difference between rate limiting and throttling
+- how to configure rate limiting in API Manager
+- how to configure throttling in the gateway
+- where to set request limits
+- how to apply request rate control in APIs
+- how to prevent request floods
+- how to limit concurrent calls
+- how to avoid backend overload
+- what are the benefits of rate limiting
+- what are the benefits of throttling
+- when to use rate limiting versus throttling
+- how to tune requests per second limit
+- how to configure traffic bursts
+- how to monitor rate limiting policies
+#rp_1
+#vr_pt: |
+  Rate limiting define um limite fixo de chamadas em um período, por exemplo dez requisições por segundo, enquanto throttling permite rajadas momentâneas e depois desacelera até o ritmo definido. Essas técnicas evitam sobrecarga e garantem que as APIs permaneçam disponíveis sob alta demanda. Você pode aplicar limites por usuário, por aplicativo ou por chave de API para proteger o sistema de picos extremos.
+#vr_en: |
+  Rate limiting sets a fixed cap on calls within a time window, for example ten requests per second, whereas throttling allows temporary bursts and then slows down to the defined rate. These methods prevent overload and ensure APIs remain available under high demand. You can apply limits per user, application, or API key to protect the system from extreme spikes.
+#rp_2
+#vr_pt: |
+  Com rate limiting você delimita o total de requisições em um intervalo, como dez chamadas por segundo, e com throttling você aceita rajadas curtas, mas reduz o fluxo adicional até retornar ao limite. Juntas, essas políticas mantêm o desempenho e a estabilidade das APIs, evitando que picos repentinos causem falhas ou lentidão.
+#vr_en: |
+  With rate limiting you cap the total number of requests in a time frame, such as ten calls per second, and with throttling you permit short bursts but reduce extra traffic until the limit is restored. Together these policies maintain API performance and stability, preventing sudden spikes from causing failures or slowdowns.
+#rp_3
+#vr_pt: |
+  Rate limiting aplica uma barreira rígida de requisições, pondo um teto como dez acessos por segundo, enquanto throttling tolera picos interrompendo chamadas adicionais até o retorno ao fluxo permitido. Isso protege o back end de sobrecarga e assegura que todos os clientes obtenham resposta consistente.
+#vr_en: |
+  Rate limiting enforces a hard barrier on requests, setting a ceiling such as ten accesses per second, whereas throttling tolerates bursts by blocking additional calls until the allowed rate resumes. This protects the backend from overload and ensures consistent response for all clients.
+#rp_4
+#vr_pt: |
+  A técnica de rate limiting bloqueia requisições além de um limite, por exemplo dez por segundo, e o throttling libera picos breves mas retarda as chamadas seguintes até normalizar o ritmo. Ajustando essas regras por chave de API, usuário ou aplicação, você controla o tráfego e mantém a disponibilidade.
+#vr_en: |
+  The rate limiting technique blocks requests beyond a set limit, for example ten per second, and throttling allows brief bursts but delays subsequent calls until the rate normalizes. By tuning these rules per API key, user, or application, you control traffic and maintain availability.
+#rp_5
+#vr_pt: |
+  Rate limiting e throttling gerenciam o fluxo de requisições. No rate limiting você fixa um máximo, como dez requisições por segundo, e no throttling você admite explosões de tráfego controladas, reduzindo a velocidade até o valor definido. Isso evita queda de performance e mantém a API estável.
+#vr_en: |
+  Rate limiting and throttling manage request flow. In rate limiting you fix a maximum, such as ten requests per second, and in throttling you allow controlled traffic bursts by slowing down to the defined rate. This prevents performance degradation and keeps the API stable.
+#rp_6
+#vr_pt: |
+  Com rate limiting você define um teto rígido de acessos, por exemplo dez chamadas por segundo, e com throttling você aceita variações momentâneas, mas desacelera após o pico até voltar ao limite. Essas políticas garantem que a API não seja sobrecarregada e permaneça responsiva.
+#vr_en: |
+  With rate limiting you set a rigid access ceiling, for example ten calls per second, and with throttling you allow momentary fluctuations but slow down after the burst until returning to the limit. These policies ensure the API is not overloaded and remains responsive.
+#rp_7
+#vr_pt: |
+  No rate limiting você impõe um teto de requisições em um intervalo, como dez por segundo, enquanto o throttling aceita curtos picos e depois retarda as chamadas extras. Ao configurar esses controles por usuário, app ou chave, você evita que o serviço fique indisponível em momentos de alta demanda.
+#vr_en: |
+  In rate limiting you impose a request ceiling in a time interval, like ten per second, whereas throttling accepts short peaks and then slows extra calls. By configuring these controls per user, app, or key, you prevent service unavailability during peak demand.
+#rp_8
+#vr_pt: |
+  Rate limiting trava requisições acima de um limite, por exemplo dez por segundo, e o throttling permite explosões breves, mas desacelera o tráfego subsequente. Assim você equilibra performance e disponibilidade, evitando que picos interrompam o serviço.
+#vr_en: |
+  Rate limiting locks out requests above a limit, for example ten per second, and throttling allows brief bursts but slows subsequent traffic. You thereby balance performance and availability, preventing spikes from disrupting the service.
+#rp_9
+#vr_pt: |
+  Ao usar rate limiting você bloqueia requisições além de um limite, digamos dez por segundo, e com throttling você admite picos controlados, reduzindo a vazão até atingir o nível combinado. Essas práticas evitam lentidão, crashes e mantêm todos os usuários atendidos.
+#vr_en: |
+  By using rate limiting you block requests beyond a limit, say ten per second, and with throttling you allow controlled peaks by reducing throughput until the agreed level. These practices prevent slowdowns, crashes, and keep all users served.
+#rp_10
+#vr_pt: |
+  Rate limiting aplica um bloqueio rígido após um número de chamadas, por exemplo dez por segundo, e throttling libera picos momentâneos, mas impõe retardo até retornar ao padrão. Definindo regras por cliente, usuário ou chave de API, você mantém o sistema estável contra variações de carga.
+#vr_en: |
+  Rate limiting applies a hard block after a number of calls, for example ten per second, and throttling allows momentary peaks but imposes delay until the pattern resumes. By setting rules per client, user, or API key, you keep the system stable against load variations.

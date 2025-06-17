@@ -14,6 +14,7 @@ intents:
   - governance_policies
   - lifecycle_management_exchange
   - api_caching
+  - rate_limiting_throttling
   - jwks_management
   - multi_idp_jwt_validation
   - oauth2_jwt

@@ -1,0 +1,53 @@
+version: '3.1'
+responses:
+  utter_rate_limiting_throttling:
+    - custom:
+        vr_pt: |
+          Rate limiting define um limite fixo de chamadas em um período, por exemplo dez requisições por segundo, enquanto throttling permite rajadas momentâneas e depois desacelera até o ritmo definido. Essas técnicas evitam sobrecarga e garantem que as APIs permaneçam disponíveis sob alta demanda. Você pode aplicar limites por usuário, por aplicativo ou por chave de API para proteger o sistema de picos extremos.
+        vr_en: |
+          Rate limiting sets a fixed cap on calls within a time window, for example ten requests per second, whereas throttling allows temporary bursts and then slows down to the defined rate. These methods prevent overload and ensure APIs remain available under high demand. You can apply limits per user, application, or API key to protect the system from extreme spikes.
+    - custom:
+        vr_pt: |
+          Com rate limiting você delimita o total de requisições em um intervalo, como dez chamadas por segundo, e com throttling você aceita rajadas curtas, mas reduz o fluxo adicional até retornar ao limite. Juntas, essas políticas mantêm o desempenho e a estabilidade das APIs, evitando que picos repentinos causem falhas ou lentidão.
+        vr_en: |
+          With rate limiting you cap the total number of requests in a time frame, such as ten calls per second, and with throttling you permit short bursts but reduce extra traffic until the limit is restored. Together these policies maintain API performance and stability, preventing sudden spikes from causing failures or slowdowns.
+    - custom:
+        vr_pt: |
+          Rate limiting aplica uma barreira rígida de requisições, pondo um teto como dez acessos por segundo, enquanto throttling tolera picos interrompendo chamadas adicionais até o retorno ao fluxo permitido. Isso protege o back end de sobrecarga e assegura que todos os clientes obtenham resposta consistente.
+        vr_en: |
+          Rate limiting enforces a hard barrier on requests, setting a ceiling such as ten accesses per second, whereas throttling tolerates bursts by blocking additional calls until the allowed rate resumes. This protects the backend from overload and ensures consistent response for all clients.
+    - custom:
+        vr_pt: |
+          A técnica de rate limiting bloqueia requisições além de um limite, por exemplo dez por segundo, e o throttling libera picos breves mas retarda as chamadas seguintes até normalizar o ritmo. Ajustando essas regras por chave de API, usuário ou aplicação, você controla o tráfego e mantém a disponibilidade.
+        vr_en: |
+          The rate limiting technique blocks requests beyond a set limit, for example ten per second, and throttling allows brief bursts but delays subsequent calls until the rate normalizes. By tuning these rules per API key, user, or application, you control traffic and maintain availability.
+    - custom:
+        vr_pt: |
+          Rate limiting e throttling gerenciam o fluxo de requisições. No rate limiting você fixa um máximo, como dez requisições por segundo, e no throttling você admite explosões de tráfego controladas, reduzindo a velocidade até o valor definido. Isso evita queda de performance e mantém a API estável.
+        vr_en: |
+          Rate limiting and throttling manage request flow. In rate limiting you fix a maximum, such as ten requests per second, and in throttling you allow controlled traffic bursts by slowing down to the defined rate. This prevents performance degradation and keeps the API stable.
+    - custom:
+        vr_pt: |
+          Com rate limiting você define um teto rígido de acessos, por exemplo dez chamadas por segundo, e com throttling você aceita variações momentâneas, mas desacelera após o pico até voltar ao limite. Essas políticas garantem que a API não seja sobrecarregada e permaneça responsiva.
+        vr_en: |
+          With rate limiting you set a rigid access ceiling, for example ten calls per second, and with throttling you allow momentary fluctuations but slow down after the burst until returning to the limit. These policies ensure the API is not overloaded and remains responsive.
+    - custom:
+        vr_pt: |
+          No rate limiting você impõe um teto de requisições em um intervalo, como dez por segundo, enquanto o throttling aceita curtos picos e depois retarda as chamadas extras. Ao configurar esses controles por usuário, app ou chave, você evita que o serviço fique indisponível em momentos de alta demanda.
+        vr_en: |
+          In rate limiting you impose a request ceiling in a time interval, like ten per second, whereas throttling accepts short peaks and then slows extra calls. By configuring these controls per user, app, or key, you prevent service unavailability during peak demand.
+    - custom:
+        vr_pt: |
+          Rate limiting trava requisições acima de um limite, por exemplo dez por segundo, e o throttling permite explosões breves, mas desacelera o tráfego subsequente. Assim você equilibra performance e disponibilidade, evitando que picos interrompam o serviço.
+        vr_en: |
+          Rate limiting locks out requests above a limit, for example ten per second, and throttling allows brief bursts but slows subsequent traffic. You thereby balance performance and availability, preventing spikes from disrupting the service.
+    - custom:
+        vr_pt: |
+          Ao usar rate limiting você bloqueia requisições além de um limite, digamos dez por segundo, e com throttling você admite picos controlados, reduzindo a vazão até atingir o nível combinado. Essas práticas evitam lentidão, crashes e mantêm todos os usuários atendidos.
+        vr_en: |
+          By using rate limiting you block requests beyond a limit, say ten per second, and with throttling you allow controlled peaks by reducing throughput until the agreed level. These practices prevent slowdowns, crashes, and keep all users served.
+    - custom:
+        vr_pt: |
+          Rate limiting aplica um bloqueio rígido após um número de chamadas, por exemplo dez por segundo, e throttling libera picos momentâneos, mas impõe retardo até retornar ao padrão. Definindo regras por cliente, usuário ou chave de API, você mantém o sistema estável contra variações de carga.
+        vr_en: |
+          Rate limiting applies a hard block after a number of calls, for example ten per second, and throttling allows momentary peaks but imposes delay until the pattern resumes. By setting rules per client, user, or API key, you keep the system stable against load variations.
