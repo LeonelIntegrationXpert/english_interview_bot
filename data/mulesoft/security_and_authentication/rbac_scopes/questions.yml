@@ -1,0 +1,604 @@
+version: '3.1'
+nlu:
+  - intent: rbac_scopes
+    examples: |
+      - o que é controle de acesso baseado em papéis
+      - o que significa RBAC
+      - como funciona o RBAC
+      - como funciona o RBAC?
+      - como funfa o RBAC?
+      - como funcina o RBAC?
+      - como funciona o Rbac?
+      - como funciona RBAC?
+      - como funcona o RBAC?
+      - como funciona o RBAC no Anypoint?
+      - como funcioa o RBAC?
+      - como funciona o R B A C?
+      - como funciona o controle de acesso por papel?
+      - como funciona o controle de acesso baseado em papeis?
+      - como funfa o controle de acesso baseado em papeis?
+      - o que é o RBAC?
+      - o q é o RBAC?
+      - como teste o RBAC?
+      - como validar o RBAC?
+      - me explica como funciona o RBAC?
+      - me esplica como funfa o RBAC?
+      - me diz como funciona o RBAC?
+      - vc sabe como funfa o RBAC?
+      - tu sabe como funciona o RBAC?
+      - tu sabe funfa o RBAC?
+      - de q modo funciona o RBAC?
+      - de que modo funfa o RBAC?
+      - de que forma funciona o RBAC?
+      - de q forma funfa o RBAC?
+      - como ocorre o funcionamento do RBAC?
+      - como ocorre o funcc da RBAC?
+      - como opera o RBAC?
+      - como opera o Rbac?
+      - como opea o RBAC?
+      - qual o funcionamento do RBAC?
+      - qual o funconamento do RBAC?
+      - qual é o funcionamento do RBAC?
+      - qual é a funcao do RBAC?
+      - como funciona o modelo RBAC?
+      - como funfa o modelo RBAC?
+      - como funciona o sistema RBAC?
+      - como se usa o RBAC?
+      - como se usa o Rbac?
+      - como se aplica o RBAC?
+      - como se aplica o Rbac?
+      - como aplicar o RBAC?
+      - como add o RBAC?
+      - como config o RBAC?
+      - como configurar RBAC?
+      - como configurar o RBAC?
+      - como se configura o RBAC?
+      - onde funciona o RBAC?
+      - onde funfa o RBAC?
+      - por onde funfa o RBAC?
+      - quando funciona o RBAC?
+      - quando se usa o RBAC?
+      - quando aplicar o RBAC?
+      - pq funfa o RBAC?
+      - pq funciona o RBAC?
+      - por que funfa o RBAC?
+      - por que funciona o RBAC?
+      - me conta como funfa o RBAC?
+      - me conta como funciona o RBAC?
+      - explica o como funfa o RBAC?
+      - explica como funciona o RBAC?
+      - explika como funfa o RBAC?
+      - explika como funciona o RBAC?
+      - expica como funfa o RBAC?
+      - expica como funciona o RBAC?
+      - como faça para funfar o RBAC?
+      - como fazer é funfar o RBAC?
+      - como faz o RBAC funfar?
+      - como faz o RBAC funcionar?
+      - como faz o Rbac funcionar?
+      - como se faz o RBAC funcionar?
+      - como se faz RBAC funfar?
+      - como se faz RBAC funcionar?
+      - me mostre como funfa o RBAC?
+      - me mostre como funciona o RBAC?
+      - mostre como funfa o RBAC?
+      - mostre como funciona o RBAC?
+      - demonstre como funfa o RBAC?
+      - demonstre como funciona o RBAC?
+      - demonstra como funfa o RBAC?
+      - demonstra como funciona o RBAC?
+      - demonstre funcc RBAC?
+      - demonstre funçaõ RBAC?
+      - mostre funfa o RBAC?
+      - mostre funcionamento do RBAC?
+      - como ocorre o RBAC?
+      - como ocorra o RBAC?
+      - como ocorre Rbac?
+      - como se da o RBAC?
+      - como se dá o RBAC?
+      - como se da Rbac?
+      - qto funciona o RBAC?
+      - qto funfa o RBAC?
+      - quanto tempo o RBAC leva para funfar?
+      - me diz o fluxo do RBAC?
+      - me diz o fluxo de funçao do RBAC?
+      - qual o fluxo do RBAC?
+      - qual é o fluxo do RBAC?
+      - qual eh o fluxo do RBAC?
+      - como criar scopes no OAuth2?
+      - como criar escopos no OAuth2?
+      - como criar scope no OAuth2?
+      - como crirar scopes no OAuth2?
+      - como crlar scopes no OAuth2?
+      - como crair scopes no OAuth2?
+      - como craar escopos no OAuth2?
+      - como definir scopes no OAuth2?
+      - como definir escopos no OAuth2?
+      - como setar scopes no OAuth2?
+      - como setar escopos no OAuth2?
+      - como colocar scopes no OAuth2?
+      - como colocar escopos no OAuth2?
+      - como adicionar scopes no OAuth2?
+      - como adicionar escopos no OAuth2?
+      - como incluir scopes no OAuth2?
+      - como incluir escopos no OAuth2?
+      - como registrar scopes no OAuth2?
+      - como registrar escopos no OAuth2?
+      - como cadastrar scopes no OAuth2?
+      - como cadastrar escopos no OAuth2?
+      - como configurar scopes no OAuth2?
+      - como configurar escopos no OAuth2?
+      - onde criar scopes no OAuth2?
+      - onde criar escopos no OAuth2?
+      - onde definir scopes no OAuth2?
+      - onde definir escopos no OAuth2?
+      - onde setar scopes no OAuth2?
+      - onde setar escopos no OAuth2?
+      - onde adicionar scopes no OAuth2?
+      - onde adicionar escopos no OAuth2?
+      - qual comando para criar scopes no OAuth2?
+      - qual comando para criar escopos no OAuth2?
+      - qual endpoint cria scopes no OAuth2?
+      - qual endpoint cria escopos no OAuth2?
+      - tu sabe criar scopes no OAuth2?
+      - vc sabe criar escopos no OAuth2?
+      - me explica como criar scopes no OAuth2?
+      - me explica como criar escopos no OAuth2?
+      - me mostra como criar scopes no OAuth2?
+      - me mostra como criar escopos no OAuth2?
+      - como faz para criar scopes no OAuth2?
+      - como faz para criar escopos no OAuth2?
+      - cmo criar scopes no OAuth2?
+      - cmo criar escopos no OAuth2?
+      - cmmo criar scopes no OAuth2?
+      - clmo criar escopos no OAuth2?
+      - explicita criar scopes no OAuth2?
+      - explicita criar escopos no OAuth2?
+      - demonstra criar scopes no OAuth2?
+      - demonstra criar escopos no OAuth2?
+      - como implementar criação de scopes no OAuth2?
+      - como implementar criação de escopos no OAuth2?
+      - como codar scopes no OAuth2?
+      - como codar escopos no OAuth2?
+      - como programar scopes no OAuth2?
+      - como programar escopos no OAuth2?
+      - como scriptar scopes no OAuth2?
+      - como scriptar escopos no OAuth2?
+      - como automatizar criação de scopes no OAuth2?
+      - como automatizar criação de escopos no OAuth2?
+      - como orquestrar scopes no OAuth2?
+      - como orquestrar escopos no OAuth2?
+      - como provisionar scopes no OAuth2?
+      - como provisionar escopos no OAuth2?
+      - como montar scopes no OAuth2?
+      - como montar escopos no OAuth2?
+      - como gerar scopes no OAuth2?
+      - como gerar escopos no OAuth2?
+      - como construir scopes no OAuth2?
+      - como construir escopos no OAuth2?
+      - como subir scopes no OAuth2?
+      - como subir escopos no OAuth2?
+      - como fazer upload de scopes no OAuth2?
+      - como fazer upload de escopos no OAuth2?
+      - como importar scopes no OAuth2?
+      - como importar escopos no OAuth2?
+      - como exportar scopes no OAuth2?
+      - como exportar escopos no OAuth2?
+      - como versionar scopes no OAuth2?
+      - como versionar escopos no OAuth2?
+      - como revisar scopes no OAuth2?
+      - como revisar escopos no OAuth2?
+      - como auditar scopes no OAuth2?
+      - como auditar escopos no OAuth2?
+      - como monitorar scopes no OAuth2?
+      - como monitorar escopos no OAuth2?
+      - como testar scopes no OAuth2?
+      - como testar escopos no OAuth2?
+      - como validar scopes no OAuth2?
+      - como validar escopos no OAuth2?
+      - como verificar scopes no OAuth2?
+      - como verificar escopos no OAuth2?
+      - por que criar scopes no OAuth2?
+      - por que criar escopos no OAuth2?
+      - qual finalidade criar scopes no OAuth2?
+      - qual finalidade criar escopos no OAuth2?
+      - qual benefício ter scopes no OAuth2?
+      - qual benefício ter escopos no OAuth2?
+      - quais cuidados ao criar scopes no OAuth2?
+      - quais cuidados ao criar escopos no OAuth2?
+      - quais boas práticas para scopes no OAuth2?
+      - quais boas práticas para escopos no OAuth2?
+      - quais erros evitar ao criar scopes no OAuth2?
+      - quais erros evitar ao criar escopos no OAuth2?
+      - como documentar scopes no OAuth2?
+      - como documentar escopos no OAuth2?
+      - onde documentar scopes no OAuth2?
+      - onde documentar escopos no OAuth2?
+      - que nome dar aos scopes no OAuth2?
+      - que nome dar aos escopos no OAuth2?
+      - como nomear scopes no OAuth2?
+      - como nomear escopos no OAuth2?
+      - como agrupar scopes no OAuth2?
+      - como agrupar escopos no OAuth2?
+      - como hierarquizar scopes no OAuth2?
+      - como hierarquizar escopos no OAuth2?
+      - para que serve o RBAC
+      - qual a finalidade do RBAC
+      - como configurar RBAC no Anypoint
+      - onde definir papéis no RBAC
+      - como mapear permissões em RBAC
+      - por que usar RBAC em APIs
+      - quais benefícios do RBAC
+      - o que são scopes em OAuth2
+      - para que servem os scopes
+      - como criar scopes no OAuth2
+      - onde configurar scopes na API
+      - qual a diferença entre papéis e scopes
+      - como validar scopes no gateway
+      - como aplicar RBAC e scopes juntos
+      - como gerenciar papéis e escopos
+      - o que garante o uso de RBAC e scopes
+      - quais vantagens de usar RBAC com scopes
+      - como crias scopes no OAuth2?
+      - como crar scopes no OAuth2?
+      - como crriar scopes no OAuth2?
+      - como criar scops no OAuth2?
+      - como criar scoops no OAuth2?
+      - como criar scpoes no OAuth2?
+      - como criar scopes no Oauth2?
+      - como criar scopes no OAUth2?
+      - como criar scopes no Oauth dois?
+      - como criar scopes no OA uth2?
+      - como criar scopses no OAuth2?
+      - como criar receitas scopes no OAuth2?
+      - como criar scopses no Oauth dois?
+      - como criar escopos no Oauth2?
+      - como criar escopos no OAuth dois?
+      - como criar escopos no OA uth2?
+      - como criar scope no OAuth dois?
+      - como criar scopes no protocol OAuth2?
+      - como criar scopes em OAuth2?
+      - como implementar scopes no OAuth2?
+      - como habilitar scopes no OAuth2?
+      - como ativar scopes no OAuth2?
+      - onde config scopes no OAuth2?
+      - onde cadastrar scopes no OAuth2?
+      - onde habilitar scopes no OAuth2?
+      - onde ativar scopes no OAuth2?
+      - onde implementar scopes no OAuth2?
+      - qual sintaxe pra criar scopes no OAuth2?
+      - qual endpoint para scopes no OAuth2?
+      - como usar CLI para criar scopes no OAuth2?
+      - como usar GUI para criar scopes no OAuth2?
+      - me ajuda a criar scopes no OAuth2?
+      - me fala como criar scopes no OAuth2?
+      - me diz como criar scopes no OAuth2?
+      - tu sabes criar scopes no OAuth2?
+      - vc sabe como criar scopes no OAuth2?
+      - tu sabe criar scopes no OAuth dois?
+      - vc sabe criar scopes no Oauth dois?
+      - tu manja criar scopes no OAuth2?
+      - vc manja criar scopes no OAuth2?
+      - como faço pra criar scopes no OAuth2?
+      - como faço para criar scopes no OAuth2?
+      - como faco para criar scopes no OAuth2?
+      - como faco pra criar scopes no OAuth2?
+      - cmo criar escape no OAuth2?
+      - cmo cria scopes no OAuth2?
+      - como criar sco pes no OAuth2?
+      - como criar scoopes no OAuth2?
+      - como crar sco pes no OAuth2?
+      - como crair scoop no OAuth2?
+      - como cria scopes no OAuth dois?
+      - como criar scopes no OAuth2 localmente?
+      - como criar scopes no OAuth2 online?
+      - como criar scopes no OAuth2 web?
+      - como criar scopes no OAuth2 portal?
+      - como criar scopes no OAuth2 console?
+      - como criar scopes no OAuth2 manager?
+      - como realizar criação de scopes no OAuth2?
+      - como executar criação de scopes no OAuth2?
+      - como desenvolver scopes no OAuth2?
+      - como orquestrar criação de scopes no OAuth2?
+      - como disparar job para criar scopes no OAuth2?
+      - como pipeline cria scopes no OAuth2?
+      - what is role based access control
+      - what does RBAC mean
+      - how does RBAC work
+      - how does rbac work
+      - how does Rbac work
+      - how doas RBAC work
+      - how does RBAC wk
+      - how does RBAC wrk
+      - how dos RBAC work
+      - how dose RBAC work
+      - how doesRBAC work
+      - how does RBACwrk
+      - how does R B A C work
+      - how does R B A C wrk
+      - how does role based access control work
+      - how does rolebased access control work
+      - how does role based accesscntrol work
+      - how does rol based access control work
+      - how doez RBAC work
+      - how doez rbac work
+      - how duz RBAC work
+      - how duz rbac work
+      - how does RBAC function
+      - how does RBAC funciton
+      - how does RBAC fucntion
+      - how does RBAC fucntion?
+      - how dooes RBAC work
+      - how doees RBAC work
+      - how do RBAC work
+      - how do RBAC works
+      - how do rbac works
+      - how does the RBAC work
+      - how does teh RBAC work
+      - how does the rbac work?
+      - hoo does RBAC work
+      - how does RBAC wotk
+      - how does RBAC woek
+      - how does RBAC wok
+      - how dos rbac wk?
+      - how does rbac wk
+      - how does rbac wrk?
+      - how does rbac wrk
+      - how do rbac work
+      - how do rbac works?
+      - how do rbac wrk?
+      - how do rbac wrk
+      - howdo es RBAC work
+      - howdo es rbac work
+      - howdo rbac work?
+      - hw does RBAC work
+      - hw does rbac work
+      - hwo does RBAC work
+      - hwo does rbac work
+      - ho does RBAC work
+      - ho does rbac work
+      - howoften does RBAC work
+      - how often does RBAC work
+      - how ofthen does RBAC work
+      - how ofthen does rbac work
+      - how does RBAC actually work
+      - how dose RBAC actually work
+      - how does rbac actually work
+      - how RKAC work?
+      - how Rbac wrk?
+      - how does RB AC work
+      - how does RB AC wk
+      - how does RB AC wrk
+      - how does RB AC work?
+      - how does RBAC operate
+      - how does RBAC operte
+      - how does RBAC opreate
+      - how does rbac operate?
+      - how does rbac operate
+      - how does rbac oprt
+      - how does rbac oprte
+      - how does rbac oprate?
+      - howdoes RBAC work
+      - howdoes rbac work
+      - howdoesRBAC work
+      - howdoes rbacwr k
+      - how does RBAC really work
+      - how does rbac really work
+      - how does RBAC relly work
+      - how does rbac relly work
+      - how does RBAC reallly work
+      - how does rbac reallly work
+      - how does RBAC reallu work
+      - how does rbac reallu work
+      - how does RBAC wlork
+      - how does rbac wlork
+      - how does RB AC wlrk?
+      - how does RB AC wrok?
+      - how does RBAC wrok?
+      - how does rbca work
+      - how does rbca wrk
+      - how does RBCA work
+      - how does RBCA wrk
+      - how doz RBAC work
+      - how dz RBAC work
+      - how dz rbac work?
+      - how doez rbac wrk
+      - what is the purpose of RBAC
+      - why use RBAC
+      - how to configure RBAC in Anypoint
+      - where to define roles in RBAC
+      - how to map permissions with RBAC
+      - why implement RBAC for APIs
+      - what are the benefits of RBAC
+      - whats the purpose of RBAC
+      - what s the purpose of RBAC
+      - what is purpose of RBAC
+      - what is the purpse of RBAC
+      - what is the purpse of rbac
+      - what is the porpose of RBAC
+      - what is the porpose of rbac
+      - what is the porpuse of RBAC
+      - what is the purpso of RBAC
+      - what is the purpso of rbac
+      - what is the purpose of Rbac
+      - what is the purpose of rbac
+      - what is the purpose RBAC
+      - what is purpose RBAC
+      - what s the purpose RBAC
+      - what s purpose of RBAC
+      - whats purpose of RBAC
+      - wht is the purpose of RBAC
+      - whts the purpose of RBAC
+      - wht is purpose of RBAC
+      - wht is the purpse of RBAC
+      - wht is the purpose of rbac
+      - what iz the purpose of RBAC
+      - what iz the purpose of rbac
+      - what iz purpose of RBAC
+      - what iz the purpse of RBAC
+      - wut is the purpose of RBAC
+      - wut is purpose of RBAC
+      - wut s the purpose of RBAC
+      - wut is the purpse of RBAC
+      - wut iz the purpose of RBAC
+      - wut iz purpose of RBAC
+      - wut iz the purpse of RBAC
+      - what is teh purpose of RBAC
+      - whats teh purpose of RBAC
+      - what sj the purpose of RBAC
+      - what is the pupose of RBAC
+      - what is the pupose of rbac
+      - what is the prupose of RBAC
+      - what is the prupose of rbac
+      - what is the porpuse of rbac
+      - what is the pupso of RBAC
+      - what is the pupso of rbac
+      - what is the porpso of RBAC
+      - what is the porpso of rbac
+      - what is the purpose of RBAC?
+      - whats the purpose of RBAC?
+      - what s the purpose of RBAC?
+      - what is purpose of rbac?
+      - what is the purpose of rbac?
+      - what iz the purpose of rbac?
+      - wut is the purpose of rbac?
+      - wut is purpose of rbac?
+      - wut iz the purpose of rbac?
+      - wut iz purpose of rbac?
+      - what is the purpose of Role Based Access Control
+      - what is the purpose of role based access control
+      - whats the purpose of Role Based Access Control
+      - whats the purpose of role based access control
+      - what is the purpose of Role based access control
+      - what is the purpose of role Based access control
+      - what is the purpose Role Based Access Control
+      - what iz the purpose of Role Based Access Control
+      - wut is the purpose of Role Based Access Control
+      - wut iz purpose of Role Based Access Control
+      - what is the purpose of RBAC in MuleSoft
+      - what is the purpose of RBAC in Mule soft
+      - what is the purpose of RBAC in Anypoint
+      - what is the purpose of RBAC in Anypoint platform
+      - whats the purpose of RBAC in MuleSoft
+      - whats the purpose of rbac in muleSoft
+      - what is the purpose of RBAC in API Manager
+      - what is the purpose of rbac in api manager
+      - wut is the purpose of RBAC in API Manager
+      - wut iz the purpose of rbac in api manager
+      - what is the purpose of rbac in the gateway
+      - what is the purpose of RBAC in the gateway
+      - what is the purpose of rbac in gateway
+      - whats the purpose of rbac in gateway
+      - what iz the purpose of rbac in gateway
+      - wut is the purpose of rbac in gateway
+      - what is the purpose of RBAC feature
+      - what is the purpose of rbac feature
+      - what is purpose of RBAC feature
+      - what is purpose of rbac feature
+      - whats the purpose of RBAC feature
+      - whats purpose of rbac feature
+      - what is the purpose of the RBAC feature
+      - what is the purpose of the rbac feature
+      - what is the purpose of this RBAC
+      - what is the purpose of this rbac
+      - whats the purpose of this RBAC
+      - whats the purpose of this rbac
+      - what iz the purpose of this RBAC
+      - wut is the purpose of this RBAC
+      - what is the purpose of RBAC deployment
+      - what is the purpose of rbac deployment
+      - what is the purpose of rbac policy
+      - what is the purpose of RBAC policy
+      - what is the purpose of the RBAC policy
+      - what iz the purpose of rbac policy
+      - wut is the purpose of rbac policy
+      - what is the purpose of RBAC configuration
+      - what is the purpose of rbac configuration
+      - what is the purpose of rbac config
+      - whats the purpose of rbac config
+      - what is the purpose of rbac settings
+      - what is the purpose of RBAC settings
+      - what is the purpose of rbac rules
+      - what is the purpose of RBAC rules
+      - what is the purpose of rbac rules?
+      - what is the purpose of RBAC rules?
+      - what are OAuth2 scopes
+      - what is the purppose of RBAC
+      - wut is the pupose of RBAC
+      - wut iz the porpose of RBAC
+      - wut is the prupose of RBAC
+      - wot is the purpose of RBAC
+      - wh@t is the purpose of RBAC
+      - what is the puprose of RBAC
+      - what is the puropse of RBAC
+      - what is the pourpose of RBAC
+      - what is the purpoose of RBAC
+      - what is the percose of RBAC
+      - what is the puropse of rbac
+      - whats the pupose of RBAC
+      - whats the porpose of RBAC
+      - whats the prupose of RBAC
+      - whats the purpsoe of RBAC
+      - whats the puropse of RBAC
+      - whats iz the purpose of RBAC
+      - whats wut the purpose of RBAC
+      - whats wut iz the purpose of RBAC
+      - whats whut is the pupose of RBAC
+      - whats the purpose of r b a c
+      - whats the purpose of R B A C
+      - what purpose does RBAC serve
+      - what purpose does rbac serve
+      - whats purpose does RBAC serve
+      - what does RBAC serve for
+      - what does rbac serve for
+      - what does RBAC do
+      - what r the purpose of RBAC
+      - whats r the purpose of RBAC
+      - what is the purpose of Role Based Acces Control
+      - what is the purpose of Role Based Acess Control
+      - what is the purpose of Role Based Access Control?
+      - why use rbac
+      - why use Role Based Access Control
+      - why implement RBAC
+      - why implement rbac
+      - why do we use RBAC
+      - why do we use rbac
+      - why do we use Role Based Access Control
+      - what benefit does RBAC provide
+      - what benefit does rbac provide
+      - what benefit does RBAC give
+      - what benefit does rbac give
+      - what are the benefits of rbac
+      - what advantages does RBAC bring
+      - what advantages does rbac bring
+      - whats the benefit of RBAC
+      - whats the benefit of rbac
+      - whats the advantage of RBAC
+      - whats the advantage of rbac
+      - whats the point of RBAC
+      - whats the point of rbac
+      - whats the point of Role Based Access Control
+      - whats the point RBAC
+      - whats the point rbac
+      - what is RBAC for
+      - what is rbac for
+      - what is the role of RBAC
+      - what is the role of rbac
+      - what role does RBAC play
+      - what role does rbac play
+      - what function does RBAC perform
+      - what function does rbac perform
+      - what function does RBAC serve
+      - what function does rbac serve
+      - what is the aim of RBAC
+      - what is the aim of rbac
+      - what is the goal of RBAC
+      - what is the goal of rbac
+      - what is the objective of RBAC
+      - what is the objective of rbac
+      - what objective RBAC
+      - what objective rbac
+      - whats objective RBAC
+      - whats objective rbac
+      - explain the purpose of RBAC
+      - explain purpose of RBAC

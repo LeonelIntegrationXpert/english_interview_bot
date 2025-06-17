@@ -13,9 +13,11 @@ intents:
   - documentation_and_dev_portal
   - governance_policies
   - lifecycle_management_exchange
+  - api_caching
   - jwks_management
   - multi_idp_jwt_validation
   - oauth2_jwt
+  - rbac_scopes
   - nlu_fallback
 actions:
   - action_fallback

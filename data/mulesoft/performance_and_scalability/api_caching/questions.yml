@@ -1,0 +1,604 @@
+version: '3.1'
+nlu:
+  - intent: api_caching
+    examples: |
+      - o que é cache de API
+      - como funciona cache de API
+      - pra que serve cache de API
+      - qual a finalidade do cache de API
+      - como configurar cache de API no MuleSoft
+      - onde ativar cache de API
+      - como monitorar cache de API?
+      - como monitirar cache de API?
+      - como monitar cache de API?
+      - como monitorear cache de API?
+      - como monotorar cache de API?
+      - como monitroar cache de API?
+      - como moni torar cache de API?
+      - como monitorar cache API?
+      - como monitorar cache-de-API?
+      - como monitorar cache na API?
+      - como monitorar cache nas API?
+      - como monitorar cahce de API?
+      - como monitorar cacge de API?
+      - como monitorar ccache de API?
+      - como monitorar chache de API?
+      - como monitorar cachee de API?
+      - como monitorar cache deAP I?
+      - como monitorar cache de APi?
+      - como monitorar cacheAPIs?
+      - como monitorar cacheeAPIs?
+      - como monitorar cache da API?
+      - como monitorar cache do API?
+      - como monitorar cache no API?
+      - como monitorar cache no gateway?
+      - como monitorar cache no api gateway?
+      - como monitorar caches de API?
+      - como monitorar cache em API?
+      - como monitorar cache em Apis?
+      - como monitorar cache em aPI?
+      - como monitorar cache em apI?
+      - como monitorar cache e API?
+      - como monitorar c ache de API?
+      - como monitorar cahceAPI?
+      - como monitorar cac he de API?
+      - como monitorar cahce deAPIs?
+      - como monitorar cache daAPIs?
+      - como monitorar cacheAP is?
+      - como monitorar cache API s?
+      - como monitorar cache apis?
+      - como monitorr cache de API?
+      - como monotor cache de API?
+      - como monitrar cache de API?
+      - como monirtar cache de API?
+      - como monitar cache deAPIs?
+      - como monitar cache de APIs?
+      - como montiorar cache de API?
+      - como monotirar cache de API?
+      - como monitar cahce de APIs?
+      - como monitorar cache deAPIs?
+      - como monitorar cache de Apis?
+      - como monitorear cacheAPIs?
+      - como monitor cache de API?
+      - como monitorcache de API?
+      - modo monitorar cache de API?
+      - como devo monitorar cache de API?
+      - como eu monitorar cache de API?
+      - como posso monitorar cache de API?
+      - como se monitorar cache de API?
+      - como se faz monitorar cache de API?
+      - como faço para monitorar cache de API?
+      - qual jeito de monitorar cache de API?
+      - qual forma de monitorar cache de API?
+      - de que forma monitorar cache de API?
+      - onde monitorar cache de API?
+      - onde vejo cache de API?
+      - onde encontrar monitoramento do cache de API?
+      - como acompanhar cache de API?
+      - como trackear cache de API?
+      - como tracking cache de API?
+      - como tracar cache de API?
+      - como tracar cache da API?
+      - como track cache de API?
+      - como trackear cache API?
+      - como trackear cacheAPIs?
+      - como tracar cacheAPIs?
+      - como auditar cache de API?
+      - como verificar cache de API?
+      - como checar cache de API?
+      - como validar cache de API?
+      - como medir cache de API?
+      - como mensurar cache de API?
+      - como quantificar cache de API?
+      - como estatísticas de cache de API?
+      - como metrics de cache de API?
+      - como metricar cache de API?
+      - como metir cache de API?
+      - como monitorar métrica de cache de API?
+      - como monitorar hit rate do cache de API?
+      - como monitorar miss rate do cache de API?
+      - como monitorar latência do cache de API?
+      - como monitorar performance do cache de API?
+      - como verificar performance do cache de API?
+      - como avaliar cache de API?
+      - como avaliar performance de cache de API?
+      - como avaliar latência de cache de API?
+      - como avaliar hits do cache de API?
+      - como avaliar misses do cache de API?
+      - como debuggar cache de API?
+      - como debugar cache de API?
+      - como depurar cache de API?
+      - como debugar cahce de API?
+      - como visualizar cache de API?
+      - como exibir cache de API?
+      - como mostrar cache de API?
+      - como apresentar cache de API?
+      - como ver cache de API?
+      - como visualizar estado do cache de API?
+      - como aplicar cache em APIs
+      - como aplicar cache em APIs?
+      - como aplicar cache em Apis?
+      - como aplicar cachê em APIs?
+      - como aplicar cache em api?
+      - como aplicar cache em api s?
+      - como aplicar cache em APis?
+      - como aplicar cacge em APIs?
+      - como aplicar cahce em APIs?
+      - como aplicar cache em APls?
+      - como aplicar cahce em Apis?
+      - como aplicar cache em aPIs?
+      - como aplicar cache em apis?
+      - como aplicar cache em aPis?
+      - como aplicar cache em aPI?
+      - como aplicar cache em aPi?
+      - como aplicar cacge em Apis?
+      - como aplicar cache in APIs?
+      - como aplciar cache em APIs?
+      - como apliar cache em APIs?
+      - como aplicar cache em API?
+      - como aplicar cache em APTs?
+      - como apliar cache em Apis?
+      - como aplicar cache em APs?
+      - como aplicar cache em APIS?
+      - como aplicar cahce em apis?
+      - como aplicar cache em Apps?
+      - como aplicar cache em apiS?
+      - como aplicar cashé em APIS?
+      - como aplicar cahce em APIS?
+      - como aplicar cacge em APIS?
+      - como aplicar ccache em APIS?
+      - como aplicar cachine em APIS?
+      - como aplicar chache em APIS?
+      - como aplicar cacche em APIS?
+      - como aplicar cache em API s?
+      - como aplicar cache em API S?
+      - como aplicar cache em API’s?
+      - como aplicar cache em api’s?
+      - como aplicar cache em APIS
+      - como apliar cache em APIS?
+      - como aplciar cache em APIS?
+      - como apicar cache em APIS?
+      - como apliicar cache em APIS?
+      - como appliquer cache em APIS?
+      - como aplicar cache em APiS?
+      - como aplicar cache em ApIS?
+      - como aplicar cache em ApiS?
+      - como aplyar cache em APIS?
+      - como appicar cache em APIS?
+      - comme aplicar cache em APIS?
+      - como aplictar cache em APIS?
+      - como applicar cache em APIS?
+      - como applicar cache em API’s?
+      - como aplicado cache em APIS?
+      - como aplica cache em APIS?
+      - como aplic cache em APIS?
+      - como apliar cash em APIS?
+      - como aplicar cash em APIS?
+      - como aplica cahce em APIS?
+      - como aplica ccache em APIS?
+      - como aply cache em APIS?
+      - como a colocar cache em APIS?
+      - como colocar cache em APIS?
+      - como instalar cache em APIS?
+      - como incluir cache em APIS?
+      - como habilitar cache em APIS?
+      - como ativar cache em APIS?
+      - como configurar cache em APIS?
+      - como setup cache em APIS?
+      - como setupar cache em APIS?
+      - como setar cache em APIS?
+      - como settar cache em APIS?
+      - como setar cahce em APIS?
+      - como settar ccache em APIS?
+      - como ligar cache em APIS?
+      - como ligar cahce em APIS?
+      - como ligar chache em APIS?
+      - como ativar cahce em APIS?
+      - como habilitar chache em APIS?
+      - como habilitar cachine em APIS?
+      - como habilitar ccache em APIS?
+      - como implantar cache em APIS?
+      - como implementar cache em APIS?
+      - como implmentar cache em APIS?
+      - como implementar cahce em APIS?
+      - como implmentar ccache em APIS?
+      - como implmentar cachine em APIS?
+      - como engajar cache em APIS?
+      - como engagar cache em APIS?
+      - como engajar chache em APIS?
+      - como engajar ccache em APIS?
+      - como usar cache em APIS?
+      - como utilizar cache em APIS?
+      - como use cache em APIS?
+      - como usar cahce em APIS?
+      - como usar ccache em APIS?
+      - como usar cachine em APIS?
+      - como usar chache em APIS?
+      - como defenir cache em APIS?
+      - como definir cahce em APIS?
+      - como defir cache em APIS?
+      - como definir ccache em APIS?
+      - como definir cachine em APIS?
+      - como definir chache em APIS?
+      - como definir cache em APIS?
+      - como delinar cache em APIS?
+      - como delinear cache em APIS?
+      - como delinear cahce em APIS?
+      - como delinear chache em APIS?
+      - como delinear ccache em APIS?
+      - como gravar cache em APIS?
+      - como guardar cache em APIS?
+      - como gravar cahce em APIS?
+      - como guardar cahce em APIS?
+      - como armazenar cache em APIS?
+      - como armazenar cahce em APIS?
+      - como armazenar ccache em APIS?
+      - como armazenar chache em APIS?
+      - como replicar cache em APIS?
+      - como replicar cahce em APIS?
+      - como aplicar cace em APIs?
+      - como aplicar cache m APIs?
+      - como aplicar cache m Apis?
+      - como aplicar cache e APIs?
+      - como aplicar cache n APIs?
+      - como aplicar cache oni APIs?
+      - como apliocar cache em APIs?
+      - como apicar cache em APIs?
+      - como apllicar cache em APIs?
+      - como apĺicar cache em APIs?
+      - como aplicar cache em ApIs?
+      - como aplicar chache em APIs?
+      - como aplicar ccache em APIs?
+      - como aplicar cache nas APIs?
+      - como aplicar cache nAs APIs?
+      - como aplicar cache nAs Apis?
+      - como aplicar cache da APIs?
+      - como aplicar cache das APIs?
+      - como aplicar cache das Apis?
+      - como aplicar cache na API?
+      - como aplicar cache na APIs?
+      - como aplicar cache de APIs?
+      - como aplica cache em APIs?
+      - como aplic cache em APIs?
+      - como aplicaar cache em APIs?
+      - como apilar cache em APIs?
+      - como aplicar cacge em APis?
+      - como aplicar cahce em APis?
+      - como aplicar cache en APIs?
+      - como aplicar cache em maps?
+      - como aplicar cache en Apis?
+      - como aplicar cache APIs?
+      - como aplicar proxy cache em APIs?
+      - como aplicar cachê em apis?
+      - como aplicar cache em aapis?
+      - como aplicar cache em Aapis?
+      - como aplicar cache em AAPIs?
+      - como aplicar cache em APAS?
+      - como aplicar cache em APAIS?
+      - como aplicar cache em AIPS?
+      - como aplicar cache em ApAX?
+      - como aplicar cache em AapiS?
+      - como aplicar cache em aapiS?
+      - como aplicar cahe em APIs?
+      - como habilitar cache no API Gateway
+      - como funciona o caching em API Manager
+      - o que faz o cache de API
+      - como melhorar performance com cache
+      - como aumenta a escalabilidade com cache
+      - quando usar cache de API
+      - quando habilitar cache de API
+      - quais exemplos de cache de API
+      - quais benefícios do cache de API
+      - quais desvantagens do cache de API
+      - como invalidar cache de API
+      - como definir tempo de expiração do cache
+      - como monitorar cache de API
+      - como monitorar cache de Apis
+      - como monitorar cahce de API
+      - como monitar cache de API
+      - como monitar cahce de API
+      - como montar cache de API
+      - como monitorar cache API
+      - como monitorar cache na API
+      - como monitorar cache nas APIs
+      - como monitor cache de API
+      - what is API caching
+      - what is api caching
+      - what is Api caching
+      - what iz API caching
+      - what iz api caching
+      - what iz Api caching
+      - what is API casching
+      - what is API cacing
+      - what is API chaching
+      - what is API Catching
+      - what is API cahcing
+      - what is API cacging
+      - what is API cachng
+      - what is API cachin
+      - what is API cachine
+      - what is API cascing
+      - what is API caching?
+      - what is api caching?
+      - what iz API caching?
+      - what is AP caching
+      - what is APi caching
+      - what is Api caching?
+      - what is APi caching?
+      - what is API cating
+      - what is API catcing
+      - what is API cachng?
+      - what is API cachingg
+      - what is API cchching
+      - what is API cchaching
+      - what is API caaching
+      - what is API ca5hing
+      - what is API cahing
+      - what is API ccaching
+      - what is APi cching
+      - what is API cachnig
+      - what is API cacing?
+      - what is API cachingg?
+      - what is API cacahing
+      - what is API cacging?
+      - what is API cachign
+      - what is API cacaing
+      - what is API cathing
+      - what is API chtching
+      - what is API catchng
+      - what is API cagching
+      - what is API cachign?
+      - what is API caching??
+      - what is API cacching?
+      - what is API cacthing
+      - what is API cacthing?
+      - what is API cachimg
+      - what is API cachinv
+      - what is API cachingv
+      - what is API cachingl
+      - what is API cachingl?
+      - what is API cachinf
+      - what is API cahing?
+      - what is API catcing?
+      - what is API cacjing
+      - what is API cachine?
+      - what is API cachinggg
+      - what is API cachinggg?
+      - what is API cacjing?
+      - what is API cacting
+      - what is API chaching?
+      - what is API cchaching?
+      - what is API cahcing?
+      - what is API caching v
+      - what is API caching  ?
+      - what is API    caching
+      - what is     API caching
+      - what isAPI caching
+      - what isAPIcaching
+      - whatis API caching
+      - whatis api caching
+      - wat is API caching
+      - wat iz API caching
+      - wht is API caching
+      - wht is API caching?
+      - wht iz API cacing
+      - wht is API cacing
+      - w0t is API caching
+      - wht is API catcing
+      - wht iz API catcing
+      - wht iz API cathing
+      - wht iz API caching
+      - how does API caching work
+      - what is the purpose of API caching
+      - how to configure API caching in MuleSoft
+      - where to enable API cache
+      - how to apply caching to APIs
+      - how to enable cache in API Manager
+      - how does caching work in API Gateway
+      - what does API cache do
+      - how to improve performance with cache
+      - how to scale with API caching
+      - when to use API caching
+      - how to set cache expiration time
+      - how to set cache experation time
+      - how to set cache expireation time
+      - how to set cach expiration time
+      - how to set cache expiration tiem
+      - how to set cache expiration tim
+      - how to set cache expiraion time
+      - how to set cache expirtation time
+      - how to set cache expriation time
+      - how to set cache expriation tiem
+      - how to set cache expresion time
+      - how to set cache expration time
+      - how to set cache expirtion time
+      - how to set cache expiraton time
+      - how to set cache expirtaton time
+      - how to set cache exiration time
+      - how to set cache expireation tim
+      - how to set cache expiration ti
+      - how to set cache expiraion tiem
+      - how to set cache expirationtime
+      - how to set cacheexpiration time
+      - how to set cache expire time
+      - how to set cache expire time?
+      - how to set cache expration tiem?
+      - how to set cache expertaion time
+      - how to set cache experiation time
+      - how to set cache expiraton tiem
+      - how to set cache exparation time
+      - how to set cache expariation time
+      - how to set cache exporation time
+      - how to set cache exparition time
+      - how to set cache exporation tiem
+      - how to set cache experation tiem
+      - how to set cache expiratoin time
+      - how to set sys cache expiration time
+      - how do i set cache expiration time
+      - how do i set cache experation time
+      - how to configure cache expiration time
+      - how to configure cache experation time
+      - how to configure cache expireation time
+      - how to configure cache expriation time
+      - how to configure cach expiration time
+      - how to configure cache expiration tiem
+      - how to config cache expiration time
+      - how to config cache experation time
+      - how to config cache expire time
+      - how to config cache expiraion time
+      - how to config cache expriation time
+      - how to config cach expiration time
+      - how to config cache expiration tiem
+      - can you set cache expiration time
+      - can you set cache experation time
+      - can you set cache expire time
+      - can you set cache exparation time
+      - can you set cache expriation time
+      - can you set cach expiration time
+      - can you set cache expiration tiem
+      - can u set cache expiration time
+      - can u set cache experation time
+      - can u set cache expire time
+      - can u set cache expiraion time
+      - pls set cache expiration time
+      - pls set cache experation time
+      - pls set cache expire time
+      - pls set cache expiraion time
+      - pls set cach expiration time
+      - pls set cache expirationtiem
+      - pls set cache expiration tm
+      - pls set cache expriation time
+      - pls set cache expiration tiem?
+      - how to adjust cache expiration time
+      - how to adjust cache experation time
+      - how to adjust cache expire time
+      - how to adjust cache expiraion time
+      - how to adjust cach expiration time
+      - how to adjust cache expiration tiem
+      - how do i adjust cache expiration time
+      - how do i adjust cache experation time
+      - how do i adjust cache expire time
+      - where to set cache expiration time
+      - where to set cache experation time
+      - where to set cache expire time
+      - where to set cache expiraion time
+      - where can i set cache expiration time
+      - where can i set cache experation time
+      - where can i set cache expire time
+      - where can i set cache expiraion time
+      - how to define cache expiration time
+      - how to define cache experation time
+      - how to define cache expire time
+      - how to define cache expiraion time
+      - how to declare cache expiration time
+      - how to declare cache experation time
+      - how to declare cache expire time
+      - how to declare cache expiraion time
+      - how to set api cache expiration time
+      - how to set api cache experation time
+      - how to set api cache expire time
+      - how to set api cach expiration time
+      - how to set api cache expiration tiem
+      - how to set apicache expiration time
+      - how to set apicache experation time
+      - how to set api-cach expiration time
+      - how to set api cache expriation time
+      - when to enable API cache
+      - give examples of API caching
+      - what are the benefits of API caching
+      - what are the drawbacks of API caching
+      - how to invalidate API cache
+      - how to monitor API cache
+      - how to tune API cache settings
+      - when to use api caching
+      - when to use caching in API
+      - when to use caching on API
+      - when to use cache for API
+      - wen to use API caching
+      - whne to use API caching
+      - wjen to use API caching
+      - when to use APi caching
+      - when to use ApI caching
+      - when to use api Caching
+      - when to use API Caching?
+      - when to use API cachng
+      - when to use API cachig
+      - when to use API cachin
+      - when to use API cathing
+      - when to use API cacting
+      - when to use API cacthing
+      - when to use API cacing
+      - when to use API cachine
+      - when to use api cachng
+      - when to use api cachig
+      - when to use api cacng
+      - when to use api cacting
+      - when to use api cacthing
+      - when to use api cahcing
+      - when to use api cachingg
+      - when to use api caching?
+      - when to use cahe API
+      - when to use cacne API
+      - when to use cashing API
+      - when to use chaching API
+      - when to use cachine API
+      - when to use cacthing API
+      - whtn to use API caching
+      - whtn to use api caching
+      - wn to use API caching
+      - whn to use API caching
+      - wneh to use API caching
+      - wnhe to use API caching
+      - when to use APi cachng
+      - when to use APi cachig
+      - when to use APi cacthing
+      - when to apply API caching
+      - when to apply api caching
+      - when to apply caching API
+      - when to apply cache API
+      - when to apply cache on API
+      - when to apply cache in API
+      - when to enable API caching
+      - when to enable api caching
+      - when to enable cache API
+      - when to enable cache on API
+      - when to enable caching API
+      - when to turn on API caching
+      - when to turn on api caching
+      - when to turn on cache API
+      - when to switch on API caching
+      - when to activate API caching
+      - when to activate api caching
+      - when to activate cache API
+      - when should I use API caching
+      - when should i use api caching
+      - when should I apply API caching
+      - when should I enable API caching
+      - when should I turn on API caching
+      - when is API caching useful
+      - when is api caching useful
+      - when is cache API useful
+      - when is caching API useful
+      - when does API caching help
+      - when does api caching help
+      - when does cache API help
+      - when does caching API help
+      - when to leverage API caching
+      - when to leverage api caching
+      - when to leverage cache API
+      - when to leverage caching API
+      - when to employ API caching
+      - when to employ api caching
+      - when to employ cache API
+      - when to employ caching API
+      - when to implement API caching
+      - when to implement api caching
+      - when to implement cache API
+      - when to implement caching API
+      - when to configure API caching
+      - when to configure api caching
+      - when to configure cache API
+      - wnen to leverage API caching
+      - when to leverege API caching
+      - when to leverate API caching
+      - when to leverge API caching

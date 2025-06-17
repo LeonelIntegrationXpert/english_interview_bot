@@ -49,6 +49,10 @@ stories:
     steps:
       - intent: lifecycle_management_exchange
       - action: utter_lifecycle_management_exchange
+  - story: story_api_caching
+    steps:
+      - intent: api_caching
+      - action: utter_api_caching
   - story: story_jwks_management
     steps:
       - intent: jwks_management
@@ -61,6 +65,10 @@ stories:
     steps:
       - intent: oauth2_jwt
       - action: utter_oauth2_jwt
+  - story: story_rbac_scopes
+    steps:
+      - intent: rbac_scopes
+      - action: utter_rbac_scopes
   - story: story_nlu_fallback
     steps:
       - intent: nlu_fallback

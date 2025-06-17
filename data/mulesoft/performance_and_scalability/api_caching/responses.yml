@@ -1,0 +1,53 @@
+version: '3.1'
+responses:
+  utter_api_caching:
+    - custom:
+        vr_pt: |
+          O cache de API guarda em memória ou armazenamento rápido as respostas de chamadas recorrentes, reduzindo latência e aliviando o back end. Em vez de repassar cada requisição, ele retorna o resultado armazenado. Assim você acelera o tempo de resposta, amplia a capacidade de atendimento e mantém a estabilidade durante picos. É possível definir recursos, cabeçalhos ou parâmetros para armazenar em cache, além de políticas de expiração e limpeza para garantir a atualização dos dados.
+        vr_en: |
+          API caching retains responses from frequent calls in memory or fast storage to lower latency and reduce backend strain. Rather than forwarding each request, it returns the cached result. This speeds up response times, enhances throughput capacity, and ensures stability under high load. You can specify resources, headers, or parameters to cache, as well as expiration and eviction policies to keep data fresh.
+    - custom:
+        vr_pt: |
+          A estratégia de cache de API armazena respostas comuns em um repositório rápido, evitando idas repetidas ao serviço de origem. Com isso, diminui-se o tempo de espera e o uso de recursos do back end. O cache pode segmentar endpoints, cabeçalhos ou query params, e é possível configurar regras de validade e invalidação para que as informações não fiquem obsoletas.
+        vr_en: |
+          The API caching strategy stores common responses in a fast repository, preventing redundant calls to the origin service. This reduces wait times and backend resource consumption. Caching can target endpoints, headers, or query params, and you can configure freshness and eviction rules to prevent stale data.
+    - custom:
+        vr_pt: |
+          No cache de API, respostas de endpoints frequentes são salvas em memória ou disco rápido, evitando processamento repetido. Isso corta latência e libera o back end para outras tarefas. Com opções de escopo por rota, cabeçalho ou parâmetro, e políticas de expiração definidas, o cache mantém os dados válidos e melhora a escalabilidade do serviço.
+        vr_en: |
+          In API caching, responses from frequently used endpoints are saved in memory or fast storage, avoiding repeated processing. This cuts latency and frees the backend for other operations. With scoping by route, header, or parameter, and defined expiration policies, caching keeps data valid and boosts service scalability.
+    - custom:
+        vr_pt: |
+          API caching consiste em conservar localmente as respostas de requisições repetidas, reduzindo a carga no servidor e agilizando o tempo de entrega. Ao configurar quais recursos, cabeçalhos ou parâmetros entram no escopo, e aplicando tempos de vida e limpezas periódicas, você garante rapidez e confiabilidade mesmo sob alta demanda.
+        vr_en: |
+          API caching involves locally retaining responses for repeated requests, reducing server load and speeding up delivery. By configuring which resources, headers, or parameters are in scope and applying time-to-live and periodic cleanups, you ensure fast and reliable performance even under heavy demand.
+    - custom:
+        vr_pt: |
+          O cache em APIs captura respostas de chamadas frequentes e as armazena em memória ou storage de alta velocidade. Com isso, evita chamadas desnecessárias ao back end, melhora a latência e aumenta a capacidade de processamento. É possível ajustar regras de expiração e invalidação por recurso, cabeçalho ou query, mantendo os dados sempre atualizados.
+        vr_en: |
+          API caching captures responses from frequent calls and stores them in memory or high-speed storage. This prevents unnecessary backend calls, improves latency, and increases processing capacity. You can tune expiration and invalidation rules by resource, header, or query to keep data always fresh.
+    - custom:
+        vr_pt: |
+          Em uma camada de cache para APIs, as respostas são retidas em um armazenamento de acesso rápido, impedindo múltiplas idas ao back end. Isso reduz atrasos e liberta o servidor de sobrecarga. Configurando quais endpoints, cabeçalhos ou parâmetros participarão do cache e definindo períodos de validade, o sistema entrega dados mais rápido e permanece escalável.
+        vr_en: |
+          In an API cache layer, responses are held in a fast-access store, preventing multiple trips to the backend. This cuts delay and relieves server overload. By configuring which endpoints, headers, or parameters participate in caching and setting validity periods, the system delivers data faster and remains scalable.
+    - custom:
+        vr_pt: |
+          O mecanismo de cache de API salva localmente respostas comuns, economizando recursos do back end e acelerando tempos de resposta. Você pode escolher rotas, headers ou parâmetros para cache e definir regras de expiração e limpeza automática, garantindo que apenas dados atuais sejam entregues mesmo em picos de uso.
+        vr_en: |
+          The API cache mechanism locally stores common responses, saving backend resources and speeding up response times. You can select routes, headers, or parameters for caching and define expiration and auto-cleanup rules to ensure only current data is served even during usage spikes.
+    - custom:
+        vr_pt: |
+          Cache de API mantém em memória ou SSD respostas de endpoints acessados com frequência, eliminando a necessidade de reprocessamento no back end. Isso melhora drasticamente a latência e a escalabilidade. Com políticas definidas de TTL e invalidação por recurso, cabeçalho ou string de consulta, o cache garante dados válidos e performance uniforme.
+        vr_en: |
+          API cache keeps in-memory or SSD storage responses from frequently accessed endpoints, eliminating the need for backend reprocessing. This dramatically improves latency and scalability. With defined TTL and invalidation policies by resource, header, or query string, caching ensures valid data and consistent performance.
+    - custom:
+        vr_pt: |
+          O cache de API permite armazenar respostas populares em um armazenamento de alta velocidade, reduzindo a latência e o uso de CPU no serviço de origem. Por meio de filtros por rota, header ou parâmetro, e configurações de expiração e remoção, o sistema entrega resultados mais rapidamente e escala sob carga elevada.
+        vr_en: |
+          API caching lets you store popular responses in high-speed storage, reducing latency and CPU usage on the origin service. Through filters by route, header, or parameter, and settings for expiration and eviction, the system delivers results faster and scales under heavy load.
+    - custom:
+        vr_pt: |
+          Implementar cache em uma API salva em memória ou disco rápido as respostas de chamadas redundantes, diminuindo o tempo de resposta e aliviando o back end. Com opções para segmentar por recurso, cabeçalho ou query e definir políticas de expiração e invalidação, o cache mantém a aplicação rápida e resiliente.
+        vr_en: |
+          Implementing caching in an API saves redundant call responses in memory or fast disk, reducing response times and easing backend load. With options to segment by resource, header, or query and set expiration and eviction policies, caching keeps the application fast and resilient.

@@ -12696,3 +12696,1661 @@ O gerenciamento de JWKS consiste em criar um JSON Web Key Set com as chaves púb
 #vr_en: |
 JWKS management involves creating a JSON Web Key Set with public keys and exposing it via a URI for JWT validation. In MuleSoft, you configure the JWT Validation policy to that endpoint. The workflow includes key rotation, automatic JWKS cache reload, truststore setup for HTTPS, and fallback if the primary endpoint fails.
 ---
+#intent: mulesoft/security_and_authentication/rbac_scopes
+#pt:
+- o que é controle de acesso baseado em papéis
+- o que significa RBAC
+- como funciona o RBAC
+- como funciona o RBAC?
+- como funfa o RBAC?
+- como funcina o RBAC?
+- como funciona o Rbac?
+- como funciona RBAC?
+- como funcona o RBAC?
+- como funciona o RBAC no Anypoint?
+- como funcioa o RBAC?
+- como funciona o R B A C?
+- como funciona o controle de acesso por papel?
+- como funciona o controle de acesso baseado em papeis?
+- como funfa o controle de acesso baseado em papeis?
+- o que é o RBAC?
+- o q é o RBAC?
+- como teste o RBAC?
+- como validar o RBAC?
+- me explica como funciona o RBAC?
+- me esplica como funfa o RBAC?
+- me diz como funciona o RBAC?
+- vc sabe como funfa o RBAC?
+- tu sabe como funciona o RBAC?
+- tu sabe funfa o RBAC?
+- de q modo funciona o RBAC?
+- de que modo funfa o RBAC?
+- de que forma funciona o RBAC?
+- de q forma funfa o RBAC?
+- como ocorre o funcionamento do RBAC?
+- como ocorre o funcc da RBAC?
+- como opera o RBAC?
+- como opera o Rbac?
+- como opea o RBAC?
+- qual o funcionamento do RBAC?
+- qual o funconamento do RBAC?
+- qual é o funcionamento do RBAC?
+- qual é a funcao do RBAC?
+- como funciona o modelo RBAC?
+- como funfa o modelo RBAC?
+- como funciona o sistema RBAC?
+- como se usa o RBAC?
+- como se usa o Rbac?
+- como se aplica o RBAC?
+- como se aplica o Rbac?
+- como aplicar o RBAC?
+- como add o RBAC?
+- como config o RBAC?
+- como configurar RBAC?
+- como configurar o RBAC?
+- como se configura o RBAC?
+- onde funciona o RBAC?
+- onde funfa o RBAC?
+- por onde funfa o RBAC?
+- quando funciona o RBAC?
+- quando se usa o RBAC?
+- quando aplicar o RBAC?
+- pq funfa o RBAC?
+- pq funciona o RBAC?
+- por que funfa o RBAC?
+- por que funciona o RBAC?
+- me conta como funfa o RBAC?
+- me conta como funciona o RBAC?
+- explica o como funfa o RBAC?
+- explica como funciona o RBAC?
+- explika como funfa o RBAC?
+- explika como funciona o RBAC?
+- expica como funfa o RBAC?
+- expica como funciona o RBAC?
+- como faça para funfar o RBAC?
+- como fazer é funfar o RBAC?
+- como faz o RBAC funfar?
+- como faz o RBAC funcionar?
+- como faz o Rbac funcionar?
+- como se faz o RBAC funcionar?
+- como se faz RBAC funfar?
+- como se faz RBAC funcionar?
+- me mostre como funfa o RBAC?
+- me mostre como funciona o RBAC?
+- mostre como funfa o RBAC?
+- mostre como funciona o RBAC?
+- demonstre como funfa o RBAC?
+- demonstre como funciona o RBAC?
+- demonstra como funfa o RBAC?
+- demonstra como funciona o RBAC?
+- demonstre funcc RBAC?
+- demonstre funçaõ RBAC?
+- mostre funfa o RBAC?
+- mostre funcionamento do RBAC?
+- como ocorre o RBAC?
+- como ocorra o RBAC?
+- como ocorre Rbac?
+- como se da o RBAC?
+- como se dá o RBAC?
+- como se da Rbac?
+- qto funciona o RBAC?
+- qto funfa o RBAC?
+- quanto tempo o RBAC leva para funfar?
+- me diz o fluxo do RBAC?
+- me diz o fluxo de funçao do RBAC?
+- qual o fluxo do RBAC?
+- qual é o fluxo do RBAC?
+- qual eh o fluxo do RBAC?
+- como criar scopes no OAuth2?
+- como criar escopos no OAuth2?
+- como criar scope no OAuth2?
+- como crirar scopes no OAuth2?
+- como crlar scopes no OAuth2?
+- como crair scopes no OAuth2?
+- como craar escopos no OAuth2?
+- como definir scopes no OAuth2?
+- como definir escopos no OAuth2?
+- como setar scopes no OAuth2?
+- como setar escopos no OAuth2?
+- como colocar scopes no OAuth2?
+- como colocar escopos no OAuth2?
+- como adicionar scopes no OAuth2?
+- como adicionar escopos no OAuth2?
+- como incluir scopes no OAuth2?
+- como incluir escopos no OAuth2?
+- como registrar scopes no OAuth2?
+- como registrar escopos no OAuth2?
+- como cadastrar scopes no OAuth2?
+- como cadastrar escopos no OAuth2?
+- como configurar scopes no OAuth2?
+- como configurar escopos no OAuth2?
+- onde criar scopes no OAuth2?
+- onde criar escopos no OAuth2?
+- onde definir scopes no OAuth2?
+- onde definir escopos no OAuth2?
+- onde setar scopes no OAuth2?
+- onde setar escopos no OAuth2?
+- onde adicionar scopes no OAuth2?
+- onde adicionar escopos no OAuth2?
+- qual comando para criar scopes no OAuth2?
+- qual comando para criar escopos no OAuth2?
+- qual endpoint cria scopes no OAuth2?
+- qual endpoint cria escopos no OAuth2?
+- tu sabe criar scopes no OAuth2?
+- vc sabe criar escopos no OAuth2?
+- me explica como criar scopes no OAuth2?
+- me explica como criar escopos no OAuth2?
+- me mostra como criar scopes no OAuth2?
+- me mostra como criar escopos no OAuth2?
+- como faz para criar scopes no OAuth2?
+- como faz para criar escopos no OAuth2?
+- cmo criar scopes no OAuth2?
+- cmo criar escopos no OAuth2?
+- cmmo criar scopes no OAuth2?
+- clmo criar escopos no OAuth2?
+- explicita criar scopes no OAuth2?
+- explicita criar escopos no OAuth2?
+- demonstra criar scopes no OAuth2?
+- demonstra criar escopos no OAuth2?
+- como implementar criação de scopes no OAuth2?
+- como implementar criação de escopos no OAuth2?
+- como codar scopes no OAuth2?
+- como codar escopos no OAuth2?
+- como programar scopes no OAuth2?
+- como programar escopos no OAuth2?
+- como scriptar scopes no OAuth2?
+- como scriptar escopos no OAuth2?
+- como automatizar criação de scopes no OAuth2?
+- como automatizar criação de escopos no OAuth2?
+- como orquestrar scopes no OAuth2?
+- como orquestrar escopos no OAuth2?
+- como provisionar scopes no OAuth2?
+- como provisionar escopos no OAuth2?
+- como montar scopes no OAuth2?
+- como montar escopos no OAuth2?
+- como gerar scopes no OAuth2?
+- como gerar escopos no OAuth2?
+- como construir scopes no OAuth2?
+- como construir escopos no OAuth2?
+- como subir scopes no OAuth2?
+- como subir escopos no OAuth2?
+- como fazer upload de scopes no OAuth2?
+- como fazer upload de escopos no OAuth2?
+- como importar scopes no OAuth2?
+- como importar escopos no OAuth2?
+- como exportar scopes no OAuth2?
+- como exportar escopos no OAuth2?
+- como versionar scopes no OAuth2?
+- como versionar escopos no OAuth2?
+- como revisar scopes no OAuth2?
+- como revisar escopos no OAuth2?
+- como auditar scopes no OAuth2?
+- como auditar escopos no OAuth2?
+- como monitorar scopes no OAuth2?
+- como monitorar escopos no OAuth2?
+- como testar scopes no OAuth2?
+- como testar escopos no OAuth2?
+- como validar scopes no OAuth2?
+- como validar escopos no OAuth2?
+- como verificar scopes no OAuth2?
+- como verificar escopos no OAuth2?
+- por que criar scopes no OAuth2?
+- por que criar escopos no OAuth2?
+- qual finalidade criar scopes no OAuth2?
+- qual finalidade criar escopos no OAuth2?
+- qual benefício ter scopes no OAuth2?
+- qual benefício ter escopos no OAuth2?
+- quais cuidados ao criar scopes no OAuth2?
+- quais cuidados ao criar escopos no OAuth2?
+- quais boas práticas para scopes no OAuth2?
+- quais boas práticas para escopos no OAuth2?
+- quais erros evitar ao criar scopes no OAuth2?
+- quais erros evitar ao criar escopos no OAuth2?
+- como documentar scopes no OAuth2?
+- como documentar escopos no OAuth2?
+- onde documentar scopes no OAuth2?
+- onde documentar escopos no OAuth2?
+- como versionar escopos no OAuth2?
+- como versionar scopes no OAuth2?
+- que nome dar aos scopes no OAuth2?
+- que nome dar aos escopos no OAuth2?
+- como nomear scopes no OAuth2?
+- como nomear escopos no OAuth2?
+- como agrupar scopes no OAuth2?
+- como agrupar escopos no OAuth2?
+- como hierarquizar scopes no OAuth2?
+- como hierarquizar escopos no OAuth2?
+- para que serve o RBAC
+- qual a finalidade do RBAC
+- como configurar RBAC no Anypoint
+- onde definir papéis no RBAC
+- como mapear permissões em RBAC
+- por que usar RBAC em APIs
+- quais benefícios do RBAC
+- o que são scopes em OAuth2
+- para que servem os scopes
+- como criar scopes no OAuth2
+- onde configurar scopes na API
+- qual a diferença entre papéis e scopes
+- como validar scopes no gateway
+- como aplicar RBAC e scopes juntos
+- como gerenciar papéis e escopos
+- o que garante o uso de RBAC e scopes
+- quais vantagens de usar RBAC com scopes
+- como criar scopes no OAuth2?
+- como criar scope no OAuth2?
+- como crias scopes no OAuth2?
+- como crirar scopes no OAuth2?
+- como crar scopes no OAuth2?
+- como crair scopes no OAuth2?
+- como crriar scopes no OAuth2?
+- como criar scops no OAuth2?
+- como criar scoops no OAuth2?
+- como criar scpoes no OAuth2?
+- como criar scpoes no OAuth2?
+- como criar scopes no Oauth2?
+- como criar scopes no OAUth2?
+- como criar scopes no Oauth dois?
+- como criar scopes no OA uth2?
+- como criar scopses no OAuth2?
+- como criar receitas scopes no OAuth2?
+- como criar scopses no Oauth dois?
+- como criar escopos no OAuth2?
+- como criar escopos no Oauth2?
+- como criar escopos no OAuth dois?
+- como criar escopos no OA uth2?
+- como criar scope no OAuth dois?
+- como criar scopes no protocol OAuth2?
+- como criar scopes em OAuth2?
+- como implementar scopes no OAuth2?
+- como definir scopes no OAuth2?
+- como registrar scopes no OAuth2?
+- como setar scopes no OAuth2?
+- como adicionar scopes no OAuth2?
+- como incluir scopes no OAuth2?
+- como habilitar scopes no OAuth2?
+- como ativar scopes no OAuth2?
+- como configurar scopes no OAuth2?
+- onde criar scopes no OAuth2?
+- onde definir scopes no OAuth2?
+- onde config scopes no OAuth2?
+- onde cadastrar scopes no OAuth2?
+- onde adicionar scopes no OAuth2?
+- onde setar scopes no OAuth2?
+- onde habilitar scopes no OAuth2?
+- onde ativar scopes no OAuth2?
+- onde implementar scopes no OAuth2?
+- qual comando para criar scopes no OAuth2?
+- qual sintaxe pra criar scopes no OAuth2?
+- qual endpoint para scopes no OAuth2?
+- como usar CLI para criar scopes no OAuth2?
+- como usar GUI para criar scopes no OAuth2?
+- me ajuda a criar scopes no OAuth2?
+- me explica como criar scopes no OAuth2?
+- me mostra como criar scopes no OAuth2?
+- me fala como criar scopes no OAuth2?
+- me diz como criar scopes no OAuth2?
+- tu sabes criar scopes no OAuth2?
+- vc sabe como criar scopes no OAuth2?
+- tu sabe criar scopes no OAuth dois?
+- vc sabe criar scopes no Oauth dois?
+- tu manja criar scopes no OAuth2?
+- vc manja criar scopes no OAuth2?
+- como faço pra criar scopes no OAuth2?
+- como faço para criar scopes no OAuth2?
+- como faco para criar scopes no OAuth2?
+- como faco pra criar scopes no OAuth2?
+- cmo criar scopes no OAuth2?
+- cmo criar escape no OAuth2?
+- cmo cria scopes no OAuth2?
+- como criar sco pes no OAuth2?
+- como criar scoopes no OAuth2?
+- como crar sco pes no OAuth2?
+- como crair scoop no OAuth2?
+- como cria scopes no OAuth dois?
+- como criar scopes no OAuth2 localmente?
+- como criar scopes no OAuth2 online?
+- como criar scopes no OAuth2 web?
+- como criar scopes no OAuth2 portal?
+- como criar scopes no OAuth2 console?
+- como criar scopes no OAuth2 manager?
+- como criar scopes no OAuth2 manager?
+- como realizar criação de scopes no OAuth2?
+- como executar criação de scopes no OAuth2?
+- como desenvolver scopes no OAuth2?
+- como programar scopes no OAuth2?
+- como codar scopes no OAuth2?
+- como scriptar scopes no OAuth2?
+- como automatizar criação de scopes no OAuth2?
+- como orquestrar criação de scopes no OAuth2?
+- como disparar job para criar scopes no OAuth2?
+- como pipeline cria scopes no OAuth2?
+- como CI/CD cria scopes no OAuth2?
+- como integrar criação de scopes no OAuth2?
+- como subir scopes no OAuth2?
+- como fazer upload de scopes no OAuth2?
+- como importar scopes no OAuth2?
+- como exportar scopes no OAuth2?
+- como compartilhar scopes no OAuth2?
+- como versionar scopes no OAuth2?
+- como revisar scopes no OAuth2?
+- como auditar scopes no OAuth2?
+- como monitorar scopes no OAuth2?
+- como testar scopes no OAuth2?
+- como depurar criação de scopes no OAuth2?
+- como logar criação de scopes no OAuth2?
+- como documentar criação de scopes no OAuth2?
+- como validar scopes no OAuth2 após criar?
+- como verificar scopes no OAuth2?
+- como listar scopes no OAuth2?
+#en:
+- what is role based access control
+- what does RBAC mean
+- how does RBAC work
+- how does RBAC work
+- how does rbac work
+- how does Rbac work
+- how doas RBAC work
+- how does RBAC wk
+- how does RBAC wrk
+- how dos RBAC work
+- how dose RBAC work
+- how doesRBAC work
+- how does RBACwrk
+- how does R B A C work
+- how does R B A C wrk
+- how does role based access control work
+- how does rolebased access control work
+- how does role based accesscntrol work
+- how does rol based access control work
+- how doez RBAC work
+- how doez rbac work
+- how duz RBAC work
+- how duz rbac work
+- how does RBAC function
+- how does RBAC funciton
+- how does RBAC fucntion
+- how does RBAC fucntion?
+- how dooes RBAC work
+- how doees RBAC work
+- how do RBAC work
+- how do RBAC works
+- how do rbac works
+- how does the RBAC work
+- how does teh RBAC work
+- how does the rbac work?
+- hoo does RBAC work
+- how does RBAC wotk
+- how does RBAC woek
+- how does RBAC wok
+- how dos rbac wk?
+- how does rbac wk
+- how does rbac wrk?
+- how does rbac wrk
+- how do rbac work
+- how do rbac works?
+- how do rbac wrk?
+- how do rbac wrk
+- howdo es RBAC work
+- howdo es rbac work
+- howdo rbac work?
+- hw does RBAC work
+- hw does rbac work
+- hwo does RBAC work
+- hwo does rbac work
+- ho does RBAC work
+- ho does rbac work
+- howoften does RBAC work
+- how often does RBAC work
+- how ofthen does RBAC work
+- how ofthen does rbac work
+- how does RBAC actually work
+- how dose RBAC actually work
+- how does rbac actually work
+- how RKAC work?
+- how Rbac wrk?
+- how does RB AC work
+- how does RB AC wk
+- how does RB AC wrk
+- how does RB AC work?
+- how does RBAC operate
+- how does RBAC operte
+- how does RBAC opreate
+- how does rbac operate?
+- how does rbac operate
+- how does rbac oprt
+- how does rbac oprte
+- how does rbac oprate?
+- howdoes RBAC work
+- howdoes rbac work
+- howdoesRBAC work
+- howdoes rbacwr k
+- how does RBAC really work
+- how does rbac really work
+- how does RBAC relly work
+- how does rbac relly work
+- how does RBAC reallly work
+- how does rbac reallly work
+- how does RBAC reallu work
+- how does rbac reallu work
+- how does RBAC wlork
+- how does rbac wlork
+- how does RB AC wlrk?
+- how does RB AC wrok?
+- how does RBAC wrok?
+- how does rbca work
+- how does rbca wrk
+- how does RBCA work
+- how does RBCA wrk
+- how does RBAC wrok?
+- how doz RBAC work
+- how dz RBAC work
+- how dz rbac work?
+- how doez rbac wrk
+- what is the purpose of RBAC
+- why use RBAC
+- how to configure RBAC in Anypoint
+- where to define roles in RBAC
+- how to map permissions with RBAC
+- why implement RBAC for APIs
+- what are the benefits of RBAC
+- what is the purpose of RBAC
+- whats the purpose of RBAC
+- what s the purpose of RBAC
+- what is purpose of RBAC
+- what is the purpse of RBAC
+- what is the purpse of rbac
+- what is the porpose of RBAC
+- what is the porpose of rbac
+- what is the porpuse of RBAC
+- what is the purpso of RBAC
+- what is the purpso of rbac
+- what is the purpose of Rbac
+- what is the purpose of rbac
+- what is the purpose RBAC
+- what is purpose RBAC
+- what s the purpose RBAC
+- what s purpose of RBAC
+- whats purpose of RBAC
+- wht is the purpose of RBAC
+- whts the purpose of RBAC
+- wht is purpose of RBAC
+- wht is the purpse of RBAC
+- wht is the purpose of rbac
+- what iz the purpose of RBAC
+- what iz the purpose of rbac
+- what iz purpose of RBAC
+- what iz the purpse of RBAC
+- wut is the purpose of RBAC
+- wut is purpose of RBAC
+- wut s the purpose of RBAC
+- wut is the purpse of RBAC
+- wut iz the purpose of RBAC
+- wut iz purpose of RBAC
+- wut iz the purpse of RBAC
+- what is teh purpose of RBAC
+- whats teh purpose of RBAC
+- what is the porpose of RBAC
+- what sj the purpose of RBAC
+- what is the pupose of RBAC
+- what is the pupose of rbac
+- what is the prupose of RBAC
+- what is the prupose of rbac
+- what is the porpuse of rbac
+- what is the purpso of rbac
+- what is the pupso of RBAC
+- what is the pupso of rbac
+- what is the porpso of RBAC
+- what is the porpso of rbac
+- what is the purpose of RBAC?
+- whats the purpose of RBAC?
+- what s the purpose of RBAC?
+- what is purpose of rbac?
+- what is the purpose of rbac?
+- what iz the purpose of rbac?
+- wut is the purpose of rbac?
+- wut is purpose of rbac?
+- wut iz the purpose of rbac?
+- wut iz purpose of rbac?
+- what is the purpose of Role Based Access Control
+- what is the purpose of role based access control
+- whats the purpose of Role Based Access Control
+- whats the purpose of role based access control
+- what is the purpose of Role based access control
+- what is the purpose of role Based access control
+- what is the purpose Role Based Access Control
+- what iz the purpose of Role Based Access Control
+- wut is the purpose of Role Based Access Control
+- wut iz purpose of Role Based Access Control
+- what is the purpose of RBAC in MuleSoft
+- what is the purpose of RBAC in Mule soft
+- what is the purpose of RBAC in Anypoint
+- what is the purpose of RBAC in Anypoint platform
+- whats the purpose of RBAC in MuleSoft
+- whats the purpose of rbac in muleSoft
+- what is the purpose of RBAC in API Manager
+- what is the purpose of rbac in api manager
+- wut is the purpose of RBAC in API Manager
+- wut iz the purpose of rbac in api manager
+- what is the purpose of rbac in the gateway
+- what is the purpose of RBAC in the gateway
+- what is the purpose of rbac in gateway
+- whats the purpose of rbac in gateway
+- what iz the purpose of rbac in gateway
+- wut is the purpose of rbac in gateway
+- what is the purpose of RBAC feature
+- what is the purpose of rbac feature
+- what is purpose of RBAC feature
+- what is purpose of rbac feature
+- whats the purpose of RBAC feature
+- whats purpose of rbac feature
+- what is the purpose of the RBAC feature
+- what is the purpose of the rbac feature
+- what is the purpose of this RBAC
+- what is the purpose of this rbac
+- whats the purpose of this RBAC
+- whats the purpose of this rbac
+- what iz the purpose of this RBAC
+- wut is the purpose of this RBAC
+- what is the purpose of RBAC deployment
+- what is the purpose of rbac deployment
+- what is the purpose of rbac policy
+- what is the purpose of RBAC policy
+- what is the purpose of the RBAC policy
+- what iz the purpose of rbac policy
+- wut is the purpose of rbac policy
+- what is the purpose of RBAC configuration
+- what is the purpose of rbac configuration
+- what is the purpose of rbac config
+- whats the purpose of rbac config
+- what is the purpose of rbac settings
+- what is the purpose of RBAC settings
+- what is the purpose of rbac rules
+- what is the purpose of RBAC rules
+- what is the purpose of rbac rules?
+- what is the purpose of RBAC rules?
+- what are OAuth2 scopes
+- what is the purpose of RBAC
+- what is the purppose of RBAC
+- whats the purpose of RBAC
+- what s the purpose of RBAC
+- what is the porpose of RBAC
+- what is the purpose of rbac
+- what is the purpose of Rbac
+- what is the prupose of RBAC
+- what is the pupose of RBAC
+- what iz the purpose of RBAC
+- wht is the purpose of RBAC
+- wut is the purpose of RBAC
+- wut iz the purpose of RBAC
+- wut is the pupose of RBAC
+- wut iz the porpose of RBAC
+- wut is the purpse of RBAC
+- wut is the prupose of RBAC
+- wot is the purpose of RBAC
+- wh@t is the purpose of RBAC
+- what is the puprose of RBAC
+- what is the puropse of RBAC
+- what is the pourpose of RBAC
+- what is the purpoose of RBAC
+- what is the percose of RBAC
+- what is the puropse of rbac
+- whats the pupose of RBAC
+- whats the porpose of RBAC
+- whats the prupose of RBAC
+- whats the purpsoe of RBAC
+- whats the puropse of RBAC
+- whats iz the purpose of RBAC
+- whats wut the purpose of RBAC
+- whats wut iz the purpose of RBAC
+- whats whut is the pupose of RBAC
+- whats the purpose of r b a c
+- whats the purpose of R B A C
+- what is the purpose RBAC
+- what purpose does RBAC serve
+- what purpose does rbac serve
+- whats purpose does RBAC serve
+- what does RBAC serve for
+- what does rbac serve for
+- what does RBAC do
+- what r the purpose of RBAC
+- whats r the purpose of RBAC
+- whats the purpose of Role Based Access Control
+- what is the purpose of Role Based Acces Control
+- what is the purpose of Role Based Acess Control
+- what is the purpose of Role Based Access Control?
+- why use RBAC
+- why use rbac
+- why use Role Based Access Control
+- why implement RBAC
+- why implement rbac
+- why do we use RBAC
+- why do we use rbac
+- why do we use Role Based Access Control
+- what benefit does RBAC provide
+- what benefit does rbac provide
+- what benefit does RBAC give
+- what benefit does rbac give
+- what are the benefits of RBAC
+- what are the benefits of rbac
+- what advantages does RBAC bring
+- what advantages does rbac bring
+- whats the benefit of RBAC
+- whats the benefit of rbac
+- whats the advantage of RBAC
+- whats the advantage of rbac
+- whats the point of RBAC
+- whats the point of rbac
+- whats the point of Role Based Access Control
+- whats the point RBAC
+- whats the point rbac
+- what is RBAC for
+- what is rbac for
+- what is the role of RBAC
+- what is the role of rbac
+- what role does RBAC play
+- what role does rbac play
+- what function does RBAC perform
+- what function does rbac perform
+- what function does RBAC serve
+- what function does rbac serve
+- what is the aim of RBAC
+- what is the aim of rbac
+- what is the goal of RBAC
+- what is the goal of rbac
+- what is the objective of RBAC
+- what is the objective of rbac
+- what objective RBAC
+- what objective rbac
+- whats objective RBAC
+- whats objective rbac
+- explain the purpose of RBAC
+- explain purpose of RBAC
+- explain the purpose of rbac
+- explain purpose of rbac
+- describe the purpose of RBAC
+- describe purpose of RBAC
+- describe the purpose of rbac
+- describe purpose of rbac
+- define the purpose of RBAC
+- define purpose of RBAC
+- define the purpose of rbac
+- define purpose of rbac
+- clarify the purpose of RBAC
+- clarify purpose of RBAC
+- clarify the purpose of rbac
+- clarify purpose of rbac
+- outline the purpose of RBAC
+- outline purpose of RBAC
+- outline the purpose of rbac
+- outline purpose of rbac
+- what is the purpose of scopes
+- how to create scopes in OAuth2
+- where to configure scopes in the API
+- what is the difference between roles and scopes
+- how to validate scopes in the gateway
+- how to apply RBAC and scopes together
+- how to manage roles and scopes
+- what does combining RBAC and scopes ensure
+- what are the advantages of using RBAC with scopes
+#rp_1
+#vr_pt: |
+  O controle de acesso baseado em papéis atribui a cada função um conjunto de permissões e associa usuários a essas funções para simplificar a gestão de acessos. No OAuth dois os scopes determinam quais recursos cada token pode acessar com detalhamento. Com RBAC você agrupa permissões por time e com scopes você restringe APIs a operações específicas. Essa abordagem unificada garante segurança detalhada e conformidade durante todo o ciclo de vida das APIs
+#vr_en: |
+  Role based access control assigns each role a set of permissions and links users to those roles to simplify access management. In OAuth two scopes specify which resources each token can reach in detail. With RBAC you group permissions by team and with scopes you restrict API operations. This unified approach ensures fine grained security and compliance throughout the API lifecycle
+#rp_2
+#vr_pt: |
+  No RBAC você define funções com permissões e depois vincula usuários a essas funções centralizando o controle de acesso. Os scopes em OAuth dois permitem definir permissões pontuais para chamadas de API. Quando você une RBAC e scopes consegue controlar quem e o que pode acessar de forma precisa. Esse modelo protege suas APIs com regras claras e auditáveis
+#vr_en: |
+  In RBAC you define roles with permissions and then link users to those roles centralizing access control. OAuth two scopes let you set precise permissions for each API call. When you combine RBAC and scopes you control who and what can access with great precision. This model protects your APIs with clear and auditable rules
+#rp_3
+#vr_pt: |
+  A estratégia de RBAC cria perfis de acesso baseados em papéis empresariais associando usuários a esses perfis. Já os scopes em OAuth dois detalham privilégios de acesso em cada token. Usando RBAC você garante separação de responsabilidades entre equipes e com scopes limita exatamente as operações permitidas. O resultado é um controle robusto e adaptável às mudanças de requisitos de segurança
+#vr_en: |
+  The RBAC strategy creates access profiles based on business roles and links users to those profiles. OAuth two scopes then detail access privileges in each token. Using RBAC you enforce separation of duties across teams and with scopes you limit exactly which operations are allowed. The result is a robust control model that adapts to changing security requirements
+#rp_4
+#vr_pt: |
+  No controle de acesso baseado em papéis definimos papéis com conjuntos de permissões e atribuimos usuários a esses papéis para facilitar o gerenciamento. Em paralelo os scopes do OAuth dois especificam recursos e ações que um token pode executar. A combinação de RBAC e scopes permite aplicar políticas de segurança granulares garantindo que cada usuário só execute o que lhe for autorizado
+#vr_en: |
+  In role based access control we define roles with sets of permissions and assign users to those roles to ease management. At the same time OAuth two scopes specify which resources and actions a token can perform. Combining RBAC and scopes lets you enforce granular security policies ensuring each user does only what they are permitted to do
+#rp_5
+#vr_pt: |
+  Com RBAC criamos grupos de funções com permissões definidas e vinculamos usuários a esses grupos para centralizar a autorização. No OAuth dois usamos scopes para detalhar nível de acesso dentro de cada chamada de API. O casamento entre RBAC e scopes traz visibilidade e controle sobre quem pode fazer o que em cada ponto de integração. Isso fortalece a segurança e simplifica auditorias
+#vr_en: |
+  With RBAC we create role groups with defined permissions and link users to those groups to centralize authorization. In OAuth two we use scopes to detail access levels for each API call. Marrying RBAC with scopes brings visibility and control over who can do what at each integration point. This strengthens security and simplifies audits
+#rp_6
+#vr_pt: |
+  A ferramenta de RBAC aloca permissões a funções de negócio e depois associa usuários a essas funções para gerenciar acesso de forma organizada. Os scopes do OAuth dois complementam definindo exatamente quais endpoints cada token pode invocar. Quando usamos RBAC e scopes juntos temos uma camada de segurança dupla que protege recursos e simplifica o cumprimento de políticas
+#vr_en: |
+  The RBAC system allocates permissions to business roles and then assigns users to those roles to manage access in an organized way. OAuth two scopes complement this by defining exactly which endpoints each token can invoke. When we use RBAC and scopes together we get a dual security layer that protects resources and simplifies policy compliance
+#rp_7
+#vr_pt: |
+  Em um esquema RBAC definimos papéis como administrador desenvolvedor ou analista e atribuímos a cada papel as permissões necessárias. O OAuth dois scopes descrevem as operações autorizadas para cada token emitido. Unindo RBAC e scopes obtemos um controle detalhado de acesso que garante que somente funções autorizadas executem ações específicas nas APIs
+#vr_en: |
+  In an RBAC scheme we define roles such as administrator developer or analyst and assign each role the necessary permissions. OAuth two scopes describe the operations authorized for each issued token. By uniting RBAC and scopes we achieve detailed access control ensuring that only authorized roles perform specific actions on the APIs
+#rp_8
+#vr_pt: |
+  O RBAC organiza permissões por papéis agrupando usuários conforme a função da empresa enquanto os scopes do OAuth dois definem os níveis de acesso de cada token. Essa combinação assegura que times tenham apenas as permissões necessárias e tokens tenham direitos restritos. O resultado é um ambiente de execução seguro e governado
+#vr_en: |
+  RBAC organizes permissions by roles grouping users according to their business function while OAuth two scopes define the access levels of each token. This combination ensures teams have only the necessary permissions and tokens have restricted rights. The result is a secure and governed runtime environment
+#rp_9
+#vr_pt: |
+  Com o controle baseado em papéis definimos quem pode acessar o que ao associar usuários a papéis de negócio e conceder permissões apropriadas. Ao mesmo tempo usamos scopes no OAuth dois para designar privilégios em cada request de API. A junção de RBAC e scopes proporciona um controle preciso e auditável das operações de integração
+#vr_en: |
+  With role based control we define who can access what by linking users to business roles and granting appropriate permissions. At the same time we use OAuth two scopes to assign privileges in each API request. The joining of RBAC and scopes provides accurate and auditable control of integration operations
+#rp_10
+#vr_pt: |
+  No modelo RBAC centralizamos a gestão de permissões em papéis de segurança e vinculamos usuários a esses papéis. Os scopes do OAuth dois atuam em nível de token definindo quais recursos e operações são permitidos. Juntos RBAC e scopes formam uma arquitetura de segurança em camadas garantindo proteções granulares e conformidade contínua
+#vr_en: |
+  In the RBAC model we centralize permission management in security roles and link users to those roles. OAuth two scopes operate at the token level specifying which resources and operations are allowed. Together RBAC and scopes form a layered security architecture ensuring granular protections and continuous compliance
+---
+#intent: mulesoft/performance_and_scalability/api_caching
+#pt:
+- o que é cache de API
+- como funciona cache de API
+- pra que serve cache de API
+- qual a finalidade do cache de API
+- como configurar cache de API no MuleSoft
+- onde ativar cache de API
+- como monitorar cache de API?
+- como monitirar cache de API?
+- como monitar cache de API?
+- como monitorear cache de API?
+- como monotorar cache de API?
+- como monitroar cache de API?
+- como moni torar cache de API?
+- como monitorar cache API?
+- como monitorar cache-de-API?
+- como monitorar cache na API?
+- como monitorar cache nas API?
+- como monitorar cahce de API?
+- como monitorar cacge de API?
+- como monitorar ccache de API?
+- como monitorar chache de API?
+- como monitorar cachee de API?
+- como monitorar cache deAP I?
+- como monitorar cache de APi?
+- como monitorar cacheAPIs?
+- como monitorar cacheeAPIs?
+- como monitorar cache da API?
+- como monitorar cache do API?
+- como monitorar cache no API?
+- como monitorar cache no gateway?
+- como monitorar cache no api gateway?
+- como monitorar caches de API?
+- como monitorar cache em API?
+- como monitorar cache em Apis?
+- como monitorar cache em aPI?
+- como monitorar cache em apI?
+- como monitorar cache e API?
+- como monitorar c ache de API?
+- como monitorar cahceAPI?
+- como monitorar cac he de API?
+- como monitorar cahce deAPIs?
+- como monitorar cache daAPIs?
+- como monitorar cacheAP is?
+- como monitorar cache API s?
+- como monitorar cache apis?
+- como monitorr cache de API?
+- como monotor cache de API?
+- como monitrar cache de API?
+- como monirtar cache de API?
+- como monitar cache deAPIs?
+- como monitar cache de APIs?
+- como montiorar cache de API?
+- como monotirar cache de API?
+- como monitar cahce de APIs?
+- como monitorar cache deAPIs?
+- como monitorar cache de Apis?
+- como monitorear cacheAPIs?
+- como monitor cache de API?
+- como monitorcache de API?
+- modo monitorar cache de API?
+- como devo monitorar cache de API?
+- como eu monitorar cache de API?
+- como posso monitorar cache de API?
+- como se monitorar cache de API?
+- como se faz monitorar cache de API?
+- como faço para monitorar cache de API?
+- qual jeito de monitorar cache de API?
+- qual forma de monitorar cache de API?
+- de que forma monitorar cache de API?
+- onde monitorar cache de API?
+- onde vejo cache de API?
+- onde encontrar monitoramento do cache de API?
+- como acompanhar cache de API?
+- como trackear cache de API?
+- como tracking cache de API?
+- como tracar cache de API?
+- como tracar cache da API?
+- como track cache de API?
+- como trackear cache API?
+- como trackear cacheAPIs?
+- como tracar cacheAPIs?
+- como auditar cache de API?
+- como verificar cache de API?
+- como checar cache de API?
+- como validar cache de API?
+- como medir cache de API?
+- como mensurar cache de API?
+- como quantificar cache de API?
+- como estatísticas de cache de API?
+- como metrics de cache de API?
+- como metricar cache de API?
+- como metir cache de API?
+- como monitorar métrica de cache de API?
+- como monitorar hit rate do cache de API?
+- como monitorar miss rate do cache de API?
+- como monitorar latência do cache de API?
+- como monitorar performance do cache de API?
+- como verificar performance do cache de API?
+- como avaliar cache de API?
+- como avaliar performance de cache de API?
+- como avaliar latência de cache de API?
+- como avaliar hits do cache de API?
+- como avaliar misses do cache de API?
+- como debuggar cache de API?
+- como debugar cache de API?
+- como depurar cache de API?
+- como debugar cahce de API?
+- como visualizar cache de API?
+- como exibir cache de API?
+- como mostrar cache de API?
+- como apresentar cache de API?
+- como ver cache de API?
+- como visualizar estado do cache de API?
+- como aplicar cache em APIs
+- como aplicar cache em APIs?
+- como aplicar cache em Apis?
+- como aplicar cachê em APIs?
+- como aplicar cache em api?
+- como aplicar cache em api s?
+- como aplicar cache em APis?
+- como aplicar cache em api s?
+- como aplicar cacge em APIs?
+- como aplicar cahce em APIs?
+- como aplicar cache em APls?
+- como aplicar cache em APis?
+- como aplicar cahce em Apis?
+- como aplicar cache em aPIs?
+- como aplicar cache em apis?
+- como aplicar cache em aPis?
+- como aplicar cache em aPI?
+- como aplicar cache em aPi?
+- como aplicar cacge em Apis?
+- como aplicar cache in APIs?
+- como aplciar cache em APIs?
+- como apliar cache em APIs?
+- como aplicar cache em API?
+- como aplicar cache em APTs?
+- como apliar cache em Apis?
+- como aplicar cache em APs?
+- como aplicar cache em APIS?
+- como aplicar cache em apis?
+- como aplicar cahce em apis?
+- como aplicar cache em Apps?
+- como aplicar cache em APIS?
+- como aplicar cache em APIS?
+- como aplicar cache em Apis?
+- como aplicar cache em apiS?
+- como aplicar cache em aPIs?
+- como aplicar cashé em APIS?
+- como aplicar cahce em APIS?
+- como aplicar cacge em APIS?
+- como aplicar ccache em APIS?
+- como aplicar cachine em APIS?
+- como aplicar chache em APIS?
+- como aplicar cacche em APIS?
+- como aplicar cache em API s?
+- como aplicar cache em API S?
+- como aplicar cache em API’s?
+- como aplicar cache em APIs?
+- como aplicar cache em api’s?
+- como aplicar cache em apis?
+- como aplicar cache em apis?
+- como aplicar cahce em Apis?
+- como aplicar cache em APIS
+- como apliar cache em APIS?
+- como aplciar cache em APIS?
+- como apicar cache em APIS?
+- como apliicar cache em APIS?
+- como appliquer cache em APIS?
+- como aplicar cache em APIS?
+- como aplicar cache em APiS?
+- como aplicar cache em ApIS?
+- como aplicar cache em aPis?
+- como aplicar cache em ApiS?
+- como aplicar cache em ApiS?
+- como aplyar cache em APIS?
+- como appicar cache em APIS?
+- comme aplicar cache em APIS?
+- como aplictar cache em APIS?
+- como applicar cache em APIS?
+- como applicar cache em API’s?
+- como aplicar cachê em APIs?
+- como aplicado cache em APIS?
+- como aplica cache em APIS?
+- como aplic cache em APIS?
+- como apicar cache em APIS?
+- como apliar cash em APIS?
+- como aplicar cash em APIS?
+- como aplica cahce em APIS?
+- como aplica ccache em APIS?
+- como aply cache em APIS?
+- como a colocar cache em APIS?
+- como colocar cache em APIS?
+- como instalar cache em APIS?
+- como incluir cache em APIS?
+- como habilitar cache em APIS?
+- como ativar cache em APIS?
+- como configurar cache em APIS?
+- como setup cache em APIS?
+- como setupar cache em APIS?
+- como setar cache em APIS?
+- como settar cache em APIS?
+- como setar cahce em APIS?
+- como settar cache em APIS?
+- como settar ccache em APIS?
+- como ligar cache em APIS?
+- como ligar cahce em APIS?
+- como ligar chache em APIS?
+- como ativar cahce em APIS?
+- como habilitar chache em APIS?
+- como habilitar cachine em APIS?
+- como habilitar ccache em APIS?
+- como implantar cache em APIS?
+- como implementar cache em APIS?
+- como implmentar cache em APIS?
+- como implementar cahce em APIS?
+- como implmentar ccache em APIS?
+- como implmentar cachine em APIS?
+- como engajar cache em APIS?
+- como engagar cache em APIS?
+- como engajar chache em APIS?
+- como engajar ccache em APIS?
+- como usar cache em APIS?
+- como utilizar cache em APIS?
+- como use cache em APIS?
+- como usar cahce em APIS?
+- como usar ccache em APIS?
+- como usar cachine em APIS?
+- como usar chache em APIS?
+- como defenir cache em APIS?
+- como definir cahce em APIS?
+- como defir cache em APIS?
+- como definir ccache em APIS?
+- como definir cachine em APIS?
+- como definir chache em APIS?
+- como definir cache em APIS?
+- como delinar cache em APIS?
+- como delinear cache em APIS?
+- como delinear cahce em APIS?
+- como delinear chache em APIS?
+- como delinear ccache em APIS?
+- como gravar cache em APIS?
+- como guardar cache em APIS?
+- como gravar cahce em APIS?
+- como guardar cahce em APIS?
+- como armazenar cache em APIS?
+- como armazenar cahce em APIS?
+- como armazenar ccache em APIS?
+- como armazenar chache em APIS?
+- como replicar cache em APIS?
+- como replicar cahce em APIS?
+- como aplicar cace em APIs?
+- como aplicar cache m APIs?
+- como aplicar cache m Apis?
+- como aplicar cache e APIs?
+- como aplicar cache n APIs?
+- como aplicar cache oni APIs?
+- como apliocar cache em APIs?
+- como apicar cache em APIs?
+- como apllicar cache em APIs?
+- como apĺicar cache em APIs?
+- como aplicar cache em APiS?
+- como aplicar cache em APls?
+- como aplicar cache em APls?
+- como aplicar cache em ApIs?
+- como aplicar cache em ApIs?
+- como aplicar chache em APIs?
+- como aplicar ccache em APIs?
+- como aplicar cache e APIs?
+- como aplicar cache nas APIs?
+- como aplicar cache nAs APIs?
+- como aplicar cache nAs Apis?
+- como aplicar cache em API?
+- como aplicar cache da APIs?
+- como aplicar cache das APIs?
+- como aplicar cache das Apis?
+- como aplicar cache na API?
+- como aplicar cache na APIs?
+- como aplicar cache de APIs?
+- como aplica cache em APIs?
+- como aplic cache em APIs?
+- como aplicaar cache em APIs?
+- como apilar cache em APIs?
+- como aplicar cacge em APis?
+- como aplicar cahce em APis?
+- como aplicar cache en APIs?
+- como aplicar cache em apis?
+- como aplicar cache em apis?
+- como aplicar cache em maps?
+- como aplicar cache en Apis?
+- como aplica cache em APIs?
+- como aplicar cache APIs?
+- como aplicar proxy cache em APIs?
+- como aplicar cachê em apis?
+- como aplicar cache em apis?
+- como aplicar cache em aapis?
+- como aplicar cache em Aapis?
+- como aplicar cache em AAPIs?
+- como aplicar cache em APAS?
+- como aplicar cache em APAIS?
+- como aplicar cache em AIPS?
+- como aplicar cache em ApAX?
+- como aplicar cache em AapiS?
+- como aplicar cache em aapiS?
+- como aplicar cache e APIs?
+- como aplicar cache em APIS?
+- como aplicar cache em api s?
+- como aplicar cache em APis?
+- como aplicar cache em Apis?
+- como aplicar cache em aPIs?
+- como aplicar cache em APIs?
+- como aplicar cache em APIs?
+- como aplicar cache em APIs?
+- como aplicar cache em APIs?
+- como aplicar cache em APIs?
+- como aplicar cache em APIs?
+- como aplicar cache em Apis?
+- como aplicar cache em APIs?
+- como aplicar cache em Aapis?
+- como aplicar cache em APis?
+- como aplicar cahce em APIs?
+- como aplicar cache em APIs?
+- como aplicar cache em APIs?
+- como aplicar cache em APIs?
+- como aplicar cache em APIs?
+- como aplicar cahe em APIs?
+- como aplicar cache em APs?
+- como aplicar cache em APIS?
+- como habilitar cache no API Gateway
+- como funciona o caching em API Manager
+- o que faz o cache de API
+- como melhorar performance com cache
+- como aumenta a escalabilidade com cache
+- quando usar cache de API
+- quando habilitar cache de API
+- quais exemplos de cache de API
+- quais benefícios do cache de API
+- quais desvantagens do cache de API
+- como invalidar cache de API
+- como definir tempo de expiração do cache
+- como monitorar cache de API
+- como monitorar cache de Apis
+- como monitorar cahce de API
+- como monitar cache de API
+- como monitar cahce de API
+- como montar cache de API
+- como monitorar cache API
+- como monitorar cache na API
+- como monitorar cache nas APIs
+- como monitor cache de API
+- como monitar cache de Apis
+- como monitorar cacle de API
+- como monitorar cche de API
+- como monitorar cacge de API
+- como monitorar cach de API
+- como monotorar cache de API
+- como monotorar cahce de API
+- como monitorar cahce API
+- como monitorar cache no API
+- como monitorar cache no Apis
+- como monitorar cache no APIS
+- como monitorar cache d e API
+- como monitorar cache da API
+- como monitorar cache das APIs
+- como monitorar cache das apis
+- como monitorar cache em API
+- como monitorar cache em Apis
+- como monitorar cache em aPI
+- como monitorar cache em aPis
+- como monitorar cache do API
+- como monitorar cache do Apis
+- como monitorar cache p API
+- como monitor cache API
+- como monitor cahe de API
+- como monitar cache API
+- como monitar cache Apis
+- como monitar cache aPI
+- como monitor c ash e de API
+- como monitor cache d eAPIs
+- como monitorar c ache Apis
+- como monitorar c ache deAPIs
+- como monitorar cache dea PI
+- como monitorar cache daPI
+- como monitorar cacheApi
+- como monitorar cacheApis
+- como monitor char de API
+- como monitor caxe de API
+- como sobre monitorar cache de API
+- como supervisor cache de API
+- como supervisar cache de API
+- como saludar cache de API
+- como superar cache de API
+- como sumonitorar cache de API
+- como sonar cache de API
+- como smonitorar cache de API
+- como snonitorar cacheAPIs
+- como simonitorar cache de API
+- como sincronizar cache de API
+- como sinmonitar cache de API
+- como solitar cache de API
+- como solicitar cache de API
+- como so monitorar cache de API
+- como monitorer cache de API
+- como monitarer cache de API
+- como monitar erro cache de API
+- como monitar performance cache de API
+- como monitar metrics de cache de API
+- como monitar metricas de cache de API
+- como monitorar latencia cache de API
+- como monitorar latencia do cache de API
+- como monitorar hit rate cache de API
+- como monitorar hitrate cache de API
+- como monitorar miss rate cache de API
+- como monitor miss rate de API
+- como moniorar cache de API
+- como mnitorar cache de API
+- como mmonitorar cache de API
+- como mmonnitorar cache de API
+- como monitorar cache dep API
+- como monitorar cachde API
+- como monitorar cache dAPI
+- como monitorar cache d eAPIs
+- como monitorar c ache dep APIs
+- como monitorar cahce d e APIs
+- como monitor c achedep APIs
+- como monitorar cache depr API
+- como monitorar cache d e pr API
+- como monitorar cache dePR API
+- como monitorar cache de P APIs
+- como monitorar cache de PIs
+- como monitorar cache de PPIs
+- como monitorar cache de APIS
+- como monitorar cahce de APIS
+- como monitorar cahce APIS
+- como monitorar cahce PIS
+- como monitorar chache de APIs
+- como monitorar cache de API
+#en:
+- what is API caching
+- what is API caching
+- what is api caching
+- what is Api caching
+- what iz API caching
+- what iz api caching
+- what iz Api caching
+- what is API casching
+- what is API cacing
+- what is API chaching
+- what is API Catching
+- what is API cahcing
+- what is API cacging
+- what is API cachng
+- what is API cachin
+- what is API cachine
+- what is API casching
+- what is API cascing
+- what is API caching?
+- what is api caching?
+- what iz API caching?
+- what is AP caching
+- what is APi caching
+- what is Api caching?
+- what is APi caching?
+- what is API cating
+- what is API catcing
+- what is API cachng?
+- what is API cachingg
+- what is API cchching
+- what is API cchaching
+- what is API caaching
+- what is API ca5hing
+- what is API cahing
+- what is API ccaching
+- what is APi cching
+- what is API cachnig
+- what is API cacing?
+- what is API cachingg?
+- what is API cacahing
+- what is API cacging?
+- what is API cachign
+- what is API cacaing
+- what is API cachingg?
+- what is API cathing
+- what is API chtching
+- what is API catchng
+- what is API cagching
+- what is API cachign?
+- what is API caching??
+- what is API cachingg?
+- what is API cacching?
+- what is API cacthing
+- what is API cacthing
+- what is API cacthing?
+- what is API cachimg
+- what is API cachinv
+- what is API cachingv
+- what is API cachingl
+- what is API cachingl?
+- what is API cachingg?
+- what is API cachinf
+- what is API cahing?
+- what is API catcing?
+- what is API cacjing
+- what is API cachine?
+- what is API cachine?
+- what is API cachinggg
+- what is API cachinggg?
+- what is API cacging?
+- what is API cacjing?
+- what is API cacting
+- what is API cacthing?
+- what is API chaching?
+- what is API cchaching?
+- what is API cchaching?
+- what is API chaching?
+- what is API cahcing?
+- what is API cahcing?
+- what is API cacing?
+- what is API cahing?
+- what is API caching v
+- what is API caching  ?
+- what is API    caching
+- what is     API caching
+- what isAPI caching
+- what isAPIcaching
+- whatis API caching
+- whatis api caching
+- wat is API caching
+- wat iz API caching
+- wht is API caching
+- wht is API caching?
+- wht iz API cacing
+- wht is API cacing
+- wht is API caching
+- w0t is API caching
+- what is API catchng
+- what is API cathing
+- what is API catcing
+- wht is API catcing
+- wht iz API catcing
+- wht iz API cathing
+- wht iz API caching
+- how does API caching work
+- what is the purpose of API caching
+- how to configure API caching in MuleSoft
+- where to enable API cache
+- how to apply caching to APIs
+- how to enable cache in API Manager
+- how does caching work in API Gateway
+- what does API cache do
+- how to improve performance with cache
+- how to scale with API caching
+- when to use API caching
+- how to set cache expiration time
+- how to set cache experation time
+- how to set cache expireation time
+- how to set cach expiration time
+- how to set cache expiration tiem
+- how to set cache expiration tim
+- how to set cache expiraion time
+- how to set cache expirtation time
+- how to set cache expriation time
+- how to set cache expriation tiem
+- how to set cache expresion time
+- how to set cache expration time
+- how to set cache expirtion time
+- how to set cache expiraton time
+- how to set cache expirtaton time
+- how to set cache exiration time
+- how to set cache expireation tim
+- how to set cache expiration ti
+- how to set cache expiraion tiem
+- how to set cache expirationtime
+- how to set cacheexpiration time
+- how to set cache expire time
+- how to set cache expire time?
+- how to set cache expration tiem?
+- how to set cache expertaion time
+- how to set cache experiation time
+- how to set cache expiraton tiem
+- how to set cache exparation time
+- how to set cache expariation time
+- how to set cache exporation time
+- how to set cache exparition time
+- how to set cache exporation tiem
+- how to set cache experation tiem
+- how to set cache expiratoin time
+- how to set sys cache expiration time
+- how do i set cache expiration time
+- how do i set cache experation time
+- how to configure cache expiration time
+- how to configure cache experation time
+- how to configure cache expireation time
+- how to configure cache expriation time
+- how to configure cach expiration time
+- how to configure cache expiration tiem
+- how to config cache expiration time
+- how to config cache experation time
+- how to config cache expire time
+- how to config cache expiraion time
+- how to config cache expriation time
+- how to config cach expiration time
+- how to config cache expiration tiem
+- can you set cache expiration time
+- can you set cache experation time
+- can you set cache expire time
+- can you set cache exparation time
+- can you set cache expriation time
+- can you set cach expiration time
+- can you set cache expiration tiem
+- can u set cache expiration time
+- can u set cache experation time
+- can u set cache expire time
+- can u set cache expiraion time
+- pls set cache expiration time
+- pls set cache experation time
+- pls set cache expire time
+- pls set cache expiraion time
+- pls set cach expiration time
+- pls set cache expirationtiem
+- pls set cache expiration tm
+- pls set cache expriation time
+- pls set cache expiration tiem?
+- how to adjust cache expiration time
+- how to adjust cache experation time
+- how to adjust cache expire time
+- how to adjust cache expiraion time
+- how to adjust cach expiration time
+- how to adjust cache expiration tiem
+- how do i adjust cache expiration time
+- how do i adjust cache experation time
+- how do i adjust cache expire time
+- where to set cache expiration time
+- where to set cache experation time
+- where to set cache expire time
+- where to set cache expiraion time
+- where can i set cache expiration time
+- where can i set cache experation time
+- where can i set cache expire time
+- where can i set cache expiraion time
+- how to define cache expiration time
+- how to define cache experation time
+- how to define cache expire time
+- how to define cache expiraion time
+- how to declare cache expiration time
+- how to declare cache experation time
+- how to declare cache expire time
+- how to declare cache expiraion time
+- how to set api cache expiration time
+- how to set api cache experation time
+- how to set api cache expire time
+- how to set api cach expiration time
+- how to set api cache expiration tiem
+- how to set apicache expiration time
+- how to set apicache experation time
+- how to set api-cach expiration time
+- how to set api cache expriation time
+- when to enable API cache
+- give examples of API caching
+- what are the benefits of API caching
+- what are the drawbacks of API caching
+- how to invalidate API cache
+- how to set cache expiration time
+- how to monitor API cache
+- how to tune API cache settings
+- when to use API caching
+- when to use api caching
+- when to use caching in API
+- when to use caching on API
+- when to use cache for API
+- wen to use API caching
+- whne to use API caching
+- wjen to use API caching
+- when to use APi caching
+- when to use ApI caching
+- when to use api Caching
+- when to use API Caching?
+- when to use API cachng
+- when to use API cachig
+- when to use API cachin
+- when to use API cathing
+- when to use API cacting
+- when to use API cacthing
+- when to use API cacing
+- when to use API cachine
+- when to use api cachng
+- when to use api cachig
+- when to use api cacng
+- when to use api cacting
+- when to use api cacthing
+- when to use api cahcing
+- when to use api cachingg
+- when to use api caching?
+- when to use cahe API
+- when to use cacne API
+- when to use cashing API
+- when to use chaching API
+- when to use cachine API
+- when to use cacthing API
+- whtn to use API caching
+- whtn to use api caching
+- wn to use API caching
+- whn to use API caching
+- wneh to use API caching
+- wnhe to use API caching
+- when to use APi cachng
+- when to use APi cachig
+- when to use APi cacthing
+- when to apply API caching
+- when to apply api caching
+- when to apply caching API
+- when to apply cache API
+- when to apply cache on API
+- when to apply cache in API
+- when to enable API caching
+- when to enable api caching
+- when to enable cache API
+- when to enable cache on API
+- when to enable caching API
+- when to turn on API caching
+- when to turn on api caching
+- when to turn on cache API
+- when to switch on API caching
+- when to activate API caching
+- when to activate api caching
+- when to activate cache API
+- when should I use API caching
+- when should i use api caching
+- when should I apply API caching
+- when should I enable API caching
+- when should I turn on API caching
+- when is API caching useful
+- when is api caching useful
+- when is cache API useful
+- when is caching API useful
+- when does API caching help
+- when does api caching help
+- when does cache API help
+- when does caching API help
+- when to leverage API caching
+- when to leverage api caching
+- when to leverage cache API
+- when to leverage caching API
+- when to employ API caching
+- when to employ api caching
+- when to employ cache API
+- when to employ caching API
+- when to implement API caching
+- when to implement api caching
+- when to implement cache API
+- when to implement caching API
+- when to configure API caching
+- when to configure api caching
+- when to configure cache API
+- when to leverage API caching
+- wnen to leverage API caching
+- when to leverege API caching
+- when to leverate API caching
+- when to leverge API caching
+- when to levrage API caching
+- when to leverahe API caching
+- when to leverate api caching
+- when to leverage api caching
+- when to leverage ApI caching
+- when to leverage aPI caching
+- when to leverage APi caching
+- when to leverage APi Caching
+- whne to leverage API caching
+- wjhen to leverage API caching
+- when to leverate API casching
+- when to leverage API casching
+- when to leverege API casching
+- when to leverege API caching?
+- when to leverage API caching?
+- when to leverage cahce API caching
+- when to leverage caching API
+- when to leverage cache API
+- when to leverage api chaching
+- when to leverage api cacting
+- when to leverage api cacthing
+- when to leverage api cachine
+- when to leverage api cachng
+- when to leverage api cachin
+- when to leverage api cahcing
+- when to leverage api cachine
+- when to leverage cachine API
+- when to leverage cacheing API
+- when to leverage cachng API
+- when to leverage cachin API
+- when to leverage cache API?
+- when to leverage cachng API?
+- when to leverege api caching
+- when to leverege api caching?
+- when to leverageapicaching
+- when to leverege aPI caching
+- when to leverege APi caching
+- when to leverege APi cachine
+- when to leveregeAPICaching
+- when to leverage APIcaching
+- when to leverge API caching
+- when to levrage APi caching
+- when to levrage API càching
+- when to leverage API cacling
+- when to leverage API cachimg
+- when to leverage API cachng?
+- when to leverage API cacthing
+- wen to leverage API caching
+- whtn to leverage API caching
+- whtn to leverage api caching
+- wn to leverage API caching
+- wht to leverage API caching
+- whtn to leverege API caching
+- whtn to leverege APi caching
+- whn to leverage APi caching
+- whn to leverage api caching
+- whn to leverage API cachine
+- whn to leverage API caching?
+- whe to leverage API caching
+- whe to leverage api caching
+- whe to levege API caching
+- whne to leverege API caching
+- whne to leverage API cachng
+- when to leverate API cachng
+- when to leverage API cacheing
+- when to leverage API cacheing?
+- when to leverage API cache n ing
+- when to leverage API chaceing
+- when to leverage API chacing
+- when to leverage API cacehing
+- when to leverage API cacehing?
+- when to leverage API cacing
+- when to leverage API ca ching
+- when to leverage API cac hing
+- when to leverage API caching v
+- when to leverage API caching l
+- when to leverage API caching m
+- when to leveragy API caching
+- when to leverate API caching?
+- when to levarg API caching
+- when to levrage API caching
+- when to leveragt API caching
+- when to leveraeg API caching
+- when to leverate API cachine
+- when to leverate API cacthing
+- when to leverate API cacting
+- when to leverate API cachine?
+- when to lev erage API caching
+- when to lever age API caching
+- when to lever- age API caching
+- when to laverage API caching
+- when to laverage API cachng
+- when to laverage API caching?
+- when to laeverage API caching
+- when to configure caching API
+- when to set up API caching
+- when to set up api caching
+- when to set up cache API
+- when to set up caching API
+#rp_1
+#vr_pt: |
+  O cache de API guarda em memória ou armazenamento rápido as respostas de chamadas recorrentes, reduzindo latência e aliviando o back end. Em vez de repassar cada requisição, ele retorna o resultado armazenado. Assim você acelera o tempo de resposta, amplia a capacidade de atendimento e mantém a estabilidade durante picos. É possível definir recursos, cabeçalhos ou parâmetros para armazenar em cache, além de políticas de expiração e limpeza para garantir a atualização dos dados.
+#vr_en: |
+  API caching retains responses from frequent calls in memory or fast storage to lower latency and reduce backend strain. Rather than forwarding each request, it returns the cached result. This speeds up response times, enhances throughput capacity, and ensures stability under high load. You can specify resources, headers, or parameters to cache, as well as expiration and eviction policies to keep data fresh.
+#rp_2
+#vr_pt: |
+  A estratégia de cache de API armazena respostas comuns em um repositório rápido, evitando idas repetidas ao serviço de origem. Com isso, diminui-se o tempo de espera e o uso de recursos do back end. O cache pode segmentar endpoints, cabeçalhos ou query params, e é possível configurar regras de validade e invalidação para que as informações não fiquem obsoletas.
+#vr_en: |
+  The API caching strategy stores common responses in a fast repository, preventing redundant calls to the origin service. This reduces wait times and backend resource consumption. Caching can target endpoints, headers, or query params, and you can configure freshness and eviction rules to prevent stale data.
+#rp_3
+#vr_pt: |
+  No cache de API, respostas de endpoints frequentes são salvas em memória ou disco rápido, evitando processamento repetido. Isso corta latência e libera o back end para outras tarefas. Com opções de escopo por rota, cabeçalho ou parâmetro, e políticas de expiração definidas, o cache mantém os dados válidos e melhora a escalabilidade do serviço.
+#vr_en: |
+  In API caching, responses from frequently used endpoints are saved in memory or fast storage, avoiding repeated processing. This cuts latency and frees the backend for other operations. With scoping by route, header, or parameter, and defined expiration policies, caching keeps data valid and boosts service scalability.
+#rp_4
+#vr_pt: |
+  API caching consiste em conservar localmente as respostas de requisições repetidas, reduzindo a carga no servidor e agilizando o tempo de entrega. Ao configurar quais recursos, cabeçalhos ou parâmetros entram no escopo, e aplicando tempos de vida e limpezas periódicas, você garante rapidez e confiabilidade mesmo sob alta demanda.
+#vr_en: |
+  API caching involves locally retaining responses for repeated requests, reducing server load and speeding up delivery. By configuring which resources, headers, or parameters are in scope and applying time-to-live and periodic cleanups, you ensure fast and reliable performance even under heavy demand.
+#rp_5
+#vr_pt: |
+  O cache em APIs captura respostas de chamadas frequentes e as armazena em memória ou storage de alta velocidade. Com isso, evita chamadas desnecessárias ao back end, melhora a latência e aumenta a capacidade de processamento. É possível ajustar regras de expiração e invalidação por recurso, cabeçalho ou query, mantendo os dados sempre atualizados.
+#vr_en: |
+  API caching captures responses from frequent calls and stores them in memory or high-speed storage. This prevents unnecessary backend calls, improves latency, and increases processing capacity. You can tune expiration and invalidation rules by resource, header, or query to keep data always fresh.
+#rp_6
+#vr_pt: |
+  Em uma camada de cache para APIs, as respostas são retidas em um armazenamento de acesso rápido, impedindo múltiplas idas ao back end. Isso reduz atrasos e liberta o servidor de sobrecarga. Configurando quais endpoints, cabeçalhos ou parâmetros participarão do cache e definindo períodos de validade, o sistema entrega dados mais rápido e permanece escalável.
+#vr_en: |
+  In an API cache layer, responses are held in a fast-access store, preventing multiple trips to the backend. This cuts delay and relieves server overload. By configuring which endpoints, headers, or parameters participate in caching and setting validity periods, the system delivers data faster and remains scalable.
+#rp_7
+#vr_pt: |
+  O mecanismo de cache de API salva localmente respostas comuns, economizando recursos do back end e acelerando tempos de resposta. Você pode escolher rotas, headers ou parâmetros para cache e definir regras de expiração e limpeza automática, garantindo que apenas dados atuais sejam entregues mesmo em picos de uso.
+#vr_en: |
+  The API cache mechanism locally stores common responses, saving backend resources and speeding up response times. You can select routes, headers, or parameters for caching and define expiration and auto-cleanup rules to ensure only current data is served even during usage spikes.
+#rp_8
+#vr_pt: |
+  Cache de API mantém em memória ou SSD respostas de endpoints acessados com frequência, eliminando a necessidade de reprocessamento no back end. Isso melhora drasticamente a latência e a escalabilidade. Com políticas definidas de TTL e invalidação por recurso, cabeçalho ou string de consulta, o cache garante dados válidos e performance uniforme.
+#vr_en: |
+  API cache keeps in-memory or SSD storage responses from frequently accessed endpoints, eliminating the need for backend reprocessing. This dramatically improves latency and scalability. With defined TTL and invalidation policies by resource, header, or query string, caching ensures valid data and consistent performance.
+#rp_9
+#vr_pt: |
+  O cache de API permite armazenar respostas populares em um armazenamento de alta velocidade, reduzindo a latência e o uso de CPU no serviço de origem. Por meio de filtros por rota, header ou parâmetro, e configurações de expiração e remoção, o sistema entrega resultados mais rapidamente e escala sob carga elevada.
+#vr_en: |
+  API caching lets you store popular responses in high-speed storage, reducing latency and CPU usage on the origin service. Through filters by route, header, or parameter, and settings for expiration and eviction, the system delivers results faster and scales under heavy load.
+#rp_10
+#vr_pt: |
+  Implementar cache em uma API salva em memória ou disco rápido as respostas de chamadas redundantes, diminuindo o tempo de resposta e aliviando o back end. Com opções para segmentar por recurso, cabeçalho ou query e definir políticas de expiração e invalidação, o cache mantém a aplicação rápida e resiliente.
+#vr_en: |
+  Implementing caching in an API saves redundant call responses in memory or fast disk, reducing response times and easing backend load. With options to segment by resource, header, or query and set expiration and eviction policies, caching keeps the application fast and resilient.
