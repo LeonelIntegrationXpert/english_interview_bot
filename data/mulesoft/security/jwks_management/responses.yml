@@ -1,0 +1,53 @@
+version: '3.1'
+responses:
+  utter_jwks_management:
+    - custom:
+        vr_pt: |
+          A gestão de chaves JWKS consiste em disponibilizar um JSON Web Key Set com as chaves públicas para verificação de JWTs. Esse conjunto deve ficar acessível via um endpoint (JWKS URI). No MuleSoft, aplica-se a política “JWT Validation” referenciando esse URI. O fluxo inclui rotação de chaves em intervalos definidos, atualização automática do cache JWKS, configuração de truststore para HTTPS e fallback se o provedor de chaves falhar.
+        vr_en: |
+          JWKS key management means hosting a JSON Web Key Set of public keys used to verify JWTs. This set is exposed via a JWKS URI endpoint. In MuleSoft, you attach the “JWT Validation” policy to that URI. The workflow covers scheduled key rotation, automatic JWKS cache updates, truststore setup for HTTPS, and fallback behavior when the key issuer is down.
+    - custom:
+        vr_pt: |
+          No gerenciamento de JWKS, publica-se um arquivo JSON contendo todas as chaves públicas para validar JWTs, exposto por uma URI. Em MuleSoft, define-se a política de validação JWT apontando para esse endereço. O ciclo envolve renovação periódica das chaves, recarga automática do cache, configuração de certificados de confiança e mecanismo de contingência em caso de indisponibilidade.
+        vr_en: |
+          In JWKS management, you publish a JSON file with all public keys for JWT validation, served at a URI. In MuleSoft, you set the JWT validation policy to that URI. The cycle involves periodic key renewal, automatic cache reload, truststore certificate configuration, and contingency handling if the JWKS provider is unreachable.
+    - custom:
+        vr_pt: |
+          Gerenciar JWKS é manter um JSON Web Key Set público em um endpoint para suas APIs consultarem ao validar JWTs. No Anypoint, usa-se a política JWT Validation configurada com essa URI. É necessário planejar rotação de chaves regular, refrescar o cache JWKS automaticamente, ajustar o truststore para conexões seguras e prever fallback para outros provedores.
+        vr_en: |
+          Managing JWKS means hosting a public JSON Web Key Set at an endpoint for your APIs to fetch when validating JWTs. In Anypoint, you apply the JWT Validation policy pointing to that URI. You need to schedule regular key rotations, automatically refresh the JWKS cache, configure the truststore for secure connections, and implement fallback to alternate providers.
+    - custom:
+        vr_pt: |
+          A estratégia de JWKS envolve expor um JSON com as chaves públicas num endpoint que as APIs utilizam para verificar tokens JWT. No MuleSoft, configura-se a política “JWT Validation” usando esse JWKS URI. O processo abrange atualização periódica de chaves, recarga do cache JWKS, configuração de truststore TLS e planos de contingência se o serviço de chaves falhar.
+        vr_en: |
+          The JWKS strategy involves exposing a JSON of public keys at an endpoint that APIs use to verify JWTs. In MuleSoft, you configure the “JWT Validation” policy with that JWKS URI. The process covers periodic key updates, JWKS cache reload, TLS truststore configuration, and contingency plans if the key service fails.
+    - custom:
+        vr_pt: |
+          Publicar e manter um JWKS é criar um JSON Web Key Set de chaves públicas num URI que as APIs chamam para validar JWTs. No MuleSoft, basta apontar a política de validação JWT para esse URI. Deve-se incluir rotação automatizada de chaves, cache inteligente do JWKS, ajustes de truststore HTTPS e fallback se a fonte de chaves não responder.
+        vr_en: |
+          Publishing and maintaining a JWKS means creating a JSON Web Key Set of public keys at a URI that APIs call to validate JWTs. In MuleSoft, you simply configure the JWT validation policy to that URI. You should include automated key rotation, intelligent JWKS caching, HTTPS truststore adjustments, and fallback if the key source is unresponsive.
+    - custom:
+        vr_pt: |
+          No gerenciamento de JWKS, um arquivo JSON com as chaves públicas é hospedado em um endpoint (URI). As APIs no MuleSoft referenciam esse URI na política “JWT Validation”. É essencial configurar rotação de chaves programada, recarga do cache de JWKS, truststore para conexões seguras e fallback em caso de indisponibilidade do JWKS.
+        vr_en: |
+          In JWKS management, a JSON file with public keys is hosted at an endpoint (URI). APIs in MuleSoft reference this URI in the “JWT Validation” policy. It’s essential to configure scheduled key rotation, JWKS cache reload, truststore for secure connections, and fallback if the JWKS becomes unavailable.
+    - custom:
+        vr_pt: |
+          Gerenciar um JWKS significa servir um JSON Web Key Set contendo chaves públicas num ponto de extremidade usado pela política de validação JWT do MuleSoft. O ciclo inclui atualização regular das chaves, recarga automática do cache JWKS, configuração de certificados confiáveis e mecanismo de fallback se a fonte de JWKS falhar.
+        vr_en: |
+          Managing a JWKS means serving a JSON Web Key Set of public keys at an endpoint used by MuleSoft’s JWT validation policy. The cycle includes regular key updates, automatic JWKS cache reload, trusted certificate configuration, and a fallback mechanism if the JWKS source fails.
+    - custom:
+        vr_pt: |
+          JWKS key management é o processo de disponibilizar um JSON Web Key Set com chaves públicas acessível por uma URI. No Anypoint, define-se a política de JWT Validation para esse endereço. É importante planejar rotação periódica, atualizar o cache automaticamente, configurar truststore TLS e prever fallback se acontecer falha no JWKS.
+        vr_en: |
+          JWKS key management is the process of providing a JSON Web Key Set of public keys accessible via a URI. In Anypoint, you set the JWT Validation policy to that address. It’s important to plan periodic rotations, auto-refresh the cache, configure a TLS truststore, and plan fallback if the JWKS fails.
+    - custom:
+        vr_pt: |
+          Na prática, o gerenciamento de JWKS envolve expor um JSON com as chaves públicas num endpoint e apontar a política de validação JWT do MuleSoft para lá. Também se estabelece rotação programada de chaves, atualização do cache JWKS, configuração de truststore e fallback para outra fonte de chaves caso haja erro.
+        vr_en: |
+          In practice, JWKS management involves exposing a JSON with public keys at an endpoint and pointing MuleSoft’s JWT validation policy there. You also set up scheduled key rotation, JWKS cache updates, truststore configuration, and fallback to another key source in case of errors.
+    - custom:
+        vr_pt: |
+          O gerenciamento de JWKS consiste em criar um JSON Web Key Set com as chaves públicas e disponibilizá-lo via URI para validação de JWTs. Em MuleSoft, configura-se a política JWT Validation para esse endpoint. O workflow inclui rotação de chaves, recarga automática do cache JWKS, truststore para HTTPS e fallback se o endpoint principal falhar.
+        vr_en: |
+          JWKS management involves creating a JSON Web Key Set with public keys and exposing it via a URI for JWT validation. In MuleSoft, you configure the JWT Validation policy to that endpoint. The workflow includes key rotation, automatic JWKS cache reload, truststore setup for HTTPS, and fallback if the primary endpoint fails.

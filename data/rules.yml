@@ -49,6 +49,10 @@ rules:
     steps:
       - intent: lifecycle_management_exchange
       - action: utter_lifecycle_management_exchange
+  - rule: rule_jwks_management
+    steps:
+      - intent: jwks_management
+      - action: utter_jwks_management
   - rule: rule_multi_idp_jwt_validation
     steps:
       - intent: multi_idp_jwt_validation

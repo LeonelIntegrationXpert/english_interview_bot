@@ -27,6 +27,98 @@ nlu:
       - o q tem na doc do portal?
       - como publico docs no portal?
       - como pubicar docs no portal?
+      - como publicar docs no portal?
+      - como publicar docs no poortal?
+      - como publicar doc no portal?
+      - como publicar documentação no portal?
+      - como publicar documentaçao no portal?
+      - como publicar documntação no portal?
+      - como subir docs no portal?
+      - como subir documentação no portal?
+      - como fazer upload dos docs no portal?
+      - como fazer upload docs portal?
+      - como upar docs no portal?
+      - como upar documentação no portal?
+      - como enviar docs para o portal?
+      - como enviar documentação para o portal?
+      - como colocar docs no portal?
+      - como colocar documentação no portal?
+      - como pôr docs no portal?
+      - como por docs no portal?
+      - como publicar docs no dev portal?
+      - como publicar docs no developer portal?
+      - como publicar docs no portal dev?
+      - como publicar docs no portal de dev?
+      - como publicar docs no portal de desenvolvedor?
+      - como publicar docs na portal?
+      - como publicar docs no portl?
+      - como publicar docs no porteal?
+      - como publicar docs no porta?
+      - como publicar docs no porter?
+      - como publicar docs nesse portal?
+      - como publicar docs nesse portl?
+      - como publicar docs nesse porteal?
+      - como disponibilizar docs no portal?
+      - como disponibilizar documentação no portal?
+      - como liberar docs no portal?
+      - como liberar documentação no portal?
+      - como publicar API docs no portal?
+      - como publicar apidocs no portal?
+      - como publicar apí docs no portal?
+      - como publicar docs no portal local?
+      - como publicar docs no portal mule?
+      - como publicar docs no portal anypoint?
+      - como publicar docs no anypoint portal?
+      - como publicar docs no anyPoint portal?
+      - como publicar docs no portal Anypoint?
+      - como publicar docs no portal anypont?
+      - como publicar docs no portal anypoit?
+      - como publicar docs no portal anipoint?
+      - como publicar docs no portal anypoin?
+      - como registrar docs no portal?
+      - como registrar documentação no portal?
+      - como incluir docs no portal?
+      - como incluir documentação no portal?
+      - como integrar docs no portal?
+      - como integrar documentação no portal?
+      - como colocar docs no dev portal?
+      - como colocar docs no developer portal?
+      - como inserir docs no portal?
+      - como inserir documentação no portal?
+      - como anexar docs no portal?
+      - como anexar documentação no portal?
+      - como carregar docs no portal?
+      - como carregar documentação no portal?
+      - como dar deploy dos docs no portal?
+      - como publicar manual no portal?
+      - como publicar guia no portal?
+      - como publicar tutorial no portal?
+      - como publicar guia de uso no portal?
+      - como publicar exemplos no portal?
+      - como publicar exemplos de uso no portal?
+      - como publicar specs no portal?
+      - como publicar especificação no portal?
+      - como publicar especificações no portal?
+      - como publicar swagger no portal?
+      - como publicar swagger docs no portal?
+      - como publicar openapi no portal?
+      - como publicar openapi specs no portal?
+      - como publicar raml no portal?
+      - como publicar contrato no portal?
+      - como publicar swagger no dev portal?
+      - como publicar swagger no developer portal?
+      - como publicar swagger no anypoint portal?
+      - como publicar swagger no portal anypoint?
+      - como publicar swagger no portal mule?
+      - como publicar swagger doc no portal?
+      - como publicar raml spec no portal?
+      - como publicar raml no dev portal?
+      - como publicar raml no developer portal?
+      - como publicar yaml no portal?
+      - como publicar json no portal?
+      - como publicar postman docs no portal?
+      - como publicar postman no portal?
+      - como publicar coleção no portal?
       - como publiar documentação no portal?
       - como coloco doc no portal?
       - como usa portal dev do MuleSoft?
@@ -206,6 +298,10 @@ nlu:
       - como solicit chave?
       - onde solicito chave?
       - como pego key no portal?
+      - como pego API key no portl?
+      - como reproduzo exemplos no portal?
+      - como exbibo exemplos no portal?
+      - como exibo exempleos no portal?
       - what is the developer portal?
       - what is the developer portal in Anypoint?
       - what is the purpose of the developer portal?
@@ -226,6 +322,104 @@ nlu:
       - what is the reference guide section?
       - how to manage documentation in Anypoint Exchange?
       - how to enable versioned docs in the portal?
+      - where do I set up the developer portal?
+      - where can I configure the developer portal?
+      - where should I configure the developer portal?
+      - where is the developer portal configured?
+      - where do I go to configure the developer portal?
+      - where would I configure the developer portal?
+      - where do I manage the developer portal?
+      - where do I edit the developer portal settings?
+      - where do I adjust the developer portal?
+      - where do I access the developer portal config?
+      - where is the developer portal config located?
+      - where can I find the developer portal configuration?
+      - where do I find the developer portal settings?
+      - where do I change the developer portal settings?
+      - where do I tweak the developer portal?
+      - where do I update the developer portal config?
+      - where do I administer the developer portal?
+      - where do I look to configure the developer portal?
+      - where do I navigate to configure the developer portal?
+      - where do I click to configure the developer portal?
+      - where do I go in Anypoint to configure the developer portal?
+      - where in Anypoint do I configure the developer portal?
+      - where in Exchange do I configure the developer portal?
+      - where in Anypoint Exchange do I configure the developer portal?
+      - where in the console do I configure the developer portal?
+      - where in the UI do I configure the developer portal?
+      - where can I adjust the developer portal settings?
+      - where can I manage the developer portal?
+      - where can I edit the portal for developers?
+      - where can I set up the portal for developers?
+      - where can I configure the dev portal?
+      - where do I configure the dev portal?
+      - where do I set up the dev portal?
+      - where do I manage the dev portal?
+      - where do I find the dev portal settings?
+      - where do I adjust the dev portal?
+      - where do I update the dev portal?
+      - where do I tweak the dev portal?
+      - where do I administer the dev portal?
+      - where do I access the dev portal config?
+      - where do I go to configure the dev portal?
+      - where would I configure the dev portal?
+      - where is the dev portal configured?
+      - where is the dev portal config located?
+      - where in Anypoint do I configure the dev portal?
+      - where in Exchange do I configure the dev portal?
+      - where in the console do I configure the dev portal?
+      - where in the UI do I configure the dev portal?
+      - where can I find the dev portal configuration?
+      - where do I change the dev portal settings?
+      - where do I edit the dev portal settings?
+      - where do I adjust the developer portal config?
+      - where do I adjust the developer portal settings?
+      - where can I update the developer portal?
+      - where can I edit the developer portal?
+      - where can I modify the developer portal?
+      - where can I change the developer portal?
+      - where can I customize the developer portal?
+      - where can I personalize the developer portal?
+      - where do I customize the developer portal?
+      - where do I personalize the developer portal?
+      - where do I modify the developer portal?
+      - where do I tailor the developer portal?
+      - where do I set up the developer portal in Anypoint?
+      - where do I configure the developer portal in Anypoint?
+      - where do I configure the developer portal on Exchange?
+      - where do I configure the developer portal on Anypoint Exchange?
+      - where do I configure the developer portal console?
+      - where do I configure the developer portal UI?
+      - where do I configure the developer portal settings page?
+      - where is the developer portal settings page?
+      - where is the developer portal configuration page?
+      - where do I find the developer portal settings page?
+      - where in the settings is the developer portal?
+      - where in the menu is the developer portal config?
+      - where in the menu do I find developer portal config?
+      - where in the navigation do I configure the developer portal?
+      - where in the dashboard do I configure the developer portal?
+      - where on the dashboard do I configure the developer portal?
+      - where in the portal settings do I configure?
+      - where on the portal settings page do I configure?
+      - where under settings is the developer portal?
+      - where under portal is developer portal config?
+      - where under API Manager is developer portal config?
+      - where under Exchange is the developer portal config?
+      - where under organization settings do I configure the developer portal?
+      - where under environment settings do I configure the developer portal?
+      - where under portal settings do I configure the developer portal?
+      - where do I define the developer portal?
+      - where do I register the developer portal?
+      - where do I provision the developer portal?
+      - where do I enable the developer portal?
+      - where do I activate the developer portal?
+      - where do I turn on the developer portal?
+      - where do I switch on the developer portal?
+      - where do I launch the developer portal?
+      - where do I deploy the developer portal?
+      - where do I publish the developer portal?
       - what is the develope portal?
       - what is the developer poral?
       - what is the developer portl?
@@ -408,5 +602,3 @@ nlu:
       - how to test APIs online?
       - how to test API online?
       - how to test APIs onine?
-      - how to test APIs on poral?
-      - how to test APIs on portl?

@@ -204,7 +204,219 @@ nlu:
       - como implementar políticas de govrnanca?
       - como implementar politcas de governanca?
       - o que abrange politicas de governanca?
+      - o que inclui politicas de governance?
+      - como auditar policies de SLA?
+      - o que é aplicacao de policy?
+      - como aplicar policy enforcement?
+      - como renovar politicas de SLA?
+      - como renovar policies de SLA?
+      - como medir compliance com policias?
+      - como medir compliance com politicas?
+      - o que são thresholds em políticas?
+      - o que sao thresholds em politicas?
+      - o que signific thresholds em politicas?
+      - como chavar thresholds em SLA?
+      - como setar thresholds em SLA?
+      - como setar limiares em SLA?
+      - como configurar thresholds em SLA?
+      - como configurar limiares em SLA?
+      - como definir thresholds em SLA?
+      - como definir limiares em SLA?
+      - como ajustar thresholds em SLA?
+      - como ajustar limiares em SLA?
+      - como colocar thresholds em SLA?
+      - como colocar limiares em SLA?
+      - como estabelecer thresholds em SLA?
+      - como estabelecer limiares em SLA?
+      - como parametrizar thresholds em SLA?
+      - como parametrizar limiares em SLA?
+      - como calibrar thresholds em SLA?
+      - como calibrar limiares em SLA?
+      - como aplicar thresholds em SLA?
+      - como aplicar limiares em SLA?
+      - como habilitar thresholds em SLA?
+      - como habilitar limiares em SLA?
+      - como ativar thresholds em SLA?
+      - como ativar limiares em SLA?
+      - como criar thresholds em SLA?
+      - como criar limiares em SLA?
+      - onde setar thresholds em SLA?
+      - onde setar limiares em SLA?
+      - onde configurar thresholds em SLA?
+      - onde configurar limiares em SLA?
+      - onde definir thresholds em SLA?
+      - onde definir limiares em SLA?
+      - onde ajustar thresholds em SLA?
+      - onde ajustar limiares em SLA?
+      - onde colocar thresholds em SLA?
+      - onde colocar limiares em SLA?
+      - onde estabelecer thresholds em SLA?
+      - onde estabelecer limiares em SLA?
+      - onde parametrizar thresholds em SLA?
+      - onde parametrizar limiares em SLA?
+      - onde calibrar thresholds em SLA?
+      - onde calibrar limiares em SLA?
+      - onde aplicar thresholds em SLA?
+      - onde aplicar limiares em SLA?
+      - onde habilitar thresholds em SLA?
+      - onde habilitar limiares em SLA?
+      - onde ativar thresholds em SLA?
+      - onde ativar limiares em SLA?
+      - qual comando setar thresholds em SLA?
+      - qual comando setar limiares em SLA?
+      - qual menu configurar thresholds em SLA?
+      - qual menu configurar limiares em SLA?
+      - qual seção definir thresholds em SLA?
+      - qual seção definir limiares em SLA?
+      - qual aba ajustar thresholds em SLA?
+      - qual aba ajustar limiares em SLA?
+      - como faço para setar thresholds em SLA?
+      - como faço para setar limiares em SLA?
+      - como faço para configurar thresholds em SLA?
+      - como faço para configurar limiares em SLA?
+      - qual sintaxe setar thresholds em SLA?
+      - qual sintaxe setar limiares em SLA?
+      - qual rota para thresholds em SLA?
+      - qual rota para limiares em SLA?
+      - como setar threshold em SLA?
+      - como setar limiar em SLA?
+      - como config threshold em SLA?
+      - como config limiar em SLA?
+      - como setar threshold no SLA?
+      - como setar limiar no SLA?
+      - como configurar threshold no SLA?
+      - como configurar limiar no SLA?
+      - como definir threshold no SLA?
+      - como definir limiar no SLA?
+      - como ajustar threshold no SLA?
+      - como ajustar limiar no SLA?
+      - como colocar threshold no SLA?
+      - como colocar limiar no SLA?
+      - onde setar threshold no SLA?
+      - onde setar limiar no SLA?
+      - onde configurar threshold no SLA?
+      - onde configurar limiar no SLA?
+      - onde definir threshold no SLA?
+      - onde definir limiar no SLA?
+      - onde ajustar threshold no SLA?
+      - onde ajustar limiar no SLA?
+      - como setar thresholds sla?
+      - como setar limiares sla?
       - what are API governance policies?
+      - can you define API governance policies?
+      - could you explain API governance policies?
+      - please describe API governance policies
+      - you know API governance policies, right?
+      - tell me about API governance policies
+      - outline API governance policies
+      - illustrate API governance policies
+      - clarify API governance policies
+      - break down API governance policies
+      - spell out API governance policies
+      - summarize API governance policies
+      - highlight API governance policies
+      - pinpoint API governance policies
+      - elaborate on API governance policies
+      - expand on API governance policies
+      - detail API governance policies
+      - specify API governance policies
+      - state API governance policies
+      - express API governance policies
+      - convey API governance policies
+      - articulate API governance policies
+      - unpack API governance policies
+      - demystify API governance policies
+      - decode API governance policies
+      - reveal API governance policies
+      - expose API governance policies
+      - present API governance policies
+      - share API governance policies
+      - portray API governance policies
+      - depict API governance policies
+      - demonstrate API governance policies
+      - showcase API governance policies
+      - exhibit API governance policies
+      - contextualize API governance policies
+      - frame API governance policies
+      - situate API governance policies
+      - discuss API governance policies
+      - review API governance policies
+      - evaluate API governance policies
+      - assess API governance policies
+      - analyze API governance policies
+      - probe API governance policies
+      - inspect API governance policies
+      - investigate API governance policies
+      - survey API governance policies
+      - question API governance policies
+      - query API governance policies
+      - ask about API governance policies
+      - what do API governance policies entail?
+      - what do API governance policies involve?
+      - what do API governance policies cover?
+      - what do API governance policies include?
+      - what do API governance policies consist of?
+      - what are the components of API governance policies?
+      - what are the functions of API governance policies?
+      - what are the objectives of API governance policies?
+      - what are the goals of API governance policies?
+      - what are the benefits of API governance policies?
+      - what are the drawbacks of API governance policies?
+      - what are the challenges of API governance policies?
+      - what are best practices for API governance policies?
+      - what are common API governance policies?
+      - what are standard API governance policies?
+      - what are typical API governance policies?
+      - what are key API governance policies?
+      - what minimum API governance policies?
+      - why have API governance policies?
+      - why adopt API governance policies?
+      - why implement API governance policies?
+      - why enforce API governance policies?
+      - why define API governance policies?
+      - why create API governance policies?
+      - why maintain API governance policies?
+      - why review API governance policies?
+      - why audit API governance policies?
+      - why monitor API governance policies?
+      - why update API governance policies?
+      - how to define API governance policies?
+      - how to implement API governance policies?
+      - how to enforce API governance policies?
+      - how to design API governance policies?
+      - how to document API governance policies?
+      - how to review API governance policies?
+      - how to audit API governance policies?
+      - how to update API governance policies?
+      - how to maintain API governance policies?
+      - where are API governance policies defined?
+      - where to find API governance policies?
+      - where to store API governance policies?
+      - where to access API governance policies?
+      - where to review API governance policies?
+      - where to update API governance policies?
+      - who defines API governance policies?
+      - who implements API governance policies?
+      - who enforces API governance policies?
+      - who maintains API governance policies?
+      - who audits API governance policies?
+      - when to review API governance policies?
+      - when to update API governance policies?
+      - when to audit API governance policies?
+      - which tools support API governance policies?
+      - which frameworks enforce API governance policies?
+      - can you demo API governance policies?
+      - pls explain API governan policy
+      - wht are API governance policies?
+      - whats API governance policies?
+      - what r API governance policies?
+      - what iz API governance policies?
+      - what does API governance policies mean?
+      - what does API governance policy mean?
+      - define API governce policies
+      - describe API governance policys
+      - explaen API governance policies
+      - explain API governence policies?
       - what are API governence policies?
       - what are API govrnance policies?
       - what are governance policiees in APIs?
@@ -390,19 +602,3 @@ nlu:
       - what is enforced versioning policie?
       - what is enforced versioning policis?
       - how to define data transform policy?
-      - how to define data transfermation policy?
-      - how to define data trasnformation policy?
-      - how to define data transformation policiy?
-      - what is retry backoff policy?
-      - what is retry/backup policy?
-      - what is retry/back-off policie?
-      - how to ensure encryption polices?
-      - how to ensure encryption polciies?
-      - how to ensure encryption policy?
-      - what does circuit breaker meam?
-      - what does cicruit breaker mean?
-      - what does circuit breker mean?
-      - what does circuit breaker meen?
-      - how to enforce SLA contrct?
-      - how to enforce SLA contractz?
-      - what are governance policies in APIs?

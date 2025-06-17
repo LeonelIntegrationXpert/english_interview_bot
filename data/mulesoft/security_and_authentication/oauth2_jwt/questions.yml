@@ -4,6 +4,102 @@ nlu:
     examples: |
       - o que é OAuth2?
       - para que serve OAuth2?
+      - pra que serve OAuth2?
+      - pra q serve OAuth2?
+      - pq serve OAuth2?
+      - por que serve OAuth2?
+      - qual a finalidade do OAuth2?
+      - qual funcionalidade do OAuth2?
+      - qual o propósito do OAuth2?
+      - qual o uso do OAuth2?
+      - pra que roda OAuth2?
+      - pra que utilizar OAuth2?
+      - pra que usar OAuth2?
+      - por que usar OAuth2?
+      - por que adotar OAuth2?
+      - por que implementar OAuth2?
+      - pra que implementar OAuth2?
+      - pra que empregar OAuth2?
+      - pra que aplicar OAuth2?
+      - qual benefício do OAuth2?
+      - qual vantagem do OAuth2?
+      - qual vantagem usar OAuth2?
+      - qual vantagem de OAuth2?
+      - qual utilidade do OAuth2?
+      - qual utilidade usar OAuth2?
+      - o que faz OAuth2?
+      - o que OAuth2 faz?
+      - pra que OAuth2 serve?
+      - pra que OAuth2?
+      - prazo OAuth2?
+      - p que serve OAuth2?
+      - oq serve OAuth2?
+      - oq faz OAuth2?
+      - o que significa OAuth2?
+      - o que faz o OAuth2?
+      - para que funciona OAuth2?
+      - para que funciona o OAuth2?
+      - pra que funciona OAuth2?
+      - pra que funciona o OAuth2?
+      - por que foi criado OAuth2?
+      - por que existe OAuth2?
+      - por que OAuth2 existe?
+      - por que preferir OAuth2?
+      - por que optar por OAuth2?
+      - por que escolher OAuth2?
+      - pra que vantagem OAuth2?
+      - pra que serve o protocolo OAuth2?
+      - para que serve o protocolo OAuth2?
+      - qual a função do OAuth2?
+      - qual função do OAuth2?
+      - qual papel do OAuth2?
+      - qual a função do protocolo OAuth2?
+      - pra que protocolo OAuth2?
+      - pra que protocolo OAuth2 serve?
+      - pra que protocolo serve OAuth2?
+      - o que resolve OAuth2?
+      - o que OAuth2 resolve?
+      - o que OAuth2 resolve pra mim?
+      - o que muito OAuth2?
+      - qual problema OAuth2 resolve?
+      - qual problema OAuth2 soluciona?
+      - como usar OAuth2?
+      - como funciona OAuth2?
+      - como OAuth2 serve?
+      - pra que caso OAuth2?
+      - em que caso usar OAuth2?
+      - em que caso serve OAuth2?
+      - em quais cenários OAuth2?
+      - em quais cenários serve OAuth2?
+      - em quais cenários usar OAuth2?
+      - em que situação OAuth2?
+      - em que situação usar OAuth2?
+      - em que situação serve OAuth2?
+      - quem usa OAuth2?
+      - quem precisa de OAuth2?
+      - para quem serve OAuth2?
+      - para quem OAuth2?
+      - para quem usar OAuth2?
+      - para quem aplicar OAuth2?
+      - para quem funciona OAuth2?
+      - para quais apps OAuth2?
+      - para quais casos OAuth2?
+      - para quais sistemas OAuth2?
+      - em qual fluxo OAuth2?
+      - em qual fluxo usar OAuth2?
+      - em qual passo OAuth2?
+      - em qual etapa OAuth2?
+      - em qual etapa usar OAuth2?
+      - quando usar OAuth2?
+      - quando serve OAuth2?
+      - quando aplicar OAuth2?
+      - quando implementar OAuth2?
+      - quando adotar OAuth2?
+      - quando precisar de OAuth2?
+      - quando escolher OAuth2?
+      - quando faz sentido OAuth2?
+      - quando faz sentido usar OAuth2?
+      - onde serve OAuth2?
       - como funciona o fluxo OAuth2?
       - quais são os tipos de grant no OAuth2?
       - o que é JWT?
@@ -36,7 +132,6 @@ nlu:
       - para que serve Oauth2?
       - para que serve OAtuh2?
       - para que serve OAuth-2?
-      - pra que serve OAuth2?
       - para que esrve OAuth2?
       - para que serve AOuth2?
       - para que serve oAuth2?
@@ -175,38 +270,38 @@ nlu:
       - como obtenho claims JWT?
       - como configuro JWT validation?
       - como aplicar política JWT?
+      - o que o OAuth2 promove?
+      - para que OAuth2 foi criado?
+      - por que OAuth2 foi desenvolvido?
+      - por que surgiu OAuth2?
+      - qual desafio OAuth2 enfrenta?
+      - quais benefícios do OAuth2?
+      - quais vantagens do OAuth2?
+      - quais ganhos com OAuth2?
+      - quais melhorias com OAuth2?
+      - quais recursos o OAuth2 traz?
+      - o que o OAuth2 traz de novo?
+      - o que esperar do OAuth2?
+      - o que o OAuth2 garante à segurança?
+      - o que o OAuth2 garante à autorização?
+      - o que o OAuth2 garante à autenticação?
+      - o que o OAuth2 controla?
+      - o que o OAuth2 regula?
+      - o que o OAuth2 gerencia?
+      - como o OAuth2 gerencia acesso?
+      - como o OAuth2 controla permissões?
+      - como o OAuth2 regula tokens?
+      - como usar OAuth2 para auth?
+      - como aplicar OAuth2 em APIs?
+      - como adotar OAuth2 no fluxo de chamadas?
+      - como integrar OAuth2 ao CI/CD?
+      - como implementar OAuth2 em Anypoint?
+      - onde usar OAuth2?
+      - onde aplicar OAuth2?
+      - onde configurar OAuth2?
+      - onde o OAuth2 entra no fluxo?
+      - onde o OAuth2 atua?
       - quais boas práticas tokens?
-      - quais melhores práticas token?
-      - por que usar OAuth2?
-      - pq usar OAuth2?
-      - por que usar Oauth2?
-      - como funciona grant type?
-      - como funciona o grant type?
-      - o que sao grant types?
-      - oq sao grant types?
-      - para que serve grant type?
-      - o que significa “scope” no OAuth2?
-      - o que é scope no OAuth2?
-      - como defino scopes no OAuth2?
-      - como defino scopes em JWT?
-      - o que são scopes?
-      - oq são scopes?
-      - como armazenar tokens?
-      - como guardar tokens?
-      - como salvar token JWT?
-      - como salvo JWT?
-      - qual diferença JWT x OAuth?
-      - qual diff JWT vs OAuth?
-      - como renovo JWT?
-      - como renovar JWT?
-      - quando expira token?
-      - quando expira JWT?
-      - como lidar com expiração de token?
-      - o que é token bearer?
-      - oq é bearer token?
-      - o que eh bearer token?
-      - como uso bearer token?
-      - para que serve bearer token?
       - what is OAuth2?
       - what is Oauth2?
       - what is OAth2?
@@ -219,6 +314,184 @@ nlu:
       - what is the purpose of Oauth2?
       - what is the purpose of OAuth 2?
       - what is the purpose of OAut2?
+      - what is the purpose of OAuth2?
+      - can you explain the purpose of OAuth2?
+      - could you describe the purpose of OAuth2?
+      - please outline the purpose of OAuth2
+      - you know the purpose of OAuth2, right?
+      - tell me the purpose of OAuth2
+      - define the purpose of OAuth2
+      - clarify the purpose of OAuth2
+      - illustrate the purpose of OAuth2
+      - break down the purpose of OAuth2
+      - spell out the purpose of OAuth2
+      - summarize the purpose of OAuth2
+      - highlight the purpose of OAuth2
+      - pinpoint the purpose of OAuth2
+      - elaborate on the purpose of OAuth2
+      - expand on the purpose of OAuth2
+      - detail the purpose of OAuth2
+      - specify the purpose of OAuth2
+      - state the purpose of OAuth2
+      - express the purpose of OAuth2
+      - convey the purpose of OAuth2
+      - articulate the purpose of OAuth2
+      - unpack the purpose of OAuth2
+      - decode the purpose of OAuth2
+      - demystify the purpose of OAuth2
+      - illuminate the purpose of OAuth2
+      - shed light on the purpose of OAuth2
+      - expose the purpose of OAuth2
+      - reveal the purpose of OAuth2
+      - disclose the purpose of OAuth2
+      - present the purpose of OAuth2
+      - share the purpose of OAuth2
+      - communicate the purpose of OAuth2
+      - portray the purpose of OAuth2
+      - depict the purpose of OAuth2
+      - demonstrate the purpose of OAuth2
+      - showcase the purpose of OAuth2
+      - exhibit the purpose of OAuth2
+      - display the purpose of OAuth2
+      - contextualize the purpose of OAuth2
+      - frame the purpose of OAuth2
+      - position the purpose of OAuth2
+      - situate the purpose of OAuth2
+      - discuss the purpose of OAuth2
+      - debate the purpose of OAuth2
+      - review the purpose of OAuth2
+      - evaluate the purpose of OAuth2
+      - assess the purpose of OAuth2
+      - examine the purpose of OAuth2
+      - inspect the purpose of OAuth2
+      - analyze the purpose of OAuth2
+      - probe the purpose of OAuth2
+      - investigate the purpose of OAuth2
+      - scrutinize the purpose of OAuth2
+      - survey the purpose of OAuth2
+      - tackle the purpose of OAuth2
+      - address the purpose of OAuth2
+      - handle the purpose of OAuth2
+      - approach the purpose of OAuth2
+      - navigate the purpose of OAuth2
+      - manage the purpose of OAuth2
+      - govern the purpose of OAuth2
+      - orchestrate the purpose of OAuth2
+      - operate on the purpose of OAuth2
+      - oversee the purpose of OAuth2
+      - supervise the purpose of OAuth2
+      - facilitate the purpose of OAuth2
+      - enable the purpose of OAuth2
+      - support the purpose of OAuth2
+      - guide through the purpose of OAuth2
+      - walk through the purpose of OAuth2
+      - talk through the purpose of OAuth2
+      - run through the purpose of OAuth2
+      - lead through the purpose of OAuth2
+      - coach on the purpose of OAuth2
+      - mentor on the purpose of OAuth2
+      - instruct on the purpose of OAuth2
+      - teach the purpose of OAuth2
+      - brief me on the purpose of OAuth2
+      - fill me in on the purpose of OAuth2
+      - update me on the purpose of OAuth2
+      - inform me of the purpose of OAuth2
+      - notify me of the purpose of OAuth2
+      - report the purpose of OAuth2
+      - document the purpose of OAuth2
+      - log the purpose of OAuth2
+      - record the purpose of OAuth2
+      - note the purpose of OAuth2
+      - mention the purpose of OAuth2
+      - convey why OAuth2 exists
+      - articulate why OAuth2 exists
+      - express why OAuth2 exists
+      - state why OAuth2 exists
+      - mention why OAuth2 exists
+      - cite why OAuth2 exists
+      - point out why OAuth2 exists
+      - highlight why OAuth2 exists
+      - underscore why OAuth2 exists
+      - stress why OAuth2 exists
+      - emphasize why OAuth2 exists
+      - spotlight why OAuth2 exists
+      - showcase why OAuth2 exists
+      - demonstrate why OAuth2 exists
+      - depict why OAuth2 exists
+      - portray why OAuth2 exists
+      - paint why OAuth2 exists
+      - sketch why OAuth2 exists
+      - map why OAuth2 exists
+      - chart why OAuth2 exists
+      - outline why OAuth2 exists
+      - frame why OAuth2 exists
+      - position why OAuth2 exists
+      - contextualize why OAuth2 exists
+      - synthesize why OAuth2 exists
+      - distill why OAuth2 exists
+      - condense why OAuth2 exists
+      - summarize why OAuth2 exists
+      - recap why OAuth2 exists
+      - recapitalize why OAuth2 exists
+      - restate why OAuth2 exists
+      - rephrase why OAuth2 exists
+      - paraphrase why OAuth2 exists
+      - clarify why OAuth2 exists
+      - simplify why OAuth2 exists
+      - demystify why OAuth2 exists
+      - decode why OAuth2 exists
+      - unpack why OAuth2 exists
+      - unlock why OAuth2 exists
+      - illuminate why OAuth2 exists
+      - shed light on why OAuth2 exists
+      - demarcate why OAuth2 exists
+      - delineate why OAuth2 exists
+      - define why OAuth2 exists
+      - characterize why OAuth2 exists
+      - identify why OAuth2 exists
+      - distinguish why OAuth2 exists
+      - compare why OAuth2 exists
+      - contrast why OAuth2 exists
+      - separate why OAuth2 exists
+      - differentiate why OAuth2 exists
+      - evaluate the benefits of OAuth2
+      - enumerate the benefits of OAuth2
+      - list the benefits of OAuth2
+      - itemize the benefits of OAuth2
+      - compile the benefits of OAuth2
+      - aggregate the benefits of OAuth2
+      - catalog the benefits of OAuth2
+      - highlight the benefits of OAuth2
+      - underscore the benefits of OAuth2
+      - emphasize the benefits of OAuth2
+      - articulate the benefits of OAuth2
+      - detail the benefits of OAuth2
+      - explore the benefits of OAuth2
+      - investigate the benefits of OAuth2
+      - probe the benefits of OAuth2
+      - discuss the benefits of OAuth2
+      - debate the benefits of OAuth2
+      - review the benefits of OAuth2
+      - assess the benefits of OAuth2
+      - analyze the benefits of OAuth2
+      - inspect the benefits of OAuth2
+      - compare the benefits of OAuth2
+      - contrast the benefits of OAuth2
+      - summarize the benefits of OAuth2
+      - recap the benefits of OAuth2
+      - illustrate the benefits of OAuth2
+      - demonstrate the benefits of OAuth2
+      - expose the benefits of OAuth2
+      - reveal the benefits of OAuth2
+      - showcase the benefits of OAuth2
+      - cite the purpose of OAuth2
+      - reference the purpose of OAuth2
+      - recall the purpose of OAuth2
+      - remind me of the purpose of OAuth2
+      - prompt me with the purpose of OAuth2
+      - query the purpose of OAuth2
+      - ask for the purpose of OAuth2
+      - question the purpose of OAuth2
       - how does OAuth2 flow work?
       - how does the OAuth2 flo work?
       - how does the OAuth flow work?
@@ -329,86 +602,3 @@ nlu:
       - how to configure a JWT validation policy?
       - how to configure JWT validation policy?
       - how to configure a JTW validation policy?
-      - how to set up JWT validation policy?
-      - how to add JWT validation policy?
-      - how to enable JWT validation policy?
-      - what are best practices for token storage?
-      - what are best practises for token storage?
-      - what are best practices for token storge?
-      - what are best practices for storing tokens?
-      - what are best practices for token managment?
-      - best practices for storing JWT tokens?
-      - what is the purpose of OAuth2?
-      - how does the OAuth2 flow work?
-      - what is a JWT token used for?
-      - what is the difference between a bearer token and JWT?
-      - what iz OAuth2?
-      - what is the purpos of OAuth2?
-      - how dose OAuth2 flow work?
-      - how does OAuth2 flo work?
-      - how does OAuth2 flow wrok?
-      - how do I use OAuth2?
-      - what are the grant types in Oauth2?
-      - what are grant typs in OAuth2?
-      - what iz JWT?
-      - what is a JWT tokne used for?
-      - how to validate JWT in MuleSoft?
-      - how to validate JWT in Mule Soft?
-      - how to config OAuth2 in Anypoint?
-      - how to config OAuht2 in Anypoint?
-      - what does access token mean?
-      - what does “access tokn” mean?
-      - what does acess token mean?
-      - how to refesh OAuth2 token?
-      - how to renwews OAuth2 token?
-      - what is refresh token?
-      - what iz refresh token?
-      - why use OAuth2?
-      - why use Oauth2?
-      - why choose OAuth2?
-      - how to implement client crdentials grant?
-      - what is auth code grant?
-      - what is autorization code grant?
-      - what is ID token?
-      - what is an ID tokn?
-      - what is the ID token in OIDC?
-      - how to integrate OAuth2 with multiple IdPS?
-      - how to config JWT validation policy?
-      - how to add JWT validation poliy?
-      - what are best pratices for token storage?
-      - what is bearer token?
-      - what is a bearer tokne?
-      - how to use bearer token?
-      - how to protect APIs with OAuth2?
-      - how to secure APIs via OAuth2?
-      - how to secuere APIs with OAuth2?
-      - how to exract claims from JWT?
-      - how to extract claims fom a JTW?
-      - what is scopes in OAuth2?
-      - what are scopes in OAuth2?
-      - how to define scopes?
-      - how to defin scopes in OAuth2?
-      - how to defne scopes in JWT?
-      - what is refresh-token?
-      - what does “refresh-token” mean?
-      - how to exchange refresh token?
-      - how to exchange a refresh tokn?
-      - what is Token revocation?
-      - what is token revocaton?
-      - how to revoke a token?
-      - how to revoe token?
-      - what is token introspection?
-      - what is token introspectin?
-      - how to introspect a JWT?
-      - how to introspt a JWT?
-      - what is token endpoint?
-      - what is token endpont?
-      - how to call token endpoint?
-      - how to cal token endpoint?
-      - what is client credentials flow?
-      - what is client credentials flo?
-      - how to use client credentials flow?
-      - how to use client credentals flow?
-      - what is PKCE?
-      - what is PCKE?
-      - why use PKCE?
