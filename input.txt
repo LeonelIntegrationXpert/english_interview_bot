@@ -11878,7 +11878,7 @@ API-led proposes three API layers: System (connect legacy and data sources), Pro
   Create interactive tutorials on the developer portal.
   Collect consumer feedback on policies.
 ---
-#intent: mulesoft/security/jwks_management
+#intent: mulesoft/security_and_authentication/jwks_management
 #pt:
 - o que é gerenciamento de chaves JWKS?
 - o que significa gerenciamento de chaves jwks?
