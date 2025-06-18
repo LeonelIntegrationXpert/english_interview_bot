@@ -15173,3 +15173,909 @@ JWKS management involves creating a JSON Web Key Set with public keys and exposi
   Rate limiting aplica um bloqueio rígido após um número de chamadas, por exemplo dez por segundo, e throttling libera picos momentâneos, mas impõe retardo até retornar ao padrão. Definindo regras por cliente, usuário ou chave de API, você mantém o sistema estável contra variações de carga.
 #vr_en: |
   Rate limiting applies a hard block after a number of calls, for example ten per second, and throttling allows momentary peaks but imposes delay until the pattern resumes. By setting rules per client, user, or API key, you keep the system stable against load variations.
+---
+#intent: mulesoft/performance_and_scalability/circuit_breaker
+#pt:
+- o que é circuit breaker
+- o que é circuit breaker
+- oq ue é circuit breaker
+- oque é circuit breaker
+- oque e circuit breaker
+- o que eh circuit breaker
+- o que é cirtcuit breaker
+- o que é cirucit breaker
+- o que é circuit breker
+- o que é circuit breakr
+- o que e circuit breaker
+- o que e ckt breaker
+- o que é circuitbreaker
+- o que é circuit breaker?
+- o que é circuit breakr
+- o que é cir cuit breaker
+- o que é circuit breake
+- o que é cvircuit breaker
+- o que é circuit brek er
+- o que é circuit beaker
+- o que é circut breaker
+- o que é circuit brea ker
+- o que é cirecuit breaker
+- o que é cir cuit breake
+- o que é cricuit breaker
+- o que é circuit brak er
+- o que é circult breaker
+- o que é cir cuit breaker
+- o que é circuit break er
+- o que é circuit bre aker
+- o que é circuit breaker
+- o que.é circuit breaker
+- oq e circuit breaker
+- oq é circuit breaker
+- oq eh circuit breaker
+- oqe é circuit breaker
+- oqe e circuit breaker
+- oq ue circuit breaker
+- oq é cir cuit breaker
+- oq é circuit breake
+- oq é circuit breaker?
+- oq é circuitbreaker
+- oq é circuit breker
+- oq é circuit brekr
+- oq é circuit brak er
+- oq é cricuit breaker
+- oq é crircuit breaker
+- oq é cirrcuit breaker
+- oq é circuit bre ake
+- oq e circuit bullet
+- oq e circuit brekaer
+- oq e circuit beaker
+- oq e circuit braker
+- oq e circuit breaker
+- oq e circuit break er
+- oq e circuit bre aker
+- oq e circuit breaker?
+- oque é circuit breaker
+- oque e circuit breaker
+- oque eh circuit breaker
+- oque é circuit break
+- oque é circuit breaker?
+- oque é circuit breaker
+- oque é circuitbreaker
+- oque é cir cuit breaker
+- oque é circuit b reaker
+- oque é circuit bre aker
+- oque é circuit breaker
+- oque e circuit breker
+- oque e circuit brekr
+- oque e circuit brak er
+- oque e cricuit breaker
+- oque e circuit braker
+- oque e circuit beaker
+- oque e circuit breake
+- oque e circuit breaker?
+- oque e circuitbreaker
+- oqe circuit breaker
+- oqe circui tbreaker
+- oqe c i r c uit breaker
+- oqe circuitbre aker
+- oqe circuit bre aker
+- oqe circuitbeaker
+- oqe circuitbreker
+- oqe circuitbreakr
+- oqe circuitbreaker?
+- oqe circuit breaker
+- oqe circuit bre aker
+- o q e circuit breaker
+- o q é circuit breaker
+- o q e circuit breake
+- o q e circuit breker
+- o q e circuit bre kr
+- o q e ckt breaker
+- o q e circuitbreaker
+- o q e circuitbreaker?
+- o q eh circuit breaker
+- o q eh circuitbreaker
+- o qe circuit breaker
+- o qe circuit breaker?
+- o qe circuit breaker
+- o qe circuitbreaker
+- o q circuit breaker
+- oq circuit breaker
+- oq circuitbreaker
+- oq cir cuit breaker
+- oq circuit bre ake
+- oq circuit bre aker
+- oq circuitbeaker
+- oq circuitbreaker?
+- oq circuit breaker
+- oq circuit breker
+- oq circuit brekr
+- oq circuit brak er
+- oq ckc circuit breaker
+- oq ckt breaker
+- oq cir cuit breakr
+- oq cricuit breaker
+- oq cirrcuit breaker
+- oq circuit breakr?
+- oq circuit breake
+- oq circuit breaker?
+- oq circuit breaker
+- oq circuitbreaker
+- oq circuit breker
+- oq circuitbreakr
+- oq circuitbre aker
+- oq circuit be aker
+- oque cirucit breaker
+- oque cir cuit breaker
+- oque ckt breaker?
+- oque circuitbreakr
+- oque circuit breaker?
+- oque circuit breaker
+- oque circuit breaker?
+- oque circuit braker
+- oque circuit bre aker
+- oque circuit beaker
+- oq_circuit_breaker
+- o que é circuit- breaker
+- o que é circuit - breaker
+- o que é circuit / breaker
+- o que é circuit breaker
+- o que e circuit breaker?
+- o que e circuit breaker
+- o que eh circuit breaker?
+- o que eh circuit breaker
+- oque é circuit-breaker
+- o que e circuit breaker?
+- o que é circuitbreaker?
+- o que e circuitbreaker?
+- oq é circuit breaker?
+- oq e circuit breaker?
+- oq eh circuit breaker?
+- oq circuit breaker?
+- oq circuitbreaker?
+- oque eh circuit breaker?
+- oque e circuit breaker?
+- o qu é circuit breaker?
+- o qu e circuit breaker?
+- o qu eh circuit breaker?
+- o que e circuit breaker?
+- oque é circuit breaker?
+- oqe é circuit breaker?
+- oqe e circuit breaker?
+- oq qu circuit breaker?
+- oq qu circuit breaker?
+- oq quh circuit breaker?
+- o qú é circuit breaker?
+- o qú e circuit breaker?
+- o que é cir cuit breaker?
+- o que ee circuit breaker?
+- o que é circuit bréaker?
+- o que é circuit bré aker?
+- o que é circuit bre aker?
+- o que é cir cuit bre aker?
+- o que eé circuit breaker?
+- o que eé circuit breaker?
+- oquee circuit breaker?
+- oquee circuit breaker
+- como funciona circuit breaker
+- para que serve circuit breaker
+- qual a finalidade do circuit breaker
+- como configurar circuit breaker no MuleSoft
+- onde ativar circuit breaker em API
+- quando usar circuit breaker
+- quando usar circuit breaker
+- quando usar circuitbreaker
+- quando usar cir cuit breaker
+- quando usar circuit bre aker
+- quando usar circuit breker
+- quando usar circuit breakr
+- quando usar circuit braker
+- quando usar cir cuit bre aker
+- quando usar circuit breaker?
+- quando usar circuitbreaker?
+- quando usar ckt breaker
+- quando usar ck t breaker
+- quando usar circuito breaker
+- quando usar circuit br eaker
+- quando usar circuit brea ker
+- quando usar circuit breake
+- quando usar circuit brea ker?
+- quando usar circuit bre aker?
+- quando usar circui t breaker
+- quando usar ciruit breaker
+- quando usar cir cuit breaker?
+- quando usar circuit-breaker
+- quando usar circuit - breaker
+- quando usar circuit / breaker
+- quando usar circuit breaker no mule
+- quando usar circuit breaker no muleSoft
+- quando usar circuit breaker em Api
+- quando usar circuit breaker em API
+- quando usar circuit breaker na API
+- quando usar circuit breaker no Gateway
+- quando usar circuit breaker no APIGateway
+- quando usar circuit breaker no apiManager
+- quando usar circuit breaker na plataforma
+- quando usar circuit breaker em microservicos
+- quando usar circuit breaker em microserviços
+- quando usar circuit breaker no flux mule
+- quando usar circuit breaker em flux mule
+- quando usar circuit breaker na aplicacao
+- quando usar circuit breaker em aplicacao
+- quando usar circuit breaker em servicos
+- quando usar circuit breaker no servico
+- quando usar circuit breaker em servicos
+- quando usar circuit breaker em servicos?
+- quando usar circuit breaker para fallback
+- quando usar circuit breaker e retry
+- quando usar circuit breaker e retry?
+- quando usar circuitbreaker em fallback
+- quando usar circuit breaker em resiliencia
+- quando usar circuit breaker em resiliência
+- quando usar circuit breaker em resiliência?
+- quando usar circuit breaker para tolerancia a falhas
+- quando usar circuit breaker para tolerância a falhas
+- quando usar circuit breaker para tolerancia a falhas?
+- quando usar circuit breaker?
+- quando usar circuit bre aker?
+- quando usar cir cuit bre her?
+- quando usar circuit bre aker?
+- quando usar circuit brea ker?
+- quando usar circuit brea ker?
+- quando usar circuit bre_aker
+- quando usar circuit.breaker
+- quando usar circuit breaker no mule esb
+- quando usar circuit breaker mule esb
+- quando usar circuit breaker mule esb?
+- quando usar circuit breaker na runtime
+- quando usar circuit breaker em runtime
+- quando usar circuit breaker em runtime?
+- quando usar circuit breaker em tempo de execucao
+- quando usar circuit breaker em tempo de execução
+- quando usar circuit breaker em tempo de execucao?
+- quando usar circuit breaker em time de execucao
+- quando usar circuit breaker no ambiente produtivo
+- quando usar circuit breaker no ambiente de homologacao
+- quando usar circuit breaker no ambiente de testes
+- quando usar circuit breaker em producao
+- quando usar circuit breaker em produçao
+- quando usar ckt breaker?
+- quando usar cir cuit breaker mule
+- quando usar circuit breaker muleSoft?
+- quando usar circuit breaker mule?
+- quando usar circuit breaker na integracao
+- quando usar circuit breaker na integração
+- quando usar circuit breaker na integração?
+- quando usar circuit breaker para isolar falhas
+- quando usar circut breaker para isolar falhas
+- quando usar circuit breaker para isolar falhas?
+- quando usar circuit breaker para evitar cascata
+- quando usar circuit breaker para evitar falhas em cascata
+- quando usar circuit breaker para evitar falhas em cascata?
+- quando usar circuit breaker em arquitetura distribuida
+- quando usar circuit breaker em arquitetura distribuída
+- quando usar circuit breaker em arquitetura distribuida?
+- quando usar circuit breaker para escalabilidade
+- quando usar circuit breaker para escalabilidade?
+- quando usar circuit breaker e bulkhead
+- quando usar circuit breaker e bulkhead?
+- quando usar circuit breaker e timeout
+- quando usar circuit breaker e timeout?
+- quando usar circuit breaker para timeout
+- quando usar circuit breaker para timeout?
+- quando usar circuit breaker em politica de resiliencia
+- quando usar circuit breaker em política de resiliência
+- quando usar circuit breaker em politica de resiliência?
+- quando usar circuit breaker no design de API
+- quando usar circuit breaker no design de Api
+- quando usar circuit breaker no design de API?
+- quando usar circuit breaker no design da API
+- quando usar circut breaker no design da API
+- quando usar circuit be aker no design da API
+- quando usar circuit breaker com retry e fallback
+- quando usar circuit breaker com retry e fallback?
+- quando usar circuit breaker com retry
+- quando usar circuit breaker com fallback
+- quando usar circuit breaker com retry?
+- quando usar circuit breaker com fallback?
+- quando usar circuit breaker em padroes de resiliencia
+- quando usar circuit breaker em padrões de resiliência
+- quando usar circuit breaker em padroes de resiliência?
+- quando usar circuit breaker no fluxograma
+- quando usar circuit breaker no fluxograma?
+- quando usar circuit breaker em cenarios de erro
+- quando usar circuit breaker em cenarios de erro?
+- quando usar circuit breaker em cenários de erro?
+- o que faz o circuit breaker
+- o que faz o circuit breaker
+- oq ue faz o circuit breaker
+- o qe faz o circuit breaker
+- o que fa z o circuit breaker
+- o que faz o cir cuit breaker
+- o que faz o circuit bre aker
+- o que faz o circuit breker
+- o que faz o circuit breakr
+- o que faz o circuit braker
+- o que faz ckt breaker
+- o que faz circuitbreaker
+- o que faz circuit breaker?
+- oq faz o circuit breaker
+- oq faz circuit breaker
+- oq faz o circuitbre aker
+- oq faz o cir cuit breaker
+- oq faz circuit breakr
+- oq faz circuit braker
+- oq faz circuit breaker
+- o que faz o circuitbre aker
+- o que faz o circuit breaker
+- o que faz o circuit bre aker
+- o que faz o circuitb reak er
+- o que faz circuit be aker
+- o que faz cir cuit bre aker
+- o que faz circui t breaker
+- o que faz ciruit breaker
+- o que faz circuit breker?
+- o que faz circuit breakr?
+- o que faz circuit braker?
+- o que faz circuit bre aker?
+- o que faz circuitbre aker?
+- o que faz cir cuit breaker?
+- o que faz cir cuit bre aker?
+- o que faz o ckt breaker?
+- o que faz o ckt-breaker?
+- o que faz o circuit-breaker?
+- o que faz circuit / breaker?
+- o que faz circuit breaker no mule?
+- o que faz circuit breaker em APIs?
+- o que faz circuit breaker em API?
+- o que faz circuit breaker na API?
+- o que faz circuit breaker na plataforma?
+- o que faz circuit breaker no gateway?
+- o que faz circuit breaker no MuleSoft?
+- o que faz circuit breaker no API Manager?
+- o que faz circuit breaker no APIManager?
+- o que faz circuit breaker em microserviços?
+- o que faz circuit breaker em microservicos?
+- o que faz circuitbreaker?
+- o que faz circuitbreaker?
+- o que faz circuitbreaker?
+- o que faz cir cuitbreaker?
+- o que faz circuit bre aker?
+- o que faz circuit break r?
+- o que faz circuit brea ker?
+- o que faz circuito breaker?
+- o que faz circulit breaker?
+- o que faz ciculit breaker?
+- o que faz corp circuit breaker?
+- o que faz circuit break er?
+- o que faz circuit bre ak er?
+- o que faz circuit breath er?
+- o que faz cir cuit break er?
+- o que faz ckt bre aker?
+- o que faz ckt breakr?
+- o que faz ckt break er?
+- o que faz cktbre aker?
+- o que faz o ckt bre aker?
+- o que faz o cir cu it breaker?
+- o que faz o cir cu it break er?
+- o que faz o circut breaker?
+- o que faz o circu it breaker?
+- o que faz o circuit bre ak er?
+- o que faz o cir cuit breaker?
+- o que faz o cricuit breaker?
+- o que faz o cricult breaker?
+- o que faz o circulit break er?
+- o que faz o cir cuit breake r?
+- o que faz o cir cuitbre aker?
+- o que faz a circuit breaker?
+- o que faz um circuit breaker?
+- o que faz um circuit breaker?
+- o que faz um circuit bre aker?
+- o que faz um circuit breakr?
+- o que faz um ckt breaker?
+- o que faz um circuitbreaker?
+- o que faz o circuit breat ker?
+- o que faz o ckt bre ak er?
+- o que faz o cir cit breaker?
+- o que faz o cir ciut breaker?
+- o q faz o circuit breaker?
+- o q faz circuit breaker?
+- o q faz ckt breaker?
+- o q faz circuitbre aker?
+- o q faz cir cuit breaker?
+- o q faz circit breaker?
+- o q faz circulit breaker?
+- o q faz circuit br eaker?
+- o q faz circuit brea ker?
+- oq faz o cir cuit breaker?
+- oq faz o circuit bre ak er?
+- oq faz o circuit break er?
+- oq faz o circuit bre aker?
+- oq faz o circuit breaker?
+- oq faz o cir cu it breaker?
+- oq faz circuit breaker no mule?
+- oq faz circuit breaker em APIs?
+- oq faz circuit breaker no gateway?
+- oq faz circuit breaker MuleSoft?
+- oq faz circuit breaker no apimanager?
+- oq faz circuit breaker na troca?
+- oq faz circuit breaker na troca?
+- como o circuit breaker melhora resiliência
+- como o circuit breaker evita falhas em cascata
+- que padrão é circuit breaker
+- como implementar circuit breaker em Mule
+- qual o papel do circuit breaker
+- como o circuit breaker lida com erros
+- como definir limites no circuit breaker
+- como monitorar o circuit breaker
+- que parâmetros o circuit breaker usa
+- como reiniciar o circuit breaker
+- o que acontece quando o circuit breaker abre
+- o que acontece quando o circuit breaker fecha
+#en:
+- what is a circuit breaker
+- what is a circuit breaker
+- whta is a circuit breaker
+- what is a circut breaker
+- what is a ciruit breaker
+- what is a circuit breker
+- what is a circuit breakr
+- what is a cicruit breaker
+- what is a circuit bre aker
+- what is a circuit bre aker
+- what is a circuit brea ker
+- what is a circuitbre aker
+- what is a circuit breaker?
+- what is a cicruit breaker
+- what is a cir cuit breaker
+- what is a circuitbreak er
+- what is circuit breaker
+- wat is a circuit breaker
+- wut is a circuit breaker
+- what iz a circuit breaker
+- what is a circuit-breaker
+- what is a circuit / breaker
+- what is a circuit; breaker
+- what is a circuit breaker
+- what is a ckt breaker
+- what is a cir cuit breaker?
+- what is a circuit breakr?
+- what is a circuitbreaker
+- what is a circuitbreakr
+- what is a circuit bre akr
+- what is a circuit bre aker?
+- what is a circuit brea ker?
+- what is a circuit bre aker
+- what is a circuit break er?
+- what is a circuit bre aker?
+- what is a circuit br aker?
+- what is a circuit breaker!!
+- what is a circuit breaker?
+- what is a circuit bravker
+- what is a circuit brraker
+- what is a circuit baraker
+- what is a circuit brekaer
+- what is a circuit break er?
+- what is a circuit bre aker???
+- what isa circuit breaker
+- what is a circut breaker?
+- what is a circuit breker?
+- what is a circuit b reak er
+- what iz a circuit bre aker
+- what is a cir cuit bre aker
+- what is the circuit breaker
+- what is the cicruit breaker
+- what is the cir cuit breaker?
+- what is the circuit bre aker
+- wht is a circuit breaker
+- wht is a circut breaker
+- wht is a cir cuit breaker
+- wht iz a circuit breaker
+- what is a ci rcuit breaker
+- what is a circuit breakr?
+- what is a circuit br eaker
+- what is a cicruit bre aker
+- what is a circuitbre aker?
+- what is a circuit bre aker?
+- what is a circuit braker?
+- what is a circuit breaker??
+- what is a circuit breaker !
+- what is a circuit br e aker
+- what is a circuit bre aker!
+- what is a circuit bre aker?
+- what is a circuit breaker?
+- what is a circuit break er?
+- what is circuitbreaker?
+- what is circuit breaker?
+- what is circuit breaker?
+- what is circuit br aker?
+- what is a cicruit bre aker
+- what is a ckt breaker?
+- what is ckt breaker?
+- what is circuit breaker?
+- what is cir cuitbreaker
+- what is cir cuit breaker
+- what is cicr uit breaker
+- what is cir cuit bre aker
+- what is circ circuit breaker
+- what is ciccuit breaker
+- what is cicrcuit breaker
+- what is ccritcuit breaker
+- what is a circuit bre aker?
+- what is a circuit break er?
+- what is a cir cuit breakr
+- what is a cir cuit brea ker
+- what is a circut breakr
+- what is a cir cuit breaker?
+- what is a ci rcuit breaker?
+- what is a circuit break er?
+- what is the circuitbreak er?
+- what is the cir cuit bre aker?
+- what is the circut bre aker?
+- what is the circuit braker?
+- how does circuit breaker work
+- how does circuit breaker work
+- how does cir cuit breaker work
+- how dos circuit breaker work
+- how does cicruit breaker work
+- how does circuit bre aker work
+- how does circuit breaker wok
+- how does circuit breaker wrok
+- how d oes circuit breaker work
+- how does circuitbreaker work
+- how does circuit breaker wrk
+- how doe circuit breaker work
+- how does ciruit breaker work
+- how does circuit breker work
+- how doess circuit breaker work
+- how does circuit breaker work?
+- how does circuit breaker workk
+- how does circuit breaker wk
+- how does circuit breaker wrok?
+- how does circuit breaker wrok
+- how ds circuit breaker work
+- how does circuit breaker woek
+- how dows circuit breaker work
+- how does ckt breaker work
+- how ddoes circuit breaker work
+- how does circuit breaker wrok?
+- how does circuit bre akerwork
+- how does circuit breaker werk
+- how does circuit breaker wrork
+- how does circuit breaker wok?
+- how does circuit braker work
+- how does circuit breakerw ork
+- how does circuit breaker wor
+- how does circuit breaker wok?
+- how does circuit breaker wrok!!
+- how dst circuit breaker work
+- how does circuit breker work?
+- how does circuit bre aker work?
+- how does circuit breaker wrk?
+- how does circuit breaker wrk
+- how does circuit bre akerwork?
+- how does circuit breaker works
+- how does circuit breaker wrok?
+- how does circuit breaker wrokk
+- how does circuit breaker wrok??
+- how does circuit breaker woek?
+- how does circuit breaker wrok!!
+- how does circuit breaker wo rk
+- how does circuit breaker workk?
+- how does circut breaker work
+- how duz circuit breaker work
+- how dew circuit breaker work
+- how does cricuit breaker work
+- how does ciruit breaker work?
+- hou does circuit breaker work
+- how does circuit bre aker wrk
+- hwo does circuit breaker work
+- how does circuit breaker wro k
+- how does circuit breaker woork
+- how das circuit breaker work
+- how does circuit breaker work?
+- how does circuit breaker workk?
+- how does circuit breaker work??
+- how does circuit breaker work!!
+- how does circuit br eaker work
+- how does circuit breaker wro k?
+- how dos circuit breaker work?
+- how does circuit breaker wor k
+- how does circuit breaker w o k
+- how dose circuit breaker work
+- how does circuit breaker worrk
+- how does circuit breaker w or k
+- how does circuit breaker wor k?
+- how does circuit breaker wok!!
+- how does circuitbreaker work?
+- how does circuit breaker wrok?
+- ho w does circuit breaker work
+- how does circuit brer kerja work
+- how does circuit breaker wok?
+- how dola circuit breaker work
+- how doz circuit breaker work
+- how duz circuit breaker wodrk
+- how ddos circuit breaker work
+- how does circuit breaker werk?
+- how does circuit breaker wrok?
+- how does circuit breaker wrk?
+- how doez circuit breaker work
+- how doees circuit breaker work?
+- how does circuit breaker wolk
+- how daes circuit breaker work
+- how does c ircuit breaker work
+- hdw does circuit breaker work
+- how does circuit breaker wrok?
+- how does circuit breaker wok?
+- how does circuit breaker work indeed
+- how does circuit breaker work exactly
+- how does circuit breaker work precisely
+- how does ci rcuit breaker work
+- hw does circuit breaker work
+- how doess cir cuit breaker work
+- how doess circuit breaker work
+- how does circuit breaker wrk?
+- how ddoes cir cuit breaker work
+- how does circuit breaker wrokk?
+- how does circuit breaker wok?
+- how does circuit breaker wrk!!
+- how does circuit breaker worrk?
+- how does circuit breaker wo rk?
+- what is the purpose of a circuit breaker
+- what is the purpose of a circuit breaker
+- what is the puroose of a circuit breaker
+- what is the purpos of a circuit breaker
+- what is the purpse of a circuit breaker
+- what is the puropse of a circuit breaker
+- what is tha purpose of a circuit breaker
+- what is the porpose of a circuit breaker
+- what is the purpose of circuit breaker
+- what is the purpose of  a circuit breaker
+- what is the purpose of a circuitbre aker
+- what is the purpose of a cir cuit breaker
+- what is the purpose of a circuit bre aker
+- what is the purpose of a circuit breker
+- what is the purpose of a ckt breaker
+- what is the purpose of a cicruit breaker
+- what is the purpose of circuit breaker?
+- what is the purpose of a circuit breaker?
+- what iz the purpose of a circuit breaker
+- wut is the purpose of a circuit breaker
+- what is the purpose of a circuit breaker!!
+- what is the purpose of a circuit breaker??
+- what is the purpose of a circuit breaker please
+- what is the purpose of a circuit breaker pls
+- what is the purpose of a cir cuitbreaker
+- what is the purpose of a circuit breakr
+- what is the purpose of a circuit braker
+- what is the purpose of cir cuit breaker
+- what is the purpose of circuitbreak er
+- what is the purpose of circuitbreakr
+- what is the purpose of circuit breaker in mule
+- what is the purpose of a circuit breaker in MuleSoft
+- what is the purpose of a circuit breaker in API
+- what is the purpose of a circuit breaker in API manager
+- what is the purpose of a circuit breaker in platform
+- what is the purpose of a circuit breaker in gateway
+- what is the purpose of a circuit breaker pattern
+- what is the purpose of the circuit breaker pattern
+- what is purpose of a circuit breaker
+- whats the purpose of a circuit breaker
+- whats the purpose of circuit breaker
+- what s the purpose of a circuit breaker
+- what’s the purpose of a circuit breaker
+- what’s the purpose of circuit breaker
+- whats purpose of a circuit breaker
+- whats purpose of circuit breaker
+- what is the purpose o a circuit breaker
+- what is the purpse of circuit breaker
+- what is purpose of circuit breaker
+- what is the purpsoe of a circuit breaker
+- what is the purposea of a circuit breaker
+- what is the poopose of a circuit breaker
+- what is the porpose of a circuit breaker
+- what is thepurpose of a circuit breaker
+- what is the purpose ofa circuit breaker
+- what is the purpose of a circuit breaker in code
+- what is the purpose of a circuit breaker in architecture
+- what is the purpose of circuit breaker when to use
+- what is the purpose of a circuit breaker and how
+- what is the purpose of a circuit breaker example
+- what is the purpose of a circuit breaker flow
+- what is the puprpose of a circuit breaker
+- what is the purpse of a cir cuit breaker
+- what is the purpose of a circuitbreaker?
+- what is the purpose of ak circuit breaker
+- what is the pourpose of a circuit breaker
+- what is the purpose of a circuit bre aker ?
+- what is the purpose of a circuit breaker now
+- what is the pupose of a circuit breaker
+- what is the purpose of ckt breaker
+- what is the purpose of circuit break er
+- what is the purpose of a circut bre aker
+- what is the purpose of a cir cuit breaker?
+- what is the pupose of circuit breaker
+- what is the purpose of ar circuit breaker
+- what is the purpose of ur circuit breaker
+- what is the purpose of yr circuit breaker
+- what is the purpose of y circuit breaker
+- what is the purpose of circuit breaker in system
+- what is the purpose of circuit breaker design
+- what is the purpose of a circuit breaker pattern?
+- what is the purpose of circuit breaker pattern?
+- what is the purpose of a circuit breaker pattern
+- what is the purpose of ckt breaker?
+- what is the purpose of a ckt breaker?
+- what is the purpose of a circuit breaker pls
+- what is the purpose of circuit breaker pls
+- what is the purpose of circuit breaker please?
+- what is the purpose of a circuit breaker please?
+- what is the purpose of a circuit breaker now?
+- what is the purpose of circui t breaker
+- what is the purpose of cir cuit bre aker
+- what is the purpose of cicuit breaker
+- what is the purpose of circuilt breaker
+- what is the purpose of cir cuit breaker?
+- what is the purpose of circut bre aker?
+- what is the purpose of cicruit breaker?
+- what is the purpose of circuit bre aker?
+- what is the purpose of circut breaker?
+- what is the purpose of circuit bre aker?
+- how to configure circuit breaker in MuleSoft
+- how to configure circuit breaker in mulesoft
+- how to configure circuit breaker in mule soft
+- how to congfigure circuit breaker in mulesoft
+- how to configure cir cuit breaker in mulesoft
+- how to configure circuit breaker in mulesfot
+- how to configure circuit breaker in mule soft?
+- how to configure circuitbreaker in mulesoft
+- how to configure circuit breaker in mulesoft?
+- how to configure circuit bre aker in mulesoft
+- how to config circuit breaker in mulesoft
+- how to configure cir cuit breaker in mule soft
+- how to configura circuit breaker in mulesoft
+- how to configure circuit breaker in mule s oft
+- how to configuire circuit breaker in mulesoft
+- how to configure circuit breaker in mulesoft studio
+- how to configure circuit breaker in mule sdk
+- how to configure circuit breaker in mule esb
+- how to configure circuit breaker in mule runtime
+- how to configure circuit breaker in mule flow
+- how to configure circuit breaker in mules oft
+- how to configure circut breaker in mulesoft
+- how to configure circuit breaker in mule sofft
+- how to configure ckt breaker in mulesoft
+- how to configure circuit breaker in mulesoft api manager
+- how to configure circuit breaker in mulesoft exchange
+- how to configure circuit breaker in mulesoft studio?
+- how to configure circuit breaker in mulesoft esb?
+- how to congifure circuit breaker in mulesoft
+- how to configure circuit breaker in mule tools
+- how to configure circuit breaker in mule dashboad
+- how to configure circuit breaker in mule monitor
+- how to configure circuit breaker in mule platform
+- how to configure circuit breaker in the mulesoft
+- how to configure circuit breaker in the mule soft
+- how to configure circuit breaker in mule plarform
+- how to configure circuit breaker in mule platform?
+- how to configure circuit breaker in mulesoft appl
+- how to configure circuit breaker in mule application
+- how to configure circuit breaker in mule applicaton
+- how to configure cir cuit breaker in mulesoft studio
+- how to configure circuit breaker in mulesoft flow
+- how to configure circuit breaker in mulesoft project
+- how to configure circuit breaker in mulesoft project?
+- how to configure circuit breaker in mulesoft xml
+- how to configure circuit breaker in mulesoft yaml
+- how to configure circuit breaker in muleconf file
+- how to configure circuit breaker in mule conf file
+- how to configure circuit breaker in mule confi file
+- how to configure circuit breaker in mulesoft conf
+- how to configure circuit breaker in mulesoft configuraton
+- how to configure c ircuit breaker in mulesoft
+- how to configure circuitbreaker in mule soft
+- how to configure circuit breaker in mule s oft?
+- how to config circuit breaker in mule soft
+- how to configure circuit breaker in mulesoft runtime
+- how to configure circuit breaker in mulesoft gateway
+- how to configure circuit breaker in mulesoft proxy
+- how to configure circuit breaker in mulesoft policy
+- how to configure circuit breaker in mulesoft policy manager
+- how to configure circuit breaker in mulesoft apimanager
+- how to configure circuit breaker in mulesoft api manager?
+- how to configure circuit breaker in mule apimanager
+- how to configure circuit breaker in mule api manager
+- how to configure circuit breaker in mulesoft design center
+- how to configure circuit breaker in mulesoft design center?
+- how to configure circuit breaker in mulesoft anypoint studio
+- how to configure circuit breaker in mulesoft anypoint platform
+- how to configure circuit breaker in mulesoft anypoint?
+- how to configure circuit breaker in mulesoft anypoint platform?
+- how to configure cir cuit breaker in mulesoft anypoint
+- how to configure circuit breaker in mulesoft live
+- how to configure circuit breaker in mulesoft instance
+- how to configure circuit breaker in mulesoft environment
+- how to configure circuit breaker in mulesoft env
+- how to configure circuit breaker in mulesoft env?
+- how to configure circuit breaker in mule soflt
+- how to configure circuit breaker in mulesoft sofftware
+- how to configure circuit breaker in mulesoft sofftware?
+- how to configure circuit breaker in mulesoft config
+- how to configure circuit breaker in mulesoft setup
+- how to configure circuit breaker in mulesoft settings
+- how to configure circuit breaker in mulesoft settings?
+- how to configure circuit breaker in mulesoft console
+- how to configure circuit breaker in mulesoft console?
+- how to configure circuit breaker in mulesoft cli
+- how to configure circuit breaker in mulesoft cli?
+- how configure circuit breaker in mulesoft
+- how configure circuit breaker in mulesoft?
+- how to congfigure circut breaker in mulesoft?
+- how to congigure ckt breaker in mulesoft
+- how to congigure circuit breaker in mulesoft?
+- where to enable circuit breaker in API
+- when to use circuit breaker
+- what does the circuit breaker do
+- how circuit breaker improves resilience
+- how circuit breaker prevents cascade failures
+- which pattern is circuit breaker
+- how to implement circuit breaker in Mule
+- what role does circuit breaker play
+- how circuit breaker handles errors
+- how to set thresholds on circuit breaker
+- how to monitor the circuit breaker
+- what parameters does the circuit breaker use
+- how to reset the circuit breaker
+- what happens when the circuit breaker opens
+- what happens when the circuit breaker closes
+- what is the circuit breaker pattern
+#rp_1
+#vr_pt: |
+  O circuit breaker é um padrão de resiliência que interrompe chamadas a um serviço quando falhas ocorrem repetidamente acima de um limite definido. Ao abrir o circuito, todas as solicitações subsequentes são imediatamente rejeitadas ou direcionadas para um fluxo de fallback, evitando que o sistema sofra sobrecarga e evitando falhas em cascata que poderiam derrubar outros componentes. Durante o estado aberto, o serviço principal não recebe tráfego, protegendo-o e permitindo recuperação. Após um período de repouso configurado, o circuito entra em um modo de meio aberto, enviando algumas requisições de teste para verificar se o serviço se recuperou antes de retomar o funcionamento normal. Parâmetros como número de falhas consecutivas, janela de observação e duração do estado aberto podem ser ajustados para balancear sensibilidade e estabilidade.
+#vr_en: |
+  The circuit breaker is a resilience pattern that stops calls to a service when failures occur repeatedly beyond a defined limit. When the circuit opens all subsequent requests are immediately rejected or routed to a fallback flow, preventing the system from overload and avoiding cascade failures that could bring down other components. During the open state the primary service receives no traffic, safeguarding it and allowing time for recovery. After a configured cool down period the circuit moves to a half-open state, sending a few test calls to verify if the service has recovered before resuming normal operations. Parameters such as consecutive failure count, rolling time window, and open state duration can be tuned to balance sensitivity with stability.
+#rp_2
+#vr_pt: |
+  Esse padrão de proteção para APIs bloqueia requisições após várias falhas consecutivas acima de um limiar configurado. Quando o circuito abre, o sistema passa a retornar imediatamente respostas de erro padronizadas ou invoca rotas alternativas, sem encaminhar novas chamadas ao serviço problemático. Isso reduz o impacto de falhas temporárias e evita sobrecarga no back end. Ao final do período de espera, o circuito muda de volta para uma fase de teste, liberando algumas requisições para validar o estado do serviço antes de reabrir o fluxo normal.
+#vr_en: |
+  This protection pattern for APIs blocks requests after multiple consecutive failures exceeding a configured threshold. When the circuit opens the system immediately returns standardized error responses or invokes alternative routes without forwarding new calls to the troubled service. This reduces the impact of transient errors and prevents backend overload. At the end of the wait period the circuit moves into a trial phase, allowing a few requests to validate the service health before fully reopening the normal request flow.
+#rp_3
+#vr_pt: |
+  Com circuit breaker você cria uma barreira contra falhas em cadeia, isolando serviços instáveis. Ao detectar um número excessivo de erros, o circuito abre e passa a rejeitar novas requisições por um tempo determinado, garantindo descanso para o serviço se estabilizar. Durante esse intervalo, os consumidores recebem respostas de fallback, evitando experiência ruim. Após o prazo configurado, o circuito entra em modo de teste, permitindo um fluxo mínimo de chamadas para verificar se o serviço voltou ao normal, antes de permitir todo o tráfego novamente.
+#vr_en: |
+  With a circuit breaker you create a barrier against cascade failures by isolating unstable services. When an excessive number of errors are detected the circuit opens and rejects new requests for a defined period, giving the service time to stabilize. During this interval consumers receive fallback responses, avoiding a poor user experience. After the configured interval the circuit enters a test mode, allowing a minimal flow of calls to check if the service has recovered before permitting all traffic again.
+#rp_4
+#vr_pt: |
+  O mecanismo de circuit breaker atua como uma válvula de segurança que protege seu sistema. Se diversas requisições falham rapidamente, ele abre o circuito para interromper o tráfego e evitar colapsos. Durante o estado aberto, o subsistema afetado não recebe novas chamadas, reduzindo carga e permitindo diagnósticos. Depois de um período de cooldown, o circuito fecha parcialmente para executar requisições de verificação. Se os testes forem bem sucedidos, ele restaura o tráfego normal; caso contrário, permanece aberto.
+#vr_en: |
+  The circuit breaker functions like a safety valve that protects your system. If multiple rapid requests fail it opens the circuit to halt traffic and prevent collapse. During the open state the affected subsystem receives no new calls, reducing load and allowing diagnostics. After a cooldown period the circuit closes partially to perform health check calls. If these tests succeed it restores normal traffic; otherwise it stays open.
+#rp_5
+#vr_pt: |
+  Esse padrão dispara o circuit breaker quando atinge um número crítico de falhas em sequência. Enquanto o circuito estiver aberto, todas as requisições são bloqueadas ou direcionadas para um serviço de fallback que entrega respostas de contingência. Com isso, o back end principal não sofre novas tentativas que poderiam agravar erros. Após o tempo de espera configurado, o circuito passa por uma fase de meia abertura, permitindo algumas chamadas de verificação para confirmar se o serviço está saudável antes de reativar completamente a API.
+#vr_en: |
+  This pattern trips the circuit breaker after reaching a critical number of consecutive failures. While the circuit is open all requests are blocked or rerouted to a fallback service that provides contingency responses. This prevents additional attempts to the primary backend that could exacerbate errors. After the configured wait time the circuit enters a half-open phase, allowing a few probe calls to confirm the service health before fully reactivating the API.
+#rp_6
+#vr_pt: |
+  O circuit breaker previne falhas em cascata isolando um serviço com comportamento instável. Quando as falhas ultrapassam o limite, o circuito abre e retorna respostas padrão sem invocar o serviço principal. Durante o estado aberto, as métricas de monitoramento disparam alertas e logs detalhados registram o contexto do erro. Após um intervalo de recuperação, o circuito fecha parcialmente, permitindo chamadas de teste para verificar a integridade do serviço antes de permitir todo o tráfego novamente.
+#vr_en: |
+  The circuit breaker prevents cascade failures by isolating a service that exhibits unstable behavior. When failures exceed the limit the circuit opens and returns default responses without invoking the primary service. During the open state monitoring metrics trigger alerts and detailed logs capture the error context. After a recovery interval the circuit closes partially, allowing test calls to verify service integrity before permitting all traffic again.
+#rp_7
+#vr_pt: |
+  Quando o circuito se abre, ele bloqueia requisições direcionadas ao serviço afetado, evitando sobrecarga e degradação global. O estado aberto dura um período configurado durante o qual as chamadas recebem respostas de fallback. Após o prazo, o circuito entra em modo de teste, fechando parcialmente para enviar um número limitado de chamadas. Se essas chamadas forem bem sucedidas, o circuito fecha completamente; caso contrário, reabre pelo mesmo intervalo.
+#vr_en: |
+  When the circuit opens it blocks requests to the affected service, preventing overload and global degradation. The open state lasts a configured period during which calls receive fallback responses. After this period the circuit moves to a test mode, closing partially to send a limited number of calls. If these calls succeed the circuit fully closes; otherwise it reopens for the same interval.
+#rp_8
+#vr_pt: |
+  Esse padrão de resistência monitora continuamente o número de exceções e abre o circuito ao detectar um padrão de falhas em série. No estado aberto, o sistema responde rapidamente com falhas previstas, liberando o serviço principal de novas requisições. Após o timeout de recuperação, o circuito fecha parcialmente e executa chamadas de validação para decidir se retorna ao fluxo normal.
+#vr_en: |
+  This resilience pattern continuously monitors the number of exceptions and opens the circuit upon detecting a series of failures. In the open state the system quickly responds with predefined failures, freeing the primary service from new requests. After the recovery timeout the circuit partially closes and executes validation calls to decide whether to return to normal flow.
+#rp_9
+#vr_pt: |
+  O padrão de circuit breaker evita que um serviço instável cause falhas em outros componentes ao interromper o fluxo de requisições após um limite de erros. Enquanto aberto, os consumidores recebem respostas de fallback, e métricas de observabilidade permitem análise de causa raiz. Depois, o circuito entra em modo de meio aberto para testar o serviço antes de reabrir o tráfego inteiro.
+#vr_en: |
+  The circuit breaker pattern prevents an unstable service from causing failures in other components by stopping the request flow after an error limit is reached. While open consumers receive fallback responses, and observability metrics enable root cause analysis. Then the circuit enters a half-open mode to test the service before reopening the full traffic.
+#rp_10
+#vr_pt: |
+  Circuit breaker proporciona alta tolerância a falhas ao interromper chamadas após um padrão de erros consecutivos. Durante o estado aberto, respostas de contingência são entregues sem invocar o serviço original. Terminada a fase de resiliência, o circuito fecha parcialmente enviando poucas requisições de prova para validar se o serviço voltou à estabilidade antes de liberar todas as chamadas novamente.
+#vr_en: |
+  Circuit breaker provides high fault tolerance by stopping calls after a pattern of consecutive errors. During the open state contingency responses are delivered without invoking the original service. After the resilience phase the circuit partially closes sending a few proof requests to validate if the service has regained stability before releasing all calls again.
+---
