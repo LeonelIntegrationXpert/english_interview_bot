@@ -3,51 +3,51 @@ responses:
   utter_oauth2_jwt:
     - custom:
         vr_pt: |
-          OAuth dois é protocolo de autorização que emite tokens de acesso com escopo limitado para clientes. JWT é token JSON auto contido que carrega declarações de autenticação e autorização de forma segura e verificável.
+          OAuth dois é um protocolo de autorização que permite que clientes recebam tokens de acesso com escopos limitados, ou seja, permissões específicas para realizar determinadas ações. Esses tokens são usados para acessar recursos protegidos sem expor as credenciais do usuário. Já o JWT, que significa JSON Web Token, é um token auto contido no formato JSON que carrega declarações de autenticação e autorização de forma segura e que pode ser verificado facilmente sem a necessidade de consultar um servidor externo.
         vr_en: |
-          OAuth two is an authorization protocol that issues scoped access tokens to clients. JWT is a self contained JSON token that carries authentication and authorization claims securely and verifiably.
+          OAuth two is an authorization protocol that allows clients to receive access tokens with limited scopes, which means specific permissions to perform certain actions. These tokens are used to access protected resources without exposing user credentials. JWT, which stands for JSON Web Token, is a self contained token in JSON format that carries authentication and authorization claims securely and can be easily verified without needing to consult an external server.
     - custom:
         vr_pt: |
-          No OAuth dois clientes obtêm tokens de acesso e renovação após autenticação. No JWT o token contém cabeçalho, payload e assinatura em base sessenta quatro.
+          No protocolo OAuth dois, os clientes obtêm tokens de acesso e tokens de renovação após a autenticação bem-sucedida do usuário ou do próprio cliente. O token de acesso é usado para acessar os recursos, enquanto o token de renovação permite obter novos tokens sem precisar reautenticar. No caso do JWT, o token é composto por três partes principais: o cabeçalho que define o tipo e o algoritmo, o payload que carrega as declarações (claims) de usuário e permissões, e a assinatura que garante a integridade do token. Todas essas partes são codificadas em base sessenta e quatro para transporte seguro.
         vr_en: |
-          In OAuth two clients obtain access and refresh tokens after authentication. In JWT the token includes header, payload and signature encoded in base sixty four.
+          In the OAuth two protocol, clients obtain access tokens and refresh tokens after successful authentication of the user or the client itself. The access token is used to access resources, while the refresh token allows obtaining new tokens without re authenticating. In the case of JWT, the token is composed of three main parts: the header that defines the type and algorithm, the payload that carries the user claims and permissions, and the signature that ensures token integrity. All these parts are encoded in base sixty four for secure transport.
     - custom:
         vr_pt: |
-          OAuth dois define fluxos de autorização como código do autor e credenciais do cliente. JWT encapsula informações de usuário e permissões nos claims do payload.
+          O OAuth dois define diferentes fluxos de autorização para diversas situações, como o código do autor para aplicações que possuem front-end e back-end separados, e as credenciais do cliente para aplicações de servidor a servidor. O JWT encapsula informações importantes do usuário e suas permissões dentro dos claims no payload, permitindo que o receptor do token saiba exatamente quem é o usuário e o que ele pode fazer sem consultar o servidor de autorização toda hora.
         vr_en: |
-          OAuth two defines authorization flows like authorization code and client credentials. JWT encapsulates user information and permissions in the token payload claims.
+          OAuth two defines different authorization flows for various situations, such as authorization code for applications with separate front end and back end, and client credentials for server to server applications. JWT encapsulates important user information and permissions within the claims in the payload, allowing the token receiver to know exactly who the user is and what they can do without constantly consulting the authorization server.
     - custom:
         vr_pt: |
-          Com OAuth dois usamos endpoints de autorização e token. JWT é usado como formato de token legível e assinado para verificar integridade.
+          Com o OAuth dois, utilizamos endpoints específicos para autorização e para emissão de tokens. Esses endpoints permitem que os clientes obtenham tokens após processos seguros de autenticação. O JWT é usado como formato de token legível e assinado digitalmente, o que permite verificar facilmente a integridade do token e garantir que ele não foi alterado ou falsificado durante o transporte.
         vr_en: |
-          With OAuth two we use authorization and token endpoints. JWT is used as a readable and signed token format to verify integrity.
+          With OAuth two, we use specific endpoints for authorization and token issuance. These endpoints allow clients to obtain tokens after secure authentication processes. JWT is used as a readable and digitally signed token format, which allows easy verification of token integrity and ensures it has not been altered or forged during transport.
     - custom:
         vr_pt: |
-          OAuth dois protege recursos delegando permissões via tokens. JWT evita consultas constantes ao servidor de autenticação pois é auto contido.
+          O OAuth dois protege recursos delegando permissões específicas aos clientes por meio de tokens de acesso. Isso evita que as credenciais do usuário sejam expostas. O JWT tem a vantagem de ser auto contido, ou seja, ele carrega todas as informações necessárias para a autorização no próprio token, o que elimina a necessidade de consultas constantes ao servidor de autenticação, aumentando a eficiência e a escalabilidade do sistema.
         vr_en: |
-          OAuth two secures resources by delegating permissions via tokens. JWT avoids constant authentication server lookups because it is self contained.
+          OAuth two protects resources by delegating specific permissions to clients through access tokens. This avoids exposing user credentials. JWT has the advantage of being self contained, meaning it carries all necessary information for authorization inside the token itself, which eliminates the need for constant lookups to the authentication server, increasing system efficiency and scalability.
     - custom:
         vr_pt: |
-          No fluxo OAuth dois o usuário autoriza o cliente e obtém token. JWT é decodificado pelo receptor para extrair claims e validar assinatura.
+          No fluxo do OAuth dois, o usuário autoriza o cliente a acessar recursos em seu nome e recebe um token de acesso para essa finalidade. O JWT recebido é decodificado pelo serviço que o consome para extrair os claims, ou seja, as declarações de autorização e autenticação, e validar a assinatura digital para garantir que o token é legítimo e não foi alterado.
         vr_en: |
-          In the OAuth two flow the user authorizes the client and receives a token. JWT is decoded by the receiver to extract claims and validate the signature.
+          In the OAuth two flow, the user authorizes the client to access resources on their behalf and receives an access token for this purpose. The received JWT is decoded by the consuming service to extract the claims, which are the authorization and authentication statements, and validate the digital signature to ensure the token is legitimate and has not been altered.
     - custom:
         vr_pt: |
-          OAuth dois suporta escopos para limitar ações. JWT inclui campo exp para definir data de expiração do token.
+          O OAuth dois suporta o uso de escopos para limitar as ações que um token pode realizar, restringindo permissões conforme necessário para maior segurança. O JWT inclui um campo chamado exp que define a data e hora de expiração do token, garantindo que ele seja inválido após esse momento, o que ajuda a proteger contra uso indevido de tokens expirados.
         vr_en: |
-          OAuth two supports scopes to limit actions. JWT includes an exp field to define token expiration date.
+          OAuth two supports the use of scopes to limit the actions a token can perform, restricting permissions as needed for greater security. JWT includes a field called exp that defines the expiration date and time of the token, ensuring it becomes invalid after that moment, which helps protect against misuse of expired tokens.
     - custom:
         vr_pt: |
-          Tokens OAuth dois podem ser JWT ou opacos. JWT oferece benefício de transporte de informações sem estado.
+          Os tokens emitidos pelo OAuth dois podem ser do tipo JWT ou tokens opacos que não carregam informações decodificáveis. O JWT oferece o benefício de transportar informações de autorização de forma stateless, ou seja, sem necessidade de manter estado ou sessões no servidor, o que melhora a escalabilidade e performance das aplicações.
         vr_en: |
-          OAuth two tokens may be JWT or opaque. JWT offers the benefit of stateless information transport.
+          Tokens issued by OAuth two can be either JWT type or opaque tokens that do not carry decodable information. JWT offers the benefit of carrying authorization information in a stateless way, meaning there is no need to maintain state or sessions on the server, which improves application scalability and performance.
     - custom:
         vr_pt: |
-          Implementamos refresh token no OAuth dois para renovar acesso. Em JWT validamos assinatura com chave secreta ou par de chaves assimétrico.
+          Implementamos o refresh token no OAuth dois para permitir que os clientes renovem o acesso sem necessidade de reautenticação constante do usuário. No caso do JWT, a validação da assinatura é feita utilizando uma chave secreta compartilhada ou um par de chaves assimétricas, garantindo a autenticidade e integridade do token antes de aceitá-lo para autorização.
         vr_en: |
-          We implement refresh token in OAuth two to renew access. In JWT we validate the signature with a secret key or an asymmetric key pair.
+          We implement the refresh token in OAuth two to allow clients to renew access without requiring constant user re authentication. In the case of JWT, signature validation is done using a shared secret key or an asymmetric key pair, ensuring the token's authenticity and integrity before accepting it for authorization.
     - custom:
         vr_pt: |
-          OAuth dois é padrão para autorização em APIs REST. JWT é amplamente usado como formato de token por ser compacto e seguro.
+          OAuth dois é o padrão amplamente adotado para autorização em APIs REST modernas, fornecendo um método seguro e flexível para delegar permissões. O JWT é amplamente utilizado como formato de token por ser compacto, fácil de transportar e seguro, permitindo integração simples com diversos sistemas e garantindo autenticação confiável.
         vr_en: |
-          OAuth two is the standard for REST API authorization. JWT is widely used as a token format because it is compact and secure.
+          OAuth two is the widely adopted standard for authorization in modern REST APIs, providing a secure and flexible method to delegate permissions. JWT is widely used as a token format because it is compact, easy to transport and secure, allowing simple integration with various systems and ensuring reliable authentication.

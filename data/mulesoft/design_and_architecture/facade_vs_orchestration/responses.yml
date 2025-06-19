@@ -3,51 +3,51 @@ responses:
   utter_facade_vs_orchestration:
     - custom:
         vr_pt: |
-          Facade é camada de abstração que unifica múltiplos serviços em uma interface única simples, enquanto orquestração coordena fluxos e regras de negócio entre serviços de modo centralizado.
+          Facade é uma camada de abstração que unifica múltiplos serviços em uma interface única e simples. Ela esconde a complexidade dos serviços internos, facilitando o uso por parte dos clientes e outros sistemas. A fachada simplifica o acesso a funcionalidades complexas ao apresentar um ponto único de entrada. Por outro lado, orquestração é o processo que coordena os fluxos de trabalho, as regras de negócio e as interações entre vários serviços. Ela centraliza o controle das operações, garantindo que as chamadas sejam feitas na ordem correta, que as regras sejam aplicadas e que os resultados sejam combinados para cumprir um processo de negócio completo.
         vr_en: |
-          Facade is an abstraction layer that unifies multiple services into a single simple interface, whereas orchestration coordinates flows and business rules across services in a centralized fashion.
+          Facade is an abstraction layer that unifies multiple services into a single simple interface. It hides the complexity of internal services, making it easier for clients and other systems to use them. The facade simplifies access to complex functionalities by presenting a single entry point. On the other hand, orchestration is the process that coordinates workflows, business rules, and interactions among multiple services. It centralizes control of operations, ensuring calls are made in the correct order, rules are applied, and results are combined to fulfill a complete business process.
     - custom:
         vr_pt: |
-          Facade serve para simplificar a interação com várias APIs por trás de um ponto de entrada único, enquanto orquestração gerencia a execução de chamadas e regras entre esses serviços.
+          Facade serve para simplificar a interação com várias APIs por meio de um único ponto de entrada, criando uma interface amigável que encapsula a complexidade dos serviços internos. Isso reduz o número de chamadas e a quantidade de informações que o cliente precisa gerenciar. Em contraste, a orquestração gerencia a execução das chamadas entre esses serviços, controla a lógica de negócio, gerencia exceções e estados, e assegura que todo o fluxo ocorra de maneira consistente e eficiente. Assim, enquanto a fachada foca em simplificar o acesso, a orquestração foca em coordenar as operações.
         vr_en: |
-          Facade simplifies interaction with several APIs behind one entry point, while orchestration manages execution of calls and business rules across those services.
+          Facade simplifies interaction with several APIs through a single entry point, creating a user-friendly interface that encapsulates the complexity of internal services. This reduces the number of calls and the amount of information the client must manage. In contrast, orchestration manages the execution of calls among these services, controls business logic, handles exceptions and states, and ensures the entire flow happens consistently and efficiently. So while the facade focuses on simplifying access, orchestration focuses on coordinating operations.
     - custom:
         vr_pt: |
-          Facade expõe uma fachada única sobre diversos microserviços, abstraindo complexidade, já orquestração define a sequência de operações e lógica de negócio para integrar esses serviços.
+          Facade expõe uma fachada única sobre diversos microserviços, escondendo os detalhes de implementação e reduzindo a complexidade para o cliente. Essa camada oferece uma interface estável, independente das mudanças internas nos serviços. Já a orquestração é responsável por definir a sequência correta das operações, aplicando regras de negócio específicas e garantindo que os serviços trabalhem juntos para entregar o resultado esperado. Ela pode lidar com processos complexos que envolvem várias etapas, garantindo a integridade e o sucesso das transações.
         vr_en: |
-          Facade exposes a single façade over multiple microservices, abstracting complexity, while orchestration defines the sequence of operations and business logic to integrate those services.
+          Facade exposes a single façade over multiple microservices, hiding implementation details and reducing complexity for the client. This layer provides a stable interface, independent of internal service changes. Orchestration, on the other hand, is responsible for defining the correct sequence of operations, applying specific business rules, and ensuring services work together to deliver the expected result. It can handle complex processes involving multiple steps, guaranteeing transaction integrity and success.
     - custom:
         vr_pt: |
-          Facade unifica APIs distintas em um único contrato para o cliente, enquanto orquestração controla o fluxo de dados e regras entre essas APIs de forma central.
+          Facade unifica APIs distintas em um único contrato para o cliente, o que facilita o consumo ao reduzir a necessidade de conhecer diversos serviços. Essa camada protege o cliente das mudanças internas nos serviços e centraliza a interface de acesso. A orquestração controla o fluxo de dados e as regras entre essas APIs de forma centralizada, gerenciando dependências, sincronizando chamadas e garantindo que o processo de negócio seja executado corretamente e em ordem.
         vr_en: |
-          Facade consolidates distinct APIs into one contract for the client, whereas orchestration controls data flow and rules between those APIs centrally.
+          Facade consolidates distinct APIs into one contract for the client, making consumption easier by reducing the need to understand many services. This layer shields the client from internal service changes and centralizes the access interface. Orchestration controls data flow and rules between these APIs in a centralized way, managing dependencies, synchronizing calls, and ensuring the business process is executed correctly and in order.
     - custom:
         vr_pt: |
-          Facade fornece interface simplificada por trás da qual múltiplos serviços operam, e orquestração assume responsabilidade de coordenar chamadas e aplicar lógica de negócio.
+          Facade fornece uma interface simplificada e amigável, atrás da qual múltiplos serviços operam. Ela atua como um ponto de entrada único que abstrai a complexidade da arquitetura interna. Por sua vez, a orquestração assume a responsabilidade de coordenar chamadas entre os serviços, aplicar a lógica de negócio necessária, tratar erros e garantir a consistência dos dados. A orquestração é fundamental para processos que precisam garantir passos sequenciais ou compensatórios.
         vr_en: |
-          Facade provides a simplified interface behind which multiple services operate, and orchestration takes on the responsibility of coordinating calls and applying business logic.
+          Facade provides a simplified and friendly interface behind which multiple services operate. It acts as a single entry point that abstracts the complexity of the internal architecture. Meanwhile, orchestration takes responsibility for coordinating calls among services, applying the required business logic, handling errors, and ensuring data consistency. Orchestration is essential for processes that require sequential or compensating steps.
     - custom:
         vr_pt: |
-          Facade atua como ponto único de acesso a vários serviços, enquanto orquestração gerencia o encadeamento de operações e políticas de negócio entre esses serviços.
+          Facade atua como ponto único de acesso a vários serviços, simplificando o uso para clientes e sistemas externos. Já a orquestração gerencia o encadeamento das operações e a aplicação das políticas de negócio, assegurando que os serviços sejam chamados na ordem correta e que as regras sejam respeitadas. A orquestração também pode monitorar o andamento do processo e reagir a falhas para garantir a continuidade do fluxo.
         vr_en: |
-          Facade acts as a single access point to various services, while orchestration manages the chaining of operations and business policies among those services.
+          Facade acts as a single access point to multiple services, simplifying usage for clients and external systems. Orchestration manages the chaining of operations and the application of business policies, ensuring services are called in the correct order and rules are respected. Orchestration can also monitor process progress and react to failures to guarantee flow continuity.
     - custom:
         vr_pt: |
-          Facade esconde detalhes de implementação ao agrupar serviços sob uma interface comum, já orquestração lida com a execução ordenada de tarefas e regras distribuídas.
+          Facade esconde os detalhes de implementação agrupando serviços sob uma interface comum, tornando mais fácil para o cliente interagir com o sistema. Orquestração cuida da execução ordenada das tarefas distribuídas e das regras que governam essas tarefas, garantindo que o resultado final seja consistente e que o processo de negócio funcione como esperado mesmo diante de falhas.
         vr_en: |
-          Facade hides implementation details by grouping services under a common interface, while orchestration handles the ordered execution of tasks and distributed rules.
+          Facade hides implementation details by grouping services under a common interface, making it easier for clients to interact with the system. Orchestration handles the ordered execution of distributed tasks and the rules governing those tasks, ensuring the final result is consistent and the business process works as expected even in the presence of failures.
     - custom:
         vr_pt: |
-          Facade cria uma fachada única para múltiplos serviços de backend, e orquestração define como esses serviços interagem para atender fluxos de negócio.
+          Facade cria uma fachada única para múltiplos serviços de backend, apresentando uma interface unificada e simples para o cliente. A orquestração define como esses serviços interagem, coordenando as chamadas e aplicando a lógica de negócio necessária para cumprir os objetivos dos processos. Essa coordenação centralizada é essencial para processos complexos que envolvem várias etapas e serviços.
         vr_en: |
-          Facade creates a single façade for multiple backend services, and orchestration defines how those services interact to fulfill business flows.
+          Facade creates a single façade for multiple backend services, presenting a unified and simple interface to the client. Orchestration defines how those services interact, coordinating calls and applying the business logic necessary to fulfill process goals. This centralized coordination is essential for complex processes involving multiple steps and services.
     - custom:
         vr_pt: |
-          Facade oferece interface estável frente a variados serviços, enquanto orquestração orquestra o consumo e a lógica de negócio desses serviços.
+          Facade oferece uma interface estável e consistente diante de serviços variados, permitindo que o cliente interaja com um único ponto de acesso mesmo que os serviços internos mudem. Orquestração organiza o consumo desses serviços e a lógica de negócio que conecta e transforma os dados para entregar os resultados esperados. Essa separação torna o sistema mais flexível e resiliente.
         vr_en: |
-          Facade offers a stable interface in front of varied services, while orchestration orchestrates the consumption and business logic of those services.
+          Facade offers a stable and consistent interface in front of varied services, allowing the client to interact with a single access point even if internal services change. Orchestration organizes the consumption of those services and the business logic that connects and transforms data to deliver expected results. This separation makes the system more flexible and resilient.
     - custom:
         vr_pt: |
-          Facade agrupa serviços sob um proxy único para simplificar o cliente, enquanto orquestração controla a lógica de execução distribuída e a aplicação de políticas de negócio.
+          Facade agrupa serviços sob um proxy único para simplificar a interação do cliente, reduzindo a complexidade e o número de chamadas necessárias. A orquestração controla a lógica de execução distribuída entre os serviços e aplica as políticas de negócio necessárias para manter a integridade e a eficiência dos processos. Essa combinação garante uma experiência mais simples e robusta para usuários e sistemas consumidores.
         vr_en: |
-          Facade groups services under a single proxy to simplify the client, while orchestration controls distributed execution logic and the application of business policies.
+          Facade groups services under a single proxy to simplify client interaction, reducing complexity and the number of necessary calls. Orchestration controls the distributed execution logic among services and applies business policies needed to maintain process integrity and efficiency. This combination ensures a simpler and more robust experience for users and consuming systems.

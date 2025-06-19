@@ -3,51 +3,51 @@ responses:
   utter_documentation_and_dev_portal:
     - custom:
         vr_pt: |
-          O portal de desenvolvedor é a interface web onde consumidores encontram documentação detalhada, exemplos de uso, kits de desenvolvimento (SDKs) e tutoriais interativos, integrando-se ao Exchange para auto-registro, descoberta de APIs, testes em sandbox e gerenciamento de chaves de acesso.
+          O portal do desenvolvedor é uma interface web acessível onde os consumidores das APIs encontram documentação completa e detalhada sobre os serviços disponíveis. Nele, estão disponíveis exemplos práticos de uso, kits de desenvolvimento de software que facilitam a integração, e tutoriais interativos que guiam passo a passo o processo de conexão. O portal se integra diretamente com o Anypoint Exchange para permitir o auto cadastro de usuários, descoberta rápida das APIs, realização de testes em ambientes de sandbox seguros e o gerenciamento simplificado das chaves de acesso necessárias para autenticação.
         vr_en: |
-          The developer portal is the web interface where consumers find detailed documentation, usage examples, software development kits and interactive tutorials, integrating with Anypoint Exchange for self-registration, API discovery, sandbox testing and API key management.
+          The developer portal is an accessible web interface where API consumers find complete and detailed documentation about available services. It offers practical usage examples, software development kits that simplify integration, and interactive tutorials that guide the connection process step by step. The portal integrates directly with Anypoint Exchange to enable user self registration, quick API discovery, testing in secure sandbox environments, and simplified management of access keys required for authentication.
     - custom:
         vr_pt: |
-          No portal de desenvolvedor, usuários podem navegar por APIs disponíveis, testar endpoints em tempo real, baixar SDKs gerados e acessar métricas de uso, facilitando a adoção e colaboração entre equipes.
+          No portal do desenvolvedor, os usuários podem navegar facilmente pelas APIs disponíveis, testar os endpoints em tempo real para validar funcionalidades e comportamento, baixar kits de desenvolvimento gerados automaticamente para diferentes linguagens de programação e acessar métricas detalhadas de uso e desempenho. Essas funcionalidades facilitam a adoção das APIs e promovem a colaboração eficiente entre equipes técnicas e de negócio.
         vr_en: |
-          On the developer portal, users can browse available APIs, test endpoints in real-time, download generated SDKs and access usage metrics, facilitating adoption and collaboration across teams.
+          On the developer portal, users can easily browse available APIs, test endpoints in real time to validate functionality and behavior, download automatically generated development kits for different programming languages, and access detailed usage and performance metrics. These features facilitate API adoption and promote efficient collaboration between technical and business teams.
     - custom:
         vr_pt: |
-          O portal oferece busca por palavras-chave, filtros por categoria e tags, além de seções de exemplos e guias passo a passo, centralizando recursos para acelerar o desenvolvimento de integrações.
+          O portal oferece ferramentas avançadas de busca por palavras-chave, filtros inteligentes por categorias, domínios ou tags, além de seções dedicadas a exemplos práticos e guias passo a passo para acelerar o desenvolvimento de integrações. Centralizar esses recursos em um único local melhora a produtividade dos desenvolvedores e reduz o tempo necessário para colocar soluções em produção.
         vr_en: |
-          The portal provides keyword search, filters by category and tags, as well as sections for examples and step-by-step guides, centralizing resources to accelerate integration development.
+          The portal offers advanced keyword search tools, smart filters by categories, domains or tags, as well as sections dedicated to practical examples and step by step guides to accelerate integration development. Centralizing these resources in one place improves developer productivity and reduces the time needed to bring solutions to production.
     - custom:
         vr_pt: |
-          Consumidores podem se auto-cadastrar, gerar tokens de acesso, consultar políticas aplicadas e revisar versões de APIs, tudo por meio de uma interface amigável e responsiva.
+          Os consumidores das APIs podem se auto cadastrar no portal, gerar tokens de acesso necessários para autenticação, consultar políticas aplicadas a cada API e revisar todas as versões publicadas de forma simples e intuitiva. Tudo isso acontece por meio de uma interface amigável, responsiva e acessível que garante uma experiência de usuário eficiente e segura.
         vr_en: |
-          Consumers can self-register, generate access tokens, review applied policies and browse API versions, all through a user-friendly and responsive interface.
+          API consumers can self register on the portal, generate access tokens needed for authentication, review policies applied to each API and browse all published versions simply and intuitively. All this happens through a user friendly, responsive and accessible interface that ensures an efficient and secure user experience.
     - custom:
         vr_pt: |
-          A integração com Exchange garante que toda atualização de contrato, documentação ou exemplos reflita automaticamente no portal, mantendo conteúdo sempre sincronizado.
+          A integração entre o portal e o Anypoint Exchange garante que qualquer atualização nos contratos das APIs, na documentação técnica ou nos exemplos de uso seja refletida automaticamente no portal, mantendo o conteúdo sempre sincronizado e atualizado. Isso elimina riscos de inconsistências e garante que os consumidores tenham sempre a informação correta para desenvolver suas aplicações.
         vr_en: |
-          Integration with Exchange ensures that any contract, documentation or example updates automatically reflect on the portal, keeping content always synchronized.
+          The integration between the portal and Anypoint Exchange ensures that any updates to API contracts, technical documentation or usage examples are automatically reflected on the portal, keeping content always synchronized and up to date. This eliminates risks of inconsistencies and ensures consumers always have the correct information to develop their applications.
     - custom:
         vr_pt: |
-          O portal de desenvolvedor inclui suporte a testes de autenticação e autorização, permitindo validar fluxos de segurança e integração com provedores de identidade diretamente na interface.
+          O portal do desenvolvedor inclui suporte para testes de autenticação e autorização, permitindo que os usuários validem os fluxos de segurança, verifiquem a integração com provedores de identidade e testem seus tokens diretamente pela interface, sem a necessidade de ferramentas externas, o que facilita o desenvolvimento seguro e a identificação precoce de problemas.
         vr_en: |
-          The developer portal includes support for authentication and authorization testing, allowing users to validate security flows and identity provider integration directly within the interface.
+          The developer portal includes support for authentication and authorization testing, allowing users to validate security flows, verify integration with identity providers and test their tokens directly through the interface without the need for external tools, which facilitates secure development and early problem identification.
     - custom:
         vr_pt: |
-          Desenvolvedores podem acessar exemplos de políticas, executar chamadas simuladas e visualizar respostas modelo, acelerando a curva de aprendizado e reduzindo erros de integração.
+          Desenvolvedores podem acessar exemplos práticos de políticas aplicáveis, executar chamadas simuladas para validar comportamentos esperados e visualizar respostas modelo que facilitam a compreensão do funcionamento das APIs. Essas funcionalidades aceleram a curva de aprendizado, reduzem erros comuns e promovem integrações mais robustas e confiáveis.
         vr_en: |
-          Developers can access policy examples, execute simulated calls and view sample responses, accelerating the learning curve and reducing integration errors.
+          Developers can access practical examples of applicable policies, execute simulated calls to validate expected behaviors and view sample responses that facilitate understanding of how APIs work. These features accelerate the learning curve, reduce common errors and promote more robust and reliable integrations.
     - custom:
         vr_pt: |
-          O portal fornece dashboards de uso, exibindo tráfego, latência e erros por API, auxiliando equipes a monitorar adoção e identificar gargalos.
+          O portal fornece painéis de controle visuais que exibem métricas essenciais de uso como volume de tráfego, latência média e taxa de erros por API. Essas informações auxiliam as equipes a monitorar a adoção das APIs, identificar possíveis gargalos ou falhas, e tomar decisões rápidas para otimizar desempenho e qualidade dos serviços.
         vr_en: |
-          The portal provides usage dashboards displaying traffic, latency and error metrics per API, helping teams monitor adoption and identify bottlenecks.
+          The portal provides visual control panels that display essential usage metrics such as traffic volume, average latency and error rate per API. This information helps teams monitor API adoption, identify possible bottlenecks or failures and make quick decisions to optimize performance and service quality.
     - custom:
         vr_pt: |
-          Ele também suporta a publicação de artigos, FAQ e posts de blog, criando um hub de conhecimento para a comunidade de desenvolvedores.
+          Além disso, o portal suporta a publicação de artigos técnicos, perguntas frequentes e posts de blog relacionados às APIs, criando um verdadeiro hub de conhecimento que fortalece a comunidade de desenvolvedores, incentiva o compartilhamento de boas práticas e facilita o suporte colaborativo.
         vr_en: |
-          It also supports publishing articles, FAQs and blog posts, creating a knowledge hub for the developer community.
+          Additionally, the portal supports publishing technical articles, frequently asked questions and blog posts related to APIs, creating a true knowledge hub that strengthens the developer community, encourages sharing of best practices and facilitates collaborative support.
     - custom:
         vr_pt: |
-          Políticas de feedback permitem que consumidores avaliem APIs, relatem problemas e sugiram melhorias diretamente pelo portal, alimentando um ciclo contínuo de melhoria.
+          Políticas de feedback integradas ao portal permitem que os consumidores avaliem as APIs, relatem problemas encontrados e sugiram melhorias diretamente pela interface. Esse fluxo contínuo de retorno alimenta um ciclo virtuoso de aprimoramento, onde as equipes de desenvolvimento podem priorizar correções e novas funcionalidades com base nas necessidades reais dos usuários.
         vr_en: |
-          Feedback policies allow consumers to rate APIs, report issues and suggest improvements directly through the portal, feeding a continuous improvement loop.
+          Integrated feedback policies in the portal allow consumers to rate APIs, report encountered issues and suggest improvements directly through the interface. This continuous feedback flow feeds a virtuous improvement cycle where development teams can prioritize fixes and new features based on real user needs.

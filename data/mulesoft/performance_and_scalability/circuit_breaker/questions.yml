@@ -1,0 +1,604 @@
+version: '3.1'
+nlu:
+  - intent: circuit_breaker
+    examples: |
+      - o que é circuit breaker
+      - oq ue é circuit breaker
+      - oque é circuit breaker
+      - oque e circuit breaker
+      - o que eh circuit breaker
+      - o que é cirtcuit breaker
+      - o que é cirucit breaker
+      - o que é circuit breker
+      - o que é circuit breakr
+      - o que e circuit breaker
+      - o que e ckt breaker
+      - o que é circuitbreaker
+      - o que é cir cuit breaker
+      - o que é circuit breake
+      - o que é cvircuit breaker
+      - o que é circuit brek er
+      - o que é circuit beaker
+      - o que é circut breaker
+      - o que é circuit brea ker
+      - o que é cirecuit breaker
+      - o que é cir cuit breake
+      - o que é cricuit breaker
+      - o que é circuit brak er
+      - o que é circult breaker
+      - o que é circuit break er
+      - o que é circuit bre aker
+      - o que.é circuit breaker
+      - oq e circuit breaker
+      - oq é circuit breaker
+      - oq eh circuit breaker
+      - oqe é circuit breaker
+      - oqe e circuit breaker
+      - oq ue circuit breaker
+      - oq é cir cuit breaker
+      - oq é circuit breake
+      - oq é circuit breaker?
+      - oq é circuitbreaker
+      - oq é circuit breker
+      - oq é circuit brekr
+      - oq é circuit brak er
+      - oq é cricuit breaker
+      - oq é crircuit breaker
+      - oq é cirrcuit breaker
+      - oq é circuit bre ake
+      - oq e circuit bullet
+      - oq e circuit brekaer
+      - oq e circuit beaker
+      - oq e circuit braker
+      - oq e circuit break er
+      - oq e circuit bre aker
+      - oq e circuit breaker?
+      - oque eh circuit breaker
+      - oque é circuit break
+      - oque é circuit breaker?
+      - oque é circuitbreaker
+      - oque é cir cuit breaker
+      - oque é circuit b reaker
+      - oque é circuit bre aker
+      - oque e circuit breker
+      - oque e circuit brekr
+      - oque e circuit brak er
+      - oque e cricuit breaker
+      - oque e circuit braker
+      - oque e circuit beaker
+      - oque e circuit breake
+      - oque e circuit breaker?
+      - oque e circuitbreaker
+      - oqe circuit breaker
+      - oqe circui tbreaker
+      - oqe c i r c uit breaker
+      - oqe circuitbre aker
+      - oqe circuit bre aker
+      - oqe circuitbeaker
+      - oqe circuitbreker
+      - oqe circuitbreakr
+      - oqe circuitbreaker?
+      - o q e circuit breaker
+      - o q é circuit breaker
+      - o q e circuit breake
+      - o q e circuit breker
+      - o q e circuit bre kr
+      - o q e ckt breaker
+      - o q e circuitbreaker
+      - o q e circuitbreaker?
+      - o q eh circuit breaker
+      - o q eh circuitbreaker
+      - o qe circuit breaker
+      - o qe circuit breaker?
+      - o qe circuitbreaker
+      - o q circuit breaker
+      - oq circuit breaker
+      - oq circuitbreaker
+      - oq cir cuit breaker
+      - oq circuit bre ake
+      - oq circuit bre aker
+      - oq circuitbeaker
+      - oq circuitbreaker?
+      - oq circuit breker
+      - oq circuit brekr
+      - oq circuit brak er
+      - oq ckc circuit breaker
+      - oq ckt breaker
+      - oq cir cuit breakr
+      - oq cricuit breaker
+      - oq cirrcuit breaker
+      - oq circuit breakr?
+      - oq circuit breake
+      - oq circuit breaker?
+      - oq circuitbreakr
+      - oq circuitbre aker
+      - oq circuit be aker
+      - oque cirucit breaker
+      - oque cir cuit breaker
+      - oque ckt breaker?
+      - oque circuitbreakr
+      - oque circuit breaker?
+      - oque circuit breaker
+      - oque circuit braker
+      - oque circuit bre aker
+      - oque circuit beaker
+      - oq_circuit_breaker
+      - o que é circuit- breaker
+      - o que é circuit - breaker
+      - o que é circuit / breaker
+      - o que e circuit breaker?
+      - o que eh circuit breaker?
+      - oque é circuit-breaker
+      - o que é circuitbreaker?
+      - o que e circuitbreaker?
+      - oq eh circuit breaker?
+      - oque eh circuit breaker?
+      - o qu é circuit breaker?
+      - o qu e circuit breaker?
+      - o qu eh circuit breaker?
+      - oqe é circuit breaker?
+      - oqe e circuit breaker?
+      - oq qu circuit breaker?
+      - oq quh circuit breaker?
+      - o qú é circuit breaker?
+      - o qú e circuit breaker?
+      - o que é cir cuit breaker?
+      - o que ee circuit breaker?
+      - o que é circuit bréaker?
+      - o que é circuit bré aker?
+      - o que é circuit bre aker?
+      - o que é cir cuit bre aker?
+      - o que eé circuit breaker?
+      - oquee circuit breaker?
+      - oquee circuit breaker
+      - como funciona circuit breaker
+      - para que serve circuit breaker
+      - qual a finalidade do circuit breaker
+      - como configurar circuit breaker no MuleSoft
+      - onde ativar circuit breaker em API
+      - quando usar circuit breaker
+      - quando usar circuitbreaker
+      - quando usar cir cuit breaker
+      - quando usar circuit bre aker
+      - quando usar circuit breker
+      - quando usar circuit breakr
+      - quando usar circuit braker
+      - quando usar cir cuit bre aker
+      - quando usar circuit breaker?
+      - quando usar circuitbreaker?
+      - quando usar ckt breaker
+      - quando usar ck t breaker
+      - quando usar circuito breaker
+      - quando usar circuit br eaker
+      - quando usar circuit brea ker
+      - quando usar circuit breake
+      - quando usar circuit brea ker?
+      - quando usar circuit bre aker?
+      - quando usar circui t breaker
+      - quando usar ciruit breaker
+      - quando usar cir cuit breaker?
+      - quando usar circuit-breaker
+      - quando usar circuit - breaker
+      - quando usar circuit / breaker
+      - quando usar circuit breaker no mule
+      - quando usar circuit breaker no muleSoft
+      - quando usar circuit breaker em Api
+      - quando usar circuit breaker em API
+      - quando usar circuit breaker na API
+      - quando usar circuit breaker no Gateway
+      - quando usar circuit breaker no APIGateway
+      - quando usar circuit breaker no apiManager
+      - quando usar circuit breaker na plataforma
+      - quando usar circuit breaker em microservicos
+      - quando usar circuit breaker em microserviços
+      - quando usar circuit breaker no flux mule
+      - quando usar circuit breaker em flux mule
+      - quando usar circuit breaker na aplicacao
+      - quando usar circuit breaker em aplicacao
+      - quando usar circuit breaker em servicos
+      - quando usar circuit breaker no servico
+      - quando usar circuit breaker em servicos?
+      - quando usar circuit breaker para fallback
+      - quando usar circuit breaker e retry
+      - quando usar circuit breaker e retry?
+      - quando usar circuitbreaker em fallback
+      - quando usar circuit breaker em resiliencia
+      - quando usar circuit breaker em resiliência
+      - quando usar circuit breaker em resiliência?
+      - quando usar circuit breaker para tolerancia a falhas
+      - quando usar circuit breaker para tolerância a falhas
+      - quando usar circuit breaker para tolerancia a falhas?
+      - quando usar cir cuit bre her?
+      - quando usar circuit bre_aker
+      - quando usar circuit.breaker
+      - quando usar circuit breaker no mule esb
+      - quando usar circuit breaker mule esb
+      - quando usar circuit breaker mule esb?
+      - quando usar circuit breaker na runtime
+      - quando usar circuit breaker em runtime
+      - quando usar circuit breaker em runtime?
+      - quando usar circuit breaker em tempo de execucao
+      - quando usar circuit breaker em tempo de execução
+      - quando usar circuit breaker em tempo de execucao?
+      - quando usar circuit breaker em time de execucao
+      - quando usar circuit breaker no ambiente produtivo
+      - quando usar circuit breaker no ambiente de homologacao
+      - quando usar circuit breaker no ambiente de testes
+      - quando usar circuit breaker em producao
+      - quando usar circuit breaker em produçao
+      - quando usar ckt breaker?
+      - quando usar cir cuit breaker mule
+      - quando usar circuit breaker muleSoft?
+      - quando usar circuit breaker mule?
+      - quando usar circuit breaker na integracao
+      - quando usar circuit breaker na integração
+      - quando usar circuit breaker na integração?
+      - quando usar circuit breaker para isolar falhas
+      - quando usar circut breaker para isolar falhas
+      - quando usar circuit breaker para isolar falhas?
+      - quando usar circuit breaker para evitar cascata
+      - quando usar circuit breaker para evitar falhas em cascata
+      - quando usar circuit breaker para evitar falhas em cascata?
+      - quando usar circuit breaker em arquitetura distribuida
+      - quando usar circuit breaker em arquitetura distribuída
+      - quando usar circuit breaker em arquitetura distribuida?
+      - quando usar circuit breaker para escalabilidade
+      - quando usar circuit breaker para escalabilidade?
+      - quando usar circuit breaker e bulkhead
+      - quando usar circuit breaker e bulkhead?
+      - quando usar circuit breaker e timeout
+      - quando usar circuit breaker e timeout?
+      - quando usar circuit breaker para timeout
+      - quando usar circuit breaker para timeout?
+      - quando usar circuit breaker em politica de resiliencia
+      - quando usar circuit breaker em política de resiliência
+      - quando usar circuit breaker em politica de resiliência?
+      - quando usar circuit breaker no design de API
+      - quando usar circuit breaker no design de Api
+      - quando usar circuit breaker no design de API?
+      - quando usar circuit breaker no design da API
+      - quando usar circut breaker no design da API
+      - quando usar circuit be aker no design da API
+      - quando usar circuit breaker com retry e fallback
+      - quando usar circuit breaker com retry e fallback?
+      - quando usar circuit breaker com retry
+      - quando usar circuit breaker com fallback
+      - quando usar circuit breaker com retry?
+      - quando usar circuit breaker com fallback?
+      - quando usar circuit breaker em padroes de resiliencia
+      - quando usar circuit breaker em padrões de resiliência
+      - quando usar circuit breaker em padroes de resiliência?
+      - quando usar circuit breaker no fluxograma
+      - quando usar circuit breaker no fluxograma?
+      - quando usar circuit breaker em cenarios de erro
+      - quando usar circuit breaker em cenarios de erro?
+      - quando usar circuit breaker em cenários de erro?
+      - o que faz o circuit breaker
+      - oq ue faz o circuit breaker
+      - o qe faz o circuit breaker
+      - o que fa z o circuit breaker
+      - o que faz o cir cuit breaker
+      - o que faz o circuit bre aker
+      - o que faz o circuit breker
+      - o que faz o circuit breakr
+      - o que faz o circuit braker
+      - o que faz ckt breaker
+      - o que faz circuitbreaker
+      - o que faz circuit breaker?
+      - oq faz o circuit breaker
+      - oq faz circuit breaker
+      - oq faz o circuitbre aker
+      - oq faz o cir cuit breaker
+      - oq faz circuit breakr
+      - oq faz circuit braker
+      - o que faz o circuitbre aker
+      - o que faz o circuitb reak er
+      - o que faz circuit be aker
+      - o que faz cir cuit bre aker
+      - o que faz circui t breaker
+      - o que faz ciruit breaker
+      - o que faz circuit breker?
+      - o que faz circuit breakr?
+      - o que faz circuit braker?
+      - o que faz circuit bre aker?
+      - o que faz circuitbre aker?
+      - what is a circuit breaker
+      - whta is a circuit breaker
+      - what is a circut breaker
+      - what is a ciruit breaker
+      - what is a circuit breker
+      - what is a circuit breakr
+      - what is a cicruit breaker
+      - what is a circuit bre aker
+      - what is a circuit brea ker
+      - what is a circuitbre aker
+      - what is a circuit breaker?
+      - what is a cir cuit breaker
+      - what is a circuitbreak er
+      - what is circuit breaker
+      - wat is a circuit breaker
+      - wut is a circuit breaker
+      - what iz a circuit breaker
+      - what is a circuit-breaker
+      - what is a circuit / breaker
+      - what is a circuit; breaker
+      - what is a ckt breaker
+      - what is a cir cuit breaker?
+      - what is a circuit breakr?
+      - what is a circuitbreaker
+      - what is a circuitbreakr
+      - what is a circuit bre akr
+      - what is a circuit bre aker?
+      - what is a circuit brea ker?
+      - what is a circuit break er?
+      - what is a circuit br aker?
+      - what is a circuit breaker!!
+      - what is a circuit bravker
+      - what is a circuit brraker
+      - what is a circuit baraker
+      - what is a circuit brekaer
+      - what is a circuit bre aker???
+      - what isa circuit breaker
+      - what is a circut breaker?
+      - what is a circuit breker?
+      - what is a circuit b reak er
+      - what iz a circuit bre aker
+      - what is a cir cuit bre aker
+      - what is the circuit breaker
+      - what is the cicruit breaker
+      - what is the cir cuit breaker?
+      - what is the circuit bre aker
+      - wht is a circuit breaker
+      - wht is a circut breaker
+      - wht is a cir cuit breaker
+      - wht iz a circuit breaker
+      - what is a ci rcuit breaker
+      - what is a circuit br eaker
+      - what is a cicruit bre aker
+      - what is a circuitbre aker?
+      - what is a circuit braker?
+      - what is a circuit breaker??
+      - what is a circuit breaker !
+      - what is a circuit br e aker
+      - what is a circuit bre aker!
+      - what is circuitbreaker?
+      - what is circuit breaker?
+      - what is circuit br aker?
+      - what is a ckt breaker?
+      - what is ckt breaker?
+      - what is cir cuitbreaker
+      - what is cir cuit breaker
+      - what is cicr uit breaker
+      - what is cir cuit bre aker
+      - what is circ circuit breaker
+      - what is ciccuit breaker
+      - what is cicrcuit breaker
+      - what is ccritcuit breaker
+      - what is a cir cuit breakr
+      - what is a cir cuit brea ker
+      - what is a circut breakr
+      - what is a ci rcuit breaker?
+      - what is the circuitbreak er?
+      - what is the cir cuit bre aker?
+      - what is the circut bre aker?
+      - what is the circuit braker?
+      - how does circuit breaker work
+      - how does cir cuit breaker work
+      - how dos circuit breaker work
+      - how does cicruit breaker work
+      - how does circuit bre aker work
+      - how does circuit breaker wok
+      - how does circuit breaker wrok
+      - how d oes circuit breaker work
+      - how does circuitbreaker work
+      - how does circuit breaker wrk
+      - how doe circuit breaker work
+      - how does ciruit breaker work
+      - how does circuit breker work
+      - how doess circuit breaker work
+      - how does circuit breaker work?
+      - how does circuit breaker workk
+      - how does circuit breaker wk
+      - how does circuit breaker wrok?
+      - how ds circuit breaker work
+      - how does circuit breaker woek
+      - how dows circuit breaker work
+      - how does ckt breaker work
+      - how ddoes circuit breaker work
+      - how does circuit bre akerwork
+      - how does circuit breaker werk
+      - how does circuit breaker wrork
+      - how does circuit breaker wok?
+      - how does circuit braker work
+      - how does circuit breakerw ork
+      - how does circuit breaker wor
+      - how does circuit breaker wrok!!
+      - how dst circuit breaker work
+      - how does circuit breker work?
+      - how does circuit bre aker work?
+      - how does circuit breaker wrk?
+      - how does circuit bre akerwork?
+      - how does circuit breaker works
+      - how does circuit breaker wrokk
+      - how does circuit breaker wrok??
+      - how does circuit breaker woek?
+      - how does circuit breaker wo rk
+      - how does circuit breaker workk?
+      - how does circut breaker work
+      - how duz circuit breaker work
+      - how dew circuit breaker work
+      - how does cricuit breaker work
+      - how does ciruit breaker work?
+      - hou does circuit breaker work
+      - how does circuit bre aker wrk
+      - hwo does circuit breaker work
+      - how does circuit breaker wro k
+      - how does circuit breaker woork
+      - how das circuit breaker work
+      - how does circuit breaker work??
+      - how does circuit breaker work!!
+      - how does circuit br eaker work
+      - how does circuit breaker wro k?
+      - how dos circuit breaker work?
+      - how does circuit breaker wor k
+      - how does circuit breaker w o k
+      - how dose circuit breaker work
+      - how does circuit breaker worrk
+      - how does circuit breaker w or k
+      - how does circuit breaker wor k?
+      - how does circuit breaker wok!!
+      - how does circuitbreaker work?
+      - ho w does circuit breaker work
+      - how does circuit brer kerja work
+      - how dola circuit breaker work
+      - how doz circuit breaker work
+      - how duz circuit breaker wodrk
+      - how ddos circuit breaker work
+      - how does circuit breaker werk?
+      - how doez circuit breaker work
+      - how doees circuit breaker work?
+      - how does circuit breaker wolk
+      - how daes circuit breaker work
+      - how does c ircuit breaker work
+      - hdw does circuit breaker work
+      - how does circuit breaker work indeed
+      - how does circuit breaker work exactly
+      - how does circuit breaker work precisely
+      - how does ci rcuit breaker work
+      - hw does circuit breaker work
+      - how doess cir cuit breaker work
+      - how ddoes cir cuit breaker work
+      - how does circuit breaker wrokk?
+      - how does circuit breaker wrk!!
+      - how does circuit breaker worrk?
+      - how does circuit breaker wo rk?
+      - what is the purpose of a circuit breaker
+      - what is the puroose of a circuit breaker
+      - what is the purpos of a circuit breaker
+      - what is the purpse of a circuit breaker
+      - what is the puropse of a circuit breaker
+      - what is tha purpose of a circuit breaker
+      - what is the porpose of a circuit breaker
+      - what is the purpose of circuit breaker
+      - what is the purpose of  a circuit breaker
+      - what is the purpose of a circuitbre aker
+      - what is the purpose of a cir cuit breaker
+      - what is the purpose of a circuit bre aker
+      - what is the purpose of a circuit breker
+      - what is the purpose of a ckt breaker
+      - what is the purpose of a cicruit breaker
+      - what is the purpose of circuit breaker?
+      - what is the purpose of a circuit breaker?
+      - what iz the purpose of a circuit breaker
+      - wut is the purpose of a circuit breaker
+      - what is the purpose of a circuit breaker!!
+      - what is the purpose of a circuit breaker??
+      - what is the purpose of a circuit breaker please
+      - what is the purpose of a circuit breaker pls
+      - what is the purpose of a cir cuitbreaker
+      - what is the purpose of a circuit breakr
+      - what is the purpose of a circuit braker
+      - what is the purpose of cir cuit breaker
+      - what is the purpose of circuitbreak er
+      - what is the purpose of circuitbreakr
+      - what is the purpose of circuit breaker in mule
+      - what is the purpose of a circuit breaker in MuleSoft
+      - what is the purpose of a circuit breaker in API
+      - what is the purpose of a circuit breaker in API manager
+      - what is the purpose of a circuit breaker in platform
+      - what is the purpose of a circuit breaker in gateway
+      - what is the purpose of a circuit breaker pattern
+      - what is the purpose of the circuit breaker pattern
+      - what is purpose of a circuit breaker
+      - whats the purpose of a circuit breaker
+      - whats the purpose of circuit breaker
+      - what s the purpose of a circuit breaker
+      - what’s the purpose of a circuit breaker
+      - what’s the purpose of circuit breaker
+      - whats purpose of a circuit breaker
+      - whats purpose of circuit breaker
+      - what is the purpose o a circuit breaker
+      - what is the purpse of circuit breaker
+      - what is purpose of circuit breaker
+      - what is the purpsoe of a circuit breaker
+      - what is the purposea of a circuit breaker
+      - what is the poopose of a circuit breaker
+      - what is thepurpose of a circuit breaker
+      - what is the purpose ofa circuit breaker
+      - what is the purpose of a circuit breaker in code
+      - what is the purpose of a circuit breaker in architecture
+      - what is the purpose of circuit breaker when to use
+      - what is the purpose of a circuit breaker and how
+      - what is the purpose of a circuit breaker example
+      - what is the purpose of a circuit breaker flow
+      - what is the puprpose of a circuit breaker
+      - what is the purpse of a cir cuit breaker
+      - what is the purpose of a circuitbreaker?
+      - what is the purpose of ak circuit breaker
+      - what is the pourpose of a circuit breaker
+      - what is the purpose of a circuit bre aker ?
+      - what is the purpose of a circuit breaker now
+      - what is the pupose of a circuit breaker
+      - what is the purpose of ckt breaker
+      - what is the purpose of circuit break er
+      - what is the purpose of a circut bre aker
+      - what is the purpose of a cir cuit breaker?
+      - what is the pupose of circuit breaker
+      - what is the purpose of ar circuit breaker
+      - what is the purpose of ur circuit breaker
+      - what is the purpose of yr circuit breaker
+      - what is the purpose of y circuit breaker
+      - what is the purpose of circuit breaker in system
+      - what is the purpose of circuit breaker design
+      - what is the purpose of a circuit breaker pattern?
+      - what is the purpose of circuit breaker pattern?
+      - what is the purpose of ckt breaker?
+      - what is the purpose of a ckt breaker?
+      - what is the purpose of circuit breaker pls
+      - what is the purpose of circuit breaker please?
+      - what is the purpose of a circuit breaker please?
+      - what is the purpose of a circuit breaker now?
+      - what is the purpose of circui t breaker
+      - what is the purpose of cir cuit bre aker
+      - what is the purpose of cicuit breaker
+      - what is the purpose of circuilt breaker
+      - what is the purpose of cir cuit breaker?
+      - what is the purpose of circut bre aker?
+      - what is the purpose of cicruit breaker?
+      - what is the purpose of circuit bre aker?
+      - what is the purpose of circut breaker?
+      - how to configure circuit breaker in MuleSoft
+      - how to configure circuit breaker in mulesoft
+      - how to configure circuit breaker in mule soft
+      - how to congfigure circuit breaker in mulesoft
+      - how to configure cir cuit breaker in mulesoft
+      - how to configure circuit breaker in mulesfot
+      - how to configure circuit breaker in mule soft?
+      - how to configure circuitbreaker in mulesoft
+      - how to configure circuit breaker in mulesoft?
+      - how to configure circuit bre aker in mulesoft
+      - how to config circuit breaker in mulesoft
+      - how to configure cir cuit breaker in mule soft
+      - how to configura circuit breaker in mulesoft
+      - how to configure circuit breaker in mule s oft
+      - how to configuire circuit breaker in mulesoft
+      - how to configure circuit breaker in mulesoft studio
+      - how to configure circuit breaker in mule sdk
+      - how to configure circuit breaker in mule esb
+      - how to configure circuit breaker in mule runtime
+      - how to configure circuit breaker in mule flow
+      - how to configure circuit breaker in mules oft
+      - how to configure circut breaker in mulesoft
+      - how to configure circuit breaker in mule sofft
+      - how to configure ckt breaker in mulesoft
+      - how to configure circuit breaker in mulesoft api manager
+      - how to configure circuit breaker in mulesoft exchange
+      - how to configure circuit breaker in mulesoft studio?
+      - how to configure circuit breaker in mulesoft esb?
+      - how to congifure circuit breaker in mulesoft
+      - how to configure circuit breaker in mule tools
+      - how to configure circuit breaker in mule dashboad
+      - how to configure circuit breaker in mule monitor
+      - how to configure circuit breaker in mule platform
+      - how to configure circuit breaker in the mulesoft
+      - how to configure circuit breaker in the mule soft

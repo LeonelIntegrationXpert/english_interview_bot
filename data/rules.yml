@@ -53,6 +53,10 @@ rules:
     steps:
       - intent: api_caching
       - action: utter_api_caching
+  - rule: rule_circuit_breaker
+    steps:
+      - intent: circuit_breaker
+      - action: utter_circuit_breaker
   - rule: rule_rate_limiting_throttling
     steps:
       - intent: rate_limiting_throttling

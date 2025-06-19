@@ -3,51 +3,51 @@ responses:
   utter_api_contracts:
     - custom:
         vr_pt: |
-          Contratos de API em RAML ou OpenAPI estabelecem formalmente os recursos, métodos, parâmetros e respostas de uma interface, servindo como fonte única de verdade para desenvolvedores e consumidores, facilitando a geração de documentação, validação automática e testes, além de garantir compatibilidade, versionamento e governança contínua.
+          Contratos de API em RAML ou OpenAPI definem formalmente os recursos, métodos, parâmetros e respostas de uma interface. Eles funcionam como a fonte única de verdade para desenvolvedores e consumidores, facilitando a geração de documentação, validação automática e testes. Além disso, garantem a compatibilidade, o versionamento e a governança contínua durante todo o ciclo de vida da API.
         vr_en: |
-          API contracts in RAML or OpenAPI formally define an interface’s resources, methods, parameters, and responses, acting as a single source of truth for developers and consumers, enabling documentation generation, automatic validation and testing, and ensuring compatibility, versioning and governance throughout the lifecycle.
+          API contracts written in RAML or OpenAPI formally define the resources, methods, parameters, and responses of an interface. They act as the single source of truth for developers and consumers, making documentation generation, automatic validation, and testing easier. They also ensure compatibility, versioning, and continuous governance throughout the API lifecycle.
     - custom:
         vr_pt: |
-          Um contrato de API escrito em RAML ou OpenAPI descreve todos os endpoints, os verbos HTTP, os esquemas de dados e os códigos de resposta, oferecendo um guia preciso para implementação e consumo, suportando ferramentas de validação, geração de SDKs e monitoramento de conformidade.
+          Um contrato de API escrito em RAML ou OpenAPI descreve todos os endpoints, os verbos HTTP, os esquemas de dados e os códigos de resposta. Ele oferece um guia preciso para a implementação e o consumo da API, suportando ferramentas de validação, geração de kits de desenvolvimento de software e monitoramento de conformidade.
         vr_en: |
-          An API contract authored in RAML or OpenAPI outlines every endpoint, HTTP verb, data schema and response code, providing an accurate guide for implementation and consumption, supporting validation tools, SDK generation and compliance monitoring.
+          An API contract written in RAML or OpenAPI describes every endpoint, HTTP verbs, data schemas, and response codes. It provides an accurate guide for API implementation and consumption, supporting validation tools, software development kit generation, and compliance monitoring.
     - custom:
         vr_pt: |
-          Os contratos de API em RAML/OpenAPI documentam de forma estruturada recursos, parâmetros de entrada e saída, modelos de dados e cenários de erro, centralizando regras de negócio e políticas em um único artefato que serve a geração de documentação interativa e a validação em tempo de execução.
+          Os contratos de API em RAML e OpenAPI documentam de forma estruturada os recursos, parâmetros de entrada e saída, modelos de dados e cenários de erro. Eles centralizam as regras de negócio e políticas em um único arquivo, que serve para gerar documentação interativa e realizar validação em tempo de execução.
         vr_en: |
-          RAML/OpenAPI API contracts structure resources, input and output parameters, data models and error scenarios in a centralized artifact, capturing business rules and policies in a single document used for interactive documentation and runtime validation.
+          API contracts in RAML and OpenAPI document resources, input and output parameters, data models, and error scenarios in a structured way. They centralize business rules and policies in a single file used for generating interactive documentation and performing runtime validation.
     - custom:
         vr_pt: |
-          Ao definir contratos de API em RAML ou OpenAPI, você formaliza recursos, métodos e esquemas de payload, permitindo que ferramentas gerem documentação, verifiquem a conformidade dos requests e responses e auxiliem na simulação de APIs antes do desenvolvimento efetivo.
+          Ao definir contratos de API em RAML ou OpenAPI, você formaliza os recursos, os métodos e os esquemas de payload. Isso permite que ferramentas automáticas gerem documentação, verifiquem a conformidade dos requests e responses e auxiliem na simulação de APIs antes do desenvolvimento efetivo.
         vr_en: |
-          By defining API contracts in RAML or OpenAPI, you formalize resources, methods and payload schemas, allowing tools to generate documentation, verify request and response compliance, and assist in API mocking prior to actual development.
+          By defining API contracts in RAML or OpenAPI, you formalize resources, methods, and payload schemas. This allows automated tools to generate documentation, verify request and response compliance, and assist in API simulation before actual development.
     - custom:
         vr_pt: |
-          Contratos de API baseados em RAML/OpenAPI padronizam descrições de endpoints, parâmetros, cabeçalhos e corpos de resposta, atuando como referência unificada para equipes, automatizando testes de contrato, geração de mocks e garantindo que alterações sejam compatíveis e versionadas.
+          Contratos de API baseados em RAML ou OpenAPI padronizam a descrição dos endpoints, parâmetros, cabeçalhos e corpos de resposta. Eles funcionam como uma referência unificada para as equipes, automatizam testes de contrato, geração de mocks e garantem que as alterações sejam compatíveis e versionadas.
         vr_en: |
-          RAML/OpenAPI-based API contracts standardize descriptions of endpoints, parameters, headers and response bodies, acting as a unified reference for teams, automating contract tests, mock generation and ensuring changes remain compatible and versioned.
+          API contracts based on RAML or OpenAPI standardize descriptions of endpoints, parameters, headers, and response bodies. They serve as a unified reference for teams, automate contract tests, mock generation, and ensure that changes remain compatible and properly versioned.
     - custom:
         vr_pt: |
-          Um contrato de API em RAML ou OpenAPI especifica detalhadamente os caminhos, tipos de dados, exemplos de payload e códigos de erro, funcionando como um contrato formal entre produtor e consumidor, suportando governance, versionamento e integração com pipelines de CI/CD.
+          Um contrato de API em RAML ou OpenAPI especifica detalhadamente os caminhos, tipos de dados, exemplos de payload e códigos de erro. Ele funciona como um acordo formal entre produtor e consumidor, suportando governança, versionamento e integração com pipelines de integração contínua e entrega contínua.
         vr_en: |
-          An API contract in RAML or OpenAPI specifies detailed paths, data types, payload examples and error codes, serving as a formal agreement between producer and consumer, supporting governance, versioning and integration with CI/CD pipelines.
+          An API contract in RAML or OpenAPI specifies detailed paths, data types, payload examples, and error codes. It acts as a formal agreement between producer and consumer, supporting governance, versioning, and integration with continuous integration and continuous delivery pipelines.
     - custom:
         vr_pt: |
-          As definições de API em RAML/OpenAPI documentam recursos, parâmetros obrigatórios e opcionais, esquemas de resposta e status HTTP, fornecendo base para geração de documentação interativa, validação automática de payloads e testes de compatibilidade entre diferentes versões.
+          As definições de API em RAML ou OpenAPI documentam recursos, parâmetros obrigatórios e opcionais, esquemas de resposta e códigos de status HTTP. Elas fornecem base para a geração de documentação interativa, validação automática de payloads e testes de compatibilidade entre diferentes versões da API.
         vr_en: |
-          API definitions in RAML/OpenAPI document resources, required and optional parameters, response schemas and HTTP statuses, providing a foundation for interactive documentation generation, automatic payload validation and compatibility testing across versions.
+          API definitions in RAML or OpenAPI document resources, required and optional parameters, response schemas, and HTTP status codes. They provide a foundation for interactive documentation generation, automatic payload validation, and compatibility testing between different API versions.
     - custom:
         vr_pt: |
-          Com contratos de API em RAML ou OpenAPI, você formaliza de forma legível recursos, operações suportadas, exemplos de request/response e políticas de segurança, assegurando que clientes e servidores compartilhem um entendimento exato e podem ser validados automaticamente.
+          Com contratos de API em RAML ou OpenAPI, você formaliza de forma legível os recursos, operações suportadas, exemplos de requests e responses e políticas de segurança. Isso assegura que clientes e servidores compartilhem um entendimento exato e que possam ser validados automaticamente.
         vr_en: |
-          With API contracts in RAML or OpenAPI, you formalize resources, supported operations, request/response examples and security policies in a human-readable format, ensuring clients and servers share an exact understanding that can be automatically validated.
+          With API contracts in RAML or OpenAPI, you formalize in a readable format the resources, supported operations, request and response examples, and security policies. This ensures that clients and servers share an exact understanding and that automatic validation is possible.
     - custom:
         vr_pt: |
-          Definir contratos de API usando RAML ou OpenAPI significa capturar recursos, métodos, schemas JSON/XML, descrições e códigos de erro em um único arquivo, que serve como fonte confiável para documentação, geração de mocks, SDKs e testes de regressão de API.
+          Definir contratos de API usando RAML ou OpenAPI significa capturar recursos, métodos, schemas JSON ou XML, descrições e códigos de erro em um único arquivo. Esse arquivo serve como fonte confiável para documentação, geração de mocks, kits de desenvolvimento e testes de regressão da API.
         vr_en: |
-          Defining API contracts using RAML or OpenAPI means capturing resources, methods, JSON/XML schemas, descriptions and error codes in a single file, which serves as a reliable source for documentation, mock generation, SDKs and API regression testing.
+          Defining API contracts using RAML or OpenAPI means capturing resources, methods, JSON or XML schemas, descriptions, and error codes in a single file. This file serves as a reliable source for documentation, mock generation, development kits, and API regression testing.
     - custom:
         vr_pt: |
-          Os contratos de API em RAML/OpenAPI formalizam o contrato entre sistemas, detalhando rotas, parâmetros, tipos de retorno, exemplos e respostas de erro, apoiando governança de APIs, versionamento controlado, geração de documentação e validação contínua em pipelines de entrega.
+          Os contratos de API em RAML ou OpenAPI formalizam o acordo entre sistemas, detalhando rotas, parâmetros, tipos de retorno, exemplos e respostas de erro. Eles apoiam a governança de APIs, o versionamento controlado, a geração de documentação e a validação contínua em pipelines de entrega.
         vr_en: |
-          API contracts in RAML/OpenAPI formalize the agreement between systems by detailing routes, parameters, return types, examples and error responses, supporting API governance, controlled versioning, documentation generation and continuous validation in delivery pipelines.
+          API contracts in RAML or OpenAPI formalize the agreement between systems by detailing routes, parameters, return types, examples, and error responses. They support API governance, controlled versioning, documentation generation, and continuous validation in delivery pipelines.

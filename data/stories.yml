@@ -53,6 +53,10 @@ stories:
     steps:
       - intent: api_caching
       - action: utter_api_caching
+  - story: story_circuit_breaker
+    steps:
+      - intent: circuit_breaker
+      - action: utter_circuit_breaker
   - story: story_rate_limiting_throttling
     steps:
       - intent: rate_limiting_throttling
