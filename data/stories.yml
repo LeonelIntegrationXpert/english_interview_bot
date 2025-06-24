@@ -1,6 +1,10 @@
 version: '3.1'
 
 stories:
+  - story: story_personalProfile
+    steps:
+      - intent: personalProfile
+      - action: utter_personalProfile
   - story: story_what_are_experience_apis
     steps:
       - intent: what_are_experience_apis
@@ -80,4 +84,4 @@ stories:
   - story: story_nlu_fallback
     steps:
       - intent: nlu_fallback
-      - action: action_fallback
+      - action: utter_nlu_fallback

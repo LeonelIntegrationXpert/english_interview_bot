@@ -2,18 +2,198 @@ version: '3.1'
 nlu:
   - intent: rbac_scopes
     examples: |
-      - o que é controle de acesso baseado em papéis
+      - o que significa RBAC?
+      - o que significa RBCA?
+      - o que significa RABC?
+      - o que significa RB AC?
+      - o que significa R B A C?
       - o que significa RBAC
-      - como funciona o RBAC
-      - como funciona o RBAC?
+      - oq ue significa RBAC?
+      - oq significa RBAC?
+      - oq significa RBCA?
+      - oq significa RABC?
+      - oq significa RB AC?
+      - oq significa R B A C?
+      - oq significa RBAC
+      - o que signific RBAC?
+      - o que signific RBCA?
+      - o que signific RABC?
+      - o que signific RB AC?
+      - o que signific R B A C?
+      - o que signific RBAC
+      - o que signfica RBAC?
+      - o que signfica RBCA?
+      - o que signfica RABC?
+      - o que signfica RB AC?
+      - o que signfica R B A C?
+      - o que signfica RBAC
+      - o que siginifica RBAC?
+      - o que siginifica RBCA?
+      - o que siginifica RABC?
+      - o que siginifica RB AC?
+      - o que siginifica R B A C?
+      - o que siginifica RBAC
+      - o que e significa RBAC?
+      - o que e significa RBCA?
+      - o que e significa RABC?
+      - o que e significa RB AC?
+      - o que e significa R B A C?
+      - o que e significa RBAC
+      - oque significa RBAC?
+      - oque significa RBCA?
+      - oque significa RABC?
+      - oque significa RB AC?
+      - oque significa R B A C?
+      - oque significa RBAC
+      - oq ue significa R B A C?
+      - oq ue significa RB CA?
+      - oq ue significa R ABC?
+      - oq ue significa R B AC?
+      - oq ue significa RB AC?
+      - o que signica RBAC?
+      - o que signica RBCA?
+      - o que signica RABC?
+      - o que signica RB AC?
+      - o que signica R B A C?
+      - o que signica RBAC
+      - o que signfca RBAC?
+      - o que signfca RBCA?
+      - o que signfca RABC?
+      - o que signfca RB AC?
+      - o que signfca R B A C?
+      - o que signfca RBAC
+      - o que signinica RBAC?
+      - o que signinica RBCA?
+      - o que signinica RABC?
+      - o que signinica RB AC?
+      - o que signinica R B A C?
+      - o que signinica RBAC
+      - o que sinifica RBAC?
+      - o que sinifica RBCA?
+      - o que sinifica RABC?
+      - o que sinifica RB AC?
+      - o que sinifica R B A C?
+      - o que sinifica RBAC
+      - o que signifca RBAC?
+      - o que significa R.B.A.C?
+      - o que significa R_B_A_C?
+      - o que significa rbac?
+      - o que significa rba c?
+      - o que significa r b a c?
+      - o que significa Rbac?
+      - o que significa RBaC?
+      - o que significa RBAc?
+      - o que significa rBaC?
+      - para que serve RBAC?
+      - qual o significado de RBAC?
+      - qual o significado de RBCA?
+      - qual o significado de RABC?
+      - qual o significado de RB AC?
+      - qual o significado de R B A C?
+      - qual o significado de RBAC
+      - como definir RBAC?
+      - como explicar RBAC?
+      - o que é RBAC?
+      - o que é RBCA?
+      - o que é RABC?
+      - o que é RB AC?
+      - o que é R B A C?
+      - o que é RBAC
       - como funfa o RBAC?
-      - como funcina o RBAC?
-      - como funciona o Rbac?
-      - como funciona RBAC?
-      - como funcona o RBAC?
-      - como funciona o RBAC no Anypoint?
+      - como funca o RBAC?
       - como funcioa o RBAC?
+      - como funcona o RBAC?
+      - como fuciona o RBAC?
+      - como fuciona RBAC?
+      - como funiona o RBAC?
+      - como funiona RBAC?
+      - como fucna o RBAC?
+      - como fucniona o RBAC?
+      - como funa o RBAC?
+      - como funica o RBAC?
+      - como funcin a o RBAC?
+      - como funcioan o RBAC?
+      - como frunciona o RBAC?
+      - como frunciona RBAC?
+      - como funicon a o RBAC?
+      - como funiocna o RBAC?
+      - como funio n a o RBAC?
+      - como funica RBAC?
+      - como funsiona o RBAC?
+      - como funsiona RBAC?
+      - como funsiona o rbac?
+      - como funciona or RBAC?
+      - como funciona o rbac?
+      - como funciona RBAC?
+      - como funciona o RBAC?
+      - como funicon a o rbac?
+      - como funico na o RBAC?
+      - como funico n a o rbac?
+      - como fnciona o RBAC?
+      - como fnciona RBAC?
+      - como fnciona o rbac?
+      - como fnciona rbac?
+      - como fucion a o RBAC?
+      - como fuciona or RBAC?
+      - como fuciona o rbca?
+      - como funciona o R BAC?
       - como funciona o R B A C?
+      - como funci ona o RBAC?
+      - como funcio na o RBAC?
+      - como fucnioa o RBAC?
+      - como fucnios a o RBAC?
+      - como fucion a o rbac?
+      - como fucionar o RBAC?
+      - como funciona rbac?
+      - como funciona orbac?
+      - como funciona or bach?
+      - como funcona o rbac?
+      - como funciona ob RBAC?
+      - como funciona o Rbac?
+      - como funciona o RbaC?
+      - como funciona o RBac?
+      - como funciona o rBA C?
+      - como funcona or bac?
+      - como funciona o R broken?
+      - como funciona o RB AC?
+      - como fuciona o RB AC?
+      - como funcioa RBAC?
+      - como funcona o RB AC?
+      - como funcona rbac?
+      - como funcona or rbac?
+      - como funcona o RBAC agora?
+      - como funcona o RBAC please?
+      - como funcona o RBAC pfv?
+      - como funcona o RBAC p favor?
+      - como funcona o RBAC p f?
+      - como funcona o RBAC por favor?
+      - como funcona o RBAC rapido?
+      - como funcona o RBAC agr?
+      - como funcona o RBAC hj?
+      - como funcona o RBAC hoje?
+      - como funcona o RBAC ja?
+      - como funcona o RBAC k?
+      - como funcona o RBAC t?
+      - como funcona RBAC?
+      - como funcona o RBAC haha?
+      - como funcona o RBAC lol?
+      - como funcona o RBAC mano?
+      - como funcona o RBAC vei?
+      - como funcona o RBAC cara?
+      - como funcona o RBAC bro?
+      - como funcona o RBAC meu?
+      - como funcona o RBAC mig?
+      - como funcona o RBAC bixo?
+      - como funcona o RBAC vixe?
+      - como funcona o RBAC vish?
+      - como funca o rbac?
+      - como funcoa o rbac?
+      - como funico na o rbac?
+      - como fuciona o rbac?
+      - como fuciona rbca?
+      - como funisona o rbac?
+      - como funcina o RBAC?
+      - como funciona o RBAC no Anypoint?
       - como funciona o controle de acesso por papel?
       - como funciona o controle de acesso baseado em papeis?
       - como funfa o controle de acesso baseado em papeis?
@@ -100,210 +280,454 @@ nlu:
       - qto funciona o RBAC?
       - qto funfa o RBAC?
       - quanto tempo o RBAC leva para funfar?
+      - quanto tempo o RBAC leva para funcar?
+      - quanto tempo o RBAC leva para funcinar?
+      - quanto tempo o RBAC leva para funcionar?
+      - quanto tempo o RBAC leva para funsionar?
+      - quanto tempo o RBAC leva para funcioanr?
+      - quanto tempo o RBAC leva para funcinoar?
+      - quanto tempo o RBAC leva para funiconar?
+      - quanto tempo o RBAC leva pra funfar?
+      - quanto tempo o RBAC leva pra funcar?
+      - quanto tempo o RBAC leva pra funcionar?
+      - quanto tempo o RBAC leva pra funsionar?
+      - quanto tempo o rbac leva para funcionar?
+      - qto tempo o RBAC leva para funcionar?
+      - qto tempo o RBAC leva para funfar?
+      - qto tempo o RBAC leva para funcinar?
+      - qto tempo o rbac leva para funcionar?
+      - qtt tempo o RBAC leva para funcionar?
+      - quanto tempo demora o RBAC para funcionar?
+      - quanto demor o RBAC para funcionar?
+      - quanto demora o RBAC para funfar?
+      - quanto demora o RBAC para funcar?
+      - quanto demora pra funcionar RBAC?
+      - quanto demora o rbac para funcionar?
+      - quanto tempo demora rbac para funfar?
+      - quanto tempo demora rbac para funcinar?
+      - quant tempo o RBAC leva para funcionar?
+      - quant tempo o RBAC leva para funcinar?
+      - quatno tempo o RBAC leva para funcionar?
+      - qunato tempo o RBAC leva para funcionar?
+      - qunato tempo o RBAC leva para funfar?
+      - qunato tempo o RBAC leva para funcar?
+      - quanto tempo o RBAC tarda para funcionar?
+      - quanto tempo o RBAC tarda para funfar?
+      - quanto tempo o RBAC tadar para funcionar?
+      - quanto tempo o RBAC tarda pra funfar?
+      - quanto tempo o RBAC tarda pra funcar?
+      - tempo que o RBAC leva para funcionar?
+      - tempo que o RBAC leva para funfar?
+      - tempo que o RBAC leva para funcar?
+      - tempo que o rbac leva para funcionar?
+      - q tempo o RBAC leva para funcionar?
+      - q tempo o RBAC leva para funfar?
+      - q tempo o rbac leva para funcionar?
+      - em quanto tempo o RBAC começa a funcionar?
+      - em quanto tempo o RBAC começa a funfar?
+      - em qto tempo o RBAC começa a funcionar?
+      - em qto tempo o RBAC começa a funfar?
+      - em qto tempo rbac começa a funfar?
+      - em qto tempo rbac começa a funcionar?
+      - quanto leva para o RBAC rodar?
+      - quanto leva para o RBAC funfar?
+      - quanto leva para o RBAC funcionar?
+      - quanto leva para rbac funcionar?
+      - quanto leva para rbac funfar?
+      - quanto leva para RBAC funfar?
+      - quanto leva o RBAC para funcionar?
+      - quanto leva o RBAC para funfar?
+      - quanto leva o rbac para funcionar?
+      - quanto leva o rbac para funfar?
+      - quanto tempo até RBAC funcionar?
+      - quanto tempo até RBAC funfar?
+      - quanto tempo até rbac funcionar?
+      - qto tempo até rbac funfar?
+      - qto tempo ate rbac funfar?
+      - qto tempo ate rbac funcionar?
+      - qto tempo ate RBAC funfar?
+      - qto tempo ate RBAC funcionar?
+      - quanto tempo para o RBAC estar ativo?
+      - quanto tempo para o RBAC estar ativado?
+      - quanto tempo para o RBAC entrar em vigor?
+      - quanto tempo para o rbac entrar em vigor?
+      - quanto tempo para rbac funfar?
+      - quanto tempo para rbac funfa?
+      - quanto tempo para rbac efetivar?
+      - quanto tempo para RBAC efetivar?
+      - quanto tempo p rbac funcionar?
+      - qto tempo p rbac funcionar?
+      - qto tempo p RBAC funfar?
+      - quanto tempo p RBAC funfar?
+      - quanto tempo p RBAC começar a funcionar?
+      - quanto tempo p rbac começar a funfar?
+      - qto tempo p rbac começar a funfar?
+      - qto tempo p rbac começar a funcionar?
+      - até quanto tempo o RBAC leva para funcionar?
+      - até quanto tempo o RBAC leva para funfar?
+      - até qto tempo o RBAC leva para funfar?
+      - até qto tempo rbac leva para funcionar?
+      - até qto tempo rbac leva para funfar?
+      - até quanto tempo rbac leva para funfar?
+      - até quanto tempo rbac leva para funcionar?
+      - até quanto tempo leva rbac para funcionar?
+      - até quanto tempo leva rbac para funfar?
+      - até quanto tempo leva o RBAC para funfar?
+      - até quanto tempo leva o RBAC para funcionar?
       - me diz o fluxo do RBAC?
+      - mdiz o fluxo do RBAC?
+      - me di o fluxo do RBAC?
+      - me diz o fluxu do RBAC?
+      - me diz o flusxo do RBAC?
+      - me diz o fluo do RBAC?
+      - me diz o fluxo d RBAC?
+      - me diz o fluxo do rbac?
+      - me diz o flux do RBAC?
+      - me diz o fluzo do RBAC?
+      - me diz o fluxu do rbac?
+      - mdiz o fluxo d RBAC?
+      - mediz o fluxo do RBAC?
+      - me di z o fluxo do RBAC?
+      - me diz o fluxo do R BAC?
+      - me diz o fluxo RBAC?
+      - me diz o fluxo do R B A C?
+      - me diz o fluxo do RB AC?
+      - me diz o flu xo do RBAC?
+      - me diz o fl uxo do RBAC?
+      - me diz o flujo do RBAC?
+      - me diz o fluxxo do RBAC?
+      - me diz o flux do rbac?
+      - me diz o fluxo d rbac?
+      - me diz o fluxo do RBAC
+      - me diz o flujo do rbac?
+      - me diz o fluxu do RB AC?
+      - me diz o flu o do RBAC?
+      - me diz o flux o do RBAC?
+      - me diz o fluxo do RBAC??
+      - mdiz o flujo do RBAC?
+      - me diz o flusho do RBAC?
+      - me diz o flu xo do rbac?
+      - me diz o fluzo do rbac?
+      - me diz o flujo d RBAC?
+      - me diz o fluzo d RBAC?
+      - me diz o flux do RB AC?
+      - me diz o fluzo do RB AC?
+      - me diz o fluxo do Rbac?
+      - me diz o fluxo do RBaC?
+      - me diz o fluxo do rBaC?
+      - me diz o fluxo do rbAc?
+      - me diz o fluxo do RBAC !
+      - me diz o fluxo do RBAC !!
+      - me diz o fluxo do RBAC ??
+      - me diz o fluxo do RBAC???
+      - me diz o flixo do RBAC?
+      - me diz o flixo do rbac?
+      - mdiz o flujo d RBAC?
+      - me diz o fluxo do R_BAC?
+      - me diz o fluxo do R.B.A.C?
+      - me diz o fluxo do R-BAC?
+      - me diz o fluxo d e RBAC?
+      - me diz o fluxo de RBAC?
+      - me diz o fluxo de rbac?
+      - me diz o fluxo de RBaC?
+      - me diz o fluzo de RBAC?
+      - me diz o flujo de RBAC?
+      - me diz o fluxo de R BAC?
+      - me diz o fluxo de R B A C?
+      - me diz o fluxo d R B A C?
+      - me diz o flujo do R B A C?
+      - me diz o flujo do RB AC?
+      - mediz o flujo do RBAC?
+      - mediz o fluxo do RB AC?
+      - mdiz o fluxo de RBAC?
+      - mdiz o flujo de rbac?
+      - me diz o flujo de RB AC?
+      - me diz o fluxo e do RBAC?
+      - me diz o fluxo e rbac?
+      - me diz o fluzo e RBAC?
+      - me diz o fluxo d Rbac?
+      - me diz o fluzo de Rbac?
+      - me diz o fluxo da RBAC?
+      - me diz o flujo da RBAC?
+      - me diz o fluzo da RBAC?
+      - me diz o fluxo do aRBAC?
+      - me diz o fluxo do RBAC agora?
+      - me diz o fluxo do RBAC pls?
+      - me diz o fluxo do RBAC pfv?
+      - me diz o fluxo do rbac agr?
+      - me diz o flujo do RBAC agr?
+      - me diz o fluzo do RBAC agr?
+      - me diz o fluxo do RBAC hoje?
+      - me diz o flujo do RBAC hj?
+      - me diz o fluzo do RBAC hj?
+      - me diz o fluxo do RBAC ja?
+      - me diz o flujo do RBAC ja?
+      - me diz o fluzo do RBAC ja?
+      - me diz o fluxo do RBAC k?
+      - me diz o flujo do RBAC k?
+      - me diz o fluxo do rbac k?
+      - mdiz o flujo do RBAC k?
+      - me di z o flujo do RBAC?
+      - me di z o fluzo do RBAC?
+      - me diz o fluxo de função do RBAC?
       - me diz o fluxo de funçao do RBAC?
-      - qual o fluxo do RBAC?
-      - qual é o fluxo do RBAC?
-      - qual eh o fluxo do RBAC?
-      - como criar scopes no OAuth2?
-      - como criar escopos no OAuth2?
-      - como criar scope no OAuth2?
-      - como crirar scopes no OAuth2?
-      - como crlar scopes no OAuth2?
-      - como crair scopes no OAuth2?
-      - como craar escopos no OAuth2?
-      - como definir scopes no OAuth2?
-      - como definir escopos no OAuth2?
-      - como setar scopes no OAuth2?
-      - como setar escopos no OAuth2?
-      - como colocar scopes no OAuth2?
-      - como colocar escopos no OAuth2?
-      - como adicionar scopes no OAuth2?
-      - como adicionar escopos no OAuth2?
-      - como incluir scopes no OAuth2?
-      - como incluir escopos no OAuth2?
-      - como registrar scopes no OAuth2?
-      - como registrar escopos no OAuth2?
-      - como cadastrar scopes no OAuth2?
-      - como cadastrar escopos no OAuth2?
-      - como configurar scopes no OAuth2?
-      - como configurar escopos no OAuth2?
-      - onde criar scopes no OAuth2?
-      - onde criar escopos no OAuth2?
-      - onde definir scopes no OAuth2?
-      - onde definir escopos no OAuth2?
-      - onde setar scopes no OAuth2?
-      - onde setar escopos no OAuth2?
-      - onde adicionar scopes no OAuth2?
-      - onde adicionar escopos no OAuth2?
-      - qual comando para criar scopes no OAuth2?
-      - qual comando para criar escopos no OAuth2?
-      - qual endpoint cria scopes no OAuth2?
-      - qual endpoint cria escopos no OAuth2?
-      - tu sabe criar scopes no OAuth2?
-      - vc sabe criar escopos no OAuth2?
-      - me explica como criar scopes no OAuth2?
-      - me explica como criar escopos no OAuth2?
-      - me mostra como criar scopes no OAuth2?
-      - me mostra como criar escopos no OAuth2?
-      - como faz para criar scopes no OAuth2?
-      - como faz para criar escopos no OAuth2?
-      - cmo criar scopes no OAuth2?
-      - cmo criar escopos no OAuth2?
-      - cmmo criar scopes no OAuth2?
-      - clmo criar escopos no OAuth2?
-      - explicita criar scopes no OAuth2?
-      - explicita criar escopos no OAuth2?
-      - demonstra criar scopes no OAuth2?
-      - demonstra criar escopos no OAuth2?
-      - como implementar criação de scopes no OAuth2?
-      - como implementar criação de escopos no OAuth2?
-      - como codar scopes no OAuth2?
-      - como codar escopos no OAuth2?
-      - como programar scopes no OAuth2?
-      - como programar escopos no OAuth2?
-      - como scriptar scopes no OAuth2?
-      - como scriptar escopos no OAuth2?
-      - como automatizar criação de scopes no OAuth2?
-      - como automatizar criação de escopos no OAuth2?
-      - como orquestrar scopes no OAuth2?
-      - como orquestrar escopos no OAuth2?
-      - como provisionar scopes no OAuth2?
-      - como provisionar escopos no OAuth2?
-      - como montar scopes no OAuth2?
-      - como montar escopos no OAuth2?
-      - como gerar scopes no OAuth2?
-      - como gerar escopos no OAuth2?
-      - como construir scopes no OAuth2?
-      - como construir escopos no OAuth2?
-      - como subir scopes no OAuth2?
-      - como subir escopos no OAuth2?
-      - como fazer upload de scopes no OAuth2?
-      - como fazer upload de escopos no OAuth2?
-      - como importar scopes no OAuth2?
-      - como importar escopos no OAuth2?
-      - como exportar scopes no OAuth2?
-      - como exportar escopos no OAuth2?
-      - como versionar scopes no OAuth2?
-      - como versionar escopos no OAuth2?
-      - como revisar scopes no OAuth2?
-      - como revisar escopos no OAuth2?
-      - como auditar scopes no OAuth2?
-      - como auditar escopos no OAuth2?
-      - como monitorar scopes no OAuth2?
-      - como monitorar escopos no OAuth2?
-      - como testar scopes no OAuth2?
-      - como testar escopos no OAuth2?
-      - como validar scopes no OAuth2?
-      - como validar escopos no OAuth2?
-      - como verificar scopes no OAuth2?
-      - como verificar escopos no OAuth2?
-      - por que criar scopes no OAuth2?
-      - por que criar escopos no OAuth2?
-      - qual finalidade criar scopes no OAuth2?
-      - qual finalidade criar escopos no OAuth2?
-      - qual benefício ter scopes no OAuth2?
-      - qual benefício ter escopos no OAuth2?
-      - quais cuidados ao criar scopes no OAuth2?
-      - quais cuidados ao criar escopos no OAuth2?
-      - quais boas práticas para scopes no OAuth2?
-      - quais boas práticas para escopos no OAuth2?
-      - quais erros evitar ao criar scopes no OAuth2?
-      - quais erros evitar ao criar escopos no OAuth2?
-      - como documentar scopes no OAuth2?
-      - como documentar escopos no OAuth2?
-      - onde documentar scopes no OAuth2?
-      - onde documentar escopos no OAuth2?
-      - que nome dar aos scopes no OAuth2?
-      - que nome dar aos escopos no OAuth2?
-      - como nomear scopes no OAuth2?
-      - como nomear escopos no OAuth2?
-      - como agrupar scopes no OAuth2?
-      - como agrupar escopos no OAuth2?
-      - como hierarquizar scopes no OAuth2?
-      - como hierarquizar escopos no OAuth2?
-      - para que serve o RBAC
-      - qual a finalidade do RBAC
-      - como configurar RBAC no Anypoint
-      - onde definir papéis no RBAC
-      - como mapear permissões em RBAC
-      - por que usar RBAC em APIs
-      - quais benefícios do RBAC
-      - o que são scopes em OAuth2
-      - para que servem os scopes
-      - como criar scopes no OAuth2
-      - onde configurar scopes na API
-      - qual a diferença entre papéis e scopes
-      - como validar scopes no gateway
-      - como aplicar RBAC e scopes juntos
-      - como gerenciar papéis e escopos
-      - o que garante o uso de RBAC e scopes
-      - quais vantagens de usar RBAC com scopes
-      - como crias scopes no OAuth2?
-      - como crar scopes no OAuth2?
-      - como crriar scopes no OAuth2?
-      - como criar scops no OAuth2?
-      - como criar scoops no OAuth2?
-      - como criar scpoes no OAuth2?
-      - como criar scopes no Oauth2?
-      - como criar scopes no OAUth2?
-      - como criar scopes no Oauth dois?
-      - como criar scopes no OA uth2?
-      - como criar scopses no OAuth2?
-      - como criar receitas scopes no OAuth2?
-      - como criar scopses no Oauth dois?
-      - como criar escopos no Oauth2?
-      - como criar escopos no OAuth dois?
-      - como criar escopos no OA uth2?
-      - como criar scope no OAuth dois?
-      - como criar scopes no protocol OAuth2?
-      - como criar scopes em OAuth2?
-      - como implementar scopes no OAuth2?
-      - como habilitar scopes no OAuth2?
-      - como ativar scopes no OAuth2?
-      - onde config scopes no OAuth2?
-      - onde cadastrar scopes no OAuth2?
-      - onde habilitar scopes no OAuth2?
-      - onde ativar scopes no OAuth2?
-      - onde implementar scopes no OAuth2?
-      - qual sintaxe pra criar scopes no OAuth2?
-      - qual endpoint para scopes no OAuth2?
-      - como usar CLI para criar scopes no OAuth2?
-      - como usar GUI para criar scopes no OAuth2?
-      - me ajuda a criar scopes no OAuth2?
-      - me fala como criar scopes no OAuth2?
-      - me diz como criar scopes no OAuth2?
-      - tu sabes criar scopes no OAuth2?
-      - vc sabe como criar scopes no OAuth2?
-      - tu sabe criar scopes no OAuth dois?
-      - vc sabe criar scopes no Oauth dois?
-      - tu manja criar scopes no OAuth2?
-      - vc manja criar scopes no OAuth2?
-      - como faço pra criar scopes no OAuth2?
-      - como faço para criar scopes no OAuth2?
-      - como faco para criar scopes no OAuth2?
-      - como faco pra criar scopes no OAuth2?
-      - cmo criar escape no OAuth2?
-      - cmo cria scopes no OAuth2?
-      - como criar sco pes no OAuth2?
-      - como criar scoopes no OAuth2?
-      - como crar sco pes no OAuth2?
-      - como crair scoop no OAuth2?
-      - como cria scopes no OAuth dois?
-      - como criar scopes no OAuth2 localmente?
-      - como criar scopes no OAuth2 online?
-      - como criar scopes no OAuth2 web?
-      - como criar scopes no OAuth2 portal?
-      - como criar scopes no OAuth2 console?
-      - como criar scopes no OAuth2 manager?
-      - como realizar criação de scopes no OAuth2?
-      - como executar criação de scopes no OAuth2?
-      - como desenvolver scopes no OAuth2?
-      - como orquestrar criação de scopes no OAuth2?
-      - como disparar job para criar scopes no OAuth2?
-      - como pipeline cria scopes no OAuth2?
+      - me diz o fluxo de funcao do RBAC?
+      - me diz o fluxu de função do RBAC?
+      - me diz o fluxo de funãção do RBAC?
+      - me diz o fluxo de fnção do RBAC?
+      - me diz o fluxo de fundao do RBAC?
+      - me diz o fluxo de funzio do RBAC?
+      - me diz o fluxu de funcao do RBAC?
+      - me diz o fluxo de función do RBAC?
+      - me diz o fluxu de fnução do RBAC?
+      - me diz o fluxo de fnuçao do RBAC?
+      - me diz o fluxo de funçãoe do RBAC?
+      - me diz o fluzo de função do RBAC?
+      - me diz o flujo de função do RBAC?
+      - me diz o fluxo de funsão do RBAC?
+      - me diz o fluxo de funçao do rbac?
+      - me diz o fluxo de funçao do R Ba C?
+      - me diz o fluxo de funçao do R B A C?
+      - me diz o fluxo de funçao do RBAC
+      - me diz o fluxo de funçao do RBAC agr?
+      - me diz o fluxo de funçao do RBAC pls?
+      - me diz o fluxo de funçao do RBAC pfv?
+      - me diz o fluxo de funçao do RBAC hj?
+      - me diz o flux do funçao do RBAC?
+      - me diz o fluxu de funçao do rbac?
+      - me diz o flusxo de função do RBAC?
+      - me diz o fluxu de function do RBAC?
+      - me diz o fluxo de funçao do RB AC?
+      - me diz o fluxo de funçao no RBAC?
+      - me diz o fluxo de funçao p RBAC?
+      - me diz o fluxo de funçao p o RBAC?
+      - me diz o fluxo de funçao p/ RBAC?
       - what is role based access control
+      - what is role based acess control
+      - what is role based aces control
+      - what is role based acess contrl
+      - what is role based acsess control
+      - what is role based acces control
+      - what is role based acces contrl
+      - what is role based acess cntrl
+      - what is role based acccess control
+      - what is role based access contrl
+      - what is role based acces control?
+      - what is role based acess control?
+      - what is role based accss control?
+      - what is roleb ased access control
+      - what is role based acsess contrl
+      - what is role based acces control!!
+      - what is rol based access control
+      - what is role based access cntrol
+      - what is role based aces cntrl
+      - what is role bsed access control
+      - what is roll based access control
+      - what is role basd access control
+      - what is role based accss cntrl
+      - what is role based access contro
+      - what is role based acccess cntrl
+      - what is role bae access control
+      - what is role based acess cntrol
+      - wht is role based access control
+      - wht is role based acess control
+      - wht is role based access cntrol
+      - wht is role baded access control
+      - wht is role based accss control
+      - wht is role based access controL
+      - wht is role based acess contrl
+      - wht is rol based access control
+      - wht is role b ased access control
+      - wht is role bsed access control
+      - wht is role based acces contrl
+      - wht is role based acsess control
+      - wht is role based acess cntrl
+      - wht is role based access cntrl
+      - wht is role based acces cntrl
+      - wht is role based accss cntrl
+      - wht is role based acces cntrol
+      - wht is role based acces cntrol?
+      - wht is role based acess cntrol?
+      - wht is role based actor control
+      - wht is role based acces control??
+      - wht is role based acess control!!
+      - wht is role based acreess control
+      - wht is roh based access control
+      - wht is role bassed access control
+      - wht is role based accees control
+      - wht is role based acces controll
+      - wht is role based aceess control
+      - wht is role based aacess control
+      - wht is role based access control?
+      - wat is role based access control
+      - wat is role based acess control
+      - wat is role based acces cntrl
+      - wat is role based accss control
+      - wat is role based acess contrl
+      - wat is role based acess contorl
+      - wat is role based access contorl
+      - wat is role based aceess cntrl
+      - wat is role based aacess control
+      - wat is role based acces cntrl?
+      - wat is role based access control?
+      - wat is role based acces control?
+      - wat is role based access cntrl?
+      - wat is role based access contrl?
+      - wat is role based accès control
+      - wat is rôle based access control
+      - wat is role based access ccontrol
+      - wat is role based acress control
+      - wat is role based access ccontrol?
+      - wat is role based accsess control?
+      - wat is role based acsess contrl?
+      - wat is role based aceess contrl?
+      - wt is role based access control
+      - wt is role based acces control
+      - wt is role based aceess control
+      - wt is role based access cntrol
+      - wt is role based access conrol
+      - wt is role based accss contrl
+      - wt is role based acess cntrl?
+      - wt is role based access cntrl?
+      - wt is role based aacess contrl?
+      - wt is role based access cntrl!!
+      - wt is role based acces contrl!!
+      - wt is role based acess control??
+      - wt is rol based access control?
+      - wt is role basd access control?
+      - wt is role based aceess control?
+      - wt is role bassed access control?
+      - wt is col based access control?
+      - wt is role based acess cnotrol?
+      - wt is role based access controll?
       - what does RBAC mean
+      - what does RBCA mean
+      - what does RABC mean
+      - what does RB AC mean
+      - what does R B A C mean
+      - what does RBCA mean?
+      - what does RABC mean?
+      - what does RB AC mean?
+      - what does R B A C mean?
+      - what does RBAC stand for
+      - what does RBAC stands for
+      - what doess RBAC mean
+      - what does RBAC men
+      - what does RBAC meen
+      - what does RBAC meann
+      - what does RBAC meam
+      - what does RBAC mean?
+      - what does RBAC mean!!
+      - what does RBAC mean??
+      - what doss RBAC mean
+      - what dos RBAC mean
+      - what does RBAC meen?
+      - what does RBAC men?
+      - what does RBAC meeen
+      - what does RBAC meane
+      - what does RBAC meane?
+      - wht does RBAC mean
+      - wht does RBAC men
+      - wht does RBAC meen
+      - wht does RBAC mean?
+      - wht does RBCA mean
+      - wht does RABC mean
+      - wht does RB AC mean
+      - wht does R B A C mean
+      - wht does RBAC stand for
+      - wth does RBAC mean
+      - wth does RBCA mean
+      - wt does RBAC mean
+      - wt does RBCA mean
+      - wt does RABC mean
+      - wt does RBAC mean?
+      - wt does RBAC men?
+      - wat does RBAC mean
+      - wat does RBAC meen
+      - wat does RBAC stand for
+      - wat does RBCA mean
+      - wat does RABC mean
+      - wat does RBAC stand4
+      - wat does RBAC mean?
+      - wat does RBAC meen?
+      - wat dos RBAC mean
+      - wat does RBAC man
+      - wat doess RBAC mean
+      - what does RBAC mena
+      - what does RBAC man?
+      - what does RBAC main
+      - what does RBAC main?
+      - what does RBAC meain?
+      - what do RBAC mean
+      - what doess RBAC mean?
+      - what doess RBCA mean
+      - what does RBAC meaan
+      - what does RBAC mea n
+      - what do RBAC mean?
+      - wh@t does RBAC mean
+      - wh@t does RBCA mean
+      - wh@t does RABC mean
+      - wh@t does RB AC mean
+      - wh@t does RBAC stand for
+      - wh@t does RBAC mean?
+      - wh@t does RBAC meen?
+      - what is RBAC mean
+      - what is RBCA mean
+      - what is RABC mean
+      - what is RBAC mean?
+      - what is RBAC for
+      - what is RBAC for?
+      - what is purpose of RBAC
+      - what is purpose of RBAC?
+      - what is the meaning of RBAC
+      - what is the meaning of RBAC?
+      - whats does RBAC mean
+      - whats does RBCA mean
+      - whats does RABC mean
+      - whats does RBAC mean?
+      - whats RBAC mean
+      - whats RBAC mean?
+      - please explain RBAC mean
+      - please explain what RBAC mean
+      - please explain what RBAC means
+      - could you explain RBAC mean
+      - can you explain RBAC mean
+      - can you explain what RBAC mean
+      - do you know what RBAC mean
+      - do you know what RBAC means
+      - what does RBAC me?
+      - what does RBAC mane?
+      - what does RBAC mana?
+      - what does RBAC meanin
+      - what does RBAC meaning
+      - what does RBAC meanning
+      - what does RBAC meanring
+      - what does RBAC meani
+      - what does RBAC meamning
+      - what does RBAC meanning?
+      - what does RBAC meearning?
+      - what does RBAC meeen?
+      - what does RBAC meaaa?
+      - what does RBAC meah?
+      - what does RBAC meehn?
+      - what does RBAC meian?
+      - what does RBAC meiin?
+      - what doest RBAC mean
+      - what doi RBAC mean
+      - what doe RBAC mean
+      - what does RBAC min?
+      - what does RBAC mim?
+      - what does RBAC ment?
+      - what does RBAC meant?
+      - what does RBAC mnean?
+      - what does RBAC menan?
+      - what does RBAC menen?
+      - what does RBAC mene?
+      - what does RBAC mener?
+      - what does RBAC meman?
+      - what does RBAC menam?
+      - what does RBAC memean?
+      - what does RBAC meaan?
       - how does RBAC work
       - how does rbac work
       - how does Rbac work
@@ -412,7 +836,6 @@ nlu:
       - what are the benefits of RBAC
       - whats the purpose of RBAC
       - what s the purpose of RBAC
-      - what is purpose of RBAC
       - what is the purpse of RBAC
       - what is the purpse of rbac
       - what is the porpose of RBAC
@@ -579,26 +1002,3 @@ nlu:
       - whats the point of rbac
       - whats the point of Role Based Access Control
       - whats the point RBAC
-      - whats the point rbac
-      - what is RBAC for
-      - what is rbac for
-      - what is the role of RBAC
-      - what is the role of rbac
-      - what role does RBAC play
-      - what role does rbac play
-      - what function does RBAC perform
-      - what function does rbac perform
-      - what function does RBAC serve
-      - what function does rbac serve
-      - what is the aim of RBAC
-      - what is the aim of rbac
-      - what is the goal of RBAC
-      - what is the goal of rbac
-      - what is the objective of RBAC
-      - what is the objective of rbac
-      - what objective RBAC
-      - what objective rbac
-      - whats objective RBAC
-      - whats objective rbac
-      - explain the purpose of RBAC
-      - explain purpose of RBAC

@@ -76,8 +76,8 @@ def parse_input(file_path):
             pt_examples = [e for e in pt_examples if e not in common]
             en_examples = [e for e in en_examples if e not in common]
 
-        pt_examples = pt_examples[:300]
-        en_examples = en_examples[:300]
+        pt_examples = pt_examples[:500]
+        en_examples = en_examples[:500]
 
         if len(pt_examples) != len(en_examples):
             m = min(len(pt_examples), len(en_examples))

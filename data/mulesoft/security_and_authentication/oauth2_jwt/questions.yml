@@ -3,11 +3,187 @@ nlu:
   - intent: oauth2_jwt
     examples: |
       - o que é OAuth2?
+      - o que e OAuth2?
+      - oq é OAuth2?
+      - oq e OAuth2?
+      - o que é Oauth2?
+      - o que e Oauth2?
+      - oq é Oauth2?
+      - oq e Oauth2?
+      - o que e OAuth dois?
+      - o que é OAuth dois?
+      - oq e OAuth dois?
+      - oq é OAuth dois?
+      - o que e Oauth dois?
+      - o que é Oauth dois?
+      - oq e Oauth dois?
+      - oq é Oauth dois?
+      - o que é oAuth2?
+      - o que e oAuth2?
+      - oq e oAuth2?
+      - oq é oAuth2?
+      - oq e OaAut2?
+      - oq é OaAut2?
+      - o que é Oatuh2?
+      - o que e Oatuh2?
+      - oq é Oatuh2?
+      - oq e Oatuh2?
+      - o que é OAut h2?
+      - o que e OAut h2?
+      - oq é OAut h2?
+      - oq e OAut h2?
+      - o que é OAUTh2?
+      - o que e OAUTh2?
+      - oq é OAUTh2?
+      - oq e OAUTh2?
+      - o que é OAuth?
+      - o que e OAuth?
+      - oq é OAuth?
+      - oq e OAuth?
+      - o que é OAuth two?
+      - oq é OAuth two?
+      - o que é OAuthtu?
+      - oq é OAuthtu?
+      - o que é OAut2?
+      - oq é OAut2?
+      - o que e OAut2?
+      - oq e OAut2?
+      - oque é OAuth2?
+      - oqe é OAuth2?
+      - o que é OAuth zp?
+      - oq é OAuth zp?
+      - o que é OAuth22?
+      - oq é OAuth22?
+      - o queé OAuth2?
+      - oqé OAuth2?
+      - o que é Oauth22?
+      - oq é Oauth22?
+      - o que é OAtuh2?
+      - oq é OAtuh2?
+      - o que e Oauht2?
+      - oq é Oauht2?
+      - o que é Ouath2?
+      - oq é Ouath2?
+      - o que é Ouath dois?
+      - oq é Ouath dois?
+      - o que e Ouath dois?
+      - oq e Ouath dois?
+      - o que é Outah2?
+      - oq é Outah2?
+      - o que é Otauh2?
+      - oq é Otauh2?
+      - o que é OAuthd?
+      - oq é OAuthd?
+      - o que e OAuthd?
+      - oq e OAuthd?
+      - o que é OAuth p?
+      - oq é OAuth p?
+      - o que é OAuth z?
+      - oq é OAuth z?
+      - o que é Oa uth2?
+      - oq é Oa uth2?
+      - o que é OA uth2?
+      - oq é OA uth2?
+      - o que é OA UTh2?
+      - oq é OA UTh2?
+      - o que é OAuth 2?
+      - oq é OAuth 2?
+      - o que e OAuth 2?
+      - oq e OAuth 2?
+      - o que é OAuth - dois?
+      - oq é OAuth - dois?
+      - o que é OAuth . dois?
+      - oq é OAuth . dois?
       - para que serve OAuth2?
+      - para que serve OAut2?
+      - para que serve OAuth dois?
+      - para que serve oAuth2?
+      - para que serve oauth2?
+      - para que serve OAuth 2?
+      - para que serve OAuth doi?
+      - para q serve OAuth2?
+      - para q serve OAut2?
       - pra que serve OAuth2?
+      - pra que serve oauth2?
+      - pra que serve OAuth dois?
       - pra q serve OAuth2?
-      - pq serve OAuth2?
+      - pra q serve oauth2?
+      - para que sserve OAuth2?
+      - para que serve OAUth2?
+      - para que serve OATh2?
+      - para que serve OAut h2?
+      - para que serve OAuthd?
+      - para que serve OAuth?
+      - para que serve Oauth dois?
+      - para que serve Oauth2?
+      - para que serve Ouat2?
+      - para que serve Oaauth2?
+      - para que serve Oaut2?
+      - para que salve OAuth2?
+      - para que serve OAuthII?
+      - para que serv OAuth2?
+      - para que serva OAuth2?
+      - para servir OAuth2?
+      - porque serve OAuth2?
       - por que serve OAuth2?
+      - pq serve OAuth2?
+      - pa que serve OAuth2?
+      - pa que serve OAuth dois?
+      - pra que serve OAuthII?
+      - pa q serve OAuth2?
+      - para que serve OAuthto?
+      - para que serve OAutto2?
+      - para que serve Oaith2?
+      - para qe serve OAuth2?
+      - para q serve OAuth dois?
+      - para q serve oauth dois?
+      - para que serve aut2?
+      - para que serve Auth2?
+      - para que serve Auth dois?
+      - para que serve oAuth doi?
+      - para que ser eOAuth2?
+      - para que serve OAuth2 ??
+      - para que serve OAuth2??
+      - para que sevre OAuth2?
+      - para que seve OAuth2?
+      - para que serve OAUTh doi?
+      - para que serve OA UTh2?
+      - para que serve OAuthdoi?
+      - para que serve OAuthd oi s?
+      - par que serve OAuth2?
+      - para que serve OAutz2?
+      - para que serve OAuthz2?
+      - para que sirve OAuth2?
+      - para que serve Oatuh2?
+      - para que serve Oauth22?
+      - para que ser OAuth2?
+      - para que serve Oa uth2?
+      - para que serve O Auth2?
+      - p q serve OAuth2?
+      - q serve OAuth2?
+      - q serve oauth2?
+      - para queer serve OAuth2?
+      - para quer serve OAuth2?
+      - para que serve Outh2?
+      - para que serve OvoAuth2?
+      - para que serve OoAuth2?
+      - para que serve OA uth dois?
+      - para que serve oauth doi?
+      - para que srve OAuth2?
+      - para que srvice OAuth2?
+      - para que serv OAuth doi?
+      - para que sieve OAuth2?
+      - para que serve outh2?
+      - para que serve out2?
+      - para que serve OAuth two?
+      - para que serve OAuth twin?
+      - para que serve dois OAuth?
+      - para que serve OAuTh2?
+      - para que serve Ouath2?
+      - para que serve Uauth2?
+      - para que serve Oa0th2?
+      - para que serve OAuth²?
+      - para que serve OAuth super dois?
       - qual a finalidade do OAuth2?
       - qual funcionalidade do OAuth2?
       - qual o propósito do OAuth2?
@@ -118,24 +294,14 @@ nlu:
       - como integrar OAuth2 com múltiplos IdPs?
       - como configurar policy de JWT validation?
       - quais boas práticas para armazenar tokens?
-      - o que e OAuth2?
-      - oq é OAuth2?
-      - o que é Oauth2?
-      - o que é OAtuh2?
-      - oque é OAuth2?
-      - oq é Oauth2?
       - o que é OAuth-2?
       - o que è OAuth2?
       - o que eh OAuth2?
       - o que é Oauth 2?
-      - para q serve OAuth2?
-      - para que serve Oauth2?
       - para que serve OAtuh2?
       - para que serve OAuth-2?
       - para que esrve OAuth2?
       - para que serve AOuth2?
-      - para que serve oAuth2?
-      - para que srve OAuth2?
       - como funciona o fluxo Oauth2?
       - como funciona o fluxo OAtuh2?
       - como funciona o fluxo OAuth-2?
@@ -302,14 +468,205 @@ nlu:
       - onde o OAuth2 entra no fluxo?
       - onde o OAuth2 atua?
       - quais boas práticas tokens?
+      - quais melhores práticas token?
+      - pq usar OAuth2?
+      - por que usar Oauth2?
+      - como funciona grant type?
+      - como funciona o grant type?
+      - o que sao grant types?
+      - oq sao grant types?
+      - para que serve grant type?
+      - o que significa “scope” no OAuth2?
+      - o que é scope no OAuth2?
+      - como defino scopes no OAuth2?
+      - como defino scopes em JWT?
+      - o que são scopes?
+      - oq são scopes?
+      - como armazenar tokens?
+      - como guardar tokens?
+      - como salvar token JWT?
+      - como salvo JWT?
+      - qual diferença JWT x OAuth?
+      - qual diff JWT vs OAuth?
+      - como renovo JWT?
+      - como renovar JWT?
+      - quando expira token?
+      - quando expira JWT?
+      - como lidar com expiração de token?
+      - o que é token bearer?
+      - oq é bearer token?
+      - o que eh bearer token?
+      - como uso bearer token?
+      - para que serve bearer token?
+      - qual é o propósito do OAuth2?
+      - qual é o propósit do OAuth2?
+      - qual é o proposito do OAuth2?
+      - qual é o propósto do OAuth2?
       - what is OAuth2?
+      - what is OAuth two?
       - what is Oauth2?
-      - what is OAth2?
+      - what is Oauth two?
       - what is OAut2?
-      - what is Oauth 2?
+      - what is OAut h2?
+      - what is OAuth d?
+      - what is OAuthii?
+      - what is OAuthII?
       - what is OAuth 2?
+      - what is OAuth-2?
+      - what is OAuth?
+      - what is OAuthtwo?
+      - what is Outh2?
+      - what is Outah2?
+      - what is Ouath2?
+      - what is Oa uth2?
+      - what is OA uth2?
+      - what is OAuTh2?
+      - what is OAUTh2?
+      - what is OAut h two?
+      - what is OAuthtw0?
+      - what is OAuth to?
+      - what is oauth2?
+      - what is oauth two?
+      - what is oath2?
+      - what is oth2?
+      - what is Oa t h2?
+      - what is O aut2?
+      - what is otuth2?
+      - what is whta is OAuth2?
+      - what is wat is OAuth2?
+      - what is what is Oauth2?
+      - what is wha is OAuth2?
+      - what is whst is OAuth2?
+      - what is wht is OAuth2?
+      - what is wht is OAut2?
+      - what is wht is Oauth2?
+      - what is wht is Oauth two?
+      - what is wut is OAuth2?
+      - what is wut is Oauth2?
+      - what is wut is OAuth two?
+      - what is wut is OAut2?
+      - what is wut is OAuth?
+      - what is wut is oath2?
+      - what is wut is oauth2?
+      - what is wut is Outh2?
+      - whats is OAuth2?
+      - whats is Oauth2?
+      - whats is OAuth two?
+      - whats Oauth2?
+      - whats OAuth2?
+      - whats OAuth two?
+      - whats OAut2?
+      - whats OAuth?
+      - whats Oauth?
+      - whats oath2?
+      - whats oauth2?
+      - whats Outh2?
+      - whats oAuth2?
+      - whats Oa uth2?
+      - whats OA uth2?
+      - whats OAUTh2?
+      - whats Otuth2?
+      - whats Ouath2?
+      - whatz is OAuth2?
+      - whatz OAuth2?
+      - whatz OAuth two?
+      - whatz Oauth2?
+      - whatz OAut2?
+      - whatz OAuth?
+      - whatz oath2?
+      - whatz oauth2?
+      - whatz Outh2?
+      - whatz Oa uth2?
+      - whatz OA uth2?
+      - whatz OAUTh2?
+      - whatz Oa uth two?
+      - whatz oAuth2?
+      - what is the OAuth2?
+      - what is the Oauth2?
+      - what is the OAuth two?
+      - what is the Oauth two?
+      - what is the OAut2?
+      - what is the OAut h two?
+      - what is the OAuTh2?
+      - what is the OAUTh two?
+      - what is the OAuthtwo?
+      - what is the OAuthTwo?
+      - what is the oauth2?
+      - what is the oath2?
+      - what is OAth2?
+      - what is Oauth 2?
       - what is the Oauth2 protocol?
+      - what is the OAuth2 protocol?
+      - what is the OAut2 protocol?
+      - what is the Oauth2 protocl?
+      - what is the OAuth2 protocl?
+      - what is the Oauth2 protocal?
+      - what is the OAuth2 protocal?
+      - what is the Oauth2 protoco?
+      - what is the OAuth2 protoco?
+      - what is the Oauth2 protocoll?
+      - what is the OAuth2 protocoll?
+      - what is the Oauth2 protoocl?
+      - what is the OAuth2 protoocl?
+      - what is the Oauth2 proto col?
+      - what is the OAuth2 proto col?
+      - what is Oauth2 protocol?
+      - what is OAuth2 protocol?
+      - what is the Oa uth2 protocol?
+      - what is the O AuTh2 protocol?
+      - what is the oAuth2 protocol?
+      - what is the oauth2 protocol?
+      - what is the Outha2 protocol?
+      - what is the Oauth two protocol?
+      - what is the OAuth two protocol?
+      - what is the Oauth2 protoc0l?
+      - what is the OAuth2 protoc0l?
+      - what is the Oaut2 protocol?
+      - what is the Oa uth2 protocl?
+      - what is the OAut2 protocl?
+      - what is the Oauth2 portocol?
+      - what is the OAuth2 portocol?
+      - what is the Oauth2 prtocol?
+      - what is the OAuth2 prtocol?
+      - what is the Oauth2 protool?
+      - what is the OAuth2 protool?
+      - what is the Oauth2 protoool?
+      - what is the OAuth2 protoool?
+      - what is Oauth2 protoocl?
+      - what is OAuth2 protoocl?
+      - wht is the Oauth2 protocol?
+      - wht is the OAuth2 protocol?
+      - wat is the Oauth2 protocol?
+      - wat is the OAuth2 protocol?
+      - wht is Oauth2 protocol?
+      - wht is OAuth2 protocol?
+      - what iz the Oauth2 protocol?
+      - what iz the OAuth2 protocol?
+      - what is the Ouath2 protocol?
+      - what is the Oauth2 prtocl?
+      - what is the OAuth2 prtocl?
+      - what is the Oauth2 pravtocol?
+      - what is the OAuth2 pravtocol?
+      - what is the Oauth2 prtoocl?
+      - what is the OAuth2 prtoocl?
+      - what is the Oauth2 prootcol?
+      - what is the OAuth2 prootcol?
+      - what is the Oauth2 potocol?
+      - what is the OAuth2 potocol?
+      - what is the Oauth2 ptrtocol?
+      - what is the OAuth2 ptrtocol?
+      - where is the Oauth2 protocol?
+      - define the Oauth2 protocol?
+      - explain the Oauth2 protocol?
+      - describe the OAuth2 protocol?
+      - describe the Oauth2 protocol?
+      - could you explain Oauth2 protocol?
+      - could you explain OAuth2 protocol?
       - what is the purpse of OAuth2?
+      - what is the pupose of OAuth2?
+      - what is the purspoe of OAuth2?
+      - what is the prupose of OAuth2?
+      - what is the purpso of OAuth2?
       - what is the porpose of OAuth2?
       - what is the purpose of Oauth2?
       - what is the purpose of OAuth 2?
@@ -602,3 +959,46 @@ nlu:
       - how to configure a JWT validation policy?
       - how to configure JWT validation policy?
       - how to configure a JTW validation policy?
+      - how to set up JWT validation policy?
+      - how to add JWT validation policy?
+      - how to enable JWT validation policy?
+      - what are best practices for token storage?
+      - what are best practises for token storage?
+      - what are best practices for token storge?
+      - what are best practices for storing tokens?
+      - what are best practices for token managment?
+      - best practices for storing JWT tokens?
+      - how does the OAuth2 flow work?
+      - what is a JWT token used for?
+      - what is the difference between a bearer token and JWT?
+      - what iz OAuth2?
+      - what is the purpos of OAuth2?
+      - how dose OAuth2 flow work?
+      - how does OAuth2 flo work?
+      - how does OAuth2 flow wrok?
+      - how do I use OAuth2?
+      - what are the grant types in Oauth2?
+      - what are grant typs in OAuth2?
+      - what iz JWT?
+      - what is a JWT tokne used for?
+      - how to validate JWT in MuleSoft?
+      - how to validate JWT in Mule Soft?
+      - how to config OAuth2 in Anypoint?
+      - how to config OAuht2 in Anypoint?
+      - what does access token mean?
+      - what does “access tokn” mean?
+      - what does acess token mean?
+      - how to refesh OAuth2 token?
+      - how to renwews OAuth2 token?
+      - what is refresh token?
+      - what iz refresh token?
+      - why use OAuth2?
+      - why use Oauth2?
+      - why choose OAuth2?
+      - how to implement client crdentials grant?
+      - what is auth code grant?
+      - what is autorization code grant?
+      - what is ID token?
+      - what is an ID tokn?
+      - what is the ID token in OIDC?
+      - how to integrate OAuth2 with multiple IdPS?

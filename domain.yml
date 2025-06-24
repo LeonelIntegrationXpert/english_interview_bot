@@ -1,6 +1,7 @@
 version: '3.1'
 
 intents:
+  - personalProfile
   - what_are_experience_apis
   - what_are_process_apis
   - what_are_system_apis

@@ -2,8 +2,187 @@ version: '3.1'
 nlu:
   - intent: api_caching
     examples: |
+      - o que é cache de API?
+      - o que e cache de API?
+      - oq ue é cache de API?
+      - oq ue e cache de API?
+      - o que é chache de API?
+      - o que eh cache de API?
+      - o que é cahce de API?
+      - o que é cache d e API?
+      - o que é cache d API?
+      - o que é cachede API?
+      - o que é cache deAP I?
+      - o que é cachedeAPI?
+      - o q eu é cache de API?
+      - o que e cache deAP I?
+      - oque é cache de API?
+      - que é cache de API?
+      - que e cache de API?
+      - oq é cache de API?
+      - oq e cache de API?
+      - oq é cahce de API?
+      - o qu é cache de API?
+      - o qu e cache de API?
+      - o que é cache d eAPI?
+      - o que é cache DE API?
+      - o que É cache de API?
+      - o que é CACHE de API?
+      - o que é cache deapi?
+      - o que é cacheDE API?
+      - o que é cache deAPI?
       - o que é cache de API
+      - o que e cache de API
+      - oq é cache de API
+      - oq e cache de API
+      - oq é cahce de API
+      - o qu é cache de API
+      - qtd é cache de API
+      - o que é ccache de API?
+      - o que é cashe de API?
+      - o que é cache da API?
+      - o que é cache dap I?
+      - o que é cache daAPI?
+      - o que é cache d a API?
+      - o que é chache de AP I?
+      - o que é cache de Api?
+      - oq ue é cache de Api?
+      - o queé cache de API?
+      - o que e cache de Api?
+      - oqe e cache de API?
+      - oqe é cache de API?
+      - oquee é cache de API?
+      - oquee e cache de API?
+      - o que é cache de A P I?
+      - o que é cache de A-P-I?
+      - o que é cache de A_P_I?
+      - o que é cache de A/P/I?
+      - o que é cache de api?
+      - oqe é cache deapi?
+      - o que é cachedeapi?
+      - o que é cache dE API?
+      - o que e cache DE API?
+      - oq ue e cache DE API?
+      - o que é cache De API?
+      - o que e cache De API?
+      - oq ue é cache De API?
+      - o q e cache de API?
+      - oq e cache de APi?
+      - oq e cache de apI?
+      - oq e cache de Api?
+      - o que é cacche de API?
+      - o que é cache deI API?
+      - o que é cache deAPi?
+      - o que é ca che de API?
+      - o que é cache de  API?
+      - o que é cache de   API?
+      - o que e cache de API!!
+      - o que eh cache d API?
+      - o que eh cache daAPI?
+      - oq e cache d eAPI?
+      - oq e cache de d API?
+      - o que é cache de API???
+      - o que é cache de API,?
+      - o que é cache de API ;
+      - o que é cache de API .
+      - o q é cache de API?
+      - oq e cachede API?
+      - oq e cache deAPI?
+      - oq ue é cache deAPI?
+      - oq ue e cache deAPI?
       - como funciona cache de API
+      - como funciona cahce de API
+      - como funciona ccache de API
+      - como funcona cache de API
+      - como funcina cache de API
+      - como funcio na cache de API
+      - como funziona cache de API
+      - como funsiona cache de API
+      - como funcina cach de API
+      - como funciona cache d eAPI
+      - como funciona cache deAP I
+      - como funciona cache deAPi
+      - como funciona cache d e API
+      - como funciona cache d API
+      - como funciona cache da API
+      - como funciona cache d aAPI
+      - como funciona cache deAPI
+      - como funciona cachede API
+      - como funciona cache daAPI
+      - como funciona cache de Api
+      - como funciona cache De API
+      - como funciona cache de api
+      - como funciona cche de API
+      - como funciona cachee de API
+      - como funciona cacge de API
+      - como funciona cache ed eAPI
+      - como funciona cache d eAP I
+      - como funciona cacche de API
+      - como funcona cacche de API
+      - como funcina cache deAPI
+      - como funciona cacheAP I
+      - como funciona cacheAPi
+      - como funciona cache da P I
+      - como funcona cache dap I
+      - como funciona cache de A P I
+      - como funciona c che de API
+      - como funciona cache de   API
+      - como funciona cache de    API
+      - como funciona cache deAPI?
+      - como funciona cache de API?
+      - como funca cache de API?
+      - como funcio na cache deAP I?
+      - como funziona cache deAPI?
+      - como fuciona cache de API
+      - como fuciona cache deAPI
+      - como funciona cache de A-P-I
+      - como funciona cache de A_P_I
+      - como fuinciona cache de API
+      - como fuinciona cache deAPi
+      - como funciona cahce da API
+      - como função cache de API
+      - como funçao cache de API
+      - como funçao cache da API
+      - como funciona cache daAP I
+      - como funciona cache daAPi
+      - como funciona cache dAPI
+      - como funciona cache dAPI?
+      - como funciona cacheD e API
+      - como funciona cacheD API
+      - como funciona cache DAPI
+      - como funciona cache depi API
+      - como funciona cache deP I
+      - como funciona cache d e P I
+      - como funcionacache de API
+      - como funcionacache deAP I
+      - como funciona cache deAP i
+      - como funciona cahce deAP I
+      - como funciona cache e API
+      - como funciona cache no API
+      - como funciona cache noAP I
+      - como funciona cache noAPi
+      - como funciona cache em API
+      - como funciona cachê de API
+      - como funciona cach deAPI
+      - como funciona cache de aPI
+      - como funciona cache deApI
+      - como funciona cache d eAPi
+      - como funciona cahce daAP I
+      - como funciona cachê deAP I
+      - como funciona cache deP API
+      - como funciona cache de PA I
+      - como funciona cache deAP I?
+      - como funciona cache de API!!
+      - como funciona cache deAPI!!
+      - como funciona cache API
+      - como funciona c ache de API
+      - como funciona cache d eAPi?
+      - como funciona cache de P I?
+      - como funciona cache d P I?
+      - como funciona ca ehe de API
+      - como funciona ca che de API
+      - como funcona ca ehe de API
+      - como funziona ca ehe de API
       - pra que serve cache de API
       - qual a finalidade do cache de API
       - como configurar cache de API no MuleSoft
@@ -302,42 +481,181 @@ nlu:
       - como monitorar cache na API
       - como monitorar cache nas APIs
       - como monitor cache de API
+      - como monitar cache de Apis
+      - como monitorar cacle de API
+      - como monitorar cche de API
+      - como monitorar cacge de API
+      - como monitorar cach de API
+      - como monotorar cache de API
+      - como monotorar cahce de API
+      - como monitorar cahce API
+      - como monitorar cache no API
+      - como monitorar cache no Apis
+      - como monitorar cache no APIS
+      - como monitorar cache d e API
+      - como monitorar cache da API
+      - como monitorar cache das APIs
+      - como monitorar cache das apis
+      - como monitorar cache em API
+      - como monitorar cache em Apis
+      - como monitorar cache em aPI
+      - como monitorar cache em aPis
+      - como monitorar cache do API
+      - como monitorar cache do Apis
       - what is API caching
-      - what is api caching
-      - what is Api caching
-      - what iz API caching
-      - what iz api caching
-      - what iz Api caching
-      - what is API casching
-      - what is API cacing
-      - what is API chaching
-      - what is API Catching
       - what is API cahcing
-      - what is API cacging
+      - what is API catcing
+      - what is API caching?
       - what is API cachng
       - what is API cachin
+      - what is API cachimg
+      - what is API catcing?
+      - what is API cahcing?
+      - what is API cachi ng
+      - what is API cahing
+      - what is API cac hing
+      - what is API cacheing
+      - what is API cacgeing
+      - what is API cacheig
+      - what is API cacjing
+      - what is API cacing
+      - what is API cakcing
+      - what is API cachnig
+      - what is API cachtng
+      - what is Api caching
+      - what is api caching
+      - what is API Caching
+      - whats API caching
+      - whats api caching
+      - whats API cahcing
+      - whats API catcing
+      - whats API cachng
+      - whats API cachin
+      - whats API cachimg
+      - whats Api caching
+      - whats API Caching
+      - what is APi caching
+      - what is ApI caching
+      - what is api caching?
+      - what is APi cachng
+      - what is APi cachin
+      - what is APi cacheing
+      - what is APi cacjing
+      - what is api cahcing
+      - what is api catcing
+      - what is api cachng
+      - what is api cachin
+      - what is api cachi ng
+      - what is API cach ing
+      - what is Api cahcing
+      - what is Api catcing
+      - what is Api cachng
+      - what is Api cachin
+      - what is Api cachi ng
+      - what is API cac hing?
+      - what is API cacheing?
+      - what is API cacgeing?
+      - what is API cacheig?
+      - what is API cahing?
+      - what is API cacing?
+      - what is API cakcing?
+      - wat is API caching
+      - wat is API cahcing
+      - wat is API catcing
+      - wat is API caching?
+      - wat is API cachng
+      - wat is API cachin
+      - wat is API cacheing
+      - wat is API cacjing
+      - wat is Api caching
+      - wat is api caching
+      - wat is API Caching
+      - wht is API caching
+      - wht is API cahcing
+      - wht is API catcing
+      - wht is API cachng
+      - wht is API cachin
+      - wht is API cachimg
+      - wht is API cacheing
+      - wht is API cacing
+      - wht is API cakcing
+      - wha is API caching
+      - wha is API cahcing
+      - wha is API catcing
+      - wha is API cachng
+      - wha is API cachin
+      - wha is API cachimg
+      - wha is API cacheing
+      - wha is API cacing
+      - wha is API cakcing
+      - what iz API caching
+      - what iz apI caching
+      - what iz Api caching
+      - what iz api caching
+      - what iz API cahcing
+      - what iz API catcing
+      - what iz API cachng
+      - what iz API cachin
+      - what iz API cachimg
+      - what iz API cacheing
+      - what iz API cacjing
+      - what iz API cacing
+      - what iz API cakcing
+      - what iz API cachtng
+      - what iz API cachnig
+      - what iz API cachng?
+      - what iz API cahcing?
+      - what iz API catcing?
+      - what iz API cachin?
+      - what iz API cachimg?
+      - what iz API cacheing?
+      - what iz API cacjing?
+      - what iz API cacing?
+      - what iz API cakcing?
+      - what iz API cachtng?
+      - what iz API cachnig?
+      - what iz API ca ching
+      - what iz API caahcing
+      - what iz API cacting
+      - what iz API cahching
+      - what iz API catc hing
+      - what iz API cachine
+      - what iz API cachinggg
+      - what iz API cachingg
+      - what iz API caching??
+      - what iz API caching!!
+      - what iz API casching
+      - what iz API csching
+      - what iz API cacihng
+      - what iz API cachi ng?
+      - what iz API cach`ing
+      - what iz API cac hing?
+      - what iz API c*ching
+      - what iz API cach!ng
+      - what iz API caching pls
+      - what iz API caching asap
+      - what iz API cache?
+      - what iz apI cachein
+      - what iz API cahcheing
+      - what is API casching
+      - what is API chaching
+      - what is API Catching
+      - what is API cacging
       - what is API cachine
       - what is API cascing
-      - what is API caching?
-      - what is api caching?
       - what iz API caching?
       - what is AP caching
-      - what is APi caching
       - what is Api caching?
       - what is APi caching?
       - what is API cating
-      - what is API catcing
       - what is API cachng?
       - what is API cachingg
       - what is API cchching
       - what is API cchaching
       - what is API caaching
       - what is API ca5hing
-      - what is API cahing
       - what is API ccaching
       - what is APi cching
-      - what is API cachnig
-      - what is API cacing?
       - what is API cachingg?
       - what is API cacahing
       - what is API cacging?
@@ -352,15 +670,11 @@ nlu:
       - what is API cacching?
       - what is API cacthing
       - what is API cacthing?
-      - what is API cachimg
       - what is API cachinv
       - what is API cachingv
       - what is API cachingl
       - what is API cachingl?
       - what is API cachinf
-      - what is API cahing?
-      - what is API catcing?
-      - what is API cacjing
       - what is API cachine?
       - what is API cachinggg
       - what is API cachinggg?
@@ -368,7 +682,6 @@ nlu:
       - what is API cacting
       - what is API chaching?
       - what is API cchaching?
-      - what is API cahcing?
       - what is API caching v
       - what is API caching  ?
       - what is API    caching
@@ -377,14 +690,10 @@ nlu:
       - what isAPIcaching
       - whatis API caching
       - whatis api caching
-      - wat is API caching
       - wat iz API caching
-      - wht is API caching
       - wht is API caching?
       - wht iz API cacing
-      - wht is API cacing
       - w0t is API caching
-      - wht is API catcing
       - wht iz API catcing
       - wht iz API cathing
       - wht iz API caching
@@ -602,3 +911,94 @@ nlu:
       - when to leverege API caching
       - when to leverate API caching
       - when to leverge API caching
+      - when to levrage API caching
+      - when to leverahe API caching
+      - when to leverate api caching
+      - when to leverage ApI caching
+      - when to leverage aPI caching
+      - when to leverage APi caching
+      - when to leverage APi Caching
+      - whne to leverage API caching
+      - wjhen to leverage API caching
+      - when to leverate API casching
+      - when to leverage API casching
+      - when to leverege API casching
+      - when to leverege API caching?
+      - when to leverage API caching?
+      - when to leverage cahce API caching
+      - when to leverage api chaching
+      - when to leverage api cacting
+      - when to leverage api cacthing
+      - when to leverage api cachine
+      - when to leverage api cachng
+      - when to leverage api cachin
+      - when to leverage api cahcing
+      - when to leverage cachine API
+      - when to leverage cacheing API
+      - when to leverage cachng API
+      - when to leverage cachin API
+      - when to leverage cache API?
+      - when to leverage cachng API?
+      - when to leverege api caching
+      - when to leverege api caching?
+      - when to leverageapicaching
+      - when to leverege aPI caching
+      - when to leverege APi caching
+      - when to leverege APi cachine
+      - when to leveregeAPICaching
+      - when to leverage APIcaching
+      - when to levrage APi caching
+      - when to levrage API càching
+      - when to leverage API cacling
+      - when to leverage API cachimg
+      - when to leverage API cachng?
+      - when to leverage API cacthing
+      - wen to leverage API caching
+      - whtn to leverage API caching
+      - whtn to leverage api caching
+      - wn to leverage API caching
+      - wht to leverage API caching
+      - whtn to leverege API caching
+      - whtn to leverege APi caching
+      - whn to leverage APi caching
+      - whn to leverage api caching
+      - whn to leverage API cachine
+      - whn to leverage API caching?
+      - whe to leverage API caching
+      - whe to leverage api caching
+      - whe to levege API caching
+      - whne to leverege API caching
+      - whne to leverage API cachng
+      - when to leverate API cachng
+      - when to leverage API cacheing
+      - when to leverage API cacheing?
+      - when to leverage API cache n ing
+      - when to leverage API chaceing
+      - when to leverage API chacing
+      - when to leverage API cacehing
+      - when to leverage API cacehing?
+      - when to leverage API cacing
+      - when to leverage API ca ching
+      - when to leverage API cac hing
+      - when to leverage API caching v
+      - when to leverage API caching l
+      - when to leverage API caching m
+      - when to leveragy API caching
+      - when to leverate API caching?
+      - when to levarg API caching
+      - when to leveragt API caching
+      - when to leveraeg API caching
+      - when to leverate API cachine
+      - when to leverate API cacthing
+      - when to leverate API cacting
+      - when to leverate API cachine?
+      - when to lev erage API caching
+      - when to lever age API caching
+      - when to lever- age API caching
+      - when to laverage API caching
+      - when to laverage API cachng
+      - when to laverage API caching?
+      - when to laeverage API caching
+      - when to configure caching API
+      - when to set up API caching
+      - when to set up api caching

@@ -3,7 +3,146 @@ nlu:
   - intent: documentation_and_dev_portal
     examples: |
       - oq é portal de desenvolvedor?
+      - oq e portal de desenvolvedor?
+      - oq é portal de desenvoldedor?
+      - oq é portal de desendevolvedor?
+      - oq é portal de desenvovldor?
+      - oq é portao de desenvolvedor?
+      - oq é porttal de desenvolvedor?
+      - oq é poral de desenvolvedor?
+      - oq é portal de desenolvedor?
+      - oq é portal de desenvoledor?
+      - oq é portal desenvolvedor?
+      - oq é portal do desenvolvedor?
+      - oq e portal do desenvolvedor?
+      - oq é portal de desenvovledor?
+      - oq e portal de desevolvedor?
+      - oq é pórtal de desenvolvedor?
+      - oq e portál de desenvolvedor?
+      - oq é portal de desenvdlvedor?
+      - oq é portal de dessenvolvedor?
+      - oq é portál desenvovledor?
+      - oq e portal desenvolvedor?
+      - oq é portal desenveldor?
+      - oq é portal d desenvolvedor?
+      - oq e portal d desenvolvedor?
+      - oq é poral desenvlvendor?
+      - oq é portal desenvolvedro?
+      - oq é porrtal de desenvolvedor?
+      - oq e porta de desenvolvedor?
+      - oq é portal de dsenvolvedor?
+      - oq é portal d dsenvolvedor?
+      - oq é portal d dsesenvolvedor?
+      - oq é portal d desenvlvedor?
+      - oq é portql de desenvolvedor?
+      - oq é portal de desenvovedor?
+      - oq e portal de desenvoledor?
+      - oq é portal de desenvolvdor?
+      - oq e portal de desenvolvdor?
+      - oq é portal de desenvlvldor?
+      - oq é portal de dsenvlvoldor?
+      - oq é portal de disenvolvedor?
+      - oq e portal de disenvolvedor?
+      - oq é portal de dsesenvolvedor?
+      - oq é portal d desenvo ldor?
+      - oq é portal d desenvo lvedor?
+      - oq e portal d dsnvolvedor?
+      - oq é portal de dsenvovldor?
+      - oq é portal d dsenvovldor?
+      - oq é portal de dsenvodldor?
+      - oq é portao de dsenvolvedor?
+      - oq é portao desenvolvedor?
+      - oq e portao de desenvolvedor?
+      - oq é portla de desenvolvedor?
+      - oq e portla d desenvolvedor?
+      - oq é portao de desenvoldor?
+      - oq e portal de desenvo lvedor?
+      - oq é portal desenvolvedr?
+      - oq e portal desenvolvedr?
+      - oq e portal dezvoltador?
+      - oq é portl de desenvolvedor?
+      - oq e portl de desenvolvedor?
+      - oq é portal d desarrollador?
+      - oq e portal de desenvoador?
+      - oq é portal de deesnvolvedor?
+      - oq é portal de desaovolvedor?
+      - oq é portal de devlovvedor?
+      - oq e portal de devlovldor?
+      - oq é portal de desaenvolvedor?
+      - oq é portal de desenolveodor?
+      - oq e portal de desenvolveodor?
+      - oq é portal de desenvolvdr?
+      - o que é portal de desenvolvedor?
       - o que e portal de desenvolvedor?
+      - oq que é portal de desenvolvedor?
+      - oq que e portal de desenvolvedor?
+      - o que portal de desenvolvedor?
+      - o que e portal de desenvovedor?
+      - o que é portal de desenvoldedor?
+      - o que é portal de desenvovledor?
+      - o que e portal de desenvoldedor?
+      - o que e portal de desenvovledor?
+      - oq e portal de desenvovledor?
+      - o que é portao de desenvolvedor?
+      - o que e portao de desenvolvedor?
+      - o que é portl de desenvolvedor?
+      - o que e portl de desenvolvedor?
+      - o que é portal de desenvlvedor?
+      - o que e portal de desenvlvedor?
+      - oq é portal de desenvlvedor?
+      - oq e portal de desenvlvedor?
+      - o que é portal de dsenvovldor?
+      - o que e portal de dsenvovldor?
+      - oq e portal de dsenvovldor?
+      - o que é portal de desenvolvlo r?
+      - o que e portal de desenvolvlo r?
+      - oq é portal de desenvolvlo r?
+      - oq e portal de desenvolvlo r?
+      - o que é portal de desenvovldor?
+      - o que e portal de desenvovldor?
+      - oq e portal de desenvovldor?
+      - o que e portao de desenvovledor?
+      - oq e portao de desenvovledor?
+      - o que e portao de desevolvedor?
+      - oq e portao de desevolvedor?
+      - o que e portal d desenvolvedor?
+      - o que é portal de desa nvolvedor?
+      - o que e portal de desa nvolvedor?
+      - oq é portal de desa nvolvedor?
+      - oq e portal de desa nvolvedor?
+      - o que e portal de desenvolvedo r?
+      - oq e portal de desenvolvedo r?
+      - o que é portao desenvoldedor?
+      - oq é portao desenvoldedor?
+      - o que e portao desenvoldedor?
+      - oq e portao desenvoldedor?
+      - o que e portal de desenvoldor?
+      - oq e portal de desenvoldor?
+      - o que é portal de desenlvedor?
+      - oq é portal de desenlvedor?
+      - o que e portal de desenlvedor?
+      - oq e portal de desenlvedor?
+      - o que e portal de desenovledor?
+      - oq e portal de desenovledor?
+      - o que é portal de desnvolvedor?
+      - oq é portal de desnvolvedor?
+      - o que e portal de desnvolvedor?
+      - oq e portal de desnvolvedor?
+      - o que e portal de desenvolvdor?
+      - o que é portal de desenvolvdor?
+      - o que e portal de desenvoledor?
+      - o que é portal de desenvoledor?
+      - o que e portal de desenvlvldor?
+      - oq e portal de desenvlvldor?
+      - o que é portal de desenvlvldor?
+      - o que é portal de desenvoldor?
+      - oq é portal de desenvoldor?
+      - o que e portao de desenvolupador?
+      - oq e portao de desenvolupador?
+      - o que é portao de desenvolupador?
+      - oq é portao de desenvolupador?
+      - o que é portal desenvolvedor?
+      - o que e portal desenvolvedor?
       - o q é portal de desenvolvedor no Anypoint?
       - o que e portal de dev no AnyPoint?
       - para q serve portal de desenvolvedor?
@@ -204,7 +343,6 @@ nlu:
       - como habilito busca no portal?
       - como indexar APIs no portal?
       - como faço search no portal?
-      - o que é portal de desenvolvedor?
       - o que é portal de desenvolvedor no Anypoint?
       - para que serve o portal de desenvolvedor?
       - como uso o portal de desenvolvedor?
@@ -223,7 +361,6 @@ nlu:
       - o que inclui a guia de referência de APIs?
       - como gerenciar documentação no Anypoint Exchange?
       - o que é portal de desenvolvedor no Anypoint Exchange?
-      - o que é portl de desenvolvedor?
       - oq é portal de dev?
       - o que e portal de dev MuleSoft?
       - o q é portal de desenvovedor?
@@ -302,9 +439,270 @@ nlu:
       - como reproduzo exemplos no portal?
       - como exbibo exemplos no portal?
       - como exibo exempleos no portal?
+      - como mostro exemplos no portal?
+      - onde ficam exemplos?
+      - onde encontra exemplos no portal?
+      - onde ta exemplos?
+      - como incluo SDKs no portal?
+      - como incluo sdks no portal?
+      - como adicionar SDK no portal?
+      - como adicon SDK no portal?
+      - como publico SDK no portal?
+      - como publico sdks?
+      - como subir SDK no portal?
+      - como subo SDK?
+      - oq são SDK no portal?
+      - o que contêm SDK no portal?
+      - oq contêm sdks no portal?
+      - para que servem SDK no portal?
+      - por que SDKs no portal?
+      - como gerencio docs no portal?
+      - o que é o propósito do portal de desenvolvedor?
+      - o que e o propósito do portal de desenvolvedor?
+      - oq é o propósito do portal de desenvolvedor?
+      - oq e o proposito do portal de desenvolvedor?
+      - o que é o proposito do portal de desenvolvedor?
+      - o que e o proposito do portal de desenvolvedor?
+      - o que é propósito do portal de desenvolvedor?
+      - o que é o proposito do portal de desenvovedor?
+      - o que é o propósit do portal de desenvolvedor?
+      - o que é o propósito do portal de desenvovledor?
+      - o que é o propósito do portal desenvolvedor?
+      - o que é o propósito portal de desenvolvedor?
+      - o que é o propósito do portal dev?
+      - oq e o propósito do portal de desenvolvedor?
+      - oq é o proposito do portal de desenvolvedor?
+      - oq é o propósito do portal desenvovedor?
+      - oq é o propósito do portal desenvolvedor?
+      - oq é o propósito do portal de desenvolvimento?
+      - o que e proposito do portal de desenvolvedor?
+      - o que é o propósito do portal de developedor?
+      - o que é o propósito do portal de desenvoledor?
+      - o que é proposito portal de desenvolvedor?
+      - o que é propósito do portal de desenvovedor?
+      - o que é proposito do portal desenvolvedor?
+      - o qe é o propósito do portal de desenvolvedor?
+      - o qe e o propósito do portal de desenvolvedor?
+      - oq qe é o propósito do portal de desenvolvedor?
+      - oq qe e o propósito do portal de desenvolvedor?
+      - o que é propósito portal desenvolvedor?
+      - o que e propósito portal de desenvolvedor?
+      - o que é o propósito do portal de desenovledor?
+      - o que é o propósito do portl de desenvolvedor?
+      - o que é o proposito do portal de desenvoldor?
+      - o que é propósito do portal de desenvoldor?
+      - o que é propósito do portal de desenvovldor?
+      - o que é próprio portal de desenvolvedor?
+      - o que é proposito d portal de desenvolvedor?
+      - o que é o proposito do portal de desenvovldor?
+      - o que é o propósito d portal de desenvolvedor?
+      - o que e o propósito do portl de desenvolvedor?
+      - o que e o propósit do portal de desenvolvedor?
+      - o que é o propósito do poratl de desenvolvedor?
+      - oq é o propósito d portal de desenvolvedor?
+      - oq é o próposito do portal de desenvolvedor?
+      - oq é o propósito do portal de desenvovedor?
       - what is the developer portal?
+      - what is the develper portal?
+      - what is the developr portal?
+      - what is the deveoper portal?
+      - what is the developer poratl?
+      - what is the develoer portal?
+      - what is the developer potral?
+      - what is the devloper portal?
+      - what is the developer prtal?
+      - what is the developer portl?
+      - what is th developer portal?
+      - what is te developer portal?
+      - what is the devloper poratl?
+      - what is the develper poratl?
+      - what is the developer portaL?
+      - what is the develepor portal?
+      - what is developer portal?
+      - what is the developerportal?
+      - what is the developer  portal?
+      - what is t he developer portal?
+      - what is the developer poral?
+      - what is the developer portai?
+      - what is the developer portaal?
+      - what is the developer porta?
+      - whats is the developer portal?
+      - whats the developer portal?
+      - whats the develper portal?
+      - whats the developer poratl?
+      - whats the devloper portal?
+      - whats the developer patal?
+      - whats the developer portal do?
+      - whats the developer portals?
+      - what is the dev portal?
+      - what is dev portal?
+      - what is the develpor portal?
+      - what is the developr poratl?
+      - what is the devloper portl?
+      - what it the developer portal?
+      - what is th dev portal?
+      - wha is the developer portal?
+      - what is the deveoper poratl?
+      - what s the developer portal?
+      - wharts the developer portal?
+      - what the developer portal?
+      - what is the developer poretal?
+      - what is the developer poratal?
+      - what is the developer potrel?
+      - what is the developer porrel?
+      - what is the developer portel?
+      - what is the developer portle?
+      - what is teh developer portal?
+      - what is teh dev portal?
+      - what is teh developerportal?
+      - what is teh developer poratl?
+      - what s teh developer portal?
+      - what is they developer portal?
+      - what is their developer portal?
+      - what is th developer poratl?
+      - what is tge developer portal?
+      - what is the developar portal?
+      - what is the developor portal?
+      - what is the devoloper portal?
+      - what is the devlpor portal?
+      - what is the delevoper portal?
+      - what is the developer poortal?
+      - what is the developer porratal?
+      - what is the developer porrtal?
+      - what is the developer porrteal?
+      - what is the developer portral?
+      - what is the developer porrtral?
+      - what is the developer portrla?
+      - what is teh developer portl?
+      - what is te developer poratl?
+      - what is te devloper portal?
+      - what is the develper porrtl?
+      - what is the developr porrtl?
+      - what is the devloper porrtl?
+      - what is the developer porrtl?
       - what is the developer portal in Anypoint?
+      - what is the developer poratl in Anypoint?
+      - what is the devloper portal in Anypoint?
+      - what is the deveoper portal in Anypoint?
+      - what is the developer portl in Anypoint?
+      - what is the developer prtal in Anypoint?
+      - what is the developer potral in Anypoint?
+      - what is the developer poral in Anypoint?
+      - what is the developer portaal in Anypoint?
+      - what is the developer poortal in Anypoint?
+      - what is the developer portal in Anyoint?
+      - what is teh developer portal in Anypoint?
+      - what is teh developer poratl in Anypoint?
+      - what is the developer portal in Anypont?
+      - what is the developer portal in Anypotint?
+      - what is the developer portal in Anypointt?
+      - what is developer portal in Anypoint?
+      - what is the dev portal in Anypoint?
+      - what is the developer portal in anypoint?
+      - what's the developer portal in Anypoint?
+      - whats the developer portal in Anypoint?
+      - whats the developer poratl in Anypoint?
+      - what's the developer portal in Anyoint?
+      - whats the devloper portal in Anypoint?
+      - what's the developer portal in Anypont?
+      - what is the developer portal n Anypoint?
+      - what is the developer portal in Atypoint?
+      - what is the developer portal in Anypoing?
+      - what is the developer portal in Anypoitn?
+      - what is the developer portal in Anyiont?
+      - what is the developer portal in Anypoimt?
+      - what is the developer portal in Anyointx?
+      - what is the developer portal in AnypointX?
+      - what is the developer portal on Anypoint?
+      - what is the developer portal on Anyoint?
+      - what is the developer poratl on Anypoint?
+      - what is the developer portal in Anypoibt?
+      - what is the developer portal at Anypoint?
+      - what is the developer portal at Anyoint?
+      - where is the developer portal in Anypoint?
+      - where is the developer poratl in Anypoint?
+      - where is the devloper portal in Anypoint?
+      - where is the developer portal in Anyoint?
+      - where is the developer portal in Anypont?
+      - where is the dev portal in Anypoint?
+      - describe the developer portal in Anypoint?
+      - describe dev portal in Anypoint?
+      - describe the devloper portal in Anypoint?
+      - explain the developer portal in Anypoint?
+      - explain the devloper portal in Anypoint?
+      - explain the developer portal in Anyoint?
+      - explain the developer portal in Atypoint?
+      - explain the developer portal in Anypoibt?
+      - define the developer portal in Anypoint?
+      - define the devloper portal in Anypoint?
+      - define the developer portal in Anyoint?
+      - define developer portal in Anypoint?
+      - define dev portal in Anypoint?
+      - define developer poratl in Anypoint?
+      - what does the developer portal do in Anypoint?
+      - what does the dev portal do in Anypoint?
+      - what does the developer portal do in Anyoint?
+      - what does developer portal do in Anypoint?
+      - what does devloper portal do in Anypoint?
       - what is the purpose of the developer portal?
+      - what is the purpse of the developer portal?
+      - what is the porpose of the develper portal?
+      - what is the purpose of the develooer portal?
+      - what is the purpose of the developer poratl?
+      - what is the purpose of the developer portl?
+      - what is the purpose of the developer poral?
+      - what is the purpose of the develper poratl?
+      - what is the purposes of the developer portal?
+      - whats the purpose of the developer portal?
+      - wht is the purpose of the developer portal?
+      - what iz the purpose of the developer portal?
+      - what is the pupose of the developer portal?
+      - what is the purpose of the deveoper portal?
+      - what is the pupose of the develper portal?
+      - what is the purpose of the developerporter?
+      - what is the purpse of the developer poratl?
+      - what is the purpose of the devolper portal?
+      - what is the purpose of the dev portal?
+      - what is the purpose of the develper portal?
+      - what is the purpose of developer portal?
+      - what is the purpose of devloper portal?
+      - what is the purpose f the developer portal?
+      - what is the purpose fo the developer portal?
+      - what is the purpose of the developr portal?
+      - what is the prupose of the developer portal?
+      - what is the purpose of the devloper poratl?
+      - what is the purpose of the developer porral?
+      - what is the purpose of the deveoper portl?
+      - what is teh purpose of the developer portal?
+      - what is the purpsoe of the developer portal?
+      - what is the purpose of the develper poral?
+      - what is the purpose of the dev portal in Anypoint?
+      - what is the purpose of the portals developer?
+      - what is the purpose of the developerportal?
+      - what is the purpose of the developer portal now?
+      - what is the purpose of the developer portal pls?
+      - what is the purpose of the developer portal please?
+      - what is the purpose of the developer portal again?
+      - what is the purpose of the developer portel?
+      - what is the purpose of the developer pertal?
+      - what is the purpose of the developer pprtal?
+      - what is the purpose of the developr poratl?
+      - what is the purpose of the developer poratal?
+      - what is the purpose of the developer portaal?
+      - what is the purpose of the devoloper portl?
+      - what is the purpose of the develper portl?
+      - what is the purpose of the develpoer portal?
+      - what is the purpose of the develooer poratl?
+      - what is the purpose of the developer prtal?
+      - what is the pupose of the developer portl?
+      - what is the purpose of the developer porteal?
+      - what is the purpose of the developer porrtal?
+      - what is the purpose of develper portal?
+      - what is the purpose of develoer portal?
+      - what is the purpose of developer porter?
+      - what is the purpose of developer poratl?
+      - what is the purpose of develper poratl?
+      - what is the pupose of the developer poratl?
       - how do I use the developer portal?
       - where do I find the API documentation?
       - how do I access API documentation?
@@ -327,6 +725,23 @@ nlu:
       - where should I configure the developer portal?
       - where is the developer portal configured?
       - where do I go to configure the developer portal?
+      - where do I go to configure the develper portal?
+      - where do I go to configure the developr portal?
+      - where do I go to configure the deveoper portal?
+      - where do I go to configure the developer poratl?
+      - where do I go to configure the developer portl?
+      - where do I go to configure the developer poral?
+      - where do I go to config the developer portal?
+      - where do I go to configre the developer portal?
+      - wher do I go to configure the developer portal?
+      - where do I go to configure developer portal?
+      - where do I go to configure the dev portal?
+      - where do I go to config the dev portal?
+      - where do I go to configure the developr poratl?
+      - where do I go to configure the deveoper poratl?
+      - where do I go to configure the developer portaal?
+      - where do I go to configure the developer porrtal?
+      - where do I go to configure the developer poortal?
       - where would I configure the developer portal?
       - where do I manage the developer portal?
       - where do I edit the developer portal settings?
@@ -362,7 +777,6 @@ nlu:
       - where do I tweak the dev portal?
       - where do I administer the dev portal?
       - where do I access the dev portal config?
-      - where do I go to configure the dev portal?
       - where would I configure the dev portal?
       - where is the dev portal configured?
       - where is the dev portal config located?
@@ -421,13 +835,7 @@ nlu:
       - where do I deploy the developer portal?
       - where do I publish the developer portal?
       - what is the develope portal?
-      - what is the developer poral?
-      - what is the developer portl?
       - what is the developer portal in AnyPoint?
-      - what is the developer portal in Anypont?
-      - what is the developer portal in Anypoing?
-      - what is the purpse of the developer portal?
-      - what is the purpose of the developr portal?
       - what is the purpose of the devoloper portal?
       - how do I use the develper portal?
       - how do I use the developer poratl?
@@ -500,12 +908,6 @@ nlu:
       - how to customize portal teem?
       - how to change portal theme?
       - how to change portal theeme?
-      - what is the deveoper portal?
-      - what is the devloper portal?
-      - what is the developer poortal?
-      - what is the developer portaal?
-      - what is the developer poratl?
-      - what is the dev portal?
       - what is the dev poral?
       - what is the dev portall?
       - what is the dev porta?
@@ -600,5 +1002,3 @@ nlu:
       - how to test in poortal?
       - how to tst in portal?
       - how to test APIs online?
-      - how to test API online?
-      - how to test APIs onine?

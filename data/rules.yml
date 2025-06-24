@@ -1,6 +1,10 @@
 version: '3.1'
 
 rules:
+  - rule: rule_personalProfile
+    steps:
+      - intent: personalProfile
+      - action: utter_personalProfile
   - rule: rule_what_are_experience_apis
     steps:
       - intent: what_are_experience_apis
@@ -80,4 +84,4 @@ rules:
   - rule: rule_nlu_fallback
     steps:
       - intent: nlu_fallback
-      - action: action_fallback
+      - action: utter_nlu_fallback

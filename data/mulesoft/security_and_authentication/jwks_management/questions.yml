@@ -3,7 +3,187 @@ nlu:
   - intent: jwks_management
     examples: |
       - o que é gerenciamento de chaves JWKS?
+      - o que e gerenciamento de chaves JWKS?
+      - oq é gerenciamento de chaves JWKS?
+      - oq e gerenciamento de chaves JWKS?
+      - o que é gerencimanto de chaves JWKS?
+      - o que e gerencimanto de chaves JWKS?
+      - oq é gerencimanto de chaves JWKS?
+      - oq e gerencimanto de chaves JWKS?
+      - o que é gerencimaneto de chaves JWKS?
+      - o que e gerencimaneto de chaves JWKS?
+      - oq é gerencimaneto de chaves JWKS?
+      - oq e gerencimaneto de chaves JWKS?
+      - o que é gerenciamento de chaves J WKS?
+      - o que e gerenciamento de chaves J WKS?
+      - oq é gerenciamento de chaves J WKS?
+      - oq e gerenciamento de chaves J WKS?
+      - o que é gerenciamento de chaves JWKS
+      - o que e gerenciamento de chaves JWKS
+      - oq é gerenciamento de chaves JWKS
+      - oq e gerenciamento de chaves JWKS
+      - o que é gerencimanto de chaves J WKS?
+      - o que e gerencimanto de chaves J WKS?
+      - oq é gerencimanto de chaves J WKS?
+      - oq e gerencimanto de chaves J WKS?
+      - o que é gerencimaneto de chaves J WKS?
+      - o que e gerencimaneto de chaves J WKS?
+      - oq é gerencimaneto de chaves J WKS?
+      - oq e gerencimaneto de chaves J WKS?
+      - o que é gerenciamentto de chaves JWKS?
+      - o que e gerenciamentto de chaves JWKS?
+      - oq é gerenciamentto de chaves JWKS?
+      - oq e gerenciamentto de chaves JWKS?
+      - o que é gerenciamentto de chaves J WKS?
+      - o que e gerenciamentto de chaves J WKS?
+      - oq é gerenciamentto de chaves J WKS?
+      - oq e gerenciamentto de chaves J WKS?
+      - o que é gerenciamento de chave JWKS?
+      - o que e gerenciamento de chave JWKS?
+      - oq é gerenciamento de chave JWKS?
+      - oq e gerenciamento de chave JWKS?
+      - o que é gerenciamento de chavess JWKS?
+      - o que e gerenciamento de chavess JWKS?
+      - oq é gerenciamento de chavess JWKS?
+      - oq e gerenciamento de chavess JWKS?
+      - o que é gerencimento de chaves JWKS?
+      - o que e gerencimento de chaves JWKS?
+      - oq é gerencimento de chaves JWKS?
+      - oq e gerencimento de chaves JWKS?
+      - o que é gerenciemanto de chaves JWKS?
+      - o que e gerenciemanto de chaves JWKS?
+      - oq é gerenciemanto de chaves JWKS?
+      - oq e gerenciemanto de chaves JWKS?
+      - o que é gerenciamento de chevas JWKS?
+      - o que e gerenciamento de chevas JWKS?
+      - oq é gerenciamento de chevas JWKS?
+      - oq e gerenciamento de chevas JWKS?
+      - o que é gerenciamento de chaves WJKS?
+      - o que e gerenciamento de chaves WJKS?
+      - oq é gerenciamento de chaves WJKS?
+      - oq e gerenciamento de chaves WJKS?
+      - o que é gerenciamento chaves JWKS?
+      - o que e gerenciamento chaves JWKS?
+      - oq é gerenciamento chaves JWKS?
+      - oq e gerenciamento chaves JWKS?
+      - o que é gerenciamento de chaves JW KS?
+      - o que e gerenciamento de chaves JW KS?
+      - oq é gerenciamento de chaves JW KS?
+      - oq e gerenciamento de chaves JW KS?
+      - o que é gerenciamento de chaves JWK S?
+      - o que e gerenciamento de chaves JWK S?
+      - oq é gerenciamento de chaves JWK S?
+      - oq e gerenciamento de chaves JWK S?
+      - o que é gerenciemento de chaves JWKS?
+      - o que e gerenciemento de chaves JWKS?
+      - oq é gerenciemento de chaves JWKS?
+      - oq e gerenciemento de chaves JWKS?
+      - o que é gerenciamento de chaves JWK?
+      - o que e gerenciamento de chaves JWK?
+      - oq é gerenciamento de chaves JWK?
+      - oq e gerenciamento de chaves JWK?
+      - o que é gerenciamento de chavws JWKS?
+      - o que e gerenciamento de chavws JWKS?
+      - oq é gerenciamento de chavws JWKS?
+      - oq e gerenciamento de chavws JWKS?
+      - o que é gerenciamento de chav es JWKS?
+      - o que e gerenciamento de chav es JWKS?
+      - oq é gerenciamento de chav es JWKS?
+      - oq e gerenciamento de chav es JWKS?
       - o que significa gerenciamento de chaves jwks?
+      - o que significa gerenciamento de chaves jwks
+      - o que significa gerenciamento de chaves j wks?
+      - o que significa gerenciamento de chaves jw ks?
+      - o que significa gerencimanto de chaves jwks?
+      - o que significa gerencimanto de chaves jw ks?
+      - o que significa gerencimen to de chaves jwks?
+      - o que significa gerencimen to de chaves jw ks?
+      - o que significa gerenciemanto de chaves jwks?
+      - o que significa gerenciemanto de chaves jw ks?
+      - o que signfica gerenciamento de chaves jwks?
+      - o que signfica gerenciamento de chaves jw ks?
+      - o que signfica gerencimanto de chaves jwks?
+      - o que signfica gerencimanto de chaves jw ks?
+      - oq ue significa gerenciamento de chaves jwks?
+      - oq ue significa gerenciamento de chaves jw ks?
+      - oq ue significa gerencimanto de chaves jwks?
+      - oq ue signfica gerencimanto de chaves jw ks?
+      - oq ue significa gerencimen to de chaves jwks?
+      - oq ue signfica gerencimen to de chaves jw ks?
+      - oq ue significa gerenciemanto de chaves jwks?
+      - oq ue signfica gerenciemanto de chaves jw ks?
+      - o que e significa gerenciamento de chaves jwks?
+      - o que e significa gerenciamento de chaves jw ks?
+      - o que e signfica gerenciamento de chaves jwks?
+      - o que e signifca gerenciamento de chaves jw ks?
+      - o que é significa gerenciamento de chaves jwks?
+      - o que é signfica gerenciamento de chaves jw ks?
+      - o que é signfica gerencimanto de chaves jwks?
+      - o que é signfica gerencimanto de chaves jw ks?
+      - o que significa gerenciomento de chaves jwks?
+      - o que significa gerenciomento de chaves jw ks?
+      - o que signfica gerenciomento de chaves jwks?
+      - o que signfica gerenciomento de chaves jw ks?
+      - o que significa gerenciomanto de chaves jwks?
+      - o que significa gerenciomanto de chaves jw ks?
+      - o que signifca gerenciomanto de chaves jwks?
+      - o que signifca gerenciomanto de chaves jw ks?
+      - oq ue significa gerenciomento de chaves jwks?
+      - oq ue significa gerenciomento de chaves jw ks?
+      - oq ue signfica gerenciomento de chaves jwks?
+      - oq ue signfica gerenciomento de chaves jw ks?
+      - o que significa gerencimanto de chavess jwks?
+      - o que significa gerencimanto de chavess jw ks?
+      - o que significa gerencimanto de chaves jwk s?
+      - o que significa gerencimanto de chaves j wk s?
+      - o que significa gerencimanto de chaves jwsk?
+      - o que signfica gerenciamento de chavess jwks?
+      - o que signfica gerenciamento de chavess jw ks?
+      - oq ue signfica gerenciamento de chavess jwks?
+      - oq ue signfica gerenciamento de chavess jw ks?
+      - o que é signific ado de chaves jwks?
+      - o que é significa do de chaves jwks?
+      - o que significa mento de chaves jwks?
+      - o que significa mento de chavess jwks?
+      - o que significa gerenciamento de chaves j?wks?
+      - o que significa gerenciamento de chaves j.wks?
+      - o que signifca gerenciamento de chaves j-wks?
+      - oq ue signifca gerenciamento de chaves jwks?
+      - oq ue signifca gerenciamento de chaves jw ks?
+      - oq ue significa mento de chaves jwks?
+      - oq ue significa mento de chavess jwks?
+      - oq ue signfica mento de chaves jwks?
+      - oq ue signfica mento de chavess jwks?
+      - o que significance gerenciamento de chaves jwks?
+      - o que significance gerenciamento de chaves jw ks?
+      - o que significa gestionamento de chaves jwks?
+      - o que significa gestionamento de chaves jw ks?
+      - o que signifca gestionamento de chaves jwks?
+      - o que signifca gestionamento de chaves jw ks?
+      - o que significa gerenciameto de chaves jwks?
+      - o que significa gerenciameto de chaves jw ks?
+      - o que signfica gerenciameto de chaves jwks?
+      - o que signfica gerenciameto de chaves jw ks?
+      - oq ue significa gerenciameto de chaves jwks?
+      - oq ue significa gerenciameto de chaves jw ks?
+      - oq ue signfica gerenciameto de chaves jwks?
+      - oq ue signfica gerenciameto de chaves jw ks?
+      - o que é gerenciameto de chaves jwks?
+      - o que e gerenciameto de chaves jw ks?
+      - oq ue é gerenciameto de chaves jwks?
+      - oq ue e gerenciameto de chaves jw ks?
+      - o que significa gerenciameno de chaves jwks?
+      - o que significa gerenciameno de chaves jw ks?
+      - o que signfica gerenciameno de chaves jwks?
+      - o que signfica gerenciameno de chaves jw ks?
+      - oq ue significa gerenciameno de chaves jwks?
+      - oq ue significa gerenciameno de chaves jw ks?
+      - oq ue signfica gerenciameno de chaves jwks?
+      - oq ue signfica gerenciameno de chaves jw ks?
+      - o que é gerenciameno de chavess jwks?
+      - o que e gerenciameno de chavess jw ks?
+      - oq ue é gerenciameno de chavess jwks?
+      - oq ue e gerenciameno de chavess jw ks?
       - oque significa gerenc de chaves jwks?
       - oq significa gerenc de chaves jwks?
       - o q significa gerenc de chaves jwks?
@@ -125,7 +305,6 @@ nlu:
       - onde achar docs gerenc jwks?
       - onde encontrar guia jwks key management?
       - onde é doc gerenc de chaves jwks?
-      - oq é gerenciamento de chaves JWKS?
       - o q é gerenc de chaves JWKS?
       - o que é gerenc de chaves JWKS?
       - oq é gerenc de chaves jwks?
@@ -302,8 +481,182 @@ nlu:
       - o que muda no gerenc de chaves JWKS?
       - por que evoluir gerenc de chaves JWKS?
       - quando revisar gerenc de chaves JWKS?
+      - quando auditar gerenc de chaves JWKS?
+      - quando atualizar gerenc de chaves JWKS?
+      - qual frequência atualizar JWKS?
+      - qual intervalo para refresh de JWKS?
+      - como agendar refresh de JWKS?
+      - como configurar TTL de JWKS?
+      - como lidar com rotação de chaves JWKS?
+      - como tratar falha de JWKS?
+      - como fallback em JWKS?
+      - como redundância no gerenc de chaves JWKS?
+      - como replicar JWKS?
+      - como sincronizar JWKS entre instâncias?
+      - como compartilhar cache JWKS?
+      - como manter cache JWKS atualizado?
+      - quais logs gerar no gerenc de JWKS?
+      - que métricas coletar no gerenc de JWKS?
+      - quais alertas configurar no gerenc de JWKS?
+      - como notificar falha de JWKS?
+      - como enviar alerta de rotacao de JWKS?
+      - como auditar fallback de JWKS?
+      - que SLA para rotacao de JWKS?
       - what is JWKS key management?
+      - what is JWK key management?
+      - what is JWKs key management?
+      - what is Jwks key management?
+      - what is jwks key management?
+      - what is JWKS key managemnt?
+      - what is JWKS key mangement?
+      - what is JWKS key managment?
+      - what is JWKS key managent?
+      - what is JWKS key managmnt?
+      - what is JWKS key managmet?
+      - what is JWKS key mnagement?
+      - what is JWKS key mgmt?
+      - what is JWKS key mngmt?
+      - what is JWKS k ey management?
+      - what is JWKS key managemet?
+      - what is JWKS kye management?
+      - what is JWKS key managemtn?
+      - what is JWKS key manageme nt?
+      - what is JWKS key manegment?
+      - what is JWKS key manageent?
+      - what is JWKS key manageement?
+      - what is JWKS key managemt?
+      - what is JWKS key mnagagement?
+      - what is JWKS key manage ment?
+      - what is JWKS key managerment?
+      - what is JWKS key mngement?
+      - what is JWKS key mangemment?
+      - what is JWKS key managmen?
+      - what is JWKS key managemene?
+      - what is JWKS key manifold?
+      - what is JWKS key mannegment?
+      - what is JWKS key menygement?
+      - what is JWKS key managementt?
+      - what is J WKS key management?
+      - what is JW KS key management?
+      - what is JWK S key management?
+      - what is JWKS key mamagement?
+      - what is JWKS key managament?
+      - what is JWKS key mnagemen t?
+      - what is JWKS key managem ent?
+      - what is JWKS key mangegment?
+      - what is JWKS key mange ment?
+      - what is JWKS kye managament?
+      - what is JWKs key managment?
+      - what is JWKs key manageent?
+      - what is JWKs key managmet?
+      - what is JWKs key managmnt?
+      - what is JWkS key management?
+      - what is JwKs key management?
+      - what is jwKs key management?
+      - what is jwks key mangement?
+      - what is jwks key managment?
+      - what is jwks key managmnt?
+      - what is jwks key manageent?
+      - what is jwks key managmet?
+      - what is jwks key mnagement?
+      - what is jwks key manageme nt?
+      - what is jwks key manage ment?
+      - what is jwks key managerment?
+      - what is jwks key mangegement?
+      - what is jwks key mngement?
+      - what is jwks key managemnt?
+      - what is jwks key manamgent?
+      - what is jwks key managmeent?
       - what is a JWKS?
+      - what is a JWKs?
+      - what is a JWkS?
+      - what is a jwks?
+      - what is a Jwks?
+      - what is an JWKS?
+      - what is an JWKs?
+      - what is the JWKS?
+      - what is the JWKs?
+      - whats is a JWKS?
+      - whats a JWKS?
+      - wht is a JWKS?
+      - wht is a JWKs?
+      - wht is a JWkS?
+      - wht is a jwks?
+      - wht is a Jwks?
+      - what iz a JWKS?
+      - what iz a JWKs?
+      - what iz a JWkS?
+      - what iz a jwks?
+      - what iz a Jwks?
+      - what is a JWSK?
+      - what is a JSWK?
+      - what is a WJKS?
+      - what is a WKJS?
+      - what is a JKWS?
+      - wat is a JWKS?
+      - wat is a JWKs?
+      - wat is a JWkS?
+      - wat is a jwks?
+      - wat is a Jwks?
+      - what si a JWKS?
+      - what si a JWKs?
+      - what si a JWkS?
+      - what si a jwks?
+      - what si a Jwks?
+      - what si JWKS?
+      - what si JWKs?
+      - what si JWkS?
+      - wha is a JWKS?
+      - wha is a JWKs?
+      - wha is a JWkS?
+      - wha is a jwks?
+      - wha is a Jwks?
+      - wha iz a JWKS?
+      - wha iz a JWKs?
+      - wha iz a JWkS?
+      - wha iz a jwks?
+      - wha iz a Jwks?
+      - what i a JWKS?
+      - what i a JWKs?
+      - what i a JWkS?
+      - what i a jwks?
+      - what i a Jwks?
+      - what is a J WKS?
+      - what is a J WKs?
+      - what is a JW KS?
+      - what is a J WkS?
+      - what is a Jw Ks?
+      - what is ajwks?
+      - what is a jw ks?
+      - whatisa JWKS?
+      - whatisa JWKs?
+      - whatisa JWkS?
+      - whatisa jwks?
+      - whatisa Jwks?
+      - wha tis a JWKS?
+      - waht is a JWKS?
+      - waht is a JWKs?
+      - waht is a JWkS?
+      - waht is a jwks?
+      - waht is a Jwks?
+      - whta is a JWKS?
+      - whta is a JWKs?
+      - whta is a JWkS?
+      - whta is a jwks?
+      - whta is a Jwks?
+      - what si ajwks?
+      - what si a jw ks?
+      - whats is JWKS?
+      - whats is JWKs?
+      - whats iz a JWKS?
+      - whats a JWKs?
+      - whats a JWkS?
+      - whats a jwks?
+      - whats a Jwks?
+      - whats iz JWKs?
+      - whats iz JWkS?
+      - whats iz jwks?
+      - whats iz Jwks?
       - how do I configure JWKS URI in MuleSoft?
       - how to update keys in JWKS?
       - where to host the JWKS file?
@@ -313,7 +666,6 @@ nlu:
       - why use JWKS for JWT validation?
       - how to configure truststore for JWKS?
       - wht is JWKS key management?
-      - wht is a JWKS?
       - can you define JWKS key management?
       - can you define a JWKS?
       - could you explain JWKS key management?
@@ -602,3 +954,51 @@ nlu:
       - what plugins enable JWKS management?
       - how does JWKS management improve security?
       - how does JWKS management enhance reliability?
+      - how does JWKS management support scalability?
+      - how does JWKS management aid availability?
+      - how does JWKS management reduce latency?
+      - how does JWKS management boost performance?
+      - why adopt JWKS management?
+      - why implement JWKS management?
+      - why integrate JWKS management?
+      - why prioritize JWKS management?
+      - why invest in JWKS management?
+      - why trust JWKS management?
+      - where to find JWKS management docs?
+      - where to read about JWKS management?
+      - where to learn JWKS management?
+      - where to get JWKS management tutorials?
+      - where to see JWKS management examples?
+      - where to download JWKS management guides?
+      - who practices JWKS management?
+      - who is responsible for JWKS management?
+      - who owns JWKS management?
+      - who oversees JWKS management?
+      - who implements JWKS management?
+      - who configures JWKS management?
+      - when to perform JWKS management?
+      - when does JWKS management occur?
+      - when should JWKS management run?
+      - when to schedule JWKS management?
+      - when to review JWKS management?
+      - when to audit JWKS management?
+      - how often perform JWKS management?
+      - how frequently perform JWKS management?
+      - how regularly perform JWKS management?
+      - how to automate JWKS management?
+      - how to schedule JWKS management?
+      - how to monitor JWKS management?
+      - how to alert on JWKS management failures?
+      - how to log JWKS management events?
+      - how to audit JWKS management?
+      - how to document JWKS management?
+      - how to scale JWKS management?
+      - how to optimize JWKS management?
+      - how to troubleshoot JWKS management?
+      - how to test JWKS management?
+      - how to validate JWKS management?
+      - how to backup JWKS management data?
+      - how to restore JWKS management state?
+      - how to secure JWKS management?
+      - what are the SLAs for JWKS management?
+      - what are the SLOs for JWKS management?

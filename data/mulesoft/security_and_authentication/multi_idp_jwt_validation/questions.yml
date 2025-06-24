@@ -2,11 +2,90 @@ version: '3.1'
 nlu:
   - intent: multi_idp_jwt_validation
     examples: |
-      - o que é validção de JWT multi-IdP?
-      - o que é validação de JTW multi-IdP?
+      - o que é validação de JWT multi-IdP?
+      - o que é validacao de JWT multi-IdP?
+      - o que é validadeção de JWT multi-IdP?
       - o que é validacao de JWT multi IdP?
-      - o que é valdação multi-IdP JWT?
+      - oq ue é validação de JWT multi-IdP?
+      - oq é valição de JWT multi-IdP?
+      - oq é validção de JWT multi-IdP?
+      - o que é valição de JWT multi-IdP?
+      - o que é validacão de JWT multi-IdP?
+      - o que é validaça de JWT multi-IdP?
+      - o que é validação de JWT multiIdP?
+      - o que é validação de JWT mutli-IdP?
+      - o que é validação de JWT multi-Id?
       - o que é validação de JWT multi IdP?
+      - o qu e é validação de JWT multi-IdP?
+      - o que é validaçao de JWT multi-IdP?
+      - o que é validção de JWT multi-Id?
+      - o que e valiação de JWT multi-IdP?
+      - o que é validção de JWT multi IdP?
+      - o que é validação de JWT multi IDP?
+      - o que é validação de JWT multi-Idp?
+      - o que é validação de JWT multi Id-p?
+      - o que é validação de JWT multi Id p?
+      - o que é validação de JTW multi-IdP?
+      - o que é validação de JWT multi Idp?
+      - o que é validação de JWT multi idp?
+      - oq ue é valdição de JWT multi-IdP?
+      - oq e é validação de JWT multi-IdP?
+      - oq é validção de JWT multi IDP?
+      - oq é validação de JTW multi-IdP?
+      - o qu e é validacão de JWT multi-IdP?
+      - o que é validção de JWT mult-IdP?
+      - o que é validção de JWT multi-IdPP?
+      - o que é valid4ção de JWT multi-IdP?
+      - o que é validação de JT multi-IdP?
+      - o que é validação de JWT muli-IdP?
+      - o que é validação de JWT multi−IdP?
+      - o que é validação de JWT multi Id P?
+      - o que é validação de JWT multi Id_P?
+      - o que e validação de JWT multi-IdP?
+      - o que é validção de JTW multi-IdP?
+      - o que é validação de JWT multi_IdP?
+      - o que é validação de JWT multi-IDP?
+      - o que é validação de JWT multi- I d P?
+      - o que é validação de JWT multi I d P?
+      - o que é validação de JWT multi-I d P?
+      - o que é validção de JWT midi-IdP?
+      - o que é validação de JDT multi-IdP?
+      - o que é valiação de JWT mutli-IdP?
+      - oq é valiação de JWT multi-IdP?
+      - o que é vdalidação de JWT multi-IdP?
+      - o que é vdaidação de JWT multi-IdP?
+      - o que é validação de JWT multi-IP?
+      - o que é validação de JWT multi Id-P?
+      - o que é validação de JWT mutli IdP?
+      - o que é valiação de JWT multi-IdP?
+      - o que e validção de JWT multi-IdP?
+      - o que é validação de JWT multi I dP?
+      - oi que é validação de JWT multi-IdP?
+      - oq ue é validção de JWT multi-IdP?
+      - oq e é validção de JWT multi-IdP?
+      - o que é validação de JWT muilti-IdP?
+      - o que é validação de JWT multi-Id-po?
+      - o que é validação de JWT multi-Id pp?
+      - o que é validação de JWT multi_Id P?
+      - oq é validção de JWT multii-IdP?
+      - o que é validação de JWT multit-IdP?
+      - o que é validação de JWT multi-idP?
+      - o que é validação de JWT multiidP?
+      - o que é validação de JTW multi IdP?
+      - o que é validação de JWT multi iDp?
+      - o que é validção de JWT multi Idp?
+      - o que é valiaação de JWT multi-IdP?
+      - o que é validação de JRT multi-IdP?
+      - o que é validação de JWT multi I DP?
+      - o que e validção de JWT Multi-IdP?
+      - o que é validacão de JWT multi IdP?
+      - o que é validação e JWT multi-IdP?
+      - oq é validação de JWT muti-IdP?
+      - oq é validação de JWT multi-IDP?
+      - o que é valaidação de JWT multi-IdP?
+      - oq ue é valaidação de JWT multi-IdP?
+      - o que é valdação multi-IdP JWT?
+      - o que é validção de JWT multi-IdP?
       - o q é validação JWT multi IdP?
       - oq é validação de JWT multi IdP?
       - oq é validacao jwt multiidp?
@@ -16,6 +95,110 @@ nlu:
       - me explica validação multi IdP?
       - explica validação de JWT multiIdP?
       - expica validacao de JWT multi-IdP?
+      - explica validacao de JWT multi-IdP?
+      - expica validação de JWT multi-IdP?
+      - explica validação de JWT multi-IdP?
+      - expiqua validacao de JWT multi-IdP?
+      - expika validacao de JWT multi-IdP?
+      - expica validacao de JWT multi IdP?
+      - explica validacao de JWT multi IdP?
+      - expica validacao de JWT multi-Idp?
+      - explica validacao de JWT multi-Idp?
+      - expica validacão de JWT multi-IdP?
+      - explica validacão de JWT multi-IdP?
+      - expica validaca o de JWT multi-IdP?
+      - explica validaca o de JWT multi-IdP?
+      - expica validacaõ de JWT multi-IdP?
+      - explica validacaõ de JWT multi-IdP?
+      - exlica validacao de JWT multi-IdP?
+      - exlica validação de JWT multi-IdP?
+      - expica validacaode JWT multi-IdP?
+      - explica validacaode JWT multi-IdP?
+      - expica validacaõ JWT multi-IdP?
+      - explica validacaõ JWT multi-IdP?
+      - expica validacao JWT multi-IdP?
+      - explica validacao JWT multi-IdP?
+      - expica validacao de JT multi-IdP?
+      - explica validacao de JT multi-IdP?
+      - expica validacao de JWT multi-I dP?
+      - explica validacao de JWT multi-I dP?
+      - expica validacao de JWT multi- IDP?
+      - explica validacao de JWT multi- IDP?
+      - explic a validacao de JWT multi-IdP?
+      - explic a validação de JWT multi-IdP?
+      - expca validacao de JWT multi-IdP?
+      - explca validacao de JWT multi-IdP?
+      - exppica validacao de JWT multi-IdP?
+      - explica validacao de JTW multi-IdP?
+      - expica validacao de JTW multi-IdP?
+      - expica validacao de JWT mutli-IdP?
+      - explica validacao de JWT mutli-IdP?
+      - expica validacao de JWT multi-IdPP?
+      - explica validacao de JWT multi-IdPP?
+      - expica validacao de JWT multi-IdP!!
+      - explica validacao de JWT multi-IdP!!
+      - expica validacao de JWT multi-IdP??
+      - explica validacao de JWT multi-IdP??
+      - expica validados de JWT multi-IdP?
+      - explica validados de JWT multi-IdP?
+      - expica validação de JTW multi-IdP?
+      - explica validação de JTW multi-IdP?
+      - expica validação de JWT multim-IdP?
+      - explica validação de JWT multim-IdP?
+      - expica valicação de JWT multi-IdP?
+      - explica valicação de JWT multi-IdP?
+      - expica validcao de JWT multi-IdP?
+      - explica validcao de JWT multi-IdP?
+      - expica validaçao de JWT mult-IdP?
+      - explica validaçao de JWT mult-IdP?
+      - expica validação de JWT multi-Idp?
+      - explica validação de JWT multi-Idp?
+      - expica validacao de JWT multi-Id P?
+      - explica validacao de JWT multi-Id P?
+      - expica validacao de JWT multi Id-P?
+      - explica validacao de JWT multi Id-P?
+      - expica validacao de JWT multi-IdP meu?
+      - explica validacao de JWT multi-IdP meu?
+      - expica validacao de JWT multi Id P?
+      - explica validacao de JWT multi Id P?
+      - expica valiacao de JWT multi-IdP?
+      - explica valiacao de JWT multi-IdP?
+      - expica valdiacao de JWT multi-IdP?
+      - explica valdiacao de JWT multi-IdP?
+      - excipa validacao de JWT multi-IdP?
+      - explicpa validacao de JWT multi-IdP?
+      - expica validacao de JWT multiIdP?
+      - explica validacao de JWT multiIdP?
+      - expica validaçã de JWT multi-IdP?
+      - explica validaçã de JWT multi-IdP?
+      - expica validacao de JWT multi Idp?
+      - explica validacao de JWT multi Idp?
+      - expica validacao de JWT multiId p?
+      - explica validacao de JWT multiId p?
+      - expica validacao de JWT mui-IdP?
+      - explica validacao de JWT mui-IdP?
+      - expica validacao de JWT muli-IdP?
+      - explica validacao de JWT muli-IdP?
+      - expica validcao de JWT muli-IdP?
+      - explica validcao de JWT muli-IdP?
+      - expica validacao de JWT muilti-IdP?
+      - explica validacao de JWT muilti-IdP?
+      - expica valiação de JWT multi-IdP?
+      - explica valiação de JWT multi-IdP?
+      - expica validação do JWT multi-IdP?
+      - explica validação do JWT multi-IdP?
+      - expica validação de JWT multi-IdP hoje?
+      - explica validação de JWT multi-IdP hoje?
+      - expica validação de JWT multi-IdP agora?
+      - explica validação de JWT multi-IdP agora?
+      - expica validação de JWT multiIDP?
+      - explica validação de JWT multiIDP?
+      - expica validação de JWT multi idp?
+      - explica validação de JWT multi idp?
+      - expica validação de JWT multi idP?
+      - explica validação de JWT multi idP?
+      - expica validação de JWT multi Idp?
+      - explica validação de JWT multi Idp?
       - explika validação de JWT multi IdP?
       - me diz validacao jwt multi idp?
       - me fala validação de JWT multiIdP?
@@ -105,7 +288,6 @@ nlu:
       - padrões de validacao multi IdP?
       - padrões de validacao de jwt multi IdP?
       - estratégias de validacao multi IdP?
-      - o que é validacao de JWT multi-IdP?
       - o qu é validação de JWT multi-IdP?
       - o q é validação de JWT multi-IdP?
       - o que é validacao de JTW multi-IdP?
@@ -217,21 +399,16 @@ nlu:
       - como definir trust stores para múltiplos IdPs?
       - oq é validagão de JWT multi-IdP?
       - oq é valdação de JWT multi-IdP?
-      - oq é validção de JWT multi-IdP?
       - oq é validacao de JWT multi-IdP?
       - oq é valdiação de JWT multi-IdP?
       - oq é valicação de JWT multi-IdP?
-      - oq é validação de JTW multi-IdP?
       - oq é validção de JTW multi-IdP?
       - oq é valdação de JTW multi-IdP?
-      - oq é validação de JWT multi-IDP?
-      - o que é valiação de JWT multi-IdP?
       - o que é valiidação de JWT multi-IdP?
       - o que é valdiação de JWT multi-IdP?
       - o que é validcao de JWT multi-IdP?
       - o que é valiidação de JTW multi-IdP?
       - o que é valdiação de JTW multi-IdP?
-      - o que é validção de JTW multi-IdP?
       - o que é valicação de JTW multi-IdP?
       - para que serve validagão multi-IdP JWT?
       - para que serve valdação multi-IdP JWT?
@@ -302,9 +479,209 @@ nlu:
       - como configurar policy de JTW multi-IDP?
       - como exigir audiència múltipla na validção?
       - como usar audience múltpla na validação?
+      - como usar audience mltipla na validation?
+      - como usar audiència múltipla na valiação?
+      - como usar audiênca múltipla na validação?
+      - como diferenciar issueer de vários IdPs?
+      - como diferenciar issuer de variIs IdPs?
+      - como diferenciar issuer de véários IdPs?
+      - como diferenciar issur de vários IdPs?
+      - o que é issuer validation multi-IdP?
+      - oq é issuer validtion multi-IdP?
+      - o que é issur validation multi-IdP?
+      - o que é issuer validation multi-IDP?
+      - como importar JWKS de varios provedore?
+      - como importar JWKS de vários provedods?
+      - como emportar JWKS de vários IdPs?
+      - como importar WTKS de IdPs?
+      - como importar jWKS de vários providers?
+      - como proteger APIs cm JWT multi-IdP?
+      - como prteger APIs com JWT multi-IdP?
+      - como proteger APIS com JTW multi-IdP?
+      - como proteger APIS com JWT multi-IDP?
+      - como definir trust store para vários IdPs?
+      - como definir trust stores para vários IdPs?
+      - como definir trust stores par vários IdPs?
       - what is multi-IdP JWT validation?
+      - what is multi IdP JWT validation?
+      - what is multi IdP JTW validation?
+      - what is multi-IdP JTW validation?
+      - what is multi-IdP JWT validaton?
+      - what is multi-IdP JWT validtion?
+      - what is multi-IdP JWT vaidation?
+      - what is multi-IdP JWT vallidation?
+      - what is multi-IdP JWT validatio?
+      - what is multi-IdP JWT validion?
+      - what is multi-IdP JWT valdation?
+      - what is multi-IdP JWT valdiation?
+      - what is multi-IdP JWT valdition?
+      - what is multi-IdP JWT valiation?
+      - what is multi IdP JWT vallidation?
+      - what is multi IdP JWT validaton?
+      - what is multi IdP JWT validtion?
+      - what is multi IdP JWT vaidation?
+      - what is multi IdP JWT validatio?
+      - what is multi IdP JWT validion?
+      - what is multi IdP JWT valdation?
+      - what is multi IdP JWT valdiation?
+      - what is multi IdP JWT valdition?
+      - what is multi IdP JWT valiation?
+      - what is multii-IdP JWT validation?
+      - what is multii IdP JWT validation?
+      - what is multi-IdP JTW validaton?
+      - what is multi IdP JTW validtion?
+      - what is multi-IdP JTW vaidation?
+      - what is multi IdP JTW vallidation?
+      - what is multi-IdP JTW validatio?
+      - what is multi IdP JTW validion?
+      - what is multi-IdP JTW valdation?
+      - what is multi IdP JTW valdiation?
+      - what is multi-IdP JTW valdition?
+      - what is multi IdP JTW valiation?
+      - what is multi Idp JWT validation?
+      - what is multi Id-p JWT validation?
+      - what is multi I dP JWT validation?
+      - what is multi IdP JWT validtaion?
+      - what is multi IdP JWT validatoin?
+      - what is multi IdP JWT vauldation?
+      - what is multi IdP JWT vaidlati on?
+      - what is multi IdP JWT vaidltaion?
+      - what is multi IdP JWT vaalidation?
+      - what is multi IdP JWT vaalvalidation?
+      - what is multi IdP JWT vaaalidation?
+      - what is multi IdP JWT vaaalidtion?
+      - what is multi IdP JWT vaaaliation?
+      - what is multi IdP JWT validat ion?
+      - what is multi IdP JWT validaiton?
+      - what is multi-IdP JWT validaiton?
+      - what is multi-IdP JWT valdaiton?
+      - what is multi IdP JWT valdaiton?
+      - what is multi-IdP JWT validation now?
+      - what is multi IdP JWT validation now?
+      - what is multi-IdP JWT validation pls?
+      - what is multi IdP JWT validation pls?
+      - what is multi-IdP JWT validation please?
+      - what is multi IdP JWT validation please?
+      - what is multi-IdP JWT validation quickly?
+      - what is multi IdP JWT validation quickly?
+      - what is multi-IdP JWT validation briefly?
+      - what is multi IdP JWT validation briefly?
+      - what is multi-IdP JWT validation consicely?
+      - what is multi IdP JWT validation concisely?
+      - what is multi-IdP JWT validation guys?
+      - what is multi IdP JWT validation guys?
+      - what is multi-IdP JWT validation dude?
+      - what is multi IdP JWT validation dude?
+      - what is multi-IdP JWT validation doc?
+      - what is multi IdP JWT validation doc?
+      - what is multi-IdP JWT validation specified?
+      - what is multi IdP JWT validation specified?
+      - what is multi-IdP JWT validation spec?
+      - what is multi IdP JWT validation spec?
+      - what is multi-IdP JWT validation concept?
+      - what is multi IdP JWT validation concept?
+      - what is multi-IdP JWT validation approach?
+      - what is multi IdP JWT validation approach?
+      - what is multi-IdP JWT validation method?
+      - what is multi IdP JWT validation method?
+      - what is multi-IdP JWT validation flow?
+      - what is multi IdP JWT validation flow?
+      - what is multi-IdP JWT validation steps?
+      - what is multi IdP JWT validation steps?
+      - what is multi-IdP JWT validation process?
+      - what is multi IdP JWT validation process?
       - what does multi-IdP JWT validation mean?
+      - what does multi IdP JWT validation mean?
+      - what does multi-IdP JTW validation mean?
+      - what does multi-IdP JWT validtion mean?
+      - what does multi-IdP JWT validatoin mean?
+      - what does multi-IdP JWT validaton mean?
+      - what does multi-IdP JWT vaidation mean?
+      - what does multi-IdP JWT valdation mean?
+      - what does multi-IdP JWT valdiation mean?
+      - what does multi-IdP JWT valdition mean?
+      - what does multi IdP JWT validtion mean?
+      - what does multii-IdP JWT validation mean?
+      - what does muti-IdP JWT validation mean?
+      - what does multi-IdP JTW validaton mean?
+      - what does multi IdP JTW validation mean?
+      - what does multi-IdP JWT validaiton mean?
+      - what does multi-IdP JWT validiaiton mean?
+      - what does multi-IdP JWT valiidation mean?
+      - what does multi-IdP JWT vaaliation mean?
+      - what does multi-IdP JWT vaaldation mean?
+      - what does multi-IdP JWT validationn mean?
+      - what does multi-IdP JWT validation meane?
+      - what does multi-IdP JWT validation meen?
+      - what does multi-IdP JWT validation men?
+      - what does multi-IdP JWT validation maen?
+      - what does multi-IdP JWT validation man?
+      - what does multi-IdP JWT validation mite?
+      - what does multi-IdP JWT valuable mean?
+      - what does multi-IdP JWT validation meann?
+      - what does multi-IdP JWT validztion mean?
+      - what does multi-IdP JWT validatn mean?
+      - what does multi-IdP JWT validatiom mean?
+      - what does multi-IdP JWT validatin mean?
+      - what does multi IdP JWT validation m ean?
+      - what does multi IdP JWT validation men?
+      - what does multi IdP JWT valuaton mean?
+      - what does multi IdP JWT validatio mean?
+      - what does multi IdP JWT validaton mean?
+      - what does multi IDP JWT validation mean?
+      - what does multi-IP JWT validation mean?
+      - what does multi Id-P JWT validation mean?
+      - what does multi I dP JWT validation mean?
+      - what does multl-IdP JWT validation mean?
+      - what does mult-IdP JWT validation mean?
+      - what does muulti-IdP JWT validation mean?
+      - what does multi-IdP JWT vaildation mean?
+      - what does multi-IdP JWT valdiaton mean?
+      - what does multi-IdP JTW vali dation mean?
+      - what does multi-IdP JTW validtion mean?
+      - what does mult-IdP JTW validation mean?
+      - what does multiIdP JWT validation mean?
+      - what does multi IdP JWT validatoin mean?
+      - what does multi IdP JWT validat ion mean?
+      - what does multi-IdP JWT vali dation mean?
+      - what does multi-IdP JWT validat ion mean?
+      - what does multi-IdP JWT validation mena?
+      - what does multi-IdP JWT validation amean?
+      - what does multi-IdP JWT validation me an?
+      - what does multi-IdP JWT validation emean?
+      - what does multi-IdP JWT validation yem?ean
+      - what does multi-IdP JWT validation mea n?
+      - what does multi-IdP JWT validation me na?
+      - what does multi-IdP JWT validation meam?
+      - what does multim-IdP JWT validation mean?
+      - what does multi-IDP JWT validation mean?
+      - what does multi-IdP jwt validation mean?
+      - what does multi-IdP JWT validation me?
+      - what does multi-IdP JWT validate mean?
+      - what does multi-IdP JWT validation meeen?
+      - what does multi-IdF JWT validation mean?
+      - what does multo-IdP JWT validation mean?
+      - what does multi-IdO JWT validation mean?
+      - what does mutli-IdP JWT validation mean?
+      - what does mulli-IdP JWT validation mean?
+      - what does mutli IdP JWT validation mean?
+      - what does multi IdP JVM validation mean?
+      - what does multi IdP JTW validasion mean?
+      - what does multi-IdP JWT valdiationmean?
+      - what does multi-IdP JWT validaion mean?
+      - what does multi-IdP JWT valdiation mea?
+      - what does multi-IdP JWT validatiomn mean?
+      - what does multi-IdF JTW validation mean?
+      - what does multi-IdP JWT valiation mean?
+      - what does multi-IdP JTW valgation mean?
+      - what does multi-IdP JWT valdiation me?
+      - what does multi-IdP JWT valdiation men?
+      - what does multi-IdP jwt validation meen?
+      - what does multi-IdP jwt validation meaan?
       - what is the purpose of multi-IdP JWT validation?
+      - what is the purpse of multi-IdP JWT validation?
+      - what is the pupose of multi-IdP JWT validation?
+      - what is the purpose of multi-IdP JTW validation?
       - how to validate JWT from multiple IdPs?
       - how to configure multi-IdP JWT in MuleSoft?
       - what does multi-IdP JWT validation do?
@@ -322,7 +699,6 @@ nlu:
       - how to use multiple audiences in validation?
       - how to distinguish issuers of multiple IdPs?
       - what is issuer validation multi-IdP?
-      - what is multi IdP JWT validation?
       - wht is multi IdP JWT validation?
       - wht is multi-IdP JWT validation?
       - what is multi IdP jwt validation?
@@ -359,7 +735,6 @@ nlu:
       - tell me multi-IdP JWT validation
       - what means multi IdP JWT validation?
       - what means multi-IdP JWT validation?
-      - what does multi IdP JWT validation mean?
       - what does multi idp jwt validation mean?
       - what does multi-idp jwt validation mean?
       - why use multi IdP JWT validation?
@@ -446,9 +821,6 @@ nlu:
       - how to monitor multi-IdP validations?
       - how to log issuer for each token?
       - what is multi-IP JWT validation?
-      - what is multi-IdP JTW validation?
-      - what does multi-IDP JWT validation mean?
-      - what does multi-IdP JTW validation mean?
       - what’s the purpose of multi-IdP JTW validation?
       - what is the purpose of multi-IP JWT validation?
       - how to valdiate JWT from multiple IdPs?
@@ -587,8 +959,6 @@ nlu:
       - how to monitore multi-IdP validations?
       - how to log isser for each token?
       - what is multi-IdP JW validation?
-      - what is multi-IdP JWT validtion?
-      - what does multi-IdP JWT valdiation mean?
       - what does multi-IdP JW validation mean?
       - what’s the porpuse of multi-IdP JWT validation?
       - what’s the purpose of multi-IP JWT validation?
@@ -602,3 +972,33 @@ nlu:
       - what are challenges of multi-IdP JTW?
       - what are chalenges of multi-IdP JWT?
       - how to handle JWKs fr multiple IdPs?
+      - how to handle JWKS from multple IdPs?
+      - how to fetch keys from multiple providors?
+      - what is JWKS URI in multi-IdP context?
+      - what is JWKS URI in multi IP context?
+      - how to switch IdPs during JWT validation?
+      - how to swith IdPs during token validation?
+      - how to map claims from differrent IdPs?
+      - what is key rotaion in multi-IDP?
+      - what is key rotaton in multi-IdP?
+      - how to manage tokens acrss domains?
+      - how to manage tokens across doamins?
+      - how to configure JWT policiy for multiple IdPs?
+      - how to configure JWT policy for multi IP?
+      - how to use multiple audience in JWT validation?
+      - how to distinguish issuers in multi-IdP?
+      - how to distinguish issueers in multi-IDP?
+      - what is issuer validtion in multi-IdP?
+      - what is issuer validation in multi IDP?
+      - how to import JWKS from multple IDPs?
+      - how to secure APIs with multi-IdP JTW?
+      - how to secure APIs with multi-IDP JWT?
+      - how to define truststore for multiple IdPs?
+      - how to difine trust stores for multiple IdPs?
+      - how to adapt JWT polcies for multiple IdPs?
+      - how to adapt JWT policies for multi-IP?
+      - how to use public key set for multi-IDP?
+      - what is validation contex for multi-IdP?
+      - what is validaton context for multi IDP?
+      - how to fallback to second IdP on failure?
+      - how to fallback to second IDP on validtion fail?
