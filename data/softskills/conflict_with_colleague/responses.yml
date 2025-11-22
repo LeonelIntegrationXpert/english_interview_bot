@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_conflict_with_colleague:
+    - custom:
+        vr_pt: |
+          Quando existe um conflito, eu procuro primeiro ouvir a outra pessoa com calma para entender a perspectiva dela, sem partir para o lado pessoal. Em seguida, tento trazer o foco para o objetivo do projeto e para os fatos, não para opiniões. Se eu perceber que a conversa está ficando emocional demais, eu proponho um intervalo curto e retomo depois com mais clareza. Quando necessário, envolvo uma terceira pessoa neutra para ajudar a mediar. No fim, o mais importante para mim é sair com um alinhamento concreto e manter a relação profissional saudável.
+        vr_en: |
+          When there is a conflict I first try to listen to the other person calmly and understand their perspective without taking it to the personal side. Then I bring the focus back to the project goal and to the facts, not to opinions. If I notice that the conversation is becoming too emotional I suggest a short break and then come back to it with more clarity. When needed I involve a neutral third person to help mediate. In the end, what matters the most to me is to leave with clear alignment and to keep a healthy professional relationship.

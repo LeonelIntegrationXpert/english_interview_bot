@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_proactivity_initiative:
+    - custom:
+        vr_pt: |
+          Eu me considero uma pessoa bastante proativa. Quando percebo um problema ou uma oportunidade de melhoria, eu gosto de analisar o contexto, validar se faz sentido com a realidade do time e então trazer uma proposta concreta, não apenas a crítica. Procuro sempre alinhar com a liderança ou com as pessoas envolvidas para não atropelar prioridades. Acredito que iniciativa responsável é aquela que gera valor, respeitando o contexto, a comunicação e o trabalho das outras pessoas.
+        vr_en: |
+          I see myself as a very proactive person. When I notice a problem or an opportunity for improvement I like to analyze the context, check if it makes sense for the team reality, and then bring a concrete proposal, not only criticism. I always try to align with leadership or with the people involved so that I do not override existing priorities. I believe responsible initiative is the one that creates value while respecting the context, communication, and the work of other people.

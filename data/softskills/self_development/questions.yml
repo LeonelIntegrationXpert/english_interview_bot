@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: self_development
+    examples: |
+      - como você cuida do seu desenvolvimento profissional no dia a dia?
+      - você pode me contar como costuma estudar ou se atualizar tecnicamente?
+      - que tipo de conteúdo você mais consome para aprender, por exemplo cursos, livros ou documentação?
+      - você tem algum plano pessoal de desenvolvimento que esteja seguindo atualmente?
+      - como você decide qual habilidade nova vale a pena investir tempo para aprender?
+      - pode me dar um exemplo de algo que você decidiu estudar por conta própria e que trouxe resultado no trabalho?
+      - como você equilibra o tempo entre entregar o trabalho e continuar se desenvolvendo?
+      - certificações são importantes para você? Como você se organiza para estudá-las?
+      - o que você fez nos últimos doze meses para evoluir na sua carreira?
+      - como você reage quando percebe que o mercado está mudando e novas habilidades estão surgindo?
+      - how do you take care of your professional development in your day to day?
+      - can you tell me how you usually study or keep yourself technically updated?
+      - what kind of content do you use the most to learn, for example courses, books, or documentation?
+      - do you have any personal development plan that you are currently following?
+      - how do you decide which new skill is worth investing time to learn?
+      - can you give me an example of something you chose to study on your own that brought results at work?
+      - how do you balance time between delivering your work and continuing to develop yourself?
+      - are certifications important to you, and how do you organize yourself to study for them?
+      - what have you done in the last twelve months to move forward in your career?
+      - how do you react when you notice that the market is changing and new skills are emerging?

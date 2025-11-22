@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: learning_from_mistakes
+    examples: |
+      - como você lida com os seus próprios erros?
+      - o que você costuma fazer depois que percebe que cometeu um erro?
+      - você consegue aprender com situações em que algo não saiu como esperado?
+      - pode me contar como transforma um erro em aprendizado?
+      - você tem o hábito de revisar o que poderia ter sido feito diferente?
+      - como você reage quando alguém aponta um erro seu de forma direta?
+      - para você, qual é a principal lição que um erro pode trazer?
+      - você costuma compartilhar aprendizados de erros com o time?
+      - o que você faz para evitar repetir o mesmo erro no futuro?
+      - você enxerga erro como fracasso ou como parte do processo?
+      - how do you deal with your own mistakes?
+      - what do you usually do after you realize you made a mistake?
+      - are you able to learn from situations where things did not go as planned?
+      - can you tell me how you turn a mistake into learning?
+      - do you have the habit of reviewing what could have been done differently?
+      - how do you react when someone points out a mistake of yours in a direct way?
+      - for you, what is the main lesson that a mistake can bring?
+      - do you usually share the lessons from mistakes with your team?
+      - what do you do to avoid repeating the same mistake in the future?
+      - do you see a mistake as a failure or as part of the process?

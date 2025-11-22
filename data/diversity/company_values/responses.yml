@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_company_values:
+    - custom:
+        vr_pt: |
+          Para mim, é muito importante que a empresa tenha uma postura clara de diversidade e inclusão. Um ambiente que respeita as diferenças tende a ser mais saudável, criativo e sustentável no longo prazo, e isso impacta diretamente na motivação e no sentido de pertencimento das pessoas.
+        vr_en: |
+          For me, it is very important that a company has a clear stance on diversity and inclusion. A workplace that respects differences tends to be healthier, more creative, and more sustainable in the long term, and this directly impacts people’s motivation and sense of belonging.

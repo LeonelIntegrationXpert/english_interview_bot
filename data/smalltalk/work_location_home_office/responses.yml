@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_work_location_home_office:
+    - custom:
+        vr_pt: |
+          Eu me adapto bem ao trabalho remoto. Procuro manter um ambiente organizado, com o mínimo de distrações possível, e uma rotina estruturada para não misturar tanto a vida pessoal com o trabalho. Isso me ajuda bastante a manter foco e constância.
+        vr_en: |
+          I adapt well to remote work. I try to keep an organized environment, with as few distractions as possible, and a structured routine so I don’t mix my personal life and work too much. That helps me a lot with focus and consistency.

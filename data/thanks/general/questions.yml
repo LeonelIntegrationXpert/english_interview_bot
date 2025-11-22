@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: general
+    examples: |
+      - muito obrigado
+      - obrigado pelo seu tempo
+      - obrigado por hoje
+      - obrigado pelas suas respostas
+      - obrigado por compartilhar sua experiência
+      - agradeço muito sua participação
+      - agradeço sua sinceridade nas respostas
+      - muito obrigado por conversar com a gente
+      - obrigado por estar aqui hoje
+      - agradeço pela conversa
+      - thank you
+      - thank you very much
+      - thanks a lot
+      - thank you for your time
+      - thank you for your answers
+      - thank you for sharing your experience
+      - I really appreciate your time
+      - thanks for being here today
+      - thank you for taking part in this conversation
+      - many thanks for your participation

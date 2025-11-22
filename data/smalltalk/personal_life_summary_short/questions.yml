@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: personal_life_summary_short
+    examples: |
+      - se você pudesse resumir rapidamente sua vida pessoal hoje, como você descreveria?
+      - em poucas palavras, como está a sua vida pessoal atualmente?
+      - você poderia fazer um resumo curto da sua vida fora do trabalho?
+      - como você descreveria sua situação familiar e pessoal hoje?
+      - falando bem resumido, como está a sua vida pessoal?
+      - se eu pedisse um resumo da sua vida fora do ambiente profissional, o que você diria?
+      - em uma frase ou duas, como você apresentaria a sua vida pessoal?
+      - qual seria um resumo simples da sua vida familiar hoje?
+      - como está o seu contexto pessoal atualmente, em poucas frases?
+      - pode me dar uma visão geral rápida da sua vida pessoal hoje?
+      - if you had to summarize your personal life today, how would you describe it?
+      - in a few words, what does your personal life look like at the moment?
+      - could you give me a short summary of your life outside of work?
+      - how would you describe your family and personal situation today?
+      - speaking very briefly, how is your personal life right now?
+      - if I asked for a quick overview of your life outside the professional environment, what would you say?
+      - in one or two sentences, how would you present your personal life?
+      - what would be a simple summary of your family life today?
+      - how is your personal context at the moment, in a few sentences?
+      - could you give me a quick general view of your personal life today?

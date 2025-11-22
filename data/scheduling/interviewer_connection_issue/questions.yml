@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_connection_issue
+    examples: |
+      - estou com um problema de conexão aqui, você está conseguindo me ouvir bem?
+      - minha internet deu uma oscilada, se travar um pouco você me avisa, por favor?
+      - se a chamada cair, podemos tentar reconectar pelo mesmo link, tudo bem?
+      - acho que a conexão aqui não está muito estável, você está me vendo e ouvindo direitinho?
+      - se em algum momento o áudio falhar, você pode me sinalizar?
+      - caso a call caia por instabilidade, você consegue entrar de novo pelo mesmo convite?
+      - minha câmera e microfone estão oscilando um pouco, você está recebendo bem aí?
+      - pode ser que a conexão fique ruim, se isso acontecer a gente tenta reconectar, combinado?
+      - tive alguns problemas de internet hoje, se a call travar, vamos insistir mais uma vez, tudo bem?
+      - se a conexão piorar muito, você se importa se a gente continuar só por áudio?
+      - I’m having some connection issues here, are you able to hear me well?
+      - my internet is a bit unstable, if it freezes could you please let me know?
+      - if the call drops, can we try to reconnect using the same link, is that okay?
+      - I don’t think my connection is very stable, can you see and hear me properly?
+      - if at any point the audio cuts out, could you please let me know?
+      - if the call disconnects due to instability, would you be able to join again using the same invite?
+      - my camera and microphone are a bit unstable, are you receiving me clearly on your side?
+      - the connection might get bad at times, if that happens, we’ll try to reconnect, okay?
+      - I’ve had some internet issues today, if the call freezes, we’ll try one more time, alright?
+      - if the connection gets too bad, would you mind if we continue with audio only?

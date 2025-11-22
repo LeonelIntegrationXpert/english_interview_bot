@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: check_feeling_interview
+    examples: |
+      - antes de começar, como você está se sentindo para essa entrevista?
+      - você está se sentindo confortável para a nossa conversa hoje?
+      - como você está se sentindo em relação a essa entrevista?
+      - tá tranquilo para a gente seguir com a entrevista?
+      - você está mais tranquilo agora ou ainda um pouco nervoso?
+      - quer me contar como você está se sentindo nesse momento?
+      - é a sua primeira entrevista em inglês? Como você está se sentindo?
+      - você se sente à vontade para a gente começar em inglês?
+      - como está o seu nível de ansiedade para essa entrevista?
+      - está se sentindo minimamente confortável para a conversa de hoje?
+      - before we start, how are you feeling about this interview?
+      - are you feeling comfortable for our conversation today?
+      - how are you feeling about this interview right now?
+      - do you feel okay for us to move forward with the interview?
+      - are you feeling a bit more relaxed now or still a little nervous?
+      - would you like to tell me how you’re feeling at this moment?
+      - is this your first interview in English? How are you feeling about that?
+      - do you feel comfortable for us to start in English?
+      - how is your anxiety level about this interview?
+      - are you feeling at least reasonably comfortable for today’s conversation?

@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_check_any_question_before:
+    - custom:
+        vr_pt: |
+          No momento está claro, podemos seguir com as suas perguntas. Se surgir alguma dúvida no meio da conversa, eu te aviso.
+        vr_en: |
+          Everything is clear for now, we can go ahead with your questions. If anything comes up during the conversation, I’ll let you know.

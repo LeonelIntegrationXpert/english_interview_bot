@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_start_meeting:
+    - custom:
+        vr_pt: |
+          Sim, podemos começar quando você quiser.
+        vr_en: |
+          Yes, we can start whenever you’re ready.

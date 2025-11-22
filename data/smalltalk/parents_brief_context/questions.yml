@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: parents_brief_context
+    examples: |
+      - você pode falar um pouco, bem brevemente, sobre seus pais?
+      - como você descreveria seus pais em poucas palavras?
+      - se você tivesse que resumir seus pais, como você falaria deles?
+      - qual é o tipo de ambiente que seus pais ajudaram a construir para você?
+      - o que você considera mais marcante na forma como seus pais te criaram?
+      - olhando para a sua história, qual o papel dos seus pais na sua formação?
+      - como a forma de ser dos seus pais influenciou quem você é hoje?
+      - que tipo de valores você sente que vieram diretamente dos seus pais?
+      - em poucas frases, como você falaria da sua família de origem?
+      - tem algo nos seus pais que você admira e leva para a sua vida profissional?
+      - could you briefly talk about your parents and how they influenced you?
+      - how would you describe your parents in a few words?
+      - if you had to summarize your parents, how would you talk about them?
+      - what kind of environment did your parents help create for you?
+      - what do you consider most important about the way your parents raised you?
+      - looking back, what role did your parents play in shaping who you are today?
+      - how did your parents’ way of being influence the person you are now?
+      - what kind of values do you feel came directly from your parents?
+      - in a few sentences, how would you describe your family background?
+      - is there anything about your parents that you admire and bring into your professional life?

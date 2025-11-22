@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: check_location_timezone
+    examples: |
+      - só por curiosidade, em que cidade ou região você está hoje?
+      - você está falando de qual lugar agora?
+      - em que fuso horário você está hoje?
+      - você está no Brasil ou fora do país neste momento?
+      - você costuma trabalhar de casa ou do escritório?
+      - hoje você está em home office ou no presencial?
+      - você está na mesma cidade onde a vaga está baseada?
+      - você se mudou recentemente ou já mora aí há bastante tempo?
+      - de onde você está participando da entrevista hoje?
+      - qual é a sua localização atual, só para eu me situar?
+      - just out of curiosity, which city or region are you in today?
+      - where are you speaking from right now?
+      - what time zone are you in at the moment?
+      - are you currently in Brazil or abroad?
+      - do you usually work from home or from the office?
+      - are you working from home or on-site today?
+      - are you in the same city where the role is based?
+      - have you recently moved there or have you been living there for a while?
+      - where are you joining this interview from today?
+      - what’s your current location, just so I can have an idea?

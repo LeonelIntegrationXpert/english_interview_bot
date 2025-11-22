@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: leadership_style
+    examples: |
+      - você poderia me contar como é o seu estilo de liderança quando precisa orientar outras pessoas?
+      - como você costuma apoiar colegas mais júnior quando eles têm dúvidas ou dificuldades?
+      - quando você precisa assumir a frente de uma atividade, como faz para engajar o time?
+      - como você lida quando alguém do time não está entregando o esperado?
+      - você poderia dar um exemplo de um momento em que precisou assumir uma postura de liderança?
+      - como você equilibra cobrar resultados e ao mesmo tempo apoiar o desenvolvimento das pessoas?
+      - de que forma você costuma dar direcionamento sem ser controlador?
+      - como você reage quando alguém do time tem uma opinião forte diferente da sua?
+      - o que você considera essencial em um bom líder no dia a dia de projeto?
+      - você se sente confortável em liderar discussões técnicas ou funcionais com outras áreas?
+      - could you tell me what your leadership style is like when you need to guide other people?
+      - how do you usually support more junior colleagues when they have questions or difficulties?
+      - when you have to take the lead on an activity, how do you engage the team?
+      - how do you handle a situation when someone on the team is not delivering as expected?
+      - could you give me an example of a moment when you had to take a leadership role?
+      - how do you balance asking for results and at the same time supporting people’s development?
+      - in what way do you give direction without becoming too controlling?
+      - how do you react when someone in the team has a strong opinion that is different from yours?
+      - what do you consider essential in a good leader in the day to day of a project?
+      - do you feel comfortable leading technical or functional discussions with other areas?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: check_start_availability
+    examples: |
+      - se tudo der certo no processo, quando você imagina que poderia começar?
+      - qual seria o seu prazo de saída da empresa atual, se for aprovado?
+      - você tem algum período de aviso prévio que precise cumprir?
+      - você está disponível para começar em curto prazo ou precisaria de mais tempo?
+      - tem alguma data mínima ou máxima para você iniciar em uma nova oportunidade?
+      - você teria alguma restrição de data para começar a trabalhar com a gente?
+      - se recebesse uma proposta, em quanto tempo conseguiria fazer a transição?
+      - você está atualmente trabalhando ou está disponível imediatamente?
+      - você tem algum compromisso que impacte a sua data de início?
+      - qual seria uma data confortável para você começar, caso avance no processo?
+      - if everything goes well in the process, when do you think you could start?
+      - what would your notice period be at your current company, if you were approved?
+      - do you have any notice period that you’d need to serve?
+      - are you available to start in the short term, or would you need more time?
+      - do you have any minimum or maximum date to start a new opportunity?
+      - would you have any restrictions regarding a potential start date with us?
+      - if you received an offer, how long would it take you to transition?
+      - are you currently employed, or are you immediately available?
+      - do you have any commitments that would affect your start date?
+      - what would be a comfortable starting date for you if you move forward in the process?

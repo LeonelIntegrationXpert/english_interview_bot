@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: for_help
+    examples: |
+      - obrigado por esclarecer essa parte
+      - obrigado por explicar isso com mais detalhes
+      - obrigado por ajudar a deixar esse ponto mais claro
+      - obrigado pelos exemplos que você trouxe
+      - obrigado por esclarecer nossas dúvidas
+      - obrigado por explicar como você trabalhou nessa situação
+      - obrigado por detalhar sua experiência nesse projeto
+      - obrigado por mostrar como você resolveu esse problema
+      - obrigado por ajudar a entender melhor seu raciocínio
+      - obrigado por compartilhar esse exemplo prático
+      - thank you for clarifying that
+      - thanks for explaining that in more detail
+      - thank you for helping make that point clearer
+      - thanks for the examples you shared
+      - thank you for clarifying our questions
+      - thank you for explaining how you handled that situation
+      - thanks for detailing your experience on that project
+      - thank you for showing how you solved that problem
+      - thanks for helping us better understand your reasoning
+      - thank you for sharing that practical example

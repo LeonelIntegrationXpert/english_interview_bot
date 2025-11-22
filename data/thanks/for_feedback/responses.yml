@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_for_feedback:
+    - custom:
+        vr_pt: |
+          Obrigado pelo feedback, vou usar isso para melhorar.
+        vr_en: |
+          Thanks for the feedback, I’ll use it to improve.

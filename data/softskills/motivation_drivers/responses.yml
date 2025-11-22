@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_motivation_drivers:
+    - custom:
+        vr_pt: |
+          Minha maior motivação é sentir que o meu trabalho gera impacto real, seja para o time, para o cliente ou para o produto. Eu gosto especialmente de projetos em que posso aprender algo novo e, ao mesmo tempo, ajudar outras pessoas a crescerem junto comigo. Desafios bem definidos, com objetivos claros, me fazem querer ir além do básico. No longo prazo, o que me mantém motivado é uma combinação de aprendizado contínuo, espaço para evolução na carreira e um ambiente onde exista confiança e colaboração.
+        vr_en: |
+          My biggest motivation is to feel that my work creates real impact, whether for the team, for the client, or for the product. I especially enjoy projects where I can learn something new and at the same time help other people grow together with me. Well defined challenges with clear goals make me want to go beyond the basics. In the long term what keeps me motivated is a combination of continuous learning, space to grow in my career, and an environment where there is trust and collaboration.

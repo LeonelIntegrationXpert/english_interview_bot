@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: receiving_feedback
+    examples: |
+      - como você costuma reagir quando recebe um feedback mais crítico sobre o seu trabalho?
+      - pode me contar sobre um feedback difícil que você recebeu e como lidou com ele?
+      - o que você faz para não levar o feedback para o lado pessoal?
+      - você costuma pedir feedback ativamente ou espera que as pessoas tragam?
+      - como você diferencia entre um feedback construtivo e apenas uma opinião?
+      - pode me dar um exemplo de algo que você melhorou depois de receber um feedback?
+      - o que você faz quando não concorda totalmente com o feedback que recebeu?
+      - como você prefere receber feedback, de forma mais direta ou mais gradual?
+      - com que frequência você busca feedback dos seus gestores ou colegas?
+      - qual foi o feedback mais importante que você recebeu na sua carreira até agora?
+      - how do you usually react when you receive more critical feedback about your work?
+      - can you tell me about a difficult feedback you received and how you handled it?
+      - what do you do to avoid taking feedback as something personal?
+      - do you actively ask for feedback or do you wait for people to bring it to you?
+      - how do you distinguish between constructive feedback and just an opinion?
+      - can you give an example of something you improved after receiving feedback?
+      - what do you do when you do not fully agree with the feedback you received?
+      - how do you prefer to receive feedback, in a very direct way or in a more gradual way?
+      - how often do you look for feedback from your managers or colleagues?
+      - what has been the most important feedback you have received in your career so far?

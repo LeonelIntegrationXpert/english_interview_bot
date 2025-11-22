@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_camera_issue
+    examples: |
+      - só para avisar, minha câmera não está funcionando direito hoje, então provavelmente vou ficar só no áudio, tudo bem?
+      - estou com um problema na webcam, você se importa se a gente seguir só por voz?
+      - por questão técnica, eu não vou conseguir ligar a câmera hoje, mas estou te ouvindo normalmente
+      - a câmera aqui está com defeito, então a entrevista deve ficar só com o meu áudio
+      - se você não se importar, vou conduzir a conversa sem vídeo hoje
+      - tive um problema com a câmera do notebook, então vou manter somente o áudio, tudo bem para você?
+      - por algum motivo a câmera não está sendo reconhecida, mas podemos seguir por voz
+      - hoje vou ficar sem a câmera ligada, mas estou totalmente presente na conversa
+      - não vou conseguir abrir o vídeo, mas isso não impacta o andamento da entrevista
+      - só para você não estranhar, estarei sem câmera, mas acompanhando tudo normalmente
+      - just to let you know, my camera isn’t working properly today, so I’ll probably stay on audio only, is that okay?
+      - I’m having an issue with my webcam, do you mind if we continue with audio only?
+      - due to a technical problem, I won’t be able to turn my camera on today, but I can hear you fine
+      - my camera seems to be malfunctioning, so the interview will likely be audio-only on my side
+      - if you don’t mind, I’ll conduct the conversation without video today
+      - I’ve had an issue with my laptop camera, so I’ll keep only the audio on, is that alright for you?
+      - for some reason the camera isn’t being recognized, but we can still go ahead with audio
+      - I’ll be without my camera today, but I’m fully present in the conversation
+      - I won’t be able to turn on my video, but that shouldn’t affect the flow of the interview
+      - just so you don’t find it strange, I’ll be off camera but following everything normally

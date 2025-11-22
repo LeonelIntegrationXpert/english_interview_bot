@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_future_certifications:
+    - custom:
+        vr_pt: |
+          Certificações são um pilar importante para mim, principalmente em ecossistemas grandes como Salesforce e SAP. Eu quero continuar avançando em certificações de arquitetura e especialização em Salesforce e, ao mesmo tempo, construir uma base sólida em certificações de SAP voltadas para integração e processos de negócio. Vejo isso como uma forma de manter meu conhecimento atualizado e de abrir portas para projetos mais complexos e estratégicos.
+        vr_en: |
+          Certifications are an important pillar for me, especially in large ecosystems like Salesforce and SAP. I want to keep moving forward with architect and specialist certifications in Salesforce and, at the same time, build a solid base of SAP certifications focused on integration and business processes. I see this as a way to keep my knowledge updated and to open doors to more complex and strategic projects.

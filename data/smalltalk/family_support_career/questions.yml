@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: family_support_career
+    examples: |
+      - sua família te apoiou nas suas escolhas de carreira?
+      - como seus pais reagiram quando você decidiu seguir essa área?
+      - você sente que seus pais e irmãos entendem o que você faz profissionalmente?
+      - o apoio da sua família foi importante para você chegar onde está hoje?
+      - você conversa com seus pais sobre trabalho ou mais sobre outros assuntos?
+      - sua família costuma te incentivar em relação a estudos e certificações?
+      - quando você pensa em desafios de carreira, sua família entra como apoio?
+      - seus pais tiveram alguma influência direta na área que você escolheu?
+      - seus irmãos também seguiram caminhos parecidos ou bem diferentes dos seus?
+      - você sente que sua família torce pelas suas conquistas profissionais?
+      - has your family supported your career choices?
+      - how did your parents react when you decided to follow this field?
+      - do you feel your parents and siblings understand what you do professionally?
+      - was your family’s support important for you to get where you are today?
+      - do you talk to your parents more about work, or more about other topics?
+      - does your family usually encourage you regarding studying and certifications?
+      - when you think about career challenges, does your family play a support role?
+      - did your parents have any direct influence on the field you chose?
+      - did your siblings follow similar paths or very different ones from yours?
+      - do you feel your family really cheers for your professional achievements?

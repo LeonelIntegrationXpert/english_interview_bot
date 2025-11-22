@@ -1,0 +1,16 @@
+version: '3.1'
+nlu:
+  - intent: working_remote
+    examples: |
+      - como você se organiza para trabalhar de forma eficiente em home office?
+      - quais cuidados você toma para manter a produtividade trabalhando de forma remota?
+      - como você faz para se manter conectado com o time quando está à distância?
+      - você sente que consegue colaborar bem mesmo não estando presencialmente?
+      - o que para você é essencial para um bom trabalho em modelo remoto ou híbrido?
+      - pode me contar como é a sua rotina em dias de home office?
+      - how do you organize yourself to work efficiently from home?
+      - what do you do to keep your productivity when you are working remotely?
+      - how do you stay connected with the team when you are working at a distance?
+      - do you feel that you can collaborate well even when you are not in person?
+      - what is essential for you to do a good job in a remote or hybrid model?
+      - can you tell me what your routine looks like on home office days?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: didnt_understand
+    examples: |
+      - desculpa, não entendi
+      - foi mal, não peguei muito bem
+      - desculpa, não consegui entender direito
+      - você pode repetir, por favor?
+      - pode reformular a pergunta, por favor?
+      - desculpa, você pode explicar de outro jeito?
+      - não tenho certeza se entendi corretamente
+      - desculpa, pode falar de novo um pouco mais devagar?
+      - desculpa, acho que perdi uma parte
+      - desculpa, pode repetir a última parte?
+      - sorry, I didn’t understand
+      - sorry, I didn’t quite get that
+      - I’m not sure I understood correctly
+      - could you repeat that, please?
+      - could you please say that again?
+      - sorry, could you explain that in a different way?
+      - sorry, I think I missed part of that
+      - could you repeat the last part, please?
+      - sorry, could you speak a bit slower?
+      - sorry, I didn’t catch that

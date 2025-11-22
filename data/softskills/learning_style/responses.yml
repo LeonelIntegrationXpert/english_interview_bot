@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_learning_style:
+    - custom:
+        vr_pt: |
+          Eu aprendo melhor combinando teoria com prática. Normalmente começo pela documentação oficial ou por um curso mais estruturado para entender os conceitos principais e, em seguida, já crio um pequeno projeto ou prova de conceito para testar na prática. Gosto também de anotar o que aprendo e, quando possível, explicar para outras pessoas, porque isso me obriga a organizar melhor o raciocínio e fixa o conteúdo.
+        vr_en: |
+          I learn best by combining theory and practice. I usually start with the official documentation or with a more structured course to understand the main concepts and then I create a small project or proof of concept to test things in practice. I also like to take notes about what I learn and, when possible, explain it to other people, because that forces me to organize my thinking better and helps me fix the content.

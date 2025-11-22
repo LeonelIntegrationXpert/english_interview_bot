@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: see_you_again
+    examples: |
+      - que bom te ver de novo
+      - bom te ver de novo
+      - que bom falar com você de novo
+      - faz tempo que a gente não se fala
+      - quanto tempo, hein?
+      - quanto tempo, bom te ver
+      - fazia tempo que a gente não conversava
+      - legal reencontrar você
+      - bom reencontrar você
+      - bom falar com você de novo
+      - nice to see you again
+      - great to see you again
+      - good to see you again
+      - long time no see
+      - it’s been a while
+      - it’s been a long time
+      - it’s great to talk to you again
+      - good to talk to you again
+      - we haven’t talked in a while
+      - it’s nice to catch up again

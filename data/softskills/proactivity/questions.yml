@@ -1,0 +1,16 @@
+version: '3.1'
+nlu:
+  - intent: proactivity
+    examples: |
+      - você se considera uma pessoa proativa? Como isso aparece no seu dia a dia?
+      - pode me contar sobre uma situação em que você tomou iniciativa sem alguém pedir?
+      - como você identifica oportunidades de melhoria no time ou no processo?
+      - o que você costuma fazer quando percebe um problema que ninguém apontou ainda?
+      - você espera alguém te delegar algo ou costuma se oferecer para ajudar?
+      - como você equilibra ser proativo com não passar por cima das decisões do time?
+      - do you consider yourself a proactive person? How does that show up in your daily work?
+      - can you tell me about a situation where you took initiative without being asked?
+      - how do you identify opportunities for improvement in the team or in the process?
+      - what do you usually do when you notice a problem that no one has mentioned yet?
+      - do you wait for someone to delegate tasks to you, or do you usually offer to help?
+      - how do you balance being proactive with not going over the team’s decisions?

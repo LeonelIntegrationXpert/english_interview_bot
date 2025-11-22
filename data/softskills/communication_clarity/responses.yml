@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_communication_clarity:
+    - custom:
+        vr_pt: |
+          Eu procuro sempre adaptar a comunicação ao público. Quando estou falando com alguém mais técnico, entro nos detalhes e uso termos mais específicos. Quando é alguém de negócio, foco mais no impacto, nos riscos e em exemplos práticos. Também costumo recapitular pontos importantes no final, pedir confirmação e registrar decisões por escrito. Se eu percebo que houve um mal-entendido, eu volto no assunto rapidamente, esclareço o ponto e vejo se precisamos ajustar algo no plano.
+        vr_en: |
+          I always try to adapt my communication to the audience. When I am speaking with someone more technical I go into details and use more specific terms. When it is someone from the business side I focus more on impact, risks, and practical examples. I also like to recap important points at the end, ask for confirmation, and register decisions in writing. If I notice that there was a misunderstanding, I go back to the topic quickly, clarify the point, and check if we need to adjust anything in the plan.

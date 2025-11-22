@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: comment_morning_energy
+    examples: |
+      - estamos bem no começo do dia, então obrigado por já começar com essa entrevista
+      - obrigado por encaixar essa conversa logo pela manhã
+      - sei que começo de dia às vezes é corrido, então agradeço por estar aqui nesse horário
+      - obrigado por começar o seu dia falando com a gente
+      - imagino que seu dia ainda esteja começando, então obrigado por reservar esse tempo
+      - valeu por topar essa entrevista logo cedo
+      - obrigado por se organizar para estar aqui nesse primeiro horário
+      - sei que entrevistas de manhã exigem um pouco de preparação, então obrigado pela disponibilidade
+      - obrigado por abrir o dia com essa conversa
+      - começando o dia juntos nessa entrevista, obrigado pela presença
+      - we’re right at the beginning of the day, so thank you for starting with this interview
+      - thanks for fitting this conversation in first thing in the morning
+      - I know mornings can be busy, so I appreciate you being here at this time
+      - thank you for starting your day by talking with us
+      - I imagine your day is just getting started, so thanks for setting aside this time
+      - thanks for agreeing to have this interview early in the day
+      - thank you for organizing yourself to be here at this early time slot
+      - I know morning interviews take some preparation, so thanks for your availability
+      - thank you for opening your day with this conversation
+      - we’re starting the day together with this interview, thanks for being here

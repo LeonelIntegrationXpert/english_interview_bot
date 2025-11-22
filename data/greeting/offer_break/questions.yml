@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: offer_break
+    examples: |
+      - se em algum momento você precisar de uma pausa, é só me avisar
+      - se quiser beber uma água ou levantar um pouco, podemos fazer uma pausa rápida
+      - caso você precise de um minutinho, é só falar que a gente para
+      - se em algum momento se sentir desconfortável, me avisa e a gente faz uma pausa
+      - se precisar ajustar algo aí, como áudio ou câmera, podemos pausar sem problema
+      - se você quiser um tempo rápido para respirar, é só dizer
+      - se em algum momento você quiser uma pausa, podemos parar e retomar depois de um minuto
+      - se estiver muito intenso, me avisa que a gente desacelera um pouco
+      - se precisar interromper rapidinho por qualquer motivo, é só me falar
+      - caso você queira uma pausa no meio da entrevista, não tem problema nenhum
+      - if at any point you need a break, just let me know
+      - if you’d like to grab some water or stand up for a moment, we can take a quick break
+      - if you need a minute at any time, just say it and we’ll pause
+      - if you feel uncomfortable at any point, let me know and we can take a break
+      - if you need to adjust anything on your side, like audio or camera, we can pause, no problem
+      - if you’d like a short moment to breathe, just let me know
+      - if at any time you want a break, we can stop and continue a minute later
+      - if it feels a bit intense, tell me and we’ll slow down a little
+      - if you need to quickly step away for any reason, just say so
+      - if you’d like to have a break in the middle of the interview, that’s totally fine

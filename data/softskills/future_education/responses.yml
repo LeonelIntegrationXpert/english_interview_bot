@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_future_education:
+    - custom:
+        vr_pt: |
+          Sim, eu tenho planos claros de seguir na educação formal. No médio e longo prazo, quero fazer um mestrado e, depois, um doutorado em uma área ligada à tecnologia, engenharia de software ou sistemas distribuídos. A ideia é aprofundar a parte teórica e de pesquisa, mas sempre conectando isso com problemas reais de empresas, integrações complexas e arquitetura de sistemas.
+        vr_en: |
+          Yes, I have clear plans to continue with formal education. In the medium and long term, I want to do a master’s degree and later a PhD in an area related to technology, software engineering, or distributed systems. The idea is to go deeper into the theoretical and research side, but always connecting it with real company problems, complex integrations, and system architecture.

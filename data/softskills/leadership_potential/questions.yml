@@ -1,0 +1,18 @@
+version: '3.1'
+nlu:
+  - intent: leadership_potential
+    examples: |
+      - você se vê assumindo papéis de liderança no futuro?
+      - como você enxerga o seu potencial de liderança nos próximos anos?
+      - pode me contar sobre uma situação em que você liderou, mesmo sem ter o cargo formal?
+      - que tipo de líder você gostaria de ser, olhando para o futuro?
+      - o que você acredita que já tem hoje de perfil de liderança?
+      - em que pontos de liderança você acha que ainda precisa se desenvolver?
+      - como você costuma influenciar o time mesmo quando não é o gestor oficial?
+      - do you see yourself taking on leadership roles in the future?
+      - how do you see your leadership potential in the next years?
+      - can you tell me about a situation where you led, even without having a formal title?
+      - what kind of leader would you like to be when you look at the future?
+      - what do you think you already have today in terms of leadership profile?
+      - in which leadership aspects do you feel you still need to develop?
+      - how do you usually influence the team even when you are not the official manager?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: energy_and_motivation
+    examples: |
+      - o que normalmente te motiva no dia a dia de trabalho?
+      - de onde você costuma tirar energia nos dias mais puxados?
+      - quando você está em uma semana mais intensa, o que te ajuda a manter o ritmo?
+      - tem algo específico que te dá aquela sensação de “valeu a pena” no fim do dia?
+      - o que costuma te deixar mais satisfeito depois de uma semana cheia?
+      - nos dias em que a motivação está mais baixa, o que você faz para se reorganizar?
+      - você se considera uma pessoa naturalmente motivada ou mais disciplinada?
+      - o que mais te anima em participar de projetos novos?
+      - você prefere ver resultado rápido ou projetos de longo prazo te motivam mais?
+      - tem algum tipo de reconhecimento que faz diferença para você?
+      - what usually motivates you in your day-to-day work?
+      - where do you normally get energy from on the tougher days?
+      - when you’re going through a more intense week, what helps you keep the pace?
+      - is there anything specific that gives you that feeling of “it was worth it” at the end of the day?
+      - what usually makes you feel most satisfied after a busy week?
+      - on days when your motivation is lower, what do you do to reset?
+      - would you say you’re naturally more motivated or more disciplined?
+      - what excites you the most about joining new projects?
+      - do you prefer quick results, or are long-term projects more motivating for you?
+      - is there any kind of recognition that makes a real difference to you?

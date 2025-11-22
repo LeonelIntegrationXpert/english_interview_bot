@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: general_view
+    examples: |
+      - qual é a sua visão sobre diversidade no ambiente de trabalho?
+      - como você enxerga diversidade e inclusão dentro das empresas?
+      - o que diversidade significa para você no contexto profissional?
+      - qual é a importância da diversidade para você em um time de trabalho?
+      - como você se sente em relação a trabalhar em ambientes diversos?
+      - o que você pensa sobre iniciativas de diversidade nas organizações?
+      - como você enxerga a relação entre diversidade e resultados de equipe?
+      - para você, qual é o papel da diversidade no dia a dia de trabalho?
+      - como você vê a importância de inclusão no ambiente corporativo?
+      - o que você entende como um ambiente verdadeiramente inclusivo?
+      - what is your view on diversity in the workplace?
+      - how do you see diversity and inclusion inside companies?
+      - what does diversity mean to you in a professional context?
+      - how important is diversity for you in a team?
+      - how do you feel about working in diverse environments?
+      - what do you think about diversity initiatives in organizations?
+      - how do you see the relationship between diversity and team results?
+      - in your opinion, what role does diversity play in daily work?
+      - how do you see the importance of inclusion in the corporate environment?
+      - what do you consider to be a truly inclusive workplace?

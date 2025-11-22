@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: welcome
+    examples: |
+      - seja bem-vindo
+      - seja bem-vinda
+      - seja muito bem-vindo
+      - seja muito bem-vinda
+      - seja bem-vindo à call
+      - seja bem-vindo à reunião
+      - seja bem-vindo ao time
+      - seja bem-vinda ao time
+      - bem-vindo, é bom ter você aqui
+      - bem-vinda, é bom ter você aqui
+      - welcome
+      - you’re welcome here
+      - welcome to the call
+      - welcome to the meeting
+      - welcome to the team
+      - a warm welcome to you
+      - welcome, it’s great to have you here
+      - welcome, thanks for joining
+      - welcome on board
+      - welcome, glad you’re here

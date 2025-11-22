@@ -1,0 +1,18 @@
+version: '3.1'
+nlu:
+  - intent: dealing_with_failure
+    examples: |
+      - como você lida quando algo não sai como esperado no trabalho?
+      - pode me contar sobre uma falha ou erro que aconteceu e como você reagiu?
+      - o que você faz quando um projeto ou uma ideia sua não dá certo?
+      - como você transforma um erro em aprendizado?
+      - qual foi uma situação em que algo deu errado, mas você conseguiu tirar uma lição importante?
+      - quando você percebe que cometeu um erro, qual é o seu primeiro passo?
+      - como você se certifica de que o mesmo erro não vai se repetir?
+      - how do you handle it when something does not go as planned at work?
+      - can you tell me about a failure or mistake that happened and how you reacted?
+      - what do you do when a project or one of your ideas does not work out?
+      - how do you turn a mistake into learning?
+      - what was a situation where something went wrong, but you still got an important lesson from it?
+      - when you realize that you made a mistake, what is your first step?
+      - how do you make sure that the same mistake will not happen again?

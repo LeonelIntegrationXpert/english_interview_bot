@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: small_talk_hobbies
+    examples: |
+      - antes da gente entrar nas perguntas, o que você costuma fazer no seu tempo livre?
+      - fora do trabalho, quais são os hobbies ou atividades que você mais gosta?
+      - você tem algum hobby que te ajuda a desligar um pouco da rotina?
+      - o que normalmente você gosta de fazer para relaxar depois do trabalho?
+      - tem alguma atividade fora do trabalho que é importante para você?
+      - você costuma praticar algum esporte ou tem algum hobbie criativo?
+      - gosta mais de programas mais tranquilos ou mais agitados no seu tempo livre?
+      - tem algum interesse pessoal que você considera que te ajuda também profissionalmente?
+      - como você costuma equilibrar trabalho e lazer no dia a dia?
+      - o que você diria que mais te recarrega as energias fora do trabalho?
+      - before we jump into the questions, what do you usually do in your free time?
+      - outside of work, what hobbies or activities do you enjoy the most?
+      - do you have any hobbies that help you disconnect from your routine?
+      - what do you normally like to do to relax after work?
+      - is there any activity outside of work that is important to you?
+      - do you usually practice any sports or have any creative hobbies?
+      - do you prefer calmer plans or more active ones in your free time?
+      - is there any personal interest you feel also helps you professionally?
+      - how do you usually balance work and leisure in your daily life?
+      - what would you say recharges your energy the most outside of work?

@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_future_risks_challenges:
+    - custom:
+        vr_pt: |
+          Eu sei que, em um plano de dez anos, sempre vão existir riscos, como mudanças de prioridade, falta de tempo, cansaço ou até imprevistos pessoais. Por isso, eu tento encarar esse plano de forma flexível: eu tenho uma direção clara, mas aceito ajustar o ritmo quando necessário. O que eu considero mais importante é não perder a disciplina de continuar aprendendo e evoluindo, mesmo que, em alguns momentos, eu precise ir mais devagar.
+        vr_en: |
+          I know that in a ten year plan there will always be risks, such as changes in priorities, lack of time, tiredness, or even personal issues. Because of that, I try to see this plan in a flexible way: I have a clear direction, but I accept that sometimes I will need to adjust the pace. For me, the most important thing is not to lose the discipline to keep learning and growing, even if, in some moments, I have to move a little slower.

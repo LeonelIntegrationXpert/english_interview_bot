@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: see_you_soon
+    examples: |
+      - a gente entra em contato em breve
+      - falamos com você em breve
+      - em breve damos um retorno
+      - nos falamos em breve sobre os próximos passos
+      - até a próxima etapa do processo
+      - na próxima semana devemos falar com você novamente
+      - assim que tivermos um retorno, entramos em contato
+      - em breve voltamos a falar com você
+      - falamos de novo assim que tivermos novidades
+      - mantemos contato em breve
+      - we’ll be in touch soon
+      - we’ll get back to you soon
+      - we’ll contact you soon about the next steps
+      - you’ll hear from us soon
+      - we’ll be in touch next week
+      - as soon as we have an update, we’ll let you know
+      - we’ll reach out again as soon as we can
+      - we’ll speak again soon about the process
+      - we’ll follow up with you shortly
+      - you can expect to hear from us soon

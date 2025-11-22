@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_interviewer_distracted_by_notification:
+    - custom:
+        vr_pt: |
+          Sem problema, eu entendo. Pode ficar à vontade para checar o que for necessário, eu sigo tranquilo com as respostas.
+        vr_en: |
+          No problem, I understand. Feel free to check whatever you need, I’ll just continue calmly with my answers.

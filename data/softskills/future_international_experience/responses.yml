@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_future_international_experience:
+    - custom:
+        vr_pt: |
+          Sim, eu me vejo cada vez mais conectado com ambientes e times internacionais. No longo prazo, eu gostaria de participar de projetos globais em plataformas como Salesforce e SAP, e também considero a possibilidade de trabalhar para empresas de fora ou até de morar em outro país, se fizer sentido para a família. Por isso eu estou investindo tanto em inglês e em habilidades que são valorizadas em qualquer lugar do mundo.
+        vr_en: |
+          Yes, I see myself more and more connected with international environments and teams. In the long term I would like to take part in global projects in platforms like Salesforce and SAP, and I also consider the possibility of working for companies abroad or even living in another country if it makes sense for my family. That is why I am investing so much in English and in skills that are valuable anywhere in the world.

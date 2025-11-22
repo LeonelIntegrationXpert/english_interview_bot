@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_working_under_pressure:
+    - custom:
+        vr_pt: |
+          Em situações de pressão eu procuro manter a clareza antes de tudo. Eu reviso rapidamente as prioridades, vejo o que realmente é crítico e comunico de forma transparente o que é possível entregar dentro do prazo. Divido o trabalho em partes menores, acompanho o progresso de perto e evito entrar em desespero, porque isso só atrapalha. Também procuro alinhar expectativas com o time e com o gestor, para que todos saibam qual é o plano e quais são os riscos envolvidos.
+        vr_en: |
+          In high pressure situations I try to keep clarity above everything else. I quickly review the priorities, I look at what is truly critical, and I communicate in a transparent way what can realistically be delivered within the deadline. I break the work into smaller parts, I follow the progress closely, and I avoid going into panic mode, because that only makes things worse. I also align expectations with the team and with my manager so that everyone knows what the plan is and what risks are involved.

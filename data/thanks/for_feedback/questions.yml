@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: for_feedback
+    examples: |
+      - obrigado pelo feedback
+      - muito obrigado pelo feedback
+      - obrigado pelo retorno
+      - obrigado pelo seu feedback sincero
+      - obrigado pelos comentários
+      - obrigado pelas sugestões
+      - obrigado pelas observações
+      - agradeço o feedback
+      - agradeço muito o retorno
+      - obrigado por compartilhar sua opinião
+      - thank you for the feedback
+      - thanks for your feedback
+      - thank you for your honest feedback
+      - thanks for the comments
+      - thank you for the suggestions
+      - thank you for your input
+      - I appreciate your feedback
+      - I really appreciate your feedback
+      - thanks for sharing your thoughts
+      - thanks for your opinion

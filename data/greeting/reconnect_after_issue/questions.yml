@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: reconnect_after_issue
+    examples: |
+      - acho que tivemos um probleminha de conexão, mas agora acho que voltou, você está me ouvindo bem?
+      - tivemos uma queda rápida aqui, mas já estou te ouvindo de novo, tudo certo aí?
+      - acho que a call deu uma travada, mas parece que normalizou, você consegue me ouvir?
+      - tivemos um pequeno problema técnico, mas acho que já está resolvido, está me escutando?
+      - a conexão caiu por um instante, mas já retomamos, tudo bem para você?
+      - acho que sua imagem tinha travado por alguns segundos, mas agora voltou
+      - tivemos uma oscilação na internet, mas já está estável de novo, consegue me ouvir?
+      - parece que a call deu uma pequena falha, mas já está ok, tudo certo aí do seu lado?
+      - a gente teve um glitch rápido, mas já estamos de volta, você está me vendo e ouvindo?
+      - desculpa pelo problema técnico, mas acho que agora está normal, certo?
+      - I think we had a small connection issue, but it seems to be back now, can you hear me well?
+      - we had a quick drop here, but I can hear you again, is everything okay on your side?
+      - I think the call froze for a moment, but it looks stable now, can you hear me?
+      - we had a minor technical issue, but I believe it’s fixed now, can you hear me?
+      - the connection dropped for a second, but we’re back now, is that okay for you?
+      - I think your video had frozen for a few seconds, but it’s back now
+      - we had a brief internet glitch, but it seems stable again, can you hear me?
+      - it looks like the call had a small failure, but it’s fine now, is everything okay on your side?
+      - we had a quick glitch, but we’re back, can you see and hear me?
+      - sorry about the technical issue, but I think everything is normal now, right?

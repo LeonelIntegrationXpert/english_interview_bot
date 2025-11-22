@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_future_personal_brand:
+    - custom:
+        vr_pt: |
+          Daqui a dez anos eu gostaria de ser visto como um profissional confiável, profundo tecnicamente e colaborativo. Alguém que entrega, que assume responsabilidade, que sabe explicar problemas complexos de forma simples e que ajuda o time a crescer. Quero que a minha marca pessoal esteja ligada a consistência, ética, aprendizado contínuo e capacidade de conectar teoria, certificações e prática em projetos reais.
+        vr_en: |
+          Ten years from now I would like to be seen as a reliable, technically deep, and collaborative professional. Someone who delivers, who takes responsibility, who can explain complex problems in a simple way, and who helps the team grow. I want my personal brand to be connected with consistency, ethics, continuous learning, and the ability to connect theory, certifications, and real project practice.

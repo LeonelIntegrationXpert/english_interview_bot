@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: reassure_nervous
+    examples: |
+      - fica tranquilo, é totalmente normal ficar um pouco nervoso em entrevista
+      - não se preocupa se bater um nervosismo, isso acontece com todo mundo
+      - é super comum ficar um pouco tenso no começo, depois a conversa vai fluindo
+      - não tem problema nenhum se você estiver um pouco nervoso
+      - fica à vontade, aqui é um ambiente seguro para a gente conversar
+      - se você ficar nervoso em algum momento, não tem problema, a gente vai no seu ritmo
+      - não precisa se preocupar em ser perfeito, queremos te conhecer de forma real
+      - se travar em alguma resposta, a gente volta, sem problema
+      - é normal ficar nervoso, a ideia aqui é uma conversa, não um interrogatório
+      - pode respirar com calma, a gente vai conduzindo junto
+      - don’t worry, it’s totally normal to feel a bit nervous in an interview
+      - no need to stress about being nervous, it happens to everyone
+      - it’s very common to feel tense at the beginning, the conversation usually flows later
+      - it’s okay if you’re feeling a little nervous
+      - feel free to relax, this is a safe space for us to talk
+      - if you feel nervous at any point, that’s fine, we’ll go at your pace
+      - you don’t need to be perfect, we just want to get to know you as you are
+      - if you get stuck on an answer, we can always come back to it, no problem
+      - it’s normal to feel nervous, this is meant to be a conversation, not an interrogation
+      - take your time to breathe, we’ll walk through this together

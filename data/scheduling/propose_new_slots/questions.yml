@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: propose_new_slots
+    examples: |
+      - para remarcar, queria te sugerir alguns horários, você poderia me dizer quais funcionam melhor para você?
+      - posso te passar algumas opções de dia e horário para você escolher o que for melhor?
+      - se você puder, me diga quais períodos do dia costumam ser melhores para você, assim tentamos encaixar
+      - você prefere manhã, tarde ou final do dia para uma nova entrevista?
+      - se eu te mandar algumas janelas de horário, você consegue me dizer qual se encaixa melhor?
+      - temos alguns horários vagos nos próximos dias, você tem alguma preferência?
+      - quais seriam os melhores dias da semana para você remarcar essa entrevista?
+      - você poderia me indicar alguns horários em que normalmente você estaria disponível?
+      - se depender de você, qual seria o melhor dia e horário para conversar com calma?
+      - você prefere que a gente tente remarcar ainda essa semana ou na próxima?
+      - to reschedule, I’d like to suggest a few time slots, could you tell me which ones work best for you?
+      - I can send you some date and time options so you can pick what suits you best, is that okay?
+      - if you can, let me know which times of the day usually work better for you so we can try to fit it in
+      - do you prefer mornings, afternoons or end-of-day for a new interview?
+      - if I send you a few possible time windows, can you tell me which one fits you best?
+      - we have some open slots over the next few days, do you have any preference?
+      - which days of the week would be best for you to reschedule this interview?
+      - could you share a few times when you’d normally be available?
+      - if it depended on you, what would be the best day and time to have a proper conversation?
+      - would you rather try to reschedule for this week or for next week?

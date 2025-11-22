@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: end_meeting
+    examples: |
+      - muito obrigado pelo seu tempo hoje
+      - obrigado por participar da entrevista
+      - obrigado por compartilhar sua experiência com a gente
+      - foi uma ótima conversa, obrigado
+      - vamos encerrar por aqui, muito obrigado pelo seu tempo
+      - obrigado pelas respostas tão detalhadas
+      - obrigado por esclarecer pontos importantes
+      - agradeço por ter separado esse tempo para falar com a gente
+      - obrigado por participar do processo seletivo
+      - foi muito bom conhecer mais sobre o seu perfil, obrigado
+      - thank you very much for your time today
+      - thank you for taking part in this interview
+      - thank you for sharing your experience with us
+      - it was a great conversation, thank you
+      - we’ll wrap up here, thank you very much for your time
+      - thank you for giving such detailed answers
+      - thank you for clarifying so many important points
+      - I appreciate you taking the time to speak with us
+      - thank you for participating in the hiring process
+      - it was great to learn more about your profile, thank you

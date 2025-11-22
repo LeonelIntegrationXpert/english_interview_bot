@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: future_salesforce_sap_focus
+    examples: |
+      - por que você escolheu focar mais em Salesforce e SAP para o futuro da sua carreira?
+      - o que te chama mais atenção nos ecossistemas de Salesforce e SAP a longo prazo?
+      - por que você acredita que Salesforce e SAP são boas apostas para os próximos anos?
+      - como você enxerga seu crescimento entre certificações Salesforce e certificações SAP?
+      - o que te motiva a continuar investindo especificamente em Salesforce e SAP?
+      - por que esses dois mundos, Salesforce e SAP, fazem sentido juntos para a sua trajetória?
+      - como você imagina combinar experiência em Salesforce com experiência em SAP no futuro?
+      - qual é a sua visão de longo prazo para atuar com integrações entre Salesforce e SAP?
+      - em termos de especialização, por que você decidiu seguir por essa linha de plataformas corporativas?
+      - o que você vê de oportunidade de carreira ao aprofundar em Salesforce e SAP?
+      - why did you choose to focus more on Salesforce and SAP for your future career?
+      - what attracts you the most in the Salesforce and SAP ecosystems in the long term?
+      - why do you believe Salesforce and SAP are good bets for the next years?
+      - how do you see your growth between Salesforce certifications and SAP certifications?
+      - what motivates you to keep investing specifically in Salesforce and SAP?
+      - why do these two worlds, Salesforce and SAP, make sense together in your career path?
+      - how do you imagine combining Salesforce experience with SAP experience in the future?
+      - what is your long term vision for working with integrations between Salesforce and SAP?
+      - in terms of specialization, why did you decide to follow this line of enterprise platforms?
+      - what kind of career opportunities do you see by going deeper into Salesforce and SAP?

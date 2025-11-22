@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_check_any_question_after:
+    - custom:
+        vr_pt: |
+          Sim, eu gostaria de saber um pouco mais sobre os próximos passos do processo e o tempo estimado para retorno, se possível.
+        vr_en: |
+          Yes, I’d like to know a bit more about the next steps in the process and the estimated timeline for feedback, if possible.

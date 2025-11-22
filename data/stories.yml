@@ -1,87 +1,642 @@
 version: '3.1'
-
 stories:
-  - story: story_personalProfile
+  - story: story_adaptability_change
     steps:
-      - intent: personalProfile
-      - action: utter_personalProfile
-  - story: story_what_are_experience_apis
+      - intent: adaptability_change
+      - action: utter_adaptability_change
+  - story: story_address_more_details
     steps:
-      - intent: what_are_experience_apis
-      - action: utter_what_are_experience_apis
-  - story: story_what_are_process_apis
+      - intent: address_more_details
+      - action: utter_address_more_details
+  - story: story_afternoon_formal
     steps:
-      - intent: what_are_process_apis
-      - action: utter_what_are_process_apis
-  - story: story_what_are_system_apis
+      - intent: afternoon_formal
+      - action: utter_afternoon_formal
+  - story: story_age
     steps:
-      - intent: what_are_system_apis
-      - action: utter_what_are_system_apis
-  - story: story_what_is_api_led
+      - intent: age
+      - action: utter_age
+  - story: story_ask_how_found_role
     steps:
-      - intent: what_is_api_led
-      - action: utter_what_is_api_led
-  - story: story_api_contracts
+      - intent: ask_how_found_role
+      - action: utter_ask_how_found_role
+  - story: story_asking_for_help
     steps:
-      - intent: api_contracts
-      - action: utter_api_contracts
-  - story: story_facade_vs_orchestration
+      - intent: asking_for_help
+      - action: utter_asking_for_help
+  - story: story_audio_issue_with_candidate
     steps:
-      - intent: facade_vs_orchestration
-      - action: utter_facade_vs_orchestration
-  - story: story_responsibility_boundaries
+      - intent: audio_issue_with_candidate
+      - action: utter_audio_issue_with_candidate
+  - story: story_background_noise_or_interruption
     steps:
-      - intent: responsibility_boundaries
-      - action: utter_responsibility_boundaries
-  - story: story_versioning_patterns
+      - intent: background_noise_or_interruption
+      - action: utter_background_noise_or_interruption
+  - story: story_basic_school_where_when
     steps:
-      - intent: versioning_patterns
-      - action: utter_versioning_patterns
-  - story: story_api_catalog_and_discovery
+      - intent: basic_school_where_when
+      - action: utter_basic_school_where_when
+  - story: story_birthdate
     steps:
-      - intent: api_catalog_and_discovery
-      - action: utter_api_catalog_and_discovery
-  - story: story_documentation_and_dev_portal
+      - intent: birthdate
+      - action: utter_birthdate
+  - story: story_break_ice
     steps:
-      - intent: documentation_and_dev_portal
-      - action: utter_documentation_and_dev_portal
-  - story: story_governance_policies
+      - intent: break_ice
+      - action: utter_break_ice
+  - story: story_bye_general
     steps:
-      - intent: governance_policies
-      - action: utter_governance_policies
-  - story: story_lifecycle_management_exchange
+      - intent: bye_general
+      - action: utter_bye_general
+  - story: story_cancel_process_now
     steps:
-      - intent: lifecycle_management_exchange
-      - action: utter_lifecycle_management_exchange
-  - story: story_api_caching
+      - intent: cancel_process_now
+      - action: utter_cancel_process_now
+  - story: story_candidate_not_joined_yet
     steps:
-      - intent: api_caching
-      - action: utter_api_caching
-  - story: story_circuit_breaker
+      - intent: candidate_not_joined_yet
+      - action: utter_candidate_not_joined_yet
+  - story: story_casual_chat
     steps:
-      - intent: circuit_breaker
-      - action: utter_circuit_breaker
-  - story: story_rate_limiting_throttling
+      - intent: casual_chat
+      - action: utter_casual_chat
+  - story: story_change_interviewer_mid_process
     steps:
-      - intent: rate_limiting_throttling
-      - action: utter_rate_limiting_throttling
-  - story: story_jwks_management
+      - intent: change_interviewer_mid_process
+      - action: utter_change_interviewer_mid_process
+  - story: story_change_platform
     steps:
-      - intent: jwks_management
-      - action: utter_jwks_management
-  - story: story_multi_idp_jwt_validation
+      - intent: change_platform
+      - action: utter_change_platform
+  - story: story_check_any_question_after
     steps:
-      - intent: multi_idp_jwt_validation
-      - action: utter_multi_idp_jwt_validation
-  - story: story_oauth2_jwt
+      - intent: check_any_question_after
+      - action: utter_check_any_question_after
+  - story: story_check_any_question_before
     steps:
-      - intent: oauth2_jwt
-      - action: utter_oauth2_jwt
-  - story: story_rbac_scopes
+      - intent: check_any_question_before
+      - action: utter_check_any_question_before
+  - story: story_check_audio
     steps:
-      - intent: rbac_scopes
-      - action: utter_rbac_scopes
+      - intent: check_audio
+      - action: utter_check_audio
+  - story: story_check_camera
+    steps:
+      - intent: check_camera
+      - action: utter_check_camera
+  - story: story_check_company_knowledge
+    steps:
+      - intent: check_company_knowledge
+      - action: utter_check_company_knowledge
+  - story: story_check_feeling_interview
+    steps:
+      - intent: check_feeling_interview
+      - action: utter_check_feeling_interview
+  - story: story_check_location_timezone
+    steps:
+      - intent: check_location_timezone
+      - action: utter_check_location_timezone
+  - story: story_check_previous_stage
+    steps:
+      - intent: check_previous_stage
+      - action: utter_check_previous_stage
+  - story: story_check_start_availability
+    steps:
+      - intent: check_start_availability
+      - action: utter_check_start_availability
+  - story: story_check_time_ok
+    steps:
+      - intent: check_time_ok
+      - action: utter_check_time_ok
+  - story: story_children
+    steps:
+      - intent: children
+      - action: utter_children
+  - story: story_college_tech_internet_systems
+    steps:
+      - intent: college_tech_internet_systems
+      - action: utter_college_tech_internet_systems
+  - story: story_comment_end_of_day
+    steps:
+      - intent: comment_end_of_day
+      - action: utter_comment_end_of_day
+  - story: story_comment_linkedin_profile
+    steps:
+      - intent: comment_linkedin_profile
+      - action: utter_comment_linkedin_profile
+  - story: story_comment_morning_energy
+    steps:
+      - intent: comment_morning_energy
+      - action: utter_comment_morning_energy
+  - story: story_comment_resume_review
+    steps:
+      - intent: comment_resume_review
+      - action: utter_comment_resume_review
+  - story: story_communication_clarity
+    steps:
+      - intent: communication_clarity
+      - action: utter_communication_clarity
+  - story: story_communication_style
+    steps:
+      - intent: communication_style
+      - action: utter_communication_style
+  - story: story_company_values
+    steps:
+      - intent: company_values
+      - action: utter_company_values
+  - story: story_confirm_recording
+    steps:
+      - intent: confirm_recording
+      - action: utter_confirm_recording
+  - story: story_confirm_role
+    steps:
+      - intent: confirm_role
+      - action: utter_confirm_role
+  - story: story_conflict_resolution
+    steps:
+      - intent: conflict_resolution
+      - action: utter_conflict_resolution
+  - story: story_conflict_with_colleague
+    steps:
+      - intent: conflict_with_colleague
+      - action: utter_conflict_with_colleague
+  - story: story_continuous_learning
+    steps:
+      - intent: continuous_learning
+      - action: utter_continuous_learning
+  - story: story_cultural_backgrounds
+    steps:
+      - intent: cultural_backgrounds
+      - action: utter_cultural_backgrounds
+  - story: story_current_city_where_live
+    steps:
+      - intent: current_city_where_live
+      - action: utter_current_city_where_live
+  - story: story_dealing_ambiguity
+    steps:
+      - intent: dealing_ambiguity
+      - action: utter_dealing_ambiguity
+  - story: story_dealing_with_change
+    steps:
+      - intent: dealing_with_change
+      - action: utter_dealing_with_change
+  - story: story_dealing_with_failure
+    steps:
+      - intent: dealing_with_failure
+      - action: utter_dealing_with_failure
+  - story: story_didnt_understand
+    steps:
+      - intent: didnt_understand
+      - action: utter_didnt_understand
+  - story: story_email_formal
+    steps:
+      - intent: email_formal
+      - action: utter_email_formal
+  - story: story_empathy_collaboration
+    steps:
+      - intent: empathy_collaboration
+      - action: utter_empathy_collaboration
+  - story: story_end_meeting
+    steps:
+      - intent: end_meeting
+      - action: utter_end_meeting
+  - story: story_energy_and_motivation
+    steps:
+      - intent: energy_and_motivation
+      - action: utter_energy_and_motivation
+  - story: story_english_support
+    steps:
+      - intent: english_support
+      - action: utter_english_support
+  - story: story_evening_formal
+    steps:
+      - intent: evening_formal
+      - action: utter_evening_formal
+  - story: story_family_origin_city
+    steps:
+      - intent: family_origin_city
+      - action: utter_family_origin_city
+  - story: story_family_overview
+    steps:
+      - intent: family_overview
+      - action: utter_family_overview
+  - story: story_family_support_career
+    steps:
+      - intent: family_support_career
+      - action: utter_family_support_career
+  - story: story_feedback_reception
+    steps:
+      - intent: feedback_reception
+      - action: utter_feedback_reception
+  - story: story_for_delay
+    steps:
+      - intent: for_delay
+      - action: utter_for_delay
+  - story: story_for_feedback
+    steps:
+      - intent: for_feedback
+      - action: utter_for_feedback
+  - story: story_for_help
+    steps:
+      - intent: for_help
+      - action: utter_for_help
+  - story: story_for_mistake
+    steps:
+      - intent: for_mistake
+      - action: utter_for_mistake
+  - story: story_for_time
+    steps:
+      - intent: for_time
+      - action: utter_for_time
+  - story: story_future_10_years
+    steps:
+      - intent: future_10_years
+      - action: utter_future_10_years
+  - story: story_future_5_years
+    steps:
+      - intent: future_5_years
+      - action: utter_future_5_years
+  - story: story_future_academic_path
+    steps:
+      - intent: future_academic_path
+      - action: utter_future_academic_path
+  - story: story_future_balance_life_work
+    steps:
+      - intent: future_balance_life_work
+      - action: utter_future_balance_life_work
+  - story: story_future_career_direction
+    steps:
+      - intent: future_career_direction
+      - action: utter_future_career_direction
+  - story: story_future_certifications
+    steps:
+      - intent: future_certifications
+      - action: utter_future_certifications
+  - story: story_future_certifications_plan
+    steps:
+      - intent: future_certifications_plan
+      - action: utter_future_certifications_plan
+  - story: story_future_education
+    steps:
+      - intent: future_education
+      - action: utter_future_education
+  - story: story_future_impact_contribution
+    steps:
+      - intent: future_impact_contribution
+      - action: utter_future_impact_contribution
+  - story: story_future_international_experience
+    steps:
+      - intent: future_international_experience
+      - action: utter_future_international_experience
+  - story: story_future_learning_style
+    steps:
+      - intent: future_learning_style
+      - action: utter_future_learning_style
+  - story: story_future_motivation_study
+    steps:
+      - intent: future_motivation_study
+      - action: utter_future_motivation_study
+  - story: story_future_personal_brand
+    steps:
+      - intent: future_personal_brand
+      - action: utter_future_personal_brand
+  - story: story_future_risks_challenges
+    steps:
+      - intent: future_risks_challenges
+      - action: utter_future_risks_challenges
+  - story: story_future_salesforce_sap_focus
+    steps:
+      - intent: future_salesforce_sap_focus
+      - action: utter_future_salesforce_sap_focus
+  - story: story_future_ten_years_vision
+    steps:
+      - intent: future_ten_years_vision
+      - action: utter_future_ten_years_vision
+  - story: story_general
+    steps:
+      - intent: general
+      - action: utter_general
+  - story: story_general_view
+    steps:
+      - intent: general_view
+      - action: utter_general_view
+  - story: story_handling_failure
+    steps:
+      - intent: handling_failure
+      - action: utter_handling_failure
+  - story: story_handling_pressure
+    steps:
+      - intent: handling_pressure
+      - action: utter_handling_pressure
+  - story: story_hello
+    steps:
+      - intent: hello
+      - action: utter_hello
+  - story: story_highschool_supletivo_where_when
+    steps:
+      - intent: highschool_supletivo_where_when
+      - action: utter_highschool_supletivo_where_when
+  - story: story_hobbies_general
+    steps:
+      - intent: hobbies_general
+      - action: utter_hobbies_general
+  - story: story_how_are_you
+    steps:
+      - intent: how_are_you
+      - action: utter_how_are_you
+  - story: story_initiative_proactivity
+    steps:
+      - intent: initiative_proactivity
+      - action: utter_initiative_proactivity
+  - story: story_interrupt
+    steps:
+      - intent: interrupt
+      - action: utter_interrupt
+  - story: story_interview_cut_short_and_reschedule_part2
+    steps:
+      - intent: interview_cut_short_and_reschedule_part2
+      - action: utter_interview_cut_short_and_reschedule_part2
+  - story: story_interviewer_camera_issue
+    steps:
+      - intent: interviewer_camera_issue
+      - action: utter_interviewer_camera_issue
+  - story: story_interviewer_connection_issue
+    steps:
+      - intent: interviewer_connection_issue
+      - action: utter_interviewer_connection_issue
+  - story: story_interviewer_distracted_by_notification
+    steps:
+      - intent: interviewer_distracted_by_notification
+      - action: utter_interviewer_distracted_by_notification
+  - story: story_interviewer_double_booked
+    steps:
+      - intent: interviewer_double_booked
+      - action: utter_interviewer_double_booked
+  - story: story_interviewer_late_warning
+    steps:
+      - intent: interviewer_late_warning
+      - action: utter_interviewer_late_warning
+  - story: story_interviewer_needs_quick_break
+    steps:
+      - intent: interviewer_needs_quick_break
+      - action: utter_interviewer_needs_quick_break
+  - story: story_interviewer_needs_to_leave_early
+    steps:
+      - intent: interviewer_needs_to_leave_early
+      - action: utter_interviewer_needs_to_leave_early
+  - story: story_interviewer_personal_emergency
+    steps:
+      - intent: interviewer_personal_emergency
+      - action: utter_interviewer_personal_emergency
+  - story: story_introduce_interview_focus
+    steps:
+      - intent: introduce_interview_focus
+      - action: utter_introduce_interview_focus
+  - story: story_introduce_interviewer
+    steps:
+      - intent: introduce_interviewer
+      - action: utter_introduce_interviewer
+  - story: story_late
+    steps:
+      - intent: late
+      - action: utter_late
+  - story: story_leadership_potential
+    steps:
+      - intent: leadership_potential
+      - action: utter_leadership_potential
+  - story: story_leadership_style
+    steps:
+      - intent: leadership_style
+      - action: utter_leadership_style
+  - story: story_learning_from_mistakes
+    steps:
+      - intent: learning_from_mistakes
+      - action: utter_learning_from_mistakes
+  - story: story_learning_style
+    steps:
+      - intent: learning_style
+      - action: utter_learning_style
+  - story: story_lgbtq_colleagues
+    steps:
+      - intent: lgbtq_colleagues
+      - action: utter_lgbtq_colleagues
+  - story: story_light_weekend
+    steps:
+      - intent: light_weekend
+      - action: utter_light_weekend
+  - story: story_marital_status
+    steps:
+      - intent: marital_status
+      - action: utter_marital_status
+  - story: story_marriage_how_long
+    steps:
+      - intent: marriage_how_long
+      - action: utter_marriage_how_long
+  - story: story_marriage_stability
+    steps:
+      - intent: marriage_stability
+      - action: utter_marriage_stability
+  - story: story_morning_formal
+    steps:
+      - intent: morning_formal
+      - action: utter_morning_formal
+  - story: story_motivation_drivers
+    steps:
+      - intent: motivation_drivers
+      - action: utter_motivation_drivers
+  - story: story_movies_series
+    steps:
+      - intent: movies_series
+      - action: utter_movies_series
+  - story: story_music_preferences
+    steps:
+      - intent: music_preferences
+      - action: utter_music_preferences
+  - story: story_nice_to_meet_you
+    steps:
+      - intent: nice_to_meet_you
+      - action: utter_nice_to_meet_you
+  - story: story_night_formal
+    steps:
+      - intent: night_formal
+      - action: utter_night_formal
   - story: story_nlu_fallback
     steps:
       - intent: nlu_fallback
-      - action: utter_nlu_fallback
+      - action: action_fallback
+  - story: story_offer_break
+    steps:
+      - intent: offer_break
+      - action: utter_offer_break
+  - story: story_ownership_accountability
+    steps:
+      - intent: ownership_accountability
+      - action: utter_ownership_accountability
+  - story: story_parents_brief_context
+    steps:
+      - intent: parents_brief_context
+      - action: utter_parents_brief_context
+  - story: story_parents_who_are
+    steps:
+      - intent: parents_who_are
+      - action: utter_parents_who_are
+  - story: story_personal_life_summary_short
+    steps:
+      - intent: personal_life_summary_short
+      - action: utter_personal_life_summary_short
+  - story: story_prefer_name
+    steps:
+      - intent: prefer_name
+      - action: utter_prefer_name
+  - story: story_prioritization
+    steps:
+      - intent: prioritization
+      - action: utter_prioritization
+  - story: story_proactivity
+    steps:
+      - intent: proactivity
+      - action: utter_proactivity
+  - story: story_proactivity_initiative
+    steps:
+      - intent: proactivity_initiative
+      - action: utter_proactivity_initiative
+  - story: story_problem_solving
+    steps:
+      - intent: problem_solving
+      - action: utter_problem_solving
+  - story: story_propose_new_slots
+    steps:
+      - intent: propose_new_slots
+      - action: utter_propose_new_slots
+  - story: story_reassure_nervous
+    steps:
+      - intent: reassure_nervous
+      - action: utter_reassure_nervous
+  - story: story_receiving_feedback
+    steps:
+      - intent: receiving_feedback
+      - action: utter_receiving_feedback
+  - story: story_reconnect_after_issue
+    steps:
+      - intent: reconnect_after_issue
+      - action: utter_reconnect_after_issue
+  - story: story_reschedule_other_day
+    steps:
+      - intent: reschedule_other_day
+      - action: utter_reschedule_other_day
+  - story: story_reschedule_other_time_same_day
+    steps:
+      - intent: reschedule_other_time_same_day
+      - action: utter_reschedule_other_time_same_day
+  - story: story_respect_conflicting_opinions
+    steps:
+      - intent: respect_conflicting_opinions
+      - action: utter_respect_conflicting_opinions
+  - story: story_see_you_again
+    steps:
+      - intent: see_you_again
+      - action: utter_see_you_again
+  - story: story_see_you_soon
+    steps:
+      - intent: see_you_soon
+      - action: utter_see_you_soon
+  - story: story_self_development
+    steps:
+      - intent: self_development
+      - action: utter_self_development
+  - story: story_self_learning
+    steps:
+      - intent: self_learning
+      - action: utter_self_learning
+  - story: story_short_notice_reschedule_soon
+    steps:
+      - intent: short_notice_reschedule_soon
+      - action: utter_short_notice_reschedule_soon
+  - story: story_siblings_relationship
+    steps:
+      - intent: siblings_relationship
+      - action: utter_siblings_relationship
+  - story: story_siblings_who_are
+    steps:
+      - intent: siblings_who_are
+      - action: utter_siblings_who_are
+  - story: story_small_talk_hobbies
+    steps:
+      - intent: small_talk_hobbies
+      - action: utter_small_talk_hobbies
+  - story: story_small_talk_learning_english
+    steps:
+      - intent: small_talk_learning_english
+      - action: utter_small_talk_learning_english
+  - story: story_soccer_team
+    steps:
+      - intent: soccer_team
+      - action: utter_soccer_team
+  - story: story_sound_suggestion_turn_off_camera
+    steps:
+      - intent: sound_suggestion_turn_off_camera
+      - action: utter_sound_suggestion_turn_off_camera
+  - story: story_start_meeting
+    steps:
+      - intent: start_meeting
+      - action: utter_start_meeting
+  - story: story_system_outage_internal_tools
+    steps:
+      - intent: system_outage_internal_tools
+      - action: utter_system_outage_internal_tools
+  - story: story_teamwork_collaboration
+    steps:
+      - intent: teamwork_collaboration
+      - action: utter_teamwork_collaboration
+  - story: story_teamwork_style
+    steps:
+      - intent: teamwork_style
+      - action: utter_teamwork_style
+  - story: story_thanks_reschedule
+    steps:
+      - intent: thanks_reschedule
+      - action: utter_thanks_reschedule
+  - story: story_time_management
+    steps:
+      - intent: time_management
+      - action: utter_time_management
+  - story: story_timezone_confusion
+    steps:
+      - intent: timezone_confusion
+      - action: utter_timezone_confusion
+  - story: story_transition_to_questions
+    steps:
+      - intent: transition_to_questions
+      - action: utter_transition_to_questions
+  - story: story_weekend_plans
+    steps:
+      - intent: weekend_plans
+      - action: utter_weekend_plans
+  - story: story_welcome
+    steps:
+      - intent: welcome
+      - action: utter_welcome
+  - story: story_work_life_balance
+    steps:
+      - intent: work_life_balance
+      - action: utter_work_life_balance
+  - story: story_work_location_home_office
+    steps:
+      - intent: work_location_home_office
+      - action: utter_work_location_home_office
+  - story: story_work_style_autonomy
+    steps:
+      - intent: work_style_autonomy
+      - action: utter_work_style_autonomy
+  - story: story_work_under_pressure
+    steps:
+      - intent: work_under_pressure
+      - action: utter_work_under_pressure
+  - story: story_working_remote
+    steps:
+      - intent: working_remote
+      - action: utter_working_remote
+  - story: story_working_under_pressure
+    steps:
+      - intent: working_under_pressure
+      - action: utter_working_under_pressure

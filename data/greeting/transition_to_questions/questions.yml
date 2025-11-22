@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: transition_to_questions
+    examples: |
+      - ótimo, então se você estiver pronto, podemos começar com as perguntas
+      - perfeito, se estiver tudo bem para você, vou começar com a primeira pergunta
+      - muito bom, agora vou entrar nas perguntas sobre a sua experiência
+      - então, se você estiver confortável, podemos passar para as perguntas da entrevista
+      - obrigado por compartilhar, agora vamos para as perguntas principais
+      - ótimo, com isso em mente, vou começar com algumas perguntas sobre o seu histórico
+      - beleza, agora vou começar com as perguntas mais focadas na vaga
+      - obrigado por essa introdução, podemos seguir para as perguntas?
+      - excelente, a partir daqui eu vou trazer algumas perguntas mais específicas
+      - perfeito, vou avançar para as perguntas sobre sua experiência profissional
+      - great, so if you’re ready, we can start with the questions
+      - perfect, if that’s okay with you, I’ll start with the first question
+      - very good, now I’ll move on to the questions about your experience
+      - so, if you’re comfortable, we can move to the interview questions
+      - thanks for sharing that, now we’ll move on to the main questions
+      - great, with that in mind, I’ll start with some questions about your background
+      - alright, now I’ll start with the questions more focused on the role
+      - thank you for that introduction, can we move on to the questions?
+      - excellent, from here I’ll bring a few more specific questions
+      - perfect, I’ll go ahead and move to the questions about your professional experience

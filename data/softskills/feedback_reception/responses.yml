@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_feedback_reception:
+    - custom:
+        vr_pt: |
+          Eu procuro encarar feedback como uma ferramenta de ajuste de rota, não como algo pessoal. Quando recebo um feedback mais crítico, normalmente escuto até o fim, faço perguntas para entender exemplos concretos e depois penso com calma em como transformar aquilo em ação. Mesmo quando eu não concordo cem por cento, eu avalio o que faz sentido, aplico o que é útil e, se necessário, volto a conversar para alinhar expectativas.
+        vr_en: |
+          I try to see feedback as a way to adjust my direction, not as something personal. When I receive more critical feedback I usually listen until the end, ask questions to get concrete examples, and later think carefully about how to turn that into action. Even when I do not agree one hundred percent, I evaluate what makes sense, apply what is useful, and, if necessary, go back and talk again to align expectations.

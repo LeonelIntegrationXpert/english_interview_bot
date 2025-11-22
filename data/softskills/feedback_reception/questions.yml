@@ -1,0 +1,17 @@
+version: '3.1'
+nlu:
+  - intent: feedback_reception
+    examples: |
+      - como você lida com feedbacks, principalmente quando são mais críticos?
+      - você pode me contar sobre um feedback difícil que recebeu e como reagiu?
+      - qual é a sua atitude quando alguém aponta um ponto de melhoria no seu trabalho?
+      - você costuma pedir feedback com frequência ou só quando alguém te procura?
+      - como você transforma feedback em ação concreta no dia a dia?
+      - o que você faz quando não concorda totalmente com um feedback que recebeu?
+      - como foi a última vez em que um feedback mudou a sua forma de trabalhar?
+      - can you tell me about a difficult feedback you received and how you reacted?
+      - what is your attitude when someone points out an area of improvement in your work?
+      - do you usually ask for feedback often or only when someone comes to you?
+      - how do you turn feedback into concrete action in your daily work?
+      - what do you do when you do not fully agree with a feedback you received?
+      - when was the last time a feedback changed the way you work?

@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_highschool_supletivo_where_when:
+    - custom:
+        vr_pt: |
+          Depois do fundamental, eu conclui o supletivo no Uni Colégio, e terminei essa etapa em dois mil e oito.
+        vr_en: |
+          After elementary school, I completed my adult education program, the supletivo, at Uni Colégio, and I finished that stage in two thousand and eight.

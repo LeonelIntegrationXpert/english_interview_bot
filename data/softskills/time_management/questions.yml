@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: time_management
+    examples: |
+      - como você costuma organizar o seu tempo ao longo do dia de trabalho?
+      - o que você faz para garantir que cumpra os prazos que assume?
+      - pode me contar como você planeja suas atividades em um dia com muitas demandas?
+      - você usa alguma ferramenta ou método específico para gerenciar seu tempo?
+      - como você lida quando percebe que não vai conseguir entregar algo no prazo combinado?
+      - o que você faz para evitar deixar tudo para a última hora?
+      - como você se organiza quando precisa equilibrar tarefas operacionais e tarefas mais estratégicas?
+      - pode me dar um exemplo de um período em que você teve que gerenciar muitas atividades ao mesmo tempo?
+      - como você decide quanto tempo alocar para cada atividade do seu dia?
+      - o que você faz para manter foco quando há muitas distrações durante o trabalho?
+      - how do you usually organize your time throughout your workday?
+      - what do you do to make sure you meet the deadlines you commit to?
+      - can you tell me how you plan your activities on a day with many demands?
+      - do you use any specific tool or method to manage your time?
+      - how do you handle it when you realize you will not be able to deliver something on the agreed deadline?
+      - what do you do to avoid leaving everything to the last minute?
+      - how do you organize yourself when you need to balance operational tasks and more strategic tasks?
+      - can you give me an example of a period when you had to manage many activities at the same time?
+      - how do you decide how much time to allocate to each activity in your day?
+      - what do you do to stay focused when there are many distractions during work?

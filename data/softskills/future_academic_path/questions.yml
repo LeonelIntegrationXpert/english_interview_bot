@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: future_academic_path
+    examples: |
+      - como você enxerga seu caminho acadêmico no futuro, em relação a mestrado e doutorado?
+      - você tem planos claros para fazer mestrado e doutorado? Como isso entra no seu futuro?
+      - qual é a sua visão de longo prazo para seguir com mestrado e depois doutorado?
+      - como mestrado e doutorado se encaixam nos seus planos para os próximos anos?
+      - você consegue descrever como imagina sua jornada acadêmica, incluindo mestrado e doutorado?
+      - qual é o papel que você gostaria que mestrado e doutorado tivessem na sua carreira?
+      - você se vê fazendo mestrado primeiro e depois seguindo para um doutorado mais à frente?
+      - em que momento da sua carreira você imagina começar o mestrado e o doutorado?
+      - o que você espera estar estudando em um mestrado e em um doutorado no futuro?
+      - como você equilibra, na sua visão de futuro, mercado de trabalho, mestrado e doutorado?
+      - how do you see your academic path in the future, in terms of a master’s degree and a PhD?
+      - do you have clear plans to pursue a master’s degree and a PhD? How does that fit into your future?
+      - what is your long term view about doing a master’s degree and then a PhD?
+      - how do a master’s degree and a PhD fit into your plans for the next years?
+      - can you describe how you imagine your academic journey, including a master’s degree and a PhD?
+      - what role would you like a master’s degree and a PhD to play in your career?
+      - do you see yourself doing a master’s degree first and then moving on to a PhD later on?
+      - at what moment in your career do you imagine starting a master’s degree and a PhD?
+      - what do you expect to be studying in a master’s program and in a PhD program in the future?
+      - how do you balance, in your future vision, work experience, a master’s degree, and a PhD?

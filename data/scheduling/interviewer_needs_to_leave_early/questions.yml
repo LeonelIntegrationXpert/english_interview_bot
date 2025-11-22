@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_needs_to_leave_early
+    examples: |
+      - só te avisando que hoje eu tenho um compromisso em seguida, então talvez a nossa conversa precise terminar um pouco mais cedo
+      - por causa de um imprevisto na agenda, eu vou precisar encurtar um pouco a entrevista de hoje
+      - tivemos uma reunião marcada de última hora depois dessa, então vou ter que ser um pouco mais objetivo hoje
+      - vou precisar encerrar no horário certinho, porque tenho outro compromisso em seguida, tudo bem para você?
+      - hoje eu vou ter um tempo um pouco mais limitado do que o planejado inicialmente
+      - podemos tentar focar nos pontos principais, porque vou precisar te liberar um pouco antes
+      - só para alinhar expectativa, talvez nossa conversa hoje seja um pouco mais curta
+      - eu vou ter que encerrar alguns minutos antes do previsto, por causa de outro compromisso
+      - infelizmente não vou conseguir estender a entrevista hoje, preciso terminar no horário
+      - pode ser que eu precise fechar a call um pouco antes, mas vou tentar cobrir os pontos principais
+      - just to let you know, I have another commitment right after this, so we might need to finish a bit earlier today
+      - due to a schedule issue, I’ll need to shorten today’s interview a little
+      - we had a last-minute meeting added after this, so I’ll need to be a bit more objective today
+      - I’ll have to finish right on time because I have another commitment after this, is that okay for you?
+      - today I have a slightly more limited time than we initially planned
+      - can we try to focus on the main points, as I’ll need to wrap up a bit earlier?
+      - just to set expectations, our conversation today might be a little shorter
+      - I’ll need to end the call a few minutes earlier than planned because of another commitment
+      - unfortunately, I won’t be able to extend the interview today, I need to finish on time
+      - I might have to close the call a bit earlier, but I’ll do my best to cover the key points

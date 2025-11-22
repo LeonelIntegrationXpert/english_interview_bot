@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: background_noise_or_interruption
+    examples: |
+      - se você ouvir algum barulho de fundo, peço desculpas, o escritório está um pouco movimentado hoje
+      - pode ser que você escute algum ruído, porque tem uma obra acontecendo perto daqui
+      - se em algum momento tiver barulho ao fundo, é por causa do ambiente aqui, mas estou focado em você
+      - pode ser que ouça pessoas falando ao fundo, o espaço hoje está um pouco mais cheio
+      - desculpa qualquer ruído, estamos com alguns ajustes acontecendo no escritório
+      - se ouvir um cachorro latindo ou algum som estranho, é porque estou em home office hoje
+      - talvez você escute alguns avisos no alto-falante, mas isso não deve atrapalhar nossa conversa
+      - o ambiente aqui não está 100% silencioso, mas vou garantir que você consiga me ouvir bem
+      - pode acontecer algum barulho inesperado, mas vou tentar minimizar ao máximo
+      - peço desculpas antecipadamente por qualquer ruído de fundo que possa aparecer
+      - if you hear any background noise, I apologize, the office is a bit busy today
+      - you might hear some noise because there’s some construction going on nearby
+      - if at any point there’s noise in the background, it’s due to the environment here, but I’m focused on you
+      - you may hear people talking in the background, the space is a bit crowded today
+      - sorry for any noise, we have some adjustments happening in the office
+      - if you hear a dog barking or some odd sounds, it’s because I’m working from home today
+      - you might hear some announcements in the background, but that shouldn’t disrupt our conversation
+      - the environment here isn’t completely quiet, but I’ll make sure you can hear me clearly
+      - there might be some unexpected noise, but I’ll try to minimize it as much as possible
+      - I apologize in advance for any background noise that might come up

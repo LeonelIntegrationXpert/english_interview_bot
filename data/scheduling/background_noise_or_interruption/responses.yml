@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_background_noise_or_interruption:
+    - custom:
+        vr_pt: |
+          Sem problema, eu entendo perfeitamente. O áudio está compreensível e consigo te ouvir bem, então podemos seguir tranquilos.
+        vr_en: |
+          No worries, I completely understand. Your audio is clear enough and I can hear you well, so we can definitely continue.

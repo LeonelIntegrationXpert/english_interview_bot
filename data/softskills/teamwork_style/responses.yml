@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_teamwork_style:
+    - custom:
+        vr_pt: |
+          Como membro de time eu procuro ser colaborativo e confiável. Eu gosto de assumir responsabilidade pelas entregas, compartilhar conhecimento e ajudar a organizar o trabalho quando necessário. Também tento ouvir bastante, respeitar perfis diferentes e adaptar a minha comunicação para que todo mundo entenda o que está acontecendo. Para mim, um bom time é aquele em que as pessoas confiam umas nas outras e sabem que podem contar com o grupo.
+        vr_en: |
+          As a team member I try to be collaborative and reliable. I like to take responsibility for deliveries, share knowledge, and help organize the work when needed. I also try to listen carefully, respect different profiles, and adapt my communication so that everyone understands what is going on. For me a good team is one where people trust each other and know that they can count on the group.

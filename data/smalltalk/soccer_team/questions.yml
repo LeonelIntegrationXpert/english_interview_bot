@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: soccer_team
+    examples: |
+      - uma pergunta mais descontraída: você torce para algum time de futebol?
+      - só por curiosidade, qual time de futebol você torce?
+      - você acompanha futebol? Tem algum time do coração?
+      - você gosta de futebol ou não é muito a sua praia?
+      - aqui o pessoal fala bastante de futebol, você entra nas conversas ou prefere outros assuntos?
+      - você costuma assistir jogos de futebol nos fins de semana?
+      - tem algum clube que você acompanha mais, brasileiro ou de fora?
+      - futebol é algo que faz parte do seu dia a dia ou quase nada?
+      - no café do time, o pessoal fala de futebol, você participa ou passa longe?
+      - você se considera fã de futebol ou nem tanto?
+      - a more casual question: do you support any football (soccer) team?
+      - just out of curiosity, do you have a favorite football team?
+      - do you follow football at all? Any team you root for?
+      - do you enjoy football, or is it not really your thing?
+      - people here talk a lot about football, do you usually join those conversations or not really?
+      - do you usually watch football matches on the weekend?
+      - is there any club you follow more closely, either from Brazil or abroad?
+      - is football part of your daily life, or almost not at all?
+      - when the team is talking about football over coffee, do you jump in or stay quiet?
+      - would you say you’re a football fan, or not really?

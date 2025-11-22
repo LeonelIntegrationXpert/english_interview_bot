@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: casual_chat
+    examples: |
+      - então, como foi seu dia até agora?
+      - você teve um dia muito corrido?
+      - conseguiu chegar tranquilo até aqui?
+      - pegou muito trânsito para chegar?
+      - como está o seu dia hoje?
+      - como foi sua semana até agora?
+      - teve muita reunião hoje?
+      - antes de começar, como você está se sentindo?
+      - você já tinha participado de um processo com a gente antes?
+      - deu tudo certo para entrar na call?
+      - how has your day been so far?
+      - has your day been very busy?
+      - did you have any trouble getting here?
+      - did you catch a lot of traffic on your way here?
+      - how is your day going today?
+      - how has your week been so far?
+      - have you had many meetings today?
+      - before we start, how are you feeling?
+      - have you ever been through a process with us before?
+      - did everything work fine for you to join the call?

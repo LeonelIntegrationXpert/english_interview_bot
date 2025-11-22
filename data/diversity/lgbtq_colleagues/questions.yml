@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: lgbtq_colleagues
+    examples: |
+      - como você se sente em relação a trabalhar com colegas LGBTQIA+?
+      - você teria algum problema em trabalhar com colegas homossexuais ou LGBTQIA+?
+      - como é para você atuar em times com pessoas de diferentes orientações sexuais?
+      - em um time com pessoas LGBTQIA+, como você encara essa diversidade?
+      - você se sente confortável em ambientes onde existem pessoas LGBTQIA+?
+      - você já trabalhou com colegas LGBTQIA+? Como foi essa experiência?
+      - para você, faz diferença a orientação sexual dos colegas no trabalho?
+      - como você lida com a diversidade de orientação sexual no dia a dia profissional?
+      - você teria alguma dificuldade em colaborar diretamente com pessoas LGBTQIA+?
+      - qual é a sua postura em relação a respeito à orientação sexual dos colegas?
+      - how do you feel about working with LGBTQIA+ colleagues?
+      - would you have any issue working with homosexual or LGBTQIA+ colleagues?
+      - how is it for you to work in teams with people of different sexual orientations?
+      - in a team with LGBTQIA+ people, how do you see that kind of diversity?
+      - do you feel comfortable in environments where there are LGBTQIA+ people?
+      - have you worked with LGBTQIA+ colleagues before? How was that experience?
+      - does a colleague’s sexual orientation make any difference to you at work?
+      - how do you deal with diversity of sexual orientation in your professional routine?
+      - would you have any difficulty collaborating directly with LGBTQIA+ people?
+      - what is your attitude regarding respect for your colleagues’ sexual orientation?

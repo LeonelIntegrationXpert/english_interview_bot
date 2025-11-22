@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_hobbies_general:
+    - custom:
+        vr_pt: |
+          No meu tempo livre, eu gosto bastante de estudar, organizar projetos pessoais e trabalhar em ideias relacionadas a tecnologia e integração. Também reservo um tempo para minha família e para aprender coisas novas, principalmente em inglês e na área técnica.
+        vr_en: |
+          In my free time, I really enjoy studying, working on personal projects, and exploring ideas related to technology and integration. I also make sure to spend time with my family and keep learning new things, especially in English and in the technical area.

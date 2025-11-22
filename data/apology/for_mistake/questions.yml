@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: for_mistake
+    examples: |
+      - desculpa pelo erro
+      - foi mal pelo erro
+      - me desculpa, eu errei
+      - peço desculpas pelo engano
+      - desculpa, entendi errado
+      - desculpa, eu cometi um erro
+      - perdão pelo mal-entendido
+      - desculpa pelo mal-entendido
+      - desculpa, acabei confundindo as coisas
+      - desculpa, passei uma informação incorreta
+      - sorry for the mistake
+      - I’m sorry, I made a mistake
+      - my apologies for the mistake
+      - sorry, I got that wrong
+      - I apologize for the misunderstanding
+      - sorry for the misunderstanding
+      - sorry, I misunderstood that
+      - sorry, I gave you the wrong information
+      - my apologies, I was mistaken
+      - sorry, I got things mixed up

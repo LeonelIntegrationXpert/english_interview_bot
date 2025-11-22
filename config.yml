@@ -22,7 +22,7 @@ pipeline:
 
   # ─ Classificação de Intents e Entity Recognition
   - name: DIETClassifier
-    epochs: 20
+    epochs: 5
     constrain_similarities: true
 
   # ─ FallbackClassifier dispara quando confidence ≤ 0.85
@@ -35,7 +35,7 @@ pipeline:
 
   # ─ Response Selector (para retrieval intents)
   - name: ResponseSelector
-    epochs: 20
+    epochs: 5
     constrain_similarities: true
 
 policies:

@@ -1,0 +1,16 @@
+version: '3.1'
+nlu:
+  - intent: dealing_ambiguity
+    examples: |
+      - como você lida quando recebe uma demanda pouco clara ou muito aberta?
+      - o que você faz quando não tem todas as informações para começar um trabalho?
+      - pode me contar sobre uma situação em que havia muita ambiguidade no projeto?
+      - como você age quando as expectativas não estão muito bem definidas?
+      - o que você faz para buscar clareza sem travar completamente o andamento?
+      - como você equilibra agir com as informações que tem e, ao mesmo tempo, não assumir demais?
+      - how do you deal with a task that is not very clear or is very open?
+      - what do you do when you do not have all the information to start a piece of work?
+      - can you tell me about a situation where there was a lot of ambiguity in the project?
+      - how do you act when expectations are not very well defined?
+      - what do you do to search for clarity without blocking the progress completely?
+      - how do you balance acting with the information you have and at the same time not assuming too much?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: check_company_knowledge
+    examples: |
+      - você chegou a pesquisar um pouco sobre a nossa empresa antes da entrevista?
+      - você já conhecia a nossa empresa antes de se inscrever para a vaga?
+      - o quanto você já conhece sobre a nossa empresa hoje?
+      - você teve a chance de olhar nosso site ou nossas redes antes da entrevista?
+      - você está familiarizado com o que a nossa empresa faz?
+      - você já tinha ouvido falar da gente antes desse processo?
+      - você conseguiu dar uma olhada nos nossos produtos ou serviços?
+      - você conhece um pouco sobre o nosso mercado de atuação?
+      - você teve tempo de pesquisar sobre a empresa e sobre essa posição?
+      - o que você já conhecia da empresa antes de aplicar para a vaga?
+      - did you have the chance to research our company before this interview?
+      - were you already familiar with our company before applying for this role?
+      - how much do you know about our company today?
+      - have you had the chance to look at our website or social media before the interview?
+      - are you familiar with what our company does?
+      - had you heard about us before starting this process?
+      - were you able to take a look at our products or services?
+      - do you know a bit about the market we operate in?
+      - did you have time to read about the company and this position?
+      - what did you already know about the company before you applied?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: reschedule_other_time_same_day
+    examples: |
+      - tivemos um pequeno atraso aqui, você se importa se a gente remarcar para um horário mais tarde hoje?
+      - minha reunião anterior estendeu além do previsto, você consegue conversar em outro horário ainda hoje?
+      - estou com um conflito agora, mas consigo falar mais tarde hoje, isso funcionaria para você?
+      - se for possível para você, eu gostaria de remarcar essa entrevista para mais tarde no dia, tudo bem?
+      - acabou surgindo uma demanda urgente nesse horário, você teria disponibilidade em outro horário hoje?
+      - posso te pedir para ajustar esse horário para mais tarde hoje? Tive um imprevisto agora
+      - eu não vou conseguir nesse exato horário, mas ainda posso hoje em outro horário, isso faz sentido para você?
+      - tivemos um atraso na agenda, você toparia remarcar essa conversa para um pouco mais tarde hoje?
+      - você consegue adiar essa entrevista para um horário mais tarde ainda hoje?
+      - se não for um problema, podemos só deslocar essa conversa para outro horário hoje?
+      - we’re running a bit behind schedule here, would you mind if we moved this to a later time today?
+      - my previous meeting ran longer than expected, could you talk at a different time later today?
+      - I’ve got a conflict right now, but I’m available later today, would that work for you?
+      - if it’s possible for you, I’d like to reschedule this interview for later today, is that okay?
+      - something urgent came up at this time, would you be available at another time today?
+      - can I ask you to move this to a later slot today? I’ve just had something unexpected come up
+      - I won’t be able to do it right at this time, but I’m still free later today, does that make sense for you?
+      - our schedule is running late, would you be open to rescheduling this conversation for a bit later today?
+      - would you be able to push this interview to a later time today?
+      - if it’s not a problem, can we just shift this conversation to another time today?

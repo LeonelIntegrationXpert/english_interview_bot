@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: dealing_with_change
+    examples: |
+      - como você reage quando há uma mudança grande de prioridade em um projeto?
+      - pode me contar sobre uma situação em que o escopo mudou no meio do caminho?
+      - o que você faz para se adaptar quando uma decisão estratégica muda de forma repentina?
+      - como você lida com mudanças frequentes de direcionamento vindas do cliente ou da liderança?
+      - você se considera uma pessoa flexível diante de mudanças? Por quê?
+      - pode me dar um exemplo de uma mudança que parecia negativa no início, mas trouxe algo positivo depois?
+      - como você se organiza quando precisa abandonar um plano e construir outro rapidamente?
+      - o que é mais desafiador para você quando o contexto muda de forma inesperada?
+      - como você ajuda o time a se adaptar quando todos são impactados por uma mudança?
+      - qual é a sua visão sobre mudanças constantes em projetos de tecnologia?
+      - how do you react when there is a big change in priorities in a project?
+      - can you tell me about a situation where the scope changed in the middle of the work?
+      - what do you do to adapt when a strategic decision suddenly changes?
+      - how do you deal with frequent changes in direction coming from the client or from leadership?
+      - do you consider yourself a flexible person when facing changes, and why?
+      - can you give me an example of a change that seemed negative at first but brought something positive later?
+      - how do you organize yourself when you need to drop one plan and build another one quickly?
+      - what is most challenging for you when the context changes unexpectedly?
+      - how do you help the team adapt when everyone is impacted by a change?
+      - what is your view about constant changes in technology projects?

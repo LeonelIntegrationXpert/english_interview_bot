@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_check_company_knowledge:
+    - custom:
+        vr_pt: |
+          Sim, eu pesquisei sobre a empresa antes da entrevista. Olhei o site, algumas notícias e também o LinkedIn, e gostei bastante da forma como vocês atuam no mercado.
+        vr_en: |
+          Yes, I did some research about the company before the interview. I went through your website, some news, and also your LinkedIn page, and I really liked the way you position yourselves in the market.

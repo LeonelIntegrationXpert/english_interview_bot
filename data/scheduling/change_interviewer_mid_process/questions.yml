@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: change_interviewer_mid_process
+    examples: |
+      - só para te avisar, pode ser que em algum momento outro colega entre na call para continuar a entrevista
+      - em parte da nossa conversa, um outro entrevistador pode assumir, tudo bem para você?
+      - talvez eu precise sair antes e um colega meu deve seguir com a entrevista
+      - ao longo da call, pode ser que outra pessoa do time entre para complementar as perguntas
+      - se eu precisar sair, um outro membro da equipe vai continuar a entrevista com você
+      - vou começar a entrevista, mas um colega pode entrar depois para conduzir outra parte
+      - pode ser que em algum momento outra pessoa assuma a condução da entrevista, está ok?
+      - em determinado ponto, um gestor do time pode entrar para fazer mais algumas perguntas
+      - existe a possibilidade de outro entrevistador entrar e continuar de onde paramos
+      - caso eu precise sair, não se assuste se outra pessoa aparecer para seguir a conversa
+      - just to let you know, at some point another colleague may join the call to continue the interview
+      - during part of our conversation, another interviewer might take over, is that okay for you?
+      - I might need to leave earlier and one of my colleagues will probably continue the interview
+      - at some point in the call, someone else from the team may join to add a few questions
+      - if I need to leave, another team member will carry on with the interview
+      - I’ll start the interview, but a colleague may join later to lead another part
+      - it’s possible that at some point another person will take over the interview, is that alright?
+      - at a certain point, a manager from the team might join to ask a few more questions
+      - there is a chance another interviewer will join and continue from where we stopped
+      - if I have to leave, don’t be surprised if someone else appears to continue the conversation

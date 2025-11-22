@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: asking_for_help
+    examples: |
+      - como você lida com situações em que não sabe como resolver um problema?
+      - você costuma pedir ajuda quando está travado em alguma tarefa? Como faz isso?
+      - pode me dar um exemplo de um momento em que você precisou pedir apoio para alguém do time?
+      - o que você considera um bom equilíbrio entre tentar sozinho e pedir ajuda?
+      - você já teve receio de pedir ajuda por achar que poderiam te julgar? Como lidou com isso?
+      - como você costuma formular uma pergunta quando precisa de suporte técnico ou funcional?
+      - o que você faz para não depender sempre dos outros, mas também não ficar sozinho demais no problema?
+      - quando alguém te ajuda, como você garante que aprendeu de fato e não só copiou a solução?
+      - como você vê a colaboração em situações em que ninguém tem a resposta pronta?
+      - qual é a sua postura quando alguém vem te pedir ajuda em algo que você domina?
+      - how do you handle situations where you do not know how to solve a problem?
+      - do you usually ask for help when you are stuck on a task? How do you do that?
+      - can you give me an example of a moment when you needed to ask someone on the team for support?
+      - what do you consider a good balance between trying on your own and asking for help?
+      - have you ever felt afraid to ask for help because you thought people could judge you? How did you deal with that?
+      - how do you usually formulate a question when you need technical or functional support?
+      - what do you do to avoid depending on others all the time, but also not staying alone with the problem?
+      - when someone helps you, how do you make sure you actually learned and not only copied the solution?
+      - how do you see collaboration in situations where nobody has the answer ready?
+      - what is your attitude when someone comes to you asking for help in something you are strong at?

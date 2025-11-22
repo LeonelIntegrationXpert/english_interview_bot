@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: cultural_backgrounds
+    examples: |
+      - como você lida com pessoas de culturas, religiões ou origens diferentes da sua?
+      - você se sente à vontade em times multiculturais?
+      - como é para você trabalhar com pessoas de países ou contextos culturais diferentes?
+      - você já trabalhou em times com muita diversidade cultural? Como foi?
+      - a diferença cultural dos colegas impacta a forma como você se relaciona no time?
+      - como você reage quando alguém tem costumes ou valores culturais diferentes dos seus?
+      - para você, qual é o principal cuidado ao trabalhar com pessoas de culturas distintas?
+      - você se adapta bem a ambientes com realidades culturais diferentes da sua?
+      - como você enxerga o respeito às diferenças culturais no trabalho?
+      - você vê vantagem em ter pessoas de diferentes origens no mesmo time?
+      - how do you handle working with people from different cultures, religions, or backgrounds?
+      - do you feel comfortable in multicultural teams?
+      - what is it like for you to work with people from different countries or cultural contexts?
+      - have you worked in teams with a lot of cultural diversity? How was that?
+      - does cultural difference affect the way you relate to coworkers on the team?
+      - how do you react when someone has customs or cultural values different from yours?
+      - in your opinion, what is the main care to have when working with people from different cultures?
+      - do you adapt well to environments with cultural realities different from your own?
+      - how do you see respect for cultural differences in the workplace?
+      - do you see benefits in having people from different backgrounds on the same team?

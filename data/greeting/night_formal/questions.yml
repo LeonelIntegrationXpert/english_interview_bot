@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: night_formal
+    examples: |
+      - boa noite, foi um prazer
+      - boa noite, obrigado pela conversa
+      - boa noite, obrigado pela reunião
+      - boa noite, a gente se fala amanhã
+      - boa noite, bom descanso
+      - boa noite, tenha uma ótima noite
+      - boa noite, foi muito bom falar com você
+      - boa noite, até a próxima
+      - boa noite, muito obrigado pelo seu tempo
+      - boa noite, encerramos por aqui
+      - good night
+      - good night, it was a pleasure talking to you
+      - good night, thanks for your time
+      - good night, thanks for the meeting
+      - good night, have a great night
+      - good night, talk to you tomorrow
+      - good night, it was great speaking with you
+      - good night, see you next time
+      - good night, thank you for your time
+      - good night, we’ll stop here for today

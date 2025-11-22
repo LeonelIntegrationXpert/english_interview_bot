@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: college_tech_internet_systems
+    examples: |
+      - você pode me falar sobre a sua formação superior principal?
+      - em qual curso superior você se formou?
+      - qual é a sua formação em nível de graduação ou tecnologia?
+      - onde você se formou na área de tecnologia?
+      - qual foi o curso tecnológico que você concluiu?
+      - você poderia me dizer qual tecnólogo você fez?
+      - em qual instituição você se formou em tecnologia?
+      - qual é o nome do curso superior que você finalizou?
+      - onde você concluiu sua formação em Sistemas para Internet?
+      - pode me contar qual foi sua graduação na área de tecnologia?
+      - could you tell me about your main higher education degree?
+      - what is your university or technologist degree?
+      - which higher education program did you complete?
+      - where did you graduate in the technology area?
+      - what was the technology degree you finished?
+      - could you tell me which technologist program you completed?
+      - at which institution did you graduate in technology?
+      - what is the name of the higher education course you completed?
+      - where did you complete your Internet Systems degree?
+      - could you share your main academic background in technology?

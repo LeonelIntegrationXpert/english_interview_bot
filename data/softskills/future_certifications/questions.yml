@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: future_certifications
+    examples: |
+      - você tem planos de continuar tirando certificações?
+      - como você enxerga o papel das certificações na sua carreira?
+      - que certificações você ainda pretende conquistar nos próximos anos?
+      - você pensa em focar mais certificações em Salesforce, SAP ou ambos?
+      - qual é a sua estratégia em relação a certificações de médio e longo prazo?
+      - você considera certificações um pilar importante do seu desenvolvimento?
+      - que tipo de certificação você enxerga para você em um nível mais avançado?
+      - você pretende buscar certificações mais sênior ou de arquitetura?
+      - como você escolhe quais certificações vão fazer mais sentido para a sua carreira?
+      - nos próximos anos, onde você quer chegar em termos de certificações?
+      - do you plan to keep pursuing certifications?
+      - how do you see the role of certifications in your career?
+      - which certifications do you still want to achieve in the next years?
+      - are you planning to focus more on Salesforce certifications, SAP certifications, or both?
+      - what is your medium and long term strategy regarding certifications?
+      - do you consider certifications an important pillar of your development?
+      - what kind of advanced certifications do you see yourself going for?
+      - do you intend to pursue more senior or architect level certifications?
+      - how do you decide which certifications make more sense for your career?
+      - in the next years, where do you want to be in terms of certifications?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: evening_formal
+    examples: |
+      - boa noite
+      - boa noite, tudo bem?
+      - boa noite, como vai?
+      - boa noite, como você está?
+      - boa noite, tudo certo por aí?
+      - boa noite, obrigado pelo seu tempo
+      - boa noite, obrigado por participar
+      - boa noite, é um prazer falar com você
+      - boa noite a todos
+      - boa noite, pessoal
+      - good evening
+      - good evening, how are you?
+      - good evening, how are you doing today?
+      - good evening, thanks for your time
+      - good evening, thanks for meeting with me
+      - good evening, it’s a pleasure to speak with you
+      - good evening everyone
+      - good evening, team
+      - good evening, hope you’re doing well
+      - good evening, hope you had a good day

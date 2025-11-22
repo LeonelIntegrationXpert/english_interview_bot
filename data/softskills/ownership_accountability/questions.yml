@@ -1,0 +1,16 @@
+version: '3.1'
+nlu:
+  - intent: ownership_accountability
+    examples: |
+      - como você enxerga o conceito de ownership nas suas entregas?
+      - o que significa, na prática, assumir responsabilidade por um projeto?
+      - pode me dar um exemplo em que você realmente "comprou a briga" de uma entrega?
+      - o que você faz quando algo dá errado em uma tarefa que estava sob sua responsabilidade?
+      - como você mostra para o time e para o gestor que eles podem confiar nas suas entregas?
+      - para você, qual é a diferença entre só executar uma tarefa e realmente ter ownership sobre ela?
+      - how do you see the concept of ownership in your deliveries?
+      - what does it mean in practice to take responsibility for a project?
+      - can you give me an example where you really took full ownership of a delivery?
+      - what do you do when something goes wrong in a task that was under your responsibility?
+      - how do you show the team and the manager that they can trust your deliveries?
+      - for you, what is the difference between just executing a task and really having ownership of it?

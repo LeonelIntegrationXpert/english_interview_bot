@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_morning_formal:
+    - custom:
+        vr_pt: |
+          Bom dia! Tudo ótimo por aqui, e com você?
+        vr_en: |
+          Good morning! I’m doing great, and you?

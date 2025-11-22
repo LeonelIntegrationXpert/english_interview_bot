@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: teamwork_collaboration
+    examples: |
+      - como você descreveria o seu jeito de trabalhar em equipe?
+      - pode me contar sobre um projeto em que a colaboração do time fez muita diferença?
+      - o que você faz para criar uma boa relação com pessoas novas no time?
+      - como você age quando percebe que alguém está mais isolado ou calado nas reuniões?
+      - você costuma compartilhar conhecimento com o time? Como isso acontece na prática?
+      - pode me dar um exemplo de uma situação em que você ajudou alguém do time sem que ele pedisse diretamente?
+      - como você reage quando uma ideia sua é melhorada por outra pessoa do time?
+      - o que você faz para lidar com perfis muito diferentes dentro da mesma equipe?
+      - como você enxerga o equilíbrio entre contribuição individual e resultado coletivo?
+      - na sua visão, o que faz um time funcionar bem no dia a dia?
+      - how would you describe your way of working in a team?
+      - can you tell me about a project where teamwork made a big difference?
+      - what do you do to build a good relationship with new people in the team?
+      - how do you act when you notice that someone is more isolated or quiet in the meetings?
+      - do you usually share knowledge with the team? How does that work in practice?
+      - can you give me an example of a situation where you helped someone on the team even if they did not ask directly?
+      - how do you react when one of your ideas is improved by someone else on the team?
+      - what do you do to deal with very different profiles inside the same team?
+      - how do you see the balance between individual contribution and collective results?
+      - in your view, what makes a team work well in the day to day?

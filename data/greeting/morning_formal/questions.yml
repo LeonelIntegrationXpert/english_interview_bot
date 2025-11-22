@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: morning_formal
+    examples: |
+      - bom dia
+      - bom dia, tudo bem?
+      - bom dia, como vai?
+      - bom dia, como você está?
+      - bom dia, tudo certo por aí?
+      - bom dia, obrigado pelo seu tempo
+      - bom dia, obrigado por participar
+      - bom dia, é um prazer falar com você
+      - bom dia a todos
+      - bom dia, pessoal
+      - good morning
+      - good morning, how are you?
+      - good morning, how are you doing today?
+      - good morning, thanks for your time
+      - good morning, thanks for meeting with me
+      - good morning, it’s a pleasure to speak with you
+      - good morning everyone
+      - good morning, team
+      - good morning, hope you’re doing well
+      - good morning, hope your day is going well

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: marriage_how_long
+    examples: |
+      - há quanto tempo você é casado?
+      - você pode me dizer há quantos anos você é casado?
+      - quanto tempo de casamento você tem hoje?
+      - só por curiosidade, há quanto tempo você está casado?
+      - você está casado há quantos anos?
+      - em termos de tempo, quanto tempo de casamento você já tem?
+      - você poderia me contar há quanto tempo vocês são casados?
+      - falando da sua vida pessoal, há quanto tempo você é casado?
+      - hoje você tem quantos anos de casamento?
+      - quanto tempo faz desde que você se casou?
+      - how long have you been married?
+      - could you tell me how many years you have been married?
+      - how many years of marriage do you have today?
+      - just out of curiosity, how long have you been married?
+      - for how many years have you been married now?
+      - in terms of time, how long have you been married?
+      - could you share how long you and your wife have been married?
+      - speaking about your personal life, how long have you been married?
+      - how many years of marriage do you have at the moment?
+      - how long has it been since you got married?

@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_prioritization:
+    - custom:
+        vr_pt: |
+          Eu costumo priorizar considerando impacto no negócio, prazo e dependências com outras pessoas ou times. Quando tudo parece urgente, eu procuro colocar tudo na mesa, organizar visualmente e discutir, quando necessário, com quem pediu as demandas, para alinhar o que realmente precisa vir primeiro. Também tento proteger espaço para atividades estratégicas, porque sei que, se eu só reagir ao urgente, o time não evolui. Em resumo, eu priorizo com base em valor gerado, riscos envolvidos e alinhamento claro com as partes interessadas.
+        vr_en: |
+          I usually prioritize by looking at business impact, deadlines, and dependencies with other people or teams. When everything seems urgent I put all the demands on the table, organize them visually, and, when needed, discuss with the stakeholders to align what really must come first. I also try to protect time for strategic work, because I know that if I only react to what is urgent the team does not evolve. In short, I prioritize based on value delivered, risks involved, and clear alignment with the people who requested the work.

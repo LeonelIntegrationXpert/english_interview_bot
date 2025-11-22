@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_proactivity:
+    - custom:
+        vr_pt: |
+          Eu me considero uma pessoa proativa, principalmente na identificação de problemas e melhorias. Quando vejo algo que pode ser ajustado, eu costumo analisar o impacto, pensar em uma proposta simples e levar para o time ou para o gestor já com algumas alternativas. Também me ofereço para ajudar em pontos críticos, mesmo que não estejam diretamente na minha responsabilidade. Ao mesmo tempo, sempre respeito o contexto do time e procuro alinhar antes de sair mudando qualquer coisa.
+        vr_en: |
+          I consider myself a proactive person, especially in identifying problems and improvements. When I see something that can be adjusted I usually analyze the impact, think about a simple proposal, and bring it to the team or to the manager already with some options. I also offer help in critical points, even when they are not directly in my scope. At the same time I always respect the team context and I try to align before changing anything.

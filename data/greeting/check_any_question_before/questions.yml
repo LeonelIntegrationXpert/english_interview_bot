@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: check_any_question_before
+    examples: |
+      - antes de começarmos, você tem alguma pergunta para mim?
+      - antes de eu entrar nas perguntas, quer saber algo sobre a vaga ou sobre a empresa?
+      - você tem alguma dúvida inicial sobre o processo ou sobre o time?
+      - aproveitando, antes de eu começar, tem algo que você gostaria de perguntar?
+      - antes de eu seguir, quer que eu esclareça alguma coisa sobre a posição?
+      - tem alguma informação que você gostaria de ter antes de começarmos as perguntas?
+      - você gostaria de perguntar algo sobre o projeto ou o contexto da função?
+      - antes das perguntas, tem alguma curiosidade sobre a empresa ou o time?
+      - quer que eu explique mais alguma coisa antes de avançarmos?
+      - você tem alguma pergunta inicial que queira fazer antes de continuarmos?
+      - before we start, do you have any questions for me?
+      - before I move on to my questions, is there anything you’d like to know about the role or the company?
+      - do you have any initial questions about the process or the team?
+      - before I begin, is there anything you’d like to ask?
+      - before I continue, would you like me to clarify anything about the position?
+      - is there any information you’d like to have before we go into the questions?
+      - would you like to ask anything about the project or the context of the role?
+      - before the questions, do you have any questions about the company or the team?
+      - would you like me to explain anything else before we move forward?
+      - do you have any initial questions you’d like to ask before we continue?

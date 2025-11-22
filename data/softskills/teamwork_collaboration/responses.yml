@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_teamwork_collaboration:
+    - custom:
+        vr_pt: |
+          Eu gosto muito de trabalhar em equipe e vejo o time como um espaço de troca constante. Procuro ser acessível, compartilhar o que eu sei e, ao mesmo tempo, aprender com as outras pessoas. Tento incentivar quem está mais quieto a participar, fazendo perguntas abertas e criando um clima em que ninguém se sinta julgado. Quando uma ideia minha é melhorada, eu encaro isso como algo positivo, porque o objetivo final é ter a melhor solução possível. Para mim, um bom time é aquele em que existe confiança, transparência e foco no resultado coletivo, não apenas na performance individual.
+        vr_en: |
+          I really enjoy working in a team and I see it as a space for constant exchange. I try to be approachable, share what I know, and at the same time learn from other people. I encourage quieter colleagues to participate by asking open questions and helping to create an environment where nobody feels judged. When one of my ideas is improved by someone else, I see that as something positive because the final goal is to have the best solution possible. For me a good team is one where there is trust, transparency, and focus on the collective result, not only on individual performance.

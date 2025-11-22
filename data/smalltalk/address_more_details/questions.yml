@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: address_more_details
+    examples: |
+      - você pode me falar com um pouco mais de detalhe onde você mora?
+      - poderia compartilhar seu endereço completo, só para registro?
+      - em qual bairro você mora atualmente?
+      - você lembra o endereço completo, com bairro e número?
+      - só para fins de cadastro, qual é o seu endereço?
+      - poderia me dizer seu endereço com bairro, número, cidade e estado?
+      - em qual bairro de Pelotas você está morando hoje?
+      - seu endereço atual é em qual bairro e qual número?
+      - você poderia descrever seu endereço atual para eu anotar?
+      - para registro interno, qual é o seu endereço residencial?
+      - could you tell me in a bit more detail where you live?
+      - could you share your full address, just for our records?
+      - which neighborhood do you live in currently?
+      - do you remember your full address, including neighborhood and number?
+      - just for registration purposes, what is your address?
+      - could you tell me your address with neighborhood, number, city, and state?
+      - in which neighborhood in Pelotas are you living today?
+      - what is your current residential address, including the number?
+      - could you describe your current address so I can write it down?
+      - for internal records, what is your home address?

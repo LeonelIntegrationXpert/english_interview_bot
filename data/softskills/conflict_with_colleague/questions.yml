@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: conflict_with_colleague
+    examples: |
+      - você pode me contar sobre uma situação em que você teve um conflito com alguém do time?
+      - como você costuma agir quando discorda fortemente de um colega de trabalho?
+      - o que você faz quando percebe que a comunicação com alguém do time não está fluindo bem?
+      - já aconteceu de você ter um atrito com outro profissional em projeto? Como foi?
+      - como você lida quando sente que alguém não está te ouvindo durante uma discussão de trabalho?
+      - pode me dar um exemplo de uma vez em que você precisou resolver um mal-entendido no time?
+      - o que você faz para não deixar um conflito pessoal atrapalhar o resultado do projeto?
+      - como você reage quando alguém critica sua ideia de forma um pouco mais dura?
+      - em um conflito, você tende a ser mais direto ou mais diplomático? Por quê?
+      - qual foi a principal lição que você aprendeu ao lidar com conflitos profissionais?
+      - can you tell me about a situation where you had a conflict with someone on your team?
+      - how do you usually act when you strongly disagree with a coworker?
+      - what do you do when you notice that communication with someone on the team is not going well?
+      - has it ever happened that you had friction with another professional in a project? How was it?
+      - how do you handle it when you feel that someone is not listening to you during a work discussion?
+      - can you give me an example of a time when you had to resolve a misunderstanding in the team?
+      - what do you do to avoid a personal conflict affecting the project results?
+      - how do you react when someone criticizes your idea in a rather tough way?
+      - in a conflict, do you tend to be more direct or more diplomatic, and why?
+      - what is the main lesson you have learned from dealing with professional conflicts?

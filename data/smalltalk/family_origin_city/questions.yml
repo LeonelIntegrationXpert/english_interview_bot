@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: family_origin_city
+    examples: |
+      - de que cidade você é originalmente?
+      - onde você nasceu e cresceu?
+      - qual é a sua cidade de origem?
+      - você ainda mora perto da sua família de origem?
+      - sua família é toda da mesma cidade ou espalhada?
+      - você poderia dizer de que região você vem?
+      - de onde é a sua família, principalmente seus pais e irmãos?
+      - você costuma visitar sua cidade de origem com frequência?
+      - você ainda tem família morando na sua cidade natal?
+      - sua história com sua família é mais ligada ao interior, capital ou outra região?
+      - which city are you originally from?
+      - where were you born and raised?
+      - what is your hometown?
+      - do you still live close to your family of origin?
+      - is your family mostly from the same city or spread out?
+      - could you tell me which region you come from?
+      - where is your family from, especially your parents and siblings?
+      - do you usually visit your hometown often?
+      - do you still have family living in your hometown?
+      - is your family story more connected to the countryside, the capital, or another type of region?

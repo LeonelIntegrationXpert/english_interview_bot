@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_check_start_availability:
+    - custom:
+        vr_pt: |
+          Hoje eu estou trabalhando, então precisaria cumprir o aviso prévio. Em geral, consigo fazer a transição em torno de [X] semanas, mas posso alinhar isso direitinho se o processo avançar.
+        vr_en: |
+          I’m currently employed, so I’d need to serve my notice period. Usually I can make the transition in about [X] weeks, but I can align that more precisely if the process moves forward.

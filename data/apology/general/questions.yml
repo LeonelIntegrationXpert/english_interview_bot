@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: general
+    examples: |
+      - desculpa
+      - foi mal
+      - me desculpa
+      - mil desculpas
+      - peço desculpas
+      - desculpa mesmo
+      - perdão
+      - perdão aí
+      - desculpa qualquer coisa
+      - desculpa se eu atrapalhei
+      - sorry
+      - I’m sorry
+      - I’m really sorry
+      - my apologies
+      - I truly apologize
+      - I’m so sorry about that
+      - sorry about that
+      - I apologize
+      - I sincerely apologize
+      - I’m sorry if I caused any trouble

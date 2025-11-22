@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: bye_general
+    examples: |
+      - tchau
+      - falou
+      - até mais
+      - até logo
+      - até a próxima
+      - fui
+      - a gente se fala
+      - qualquer dúvida, pode me chamar
+      - beleza, até mais
+      - valeu, até a próxima
+      - bye
+      - bye bye
+      - see you
+      - see you later
+      - talk to you later
+      - catch you later
+      - see you next time
+      - see you around
+      - I’ll talk to you later
+      - alright, see you

@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_future_career_direction:
+    - custom:
+        vr_pt: |
+          No longo prazo eu me vejo muito conectado à parte técnica, em papéis de liderança e arquitetura, mas sem perder totalmente a proximidade com o time. Gosto da ideia de ser uma referência técnica, ajudando a definir visão, apoiando decisões de arquitetura e, ao mesmo tempo, desenvolvendo as pessoas ao meu redor. Então eu me vejo em algo entre liderança técnica e arquitetura, com espaço para mentoria e formação de novos profissionais.
+        vr_en: |
+          In the long run I see myself very connected to the technical side, in leadership and architecture roles, but without losing the proximity to the team. I like the idea of being a technical reference, helping to define the vision, supporting architecture decisions, and at the same time developing the people around me. So I see myself in something between technical leadership and architecture, with room for mentoring and helping new professionals grow.

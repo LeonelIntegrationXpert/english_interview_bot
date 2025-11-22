@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: how_are_you
+    examples: |
+      - tudo bem?
+      - como vai?
+      - como você tá?
+      - como cê tá?
+      - como andam as coisas?
+      - como tá a correria?
+      - firmeza?
+      - tudo certo?
+      - tudo tranquilo?
+      - beleza?
+      - how are you?
+      - how are you doing?
+      - how’s it going?
+      - how are things?
+      - how have you been?
+      - you doing okay?
+      - how’s everything?
+      - how’s your day going?
+      - how’s your week going?
+      - everything good?

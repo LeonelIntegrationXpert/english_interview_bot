@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_family_overview:
+    - custom:
+        vr_pt: |
+          Hoje eu sou casado com a Denise Rickes Porto e nós temos duas filhas, a Alice e a Helena. Então eu sempre tento equilibrar bem a rotina profissional com o tempo em família.
+        vr_en: |
+          Today I am married to Denise Rickes Porto and we have two daughters, Alice and Helena. So I always try to balance my professional routine with quality time with my family.

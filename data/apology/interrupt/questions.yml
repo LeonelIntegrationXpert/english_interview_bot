@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: interrupt
+    examples: |
+      - desculpa interromper
+      - foi mal interromper
+      - desculpa cortar você
+      - desculpa te interromper rapidinho
+      - desculpa, só para entender melhor
+      - desculpa, posso só fazer uma pergunta?
+      - desculpa, posso só esclarecer uma coisa?
+      - desculpa entrar no meio
+      - perdão por interromper
+      - desculpa, não quis te cortar
+      - sorry to interrupt
+      - I’m sorry for interrupting
+      - sorry to cut you off
+      - sorry, can I just ask something quickly?
+      - sorry, just to make sure I understand
+      - sorry, can I just clarify one thing?
+      - my apologies for interrupting
+      - sorry for jumping in
+      - sorry, I didn’t mean to cut you off
+      - sorry to interrupt you there

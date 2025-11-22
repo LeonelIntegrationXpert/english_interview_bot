@@ -1,0 +1,16 @@
+version: '3.1'
+nlu:
+  - intent: communication_clarity
+    examples: |
+      - como você faz para se comunicar de forma clara com o time?
+      - o que você faz para ter certeza de que as pessoas entenderam o que você quis dizer?
+      - pode me contar como você explica algo técnico para alguém que não é técnico?
+      - como você adapta a sua comunicação para perfis diferentes de pessoas?
+      - o que você faz quando percebe que houve um mal-entendido na comunicação?
+      - como você garante que todos estejam na mesma página em um projeto?
+      - how do you make sure you communicate clearly with the team?
+      - what do you do to be sure that people understood what you meant?
+      - can you tell me how you explain something technical to someone who is not technical?
+      - how do you adapt your communication to different types of people?
+      - what do you do when you realize that there was a misunderstanding in communication?
+      - how do you make sure that everyone is on the same page in a project?

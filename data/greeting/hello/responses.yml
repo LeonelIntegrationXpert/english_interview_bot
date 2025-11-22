@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_hello:
+    - custom:
+        vr_pt: |
+          Oi, tudo bem?
+        vr_en: |
+          Hi, how are you?

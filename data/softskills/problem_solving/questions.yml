@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: problem_solving
+    examples: |
+      - como você costuma abordar um problema complexo que aparece no seu trabalho?
+      - pode me contar passo a passo o que você faz quando se depara com um desafio novo?
+      - qual é a sua primeira reação quando algo não funciona como esperado em um projeto?
+      - você segue algum método ou estrutura para resolver problemas?
+      - pode me dar um exemplo de um problema difícil que você conseguiu resolver e como fez isso?
+      - como você lida com problemas em que não existe uma solução perfeita, apenas alternativas com trade-offs?
+      - o que você faz para não tomar uma decisão precipitada quando o problema é mais delicado?
+      - você costuma envolver outras pessoas na análise de um problema? Em que momento?
+      - como você registra ou compartilha soluções para que o time possa reutilizar depois?
+      - pode me falar sobre uma situação em que o caminho inicial não deu certo e você teve que mudar totalmente a abordagem?
+      - how do you usually approach a complex problem that appears in your work?
+      - can you walk me through step by step what you do when you face a new challenge?
+      - what is your first reaction when something does not work as expected in a project?
+      - do you follow any method or structure to solve problems?
+      - can you give me an example of a difficult problem you solved and how you did it?
+      - how do you handle problems where there is no perfect solution, only options with trade offs?
+      - what do you do to avoid making a rushed decision when the problem is more delicate?
+      - do you usually involve other people in the analysis of a problem? At what point?
+      - how do you document or share solutions so the team can reuse them later?
+      - can you tell me about a situation where your initial approach did not work and you had to completely change it?

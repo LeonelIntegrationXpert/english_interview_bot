@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_ownership_accountability:
+    - custom:
+        vr_pt: |
+          Para mim, ownership é ir além de simplesmente cumprir uma tarefa. É se importar com o resultado final, com o impacto no cliente e com a forma como o time chega lá. Quando algo está sob minha responsabilidade, eu acompanho de ponta a ponta, antecipo riscos, peço ajuda quando necessário e comunico de forma transparente o andamento. Se algo dá errado, eu assumo a parte que me cabe, ajudo a corrigir o problema e busco ajustar o processo para que não se repita.
+        vr_en: |
+          For me ownership means going beyond just completing a task. It is caring about the final result, the impact on the client, and the way the team gets there. When something is under my responsibility I follow it end to end, I anticipate risks, I ask for help when needed, and I communicate the progress in a transparent way. If something goes wrong I take responsibility for my part, I help fix the problem, and I work on adjusting the process so that it does not happen again.

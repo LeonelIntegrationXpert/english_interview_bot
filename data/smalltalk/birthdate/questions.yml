@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: birthdate
+    examples: |
+      - qual é a sua data de nascimento?
+      - que dia você nasceu?
+      - você pode me dizer sua data de nascimento completa?
+      - só para registrar, qual é a sua data de nascimento?
+      - você nasceu em que dia, mês e ano?
+      - em que ano você nasceu?
+      - qual é a sua data de nascimento, por favor?
+      - você poderia confirmar sua data de nascimento?
+      - você nasceu em que dia?
+      - pode me passar sua data de nascimento?
+      - what is your date of birth?
+      - on which day were you born?
+      - could you tell me your full date of birth?
+      - just to register, what is your date of birth?
+      - what day, month, and year were you born?
+      - in which year were you born?
+      - could you please confirm your date of birth?
+      - what is your exact date of birth?
+      - when is your birthday?
+      - could you share your date of birth with me?

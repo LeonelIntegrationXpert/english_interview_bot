@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_handling_failure:
+    - custom:
+        vr_pt: |
+          Quando algo não sai como esperado, a primeira coisa que eu faço é assumir a responsabilidade e ser transparente sobre o que aconteceu. Eu tento entender a causa raiz, documentar o aprendizado e propor um plano claro de correção, com prazos e próximos passos. Também gosto de alinhar com o time o que podemos fazer diferente da próxima vez, seja no processo, na comunicação ou na validação. Eu vejo falhas como parte do caminho, desde que a gente aprenda rápido e não repita o mesmo erro.
+        vr_en: |
+          When something does not go as expected the first thing I do is take responsibility and be transparent about what happened. I try to understand the root cause, document the learning, and propose a clear correction plan with deadlines and next steps. I also like to align with the team what we can do differently next time, whether in the process, in the communication, or in the validation. I see failures as part of the journey, as long as we learn quickly and do not repeat the same mistake.

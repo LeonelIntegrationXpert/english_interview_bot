@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_transition_to_questions:
+    - custom:
+        vr_pt: |
+          Perfeito, podemos começar. Fico à vontade para responder às perguntas sobre minha experiência.
+        vr_en: |
+          Perfect, we can start. I feel comfortable answering your questions about my experience.

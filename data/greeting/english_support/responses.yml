@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_english_support:
+    - custom:
+        vr_pt: |
+          Obrigado, isso me deixa bem mais tranquilo. Se eu não entender alguma coisa, eu te peço para repetir ou reformular.
+        vr_en: |
+          Thank you, that makes me feel much more comfortable. If I don’t understand something, I’ll ask you to repeat or rephrase it.

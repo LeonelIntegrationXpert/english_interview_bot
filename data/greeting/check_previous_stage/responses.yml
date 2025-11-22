@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_check_previous_stage:
+    - custom:
+        vr_pt: |
+          Eu tive uma conversa inicial com recrutamento, onde falaram um pouco sobre a vaga e sobre o processo. Hoje é a primeira entrevista mais aprofundada.
+        vr_en: |
+          I had an initial conversation with recruiting, where they shared a bit about the role and the process. Today is my first more in-depth interview.

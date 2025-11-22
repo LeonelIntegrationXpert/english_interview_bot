@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: english_support
+    examples: |
+      - se em algum momento eu falar rápido demais em inglês, pode me pedir para repetir
+      - se eu falar muito rápido, pode pedir para eu desacelerar, sem problema
+      - se tiver qualquer dificuldade com o inglês, é só me avisar, tudo bem?
+      - se alguma palavra em inglês não ficar clara, pode pedir para eu explicar de outra forma
+      - se você não entender alguma pergunta em inglês, pode pedir para eu repetir
+      - se precisar, posso reformular as perguntas em inglês para ficar mais fácil
+      - se ficar em dúvida em algum termo, pode perguntar, não tem problema
+      - se quiser que eu repita devagar alguma parte, é só falar
+      - se em algum momento o inglês atrapalhar, a gente ajusta o ritmo
+      - não tem problema pedir para repetir a pergunta em inglês se precisar
+      - if at any point I speak too fast in English, feel free to ask me to repeat
+      - if I’m speaking too quickly, you can ask me to slow down, no problem
+      - if you have any difficulty with the English, just let me know, okay?
+      - if any word in English isn’t clear, you can ask me to explain it differently
+      - if you don’t understand a question in English, you can always ask me to repeat it
+      - if needed, I can rephrase the questions in English to make them easier
+      - if you’re unsure about any term, feel free to ask, that’s totally fine
+      - if you want me to repeat something more slowly, just say so
+      - if at any point the English gets in the way, we can adjust the pace
+      - it’s absolutely fine to ask me to repeat a question in English if you need

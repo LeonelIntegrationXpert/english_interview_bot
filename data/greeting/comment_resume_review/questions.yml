@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: comment_resume_review
+    examples: |
+      - eu dei uma olhada no seu currículo antes da nossa conversa e achei bem interessante
+      - tive tempo de revisar seu currículo e vi experiências bem relevantes
+      - dei uma olhada no seu CV e gostei bastante do seu histórico
+      - tive acesso ao seu currículo e alguns pontos me chamaram atenção
+      - eu li seu currículo com calma e vi projetos bem legais
+      - revisando seu currículo, vi que você tem uma trajetória bem consistente
+      - seu currículo mostra uma boa evolução de carreira, parabéns
+      - pela sua experiência no currículo, parece que você já passou por bons desafios
+      - analisando seu currículo, vi bastante coisa alinhada com o que buscamos
+      - gostei bastante do que vi no seu CV, tem pontos bem fortes ali
+      - I had the chance to review your resume before our call and I found it very interesting
+      - I took a look at your resume and saw some very relevant experiences
+      - I reviewed your CV and really liked your background
+      - I went through your resume and a few points caught my attention
+      - I read your resume carefully and saw some really nice projects
+      - when reviewing your resume, I noticed you have a very solid career path
+      - your resume shows a nice progression in your career, congratulations
+      - from your resume, it looks like you’ve gone through some good challenges
+      - looking at your resume, I see a lot of alignment with what we’re looking for
+      - I really liked what I saw on your CV, there are some strong points there

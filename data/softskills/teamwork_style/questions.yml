@@ -1,0 +1,18 @@
+version: '3.1'
+nlu:
+  - intent: teamwork_style
+    examples: |
+      - como você se descreve como membro de time?
+      - que tipo de papel você costuma assumir naturalmente quando trabalha em equipe?
+      - o que é mais importante para você em um time de trabalho?
+      - como você contribui para um bom ambiente dentro do time?
+      - você se considera alguém mais focado em liderança, execução ou apoio dentro de um grupo?
+      - pode me contar sobre um time em que você se sentiu especialmente bem encaixado?
+      - como você lida com pessoas de perfis muito diferentes do seu no mesmo time?
+      - how would you describe yourself as a team member?
+      - what kind of role do you naturally tend to take when you work in a team?
+      - what is most important to you in a work team?
+      - how do you contribute to a good environment within the team?
+      - do you see yourself as more focused on leadership, execution, or support inside a group?
+      - can you tell me about a team where you felt especially well integrated?
+      - how do you deal with people who have a very different profile from yours in the same team?

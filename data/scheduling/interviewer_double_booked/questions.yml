@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_double_booked
+    examples: |
+      - acabei de perceber que a agenda me colocou em duas reuniões ao mesmo tempo
+      - infelizmente eu fui alocado em duas calls no mesmo horário e vou precisar ajustar aqui
+      - tive um conflito de agenda que só apareceu agora, estou em outra reunião também
+      - a agenda acabou me sobrepondo com outro compromisso, então vou precisar conciliar
+      - estou oficialmente em duas reuniões ao mesmo tempo neste momento
+      - percebi agora que estava marcado em outra call nesse mesmo horário
+      - estou tentando gerenciar um conflito de agenda aqui entre essa call e outra
+      - confesso que o calendário não ajudou e me jogou em duas reuniões simultâneas
+      - estou dividido entre duas calls nesse momento, então talvez precise ser um pouco mais objetivo
+      - tive um overlap de agenda e vou tentar equilibrar da melhor forma possível
+      - I’ve just realized that my calendar put me in two meetings at the same time
+      - unfortunately, I was scheduled for two calls in the same time slot and I’ll need to juggle that
+      - I’ve got a schedule conflict that only showed up now, I’m in another meeting as well
+      - my calendar ended up overlapping this with another commitment, so I’ll need to manage both
+      - I’m officially in two meetings at the same time right now
+      - I’ve just noticed that I was booked on another call at this exact time
+      - I’m trying to handle a schedule conflict between this call and another one
+      - to be honest, the calendar didn’t help and put me in two simultaneous meetings
+      - I’m split between two calls at the moment, so I may need to be a bit more objective
+      - I’ve got an overlapping meeting and I’ll try to balance it as best as I can

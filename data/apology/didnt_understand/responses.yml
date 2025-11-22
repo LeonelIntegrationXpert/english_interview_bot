@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_didnt_understand:
+    - custom:
+        vr_pt: |
+          Claro, sem problema nenhum em pedir para repetir.
+        vr_en: |
+          Of course, there’s no problem at all in asking to repeat.

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: introduce_interview_focus
+    examples: |
+      - hoje vamos focar principalmente na sua experiência profissional, tudo bem?
+      - nessa entrevista, a ideia é entender melhor a sua trajetória e seus projetos
+      - o foco da nossa conversa hoje será a sua experiência e seu jeito de trabalhar
+      - vamos falar bastante sobre os desafios que você já enfrentou na carreira
+      - nessa etapa, queremos conhecer melhor suas experiências mais relevantes
+      - hoje o objetivo é entender como você trabalha no dia a dia
+      - nessa entrevista vamos explorar seus projetos recentes e suas responsabilidades
+      - a ideia é que você conte bastante sobre situações práticas que já viveu
+      - vamos falar sobre sua experiência técnica e também sobre seu lado mais comportamental
+      - o foco aqui é entender se o seu perfil se conecta bem com essa vaga
+      - today we’ll mainly focus on your professional experience, is that okay?
+      - in this interview, the idea is to better understand your background and projects
+      - the focus of our conversation today will be your experience and how you work
+      - we’ll talk a lot about the challenges you’ve faced in your career
+      - in this stage, we want to get to know your most relevant experiences
+      - today our goal is to understand how you work on a day-to-day basis
+      - in this interview we’ll explore your recent projects and responsibilities
+      - the idea is for you to share real situations you’ve been through
+      - we’ll talk about your technical experience and also your soft skills
+      - the main focus here is to see how your profile connects with this role

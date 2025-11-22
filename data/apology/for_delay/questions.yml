@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: for_delay
+    examples: |
+      - desculpa a demora para responder
+      - desculpa a demora na resposta
+      - foi mal pela demora
+      - desculpa por responder só agora
+      - peço desculpas pela demora
+      - perdão pela demora na resposta
+      - desculpa, acabei vendo só agora
+      - desculpa, a rotina tá bem corrida
+      - desculpa por não ter respondido antes
+      - desculpa, demorei para retornar
+      - sorry for the late reply
+      - sorry for the late response
+      - I’m sorry for replying so late
+      - I apologize for the delayed response
+      - sorry, I just saw your message
+      - sorry it took me a while to reply
+      - sorry for not getting back to you sooner
+      - my apologies for the late reply
+      - I’m sorry for the delay in getting back to you
+      - sorry for the delay, things have been busy

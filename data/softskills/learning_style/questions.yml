@@ -1,0 +1,18 @@
+version: '3.1'
+nlu:
+  - intent: learning_style
+    examples: |
+      - como você gosta de aprender coisas novas no trabalho?
+      - qual é o seu estilo de aprendizagem quando precisa dominar uma tecnologia ou ferramenta nova?
+      - você aprende melhor estudando sozinho, com cursos, com projetos práticos ou com mentoria?
+      - quando você percebe que não domina um assunto, o que costuma fazer para aprender?
+      - como você se organiza para manter um ritmo constante de aprendizado?
+      - você pode me contar um exemplo recente de algo novo que você precisou aprender?
+      - que tipo de recurso você mais usa para estudar, como documentação, vídeos ou livros?
+      - how do you like to learn new things at work?
+      - what is your learning style when you need to master a new technology or tool?
+      - do you learn better by studying on your own, taking courses, doing practical projects, or with mentorship?
+      - when you realize that you do not master a topic, what do you usually do to learn it?
+      - how do you organize yourself to keep a constant learning rhythm?
+      - can you tell me a recent example of something new you needed to learn?
+      - what kind of resources do you use the most to study, such as documentation, videos, or books?

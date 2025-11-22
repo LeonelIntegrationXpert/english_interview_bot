@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_future_impact_contribution:
+    - custom:
+        vr_pt: |
+          No futuro eu gostaria de ser visto como alguém que ajudou a organizar, simplificar e dar clareza para problemas complexos, tanto do ponto de vista técnico quanto humano. Quero contribuir para criar times mais estruturados, com boas práticas e um ambiente em que as pessoas aprendam e cresçam. Também me vejo atuando como mentor, ajudando outras pessoas a evoluir em integração, arquitetura e carreira em tecnologia.
+        vr_en: |
+          In the future I would like to be seen as someone who helped to organize, simplify, and bring clarity to complex problems, both from a technical and a human point of view. I want to contribute to building more structured teams, with good practices and an environment where people can learn and grow. I also see myself acting as a mentor, helping other people develop in integration, architecture, and their overall tech careers.

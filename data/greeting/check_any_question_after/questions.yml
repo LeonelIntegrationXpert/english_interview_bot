@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: check_any_question_after
+    examples: |
+      - antes de encerrarmos, você tem alguma pergunta para mim?
+      - para fechar, gostaria de saber se você tem alguma dúvida sobre a vaga ou sobre a empresa
+      - antes da gente terminar, tem algo que você gostaria de perguntar?
+      - você gostaria de saber mais algum detalhe sobre o time ou sobre o projeto?
+      - para concluir, tem alguma pergunta que eu ainda não respondi?
+      - quer aproveitar esse momento final para tirar alguma dúvida?
+      - tem algo que você gostaria que eu explicasse melhor antes de encerrarmos?
+      - existe alguma informação adicional que você gostaria de saber sobre o processo?
+      - antes de eu encerrar, você tem mais alguma pergunta?
+      - tem algo que você queira perguntar sobre os próximos passos ou sobre a posição?
+      - before we wrap up, do you have any questions for me?
+      - to finish, I’d like to know if you have any questions about the role or the company
+      - before we end, is there anything you’d like to ask?
+      - would you like to know any additional details about the team or the project?
+      - to conclude, is there any question I haven’t answered yet?
+      - would you like to use this final moment to clear up any doubts?
+      - is there anything you’d like me to explain better before we finish?
+      - is there any additional information you’d like to know about the process?
+      - before I close, do you have any other questions?
+      - is there anything you’d like to ask about the next steps or the position?

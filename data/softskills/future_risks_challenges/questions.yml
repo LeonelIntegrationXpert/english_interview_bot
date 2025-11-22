@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: future_risks_challenges
+    examples: |
+      - quando você pensa em dez anos de carreira, que riscos ou desafios você enxerga no caminho?
+      - o que pode atrapalhar você de chegar onde quer estar daqui a dez anos?
+      - que tipo de dificuldade você acha que pode aparecer na sua trajetória de longo prazo?
+      - como você pretende lidar com possíveis frustrações ou mudanças de plano ao longo dos anos?
+      - que riscos você considera quando pensa em mestrado, doutorado e muitas certificações?
+      - o que você acha que será mais difícil de equilibrar no futuro: tempo, energia ou prioridades?
+      - como você se prepara mentalmente para lidar com imprevistos na sua carreira de longo prazo?
+      - que tipo de obstáculo você acha que pode testar a sua perseverança nos próximos dez anos?
+      - na sua visão, qual é o maior desafio para manter esse plano de estudos e crescimento?
+      - o que você faz hoje para reduzir esses riscos lá na frente?
+      - when you think about ten years of your career, what risks or challenges do you see on the way?
+      - what could get in the way of you reaching where you want to be ten years from now?
+      - what kind of difficulties do you think may appear in your long term path?
+      - how do you plan to deal with possible frustrations or changes of plan over the years?
+      - what risks do you consider when you think about a master’s degree, a PhD, and many certifications?
+      - what do you think will be harder to balance in the future: time, energy, or priorities?
+      - how do you prepare yourself mentally to handle unexpected events in your long term career?
+      - what kind of obstacle do you think may test your perseverance in the next ten years?
+      - in your view, what is the biggest challenge to keep this plan of study and growth?
+      - what do you do today to reduce these risks in the future?

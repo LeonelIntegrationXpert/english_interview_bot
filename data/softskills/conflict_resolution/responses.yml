@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_conflict_resolution:
+    - custom:
+        vr_pt: |
+          Quando existe um conflito, eu procuro primeiro entender os dois lados antes de tomar qualquer posição. Normalmente chamo as pessoas para uma conversa mais tranquila, foco nos fatos e no objetivo comum do time, em vez de entrar em quem está certo ou errado. Eu tento reformular os pontos de forma neutra, buscar o que faz sentido para o projeto e, se necessário, envolver o gestor para alinhar expectativas. Para mim, o mais importante é resolver o problema sem quebrar a relação, porque o time precisa continuar trabalhando junto depois do conflito.
+        vr_en: |
+          When there is a conflict I try first to understand both sides before I take any position. I usually invite the people involved to a calmer conversation, I focus on the facts and on the common goal of the team instead of focusing on who is right or wrong. I try to rephrase the points in a neutral way, look for what makes sense for the project, and if needed I involve the manager to align expectations. For me the most important thing is to solve the problem without breaking the relationship, because the team has to continue working together after the conflict.

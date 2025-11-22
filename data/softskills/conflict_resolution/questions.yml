@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: conflict_resolution
+    examples: |
+      - pode me contar sobre uma situação em que você precisou lidar com um conflito no time?
+      - como você costuma agir quando duas pessoas do time discordam fortemente sobre um assunto?
+      - o que você faz quando não concorda com a decisão de alguém, mas precisa continuar trabalhando junto?
+      - como você lida com conflitos entre áreas diferentes, por exemplo, negócio e tecnologia?
+      - já aconteceu de alguém falar com você de forma mais ríspida no trabalho? Como você reagiu?
+      - quando há um conflito, você costuma evitar ou prefere enfrentar a situação de forma direta?
+      - como você faz para discordar de alguém sem desgastar o relacionamento?
+      - você poderia descrever um momento em que precisou mediar um conflito entre colegas?
+      - o que é mais importante para você ao resolver um conflito: ter razão ou manter a relação saudável?
+      - como você faz para manter a calma em uma situação de tensão com outras pessoas?
+      - can you tell me about a situation where you had to deal with a conflict in your team?
+      - how do you usually act when two people in the team strongly disagree about something?
+      - what do you do when you do not agree with someone’s decision but you still need to work together?
+      - how do you handle conflicts between different areas, for example business and technology?
+      - has anyone ever spoken to you in a harsh way at work? How did you react?
+      - when there is a conflict, do you usually avoid it or do you prefer to face the situation directly?
+      - how do you disagree with someone without damaging the relationship?
+      - could you describe a moment when you had to mediate a conflict between colleagues?
+      - what is more important to you when resolving a conflict, being right or keeping the relationship healthy?
+      - how do you manage to stay calm in a tense situation with other people?

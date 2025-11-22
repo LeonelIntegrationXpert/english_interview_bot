@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: email_formal
+    examples: |
+      - espero que você esteja bem
+      - espero que esteja tudo bem com você
+      - espero que sua semana esteja indo bem
+      - espero que seu dia esteja indo bem
+      - espero que esteja tendo uma boa semana
+      - espero que esteja tudo certo por aí
+      - espero que você esteja bem e em segurança
+      - espero que esteja tudo tranquilo com você
+      - espero que este e-mail te encontre bem
+      - espero que esteja tudo indo bem com você
+      - I hope you are doing well
+      - I hope you’re doing well
+      - I hope this message finds you well
+      - I hope this email finds you well
+      - I hope you’re having a good week
+      - I hope you’re having a great day
+      - I hope everything is going well with you
+      - I hope you’re doing well today
+      - I hope all is well with you
+      - I hope things are going well on your side

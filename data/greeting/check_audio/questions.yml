@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: check_audio
+    examples: |
+      - você está me ouvindo?
+      - tá me ouvindo bem?
+      - consegue me ouvir?
+      - meu áudio tá ok?
+      - meu som tá bom?
+      - o microfone tá funcionando?
+      - o áudio tá chegando direitinho?
+      - tá dando pra me ouvir?
+      - tá me escutando?
+      - o som tá claro aí?
+      - can you hear me?
+      - can you hear me well?
+      - are you able to hear me?
+      - is my audio okay?
+      - is my sound clear?
+      - is my microphone working?
+      - am I coming through clearly?
+      - can you hear me clearly?
+      - is the audio fine on your side?
+      - is everything okay with my sound?

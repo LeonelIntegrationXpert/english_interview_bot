@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: siblings_who_are
+    examples: |
+      - você tem irmãos?
+      - quantos irmãos você tem?
+      - pode me contar um pouco sobre seus irmãos?
+      - como se chamam seus irmãos?
+      - você cresceu com irmãos em casa?
+      - você poderia falar o nome dos seus irmãos?
+      - você é filho único ou tem irmãos?
+      - quem são seus irmãos, se você se sentir à vontade para compartilhar?
+      - você tem irmãos mais velhos, mais novos ou os dois?
+      - pode me dizer quantos e quais são seus irmãos?
+      - do you have any brothers or sisters?
+      - how many siblings do you have?
+      - could you tell me a bit about your siblings?
+      - what are your siblings’ names?
+      - did you grow up with brothers or sisters at home?
+      - could you share the names of your siblings?
+      - are you an only child, or do you have siblings?
+      - who are your siblings, if you feel comfortable sharing?
+      - do you have older siblings, younger siblings, or both?
+      - could you tell me how many siblings you have and their names?

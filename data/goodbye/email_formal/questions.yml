@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: email_formal
+    examples: |
+      - desde já, agradeço a atenção
+      - agradeço desde já
+      - agradeço a sua atenção
+      - fico à disposição para qualquer dúvida
+      - fico à disposição para mais esclarecimentos
+      - qualquer coisa, fico à disposição
+      - aguardo seu retorno
+      - conto com seu retorno
+      - agradeço o retorno
+      - muito obrigado pela atenção
+      - thank you in advance
+      - thank you for your attention
+      - I appreciate your attention
+      - I remain at your disposal for any questions
+      - I’m available for any further clarification
+      - please let me know if you have any questions
+      - I look forward to your reply
+      - I look forward to hearing from you
+      - thank you for your kind attention
+      - many thanks for your attention

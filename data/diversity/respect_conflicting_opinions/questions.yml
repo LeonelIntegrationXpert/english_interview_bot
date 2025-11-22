@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: respect_conflicting_opinions
+    examples: |
+      - como você lida quando alguém tem opiniões muito diferentes das suas sobre temas sensíveis?
+      - se um colega tiver uma visão bem diferente da sua, como você costuma reagir?
+      - em discussões sobre temas delicados, como você mantém o respeito e o profissionalismo?
+      - o que você faz para evitar conflitos desnecessários em assuntos sensíveis no trabalho?
+      - como você equilibra suas opiniões pessoais com o respeito às outras pessoas?
+      - se alguém trouxer um ponto de vista oposto ao seu, como você conduz a conversa?
+      - você consegue discordar de alguém mantendo um ambiente respeitoso?
+      - qual é a sua postura quando surgem opiniões divergentes em temas de diversidade?
+      - como você garante que diferenças de opinião não virem ataques pessoais?
+      - o que é fundamental para você em uma conversa sobre temas mais delicados?
+      - how do you handle situations when someone has very different opinions from yours on sensitive topics?
+      - if a coworker has a very different view from yours, how do you usually react?
+      - in discussions about delicate topics, how do you maintain respect and professionalism?
+      - what do you do to avoid unnecessary conflict on sensitive issues at work?
+      - how do you balance your personal opinions with respect for other people?
+      - if someone brings an opposite point of view, how do you lead that conversation?
+      - are you able to disagree with someone while keeping a respectful environment?
+      - what is your attitude when different opinions appear around diversity topics?
+      - how do you make sure that differences of opinion do not become personal attacks?
+      - what is essential for you in a conversation about more sensitive subjects?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: break_ice
+    examples: |
+      - antes de entrar nas perguntas, quer me contar rapidamente como foi o seu dia?
+      - só para quebrar o gelo, como está a sua semana até agora?
+      - para começar mais leve, o que você tem achado da sua rotina ultimamente?
+      - antes das perguntas, como está sendo seu dia hoje?
+      - só para a gente começar mais tranquilo, como anda a sua semana?
+      - para esquentar, você está em home office hoje ou no escritório?
+      - só para começar, como está o clima aí onde você está?
+      - antes da parte técnica, como está sua rotina de trabalho atualmente?
+      - vamos começar simples: como foi a sua manhã até agora?
+      - para a gente ir aquecendo, como tem sido sua semana?
+      - before we jump into the questions, how has your day been so far?
+      - just to break the ice, how is your week going so far?
+      - to start a bit lighter, how has your routine been lately?
+      - before the questions, how is your day going today?
+      - just so we start more relaxed, how has your week been?
+      - to warm up, are you working from home today or at the office?
+      - just to start, how’s the weather where you are?
+      - before the technical part, how has your work routine been lately?
+      - let’s start simple: how has your morning been so far?
+      - just to get us warmed up, how has your week been so far?

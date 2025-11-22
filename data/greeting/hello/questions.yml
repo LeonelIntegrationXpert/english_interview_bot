@@ -1,0 +1,25 @@
+version: '3.1'
+nlu:
+  - intent: hello
+    examples: |
+      - oi
+      - olá
+      - iae
+      - eae
+      - salve
+      - fala
+      - opa
+      - alo
+      - alô
+      - saudações
+      - hi
+      - hey
+      - hello
+      - yo
+      - sup
+      - howdy
+      - greetings
+      - hiya
+      - morning
+      - afternoon
+      - #rp_1

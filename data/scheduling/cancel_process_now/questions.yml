@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: cancel_process_now
+    examples: |
+      - depois de revisar o contexto interno, decidimos encerrar o processo para essa vaga por enquanto
+      - tivemos uma mudança de prioridade interna e vamos pausar o processo seletivo dessa posição
+      - a vaga entrou em revisão interna e, por ora, não vamos seguir com novas etapas
+      - por questões de reorganização interna, essa posição foi colocada em pausa
+      - infelizmente a vaga foi congelada por enquanto, então não vamos avançar hoje
+      - houve uma mudança no planejamento da área e essa oportunidade foi suspensa
+      - nesse momento, não vamos continuar com o processo para essa vaga específica
+      - a posição está sendo reavaliada e, por isso, o processo foi momentaneamente interrompido
+      - por decisão interna, essa vaga não seguirá adiante agora
+      - tivemos uma alteração de escopo e, com isso, o processo atual foi pausado
+      - after reviewing our internal context, we decided to put this hiring process on hold for now
+      - there’s been a change in internal priorities and we’re pausing the selection process for this position
+      - the role is under internal review, so we won’t be moving forward with new stages at the moment
+      - due to internal reorganization, this position has been put on hold
+      - unfortunately, the vacancy has been frozen for now, so we won’t move forward today
+      - there was a change in the area’s planning and this opportunity has been suspended
+      - at this moment, we won’t be continuing with the process for this specific role
+      - the position is being reassessed and, because of that, the process has been temporarily interrupted
+      - by internal decision, this role won’t move forward right now
+      - there’s been a scope change and, as a result, the current process has been paused

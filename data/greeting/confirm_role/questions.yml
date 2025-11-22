@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: confirm_role
+    examples: |
+      - só para alinhar, hoje estamos falando da vaga de [nome da vaga], tudo bem?
+      - apenas confirmando, você está aqui para a posição de [nome da vaga], certo?
+      - antes de começarmos, você pode confirmar se é a vaga de [nome da vaga]?
+      - hoje o nosso foco é a posição de [nome da vaga], está alinhado com o que te passaram?
+      - só para garantir que estamos na mesma página, estamos falando da vaga de [nome da vaga], correto?
+      - você aplicou especificamente para a posição de [nome da vaga], certo?
+      - essa é a vaga que faz mais sentido para o seu momento hoje, a de [nome da vaga]?
+      - você pode me confirmar se está participando do processo para [nome da vaga]?
+      - a nossa conversa hoje é focada em [nome da vaga], tudo certo para você?
+      - essa é a posição que você viu no anúncio, de [nome da vaga], não é?
+      - just to align, today we’re talking about the [role name] position, okay?
+      - just confirming, you’re here for the [role name] role, right?
+      - before we start, can you confirm that this is about the [role name] position?
+      - today our focus is the [role name] role, is that aligned with what you were told?
+      - just to make sure we’re on the same page, we’re discussing the [role name] role, correct?
+      - you applied specifically for the [role name] position, right?
+      - is [role name] the position that makes the most sense for you at this moment?
+      - can you confirm that you’re in the process for the [role name] role?
+      - our conversation today is focused on the [role name] position, is that okay for you?
+      - this is the same role you saw in the job posting, the [role name] position, correct?

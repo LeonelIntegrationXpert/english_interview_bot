@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: work_under_pressure
+    examples: |
+      - como você se comporta quando precisa trabalhar sob bastante pressão de prazo?
+      - pode me contar sobre um momento em que você teve que entregar algo muito importante em pouco tempo?
+      - o que você faz para manter a qualidade do trabalho mesmo quando o ambiente está muito acelerado?
+      - como você se organiza quando surgem várias urgências ao mesmo tempo?
+      - qual é a sua estratégia para não deixar a pressão virar ansiedade paralisante?
+      - você pode dar um exemplo de uma situação de alta pressão em que você conseguiu se manter calmo?
+      - como você lida com cobrança mais intensa de cliente ou liderança em momentos críticos?
+      - o que você faz para não levar a pressão do trabalho para a sua vida pessoal?
+      - em geral, você sente que trabalha melhor com uma pressão moderada, alta ou baixa? Por quê?
+      - como você ajuda o time quando percebe que todos estão se sentindo muito pressionados?
+      - how do you behave when you need to work under strong deadline pressure?
+      - can you tell me about a time when you had to deliver something very important in a short period of time?
+      - what do you do to keep the quality of your work even when the environment is very fast paced?
+      - how do you organize yourself when several urgent tasks appear at the same time?
+      - what is your strategy so that pressure does not turn into paralyzing anxiety?
+      - can you give an example of a high pressure situation where you managed to stay calm?
+      - how do you handle more intense demands from clients or leadership in critical moments?
+      - what do you do to avoid taking work pressure into your personal life?
+      - in general, do you feel you work better with low, moderate, or high pressure, and why?
+      - how do you support the team when you see that everyone is feeling very pressured?

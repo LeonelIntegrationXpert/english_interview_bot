@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_interviewer_camera_issue:
+    - custom:
+        vr_pt: |
+          Sem problema nenhum, para mim está tranquilo seguir apenas com áudio. O importante é que a gente consiga conduzir bem a conversa.
+        vr_en: |
+          That’s totally fine, I’m comfortable continuing with audio only. What matters is that we can have a good conversation.

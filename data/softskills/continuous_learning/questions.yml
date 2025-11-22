@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: continuous_learning
+    examples: |
+      - como você se mantém atualizado na sua área de atuação?
+      - pode me contar como você costuma estudar novas tecnologias ou ferramentas?
+      - que tipo de curso, certificação ou conteúdo você costuma buscar para se desenvolver?
+      - como você organiza seu tempo para aprender coisas novas no meio da rotina de trabalho?
+      - o que te motiva a continuar estudando mesmo depois de já estar trabalhando há alguns anos?
+      - você poderia dar um exemplo recente de algo novo que aprendeu e aplicou no trabalho?
+      - como você decide o que vale a pena estudar ou se aprofundar?
+      - você costuma aprender mais sozinho, em cursos formais ou com outras pessoas do time?
+      - qual foi a aprendizagem mais importante que você teve nos últimos tempos profissionalmente?
+      - como você enxerga o papel da aprendizagem contínua na sua carreira?
+      - how do you keep yourself up to date in your field?
+      - can you tell me how you usually study new technologies or tools?
+      - what kind of course, certification, or content do you usually look for to develop yourself?
+      - how do you organize your time to learn new things in the middle of your work routine?
+      - what motivates you to keep studying even after working for several years?
+      - could you give a recent example of something new you learned and applied at work?
+      - how do you decide what is worth studying or going deeper into?
+      - do you usually learn more by yourself, through formal courses, or from other people in the team?
+      - what has been the most important learning you have had professionally in recent times?
+      - how do you see the role of continuous learning in your career?

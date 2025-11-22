@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_working_remote:
+    - custom:
+        vr_pt: |
+          Em home office eu tento manter uma rotina bem definida. Tenho um espaço de trabalho específico, organizo o dia com blocos de foco e deixo canais claros de comunicação com o time. Uso bastante ferramentas de mensagem e reuniões curtas para alinhamento, mas também cuido para não viver só em call. Para mim, o essencial é ter disciplina, combinar horários de resposta e manter transparência sobre o que estou fazendo e entregando.
+        vr_en: |
+          When I work from home I try to keep a very clear routine. I have a specific workspace, I organize my day with focus blocks, and I keep clear communication channels with the team. I use messaging tools and short meetings for alignment, but I also take care not to spend the whole day only in calls. For me the essential points are discipline, agreed response times, and transparency about what I am doing and delivering.

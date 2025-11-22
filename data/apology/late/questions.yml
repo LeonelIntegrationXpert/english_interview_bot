@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: late
+    examples: |
+      - desculpa o atraso
+      - foi mal pelo atraso
+      - desculpa, cheguei atrasado
+      - peço desculpas por entrar atrasado
+      - desculpa, tive um imprevisto
+      - desculpa, tive um problema de conexão
+      - desculpa, a call anterior atrasou
+      - desculpa por começar mais tarde
+      - desculpa, não consegui chegar na hora
+      - desculpa, tive um problema técnico
+      - sorry for being late
+      - sorry, I’m late
+      - my apologies for joining late
+      - sorry for joining the call late
+      - sorry, I had an unexpected issue
+      - sorry, I had a connection issue
+      - sorry, the previous call ran late
+      - I apologize for the delay in joining
+      - sorry for starting later than planned
+      - sorry, I couldn’t join on time

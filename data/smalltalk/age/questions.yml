@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: age
+    examples: |
+      - só por curiosidade, quantos anos você tem?
+      - posso perguntar a sua idade?
+      - qual é a sua idade hoje?
+      - você está com quantos anos atualmente?
+      - em termos de idade, onde você se encaixa mais ou menos?
+      - você poderia me dizer quantos anos você tem?
+      - falando um pouco de você, qual é a sua idade?
+      - hoje você está com quantos anos?
+      - você se sente à vontade para compartilhar sua idade?
+      - em que faixa de idade você está?
+      - just out of curiosity, how old are you?
+      - can I ask how old you are?
+      - how old are you at the moment?
+      - what is your age today?
+      - could you tell me how old you are?
+      - in terms of age, where do you roughly fit?
+      - speaking a bit about you, how old are you?
+      - how many years old are you now?
+      - would you feel comfortable sharing your age?
+      - what age range are you in?

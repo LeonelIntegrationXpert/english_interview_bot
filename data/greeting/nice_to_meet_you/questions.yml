@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: nice_to_meet_you
+    examples: |
+      - prazer
+      - prazer em te conhecer
+      - muito prazer
+      - prazer em conhecer você
+      - é um prazer falar com você
+      - legal te conhecer
+      - que bom conhecer você
+      - honra te conhecer
+      - muito bom te conhecer
+      - prazer, eu sou do time de recrutamento
+      - nice to meet you
+      - great to meet you
+      - it’s a pleasure to meet you
+      - pleased to meet you
+      - really nice meeting you
+      - it’s great to finally meet you
+      - happy to meet you
+      - it’s nice to meet you in person
+      - nice meeting you today
+      - such a pleasure to meet you

@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_end_meeting:
+    - custom:
+        vr_pt: |
+          Eu que agradeço, foi muito bom falar com você.
+        vr_en: |
+          Thank you as well, it was great talking with you.

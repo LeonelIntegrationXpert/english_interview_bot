@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: prioritization
+    examples: |
+      - como você decide o que é mais importante quando tem muitas tarefas ao mesmo tempo?
+      - pode me explicar como você faz a priorização do seu trabalho no dia a dia?
+      - quando tudo parece urgente, como você escolhe por onde começar?
+      - você segue algum critério específico para definir prioridade das atividades?
+      - pode me contar sobre uma situação em que você teve que repriorizar tudo de última hora?
+      - como você lida quando duas pessoas diferentes te pedem coisas importantes ao mesmo tempo?
+      - que tipo de conversa você costuma ter com a liderança quando sente que a carga de trabalho está alta demais?
+      - como você garante que o que é estratégico não fique sempre para depois?
+      - na sua visão, qual é a diferença entre algo urgente e algo realmente importante?
+      - pode me dar um exemplo de uma decisão de priorização que fez diferença no resultado de um projeto?
+      - how do you decide what is most important when you have many tasks at the same time?
+      - can you explain how you prioritize your work in your day to day?
+      - when everything seems urgent, how do you choose where to start?
+      - do you follow any specific criteria to define the priority of your activities?
+      - can you tell me about a situation where you had to reprioritize everything at the last minute?
+      - how do you handle it when two different people ask you for important things at the same time?
+      - what kind of conversation do you usually have with leadership when you feel the workload is too high?
+      - how do you make sure that strategic work does not always get pushed to later?
+      - in your view, what is the difference between something urgent and something truly important?
+      - can you give me an example of a prioritization decision that made a difference in a project result?

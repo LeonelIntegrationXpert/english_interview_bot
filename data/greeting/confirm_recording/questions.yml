@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: confirm_recording
+    examples: |
+      - essa entrevista vai ser gravada apenas para uso interno, tudo bem para você?
+      - antes de começarmos, gostaria de avisar que vamos gravar essa conversa, está ok?
+      - só para informar, a entrevista será gravada para fins de avaliação interna, tudo bem?
+      - essa call está sendo gravada para compartilharmos com o time de recrutamento, tudo certo?
+      - você se importa se gravarmos essa entrevista para revisão posterior?
+      - vamos gravar essa conversa para apoiar o processo seletivo, tudo bem para você?
+      - essa entrevista pode ser ouvida depois por outros avaliadores, tudo bem?
+      - só para alinhar, a gravação é usada apenas para o processo, está ok?
+      - antes de começar, confirmo que vamos gravar a entrevista, está tudo bem?
+      - a gravação é só para uso interno do processo, você concorda?
+      - this interview will be recorded for internal use only, is that okay with you?
+      - before we start, I’d like to let you know we’ll record this conversation, is that alright?
+      - just so you know, the interview will be recorded for internal evaluation purposes, is that okay?
+      - this call is being recorded so we can share it with the recruiting team, is that alright?
+      - do you mind if we record this interview for later review?
+      - we’ll record this conversation to support the hiring process, is that okay with you?
+      - this interview may be reviewed later by other evaluators, is that alright?
+      - just to align, the recording is only used for the process, is that okay?
+      - before we begin, I’d like to confirm that we’ll record the interview, is that fine?
+      - the recording is for internal use in the process only, do you agree?

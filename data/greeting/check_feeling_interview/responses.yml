@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_check_feeling_interview:
+    - custom:
+        vr_pt: |
+          Estou um pouco ansioso, mas me sinto preparado e feliz pela oportunidade. Conforme a conversa for andando, acredito que vou ficando mais à vontade.
+        vr_en: |
+          I’m a bit nervous, but I feel prepared and really happy about the opportunity. I’m sure I’ll get more comfortable as the conversation goes on.

@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_dealing_ambiguity:
+    - custom:
+        vr_pt: |
+          Quando a demanda é ambígua eu tento primeiro esclarecer o objetivo principal: o que exatamente estamos tentando resolver ou entregar. Faço perguntas diretas, peço exemplos e confirmo o escopo mínimo para começar. Ao mesmo tempo, não fico parado esperando tudo ficar perfeito; começo pelo que já está claro, documento as premissas e vou ajustando conforme surgem novas informações. Isso permite avançar com responsabilidade, sem criar soluções totalmente desalinhadas.
+        vr_en: |
+          When a task is ambiguous I try first to clarify the main goal: what exactly we are trying to solve or deliver. I ask direct questions, I request examples, and I confirm the minimum scope to start. At the same time I do not wait for everything to be perfect; I start from what is already clear, I document the assumptions, and I adjust as new information appears. This allows me to move forward with responsibility without creating solutions that are completely misaligned.

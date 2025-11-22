@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: future_ten_years_vision
+    examples: |
+      - como você se enxerga daqui a dez anos na sua carreira?
+      - se a gente projetar dez anos para frente, onde você gostaria de estar profissionalmente?
+      - quando você pensa em dez anos, como imagina a sua vida profissional?
+      - daqui a dez anos, que tipo de papel você gostaria de estar exercendo na área de tecnologia?
+      - se tudo correr como você planeja, como você espera que esteja sua carreira em dez anos?
+      - em uma visão de longo prazo, como você se vê profissionalmente daqui a dez anos?
+      - daqui a dez anos, em que nível de maturidade técnica e de liderança você gostaria de estar?
+      - pensando em dez anos, que tipo de conquistas você espera ter alcançado na sua carreira?
+      - quando você olha para o futuro, como seria um cenário ideal para você daqui a dez anos?
+      - se a gente se encontrasse novamente em dez anos, o que você gostaria de poder me contar sobre sua carreira?
+      - how do you see yourself ten years from now in your career?
+      - if we project ten years ahead, where would you like to be professionally?
+      - when you think about ten years from now, what do you imagine for your professional life?
+      - ten years from now, what kind of role would you like to have in the tech area?
+      - if everything goes according to your plans, how do you expect your career to be in ten years?
+      - in a long term view, how do you see yourself professionally ten years from now?
+      - in ten years, what level of technical and leadership maturity would you like to have?
+      - thinking about ten years ahead, what kind of achievements do you hope to have in your career?
+      - when you look to the future, what would be an ideal scenario for you ten years from now?
+      - if we met again ten years from now, what would you like to be able to tell me about your career?

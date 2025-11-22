@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_comment_end_of_day:
+    - custom:
+        vr_pt: |
+          Eu que agradeço pela oportunidade. O dia foi cheio, mas essa entrevista é importante para mim, então estou tranquilo para seguir com a conversa.
+        vr_en: |
+          Thank you for the opportunity. It’s been a busy day, but this interview is important to me, so I’m absolutely fine to continue with our conversation.

@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_general:
+    - custom:
+        vr_pt: |
+          Sem problemas, tá tudo certo.
+        vr_en: |
+          No worries, it’s all good.

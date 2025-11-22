@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_future_salesforce_sap_focus:
+    - custom:
+        vr_pt: |
+          Eu vejo Salesforce e SAP como dois ecossistemas muito fortes e complementares em grandes empresas. Salesforce aparece muito na camada de relacionamento com o cliente e experiência, enquanto SAP é muito forte em processos de negócio e backoffice. Ao aprofundar em certificações nesses dois mundos, eu consigo ter uma visão mais completa da empresa e agregar mais em projetos de integração, arquitetura e transformação digital de ponta a ponta.
+        vr_en: |
+          I see Salesforce and SAP as two very strong and complementary ecosystems in large companies. Salesforce is very present in the customer and experience layer, while SAP is very strong in business processes and back office. By going deeper into certifications in these two worlds, I can have a more complete view of the company and add more value in integration projects, architecture, and end to end digital transformation.

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: future_impact_contribution
+    examples: |
+      - quando você pensa no futuro, que tipo de impacto você gostaria de causar nos times em que trabalha?
+      - em dez anos, como você gostaria que as pessoas descrevessem a sua contribuição nos projetos?
+      - que tipo de marca você quer deixar nos times e nas empresas por onde passar?
+      - qual é o impacto que você gostaria de ter na vida profissional das pessoas com quem trabalha?
+      - como você imagina a sua influência em times e projetos daqui a alguns anos?
+      - em uma visão de longo prazo, como você quer ser lembrado pelos colegas de time?
+      - que tipo de contribuição você gostaria de fazer para a comunidade técnica ao longo dos anos?
+      - como você enxerga o seu papel em formar ou mentorar outras pessoas no futuro?
+      - qual é o efeito que você espera ter na cultura dos times onde você atuar?
+      - o que seria, para você, um impacto positivo de longo prazo na sua carreira?
+      - when you think about the future, what kind of impact would you like to have on the teams you work with?
+      - ten years from now, how would you like people to describe your contribution to projects?
+      - what kind of mark do you want to leave on the teams and companies you work for?
+      - what impact would you like to have on the professional lives of the people you work with?
+      - how do you imagine your influence on teams and projects a few years from now?
+      - in a long term view, how would you like to be remembered by your teammates?
+      - what kind of contribution would you like to make to the technical community over the years?
+      - how do you see your role in training or mentoring other people in the future?
+      - what effect do you expect to have on the culture of the teams you join?
+      - what would a positive long term impact in your career look like for you?

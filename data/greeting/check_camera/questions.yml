@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: check_camera
+    examples: |
+      - você se importa de ligar a câmera ou prefere manter desligada?
+      - se estiver confortável, você pode abrir a câmera?
+      - para você tudo bem manter a câmera ligada durante a entrevista?
+      - se a conexão permitir, seria legal se pudéssemos nos ver em vídeo
+      - você está à vontade para deixar a câmera ligada?
+      - se não for um problema, você consegue ligar a câmera?
+      - quer manter a câmera desligada por enquanto ou prefere ligar?
+      - está confortável com a câmera ligada durante toda a conversa?
+      - se preferir, podemos seguir só por áudio, sem câmera, tudo bem?
+      - a qualidade da sua conexão permite usar vídeo sem travar muito?
+      - do you mind turning your camera on, or would you rather keep it off?
+      - if you feel comfortable, could you turn your camera on?
+      - is it okay for you to keep your camera on during the interview?
+      - if the connection allows, it would be nice if we could see each other on video
+      - are you comfortable having your camera on?
+      - if it’s not an issue, would you be able to turn your camera on?
+      - would you like to keep the camera off for now or turn it on?
+      - are you okay with having your camera on throughout the conversation?
+      - if you prefer, we can also go audio-only, that’s fine
+      - does your connection handle video well, or is it better to avoid it?

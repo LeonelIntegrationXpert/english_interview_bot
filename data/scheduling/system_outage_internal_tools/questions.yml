@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: system_outage_internal_tools
+    examples: |
+      - só para você saber, alguns dos nossos sistemas internos estão fora do ar hoje, então talvez eu não consiga abrir todos os detalhes da vaga
+      - estamos com uma instabilidade nas ferramentas internas, então posso não conseguir consultar tudo em tempo real
+      - nossos sistemas de RH estão um pouco lentos hoje, então pode ser que algumas informações demorem para carregar
+      - caso eu demore um pouco para responder, é porque o sistema está carregando aqui
+      - algumas telas não estão abrindo corretamente para mim, então pode ser que eu peça para você repetir algo que já estava no formulário
+      - estamos passando por uma manutenção interna, então talvez eu não consiga ver todo o seu histórico completo
+      - se eu não tiver acesso a algum detalhe agora, posso complementar depois por e-mail
+      - hoje as ferramentas não estão ajudando muito, então vou tentar conduzir a conversa mais na base do papo mesmo
+      - se alguma informação não aparecer para mim, vou te avisar e a gente contorna juntos
+      - por causa dessa instabilidade, vou focar mais nas suas respostas do que nos sistemas, tudo bem?
+      - just so you know, some of our internal systems are down today, so I might not be able to open all the details of the role
+      - we’re experiencing some instability with our internal tools, so I may not be able to check everything in real time
+      - our HR systems are a bit slow today, so some information may take a while to load
+      - if I take a bit longer to answer, it’s because the system is loading on my side
+      - some screens aren’t opening properly for me, so I might ask you to repeat something that was already in the form
+      - we’re going through some internal maintenance, so I may not see your full history right now
+      - if I don’t have access to a specific detail at the moment, I can always follow up later by email
+      - our tools aren’t helping much today, so I’ll try to conduct the conversation more through our dialogue
+      - if some information doesn’t show up for me, I’ll let you know and we’ll work around it together
+      - because of this instability, I’ll focus more on your answers than on the systems, is that okay?

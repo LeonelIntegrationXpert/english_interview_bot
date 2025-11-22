@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_problem_solving:
+    - custom:
+        vr_pt: |
+          Quando enfrento um problema complexo, eu gosto de quebrar em partes menores e começar entendendo muito bem o contexto: o que exatamente está acontecendo, quem é impactado e quais são as restrições. Em seguida, eu busco possíveis causas, levanto hipóteses e, quando necessário, envolvo outras pessoas que podem ter uma visão complementar. Eu avalio alternativas, considerando riscos e benefícios, e escolho o caminho mais equilibrado para o momento. Depois de resolver, procuro documentar a solução e compartilhar com o time, para que aquele aprendizado não se perca.
+        vr_en: |
+          When I face a complex problem, I like to break it down into smaller pieces and start by understanding the context very well: what is actually happening, who is impacted, and what the constraints are. Then I look for possible causes, raise hypotheses, and when needed involve other people who may have a complementary view. I evaluate alternatives, considering risks and benefits, and choose the most balanced option for that moment. After solving it, I try to document the solution and share it with the team so that the learning is not lost.

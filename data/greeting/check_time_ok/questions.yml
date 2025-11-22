@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: check_time_ok
+    examples: |
+      - só confirmando, esse horário continua bom para você?
+      - você está tranquilo em relação ao tempo da entrevista?
+      - você tem algum compromisso logo em seguida ou podemos usar o tempo completo?
+      - precisamos respeitar algum limite de horário da sua agenda?
+      - está tudo certo com o tempo que combinamos para hoje?
+      - se passar alguns minutos do horário previsto, tudo bem para você?
+      - você tem algum limite de horário que eu precise saber?
+      - podemos seguir normalmente com a duração planejada da entrevista?
+      - esse horário ainda funciona bem para você?
+      - antes de começar, tudo certo com o tempo que temos?
+      - just to confirm, is this time still good for you?
+      - are you okay with the duration of the interview?
+      - do you have anything right after this, or can we use the full time?
+      - do we need to respect any specific time limit on your side?
+      - is everything okay with the time we agreed on for today?
+      - if we go a few minutes over the scheduled time, is that okay for you?
+      - do you have any time constraints I should be aware of?
+      - can we proceed with the planned length of the interview?
+      - does this time still work well for you?
+      - before we start, is everything alright with the time we have?

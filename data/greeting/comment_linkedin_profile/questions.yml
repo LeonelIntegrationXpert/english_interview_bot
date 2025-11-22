@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: comment_linkedin_profile
+    examples: |
+      - eu também dei uma olhada no seu LinkedIn para entender um pouco melhor sua trajetória
+      - seu perfil no LinkedIn ajudou bastante a complementar o seu currículo
+      - pelo seu LinkedIn, deu para ver bem a evolução das suas experiências
+      - eu vi alguns posts seus no LinkedIn e achei bem interessante
+      - olhando seu LinkedIn, deu para perceber que você se mantém ativo na área
+      - seu LinkedIn mostra bastante envolvimento com a comunidade da sua área
+      - eu vi que no LinkedIn você detalha bem alguns projetos que não estão tão claros no currículo
+      - percebi pelo LinkedIn que você tem investido bastante em desenvolvimento contínuo
+      - vi no seu LinkedIn que você tem algumas certificações bem relevantes
+      - seu perfil no LinkedIn passa uma imagem bem profissional
+      - I also checked your LinkedIn to better understand your background
+      - your LinkedIn profile helped a lot to complement your resume
+      - from your LinkedIn, I could clearly see the evolution of your experience
+      - I saw some of your posts on LinkedIn and found them interesting
+      - looking at your LinkedIn, it’s clear that you stay active in your field
+      - your LinkedIn shows strong involvement with the community in your area
+      - I noticed on LinkedIn that you detail some projects that aren’t as clear on the resume
+      - I could see from LinkedIn that you’ve invested quite a bit in continuous learning
+      - I saw on your LinkedIn that you have some very relevant certifications
+      - your LinkedIn profile gives a very professional impression

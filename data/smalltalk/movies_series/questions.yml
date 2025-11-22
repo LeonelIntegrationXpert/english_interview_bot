@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: movies_series
+    examples: |
+      - você costuma assistir filmes ou séries no seu tempo livre?
+      - tem alguma série que você está acompanhando no momento?
+      - você prefere mais filmes, séries ou documentários?
+      - qual foi a última série ou filme que você assistiu e gostou bastante?
+      - você costuma assistir algo em inglês para praticar o idioma?
+      - tem algum tipo de conteúdo que você gosta de ver para relaxar depois do trabalho?
+      - você é mais de maratonar série ou de ver episódios aos poucos?
+      - tem algum gênero que você mais gosta, tipo ação, drama, ficção científica ou comédia?
+      - você gosta de rever coisas que já viu ou sempre procura algo novo?
+      - tem alguma recomendação de série ou filme que você normalmente indica para as pessoas?
+      - do you usually watch movies or series in your free time?
+      - is there any series you are currently watching?
+      - do you prefer movies, series, or documentaries?
+      - what was the last series or movie you watched and really enjoyed?
+      - do you watch any content in English to practice the language?
+      - is there any kind of content you like to watch to relax after work?
+      - are you more of a binge-watcher or do you prefer watching episodes slowly over time?
+      - do you have a favorite genre, like action, drama, sci-fi, or comedy?
+      - do you like rewatching things you’ve already seen, or do you always look for something new?
+      - do you have any series or movie you usually recommend to people?

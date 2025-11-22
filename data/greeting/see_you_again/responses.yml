@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_see_you_again:
+    - custom:
+        vr_pt: |
+          Verdade, já fazia um tempo mesmo!
+        vr_en: |
+          Yeah, it really has been a while!

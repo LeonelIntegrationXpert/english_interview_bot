@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_nice_to_meet_you:
+    - custom:
+        vr_pt: |
+          Prazer é meu!
+        vr_en: |
+          The pleasure is mine!

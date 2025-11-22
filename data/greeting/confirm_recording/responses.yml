@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_confirm_recording:
+    - custom:
+        vr_pt: |
+          Tudo bem, sem problema. Eu concordo com a gravação da entrevista para uso interno do processo.
+        vr_en: |
+          That’s completely fine. I agree with the interview being recorded for internal use in the process.

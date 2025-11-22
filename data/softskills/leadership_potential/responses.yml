@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_leadership_potential:
+    - custom:
+        vr_pt: |
+          Eu me vejo, no futuro, assumindo papéis de liderança mais formais, principalmente em times de integração e arquitetura. Hoje eu já exerço liderança em alguns momentos, ajudando a organizar o trabalho, apoiando decisões técnicas e sendo um ponto de referência para o time. Ao mesmo tempo, eu sei que liderança envolve escuta, empatia e visão de longo prazo, então busco desenvolver essas habilidades para, no futuro, conseguir liderar times de forma sustentável e respeitosa.
+        vr_en: |
+          I see myself in the future taking on more formal leadership roles, especially in integration and architecture teams. Today I already exercise leadership in some situations, helping to organize the work, supporting technical decisions, and being a reference point for the team. At the same time I know that leadership involves listening, empathy, and a long term view, so I work on these skills to be able to lead teams in a sustainable and respectful way in the future.

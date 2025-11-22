@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: start_meeting
+    examples: |
+      - vamos começar?
+      - bora começar?
+      - podemos começar?
+      - tudo pronto para começar?
+      - vamos dar início?
+      - podemos iniciar a reunião?
+      - vamos iniciar a entrevista?
+      - pronto para a entrevista?
+      - pronto para começar?
+      - podemos começar agora?
+      - shall we start?
+      - can we start?
+      - are you ready to start?
+      - ready to get started?
+      - can we begin the meeting?
+      - can we begin the interview?
+      - shall we begin?
+      - are you ready to begin?
+      - is it okay if we start now?
+      - can we start now?

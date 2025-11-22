@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_distracted_by_notification
+    examples: |
+      - se eu olhar para o lado em algum momento, é só porque pode aparecer alguma notificação urgente aqui, mas estou focado na sua entrevista
+      - pode ser que eu precise dar uma olhada rápida em uma mensagem, mas isso não tira a atenção da nossa conversa
+      - se você me vir checando algo na tela, é só para acompanhar uma notificação interna, tá?
+      - talvez eu precise responder algo bem rápido durante a call, mas a prioridade é a entrevista
+      - se eu ficar alguns segundos em silêncio, é possível que eu esteja só vendo uma mensagem urgente
+      - ao longo da conversa, pode aparecer alguma notificação de trabalho, mas estou concentrado em você
+      - se em algum momento eu parecer distraído, é só algo pontual aqui, pode continuar tranquilo
+      - pode ser que eu precise conferir um alerta da empresa, mas continuo acompanhando suas respostas
+      - se você perceber que estou olhando para outra tela, é por causa de uma mensagem rápida, não se preocupe
+      - talvez eu tenha que checar um aviso interno rápido, mas sigo focado na entrevista
+      - if you see me looking to the side at some point, it’s just because an urgent notification may pop up, but I’m focused on your interview
+      - I might need to quickly check a message during the call, but that doesn’t take my attention away from our conversation
+      - if you see me checking something on the screen, it’s only to keep an eye on an internal notification, okay?
+      - I may need to answer something very quickly, but the interview is still my main priority
+      - if I’m silent for a few seconds, I might just be looking at an urgent message
+      - during our conversation, I may get a work notification, but I’m concentrated on you
+      - if at any point I seem a bit distracted, it’s just something punctual on my side, you can keep going
+      - I might have to check a company alert quickly, but I’ll still be following your answers
+      - if you notice me looking at another screen, it’s because of a quick message, don’t worry
+      - I may need to check an internal notice for a moment, but I remain focused on the interview

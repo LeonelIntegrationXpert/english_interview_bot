@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_basic_school_where_when:
+    - custom:
+        vr_pt: |
+          Eu fiz o ensino fundamental na escola Hipólito Leite, em Pelotas, e me formei lá em dois mil e cinco.
+        vr_en: |
+          I went to Hipólito Leite School, in Pelotas, for my elementary education, and I graduated from there in two thousand and five.

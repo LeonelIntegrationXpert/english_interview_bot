@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: parents_who_are
+    examples: |
+      - você pode me contar quem são seus pais?
+      - como se chamam seus pais?
+      - você poderia falar rapidamente sobre o seu pai e a sua mãe?
+      - qual é o nome do seu pai e da sua mãe?
+      - só para te conhecer um pouco melhor, quem são seus pais?
+      - você se sente à vontade para dizer o nome dos seus pais?
+      - como se chama seu pai? E sua mãe?
+      - quem são seus pais, se puder compartilhar?
+      - pode me falar o nome do seu pai e da sua mãe?
+      - como você apresentaria seus pais para alguém que não os conhece?
+      - could you tell me who your parents are?
+      - what are your parents’ names?
+      - could you briefly talk about your father and your mother?
+      - what is your father’s name and your mother’s name?
+      - just to know you a bit better, who are your parents?
+      - would you feel comfortable sharing your parents’ names?
+      - what is your dad’s name? And your mom’s?
+      - who are your parents, if you don’t mind sharing?
+      - could you tell me the names of your father and mother?
+      - how would you introduce your parents to someone who doesn’t know them?

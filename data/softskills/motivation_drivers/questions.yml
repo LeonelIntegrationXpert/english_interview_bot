@@ -1,0 +1,22 @@
+version: '3.1'
+nlu:
+  - intent: motivation_drivers
+    examples: |
+      - pode me contar sobre o tipo de projeto que mais te deixa empolgado em participar?
+      - que tipo de desafio faz você sentir que vale a pena se dedicar além do básico?
+      - o que mais te dá sensação de realização profissional?
+      - como você se mantém motivado em períodos mais repetitivos ou com tarefas menos interessantes?
+      - quanto o aprendizado influencia na sua motivação em um projeto?
+      - o reconhecimento do time e da liderança é importante para a sua motivação? Como?
+      - você poderia citar um momento recente em que se sentiu muito motivado no trabalho?
+      - o que normalmente faz você perder motivação em um contexto profissional?
+      - o que uma empresa pode fazer para manter você motivado no longo prazo?
+      - can you tell me about the type of project that makes you most excited to take part in?
+      - what kind of challenge makes you feel that it is worth going beyond the basics?
+      - what gives you the strongest feeling of professional achievement?
+      - how do you keep yourself motivated during more repetitive periods or with less interesting tasks?
+      - how much does learning influence your motivation in a project?
+      - is recognition from the team and leadership important for your motivation? How?
+      - could you mention a recent moment when you felt very motivated at work?
+      - what usually makes you lose motivation in a professional context?
+      - what can a company do to keep you motivated in the long term?
