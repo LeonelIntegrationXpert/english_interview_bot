@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: strengths_description
+    examples: |
+      - eu gostaria que você me falasse sobre os seus principais pontos fortes como profissional
+      - quais você considera que são as suas maiores qualidades no trabalho?
+      - se você tivesse que escolher três pontos fortes seus, quais seriam?
+      - que tipo de características positivas as pessoas normalmente reconhecem em você no dia a dia?
+      - o que mais te diferencia de outros profissionais com perfil parecido com o seu?
+      - na sua opinião, quais são as habilidades em que você realmente se destaca?
+      - se eu perguntasse para o seu gestor atual, o que ele diria que você faz muito bem?
+      - que tipo de comportamento seu costuma gerar feedback positivo no time?
+      - em quais tipos de situações você sente que entrega o seu melhor no trabalho?
+      - pode compartilhar comigo quais pontos fortes você mais tem desenvolvido ao longo da sua carreira?
+      - I would like you to tell me about your main strengths as a professional
+      - what do you consider to be your biggest strengths at work?
+      - if you had to choose three of your strongest qualities, what would they be?
+      - what kind of positive characteristics do people usually recognize in you on a daily basis?
+      - in your opinion, what really differentiates you from other professionals with a similar profile?
+      - what are the skills where you feel you stand out the most?
+      - if I asked your current manager, what would they say you do particularly well?
+      - what kind of behavior from you usually generates positive feedback in your team?
+      - in what kind of situations do you feel that you deliver your best at work?
+      - can you share which strengths you have been developing the most throughout your career?

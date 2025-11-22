@@ -1,13 +1,5 @@
 version: '3.1'
 rules:
-  - rule: rule_hello
-    steps:
-      - intent: hello
-      - action: utter_hello
-  - rule: rule_nlu_fallback
-    steps:
-      - intent: nlu_fallback
-      - action: action_fallback
   - rule: rule_adaptability_change
     steps:
       - intent: adaptability_change
@@ -336,6 +328,10 @@ rules:
     steps:
       - intent: handling_pressure
       - action: utter_handling_pressure
+  - rule: rule_hello
+    steps:
+      - intent: hello
+      - action: utter_hello
   - rule: rule_highschool_supletivo_where_when
     steps:
       - intent: highschool_supletivo_where_when
@@ -644,7 +640,55 @@ rules:
     steps:
       - intent: working_under_pressure
       - action: utter_working_under_pressure
+  - rule: rule_communication_with_non_technical
+    steps:
+      - intent: communication_with_non_technical
+      - action: utter_communication_with_non_technical
+  - rule: rule_conflict_resolution_style
+    steps:
+      - intent: conflict_resolution_style
+      - action: utter_conflict_resolution_style
+  - rule: rule_cross_cultural_collaboration
+    steps:
+      - intent: cross_cultural_collaboration
+      - action: utter_cross_cultural_collaboration
+  - rule: rule_decision_making_style
+    steps:
+      - intent: decision_making_style
+      - action: utter_decision_making_style
+  - rule: rule_giving_feedback
+    steps:
+      - intent: giving_feedback
+      - action: utter_giving_feedback
+  - rule: rule_improvement_points
+    steps:
+      - intent: improvement_points
+      - action: utter_improvement_points
+  - rule: rule_motivation_and_purpose
+    steps:
+      - intent: motivation_and_purpose
+      - action: utter_motivation_and_purpose
   - rule: rule_nlu_fallback
     steps:
       - intent: nlu_fallback
       - action: action_fallback
+  - rule: rule_ownership_accountability_style
+    steps:
+      - intent: ownership_accountability_style
+      - action: utter_ownership_accountability_style
+  - rule: rule_self_awareness
+    steps:
+      - intent: self_awareness
+      - action: utter_self_awareness
+  - rule: rule_strengths_description
+    steps:
+      - intent: strengths_description
+      - action: utter_strengths_description
+  - rule: rule_stress_management
+    steps:
+      - intent: stress_management
+      - action: utter_stress_management
+  - rule: rule_teamwork_approach
+    steps:
+      - intent: teamwork_approach
+      - action: utter_teamwork_approach

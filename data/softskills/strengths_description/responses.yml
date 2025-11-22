@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_strengths_description:
+    - custom:
+        vr_pt: |
+          Eu vejo como principais pontos fortes a minha capacidade de aprender rápido, a organização no dia a dia e a forma colaborativa como eu trabalho com outras pessoas. Gosto de assumir responsabilidade, manter comunicação clara e garantir que o que foi combinado, de fato, seja entregue. Também procuro sempre entender o contexto do time e do negócio, para não ficar apenas na execução técnica, mas contribuir de forma mais completa para o resultado.
+        vr_en: |
+          I see my main strengths as my ability to learn quickly, my organization in my daily work, and the collaborative way I interact with other people. I like to take responsibility, communicate clearly, and make sure that what was agreed is actually delivered. I also try to understand the team and business context, so I do not stay only on the technical side, but contribute in a more complete way to the overall result.

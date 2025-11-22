@@ -20,36 +20,36 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
 
-  # ─ Classificação de Intents e Entity Recognition
+  # ─ Classificação de Intents (mais treino, menos paranoia)
   - name: DIETClassifier
-    epochs: 5
+    epochs: 60                # antes 5 (pouco), agora treina de verdade
     constrain_similarities: true
 
-  # ─ FallbackClassifier dispara quando confidence ≤ 0.85
+  # ─ FallbackClassifier: só dispara em casos realmente ruins
   - name: FallbackClassifier
-    threshold: 0.85
-    ambiguity_threshold: 0.1
+    threshold: 0.25           # antes 0.85: fallback dominava tudo
+    ambiguity_threshold: 0.05 # só considera ambíguo se intents muito próximas
 
   # ─ Sinônimos de entidades
   - name: EntitySynonymMapper
 
-  # ─ Response Selector (para retrieval intents)
+  # ─ Response Selector (se um dia usar retrieval intents)
   - name: ResponseSelector
-    epochs: 5
+    epochs: 20
     constrain_similarities: true
 
 policies:
-  # ─ Memoization para capturar sub-histórias exatas
+  # ─ Memoization para histórias exatas
   - name: MemoizationPolicy
     max_history: 5
 
-  # ─ RulePolicy: chama action_fallback quando nlu_fallback chegar
+  # ─ RulePolicy: ainda sabe chamar o fallback, mas menos agressivo
   - name: RulePolicy
     core_fallback_action_name: "action_fallback"
     enable_fallback_prediction: true
-    core_fallback_threshold: 0.85
+    core_fallback_threshold: 0.3   # antes 0.85
 
-  # ─ Lida com intents inesperadas (baixo nível de confiança)
+  # ─ Lida com intents inesperadas
   - name: UnexpecTEDIntentPolicy
     nlu_intent_threshold: 0.3
 

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: motivation_and_purpose
+    examples: |
+      - o que mais te motiva no seu trabalho no dia a dia?
+      - em que tipo de atividade você sente mais energia e satisfação?
+      - pode me contar sobre um momento em que você se sentiu especialmente realizado profissionalmente?
+      - quando as coisas ficam difíceis, o que te ajuda a continuar seguindo em frente?
+      - que tipo de projeto faz você sentir que o seu trabalho tem propósito?
+      - qual é a conexão, para você, entre o que você faz hoje e os seus objetivos de longo prazo?
+      - já houve algum momento em que você pensou em desistir de algo e decidiu continuar? Por quê?
+      - o que te dá sensação de progresso na carreira?
+      - como você faz para se manter motivado mesmo em tarefas mais repetitivas?
+      - o que te faz olhar para a sua profissão e pensar que está no caminho certo?
+      - what motivates you the most in your work on a daily basis?
+      - in what kind of activities do you feel more energy and satisfaction?
+      - can you tell me about a moment when you felt especially fulfilled professionally?
+      - when things get difficult, what helps you keep going?
+      - what type of project makes you feel that your work has purpose?
+      - what is the connection, for you, between what you do today and your long term goals?
+      - has there been a moment when you thought about giving up on something and decided to continue? Why?
+      - what gives you a sense of progress in your career?
+      - how do you keep yourself motivated even in more repetitive tasks?
+      - what makes you look at your profession and feel that you are on the right path?

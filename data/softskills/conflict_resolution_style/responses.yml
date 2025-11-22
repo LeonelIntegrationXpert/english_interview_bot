@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_conflict_resolution_style:
+    - custom:
+        vr_pt: |
+          Quando surge um conflito, eu procuro primeiro entender os fatos e os pontos de vista de cada lado, sem julgar. Tento separar a pessoa do problema e focar no que precisa ser resolvido para o trabalho fluir. Normalmente eu proponho uma conversa aberta, em um tom calmo, para alinhar expectativas e buscar um acordo que faça sentido para todos. Se necessário, envolvo a liderança de forma transparente. Meu objetivo é sempre transformar o conflito em aprendizado e melhoria de processo, e não deixar que ele se torne algo pessoal.
+        vr_en: |
+          When a conflict appears, I first try to understand the facts and each side’s perspective, without judgment. I try to separate the person from the problem and focus on what needs to be solved so the work can move forward. I usually suggest an open conversation, in a calm tone, to align expectations and find an agreement that makes sense for everyone. If needed, I involve leadership in a transparent way. My goal is always to turn the conflict into learning and process improvement, and not let it become something personal.

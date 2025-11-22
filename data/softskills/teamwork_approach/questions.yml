@@ -1,0 +1,23 @@
+version: '3.1'
+nlu:
+  - intent: teamwork_approach
+    examples: |
+      - como você descreveria o seu estilo de trabalho em equipe?
+      - o que para você é essencial para um time funcionar bem no dia a dia?
+      - como você costuma contribuir para um bom clima de colaboração no time?
+      - quando o time está com muita demanda, como você ajuda os colegas?
+      - pode me contar sobre uma experiência positiva em que o trabalho em equipe fez diferença?
+      - como você reage quando um colega está com dificuldade em uma tarefa?
+      - o que você espera de um time ideal em termos de colaboração?
+      - como você faz para garantir que todo mundo seja ouvido nas discussões?
+      - já aconteceu de você ter que apoiar alguém fora do seu papel direto para ajudar o time?
+      - how would you describe your teamwork style?
+      - do you prefer working more on your own or in a group? Why?
+      - what do you think is essential for a team to work well on a daily basis?
+      - how do you usually contribute to a good collaborative environment in the team?
+      - when the team has a very high workload, how do you help your colleagues?
+      - can you tell me about a positive experience where teamwork made a big difference?
+      - how do you react when a colleague is struggling with a task?
+      - what do you expect from an ideal team in terms of collaboration?
+      - how do you make sure everyone has a chance to be heard in discussions?
+      - has there been a time when you helped someone outside your direct role to support the team?

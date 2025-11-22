@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: improvement_points
+    examples: |
+      - agora falando do outro lado, quais pontos você acredita que ainda precisa desenvolver?
+      - em quais aspectos você sente que ainda tem espaço para melhorar como profissional?
+      - se você tivesse que escolher um ponto de melhoria principal, qual seria?
+      - que tipo de feedback de desenvolvimento você recebe com mais frequência?
+      - existe alguma habilidade que você está ativamente tentando melhorar neste momento?
+      - na sua visão, qual comportamento seu você gostaria de ajustar ou evoluir?
+      - como você costuma lidar com os seus pontos fracos no dia a dia de trabalho?
+      - pode me contar sobre um ponto de melhoria que você já identificou e está trabalhando para evoluir?
+      - existe algo que você fez no passado e hoje faria diferente, por ter amadurecido mais?
+      - quais pontos você acha que essa vaga pode te ajudar a desenvolver ainda mais?
+      - now looking at the other side, what areas do you believe you still need to develop?
+      - in which aspects do you feel you still have room to improve as a professional?
+      - if you had to choose one main improvement point, what would it be?
+      - what kind of development feedback do you receive most frequently?
+      - is there any skill that you are actively trying to improve at this moment?
+      - in your view, what behavior of yours would you like to adjust or evolve?
+      - how do you usually deal with your weaker points in your daily work?
+      - can you tell me about an improvement area that you have already identified and are working on?
+      - is there anything you did in the past that you would do differently today because you have matured more?
+      - what points do you think this role could help you develop even further?

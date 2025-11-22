@@ -1,0 +1,8 @@
+version: '3.1'
+responses:
+  utter_teamwork_approach:
+    - custom:
+        vr_pt: |
+          Eu valorizo bastante o trabalho em equipe e tento sempre agir de forma colaborativa. Gosto de compartilhar informação, oferecer ajuda quando vejo alguém com dificuldade e, ao mesmo tempo, pedir apoio quando necessário, sem ego. Procuro ouvir diferentes opiniões, buscar consenso quando possível e, se for preciso decidir, manter o foco no que é melhor para o time e para o projeto. Acredito que um bom time é aquele em que as pessoas se sentem seguras para falar, errar, aprender e crescer juntas.
+        vr_en: |
+          I value teamwork a lot and I always try to act in a collaborative way. I like to share information, offer help when I see someone struggling, and also ask for support when necessary, without ego. I try to listen to different opinions, look for consensus when possible, and, if a decision is needed, keep the focus on what is best for the team and for the project. I believe a good team is one where people feel safe to speak, make mistakes, learn, and grow together.

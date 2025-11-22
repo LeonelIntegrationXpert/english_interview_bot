@@ -1,13 +1,5 @@
 version: '3.1'
 stories:
-  - story: story_hello
-    steps:
-      - intent: hello
-      - action: utter_hello
-  - story: story_nlu_fallback
-    steps:
-      - intent: nlu_fallback
-      - action: action_fallback
   - story: story_adaptability_change
     steps:
       - intent: adaptability_change
@@ -336,6 +328,10 @@ stories:
     steps:
       - intent: handling_pressure
       - action: utter_handling_pressure
+  - story: story_hello
+    steps:
+      - intent: hello
+      - action: utter_hello
   - story: story_highschool_supletivo_where_when
     steps:
       - intent: highschool_supletivo_where_when
@@ -644,7 +640,55 @@ stories:
     steps:
       - intent: working_under_pressure
       - action: utter_working_under_pressure
+  - story: story_communication_with_non_technical
+    steps:
+      - intent: communication_with_non_technical
+      - action: utter_communication_with_non_technical
+  - story: story_conflict_resolution_style
+    steps:
+      - intent: conflict_resolution_style
+      - action: utter_conflict_resolution_style
+  - story: story_cross_cultural_collaboration
+    steps:
+      - intent: cross_cultural_collaboration
+      - action: utter_cross_cultural_collaboration
+  - story: story_decision_making_style
+    steps:
+      - intent: decision_making_style
+      - action: utter_decision_making_style
+  - story: story_giving_feedback
+    steps:
+      - intent: giving_feedback
+      - action: utter_giving_feedback
+  - story: story_improvement_points
+    steps:
+      - intent: improvement_points
+      - action: utter_improvement_points
+  - story: story_motivation_and_purpose
+    steps:
+      - intent: motivation_and_purpose
+      - action: utter_motivation_and_purpose
   - story: story_nlu_fallback
     steps:
       - intent: nlu_fallback
       - action: action_fallback
+  - story: story_ownership_accountability_style
+    steps:
+      - intent: ownership_accountability_style
+      - action: utter_ownership_accountability_style
+  - story: story_self_awareness
+    steps:
+      - intent: self_awareness
+      - action: utter_self_awareness
+  - story: story_strengths_description
+    steps:
+      - intent: strengths_description
+      - action: utter_strengths_description
+  - story: story_stress_management
+    steps:
+      - intent: stress_management
+      - action: utter_stress_management
+  - story: story_teamwork_approach
+    steps:
+      - intent: teamwork_approach
+      - action: utter_teamwork_approach

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: stress_management
+    examples: |
+      - como você costuma lidar com momentos de muito estresse no trabalho?
+      - o que você faz para se manter equilibrado quando a pressão aumenta?
+      - pode me contar sobre uma situação em que o nível de estresse estava alto e como você se organizou para lidar com isso?
+      - quais estratégias pessoais você usa para não levar o estresse do trabalho para a vida pessoal?
+      - como você reage quando tudo parece urgente e o prazo é apertado?
+      - você costuma pedir ajuda quando percebe que está sobrecarregado?
+      - o que te ajuda a manter a calma quando as coisas não estão saindo como o planejado?
+      - já houve algum momento em que você precisou desacelerar para não chegar a um esgotamento?
+      - como você percebe os sinais de que está passando do limite?
+      - que tipo de ambiente de trabalho, na sua visão, ajuda a reduzir o estresse desnecessário?
+      - how do you usually deal with very stressful moments at work?
+      - what do you do to stay balanced when the pressure increases?
+      - can you tell me about a situation where the stress level was high and how you organized yourself to handle it?
+      - what personal strategies do you use to avoid bringing work stress into your personal life?
+      - how do you react when everything seems urgent and the deadline is tight?
+      - do you usually ask for help when you realize that you are overloaded?
+      - what helps you stay calm when things are not going as planned?
+      - has there been a moment when you needed to slow down to avoid burnout?
+      - how do you notice the signs that you are pushing yourself too far?
+      - in your view, what kind of work environment helps reduce unnecessary stress?

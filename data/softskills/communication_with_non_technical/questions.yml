@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: communication_with_non_technical
+    examples: |
+      - como você explica assuntos técnicos para pessoas que não são da área de tecnologia?
+      - pode me dar um exemplo de quando você precisou traduzir algo muito técnico para alguém de negócio?
+      - o que você faz quando percebe que a outra pessoa não está entendendo os termos técnicos?
+      - você costuma usar metáforas, exemplos simples ou algum outro recurso para explicar temas complexos?
+      - como você adapta a sua linguagem quando fala com pessoas de áreas diferentes da sua?
+      - já recebeu feedback de que você explica bem conceitos difíceis? Pode contar?
+      - o que é mais importante para você: ser totalmente técnico ou garantir que a mensagem seja entendida?
+      - como você lida quando alguém te pede para explicar “em termos leigos” algo que é muito detalhado?
+      - pode me contar sobre uma situação em que uma boa explicação evitou um problema de alinhamento?
+      - o que você faz para checar se a pessoa realmente entendeu o que você explicou?
+      - how do you explain technical topics to people who are not from the technology area?
+      - can you give me an example of a time when you had to translate something very technical for a business stakeholder?
+      - what do you do when you notice the other person is not understanding the technical terms?
+      - do you usually use metaphors, simple examples, or any other resource to explain complex topics?
+      - how do you adapt your language when you speak with people from areas different from yours?
+      - have you received feedback that you explain difficult concepts well? Can you tell me about it?
+      - what is more important to you: being fully technical or making sure the message is understood?
+      - how do you handle situations when someone asks you to explain something “in simple terms” that is very detailed?
+      - can you tell me about a situation where a good explanation helped avoid a misalignment problem?
+      - what do you do to check if the person really understood what you explained?

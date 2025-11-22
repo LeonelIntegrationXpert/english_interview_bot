@@ -5027,3 +5027,351 @@ Eu acredito muito que equilíbrio entre vida pessoal e profissional é fundament
 #vr_en: |
 I strongly believe that a healthy balance between personal life and professional life is essential to keep good performance in the long term. I try to organize my schedule so that I have quality time with my family and also real rest moments, without being connected all the time. When I notice signs of excessive exhaustion, I review my priorities, talk to leadership if needed, and adjust the pace. I can see that when I am more balanced I make better decisions, I am more patient with the team, and I deliver results with more consistency.
 ---
+#intent: softskills/strengths_description
+#pt:
+- eu gostaria que você me falasse sobre os seus principais pontos fortes como profissional
+- quais você considera que são as suas maiores qualidades no trabalho?
+- se você tivesse que escolher três pontos fortes seus, quais seriam?
+- que tipo de características positivas as pessoas normalmente reconhecem em você no dia a dia?
+- o que mais te diferencia de outros profissionais com perfil parecido com o seu?
+- na sua opinião, quais são as habilidades em que você realmente se destaca?
+- se eu perguntasse para o seu gestor atual, o que ele diria que você faz muito bem?
+- que tipo de comportamento seu costuma gerar feedback positivo no time?
+- em quais tipos de situações você sente que entrega o seu melhor no trabalho?
+- pode compartilhar comigo quais pontos fortes você mais tem desenvolvido ao longo da sua carreira?
+#en:
+- I would like you to tell me about your main strengths as a professional
+- what do you consider to be your biggest strengths at work?
+- if you had to choose three of your strongest qualities, what would they be?
+- what kind of positive characteristics do people usually recognize in you on a daily basis?
+- in your opinion, what really differentiates you from other professionals with a similar profile?
+- what are the skills where you feel you stand out the most?
+- if I asked your current manager, what would they say you do particularly well?
+- what kind of behavior from you usually generates positive feedback in your team?
+- in what kind of situations do you feel that you deliver your best at work?
+- can you share which strengths you have been developing the most throughout your career?
+#rp_1
+#vr_pt: |
+Eu vejo como principais pontos fortes a minha capacidade de aprender rápido, a organização no dia a dia e a forma colaborativa como eu trabalho com outras pessoas. Gosto de assumir responsabilidade, manter comunicação clara e garantir que o que foi combinado, de fato, seja entregue. Também procuro sempre entender o contexto do time e do negócio, para não ficar apenas na execução técnica, mas contribuir de forma mais completa para o resultado.
+#vr_en: |
+I see my main strengths as my ability to learn quickly, my organization in my daily work, and the collaborative way I interact with other people. I like to take responsibility, communicate clearly, and make sure that what was agreed is actually delivered. I also try to understand the team and business context, so I do not stay only on the technical side, but contribute in a more complete way to the overall result.
+---
+#intent: softskills/improvement_points
+#pt:
+- agora falando do outro lado, quais pontos você acredita que ainda precisa desenvolver?
+- em quais aspectos você sente que ainda tem espaço para melhorar como profissional?
+- se você tivesse que escolher um ponto de melhoria principal, qual seria?
+- que tipo de feedback de desenvolvimento você recebe com mais frequência?
+- existe alguma habilidade que você está ativamente tentando melhorar neste momento?
+- na sua visão, qual comportamento seu você gostaria de ajustar ou evoluir?
+- como você costuma lidar com os seus pontos fracos no dia a dia de trabalho?
+- pode me contar sobre um ponto de melhoria que você já identificou e está trabalhando para evoluir?
+- existe algo que você fez no passado e hoje faria diferente, por ter amadurecido mais?
+- quais pontos você acha que essa vaga pode te ajudar a desenvolver ainda mais?
+#en:
+- now looking at the other side, what areas do you believe you still need to develop?
+- in which aspects do you feel you still have room to improve as a professional?
+- if you had to choose one main improvement point, what would it be?
+- what kind of development feedback do you receive most frequently?
+- is there any skill that you are actively trying to improve at this moment?
+- in your view, what behavior of yours would you like to adjust or evolve?
+- how do you usually deal with your weaker points in your daily work?
+- can you tell me about an improvement area that you have already identified and are working on?
+- is there anything you did in the past that you would do differently today because you have matured more?
+- what points do you think this role could help you develop even further?
+#rp_1
+#vr_pt: |
+Eu procuro olhar para os meus pontos de melhoria de forma bem transparente. Um deles é equilibrar a vontade de aprofundar muito em detalhes com a necessidade de ser mais conciso em algumas situações. Tenho trabalhado para adaptar o nível de detalhe ao contexto e ao tempo disponível das outras pessoas. Outro ponto é delegar mais quando estou em posição de referência, em vez de tentar assumir tudo sozinho. Vejo esses aspectos como parte do meu desenvolvimento contínuo.
+#vr_en: |
+I try to look at my improvement points in a very transparent way. One of them is balancing my desire to go very deep into details with the need to be more concise in some situations. I have been working on adapting the level of detail to the context and to other people’s available time. Another point is delegating more when I am in a reference position, instead of trying to take everything on myself. I see these aspects as part of my continuous development.
+---
+#intent: softskills/decision_making_style
+#pt:
+- como você costuma tomar decisões importantes no seu trabalho?
+- quando você precisa decidir entre duas opções boas, qual é o seu critério principal?
+- você se considera mais analítico ou mais intuitivo na hora de decidir? Por quê?
+- pode me contar sobre uma decisão difícil que você precisou tomar e como chegou à conclusão?
+- até que ponto você gosta de envolver outras pessoas antes de fechar uma decisão?
+- como você lida quando precisa decidir com informação incompleta?
+- o que pesa mais para você em uma decisão: prazo, custo, qualidade ou impacto no time?
+- quando uma decisão sua não sai como esperado, o que você costuma fazer depois?
+- você já se arrependeu de alguma decisão profissional? Como tratou isso?
+- pode me explicar como você equilibra velocidade e qualidade na tomada de decisão?
+#en:
+- how do you usually make important decisions in your work?
+- when you need to choose between two good options, what is your main criterion?
+- do you see yourself as more analytical or more intuitive when deciding? Why?
+- can you tell me about a difficult decision you had to make and how you reached your conclusion?
+- to what extent do you like to involve other people before closing a decision?
+- how do you handle situations where you need to decide with incomplete information?
+- what weighs more for you in a decision: time, cost, quality, or team impact?
+- when one of your decisions does not work as expected, what do you usually do afterwards?
+- have you ever regretted a professional decision? How did you deal with it?
+- can you explain how you balance speed and quality in your decision making?
+#rp_1
+#vr_pt: |
+Na hora de tomar decisões, eu gosto de combinar análise com bom senso prático. Normalmente eu coleto as informações essenciais, avalio riscos, impacto para o time e para o negócio e, quando faz sentido, discuto alternativas com as pessoas envolvidas. Quando o cenário é incerto, eu tomo a melhor decisão possível com os dados disponíveis e deixo claro que podemos ajustar o rumo depois, se necessário. Se uma decisão não sai como esperado, eu assumo a responsabilidade, aprendo com o resultado e trabalho para corrigir o caminho rapidamente.
+#vr_en: |
+When I need to make decisions, I like to combine analysis with practical common sense. Normally I gather the essential information, evaluate risks, and look at the impact on the team and on the business. When it makes sense, I discuss alternatives with the people involved. When the scenario is uncertain, I make the best possible decision with the data available and I am clear that we can adjust the direction later if needed. If a decision does not work as expected, I take responsibility, learn from the result, and work to correct the course quickly.
+---
+#intent: softskills/giving_feedback
+#pt:
+- como você costuma dar feedback para outras pessoas do time?
+- você se sente à vontade para dar feedback quando percebe algo que pode ser melhorado?
+- pode me contar sobre uma situação em que você precisou dar um feedback mais delicado para alguém?
+- qual é a sua preocupação principal quando você vai dar um feedback para um colega?
+- como você equilibra sinceridade e cuidado ao dar feedback?
+- você prefere dar feedback na hora ou marcar um momento específico para isso?
+- já aconteceu de alguém não reagir bem a um feedback seu? Como você lidou com isso?
+- que tipo de preparação você costuma fazer antes de dar um feedback mais sensível?
+- você acredita que feedback deve ser dado apenas em momentos formais ou também no dia a dia? Por quê?
+- pode me explicar como você gostaria que as pessoas se sentissem depois de receber um feedback seu?
+#en:
+- how do you usually give feedback to other people on your team?
+- do you feel comfortable giving feedback when you notice something that can be improved?
+- can you tell me about a situation where you had to give more delicate feedback to someone?
+- what is your main concern when you are about to give feedback to a colleague?
+- how do you balance honesty and care when giving feedback?
+- do you prefer giving feedback on the spot or scheduling a specific moment for it?
+- has it ever happened that someone did not react well to your feedback? How did you handle that?
+- what kind of preparation do you usually do before giving more sensitive feedback?
+- do you believe feedback should be given only in formal moments or also in day to day interactions? Why?
+- can you explain how you would like people to feel after receiving feedback from you?
+#rp_1
+#vr_pt: |
+Quando dou feedback, tento sempre focar em fatos e comportamentos observáveis, nunca em rótulos pessoais. Procuro escolher um momento adequado, explicar o contexto, descrever o que aconteceu e o impacto gerado, e depois abrir espaço para ouvir a visão da outra pessoa. Tento ser direto, mas respeitoso, deixando claro que o objetivo é desenvolvimento e não julgamento. Também gosto de equilibrar pontos de melhoria com pontos positivos, para que o feedback seja construtivo e ajude a fortalecer a relação de trabalho.
+#vr_en: |
+When I give feedback, I always try to focus on facts and observable behaviors, not on personal labels. I choose an appropriate moment, explain the context, describe what happened and the impact it had, and then I give space to hear the other person’s perspective. I try to be direct but respectful, making it clear that the goal is development, not judgment. I also like to balance improvement points with positive aspects, so that the feedback is constructive and helps strengthen the working relationship.
+---
+#intent: softskills/cross_cultural_collaboration
+#pt:
+- você já trabalhou com pessoas de outros países ou culturas diferentes? Como foi essa experiência?
+- como você se adapta quando trabalha em times com perfis culturais bem diferentes?
+- na sua opinião, o que é importante para colaborar bem em um ambiente multicultural?
+- já houve alguma situação em que uma diferença cultural gerou ruído na comunicação? Como você tratou isso?
+- como você faz para evitar mal-entendidos quando está trabalhando com pessoas de contextos muito diferentes do seu?
+- você se sente à vontade para trabalhar em inglês com pessoas de vários países ao mesmo tempo?
+- pode me contar sobre um projeto em que a diversidade cultural do time trouxe benefícios claros?
+- o que você faz para respeitar diferentes estilos de comunicação em um time global?
+- como você reage quando percebe que algo que é normal na sua cultura não é recebido da mesma forma em outra cultura?
+- que atitudes você considera essenciais para construir confiança em times distribuídos globalmente?
+#en:
+- have you worked with people from other countries or different cultures? How was that experience?
+- how do you adapt when you work in teams with very different cultural profiles?
+- in your opinion, what is important to collaborate well in a multicultural environment?
+- has there been a situation where a cultural difference created noise in communication? How did you handle it?
+- what do you do to avoid misunderstandings when you are working with people from very different backgrounds?
+- do you feel comfortable working in English with people from several countries at the same time?
+- can you tell me about a project where the cultural diversity of the team brought clear benefits?
+- what do you do to respect different communication styles in a global team?
+- how do you react when you notice that something normal in your culture is not received the same way in another culture?
+- what attitudes do you consider essential to build trust in globally distributed teams?
+#rp_1
+#vr_pt: |
+Eu gosto bastante de trabalhar com pessoas de diferentes culturas, porque isso amplia muito a forma de enxergar problemas e soluções. Procuro sempre manter uma postura de respeito e curiosidade, fazendo perguntas em vez de assumir que a minha forma de trabalhar é a única correta. Também ajusto meu jeito de me comunicar, sendo mais claro, evitando gírias e checando se a mensagem foi bem entendida. Acredito que ouvir com atenção, ter paciência e estar aberto a aprender são pontos essenciais para colaborar bem em um contexto multicultural.
+#vr_en: |
+I really enjoy working with people from different cultures because it greatly expands the way I see problems and solutions. I try to keep a respectful and curious attitude, asking questions instead of assuming that my way of working is the only right one. I also adjust my communication style, being clearer, avoiding slang, and checking if the message was well understood. I believe that listening carefully, being patient, and being open to learning are essential points to collaborate well in a multicultural context.
+---
+#intent: softskills/stress_management
+#pt:
+- como você costuma lidar com momentos de muito estresse no trabalho?
+- o que você faz para se manter equilibrado quando a pressão aumenta?
+- pode me contar sobre uma situação em que o nível de estresse estava alto e como você se organizou para lidar com isso?
+- quais estratégias pessoais você usa para não levar o estresse do trabalho para a vida pessoal?
+- como você reage quando tudo parece urgente e o prazo é apertado?
+- você costuma pedir ajuda quando percebe que está sobrecarregado?
+- o que te ajuda a manter a calma quando as coisas não estão saindo como o planejado?
+- já houve algum momento em que você precisou desacelerar para não chegar a um esgotamento?
+- como você percebe os sinais de que está passando do limite?
+- que tipo de ambiente de trabalho, na sua visão, ajuda a reduzir o estresse desnecessário?
+#en:
+- how do you usually deal with very stressful moments at work?
+- what do you do to stay balanced when the pressure increases?
+- can you tell me about a situation where the stress level was high and how you organized yourself to handle it?
+- what personal strategies do you use to avoid bringing work stress into your personal life?
+- how do you react when everything seems urgent and the deadline is tight?
+- do you usually ask for help when you realize that you are overloaded?
+- what helps you stay calm when things are not going as planned?
+- has there been a moment when you needed to slow down to avoid burnout?
+- how do you notice the signs that you are pushing yourself too far?
+- in your view, what kind of work environment helps reduce unnecessary stress?
+#rp_1
+#vr_pt: |
+Em momentos de maior estresse, eu tento primeiro organizar o cenário: listar o que realmente precisa ser feito, o que pode ser negociado e onde eu posso pedir apoio. Isso já reduz bastante a sensação de caos. Também procuro manter uma comunicação transparente com o time e com a liderança, para alinhar expectativas e evitar promessas irreais. Fora do horário de trabalho, valorizo muito o tempo com a família e momentos de descanso, porque isso me ajuda a recarregar as energias e voltar mais focado no dia seguinte.
+#vr_en: |
+In moments of higher stress, I first try to organize the situation: I list what really needs to be done, what can be negotiated, and where I can ask for support. That already reduces the feeling of chaos. I also try to keep transparent communication with the team and leadership, to align expectations and avoid unrealistic commitments. Outside working hours, I value time with my family and real rest moments, because that helps me recharge my energy and come back more focused the next day.
+---
+#intent: softskills/teamwork_approach
+#pt:
+- como você descreveria o seu estilo de trabalho em equipe?
+- você prefere trabalhar mais sozinho ou em grupo? Por quê?
+- o que para você é essencial para um time funcionar bem no dia a dia?
+- como você costuma contribuir para um bom clima de colaboração no time?
+- quando o time está com muita demanda, como você ajuda os colegas?
+- pode me contar sobre uma experiência positiva em que o trabalho em equipe fez diferença?
+- como você reage quando um colega está com dificuldade em uma tarefa?
+- o que você espera de um time ideal em termos de colaboração?
+- como você faz para garantir que todo mundo seja ouvido nas discussões?
+- já aconteceu de você ter que apoiar alguém fora do seu papel direto para ajudar o time?
+#en:
+- how would you describe your teamwork style?
+- do you prefer working more on your own or in a group? Why?
+- what do you think is essential for a team to work well on a daily basis?
+- how do you usually contribute to a good collaborative environment in the team?
+- when the team has a very high workload, how do you help your colleagues?
+- can you tell me about a positive experience where teamwork made a big difference?
+- how do you react when a colleague is struggling with a task?
+- what do you expect from an ideal team in terms of collaboration?
+- how do you make sure everyone has a chance to be heard in discussions?
+- has there been a time when you helped someone outside your direct role to support the team?
+#rp_1
+#vr_pt: |
+Eu valorizo bastante o trabalho em equipe e tento sempre agir de forma colaborativa. Gosto de compartilhar informação, oferecer ajuda quando vejo alguém com dificuldade e, ao mesmo tempo, pedir apoio quando necessário, sem ego. Procuro ouvir diferentes opiniões, buscar consenso quando possível e, se for preciso decidir, manter o foco no que é melhor para o time e para o projeto. Acredito que um bom time é aquele em que as pessoas se sentem seguras para falar, errar, aprender e crescer juntas.
+#vr_en: |
+I value teamwork a lot and I always try to act in a collaborative way. I like to share information, offer help when I see someone struggling, and also ask for support when necessary, without ego. I try to listen to different opinions, look for consensus when possible, and, if a decision is needed, keep the focus on what is best for the team and for the project. I believe a good team is one where people feel safe to speak, make mistakes, learn, and grow together.
+---
+#intent: softskills/conflict_resolution_style
+#pt:
+- como você costuma lidar com conflitos no ambiente de trabalho?
+- pode me contar sobre uma situação em que você discordou de alguém do time?
+- o que você faz quando não concorda com a decisão do seu gestor?
+- como você age quando percebe que um conflito está começando a atrapalhar o trabalho?
+- você se sente à vontade para ter conversas difíceis com colegas? Por quê?
+- já aconteceu de você precisar mediar um conflito entre duas pessoas?
+- quando há opiniões muito diferentes em uma reunião, como você contribui para um acordo?
+- qual é o seu primeiro passo quando sente que uma situação está ficando tensa?
+- você costuma evitar conflitos ou prefere resolver logo? Como faz isso?
+- pode dar um exemplo de um conflito que terminou de forma construtiva para todas as partes?
+#en:
+- how do you usually handle conflicts in the workplace?
+- can you tell me about a situation where you disagreed with someone on your team?
+- what do you do when you do not agree with your manager’s decision?
+- how do you act when you notice a conflict is starting to affect the work?
+- do you feel comfortable having difficult conversations with colleagues? Why?
+- has there been a time when you had to mediate a conflict between two people?
+- when there are very different opinions in a meeting, how do you help the team reach an agreement?
+- what is your first step when you feel a situation is becoming tense?
+- do you tend to avoid conflicts or prefer to solve them quickly? How do you do that?
+- can you give an example of a conflict that ended in a constructive way for everyone involved?
+#rp_1
+#vr_pt: |
+Quando surge um conflito, eu procuro primeiro entender os fatos e os pontos de vista de cada lado, sem julgar. Tento separar a pessoa do problema e focar no que precisa ser resolvido para o trabalho fluir. Normalmente eu proponho uma conversa aberta, em um tom calmo, para alinhar expectativas e buscar um acordo que faça sentido para todos. Se necessário, envolvo a liderança de forma transparente. Meu objetivo é sempre transformar o conflito em aprendizado e melhoria de processo, e não deixar que ele se torne algo pessoal.
+#vr_en: |
+When a conflict appears, I first try to understand the facts and each side’s perspective, without judgment. I try to separate the person from the problem and focus on what needs to be solved so the work can move forward. I usually suggest an open conversation, in a calm tone, to align expectations and find an agreement that makes sense for everyone. If needed, I involve leadership in a transparent way. My goal is always to turn the conflict into learning and process improvement, and not let it become something personal.
+---
+#intent: softskills/self_awareness
+#pt:
+- como você se descreveria como profissional, de forma sincera e realista?
+- na sua visão, o que as pessoas mais gostam em trabalhar com você?
+- o que você acha que pode incomodar algumas pessoas no seu estilo de trabalho?
+- como você faz para ter uma visão mais realista sobre seus pontos fortes e fracos?
+- você costuma pedir feedback das pessoas com quem trabalha? Com que frequência?
+- pode me contar sobre um feedback que te fez enxergar algo novo sobre você?
+- de que forma você percebe que evoluiu como profissional nos últimos anos?
+- você tem alguma rotina ou hábito para refletir sobre sua própria atuação?
+- como você reage quando percebe que errou em algo importante?
+- o que significa, para você, ter autoconhecimento na carreira?
+#en:
+- how would you describe yourself as a professional, in an honest and realistic way?
+- in your view, what do people like the most about working with you?
+- what do you think might bother some people about your working style?
+- how do you make sure you have a realistic view of your strengths and weaknesses?
+- do you usually ask for feedback from the people you work with? How often?
+- can you tell me about feedback that helped you see something new about yourself?
+- in what ways do you feel you have grown as a professional in the last few years?
+- do you have any routine or habit to reflect on your own performance?
+- how do you react when you realize you made a mistake in something important?
+- what does having self awareness in your career mean to you?
+#rp_1
+#vr_pt: |
+Eu procuro me enxergar de forma equilibrada, reconhecendo tanto o que eu faço bem quanto o que ainda preciso melhorar. As pessoas costumam dizer que eu sou comprometido, colaborativo e que gosto de ajudar, mas também sei que às vezes posso ser exigente comigo mesmo e querer ajustar muitos detalhes. Por isso, costumo pedir feedback com frequência, ouvir com atenção e refletir sobre o que faz sentido incorporar. Vejo o autoconhecimento como uma base importante para tomar melhores decisões, evoluir na carreira e construir relações de trabalho mais maduras.
+#vr_en: |
+I try to see myself in a balanced way, recognizing both what I do well and what I still need to improve. People usually say that I am committed, collaborative, and that I like to help, but I also know that sometimes I can be demanding with myself and want to adjust many details. Because of that, I often ask for feedback, listen carefully, and reflect on what makes sense to incorporate. I see self awareness as an important foundation to make better decisions, grow in my career, and build more mature working relationships.
+---
+#intent: softskills/ownership_accountability_style
+#pt:
+- como você lida com responsabilidade pelos resultados do seu trabalho?
+- quando algo dá errado em um projeto, qual é a sua postura?
+- pode me contar sobre uma situação em que você assumiu a responsabilidade por um problema?
+- o que significa para você ter senso de dono em uma entrega?
+- como você reage quando percebe que poderia ter feito algo diferente para evitar um problema?
+- você costuma esperar alguém pedir ou você toma a frente quando vê algo pendente?
+- até que ponto você acompanha uma atividade após a entrega para garantir que deu tudo certo?
+- já aconteceu de você assumir a frente de algo que não estava diretamente no seu escopo, porque era importante para o resultado?
+- como você lida quando depende de outras pessoas para entregar algo pelo qual você é responsável?
+- o que você faz para mostrar que as pessoas podem contar com você em projetos críticos?
+#en:
+- how do you deal with responsibility for the results of your work?
+- when something goes wrong in a project, what is your attitude?
+- can you tell me about a situation where you took responsibility for a problem?
+- what does having a sense of ownership in a delivery mean to you?
+- how do you react when you notice you could have done something differently to avoid a problem?
+- do you usually wait for someone to ask, or do you take the lead when you see something pending?
+- to what extent do you follow up on an activity after the delivery to make sure everything went well?
+- has there been a time when you took the lead on something that was not directly in your scope because it was important for the result?
+- how do you handle situations where you depend on other people to deliver something you are responsible for?
+- what do you do to show that people can rely on you in critical projects?
+#rp_1
+#vr_pt: |
+Eu levo a responsabilidade pelo trabalho de forma séria. Quando algo não sai como esperado, eu procuro primeiro entender o que aconteceu, assumo a minha parte no problema e trabalho para corrigir o mais rápido possível, sem ficar procurando culpados. Para mim, ter senso de dono é acompanhar a entrega do início ao fim, cuidar dos detalhes, comunicar riscos com antecedência e garantir que o resultado final faça sentido para quem está recebendo. Também procuro alinhar bem com as pessoas de quem dependo, para que todos estejam na mesma página e o compromisso seja coletivo.
+#vr_en: |
+I take responsibility for my work very seriously. When something does not go as expected, I first try to understand what happened, I take my part in the problem, and I work to correct it as quickly as possible, without looking for someone to blame. For me, having a sense of ownership means following the delivery from beginning to end, taking care of the details, communicating risks in advance, and making sure the final result makes sense for the person who is receiving it. I also try to align well with the people I depend on, so that everyone is on the same page and the commitment is shared.
+---
+#intent: softskills/communication_with_non_technical
+#pt:
+- como você explica assuntos técnicos para pessoas que não são da área de tecnologia?
+- pode me dar um exemplo de quando você precisou traduzir algo muito técnico para alguém de negócio?
+- o que você faz quando percebe que a outra pessoa não está entendendo os termos técnicos?
+- você costuma usar metáforas, exemplos simples ou algum outro recurso para explicar temas complexos?
+- como você adapta a sua linguagem quando fala com pessoas de áreas diferentes da sua?
+- já recebeu feedback de que você explica bem conceitos difíceis? Pode contar?
+- o que é mais importante para você: ser totalmente técnico ou garantir que a mensagem seja entendida?
+- como você lida quando alguém te pede para explicar “em termos leigos” algo que é muito detalhado?
+- pode me contar sobre uma situação em que uma boa explicação evitou um problema de alinhamento?
+- o que você faz para checar se a pessoa realmente entendeu o que você explicou?
+#en:
+- how do you explain technical topics to people who are not from the technology area?
+- can you give me an example of a time when you had to translate something very technical for a business stakeholder?
+- what do you do when you notice the other person is not understanding the technical terms?
+- do you usually use metaphors, simple examples, or any other resource to explain complex topics?
+- how do you adapt your language when you speak with people from areas different from yours?
+- have you received feedback that you explain difficult concepts well? Can you tell me about it?
+- what is more important to you: being fully technical or making sure the message is understood?
+- how do you handle situations when someone asks you to explain something “in simple terms” that is very detailed?
+- can you tell me about a situation where a good explanation helped avoid a misalignment problem?
+- what do you do to check if the person really understood what you explained?
+#rp_1
+#vr_pt: |
+Quando preciso falar com alguém não técnico, eu procuro simplificar a linguagem, evitar siglas e usar exemplos próximos da realidade da pessoa. Em vez de entrar em detalhes muito profundos, eu foco no impacto para o negócio, nos riscos e nos benefícios de cada opção. Se eu percebo que a explicação não ficou clara, eu reformulo, uso analogias e faço perguntas para confirmar se a mensagem foi entendida. Meu objetivo é sempre garantir que a pessoa consiga tomar decisões melhores, mesmo sem conhecer toda a parte técnica.
+#vr_en: |
+When I need to talk to someone who is not technical, I try to simplify the language, avoid acronyms, and use examples that are close to the person’s reality. Instead of going too deep into details, I focus on the business impact, the risks, and the benefits of each option. If I notice that the explanation is not clear, I rephrase it, use analogies, and ask questions to confirm if the message was understood. My goal is always to make sure the person can make better decisions, even without knowing all the technical aspects.
+---
+#intent: softskills/motivation_and_purpose
+#pt:
+- o que mais te motiva no seu trabalho no dia a dia?
+- em que tipo de atividade você sente mais energia e satisfação?
+- pode me contar sobre um momento em que você se sentiu especialmente realizado profissionalmente?
+- quando as coisas ficam difíceis, o que te ajuda a continuar seguindo em frente?
+- que tipo de projeto faz você sentir que o seu trabalho tem propósito?
+- qual é a conexão, para você, entre o que você faz hoje e os seus objetivos de longo prazo?
+- já houve algum momento em que você pensou em desistir de algo e decidiu continuar? Por quê?
+- o que te dá sensação de progresso na carreira?
+- como você faz para se manter motivado mesmo em tarefas mais repetitivas?
+- o que te faz olhar para a sua profissão e pensar que está no caminho certo?
+#en:
+- what motivates you the most in your work on a daily basis?
+- in what kind of activities do you feel more energy and satisfaction?
+- can you tell me about a moment when you felt especially fulfilled professionally?
+- when things get difficult, what helps you keep going?
+- what type of project makes you feel that your work has purpose?
+- what is the connection, for you, between what you do today and your long term goals?
+- has there been a moment when you thought about giving up on something and decided to continue? Why?
+- what gives you a sense of progress in your career?
+- how do you keep yourself motivated even in more repetitive tasks?
+- what makes you look at your profession and feel that you are on the right path?
+#rp_1
+#vr_pt: |
+O que mais me motiva é perceber que o meu trabalho gera impacto real, seja ajudando o time, melhorando processos ou entregando algo que facilita a vida das pessoas. Eu gosto de aprender coisas novas, ver evolução ao longo do tempo e sentir que estou construindo uma base sólida para os próximos passos da carreira. Mesmo quando as coisas ficam mais difíceis, eu procuro lembrar do meu objetivo de longo prazo e do quanto cada experiência contribui para o meu crescimento profissional e pessoal.
+#vr_en: |
+What motivates me the most is knowing that my work creates real impact, whether by helping the team, improving processes, or delivering something that makes people’s lives easier. I like to learn new things, see progress over time, and feel that I am building a solid foundation for the next steps in my career. Even when things get harder, I try to remember my long term goals and how each experience contributes to my professional and personal growth.
+---
