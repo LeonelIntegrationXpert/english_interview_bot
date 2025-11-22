@@ -1,5 +1,7 @@
 version: '3.1'
 intents:
+  - hello
+  - nlu_fallback
   - adaptability_change
   - address_more_details
   - afternoon_formal
@@ -82,7 +84,6 @@ intents:
   - general_view
   - handling_failure
   - handling_pressure
-  - hello
   - highschool_supletivo_where_when
   - hobbies_general
   - how_are_you
@@ -115,7 +116,6 @@ intents:
   - music_preferences
   - nice_to_meet_you
   - night_formal
-  - nlu_fallback
   - offer_break
   - ownership_accountability
   - parents_brief_context

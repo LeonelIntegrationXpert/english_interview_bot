@@ -1,5 +1,13 @@
 version: '3.1'
 rules:
+  - rule: rule_hello
+    steps:
+      - intent: hello
+      - action: utter_hello
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
   - rule: rule_adaptability_change
     steps:
       - intent: adaptability_change
@@ -328,10 +336,6 @@ rules:
     steps:
       - intent: handling_pressure
       - action: utter_handling_pressure
-  - rule: rule_hello
-    steps:
-      - intent: hello
-      - action: utter_hello
   - rule: rule_highschool_supletivo_where_when
     steps:
       - intent: highschool_supletivo_where_when
@@ -640,3 +644,7 @@ rules:
     steps:
       - intent: working_under_pressure
       - action: utter_working_under_pressure
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback

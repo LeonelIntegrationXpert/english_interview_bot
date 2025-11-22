@@ -56,14 +56,27 @@ def parse_limits(block: str, global_max_pt: int | None, global_max_en: int | Non
 
     return max_pt, max_en
 
-
 def extract_list(block: str, tag: str):
-    """Extrai lista de exemplos após '#pt:' ou '#en:' até próximo marcador/tag/---/EOF."""
+    """Extrai lista de exemplos após '#pt:' ou '#en:' até próximo marcador/tag/---/EOF,
+    ignorando linhas de controle tipo '#rp_1', '#rp', etc."""
     m = re.search(rf'(?smi)^\s*{re.escape(tag)}\s*:(.*?)(?=^\s*#\w+\s*:|^\s*---\s*$|\Z)', block)
     if not m:
         return []
-    return [l.strip().lstrip('-').strip() for l in m.group(1).splitlines() if l.strip()]
 
+    out = []
+    for ln in m.group(1).splitlines():
+        if not ln.strip():
+            continue
+        # remove bullet inicial e espaços
+        cleaned = ln.strip().lstrip('-').strip()
+        if not cleaned:
+            continue
+        # NÃO pode entrar nada que seja marcador de regra/peso: #rp, #rp_1, etc
+        if re.match(r"^\s*#rp", cleaned, flags=re.IGNORECASE):
+            continue
+        out.append(cleaned)
+
+    return out
 
 def strip_markers(text: str) -> str:
     """Remove linhas de marcador como '#rp_', '#rp', etc., e espaços extras."""
