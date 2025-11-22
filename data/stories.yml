@@ -692,3 +692,39 @@ stories:
     steps:
       - intent: teamwork_approach
       - action: utter_teamwork_approach
+  - story: story_current_salary
+    steps:
+      - intent: current_salary
+      - action: utter_current_salary
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_notice_period
+    steps:
+      - intent: notice_period
+      - action: utter_notice_period
+  - story: story_other_processes_and_offers
+    steps:
+      - intent: other_processes_and_offers
+      - action: utter_other_processes_and_offers
+  - story: story_relocation_availability
+    steps:
+      - intent: relocation_availability
+      - action: utter_relocation_availability
+  - story: story_salary_expectation
+    steps:
+      - intent: salary_expectation
+      - action: utter_salary_expectation
+  - story: story_travel_availability
+    steps:
+      - intent: travel_availability
+      - action: utter_travel_availability
+  - story: story_visa_status
+    steps:
+      - intent: visa_status
+      - action: utter_visa_status
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback

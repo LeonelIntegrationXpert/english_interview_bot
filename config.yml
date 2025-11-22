@@ -22,7 +22,7 @@ pipeline:
 
   # ─ Classificação de Intents (mais treino, menos paranoia)
   - name: DIETClassifier
-    epochs: 60                # antes 5 (pouco), agora treina de verdade
+    epochs: 5                # antes 5 (pouco), agora treina de verdade
     constrain_similarities: true
 
   # ─ FallbackClassifier: só dispara em casos realmente ruins

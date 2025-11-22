@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: current_salary
+    examples: |
+      - Você pode compartilhar, de forma aproximada, qual é a sua remuneração atual?
+      - Hoje, qual é a faixa do seu salário total, incluindo benefícios principais?
+      - Sem entrar em muitos detalhes, em que nível está sua remuneração atual em relação a 3k, 4k ou 5k?
+      - Seu pacote atual está abaixo, dentro ou acima da faixa que você está buscando agora?
+      - Você sente que o seu salário atual reflete bem o seu nível sênior e a complexidade dos projetos que você entrega?
+      - Quanto do seu interesse em mudar está ligado à sua remuneração atual?
+      - Seu salário atual ainda está competitivo para o mercado ou você sente que ficou defasado?
+      - Se compararmos seu salário atual com o que você considera ideal, qual é a distância hoje?
+      - Como você enxerga a relação entre seu salário atual e o impacto que você gera nos projetos?
+      - Seu pacote atual é mais forte em salário fixo ou em benefícios?
+      - Could you share, approximately, what your current compensation is?
+      - Today, what is the general range of your total salary, including main benefits?
+      - Without going into too many details, is your current compensation closer to three thousand, four thousand, or five thousand?
+      - Is your current package below, within, or above the range you are now targeting?
+      - Do you feel that your current salary reflects your senior level and the complexity of the projects you deliver?
+      - How much of your interest in changing jobs is related to your current compensation?
+      - Do you feel your current salary is still competitive in the market, or do you feel it has fallen behind?
+      - If we compare your current salary with what you consider ideal, how big is the gap today?
+      - How do you see the relationship between your current salary and the impact you generate in your projects?
+      - Is your current package stronger in fixed salary or in benefits?

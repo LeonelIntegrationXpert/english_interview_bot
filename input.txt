@@ -5375,3 +5375,213 @@ O que mais me motiva é perceber que o meu trabalho gera impacto real, seja ajud
 #vr_en: |
 What motivates me the most is knowing that my work creates real impact, whether by helping the team, improving processes, or delivering something that makes people’s lives easier. I like to learn new things, see progress over time, and feel that I am building a solid foundation for the next steps in my career. Even when things get harder, I try to remember my long term goals and how each experience contributes to my professional and personal growth.
 ---
+#intent: logistics/salary_expectation
+#pt:
+- Quais são as suas expectativas salariais para essa posição?
+- Você tem um intervalo salarial em mente para essa vaga?
+- Pensando no seu nível sênior, quanto você considera justo receber?
+- Qual faixa salarial faria sentido para você aceitar uma proposta aqui?
+- Qual seria um pacote financeiro confortável para você hoje?
+- Se eu perguntar em números, qual seria o mínimo aceitável para você considerar essa oportunidade?
+- Considerando sua experiência em projetos complexos, qual faixa salarial você está buscando atualmente?
+- Em termos de valores, onde você se enxerga hoje, mais próximo de 3k, 4k ou 5k?
+- Se essa posição tiver um escopo mais estratégico, como isso impacta suas expectativas salariais?
+- Você está avaliando outras oportunidades na faixa de 3k a 5k também ou algo diferente?
+#en:
+- What are your salary expectations for this position?
+- Do you have a specific salary range in mind for this role?
+- Considering your senior level, what do you believe would be a fair compensation?
+- What salary range would make sense for you to accept an offer here?
+- What would be a comfortable overall financial package for you today?
+- If I ask you for concrete numbers, what would be the minimum you would consider for this opportunity?
+- Taking into account your experience with complex projects, what salary range are you currently targeting?
+- In terms of values, where do you see yourself today, closer to three thousand, four thousand, or five thousand?
+- If this position has a more strategic scope, how does that impact your salary expectations?
+- Are you also evaluating other opportunities in the three to five thousand range or something different?
+#vr_pt: |
+  Hoje eu estou avaliando oportunidades na faixa de 3k a 5k, dependendo muito do escopo da posição e do nível de responsabilidade. Sendo bem transparente, para algo mais operacional ou de entrada no contexto da empresa, eu fico confortável mais na base dessa faixa. Já para posições onde eu possa atuar de forma sênior, puxando decisões técnicas, assumindo projetos complexos de ponta a ponta e ajudando a estruturar boas práticas, eu espero algo mais próximo do topo desse intervalo.
+  Mais do que um número isolado, eu olho o conjunto: escopo real do papel, senioridade esperada, possibilidade de crescimento, benefícios e estabilidade. Se tudo estiver bem alinhado com o que eu consegue entregar, eu tenho flexibilidade para ajustar dentro desse range e chegar em um valor que faça sentido para os dois lados.
+#vr_en: |
+  At the moment I am evaluating opportunities in the range of three thousand to five thousand, and that depends a lot on the scope of the position and the level of responsibility involved. To be very transparent, for something more operational or closer to an entry point in the company context, I feel comfortable on the lower side of that range. For roles where I can really act at a senior level, leading technical decisions, taking ownership of complex end to end projects and helping to structure best practices, I expect something closer to the upper side of that interval.
+  More than a single number, I look at the full picture: the real scope of the role, the expected seniority, the possibility of growth, the benefits, and the overall stability. If everything is well aligned with what I can deliver, I have flexibility to adjust within that range so that we can reach a value that makes sense for both sides.
+---
+#intent: logistics/current_salary
+#pt:
+- Você pode compartilhar, de forma aproximada, qual é a sua remuneração atual?
+- Hoje, qual é a faixa do seu salário total, incluindo benefícios principais?
+- Sem entrar em muitos detalhes, em que nível está sua remuneração atual em relação a 3k, 4k ou 5k?
+- Seu pacote atual está abaixo, dentro ou acima da faixa que você está buscando agora?
+- Você sente que o seu salário atual reflete bem o seu nível sênior e a complexidade dos projetos que você entrega?
+- Quanto do seu interesse em mudar está ligado à sua remuneração atual?
+- Seu salário atual ainda está competitivo para o mercado ou você sente que ficou defasado?
+- Se compararmos seu salário atual com o que você considera ideal, qual é a distância hoje?
+- Como você enxerga a relação entre seu salário atual e o impacto que você gera nos projetos?
+- Seu pacote atual é mais forte em salário fixo ou em benefícios?
+#en:
+- Could you share, approximately, what your current compensation is?
+- Today, what is the general range of your total salary, including main benefits?
+- Without going into too many details, is your current compensation closer to three thousand, four thousand, or five thousand?
+- Is your current package below, within, or above the range you are now targeting?
+- Do you feel that your current salary reflects your senior level and the complexity of the projects you deliver?
+- How much of your interest in changing jobs is related to your current compensation?
+- Do you feel your current salary is still competitive in the market, or do you feel it has fallen behind?
+- If we compare your current salary with what you consider ideal, how big is the gap today?
+- How do you see the relationship between your current salary and the impact you generate in your projects?
+- Is your current package stronger in fixed salary or in benefits?
+#vr_pt: |
+  Hoje a minha remuneração total está na faixa em que eu começo a olhar com mais atenção para oportunidades entre 3k e 5k. Eu sinto que, pelo nível sênior em que atuo e pelo tipo de projeto complexo que eu consigo conduzir, já faz sentido dar um próximo passo, principalmente em termos de alinhamento entre responsabilidade e retorno financeiro.
+  Meu interesse em mudar não é só salário, tem muito a ver com desafios, ambiente e possibilidade de crescimento. Mas, sendo realista, eu vejo que o mercado já está pagando um pouco mais para perfis que entregam o que eu entrego, então faz sentido ajustar esse ponto também. Por isso eu estou bem aberto para conversar com transparência sobre onde eu estou hoje e onde faz sentido chegar.
+#vr_en: |
+  Today my total compensation is in the range where it makes sense for me to seriously look at opportunities between three thousand and five thousand. I feel that, considering the senior level at which I operate and the kind of complex projects that I am able to handle, it is a good moment to move to the next step, especially in terms of alignment between responsibility and financial return.
+  My motivation to move is not only about salary. It is also very connected to the level of challenge, the environment, and the growth opportunities. However, being realistic, I see that the market is already paying a bit more for profiles that deliver what I deliver, so it is reasonable to adjust this point as well. Because of that, I am very open to have a transparent conversation about where I am today and where it makes sense to arrive.
+---
+#intent: logistics/notice_period
+#pt:
+- Qual é o seu prazo de aviso prévio hoje, se você receber uma proposta?
+- Em quanto tempo você conseguiria começar a trabalhar com a gente?
+- Você tem alguma obrigação contratual de cumprir aviso prévio integral?
+- Se precisarmos de alguém com início mais rápido, você consegue negociar seu aviso prévio?
+- Você está em algum projeto crítico que possa impactar o seu tempo de saída?
+- Em um cenário ideal para você, quando gostaria de iniciar em uma nova posição?
+- Seu atual empregador é flexível em relação à redução de aviso prévio?
+- Existe algum compromisso pessoal nos próximos meses que possa impactar sua data de início?
+- Se a gente alinhar tudo rápido, qual seria uma data realista para o seu primeiro dia?
+- Você já conversou com a empresa atual sobre uma possível transição em breve?
+#en:
+- What is your notice period today if you receive an offer?
+- How soon would you be able to start working with us?
+- Do you have any contractual obligation to complete a full notice period?
+- If we need someone to start sooner, would you be able to negotiate your notice period?
+- Are you currently involved in any critical project that could impact your leaving date?
+- In an ideal scenario for you, when would you like to start in a new position?
+- Is your current employer flexible when it comes to shortening the notice period?
+- Do you have any personal commitments in the next few months that could affect your start date?
+- If we align everything quickly, what would be a realistic date for your first day?
+- Have you already discussed a possible transition in the near future with your current company?
+#vr_pt: |
+  Hoje eu trabalho considerando o aviso prévio padrão, mas na prática eu consigo negociar a minha saída dependendo do momento em que o projeto estiver. Normalmente eu falo em algo entre trinta dias e, em alguns cenários, um pouco menos, desde que eu consiga organizar bem a transição e não deixar o time atual na mão.
+  Em um cenário ideal, eu gosto de ter pelo menos duas semanas para fechar pendências, documentar o que for necessário e entregar o conhecimento de forma organizada. Se o processo avançar, eu tenho abertura para alinhar com a empresa atual e buscar uma data que seja realista para mim e ao mesmo tempo atenda à urgência de vocês.
+#vr_en: |
+  At the moment I work under the standard notice period, but in practice I can negotiate my leaving date depending on the stage of the projects I am involved in. Usually I mention something around thirty days and, in some scenarios, a bit less, as long as I can organize a proper transition and not leave my current team in a difficult situation.
+  In an ideal scenario I like to have at least two weeks to close open tasks, document what is needed, and hand over knowledge in an organized way. If the process moves forward, I have room to align this with my current company and find a date that is realistic for me and at the same time matches your level of urgency.
+---
+#intent: logistics/relocation_availability
+#pt:
+- Você estaria aberto a se mudar de cidade ou país para essa posição?
+- Hoje você busca algo 100% remoto ou consideraria um modelo híbrido com mudança de local?
+- Se a vaga exigisse mudança, isso seria um problema para você ou para a sua família?
+- Em termos práticos, você conseguiria se organizar para uma mudança nos próximos meses?
+- Você já pensou em se relocar para algum outro país para atuar em projetos mais complexos?
+- O que você precisa avaliar antes de topar uma mudança de cidade ou país?
+- Se a empresa oferecesse suporte de relocation, isso ajudaria na sua decisão?
+- Você vê a mudança como algo positivo para a sua carreira ou prefere permanecer onde está hoje?
+- Você tem alguma restrição específica que impeça uma relocação no curto prazo?
+- Em um cenário ideal, você prefere permanecer no Brasil trabalhando remoto ou considera uma mudança internacional?
+#en:
+- Would you be open to relocating to another city or country for this position?
+- Are you currently looking for a fully remote role, or would you consider a hybrid model with relocation?
+- If the role required relocation, would that be an issue for you or for your family?
+- From a practical point of view, would you be able to organize a relocation in the next few months?
+- Have you ever considered relocating to another country to work on more complex projects?
+- What would you need to evaluate before accepting a relocation to another city or country?
+- If the company offered relocation support, would that influence your decision?
+- Do you see relocation as something positive for your career, or do you prefer to stay where you are now?
+- Do you have any specific constraints that would prevent you from relocating in the short term?
+- In an ideal scenario, would you prefer to stay in Brazil working remotely, or would you consider moving abroad?
+#vr_pt: |
+  Hoje eu priorizo modelos remoto ou, no máximo, híbrido bem planejado, porque eu tenho uma estrutura de vida montada aqui e isso pesa bastante na decisão. Ao mesmo tempo, se aparecer um projeto realmente forte, com um escopo interessante, responsabilidade compatível com o meu nível sênior e uma proposta financeira alinhada, eu estou aberto a avaliar relocation com calma.
+  Antes de topar uma mudança de cidade ou país, eu preciso olhar pontos como qualidade de vida, impacto para a família, custo de vida local e o quanto essa mudança realmente acelera a minha carreira. Se fizer sentido nesses aspectos e houver suporte da empresa no processo, relocation pode entrar sim como uma possibilidade concreta.
+#vr_en: |
+  At the moment I tend to prioritize remote roles or, at most, a well structured hybrid model, because I already have my life organized where I am and that carries a lot of weight in my decision. At the same time, if a very strong opportunity appears, with an interesting scope, responsibilities aligned with my senior level, and a financial offer that makes sense, I am open to carefully evaluating relocation.
+  Before accepting a move to another city or country, I need to look at points such as quality of life, impact on my family, local cost of living, and how much that change would actually accelerate my career. If it makes sense in those aspects and the company provides solid support in the process, relocation can definitely become a concrete option.
+---
+#intent: logistics/travel_availability
+#pt:
+- Você tem disponibilidade para viajar a trabalho com alguma frequência?
+- Com que frequência você se sentiria confortável viajando em função de projetos?
+- Viagens curtas de alguns dias por mês seriam viáveis para você?
+- Você já trabalhou em projetos que exigiam viagens recorrentes?
+- Existe algum tipo de limitação pessoal ou familiar que impeça viagens frequentes?
+- Em um cenário de projeto crítico, você conseguiria viajar em cima da hora se necessário?
+- Você prefere evitar viagens ou enxerga isso como algo positivo na rotina?
+- Viagens internacionais a trabalho seriam tranquilas para você?
+- Até que ponto a necessidade de viagens influencia sua decisão de aceitar ou não uma vaga?
+- Se a função exigir viagens pontuais para reuniões presenciais, isso se encaixa na sua realidade hoje?
+#en:
+- Are you available to travel for work with some frequency?
+- How often would you feel comfortable traveling for project needs?
+- Would short trips of a few days per month be feasible for you?
+- Have you worked on projects that required recurring business travel?
+- Do you have any personal or family limitations that would prevent frequent travel?
+- In a critical project scenario, would you be able to travel on short notice if needed?
+- Do you prefer to avoid travel, or do you see it as something positive in your routine?
+- Would international business travel be manageable for you?
+- To what extent does the need for travel influence your decision to accept or decline a role?
+- If the position required occasional trips for in person meetings, would that fit your reality today?
+#vr_pt: |
+  Eu tenho disponibilidade para viagens pontuais, principalmente quando elas estão conectadas a momentos-chave do projeto, como kickoffs, alinhamentos estratégicos ou entregas mais sensíveis. Viagens curtas, de poucos dias por mês, são bem gerenciáveis para mim, desde que haja um mínimo de planejamento.
+  O que eu costumo evitar são rotinas com viagens excessivas que tiram totalmente a previsibilidade do dia a dia. No equilíbrio certo, eu enxergo viagem como algo positivo, porque aproxima o time, ajuda a entender melhor o contexto do cliente e muitas vezes acelera decisões em projetos mais complexos.
+#vr_en: |
+  I am available for occasional travel, especially when it is connected to key project moments such as kick off meetings, strategic alignment sessions, or more sensitive deliveries. Short trips of a few days per month are very manageable for me, as long as there is a reasonable level of planning.
+  What I usually try to avoid is a routine with excessive travel that completely removes predictability from daily life. With the right balance, I see travel as something positive, because it brings the team closer, helps to better understand the client context, and often speeds up decisions in more complex projects.
+---
+#intent: logistics/visa_status
+#pt:
+- Como está hoje o seu status de visto ou autorização para trabalhar fora do Brasil?
+- Você já possui algum tipo de visto de trabalho ou residência em outro país?
+- Em caso de oportunidade internacional, você precisaria de patrocínio de visto da empresa?
+- Você já participou de algum processo de sponsorship de visto antes?
+- Existem restrições legais hoje que limitem onde você pode atuar presencialmente?
+- Você está buscando algo totalmente remoto exatamente por conta de visto ou documentação?
+- Se a empresa oferecer suporte para visto, isso muda o tipo de oportunidade que você considera?
+- Você tem interesse real em, no futuro, buscar um visto para atuar em outro país?
+- Alguma vez um processo seletivo travou por conta de visto ou autorização de trabalho?
+- Hoje você consegue atuar normalmente em modelo remoto para empresas de fora sem problema de visto?
+#en:
+- What is your current visa or work authorization status for working outside Brazil?
+- Do you already have any kind of work visa or residency in another country?
+- In the case of an international opportunity, would you need visa sponsorship from the company?
+- Have you ever been through a visa sponsorship process before?
+- Are there any legal restrictions today that limit where you can work on site?
+- Are you currently looking for fully remote roles mainly because of visa or documentation reasons?
+- If the company provided strong visa support, would that change the type of opportunities you consider?
+- Do you have a real interest in pursuing a visa to work in another country in the future?
+- Has any previous hiring process ever stalled because of visa or work authorization?
+- Today, can you work normally in a remote model for companies abroad without visa issues?
+#vr_pt: |
+  Hoje eu atuo sem nenhuma autorização específica para trabalho fora do Brasil, então para posições presenciais em outro país eu precisaria de patrocínio de visto por parte da empresa. Por isso, neste momento eu foco mais em modelos remotos, onde a questão de visto não é um bloqueio imediato.
+  Ao mesmo tempo, eu tenho interesse em, no médio prazo, avaliar oportunidades que ofereçam um caminho estruturado de visto e relocação, se fizer sentido para a carreira e para a família. Se a empresa tiver esse tipo de suporte claro, isso com certeza amplia o leque de possibilidades que eu considero.
+#vr_en: |
+  At the moment I do not have any specific authorization to work outside Brazil, so for on site positions in another country I would need visa sponsorship from the company. Because of that, right now I focus more on remote models where the visa topic is not an immediate blocker.
+  At the same time, I am interested in evaluating, in the medium term, opportunities that offer a structured path for visa and relocation, if that makes sense for my career and my family. If the company has this type of clear support, it definitely expands the range of possibilities that I am willing to consider.
+---
+#intent: logistics/other_processes_and_offers
+#pt:
+- Você está participando de outros processos seletivos no momento?
+- Em que estágio estão os outros processos em que você está envolvido hoje?
+- Você já tem alguma oferta em mãos ou algo mais avançado com outra empresa?
+- Como essa oportunidade se compara às outras que você está avaliando?
+- Existe alguma proposta que hoje esteja na frente como prioridade para você?
+- Se você recebesse duas ofertas ao mesmo tempo, o que pesaria mais na sua decisão?
+- Você está focando em vagas na mesma faixa salarial de 3k a 5k também em outros processos?
+- Alguma empresa já sinalizou uma faixa salarial concreta para você recentemente?
+- Em relação a prazos, alguma outra empresa está mais adiantada e pode exigir uma decisão rápida?
+- O quanto é importante para você ser transparente sobre esses outros processos com a gente?
+#en:
+- Are you currently involved in other recruitment processes?
+- At what stage are the other processes you are involved in today?
+- Do you already have any offers in hand or anything more advanced with another company?
+- How does this opportunity compare to the others you are evaluating?
+- Is there any proposal that is currently your top priority?
+- If you received two offers at the same time, what would weigh the most in your decision?
+- Are you also focusing on roles in the three to five thousand range in your other processes?
+- Has any company recently shared a concrete salary range with you?
+- Regarding timing, is any other company more advanced and likely to require a quick decision?
+- How important is it for you to be transparent about these other processes with us?
+#vr_pt: |
+  Sim, eu estou em contato com outras oportunidades, mas todas ainda em estágio de conversa, sem nenhuma oferta formal em mãos neste momento. De forma geral, eu tenho focado em vagas na faixa de 3k a 5k, onde eu consiga atuar de forma sênior e realmente agregar em projetos mais complexos.
+  Eu gosto de ser transparente com as empresas sobre isso porque ajuda todo mundo a ajustar expectativa de prazo e prioridade. No fim das contas, o que pesa mais para mim não é só o valor, mas o conjunto: nível de desafio, cultura, possibilidade de evolução e o quanto a vaga conversa com o que eu quero construir para os próximos anos.
+#vr_en: |
+  Yes, I am in contact with other opportunities, but they are all still in the conversation stage, and I do not have any formal offer in hand at this moment. In general, I have been focusing on roles in the three to five thousand range, where I can really act at a senior level and add value in more complex projects.
+  I prefer to be transparent with companies about this because it helps everyone align expectations in terms of timing and priority. In the end, what matters most to me is not only the number, but the full package: the level of challenge, the culture, the growth potential, and how much the role fits with what I want to build over the next few years.
+---

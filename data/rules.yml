@@ -692,3 +692,39 @@ rules:
     steps:
       - intent: teamwork_approach
       - action: utter_teamwork_approach
+  - rule: rule_current_salary
+    steps:
+      - intent: current_salary
+      - action: utter_current_salary
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_notice_period
+    steps:
+      - intent: notice_period
+      - action: utter_notice_period
+  - rule: rule_other_processes_and_offers
+    steps:
+      - intent: other_processes_and_offers
+      - action: utter_other_processes_and_offers
+  - rule: rule_relocation_availability
+    steps:
+      - intent: relocation_availability
+      - action: utter_relocation_availability
+  - rule: rule_salary_expectation
+    steps:
+      - intent: salary_expectation
+      - action: utter_salary_expectation
+  - rule: rule_travel_availability
+    steps:
+      - intent: travel_availability
+      - action: utter_travel_availability
+  - rule: rule_visa_status
+    steps:
+      - intent: visa_status
+      - action: utter_visa_status
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback

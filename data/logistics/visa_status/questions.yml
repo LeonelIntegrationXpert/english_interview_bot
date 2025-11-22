@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: visa_status
+    examples: |
+      - Como está hoje o seu status de visto ou autorização para trabalhar fora do Brasil?
+      - Você já possui algum tipo de visto de trabalho ou residência em outro país?
+      - Em caso de oportunidade internacional, você precisaria de patrocínio de visto da empresa?
+      - Você já participou de algum processo de sponsorship de visto antes?
+      - Existem restrições legais hoje que limitem onde você pode atuar presencialmente?
+      - Você está buscando algo totalmente remoto exatamente por conta de visto ou documentação?
+      - Se a empresa oferecer suporte para visto, isso muda o tipo de oportunidade que você considera?
+      - Você tem interesse real em, no futuro, buscar um visto para atuar em outro país?
+      - Alguma vez um processo seletivo travou por conta de visto ou autorização de trabalho?
+      - Hoje você consegue atuar normalmente em modelo remoto para empresas de fora sem problema de visto?
+      - What is your current visa or work authorization status for working outside Brazil?
+      - Do you already have any kind of work visa or residency in another country?
+      - In the case of an international opportunity, would you need visa sponsorship from the company?
+      - Have you ever been through a visa sponsorship process before?
+      - Are there any legal restrictions today that limit where you can work on site?
+      - Are you currently looking for fully remote roles mainly because of visa or documentation reasons?
+      - If the company provided strong visa support, would that change the type of opportunities you consider?
+      - Do you have a real interest in pursuing a visa to work in another country in the future?
+      - Has any previous hiring process ever stalled because of visa or work authorization?
+      - Today, can you work normally in a remote model for companies abroad without visa issues?

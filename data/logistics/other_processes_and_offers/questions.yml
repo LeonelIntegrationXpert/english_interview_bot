@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: other_processes_and_offers
+    examples: |
+      - Você está participando de outros processos seletivos no momento?
+      - Em que estágio estão os outros processos em que você está envolvido hoje?
+      - Você já tem alguma oferta em mãos ou algo mais avançado com outra empresa?
+      - Como essa oportunidade se compara às outras que você está avaliando?
+      - Existe alguma proposta que hoje esteja na frente como prioridade para você?
+      - Se você recebesse duas ofertas ao mesmo tempo, o que pesaria mais na sua decisão?
+      - Você está focando em vagas na mesma faixa salarial de 3k a 5k também em outros processos?
+      - Alguma empresa já sinalizou uma faixa salarial concreta para você recentemente?
+      - Em relação a prazos, alguma outra empresa está mais adiantada e pode exigir uma decisão rápida?
+      - O quanto é importante para você ser transparente sobre esses outros processos com a gente?
+      - Are you currently involved in other recruitment processes?
+      - At what stage are the other processes you are involved in today?
+      - Do you already have any offers in hand or anything more advanced with another company?
+      - How does this opportunity compare to the others you are evaluating?
+      - Is there any proposal that is currently your top priority?
+      - If you received two offers at the same time, what would weigh the most in your decision?
+      - Are you also focusing on roles in the three to five thousand range in your other processes?
+      - Has any company recently shared a concrete salary range with you?
+      - Regarding timing, is any other company more advanced and likely to require a quick decision?
+      - How important is it for you to be transparent about these other processes with us?

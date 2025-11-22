@@ -172,6 +172,13 @@ intents:
   - strengths_description
   - stress_management
   - teamwork_approach
+  - current_salary
+  - notice_period
+  - other_processes_and_offers
+  - relocation_availability
+  - salary_expectation
+  - travel_availability
+  - visa_status
 actions:
   - action_fallback
 session_config:

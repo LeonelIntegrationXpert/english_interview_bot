@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: relocation_availability
+    examples: |
+      - Você estaria aberto a se mudar de cidade ou país para essa posição?
+      - Hoje você busca algo 100% remoto ou consideraria um modelo híbrido com mudança de local?
+      - Se a vaga exigisse mudança, isso seria um problema para você ou para a sua família?
+      - Em termos práticos, você conseguiria se organizar para uma mudança nos próximos meses?
+      - Você já pensou em se relocar para algum outro país para atuar em projetos mais complexos?
+      - O que você precisa avaliar antes de topar uma mudança de cidade ou país?
+      - Se a empresa oferecesse suporte de relocation, isso ajudaria na sua decisão?
+      - Você vê a mudança como algo positivo para a sua carreira ou prefere permanecer onde está hoje?
+      - Você tem alguma restrição específica que impeça uma relocação no curto prazo?
+      - Em um cenário ideal, você prefere permanecer no Brasil trabalhando remoto ou considera uma mudança internacional?
+      - Would you be open to relocating to another city or country for this position?
+      - Are you currently looking for a fully remote role, or would you consider a hybrid model with relocation?
+      - If the role required relocation, would that be an issue for you or for your family?
+      - From a practical point of view, would you be able to organize a relocation in the next few months?
+      - Have you ever considered relocating to another country to work on more complex projects?
+      - What would you need to evaluate before accepting a relocation to another city or country?
+      - If the company offered relocation support, would that influence your decision?
+      - Do you see relocation as something positive for your career, or do you prefer to stay where you are now?
+      - Do you have any specific constraints that would prevent you from relocating in the short term?
+      - In an ideal scenario, would you prefer to stay in Brazil working remotely, or would you consider moving abroad?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: salary_expectation
+    examples: |
+      - Quais são as suas expectativas salariais para essa posição?
+      - Você tem um intervalo salarial em mente para essa vaga?
+      - Pensando no seu nível sênior, quanto você considera justo receber?
+      - Qual faixa salarial faria sentido para você aceitar uma proposta aqui?
+      - Qual seria um pacote financeiro confortável para você hoje?
+      - Se eu perguntar em números, qual seria o mínimo aceitável para você considerar essa oportunidade?
+      - Considerando sua experiência em projetos complexos, qual faixa salarial você está buscando atualmente?
+      - Em termos de valores, onde você se enxerga hoje, mais próximo de 3k, 4k ou 5k?
+      - Se essa posição tiver um escopo mais estratégico, como isso impacta suas expectativas salariais?
+      - Você está avaliando outras oportunidades na faixa de 3k a 5k também ou algo diferente?
+      - What are your salary expectations for this position?
+      - Do you have a specific salary range in mind for this role?
+      - Considering your senior level, what do you believe would be a fair compensation?
+      - What salary range would make sense for you to accept an offer here?
+      - What would be a comfortable overall financial package for you today?
+      - If I ask you for concrete numbers, what would be the minimum you would consider for this opportunity?
+      - Taking into account your experience with complex projects, what salary range are you currently targeting?
+      - In terms of values, where do you see yourself today, closer to three thousand, four thousand, or five thousand?
+      - If this position has a more strategic scope, how does that impact your salary expectations?
+      - Are you also evaluating other opportunities in the three to five thousand range or something different?

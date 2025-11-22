@@ -1,0 +1,10 @@
+version: '3.1'
+responses:
+  utter_notice_period:
+    - custom:
+        vr_pt: |
+          Hoje eu trabalho considerando o aviso prévio padrão, mas na prática eu consigo negociar a minha saída dependendo do momento em que o projeto estiver. Normalmente eu falo em algo entre trinta dias e, em alguns cenários, um pouco menos, desde que eu consiga organizar bem a transição e não deixar o time atual na mão.
+            Em um cenário ideal, eu gosto de ter pelo menos duas semanas para fechar pendências, documentar o que for necessário e entregar o conhecimento de forma organizada. Se o processo avançar, eu tenho abertura para alinhar com a empresa atual e buscar uma data que seja realista para mim e ao mesmo tempo atenda à urgência de vocês.
+        vr_en: |
+          At the moment I work under the standard notice period, but in practice I can negotiate my leaving date depending on the stage of the projects I am involved in. Usually I mention something around thirty days and, in some scenarios, a bit less, as long as I can organize a proper transition and not leave my current team in a difficult situation.
+            In an ideal scenario I like to have at least two weeks to close open tasks, document what is needed, and hand over knowledge in an organized way. If the process moves forward, I have room to align this with my current company and find a date that is realistic for me and at the same time matches your level of urgency.
