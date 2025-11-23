@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_communication_style:
     - custom:
-        vr_pt: |
-          Eu costumo manter uma comunicação clara, respeitosa e objetiva. Procuro adaptar o nível de detalhe conforme o público, confirmando se a mensagem foi entendida e deixando espaço para perguntas, porque para mim alinhamento é tão importante quanto entregar a tarefa em si.
-        vr_en: |
-          I usually keep my communication clear, respectful, and objective. I try to adapt the level of detail depending on the audience, I confirm if the message was understood, and I always leave room for questions, because for me alignment is just as important as delivering the task itself.
+        resp_1:
+          vr_pt: |
+            Eu costumo manter uma comunicação clara, respeitosa e objetiva. Procuro adaptar o nível de detalhe conforme o público, confirmando se a mensagem foi entendida e deixando espaço para perguntas, porque para mim alinhamento é tão importante quanto entregar a tarefa em si.
+          vr_en: |
+            I usually keep my communication clear, respectful, and objective. I try to adapt the level of detail depending on the audience, I confirm if the message was understood, and I always leave room for questions, because for me alignment is just as important as delivering the task itself.

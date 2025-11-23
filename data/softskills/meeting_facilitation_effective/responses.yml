@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_meeting_facilitation_effective:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Entro com pauta objetiva, tempo por tópico e dono para cada item. Facilito o turno de fala, registro decisões ao vivo e encerro com responsáveis e prazos claros. Se ficar circular, proponho decisão por critérios ou levo um item para offline com um pequeno grupo. Envio resumo com decisões, pendências e próximos passos, e revisito indicadores de utilidade para cortar reuniões pouco efetivas.
+          vr_en: |
+            I start with a clear agenda, timeboxing per topic, and an owner for each item. I facilitate turns, capture decisions live, and close with explicit owners and deadlines. If it becomes circular, I propose criteria-based decisions or take an item offline with a smaller group. I send a recap with decisions, open items, and next steps, and I trim or redesign low-value meetings based on outcomes.

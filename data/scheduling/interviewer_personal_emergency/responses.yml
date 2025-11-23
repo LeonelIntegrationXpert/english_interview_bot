@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_interviewer_personal_emergency:
     - custom:
-        vr_pt: |
-          Eu entendo, imprevistos pessoais acontecem mesmo. Obrigado por avisar e, se for possível, fico à disposição para remarcar em um outro momento.
-        vr_en: |
-          I completely understand, personal emergencies do happen. Thank you for letting me know and, if possible, I’d be happy to reschedule for another time.
+        resp_1:
+          vr_pt: |
+            Eu entendo, imprevistos pessoais acontecem mesmo. Obrigado por avisar e, se for possível, fico à disposição para remarcar em um outro momento.
+          vr_en: |
+            I completely understand, personal emergencies do happen. Thank you for letting me know and, if possible, I’d be happy to reschedule for another time.

@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_expectation_setting_alignment:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu inicio com definição clara de objetivos, critérios de sucesso e “pronto” compartilhado. Registro escopo, prioridades e riscos em artefatos simples (roadmap, backlog priorizado, definição de pronto/aceite). Estabeleço rituais de revisão para tratar desvios, reestimar quando surgem dependências e negociar trade-offs com transparência, sempre mostrando impacto em valor, custo e prazo para decisões conscientes.
+          vr_en: |
+            I start by defining objectives, success criteria, and a shared “definition of done.” I document scope, priorities, and risks in lightweight artifacts (roadmap, prioritized backlog, DoD/DoA). I set review rituals to address deviations, re-estimate when new dependencies appear, and negotiate trade-offs transparently, always showing value, cost, and schedule impacts to enable informed decisions.

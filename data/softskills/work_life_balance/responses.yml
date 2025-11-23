@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_work_life_balance:
     - custom:
-        vr_pt: |
-          Eu acredito muito que equilíbrio entre vida pessoal e profissional é fundamental para manter boa performance no longo prazo. Procuro organizar minha agenda de forma que eu tenha tempo de qualidade com a minha família e também momentos de descanso real, sem estar o tempo todo conectado. Quando percebo sinais de cansaço excessivo, eu reviso prioridades, converso com a liderança se necessário e ajusto o ritmo. Vejo que, quando estou mais equilibrado, eu tomo melhores decisões, tenho mais paciência com o time e entrego resultados com mais consistência.
-        vr_en: |
-          I strongly believe that a healthy balance between personal life and professional life is essential to keep good performance in the long term. I try to organize my schedule so that I have quality time with my family and also real rest moments, without being connected all the time. When I notice signs of excessive exhaustion, I review my priorities, talk to leadership if needed, and adjust the pace. I can see that when I am more balanced I make better decisions, I am more patient with the team, and I deliver results with more consistency.
+        resp_1:
+          vr_pt: |
+            Eu acredito muito que equilíbrio entre vida pessoal e profissional é fundamental para manter boa performance no longo prazo. Procuro organizar minha agenda de forma que eu tenha tempo de qualidade com a minha família e também momentos de descanso real, sem estar o tempo todo conectado. Quando percebo sinais de cansaço excessivo, eu reviso prioridades, converso com a liderança se necessário e ajusto o ritmo. Vejo que, quando estou mais equilibrado, eu tomo melhores decisões, tenho mais paciência com o time e entrego resultados com mais consistência.
+          vr_en: |
+            I strongly believe that a healthy balance between personal life and professional life is essential to keep good performance in the long term. I try to organize my schedule so that I have quality time with my family and also real rest moments, without being connected all the time. When I notice signs of excessive exhaustion, I review my priorities, talk to leadership if needed, and adjust the pace. I can see that when I am more balanced I make better decisions, I am more patient with the team, and I deliver results with more consistency.

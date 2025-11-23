@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_mentoring_and_coaching:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu começo alinhando objetivos claros e mensuráveis com prazos realistas. Mapeio pontos fortes e lacunas, defino práticas como shadowing, pair programming e code reviews dirigidos, e estabeleço checkpoints com feedbacks específicos. Quando algo não avança, reavalio o plano, destravo impedimentos e ajusto o formato (ex.: exercícios guiados). Registro os aprendizados em playbooks curtos para que o time inteiro se beneficie.
+          vr_en: |
+            I start by aligning clear, measurable goals with realistic timelines. I map strengths and gaps, define practices such as shadowing, pair programming, and targeted code reviews, and set checkpoints with specific feedback. When progress stalls, I reassess the plan, unblock issues, and adjust the format (e.g., guided exercises). I document learnings as concise playbooks so the whole team benefits.

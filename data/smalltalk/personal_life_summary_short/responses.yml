@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_personal_life_summary_short:
     - custom:
-        vr_pt: |
-          Hoje eu sou casado há cerca de dez anos e tenho duas filhas, a Alice e a Helena. A minha rotina gira muito em torno da família, e eu procuro sempre equilibrar o trabalho com tempo de qualidade em casa.
-        vr_en: |
-          Today I have been married for about ten years and I have two daughters, Alice and Helena. My routine is very family-centered, and I always try to balance my work with quality time at home.
+        resp_1:
+          vr_pt: |
+            Hoje eu sou casado há cerca de dez anos e tenho duas filhas, a Alice e a Helena. A minha rotina gira muito em torno da família, e eu procuro sempre equilibrar o trabalho com tempo de qualidade em casa.
+          vr_en: |
+            Today I have been married for about ten years and I have two daughters, Alice and Helena. My routine is very family-centered, and I always try to balance my work with quality time at home.

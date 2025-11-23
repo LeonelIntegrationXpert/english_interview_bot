@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_family_origin_city:
     - custom:
-        vr_pt: |
-          Eu venho de uma família simples, muito conectada entre si, e isso sempre fez diferença na forma como eu cresci. Mesmo com rotinas diferentes hoje em dia, a base familiar continua sendo importante para mim.
-        vr_en: |
-          I come from a simple family that is very connected, and that has always made a difference in how I grew up. Even though our routines are different nowadays, that family foundation is still very important to me.
+        resp_1:
+          vr_pt: |
+            Eu venho de uma família simples, muito conectada entre si, e isso sempre fez diferença na forma como eu cresci. Mesmo com rotinas diferentes hoje em dia, a base familiar continua sendo importante para mim.
+          vr_en: |
+            I come from a simple family that is very connected, and that has always made a difference in how I grew up. Even though our routines are different nowadays, that family foundation is still very important to me.

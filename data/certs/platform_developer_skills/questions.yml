@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: platform_developer_skills
+    examples: |
+      - você pode me contar um pouco sobre o que essa certificação Platform Developer comprova em termos de hard skills?
+      - quais competências técnicas você desenvolveu para conquistar a certificação Salesforce Platform Developer?
+      - que tipo de coisa você é capaz de construir hoje na plataforma por causa dessa certificação?
+      - em termos práticos, o que a certificação Platform Developer adiciona ao seu nível técnico?
+      - como você descreveria suas habilidades com Apex e SOQL depois de tirar essa certificação?
+      - que tipo de lógica de negócio você costuma implementar usando Apex e gatilhos?
+      - qual é o seu nível de conforto em trabalhar com Lightning Components ou LWC depois dessa certificação?
+      - como você lida com testes automatizados e cobertura de código dentro do contexto da certificação Platform Developer?
+      - até que ponto você domina o ciclo de desenvolvimento e deploy na plataforma Salesforce por conta dessa certificação?
+      - na prática, como essa certificação diferencia você de alguém que atua só de forma declarativa na plataforma?
+      - can you walk me through what your Salesforce Platform Developer certification proves in terms of hard skills?
+      - what technical skills did you build up to be able to pass the Platform Developer certification?
+      - what kind of things are you able to build on the platform now because of this certification?
+      - in practical terms, what does the Platform Developer certification add to your technical level?
+      - how would you describe your skills with Apex and SOQL after earning this certification?
+      - what kind of business logic do you usually implement using Apex classes and triggers?
+      - how comfortable are you working with Lightning Components or LWC after this certification?
+      - how do you handle automated tests and code coverage in the context of the Platform Developer certification?
+      - to what extent do you master the development and deployment lifecycle on Salesforce because of this certification?
+      - in practice, how does this certification differentiate you from someone who only works declaratively on the platform?

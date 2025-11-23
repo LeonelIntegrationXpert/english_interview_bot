@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_dealing_with_failure:
     - custom:
-        vr_pt: |
-          Quando algo não sai como esperado eu procuro assumir a responsabilidade pelo que está ao meu alcance, entender exatamente o que aconteceu e registrar os aprendizados. Em geral faço uma análise mais objetiva, identifico as causas principais e penso em ajustes de processo, comunicação ou técnica para evitar repetição. Para mim, o ponto chave é não esconder o erro, comunicar com transparência e mostrar que houve uma evolução real a partir daquela situação.
-        vr_en: |
-          When something does not go as planned I try to take responsibility for what is under my control, understand exactly what happened, and capture the lessons learned. I usually do an objective analysis, identify the main causes, and think about process, communication, or technical adjustments to avoid repetition. For me the key point is not to hide the mistake, but to communicate it transparently and show that there was real improvement after that situation.
+        resp_1:
+          vr_pt: |
+            Quando algo dá errado, eu tento olhar primeiro para o processo e para as decisões que foram tomadas, em vez de focar em culpas individuais. Gosto de entender o que aconteceu, qual era a informação disponível na época, onde estavam os riscos que talvez não tenham sido tratados e o que poderíamos ter feito diferente. A partir disso, eu costumo registrar os aprendizados, ajustar o fluxo de trabalho e, quando faz sentido, compartilhar com o time para que todo mundo cresça junto. Para mim, errar faz parte, o importante é não repetir o mesmo erro e usar a falha como um ponto de virada para melhorar.
+          vr_en: |
+            When something goes wrong, I try to look first at the process and the decisions that were made, instead of focusing on individual blame. I like to understand what happened, which information was available at that time, where the risks were that maybe were not addressed, and what we could have done differently. From there, I usually document the lessons learned, adjust the workflow, and, when it makes sense, share that with the team so everyone can grow together. For me, mistakes are part of the journey; what matters is not repeating the same mistake and using the failure as a turning point to improve.

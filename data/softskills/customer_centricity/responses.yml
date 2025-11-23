@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_customer_centricity:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu conecto decisões a métricas de valor para o cliente (tempo de tarefa, erros, adoção). Priorizei simplificações que reduzem atrito e valido hipóteses com dados de uso e feedback direto. Quando há trade-off, explicito impacto em UX e proponho alternativas técnicas sustentáveis. Monitoro indicadores de qualidade e abro canal de feedback contínuo para que o time ajuste rápido rumo ao que realmente importa para o usuário.
+          vr_en: |
+            I tie decisions to customer value metrics (task time, errors, adoption). I prioritize simplifications that reduce friction and validate hypotheses with usage data and direct feedback. When trade-offs appear, I make UX impact explicit and propose sustainable technical alternatives. I monitor quality indicators and keep a continuous feedback loop so the team can quickly adjust toward what truly matters for users.

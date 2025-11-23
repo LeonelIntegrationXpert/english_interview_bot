@@ -2,15 +2,23 @@ version: '3.1'
 nlu:
   - intent: ownership_accountability
     examples: |
-      - como você enxerga o conceito de ownership nas suas entregas?
-      - o que significa, na prática, assumir responsabilidade por um projeto?
-      - pode me dar um exemplo em que você realmente "comprou a briga" de uma entrega?
-      - o que você faz quando algo dá errado em uma tarefa que estava sob sua responsabilidade?
-      - como você mostra para o time e para o gestor que eles podem confiar nas suas entregas?
-      - para você, qual é a diferença entre só executar uma tarefa e realmente ter ownership sobre ela?
-      - how do you see the concept of ownership in your deliveries?
-      - what does it mean in practice to take responsibility for a project?
-      - can you give me an example where you really took full ownership of a delivery?
-      - what do you do when something goes wrong in a task that was under your responsibility?
-      - how do you show the team and the manager that they can trust your deliveries?
-      - for you, what is the difference between just executing a task and really having ownership of it?
+      - como você demonstra senso de dono nas suas entregas?
+      - o que significa, na prática, ter ownership para você?
+      - pode me dar um exemplo de situação em que você assumiu responsabilidade por um problema?
+      - quando algo dá errado em uma entrega sua, como você se posiciona?
+      - você costuma acompanhar o resultado do que entrega depois que vai para produção?
+      - como você reage quando percebe que tomou uma decisão que não foi a melhor?
+      - você espera alguém cobrar ou normalmente se antecipa nas suas responsabilidades?
+      - como o seu time costuma te enxergar em termos de compromisso com o resultado?
+      - o que você faz para garantir que uma tarefa não seja simplesmente “empurrada” para outra pessoa?
+      - como você equilibra assumir responsabilidade sem centralizar tudo em você?
+      - how do you show a sense of ownership in your deliveries?
+      - what does having ownership mean to you in practice?
+      - can you give me an example of a situation where you took responsibility for a problem?
+      - when something goes wrong in one of your deliveries, how do you position yourself?
+      - do you usually follow up on the results after your work goes to production?
+      - how do you react when you realize you made a decision that was not the best one?
+      - do you wait for someone to chase you, or do you usually stay ahead of your responsibilities?
+      - how does your team usually see you in terms of commitment to results?
+      - what do you do to make sure a task is not simply pushed onto someone else?
+      - how do you balance taking responsibility without trying to centralize everything on yourself?

@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_college_tech_internet_systems:
     - custom:
-        vr_pt: |
-          Eu me formei como tecnólogo em Sistemas para Internet pelo Instituto Federal Sul-rio-grandense.
-        vr_en: |
-          I graduated as a technologist in Internet Systems from the Federal Institute Sul-rio-grandense.
+        resp_1:
+          vr_pt: |
+            Eu me formei como tecnólogo em Sistemas para Internet pelo Instituto Federal Sul-rio-grandense.
+          vr_en: |
+            I graduated as a technologist in Internet Systems from the Federal Institute Sul-rio-grandense.

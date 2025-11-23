@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_see_you_soon:
     - custom:
-        vr_pt: |
-          Perfeito, falamos em breve então.
-        vr_en: |
-          Sounds good, talk to you soon then.
+        resp_1:
+          vr_pt: |
+            Perfeito, falamos em breve então.
+          vr_en: |
+            Sounds good, talk to you soon then.

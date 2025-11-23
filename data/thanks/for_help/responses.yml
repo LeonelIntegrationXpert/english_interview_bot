@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_for_help:
     - custom:
-        vr_pt: |
-          Imagina, sempre que precisar é só chamar.
-        vr_en: |
-          No problem, feel free to reach out anytime.
+        resp_1:
+          vr_pt: |
+            Imagina, sempre que precisar é só chamar.
+          vr_en: |
+            No problem, feel free to reach out anytime.

@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_interviewer_needs_to_leave_early:
     - custom:
-        vr_pt: |
-          Sem problema, obrigado por avisar. Podemos focar nos pontos principais, e se for necessário, podemos complementar em uma próxima conversa.
-        vr_en: |
-          No problem, thanks for letting me know. We can focus on the main points, and if needed, we can always follow up in another conversation.
+        resp_1:
+          vr_pt: |
+            Sem problema, obrigado por avisar. Podemos focar nos pontos principais, e se for necessário, podemos complementar em uma próxima conversa.
+          vr_en: |
+            No problem, thanks for letting me know. We can focus on the main points, and if needed, we can always follow up in another conversation.

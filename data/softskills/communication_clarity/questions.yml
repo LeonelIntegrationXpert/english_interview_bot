@@ -2,15 +2,23 @@ version: '3.1'
 nlu:
   - intent: communication_clarity
     examples: |
-      - como você faz para se comunicar de forma clara com o time?
-      - o que você faz para ter certeza de que as pessoas entenderam o que você quis dizer?
-      - pode me contar como você explica algo técnico para alguém que não é técnico?
-      - como você adapta a sua comunicação para perfis diferentes de pessoas?
-      - o que você faz quando percebe que houve um mal-entendido na comunicação?
-      - como você garante que todos estejam na mesma página em um projeto?
-      - how do you make sure you communicate clearly with the team?
-      - what do you do to be sure that people understood what you meant?
-      - can you tell me how you explain something technical to someone who is not technical?
-      - how do you adapt your communication to different types of people?
-      - what do you do when you realize that there was a misunderstanding in communication?
-      - how do you make sure that everyone is on the same page in a project?
+      - como você garante que a sua comunicação seja clara com o time?
+      - o que você faz para evitar mal-entendidos em conversas de trabalho?
+      - você adapta a sua forma de explicar dependendo de quem está ouvindo?
+      - pode me dar um exemplo de quando você precisou traduzir algo técnico para alguém de negócio?
+      - como você reage quando percebe que a sua mensagem não foi entendida?
+      - você costuma validar se o outro lado realmente entendeu o que foi combinado?
+      - qual é a sua abordagem para documentar decisões importantes?
+      - você prefere alinhar pontos complexos por escrito, por call ou misturar os dois?
+      - o que para você é essencial em uma comunicação clara dentro de um projeto?
+      - como você lida com pessoas que têm estilos de comunicação muito diferentes do seu?
+      - how do you make sure your communication is clear with the team?
+      - what do you do to avoid misunderstandings in work conversations?
+      - do you adapt the way you explain things depending on who is listening?
+      - can you give me an example of when you had to translate something technical to a business person?
+      - how do you react when you realize your message was not understood?
+      - do you usually confirm whether the other side really understood what was agreed?
+      - what is your approach to documenting important decisions?
+      - do you prefer to align complex topics in writing, on calls, or a mix of both?
+      - what do you consider essential for clear communication inside a project?
+      - how do you deal with people who have communication styles very different from yours?

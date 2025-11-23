@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_check_time_ok:
     - custom:
-        vr_pt: |
-          Sim, esse horário funciona bem para mim e eu tenho tempo suficiente para a entrevista.
-        vr_en: |
-          Yes, this time works well for me and I have enough time for the interview.
+        resp_1:
+          vr_pt: |
+            Sim, esse horário funciona bem para mim e eu tenho tempo suficiente para a entrevista.
+          vr_en: |
+            Yes, this time works well for me and I have enough time for the interview.

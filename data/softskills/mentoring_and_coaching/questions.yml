@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mentoring_and_coaching
+    examples: |
+      - Qual é a sua abordagem para mentorar alguém menos experiente?
+      - Como você identifica gaps de habilidade em um colega para montar um plano de desenvolvimento?
+      - Conte um exemplo em que seu coaching gerou melhoria mensurável.
+      - Como você equilibra dar autonomia e oferecer suporte?
+      - O que você faz quando o mentorado não aplica os combinados?
+      - Como você dá feedback técnico sem desmotivar?
+      - Que métricas você observa para avaliar evolução do mentorado?
+      - Como você adapta o plano quando o contexto muda?
+      - Conte sobre um pair programming bem-sucedido que você conduziu.
+      - Como documenta aprendizados para o time inteiro?
+      - What is your approach to mentoring a less-experienced colleague?
+      - How do you identify skill gaps to build a development plan?
+      - Tell me about a case where your coaching led to measurable improvement.
+      - How do you balance autonomy and support?
+      - What do you do when a mentee doesn’t follow through on agreements?
+      - How do you deliver technical feedback without demotivating?
+      - Which metrics do you track to assess a mentee’s progress?
+      - How do you adapt the plan when the context changes?
+      - Tell me about a successful pair programming session you led.
+      - How do you document learnings for the entire team?

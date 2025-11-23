@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_agentforce_specialist_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Agentforce Specialist. Ela reforça que eu entendo bem como estruturar agentes, prompts, ações e integrações dentro do ecossistema Salesforce.
+          vr_en: |
+            Yes, I hold the Agentforce Specialist certification. It shows that I have a solid understanding of how to design agents, prompts, actions and integrations within the Salesforce ecosystem.
+        resp_2:
+          vr_pt: |
+            Ainda não concluí a certificação Agentforce Specialist, mas estou estudando o conteúdo de agentes, prompts e ações e já venho praticando esses conceitos em cenários reais.
+          vr_en: |
+            I haven’t completed the Agentforce Specialist certification yet, but I’m studying agents, prompts and actions and already practicing these concepts in real scenarios.

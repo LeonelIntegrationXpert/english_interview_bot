@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_receiving_feedback:
     - custom:
-        vr_pt: |
-          Eu procuro encarar feedback como uma ferramenta de crescimento, mesmo quando ele é mais crítico. Primeiro eu escuto com atenção, faço perguntas para entender melhor os pontos e evito responder na defensiva. Depois eu reflito com calma, vejo o que faz sentido, converso com pessoas de confiança se precisar de outra visão e defino ações concretas de melhoria. Quando eu não concordo totalmente, eu ainda assim agradeço, explico meu ponto de vista com respeito e tento chegar em um entendimento comum sobre o que pode ser ajustado.
-        vr_en: |
-          I try to see feedback as a growth tool, even when it is more critical. First I listen carefully, I ask questions to understand the points better, and I avoid reacting in a defensive way. Then I reflect calmly, I see what makes sense, I talk with people I trust if I need another perspective, and I define concrete improvement actions. When I do not fully agree I still thank the person, explain my point of view with respect, and try to reach a common understanding about what can be adjusted.
+        resp_1:
+          vr_pt: |
+            Eu encaro feedback como uma oportunidade de ajuste e crescimento. Mesmo quando não concordo totalmente, eu procuro ouvir com atenção, fazer perguntas para entender melhor e refletir com calma antes de responder. Depois disso, avalio o que faz sentido aplicar e incorporo no meu jeito de trabalhar.
+          vr_en: |
+            I see feedback as an opportunity for adjustment and growth. Even when I do not fully agree, I try to listen carefully, ask questions to understand better, and reflect calmly before reacting. After that, I evaluate what makes sense to apply and then incorporate it into the way I work.

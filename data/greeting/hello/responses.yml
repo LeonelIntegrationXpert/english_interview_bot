@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_hello:
     - custom:
-        vr_pt: |
-          Oi, tudo bem?
-        vr_en: |
-          Hi, how are you?
+        resp_1:
+          vr_pt: |
+            Oi, tudo bem sim, e você?
+          vr_en: |
+            Hi, I’m good, and you?

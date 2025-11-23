@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_javascript_dev1_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce JavaScript Developer I. Ela comprova minhas bases sólidas em JavaScript moderno, o que ajuda bastante em LWC e integrações front-end.
+          vr_en: |
+            Yes, I hold the Salesforce JavaScript Developer I certification. It proves I have solid foundations in modern JavaScript, which is very helpful for LWC and front-end integrations.
+        resp_2:
+          vr_pt: |
+            Ainda não tirei a certificação JavaScript Developer I, mas já trabalho com JavaScript no dia a dia e pretendo usar essa experiência como base para a prova.
+          vr_en: |
+            I haven’t taken the JavaScript Developer I certification yet, but I already work with JavaScript on a daily basis and plan to use that experience as a foundation for the exam.

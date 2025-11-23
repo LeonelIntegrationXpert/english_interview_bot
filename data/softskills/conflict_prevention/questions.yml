@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: conflict_prevention
+    examples: |
+      - O que você faz para prevenir conflitos antes que escalem?
+      - Como identifica sinais precoces de atrito no time?
+      - Conte um caso em que uma ação sua evitou um conflito.
+      - Como você cria acordos de convivência no início de um projeto?
+      - Que práticas ajudam a manter conversas difíceis produtivas?
+      - Como você lida com mal-entendidos culturais em times globais?
+      - O que faz quando percebe competição improdutiva entre áreas?
+      - Como promove segurança psicológica para divergências saudáveis?
+      - Que mecanismos você usa para feedback contínuo?
+      - Como mede se o clima do time está saudável?
+      - What do you do to prevent conflicts before they escalate?
+      - How do you spot early signals of friction in the team?
+      - Tell me about a time your action prevented a conflict.
+      - How do you establish team working agreements at project start?
+      - Which practices keep tough conversations productive?
+      - How do you handle cultural misunderstandings in global teams?
+      - What do you do when you notice unproductive competition between areas?
+      - How do you promote psychological safety for healthy debate?
+      - Which mechanisms do you use for continuous feedback?
+      - How do you measure whether team climate is healthy?

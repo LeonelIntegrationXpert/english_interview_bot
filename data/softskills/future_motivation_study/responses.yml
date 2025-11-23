@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_future_motivation_study:
     - custom:
-        vr_pt: |
-          O que mais me motiva em relação a mestrado e doutorado é a possibilidade de aprofundar conceitos, estudar problemas complexos com mais tempo e conectar teoria com os desafios práticos que eu vejo em projetos reais. Eu não vejo a academia desconectada do mercado, pelo contrário: acredito que uma formação mais forte em pesquisa pode me ajudar a tomar decisões melhores em arquitetura, integrações e soluções de larga escala.
-        vr_en: |
-          What motivates me the most about a master’s degree and a PhD is the possibility to go deeper into concepts, study complex problems with more time, and connect theory with the practical challenges that I see in real projects. I do not see academia as something separate from the market, on the contrary, I believe that a stronger research background can help me make better decisions in architecture, integrations, and large scale solutions.
+        resp_1:
+          vr_pt: |
+            O que mais me motiva em relação a mestrado e doutorado é a possibilidade de aprofundar conceitos, estudar problemas complexos com mais tempo e conectar teoria com os desafios práticos que eu vejo em projetos reais. Eu não vejo a academia desconectada do mercado, pelo contrário: acredito que uma formação mais forte em pesquisa pode me ajudar a tomar decisões melhores em arquitetura, integrações e soluções de larga escala.
+          vr_en: |
+            What motivates me the most about a master’s degree and a PhD is the possibility to go deeper into concepts, study complex problems with more time, and connect theory with the practical challenges that I see in real projects. I do not see academia as something separate from the market, on the contrary, I believe that a stronger research background can help me make better decisions in architecture, integrations, and large scale solutions.

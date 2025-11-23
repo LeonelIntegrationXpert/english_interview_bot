@@ -2,22 +2,23 @@ version: '3.1'
 nlu:
   - intent: teamwork_approach
     examples: |
-      - como você descreveria o seu estilo de trabalho em equipe?
-      - o que para você é essencial para um time funcionar bem no dia a dia?
-      - como você costuma contribuir para um bom clima de colaboração no time?
-      - quando o time está com muita demanda, como você ajuda os colegas?
-      - pode me contar sobre uma experiência positiva em que o trabalho em equipe fez diferença?
-      - como você reage quando um colega está com dificuldade em uma tarefa?
-      - o que você espera de um time ideal em termos de colaboração?
-      - como você faz para garantir que todo mundo seja ouvido nas discussões?
-      - já aconteceu de você ter que apoiar alguém fora do seu papel direto para ajudar o time?
-      - how would you describe your teamwork style?
-      - do you prefer working more on your own or in a group? Why?
-      - what do you think is essential for a team to work well on a daily basis?
-      - how do you usually contribute to a good collaborative environment in the team?
-      - when the team has a very high workload, how do you help your colleagues?
-      - can you tell me about a positive experience where teamwork made a big difference?
-      - how do you react when a colleague is struggling with a task?
-      - what do you expect from an ideal team in terms of collaboration?
-      - how do you make sure everyone has a chance to be heard in discussions?
-      - has there been a time when you helped someone outside your direct role to support the team?
+      - como você costuma se integrar em um time novo?
+      - qual é a sua abordagem quando entra em um projeto com pessoas que você não conhece?
+      - você é do tipo que já chega falando ou observa mais no início?
+      - como você faz para construir confiança com o time?
+      - o que você costuma fazer para que a colaboração aconteça de forma natural?
+      - como você lida com opiniões muito diferentes dentro do time?
+      - em um conflito de ideias, qual é a sua postura?
+      - você procura ajudar a conectar áreas diferentes dentro de um projeto?
+      - como você equilibra focar nas suas tarefas e, ao mesmo tempo, apoiar o time?
+      - que tipo de comportamento seu você acredita que ajuda o time a funcionar melhor?
+      - how do you usually integrate yourself into a new team?
+      - what is your approach when you join a project with people you do not know yet?
+      - are you the type of person who starts talking a lot, or do you observe more at the beginning?
+      - how do you build trust with the team?
+      - what do you usually do to make collaboration happen naturally?
+      - how do you handle very different opinions inside the team?
+      - in an idea conflict, what is your typical posture?
+      - do you try to help connect different areas inside a project?
+      - how do you balance focusing on your own tasks and supporting the team?
+      - what kind of behavior do you believe you bring that helps the team work better?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: escalation_and_boundary_setting
+    examples: |
+      - Quando você decide escalar um problema para a liderança?
+      - Como você diferencia entre ruído e risco real que precisa de escalonamento?
+      - O que você faz quando um bloqueio está fora da sua alçada?
+      - Conte um exemplo de escalonamento bem-sucedido que destravou um projeto.
+      - Como você comunica uma escalada sem “culpar” pessoas?
+      - Que sinais te alertam que é hora de pedir ajuda?
+      - Como você define limites saudáveis de responsabilidade no time?
+      - O que faz quando um tema fica “pingando” entre áreas?
+      - Como registra e acompanha itens escalados?
+      - Como evita que a escalada vire rotina e perca eficácia?
+      - When do you decide to escalate a problem to leadership?
+      - How do you distinguish noise from real risk that needs escalation?
+      - What do you do when a blocker sits outside your remit?
+      - Tell me about a successful escalation that unblocked a project.
+      - How do you communicate an escalation without blaming people?
+      - What signals tell you it’s time to ask for help?
+      - How do you set healthy responsibility boundaries in the team?
+      - What do you do when a topic keeps bouncing between areas?
+      - How do you track and follow up on escalated items?
+      - How do you avoid escalation becoming routine and losing effectiveness?

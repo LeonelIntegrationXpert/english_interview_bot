@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_dealing_with_change:
     - custom:
-        vr_pt: |
-          Eu encaro mudanças como algo natural em projetos, especialmente em tecnologia. Quando uma mudança acontece, eu procuro primeiro entender o motivo e o impacto real nas entregas. Em seguida, reviso as prioridades, ajusto o planejamento e comunico de forma clara o que muda em termos de expectativa e prazo. Tento manter uma postura flexível, sem resistência automática, mas também trago riscos e dependências para que a decisão seja mais consciente. Ajudo o time a reorganizar o trabalho e, sempre que possível, a enxergar a oportunidade por trás da mudança.
-        vr_en: |
-          I see change as something natural in projects, especially in technology. When a change happens I first try to understand the reason and the real impact on the deliveries. Then I review the priorities, adjust the planning, and communicate clearly what is changing in terms of expectations and deadlines. I try to keep a flexible attitude without automatic resistance, but I also bring risks and dependencies so that the decision is more conscious. I help the team reorganize the work and, whenever possible, I try to see the opportunity behind the change.
+        resp_1:
+          vr_pt: |
+            Eu encaro mudanças como algo natural em projetos, especialmente em tecnologia. Quando uma mudança acontece, eu procuro primeiro entender o motivo e o impacto real nas entregas. Em seguida, reviso as prioridades, ajusto o planejamento e comunico de forma clara o que muda em termos de expectativa e prazo. Tento manter uma postura flexível, sem resistência automática, mas também trago riscos e dependências para que a decisão seja mais consciente. Ajudo o time a reorganizar o trabalho e, sempre que possível, a enxergar a oportunidade por trás da mudança.
+          vr_en: |
+            I see change as something natural in projects, especially in technology. When a change happens I first try to understand the reason and the real impact on the deliveries. Then I review the priorities, adjust the planning, and communicate clearly what is changing in terms of expectations and deadlines. I try to keep a flexible attitude without automatic resistance, but I also bring risks and dependencies so that the decision is more conscious. I help the team reorganize the work and, whenever possible, I try to see the opportunity behind the change.

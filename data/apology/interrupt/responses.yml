@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_interrupt:
     - custom:
-        vr_pt: |
-          Imagina, pode interromper sempre que precisar.
-        vr_en: |
-          No problem, feel free to jump in whenever you need.
+        resp_1:
+          vr_pt: |
+            Imagina, pode interromper sempre que precisar.
+          vr_en: |
+            No problem, feel free to jump in whenever you need.

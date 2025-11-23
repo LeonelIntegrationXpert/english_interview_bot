@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: data_informed_decision_making
+    examples: |
+      - Como você usa dados para decidir entre duas abordagens técnicas?
+      - Que métricas você costuma observar antes de propor uma mudança?
+      - Fale de uma decisão que você revisou depois de analisar novos dados.
+      - O que você faz quando dados e opinião da liderança entram em conflito?
+      - Como você garante qualidade e confiabilidade dos dados usados?
+      - Como define métricas de sucesso antes de iniciar um experimento?
+      - Conte um exemplo de experimento A/B ou piloto com resultado claro.
+      - Como você evita “métricas de vaidade” nas discussões?
+      - Que ferramentas você já usou para instrumentação e telemetria?
+      - Como apresenta dados para líderes de forma objetiva?
+      - How do you use data to choose between two technical approaches?
+      - Which metrics do you look at before proposing a change?
+      - Tell me about a decision you revised after analyzing new data.
+      - What do you do when data conflicts with leadership’s opinion?
+      - How do you ensure the quality and reliability of the data used?
+      - How do you define success metrics before starting an experiment?
+      - Describe an A/B test or pilot you ran that had a clear outcome.
+      - How do you avoid “vanity metrics” in discussions?
+      - Which tools have you used for instrumentation and telemetry?
+      - How do you present data to leaders objectively?

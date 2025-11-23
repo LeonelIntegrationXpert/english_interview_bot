@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: quality_engineering_mindset
+    examples: |
+      - O que qualidade significa no seu dia a dia além de “sem bugs”?
+      - Como você previne defeitos em vez de só encontrá-los?
+      - Que práticas você usa para aumentar confiabilidade?
+      - Como decide a pirâmide de testes adequada?
+      - Como balanceia velocidade de entrega e qualidade?
+      - Conte um exemplo de monitoramento que evitou incidente.
+      - Como mede qualidade além de cobertura de testes?
+      - Como lida com dívidas técnicas que afetam qualidade?
+      - Que critérios você usa para bloquear um release?
+      - Como dissemina cultura de qualidade no time?
+      - What does quality mean in your day-to-day beyond “no bugs”?
+      - How do you prevent defects instead of only finding them?
+      - Which practices do you use to increase reliability?
+      - How do you decide on the right testing pyramid?
+      - How do you balance delivery speed and quality?
+      - Tell me about monitoring that prevented an incident.
+      - How do you measure quality beyond test coverage?
+      - How do you handle technical debt that hurts quality?
+      - Which criteria would make you block a release?
+      - How do you spread a quality culture in the team?

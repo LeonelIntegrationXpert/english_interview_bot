@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_prioritization_with_constraints:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu defino critérios objetivos (valor, risco, esforço, urgência) e uso um quadro visual para tornar a decisão transparente. Quando há sobrecarga, proponho um recorte mínimo viável que preserve valor e reduz risco. Urgências entram somente com ajuste explícito: removo algo equivalente. Conflitos são resolvidos com dados de impacto e cenários. Registro os trade-offs e revisito prioridades periodicamente para responder às mudanças sem perder previsibilidade.
+          vr_en: |
+            I set objective criteria (value, risk, effort, urgency) and make decisions visible. When overloaded, I propose a minimal viable slice that preserves value and reduces risk. Urgent items only enter with explicit swaps: something of equal size comes out. I resolve conflicts with impact data and scenarios. I document trade-offs and review priorities regularly to adapt without losing predictability.

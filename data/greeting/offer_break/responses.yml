@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_offer_break:
     - custom:
-        vr_pt: |
-          Obrigado, eu agradeço. Se eu precisar de uma pausa, eu te aviso, mas por enquanto podemos seguir normalmente.
-        vr_en: |
-          Thank you, I appreciate it. If I need a break, I’ll let you know, but for now we can continue as normal.
+        resp_1:
+          vr_pt: |
+            Obrigado, eu agradeço. Se eu precisar de uma pausa, eu te aviso, mas por enquanto podemos seguir normalmente.
+          vr_en: |
+            Thank you, I appreciate it. If I need a break, I’ll let you know, but for now we can continue as normal.

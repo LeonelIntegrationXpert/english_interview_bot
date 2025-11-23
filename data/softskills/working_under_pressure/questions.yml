@@ -2,23 +2,23 @@ version: '3.1'
 nlu:
   - intent: working_under_pressure
     examples: |
-      - como você reage quando está sob muita pressão de prazo?
-      - pode me contar sobre uma situação em que você teve que entregar algo em um tempo muito curto?
-      - o que você faz para não perder a qualidade do trabalho mesmo com muita pressão?
-      - como você se organiza quando aparecem várias urgências ao mesmo tempo?
-      - em momentos de alta demanda, o que te ajuda a manter a cabeça no lugar?
-      - você já passou por um período com muita cobrança? Como lidou com isso?
-      - quando tudo parece urgente, como você decide por onde começar?
-      - como você cuida da sua saúde mental em períodos de muita pressão no trabalho?
-      - você consegue manter a calma quando algo importante dá errado perto do prazo?
-      - o que você aprendeu sobre você mesmo trabalhando em situações de pressão?
-      - how do you react when you are under a lot of pressure because of deadlines?
-      - can you tell me about a situation where you had to deliver something in a very short time?
-      - what do you do to avoid losing quality in your work even when there is a lot of pressure?
-      - how do you organize yourself when several urgent things appear at the same time?
-      - in moments of high demand, what helps you keep your head in the right place?
-      - have you gone through a period with a lot of pressure and expectations? How did you handle it?
-      - when everything seems urgent, how do you decide where to start?
-      - how do you take care of your mental health during periods of strong pressure at work?
-      - are you able to stay calm when something important goes wrong very close to a deadline?
-      - what have you learned about yourself by working in high pressure situations?
+      - como você reage quando está sob pressão de prazos ou entregas?
+      - você se considera uma pessoa que lida bem com pressão?
+      - o que você faz para manter a qualidade do trabalho em momentos de pressão?
+      - poderia me contar como você se organiza quando tudo parece urgente?
+      - como você administra o estresse em períodos mais intensos?
+      - o que ajuda você a continuar produtivo em situações de alta demanda?
+      - você já passou por períodos de muita pressão? Como lidou com isso?
+      - qual é a sua estratégia para não perder o foco quando a pressão aumenta?
+      - como você equilibra velocidade de entrega e qualidade em momentos críticos?
+      - quando o ambiente está muito corrido, como você se mantém calmo?
+      - how do you react when you are under pressure with deadlines or deliveries?
+      - would you say you handle pressure well?
+      - what do you do to keep the quality of your work during high pressure moments?
+      - could you tell me how you organize yourself when everything seems urgent?
+      - how do you manage stress during more intense periods?
+      - what helps you stay productive in situations of high demand?
+      - have you gone through periods of heavy pressure? How did you handle them?
+      - what is your strategy to avoid losing focus when pressure increases?
+      - how do you balance speed and quality in critical situations?
+      - when the environment is very fast paced, how do you remain calm?

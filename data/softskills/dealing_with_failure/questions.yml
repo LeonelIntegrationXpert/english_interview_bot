@@ -2,17 +2,23 @@ version: '3.1'
 nlu:
   - intent: dealing_with_failure
     examples: |
-      - como você lida quando algo não sai como esperado no trabalho?
-      - pode me contar sobre uma falha ou erro que aconteceu e como você reagiu?
-      - o que você faz quando um projeto ou uma ideia sua não dá certo?
-      - como você transforma um erro em aprendizado?
-      - qual foi uma situação em que algo deu errado, mas você conseguiu tirar uma lição importante?
-      - quando você percebe que cometeu um erro, qual é o seu primeiro passo?
-      - como você se certifica de que o mesmo erro não vai se repetir?
-      - how do you handle it when something does not go as planned at work?
-      - can you tell me about a failure or mistake that happened and how you reacted?
-      - what do you do when a project or one of your ideas does not work out?
-      - how do you turn a mistake into learning?
-      - what was a situation where something went wrong, but you still got an important lesson from it?
-      - when you realize that you made a mistake, what is your first step?
-      - how do you make sure that the same mistake will not happen again?
+      - como você lida quando algo dá errado em um projeto?
+      - pode me contar sobre uma falha que marcou a sua experiência?
+      - o que você costuma fazer depois que um plano não funciona como esperado?
+      - você consegue falar de um erro seu que gerou um grande aprendizado?
+      - como você reage quando uma entrega importante não sai como planejado?
+      - o que você faz para garantir que o mesmo erro não aconteça de novo?
+      - você se sente à vontade em admitir quando erra?
+      - como o time costuma te ver quando você precisa lidar com um fracasso?
+      - em situações de falha, você olha mais para procurar culpados ou para entender causa raiz?
+      - o que você aprendeu de mais forte com erros ao longo da sua carreira?
+      - how do you handle it when something goes wrong in a project?
+      - can you tell me about a failure that had a strong impact on your experience?
+      - what do you usually do after a plan does not work as expected?
+      - can you share a mistake of yours that brought a big learning?
+      - how do you react when an important delivery does not go as planned?
+      - what do you do to make sure the same mistake does not happen again?
+      - do you feel comfortable admitting when you are wrong?
+      - how does your team usually see you when you have to deal with a failure?
+      - in failure situations, do you focus more on finding blame or on understanding root cause?
+      - what is the most important thing you have learned from mistakes in your career?

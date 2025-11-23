@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_birthdate:
     - custom:
-        vr_pt: |
-          Eu nasci no dia quatorze de novembro de mil novecentos e oitenta e nove.
-        vr_en: |
-          I was born on November fourteenth, nineteen eighty-nine.
+        resp_1:
+          vr_pt: |
+            Eu nasci no dia quatorze de novembro de mil novecentos e oitenta e nove.
+          vr_en: |
+            I was born on November fourteenth, nineteen eighty-nine.

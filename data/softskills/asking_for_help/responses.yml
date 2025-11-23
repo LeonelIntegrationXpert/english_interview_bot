@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_asking_for_help:
     - custom:
-        vr_pt: |
-          Quando eu não sei algo, eu tento primeiro explorar por conta própria, buscando documentação, exemplos e alternativas. Se mesmo assim eu continuar travado, eu peço ajuda de forma objetiva, explicando o que já tentei, o contexto do problema e onde exatamente estou com dificuldade. Eu vejo pedir ajuda como um sinal de responsabilidade, não de fraqueza. Depois que alguém me ajuda, eu gosto de revisar o que foi feito, anotar os pontos importantes e tentar reproduzir sozinho, para garantir que o aprendizado fique comigo.
-        vr_en: |
-          When I do not know something I first try to explore it on my own, looking for documentation, examples, and alternatives. If I am still stuck I ask for help in an objective way, explaining what I have already tried, the context of the problem, and where exactly I am struggling. I see asking for help as a sign of responsibility, not weakness. After someone helps me I like to review what we did, write down the key points, and try to reproduce it by myself to make sure the learning stays with me.
+        resp_1:
+          vr_pt: |
+            Quando eu não sei algo, eu tento primeiro explorar por conta própria, buscando documentação, exemplos e alternativas. Se mesmo assim eu continuar travado, eu peço ajuda de forma objetiva, explicando o que já tentei, o contexto do problema e onde exatamente estou com dificuldade. Eu vejo pedir ajuda como um sinal de responsabilidade, não de fraqueza. Depois que alguém me ajuda, eu gosto de revisar o que foi feito, anotar os pontos importantes e tentar reproduzir sozinho, para garantir que o aprendizado fique comigo.
+          vr_en: |
+            When I do not know something I first try to explore it on my own, looking for documentation, examples, and alternatives. If I am still stuck I ask for help in an objective way, explaining what I have already tried, the context of the problem, and where exactly I am struggling. I see asking for help as a sign of responsibility, not weakness. After someone helps me I like to review what we did, write down the key points, and try to reproduce it by myself to make sure the learning stays with me.

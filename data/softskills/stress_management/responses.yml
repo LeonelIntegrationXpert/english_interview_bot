@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_stress_management:
     - custom:
-        vr_pt: |
-          Em momentos de maior estresse, eu tento primeiro organizar o cenário: listar o que realmente precisa ser feito, o que pode ser negociado e onde eu posso pedir apoio. Isso já reduz bastante a sensação de caos. Também procuro manter uma comunicação transparente com o time e com a liderança, para alinhar expectativas e evitar promessas irreais. Fora do horário de trabalho, valorizo muito o tempo com a família e momentos de descanso, porque isso me ajuda a recarregar as energias e voltar mais focado no dia seguinte.
-        vr_en: |
-          In moments of higher stress, I first try to organize the situation: I list what really needs to be done, what can be negotiated, and where I can ask for support. That already reduces the feeling of chaos. I also try to keep transparent communication with the team and leadership, to align expectations and avoid unrealistic commitments. Outside working hours, I value time with my family and real rest moments, because that helps me recharge my energy and come back more focused the next day.
+        resp_1:
+          vr_pt: |
+            Em momentos de maior estresse, eu tento primeiro organizar o cenário: listar o que realmente precisa ser feito, o que pode ser negociado e onde eu posso pedir apoio. Isso já reduz bastante a sensação de caos. Também procuro manter uma comunicação transparente com o time e com a liderança, para alinhar expectativas e evitar promessas irreais. Fora do horário de trabalho, valorizo muito o tempo com a família e momentos de descanso, porque isso me ajuda a recarregar as energias e voltar mais focado no dia seguinte.
+          vr_en: |
+            In moments of higher stress, I first try to organize the situation: I list what really needs to be done, what can be negotiated, and where I can ask for support. That already reduces the feeling of chaos. I also try to keep transparent communication with the team and leadership, to align expectations and avoid unrealistic commitments. Outside working hours, I value time with my family and real rest moments, because that helps me recharge my energy and come back more focused the next day.

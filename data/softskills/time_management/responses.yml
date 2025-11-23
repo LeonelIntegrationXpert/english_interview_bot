@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_time_management:
     - custom:
-        vr_pt: |
-          Eu costumo organizar meu tempo priorizando o que gera mais impacto e o que tem prazo mais crítico. Normalmente começo o dia revisando minhas tarefas, definindo um plano claro com blocos de foco e momentos específicos para responder mensagens e tratar imprevistos. Gosto de usar listas e calendário para ter visibilidade do que precisa ser feito. Quando percebo que um prazo pode ficar comprometido, eu aviso o quanto antes, alinhando expectativas e negociando escopo ou datas, em vez de deixar o problema aparecer na última hora.
-        vr_en: |
-          I usually organize my time by prioritizing what has the biggest impact and the most critical deadlines. I normally start my day by reviewing my tasks and creating a clear plan, with focus blocks and specific moments to answer messages and handle unexpected issues. I like to use task lists and a calendar so I have visibility of what needs to be done. When I realize that a deadline might be at risk, I communicate as early as possible, align expectations, and negotiate scope or dates instead of letting the problem appear at the last minute.
+        resp_1:
+          vr_pt: |
+            Eu costumo organizar meu trabalho por prioridade, dividindo tarefas grandes em partes menores e definindo o que é crítico, importante e o que pode esperar. Normalmente planejo o dia e a semana, mas deixo espaço para imprevistos, sempre comunicando o time quando algum prazo pode ser impactado.
+          vr_en: |
+            I usually organize my work by priority, breaking big tasks into smaller parts and defining what is critical, what is important, and what can wait. I plan my day and my week, but I also leave room for unexpected events, and I always communicate with the team when a deadline might be affected.

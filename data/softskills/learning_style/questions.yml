@@ -2,17 +2,23 @@ version: '3.1'
 nlu:
   - intent: learning_style
     examples: |
-      - como você gosta de aprender coisas novas no trabalho?
-      - qual é o seu estilo de aprendizagem quando precisa dominar uma tecnologia ou ferramenta nova?
-      - você aprende melhor estudando sozinho, com cursos, com projetos práticos ou com mentoria?
-      - quando você percebe que não domina um assunto, o que costuma fazer para aprender?
-      - como você se organiza para manter um ritmo constante de aprendizado?
-      - você pode me contar um exemplo recente de algo novo que você precisou aprender?
-      - que tipo de recurso você mais usa para estudar, como documentação, vídeos ou livros?
-      - how do you like to learn new things at work?
-      - what is your learning style when you need to master a new technology or tool?
-      - do you learn better by studying on your own, taking courses, doing practical projects, or with mentorship?
-      - when you realize that you do not master a topic, what do you usually do to learn it?
-      - how do you organize yourself to keep a constant learning rhythm?
-      - can you tell me a recent example of something new you needed to learn?
-      - what kind of resources do you use the most to study, such as documentation, videos, or books?
+      - como você prefere aprender coisas novas no dia a dia?
+      - qual é o seu estilo de aprendizado, mais teórico ou mais prático?
+      - você aprende melhor lendo documentação, fazendo cursos ou “mão na massa”?
+      - quando você precisa aprender uma tecnologia nova, qual é o seu primeiro passo?
+      - você costuma buscar conteúdo em vídeo, artigos, documentação oficial ou tudo junto?
+      - você se considera alguém autodidata?
+      - como você organiza o seu plano de estudo quando precisa evoluir em algum tema?
+      - você prefere aprender sozinho ou em grupo, com outras pessoas do time?
+      - o que mais te ajuda a fixar conhecimento no longo prazo?
+      - você consegue equilibrar aprender coisas novas com as demandas do dia a dia?
+      - how do you prefer to learn new things in your day to day work?
+      - would you say your learning style is more theoretical or more practical?
+      - do you learn better by reading documentation, taking courses, or being hands on?
+      - when you need to learn a new technology, what is your first step?
+      - do you usually look for videos, articles, official documentation, or a mix of everything?
+      - would you consider yourself mostly self taught?
+      - how do you organize your study plan when you need to develop in a new topic?
+      - do you prefer to learn on your own or together with other people from the team?
+      - what helps you most to retain knowledge in the long term?
+      - are you able to balance learning new things with day to day deliverables?

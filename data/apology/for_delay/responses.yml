@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_for_delay:
     - custom:
-        vr_pt: |
-          Sem problemas, eu sei como a correria pode ser.
-        vr_en: |
-          No problem at all, I know things can get busy.
+        resp_1:
+          vr_pt: |
+            Sem problemas, eu sei como a correria pode ser.
+          vr_en: |
+            No problem at all, I know things can get busy.

@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_comment_resume_review:
     - custom:
-        vr_pt: |
-          Fico feliz em saber disso, obrigado. Posso te contar um pouco mais sobre esses projetos e como eles se conectam com a vaga.
-        vr_en: |
-          I’m glad to hear that, thank you. I can walk you through those projects in more detail and how they connect to this role.
+        resp_1:
+          vr_pt: |
+            Fico feliz em saber disso, obrigado. Posso te contar um pouco mais sobre esses projetos e como eles se conectam com a vaga.
+          vr_en: |
+            I’m glad to hear that, thank you. I can walk you through those projects in more detail and how they connect to this role.

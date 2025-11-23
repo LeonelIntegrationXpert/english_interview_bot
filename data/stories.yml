@@ -728,3 +728,235 @@ stories:
     steps:
       - intent: nlu_fallback
       - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_change_enablement_adoption
+    steps:
+      - intent: change_enablement_adoption
+      - action: utter_change_enablement_adoption
+  - story: story_conflict_prevention
+    steps:
+      - intent: conflict_prevention
+      - action: utter_conflict_prevention
+  - story: story_customer_centricity
+    steps:
+      - intent: customer_centricity
+      - action: utter_customer_centricity
+  - story: story_data_informed_decision_making
+    steps:
+      - intent: data_informed_decision_making
+      - action: utter_data_informed_decision_making
+  - story: story_documentation_practices_effective
+    steps:
+      - intent: documentation_practices_effective
+      - action: utter_documentation_practices_effective
+  - story: story_escalation_and_boundary_setting
+    steps:
+      - intent: escalation_and_boundary_setting
+      - action: utter_escalation_and_boundary_setting
+  - story: story_executive_communication_updates
+    steps:
+      - intent: executive_communication_updates
+      - action: utter_executive_communication_updates
+  - story: story_expectation_setting_alignment
+    steps:
+      - intent: expectation_setting_alignment
+      - action: utter_expectation_setting_alignment
+  - story: story_influencing_without_authority
+    steps:
+      - intent: influencing_without_authority
+      - action: utter_influencing_without_authority
+  - story: story_managing_up_feedback
+    steps:
+      - intent: managing_up_feedback
+      - action: utter_managing_up_feedback
+  - story: story_meeting_facilitation_effective
+    steps:
+      - intent: meeting_facilitation_effective
+      - action: utter_meeting_facilitation_effective
+  - story: story_mentoring_and_coaching
+    steps:
+      - intent: mentoring_and_coaching
+      - action: utter_mentoring_and_coaching
+  - story: story_navigating_ambiguity_with_experiments
+    steps:
+      - intent: navigating_ambiguity_with_experiments
+      - action: utter_navigating_ambiguity_with_experiments
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_prioritization_with_constraints
+    steps:
+      - intent: prioritization_with_constraints
+      - action: utter_prioritization_with_constraints
+  - story: story_quality_engineering_mindset
+    steps:
+      - intent: quality_engineering_mindset
+      - action: utter_quality_engineering_mindset
+  - story: story_rapid_skill_acquisition
+    steps:
+      - intent: rapid_skill_acquisition
+      - action: utter_rapid_skill_acquisition
+  - story: story_remote_async_collaboration
+    steps:
+      - intent: remote_async_collaboration
+      - action: utter_remote_async_collaboration
+  - story: story_requirement_clarification_discovery
+    steps:
+      - intent: requirement_clarification_discovery
+      - action: utter_requirement_clarification_discovery
+  - story: story_risk_management_proactive
+    steps:
+      - intent: risk_management_proactive
+      - action: utter_risk_management_proactive
+  - story: story_root_cause_analysis
+    steps:
+      - intent: root_cause_analysis
+      - action: utter_root_cause_analysis
+  - story: story_stakeholder_management
+    steps:
+      - intent: stakeholder_management
+      - action: utter_stakeholder_management
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_admin_status
+    steps:
+      - intent: admin_status
+      - action: utter_admin_status
+  - story: story_agentforce_specialist_status
+    steps:
+      - intent: agentforce_specialist_status
+      - action: utter_agentforce_specialist_status
+  - story: story_app_builder_status
+    steps:
+      - intent: app_builder_status
+      - action: utter_app_builder_status
+  - story: story_javascript_dev1_status
+    steps:
+      - intent: javascript_dev1_status
+      - action: utter_javascript_dev1_status
+  - story: story_marketing_associate_status
+    steps:
+      - intent: marketing_associate_status
+      - action: utter_marketing_associate_status
+  - story: story_mcd1_status
+    steps:
+      - intent: mcd1_status
+      - action: utter_mcd1_status
+  - story: story_mcia_status
+    steps:
+      - intent: mcia_status
+      - action: utter_mcia_status
+  - story: story_mpca_status
+    steps:
+      - intent: mpca_status
+      - action: utter_mpca_status
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_overall_certifications
+    steps:
+      - intent: overall_certifications
+      - action: utter_overall_certifications
+  - story: story_platform_developer_skills
+    steps:
+      - intent: platform_developer_skills
+      - action: utter_platform_developer_skills
+  - story: story_platform_developer_status
+    steps:
+      - intent: platform_developer_status
+      - action: utter_platform_developer_status

@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_learning_style:
     - custom:
-        vr_pt: |
-          Eu aprendo melhor combinando teoria com prática. Normalmente começo pela documentação oficial ou por um curso mais estruturado para entender os conceitos principais e, em seguida, já crio um pequeno projeto ou prova de conceito para testar na prática. Gosto também de anotar o que aprendo e, quando possível, explicar para outras pessoas, porque isso me obriga a organizar melhor o raciocínio e fixa o conteúdo.
-        vr_en: |
-          I learn best by combining theory and practice. I usually start with the official documentation or with a more structured course to understand the main concepts and then I create a small project or proof of concept to test things in practice. I also like to take notes about what I learn and, when possible, explain it to other people, because that forces me to organize my thinking better and helps me fix the content.
+        resp_1:
+          vr_pt: |
+            Eu tenho um estilo de aprendizado bem prático. Normalmente eu começo pela documentação oficial para entender o conceito, depois procuro um ou dois exemplos reais e já tento aplicar em um cenário pequeno, mesmo que seja um laboratório ou um projeto de teste. Gosto de combinar teoria com prática, porque só estudar sem aplicar não fixa, e só aplicar sem entender o porquê acaba limitando a profundidade. Também costumo anotar o que eu aprendi, criar resumos e, sempre que possível, explicar para alguém, porque ensinar é uma forma muito forte de consolidar o conhecimento.
+          vr_en: |
+            My learning style is very practical. I usually start with the official documentation to understand the concept, then I look for one or two real examples and quickly try to apply that in a small scenario, even if it is just a lab or a test project. I like to combine theory and practice, because only studying without applying does not stick, and only applying without understanding the reason behind it limits the depth. I also tend to take notes, create summaries, and, whenever possible, explain what I learned to someone else, because teaching is a very strong way to consolidate knowledge.

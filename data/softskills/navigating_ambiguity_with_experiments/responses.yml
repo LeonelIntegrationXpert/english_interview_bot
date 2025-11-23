@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_navigating_ambiguity_with_experiments:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu transformo dúvidas em hipóteses testáveis e defino critérios claros de sucesso. Proponho experimentos rápidos e baratos, com tempo limitado e métricas de aprendizado. Se o resultado é inconclusivo, ajusto a hipótese ou encerro e documento o porquê. Comunico aprendizados de forma objetiva, mostrando risco reduzido e próximos passos recomendados.
+          vr_en: |
+            I turn uncertainties into testable hypotheses and define clear success criteria. I run quick, low-cost experiments with timeboxes and learning metrics. If results are inconclusive, I refine the hypothesis or stop and document why. I share learnings objectively, showing reduced risk and recommended next steps.

@@ -2,17 +2,23 @@ version: '3.1'
 nlu:
   - intent: teamwork_style
     examples: |
-      - como você se descreve como membro de time?
-      - que tipo de papel você costuma assumir naturalmente quando trabalha em equipe?
-      - o que é mais importante para você em um time de trabalho?
-      - como você contribui para um bom ambiente dentro do time?
-      - você se considera alguém mais focado em liderança, execução ou apoio dentro de um grupo?
-      - pode me contar sobre um time em que você se sentiu especialmente bem encaixado?
-      - como você lida com pessoas de perfis muito diferentes do seu no mesmo time?
-      - how would you describe yourself as a team member?
-      - what kind of role do you naturally tend to take when you work in a team?
-      - what is most important to you in a work team?
-      - how do you contribute to a good environment within the team?
-      - do you see yourself as more focused on leadership, execution, or support inside a group?
-      - can you tell me about a team where you felt especially well integrated?
-      - how do you deal with people who have a very different profile from yours in the same team?
+      - como você descreveria o seu estilo de trabalho em equipe?
+      - você se sente mais confortável liderando, apoiando ou dividindo as tarefas no time?
+      - o que você costuma fazer para ajudar o time a funcionar melhor no dia a dia?
+      - como você reage quando alguém do time está com dificuldade em uma atividade?
+      - você gosta de compartilhar conhecimento com o restante do time?
+      - como você lida com situações em que o time não está alinhado nas prioridades?
+      - você prefere trabalhar mais de forma independente ou bem próximo do time?
+      - o que você espera de um time ideal para conseguir entregar bem?
+      - como você faz para criar um ambiente de colaboração com colegas novos?
+      - você se considera alguém que ajuda a conectar pessoas dentro do time?
+      - how would you describe your teamwork style?
+      - do you feel more comfortable leading, supporting, or sharing tasks within the team?
+      - what do you usually do to help the team work better in the day to day?
+      - how do you react when someone on the team is struggling with a task?
+      - do you enjoy sharing knowledge with the rest of the team?
+      - how do you handle situations when the team is not aligned on priorities?
+      - do you prefer working more independently or very closely with the team?
+      - what do you expect from an ideal team in order to perform well?
+      - how do you create a collaborative environment with new colleagues?
+      - would you consider yourself someone who helps connect people inside the team?

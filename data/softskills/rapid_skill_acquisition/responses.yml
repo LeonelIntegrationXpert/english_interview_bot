@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_rapid_skill_acquisition:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu defino um objetivo prático, mapeio os conceitos base e monto um roteiro com atividade mão na massa (ex.: pequenos protótipos). Alterno estudo dirigido com prática e validação por pares. Registro notas reutilizáveis e crio exemplos mínimos que sirvam de referência. Nas semanas seguintes, consolido com aplicações reais e mini talks para o time.
+          vr_en: |
+            I set a practical goal, map core concepts, and build a hands-on roadmap (e.g., small prototypes). I alternate focused study with practice and peer validation. I capture reusable notes and minimal examples as references. In the following weeks, I consolidate by applying it to real tasks and giving short knowledge shares to the team.

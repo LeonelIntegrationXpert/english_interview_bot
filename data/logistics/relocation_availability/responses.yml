@@ -2,9 +2,10 @@ version: '3.1'
 responses:
   utter_relocation_availability:
     - custom:
-        vr_pt: |
-          Hoje eu priorizo modelos remoto ou, no máximo, híbrido bem planejado, porque eu tenho uma estrutura de vida montada aqui e isso pesa bastante na decisão. Ao mesmo tempo, se aparecer um projeto realmente forte, com um escopo interessante, responsabilidade compatível com o meu nível sênior e uma proposta financeira alinhada, eu estou aberto a avaliar relocation com calma.
+        resp_1:
+          vr_pt: |
+            Hoje eu priorizo modelos remoto ou, no máximo, híbrido bem planejado, porque eu tenho uma estrutura de vida montada aqui e isso pesa bastante na decisão. Ao mesmo tempo, se aparecer um projeto realmente forte, com um escopo interessante, responsabilidade compatível com o meu nível sênior e uma proposta financeira alinhada, eu estou aberto a avaliar relocation com calma.
             Antes de topar uma mudança de cidade ou país, eu preciso olhar pontos como qualidade de vida, impacto para a família, custo de vida local e o quanto essa mudança realmente acelera a minha carreira. Se fizer sentido nesses aspectos e houver suporte da empresa no processo, relocation pode entrar sim como uma possibilidade concreta.
-        vr_en: |
-          At the moment I tend to prioritize remote roles or, at most, a well structured hybrid model, because I already have my life organized where I am and that carries a lot of weight in my decision. At the same time, if a very strong opportunity appears, with an interesting scope, responsibilities aligned with my senior level, and a financial offer that makes sense, I am open to carefully evaluating relocation.
+          vr_en: |
+            At the moment I tend to prioritize remote roles or, at most, a well structured hybrid model, because I already have my life organized where I am and that carries a lot of weight in my decision. At the same time, if a very strong opportunity appears, with an interesting scope, responsibilities aligned with my senior level, and a financial offer that makes sense, I am open to carefully evaluating relocation.
             Before accepting a move to another city or country, I need to look at points such as quality of life, impact on my family, local cost of living, and how much that change would actually accelerate my career. If it makes sense in those aspects and the company provides solid support in the process, relocation can definitely become a concrete option.

@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_weekend_plans:
     - custom:
-        vr_pt: |
-          Geralmente eu tento equilibrar o fim de semana entre descanso, família e estudos. Normalmente reservo um tempo para estudar ou organizar algo de longo prazo, mas também faço questão de desligar um pouco para recarregar as energias.
-        vr_en: |
-          I usually try to balance my weekends between rest, family, and studying. I normally set aside some time to study or organize something long-term, but I also make sure to disconnect a bit so I can recharge.
+        resp_1:
+          vr_pt: |
+            Geralmente eu tento equilibrar o fim de semana entre descanso, família e estudos. Normalmente reservo um tempo para estudar ou organizar algo de longo prazo, mas também faço questão de desligar um pouco para recarregar as energias.
+          vr_en: |
+            I usually try to balance my weekends between rest, family, and studying. I normally set aside some time to study or organize something long-term, but I also make sure to disconnect a bit so I can recharge.

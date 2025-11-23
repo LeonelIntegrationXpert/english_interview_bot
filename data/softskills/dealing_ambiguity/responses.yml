@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_dealing_ambiguity:
     - custom:
-        vr_pt: |
-          Quando a demanda é ambígua eu tento primeiro esclarecer o objetivo principal: o que exatamente estamos tentando resolver ou entregar. Faço perguntas diretas, peço exemplos e confirmo o escopo mínimo para começar. Ao mesmo tempo, não fico parado esperando tudo ficar perfeito; começo pelo que já está claro, documento as premissas e vou ajustando conforme surgem novas informações. Isso permite avançar com responsabilidade, sem criar soluções totalmente desalinhadas.
-        vr_en: |
-          When a task is ambiguous I try first to clarify the main goal: what exactly we are trying to solve or deliver. I ask direct questions, I request examples, and I confirm the minimum scope to start. At the same time I do not wait for everything to be perfect; I start from what is already clear, I document the assumptions, and I adjust as new information appears. This allows me to move forward with responsibility without creating solutions that are completely misaligned.
+        resp_1:
+          vr_pt: |
+            Quando o contexto está ambíguo, eu tento primeiro esclarecer o mínimo necessário para dar um passo seguro, conversando com as partes envolvidas, levantando hipóteses e validando o que é realmente obrigatório e o que ainda está em aberto. A partir daí, eu costumo propor um caminho inicial, deixar claros os riscos e planejar pontos de revisão, justamente para ajustar conforme novas informações aparecem. Para mim, ambiguidade faz parte de muitos projetos, então o importante é não paralisar, mas também não avançar de forma cega, e sim com checkpoints bem definidos.
+          vr_en: |
+            When the context is ambiguous, I try first to clarify the minimum needed to take a safe step, by talking to stakeholders, raising hypotheses, and validating what is truly mandatory and what is still open. From there I usually propose an initial path, make the risks explicit, and plan review points so we can adjust as new information appears. To me, ambiguity is part of many projects, so the key is not to be paralyzed by it, but also not to move forward blindly, and instead work with well defined checkpoints.

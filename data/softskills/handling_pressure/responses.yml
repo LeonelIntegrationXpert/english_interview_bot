@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_handling_pressure:
     - custom:
-        vr_pt: |
-          Em situações de pressão eu procuro, primeiro, organizar o que é realmente prioridade e separar o que é urgente do que é importante. Normalmente quebro o trabalho em partes menores, alinjo expectativas com o time ou com o gestor e vou entregando de forma incremental. Isso me ajuda a manter a cabeça fria, comunicar riscos com antecedência e garantir que a qualidade não seja sacrificada só porque o prazo está apertado.
-        vr_en: |
-          In situations of pressure I try, first, to organize what is really a priority and to separate what is urgent from what is important. I usually break the work into smaller parts, align expectations with the team or the manager, and deliver in an incremental way. This helps me keep a clear head, communicate risks in advance, and make sure that quality is not sacrificed just because the deadline is tight.
+        resp_1:
+          vr_pt: |
+            Quando a pressão aumenta, eu tento primeiro organizar o cenário em blocos menores, priorizando o que é realmente crítico e o que pode ser ajustado. Gosto de alinhar expectativas com o time e com as partes interessadas, deixando claro o que é possível entregar com qualidade dentro do prazo e o que precisa ser replanejado. Eu procuro manter a comunicação muito transparente, evitar entrar no modo “desespero” e sempre focar em decisões práticas: o que precisa ser feito agora, por quem e em qual ordem. Isso me ajuda a manter a calma, proteger a qualidade do trabalho e, ao mesmo tempo, dar segurança para o time.
+          vr_en: |
+            When pressure increases, I usually break the situation into smaller pieces and prioritize what is truly critical versus what can be adjusted. I like to align expectations with the team and stakeholders, making it clear what we can deliver with quality within the deadline and what needs to be replanned. I try to keep communication very transparent, avoid going into a panic mode, and focus on practical decisions: what needs to be done now, by whom, and in which order. That approach helps me stay calm, protect the quality of the work, and give the team a sense of stability.

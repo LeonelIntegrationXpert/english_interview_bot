@@ -2,15 +2,23 @@ version: '3.1'
 nlu:
   - intent: proactivity
     examples: |
-      - você se considera uma pessoa proativa? Como isso aparece no seu dia a dia?
-      - pode me contar sobre uma situação em que você tomou iniciativa sem alguém pedir?
-      - como você identifica oportunidades de melhoria no time ou no processo?
-      - o que você costuma fazer quando percebe um problema que ninguém apontou ainda?
-      - você espera alguém te delegar algo ou costuma se oferecer para ajudar?
-      - como você equilibra ser proativo com não passar por cima das decisões do time?
-      - do you consider yourself a proactive person? How does that show up in your daily work?
+      - você se considera uma pessoa proativa no dia a dia?
+      - pode me contar sobre uma situação em que você tomou iniciativa sem ninguém pedir?
+      - o que você faz quando identifica um problema que não está claramente no seu escopo?
+      - você costuma sugerir melhorias de processo ou espera alguém levantar primeiro?
+      - como você equilibra ser proativo com respeitar prioridades do time?
+      - você já foi atrás de aprender algo novo sozinho para ajudar em um projeto?
+      - em um cenário de incerteza, você espera instruções ou já propõe caminhos?
+      - como o seu gestor normalmente percebe a sua postura em relação à iniciativa?
+      - você costuma antecipar riscos para evitar problemas futuros?
+      - o que significa proatividade para você na prática?
+      - would you consider yourself proactive in your day to day work?
       - can you tell me about a situation where you took initiative without being asked?
-      - how do you identify opportunities for improvement in the team or in the process?
-      - what do you usually do when you notice a problem that no one has mentioned yet?
-      - do you wait for someone to delegate tasks to you, or do you usually offer to help?
-      - how do you balance being proactive with not going over the team’s decisions?
+      - what do you do when you identify a problem that is not clearly in your scope?
+      - do you usually suggest process improvements or wait for someone else to bring them up?
+      - how do you balance being proactive with respecting team priorities?
+      - have you ever gone after learning something new on your own to help a project?
+      - in an uncertain scenario, do you wait for instructions or propose paths forward?
+      - how does your manager usually perceive your level of initiative?
+      - do you tend to anticipate risks to avoid future problems?
+      - what does proactivity mean to you in practice?

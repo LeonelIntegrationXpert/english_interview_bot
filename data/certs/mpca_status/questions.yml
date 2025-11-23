@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mpca_status
+    examples: |
+      - você já tem a certificação MuleSoft Platform Architect?
+      - hoje você é certificado como MuleSoft Platform Architect?
+      - você já conquistou a certificação MuleSoft Certified Platform Architect?
+      - essa certificação de arquiteto de plataforma MuleSoft já está no seu currículo?
+      - você poderia me dizer se possui a certificação MuleSoft Platform Architect?
+      - atualmente você tem a credencial MuleSoft Certified Platform Architect?
+      - você já passou na prova de MuleSoft Platform Architect?
+      - essa certificação de arquiteto de plataforma da MuleSoft você já concluiu?
+      - você já obteve a certificação MuleSoft Platform Architect – Level 1?
+      - seu conjunto de certificações inclui a de MuleSoft Platform Architect?
+      - do you already have the MuleSoft Platform Architect certification?
+      - are you currently certified as a MuleSoft Platform Architect?
+      - have you earned the MuleSoft Certified Platform Architect certification?
+      - is the MuleSoft Platform Architect certification already on your résumé?
+      - could you tell me if you hold the MuleSoft Platform Architect credential?
+      - do you currently have the MuleSoft Certified Platform Architect certification?
+      - have you passed the MuleSoft Platform Architect exam?
+      - have you completed the MuleSoft Platform Architect certification?
+      - have you obtained the MuleSoft Platform Architect – Level 1 certification?
+      - does your certification set include the MuleSoft Platform Architect credential?

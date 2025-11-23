@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_improvement_points:
     - custom:
-        vr_pt: |
-          Eu procuro olhar para os meus pontos de melhoria de forma bem transparente. Um deles é equilibrar a vontade de aprofundar muito em detalhes com a necessidade de ser mais conciso em algumas situações. Tenho trabalhado para adaptar o nível de detalhe ao contexto e ao tempo disponível das outras pessoas. Outro ponto é delegar mais quando estou em posição de referência, em vez de tentar assumir tudo sozinho. Vejo esses aspectos como parte do meu desenvolvimento contínuo.
-        vr_en: |
-          I try to look at my improvement points in a very transparent way. One of them is balancing my desire to go very deep into details with the need to be more concise in some situations. I have been working on adapting the level of detail to the context and to other people’s available time. Another point is delegating more when I am in a reference position, instead of trying to take everything on myself. I see these aspects as part of my continuous development.
+        resp_1:
+          vr_pt: |
+            Eu procuro olhar para os meus pontos de melhoria de forma bem transparente. Um deles é equilibrar a vontade de aprofundar muito em detalhes com a necessidade de ser mais conciso em algumas situações. Tenho trabalhado para adaptar o nível de detalhe ao contexto e ao tempo disponível das outras pessoas. Outro ponto é delegar mais quando estou em posição de referência, em vez de tentar assumir tudo sozinho. Vejo esses aspectos como parte do meu desenvolvimento contínuo.
+          vr_en: |
+            I try to look at my improvement points in a very transparent way. One of them is balancing my desire to go very deep into details with the need to be more concise in some situations. I have been working on adapting the level of detail to the context and to other people’s available time. Another point is delegating more when I am in a reference position, instead of trying to take everything on myself. I see these aspects as part of my continuous development.

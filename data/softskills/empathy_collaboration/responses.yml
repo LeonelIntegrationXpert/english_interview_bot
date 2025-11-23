@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_empathy_collaboration:
     - custom:
-        vr_pt: |
-          Eu procuro ouvir de verdade antes de responder, tentando entender o contexto e a realidade da outra pessoa. Acredito que empatia não significa concordar com tudo, mas considerar o impacto das decisões nas pessoas e buscar soluções que sejam firmes com o problema e respeitosas com quem está envolvido.
-        vr_en: |
-          I try to really listen before I respond, and I do my best to understand the other person's context and reality. I believe empathy does not mean agreeing with everything, but considering the impact of decisions on people and looking for solutions that are firm with the problem and respectful with those involved.
+        resp_1:
+          vr_pt: |
+            Eu procuro ouvir de verdade antes de responder, tentando entender o contexto e a realidade da outra pessoa. Acredito que empatia não significa concordar com tudo, mas considerar o impacto das decisões nas pessoas e buscar soluções que sejam firmes com o problema e respeitosas com quem está envolvido.
+          vr_en: |
+            I try to really listen before I respond, and I do my best to understand the other person's context and reality. I believe empathy does not mean agreeing with everything, but considering the impact of decisions on people and looking for solutions that are firm with the problem and respectful with those involved.

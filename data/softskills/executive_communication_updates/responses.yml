@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_executive_communication_updates:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu uso um formato enxuto: objetivo, progresso em métricas, riscos com probabilidade/impacto, decisões pendentes e próximos passos. Evito jargões e trago números comparáveis a metas e baseline. Em dúvidas, deixo claro o que é estimativa e quando entrego o dado preciso. Para más notícias, foco em fatos, impacto e plano de correção, mantendo transparência e calma.
+          vr_en: |
+            I use a lean format: objective, metric-based progress, risks with probability/impact, pending decisions, and next steps. I avoid jargon and show numbers against goals and baselines. If I don’t have exact figures, I label estimates and give a delivery time for precise data. For bad news, I focus on facts, impact, and the remediation plan while staying transparent and calm.

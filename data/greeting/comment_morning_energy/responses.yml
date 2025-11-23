@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_comment_morning_energy:
     - custom:
-        vr_pt: |
-          Eu que agradeço. Gosto bastante de entrevistas pela manhã, porque a cabeça ainda está fresca e consigo focar melhor na conversa.
-        vr_en: |
-          Thank you. I actually like morning interviews because my mind is still fresh and I can focus better on the conversation.
+        resp_1:
+          vr_pt: |
+            Eu que agradeço. Gosto bastante de entrevistas pela manhã, porque a cabeça ainda está fresca e consigo focar melhor na conversa.
+          vr_en: |
+            Thank you. I actually like morning interviews because my mind is still fresh and I can focus better on the conversation.

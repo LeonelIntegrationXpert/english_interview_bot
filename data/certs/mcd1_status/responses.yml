@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mcd1_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação MuleSoft Certified Developer – Level 1 (Mule 4). Ela valida que eu consigo desenvolver integrações ponta a ponta na plataforma, seguindo boas práticas de configuração de flows, DataWeave, conectores e tratamento de erros.
+          vr_en: |
+            Yes, I hold the MuleSoft Certified Developer – Level 1 (Mule 4) certification. It proves that I can build end-to-end integrations on the platform, following best practices for flows, DataWeave, connectors and error handling.
+        resp_2:
+          vr_pt: |
+            Ainda não concluí a certificação MuleSoft Certified Developer – Level 1, mas já estou estudando o conteúdo e praticando em projetos. A ideia é validar formalmente as skills que eu já venho usando no dia a dia.
+          vr_en: |
+            I haven’t completed the MuleSoft Certified Developer – Level 1 certification yet, but I’m already studying the content and practicing on real projects. My goal is to formally validate the skills I’ve been using in my day-to-day work.

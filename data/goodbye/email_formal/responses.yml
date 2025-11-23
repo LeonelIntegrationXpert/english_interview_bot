@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_email_formal:
     - custom:
-        vr_pt: |
-          Muito obrigado, fico à disposição para qualquer dúvida.
-        vr_en: |
-          Thank you very much, I’m available if you have any questions.
+        resp_1:
+          vr_pt: |
+            Muito obrigado, fico à disposição para qualquer dúvida.
+          vr_en: |
+            Thank you very much, I’m available if you have any questions.

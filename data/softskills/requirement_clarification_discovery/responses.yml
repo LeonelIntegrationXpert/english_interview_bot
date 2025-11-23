@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_requirement_clarification_discovery:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu inicio com perguntas orientadas a objetivo, métricas e restrições. Transformo requisitos em problemas mensuráveis, proponho protótipos rápidos ou spikes técnicos e valido com usuários ou representantes de negócio. Registro decisões, critérios de aceite e hipóteses refutadas. Quando há conflito, comparo cenários com custo/benefício, priorizo o essencial e planejo evolução incremental para reduzir risco.
+          vr_en: |
+            I start with goal-, metric-, and constraint-driven questions. I reframe requirements into measurable problems, propose quick prototypes or tech spikes, and validate with users or business reps. I document decisions, acceptance criteria, and falsified hypotheses. When conflicts arise, I compare scenarios by cost/benefit, prioritize essentials, and plan incremental evolution to reduce risk.

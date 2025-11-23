@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_casual_chat:
     - custom:
-        vr_pt: |
-          Tudo certo por aqui, obrigado por perguntar.
-        vr_en: |
-          All good on my side, thanks for asking.
+        resp_1:
+          vr_pt: |
+            Tudo certo por aqui, obrigado por perguntar.
+          vr_en: |
+            All good on my side, thanks for asking.

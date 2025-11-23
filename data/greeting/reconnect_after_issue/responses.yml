@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_reconnect_after_issue:
     - custom:
-        vr_pt: |
-          Sim, agora estou te ouvindo e vendo direitinho. Podemos continuar de onde paramos.
-        vr_en: |
-          Yes, I can see and hear you clearly now. We can continue from where we left off.
+        resp_1:
+          vr_pt: |
+            Sim, agora estou te ouvindo e vendo direitinho. Podemos continuar de onde paramos.
+          vr_en: |
+            Yes, I can see and hear you clearly now. We can continue from where we left off.

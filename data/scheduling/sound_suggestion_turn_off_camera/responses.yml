@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_sound_suggestion_turn_off_camera:
     - custom:
-        vr_pt: |
-          Claro, sem problema. Vou desligar a câmera aqui para priorizar a qualidade do áudio.
-        vr_en: |
-          Sure, no problem. I’ll turn my camera off on my side so we can prioritize audio quality.
+        resp_1:
+          vr_pt: |
+            Claro, sem problema. Vou desligar a câmera aqui para priorizar a qualidade do áudio.
+          vr_en: |
+            Sure, no problem. I’ll turn my camera off on my side so we can prioritize audio quality.

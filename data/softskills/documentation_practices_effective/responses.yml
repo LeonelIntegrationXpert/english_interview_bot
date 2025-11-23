@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_documentation_practices_effective:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu priorizo documentação leve e viva: README orientado a tarefas, ADRs para decisões, guias rápidos e exemplos executáveis. Defino donos, checklist de atualização por release e padrões de nomenclatura para facilitar busca. Meço utilidade por tempo de onboarding e redução de dúvidas repetidas. Quando convém, uso diagramas e curtos vídeos para acelerar entendimento.
+          vr_en: |
+            I favor lightweight, living docs: task-oriented READMEs, ADRs for decisions, quick guides, and runnable examples. I assign owners, add release-update checkpoints, and use naming standards for discoverability. I gauge usefulness by onboarding time and fewer repeated questions. When helpful, I use diagrams or short videos to speed up understanding.

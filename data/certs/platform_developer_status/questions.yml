@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: platform_developer_status
+    examples: |
+      - você já tem a certificação Salesforce Platform Developer?
+      - hoje você é certificado como Salesforce Platform Developer?
+      - essa certificação de Platform Developer já faz parte do seu currículo?
+      - você já passou na prova de Salesforce Platform Developer?
+      - atualmente você possui a credencial Salesforce Certified Platform Developer?
+      - você poderia me dizer se já concluiu a certificação Platform Developer?
+      - o seu nível hoje inclui a certificação Salesforce Platform Developer?
+      - você já obteve a certificação Salesforce Certified Platform Developer?
+      - essa certificação de Platform Developer você já conquistou?
+      - você já é oficialmente Salesforce Platform Developer certificado?
+      - do you already have the Salesforce Platform Developer certification?
+      - are you currently certified as a Salesforce Platform Developer?
+      - is the Salesforce Platform Developer certification already on your résumé?
+      - have you passed the Salesforce Platform Developer exam?
+      - do you currently hold the Salesforce Certified Platform Developer credential?
+      - could you tell me if you have completed the Platform Developer certification?
+      - does your current level include the Salesforce Platform Developer certification?
+      - have you obtained the Salesforce Certified Platform Developer credential?
+      - have you already earned the Salesforce Platform Developer certification?
+      - are you officially a certified Salesforce Platform Developer today?

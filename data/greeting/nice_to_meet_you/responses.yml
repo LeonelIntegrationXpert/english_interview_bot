@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_nice_to_meet_you:
     - custom:
-        vr_pt: |
-          Prazer é meu!
-        vr_en: |
-          The pleasure is mine!
+        resp_1:
+          vr_pt: |
+            Prazer é meu, muito bom te conhecer.
+          vr_en: |
+            Nice to meet you too, it’s really good to meet you.

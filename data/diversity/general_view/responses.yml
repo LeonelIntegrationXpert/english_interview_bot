@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_general_view:
     - custom:
-        vr_pt: |
-          Eu vejo diversidade como algo essencial no ambiente de trabalho. Times diversos trazem pontos de vista diferentes, enriquecem a tomada de decisão e ajudam a construir soluções mais completas e justas. Para mim, respeito, empatia e igualdade de oportunidades são fundamentais no dia a dia.
-        vr_en: |
-          I see diversity as something essential in the workplace. Diverse teams bring different points of view, make decision-making richer, and help build more complete and fair solutions. For me, respect, empathy, and equal opportunities are fundamental in day-to-day work.
+        resp_1:
+          vr_pt: |
+            Eu vejo diversidade como algo essencial no ambiente de trabalho. Times diversos trazem pontos de vista diferentes, enriquecem a tomada de decisão e ajudam a construir soluções mais completas e justas. Para mim, respeito, empatia e igualdade de oportunidades são fundamentais no dia a dia.
+          vr_en: |
+            I see diversity as something essential in the workplace. Diverse teams bring different points of view, make decision-making richer, and help build more complete and fair solutions. For me, respect, empathy, and equal opportunities are fundamental in day-to-day work.

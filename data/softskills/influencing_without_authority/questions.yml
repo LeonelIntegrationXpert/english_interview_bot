@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: influencing_without_authority
+    examples: |
+      - Como você convence times sem ter autoridade formal sobre eles?
+      - Fale de um caso em que precisou influenciar sem poder hierárquico.
+      - Que abordagem você usa para conquistar adesão de áreas paralelas?
+      - Como você adapta sua comunicação para perfis diferentes ao persuadir?
+      - O que você faz quando alguém resiste à sua proposta sem uma razão clara?
+      - Como usa dados e evidências para sustentar influência?
+      - Conte sobre uma negociação em que você mudou a opinião do grupo.
+      - Como você cria coalizões para aprovar uma mudança?
+      - O que você faz quando a liderança está neutra e o time dividido?
+      - Qual foi a maior lição sua ao influenciar sem autoridade?
+      - How do you persuade teams without formal authority over them?
+      - Tell me about a time you had to influence without hierarchical power.
+      - What approach do you use to gain buy-in from parallel areas?
+      - How do you adapt your message to different profiles when persuading?
+      - What do you do when someone resists your proposal without a clear reason?
+      - How do you use data and evidence to support influence?
+      - Describe a negotiation where you shifted the group’s opinion.
+      - How do you build coalitions to approve a change?
+      - What do you do when leadership is neutral and the team is split?
+      - What is your biggest lesson in influencing without authority?

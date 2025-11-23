@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_giving_feedback:
     - custom:
-        vr_pt: |
-          Quando dou feedback, tento sempre focar em fatos e comportamentos observáveis, nunca em rótulos pessoais. Procuro escolher um momento adequado, explicar o contexto, descrever o que aconteceu e o impacto gerado, e depois abrir espaço para ouvir a visão da outra pessoa. Tento ser direto, mas respeitoso, deixando claro que o objetivo é desenvolvimento e não julgamento. Também gosto de equilibrar pontos de melhoria com pontos positivos, para que o feedback seja construtivo e ajude a fortalecer a relação de trabalho.
-        vr_en: |
-          When I give feedback, I always try to focus on facts and observable behaviors, not on personal labels. I choose an appropriate moment, explain the context, describe what happened and the impact it had, and then I give space to hear the other person’s perspective. I try to be direct but respectful, making it clear that the goal is development, not judgment. I also like to balance improvement points with positive aspects, so that the feedback is constructive and helps strengthen the working relationship.
+        resp_1:
+          vr_pt: |
+            Quando dou feedback, tento sempre focar em fatos e comportamentos observáveis, nunca em rótulos pessoais. Procuro escolher um momento adequado, explicar o contexto, descrever o que aconteceu e o impacto gerado, e depois abrir espaço para ouvir a visão da outra pessoa. Tento ser direto, mas respeitoso, deixando claro que o objetivo é desenvolvimento e não julgamento. Também gosto de equilibrar pontos de melhoria com pontos positivos, para que o feedback seja construtivo e ajude a fortalecer a relação de trabalho.
+          vr_en: |
+            When I give feedback, I always try to focus on facts and observable behaviors, not on personal labels. I choose an appropriate moment, explain the context, describe what happened and the impact it had, and then I give space to hear the other person’s perspective. I try to be direct but respectful, making it clear that the goal is development, not judgment. I also like to balance improvement points with positive aspects, so that the feedback is constructive and helps strengthen the working relationship.

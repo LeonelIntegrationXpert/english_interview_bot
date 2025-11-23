@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_future_balance_life_work:
     - custom:
-        vr_pt: |
-          Eu vejo equilíbrio como algo essencial para conseguir sustentar planos de longo prazo, como mestrado, doutorado e várias certificações. No futuro, eu quero ter uma rotina em que o trabalho seja intenso, mas sustentável, com tempo reservado para a família, para descanso e para estudo estruturado. A ideia não é fazer tudo ao mesmo tempo ao máximo, e sim ajustar o ritmo em cada fase, mantendo a saúde e a qualidade de vida como parte do plano, e não como algo separado da carreira.
-        vr_en: |
-          I see balance as something essential to sustain long term plans, such as a master’s degree, a PhD, and several certifications. In the future I want to have a routine where work is intense but sustainable, with reserved time for my family, for rest, and for structured study. The idea is not to do everything at the maximum at the same time, but to adjust the pace in each phase, keeping health and quality of life as part of the plan, not as something separate from my career.
+        resp_1:
+          vr_pt: |
+            Eu vejo equilíbrio como algo essencial para conseguir sustentar planos de longo prazo, como mestrado, doutorado e várias certificações. No futuro, eu quero ter uma rotina em que o trabalho seja intenso, mas sustentável, com tempo reservado para a família, para descanso e para estudo estruturado. A ideia não é fazer tudo ao mesmo tempo ao máximo, e sim ajustar o ritmo em cada fase, mantendo a saúde e a qualidade de vida como parte do plano, e não como algo separado da carreira.
+          vr_en: |
+            I see balance as something essential to sustain long term plans, such as a master’s degree, a PhD, and several certifications. In the future I want to have a routine where work is intense but sustainable, with reserved time for my family, for rest, and for structured study. The idea is not to do everything at the maximum at the same time, but to adjust the pace in each phase, keeping health and quality of life as part of the plan, not as something separate from my career.

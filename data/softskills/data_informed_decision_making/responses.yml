@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_data_informed_decision_making:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu começo definindo a pergunta certa e as métricas que realmente capturam o resultado desejado. Instrumento o sistema para coletar dados confiáveis, rodo experimentos com hipóteses claras e tamanho de amostra adequado e apresento resultados com intervalo de confiança e impacto no negócio. Se dados e opiniões divergem, recomendo uma decisão reversível e revisito quando surgirem novas evidências.
+          vr_en: |
+            I start by framing the right question and the metrics that capture the desired outcome. I instrument the system for reliable data, run experiments with clear hypotheses and adequate sample size, and present results with confidence bounds and business impact. If data and opinions diverge, I recommend a reversible decision and revisit it as new evidence emerges.

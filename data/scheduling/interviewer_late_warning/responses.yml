@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_interviewer_late_warning:
     - custom:
-        vr_pt: |
-          Tudo bem, sem problema. Eu aguardo aqui na call, obrigado por avisar.
-        vr_en: |
-          That’s totally fine, no problem. I’ll wait on the call, thanks for letting me know.
+        resp_1:
+          vr_pt: |
+            Tudo bem, sem problema. Eu aguardo aqui na call, obrigado por avisar.
+          vr_en: |
+            That’s totally fine, no problem. I’ll wait on the call, thanks for letting me know.

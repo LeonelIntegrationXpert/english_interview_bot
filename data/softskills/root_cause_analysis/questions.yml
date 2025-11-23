@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: root_cause_analysis
+    examples: |
+      - Como você conduz uma análise de causa raiz após um incidente?
+      - Que técnicas você usa (por ex., 5 Porquês, Ishikawa)?
+      - Conte um exemplo de correção que evitou recorrência.
+      - Como separa sintoma de causa real?
+      - Como evita culpar pessoas ao investigar falhas?
+      - Que indicadores você acompanha depois do plano de ação?
+      - Como prioriza correções entre curto e longo prazo?
+      - Como documenta aprendizados e previne regressão?
+      - O que faz quando não há dados suficientes do incidente?
+      - Como garante que as ações foram de fato implementadas?
+      - How do you run a root cause analysis after an incident?
+      - Which techniques do you use (e.g., 5 Whys, Ishikawa)?
+      - Tell me about a fix that prevented recurrence.
+      - How do you separate symptoms from the actual cause?
+      - How do you keep investigations blameless?
+      - Which indicators do you track after the action plan?
+      - How do you prioritize short- vs. long-term fixes?
+      - How do you document learnings and prevent regression?
+      - What do you do when you lack sufficient incident data?
+      - How do you ensure actions are truly implemented?

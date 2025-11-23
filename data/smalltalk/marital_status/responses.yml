@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_marital_status:
     - custom:
-        vr_pt: |
-          Sim, eu sou casado. Minha esposa se chama Denise Rickes Porto.
-        vr_en: |
-          Yes, I am married. My wife’s name is Denise Rickes Porto.
+        resp_1:
+          vr_pt: |
+            Sim, eu sou casado. Minha esposa se chama Denise Rickes Porto.
+          vr_en: |
+            Yes, I am married. My wife’s name is Denise Rickes Porto.

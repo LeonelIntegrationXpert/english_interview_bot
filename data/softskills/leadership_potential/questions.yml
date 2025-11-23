@@ -2,17 +2,23 @@ version: '3.1'
 nlu:
   - intent: leadership_potential
     examples: |
-      - você se vê assumindo papéis de liderança no futuro?
-      - como você enxerga o seu potencial de liderança nos próximos anos?
-      - pode me contar sobre uma situação em que você liderou, mesmo sem ter o cargo formal?
-      - que tipo de líder você gostaria de ser, olhando para o futuro?
-      - o que você acredita que já tem hoje de perfil de liderança?
-      - em que pontos de liderança você acha que ainda precisa se desenvolver?
-      - como você costuma influenciar o time mesmo quando não é o gestor oficial?
-      - do you see yourself taking on leadership roles in the future?
-      - how do you see your leadership potential in the next years?
-      - can you tell me about a situation where you led, even without having a formal title?
-      - what kind of leader would you like to be when you look at the future?
-      - what do you think you already have today in terms of leadership profile?
-      - in which leadership aspects do you feel you still need to develop?
-      - how do you usually influence the team even when you are not the official manager?
+      - você já teve oportunidade de assumir papel de liderança em algum projeto?
+      - como você se vê em termos de potencial de liderança para os próximos anos?
+      - pode me contar sobre uma situação em que você puxou a frente mesmo sem ter o cargo formal?
+      - o que você acredita que um bom líder precisa ter no dia a dia?
+      - você se imagina guiando times ou projetos maiores no futuro?
+      - como você equilibra tomar decisões e ouvir o time ao mesmo tempo?
+      - quando surge um problema, você costuma esperar direção ou já tenta organizar os próximos passos?
+      - como você lida com a responsabilidade de influenciar as decisões do time?
+      - que tipo de líder você gostaria de se tornar a médio prazo?
+      - você já recebeu feedback de que tem perfil de liderança?
+      - have you had the opportunity to play a leadership role in any project?
+      - how do you see yourself in terms of leadership potential for the next few years?
+      - can you tell me about a situation where you took the lead even without a formal title?
+      - what do you believe a good leader needs to have in the day to day?
+      - do you see yourself guiding larger teams or projects in the future?
+      - how do you balance making decisions and listening to the team at the same time?
+      - when a problem appears, do you usually wait for direction or start organizing next steps?
+      - how do you handle the responsibility of influencing the team’s decisions?
+      - what kind of leader would you like to become in the medium term?
+      - have you received feedback that you have leadership potential?

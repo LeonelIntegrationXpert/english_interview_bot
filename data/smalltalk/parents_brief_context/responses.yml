@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_parents_brief_context:
     - custom:
-        vr_pt: |
-          Eu venho de uma família bem simples e muito trabalhadora. Meus pais, o Taylor Gomes Porto e a Cleusa Maria Dorneles Porto, sempre valorizam esforço, honestidade e estudo, e isso acabou moldando bastante a forma como eu encaro trabalho e responsabilidade hoje.
-        vr_en: |
-          I come from a simple and very hardworking family. My parents, Taylor Gomes Porto and Cleusa Maria Dorneles Porto, have always valued effort, honesty, and education, and that really shaped the way I see work and responsibility today.
+        resp_1:
+          vr_pt: |
+            Eu venho de uma família bem simples e muito trabalhadora. Meus pais, o Taylor Gomes Porto e a Cleusa Maria Dorneles Porto, sempre valorizam esforço, honestidade e estudo, e isso acabou moldando bastante a forma como eu encaro trabalho e responsabilidade hoje.
+          vr_en: |
+            I come from a simple and very hardworking family. My parents, Taylor Gomes Porto and Cleusa Maria Dorneles Porto, have always valued effort, honesty, and education, and that really shaped the way I see work and responsibility today.

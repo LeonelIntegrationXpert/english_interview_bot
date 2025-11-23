@@ -2,17 +2,23 @@ version: '3.1'
 nlu:
   - intent: handling_pressure
     examples: |
-      - como você lida com situações de pressão no trabalho?
-      - pode me contar como você costuma reagir quando os prazos estão muito apertados?
-      - o que você faz para se manter calmo quando tudo parece urgente ao mesmo tempo?
-      - como você se organiza quando recebe várias demandas importantes ao mesmo tempo?
-      - você pode dar um exemplo de uma situação em que trabalhou sob muita pressão?
-      - quando as coisas ficam muito corridas, como você garante a qualidade do seu trabalho?
-      - o que te ajuda a manter o foco em momentos de alta cobrança?
-      - how do you handle pressure at work?
-      - can you tell me how you usually react when deadlines are very tight?
-      - what do you do to stay calm when everything seems urgent at the same time?
-      - how do you organize yourself when you receive several important tasks at once?
-      - can you give me an example of a situation when you worked under a lot of pressure?
-      - when things get really busy, how do you make sure that your work still has quality?
-      - what helps you keep your focus during moments of high pressure?
+      - como você lida com situações de muita pressão no trabalho?
+      - o que você costuma fazer quando os prazos estão muito apertados?
+      - como você reage quando tudo parece urgente ao mesmo tempo?
+      - você se considera uma pessoa calma em momentos de alta pressão?
+      - pode me dar um exemplo de quando você teve que trabalhar sob muita pressão?
+      - como você organiza as suas prioridades quando o time está sobrecarregado?
+      - o que te ajuda a manter a clareza quando o ambiente está mais caótico?
+      - como você evita que a pressão afete a qualidade das suas entregas?
+      - o que você faz para não deixar a pressão te paralisar?
+      - em dias muito intensos, como você se mantém produtivo sem se desgastar demais?
+      - how do you handle high pressure situations at work?
+      - what do you usually do when deadlines are very tight?
+      - how do you react when everything seems urgent at the same time?
+      - would you say you stay calm in moments of high pressure?
+      - can you give me an example of a time when you worked under a lot of pressure?
+      - how do you organize your priorities when the team is overloaded?
+      - what helps you keep clarity when the environment is more chaotic?
+      - how do you avoid letting pressure affect the quality of your work?
+      - what do you do to make sure pressure does not paralyze you?
+      - on very intense days, how do you stay productive without burning out?

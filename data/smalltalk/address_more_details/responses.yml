@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_address_more_details:
     - custom:
-        vr_pt: |
-          Hoje eu moro em Pelotas, no bairro Vila Francesa, número mil trezentos e sessenta, no estado do Rio Grande do Sul, no Brasil.
-        vr_en: |
-          Right now I live in Pelotas, in the Vila Francesa neighborhood, number one thousand three hundred and sixty, in the state of Rio Grande do Sul, in Brazil.
+        resp_1:
+          vr_pt: |
+            Hoje eu moro em Pelotas, no bairro Vila Francesa, número mil trezentos e sessenta, no estado do Rio Grande do Sul, no Brasil.
+          vr_en: |
+            Right now I live in Pelotas, in the Vila Francesa neighborhood, number one thousand three hundred and sixty, in the state of Rio Grande do Sul, in Brazil.

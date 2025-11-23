@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_general:
     - custom:
-        vr_pt: |
-          De nada! Que bom poder ajudar.
-        vr_en: |
-          You’re welcome! Glad I could help.
+        resp_1:
+          vr_pt: |
+            De nada! Que bom poder ajudar.
+          vr_en: |
+            You’re welcome! Glad I could help.

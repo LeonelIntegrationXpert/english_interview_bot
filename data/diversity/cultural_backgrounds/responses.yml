@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_cultural_backgrounds:
     - custom:
-        vr_pt: |
-          Eu me adapto bem a ambientes multiculturais e procuro sempre ouvir e entender o contexto das outras pessoas. Acredito que diferenças culturais são uma oportunidade de aprendizado, e que o respeito é a base para qualquer interação, independentemente de religião, origem ou costumes.
-        vr_en: |
-          I adapt well to multicultural environments and I always try to listen and understand other people’s context. I believe that cultural differences are an opportunity to learn, and that respect is the foundation for any interaction, regardless of religion, background, or customs.
+        resp_1:
+          vr_pt: |
+            Eu me adapto bem a ambientes multiculturais e procuro sempre ouvir e entender o contexto das outras pessoas. Acredito que diferenças culturais são uma oportunidade de aprendizado, e que o respeito é a base para qualquer interação, independentemente de religião, origem ou costumes.
+          vr_en: |
+            I adapt well to multicultural environments and I always try to listen and understand other people’s context. I believe that cultural differences are an opportunity to learn, and that respect is the foundation for any interaction, regardless of religion, background, or customs.

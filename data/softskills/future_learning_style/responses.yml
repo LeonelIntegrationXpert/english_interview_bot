@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_future_learning_style:
     - custom:
-        vr_pt: |
-          A minha ideia é manter uma rotina contínua de aprendizado, misturando prática em projetos reais, preparação para certificações e, no médio prazo, estudos acadêmicos mais estruturados. Eu gosto de organizar blocos de estudo focados, revisar com frequência e aplicar o que aprendo o mais rápido possível no dia a dia. Para mim, o que sustenta o longo prazo é consistência: estudar um pouco sempre, em vez de depender só de picos de motivação.
-        vr_en: |
-          My idea is to keep a continuous learning routine, mixing real project practice, certification preparation, and, in the medium term, more structured academic studies. I like to organize focused study blocks, review frequently, and apply what I learn as soon as possible in my daily work. For me, what really supports the long term is consistency: studying a little bit all the time instead of depending only on short peaks of motivation.
+        resp_1:
+          vr_pt: |
+            A minha ideia é manter uma rotina contínua de aprendizado, misturando prática em projetos reais, preparação para certificações e, no médio prazo, estudos acadêmicos mais estruturados. Eu gosto de organizar blocos de estudo focados, revisar com frequência e aplicar o que aprendo o mais rápido possível no dia a dia. Para mim, o que sustenta o longo prazo é consistência: estudar um pouco sempre, em vez de depender só de picos de motivação.
+          vr_en: |
+            My idea is to keep a continuous learning routine, mixing real project practice, certification preparation, and, in the medium term, more structured academic studies. I like to organize focused study blocks, review frequently, and apply what I learn as soon as possible in my daily work. For me, what really supports the long term is consistency: studying a little bit all the time instead of depending only on short peaks of motivation.

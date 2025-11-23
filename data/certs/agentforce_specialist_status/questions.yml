@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: agentforce_specialist_status
+    examples: |
+      - você já tem a certificação Agentforce Specialist?
+      - hoje você é certificado como Agentforce Specialist?
+      - a certificação Agentforce Specialist já faz parte do seu perfil?
+      - você já passou na prova de Agentforce Specialist?
+      - atualmente você possui a certificação Agentforce Specialist?
+      - você poderia me dizer se já concluiu a certificação de Agentforce Specialist?
+      - seu conjunto de certificações inclui a de Agentforce Specialist?
+      - você já obteve a certificação Salesforce Certified Agentforce Specialist?
+      - essa certificação de Agentforce você já conquistou?
+      - você já é oficialmente Agentforce Specialist certificado?
+      - do you already have the Agentforce Specialist certification?
+      - are you currently certified as an Agentforce Specialist?
+      - is the Agentforce Specialist certification already part of your profile?
+      - have you passed the Agentforce Specialist exam?
+      - do you currently hold the Agentforce Specialist credential?
+      - could you tell me if you have completed the Agentforce Specialist certification?
+      - does your certification set include the Agentforce Specialist credential?
+      - have you obtained the Salesforce Certified Agentforce Specialist certification?
+      - have you already earned the Agentforce Specialist certification?
+      - are you officially certified as an Agentforce Specialist?

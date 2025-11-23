@@ -2,15 +2,23 @@ version: '3.1'
 nlu:
   - intent: dealing_ambiguity
     examples: |
-      - como você lida quando recebe uma demanda pouco clara ou muito aberta?
-      - o que você faz quando não tem todas as informações para começar um trabalho?
-      - pode me contar sobre uma situação em que havia muita ambiguidade no projeto?
-      - como você age quando as expectativas não estão muito bem definidas?
-      - o que você faz para buscar clareza sem travar completamente o andamento?
-      - como você equilibra agir com as informações que tem e, ao mesmo tempo, não assumir demais?
-      - how do you deal with a task that is not very clear or is very open?
-      - what do you do when you do not have all the information to start a piece of work?
-      - can you tell me about a situation where there was a lot of ambiguity in the project?
-      - how do you act when expectations are not very well defined?
-      - what do you do to search for clarity without blocking the progress completely?
-      - how do you balance acting with the information you have and at the same time not assuming too much?
+      - como você lida com situações em que o contexto não está totalmente claro?
+      - o que você faz quando recebe uma demanda meio vaga, sem muitos detalhes?
+      - você se sente confortável trabalhando com um certo nível de ambiguidade?
+      - pode me dar um exemplo de quando você teve que avançar mesmo sem ter todas as respostas?
+      - como você busca clareza quando as informações estão incompletas?
+      - na sua visão, qual é a diferença entre ambiguidade saudável e falta de direção?
+      - como você evita ficar travado esperando tudo estar perfeito antes de começar?
+      - em um cenário ambíguo, você prefere testar rápido ou esperar mais análise?
+      - como você comunica riscos quando o contexto ainda não está totalmente definido?
+      - você consegue se adaptar bem quando o escopo muda ao longo do caminho?
+      - how do you handle situations where the context is not fully clear?
+      - what do you do when you receive a request that is vague and lacks details?
+      - do you feel comfortable working with a certain level of ambiguity?
+      - can you give me an example of when you had to move forward without having all the answers?
+      - how do you search for clarity when the information is incomplete?
+      - in your view, what is the difference between healthy ambiguity and lack of direction?
+      - how do you avoid getting stuck waiting for everything to be perfect before you start?
+      - in an ambiguous scenario, do you prefer to test quickly or wait for more analysis?
+      - how do you communicate risks when the context is not fully defined yet?
+      - are you able to adapt when the scope changes along the way?

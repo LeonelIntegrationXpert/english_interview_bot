@@ -156,13 +156,11 @@ def parse_input(file_path: str, global_max_pt: int | None, global_max_en: int | 
 
     return intents
 
-
 def clean_multiline_response(text: str) -> LiteralScalarString:
     cleaned = text.strip()
     if cleaned.startswith('|'):
         cleaned = cleaned.lstrip('|').strip()
     return LiteralScalarString(cleaned + '\n')
-
 
 def create_files(intent_path: str, pt_examples, en_examples, response_array, base_dir: str):
     name = normalize_intent_name(intent_path)
@@ -191,14 +189,22 @@ def create_files(intent_path: str, pt_examples, en_examples, response_array, bas
     if not response_array:
         response_array = [("TODO: adicionar resposta em PT", "TODO: add response in EN")]
 
+    # Monta custom com resp_1, resp_2, ..., resp_N
+    custom_payload = {}
+    for idx, (pt, en) in enumerate(response_array, start=1):
+        resp_key = f"resp_{idx}"
+        custom_payload[resp_key] = {
+            'vr_pt': clean_multiline_response(pt),
+            'vr_en': clean_multiline_response(en)
+        }
+
     responses = {
         'version': '3.1',
         'responses': {
             f'utter_{name}': [
-                {'custom': {
-                    'vr_pt': clean_multiline_response(pt),
-                    'vr_en': clean_multiline_response(en)
-                }} for pt, en in response_array
+                {
+                    'custom': custom_payload
+                }
             ]
         }
     }
@@ -207,7 +213,6 @@ def create_files(intent_path: str, pt_examples, en_examples, response_array, bas
         yaml.dump(questions, qf)
     with open(os.path.join(folder, 'responses.yml'), 'w', encoding='utf-8') as rf:
         yaml.dump(responses, rf)
-
 
 def load_yaml(path: str):
     if os.path.exists(path):

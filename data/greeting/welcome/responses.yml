@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_welcome:
     - custom:
-        vr_pt: |
-          Obrigado, é ótimo estar aqui!
-        vr_en: |
-          Thank you, it’s great to be here!
+        resp_1:
+          vr_pt: |
+            Obrigado, é ótimo estar aqui!
+          vr_en: |
+            Thank you, it’s great to be here!

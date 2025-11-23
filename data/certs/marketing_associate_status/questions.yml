@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: marketing_associate_status
+    examples: |
+      - você já tem a certificação Salesforce Marketing Associate?
+      - hoje você é certificado como Salesforce Marketing Associate?
+      - a certificação Marketing Associate já faz parte do seu perfil?
+      - você já passou na prova de Salesforce Marketing Associate?
+      - atualmente você possui a certificação Salesforce Marketing Associate?
+      - você poderia me dizer se já concluiu a certificação Marketing Associate?
+      - seu conjunto de certificações inclui a de Salesforce Marketing Associate?
+      - você já obteve a certificação Salesforce Certified Marketing Associate?
+      - essa certificação de Marketing Associate você já conquistou?
+      - você já é oficialmente Salesforce Marketing Associate certificado?
+      - do you already have the Salesforce Marketing Associate certification?
+      - are you currently certified as a Salesforce Marketing Associate?
+      - is the Marketing Associate certification already part of your profile?
+      - have you passed the Salesforce Marketing Associate exam?
+      - do you currently hold the Salesforce Marketing Associate certification?
+      - could you tell me if you have completed the Marketing Associate certification?
+      - does your certification set include the Salesforce Marketing Associate credential?
+      - have you obtained the Salesforce Certified Marketing Associate certification?
+      - have you already earned the Marketing Associate certification?
+      - are you officially a certified Salesforce Marketing Associate?

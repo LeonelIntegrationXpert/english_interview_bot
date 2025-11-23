@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_self_awareness:
     - custom:
-        vr_pt: |
-          Eu procuro me enxergar de forma equilibrada, reconhecendo tanto o que eu faço bem quanto o que ainda preciso melhorar. As pessoas costumam dizer que eu sou comprometido, colaborativo e que gosto de ajudar, mas também sei que às vezes posso ser exigente comigo mesmo e querer ajustar muitos detalhes. Por isso, costumo pedir feedback com frequência, ouvir com atenção e refletir sobre o que faz sentido incorporar. Vejo o autoconhecimento como uma base importante para tomar melhores decisões, evoluir na carreira e construir relações de trabalho mais maduras.
-        vr_en: |
-          I try to see myself in a balanced way, recognizing both what I do well and what I still need to improve. People usually say that I am committed, collaborative, and that I like to help, but I also know that sometimes I can be demanding with myself and want to adjust many details. Because of that, I often ask for feedback, listen carefully, and reflect on what makes sense to incorporate. I see self awareness as an important foundation to make better decisions, grow in my career, and build more mature working relationships.
+        resp_1:
+          vr_pt: |
+            Eu procuro me enxergar de forma equilibrada, reconhecendo tanto o que eu faço bem quanto o que ainda preciso melhorar. As pessoas costumam dizer que eu sou comprometido, colaborativo e que gosto de ajudar, mas também sei que às vezes posso ser exigente comigo mesmo e querer ajustar muitos detalhes. Por isso, costumo pedir feedback com frequência, ouvir com atenção e refletir sobre o que faz sentido incorporar. Vejo o autoconhecimento como uma base importante para tomar melhores decisões, evoluir na carreira e construir relações de trabalho mais maduras.
+          vr_en: |
+            I try to see myself in a balanced way, recognizing both what I do well and what I still need to improve. People usually say that I am committed, collaborative, and that I like to help, but I also know that sometimes I can be demanding with myself and want to adjust many details. Because of that, I often ask for feedback, listen carefully, and reflect on what makes sense to incorporate. I see self awareness as an important foundation to make better decisions, grow in my career, and build more mature working relationships.

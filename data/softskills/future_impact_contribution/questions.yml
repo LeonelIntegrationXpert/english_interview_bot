@@ -2,23 +2,23 @@ version: '3.1'
 nlu:
   - intent: future_impact_contribution
     examples: |
-      - quando você pensa no futuro, que tipo de impacto você gostaria de causar nos times em que trabalha?
-      - em dez anos, como você gostaria que as pessoas descrevessem a sua contribuição nos projetos?
-      - que tipo de marca você quer deixar nos times e nas empresas por onde passar?
-      - qual é o impacto que você gostaria de ter na vida profissional das pessoas com quem trabalha?
-      - como você imagina a sua influência em times e projetos daqui a alguns anos?
-      - em uma visão de longo prazo, como você quer ser lembrado pelos colegas de time?
-      - que tipo de contribuição você gostaria de fazer para a comunidade técnica ao longo dos anos?
-      - como você enxerga o seu papel em formar ou mentorar outras pessoas no futuro?
-      - qual é o efeito que você espera ter na cultura dos times onde você atuar?
-      - o que seria, para você, um impacto positivo de longo prazo na sua carreira?
-      - when you think about the future, what kind of impact would you like to have on the teams you work with?
-      - ten years from now, how would you like people to describe your contribution to projects?
-      - what kind of mark do you want to leave on the teams and companies you work for?
-      - what impact would you like to have on the professional lives of the people you work with?
-      - how do you imagine your influence on teams and projects a few years from now?
-      - in a long term view, how would you like to be remembered by your teammates?
-      - what kind of contribution would you like to make to the technical community over the years?
-      - how do you see your role in training or mentoring other people in the future?
-      - what effect do you expect to have on the culture of the teams you join?
-      - what would a positive long term impact in your career look like for you?
+      - além de cargo e títulos, que tipo de impacto você gostaria de ter na sua carreira no longo prazo?
+      - quando você pensa em legado profissional, o que você gostaria de deixar?
+      - que tipo de contribuição você quer ter para os times e empresas com quem trabalha?
+      - no longo prazo, como você gostaria de estar ajudando outras pessoas na área de tecnologia?
+      - você se imagina ensinando, mentorando ou produzindo conteúdo no futuro?
+      - como você gostaria que o seu trabalho impactasse outras pessoas daqui a alguns anos?
+      - você tem vontade de atuar mais forte em comunidade técnica ou educação?
+      - que tipo de marca pessoal você quer construir na área em que atua?
+      - qual seria um resultado de longo prazo que faria você olhar para trás e pensar “valeu a pena”?
+      - em termos de impacto, onde você quer chegar profissionalmente?
+      - beyond role and titles, what kind of impact would you like to have in your long term career?
+      - when you think about professional legacy, what would you like to leave?
+      - what kind of contribution do you want to make to the teams and companies you work with?
+      - in the long term, how would you like to be helping other people in the tech area?
+      - do you see yourself teaching, mentoring, or creating content in the future?
+      - how would you like your work to impact other people a few years from now?
+      - do you feel like contributing more to tech communities or education?
+      - what kind of personal brand do you want to build in your field?
+      - what long term result would make you look back and say “it was worth it”?
+      - in terms of impact, where do you want to get professionally?

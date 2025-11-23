@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_music_preferences:
     - custom:
-        vr_pt: |
-          Eu uso música de forma bem estratégica: em alguns momentos, principalmente em tarefas mais mecânicas, coloco algo mais leve de fundo. Em outros, prefiro silêncio total para conseguir focar. No geral, alterno entre playlists calmas e conteúdos em inglês para manter o ouvido treinando.
-        vr_en: |
-          I use music in a pretty strategic way: for some tasks, especially more mechanical ones, I put something light in the background. For others, I prefer complete silence to stay fully focused. In general, I alternate between calmer playlists and English content to keep training my listening.
+        resp_1:
+          vr_pt: |
+            Eu uso música de forma bem estratégica: em alguns momentos, principalmente em tarefas mais mecânicas, coloco algo mais leve de fundo. Em outros, prefiro silêncio total para conseguir focar. No geral, alterno entre playlists calmas e conteúdos em inglês para manter o ouvido treinando.
+          vr_en: |
+            I use music in a pretty strategic way: for some tasks, especially more mechanical ones, I put something light in the background. For others, I prefer complete silence to stay fully focused. In general, I alternate between calmer playlists and English content to keep training my listening.

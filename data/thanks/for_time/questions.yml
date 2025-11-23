@@ -2,22 +2,23 @@ version: '3.1'
 nlu:
   - intent: for_time
     examples: |
-      - obrigado por separar um tempo para falar com a gente
-      - obrigado por participar dessa entrevista
-      - obrigado por participar dessa conversa
-      - obrigado por estar disponível para esse bate-papo
-      - agradeço por ter encaixado essa entrevista na sua agenda
-      - obrigado por dedicar esse tempo ao nosso processo
-      - obrigado por gastar esse tempo contando da sua experiência
-      - obrigado por reservar esse horário para falar conosco
-      - obrigado por participar dessa etapa do processo seletivo
-      - thank you for your time today
-      - thanks for taking the time to speak with us
-      - thank you for participating in this interview
-      - thank you for joining this conversation
-      - thank you for making the time to be here
-      - I appreciate you fitting this interview into your schedule
-      - thank you for dedicating this time to our process
-      - thanks for spending this time telling us about your experience
-      - thank you for setting aside this time to talk with us
-      - thank you for taking part in this stage of the hiring process
+      - obrigado por disponibilizar esse tempo para conversar com a gente hoje
+      - agradeço muito por você ter reservado esse horário na sua agenda
+      - muito obrigado por encaixar essa entrevista no meio da sua rotina
+      - obrigado por separar um tempo pra mim
+      - obrigado por tirar um tempo pra conversar
+      - obrigado por participar da reunião
+      - obrigado por ouvir com tanta atenção
+      - obrigado por considerar minha aplicação
+      - obrigado por analisar meu perfil com calma
+      - obrigado por essa oportunidade de conversa
+      - thank you for setting aside this time to speak with us today
+      - I really appreciate you making room in your schedule for this interview
+      - thanks for taking the time to speak with me
+      - thank you for making time for this conversation
+      - thank you for joining this interview
+      - thank you for being available for this meeting
+      - thanks for listening so carefully
+      - thank you for considering my application
+      - thank you for reviewing my profile
+      - thanks for giving me this opportunity to talk

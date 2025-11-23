@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: customer_centricity
+    examples: |
+      - Como você garante que decisões técnicas gerem valor real para o cliente?
+      - Conte um exemplo de quando feedback do cliente mudou sua priorização.
+      - O que você faz quando há conflito entre conveniência técnica e experiência do usuário?
+      - Como você mede satisfação do cliente nas suas entregas?
+      - Como você traz a “voz do cliente” para o time técnico?
+      - Descreva um momento em que você simplificou algo para reduzir atrito do usuário.
+      - Como você equilibra requisitos internos com necessidades do cliente final?
+      - O que você faz para prevenir regressões que afetem o cliente?
+      - Como você coleta sinais de dor do cliente no dia a dia?
+      - Que prática sua aumentou NPS ou retenção?
+      - How do you ensure technical decisions create real value for the customer?
+      - Tell me about a time customer feedback changed your prioritization.
+      - What do you do when technical convenience conflicts with user experience?
+      - How do you measure customer satisfaction in your deliveries?
+      - How do you bring the “voice of the customer” to the tech team?
+      - Describe a moment when you simplified something to reduce user friction.
+      - How do you balance internal requirements with end-customer needs?
+      - What do you do to prevent regressions that impact customers?
+      - How do you collect customer pain signals day-to-day?
+      - Which practice of yours improved NPS or retention?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mcd1_status
+    examples: |
+      - você já tem a certificação MuleSoft Certified Developer Level 1?
+      - você é certificado como MuleSoft Certified Developer Level 1?
+      - você já concluiu a certificação de MuleSoft Developer Level 1 (Mule 4)?
+      - hoje você possui a certificação MuleSoft Developer Level 1?
+      - você poderia me dizer se tem a certificação MuleSoft Certified Developer Level 1?
+      - essa certificação de MuleSoft Certified Developer Level 1 já está no seu currículo?
+      - você já passou na prova de MuleSoft Certified Developer Level 1?
+      - atualmente você é oficialmente MuleSoft Certified Developer Level 1?
+      - você já obteve a certificação de desenvolvedor MuleSoft nível 1?
+      - seu nível hoje inclui a certificação MuleSoft Certified Developer Level 1?
+      - do you already have the MuleSoft Certified Developer Level 1 certification?
+      - are you certified as a MuleSoft Certified Developer Level 1?
+      - have you completed the MuleSoft Developer Level 1 (Mule 4) certification?
+      - do you currently hold the MuleSoft Developer Level 1 certification?
+      - could you tell me if you have the MuleSoft Certified Developer Level 1 credential?
+      - is the MuleSoft Certified Developer Level 1 certification already on your résumé?
+      - have you passed the MuleSoft Certified Developer Level 1 exam?
+      - are you officially a MuleSoft Certified Developer Level 1 at the moment?
+      - have you obtained the MuleSoft Developer Level 1 certification?
+      - does your current skill set include the MuleSoft Certified Developer Level 1 certification?

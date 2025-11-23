@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_conflict_prevention:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu proponho acordos de trabalho claros, rituais de feedback curto e canais abertos para levantar preocupações cedo. Monitoro sinais de atrito e atuo facilitando conversas difíceis com foco no problema, não na pessoa. Em times globais, alinho horários, idioma e expectativas culturais. Reforço segurança psicológica e celebro colaboração para incentivar comportamento cooperativo e prevenir escaladas.
+          vr_en: |
+            I establish clear working agreements, short feedback loops, and open channels to raise concerns early. I monitor friction signals and facilitate tough conversations focused on problems, not people. In global teams, I align schedules, language, and cultural expectations. I reinforce psychological safety and celebrate collaboration to encourage cooperative behavior and prevent escalation.

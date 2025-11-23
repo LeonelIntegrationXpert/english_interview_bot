@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_ownership_accountability:
     - custom:
-        vr_pt: |
-          Para mim, ownership é ir além de simplesmente cumprir uma tarefa. É se importar com o resultado final, com o impacto no cliente e com a forma como o time chega lá. Quando algo está sob minha responsabilidade, eu acompanho de ponta a ponta, antecipo riscos, peço ajuda quando necessário e comunico de forma transparente o andamento. Se algo dá errado, eu assumo a parte que me cabe, ajudo a corrigir o problema e busco ajustar o processo para que não se repita.
-        vr_en: |
-          For me ownership means going beyond just completing a task. It is caring about the final result, the impact on the client, and the way the team gets there. When something is under my responsibility I follow it end to end, I anticipate risks, I ask for help when needed, and I communicate the progress in a transparent way. If something goes wrong I take responsibility for my part, I help fix the problem, and I work on adjusting the process so that it does not happen again.
+        resp_1:
+          vr_pt: |
+            Para mim, ownership é olhar para além da tarefa em si e se preocupar com o resultado final. Quando eu assumo algo, eu gosto de acompanhar desde o entendimento do problema até o efeito em produção, ajustando o que for necessário no caminho. Se algo dá errado, eu não tento justificar demais, eu assumo, entendo o que aconteceu e proponho como corrigir e evitar que se repita. Ao mesmo tempo, eu sei que resultado é sempre trabalho de time, então eu busco dividir contexto, delegar quando preciso e criar um ambiente em que todo mundo se sinta responsável, não só uma pessoa.
+          vr_en: |
+            To me, ownership means looking beyond the task itself and caring about the final result. When I take something on, I like to follow it from understanding the problem all the way to the impact in production, adjusting what is needed along the way. If something goes wrong, I do not try to justify too much; I own it, understand what happened, and propose how to fix it and prevent it from happening again. At the same time, I know that results are always a team effort, so I share context, delegate when needed, and try to create an environment where everyone feels responsible, not just one person.

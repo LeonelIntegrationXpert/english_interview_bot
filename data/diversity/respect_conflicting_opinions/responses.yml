@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_respect_conflicting_opinions:
     - custom:
-        vr_pt: |
-          Quando alguém tem uma opinião diferente da minha em temas sensíveis, eu procuro ouvir com calma, entender o contexto e manter o foco no respeito. Eu posso discordar, mas sempre tentando separar a ideia da pessoa, sem atacar ninguém, e mantendo o ambiente profissional e saudável.
-        vr_en: |
-          When someone has a different opinion from mine on sensitive topics, I try to listen carefully, understand the context, and keep the focus on respect. I can disagree, but I always try to separate the idea from the person, without attacking anyone, and I work to keep the environment professional and healthy.
+        resp_1:
+          vr_pt: |
+            Quando alguém tem uma opinião diferente da minha em temas sensíveis, eu procuro ouvir com calma, entender o contexto e manter o foco no respeito. Eu posso discordar, mas sempre tentando separar a ideia da pessoa, sem atacar ninguém, e mantendo o ambiente profissional e saudável.
+          vr_en: |
+            When someone has a different opinion from mine on sensitive topics, I try to listen carefully, understand the context, and keep the focus on respect. I can disagree, but I always try to separate the idea from the person, without attacking anyone, and I work to keep the environment professional and healthy.

@@ -1,0 +1,11 @@
+version: '3.1'
+responses:
+  utter_overall_certifications:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Hoje eu tenho algumas certificações voltadas para o ecossistema Salesforce e MuleSoft, com foco em desenvolvimento de plataforma e boas práticas na nuvem. Em vez de olhar só para o número, eu gosto de destacar que elas cobrem desde a base da plataforma até temas mais avançados de desenvolvimento.
+            Na prática, essas certificações reforçam que eu consigo estudar de forma estruturada, acompanhar as mudanças de release e aplicar esse conhecimento em projetos reais, entregando soluções mais consistentes e alinhadas com o que a própria Salesforce recomenda.
+          vr_en: |
+            At the moment I hold a set of certifications focused on the Salesforce and MuleSoft ecosystem, mainly around platform development and cloud best practices. Rather than stressing only the number, I usually highlight that they cover both the fundamentals and more advanced development topics.
+            In practice, these certifications show that I can study in a structured way, keep up with new releases, and apply that knowledge in real projects, delivering more consistent solutions aligned with Salesforce’s recommended practices.

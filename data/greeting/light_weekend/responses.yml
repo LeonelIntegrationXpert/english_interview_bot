@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_light_weekend:
     - custom:
-        vr_pt: |
-          Foi um final de semana tranquilo, consegui descansar e organizar algumas coisas pessoais, então chego bem disposto para a semana.
-        vr_en: |
-          It was a pretty relaxed weekend, I managed to rest and take care of a few personal things, so I’m starting the week in a good mood.
+        resp_1:
+          vr_pt: |
+            Foi um final de semana tranquilo, consegui descansar e organizar algumas coisas pessoais, então chego bem disposto para a semana.
+          vr_en: |
+            It was a pretty relaxed weekend, I managed to rest and take care of a few personal things, so I’m starting the week in a good mood.

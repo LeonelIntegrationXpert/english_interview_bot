@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_remote_async_collaboration:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu padronizo canais e SLAs de resposta, uso quadros visuais e resumos assíncronos, e reservo reuniões só para decisões ou temas complexos. Centralizo contexto em docs vivos e defino janelas de sobreposição quando possível. Para travas, proponho prazos claros e decisão reversível por quem está disponível. Meço eficiência por lead time, previsibilidade e satisfação do time.
+          vr_en: |
+            I standardize channels and response SLAs, use visual boards and async summaries, and reserve meetings for decisions or complex topics. I centralize context in living docs and define overlap windows when possible. For stalled decisions, I set clear deadlines and reversible decisions by available owners. I measure efficiency via lead time, predictability, and team satisfaction.

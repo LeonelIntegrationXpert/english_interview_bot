@@ -179,6 +179,38 @@ intents:
   - salary_expectation
   - travel_availability
   - visa_status
+  - change_enablement_adoption
+  - conflict_prevention
+  - customer_centricity
+  - data_informed_decision_making
+  - documentation_practices_effective
+  - escalation_and_boundary_setting
+  - executive_communication_updates
+  - expectation_setting_alignment
+  - influencing_without_authority
+  - managing_up_feedback
+  - meeting_facilitation_effective
+  - mentoring_and_coaching
+  - navigating_ambiguity_with_experiments
+  - prioritization_with_constraints
+  - quality_engineering_mindset
+  - rapid_skill_acquisition
+  - remote_async_collaboration
+  - requirement_clarification_discovery
+  - risk_management_proactive
+  - root_cause_analysis
+  - stakeholder_management
+  - admin_status
+  - agentforce_specialist_status
+  - app_builder_status
+  - javascript_dev1_status
+  - marketing_associate_status
+  - mcd1_status
+  - mcia_status
+  - mpca_status
+  - overall_certifications
+  - platform_developer_skills
+  - platform_developer_status
 actions:
   - action_fallback
 session_config:

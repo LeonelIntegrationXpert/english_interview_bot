@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_proactivity:
     - custom:
-        vr_pt: |
-          Eu me considero uma pessoa proativa, principalmente na identificação de problemas e melhorias. Quando vejo algo que pode ser ajustado, eu costumo analisar o impacto, pensar em uma proposta simples e levar para o time ou para o gestor já com algumas alternativas. Também me ofereço para ajudar em pontos críticos, mesmo que não estejam diretamente na minha responsabilidade. Ao mesmo tempo, sempre respeito o contexto do time e procuro alinhar antes de sair mudando qualquer coisa.
-        vr_en: |
-          I consider myself a proactive person, especially in identifying problems and improvements. When I see something that can be adjusted I usually analyze the impact, think about a simple proposal, and bring it to the team or to the manager already with some options. I also offer help in critical points, even when they are not directly in my scope. At the same time I always respect the team context and I try to align before changing anything.
+        resp_1:
+          vr_pt: |
+            Eu me considero uma pessoa bem proativa. Quando vejo um problema recorrente ou uma oportunidade de melhoria, eu costumo levantar o ponto, sugerir alternativas e, se fizer sentido, já me oferecer para testar uma solução em pequeno escala. Procuro sempre alinhar com o gestor e com o time para não atropelar prioridades, mas não espero tudo vir pronto de cima. Para mim, proatividade é justamente essa combinação de perceber o que precisa ser feito, tomar iniciativa com responsabilidade e manter o alinhamento com o restante do time.
+          vr_en: |
+            I consider myself quite proactive. When I see a recurring problem or an opportunity for improvement, I usually bring it up, suggest alternatives, and, if it makes sense, volunteer to test a solution on a small scale. I always try to align with my manager and the team so that I do not override priorities, but I do not wait for everything to come ready from above. For me, proactivity is the combination of seeing what needs to be done, taking initiative with responsibility, and keeping alignment with the rest of the team.

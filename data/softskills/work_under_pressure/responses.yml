@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_work_under_pressure:
     - custom:
-        vr_pt: |
-          Em situações de pressão, eu procuro primeiro trazer clareza: o que é realmente prioritário, o que pode ser adiado e quais são os riscos reais. Depois disso, eu quebro o trabalho em etapas menores, com entregas parciais, para ir gerando progresso visível. Tento manter a comunicação transparente, atualizando status com frequência e alinhando expectativas. Pessoalmente, eu cuido para manter uma rotina mínima de descanso e alimentação, porque isso impacta diretamente na qualidade das decisões. Eu vejo a pressão como algo que pode ser canalizado para foco, desde que exista organização.
-        vr_en: |
-          In pressure situations I first try to bring clarity about what is truly a priority, what can be postponed, and what the real risks are. After that I break the work into smaller steps with partial deliveries so that I can show visible progress. I try to keep communication transparent, updating the status frequently and aligning expectations. Personally I take care to keep at least a basic routine of rest and food, because that directly impacts the quality of my decisions. I see pressure as something that can be turned into focus as long as there is good organization.
+        resp_1:
+          vr_pt: |
+            Em situações de pressão, eu procuro primeiro trazer clareza: o que é realmente prioritário, o que pode ser adiado e quais são os riscos reais. Depois disso, eu quebro o trabalho em etapas menores, com entregas parciais, para ir gerando progresso visível. Tento manter a comunicação transparente, atualizando status com frequência e alinhando expectativas. Pessoalmente, eu cuido para manter uma rotina mínima de descanso e alimentação, porque isso impacta diretamente na qualidade das decisões. Eu vejo a pressão como algo que pode ser canalizado para foco, desde que exista organização.
+          vr_en: |
+            In pressure situations I first try to bring clarity about what is truly a priority, what can be postponed, and what the real risks are. After that I break the work into smaller steps with partial deliveries so that I can show visible progress. I try to keep communication transparent, updating the status frequently and aligning expectations. Personally I take care to keep at least a basic routine of rest and food, because that directly impacts the quality of my decisions. I see pressure as something that can be turned into focus as long as there is good organization.

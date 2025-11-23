@@ -2,9 +2,10 @@ version: '3.1'
 responses:
   utter_other_processes_and_offers:
     - custom:
-        vr_pt: |
-          Sim, eu estou em contato com outras oportunidades, mas todas ainda em estágio de conversa, sem nenhuma oferta formal em mãos neste momento. De forma geral, eu tenho focado em vagas na faixa de 3k a 5k, onde eu consiga atuar de forma sênior e realmente agregar em projetos mais complexos.
+        resp_1:
+          vr_pt: |
+            Sim, eu estou em contato com outras oportunidades, mas todas ainda em estágio de conversa, sem nenhuma oferta formal em mãos neste momento. De forma geral, eu tenho focado em vagas na faixa de 3k a 5k, onde eu consiga atuar de forma sênior e realmente agregar em projetos mais complexos.
             Eu gosto de ser transparente com as empresas sobre isso porque ajuda todo mundo a ajustar expectativa de prazo e prioridade. No fim das contas, o que pesa mais para mim não é só o valor, mas o conjunto: nível de desafio, cultura, possibilidade de evolução e o quanto a vaga conversa com o que eu quero construir para os próximos anos.
-        vr_en: |
-          Yes, I am in contact with other opportunities, but they are all still in the conversation stage, and I do not have any formal offer in hand at this moment. In general, I have been focusing on roles in the three to five thousand range, where I can really act at a senior level and add value in more complex projects.
+          vr_en: |
+            Yes, I am in contact with other opportunities, but they are all still in the conversation stage, and I do not have any formal offer in hand at this moment. In general, I have been focusing on roles in the three to five thousand range, where I can really act at a senior level and add value in more complex projects.
             I prefer to be transparent with companies about this because it helps everyone align expectations in terms of timing and priority. In the end, what matters most to me is not only the number, but the full package: the level of challenge, the culture, the growth potential, and how much the role fits with what I want to build over the next few years.

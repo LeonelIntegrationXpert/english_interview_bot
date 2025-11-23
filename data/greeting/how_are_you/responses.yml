@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_how_are_you:
     - custom:
-        vr_pt: |
-          Tô bem, e você?
-        vr_en: |
-          I’m doing well, how about you?
+        resp_1:
+          vr_pt: |
+            Tô bem, sim, e você?
+          vr_en: |
+            I’m doing good, how about you?

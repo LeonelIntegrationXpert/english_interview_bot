@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_leadership_style:
     - custom:
-        vr_pt: |
-          Quando eu preciso liderar, eu procuro criar um ambiente claro e seguro para o time. Eu gosto de alinhar objetivo, contexto e prioridade, e depois dar espaço para as pessoas contribuírem com as próprias ideias. Tento ouvir bastante, remover obstáculos e apoiar quem está com mais dificuldade. Quando preciso corrigir algo, faço isso com foco no resultado e no aprendizado, nunca na pessoa. Para mim, liderança é muito mais servir o time e organizar o caminho do que mandar nas pessoas.
-        vr_en: |
-          When I need to lead I try to create a clear and safe environment for the team. I like to align the goal, the context, and the priorities, and then give space for people to contribute with their own ideas. I try to listen carefully, remove obstacles, and support anyone who is struggling. When I need to correct something I focus on the result and on the learning, not on the person. For me leadership is much more about serving the team and organizing the path than about giving orders.
+        resp_1:
+          vr_pt: |
+            Quando eu preciso liderar, eu procuro criar um ambiente claro e seguro para o time. Eu gosto de alinhar objetivo, contexto e prioridade, e depois dar espaço para as pessoas contribuírem com as próprias ideias. Tento ouvir bastante, remover obstáculos e apoiar quem está com mais dificuldade. Quando preciso corrigir algo, faço isso com foco no resultado e no aprendizado, nunca na pessoa. Para mim, liderança é muito mais servir o time e organizar o caminho do que mandar nas pessoas.
+          vr_en: |
+            When I need to lead I try to create a clear and safe environment for the team. I like to align the goal, the context, and the priorities, and then give space for people to contribute with their own ideas. I try to listen carefully, remove obstacles, and support anyone who is struggling. When I need to correct something I focus on the result and on the learning, not on the person. For me leadership is much more about serving the team and organizing the path than about giving orders.

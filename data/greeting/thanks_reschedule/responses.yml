@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_thanks_reschedule:
     - custom:
-        vr_pt: |
-          Imagina, sem problema. Eu entendo que imprevistos acontecem e fico feliz que conseguimos manter a conversa.
-        vr_en: |
-          No worries at all. I understand that unexpected things happen, and I’m glad we were still able to have this conversation.
+        resp_1:
+          vr_pt: |
+            Imagina, sem problema. Eu entendo que imprevistos acontecem e fico feliz que conseguimos manter a conversa.
+          vr_en: |
+            No worries at all. I understand that unexpected things happen, and I’m glad we were still able to have this conversation.

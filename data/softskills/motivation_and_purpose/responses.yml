@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_motivation_and_purpose:
     - custom:
-        vr_pt: |
-          O que mais me motiva é perceber que o meu trabalho gera impacto real, seja ajudando o time, melhorando processos ou entregando algo que facilita a vida das pessoas. Eu gosto de aprender coisas novas, ver evolução ao longo do tempo e sentir que estou construindo uma base sólida para os próximos passos da carreira. Mesmo quando as coisas ficam mais difíceis, eu procuro lembrar do meu objetivo de longo prazo e do quanto cada experiência contribui para o meu crescimento profissional e pessoal.
-        vr_en: |
-          What motivates me the most is knowing that my work creates real impact, whether by helping the team, improving processes, or delivering something that makes people’s lives easier. I like to learn new things, see progress over time, and feel that I am building a solid foundation for the next steps in my career. Even when things get harder, I try to remember my long term goals and how each experience contributes to my professional and personal growth.
+        resp_1:
+          vr_pt: |
+            O que mais me motiva é perceber que o meu trabalho gera impacto real, seja ajudando o time, melhorando processos ou entregando algo que facilita a vida das pessoas. Eu gosto de aprender coisas novas, ver evolução ao longo do tempo e sentir que estou construindo uma base sólida para os próximos passos da carreira. Mesmo quando as coisas ficam mais difíceis, eu procuro lembrar do meu objetivo de longo prazo e do quanto cada experiência contribui para o meu crescimento profissional e pessoal.
+          vr_en: |
+            What motivates me the most is knowing that my work creates real impact, whether by helping the team, improving processes, or delivering something that makes people’s lives easier. I like to learn new things, see progress over time, and feel that I am building a solid foundation for the next steps in my career. Even when things get harder, I try to remember my long term goals and how each experience contributes to my professional and personal growth.

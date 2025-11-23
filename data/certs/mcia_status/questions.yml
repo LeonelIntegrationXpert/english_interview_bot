@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mcia_status
+    examples: |
+      - você já tem a certificação MuleSoft Certified Integration Architect?
+      - hoje você é certificado como MuleSoft Certified Integration Architect?
+      - você já passou na prova de MuleSoft Integration Architect?
+      - essa certificação MuleSoft Certified Integration Architect já faz parte do seu perfil?
+      - você poderia me dizer se possui a certificação MuleSoft Certified Integration Architect?
+      - atualmente você tem a credencial de MuleSoft Integration Architect?
+      - você já chegou no nível de MuleSoft Certified Integration Architect?
+      - essa certificação de arquiteto de integração da MuleSoft você já concluiu?
+      - você já obteve a certificação MuleSoft Certified Integration Architect – Level 1?
+      - seu conjunto de certificações inclui a de MuleSoft Integration Architect?
+      - do you already have the MuleSoft Certified Integration Architect certification?
+      - are you currently certified as a MuleSoft Certified Integration Architect?
+      - have you passed the MuleSoft Integration Architect exam?
+      - does your profile already include the MuleSoft Certified Integration Architect credential?
+      - could you tell me if you hold the MuleSoft Certified Integration Architect certification?
+      - do you currently have the MuleSoft Integration Architect certification?
+      - have you already reached the MuleSoft Certified Integration Architect level?
+      - have you completed the MuleSoft Integration Architect certification?
+      - have you obtained the MuleSoft Certified Integration Architect – Level 1 certification?
+      - does your certification set include the MuleSoft Integration Architect credential?

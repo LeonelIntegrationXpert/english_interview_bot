@@ -2,7 +2,8 @@ version: '3.1'
 responses:
   utter_marriage_how_long:
     - custom:
-        vr_pt: |
-          Hoje eu tenho cerca de dez anos de casamento. Ao longo desse tempo, a relação foi amadurecendo bastante, tanto na vida pessoal quanto na forma como eu organizo minhas prioridades.
-        vr_en: |
-          Right now I have been married for about ten years. Over this time, our relationship has matured a lot, both in my personal life and in the way I organize my priorities.
+        resp_1:
+          vr_pt: |
+            Hoje eu tenho cerca de dez anos de casamento. Ao longo desse tempo, a relação foi amadurecendo bastante, tanto na vida pessoal quanto na forma como eu organizo minhas prioridades.
+          vr_en: |
+            Right now I have been married for about ten years. Over this time, our relationship has matured a lot, both in my personal life and in the way I organize my priorities.

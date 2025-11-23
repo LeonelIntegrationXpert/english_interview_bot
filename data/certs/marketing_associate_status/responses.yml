@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_marketing_associate_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce Marketing Associate. Ela mostra que eu entendo os conceitos fundamentais de marketing digital dentro do ecossistema Salesforce.
+          vr_en: |
+            Yes, I hold the Salesforce Marketing Associate certification. It shows that I understand the core digital marketing concepts within the Salesforce ecosystem.
+        resp_2:
+          vr_pt: |
+            Ainda não concluí a certificação Marketing Associate, mas já venho estudando a parte de marketing no ecossistema Salesforce e pretendo validar isso em breve na prova.
+          vr_en: |
+            I haven’t completed the Marketing Associate certification yet, but I’ve been studying the marketing side of the Salesforce ecosystem and I plan to validate that soon in the exam.

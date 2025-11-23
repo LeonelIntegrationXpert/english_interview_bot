@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: documentation_practices_effective
+    examples: |
+      - Como você documenta sem criar burocracia?
+      - Que artefatos considera essenciais para um time técnico?
+      - Como garante que a documentação fica atualizada?
+      - Como você escreve para ser encontrada e reutilizada?
+      - O que entra em um README realmente útil?
+      - Como documenta decisões arquiteturais?
+      - Como evita que a doc vire “copia e cola” sem valor?
+      - Que formatos você usa para guias rápidos?
+      - Como mede se a documentação está ajudando o time?
+      - Quando você prefere vídeo/diagrama em vez de texto?
+      - How do you document without adding bureaucracy?
+      - Which artifacts are essential for a technical team?
+      - How do you keep documentation up to date?
+      - How do you write so content is discoverable and reusable?
+      - What belongs in a truly useful README?
+      - How do you document architectural decisions?
+      - How do you avoid “copy-paste” documentation with no value?
+      - Which formats do you use for quick guides?
+      - How do you measure whether docs help the team?
+      - When do you prefer video/diagram over text?
