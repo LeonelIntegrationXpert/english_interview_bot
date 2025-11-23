@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_usage_reports_permissions_access:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Quando o assunto é acesso, eu sempre começo checando se a pessoa está na root organization e se tem a permissão Usage Viewer aplicada nesse nível. Em seguida, oriento o caminho pelo próprio Anypoint Platform, via ícone de usuário, até a área de Usage Reports. Costumo tratar isso junto com o administrador da org, para garantir que só quem realmente precisa tenha esse tipo de visibilidade.
+          vr_en: |
+            When it comes to access, I always start by checking whether the person is on the root organization and has the Usage Viewer permission applied at that level. Then I guide them through the Anypoint Platform navigation, via the user icon, to the Usage Reports area. I usually handle this together with the org admin to make sure that only people who really need this kind of visibility get access.
+        resp_2:
+          vr_pt: |
+            Eu ainda não gerencio diretamente permissões de Usage Viewer, então quando alguém não enxerga os usage reports eu costumo validar rapidamente se está na root organization e depois direcionar para o administrador da org, explicando que a permissão precisa ser aplicada nesse nível e não apenas no business group.
+          vr_en: |
+            I do not directly manage Usage Viewer permissions yet, so when someone cannot see usage reports I usually check quickly whether they are on the root organization and then escalate to the org admin, explaining that the permission must be applied at that level and not only at the business group level.

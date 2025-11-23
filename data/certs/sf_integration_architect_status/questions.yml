@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: sf_integration_architect_status
+    examples: |
+      - você já tem a certificação Salesforce Integration Architect?
+      - hoje você é certificado como Salesforce Integration Architect?
+      - a certificação Salesforce Integration Architect já faz parte do seu perfil?
+      - você já passou na prova de Salesforce Certified Integration Architect?
+      - atualmente você possui a certificação Salesforce Integration Architect?
+      - você poderia me dizer se já concluiu a certificação Integration Architect?
+      - seu conjunto de certificações inclui a de Salesforce Integration Architect?
+      - você já obteve a certificação Salesforce Certified Integration Architect?
+      - essa certificação de Integration Architect você já conquistou?
+      - você já é oficialmente Salesforce Integration Architect certificado?
+      - do you already have the Salesforce Integration Architect certification?
+      - are you currently certified as a Salesforce Integration Architect?
+      - is the Salesforce Integration Architect certification already part of your profile?
+      - have you passed the Salesforce Certified Integration Architect exam?
+      - do you currently hold the Salesforce Integration Architect certification?
+      - could you tell me if you have completed the Integration Architect certification?
+      - does your certification set include the Salesforce Integration Architect credential?
+      - have you obtained the Salesforce Certified Integration Architect certification?
+      - have you already earned the Integration Architect certification?
+      - are you officially a certified Salesforce Integration Architect?

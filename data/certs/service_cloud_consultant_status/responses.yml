@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_service_cloud_consultant_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce Service Cloud Consultant, que reforça minha experiência em estruturar operações de atendimento, casos, SLAs e canais de suporte.
+          vr_en: |
+            Yes, I have the Salesforce Service Cloud Consultant certification, which reinforces my experience structuring support operations, cases, SLAs and service channels.
+        resp_2:
+          vr_pt: |
+            Ainda não tirei a certificação Salesforce Service Cloud Consultant, mas já trabalho com cenários de atendimento e pretendo formalizar esse conhecimento em prova.
+          vr_en: |
+            I haven’t taken the Salesforce Service Cloud Consultant certification yet, but I already work with service scenarios and I plan to formalize that knowledge in the exam.

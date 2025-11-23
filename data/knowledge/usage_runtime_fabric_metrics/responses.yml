@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_usage_runtime_fabric_metrics:
+    - custom:
+        resp_1:
+          vr_pt: |
+            No contexto de Runtime Fabric eu uso o dashboard de usage para cruzar cluster capacity, CPU limit, flows e mensagens por aplicação, sempre refinando por business group e ambiente. Quando preciso de mais detalhe, exporto o CSV e analiso por aplicação e ambiente para ver quem mais consome core. Também fico atento a versões de runtime e do agent, além de configurações de cluster, para garantir que o que aparece no usage report realmente reflete a realidade e possa ser usado numa discussão séria de pricing e compliance com o cliente.
+          vr_en: |
+            In the Runtime Fabric context I use the usage dashboard to cross-check cluster capacity, CPU limit, flows and messages per application, always refined by business group and environment. When I need more detail, I export the CSV and analyze it per application and environment to see which ones consume the most cores. I also pay attention to runtime and agent versions, as well as cluster configurations, to make sure what appears in the usage report truly reflects reality and can support a serious discussion about pricing and compliance with the customer.
+        resp_2:
+          vr_pt: |
+            Eu ainda estou amadurecendo o uso das métricas de Runtime Fabric. Eu sei que dá para acompanhar cluster capacity, CPU limit e flows, e que existe a possibilidade de exportar para CSV e cruzar isso por business group, mas hoje eu uso mais a visão padrão do dashboard e ainda dependo bastante das recomendações oficiais e do time de operações para decisões de capacidade e licenciamento.
+          vr_en: |
+            I am still maturing how I use Runtime Fabric metrics. I know that I can track cluster capacity, CPU limit and flows, and that it is possible to export to CSV and cross this data by business group, but today I mostly rely on the default dashboard view and still depend heavily on official recommendations and the operations team for capacity and licensing decisions.

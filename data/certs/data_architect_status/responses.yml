@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_data_architect_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce Data Architect, que comprova meu domínio em modelagem de dados, integrações, governança e desempenho em escala dentro da plataforma.
+          vr_en: |
+            Yes, I have the Salesforce Data Architect certification, which proves my expertise in data modeling, integrations, governance and performance at scale on the platform.
+        resp_2:
+          vr_pt: |
+            Ainda não concluí a certificação Salesforce Data Architect, mas já atuo com decisões de dados na prática e estou estruturando o estudo para validar isso em prova.
+          vr_en: |
+            I haven’t completed the Salesforce Data Architect certification yet, but I’m already involved in data-related decisions in practice and I’m structuring my study plan to validate that in the exam.

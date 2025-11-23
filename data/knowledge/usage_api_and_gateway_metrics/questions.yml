@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: usage_api_and_gateway_metrics
+    examples: |
+      - como você explicaria, em alto nível, as diferenças de métricas entre API Manager, API Governance e Flex Gateway?
+      - de que forma você acompanha o número de APIs gerenciadas versus APIs governadas na plataforma?
+      - como você usa métricas como “maximum number of managed APIs” e “maximum number of governed APIs” nas conversas com o cliente?
+      - em que situações você olha para as métricas de API Experience Hub, como approved request access, para entender adoção?
+      - como você descreveria o que significa uma Flex Gateway API call em termos de uso e capacidade?
+      - de que forma você utiliza métricas de data egress e número total de chamadas em Flex Gateway para avaliar impacto?
+      - como você conecta o uso de APIs publicadas, governadas e expostas via gateway com a visão de consumo nos usage reports?
+      - em que momento você reforça para o cliente que dados de API Manager estão disponíveis só a partir de uma certa data?
+      - como você usaria essas métricas para identificar se a organização está realmente escalando o uso de APIs?
+      - se um time de produto pedisse evidência de adoção de APIs, como você usaria API Manager, Governance e Experience Hub nessa análise?
+      - how would you explain at a high level the metric differences between API Manager, API Governance and Flex Gateway?
+      - how do you track the number of managed APIs versus governed APIs on the platform?
+      - how do you use metrics such as “maximum number of managed APIs” and “maximum number of governed APIs” in customer conversations?
+      - in which situations do you look at API Experience Hub metrics, such as approved request access, to understand adoption?
+      - how would you describe what a Flex Gateway API call means in terms of usage and capacity?
+      - how do you use data egress and total number of calls in Flex Gateway to evaluate impact?
+      - how do you connect the usage of published, governed and gateway-exposed APIs with the consumption view in usage reports?
+      - at what point do you remind the customer that API Manager data is only available starting from a certain date?
+      - how would you use these metrics to identify whether the organization is truly scaling API usage?
+      - if a product team asked for evidence of API adoption, how would you use API Manager, Governance and Experience Hub in your analysis?

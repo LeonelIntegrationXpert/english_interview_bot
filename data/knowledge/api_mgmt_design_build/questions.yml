@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: api_mgmt_design_build
+    examples: |
+      - como você costuma abordar a fase de design e build de APIs no Anypoint Platform?
+      - o que você leva em consideração ao desenhar uma API spec antes de implementar?
+      - como você usa fragments e reaproveitamento de contratos no design de APIs?
+      - você pode me contar como funciona o fluxo de criar, importar e publicar API specs no Exchange?
+      - em que momento você decide partir para a implementação de uma API depois do design?
+      - como o Anypoint Code Builder entra na sua rotina de design e build de APIs?
+      - que boas práticas você segue ao desenhar APIs pensando já em governança futura?
+      - como você garante que o design de uma API reflete bem os sistemas que ela integra?
+      - na prática, qual a diferença entre “só expor um endpoint” e “desenhar uma API bem pensada”?
+      - você já teve situações em que redesenhar a spec resolveu problemas de consumo ou evolução?
+      - how do you usually approach the design and build phase of APIs on Anypoint Platform?
+      - what do you take into account when designing an API spec before implementation?
+      - how do you use fragments and contract reuse in your API design?
+      - can you walk me through the flow of creating, importing and publishing API specs to Exchange?
+      - at what point do you decide to move from design to API implementation?
+      - how does Anypoint Code Builder fit into your day-to-day API design and build work?
+      - what best practices do you follow when designing APIs with future governance in mind?
+      - how do you ensure that an API design accurately reflects the systems it integrates?
+      - in practice, what is the difference between “just exposing an endpoint” and “designing a well-thought-out API”?
+      - have you had situations where redesigning the spec solved consumption or evolution issues?

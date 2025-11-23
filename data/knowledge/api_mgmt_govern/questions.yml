@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: api_mgmt_govern
+    examples: |
+      - como você descreveria a etapa de governança de APIs dentro do Anypoint Platform?
+      - qual é o papel dos rulesets de governança na sua visão?
+      - como você aplica regras de governança diferentes para specs e para instâncias de API?
+      - você pode dar exemplos de quando faz sentido criar rulesets de governança customizados?
+      - como a governança ajuda times de segurança e desenvolvimento a trabalharem alinhados?
+      - em que momento do ciclo de vida você costuma aplicar as regras de governança?
+      - como você enxerga a diferença entre governar specs e governar policies aplicadas?
+      - que tipo de problemas você já viu quando não existe governança de APIs bem definida?
+      - como você explicaria o uso de API Governance para um time que está começando?
+      - de que forma a governança se encaixa na estratégia de qualidade e segurança de APIs?
+      - how would you describe the governance stage of APIs inside Anypoint Platform?
+      - what role do governance rulesets play in your view?
+      - how do you apply different governance rules for specs versus API instances?
+      - can you give examples of when it makes sense to create custom governance rulesets?
+      - how does governance help security and development teams work in alignment?
+      - at what point in the lifecycle do you typically apply governance rules?
+      - how do you see the difference between governing specs and governing applied policies?
+      - what kinds of issues have you seen when there is no clear API governance in place?
+      - how would you explain the use of API Governance to a team that is just getting started?
+      - in what way does governance fit into the broader API quality and security strategy?

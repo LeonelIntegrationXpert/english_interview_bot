@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: api_mgmt_overview
+    examples: |
+      - você pode me explicar, de forma geral, o que é API management no Anypoint Platform?
+      - como você descreveria API management para alguém que já usa MuleSoft mas ainda não olha para governança de APIs?
+      - na sua visão, qual é o objetivo principal do API management dentro do Anypoint Platform?
+      - como o API management ajuda a evitar “API sprawl” em uma empresa?
+      - de que forma o API management melhora a experiência dos desenvolvedores que consomem APIs?
+      - como você conecta o conceito de ciclo de vida de API com o API management na prática?
+      - em que situações você considera essencial ter uma camada forte de API management?
+      - qual a diferença entre só expor uma API e de fato gerenciá-la com API management?
+      - como API management contribui para ter aplicações mais seguras e escaláveis?
+      - se um gestor te perguntasse “por que precisamos de API management?”, o que você destacaria?
+      - can you explain at a high level what API management on Anypoint Platform is?
+      - how would you describe API management to someone who already uses MuleSoft but does not focus on API governance yet?
+      - in your view, what is the main goal of API management inside Anypoint Platform?
+      - how does API management help avoid API sprawl in an enterprise?
+      - in what ways does API management improve the experience for developers consuming APIs?
+      - how do you connect the idea of an API lifecycle with API management in practice?
+      - in what situations do you consider a strong API management layer essential?
+      - what is the difference between just exposing an API and actually managing it with API management?
+      - how does API management contribute to having more secure and scalable applications?
+      - if a manager asked you “why do we need API management?”, what would you highlight?

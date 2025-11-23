@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_platform_developer2_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce Platform Developer II, que reforça meu domínio em soluções mais avançadas, padrões de código e cenários complexos na plataforma.
+          vr_en: |
+            Yes, I have the Salesforce Platform Developer II certification, which reinforces my expertise in more advanced solutions, coding patterns and complex scenarios on the platform.
+        resp_2:
+          vr_pt: |
+            Ainda não concluí a certificação Salesforce Platform Developer II, mas já trabalho com cenários avançados e estou construindo a base para encarar essa prova.
+          vr_en: |
+            I haven’t completed the Salesforce Platform Developer II certification yet, but I already handle advanced scenarios and I’m building the foundation to take that exam.

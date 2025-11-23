@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: application_architect_status
+    examples: |
+      - você já tem a certificação Salesforce Application Architect?
+      - hoje você é certificado como Salesforce Application Architect?
+      - a certificação Application Architect já faz parte do seu currículo?
+      - você já passou na prova de Salesforce Application Architect?
+      - atualmente você possui a certificação Salesforce Application Architect?
+      - você poderia me dizer se já concluiu a certificação Application Architect?
+      - seu conjunto de certificações inclui a de Salesforce Application Architect?
+      - você já obteve a certificação Salesforce Certified Application Architect?
+      - essa certificação de Application Architect você já conquistou?
+      - você já é oficialmente Salesforce Application Architect certificado?
+      - do you already have the Salesforce Application Architect certification?
+      - are you currently certified as a Salesforce Application Architect?
+      - is the Application Architect certification already on your résumé?
+      - have you passed the Salesforce Application Architect exam?
+      - do you currently hold the Salesforce Application Architect certification?
+      - could you tell me if you have completed the Application Architect certification?
+      - does your certification set include the Salesforce Application Architect credential?
+      - have you obtained the Salesforce Certified Application Architect certification?
+      - have you already earned the Application Architect certification?
+      - are you officially a certified Salesforce Application Architect?

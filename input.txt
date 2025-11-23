@@ -5999,18 +5999,16 @@ I haven’t taken the MuleSoft Platform Architect certification yet, but I’m a
 - have you obtained the Salesforce Certified Platform Developer credential?
 - have you already earned the Salesforce Platform Developer certification?
 - are you officially a certified Salesforce Platform Developer today?
-
 #rp_1
 #vr_pt: |
-  Sim, eu tenho a certificação Salesforce Certified Platform Developer. Ela reforça minhas habilidades de desenvolvimento na plataforma, principalmente com Apex, SOQL, modelagem de dados e boas práticas de testes.
+Sim, eu tenho a certificação Salesforce Certified Platform Developer. Ela reforça minhas habilidades de desenvolvimento na plataforma, principalmente com Apex, SOQL, modelagem de dados e boas práticas de testes.
 #vr_en: |
-  Yes, I hold the Salesforce Certified Platform Developer certification. It reinforces my development skills on the platform, especially with Apex, SOQL, data modeling and testing best practices.
-
+Yes, I hold the Salesforce Certified Platform Developer certification. It reinforces my development skills on the platform, especially with Apex, SOQL, data modeling and testing best practices.
 #rp_2
 #vr_pt: |
-  Ainda não tirei a certificação Salesforce Platform Developer, mas já venho estudando e aplicando os conceitos na prática. A ideia é justamente formalizar esse conhecimento na próxima janela de prova.
+Ainda não tirei a certificação Salesforce Platform Developer, mas já venho estudando e aplicando os conceitos na prática. A ideia é justamente formalizar esse conhecimento na próxima janela de prova.
 #vr_en: |
-  I haven’t earned the Salesforce Platform Developer certification yet, but I’m already studying and applying the concepts in practice. My goal is to formalize that knowledge in the next exam window.
+I haven’t earned the Salesforce Platform Developer certification yet, but I’m already studying and applying the concepts in practice. My goal is to formalize that knowledge in the next exam window.
 ---
 #intent: certs/admin_status
 #pt:
@@ -6035,18 +6033,16 @@ I haven’t taken the MuleSoft Platform Architect certification yet, but I’m a
 - have you obtained the Salesforce Certified Administrator certification?
 - have you already earned the Salesforce Administrator certification?
 - are you officially a certified Salesforce Administrator?
-
 #rp_1
 #vr_pt: |
-  Sim, eu tenho a certificação Salesforce Certified Administrator. Ela valida que eu entendo bem configuração, segurança, automações e o dia a dia de administração da plataforma.
+Sim, eu tenho a certificação Salesforce Certified Administrator. Ela valida que eu entendo bem configuração, segurança, automações e o dia a dia de administração da plataforma.
 #vr_en: |
-  Yes, I hold the Salesforce Certified Administrator certification. It shows that I have a solid understanding of configuration, security, automation and day-to-day platform administration.
-
+Yes, I hold the Salesforce Certified Administrator certification. It shows that I have a solid understanding of configuration, security, automation and day-to-day platform administration.
 #rp_2
 #vr_pt: |
-  Ainda não concluí a certificação Salesforce Administrator, mas já atuo na prática com configuração e administração da plataforma. Estou estruturando o estudo para validar isso oficialmente na prova.
+Ainda não concluí a certificação Salesforce Administrator, mas já atuo na prática com configuração e administração da plataforma. Estou estruturando o estudo para validar isso oficialmente na prova.
 #vr_en: |
-  I haven’t completed the Salesforce Administrator certification yet, but I already work with configuration and administration of the platform in practice. I’m organizing my study plan to validate that officially in the exam.
+I haven’t completed the Salesforce Administrator certification yet, but I already work with configuration and administration of the platform in practice. I’m organizing my study plan to validate that officially in the exam.
 ---
 #intent: certs/app_builder_status
 #pt:
@@ -6071,18 +6067,16 @@ I haven’t taken the MuleSoft Platform Architect certification yet, but I’m a
 - have you obtained the Salesforce Certified Platform App Builder certification?
 - have you already earned the Platform App Builder certification?
 - are you officially a certified Salesforce Platform App Builder?
-
 #rp_1
 #vr_pt: |
-  Sim, eu tenho a certificação Salesforce Platform App Builder. Ela mostra que eu consigo desenhar soluções declarativas bem estruturadas, usando objetos, relacionamentos, automações e telas sem depender somente de código.
+Sim, eu tenho a certificação Salesforce Platform App Builder. Ela mostra que eu consigo desenhar soluções declarativas bem estruturadas, usando objetos, relacionamentos, automações e telas sem depender somente de código.
 #vr_en: |
-  Yes, I hold the Salesforce Platform App Builder certification. It shows that I can design well-structured declarative solutions, using objects, relationships, automation and UI without relying only on code.
-
+Yes, I hold the Salesforce Platform App Builder certification. It shows that I can design well-structured declarative solutions, using objects, relationships, automation and UI without relying only on code.
 #rp_2
 #vr_pt: |
-  Ainda não tirei a certificação Platform App Builder, mas já trabalho bastante com soluções declarativas e estou me preparando para validar esse conhecimento na prova.
+Ainda não tirei a certificação Platform App Builder, mas já trabalho bastante com soluções declarativas e estou me preparando para validar esse conhecimento na prova.
 #vr_en: |
-  I haven’t earned the Platform App Builder certification yet, but I already work extensively with declarative solutions and I’m preparing to validate that knowledge in the exam.
+I haven’t earned the Platform App Builder certification yet, but I already work extensively with declarative solutions and I’m preparing to validate that knowledge in the exam.
 ---
 #intent: certs/agentforce_specialist_status
 #pt:
@@ -6107,18 +6101,16 @@ I haven’t taken the MuleSoft Platform Architect certification yet, but I’m a
 - have you obtained the Salesforce Certified Agentforce Specialist certification?
 - have you already earned the Agentforce Specialist certification?
 - are you officially certified as an Agentforce Specialist?
-
 #rp_1
 #vr_pt: |
-  Sim, eu tenho a certificação Agentforce Specialist. Ela reforça que eu entendo bem como estruturar agentes, prompts, ações e integrações dentro do ecossistema Salesforce.
+Sim, eu tenho a certificação Agentforce Specialist. Ela reforça que eu entendo bem como estruturar agentes, prompts, ações e integrações dentro do ecossistema Salesforce.
 #vr_en: |
-  Yes, I hold the Agentforce Specialist certification. It shows that I have a solid understanding of how to design agents, prompts, actions and integrations within the Salesforce ecosystem.
-
+Yes, I hold the Agentforce Specialist certification. It shows that I have a solid understanding of how to design agents, prompts, actions and integrations within the Salesforce ecosystem.
 #rp_2
 #vr_pt: |
-  Ainda não concluí a certificação Agentforce Specialist, mas estou estudando o conteúdo de agentes, prompts e ações e já venho praticando esses conceitos em cenários reais.
+Ainda não concluí a certificação Agentforce Specialist, mas estou estudando o conteúdo de agentes, prompts e ações e já venho praticando esses conceitos em cenários reais.
 #vr_en: |
-  I haven’t completed the Agentforce Specialist certification yet, but I’m studying agents, prompts and actions and already practicing these concepts in real scenarios.
+I haven’t completed the Agentforce Specialist certification yet, but I’m studying agents, prompts and actions and already practicing these concepts in real scenarios.
 ---
 #intent: certs/javascript_dev1_status
 #pt:
@@ -6143,18 +6135,16 @@ I haven’t taken the MuleSoft Platform Architect certification yet, but I’m a
 - have you obtained the Salesforce Certified JavaScript Developer I certification?
 - have you already earned the JavaScript Developer I certification?
 - are you officially a certified Salesforce JavaScript Developer I?
-
 #rp_1
 #vr_pt: |
-  Sim, eu tenho a certificação Salesforce JavaScript Developer I. Ela comprova minhas bases sólidas em JavaScript moderno, o que ajuda bastante em LWC e integrações front-end.
+Sim, eu tenho a certificação Salesforce JavaScript Developer I. Ela comprova minhas bases sólidas em JavaScript moderno, o que ajuda bastante em LWC e integrações front-end.
 #vr_en: |
-  Yes, I hold the Salesforce JavaScript Developer I certification. It proves I have solid foundations in modern JavaScript, which is very helpful for LWC and front-end integrations.
-
+Yes, I hold the Salesforce JavaScript Developer I certification. It proves I have solid foundations in modern JavaScript, which is very helpful for LWC and front-end integrations.
 #rp_2
 #vr_pt: |
-  Ainda não tirei a certificação JavaScript Developer I, mas já trabalho com JavaScript no dia a dia e pretendo usar essa experiência como base para a prova.
+Ainda não tirei a certificação JavaScript Developer I, mas já trabalho com JavaScript no dia a dia e pretendo usar essa experiência como base para a prova.
 #vr_en: |
-  I haven’t taken the JavaScript Developer I certification yet, but I already work with JavaScript on a daily basis and plan to use that experience as a foundation for the exam.
+I haven’t taken the JavaScript Developer I certification yet, but I already work with JavaScript on a daily basis and plan to use that experience as a foundation for the exam.
 ---
 #intent: certs/marketing_associate_status
 #pt:
@@ -6179,15 +6169,2121 @@ I haven’t taken the MuleSoft Platform Architect certification yet, but I’m a
 - have you obtained the Salesforce Certified Marketing Associate certification?
 - have you already earned the Marketing Associate certification?
 - are you officially a certified Salesforce Marketing Associate?
-
 #rp_1
 #vr_pt: |
-  Sim, eu tenho a certificação Salesforce Marketing Associate. Ela mostra que eu entendo os conceitos fundamentais de marketing digital dentro do ecossistema Salesforce.
+Sim, eu tenho a certificação Salesforce Marketing Associate. Ela mostra que eu entendo os conceitos fundamentais de marketing digital dentro do ecossistema Salesforce.
 #vr_en: |
-  Yes, I hold the Salesforce Marketing Associate certification. It shows that I understand the core digital marketing concepts within the Salesforce ecosystem.
-
+Yes, I hold the Salesforce Marketing Associate certification. It shows that I understand the core digital marketing concepts within the Salesforce ecosystem.
 #rp_2
 #vr_pt: |
-  Ainda não concluí a certificação Marketing Associate, mas já venho estudando a parte de marketing no ecossistema Salesforce e pretendo validar isso em breve na prova.
+Ainda não concluí a certificação Marketing Associate, mas já venho estudando a parte de marketing no ecossistema Salesforce e pretendo validar isso em breve na prova.
 #vr_en: |
-  I haven’t completed the Marketing Associate certification yet, but I’ve been studying the marketing side of the Salesforce ecosystem and I plan to validate that soon in the exam.
+I haven’t completed the Marketing Associate certification yet, but I’ve been studying the marketing side of the Salesforce ecosystem and I plan to validate that soon in the exam.
+---
+#intent: certs/associate_status
+#pt:
+- você já tem a certificação Salesforce Certified Associate?
+- hoje você é certificado como Salesforce Associate?
+- a certificação Salesforce Associate já faz parte do seu perfil?
+- você já passou na prova de Salesforce Certified Associate?
+- atualmente você possui a certificação Salesforce Associate?
+- você poderia me dizer se já concluiu a certificação Salesforce Certified Associate?
+- seu conjunto de certificações inclui a de Salesforce Associate?
+- você já obteve a certificação Salesforce Certified Associate?
+- essa certificação de Associate você já conquistou?
+- você já é oficialmente Salesforce Certified Associate?
+#en:
+- do you already have the Salesforce Certified Associate certification?
+- are you currently certified as a Salesforce Associate?
+- is the Salesforce Certified Associate credential already part of your profile?
+- have you passed the Salesforce Certified Associate exam?
+- do you currently hold the Salesforce Certified Associate certification?
+- could you tell me if you have completed the Salesforce Certified Associate certification?
+- does your certification set include the Salesforce Certified Associate credential?
+- have you obtained the Salesforce Certified Associate certification?
+- have you already earned the Salesforce Certified Associate credential?
+- are you officially a Salesforce Certified Associate today?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Certified Associate, que valida bem a base de conceitos da plataforma e do ecossistema.
+#vr_en: |
+Yes, I have the Salesforce Certified Associate certification, which validates my foundational understanding of the platform and ecosystem.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce Certified Associate, mas já tenho a base de plataforma e pretendo formalizar isso em prova.
+#vr_en: |
+I haven’t taken the Salesforce Certified Associate certification yet, but I already have the platform fundamentals and plan to formalize that in an exam.
+---
+#intent: certs/advanced_admin_status
+#pt:
+- você já tem a certificação Salesforce Advanced Administrator?
+- hoje você é certificado como Salesforce Advanced Administrator?
+- a certificação Advanced Administrator já faz parte do seu currículo?
+- você já passou na prova de Salesforce Advanced Administrator?
+- atualmente você possui a certificação Salesforce Advanced Administrator?
+- você poderia me dizer se já concluiu a certificação Advanced Admin?
+- seu conjunto de certificações inclui a de Salesforce Advanced Administrator?
+- você já obteve a certificação Salesforce Certified Advanced Administrator?
+- essa certificação de Advanced Admin você já conquistou?
+- você já é oficialmente Salesforce Advanced Administrator certificado?
+#en:
+- do you already have the Salesforce Advanced Administrator certification?
+- are you currently certified as a Salesforce Advanced Administrator?
+- is the Salesforce Advanced Administrator certification already on your résumé?
+- have you passed the Salesforce Advanced Administrator exam?
+- do you currently hold the Salesforce Advanced Administrator certification?
+- could you tell me if you have completed the Advanced Administrator certification?
+- does your certification set include the Salesforce Advanced Administrator credential?
+- have you obtained the Salesforce Certified Advanced Administrator certification?
+- have you already earned the Advanced Administrator certification?
+- are you officially a certified Salesforce Advanced Administrator?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Advanced Administrator, que aprofunda pontos de automação, segurança, relatórios e administração avançada da org.
+#vr_en: |
+Yes, I hold the Salesforce Advanced Administrator certification, which goes deeper into automation, security, reporting and advanced org administration.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce Advanced Administrator, mas já trabalho com cenários avançados de administração e estou estruturando o estudo para a prova.
+#vr_en: |
+I haven’t completed the Salesforce Advanced Administrator certification yet, but I already deal with advanced administration scenarios and I’m structuring my study plan for the exam.
+---
+#intent: certs/mulesoft_associate_status
+#pt:
+- você já tem a certificação MuleSoft Certified Associate?
+- hoje você é certificado como MuleSoft Associate?
+- a certificação MuleSoft Associate já faz parte do seu perfil?
+- você já passou na prova de MuleSoft Certified Associate?
+- atualmente você possui a certificação MuleSoft Associate?
+- você poderia me dizer se já concluiu a certificação MuleSoft Certified Associate?
+- seu conjunto de certificações inclui a de MuleSoft Associate?
+- você já obteve a certificação MuleSoft Certified Associate?
+- essa certificação de MuleSoft Associate você já conquistou?
+- você já é oficialmente MuleSoft Certified Associate?
+#en:
+- do you already have the MuleSoft Certified Associate certification?
+- are you currently certified as a MuleSoft Associate?
+- is the MuleSoft Certified Associate credential already part of your profile?
+- have you passed the MuleSoft Certified Associate exam?
+- do you currently hold the MuleSoft Associate certification?
+- could you tell me if you have completed the MuleSoft Certified Associate certification?
+- does your certification set include the MuleSoft Associate credential?
+- have you obtained the MuleSoft Certified Associate certification?
+- have you already earned the MuleSoft Associate certification?
+- are you officially a MuleSoft Certified Associate today?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação MuleSoft Certified Associate, que comprova minha base em conceitos de integração, APIs e uso da plataforma MuleSoft.
+#vr_en: |
+Yes, I have the MuleSoft Certified Associate certification, which proves my foundations in integration concepts, APIs and the MuleSoft platform.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação MuleSoft Certified Associate, mas já atuo com integrações na prática e quero usar essa experiência como base para a prova.
+#vr_en: |
+I haven’t taken the MuleSoft Certified Associate certification yet, but I already work with integrations in practice and want to use that experience as the foundation for the exam.
+---
+#intent: certs/sales_cloud_consultant_status
+#pt:
+- você já tem a certificação Salesforce Sales Cloud Consultant?
+- hoje você é certificado como Salesforce Sales Cloud Consultant?
+- a certificação Sales Cloud Consultant já faz parte do seu perfil?
+- você já passou na prova de Salesforce Sales Cloud Consultant?
+- atualmente você possui a certificação Salesforce Sales Cloud Consultant?
+- você poderia me dizer se já concluiu a certificação Sales Cloud Consultant?
+- seu conjunto de certificações inclui a de Salesforce Sales Cloud Consultant?
+- você já obteve a certificação Salesforce Certified Sales Cloud Consultant?
+- essa certificação de Sales Cloud Consultant você já conquistou?
+- você já é oficialmente Salesforce Sales Cloud Consultant certificado?
+#en:
+- do you already have the Salesforce Sales Cloud Consultant certification?
+- are you currently certified as a Salesforce Sales Cloud Consultant?
+- is the Sales Cloud Consultant certification already part of your profile?
+- have you passed the Salesforce Sales Cloud Consultant exam?
+- do you currently hold the Salesforce Sales Cloud Consultant certification?
+- could you tell me if you have completed the Sales Cloud Consultant certification?
+- does your certification set include the Salesforce Sales Cloud Consultant credential?
+- have you obtained the Salesforce Certified Sales Cloud Consultant certification?
+- have you already earned the Sales Cloud Consultant certification?
+- are you officially a certified Salesforce Sales Cloud Consultant?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Sales Cloud Consultant, o que mostra que consigo desenhar e implementar soluções comerciais alinhadas às melhores práticas da plataforma.
+#vr_en: |
+Yes, I have the Salesforce Sales Cloud Consultant certification, which shows that I can design and implement sales solutions aligned with the platform’s best practices.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce Sales Cloud Consultant, mas já atuo com cenários de vendas na prática e estou me preparando para validar isso na prova.
+#vr_en: |
+I haven’t completed the Salesforce Sales Cloud Consultant certification yet, but I already work with sales scenarios in practice and I’m preparing to validate that in the exam.
+---
+#intent: certs/service_cloud_consultant_status
+#pt:
+- você já tem a certificação Salesforce Service Cloud Consultant?
+- hoje você é certificado como Salesforce Service Cloud Consultant?
+- a certificação Service Cloud Consultant já faz parte do seu perfil?
+- você já passou na prova de Salesforce Service Cloud Consultant?
+- atualmente você possui a certificação Salesforce Service Cloud Consultant?
+- você poderia me dizer se já concluiu a certificação Service Cloud Consultant?
+- seu conjunto de certificações inclui a de Salesforce Service Cloud Consultant?
+- você já obteve a certificação Salesforce Certified Service Cloud Consultant?
+- essa certificação de Service Cloud Consultant você já conquistou?
+- você já é oficialmente Salesforce Service Cloud Consultant certificado?
+#en:
+- do you already have the Salesforce Service Cloud Consultant certification?
+- are you currently certified as a Salesforce Service Cloud Consultant?
+- is the Service Cloud Consultant certification already part of your profile?
+- have you passed the Salesforce Service Cloud Consultant exam?
+- do you currently hold the Salesforce Service Cloud Consultant certification?
+- could you tell me if you have completed the Service Cloud Consultant certification?
+- does your certification set include the Salesforce Service Cloud Consultant credential?
+- have you obtained the Salesforce Certified Service Cloud Consultant certification?
+- have you already earned the Service Cloud Consultant certification?
+- are you officially a certified Salesforce Service Cloud Consultant?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Service Cloud Consultant, que reforça minha experiência em estruturar operações de atendimento, casos, SLAs e canais de suporte.
+#vr_en: |
+Yes, I have the Salesforce Service Cloud Consultant certification, which reinforces my experience structuring support operations, cases, SLAs and service channels.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce Service Cloud Consultant, mas já trabalho com cenários de atendimento e pretendo formalizar esse conhecimento em prova.
+#vr_en: |
+I haven’t taken the Salesforce Service Cloud Consultant certification yet, but I already work with service scenarios and I plan to formalize that knowledge in the exam.
+---
+#intent: certs/experience_cloud_consultant_status
+#pt:
+- você já tem a certificação Salesforce Experience Cloud Consultant?
+- hoje você é certificado como Salesforce Experience Cloud Consultant?
+- a certificação Experience Cloud Consultant já faz parte do seu currículo?
+- você já passou na prova de Salesforce Experience Cloud Consultant?
+- atualmente você possui a certificação Salesforce Experience Cloud Consultant?
+- você poderia me dizer se já concluiu a certificação Experience Cloud Consultant?
+- seu conjunto de certificações inclui a de Salesforce Experience Cloud Consultant?
+- você já obteve a certificação Salesforce Certified Experience Cloud Consultant?
+- essa certificação de Experience Cloud Consultant você já conquistou?
+- você já é oficialmente Salesforce Experience Cloud Consultant certificado?
+#en:
+- do you already have the Salesforce Experience Cloud Consultant certification?
+- are you currently certified as a Salesforce Experience Cloud Consultant?
+- is the Experience Cloud Consultant certification already on your résumé?
+- have you passed the Salesforce Experience Cloud Consultant exam?
+- do you currently hold the Salesforce Experience Cloud Consultant certification?
+- could you tell me if you have completed the Experience Cloud Consultant certification?
+- does your certification set include the Salesforce Experience Cloud Consultant credential?
+- have you obtained the Salesforce Certified Experience Cloud Consultant certification?
+- have you already earned the Experience Cloud Consultant certification?
+- are you officially a certified Salesforce Experience Cloud Consultant?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Experience Cloud Consultant, que mostra que sei projetar e implementar experiências digitais para portais, comunidades e sites no ecossistema Salesforce.
+#vr_en: |
+Yes, I have the Salesforce Experience Cloud Consultant certification, which shows that I can design and implement digital experiences for portals, communities and sites in the Salesforce ecosystem.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce Experience Cloud Consultant, mas já atuei com Experience Cloud na prática e estou me organizando para validar isso em prova.
+#vr_en: |
+I haven’t completed the Salesforce Experience Cloud Consultant certification yet, but I’ve already worked with Experience Cloud in practice and I’m organizing myself to validate that in the exam.
+---
+#intent: certs/data_cloud_consultant_status
+#pt:
+- você já tem a certificação Salesforce Data Cloud Consultant?
+- hoje você é certificado como Salesforce Data Cloud Consultant?
+- a certificação Data Cloud Consultant já faz parte do seu perfil?
+- você já passou na prova de Salesforce Data Cloud Consultant?
+- atualmente você possui a certificação Salesforce Data Cloud Consultant?
+- você poderia me dizer se já concluiu a certificação Data Cloud Consultant?
+- seu conjunto de certificações inclui a de Salesforce Data Cloud Consultant?
+- você já obteve a certificação Salesforce Certified Data Cloud Consultant?
+- essa certificação de Data Cloud Consultant você já conquistou?
+- você já é oficialmente Salesforce Data Cloud Consultant certificado?
+#en:
+- do you already have the Salesforce Data Cloud Consultant certification?
+- are you currently certified as a Salesforce Data Cloud Consultant?
+- is the Data Cloud Consultant certification already part of your profile?
+- have you passed the Salesforce Data Cloud Consultant exam?
+- do you currently hold the Salesforce Data Cloud Consultant certification?
+- could you tell me if you have completed the Data Cloud Consultant certification?
+- does your certification set include the Salesforce Data Cloud Consultant credential?
+- have you obtained the Salesforce Certified Data Cloud Consultant certification?
+- have you already earned the Data Cloud Consultant certification?
+- are you officially a certified Salesforce Data Cloud Consultant?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Data Cloud Consultant, que valida minha capacidade de trabalhar com unificação de dados, segmentação e ativações dentro do Data Cloud.
+#vr_en: |
+Yes, I have the Salesforce Data Cloud Consultant certification, which validates my ability to work with data unification, segmentation and activations within Data Cloud.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce Data Cloud Consultant, mas já venho estudando os conceitos de Data Cloud e aplicando em cenários práticos antes de ir para a prova.
+#vr_en: |
+I haven’t taken the Salesforce Data Cloud Consultant certification yet, but I’ve been studying Data Cloud concepts and applying them in practical scenarios before going for the exam.
+---
+#intent: certs/business_analyst_status
+#pt:
+- você já tem a certificação Salesforce Business Analyst?
+- hoje você é certificado como Salesforce Business Analyst?
+- a certificação Salesforce Business Analyst já faz parte do seu perfil?
+- você já passou na prova de Salesforce Certified Business Analyst?
+- atualmente você possui a certificação Salesforce Business Analyst?
+- você poderia me dizer se já concluiu a certificação Business Analyst?
+- seu conjunto de certificações inclui a de Salesforce Business Analyst?
+- você já obteve a certificação Salesforce Certified Business Analyst?
+- essa certificação de Business Analyst você já conquistou?
+- você já é oficialmente Salesforce Business Analyst certificado?
+#en:
+- do you already have the Salesforce Business Analyst certification?
+- are you currently certified as a Salesforce Business Analyst?
+- is the Salesforce Business Analyst certification already part of your profile?
+- have you passed the Salesforce Certified Business Analyst exam?
+- do you currently hold the Salesforce Business Analyst certification?
+- could you tell me if you have completed the Business Analyst certification?
+- does your certification set include the Salesforce Business Analyst credential?
+- have you obtained the Salesforce Certified Business Analyst certification?
+- have you already earned the Business Analyst certification?
+- are you officially a certified Salesforce Business Analyst?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Business Analyst, que valida minha capacidade de conectar necessidades de negócio com soluções na plataforma.
+#vr_en: |
+Yes, I have the Salesforce Business Analyst certification, which validates my ability to connect business needs with solutions on the platform.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce Business Analyst, mas já atuo muito próximo da área de negócio e pretendo formalizar isso em prova.
+#vr_en: |
+I haven’t taken the Salesforce Business Analyst certification yet, but I already work very closely with the business side and plan to formalize that in an exam.
+---
+#intent: certs/platform_developer2_status
+#pt:
+- você já tem a certificação Salesforce Platform Developer II?
+- hoje você é certificado como Salesforce Platform Developer II?
+- a certificação Platform Developer II já faz parte do seu currículo?
+- você já passou na prova de Salesforce Platform Developer II?
+- atualmente você possui a certificação Salesforce Platform Developer II?
+- você poderia me dizer se já concluiu a certificação Platform Developer II?
+- seu conjunto de certificações inclui a de Salesforce Platform Developer II?
+- você já obteve a certificação Salesforce Certified Platform Developer II?
+- essa certificação de Platform Developer II você já conquistou?
+- você já é oficialmente Salesforce Platform Developer II certificado?
+#en:
+- do you already have the Salesforce Platform Developer II certification?
+- are you currently certified as a Salesforce Platform Developer II?
+- is the Platform Developer II certification already on your résumé?
+- have you passed the Salesforce Platform Developer II exam?
+- do you currently hold the Salesforce Platform Developer II certification?
+- could you tell me if you have completed the Platform Developer II certification?
+- does your certification set include the Salesforce Platform Developer II credential?
+- have you obtained the Salesforce Certified Platform Developer II certification?
+- have you already earned the Platform Developer II certification?
+- are you officially a certified Salesforce Platform Developer II?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Platform Developer II, que reforça meu domínio em soluções mais avançadas, padrões de código e cenários complexos na plataforma.
+#vr_en: |
+Yes, I have the Salesforce Platform Developer II certification, which reinforces my expertise in more advanced solutions, coding patterns and complex scenarios on the platform.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce Platform Developer II, mas já trabalho com cenários avançados e estou construindo a base para encarar essa prova.
+#vr_en: |
+I haven’t completed the Salesforce Platform Developer II certification yet, but I already handle advanced scenarios and I’m building the foundation to take that exam.
+---
+#intent: certs/sf_integration_architect_status
+#pt:
+- você já tem a certificação Salesforce Integration Architect?
+- hoje você é certificado como Salesforce Integration Architect?
+- a certificação Salesforce Integration Architect já faz parte do seu perfil?
+- você já passou na prova de Salesforce Certified Integration Architect?
+- atualmente você possui a certificação Salesforce Integration Architect?
+- você poderia me dizer se já concluiu a certificação Integration Architect?
+- seu conjunto de certificações inclui a de Salesforce Integration Architect?
+- você já obteve a certificação Salesforce Certified Integration Architect?
+- essa certificação de Integration Architect você já conquistou?
+- você já é oficialmente Salesforce Integration Architect certificado?
+#en:
+- do you already have the Salesforce Integration Architect certification?
+- are you currently certified as a Salesforce Integration Architect?
+- is the Salesforce Integration Architect certification already part of your profile?
+- have you passed the Salesforce Certified Integration Architect exam?
+- do you currently hold the Salesforce Integration Architect certification?
+- could you tell me if you have completed the Integration Architect certification?
+- does your certification set include the Salesforce Integration Architect credential?
+- have you obtained the Salesforce Certified Integration Architect certification?
+- have you already earned the Integration Architect certification?
+- are you officially a certified Salesforce Integration Architect?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Integration Architect, o que mostra que eu sei desenhar integrações escaláveis e bem governadas entre Salesforce e outros sistemas.
+#vr_en: |
+Yes, I have the Salesforce Integration Architect certification, which shows that I can design scalable, well-governed integrations between Salesforce and other systems.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce Integration Architect, mas já trabalho com integrações complexas e quero transformar essa experiência em credencial oficial.
+#vr_en: |
+I haven’t taken the Salesforce Integration Architect certification yet, but I already work with complex integrations and I want to turn that experience into an official credential.
+---
+#intent: certs/application_architect_status
+#pt:
+- você já tem a certificação Salesforce Application Architect?
+- hoje você é certificado como Salesforce Application Architect?
+- a certificação Application Architect já faz parte do seu currículo?
+- você já passou na prova de Salesforce Application Architect?
+- atualmente você possui a certificação Salesforce Application Architect?
+- você poderia me dizer se já concluiu a certificação Application Architect?
+- seu conjunto de certificações inclui a de Salesforce Application Architect?
+- você já obteve a certificação Salesforce Certified Application Architect?
+- essa certificação de Application Architect você já conquistou?
+- você já é oficialmente Salesforce Application Architect certificado?
+#en:
+- do you already have the Salesforce Application Architect certification?
+- are you currently certified as a Salesforce Application Architect?
+- is the Application Architect certification already on your résumé?
+- have you passed the Salesforce Application Architect exam?
+- do you currently hold the Salesforce Application Architect certification?
+- could you tell me if you have completed the Application Architect certification?
+- does your certification set include the Salesforce Application Architect credential?
+- have you obtained the Salesforce Certified Application Architect certification?
+- have you already earned the Application Architect certification?
+- are you officially a certified Salesforce Application Architect?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Application Architect, que comprova minha visão de arquitetura de dados, segurança, performance e modelagem dentro da plataforma.
+#vr_en: |
+Yes, I have the Salesforce Application Architect certification, which proves my architecture vision around data, security, performance and modeling within the platform.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce Application Architect, mas já atuo com decisões de arquitetura de aplicações e estou evoluindo para chegar nesse nível.
+#vr_en: |
+I haven’t completed the Salesforce Application Architect certification yet, but I’m already involved in application architecture decisions and I’m progressing towards that level.
+---
+#intent: certs/system_architect_status
+#pt:
+- você já tem a certificação Salesforce System Architect?
+- hoje você é certificado como Salesforce System Architect?
+- a certificação System Architect já faz parte do seu perfil?
+- você já passou na prova de Salesforce System Architect?
+- atualmente você possui a certificação Salesforce System Architect?
+- você poderia me dizer se já concluiu a certificação System Architect?
+- seu conjunto de certificações inclui a de Salesforce System Architect?
+- você já obteve a certificação Salesforce Certified System Architect?
+- essa certificação de System Architect você já conquistou?
+- você já é oficialmente Salesforce System Architect certificado?
+#en:
+- do you already have the Salesforce System Architect certification?
+- are you currently certified as a Salesforce System Architect?
+- is the System Architect certification already part of your profile?
+- have you passed the Salesforce System Architect exam?
+- do you currently hold the Salesforce System Architect certification?
+- could you tell me if you have completed the System Architect certification?
+- does your certification set include the Salesforce System Architect credential?
+- have you obtained the Salesforce Certified System Architect certification?
+- have you already earned the System Architect certification?
+- are you officially a certified Salesforce System Architect?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce System Architect, que mostra que eu sei cuidar de aspectos como identidade, integração, governança e escalabilidade em nível de sistema.
+#vr_en: |
+Yes, I have the Salesforce System Architect certification, which shows that I can handle identity, integration, governance and scalability aspects at a system level.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce System Architect, mas já participo de decisões de arquitetura de sistema e pretendo consolidar isso nessa credencial.
+#vr_en: |
+I haven’t taken the Salesforce System Architect certification yet, but I’m already involved in system architecture decisions and I plan to consolidate that in this credential.
+---
+#intent: certs/technical_architect_status
+#pt:
+- você já tem a certificação Salesforce Certified Technical Architect?
+- hoje você é certificado como Salesforce Technical Architect?
+- a certificação Salesforce Certified Technical Architect já faz parte do seu currículo?
+- você já passou pelo board de Salesforce Certified Technical Architect?
+- atualmente você possui a certificação Salesforce Technical Architect?
+- você poderia me dizer se já concluiu a certificação Salesforce Certified Technical Architect?
+- seu conjunto de certificações inclui a de Salesforce Technical Architect?
+- você já obteve a certificação oficial de Salesforce Certified Technical Architect?
+- essa certificação de Technical Architect você já conquistou?
+- você já é oficialmente Salesforce Certified Technical Architect?
+#en:
+- do you already have the Salesforce Certified Technical Architect certification?
+- are you currently certified as a Salesforce Technical Architect?
+- is the Salesforce Certified Technical Architect certification already on your résumé?
+- have you passed the Salesforce Certified Technical Architect board?
+- do you currently hold the Salesforce Technical Architect certification?
+- could you tell me if you have completed the Salesforce Certified Technical Architect certification?
+- does your certification set include the Salesforce Technical Architect credential?
+- have you obtained the official Salesforce Certified Technical Architect certification?
+- have you already earned the Technical Architect certification?
+- are you officially a Salesforce Certified Technical Architect?
+#rp_1
+#vr_pt: |
+Não, eu ainda não tenho a certificação Salesforce Certified Technical Architect, que é bem avançada, mas eu uso as trilhas de arquiteto como referência para evoluir minha visão técnica.
+#vr_en: |
+No, I don’t have the Salesforce Certified Technical Architect certification yet, which is very advanced, but I use the architect tracks as a reference to grow my technical vision.
+#rp_2
+#vr_pt: |
+Ainda não cheguei no nível de Salesforce Certified Technical Architect, mas encaro essa certificação como um objetivo de longo prazo na minha carreira.
+#vr_en: |
+I haven’t reached the Salesforce Certified Technical Architect level yet, but I see that certification as a long-term goal in my career.
+---
+#intent: certs/field_service_consultant_status
+#pt:
+- você já tem a certificação Salesforce Field Service Consultant?
+- hoje você é certificado como Salesforce Field Service Consultant?
+- a certificação Field Service Consultant já faz parte do seu perfil?
+- você já passou na prova de Salesforce Field Service Consultant?
+- atualmente você possui a certificação Salesforce Field Service Consultant?
+- você poderia me dizer se já concluiu a certificação Field Service Consultant?
+- seu conjunto de certificações inclui a de Salesforce Field Service Consultant?
+- você já obteve a certificação Salesforce Certified Field Service Consultant?
+- essa certificação de Field Service Consultant você já conquistou?
+- você já é oficialmente Salesforce Field Service Consultant certificado?
+#en:
+- do you already have the Salesforce Field Service Consultant certification?
+- are you currently certified as a Salesforce Field Service Consultant?
+- is the Field Service Consultant certification already part of your profile?
+- have you passed the Salesforce Field Service Consultant exam?
+- do you currently hold the Salesforce Field Service Consultant certification?
+- could you tell me if you have completed the Field Service Consultant certification?
+- does your certification set include the Salesforce Field Service Consultant credential?
+- have you obtained the Salesforce Certified Field Service Consultant certification?
+- have you already earned the Field Service Consultant certification?
+- are you officially a certified Salesforce Field Service Consultant?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Field Service Consultant, o que mostra que consigo desenhar e configurar operações de campo de ponta a ponta.
+#vr_en: |
+Yes, I have the Salesforce Field Service Consultant certification, which shows that I can design and configure end-to-end field operations.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce Field Service Consultant, mas já trabalhei com cenários de atendimento em campo e pretendo validar isso na prova.
+#vr_en: |
+I haven’t taken the Salesforce Field Service Consultant certification yet, but I’ve already worked with field service scenarios and plan to validate that in the exam.
+---
+#intent: certs/omnistudio_consultant_status
+#pt:
+- você já tem a certificação Salesforce OmniStudio Consultant?
+- hoje você é certificado como Salesforce OmniStudio Consultant?
+- a certificação OmniStudio Consultant já faz parte do seu perfil?
+- você já passou na prova de Salesforce OmniStudio Consultant?
+- atualmente você possui a certificação Salesforce OmniStudio Consultant?
+- você poderia me dizer se já concluiu a certificação OmniStudio Consultant?
+- seu conjunto de certificações inclui a de Salesforce OmniStudio Consultant?
+- você já obteve a certificação Salesforce Certified OmniStudio Consultant?
+- essa certificação de OmniStudio Consultant você já conquistou?
+- você já é oficialmente Salesforce OmniStudio Consultant certificado?
+#en:
+- do you already have the Salesforce OmniStudio Consultant certification?
+- are you currently certified as a Salesforce OmniStudio Consultant?
+- is the OmniStudio Consultant certification already part of your profile?
+- have you passed the Salesforce OmniStudio Consultant exam?
+- do you currently hold the Salesforce OmniStudio Consultant certification?
+- could you tell me if you have completed the OmniStudio Consultant certification?
+- does your certification set include the Salesforce OmniStudio Consultant credential?
+- have you obtained the Salesforce Certified OmniStudio Consultant certification?
+- have you already earned the OmniStudio Consultant certification?
+- are you officially a certified Salesforce OmniStudio Consultant?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce OmniStudio Consultant, que valida minha capacidade de construir experiências guiadas, integrações e automações usando OmniStudio.
+#vr_en: |
+Yes, I have the Salesforce OmniStudio Consultant certification, which validates my ability to build guided experiences, integrations and automations using OmniStudio.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce OmniStudio Consultant, mas já venho trabalhando com OmniScripts, FlexCards e integrações e quero formalizar isso em prova.
+#vr_en: |
+I haven’t completed the Salesforce OmniStudio Consultant certification yet, but I’ve been working with OmniScripts, FlexCards and integrations and want to formalize that in an exam.
+---
+#intent: certs/marketing_cloud_admin_status
+#pt:
+- você já tem a certificação Salesforce Marketing Cloud Administrator?
+- hoje você é certificado como Salesforce Marketing Cloud Administrator?
+- a certificação Marketing Cloud Administrator já faz parte do seu perfil?
+- você já passou na prova de Salesforce Marketing Cloud Administrator?
+- atualmente você possui a certificação Salesforce Marketing Cloud Administrator?
+- você poderia me dizer se já concluiu a certificação Marketing Cloud Administrator?
+- seu conjunto de certificações inclui a de Salesforce Marketing Cloud Administrator?
+- você já obteve a certificação Salesforce Certified Marketing Cloud Administrator?
+- essa certificação de Marketing Cloud Administrator você já conquistou?
+- você já é oficialmente Salesforce Marketing Cloud Administrator certificado?
+#en:
+- do you already have the Salesforce Marketing Cloud Administrator certification?
+- are you currently certified as a Salesforce Marketing Cloud Administrator?
+- is the Marketing Cloud Administrator certification already part of your profile?
+- have you passed the Salesforce Marketing Cloud Administrator exam?
+- do you currently hold the Salesforce Marketing Cloud Administrator certification?
+- could you tell me if you have completed the Marketing Cloud Administrator certification?
+- does your certification set include the Salesforce Marketing Cloud Administrator credential?
+- have you obtained the Salesforce Certified Marketing Cloud Administrator certification?
+- have you already earned the Marketing Cloud Administrator certification?
+- are you officially a certified Salesforce Marketing Cloud Administrator?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Marketing Cloud Administrator, que mostra que sei configurar, manter e dar suporte ao ambiente de Marketing Cloud com segurança.
+#vr_en: |
+Yes, I have the Salesforce Marketing Cloud Administrator certification, which shows that I can configure, maintain and support the Marketing Cloud environment securely.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce Marketing Cloud Administrator, mas já atuei com configurações e operações em Marketing Cloud e quero validar isso na prova.
+#vr_en: |
+I haven’t taken the Salesforce Marketing Cloud Administrator certification yet, but I’ve already worked with configuration and operations in Marketing Cloud and want to validate that in the exam.
+---
+#intent: certs/marketing_cloud_email_specialist_status
+#pt:
+- você já tem a certificação Salesforce Marketing Cloud Email Specialist?
+- hoje você é certificado como Salesforce Marketing Cloud Email Specialist?
+- a certificação Marketing Cloud Email Specialist já faz parte do seu currículo?
+- você já passou na prova de Salesforce Marketing Cloud Email Specialist?
+- atualmente você possui a certificação Salesforce Marketing Cloud Email Specialist?
+- você poderia me dizer se já concluiu a certificação Marketing Cloud Email Specialist?
+- seu conjunto de certificações inclui a de Salesforce Marketing Cloud Email Specialist?
+- você já obteve a certificação Salesforce Certified Marketing Cloud Email Specialist?
+- essa certificação de Marketing Cloud Email Specialist você já conquistou?
+- você já é oficialmente Salesforce Marketing Cloud Email Specialist certificado?
+#en:
+- do you already have the Salesforce Marketing Cloud Email Specialist certification?
+- are you currently certified as a Salesforce Marketing Cloud Email Specialist?
+- is the Marketing Cloud Email Specialist certification already on your résumé?
+- have you passed the Salesforce Marketing Cloud Email Specialist exam?
+- do you currently hold the Salesforce Marketing Cloud Email Specialist certification?
+- could you tell me if you have completed the Marketing Cloud Email Specialist certification?
+- does your certification set include the Salesforce Marketing Cloud Email Specialist credential?
+- have you obtained the Salesforce Certified Marketing Cloud Email Specialist certification?
+- have you already earned the Marketing Cloud Email Specialist certification?
+- are you officially a certified Salesforce Marketing Cloud Email Specialist?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Marketing Cloud Email Specialist, que valida meu conhecimento em segmentação, automação e boas práticas de e-mail marketing.
+#vr_en: |
+Yes, I have the Salesforce Marketing Cloud Email Specialist certification, which validates my knowledge in segmentation, automation and email marketing best practices.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce Marketing Cloud Email Specialist, mas já trabalho com jornadas e campanhas de e-mail e pretendo formalizar isso em prova.
+#vr_en: |
+I haven’t completed the Salesforce Marketing Cloud Email Specialist certification yet, but I already work with journeys and email campaigns and plan to formalize that in the exam.
+---
+#intent: certs/account_engagement_status
+#pt:
+- você já tem alguma certificação relacionada ao Salesforce Account Engagement, antigo Pardot?
+- hoje você é certificado em alguma trilha de Account Engagement?
+- a certificação de Account Engagement já faz parte do seu perfil?
+- você já passou em alguma prova oficial de Salesforce Account Engagement?
+- atualmente você possui alguma certificação voltada para Account Engagement?
+- você poderia me dizer se já concluiu alguma certificação de Account Engagement ou Pardot?
+- seu conjunto de certificações inclui alguma credencial ligada a Account Engagement?
+- você já obteve alguma certificação oficial relacionada ao antigo Pardot?
+- essa certificação de Account Engagement você já conquistou?
+- você já é oficialmente certificado em alguma trilha de Account Engagement?
+#en:
+- do you already have any certification related to Salesforce Account Engagement, formerly Pardot?
+- are you currently certified in any Account Engagement track?
+- is an Account Engagement certification already part of your profile?
+- have you passed any official Salesforce Account Engagement exam?
+- do you currently hold any certification focused on Account Engagement?
+- could you tell me if you have completed any Account Engagement or Pardot certification?
+- does your certification set include any credential related to Account Engagement?
+- have you obtained any official certification related to the former Pardot?
+- have you already earned any Account Engagement certification?
+- are you officially certified in any Account Engagement track?
+#rp_1
+#vr_pt: |
+Sim, eu tenho certificação voltada para Account Engagement, o que reforça minha experiência em automação de marketing B2B, scoring e nutrição de leads.
+#vr_en: |
+Yes, I have a certification focused on Account Engagement, which reinforces my experience in B2B marketing automation, scoring and lead nurturing.
+#rp_2
+#vr_pt: |
+Ainda não tenho certificação específica em Account Engagement, mas já trabalhei com campanhas e automações na ferramenta e pretendo transformar isso em credencial oficial.
+#vr_en: |
+I don’t have a specific Account Engagement certification yet, but I’ve already worked with campaigns and automations in the tool and I plan to turn that into an official credential.
+---
+#intent: certs/data_architect_status
+#pt:
+- você já tem a certificação Salesforce Data Architect?
+- hoje você é certificado como Salesforce Data Architect?
+- a certificação Salesforce Data Architect já faz parte do seu perfil?
+- você já passou na prova de Salesforce Certified Data Architect?
+- atualmente você possui a certificação Salesforce Data Architect?
+- você poderia me dizer se já concluiu a certificação Data Architect?
+- seu conjunto de certificações inclui a de Salesforce Data Architect?
+- você já obteve a certificação Salesforce Certified Data Architect?
+- essa certificação de Data Architect você já conquistou?
+- você já é oficialmente Salesforce Data Architect certificado?
+#en:
+- do you already have the Salesforce Data Architect certification?
+- are you currently certified as a Salesforce Data Architect?
+- is the Salesforce Data Architect certification already part of your profile?
+- have you passed the Salesforce Certified Data Architect exam?
+- do you currently hold the Salesforce Data Architect certification?
+- could you tell me if you have completed the Data Architect certification?
+- does your certification set include the Salesforce Data Architect credential?
+- have you obtained the Salesforce Certified Data Architect certification?
+- have you already earned the Data Architect certification?
+- are you officially a certified Salesforce Data Architect?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Data Architect, que comprova meu domínio em modelagem de dados, integrações, governança e desempenho em escala dentro da plataforma.
+#vr_en: |
+Yes, I have the Salesforce Data Architect certification, which proves my expertise in data modeling, integrations, governance and performance at scale on the platform.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce Data Architect, mas já atuo com decisões de dados na prática e estou estruturando o estudo para validar isso em prova.
+#vr_en: |
+I haven’t completed the Salesforce Data Architect certification yet, but I’m already involved in data-related decisions in practice and I’m structuring my study plan to validate that in the exam.
+---
+#intent: certs/sharing_visibility_architect_status
+#pt:
+- você já tem a certificação Salesforce Sharing and Visibility Architect?
+- hoje você é certificado como Salesforce Sharing and Visibility Architect?
+- a certificação Sharing and Visibility Architect já faz parte do seu currículo?
+- você já passou na prova de Salesforce Sharing and Visibility Architect?
+- atualmente você possui a certificação Salesforce Sharing and Visibility Architect?
+- você poderia me dizer se já concluiu a certificação Sharing and Visibility Architect?
+- seu conjunto de certificações inclui a de Salesforce Sharing and Visibility Architect?
+- você já obteve a certificação Salesforce Certified Sharing and Visibility Architect?
+- essa certificação de Sharing and Visibility Architect você já conquistou?
+- você já é oficialmente Salesforce Sharing and Visibility Architect certificado?
+#en:
+- do you already have the Salesforce Sharing and Visibility Architect certification?
+- are you currently certified as a Salesforce Sharing and Visibility Architect?
+- is the Sharing and Visibility Architect certification already on your résumé?
+- have you passed the Salesforce Sharing and Visibility Architect exam?
+- do you currently hold the Salesforce Sharing and Visibility Architect certification?
+- could you tell me if you have completed the Sharing and Visibility Architect certification?
+- does your certification set include the Salesforce Sharing and Visibility Architect credential?
+- have you obtained the Salesforce Certified Sharing and Visibility Architect certification?
+- have you already earned the Sharing and Visibility Architect certification?
+- are you officially a certified Salesforce Sharing and Visibility Architect?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Sharing and Visibility Architect, que valida minha capacidade de desenhar modelos de segurança, compartilhamento e acesso em cenários complexos.
+#vr_en: |
+Yes, I have the Salesforce Sharing and Visibility Architect certification, which validates my ability to design security, sharing and access models in complex scenarios.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce Sharing and Visibility Architect, mas já trabalho com segurança e modelos de acesso avançados e pretendo formalizar isso na prova.
+#vr_en: |
+I haven’t taken the Salesforce Sharing and Visibility Architect certification yet, but I already work with advanced security and access models and I plan to formalize that in the exam.
+---
+#intent: certs/identity_access_architect_status
+#pt:
+- você já tem a certificação Salesforce Identity and Access Management Architect?
+- hoje você é certificado como Salesforce Identity and Access Management Architect?
+- a certificação Identity and Access Management Architect já faz parte do seu perfil?
+- você já passou na prova de Salesforce Identity and Access Management Architect?
+- atualmente você possui a certificação Salesforce Identity and Access Management Architect?
+- você poderia me dizer se já concluiu a certificação Identity and Access Management Architect?
+- seu conjunto de certificações inclui a de Salesforce Identity and Access Management Architect?
+- você já obteve a certificação Salesforce Certified Identity and Access Management Architect?
+- essa certificação de Identity and Access Architect você já conquistou?
+- você já é oficialmente Salesforce Identity and Access Management Architect certificado?
+#en:
+- do you already have the Salesforce Identity and Access Management Architect certification?
+- are you currently certified as a Salesforce Identity and Access Management Architect?
+- is the Identity and Access Management Architect certification already part of your profile?
+- have you passed the Salesforce Identity and Access Management Architect exam?
+- do you currently hold the Salesforce Identity and Access Management Architect certification?
+- could you tell me if you have completed the Identity and Access Management Architect certification?
+- does your certification set include the Salesforce Identity and Access Management Architect credential?
+- have you obtained the Salesforce Certified Identity and Access Management Architect certification?
+- have you already earned the Identity and Access Management Architect certification?
+- are you officially a certified Salesforce Identity and Access Management Architect?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Identity and Access Management Architect, que comprova minha experiência com autenticação, SSO, federation e segurança de identidade na plataforma.
+#vr_en: |
+Yes, I have the Salesforce Identity and Access Management Architect certification, which proves my experience with authentication, SSO, federation and identity security on the platform.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce Identity and Access Management Architect, mas já lido com cenários de identidade e acesso e estou evoluindo para validar isso em prova.
+#vr_en: |
+I haven’t completed the Salesforce Identity and Access Management Architect certification yet, but I already deal with identity and access scenarios and I’m progressing towards validating that in the exam.
+---
+#intent: certs/dev_lifecycle_deployment_architect_status
+#pt:
+- você já tem a certificação Salesforce Development Lifecycle and Deployment Architect?
+- hoje você é certificado como Salesforce Development Lifecycle and Deployment Architect?
+- a certificação Development Lifecycle and Deployment Architect já faz parte do seu currículo?
+- você já passou na prova de Salesforce Development Lifecycle and Deployment Architect?
+- atualmente você possui a certificação Salesforce Development Lifecycle and Deployment Architect?
+- você poderia me dizer se já concluiu a certificação Development Lifecycle and Deployment Architect?
+- seu conjunto de certificações inclui a de Salesforce Development Lifecycle and Deployment Architect?
+- você já obteve a certificação Salesforce Certified Development Lifecycle and Deployment Architect?
+- essa certificação de Development Lifecycle and Deployment Architect você já conquistou?
+- você já é oficialmente Salesforce Development Lifecycle and Deployment Architect certificado?
+#en:
+- do you already have the Salesforce Development Lifecycle and Deployment Architect certification?
+- are you currently certified as a Salesforce Development Lifecycle and Deployment Architect?
+- is the Development Lifecycle and Deployment Architect certification already on your résumé?
+- have you passed the Salesforce Development Lifecycle and Deployment Architect exam?
+- do you currently hold the Salesforce Development Lifecycle and Deployment Architect certification?
+- could you tell me if you have completed the Development Lifecycle and Deployment Architect certification?
+- does your certification set include the Salesforce Development Lifecycle and Deployment Architect credential?
+- have you obtained the Salesforce Certified Development Lifecycle and Deployment Architect certification?
+- have you already earned the Development Lifecycle and Deployment Architect certification?
+- are you officially a certified Salesforce Development Lifecycle and Deployment Architect?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Development Lifecycle and Deployment Architect, que mostra que eu sei estruturar ALM, versionamento, ambientes e estratégia de deploy de forma organizada.
+#vr_en: |
+Yes, I have the Salesforce Development Lifecycle and Deployment Architect certification, which shows that I can structure ALM, version control, environments and deployment strategy in an organized way.
+#rp_2
+#vr_pt: |
+Ainda não tirei a certificação Salesforce Development Lifecycle and Deployment Architect, mas já atuo com pipelines, versionamento e deploy entre ambientes e quero consolidar isso na prova.
+#vr_en: |
+I haven’t taken the Salesforce Development Lifecycle and Deployment Architect certification yet, but I already work with pipelines, version control and cross-environment deployments and I want to consolidate that in the exam.
+---
+#intent: certs/nonprofit_cloud_consultant_status
+#pt:
+- você já tem a certificação Salesforce Nonprofit Cloud Consultant?
+- hoje você é certificado como Salesforce Nonprofit Cloud Consultant?
+- a certificação Nonprofit Cloud Consultant já faz parte do seu perfil?
+- você já passou na prova de Salesforce Nonprofit Cloud Consultant?
+- atualmente você possui a certificação Salesforce Nonprofit Cloud Consultant?
+- você poderia me dizer se já concluiu a certificação Nonprofit Cloud Consultant?
+- seu conjunto de certificações inclui a de Salesforce Nonprofit Cloud Consultant?
+- você já obteve a certificação Salesforce Certified Nonprofit Cloud Consultant?
+- essa certificação de Nonprofit Cloud Consultant você já conquistou?
+- você já é oficialmente Salesforce Nonprofit Cloud Consultant certificado?
+#en:
+- do you already have the Salesforce Nonprofit Cloud Consultant certification?
+- are you currently certified as a Salesforce Nonprofit Cloud Consultant?
+- is the Nonprofit Cloud Consultant certification already part of your profile?
+- have you passed the Salesforce Nonprofit Cloud Consultant exam?
+- do you currently hold the Salesforce Nonprofit Cloud Consultant certification?
+- could you tell me if you have completed the Nonprofit Cloud Consultant certification?
+- does your certification set include the Salesforce Nonprofit Cloud Consultant credential?
+- have you obtained the Salesforce Certified Nonprofit Cloud Consultant certification?
+- have you already earned the Nonprofit Cloud Consultant certification?
+- are you officially a certified Salesforce Nonprofit Cloud Consultant?
+#rp_1
+#vr_pt: |
+Sim, eu tenho a certificação Salesforce Nonprofit Cloud Consultant, que reforça minha experiência em soluções voltadas para organizações sem fins lucrativos.
+#vr_en: |
+Yes, I have the Salesforce Nonprofit Cloud Consultant certification, which reinforces my experience with solutions focused on nonprofit organizations.
+#rp_2
+#vr_pt: |
+Ainda não concluí a certificação Salesforce Nonprofit Cloud Consultant, mas já participei de iniciativas ligadas ao terceiro setor e vejo essa prova como um próximo passo natural.
+#vr_en: |
+I haven’t completed the Salesforce Nonprofit Cloud Consultant certification yet, but I’ve already been involved in nonprofit-related initiatives and see that exam as a natural next step.
+---
+#intent: knowledge/mulesoft_overall_experience
+#pt:
+- você pode me explicar de forma geral qual é a sua experiência com MuleSoft?
+- como você descreveria seu nível atual de conhecimento em MuleSoft?
+- com quanto tempo de experiência em MuleSoft você trabalha hoje?
+- que tipo de projetos você já realizou usando MuleSoft?
+- você poderia me dar uma visão geral do que já fez com a plataforma MuleSoft?
+- qual foi o contexto principal em que você mais usou MuleSoft até agora?
+- em quais áreas do ciclo de integração você mais atuou usando MuleSoft?
+- que papel você geralmente assume em projetos que envolvem MuleSoft?
+- qual foi o projeto mais relevante que você fez com MuleSoft?
+- hoje você se considera mais generalista ou mais especialista em MuleSoft?
+#en:
+- can you give me an overview of your experience with MuleSoft?
+- how would you describe your current level of knowledge in MuleSoft?
+- how much hands-on experience do you have working with MuleSoft?
+- what kind of projects have you delivered using MuleSoft?
+- could you give me a general view of what you have done with the MuleSoft platform?
+- in what main context have you used MuleSoft the most so far?
+- which parts of the integration lifecycle have you worked on using MuleSoft?
+- what role do you usually play in projects that involve MuleSoft?
+- what has been the most relevant project you have done with MuleSoft?
+- would you say you are more of a generalist or a specialist when it comes to MuleSoft?
+#rp_1
+#vr_pt: |
+Hoje eu tenho uma experiência sólida com MuleSoft, atuando em projetos de integração ponta a ponta, desde o desenho das APIs até deploy e operação. Já trabalhei em cenários de alta criticidade, lidando com integrações síncronas e assíncronas, uso de API-led, tratamento de erros padronizado e monitoramento da plataforma.
+#vr_en: |
+Today I have solid experience with MuleSoft, working on end-to-end integration projects, from API design to deployment and operations. I have worked on high-criticality scenarios, handling synchronous and asynchronous integrations, API-led patterns, standardized error handling and platform monitoring.
+#rp_2
+#vr_pt: |
+Minha experiência com MuleSoft ainda é mais inicial e concentrada em atividades pontuais. Tenho estudado bastante a plataforma, apoiado algumas tarefas em projetos e estou focado em transformar esse conhecimento em algo mais consistente no dia a dia.
+#vr_en: |
+My experience with MuleSoft is still more at an early stage and focused on specific tasks. I have been studying the platform a lot, supporting some activities in projects and I am working on turning that knowledge into something more consistent in my day-to-day work.
+---
+#intent: knowledge/mulesoft_api_led_connectivity
+#pt:
+- o que você entende por API-led connectivity dentro do contexto MuleSoft?
+- como você explicaria o conceito de API-led para alguém que está começando em MuleSoft?
+- qual é a diferença prática entre usar API-led e fazer integrações pontuais em MuleSoft?
+- como você costuma separar APIs de sistema, de processo e de experiência na sua arquitetura?
+- em um projeto MuleSoft, como você decide em qual camada API-led cada integração deve ficar?
+- que benefícios você já percebeu ao aplicar API-led connectivity em projetos reais?
+- como o conceito de reutilização entra na sua visão de API-led em MuleSoft?
+- como você costuma organizar o versionamento das APIs em uma arquitetura API-led?
+- você pode dar um exemplo simples de cadeia de chamadas usando API-led?
+- na sua visão, onde API-led mais ajuda quando o ambiente começa a crescer?
+#en:
+- what do you understand by API-led connectivity in the MuleSoft context?
+- how would you explain the API-led concept to someone who is just starting with MuleSoft?
+- what is the practical difference between using API-led and building point-to-point integrations in MuleSoft?
+- how do you usually separate system, process and experience APIs in your architecture?
+- in a MuleSoft project, how do you decide which API-led layer each integration should belong to?
+- what benefits have you seen when applying API-led connectivity in real projects?
+- how does the idea of reuse fit into your view of API-led in MuleSoft?
+- how do you usually organize API versioning in an API-led architecture?
+- can you give a simple example of a call chain using API-led?
+- in your opinion, where does API-led help the most when the environment starts to grow?
+#rp_1
+#vr_pt: |
+Para mim API-led é uma forma estruturada de organizar integrações em camadas de sistema, processo e experiência. Em MuleSoft eu costumo isolar o acesso às fontes de dados em APIs de sistema, orquestrar regras de negócio em APIs de processo e expor o que o canal precisa em APIs de experiência, o que traz mais reutilização, governança e manutenção mais simples.
+#vr_en: |
+For me, API-led is a structured way to organize integrations into system, process and experience layers. In MuleSoft I usually isolate data access in system APIs, orchestrate business rules in process APIs and expose what each channel needs in experience APIs, which brings more reuse, governance and easier maintenance.
+#rp_2
+#vr_pt: |
+Eu ainda estou consolidando o conceito de API-led na prática. Entendo a teoria das camadas de sistema, processo e experiência, mas quero ganhar mais vivência em projetos para aplicar esse modelo de forma mais consistente no dia a dia.
+#vr_en: |
+I am still consolidating the API-led concept in practice. I understand the theory of system, process and experience layers, but I want to gain more hands-on project experience to apply that model more consistently in my daily work.
+---
+#intent: knowledge/mulesoft_dataweave_skills
+#pt:
+- como você descreveria seu nível de habilidade com DataWeave em MuleSoft?
+- que tipos de transformações você costuma fazer com DataWeave no dia a dia?
+- você se sente confortável trabalhando com JSON, XML e outros formatos usando DataWeave?
+- como você organiza funções reutilizáveis em DataWeave nos seus projetos?
+- já teve que lidar com transformações mais complexas usando DataWeave? pode comentar?
+- como você costuma tratar erros ou dados inesperados dentro de scripts DataWeave?
+- que cuidados você toma com performance ao escrever scripts DataWeave?
+- você já trabalhou com módulos e bibliotecas compartilhadas de DataWeave entre aplicações?
+- como você costuma testar e validar suas transformações em DataWeave?
+- em que momento você decide usar DataWeave em vez de outra abordagem dentro do flow?
+#en:
+- how would you describe your skill level with DataWeave in MuleSoft?
+- what types of transformations do you usually build with DataWeave in your daily work?
+- do you feel comfortable working with JSON, XML and other formats using DataWeave?
+- how do you organize reusable functions in DataWeave in your projects?
+- have you dealt with more complex transformations using DataWeave? can you comment?
+- how do you usually handle errors or unexpected data inside DataWeave scripts?
+- what kind of performance considerations do you keep in mind when writing DataWeave?
+- have you worked with shared DataWeave modules and libraries across applications?
+- how do you usually test and validate your DataWeave transformations?
+- when do you decide to use DataWeave instead of another approach inside the flow?
+#rp_1
+#vr_pt: |
+Eu tenho boa experiência com DataWeave, costumo trabalhar com transformações entre JSON, XML, CSV e estruturas mais complexas. No dia a dia eu uso funções reutilizáveis, módulos compartilhados e trato casos de erro ou dados inconsistentes para garantir que a integração se comporte de forma previsível.
+#vr_en: |
+I have solid experience with DataWeave and I usually work with transformations between JSON, XML, CSV and more complex structures. On a daily basis I use reusable functions, shared modules and handle error cases or inconsistent data to ensure the integration behaves in a predictable way.
+#rp_2
+#vr_pt: |
+Meu uso de DataWeave ainda é mais básico, focado em transformações mais simples e diretas. Tenho estudado funções mais avançadas e boas práticas e quero evoluir para usar módulos reutilizáveis e padrões mais robustos nos próximos projetos.
+#vr_en: |
+My use of DataWeave is still more basic, focused on simpler and more straightforward transformations. I have been studying more advanced functions and best practices and I want to evolve to use reusable modules and more robust patterns in upcoming projects.
+---
+#intent: knowledge/mulesoft_error_handling
+#pt:
+- como você costuma estruturar tratamento de erros em integrações MuleSoft?
+- qual é a sua abordagem para normalizar erros vindos de diferentes sistemas em MuleSoft?
+- você pode explicar como diferencia erros funcionais de erros técnicos em um flow Mule?
+- como você decide o que logar e o que mascarar em mensagens de erro em MuleSoft?
+- já precisou criar um padrão de erro reutilizável para várias APIs MuleSoft?
+- como você costuma configurar try, on error propagate e on error continue nos seus projetos?
+- qual é a sua estratégia para retornar códigos HTTP adequados em caso de erro nas APIs?
+- como você integra tratamento de erros com monitoramento e alertas em MuleSoft?
+- que cuidados você tem para não expor dados sensíveis em mensagens de erro?
+- você poderia comentar um exemplo de incidente em produção e como o tratamento de erros ajudou ou atrapalhou?
+#en:
+- how do you usually structure error handling in MuleSoft integrations?
+- what is your approach to normalizing errors coming from different systems in MuleSoft?
+- can you explain how you distinguish functional errors from technical errors in a Mule flow?
+- how do you decide what to log and what to mask in error messages in MuleSoft?
+- have you ever created a reusable error pattern for multiple MuleSoft APIs?
+- how do you configure try, on error propagate and on error continue in your projects?
+- what is your strategy to return appropriate HTTP status codes in case of errors in your APIs?
+- how do you connect error handling with monitoring and alerting in MuleSoft?
+- what precautions do you take to avoid exposing sensitive data in error messages?
+- could you share an example of a production incident and how error handling helped or made things harder?
+#rp_1
+#vr_pt: |
+Em MuleSoft eu costumo centralizar o tratamento de erros em handlers padronizados, normalizando o formato de resposta, códigos HTTP e mensagens. Diferencio bem erros funcionais de erros técnicos, registro logs com correlação e mascaro dados sensíveis, o que facilita o suporte e a observabilidade sem comprometer segurança.
+#vr_en: |
+In MuleSoft I usually centralize error handling in standardized handlers, normalizing response format, HTTP codes and messages. I clearly distinguish functional errors from technical ones, log with correlation and mask sensitive data, which makes support and observability easier without compromising security.
+#rp_2
+#vr_pt: |
+Hoje meu tratamento de erros em MuleSoft ainda é mais simples e distribuído diretamente nos flows. Eu tenho estudado padrões de erro mais padronizados e quero evoluir para uma abordagem mais centralizada e consistente entre as APIs.
+#vr_en: |
+Right now my error handling in MuleSoft is still simpler and more distributed directly across flows. I have been studying more standardized error patterns and I want to move towards a more centralized and consistent approach across APIs.
+---
+#intent: knowledge/mulesoft_cloudhub_deployment
+#pt:
+- como você descreveria sua experiência com deploy de aplicações MuleSoft no CloudHub?
+- que passos você costuma seguir para preparar um deploy de MuleSoft para CloudHub?
+- como você lida com variáveis de ambiente e propriedades sensíveis no CloudHub?
+- qual é a sua experiência com workers, vcores e dimensionamento de aplicações no CloudHub?
+- como você costuma monitorar logs e métricas de aplicações MuleSoft em produção no CloudHub?
+- você já precisou fazer troubleshooting de problemas de performance em CloudHub?
+- como você organiza a estratégia de promoção entre ambientes no CloudHub?
+- que ferramentas você usa para automatizar deploys de MuleSoft no CloudHub?
+- como você gerencia versões e rollbacks de aplicações MuleSoft em CloudHub?
+- pode comentar um exemplo em que um ajuste de configuração no CloudHub resolveu um problema de produção?
+#en:
+- how would you describe your experience deploying MuleSoft applications on CloudHub?
+- what steps do you usually follow to prepare a MuleSoft deployment to CloudHub?
+- how do you handle environment variables and sensitive properties in CloudHub?
+- what is your experience with workers, vcores and sizing applications in CloudHub?
+- how do you usually monitor logs and metrics of MuleSoft applications in production on CloudHub?
+- have you had to troubleshoot performance issues on CloudHub?
+- how do you organize your promotion strategy across environments in CloudHub?
+- what tools do you use to automate MuleSoft deployments to CloudHub?
+- how do you manage versions and rollbacks of MuleSoft applications in CloudHub?
+- can you share an example where a CloudHub configuration change fixed a production issue?
+#rp_1
+#vr_pt: |
+Eu tenho boa experiência com deploy em CloudHub, trabalhando com propriedades por ambiente, configurações seguras, sizing de workers e automação via pipelines. No dia a dia eu acompanho logs e métricas, ajusto configurações quando necessário e ajudo a estruturar a estratégia de promoção entre DEV, QA e produção.
+#vr_en: |
+I have solid experience deploying on CloudHub, working with environment-specific properties, secure configurations, worker sizing and automation through pipelines. On a daily basis I track logs and metrics, fine-tune configurations when needed and help define the promotion strategy across DEV, QA and production.
+#rp_2
+#vr_pt: |
+Minha experiência com CloudHub ainda é mais básica, focada em deploys mais simples e acompanhamento direto pelo console. Tenho estudado automação, monitoramento mais avançado e boas práticas de sizing para evoluir nessa parte de operação.
+#vr_en: |
+My experience with CloudHub is still more basic, focused on simpler deployments and direct monitoring through the console. I have been studying automation, more advanced monitoring and sizing best practices to evolve on this operational side.
+---
+#intent: knowledge/mulesoft_accelerators_overview
+#pt:
+- você pode me explicar o que são os MuleSoft Accelerators de forma geral?
+- como você descreveria os MuleSoft Accelerators para alguém que nunca ouviu falar?
+- na sua visão, qual é o objetivo principal dos MuleSoft Accelerators?
+- em que tipo de situação você recomendaria usar um MuleSoft Accelerator?
+- como os MuleSoft Accelerators ajudam a acelerar projetos de integração?
+- qual é a diferença entre usar um Accelerator e desenvolver tudo do zero em MuleSoft?
+- que tipo de ativos técnicos normalmente compõem um MuleSoft Accelerator?
+- como você enxerga o papel de referência de arquitetura dentro dos Accelerators?
+- de que forma os MuleSoft Accelerators impactam descoberta, design e testes em projetos?
+- você já precisou adaptar um Accelerator para o contexto específico de um cliente?
+#en:
+- can you explain what MuleSoft Accelerators are in general terms?
+- how would you describe MuleSoft Accelerators to someone who has never heard of them?
+- in your view, what is the main purpose of MuleSoft Accelerators?
+- in what kind of situation would you recommend using a MuleSoft Accelerator?
+- how do MuleSoft Accelerators help accelerate integration projects?
+- what is the difference between using an Accelerator and building everything from scratch in MuleSoft?
+- what kind of technical assets usually make up a MuleSoft Accelerator?
+- how do you see the role of reference architecture inside these Accelerators?
+- in what way do MuleSoft Accelerators impact discovery, design and testing efforts?
+- have you ever needed to adapt an Accelerator to a specific customer context?
+#rp_1
+#vr_pt: |
+Eu enxergo os MuleSoft Accelerators como blocos de construção modulares que já trazem APIs, templates de implementação, mapeamentos e referências de arquitetura prontos para acelerar casos de uso típicos por indústria. Em vez de partir do zero, eu aproveito esses ativos como ponto de partida, adapto padrões, endpoints e integrações para a realidade do cliente e ganho bastante tempo em descoberta, design, desenvolvimento e testes.
+#vr_en: |
+I see MuleSoft Accelerators as modular building blocks that already provide APIs, implementation templates, mappings and reference architectures to speed up common industry use cases. Instead of starting from scratch, I use these assets as a starting point, adapt patterns, endpoints and integrations to the customer’s reality, and save a lot of time on discovery, design, development and testing.
+#rp_2
+#vr_pt: |
+Eu ainda conheço os MuleSoft Accelerators mais na teoria do que na prática. Entendo que eles reúnem especificações de API, templates e referências de arquitetura para acelerar casos de uso por indústria, mas meu contato direto com projetos usando esses ativos ainda é limitado e é algo que eu quero explorar mais.
+#vr_en: |
+I still know MuleSoft Accelerators more from a theoretical perspective than from hands-on work. I understand that they bundle API specs, templates and reference architectures to speed up industry use cases, but my direct experience using these assets in real projects is still limited and it is something I want to explore more.
+---
+#intent: knowledge/mulesoft_accelerator_consumer_goods
+#pt:
+- o que você sabe sobre o MuleSoft Accelerator for Consumer Goods?
+- como o MuleSoft Accelerator for Consumer Goods pode ajudar empresas de bens de consumo?
+- em que tipo de caso de uso de trade promotion ou retail execution você vê esse Accelerator sendo aplicado?
+- você já trabalhou com integrações em consumer goods usando o MuleSoft Accelerator?
+- na prática, como esse Accelerator ajuda a ganhar visibilidade sobre a operação de campo em bens de consumo?
+- que sistemas típicos você imagina conectando ao usar o Accelerator for Consumer Goods?
+- como você adaptaria os padrões desse Accelerator para a realidade de um novo cliente?
+- em termos de benefício, o que mais te chama atenção no Accelerator for Consumer Goods?
+- você enxerga esse Accelerator mais como referência ou como algo quase pronto para uso?
+- se um cliente de bens de consumo te pedisse agilidade em integrações, como você apresentaria esse Accelerator?
+#en:
+- what do you know about the MuleSoft Accelerator for Consumer Goods?
+- how can the MuleSoft Accelerator for Consumer Goods help consumer goods companies?
+- in what kind of trade promotion or retail execution use cases do you see this Accelerator being applied?
+- have you worked on consumer goods integrations using the MuleSoft Accelerator?
+- in practice, how does this Accelerator help gain visibility into field operations for consumer goods?
+- what typical systems do you imagine connecting when using the Accelerator for Consumer Goods?
+- how would you adapt this Accelerator’s patterns to a new customer’s reality?
+- in terms of benefits, what stands out to you in the Accelerator for Consumer Goods?
+- do you see this Accelerator more as a reference or as something almost ready to use?
+- if a consumer goods customer asked for fast integrations, how would you present this Accelerator?
+#rp_1
+#vr_pt: |
+O MuleSoft Accelerator for Consumer Goods é voltado para integrar operações digitais de bens de consumo, principalmente em trade promotion e retail execution. Eu enxergo ele como uma base para conectar CRM, sistemas de trade, execução em loja e analytics, dando mais visibilidade de ponta a ponta e reduzindo bastante o esforço inicial de desenho e implementação.
+#vr_en: |
+The MuleSoft Accelerator for Consumer Goods is focused on integrating digital operations for consumer goods, especially around trade promotion and retail execution. I see it as a base to connect CRM, trade systems, in-store execution and analytics, providing end-to-end visibility and significantly reducing the initial design and implementation effort.
+#rp_2
+#vr_pt: |
+Eu ainda não usei o MuleSoft Accelerator for Consumer Goods diretamente em projetos. Conheço o posicionamento dele para integrar operações de bens de consumo, mas hoje eu precisaria revisar melhor a documentação e os ativos técnicos antes de propor um desenho mais detalhado para um cliente.
+#vr_en: |
+I have not used the MuleSoft Accelerator for Consumer Goods directly in projects yet. I know it is positioned to integrate consumer goods operations, but at this point I would need to revisit the documentation and technical assets before proposing a more detailed design for a customer.
+---
+#intent: knowledge/mulesoft_accelerator_data_cloud
+#pt:
+- qual é a sua visão sobre o MuleSoft Accelerator for Data Cloud?
+- como o MuleSoft Accelerator for Data Cloud pode ajudar a conectar sistemas de registro ao Data Cloud?
+- em que tipo de cenário de unificação de dados você usaria esse Accelerator?
+- você já trabalhou em projetos que integravam sistemas core com Salesforce Data Cloud usando esse Accelerator?
+- que benefícios você enxerga em usar esse Accelerator em vez de construir tudo manualmente para Data Cloud?
+- como você vê o papel desse Accelerator em iniciativas de customer 360 usando Data Cloud?
+- que tipos de sistemas de origem você imagina plugando rapidamente com o Accelerator for Data Cloud?
+- como você adaptaria mapeamentos e padrões desse Accelerator para a realidade de um cliente específico?
+- que cuidados você teria com qualidade e governança de dados ao usar esse Accelerator?
+- se um cliente quisesse começar rápido com Data Cloud, como você introduziria esse Accelerator na conversa?
+#en:
+- what is your view of the MuleSoft Accelerator for Data Cloud?
+- how can the MuleSoft Accelerator for Data Cloud help connect systems of record to Data Cloud?
+- in what kind of data unification scenarios would you use this Accelerator?
+- have you worked on projects integrating core systems with Salesforce Data Cloud using this Accelerator?
+- what benefits do you see in using this Accelerator instead of building everything manually for Data Cloud?
+- how do you see this Accelerator’s role in customer 360 initiatives using Data Cloud?
+- what kinds of source systems do you imagine plugging in quickly with the Accelerator for Data Cloud?
+- how would you adapt this Accelerator’s mappings and patterns to a specific customer reality?
+- what considerations would you have around data quality and governance when using this Accelerator?
+- if a customer wanted to start quickly with Data Cloud, how would you introduce this Accelerator?
+#rp_1
+#vr_pt: |
+O MuleSoft Accelerator for Data Cloud ajuda a destravar e conectar sistemas de registro ao Salesforce Data Cloud de forma mais rápida, com APIs, mapeamentos e padrões já pensados para unificação de dados. Eu vejo ele como um atalho importante para acelerar ingestão, normalização e preparação dos dados sem reinventar toda a camada de integração.
+#vr_en: |
+The MuleSoft Accelerator for Data Cloud helps unlock and connect systems of record to Salesforce Data Cloud more quickly, with APIs, mappings and patterns already designed for data unification. I see it as an important shortcut to accelerate ingestion, normalization and data preparation without reinventing the entire integration layer.
+#rp_2
+#vr_pt: |
+Meu contato com o MuleSoft Accelerator for Data Cloud ainda é mais conceitual. Eu entendo que ele simplifica a conexão entre sistemas core e o Data Cloud, mas hoje eu precisaria me aprofundar nos artefatos e exemplos antes de desenhar uma solução mais detalhada para um cliente.
+#vr_en: |
+My contact with the MuleSoft Accelerator for Data Cloud is still more conceptual. I understand that it simplifies the connection between core systems and Data Cloud, but at this stage I would need to dive deeper into the assets and examples before designing a more detailed solution for a customer.
+---
+#intent: knowledge/mulesoft_accelerator_financial_services
+#pt:
+- o que você conhece sobre o MuleSoft Accelerator for Financial Services?
+- como o MuleSoft Accelerator for Financial Services apoia iniciativas de customer 360 em bancos e seguradoras?
+- em que tipo de cenário de integração de core banking e CRM você usaria esse Accelerator?
+- você já atuou em projetos financeiros usando o MuleSoft Accelerator for Financial Services?
+- que tipo de sistemas de engajamento e core você imagina conectando com esse Accelerator?
+- como esse Accelerator ajuda a integrar dados de bancos, seguradoras, fintechs e insuretechs?
+- qual é, na sua visão, o principal ganho de usar esse Accelerator em ambientes financeiros complexos?
+- como você adaptaria os ativos desse Accelerator à realidade regulatória de um país específico?
+- que cuidados adicionais de segurança e compliance você teria ao usar esse Accelerator?
+- se um banco te pedisse uma visão rápida do Accelerator, como você resumiria o valor dele?
+#en:
+- what do you know about the MuleSoft Accelerator for Financial Services?
+- how does the MuleSoft Accelerator for Financial Services support customer 360 initiatives in banks and insurers?
+- in what kind of core banking and CRM integration scenarios would you use this Accelerator?
+- have you worked on financial projects using the MuleSoft Accelerator for Financial Services?
+- what types of engagement and core systems do you imagine connecting with this Accelerator?
+- how does this Accelerator help integrate data from banks, insurers, fintechs and insuretechs?
+- in your opinion, what is the main benefit of using this Accelerator in complex financial environments?
+- how would you adapt this Accelerator’s assets to the regulatory reality of a specific country?
+- what extra security and compliance considerations would you have when using this Accelerator?
+- if a bank asked you for a quick overview of the Accelerator, how would you summarize its value?
+#rp_1
+#vr_pt: |
+O MuleSoft Accelerator for Financial Services foi pensado para simplificar iniciativas de customer 360 integrando core banking, plataformas de seguro, CRM, ITSM, fintechs e insuretechs. Eu vejo ele como uma base forte para organizar APIs, modelos de dados e fluxos de integração típicos do setor financeiro, acelerando bastante a entrega de casos de uso de visão unificada do cliente.
+#vr_en: |
+The MuleSoft Accelerator for Financial Services is designed to simplify customer 360 initiatives by integrating core banking, insurance platforms, CRM, ITSM, fintechs and insuretechs. I see it as a strong foundation to organize APIs, data models and integration flows that are typical in the financial sector, significantly speeding up delivery of unified customer view use cases.
+#rp_2
+#vr_pt: |
+Eu ainda não utilizei o MuleSoft Accelerator for Financial Services diretamente em projetos. Conheço o posicionamento dele para customer 360 em bancos e seguradoras, mas hoje eu precisaria estudar melhor os artefatos e exemplos antes de propor um desenho mais profundo para esse tipo de cliente.
+#vr_en: |
+I have not used the MuleSoft Accelerator for Financial Services directly in projects yet. I know how it is positioned for customer 360 in banks and insurers, but right now I would need to study the assets and examples more closely before proposing a deeper design for that kind of customer.
+---
+#intent: knowledge/mulesoft_accelerator_healthcare
+#pt:
+- qual é a sua visão sobre o MuleSoft Accelerator for Healthcare?
+- como o MuleSoft Accelerator for Healthcare apoia payers, providers e life sciences?
+- em que tipo de caso de uso de saúde você imagina esse Accelerator sendo aplicado?
+- você já trabalhou com integrações de saúde usando o MuleSoft Accelerator for Healthcare?
+- que sistemas típicos de saúde você vê sendo conectados com esse Accelerator?
+- como esse Accelerator ajuda a acelerar a transformação digital em organizações de saúde?
+- que desafios de interoperabilidade você acha que esse Accelerator ajuda a mitigar?
+- como você adaptaria os casos de uso desse Accelerator ao contexto regulatório local de saúde?
+- que ganhos de tempo de entrega você espera ao usar esse Accelerator em projetos de saúde?
+- se um hospital te perguntasse por que considerar esse Accelerator, o que você destacaria?
+#en:
+- what is your view of the MuleSoft Accelerator for Healthcare?
+- how does the MuleSoft Accelerator for Healthcare support payers, providers and life sciences organizations?
+- in what kind of healthcare use cases do you imagine this Accelerator being applied?
+- have you worked with healthcare integrations using the MuleSoft Accelerator for Healthcare?
+- what typical healthcare systems do you see being connected with this Accelerator?
+- how does this Accelerator help accelerate digital transformation in healthcare organizations?
+- what interoperability challenges do you think this Accelerator helps address?
+- how would you adapt this Accelerator’s use cases to the local healthcare regulatory context?
+- what kind of delivery time savings would you expect when using this Accelerator in healthcare projects?
+- if a hospital asked you why they should consider this Accelerator, what would you highlight?
+#rp_1
+#vr_pt: |
+O MuleSoft Accelerator for Healthcare traz ativos voltados a payers, providers e life sciences, ajudando a integrar sistemas clínicos, administrativos e de engajamento. Eu vejo ele como um facilitador de interoperabilidade e de jornadas digitais em saúde, reduzindo a complexidade de integrar múltiplas fontes de dados sensíveis.
+#vr_en: |
+The MuleSoft Accelerator for Healthcare provides assets targeted at payers, providers and life sciences organizations, helping integrate clinical, administrative and engagement systems. I see it as a way to facilitate interoperability and digital journeys in healthcare, reducing the complexity of integrating multiple sensitive data sources.
+#rp_2
+#vr_pt: |
+Meu contato com o MuleSoft Accelerator for Healthcare ainda é limitado. Eu conheço a proposta de apoiar payers e providers na integração de sistemas, mas hoje eu precisaria estudar melhor os casos de uso e requisitos regulatórios antes de aplicar isso em um projeto real.
+#vr_en: |
+My exposure to the MuleSoft Accelerator for Healthcare is still limited. I understand the idea of supporting payers and providers in system integration, but at this point I would need to study the use cases and regulatory requirements more deeply before applying it in a real project.
+---
+#intent: knowledge/mulesoft_accelerator_life_sciences
+#pt:
+- o que você sabe sobre o MuleSoft Accelerator for Life Sciences?
+- como o MuleSoft Accelerator for Life Sciences ajuda farmacêuticas e empresas de medical devices?
+- em que tipo de cenário de pesquisa clínica ou lançamento de produtos você imagina esse Accelerator?
+- você já teve contato com projetos de life sciences usando esse Accelerator?
+- que tipos de sistemas você conectaria usando o MuleSoft Accelerator for Life Sciences?
+- como esse Accelerator contribui para acelerar time-to-market em life sciences?
+- que desafios de integração em CROs e laboratórios esse Accelerator pode endereçar?
+- como você adaptaria os ativos desse Accelerator para diferentes processos regulatórios?
+- de forma prática, que ganhos um cliente de life sciences teria ao adotá-lo?
+- se uma empresa farmacêutica pedisse uma visão rápida desse Accelerator, como você explicaria?
+#en:
+- what do you know about the MuleSoft Accelerator for Life Sciences?
+- how does the MuleSoft Accelerator for Life Sciences help pharmaceutical and medical device companies?
+- in what kind of clinical research or product launch scenarios do you imagine this Accelerator?
+- have you had any contact with life sciences projects using this Accelerator?
+- what types of systems would you connect using the MuleSoft Accelerator for Life Sciences?
+- how does this Accelerator help speed up time-to-market in life sciences?
+- what integration challenges in CROs and labs can this Accelerator help address?
+- how would you adapt this Accelerator’s assets to different regulatory processes?
+- in practical terms, what benefits would a life sciences customer get from adopting it?
+- if a pharmaceutical company asked you for a quick overview of this Accelerator, how would you describe it?
+#rp_1
+#vr_pt: |
+O MuleSoft Accelerator for Life Sciences foi pensado para ajudar farmacêuticas, empresas de dispositivos médicos e CROs a integrar operações digitais e acelerar a chegada de produtos ao mercado. Eu enxergo ele como uma base pronta para conectar sistemas de pesquisa, manufatura, qualidade e comerciais, reduzindo bastante o esforço inicial de desenho.
+#vr_en: |
+The MuleSoft Accelerator for Life Sciences is designed to help pharmaceutical companies, medical device manufacturers and CROs integrate digital operations and speed up time-to-market. I see it as a ready-made foundation to connect research, manufacturing, quality and commercial systems, significantly reducing the initial design effort.
+#rp_2
+#vr_pt: |
+Ainda não tive exposição prática ao MuleSoft Accelerator for Life Sciences em projetos reais. Eu conheço a proposta de acelerar integrações em farmacêuticas e dispositivos médicos, mas hoje eu teria que estudar melhor os ativos e exemplos antes de aplicar em um caso concreto.
+#vr_en: |
+I have not had practical exposure to the MuleSoft Accelerator for Life Sciences in real projects yet. I know the idea is to accelerate integrations for pharma and medical device companies, but at this stage I would need to study the assets and examples more closely before applying it to a concrete case.
+---
+#intent: knowledge/mulesoft_accelerator_manufacturing
+#pt:
+- qual é a sua visão sobre o MuleSoft Accelerator for Manufacturing?
+- como o MuleSoft Accelerator for Manufacturing apoia fabricantes discretos e de processo?
+- em que tipos de casos de uso industriais você aplicaria esse Accelerator?
+- você já trabalhou com integrações em manufacturing usando esse Accelerator?
+- que sistemas de chão de fábrica e corporativos você imagina conectando com o Accelerator?
+- como esse Accelerator ajuda a acelerar a jornada de transformação digital na indústria?
+- que padrões de integração típicos de manufacturing você espera encontrar nesses ativos?
+- como você adaptaria o Accelerator for Manufacturing à realidade de uma planta específica?
+- que ganhos de visibilidade operacional esse Accelerator pode trazer para a manufatura?
+- se um fabricante pedisse um resumo rápido, como você explicaria o valor desse Accelerator?
+#en:
+- what is your view of the MuleSoft Accelerator for Manufacturing?
+- how does the MuleSoft Accelerator for Manufacturing support discrete and process manufacturers?
+- in what kinds of industrial use cases would you apply this Accelerator?
+- have you worked with manufacturing integrations using this Accelerator?
+- what shop floor and enterprise systems do you imagine connecting with this Accelerator?
+- how does this Accelerator help accelerate the digital transformation journey in manufacturing?
+- what typical manufacturing integration patterns would you expect to find in those assets?
+- how would you adapt the Accelerator for Manufacturing to a specific plant’s reality?
+- what kind of operational visibility gains can this Accelerator bring to manufacturing?
+- if a manufacturer asked you for a quick summary, how would you explain this Accelerator’s value?
+#rp_1
+#vr_pt: |
+O MuleSoft Accelerator for Manufacturing oferece ativos para casos de uso comuns em indústria discreta e de processo, ajudando a integrar sistemas de chão de fábrica, ERP, CRM e outras aplicações. Eu vejo ele como uma forma de padronizar integrações típicas de manufatura e acelerar projetos de visibilidade operacional e automação.
+#vr_en: |
+The MuleSoft Accelerator for Manufacturing provides assets for common use cases in discrete and process manufacturing, helping integrate shop floor systems, ERP, CRM and other applications. I see it as a way to standardize typical manufacturing integrations and accelerate projects around operational visibility and automation.
+#rp_2
+#vr_pt: |
+Meu conhecimento sobre o MuleSoft Accelerator for Manufacturing ainda é mais conceitual. Eu entendo que ele traz casos de uso e ativos prontos para a indústria, mas hoje eu precisaria me aprofundar bem na documentação antes de aplicar em um cenário real de fábrica.
+#vr_en: |
+My knowledge of the MuleSoft Accelerator for Manufacturing is still more conceptual. I understand that it brings ready-made assets and use cases for industry scenarios, but at this point I would need to study the documentation in depth before applying it to a real plant scenario.
+---
+#intent: knowledge/mulesoft_accelerator_oms
+#pt:
+- o que você sabe sobre o MuleSoft Accelerator for Salesforce OMS?
+- como o MuleSoft Accelerator for Salesforce OMS ajuda a estender o Order Management?
+- em que cenários você vê esse Accelerator conectando OMS com parceiros externos?
+- você já participou de projetos usando o MuleSoft Accelerator for Salesforce OMS?
+- que tipos de sistemas de parceiros e legado você imagina integrando com esse Accelerator?
+- como esse Accelerator aproveita o Anypoint Platform para B2B integration em OMS?
+- que benefícios ele traz em termos de tempo de implementação para integrações de pedidos?
+- como você adaptaria os fluxos do Accelerator for OMS à realidade de um cliente específico?
+- que cuidados com consistência de pedidos e estoque você teria ao usar esse Accelerator?
+- se um cliente que usa Salesforce OMS perguntasse sobre esse Accelerator, o que você destacaria?
+#en:
+- what do you know about the MuleSoft Accelerator for Salesforce OMS?
+- how does the MuleSoft Accelerator for Salesforce OMS help extend Order Management?
+- in which scenarios do you see this Accelerator connecting OMS with external partners?
+- have you taken part in projects using the MuleSoft Accelerator for Salesforce OMS?
+- what types of partner and legacy systems do you imagine integrating with this Accelerator?
+- how does this Accelerator leverage Anypoint Platform for B2B integration around OMS?
+- what benefits does it bring in terms of implementation time for order integrations?
+- how would you adapt the Accelerator for OMS flows to a specific customer reality?
+- what consistency considerations for orders and inventory would you have when using this Accelerator?
+- if a customer using Salesforce OMS asked you about this Accelerator, what would you highlight?
+#rp_1
+#vr_pt: |
+O MuleSoft Accelerator for Salesforce OMS é voltado a estender e integrar o Salesforce Order Management com parceiros externos e outros sistemas, usando as capacidades de integração B2B do Anypoint Platform. Eu vejo ele como um atalho importante para conectar OMS com ERPs, sistemas de logística e parceiros, reduzindo tempo de implementação e risco.
+#vr_en: |
+The MuleSoft Accelerator for Salesforce OMS is focused on extending and integrating Salesforce Order Management with external partners and other systems, leveraging the B2B integration capabilities of Anypoint Platform. I see it as an important shortcut to connect OMS with ERPs, logistics systems and partners, reducing implementation time and risk.
+#rp_2
+#vr_pt: |
+Eu ainda não tive experiência prática com o MuleSoft Accelerator for Salesforce OMS. Sei que ele foi pensado para integrar o OMS com ecossistemas externos, mas hoje eu precisaria revisar os fluxos e exemplos antes de propor uma solução detalhada para um cliente.
+#vr_en: |
+I have not had hands-on experience with the MuleSoft Accelerator for Salesforce OMS yet. I know it is designed to integrate OMS with external ecosystems, but at this stage I would need to review the flows and examples before proposing a detailed solution for a customer.
+---
+#intent: knowledge/mulesoft_accelerator_retail
+#pt:
+- qual é a sua visão sobre o MuleSoft Accelerator for Retail?
+- como o MuleSoft Accelerator for Retail apoia times de TI de varejo?
+- em que tipos de projetos digitais de varejo você aplicaria esse Accelerator?
+- você já trabalhou com integrações de varejo usando o MuleSoft Accelerator for Retail?
+- que sistemas típicos de ERP, CRM, MDM, commerce e marketing você imagina conectando com ele?
+- como esse Accelerator ajuda a “desbloquear” dados para ativar iniciativas digitais mais rápido?
+- que benefícios ele traz em termos de reuso de APIs e padronização em varejo?
+- como você adaptaria os ativos desse Accelerator à arquitetura de uma grande rede de lojas?
+- que tipo de visibilidade omnicanal esse Accelerator pode habilitar no varejo?
+- se um varejista te perguntasse o porquê de usar esse Accelerator, o que você ressaltaria?
+#en:
+- what is your view of the MuleSoft Accelerator for Retail?
+- how does the MuleSoft Accelerator for Retail support retail IT teams?
+- in what kinds of digital retail projects would you apply this Accelerator?
+- have you worked with retail integrations using the MuleSoft Accelerator for Retail?
+- what typical ERP, CRM, MDM, commerce and marketing systems do you imagine connecting with it?
+- how does this Accelerator help “unlock” data to activate digital initiatives faster?
+- what benefits does it bring in terms of API reuse and standardization in retail?
+- how would you adapt this Accelerator’s assets to the architecture of a large retail chain?
+- what kind of omnichannel visibility can this Accelerator enable in retail?
+- if a retailer asked you why they should use this Accelerator, what would you highlight?
+#rp_1
+#vr_pt: |
+O MuleSoft Accelerator for Retail foi pensado para ajudar times de TI de varejo a desbloquear dados de ERP, CRM, MDM, commerce e marketing para acelerar projetos digitais. Eu vejo ele como um conjunto de APIs e padrões que facilitam cenários omnichannel, programas de fidelidade e experiências integradas entre canais físicos e digitais.
+#vr_en: |
+The MuleSoft Accelerator for Retail is designed to help retail IT teams unlock data from ERP, CRM, MDM, commerce and marketing systems to accelerate digital projects. I see it as a set of APIs and patterns that makes omnichannel scenarios, loyalty programs and integrated physical–digital experiences easier to deliver.
+#rp_2
+#vr_pt: |
+Meu contato com o MuleSoft Accelerator for Retail ainda é mais de estudo do que de prática em projeto. Eu conheço a proposta de apoiar cenários omnichannel e de dados unificados, mas hoje eu precisaria revisar melhor os ativos antes de aplicar em um cliente específico.
+#vr_en: |
+My contact with the MuleSoft Accelerator for Retail is still more from study than from project work. I know the idea is to support omnichannel and unified data scenarios, but at the moment I would need to review the assets more carefully before applying them to a specific customer.
+---
+#intent: knowledge/mulesoft_accelerator_sap
+#pt:
+- o que você sabe sobre o MuleSoft Accelerator for SAP?
+- como o MuleSoft Accelerator for SAP ajuda a expor dados de SAP ERP?
+- em que tipo de cenário você usaria esse Accelerator para integrar SAP com outros sistemas?
+- você já participou de projetos de integração com SAP usando esse Accelerator?
+- que benefícios você vê em usar o Accelerator for SAP em vez de começar do zero?
+- como esse Accelerator contribui para padronizar acesso a dados de SAP em APIs?
+- que desafios típicos de integração com SAP ele ajuda a mitigar?
+- como você adaptaria mapeamentos e endpoints do Accelerator for SAP à realidade de um cliente?
+- que cuidados de performance e volume de dados você teria ao usar esse Accelerator?
+- se um cliente com SAP forte na arquitetura perguntasse sobre esse Accelerator, o que você destacaria?
+#en:
+- what do you know about the MuleSoft Accelerator for SAP?
+- how does the MuleSoft Accelerator for SAP help expose SAP ERP data?
+- in what kind of scenario would you use this Accelerator to integrate SAP with other systems?
+- have you taken part in SAP integration projects using this Accelerator?
+- what benefits do you see in using the Accelerator for SAP instead of starting from scratch?
+- how does this Accelerator help standardize access to SAP data through APIs?
+- what typical SAP integration challenges does it help mitigate?
+- how would you adapt the Accelerator for SAP’s mappings and endpoints to a customer’s reality?
+- what performance and data volume considerations would you have when using this Accelerator?
+- if a customer with a strong SAP landscape asked about this Accelerator, what would you highlight?
+#rp_1
+#vr_pt: |
+O MuleSoft Accelerator for SAP foi criado para facilitar a exposição de dados do SAP ERP em APIs reutilizáveis, usando padrões e mapeamentos já preparados. Eu vejo ele como uma forma de reduzir o esforço de discovery e construção inicial, padronizar integrações com SAP e acelerar entregas de projetos que dependem desses dados.
+#vr_en: |
+The MuleSoft Accelerator for SAP was created to make it easier to expose SAP ERP data through reusable APIs, using predefined patterns and mappings. I see it as a way to reduce discovery and initial build effort, standardize SAP integrations and speed up delivery of projects that depend on that data.
+#rp_2
+#vr_pt: |
+Eu ainda não usei o MuleSoft Accelerator for SAP diretamente em produção. Sei que ele ajuda a expor dados de SAP ERP de forma mais padronizada, mas hoje eu precisaria estudar melhor os conectores, mapeamentos e exemplos antes de propor uma solução detalhada para um cliente com SAP.
+#vr_en: |
+I have not used the MuleSoft Accelerator for SAP directly in production yet. I know it helps expose SAP ERP data in a more standardized way, but at this point I would need to study the connectors, mappings and examples more deeply before proposing a detailed solution for a SAP-heavy customer.
+---
+#intent: knowledge/mulesoft_ai_overview
+#pt:
+- você pode me explicar, de forma geral, o que é o MuleSoft AI?
+- como você descreveria o MuleSoft AI para alguém que já conhece MuleSoft, mas ainda não mexeu com IA?
+- na sua visão, qual é o papel do MuleSoft AI dentro de uma arquitetura corporativa?
+- como o MuleSoft AI ajuda a criar experiências orientadas por agentes na empresa?
+- que tipo de problemas de integração e automação o MuleSoft AI se propõe a resolver?
+- como você vê a relação entre MuleSoft AI, integrações e um enterprise realmente conectado?
+- quais são os principais componentes ou capacidades que você associa ao MuleSoft AI?
+- como o MuleSoft AI apoia a construção, orquestração e gestão de experiências orientadas por IA?
+- em que tipo de iniciativa de transformação digital você considera o MuleSoft AI mais relevante?
+- se eu te pedisse um resumo do MuleSoft AI em poucos minutos, o que você destacaria?
+#en:
+- can you give me a high-level explanation of what MuleSoft AI is?
+- how would you describe MuleSoft AI to someone who already knows MuleSoft but has not worked with AI yet?
+- in your view, what is the role of MuleSoft AI inside an enterprise architecture?
+- how does MuleSoft AI help create AI-driven, agent-based experiences across the company?
+- what types of integration and automation problems is MuleSoft AI meant to address?
+- how do you see the relationship between MuleSoft AI, integrations and a truly connected enterprise?
+- what are the main capabilities or components you associate with MuleSoft AI?
+- how does MuleSoft AI support building, orchestrating and managing AI-driven experiences?
+- in which kind of digital transformation initiative do you see MuleSoft AI as most relevant?
+- if I asked you to summarize MuleSoft AI in just a few minutes, what would you highlight?
+#rp_1
+#vr_pt: |
+Eu enxergo o MuleSoft AI como um conjunto de capacidades para construir, orquestrar, governar e operar experiências orientadas por IA em cima do que a empresa já tem de integrações. A ideia não é só “chamar modelo de IA”, mas conectar esses agentes com sistemas reais, processos e dados, para que as ações deles sejam de fato executáveis dentro do ambiente corporativo.
+#vr_en: |
+I see MuleSoft AI as a set of capabilities to build, orchestrate, govern and operate AI-driven experiences on top of the integrations the company already has. The idea is not just to “call an AI model”, but to connect these agents with real systems, processes and data so that their actions are actually executable within the enterprise environment.
+#rp_2
+#vr_pt: |
+Hoje eu ainda estou em estágio inicial com MuleSoft AI, bem mais focado em entender os conceitos, componentes e casos de uso do que em implementação profunda. Eu tenho acompanhado a documentação e os exemplos, mas ainda quero ganhar mais experiência prática antes de dizer que domino o tema.
+#vr_en: |
+Right now I am still at an early stage with MuleSoft AI, more focused on understanding the concepts, components and use cases than on deep implementation. I have been following the documentation and examples, but I still want to gain more hands-on experience before saying I fully master the topic.
+---
+#intent: knowledge/mulesoft_ai_blueprint_foundation
+#pt:
+- como você enxerga o blueprint de implementação de IA proposto pela MuleSoft AI?
+- na prática, o que significa “construir uma fundação de IA com integração” na visão MuleSoft?
+- como você conectaria a parte de integração tradicional com essa fundação para IA?
+- que passos você considera essenciais ao seguir o blueprint de MuleSoft AI em um cliente?
+- como esse blueprint ajuda a evitar provas de conceito isoladas e sem conexão com sistemas reais?
+- de que forma o blueprint de MuleSoft AI conversa com iniciativas de Agentforce?
+- como você explicaria para um gestor por que começar por integração antes de falar de IA generativa?
+- que tipos de riscos o blueprint de MuleSoft AI ajuda a mitigar em projetos de IA corporativa?
+- como você conectaria esse blueprint com a ideia de “actionable, connected enterprise”?
+- se um cliente pedisse um caminho de implementação de IA, como você usaria esse blueprint na conversa?
+#en:
+- how do you view the implementation blueprint proposed by MuleSoft AI?
+- in practice, what does “building a foundation for AI with integration” mean in the MuleSoft view?
+- how would you connect traditional integration work with that AI foundation?
+- what steps do you consider essential when following the MuleSoft AI blueprint at a customer?
+- how does this blueprint help avoid isolated AI proofs of concept disconnected from real systems?
+- in what way does the MuleSoft AI blueprint relate to Agentforce initiatives?
+- how would you explain to a manager why you start with integration before talking about generative AI?
+- what types of risks does the MuleSoft AI blueprint help mitigate in enterprise AI projects?
+- how would you connect this blueprint with the idea of an “actionable, connected enterprise”?
+- if a customer asked for an AI implementation path, how would you use this blueprint in the discussion?
+#rp_1
+#vr_pt: |
+Eu gosto bastante da visão de blueprint do MuleSoft AI porque ela começa pela base: integração, dados e APIs bem estruturadas. A partir daí, faz mais sentido falar de agentes, automações e experiências inteligentes, porque a IA passa a ter onde ancorar ações reais, em sistemas de verdade, e não vira só um experimento isolado.
+#vr_en: |
+I really like the MuleSoft AI blueprint because it starts with the basics: well-structured integrations, data and APIs. From there, it makes much more sense to talk about agents, automations and intelligent experiences, because the AI now has real systems to anchor its actions to, instead of becoming just an isolated experiment.
+#rp_2
+#vr_pt: |
+Eu ainda estou conhecendo melhor o blueprint de MuleSoft AI e, por enquanto, tenho usado mais como referência conceitual do que como roteiro completo em projetos. Eu entendo a ideia de começar pela fundação de integração, mas ainda quero aplicar esse fluxo de ponta a ponta em um cliente para consolidar a prática.
+#vr_en: |
+I am still getting to know the MuleSoft AI blueprint better and, for now, I have been using it more as a conceptual reference than as a full project playbook. I understand the idea of starting with the integration foundation, but I still want to apply that end-to-end flow at a customer to really consolidate the practice.
+---
+#intent: knowledge/mulesoft_agent_fabric_get_started
+#pt:
+- o que você sabe sobre o Agent Fabric dentro do contexto do MuleSoft AI?
+- como você explicaria o papel do Agent Fabric na jornada de agentes da MuleSoft?
+- por onde você começaria se um cliente quisesse “ligar” o Agent Fabric hoje?
+- como os quickstarts e templates ajudam a iniciar um projeto com Agent Fabric?
+- qual é a relação entre Agent Fabric e Agentforce na sua visão?
+- que tipo de agente você enxerga como bom candidato para começar no Agent Fabric?
+- como você planeja um agente antes de de fato implementá-lo com Agent Fabric?
+- que benefícios você destaca ao usar Agent Fabric em vez de montar tudo na unha?
+- como você apresentaria o “Get Started with Agent Fabric” para um time técnico?
+- que cuidados você teria ao dar os primeiros passos com Agent Fabric em produção?
+#en:
+- what do you know about Agent Fabric in the MuleSoft AI context?
+- how would you explain the role of Agent Fabric in MuleSoft’s agent journey?
+- where would you start if a customer wanted to “turn on” Agent Fabric today?
+- how do quickstarts and templates help you kick off a project with Agent Fabric?
+- what is the relationship between Agent Fabric and Agentforce in your view?
+- what kind of agent do you see as a good candidate to start with in Agent Fabric?
+- how do you plan an agent before actually implementing it with Agent Fabric?
+- what benefits do you highlight when using Agent Fabric instead of building everything by hand?
+- how would you present the “Get Started with Agent Fabric” resources to a technical team?
+- what precautions would you take when taking the first steps with Agent Fabric in production?
+#rp_1
+#vr_pt: |
+Eu enxergo o Agent Fabric como a camada da MuleSoft focada em criar, orquestrar e operar redes de agentes de forma governada. Para começar, eu gosto de usar os quickstarts e templates, planejar bem o escopo do agente, as ações que ele precisa disparar em sistemas reais e, a partir daí, evoluir para um desenho mais completo de rede de agentes.
+#vr_en: |
+I see Agent Fabric as the MuleSoft layer focused on creating, orchestrating and operating agent networks in a governed way. To get started, I like to leverage quickstarts and templates, carefully plan the scope of the agent, the actions it needs to trigger in real systems and then evolve into a more complete agent network design.
+#rp_2
+#vr_pt: |
+Ainda não tenho experiência profunda com Agent Fabric em produção. Eu conheço a proposta, já explorei material de “get started” e demos, mas ainda estou na fase de estudo e experimentação antes de aplicar isso de forma mais pesada em um projeto real.
+#vr_en: |
+I do not have deep production experience with Agent Fabric yet. I know the concept, I have explored the “get started” materials and demos, but I am still in the study and experimentation phase before using it more heavily in a real project.
+---
+#intent: knowledge/mulesoft_ai_design_orchestrate_agents
+#pt:
+- como você descreveria o processo de desenhar e orquestrar agentes com MuleSoft AI?
+- na prática, o que significa usar uma abordagem declarativa para orquestrar agentes?
+- como a ideia de agent networks entra na sua visão de orquestração com MuleSoft AI?
+- que tipos de ativos agentic você sabe que são suportados no Exchange?
+- como você imagina o fluxo de importar agentes do Agentforce para esse contexto de orquestração?
+- que benefícios você vê em ter reuso, governança e observabilidade na camada de agentes?
+- como você conectaria a orquestração de agentes com os sistemas que já existem na empresa?
+- de que forma você explicaria o conceito de “agent networks” para um arquiteto de integração?
+- como você vê a implantação de instâncias de redes de agentes em ambientes diferentes?
+- se eu te perguntasse como monitorar e ajustar essa orquestração ao longo do tempo, o que você comentaria?
+#en:
+- how would you describe the process of designing and orchestrating agents with MuleSoft AI?
+- in practice, what does it mean to use a declarative approach to orchestrate agents?
+- how does the idea of agent networks fit into your view of orchestration with MuleSoft AI?
+- what types of agentic assets do you know are supported in Exchange?
+- how do you imagine the flow of importing Agentforce agents into this orchestration context?
+- what benefits do you see in having reuse, governance and observability in the agent layer?
+- how would you connect agent orchestration with the systems that already exist in the company?
+- how would you explain the concept of “agent networks” to an integration architect?
+- how do you see the deployment of agent network instances across different environments?
+- if I asked you how to monitor and fine-tune this orchestration over time, what would you say?
+#rp_1
+#vr_pt: |
+Eu vejo o desenho e a orquestração de agentes com MuleSoft AI como uma camada declarativa, onde você descreve quem são os agentes, quais capacidades eles têm, como se encadeiam em redes e quais sistemas tocam. Isso traz reuso, governança e observabilidade, e facilita bastante ajustar o comportamento dos agentes sem reescrever tudo do zero.
+#vr_en: |
+I see designing and orchestrating agents with MuleSoft AI as a declarative layer where you describe who the agents are, what capabilities they have, how they are chained in networks and which systems they touch. That brings reuse, governance and observability, and makes it much easier to adjust agent behavior without rewriting everything from scratch.
+#rp_2
+#vr_pt: |
+Eu ainda estou ganhando familiaridade com a parte de design e orquestração de agentes. Entendo a proposta de trabalhar com redes de agentes e ativos declarativos, mas na prática eu ainda estou mais na fase de estudo e consumo de demos do que operando redes complexas em produção.
+#vr_en: |
+I am still gaining familiarity with the design and orchestration side of agents. I understand the proposal of working with agent networks and declarative assets, but in practice I am still more in the study and demo phase than actually operating complex networks in production.
+---
+#intent: knowledge/mulesoft_ai_dev_tools
+#pt:
+- como você enxerga o uso de ferramentas de desenvolvimento com IA dentro do MuleSoft AI?
+- qual é o papel do Anypoint Code Builder e do Dev Agent na sua visão de produtividade?
+- como o MuleSoft Dev Agent pode te ajudar a desenhar integrações ou specs de API mais rápido?
+- você já explorou a ideia de “Develop Integrations with MuleSoft Dev Agent” na prática?
+- de que forma a IA entra no desenho de especificações de API com o MuleSoft Dev Agent?
+- como você vê a integração entre conectores MuleSoft e o MuleSoft MCP Server nesse contexto?
+- que papel você atribui aos conectores de IA (como AI Chain, Inference, Vectors) dentro de um projeto?
+- como você decide quando usar um conector de IA versus uma chamada direta a um modelo externo?
+- que tipo de cuidado você teria ao habilitar tópicos e agent actions no API Catalog?
+- se um time de dev te perguntasse como começar com essas ferramentas, por onde você sugeriria iniciar?
+#en:
+- how do you see the use of AI-powered development tools inside MuleSoft AI?
+- what role do Anypoint Code Builder and the Dev Agent play in your view of productivity?
+- how can the MuleSoft Dev Agent help you design integrations or API specs faster?
+- have you explored the “Develop Integrations with MuleSoft Dev Agent” idea in practice?
+- in what way does AI help in designing API specifications with MuleSoft Dev Agent?
+- how do you see the integration between MuleSoft connectors and the MuleSoft MCP Server in this context?
+- what role do you assign to AI connectors (such as AI Chain, Inference, Vectors) inside a project?
+- how do you decide when to use an AI connector versus calling an external model directly?
+- what kind of care would you take when enabling topics and agent actions in the API Catalog?
+- if a dev team asked you how to get started with these tools, where would you suggest they begin?
+#rp_1
+#vr_pt: |
+Eu vejo as ferramentas de desenvolvimento com IA do MuleSoft como um acelerador importante, tanto para desenhar integrações e APIs quanto para conectar agentes a modelos e vetores. O Dev Agent e o Anypoint Code Builder ajudam a ganhar velocidade em tarefas repetitivas, enquanto os conectores de IA e o MCP Server permitem encaixar IA generativa de forma mais estruturada dentro das integrações.
+#vr_en: |
+I see MuleSoft’s AI-powered development tools as an important accelerator, both for designing integrations and APIs and for connecting agents to models and vectors. The Dev Agent and Anypoint Code Builder help speed up repetitive tasks, while the AI connectors and MCP Server allow you to plug generative AI into integrations in a more structured way.
+#rp_2
+#vr_pt: |
+Ainda estou começando a explorar as ferramentas de desenvolvimento com IA, como Dev Agent e os conectores específicos. Tenho acompanhado os exemplos e documentações, mas ainda não uso essas ferramentas de forma intensiva no meu dia a dia, então estou num estágio mais exploratório.
+#vr_en: |
+I am still starting to explore the AI-powered development tools, such as the Dev Agent and the specific AI connectors. I have been following the examples and documentation, but I do not use these tools intensively in my daily work yet, so I am still in a more exploratory stage.
+---
+#intent: knowledge/mulesoft_ai_observability
+#pt:
+- como você descreveria a parte de observabilidade dentro do MuleSoft AI?
+- em que sentido “visualizar e monitorar sua agent network” é importante na prática?
+- que tipo de métricas ou sinais você considera importantes ao monitorar uma rede de agentes?
+- como você imagina a experiência de explorar visualmente uma agent network em produção?
+- que tipo de problemas você espera identificar rapidamente com essa camada de observabilidade?
+- como você conectaria a observabilidade de agentes com Anypoint Monitoring ou outras ferramentas?
+- que cuidados você teria ao investigar falhas ou comportamentos inesperados de um agente?
+- como você explicaria para um gestor o valor dessa visualização em cima de agentes e ativos agentic?
+- de que forma essa observabilidade ajuda na evolução contínua da solução de IA?
+- se você percebesse um gargalo em uma parte da rede de agentes, como usaria essas ferramentas para agir?
+#en:
+- how would you describe the observability aspect inside MuleSoft AI?
+- in what sense is “visualizing and monitoring your agent network” important in practice?
+- what kind of metrics or signals do you consider important when monitoring an agent network?
+- how do you imagine the experience of visually exploring an agent network in production?
+- what kinds of issues would you expect to identify quickly with this observability layer?
+- how would you connect agent observability with Anypoint Monitoring or other tools?
+- what precautions would you take when investigating failures or unexpected agent behavior?
+- how would you explain to a manager the value of this visualization over agents and agentic assets?
+- in what way does this observability help with continuous evolution of the AI solution?
+- if you noticed a bottleneck in part of the agent network, how would you use these tools to respond?
+#rp_1
+#vr_pt: |
+Para mim, observabilidade em MuleSoft AI significa conseguir enxergar a rede de agentes como um todo, entender fluxos, gargalos, erros e impactos. Visualizar a agent network, acompanhar métricas e logs facilita muito ajustar rotas, prioridades e até o desenho dos agentes, sem ficar “cego” em relação ao que está acontecendo em produção.
+#vr_en: |
+For me, observability in MuleSoft AI means being able to see the agent network as a whole, understand flows, bottlenecks, errors and impacts. Visualizing the agent network and tracking metrics and logs makes it much easier to adjust routes, priorities and even the agent design, instead of being “blind” to what is happening in production.
+#rp_2
+#vr_pt: |
+Eu ainda estou conhecendo melhor a parte específica de observabilidade voltada a agentes em MuleSoft AI. Tenho uma boa base de monitoramento em integrações tradicionais, mas quero aprofundar mais na forma como essas ferramentas mostram fluxos e saúde de uma agent network.
+#vr_en: |
+I am still getting to know the agent-focused observability capabilities in MuleSoft AI. I already have a good monitoring foundation for traditional integrations, but I want to deepen my understanding of how these tools show flows and the health of an agent network.
+---
+#intent: knowledge/mulesoft_ai_governance_security
+#pt:
+- como você enxerga governança e segurança aplicadas a agentes no contexto do MuleSoft AI?
+- o que significa, na prática, governar uma agent network dentro da plataforma?
+- que tipos de políticas você imagina aplicando sobre o tráfego da agent network?
+- como você conectaria a camada de políticas de MuleSoft com agentes e ações de agentes?
+- de que forma você explicaria a importância de governança para evitar “agentes descontrolados” em produção?
+- que preocupações de segurança você tem ao expor ações de agentes sobre sistemas críticos?
+- como você vê o uso de Flex Gateway e outras camadas de API governance junto com agentes?
+- que tipo de processo você criaria para revisar e aprovar novas capacidades de agentes?
+- como você explicaria para um time de risco ou compliance a abordagem de governança de agentes?
+- se uma rede de agentes começasse a crescer muito rápido, que medidas de governança você priorizaria?
+#en:
+- how do you see governance and security applied to agents in the MuleSoft AI context?
+- in practice, what does it mean to govern an agent network inside the platform?
+- what types of policies do you imagine applying over agent network traffic?
+- how would you connect MuleSoft’s policy layer with agents and agent actions?
+- how would you explain the importance of governance to avoid “runaway agents” in production?
+- what security concerns do you have when exposing agent actions over critical systems?
+- how do you see Flex Gateway and other API governance layers working together with agents?
+- what kind of process would you create to review and approve new agent capabilities?
+- how would you explain the agent governance approach to a risk or compliance team?
+- if an agent network started growing very quickly, which governance measures would you prioritize?
+#rp_1
+#vr_pt: |
+Eu vejo governança e segurança como fundamentais em MuleSoft AI, porque os agentes podem disparar ações reais em sistemas críticos. Na prática, isso significa aplicar políticas em cima da agent network, controlar quem pode chamar o quê, observar o tráfego, e tratar agentes e ações como parte da arquitetura de APIs, com o mesmo nível de cuidado de segurança e compliance.
+#vr_en: |
+I see governance and security as fundamental in MuleSoft AI, because agents can trigger real actions on critical systems. In practice, that means applying policies on top of the agent network, controlling who can call what, observing the traffic, and treating agents and actions as part of the API architecture, with the same level of security and compliance care.
+#rp_2
+#vr_pt: |
+Eu ainda estou amadurecendo a visão de governança específica para agentes em MuleSoft AI. Tenho uma base forte em políticas e segurança de APIs, mas quero aprofundar como essas mesmas práticas se estendem para agent networks e ações de agentes de forma estruturada.
+#vr_en: |
+I am still maturing my view of agent-specific governance in MuleSoft AI. I already have a strong foundation in API policies and security, but I want to go deeper on how those same practices extend to agent networks and agent actions in a structured way.
+---
+#intent: knowledge/api_mgmt_overview
+#pt:
+- você pode me explicar, de forma geral, o que é API management no Anypoint Platform?
+- como você descreveria API management para alguém que já usa MuleSoft mas ainda não olha para governança de APIs?
+- na sua visão, qual é o objetivo principal do API management dentro do Anypoint Platform?
+- como o API management ajuda a evitar “API sprawl” em uma empresa?
+- de que forma o API management melhora a experiência dos desenvolvedores que consomem APIs?
+- como você conecta o conceito de ciclo de vida de API com o API management na prática?
+- em que situações você considera essencial ter uma camada forte de API management?
+- qual a diferença entre só expor uma API e de fato gerenciá-la com API management?
+- como API management contribui para ter aplicações mais seguras e escaláveis?
+- se um gestor te perguntasse “por que precisamos de API management?”, o que você destacaria?
+#en:
+- can you explain at a high level what API management on Anypoint Platform is?
+- how would you describe API management to someone who already uses MuleSoft but does not focus on API governance yet?
+- in your view, what is the main goal of API management inside Anypoint Platform?
+- how does API management help avoid API sprawl in an enterprise?
+- in what ways does API management improve the experience for developers consuming APIs?
+- how do you connect the idea of an API lifecycle with API management in practice?
+- in what situations do you consider a strong API management layer essential?
+- what is the difference between just exposing an API and actually managing it with API management?
+- how does API management contribute to having more secure and scalable applications?
+- if a manager asked you “why do we need API management?”, what would you highlight?
+#rp_1
+#vr_pt: |
+Eu vejo API management no Anypoint Platform como a disciplina de cuidar do ciclo de vida completo das APIs: desde o design e publicação, até segurança, governança, monitoramento e experiência dos consumidores. Na prática, isso evita API sprawl, padroniza como as APIs são expostas e garante que o que a gente coloca no ar seja confiável, seguro e fácil de usar.
+#vr_en: |
+I see API management on Anypoint Platform as the discipline of taking care of the full API lifecycle, from design and publication through security, governance, monitoring and consumer experience. In practice, it helps prevent API sprawl, standardizes how APIs are exposed and ensures that what we put into production is reliable, secure and easy to use.
+#rp_2
+#vr_pt: |
+Ainda estou consolidando minha visão de API management no Anypoint Platform. Eu entendo o conceito de cuidar do ciclo de vida e da segurança das APIs, mas estou justamente aprofundando em temas como governança, monitoramento e experiência de desenvolvedor para aplicar isso de forma mais completa em projetos.
+#vr_en: |
+I am still consolidating my view of API management on Anypoint Platform. I understand the concept of taking care of the API lifecycle and security, but I am currently going deeper into governance, monitoring and developer experience so I can apply it in a more complete way in projects.
+---
+#intent: knowledge/api_mgmt_design_build
+#pt:
+- como você costuma abordar a fase de design e build de APIs no Anypoint Platform?
+- o que você leva em consideração ao desenhar uma API spec antes de implementar?
+- como você usa fragments e reaproveitamento de contratos no design de APIs?
+- você pode me contar como funciona o fluxo de criar, importar e publicar API specs no Exchange?
+- em que momento você decide partir para a implementação de uma API depois do design?
+- como o Anypoint Code Builder entra na sua rotina de design e build de APIs?
+- que boas práticas você segue ao desenhar APIs pensando já em governança futura?
+- como você garante que o design de uma API reflete bem os sistemas que ela integra?
+- na prática, qual a diferença entre “só expor um endpoint” e “desenhar uma API bem pensada”?
+- você já teve situações em que redesenhar a spec resolveu problemas de consumo ou evolução?
+#en:
+- how do you usually approach the design and build phase of APIs on Anypoint Platform?
+- what do you take into account when designing an API spec before implementation?
+- how do you use fragments and contract reuse in your API design?
+- can you walk me through the flow of creating, importing and publishing API specs to Exchange?
+- at what point do you decide to move from design to API implementation?
+- how does Anypoint Code Builder fit into your day-to-day API design and build work?
+- what best practices do you follow when designing APIs with future governance in mind?
+- how do you ensure that an API design accurately reflects the systems it integrates?
+- in practice, what is the difference between “just exposing an endpoint” and “designing a well-thought-out API”?
+- have you had situations where redesigning the spec solved consumption or evolution issues?
+#rp_1
+#vr_pt: |
+Na fase de design e build eu gosto de começar pela especificação da API, definindo recursos, contratos, modelos e padrões de erro antes de escrever código. Uso o Exchange para versionar essas specs, reaproveitar fragments e, só depois de ter um contrato claro, parto para a implementação em Mule, o que facilita governança, testes e onboarding de outros times.
+#vr_en: |
+In the design and build phase I like to start from the API specification, defining resources, contracts, models and error patterns before writing code. I use Exchange to version those specs, reuse fragments and only after having a clear contract I move into the Mule implementation, which makes governance, testing and onboarding other teams much easier.
+#rp_2
+#vr_pt: |
+Hoje eu ainda estou amadurecendo minha prática de design e build de APIs no Anypoint Platform. Eu já desenho specs e implemento, mas quero usar melhor recursos como fragments, Exchange e Anypoint Code Builder para deixar o processo mais padronizado e alinhado com as boas práticas de API management.
+#vr_en: |
+Right now I am still maturing my design and build practice for APIs on Anypoint Platform. I already design specs and implement them, but I want to make better use of features like fragments, Exchange and Anypoint Code Builder to make the process more standardized and aligned with API management best practices.
+---
+#intent: knowledge/api_mgmt_discover
+#pt:
+- como você vê a importância da etapa de “discover” no ciclo de vida de APIs?
+- na prática, como você ajuda a comunidade de desenvolvedores a descobrir APIs disponíveis?
+- você pode explicar como o autocatalog de APIs funciona ou qual é a ideia por trás?
+- como você usa o Exchange ou catálogos para facilitar a descoberta e o reuso de APIs?
+- que tipo de metadata e documentação você considera essencial para uma boa descoberta?
+- como você costuma testar APIs com dados simulados antes de liberar para consumidores?
+- em que medida a descoberta de “any API” ajuda a evitar retrabalho e duplicidade?
+- como você explicaria para um time de produto o valor de ter APIs fáceis de encontrar?
+- que problemas você já viu acontecer quando a etapa de discovery não é bem cuidada?
+- se um desenvolvedor novo entrar no time hoje, como ele encontra rapidamente as APIs certas?
+#en:
+- how do you see the importance of the “discover” stage in the API lifecycle?
+- in practice, how do you help your developer community discover available APIs?
+- can you explain how autocataloging APIs works or what the idea behind it is?
+- how do you use Exchange or catalogs to make API discovery and reuse easier?
+- what kind of metadata and documentation do you consider essential for good discoverability?
+- how do you usually test APIs with simulated data before exposing them to consumers?
+- to what extent does discovering “any API” help avoid rework and duplication?
+- how would you explain to a product team the value of having easily discoverable APIs?
+- what problems have you seen when the discovery stage is not handled properly?
+- if a new developer joined today, how would they quickly find the right APIs?
+#rp_1
+#vr_pt: |
+Eu considero a etapa de discovery fundamental, porque não adianta ter boas APIs se ninguém sabe que elas existem ou como usá-las. Uso Exchange e catálogos para publicar specs com boa documentação, exemplos, policies e metadata, e incentivo o uso de busca e autocatalog para que os times encontrem e reutilizem APIs em vez de recriar integrações do zero.
+#vr_en: |
+I see the discovery stage as fundamental, because there is no point in having good APIs if nobody knows they exist or how to use them. I use Exchange and catalogs to publish specs with solid documentation, examples, policies and metadata, and I encourage teams to rely on search and autocatalog so they can find and reuse APIs instead of rebuilding integrations from scratch.
+#rp_2
+#vr_pt: |
+Ainda estou evoluindo na parte de discovery. Eu já publico APIs em catálogos, mas quero melhorar a qualidade da documentação, dos exemplos e do uso de metadata para que a descoberta e o reuso sejam mais naturais para os desenvolvedores que chegam depois do projeto pronto.
+#vr_en: |
+I am still evolving in the discovery area. I already publish APIs in catalogs, but I want to improve the quality of documentation, examples and metadata so that discovery and reuse become more natural for developers who come in after the project is initially delivered.
+---
+#intent: knowledge/api_mgmt_govern
+#pt:
+- como você descreveria a etapa de governança de APIs dentro do Anypoint Platform?
+- qual é o papel dos rulesets de governança na sua visão?
+- como você aplica regras de governança diferentes para specs e para instâncias de API?
+- você pode dar exemplos de quando faz sentido criar rulesets de governança customizados?
+- como a governança ajuda times de segurança e desenvolvimento a trabalharem alinhados?
+- em que momento do ciclo de vida você costuma aplicar as regras de governança?
+- como você enxerga a diferença entre governar specs e governar policies aplicadas?
+- que tipo de problemas você já viu quando não existe governança de APIs bem definida?
+- como você explicaria o uso de API Governance para um time que está começando?
+- de que forma a governança se encaixa na estratégia de qualidade e segurança de APIs?
+#en:
+- how would you describe the governance stage of APIs inside Anypoint Platform?
+- what role do governance rulesets play in your view?
+- how do you apply different governance rules for specs versus API instances?
+- can you give examples of when it makes sense to create custom governance rulesets?
+- how does governance help security and development teams work in alignment?
+- at what point in the lifecycle do you typically apply governance rules?
+- how do you see the difference between governing specs and governing applied policies?
+- what kinds of issues have you seen when there is no clear API governance in place?
+- how would you explain the use of API Governance to a team that is just getting started?
+- in what way does governance fit into the broader API quality and security strategy?
+#rp_1
+#vr_pt: |
+Eu enxergo governança de APIs como o mecanismo para garantir padrões mínimos de qualidade, segurança e consistência em tudo o que é publicado. Com rulesets e API Governance eu consigo aplicar regras sobre specs e instâncias, alinhar times de segurança e desenvolvimento e evitar que cada API saia com um “jeito diferente”, o que simplifica muito manutenção e auditoria.
+#vr_en: |
+I see API governance as the mechanism to guarantee minimum standards of quality, security and consistency across everything that is published. With rulesets and API Governance I can apply rules over specs and instances, align security and development teams and avoid each API being built in a completely different way, which greatly simplifies maintenance and audits.
+#rp_2
+#vr_pt: |
+Eu ainda estou evoluindo na parte de governança com API Governance. Já entendo o conceito de rulesets e da necessidade de padronizar segurança e qualidade, mas quero aplicar mais regras na prática para sentir melhor o impacto disso no dia a dia dos times de desenvolvimento.
+#vr_en: |
+I am still evolving on the governance side with API Governance. I already understand the idea of rulesets and the need to standardize security and quality, but I want to apply more rules in practice to really feel the impact on development teams’ day-to-day work.
+---
+#intent: knowledge/api_mgmt_manage_secure
+#pt:
+- como você trabalha a parte de “manage and secure” das APIs no Anypoint Platform?
+- que tipo de policies você costuma aplicar com mais frequência nas APIs que gerencia?
+- como você decide entre aplicar políticas manualmente e usar automated policies?
+- qual é o papel do Flex Gateway na sua visão de gerenciamento e segurança de APIs?
+- você pode comentar como funciona o processo de registrar e gerenciar API instances?
+- como você monitora as APIs depois de publicadas para garantir saúde e performance?
+- que práticas você segue para controlar acesso e proteger APIs expostas externamente?
+- como você lida com o gerenciamento de APIs que estão em ambientes ou runtimes diferentes?
+- em que momento você revisita policies e configurações de segurança ao longo do tempo?
+- se uma API começar a ter problemas de performance ou erro, qual é seu fluxo de análise?
+#en:
+- how do you handle the “manage and secure” part of APIs on Anypoint Platform?
+- what types of policies do you most frequently apply to the APIs you manage?
+- how do you decide between applying policies manually and using automated policies?
+- what role does Flex Gateway play in your view of API management and security?
+- can you describe how the process of registering and managing API instances works?
+- how do you monitor APIs after they are published to ensure health and performance?
+- what practices do you follow to control access and protect externally exposed APIs?
+- how do you deal with managing APIs that are running in different environments or runtimes?
+- at what point do you revisit policies and security configurations over time?
+- if an API starts having performance or error issues, what is your analysis flow?
+#rp_1
+#vr_pt: |
+Na parte de manage and secure eu foco em registrar bem as API instances, aplicar policies adequadas de autenticação, rate limiting, logs e observabilidade, e usar ferramentas como Flex Gateway e Monitoring para acompanhar o comportamento em produção. Isso me ajuda a controlar acesso, responder rápido a problemas e manter as integrações seguras e previsíveis.
+#vr_en: |
+On the manage and secure side I focus on properly registering API instances, applying the right policies for authentication, rate limiting, logging and observability, and using tools like Flex Gateway and Monitoring to track behavior in production. That helps me control access, react quickly to issues and keep integrations secure and predictable.
+#rp_2
+#vr_pt: |
+Ainda estou fortalecendo minha atuação em manage and secure. Eu já aplico policies e monitoro APIs, mas quero aprofundar meu uso de automated policies, Flex Gateway e métricas avançadas para ter uma visão ainda mais completa de segurança e operação das APIs.
+#vr_en: |
+I am still strengthening my work around manage and secure. I already apply policies and monitor APIs, but I want to go deeper into automated policies, Flex Gateway and advanced metrics to have an even more complete view of API security and operations.
+---
+#intent: knowledge/api_mgmt_engage_portals
+#pt:
+- como você enxerga a etapa de “engage” no ciclo de vida de API management?
+- qual é o papel dos API portals na experiência dos consumidores de API?
+- você já criou ou configurou portais personalizados para desenvolvedores?
+- que tipo de conteúdo você considera essencial em um portal de APIs bem feito?
+- como você gerencia acesso de usuários e times dentro de um portal de APIs?
+- de que maneira você usa o portal para incentivar o uso e o reuso das APIs?
+- como você conecta a publicação de APIs à estratégia de engajamento de desenvolvedores?
+- que métricas de engajamento você considera importantes em um portal de APIs?
+- como você trataria feedback de desenvolvedores a partir do portal para melhorar as APIs?
+- se um cliente quisesse “engajar o ecossistema” via APIs, que passos você sugeriria no portal?
+#en:
+- how do you see the “engage” stage in the API management lifecycle?
+- what role do API portals play in the experience of API consumers?
+- have you ever created or configured custom developer portals?
+- what kind of content do you consider essential in a well-designed API portal?
+- how do you manage user and team access inside an API portal?
+- in what ways do you use the portal to encourage API usage and reuse?
+- how do you connect API publication to a broader developer engagement strategy?
+- what engagement metrics do you consider important in an API portal?
+- how would you handle developer feedback from the portal to improve your APIs?
+- if a customer wanted to “engage the ecosystem” through APIs, what portal steps would you suggest?
+#rp_1
+#vr_pt: |
+Eu vejo os API portals como a vitrine das APIs da empresa: é ali que o desenvolvedor encontra documentação, exemplos, credenciais e consegue começar rápido. Gosto de usar portais personalizados para organizar as APIs por domínio, gerenciar acesso por perfis e criar uma experiência que incentive o uso, o reuso e o feedback contínuo dos consumidores.
+#vr_en: |
+I see API portals as the storefront for a company’s APIs: that is where developers find documentation, examples, credentials and can get started quickly. I like to use customized portals to organize APIs by domain, manage access by profile and create an experience that encourages usage, reuse and continuous feedback from consumers.
+#rp_2
+#vr_pt: |
+Ainda não tenho tanta experiência prática na criação de portais mais avançados. Já usei portais de forma básica para expor documentação e acesso, mas quero evoluir em personalização, métricas de engajamento e processos de feedback para aproveitar melhor essa etapa de “engage”.
+#vr_en: |
+I do not have a lot of hands-on experience with more advanced portals yet. I have used portals in a basic way to expose documentation and access, but I want to evolve in customization, engagement metrics and feedback processes so I can make better use of this “engage” stage.
+---
+#intent: knowledge/usage_reports_overview
+#pt:
+- você pode me explicar, de forma geral, o que são os usage reports no Anypoint Platform?
+- como você descreveria o objetivo principal dos usage reports para um gestor técnico?
+- na prática, como os usage reports ajudam a entender o consumo dos produtos MuleSoft?
+- de que forma você usa os usage reports para ter visibilidade de uso diário e mensal?
+- como o fato dos reports serem atualizados duas vezes por dia impacta sua análise?
+- o que você leva em conta sabendo que os últimos dias ainda podem sofrer ajustes de dados?
+- como você utiliza a retenção diária e mensal dos usage reports no seu planejamento?
+- de que maneira você explica para um cliente a diferença entre dados “recentes” e dados “finais” no usage report?
+- como o uso de UTC nos usage reports influencia a leitura dos dados em diferentes fusos?
+- em quais situações você recorre primeiro aos usage reports antes de olhar outras métricas?
+#en:
+- can you give me a high-level explanation of what usage reports are in Anypoint Platform?
+- how would you describe the main purpose of usage reports to a technical manager?
+- in practice, how do usage reports help you understand the consumption of MuleSoft products?
+- how do you use daily and monthly usage reports to get visibility over product usage?
+- how does the fact that usage reports refresh twice a day affect your analysis?
+- what do you take into account knowing that the last few days of data might still change?
+- how do you make use of the daily and monthly retention windows in your planning?
+- how do you explain to a customer the difference between “recent” and “final” data in usage reports?
+- how does the use of UTC in usage reports influence how you read data across time zones?
+- in which situations do you look at usage reports first before checking other metrics?
+#rp_1
+#vr_pt: |
+Eu enxergo os usage reports como a fonte oficial para ter visibilidade consolidada de consumo dos produtos do Anypoint Platform, tanto no dia a dia quanto mês a mês. Eles me ajudam a entender tendência, sazonalidade e picos de uso, sempre lembrando que os últimos dias ainda podem sofrer ajustes e que tudo é calculado em UTC, então eu já faço essa conversão mental para o meu fuso antes de tomar decisão.
+#vr_en: |
+I see usage reports as the official source to get consolidated visibility of Anypoint Platform product consumption, both on a daily and monthly basis. They help me understand trends, seasonality and usage spikes, always keeping in mind that the last few days may still change and that everything is calculated in UTC, so I factor that into my time zone before making decisions.
+#rp_2
+#vr_pt: |
+Eu ainda estou começando a usar os usage reports no dia a dia. Eu entendo que eles trazem uma visão consolidada de uso diário e mensal, mas ainda estou me acostumando com detalhes como janela de retenção, atualização em UTC e ajuste dos dados nos dias mais recentes antes de usar isso de forma mais estratégica.
+#vr_en: |
+I am still starting to use usage reports in my daily work. I understand that they provide a consolidated daily and monthly usage view, but I am still getting used to details like retention windows, UTC timestamps and recent-day adjustments before using that data in a more strategic way.
+---
+#intent: knowledge/usage_reports_costs_and_ai_credits
+#pt:
+- como você usa os usage reports para correlacionar consumo com ciclos de billing?
+- de que forma os usage reports te ajudam a entender o que mais impacta custo na conta MuleSoft?
+- como você explicaria para um cliente que usage reports não são a fatura oficial, mas um apoio à análise de custo?
+- como você compara o uso real do contrato com o que aparece nos usage reports?
+- o que você leva em conta quando olha uso baseado em vCore, mensagens, throughput etc.?
+- como você enxerga a relação entre usage reports e os resumos mensais enviados ao billing contact?
+- de que forma você acompanha o consumo de créditos de automação e IA no contexto MuleSoft e Salesforce?
+- como você explicaria o roteamento de consumo de Agentforce e Einstein via org Salesforce conectada?
+- como você usa os alerts de 80% e 90% de entitlement para antecipar ações com o cliente?
+- se o time de finanças te pedisse um resumo de uso versus contrato, como você estruturaria essa conversa?
+#en:
+- how do you use usage reports to correlate consumption with billing cycles?
+- in what ways do usage reports help you understand what is driving costs in a MuleSoft account?
+- how would you explain to a customer that usage reports are not the official invoice but a cost analysis aid?
+- how do you compare actual contractual entitlements with what you see in usage reports?
+- what do you take into account when looking at usage based on vCores, messages, throughput and so on?
+- how do you see the relationship between usage reports and the monthly statements sent to the billing contact?
+- how do you track automation and AI credit consumption in the MuleSoft and Salesforce context?
+- how would you explain the routing of Agentforce and Einstein consumption through the connected Salesforce org?
+- how do you use the 80% and 90% entitlement alerts to proactively act with the customer?
+- if the finance team asked you for a summary of usage versus contract, how would you structure that discussion?
+#rp_1
+#vr_pt: |
+Eu costumo usar os usage reports como um painel de apoio para entender onde o consumo está crescendo e como isso se conecta ao modelo de contrato, mas sempre deixando claro que a fatura oficial vem pelos canais de billing da Salesforce. Para IA e automação, eu também considero que o consumo de créditos de Agentforce e Einstein passa pela org Salesforce conectada, então cruzo o que vejo nos usage reports com os alertas de uso e os resumos mensais enviados ao billing contact.
+#vr_en: |
+I usually use usage reports as a supporting dashboard to understand where consumption is growing and how that ties back to the contractual model, while making it clear that the official invoice comes through Salesforce billing channels. For AI and automation, I also keep in mind that Agentforce and Einstein credits are tracked through the connected Salesforce org, so I cross what I see in usage reports with usage alerts and the monthly summaries sent to the billing contact.
+#rp_2
+#vr_pt: |
+Ainda não uso os usage reports de forma tão profunda para análise de custo. Eu entendo que eles ajudam a enxergar tendências de uso e que IA e automação acabam consumindo créditos via org Salesforce conectada, mas hoje eu ainda dependo bastante dos resumos oficiais de billing e dos times financeiros para fechar a análise completa.
+#vr_en: |
+I do not yet use usage reports in a very deep way for cost analysis. I understand they help reveal usage trends and that AI and automation features consume credits through the connected Salesforce org, but today I still rely heavily on the official billing summaries and finance teams to close the full analysis.
+---
+#intent: knowledge/usage_reports_products_scope
+#pt:
+- você pode comentar quais produtos do Anypoint Platform normalmente aparecem nos usage reports?
+- como você usa o recorte por produto, por exemplo MQ, API Manager ou Flex Gateway, na sua análise?
+- em que situações você olha especificamente para uso de Mule Runtime dentro dos usage reports?
+- como o uso de Object Store v2 ou API Governance entra na leitura de consumo?
+- que tipo de insight você busca quando analisa separadamente MQ, Runtime e gateways?
+- como você explicaria para um cliente que nem todos os produtos ou ambientes aparecem nos usage reports?
+- de que forma você lida com o fato de Government Cloud e Private Cloud não estarem nos usage reports?
+- como você conecta os usage reports com métricas adicionais de Runtime Manager ou Access Management?
+- que cuidado você tem ao comparar o que está no usage report com o que aparece em outros dashboards da plataforma?
+- se um time de operações pedisse um overview por produto, como você estruturaria essa leitura?
+#en:
+- can you comment on which Anypoint Platform products usually show up in usage reports?
+- how do you use the product breakdown, for example MQ, API Manager or Flex Gateway, in your analysis?
+- in what situations do you look specifically at Mule Runtime usage in the reports?
+- how do Object Store v2 or API Governance usage figures factor into your analysis?
+- what kind of insight do you look for when analyzing MQ, runtime and gateways separately?
+- how would you explain to a customer that not all products or environments show up in usage reports?
+- how do you handle the fact that Government Cloud and Private Cloud usages are not in usage reports?
+- how do you connect usage reports with additional metrics from Runtime Manager or Access Management?
+- what care do you take when comparing what is in the usage report with other dashboards on the platform?
+- if an operations team asked for a product-by-product overview, how would you structure that analysis?
+#rp_1
+#vr_pt: |
+Eu gosto de usar o recorte por produto dos usage reports para separar bem o que é consumo de MQ, API Manager, Flex Gateway, Mule Runtime, Object Store v2 e assim por diante. Isso me ajuda a entender onde estão os principais drivers de custo e capacidade, e eu complemento essa visão com métricas de Runtime Manager e Access Management, lembrando sempre que Government Cloud e Private Cloud não aparecem nesses relatórios.
+#vr_en: |
+I like to use the product breakdown in usage reports to clearly separate consumption for MQ, API Manager, Flex Gateway, Mule Runtime, Object Store v2 and so on. That helps me understand where the main cost and capacity drivers are, and I complement that view with metrics from Runtime Manager and Access Management, always remembering that Government Cloud and Private Cloud do not show up in these reports.
+#rp_2
+#vr_pt: |
+Ainda estou me acostumando a ler consumo por produto nos usage reports. Eu sei que MQ, Runtime, API Manager e outros aparecem, mas hoje eu uso essa visão mais como referência geral, enquanto ainda estou aprendendo a combinar isso com dashboards específicos de Runtime Manager e das outras ferramentas de monitoramento da plataforma.
+#vr_en: |
+I am still getting used to reading product-level consumption in usage reports. I know that MQ, Runtime, API Manager and others are shown there, but today I use that view more as a general reference while I am still learning how to combine it with specific dashboards in Runtime Manager and other monitoring tools on the platform.
+---
+#intent: knowledge/usage_reports_runtime_versions
+#pt:
+- como você enxerga a relação entre versões de Mule Runtime e visibilidade nos usage reports?
+- você pode explicar por que é importante manter os runtimes nas versões suportadas para reporting?
+- como você lida com o requisito de versões mínimas em CloudHub, CloudHub 2.0 e Runtime Fabric?
+- o que você costuma fazer quando encontra uma aplicação rodando numa versão não compatível com usage reports?
+- como o ciclo de patch mensal ajuda a manter as aplicações em versões suportadas?
+- de que forma você equilibra a necessidade de upgrade de runtime com o risco de mudança em produção?
+- como você trata cenários de rollback em que a versão antiga não é compatível com usage reports?
+- que práticas você segue para garantir que novos deploys já utilizem versões alinhadas ao reporting?
+- como você explicaria para o cliente a importância de estar em versões que alimentam bem os usage reports?
+- em que momento do ciclo de vida você revisa a matriz de versões suportadas para reporting?
+#en:
+- how do you see the relationship between Mule Runtime versions and visibility in usage reports?
+- can you explain why it is important to keep runtimes on supported versions for reporting?
+- how do you handle minimum version requirements in CloudHub, CloudHub 2.0 and Runtime Fabric?
+- what do you usually do when you find an application running on a version that is not supported by usage reports?
+- how does the monthly patching cycle help keep applications on supported versions?
+- how do you balance the need to upgrade runtimes with the risk of changing production behavior?
+- how do you handle rollback scenarios where the old version is not compatible with usage reports?
+- what practices do you follow to ensure new deployments use reporting-compliant versions by default?
+- how would you explain to a customer the importance of being on versions that feed usage reports correctly?
+- at what point in the lifecycle do you review the supported version matrix for reporting?
+#rp_1
+#vr_pt: |
+Eu tento manter as aplicações sempre em runtimes compatíveis com usage reports, principalmente em CloudHub e CloudHub 2.0, aproveitando o ciclo de patch mensal. Quando encontro algo em versão não suportada, já planejo upgrade ou ajuste de deploy, explicando para o cliente que isso impacta não só suporte técnico, mas também a qualidade da visibilidade de uso que ele tem na plataforma.
+#vr_en: |
+I try to keep applications on runtime versions that are compatible with usage reports, especially on CloudHub and CloudHub 2.0, leveraging the monthly patching cycle. When I find something running on an unsupported version, I plan an upgrade or deployment adjustment and explain to the customer that this impacts not only technical support but also the quality of the usage visibility they get from the platform.
+#rp_2
+#vr_pt: |
+Eu ainda estou estruturando melhor meu processo de gestão de versões focado em usage reports. Eu sei que existem mínimos de versão para CloudHub, CloudHub 2.0 e Runtime Fabric, mas hoje eu dependo bastante das recomendações oficiais e das equipes de operação para garantir que tudo fique em versões alinhadas ao reporting.
+#vr_en: |
+I am still structuring my version management process with reporting in mind. I know there are minimum version requirements for CloudHub, CloudHub 2.0 and Runtime Fabric, but today I rely heavily on official recommendations and operations teams to ensure everything stays on versions aligned with usage reporting.
+---
+#intent: knowledge/usage_reports_permissions_access
+#pt:
+- você pode explicar como funciona a permissão Usage Viewer para acessar usage reports?
+- como você orienta alguém que não está vendo usage reports porque está no business group errado?
+- por que é importante estar na root organization para visualizar usage reports?
+- o que você costuma fazer quando alguém do time precisa de acesso e ainda não tem Usage Viewer?
+- como você explicaria para um administrador a diferença entre permissões em root e em business group?
+- que boas práticas você sugere para controlar quem tem acesso a usage reports na organização?
+- como você lida com a demanda de times diferentes (finanças, operações, arquitetura) por acesso aos reports?
+- em que cenários você vê sentido em limitar o acesso de usage reports a um núcleo mais restrito?
+- como você orientaria um novo membro do time a navegar até a área de usage reports no Anypoint?
+- se alguém disser “não estou vendo usage reports”, quais são os primeiros passos que você checa?
+#en:
+- can you explain how the Usage Viewer permission works for accessing usage reports?
+- how do you guide someone who cannot see usage reports because they are on the wrong business group?
+- why is it important to be on the root organization level to view usage reports?
+- what do you usually do when someone on the team needs access but does not yet have Usage Viewer?
+- how would you explain to an admin the difference between permissions at root level and business group level?
+- what best practices do you suggest for controlling who has access to usage reports in the organization?
+- how do you handle demands from different teams (finance, operations, architecture) for report access?
+- in which scenarios do you think it makes sense to restrict usage report access to a smaller core group?
+- how would you guide a new team member to navigate to the usage reports area in Anypoint?
+- if someone says “I cannot see usage reports”, what are the first things you check?
+#rp_1
+#vr_pt: |
+Quando o assunto é acesso, eu sempre começo checando se a pessoa está na root organization e se tem a permissão Usage Viewer aplicada nesse nível. Em seguida, oriento o caminho pelo próprio Anypoint Platform, via ícone de usuário, até a área de Usage Reports. Costumo tratar isso junto com o administrador da org, para garantir que só quem realmente precisa tenha esse tipo de visibilidade.
+#vr_en: |
+When it comes to access, I always start by checking whether the person is on the root organization and has the Usage Viewer permission applied at that level. Then I guide them through the Anypoint Platform navigation, via the user icon, to the Usage Reports area. I usually handle this together with the org admin to make sure that only people who really need this kind of visibility get access.
+#rp_2
+#vr_pt: |
+Eu ainda não gerencio diretamente permissões de Usage Viewer, então quando alguém não enxerga os usage reports eu costumo validar rapidamente se está na root organization e depois direcionar para o administrador da org, explicando que a permissão precisa ser aplicada nesse nível e não apenas no business group.
+#vr_en: |
+I do not directly manage Usage Viewer permissions yet, so when someone cannot see usage reports I usually check quickly whether they are on the root organization and then escalate to the org admin, explaining that the permission must be applied at that level and not only at the business group level.
+---
+#intent: knowledge/usage_reports_api_and_export
+#pt:
+- como você costuma usar a exportação de usage reports em CSV no seu dia a dia?
+- em que situações faz sentido exportar o usage report para trabalhar em ferramentas externas, como Excel ou BI?
+- que tipo de análise você costuma fazer depois de exportar os dados de uso?
+- você pode comentar se já utilizou ou pretende usar a Anypoint Usage API para acesso programático?
+- como você vê a vantagem de ter acesso diário e mensal via API para automação de relatórios?
+- que cuidados você teria ao expor esses dados de usage para outros times ou sistemas?
+- como você organizaria um fluxo em que um time de operações consome usage via API regularmente?
+- em que cenário você prefere exportar CSV manualmente em vez de integrar direto com a Usage API?
+- como você explicaria para um time de dados as possibilidades de integrar os usage reports ao pipeline de analytics?
+- se o cliente pedisse um dashboard customizado de uso, como você usaria CSV e Usage API nessa solução?
+#en:
+- how do you typically use CSV export of usage reports in your daily work?
+- in what situations does it make sense to export usage reports to work in external tools such as Excel or BI?
+- what types of analysis do you usually perform after exporting usage data?
+- can you comment on whether you have used or plan to use the Anypoint Usage API for programmatic access?
+- how do you see the benefit of having daily and monthly usage via API for automated reporting?
+- what precautions would you take when exposing usage data to other teams or systems?
+- how would you organize a flow where an operations team consumes usage via API on a regular basis?
+- in which scenario do you prefer to export CSV manually instead of integrating directly with the Usage API?
+- how would you explain to a data team the possibilities of integrating usage reports into their analytics pipeline?
+- if a customer asked for a custom usage dashboard, how would you use CSV and the Usage API in that solution?
+#rp_1
+#vr_pt: |
+Quando preciso de análise mais detalhada, eu costumo exportar usage reports em CSV e trabalhar em ferramentas como planilhas ou BI. Para cenários mais recorrentes ou automatizados, eu vejo bastante valor na Anypoint Usage API, porque ela permite consumir dados diários e mensais por business group e aplicação, integrando isso em dashboards próprios ou pipelines de analytics do cliente.
+#vr_en: |
+When I need more detailed analysis, I usually export usage reports as CSV and work in tools like spreadsheets or BI. For more recurring or automated scenarios, I see a lot of value in the Anypoint Usage API, because it allows you to consume daily and monthly data by business group and application, integrating it into the customer’s own dashboards or analytics pipelines.
+#rp_2
+#vr_pt: |
+Por enquanto eu uso mais a exportação em CSV de forma pontual, quando preciso olhar algum detalhe específico de uso. Ainda não tenho um fluxo montado com a Usage API, então essa parte de acesso programático está mais no meu radar de coisas para explorar do que em produção no meu dia a dia.
+#vr_en: |
+For now I use CSV export more on an ad hoc basis, when I need to look at some specific usage detail. I do not yet have a full flow built around the Usage API, so programmatic access is still on my radar as something to explore rather than something I use in day-to-day production work.
+---
+#intent: knowledge/usage_mule_runtime_core_metrics
+#pt:
+- você pode me explicar, em termos simples, o que é um Mule flow para efeito de métricas e billing?
+- como você descreveria o que é um Mule message dentro do contexto de usage e cobrança?
+- na prática, o que significa data throughput quando falamos de Mule Runtime?
+- como é calculado o uso de Mule flows ao longo de um mês nos usage reports?
+- de que forma os Mule messages são contados quando um event source dispara um evento?
+- como você explicaria para um cliente a diferença entre fluxo, mensagem e throughput de dados?
+- em que momento uma mensagem realmente passa a contar para o pacote de Mule messages do contrato?
+- como a agregação diária e mensal de Mule messages ajuda no acompanhamento de consumo?
+- por que é importante entender que o throughput inclui também tráfego interno, como logs e health checks?
+- como você usaria essas três métricas (flows, messages e throughput) para discutir capacidade com um cliente?
+#en:
+- can you explain in simple terms what a Mule flow is for usage and billing purposes?
+- how would you describe what a Mule message is in the context of usage and charging?
+- in practice, what does data throughput mean when we talk about Mule Runtime?
+- how is Mule flow usage calculated over a month in the usage reports?
+- how are Mule messages counted when an event source triggers an event?
+- how would you explain to a customer the difference between flows, messages and data throughput?
+- at what point does a message actually count toward the customer’s Mule message package?
+- how does daily and monthly aggregation of Mule messages help you track consumption?
+- why is it important to understand that throughput also includes internal traffic such as logs and health checks?
+- how would you use these three metrics (flows, messages and throughput) to discuss capacity with a customer?
+#rp_1
+#vr_pt: |
+Eu costumo separar bem esses conceitos quando explico para o cliente. O Mule flow é a unidade lógica de processamento que entra na conta quando tem um event source ou um fluxo gerado por APIkit. O Mule message é a mensagem que nasce quando esse event source dispara o evento e é essa “primeira mensagem” que conta para o pacote de mensagens, não cada cópia interna que surge dentro dos flows. Já o data throughput é todo o tráfego de rede gerado pela aplicação, tanto o dado de negócio quanto logs, health checks e monitoramento. Nos usage reports isso aparece agregado por dia e por mês, o que me ajuda a ver se estou aproximando do limite contratado e a ajustar capacidade com antecedência.
+#vr_en: |
+I usually keep these concepts very clear when I explain them to a customer. The Mule flow is the logical processing unit that is counted when there is an event source or an APIkit-generated route flow. The Mule message is the message that is created when that event source triggers the event, and it is this “first message” that counts against the message package, not every internal copy created inside the flows. Data throughput is all the network traffic generated by the application, including business data and internal traffic such as logs, health checks and monitoring. In usage reports it is aggregated daily and monthly, which helps me see how close we are to the contractual limits and adjust capacity in advance.
+#rp_2
+#vr_pt: |
+Eu ainda estou consolidando esse entendimento de Mule flows, Mule messages e throughput focado em métricas de uso. Eu sei que o flow está ligado ao event source, que a mensagem nasce quando esse evento dispara e que o throughput soma todo o tráfego de rede, mas hoje eu ainda uso essas informações mais para ter uma noção geral de consumo do que para fazer uma análise de capacidade muito detalhada.
+#vr_en: |
+I am still consolidating my understanding of Mule flows, Mule messages and throughput from a usage metrics point of view. I know that the flow is tied to the event source, that the message is created when the event is triggered, and that throughput sums up all network traffic, but today I use this more to get a general sense of consumption rather than to drive a very detailed capacity analysis.
+---
+#intent: knowledge/usage_anypoint_mq_metrics
+#pt:
+- como você descreveria o que é medido em termos de uso no Anypoint MQ?
+- o que significa uma API request no contexto de Anypoint MQ e como isso entra em billing?
+- como você explicaria a diferença entre message units, message bytes e API requests no MQ?
+- na prática, como os usage reports de MQ ajudam a entender o volume de mensagens processadas?
+- de que forma você acompanha o total de API requests agregados em todos os ambientes de MQ?
+- o que você costuma analisar quando olha os campos de business group, environment e object name nos relatórios de MQ?
+- como você usaria as métricas de MQ para identificar filas mais críticas ou com maior consumo?
+- em que situações você precisa explicar para o cliente que algumas métricas de MQ são para rate limiting e não para cobrança?
+- como as métricas “total API requests” e “total messages received” te ajudam a orientar decisões de arquitetura?
+- se um time de operações pedisse um overview de consumo de MQ, como você usaria esses usage reports na conversa?
+#en:
+- how would you describe what is measured in terms of usage for Anypoint MQ?
+- what does an API request mean in the Anypoint MQ context and how does it relate to billing?
+- how would you explain the difference between message units, message bytes and API requests in MQ?
+- in practice, how do MQ usage reports help you understand the volume of messages processed?
+- how do you track the total API requests aggregated across all Anypoint MQ environments?
+- what do you usually look at when you read the business group, environment and object name fields in MQ reports?
+- how would you use MQ metrics to identify the most critical queues or the ones with the highest consumption?
+- in which situations do you need to explain to the customer that some MQ metrics are for rate limiting and not for billing?
+- how do “total API requests” and “total messages received” help you guide architecture decisions?
+- if an operations team asked you for an overview of MQ consumption, how would you use these usage reports in the discussion?
+#rp_1
+#vr_pt: |
+No Anypoint MQ eu acompanho principalmente as API requests, porque são elas que entram diretamente no cálculo de billing, agregadas em todos os ambientes. Além disso, eu observo message units e message bytes para entender o tamanho médio das mensagens e possíveis impactos de rate limiting, sempre cruzando isso com business group, environment e o nome das filas. Com esses dados eu consigo identificar quais filas concentram mais volume, discutir padrão de consumo com o time e, se necessário, propor otimizações ou mudanças de desenho.
+#vr_en: |
+In Anypoint MQ I focus mainly on API requests, because they are what feed directly into billing calculations, aggregated across all environments. I also look at message units and message bytes to understand the average message size and any potential rate limiting impact, always correlating that with business group, environment and queue names. With that information I can identify which queues concentrate the most volume, discuss consumption patterns with the team, and propose optimizations or design changes if needed.
+#rp_2
+#vr_pt: |
+Hoje eu ainda uso os usage reports de Anypoint MQ mais como um termômetro geral. Eu sei que as API requests são a base para billing e que existem campos adicionais como message units e message bytes, mas eu ainda não faço uma leitura muito avançada desses detalhes. Quando preciso de algo mais profundo, costumo envolver o time de operações ou consultar a documentação para garantir que estou interpretando tudo corretamente.
+#vr_en: |
+Right now I still use Anypoint MQ usage reports more as a general thermometer. I know that API requests are the basis for billing and that there are additional fields such as message units and message bytes, but I do not yet perform a very advanced analysis of those details. When I need something deeper, I usually involve the operations team or go back to the documentation to make sure I am interpreting everything correctly.
+---
+#intent: knowledge/usage_object_store_metrics
+#pt:
+- como você explicaria o que é medido em termos de uso no Object Store v2?
+- o que significa uma Object Store API request do ponto de vista de consumo?
+- como funciona o conceito de effective API requests e por que ele é importante para quota?
+- de que forma o tamanho do payload e a quantidade de chaves retornadas impactam o cálculo de units?
+- como você usa os campos de business group, environment e store nos usage reports de Object Store?
+- em que situações você olha para total effective API requests para entender risco de estourar quota?
+- como você descreveria o comportamento de requisições acima de 100 KB em termos de contagem de requests?
+- que tipo de insight prático você tira ao analisar uso de Object Store por loja (store) e por ambiente?
+- como você explicaria para um cliente a diferença entre requisição de API e “unit” de consumo no Object Store?
+- se um projeto estivesse usando Object Store de forma intensiva, que cuidados você teria com essas métricas?
+#en:
+- how would you explain what is measured in terms of usage for Object Store v2?
+- what does an Object Store API request mean from a consumption perspective?
+- how does the concept of effective API requests work and why is it important for quota?
+- in what way do payload size and number of keys returned impact the calculation of units?
+- how do you use the business group, environment and store fields in Object Store usage reports?
+- in which situations do you look at total effective API requests to understand quota risk?
+- how would you describe the behavior of requests larger than one hundred kilobytes in terms of counting requests?
+- what practical insights do you get by analyzing Object Store usage per store and per environment?
+- how would you explain to a customer the difference between an API request and a consumption “unit” in Object Store?
+- if a project were using Object Store heavily, what would you pay attention to in these metrics?
+#rp_1
+#vr_pt: |
+No Object Store v2 eu presto bastante atenção em effective API requests, porque é essa métrica que consolida requisição, tamanho de payload e número de chaves retornadas para contar unidades contra a quota. Cada chamada pode representar mais de um “unit” se passar de 100 KB, então eu combino isso com business group, environment e o nome do store para entender onde está o consumo mais alto. Com essa visão eu consigo antecipar riscos de estouro de quota e sugerir ajustes de desenho, como reduzir payloads ou revisar padrões de acesso.
+#vr_en: |
+In Object Store v2 I pay close attention to effective API requests, because that metric consolidates the request, payload size and number of keys returned to count units against the quota. Each call can represent more than one unit if it goes over one hundred kilobytes, so I combine that with business group, environment and store name to understand where consumption is the highest. With that view I can anticipate potential quota issues and suggest design changes, such as reducing payload sizes or revisiting access patterns.
+#rp_2
+#vr_pt: |
+Eu ainda não uso tão profundamente as métricas de Object Store v2. Eu entendo o conceito de effective API requests e sei que payloads maiores podem contar como múltiplas unidades, mas hoje eu ainda utilizo os usage reports mais como referência geral e, quando preciso de algo mais detalhado, consulto a documentação ou envolvo quem já está mais acostumado com essas análises.
+#vr_en: |
+I do not yet use Object Store v2 metrics in a very deep way. I understand the concept of effective API requests and I know that larger payloads can count as multiple units, but today I still rely on usage reports more as a general reference and, when I need something more detailed, I go back to the documentation or involve someone who is more familiar with these analyses.
+---
+#intent: knowledge/usage_runtime_fabric_metrics
+#pt:
+- como você descreveria o objetivo do dashboard de usage para Runtime Fabric em ambientes híbridos?
+- que tipo de métricas de Runtime Fabric você costuma analisar para entender consumo de core e flows?
+- como você usa cluster capacity e CPU limit para discutir compliance e pricing com o cliente?
+- em que situações faz sentido exportar os usage reports de Runtime Fabric para CSV e analisar por business group?
+- como você explicaria a relação entre cluster capacity, flows e transição para pricing baseado em uso?
+- que cuidados você tem com runtime versions e agent version para garantir metrificação correta em Runtime Fabric?
+- como você lida com configurações de cluster, como hyper-threading ou nós de sistema, na leitura da capacidade?
+- em que momento você recomenda usar um cluster dedicado para Runtime Fabric pensando em medição de capacity?
+- como você usaria essas métricas para identificar aplicações que estão consumindo mais CPU do que o esperado?
+- se o time de licenciamento perguntasse sobre compliance em Runtime Fabric, como você usaria os usage reports nessa conversa?
+#en:
+- how would you describe the purpose of the usage dashboard for Runtime Fabric in hybrid environments?
+- what Runtime Fabric metrics do you usually look at to understand core and flow consumption?
+- how do you use cluster capacity and CPU limit to discuss compliance and pricing with a customer?
+- in which situations does it make sense to export Runtime Fabric usage reports to CSV and analyze them by business group?
+- how would you explain the relationship between cluster capacity, flows and the transition to usage-based pricing?
+- what care do you take with runtime versions and agent versions to ensure correct measurement in Runtime Fabric?
+- how do you handle cluster configurations such as hyper-threading or system nodes when reading capacity?
+- when do you recommend using a dedicated cluster for Runtime Fabric from a capacity measurement perspective?
+- how would you use these metrics to identify applications that are consuming more CPU than expected?
+- if the licensing team asked about compliance in Runtime Fabric, how would you use usage reports in that conversation?
+#rp_1
+#vr_pt: |
+No contexto de Runtime Fabric eu uso o dashboard de usage para cruzar cluster capacity, CPU limit, flows e mensagens por aplicação, sempre refinando por business group e ambiente. Quando preciso de mais detalhe, exporto o CSV e analiso por aplicação e ambiente para ver quem mais consome core. Também fico atento a versões de runtime e do agent, além de configurações de cluster, para garantir que o que aparece no usage report realmente reflete a realidade e possa ser usado numa discussão séria de pricing e compliance com o cliente.
+#vr_en: |
+In the Runtime Fabric context I use the usage dashboard to cross-check cluster capacity, CPU limit, flows and messages per application, always refined by business group and environment. When I need more detail, I export the CSV and analyze it per application and environment to see which ones consume the most cores. I also pay attention to runtime and agent versions, as well as cluster configurations, to make sure what appears in the usage report truly reflects reality and can support a serious discussion about pricing and compliance with the customer.
+#rp_2
+#vr_pt: |
+Eu ainda estou amadurecendo o uso das métricas de Runtime Fabric. Eu sei que dá para acompanhar cluster capacity, CPU limit e flows, e que existe a possibilidade de exportar para CSV e cruzar isso por business group, mas hoje eu uso mais a visão padrão do dashboard e ainda dependo bastante das recomendações oficiais e do time de operações para decisões de capacidade e licenciamento.
+#vr_en: |
+I am still maturing how I use Runtime Fabric metrics. I know that I can track cluster capacity, CPU limit and flows, and that it is possible to export to CSV and cross this data by business group, but today I mostly rely on the default dashboard view and still depend heavily on official recommendations and the operations team for capacity and licensing decisions.
+---
+#intent: knowledge/usage_api_and_gateway_metrics
+#pt:
+- como você explicaria, em alto nível, as diferenças de métricas entre API Manager, API Governance e Flex Gateway?
+- de que forma você acompanha o número de APIs gerenciadas versus APIs governadas na plataforma?
+- como você usa métricas como “maximum number of managed APIs” e “maximum number of governed APIs” nas conversas com o cliente?
+- em que situações você olha para as métricas de API Experience Hub, como approved request access, para entender adoção?
+- como você descreveria o que significa uma Flex Gateway API call em termos de uso e capacidade?
+- de que forma você utiliza métricas de data egress e número total de chamadas em Flex Gateway para avaliar impacto?
+- como você conecta o uso de APIs publicadas, governadas e expostas via gateway com a visão de consumo nos usage reports?
+- em que momento você reforça para o cliente que dados de API Manager estão disponíveis só a partir de uma certa data?
+- como você usaria essas métricas para identificar se a organização está realmente escalando o uso de APIs?
+- se um time de produto pedisse evidência de adoção de APIs, como você usaria API Manager, Governance e Experience Hub nessa análise?
+#en:
+- how would you explain at a high level the metric differences between API Manager, API Governance and Flex Gateway?
+- how do you track the number of managed APIs versus governed APIs on the platform?
+- how do you use metrics such as “maximum number of managed APIs” and “maximum number of governed APIs” in customer conversations?
+- in which situations do you look at API Experience Hub metrics, such as approved request access, to understand adoption?
+- how would you describe what a Flex Gateway API call means in terms of usage and capacity?
+- how do you use data egress and total number of calls in Flex Gateway to evaluate impact?
+- how do you connect the usage of published, governed and gateway-exposed APIs with the consumption view in usage reports?
+- at what point do you remind the customer that API Manager data is only available starting from a certain date?
+- how would you use these metrics to identify whether the organization is truly scaling API usage?
+- if a product team asked for evidence of API adoption, how would you use API Manager, Governance and Experience Hub in your analysis?
+#rp_1
+#vr_pt: |
+Eu costumo separar assim: API Manager mostra quantas APIs estão efetivamente gerenciadas e com instâncias aplicadas, API Governance mostra quantas estão sob regras de qualidade e segurança, e Flex Gateway traz a visão de chamadas e data egress na borda. Além disso, o API Experience Hub ajuda a enxergar adoção pelo lado dos consumidores, por exemplo com métricas de approved request access. Cruzando essas fontes eu consigo contar uma história completa de ciclo de vida de API, desde design e governança até consumo real e tráfego em produção.
+#vr_en: |
+I usually break it down like this: API Manager shows how many APIs are actually managed and have instances applied, API Governance shows how many are under quality and security rules, and Flex Gateway brings the view of calls and data egress at the edge. On top of that, API Experience Hub helps me see adoption from the consumer side, for example with metrics such as approved request access. By combining these sources I can tell a complete API lifecycle story, from design and governance all the way to real consumption and production traffic.
+#rp_2
+#vr_pt: |
+Eu ainda não exploro todas as métricas de API Manager, API Governance, Flex Gateway e API Experience Hub no detalhe. Eu entendo a ideia de APIs gerenciadas, APIs governadas e chamadas no gateway, mas hoje eu uso mais essas informações para ter uma visão geral de adoção e menos para análises muito profundas. Conforme eu ganho mais experiência, pretendo integrar melhor esses dados na conversa de estratégia de APIs com o cliente.
+#vr_en: |
+I do not yet explore all the metrics from API Manager, API Governance, Flex Gateway and API Experience Hub in depth. I understand the idea of managed APIs, governed APIs and gateway calls, but today I use this information more for a general adoption view and less for very deep analysis. As I gain more experience, I plan to integrate these data points more tightly into API strategy conversations with the customer.

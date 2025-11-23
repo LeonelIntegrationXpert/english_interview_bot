@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_usage_api_and_gateway_metrics:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu costumo separar assim: API Manager mostra quantas APIs estão efetivamente gerenciadas e com instâncias aplicadas, API Governance mostra quantas estão sob regras de qualidade e segurança, e Flex Gateway traz a visão de chamadas e data egress na borda. Além disso, o API Experience Hub ajuda a enxergar adoção pelo lado dos consumidores, por exemplo com métricas de approved request access. Cruzando essas fontes eu consigo contar uma história completa de ciclo de vida de API, desde design e governança até consumo real e tráfego em produção.
+          vr_en: |
+            I usually break it down like this: API Manager shows how many APIs are actually managed and have instances applied, API Governance shows how many are under quality and security rules, and Flex Gateway brings the view of calls and data egress at the edge. On top of that, API Experience Hub helps me see adoption from the consumer side, for example with metrics such as approved request access. By combining these sources I can tell a complete API lifecycle story, from design and governance all the way to real consumption and production traffic.
+        resp_2:
+          vr_pt: |
+            Eu ainda não exploro todas as métricas de API Manager, API Governance, Flex Gateway e API Experience Hub no detalhe. Eu entendo a ideia de APIs gerenciadas, APIs governadas e chamadas no gateway, mas hoje eu uso mais essas informações para ter uma visão geral de adoção e menos para análises muito profundas. Conforme eu ganho mais experiência, pretendo integrar melhor esses dados na conversa de estratégia de APIs com o cliente.
+          vr_en: |
+            I do not yet explore all the metrics from API Manager, API Governance, Flex Gateway and API Experience Hub in depth. I understand the idea of managed APIs, governed APIs and gateway calls, but today I use this information more for a general adoption view and less for very deep analysis. As I gain more experience, I plan to integrate these data points more tightly into API strategy conversations with the customer.

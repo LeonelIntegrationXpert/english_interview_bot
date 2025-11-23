@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_ai_dev_tools
+    examples: |
+      - como você enxerga o uso de ferramentas de desenvolvimento com IA dentro do MuleSoft AI?
+      - qual é o papel do Anypoint Code Builder e do Dev Agent na sua visão de produtividade?
+      - como o MuleSoft Dev Agent pode te ajudar a desenhar integrações ou specs de API mais rápido?
+      - você já explorou a ideia de “Develop Integrations with MuleSoft Dev Agent” na prática?
+      - de que forma a IA entra no desenho de especificações de API com o MuleSoft Dev Agent?
+      - como você vê a integração entre conectores MuleSoft e o MuleSoft MCP Server nesse contexto?
+      - que papel você atribui aos conectores de IA (como AI Chain, Inference, Vectors) dentro de um projeto?
+      - como você decide quando usar um conector de IA versus uma chamada direta a um modelo externo?
+      - que tipo de cuidado você teria ao habilitar tópicos e agent actions no API Catalog?
+      - se um time de dev te perguntasse como começar com essas ferramentas, por onde você sugeriria iniciar?
+      - how do you see the use of AI-powered development tools inside MuleSoft AI?
+      - what role do Anypoint Code Builder and the Dev Agent play in your view of productivity?
+      - how can the MuleSoft Dev Agent help you design integrations or API specs faster?
+      - have you explored the “Develop Integrations with MuleSoft Dev Agent” idea in practice?
+      - in what way does AI help in designing API specifications with MuleSoft Dev Agent?
+      - how do you see the integration between MuleSoft connectors and the MuleSoft MCP Server in this context?
+      - what role do you assign to AI connectors (such as AI Chain, Inference, Vectors) inside a project?
+      - how do you decide when to use an AI connector versus calling an external model directly?
+      - what kind of care would you take when enabling topics and agent actions in the API Catalog?
+      - if a dev team asked you how to get started with these tools, where would you suggest they begin?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_api_led_connectivity
+    examples: |
+      - o que você entende por API-led connectivity dentro do contexto MuleSoft?
+      - como você explicaria o conceito de API-led para alguém que está começando em MuleSoft?
+      - qual é a diferença prática entre usar API-led e fazer integrações pontuais em MuleSoft?
+      - como você costuma separar APIs de sistema, de processo e de experiência na sua arquitetura?
+      - em um projeto MuleSoft, como você decide em qual camada API-led cada integração deve ficar?
+      - que benefícios você já percebeu ao aplicar API-led connectivity em projetos reais?
+      - como o conceito de reutilização entra na sua visão de API-led em MuleSoft?
+      - como você costuma organizar o versionamento das APIs em uma arquitetura API-led?
+      - você pode dar um exemplo simples de cadeia de chamadas usando API-led?
+      - na sua visão, onde API-led mais ajuda quando o ambiente começa a crescer?
+      - what do you understand by API-led connectivity in the MuleSoft context?
+      - how would you explain the API-led concept to someone who is just starting with MuleSoft?
+      - what is the practical difference between using API-led and building point-to-point integrations in MuleSoft?
+      - how do you usually separate system, process and experience APIs in your architecture?
+      - in a MuleSoft project, how do you decide which API-led layer each integration should belong to?
+      - what benefits have you seen when applying API-led connectivity in real projects?
+      - how does the idea of reuse fit into your view of API-led in MuleSoft?
+      - how do you usually organize API versioning in an API-led architecture?
+      - can you give a simple example of a call chain using API-led?
+      - in your opinion, where does API-led help the most when the environment starts to grow?

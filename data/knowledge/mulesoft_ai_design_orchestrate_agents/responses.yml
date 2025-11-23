@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_ai_design_orchestrate_agents:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu vejo o desenho e a orquestração de agentes com MuleSoft AI como uma camada declarativa, onde você descreve quem são os agentes, quais capacidades eles têm, como se encadeiam em redes e quais sistemas tocam. Isso traz reuso, governança e observabilidade, e facilita bastante ajustar o comportamento dos agentes sem reescrever tudo do zero.
+          vr_en: |
+            I see designing and orchestrating agents with MuleSoft AI as a declarative layer where you describe who the agents are, what capabilities they have, how they are chained in networks and which systems they touch. That brings reuse, governance and observability, and makes it much easier to adjust agent behavior without rewriting everything from scratch.
+        resp_2:
+          vr_pt: |
+            Eu ainda estou ganhando familiaridade com a parte de design e orquestração de agentes. Entendo a proposta de trabalhar com redes de agentes e ativos declarativos, mas na prática eu ainda estou mais na fase de estudo e consumo de demos do que operando redes complexas em produção.
+          vr_en: |
+            I am still gaining familiarity with the design and orchestration side of agents. I understand the proposal of working with agent networks and declarative assets, but in practice I am still more in the study and demo phase than actually operating complex networks in production.

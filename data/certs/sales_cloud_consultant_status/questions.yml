@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: sales_cloud_consultant_status
+    examples: |
+      - você já tem a certificação Salesforce Sales Cloud Consultant?
+      - hoje você é certificado como Salesforce Sales Cloud Consultant?
+      - a certificação Sales Cloud Consultant já faz parte do seu perfil?
+      - você já passou na prova de Salesforce Sales Cloud Consultant?
+      - atualmente você possui a certificação Salesforce Sales Cloud Consultant?
+      - você poderia me dizer se já concluiu a certificação Sales Cloud Consultant?
+      - seu conjunto de certificações inclui a de Salesforce Sales Cloud Consultant?
+      - você já obteve a certificação Salesforce Certified Sales Cloud Consultant?
+      - essa certificação de Sales Cloud Consultant você já conquistou?
+      - você já é oficialmente Salesforce Sales Cloud Consultant certificado?
+      - do you already have the Salesforce Sales Cloud Consultant certification?
+      - are you currently certified as a Salesforce Sales Cloud Consultant?
+      - is the Sales Cloud Consultant certification already part of your profile?
+      - have you passed the Salesforce Sales Cloud Consultant exam?
+      - do you currently hold the Salesforce Sales Cloud Consultant certification?
+      - could you tell me if you have completed the Sales Cloud Consultant certification?
+      - does your certification set include the Salesforce Sales Cloud Consultant credential?
+      - have you obtained the Salesforce Certified Sales Cloud Consultant certification?
+      - have you already earned the Sales Cloud Consultant certification?
+      - are you officially a certified Salesforce Sales Cloud Consultant?

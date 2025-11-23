@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_ai_blueprint_foundation
+    examples: |
+      - como você enxerga o blueprint de implementação de IA proposto pela MuleSoft AI?
+      - na prática, o que significa “construir uma fundação de IA com integração” na visão MuleSoft?
+      - como você conectaria a parte de integração tradicional com essa fundação para IA?
+      - que passos você considera essenciais ao seguir o blueprint de MuleSoft AI em um cliente?
+      - como esse blueprint ajuda a evitar provas de conceito isoladas e sem conexão com sistemas reais?
+      - de que forma o blueprint de MuleSoft AI conversa com iniciativas de Agentforce?
+      - como você explicaria para um gestor por que começar por integração antes de falar de IA generativa?
+      - que tipos de riscos o blueprint de MuleSoft AI ajuda a mitigar em projetos de IA corporativa?
+      - como você conectaria esse blueprint com a ideia de “actionable, connected enterprise”?
+      - se um cliente pedisse um caminho de implementação de IA, como você usaria esse blueprint na conversa?
+      - how do you view the implementation blueprint proposed by MuleSoft AI?
+      - in practice, what does “building a foundation for AI with integration” mean in the MuleSoft view?
+      - how would you connect traditional integration work with that AI foundation?
+      - what steps do you consider essential when following the MuleSoft AI blueprint at a customer?
+      - how does this blueprint help avoid isolated AI proofs of concept disconnected from real systems?
+      - in what way does the MuleSoft AI blueprint relate to Agentforce initiatives?
+      - how would you explain to a manager why you start with integration before talking about generative AI?
+      - what types of risks does the MuleSoft AI blueprint help mitigate in enterprise AI projects?
+      - how would you connect this blueprint with the idea of an “actionable, connected enterprise”?
+      - if a customer asked for an AI implementation path, how would you use this blueprint in the discussion?

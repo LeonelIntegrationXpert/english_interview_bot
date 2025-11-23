@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_marketing_cloud_email_specialist_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce Marketing Cloud Email Specialist, que valida meu conhecimento em segmentação, automação e boas práticas de e-mail marketing.
+          vr_en: |
+            Yes, I have the Salesforce Marketing Cloud Email Specialist certification, which validates my knowledge in segmentation, automation and email marketing best practices.
+        resp_2:
+          vr_pt: |
+            Ainda não concluí a certificação Salesforce Marketing Cloud Email Specialist, mas já trabalho com jornadas e campanhas de e-mail e pretendo formalizar isso em prova.
+          vr_en: |
+            I haven’t completed the Salesforce Marketing Cloud Email Specialist certification yet, but I already work with journeys and email campaigns and plan to formalize that in the exam.

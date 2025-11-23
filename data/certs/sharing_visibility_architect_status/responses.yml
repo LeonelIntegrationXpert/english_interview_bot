@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_sharing_visibility_architect_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce Sharing and Visibility Architect, que valida minha capacidade de desenhar modelos de segurança, compartilhamento e acesso em cenários complexos.
+          vr_en: |
+            Yes, I have the Salesforce Sharing and Visibility Architect certification, which validates my ability to design security, sharing and access models in complex scenarios.
+        resp_2:
+          vr_pt: |
+            Ainda não tirei a certificação Salesforce Sharing and Visibility Architect, mas já trabalho com segurança e modelos de acesso avançados e pretendo formalizar isso na prova.
+          vr_en: |
+            I haven’t taken the Salesforce Sharing and Visibility Architect certification yet, but I already work with advanced security and access models and I plan to formalize that in the exam.

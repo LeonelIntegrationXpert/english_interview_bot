@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: usage_reports_overview
+    examples: |
+      - você pode me explicar, de forma geral, o que são os usage reports no Anypoint Platform?
+      - como você descreveria o objetivo principal dos usage reports para um gestor técnico?
+      - na prática, como os usage reports ajudam a entender o consumo dos produtos MuleSoft?
+      - de que forma você usa os usage reports para ter visibilidade de uso diário e mensal?
+      - como o fato dos reports serem atualizados duas vezes por dia impacta sua análise?
+      - o que você leva em conta sabendo que os últimos dias ainda podem sofrer ajustes de dados?
+      - como você utiliza a retenção diária e mensal dos usage reports no seu planejamento?
+      - de que maneira você explica para um cliente a diferença entre dados “recentes” e dados “finais” no usage report?
+      - como o uso de UTC nos usage reports influencia a leitura dos dados em diferentes fusos?
+      - em quais situações você recorre primeiro aos usage reports antes de olhar outras métricas?
+      - can you give me a high-level explanation of what usage reports are in Anypoint Platform?
+      - how would you describe the main purpose of usage reports to a technical manager?
+      - in practice, how do usage reports help you understand the consumption of MuleSoft products?
+      - how do you use daily and monthly usage reports to get visibility over product usage?
+      - how does the fact that usage reports refresh twice a day affect your analysis?
+      - what do you take into account knowing that the last few days of data might still change?
+      - how do you make use of the daily and monthly retention windows in your planning?
+      - how do you explain to a customer the difference between “recent” and “final” data in usage reports?
+      - how does the use of UTC in usage reports influence how you read data across time zones?
+      - in which situations do you look at usage reports first before checking other metrics?

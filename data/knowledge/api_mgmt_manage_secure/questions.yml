@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: api_mgmt_manage_secure
+    examples: |
+      - como você trabalha a parte de “manage and secure” das APIs no Anypoint Platform?
+      - que tipo de policies você costuma aplicar com mais frequência nas APIs que gerencia?
+      - como você decide entre aplicar políticas manualmente e usar automated policies?
+      - qual é o papel do Flex Gateway na sua visão de gerenciamento e segurança de APIs?
+      - você pode comentar como funciona o processo de registrar e gerenciar API instances?
+      - como você monitora as APIs depois de publicadas para garantir saúde e performance?
+      - que práticas você segue para controlar acesso e proteger APIs expostas externamente?
+      - como você lida com o gerenciamento de APIs que estão em ambientes ou runtimes diferentes?
+      - em que momento você revisita policies e configurações de segurança ao longo do tempo?
+      - se uma API começar a ter problemas de performance ou erro, qual é seu fluxo de análise?
+      - how do you handle the “manage and secure” part of APIs on Anypoint Platform?
+      - what types of policies do you most frequently apply to the APIs you manage?
+      - how do you decide between applying policies manually and using automated policies?
+      - what role does Flex Gateway play in your view of API management and security?
+      - can you describe how the process of registering and managing API instances works?
+      - how do you monitor APIs after they are published to ensure health and performance?
+      - what practices do you follow to control access and protect externally exposed APIs?
+      - how do you deal with managing APIs that are running in different environments or runtimes?
+      - at what point do you revisit policies and security configurations over time?
+      - if an API starts having performance or error issues, what is your analysis flow?

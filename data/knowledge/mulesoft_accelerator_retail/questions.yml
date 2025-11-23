@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_accelerator_retail
+    examples: |
+      - qual é a sua visão sobre o MuleSoft Accelerator for Retail?
+      - como o MuleSoft Accelerator for Retail apoia times de TI de varejo?
+      - em que tipos de projetos digitais de varejo você aplicaria esse Accelerator?
+      - você já trabalhou com integrações de varejo usando o MuleSoft Accelerator for Retail?
+      - que sistemas típicos de ERP, CRM, MDM, commerce e marketing você imagina conectando com ele?
+      - como esse Accelerator ajuda a “desbloquear” dados para ativar iniciativas digitais mais rápido?
+      - que benefícios ele traz em termos de reuso de APIs e padronização em varejo?
+      - como você adaptaria os ativos desse Accelerator à arquitetura de uma grande rede de lojas?
+      - que tipo de visibilidade omnicanal esse Accelerator pode habilitar no varejo?
+      - se um varejista te perguntasse o porquê de usar esse Accelerator, o que você ressaltaria?
+      - what is your view of the MuleSoft Accelerator for Retail?
+      - how does the MuleSoft Accelerator for Retail support retail IT teams?
+      - in what kinds of digital retail projects would you apply this Accelerator?
+      - have you worked with retail integrations using the MuleSoft Accelerator for Retail?
+      - what typical ERP, CRM, MDM, commerce and marketing systems do you imagine connecting with it?
+      - how does this Accelerator help “unlock” data to activate digital initiatives faster?
+      - what benefits does it bring in terms of API reuse and standardization in retail?
+      - how would you adapt this Accelerator’s assets to the architecture of a large retail chain?
+      - what kind of omnichannel visibility can this Accelerator enable in retail?
+      - if a retailer asked you why they should use this Accelerator, what would you highlight?

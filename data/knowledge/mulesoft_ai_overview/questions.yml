@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_ai_overview
+    examples: |
+      - você pode me explicar, de forma geral, o que é o MuleSoft AI?
+      - como você descreveria o MuleSoft AI para alguém que já conhece MuleSoft, mas ainda não mexeu com IA?
+      - na sua visão, qual é o papel do MuleSoft AI dentro de uma arquitetura corporativa?
+      - como o MuleSoft AI ajuda a criar experiências orientadas por agentes na empresa?
+      - que tipo de problemas de integração e automação o MuleSoft AI se propõe a resolver?
+      - como você vê a relação entre MuleSoft AI, integrações e um enterprise realmente conectado?
+      - quais são os principais componentes ou capacidades que você associa ao MuleSoft AI?
+      - como o MuleSoft AI apoia a construção, orquestração e gestão de experiências orientadas por IA?
+      - em que tipo de iniciativa de transformação digital você considera o MuleSoft AI mais relevante?
+      - se eu te pedisse um resumo do MuleSoft AI em poucos minutos, o que você destacaria?
+      - can you give me a high-level explanation of what MuleSoft AI is?
+      - how would you describe MuleSoft AI to someone who already knows MuleSoft but has not worked with AI yet?
+      - in your view, what is the role of MuleSoft AI inside an enterprise architecture?
+      - how does MuleSoft AI help create AI-driven, agent-based experiences across the company?
+      - what types of integration and automation problems is MuleSoft AI meant to address?
+      - how do you see the relationship between MuleSoft AI, integrations and a truly connected enterprise?
+      - what are the main capabilities or components you associate with MuleSoft AI?
+      - how does MuleSoft AI support building, orchestrating and managing AI-driven experiences?
+      - in which kind of digital transformation initiative do you see MuleSoft AI as most relevant?
+      - if I asked you to summarize MuleSoft AI in just a few minutes, what would you highlight?

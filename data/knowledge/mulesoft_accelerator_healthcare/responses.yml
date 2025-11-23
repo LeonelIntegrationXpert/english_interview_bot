@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_accelerator_healthcare:
+    - custom:
+        resp_1:
+          vr_pt: |
+            O MuleSoft Accelerator for Healthcare traz ativos voltados a payers, providers e life sciences, ajudando a integrar sistemas clínicos, administrativos e de engajamento. Eu vejo ele como um facilitador de interoperabilidade e de jornadas digitais em saúde, reduzindo a complexidade de integrar múltiplas fontes de dados sensíveis.
+          vr_en: |
+            The MuleSoft Accelerator for Healthcare provides assets targeted at payers, providers and life sciences organizations, helping integrate clinical, administrative and engagement systems. I see it as a way to facilitate interoperability and digital journeys in healthcare, reducing the complexity of integrating multiple sensitive data sources.
+        resp_2:
+          vr_pt: |
+            Meu contato com o MuleSoft Accelerator for Healthcare ainda é limitado. Eu conheço a proposta de apoiar payers e providers na integração de sistemas, mas hoje eu precisaria estudar melhor os casos de uso e requisitos regulatórios antes de aplicar isso em um projeto real.
+          vr_en: |
+            My exposure to the MuleSoft Accelerator for Healthcare is still limited. I understand the idea of supporting payers and providers in system integration, but at this point I would need to study the use cases and regulatory requirements more deeply before applying it in a real project.

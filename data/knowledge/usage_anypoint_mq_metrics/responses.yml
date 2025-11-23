@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_usage_anypoint_mq_metrics:
+    - custom:
+        resp_1:
+          vr_pt: |
+            No Anypoint MQ eu acompanho principalmente as API requests, porque são elas que entram diretamente no cálculo de billing, agregadas em todos os ambientes. Além disso, eu observo message units e message bytes para entender o tamanho médio das mensagens e possíveis impactos de rate limiting, sempre cruzando isso com business group, environment e o nome das filas. Com esses dados eu consigo identificar quais filas concentram mais volume, discutir padrão de consumo com o time e, se necessário, propor otimizações ou mudanças de desenho.
+          vr_en: |
+            In Anypoint MQ I focus mainly on API requests, because they are what feed directly into billing calculations, aggregated across all environments. I also look at message units and message bytes to understand the average message size and any potential rate limiting impact, always correlating that with business group, environment and queue names. With that information I can identify which queues concentrate the most volume, discuss consumption patterns with the team, and propose optimizations or design changes if needed.
+        resp_2:
+          vr_pt: |
+            Hoje eu ainda uso os usage reports de Anypoint MQ mais como um termômetro geral. Eu sei que as API requests são a base para billing e que existem campos adicionais como message units e message bytes, mas eu ainda não faço uma leitura muito avançada desses detalhes. Quando preciso de algo mais profundo, costumo envolver o time de operações ou consultar a documentação para garantir que estou interpretando tudo corretamente.
+          vr_en: |
+            Right now I still use Anypoint MQ usage reports more as a general thermometer. I know that API requests are the basis for billing and that there are additional fields such as message units and message bytes, but I do not yet perform a very advanced analysis of those details. When I need something deeper, I usually involve the operations team or go back to the documentation to make sure I am interpreting everything correctly.

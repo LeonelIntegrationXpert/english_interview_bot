@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_ai_overview:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu enxergo o MuleSoft AI como um conjunto de capacidades para construir, orquestrar, governar e operar experiências orientadas por IA em cima do que a empresa já tem de integrações. A ideia não é só “chamar modelo de IA”, mas conectar esses agentes com sistemas reais, processos e dados, para que as ações deles sejam de fato executáveis dentro do ambiente corporativo.
+          vr_en: |
+            I see MuleSoft AI as a set of capabilities to build, orchestrate, govern and operate AI-driven experiences on top of the integrations the company already has. The idea is not just to “call an AI model”, but to connect these agents with real systems, processes and data so that their actions are actually executable within the enterprise environment.
+        resp_2:
+          vr_pt: |
+            Hoje eu ainda estou em estágio inicial com MuleSoft AI, bem mais focado em entender os conceitos, componentes e casos de uso do que em implementação profunda. Eu tenho acompanhado a documentação e os exemplos, mas ainda quero ganhar mais experiência prática antes de dizer que domino o tema.
+          vr_en: |
+            Right now I am still at an early stage with MuleSoft AI, more focused on understanding the concepts, components and use cases than on deep implementation. I have been following the documentation and examples, but I still want to gain more hands-on experience before saying I fully master the topic.

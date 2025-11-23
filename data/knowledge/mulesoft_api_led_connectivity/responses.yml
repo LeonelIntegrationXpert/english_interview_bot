@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_api_led_connectivity:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Para mim API-led é uma forma estruturada de organizar integrações em camadas de sistema, processo e experiência. Em MuleSoft eu costumo isolar o acesso às fontes de dados em APIs de sistema, orquestrar regras de negócio em APIs de processo e expor o que o canal precisa em APIs de experiência, o que traz mais reutilização, governança e manutenção mais simples.
+          vr_en: |
+            For me, API-led is a structured way to organize integrations into system, process and experience layers. In MuleSoft I usually isolate data access in system APIs, orchestrate business rules in process APIs and expose what each channel needs in experience APIs, which brings more reuse, governance and easier maintenance.
+        resp_2:
+          vr_pt: |
+            Eu ainda estou consolidando o conceito de API-led na prática. Entendo a teoria das camadas de sistema, processo e experiência, mas quero ganhar mais vivência em projetos para aplicar esse modelo de forma mais consistente no dia a dia.
+          vr_en: |
+            I am still consolidating the API-led concept in practice. I understand the theory of system, process and experience layers, but I want to gain more hands-on project experience to apply that model more consistently in my daily work.

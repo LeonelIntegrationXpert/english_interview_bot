@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: advanced_admin_status
+    examples: |
+      - você já tem a certificação Salesforce Advanced Administrator?
+      - hoje você é certificado como Salesforce Advanced Administrator?
+      - a certificação Advanced Administrator já faz parte do seu currículo?
+      - você já passou na prova de Salesforce Advanced Administrator?
+      - atualmente você possui a certificação Salesforce Advanced Administrator?
+      - você poderia me dizer se já concluiu a certificação Advanced Admin?
+      - seu conjunto de certificações inclui a de Salesforce Advanced Administrator?
+      - você já obteve a certificação Salesforce Certified Advanced Administrator?
+      - essa certificação de Advanced Admin você já conquistou?
+      - você já é oficialmente Salesforce Advanced Administrator certificado?
+      - do you already have the Salesforce Advanced Administrator certification?
+      - are you currently certified as a Salesforce Advanced Administrator?
+      - is the Salesforce Advanced Administrator certification already on your résumé?
+      - have you passed the Salesforce Advanced Administrator exam?
+      - do you currently hold the Salesforce Advanced Administrator certification?
+      - could you tell me if you have completed the Advanced Administrator certification?
+      - does your certification set include the Salesforce Advanced Administrator credential?
+      - have you obtained the Salesforce Certified Advanced Administrator certification?
+      - have you already earned the Advanced Administrator certification?
+      - are you officially a certified Salesforce Advanced Administrator?

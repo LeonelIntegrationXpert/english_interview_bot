@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_marketing_cloud_admin_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce Marketing Cloud Administrator, que mostra que sei configurar, manter e dar suporte ao ambiente de Marketing Cloud com segurança.
+          vr_en: |
+            Yes, I have the Salesforce Marketing Cloud Administrator certification, which shows that I can configure, maintain and support the Marketing Cloud environment securely.
+        resp_2:
+          vr_pt: |
+            Ainda não tirei a certificação Salesforce Marketing Cloud Administrator, mas já atuei com configurações e operações em Marketing Cloud e quero validar isso na prova.
+          vr_en: |
+            I haven’t taken the Salesforce Marketing Cloud Administrator certification yet, but I’ve already worked with configuration and operations in Marketing Cloud and want to validate that in the exam.

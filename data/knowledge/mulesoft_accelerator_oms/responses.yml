@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_accelerator_oms:
+    - custom:
+        resp_1:
+          vr_pt: |
+            O MuleSoft Accelerator for Salesforce OMS é voltado a estender e integrar o Salesforce Order Management com parceiros externos e outros sistemas, usando as capacidades de integração B2B do Anypoint Platform. Eu vejo ele como um atalho importante para conectar OMS com ERPs, sistemas de logística e parceiros, reduzindo tempo de implementação e risco.
+          vr_en: |
+            The MuleSoft Accelerator for Salesforce OMS is focused on extending and integrating Salesforce Order Management with external partners and other systems, leveraging the B2B integration capabilities of Anypoint Platform. I see it as an important shortcut to connect OMS with ERPs, logistics systems and partners, reducing implementation time and risk.
+        resp_2:
+          vr_pt: |
+            Eu ainda não tive experiência prática com o MuleSoft Accelerator for Salesforce OMS. Sei que ele foi pensado para integrar o OMS com ecossistemas externos, mas hoje eu precisaria revisar os fluxos e exemplos antes de propor uma solução detalhada para um cliente.
+          vr_en: |
+            I have not had hands-on experience with the MuleSoft Accelerator for Salesforce OMS yet. I know it is designed to integrate OMS with external ecosystems, but at this stage I would need to review the flows and examples before proposing a detailed solution for a customer.

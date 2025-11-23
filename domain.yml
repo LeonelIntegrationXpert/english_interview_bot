@@ -211,6 +211,68 @@ intents:
   - overall_certifications
   - platform_developer_skills
   - platform_developer_status
+  - advanced_admin_status
+  - associate_status
+  - data_cloud_consultant_status
+  - experience_cloud_consultant_status
+  - mulesoft_associate_status
+  - sales_cloud_consultant_status
+  - service_cloud_consultant_status
+  - application_architect_status
+  - business_analyst_status
+  - platform_developer2_status
+  - sf_integration_architect_status
+  - system_architect_status
+  - technical_architect_status
+  - account_engagement_status
+  - field_service_consultant_status
+  - marketing_cloud_admin_status
+  - marketing_cloud_email_specialist_status
+  - omnistudio_consultant_status
+  - api_mgmt_design_build
+  - api_mgmt_discover
+  - api_mgmt_engage_portals
+  - api_mgmt_govern
+  - api_mgmt_manage_secure
+  - api_mgmt_overview
+  - data_architect_status
+  - dev_lifecycle_deployment_architect_status
+  - identity_access_architect_status
+  - mulesoft_accelerator_consumer_goods
+  - mulesoft_accelerator_data_cloud
+  - mulesoft_accelerator_financial_services
+  - mulesoft_accelerator_healthcare
+  - mulesoft_accelerator_life_sciences
+  - mulesoft_accelerator_manufacturing
+  - mulesoft_accelerator_oms
+  - mulesoft_accelerator_retail
+  - mulesoft_accelerator_sap
+  - mulesoft_accelerators_overview
+  - mulesoft_agent_fabric_get_started
+  - mulesoft_ai_blueprint_foundation
+  - mulesoft_ai_design_orchestrate_agents
+  - mulesoft_ai_dev_tools
+  - mulesoft_ai_governance_security
+  - mulesoft_ai_observability
+  - mulesoft_ai_overview
+  - mulesoft_api_led_connectivity
+  - mulesoft_cloudhub_deployment
+  - mulesoft_dataweave_skills
+  - mulesoft_error_handling
+  - mulesoft_overall_experience
+  - nonprofit_cloud_consultant_status
+  - sharing_visibility_architect_status
+  - usage_anypoint_mq_metrics
+  - usage_api_and_gateway_metrics
+  - usage_mule_runtime_core_metrics
+  - usage_object_store_metrics
+  - usage_reports_api_and_export
+  - usage_reports_costs_and_ai_credits
+  - usage_reports_overview
+  - usage_reports_permissions_access
+  - usage_reports_products_scope
+  - usage_reports_runtime_versions
+  - usage_runtime_fabric_metrics
 actions:
   - action_fallback
 session_config:

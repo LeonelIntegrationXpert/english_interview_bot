@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_sf_integration_architect_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce Integration Architect, o que mostra que eu sei desenhar integrações escaláveis e bem governadas entre Salesforce e outros sistemas.
+          vr_en: |
+            Yes, I have the Salesforce Integration Architect certification, which shows that I can design scalable, well-governed integrations between Salesforce and other systems.
+        resp_2:
+          vr_pt: |
+            Ainda não tirei a certificação Salesforce Integration Architect, mas já trabalho com integrações complexas e quero transformar essa experiência em credencial oficial.
+          vr_en: |
+            I haven’t taken the Salesforce Integration Architect certification yet, but I already work with complex integrations and I want to turn that experience into an official credential.

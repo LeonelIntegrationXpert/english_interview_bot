@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: business_analyst_status
+    examples: |
+      - você já tem a certificação Salesforce Business Analyst?
+      - hoje você é certificado como Salesforce Business Analyst?
+      - a certificação Salesforce Business Analyst já faz parte do seu perfil?
+      - você já passou na prova de Salesforce Certified Business Analyst?
+      - atualmente você possui a certificação Salesforce Business Analyst?
+      - você poderia me dizer se já concluiu a certificação Business Analyst?
+      - seu conjunto de certificações inclui a de Salesforce Business Analyst?
+      - você já obteve a certificação Salesforce Certified Business Analyst?
+      - essa certificação de Business Analyst você já conquistou?
+      - você já é oficialmente Salesforce Business Analyst certificado?
+      - do you already have the Salesforce Business Analyst certification?
+      - are you currently certified as a Salesforce Business Analyst?
+      - is the Salesforce Business Analyst certification already part of your profile?
+      - have you passed the Salesforce Certified Business Analyst exam?
+      - do you currently hold the Salesforce Business Analyst certification?
+      - could you tell me if you have completed the Business Analyst certification?
+      - does your certification set include the Salesforce Business Analyst credential?
+      - have you obtained the Salesforce Certified Business Analyst certification?
+      - have you already earned the Business Analyst certification?
+      - are you officially a certified Salesforce Business Analyst?

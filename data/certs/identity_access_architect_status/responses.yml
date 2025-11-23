@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_identity_access_architect_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho a certificação Salesforce Identity and Access Management Architect, que comprova minha experiência com autenticação, SSO, federation e segurança de identidade na plataforma.
+          vr_en: |
+            Yes, I have the Salesforce Identity and Access Management Architect certification, which proves my experience with authentication, SSO, federation and identity security on the platform.
+        resp_2:
+          vr_pt: |
+            Ainda não concluí a certificação Salesforce Identity and Access Management Architect, mas já lido com cenários de identidade e acesso e estou evoluindo para validar isso em prova.
+          vr_en: |
+            I haven’t completed the Salesforce Identity and Access Management Architect certification yet, but I already deal with identity and access scenarios and I’m progressing towards validating that in the exam.

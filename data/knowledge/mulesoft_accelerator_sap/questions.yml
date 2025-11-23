@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_accelerator_sap
+    examples: |
+      - o que você sabe sobre o MuleSoft Accelerator for SAP?
+      - como o MuleSoft Accelerator for SAP ajuda a expor dados de SAP ERP?
+      - em que tipo de cenário você usaria esse Accelerator para integrar SAP com outros sistemas?
+      - você já participou de projetos de integração com SAP usando esse Accelerator?
+      - que benefícios você vê em usar o Accelerator for SAP em vez de começar do zero?
+      - como esse Accelerator contribui para padronizar acesso a dados de SAP em APIs?
+      - que desafios típicos de integração com SAP ele ajuda a mitigar?
+      - como você adaptaria mapeamentos e endpoints do Accelerator for SAP à realidade de um cliente?
+      - que cuidados de performance e volume de dados você teria ao usar esse Accelerator?
+      - se um cliente com SAP forte na arquitetura perguntasse sobre esse Accelerator, o que você destacaria?
+      - what do you know about the MuleSoft Accelerator for SAP?
+      - how does the MuleSoft Accelerator for SAP help expose SAP ERP data?
+      - in what kind of scenario would you use this Accelerator to integrate SAP with other systems?
+      - have you taken part in SAP integration projects using this Accelerator?
+      - what benefits do you see in using the Accelerator for SAP instead of starting from scratch?
+      - how does this Accelerator help standardize access to SAP data through APIs?
+      - what typical SAP integration challenges does it help mitigate?
+      - how would you adapt the Accelerator for SAP’s mappings and endpoints to a customer’s reality?
+      - what performance and data volume considerations would you have when using this Accelerator?
+      - if a customer with a strong SAP landscape asked about this Accelerator, what would you highlight?

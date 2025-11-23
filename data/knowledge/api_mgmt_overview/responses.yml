@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_api_mgmt_overview:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu vejo API management no Anypoint Platform como a disciplina de cuidar do ciclo de vida completo das APIs: desde o design e publicação, até segurança, governança, monitoramento e experiência dos consumidores. Na prática, isso evita API sprawl, padroniza como as APIs são expostas e garante que o que a gente coloca no ar seja confiável, seguro e fácil de usar.
+          vr_en: |
+            I see API management on Anypoint Platform as the discipline of taking care of the full API lifecycle, from design and publication through security, governance, monitoring and consumer experience. In practice, it helps prevent API sprawl, standardizes how APIs are exposed and ensures that what we put into production is reliable, secure and easy to use.
+        resp_2:
+          vr_pt: |
+            Ainda estou consolidando minha visão de API management no Anypoint Platform. Eu entendo o conceito de cuidar do ciclo de vida e da segurança das APIs, mas estou justamente aprofundando em temas como governança, monitoramento e experiência de desenvolvedor para aplicar isso de forma mais completa em projetos.
+          vr_en: |
+            I am still consolidating my view of API management on Anypoint Platform. I understand the concept of taking care of the API lifecycle and security, but I am currently going deeper into governance, monitoring and developer experience so I can apply it in a more complete way in projects.

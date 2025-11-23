@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_dataweave_skills
+    examples: |
+      - como você descreveria seu nível de habilidade com DataWeave em MuleSoft?
+      - que tipos de transformações você costuma fazer com DataWeave no dia a dia?
+      - você se sente confortável trabalhando com JSON, XML e outros formatos usando DataWeave?
+      - como você organiza funções reutilizáveis em DataWeave nos seus projetos?
+      - já teve que lidar com transformações mais complexas usando DataWeave? pode comentar?
+      - como você costuma tratar erros ou dados inesperados dentro de scripts DataWeave?
+      - que cuidados você toma com performance ao escrever scripts DataWeave?
+      - você já trabalhou com módulos e bibliotecas compartilhadas de DataWeave entre aplicações?
+      - como você costuma testar e validar suas transformações em DataWeave?
+      - em que momento você decide usar DataWeave em vez de outra abordagem dentro do flow?
+      - how would you describe your skill level with DataWeave in MuleSoft?
+      - what types of transformations do you usually build with DataWeave in your daily work?
+      - do you feel comfortable working with JSON, XML and other formats using DataWeave?
+      - how do you organize reusable functions in DataWeave in your projects?
+      - have you dealt with more complex transformations using DataWeave? can you comment?
+      - how do you usually handle errors or unexpected data inside DataWeave scripts?
+      - what kind of performance considerations do you keep in mind when writing DataWeave?
+      - have you worked with shared DataWeave modules and libraries across applications?
+      - how do you usually test and validate your DataWeave transformations?
+      - when do you decide to use DataWeave instead of another approach inside the flow?

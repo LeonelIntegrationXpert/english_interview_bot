@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_ai_dev_tools:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu vejo as ferramentas de desenvolvimento com IA do MuleSoft como um acelerador importante, tanto para desenhar integrações e APIs quanto para conectar agentes a modelos e vetores. O Dev Agent e o Anypoint Code Builder ajudam a ganhar velocidade em tarefas repetitivas, enquanto os conectores de IA e o MCP Server permitem encaixar IA generativa de forma mais estruturada dentro das integrações.
+          vr_en: |
+            I see MuleSoft’s AI-powered development tools as an important accelerator, both for designing integrations and APIs and for connecting agents to models and vectors. The Dev Agent and Anypoint Code Builder help speed up repetitive tasks, while the AI connectors and MCP Server allow you to plug generative AI into integrations in a more structured way.
+        resp_2:
+          vr_pt: |
+            Ainda estou começando a explorar as ferramentas de desenvolvimento com IA, como Dev Agent e os conectores específicos. Tenho acompanhado os exemplos e documentações, mas ainda não uso essas ferramentas de forma intensiva no meu dia a dia, então estou num estágio mais exploratório.
+          vr_en: |
+            I am still starting to explore the AI-powered development tools, such as the Dev Agent and the specific AI connectors. I have been following the examples and documentation, but I do not use these tools intensively in my daily work yet, so I am still in a more exploratory stage.

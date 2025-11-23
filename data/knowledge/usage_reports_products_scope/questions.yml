@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: usage_reports_products_scope
+    examples: |
+      - você pode comentar quais produtos do Anypoint Platform normalmente aparecem nos usage reports?
+      - como você usa o recorte por produto, por exemplo MQ, API Manager ou Flex Gateway, na sua análise?
+      - em que situações você olha especificamente para uso de Mule Runtime dentro dos usage reports?
+      - como o uso de Object Store v2 ou API Governance entra na leitura de consumo?
+      - que tipo de insight você busca quando analisa separadamente MQ, Runtime e gateways?
+      - como você explicaria para um cliente que nem todos os produtos ou ambientes aparecem nos usage reports?
+      - de que forma você lida com o fato de Government Cloud e Private Cloud não estarem nos usage reports?
+      - como você conecta os usage reports com métricas adicionais de Runtime Manager ou Access Management?
+      - que cuidado você tem ao comparar o que está no usage report com o que aparece em outros dashboards da plataforma?
+      - se um time de operações pedisse um overview por produto, como você estruturaria essa leitura?
+      - can you comment on which Anypoint Platform products usually show up in usage reports?
+      - how do you use the product breakdown, for example MQ, API Manager or Flex Gateway, in your analysis?
+      - in what situations do you look specifically at Mule Runtime usage in the reports?
+      - how do Object Store v2 or API Governance usage figures factor into your analysis?
+      - what kind of insight do you look for when analyzing MQ, runtime and gateways separately?
+      - how would you explain to a customer that not all products or environments show up in usage reports?
+      - how do you handle the fact that Government Cloud and Private Cloud usages are not in usage reports?
+      - how do you connect usage reports with additional metrics from Runtime Manager or Access Management?
+      - what care do you take when comparing what is in the usage report with other dashboards on the platform?
+      - if an operations team asked for a product-by-product overview, how would you structure that analysis?

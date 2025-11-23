@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: data_architect_status
+    examples: |
+      - você já tem a certificação Salesforce Data Architect?
+      - hoje você é certificado como Salesforce Data Architect?
+      - a certificação Salesforce Data Architect já faz parte do seu perfil?
+      - você já passou na prova de Salesforce Certified Data Architect?
+      - atualmente você possui a certificação Salesforce Data Architect?
+      - você poderia me dizer se já concluiu a certificação Data Architect?
+      - seu conjunto de certificações inclui a de Salesforce Data Architect?
+      - você já obteve a certificação Salesforce Certified Data Architect?
+      - essa certificação de Data Architect você já conquistou?
+      - você já é oficialmente Salesforce Data Architect certificado?
+      - do you already have the Salesforce Data Architect certification?
+      - are you currently certified as a Salesforce Data Architect?
+      - is the Salesforce Data Architect certification already part of your profile?
+      - have you passed the Salesforce Certified Data Architect exam?
+      - do you currently hold the Salesforce Data Architect certification?
+      - could you tell me if you have completed the Data Architect certification?
+      - does your certification set include the Salesforce Data Architect credential?
+      - have you obtained the Salesforce Certified Data Architect certification?
+      - have you already earned the Data Architect certification?
+      - are you officially a certified Salesforce Data Architect?

@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_accelerator_life_sciences
+    examples: |
+      - o que você sabe sobre o MuleSoft Accelerator for Life Sciences?
+      - como o MuleSoft Accelerator for Life Sciences ajuda farmacêuticas e empresas de medical devices?
+      - em que tipo de cenário de pesquisa clínica ou lançamento de produtos você imagina esse Accelerator?
+      - você já teve contato com projetos de life sciences usando esse Accelerator?
+      - que tipos de sistemas você conectaria usando o MuleSoft Accelerator for Life Sciences?
+      - como esse Accelerator contribui para acelerar time-to-market em life sciences?
+      - que desafios de integração em CROs e laboratórios esse Accelerator pode endereçar?
+      - como você adaptaria os ativos desse Accelerator para diferentes processos regulatórios?
+      - de forma prática, que ganhos um cliente de life sciences teria ao adotá-lo?
+      - se uma empresa farmacêutica pedisse uma visão rápida desse Accelerator, como você explicaria?
+      - what do you know about the MuleSoft Accelerator for Life Sciences?
+      - how does the MuleSoft Accelerator for Life Sciences help pharmaceutical and medical device companies?
+      - in what kind of clinical research or product launch scenarios do you imagine this Accelerator?
+      - have you had any contact with life sciences projects using this Accelerator?
+      - what types of systems would you connect using the MuleSoft Accelerator for Life Sciences?
+      - how does this Accelerator help speed up time-to-market in life sciences?
+      - what integration challenges in CROs and labs can this Accelerator help address?
+      - how would you adapt this Accelerator’s assets to different regulatory processes?
+      - in practical terms, what benefits would a life sciences customer get from adopting it?
+      - if a pharmaceutical company asked you for a quick overview of this Accelerator, how would you describe it?

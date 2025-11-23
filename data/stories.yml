@@ -960,3 +960,267 @@ stories:
     steps:
       - intent: platform_developer_status
       - action: utter_platform_developer_status
+  - story: story_advanced_admin_status
+    steps:
+      - intent: advanced_admin_status
+      - action: utter_advanced_admin_status
+  - story: story_associate_status
+    steps:
+      - intent: associate_status
+      - action: utter_associate_status
+  - story: story_data_cloud_consultant_status
+    steps:
+      - intent: data_cloud_consultant_status
+      - action: utter_data_cloud_consultant_status
+  - story: story_experience_cloud_consultant_status
+    steps:
+      - intent: experience_cloud_consultant_status
+      - action: utter_experience_cloud_consultant_status
+  - story: story_mulesoft_associate_status
+    steps:
+      - intent: mulesoft_associate_status
+      - action: utter_mulesoft_associate_status
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_sales_cloud_consultant_status
+    steps:
+      - intent: sales_cloud_consultant_status
+      - action: utter_sales_cloud_consultant_status
+  - story: story_service_cloud_consultant_status
+    steps:
+      - intent: service_cloud_consultant_status
+      - action: utter_service_cloud_consultant_status
+  - story: story_application_architect_status
+    steps:
+      - intent: application_architect_status
+      - action: utter_application_architect_status
+  - story: story_business_analyst_status
+    steps:
+      - intent: business_analyst_status
+      - action: utter_business_analyst_status
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_platform_developer2_status
+    steps:
+      - intent: platform_developer2_status
+      - action: utter_platform_developer2_status
+  - story: story_sf_integration_architect_status
+    steps:
+      - intent: sf_integration_architect_status
+      - action: utter_sf_integration_architect_status
+  - story: story_system_architect_status
+    steps:
+      - intent: system_architect_status
+      - action: utter_system_architect_status
+  - story: story_technical_architect_status
+    steps:
+      - intent: technical_architect_status
+      - action: utter_technical_architect_status
+  - story: story_account_engagement_status
+    steps:
+      - intent: account_engagement_status
+      - action: utter_account_engagement_status
+  - story: story_field_service_consultant_status
+    steps:
+      - intent: field_service_consultant_status
+      - action: utter_field_service_consultant_status
+  - story: story_marketing_cloud_admin_status
+    steps:
+      - intent: marketing_cloud_admin_status
+      - action: utter_marketing_cloud_admin_status
+  - story: story_marketing_cloud_email_specialist_status
+    steps:
+      - intent: marketing_cloud_email_specialist_status
+      - action: utter_marketing_cloud_email_specialist_status
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_omnistudio_consultant_status
+    steps:
+      - intent: omnistudio_consultant_status
+      - action: utter_omnistudio_consultant_status
+  - story: story_api_mgmt_design_build
+    steps:
+      - intent: api_mgmt_design_build
+      - action: utter_api_mgmt_design_build
+  - story: story_api_mgmt_discover
+    steps:
+      - intent: api_mgmt_discover
+      - action: utter_api_mgmt_discover
+  - story: story_api_mgmt_engage_portals
+    steps:
+      - intent: api_mgmt_engage_portals
+      - action: utter_api_mgmt_engage_portals
+  - story: story_api_mgmt_govern
+    steps:
+      - intent: api_mgmt_govern
+      - action: utter_api_mgmt_govern
+  - story: story_api_mgmt_manage_secure
+    steps:
+      - intent: api_mgmt_manage_secure
+      - action: utter_api_mgmt_manage_secure
+  - story: story_api_mgmt_overview
+    steps:
+      - intent: api_mgmt_overview
+      - action: utter_api_mgmt_overview
+  - story: story_data_architect_status
+    steps:
+      - intent: data_architect_status
+      - action: utter_data_architect_status
+  - story: story_dev_lifecycle_deployment_architect_status
+    steps:
+      - intent: dev_lifecycle_deployment_architect_status
+      - action: utter_dev_lifecycle_deployment_architect_status
+  - story: story_identity_access_architect_status
+    steps:
+      - intent: identity_access_architect_status
+      - action: utter_identity_access_architect_status
+  - story: story_mulesoft_accelerator_consumer_goods
+    steps:
+      - intent: mulesoft_accelerator_consumer_goods
+      - action: utter_mulesoft_accelerator_consumer_goods
+  - story: story_mulesoft_accelerator_data_cloud
+    steps:
+      - intent: mulesoft_accelerator_data_cloud
+      - action: utter_mulesoft_accelerator_data_cloud
+  - story: story_mulesoft_accelerator_financial_services
+    steps:
+      - intent: mulesoft_accelerator_financial_services
+      - action: utter_mulesoft_accelerator_financial_services
+  - story: story_mulesoft_accelerator_healthcare
+    steps:
+      - intent: mulesoft_accelerator_healthcare
+      - action: utter_mulesoft_accelerator_healthcare
+  - story: story_mulesoft_accelerator_life_sciences
+    steps:
+      - intent: mulesoft_accelerator_life_sciences
+      - action: utter_mulesoft_accelerator_life_sciences
+  - story: story_mulesoft_accelerator_manufacturing
+    steps:
+      - intent: mulesoft_accelerator_manufacturing
+      - action: utter_mulesoft_accelerator_manufacturing
+  - story: story_mulesoft_accelerator_oms
+    steps:
+      - intent: mulesoft_accelerator_oms
+      - action: utter_mulesoft_accelerator_oms
+  - story: story_mulesoft_accelerator_retail
+    steps:
+      - intent: mulesoft_accelerator_retail
+      - action: utter_mulesoft_accelerator_retail
+  - story: story_mulesoft_accelerator_sap
+    steps:
+      - intent: mulesoft_accelerator_sap
+      - action: utter_mulesoft_accelerator_sap
+  - story: story_mulesoft_accelerators_overview
+    steps:
+      - intent: mulesoft_accelerators_overview
+      - action: utter_mulesoft_accelerators_overview
+  - story: story_mulesoft_agent_fabric_get_started
+    steps:
+      - intent: mulesoft_agent_fabric_get_started
+      - action: utter_mulesoft_agent_fabric_get_started
+  - story: story_mulesoft_ai_blueprint_foundation
+    steps:
+      - intent: mulesoft_ai_blueprint_foundation
+      - action: utter_mulesoft_ai_blueprint_foundation
+  - story: story_mulesoft_ai_design_orchestrate_agents
+    steps:
+      - intent: mulesoft_ai_design_orchestrate_agents
+      - action: utter_mulesoft_ai_design_orchestrate_agents
+  - story: story_mulesoft_ai_dev_tools
+    steps:
+      - intent: mulesoft_ai_dev_tools
+      - action: utter_mulesoft_ai_dev_tools
+  - story: story_mulesoft_ai_governance_security
+    steps:
+      - intent: mulesoft_ai_governance_security
+      - action: utter_mulesoft_ai_governance_security
+  - story: story_mulesoft_ai_observability
+    steps:
+      - intent: mulesoft_ai_observability
+      - action: utter_mulesoft_ai_observability
+  - story: story_mulesoft_ai_overview
+    steps:
+      - intent: mulesoft_ai_overview
+      - action: utter_mulesoft_ai_overview
+  - story: story_mulesoft_api_led_connectivity
+    steps:
+      - intent: mulesoft_api_led_connectivity
+      - action: utter_mulesoft_api_led_connectivity
+  - story: story_mulesoft_cloudhub_deployment
+    steps:
+      - intent: mulesoft_cloudhub_deployment
+      - action: utter_mulesoft_cloudhub_deployment
+  - story: story_mulesoft_dataweave_skills
+    steps:
+      - intent: mulesoft_dataweave_skills
+      - action: utter_mulesoft_dataweave_skills
+  - story: story_mulesoft_error_handling
+    steps:
+      - intent: mulesoft_error_handling
+      - action: utter_mulesoft_error_handling
+  - story: story_mulesoft_overall_experience
+    steps:
+      - intent: mulesoft_overall_experience
+      - action: utter_mulesoft_overall_experience
+  - story: story_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - story: story_nonprofit_cloud_consultant_status
+    steps:
+      - intent: nonprofit_cloud_consultant_status
+      - action: utter_nonprofit_cloud_consultant_status
+  - story: story_sharing_visibility_architect_status
+    steps:
+      - intent: sharing_visibility_architect_status
+      - action: utter_sharing_visibility_architect_status
+  - story: story_usage_anypoint_mq_metrics
+    steps:
+      - intent: usage_anypoint_mq_metrics
+      - action: utter_usage_anypoint_mq_metrics
+  - story: story_usage_api_and_gateway_metrics
+    steps:
+      - intent: usage_api_and_gateway_metrics
+      - action: utter_usage_api_and_gateway_metrics
+  - story: story_usage_mule_runtime_core_metrics
+    steps:
+      - intent: usage_mule_runtime_core_metrics
+      - action: utter_usage_mule_runtime_core_metrics
+  - story: story_usage_object_store_metrics
+    steps:
+      - intent: usage_object_store_metrics
+      - action: utter_usage_object_store_metrics
+  - story: story_usage_reports_api_and_export
+    steps:
+      - intent: usage_reports_api_and_export
+      - action: utter_usage_reports_api_and_export
+  - story: story_usage_reports_costs_and_ai_credits
+    steps:
+      - intent: usage_reports_costs_and_ai_credits
+      - action: utter_usage_reports_costs_and_ai_credits
+  - story: story_usage_reports_overview
+    steps:
+      - intent: usage_reports_overview
+      - action: utter_usage_reports_overview
+  - story: story_usage_reports_permissions_access
+    steps:
+      - intent: usage_reports_permissions_access
+      - action: utter_usage_reports_permissions_access
+  - story: story_usage_reports_products_scope
+    steps:
+      - intent: usage_reports_products_scope
+      - action: utter_usage_reports_products_scope
+  - story: story_usage_reports_runtime_versions
+    steps:
+      - intent: usage_reports_runtime_versions
+      - action: utter_usage_reports_runtime_versions
+  - story: story_usage_runtime_fabric_metrics
+    steps:
+      - intent: usage_runtime_fabric_metrics
+      - action: utter_usage_runtime_fabric_metrics

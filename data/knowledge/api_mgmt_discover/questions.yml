@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: api_mgmt_discover
+    examples: |
+      - como você vê a importância da etapa de “discover” no ciclo de vida de APIs?
+      - na prática, como você ajuda a comunidade de desenvolvedores a descobrir APIs disponíveis?
+      - você pode explicar como o autocatalog de APIs funciona ou qual é a ideia por trás?
+      - como você usa o Exchange ou catálogos para facilitar a descoberta e o reuso de APIs?
+      - que tipo de metadata e documentação você considera essencial para uma boa descoberta?
+      - como você costuma testar APIs com dados simulados antes de liberar para consumidores?
+      - em que medida a descoberta de “any API” ajuda a evitar retrabalho e duplicidade?
+      - como você explicaria para um time de produto o valor de ter APIs fáceis de encontrar?
+      - que problemas você já viu acontecer quando a etapa de discovery não é bem cuidada?
+      - se um desenvolvedor novo entrar no time hoje, como ele encontra rapidamente as APIs certas?
+      - how do you see the importance of the “discover” stage in the API lifecycle?
+      - in practice, how do you help your developer community discover available APIs?
+      - can you explain how autocataloging APIs works or what the idea behind it is?
+      - how do you use Exchange or catalogs to make API discovery and reuse easier?
+      - what kind of metadata and documentation do you consider essential for good discoverability?
+      - how do you usually test APIs with simulated data before exposing them to consumers?
+      - to what extent does discovering “any API” help avoid rework and duplication?
+      - how would you explain to a product team the value of having easily discoverable APIs?
+      - what problems have you seen when the discovery stage is not handled properly?
+      - if a new developer joined today, how would they quickly find the right APIs?

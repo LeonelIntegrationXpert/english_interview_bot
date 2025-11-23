@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_usage_reports_api_and_export:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Quando preciso de análise mais detalhada, eu costumo exportar usage reports em CSV e trabalhar em ferramentas como planilhas ou BI. Para cenários mais recorrentes ou automatizados, eu vejo bastante valor na Anypoint Usage API, porque ela permite consumir dados diários e mensais por business group e aplicação, integrando isso em dashboards próprios ou pipelines de analytics do cliente.
+          vr_en: |
+            When I need more detailed analysis, I usually export usage reports as CSV and work in tools like spreadsheets or BI. For more recurring or automated scenarios, I see a lot of value in the Anypoint Usage API, because it allows you to consume daily and monthly data by business group and application, integrating it into the customer’s own dashboards or analytics pipelines.
+        resp_2:
+          vr_pt: |
+            Por enquanto eu uso mais a exportação em CSV de forma pontual, quando preciso olhar algum detalhe específico de uso. Ainda não tenho um fluxo montado com a Usage API, então essa parte de acesso programático está mais no meu radar de coisas para explorar do que em produção no meu dia a dia.
+          vr_en: |
+            For now I use CSV export more on an ad hoc basis, when I need to look at some specific usage detail. I do not yet have a full flow built around the Usage API, so programmatic access is still on my radar as something to explore rather than something I use in day-to-day production work.

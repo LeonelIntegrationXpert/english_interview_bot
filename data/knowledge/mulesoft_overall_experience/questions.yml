@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_overall_experience
+    examples: |
+      - você pode me explicar de forma geral qual é a sua experiência com MuleSoft?
+      - como você descreveria seu nível atual de conhecimento em MuleSoft?
+      - com quanto tempo de experiência em MuleSoft você trabalha hoje?
+      - que tipo de projetos você já realizou usando MuleSoft?
+      - você poderia me dar uma visão geral do que já fez com a plataforma MuleSoft?
+      - qual foi o contexto principal em que você mais usou MuleSoft até agora?
+      - em quais áreas do ciclo de integração você mais atuou usando MuleSoft?
+      - que papel você geralmente assume em projetos que envolvem MuleSoft?
+      - qual foi o projeto mais relevante que você fez com MuleSoft?
+      - hoje você se considera mais generalista ou mais especialista em MuleSoft?
+      - can you give me an overview of your experience with MuleSoft?
+      - how would you describe your current level of knowledge in MuleSoft?
+      - how much hands-on experience do you have working with MuleSoft?
+      - what kind of projects have you delivered using MuleSoft?
+      - could you give me a general view of what you have done with the MuleSoft platform?
+      - in what main context have you used MuleSoft the most so far?
+      - which parts of the integration lifecycle have you worked on using MuleSoft?
+      - what role do you usually play in projects that involve MuleSoft?
+      - what has been the most relevant project you have done with MuleSoft?
+      - would you say you are more of a generalist or a specialist when it comes to MuleSoft?

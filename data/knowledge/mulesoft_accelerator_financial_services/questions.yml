@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_accelerator_financial_services
+    examples: |
+      - o que você conhece sobre o MuleSoft Accelerator for Financial Services?
+      - como o MuleSoft Accelerator for Financial Services apoia iniciativas de customer 360 em bancos e seguradoras?
+      - em que tipo de cenário de integração de core banking e CRM você usaria esse Accelerator?
+      - você já atuou em projetos financeiros usando o MuleSoft Accelerator for Financial Services?
+      - que tipo de sistemas de engajamento e core você imagina conectando com esse Accelerator?
+      - como esse Accelerator ajuda a integrar dados de bancos, seguradoras, fintechs e insuretechs?
+      - qual é, na sua visão, o principal ganho de usar esse Accelerator em ambientes financeiros complexos?
+      - como você adaptaria os ativos desse Accelerator à realidade regulatória de um país específico?
+      - que cuidados adicionais de segurança e compliance você teria ao usar esse Accelerator?
+      - se um banco te pedisse uma visão rápida do Accelerator, como você resumiria o valor dele?
+      - what do you know about the MuleSoft Accelerator for Financial Services?
+      - how does the MuleSoft Accelerator for Financial Services support customer 360 initiatives in banks and insurers?
+      - in what kind of core banking and CRM integration scenarios would you use this Accelerator?
+      - have you worked on financial projects using the MuleSoft Accelerator for Financial Services?
+      - what types of engagement and core systems do you imagine connecting with this Accelerator?
+      - how does this Accelerator help integrate data from banks, insurers, fintechs and insuretechs?
+      - in your opinion, what is the main benefit of using this Accelerator in complex financial environments?
+      - how would you adapt this Accelerator’s assets to the regulatory reality of a specific country?
+      - what extra security and compliance considerations would you have when using this Accelerator?
+      - if a bank asked you for a quick overview of the Accelerator, how would you summarize its value?

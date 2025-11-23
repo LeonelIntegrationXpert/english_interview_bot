@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: field_service_consultant_status
+    examples: |
+      - você já tem a certificação Salesforce Field Service Consultant?
+      - hoje você é certificado como Salesforce Field Service Consultant?
+      - a certificação Field Service Consultant já faz parte do seu perfil?
+      - você já passou na prova de Salesforce Field Service Consultant?
+      - atualmente você possui a certificação Salesforce Field Service Consultant?
+      - você poderia me dizer se já concluiu a certificação Field Service Consultant?
+      - seu conjunto de certificações inclui a de Salesforce Field Service Consultant?
+      - você já obteve a certificação Salesforce Certified Field Service Consultant?
+      - essa certificação de Field Service Consultant você já conquistou?
+      - você já é oficialmente Salesforce Field Service Consultant certificado?
+      - do you already have the Salesforce Field Service Consultant certification?
+      - are you currently certified as a Salesforce Field Service Consultant?
+      - is the Field Service Consultant certification already part of your profile?
+      - have you passed the Salesforce Field Service Consultant exam?
+      - do you currently hold the Salesforce Field Service Consultant certification?
+      - could you tell me if you have completed the Field Service Consultant certification?
+      - does your certification set include the Salesforce Field Service Consultant credential?
+      - have you obtained the Salesforce Certified Field Service Consultant certification?
+      - have you already earned the Field Service Consultant certification?
+      - are you officially a certified Salesforce Field Service Consultant?

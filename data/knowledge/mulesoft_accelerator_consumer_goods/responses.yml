@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_accelerator_consumer_goods:
+    - custom:
+        resp_1:
+          vr_pt: |
+            O MuleSoft Accelerator for Consumer Goods é voltado para integrar operações digitais de bens de consumo, principalmente em trade promotion e retail execution. Eu enxergo ele como uma base para conectar CRM, sistemas de trade, execução em loja e analytics, dando mais visibilidade de ponta a ponta e reduzindo bastante o esforço inicial de desenho e implementação.
+          vr_en: |
+            The MuleSoft Accelerator for Consumer Goods is focused on integrating digital operations for consumer goods, especially around trade promotion and retail execution. I see it as a base to connect CRM, trade systems, in-store execution and analytics, providing end-to-end visibility and significantly reducing the initial design and implementation effort.
+        resp_2:
+          vr_pt: |
+            Eu ainda não usei o MuleSoft Accelerator for Consumer Goods diretamente em projetos. Conheço o posicionamento dele para integrar operações de bens de consumo, mas hoje eu precisaria revisar melhor a documentação e os ativos técnicos antes de propor um desenho mais detalhado para um cliente.
+          vr_en: |
+            I have not used the MuleSoft Accelerator for Consumer Goods directly in projects yet. I know it is positioned to integrate consumer goods operations, but at this point I would need to revisit the documentation and technical assets before proposing a more detailed design for a customer.

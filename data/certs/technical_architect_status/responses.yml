@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_technical_architect_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Não, eu ainda não tenho a certificação Salesforce Certified Technical Architect, que é bem avançada, mas eu uso as trilhas de arquiteto como referência para evoluir minha visão técnica.
+          vr_en: |
+            No, I don’t have the Salesforce Certified Technical Architect certification yet, which is very advanced, but I use the architect tracks as a reference to grow my technical vision.
+        resp_2:
+          vr_pt: |
+            Ainda não cheguei no nível de Salesforce Certified Technical Architect, mas encaro essa certificação como um objetivo de longo prazo na minha carreira.
+          vr_en: |
+            I haven’t reached the Salesforce Certified Technical Architect level yet, but I see that certification as a long-term goal in my career.

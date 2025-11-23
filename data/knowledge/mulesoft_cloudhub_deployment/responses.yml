@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_cloudhub_deployment:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu tenho boa experiência com deploy em CloudHub, trabalhando com propriedades por ambiente, configurações seguras, sizing de workers e automação via pipelines. No dia a dia eu acompanho logs e métricas, ajusto configurações quando necessário e ajudo a estruturar a estratégia de promoção entre DEV, QA e produção.
+          vr_en: |
+            I have solid experience deploying on CloudHub, working with environment-specific properties, secure configurations, worker sizing and automation through pipelines. On a daily basis I track logs and metrics, fine-tune configurations when needed and help define the promotion strategy across DEV, QA and production.
+        resp_2:
+          vr_pt: |
+            Minha experiência com CloudHub ainda é mais básica, focada em deploys mais simples e acompanhamento direto pelo console. Tenho estudado automação, monitoramento mais avançado e boas práticas de sizing para evoluir nessa parte de operação.
+          vr_en: |
+            My experience with CloudHub is still more basic, focused on simpler deployments and direct monitoring through the console. I have been studying automation, more advanced monitoring and sizing best practices to evolve on this operational side.

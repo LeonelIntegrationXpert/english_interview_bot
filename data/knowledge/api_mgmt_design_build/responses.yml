@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_api_mgmt_design_build:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Na fase de design e build eu gosto de começar pela especificação da API, definindo recursos, contratos, modelos e padrões de erro antes de escrever código. Uso o Exchange para versionar essas specs, reaproveitar fragments e, só depois de ter um contrato claro, parto para a implementação em Mule, o que facilita governança, testes e onboarding de outros times.
+          vr_en: |
+            In the design and build phase I like to start from the API specification, defining resources, contracts, models and error patterns before writing code. I use Exchange to version those specs, reuse fragments and only after having a clear contract I move into the Mule implementation, which makes governance, testing and onboarding other teams much easier.
+        resp_2:
+          vr_pt: |
+            Hoje eu ainda estou amadurecendo minha prática de design e build de APIs no Anypoint Platform. Eu já desenho specs e implemento, mas quero usar melhor recursos como fragments, Exchange e Anypoint Code Builder para deixar o processo mais padronizado e alinhado com as boas práticas de API management.
+          vr_en: |
+            Right now I am still maturing my design and build practice for APIs on Anypoint Platform. I already design specs and implement them, but I want to make better use of features like fragments, Exchange and Anypoint Code Builder to make the process more standardized and aligned with API management best practices.

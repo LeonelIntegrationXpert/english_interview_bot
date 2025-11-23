@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_ai_governance_security:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu vejo governança e segurança como fundamentais em MuleSoft AI, porque os agentes podem disparar ações reais em sistemas críticos. Na prática, isso significa aplicar políticas em cima da agent network, controlar quem pode chamar o quê, observar o tráfego, e tratar agentes e ações como parte da arquitetura de APIs, com o mesmo nível de cuidado de segurança e compliance.
+          vr_en: |
+            I see governance and security as fundamental in MuleSoft AI, because agents can trigger real actions on critical systems. In practice, that means applying policies on top of the agent network, controlling who can call what, observing the traffic, and treating agents and actions as part of the API architecture, with the same level of security and compliance care.
+        resp_2:
+          vr_pt: |
+            Eu ainda estou amadurecendo a visão de governança específica para agentes em MuleSoft AI. Tenho uma base forte em políticas e segurança de APIs, mas quero aprofundar como essas mesmas práticas se estendem para agent networks e ações de agentes de forma estruturada.
+          vr_en: |
+            I am still maturing my view of agent-specific governance in MuleSoft AI. I already have a strong foundation in API policies and security, but I want to go deeper on how those same practices extend to agent networks and agent actions in a structured way.

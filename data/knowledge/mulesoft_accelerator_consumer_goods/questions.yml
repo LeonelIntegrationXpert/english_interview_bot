@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_accelerator_consumer_goods
+    examples: |
+      - o que você sabe sobre o MuleSoft Accelerator for Consumer Goods?
+      - como o MuleSoft Accelerator for Consumer Goods pode ajudar empresas de bens de consumo?
+      - em que tipo de caso de uso de trade promotion ou retail execution você vê esse Accelerator sendo aplicado?
+      - você já trabalhou com integrações em consumer goods usando o MuleSoft Accelerator?
+      - na prática, como esse Accelerator ajuda a ganhar visibilidade sobre a operação de campo em bens de consumo?
+      - que sistemas típicos você imagina conectando ao usar o Accelerator for Consumer Goods?
+      - como você adaptaria os padrões desse Accelerator para a realidade de um novo cliente?
+      - em termos de benefício, o que mais te chama atenção no Accelerator for Consumer Goods?
+      - você enxerga esse Accelerator mais como referência ou como algo quase pronto para uso?
+      - se um cliente de bens de consumo te pedisse agilidade em integrações, como você apresentaria esse Accelerator?
+      - what do you know about the MuleSoft Accelerator for Consumer Goods?
+      - how can the MuleSoft Accelerator for Consumer Goods help consumer goods companies?
+      - in what kind of trade promotion or retail execution use cases do you see this Accelerator being applied?
+      - have you worked on consumer goods integrations using the MuleSoft Accelerator?
+      - in practice, how does this Accelerator help gain visibility into field operations for consumer goods?
+      - what typical systems do you imagine connecting when using the Accelerator for Consumer Goods?
+      - how would you adapt this Accelerator’s patterns to a new customer’s reality?
+      - in terms of benefits, what stands out to you in the Accelerator for Consumer Goods?
+      - do you see this Accelerator more as a reference or as something almost ready to use?
+      - if a consumer goods customer asked for fast integrations, how would you present this Accelerator?

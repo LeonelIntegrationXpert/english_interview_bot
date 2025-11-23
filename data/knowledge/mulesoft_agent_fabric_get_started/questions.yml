@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_agent_fabric_get_started
+    examples: |
+      - o que você sabe sobre o Agent Fabric dentro do contexto do MuleSoft AI?
+      - como você explicaria o papel do Agent Fabric na jornada de agentes da MuleSoft?
+      - por onde você começaria se um cliente quisesse “ligar” o Agent Fabric hoje?
+      - como os quickstarts e templates ajudam a iniciar um projeto com Agent Fabric?
+      - qual é a relação entre Agent Fabric e Agentforce na sua visão?
+      - que tipo de agente você enxerga como bom candidato para começar no Agent Fabric?
+      - como você planeja um agente antes de de fato implementá-lo com Agent Fabric?
+      - que benefícios você destaca ao usar Agent Fabric em vez de montar tudo na unha?
+      - como você apresentaria o “Get Started with Agent Fabric” para um time técnico?
+      - que cuidados você teria ao dar os primeiros passos com Agent Fabric em produção?
+      - what do you know about Agent Fabric in the MuleSoft AI context?
+      - how would you explain the role of Agent Fabric in MuleSoft’s agent journey?
+      - where would you start if a customer wanted to “turn on” Agent Fabric today?
+      - how do quickstarts and templates help you kick off a project with Agent Fabric?
+      - what is the relationship between Agent Fabric and Agentforce in your view?
+      - what kind of agent do you see as a good candidate to start with in Agent Fabric?
+      - how do you plan an agent before actually implementing it with Agent Fabric?
+      - what benefits do you highlight when using Agent Fabric instead of building everything by hand?
+      - how would you present the “Get Started with Agent Fabric” resources to a technical team?
+      - what precautions would you take when taking the first steps with Agent Fabric in production?

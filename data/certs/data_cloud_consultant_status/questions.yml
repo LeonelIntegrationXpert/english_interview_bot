@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: data_cloud_consultant_status
+    examples: |
+      - você já tem a certificação Salesforce Data Cloud Consultant?
+      - hoje você é certificado como Salesforce Data Cloud Consultant?
+      - a certificação Data Cloud Consultant já faz parte do seu perfil?
+      - você já passou na prova de Salesforce Data Cloud Consultant?
+      - atualmente você possui a certificação Salesforce Data Cloud Consultant?
+      - você poderia me dizer se já concluiu a certificação Data Cloud Consultant?
+      - seu conjunto de certificações inclui a de Salesforce Data Cloud Consultant?
+      - você já obteve a certificação Salesforce Certified Data Cloud Consultant?
+      - essa certificação de Data Cloud Consultant você já conquistou?
+      - você já é oficialmente Salesforce Data Cloud Consultant certificado?
+      - do you already have the Salesforce Data Cloud Consultant certification?
+      - are you currently certified as a Salesforce Data Cloud Consultant?
+      - is the Data Cloud Consultant certification already part of your profile?
+      - have you passed the Salesforce Data Cloud Consultant exam?
+      - do you currently hold the Salesforce Data Cloud Consultant certification?
+      - could you tell me if you have completed the Data Cloud Consultant certification?
+      - does your certification set include the Salesforce Data Cloud Consultant credential?
+      - have you obtained the Salesforce Certified Data Cloud Consultant certification?
+      - have you already earned the Data Cloud Consultant certification?
+      - are you officially a certified Salesforce Data Cloud Consultant?

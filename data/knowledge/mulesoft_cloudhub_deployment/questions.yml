@@ -1,0 +1,24 @@
+version: '3.1'
+nlu:
+  - intent: mulesoft_cloudhub_deployment
+    examples: |
+      - como você descreveria sua experiência com deploy de aplicações MuleSoft no CloudHub?
+      - que passos você costuma seguir para preparar um deploy de MuleSoft para CloudHub?
+      - como você lida com variáveis de ambiente e propriedades sensíveis no CloudHub?
+      - qual é a sua experiência com workers, vcores e dimensionamento de aplicações no CloudHub?
+      - como você costuma monitorar logs e métricas de aplicações MuleSoft em produção no CloudHub?
+      - você já precisou fazer troubleshooting de problemas de performance em CloudHub?
+      - como você organiza a estratégia de promoção entre ambientes no CloudHub?
+      - que ferramentas você usa para automatizar deploys de MuleSoft no CloudHub?
+      - como você gerencia versões e rollbacks de aplicações MuleSoft em CloudHub?
+      - pode comentar um exemplo em que um ajuste de configuração no CloudHub resolveu um problema de produção?
+      - how would you describe your experience deploying MuleSoft applications on CloudHub?
+      - what steps do you usually follow to prepare a MuleSoft deployment to CloudHub?
+      - how do you handle environment variables and sensitive properties in CloudHub?
+      - what is your experience with workers, vcores and sizing applications in CloudHub?
+      - how do you usually monitor logs and metrics of MuleSoft applications in production on CloudHub?
+      - have you had to troubleshoot performance issues on CloudHub?
+      - how do you organize your promotion strategy across environments in CloudHub?
+      - what tools do you use to automate MuleSoft deployments to CloudHub?
+      - how do you manage versions and rollbacks of MuleSoft applications in CloudHub?
+      - can you share an example where a CloudHub configuration change fixed a production issue?

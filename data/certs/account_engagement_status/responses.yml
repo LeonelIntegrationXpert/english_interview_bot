@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_account_engagement_status:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho certificação voltada para Account Engagement, o que reforça minha experiência em automação de marketing B2B, scoring e nutrição de leads.
+          vr_en: |
+            Yes, I have a certification focused on Account Engagement, which reinforces my experience in B2B marketing automation, scoring and lead nurturing.
+        resp_2:
+          vr_pt: |
+            Ainda não tenho certificação específica em Account Engagement, mas já trabalhei com campanhas e automações na ferramenta e pretendo transformar isso em credencial oficial.
+          vr_en: |
+            I don’t have a specific Account Engagement certification yet, but I’ve already worked with campaigns and automations in the tool and I plan to turn that into an official credential.

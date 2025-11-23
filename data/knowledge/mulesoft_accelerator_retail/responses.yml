@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_mulesoft_accelerator_retail:
+    - custom:
+        resp_1:
+          vr_pt: |
+            O MuleSoft Accelerator for Retail foi pensado para ajudar times de TI de varejo a desbloquear dados de ERP, CRM, MDM, commerce e marketing para acelerar projetos digitais. Eu vejo ele como um conjunto de APIs e padrões que facilitam cenários omnichannel, programas de fidelidade e experiências integradas entre canais físicos e digitais.
+          vr_en: |
+            The MuleSoft Accelerator for Retail is designed to help retail IT teams unlock data from ERP, CRM, MDM, commerce and marketing systems to accelerate digital projects. I see it as a set of APIs and patterns that makes omnichannel scenarios, loyalty programs and integrated physical–digital experiences easier to deliver.
+        resp_2:
+          vr_pt: |
+            Meu contato com o MuleSoft Accelerator for Retail ainda é mais de estudo do que de prática em projeto. Eu conheço a proposta de apoiar cenários omnichannel e de dados unificados, mas hoje eu precisaria revisar melhor os ativos antes de aplicar em um cliente específico.
+          vr_en: |
+            My contact with the MuleSoft Accelerator for Retail is still more from study than from project work. I know the idea is to support omnichannel and unified data scenarios, but at the moment I would need to review the assets more carefully before applying them to a specific customer.
