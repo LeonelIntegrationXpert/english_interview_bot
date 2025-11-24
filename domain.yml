@@ -79,6 +79,8 @@ intents:
   - sound_suggestion_turn_off_camera
   - interviewer_double_booked
   - soccer_team
+  - hobbies_general
+  - weekend_plans
 actions:
   - action_fallback
 session_config:

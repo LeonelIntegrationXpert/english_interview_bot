@@ -16918,3 +16918,422 @@ Para ser bem sincero, eu praticamente não acompanho futebol. Acabo me conectand
 #vr_en: |
 To be honest, I don’t really follow football. I tend to connect more with other things like technology, studying, and side projects. But when the topic comes up, I can still join the conversation in a light way, no problem.
 ---
+#intent: smalltalk/hobbies_general
+#pt:
+- fora do trabalho, quais são os seus principais hobbies?
+- o que você gosta de fazer no seu tempo livre?
+- quando você não está trabalhando, como costuma ocupar o seu tempo?
+- quais atividades você faz para relaxar depois de um dia cheio?
+- você tem algum hobby que leva mais a sério, tipo estudo, curso ou projeto pessoal?
+- o que normalmente você gosta de fazer nos fins de semana?
+- tem alguma coisa que você faz por prazer e que te ajuda a desligar um pouco do trabalho?
+- você se considera mais caseiro ou mais de sair? O que costuma fazer?
+- você tem algum passatempo que te empolga bastante?
+- tem algum hobby recente que você começou e está curtindo?
+- você tem algum tipo de hobby criativo?
+- você gosta de aprender coisas novas no seu tempo livre?
+- você costuma fazer atividades ao ar livre?
+- você tem algum interesse que te acompanha há anos?
+- você gosta de assistir séries ou filmes no tempo livre?
+- leitura faz parte da sua rotina?
+- você gosta de cozinhar nas horas vagas?
+- gosta de jogar videogame de vez em quando?
+- você faz algum tipo de exercício físico por hobby?
+- fotografia é algo que você gosta?
+- você tem algum hobby ligado a música?
+- você costuma tocar algum instrumento?
+- você gosta de praticar algum tipo de esporte?
+- você tem algum projeto pessoal que movimenta seu tempo livre?
+- tem algum curso que você faz por prazer?
+- você gosta de aprender idiomas como hobby?
+- você gosta de estudar temas diferentes por curiosidade?
+- você faz atividades de artesanato ou manuais?
+- jardinagem é um hobby que te atrai?
+- você gosta de escrever no tempo livre?
+- você tem algum hobby tecnológico?
+- programação é algo que você faz como hobby?
+- você gosta de fazer pequenas viagens no fim de semana?
+- gosta de explorar cafés ou lugares novos?
+- tem algum hobby tranquilo como quebra-cabeça ou leitura leve?
+- você se interessa por temas de ciência ou tecnologia?
+- você pratica meditação ou algo parecido?
+- você gosta de ouvir podcasts?
+- você acompanha algum canal de conteúdo educacional?
+- você gosta de atividades mais calmas ou mais movimentadas?
+- você costuma testar receitas novas?
+- você gosta de jogos de tabuleiro?
+- você gosta de caminhadas ou trilhas?
+- existem atividades que te ajudam a relaxar rapidamente?
+- você gosta de atividades que exigem concentração?
+- você tem algum hobby que faz há muitos anos?
+- você começou algum hobby novo recentemente?
+- você usa seu tempo livre para planejar projetos?
+- você gosta de organizar coisas como hobby?
+- você gosta de desenhar?
+- pintura faz parte do seu lazer?
+- você gosta de ouvir música para relaxar?
+- você gosta de aprender ferramentas novas?
+- você explora plataformas de cursos no tempo livre?
+- você usa seu tempo livre para estudar temas específicos?
+- você gosta de cuidar de animais ou plantas?
+- você pratica esportes individuais?
+- você gosta de praticar yoga ou alongamento?
+- você costuma ler artigos técnicos por hobby?
+- você gosta de testar aplicações ou softwares?
+- você gosta de acompanhar eventos de tecnologia?
+- você gosta de fazer anotações ou estudar com profundidade?
+- você gosta de se aprofundar em algum assunto nas horas vagas?
+- você gosta de temas de criatividade?
+- você faz listas ou planejamentos como hobby?
+- você gosta de ouvir música enquanto trabalha nos hobbies?
+- você gosta de hobbies que envolvem resolver problemas?
+- você gosta de atividades que envolvem lógica?
+- você usa o tempo livre para explorar novas ideias?
+- você gosta de explorar temas relacionados a carreira?
+- você costuma ver documentários?
+- você tem algum hobby ligado ao bem-estar?
+- você gosta de praticar leitura técnica mesmo fora do trabalho?
+- você gosta de aprender sobre produtividade?
+- você gosta de participar de comunidades online?
+- você acompanha tendências do seu setor por hobby?
+- você gosta de hobbies que envolvem criação?
+- você usa o tempo livre para revisar metas pessoais?
+- você faz cursos por conta própria?
+- você gosta de testar ferramentas novas de IA?
+- você gosta de criar pequenos projetos no computador?
+- você tem algum hobby que gostaria de aprofundar?
+- você gosta de assistir conteúdo sobre desenvolvimento pessoal?
+- você pratica algum tipo de atividade leve diária?
+- você gosta de pequenos desafios de aprendizado?
+- você usa aplicativos de estudo como hobby?
+- você gosta de criar conteúdo por diversão?
+- você tem algum hobby que combina lazer e aprendizado?
+- você gosta de assistir vídeos educativos no tempo livre?
+- você gosta de explorar novidades em tecnologia?
+- você gosta de ter momentos silenciosos como hobby?
+- você gosta de planejar viagens simples?
+- você gosta de reorganizar espaço ou ambiente?
+- você gosta de aprender sobre inglês no tempo livre?
+- você gosta de revisar materiais de estudo por hobby?
+- você tem algum hobby que te ajuda a pensar melhor?
+- você gosta de aprender frameworks ou plataformas novas?
+- existe algum hobby que você considera essencial no seu dia a dia?
+- você tem algum hobby que faça parte da sua rotina diária?
+- existe alguma atividade simples que você faz só por prazer?
+#en:
+- do you have any hobby that is part of your daily routine?
+- is there any simple activity you do just for pleasure?
+- outside of work, what are your main hobbies?
+- what do you like to do in your free time?
+- when you’re not working, how do you usually spend your time?
+- what kind of activities do you do to relax after a busy day?
+- do you have any hobbies you take more seriously, like studying, courses, or personal projects?
+- what do you normally enjoy doing on weekends?
+- is there anything you do for fun that helps you disconnect from work a bit?
+- would you say you’re more of a home person or someone who likes to go out? What do you usually do?
+- do you have any hobbies you’re really passionate about?
+- is there any new hobby you’ve started recently and are enjoying?
+- do you enjoy creative hobbies?
+- do you like learning new things in your free time?
+- do you spend time outdoors as a hobby?
+- do you have any interest that has been with you for years?
+- do you enjoy watching series or movies as a hobby?
+- is reading part of your routine?
+- do you enjoy cooking in your spare time?
+- do you play video games sometimes?
+- do you practice any physical activity as a hobby?
+- is photography something you enjoy?
+- do you have any music-related hobby?
+- do you play any musical instrument?
+- do you practice any sports?
+- do you work on personal projects in your free time?
+- do you take courses for fun?
+- do you enjoy learning languages as a hobby?
+- do you study different topics out of curiosity?
+- do you enjoy craft or manual activities?
+- is gardening something you like?
+- do you enjoy writing during your free time?
+- do you have any tech-related hobby?
+- do you code as a hobby?
+- do you like taking short weekend trips?
+- do you enjoy exploring new cafés or places?
+- do you enjoy quiet hobbies like puzzles or light reading?
+- are you interested in science or technology?
+- do you practice meditation or similar activities?
+- do you enjoy listening to podcasts?
+- do you follow educational content channels?
+- do you prefer calm or high-energy activities?
+- do you test new recipes for fun?
+- do you enjoy board games?
+- do you like going on walks or trails?
+- do you have activities that help you relax quickly?
+- do you enjoy hobbies that require focus?
+- do you have any longtime hobby?
+- have you started any new hobby recently?
+- do you use your free time to plan projects?
+- do you enjoy organizing things as a hobby?
+- do you like drawing?
+- is painting something you enjoy?
+- do you listen to music to relax?
+- do you enjoy learning new tools?
+- do you explore course platforms in your free time?
+- do you study specific topics as a hobby?
+- do you enjoy caring for plants or animals?
+- do you practice individual sports?
+- do you enjoy yoga or stretching?
+- do you read technical articles for fun?
+- do you test apps or software in your free time?
+- do you follow tech events?
+- do you like taking deep study notes?
+- do you enjoy diving into topics outside work?
+- do you enjoy creative activities?
+- do you make plans or lists as a hobby?
+- do you listen to music while doing hobbies?
+- do you enjoy problem-solving hobbies?
+- do you like logic-based hobbies?
+- do you explore new ideas during your free time?
+- do you enjoy learning about career development?
+- do you watch documentaries for fun?
+- do you enjoy well-being activities?
+- do you read technical content outside work?
+- do you enjoy learning about productivity?
+- do you participate in online communities?
+- do you follow trends in your field for fun?
+- do you enjoy creation-related hobbies?
+- do you review personal goals as a hobby?
+- do you take self-paced courses?
+- do you test new AI tools?
+- do you create small personal projects on your computer?
+- do you have any hobby you’d like to deepen?
+- do you enjoy watching personal development content?
+- do you practice light daily activities?
+- do you enjoy small learning challenges?
+- do you use study apps as a hobby?
+- do you create content just for fun?
+- do you have any hobby that mixes learning and leisure?
+- do you watch educational videos in your free time?
+- do you explore new tech releases?
+- do you enjoy having quiet moments as a hobby?
+- do you plan simple trips?
+- do you reorganize your environment for fun?
+- do you enjoy studying English in your free time?
+- do you review study material as a hobby?
+- do you have any hobby that helps you think better?
+- do you enjoy learning new frameworks or platforms?
+- is there any hobby you consider essential in your daily routine?
+#rp_1
+#vr_pt: |
+No meu tempo livre, eu gosto bastante de estudar, organizar projetos pessoais e trabalhar em ideias relacionadas a tecnologia e integração. Também reservo um tempo para minha família e para aprender coisas novas, principalmente em inglês e na área técnica.
+#vr_en: |
+In my free time, I really enjoy studying, working on personal projects, and exploring ideas related to technology and integration. I also make sure to spend time with my family and keep learning new things, especially in English and in the technical area.
+---
+#intent: smalltalk/weekend_plans
+#pt:
+- e para esse fim de semana, você já tem algum plano?
+- como você costuma aproveitar os fins de semana?
+- você é mais de descansar no fim de semana ou de encher a agenda?
+- normalmente o seu sábado é mais de resolver coisas ou de relaxar?
+- você tem alguma rotina de fim de semana, tipo estudo, família, lazer?
+- você costuma separar um tempo do fim de semana para estudar ou prefere desligar totalmente?
+- gosta mais de ficar em casa no fim de semana ou de sair para algum lugar?
+- quando você tem um fim de semana livre, o que gosta de fazer?
+- você tem algum tipo de “ritual de domingo” ou algo assim?
+- você costuma organizar a semana seguinte no fim de semana ou deixa para segunda-feira?
+- você costuma descansar mais no sábado ou no domingo?
+- você faz algo especial no fim de semana para relaxar?
+- você tem algum costume fixo no sábado de manhã?
+- você costuma acordar mais tarde no fim de semana?
+- você gosta de aproveitar o domingo para descansar?
+- seus fins de semana costumam ser mais tranquilos ou mais cheios?
+- você costuma sair com a família no fim de semana?
+- você aproveita o fim de semana para colocar estudos em dia?
+- você costuma viajar em fins de semana?
+- você gosta de fazer algo diferente no final de semana?
+- você usa o fim de semana para aprender algo novo?
+- o fim de semana é mais para descanso ou para produtividade?
+- você costuma treinar ou se exercitar no fim de semana?
+- você faz alguma atividade fixa no domingo?
+- você gosta de cozinhar no fim de semana?
+- você costuma assistir filmes ou séries no fim de semana?
+- você gosta de planejar a semana no domingo?
+- você gosta de sair para caminhar no fim de semana?
+- você tem algum compromisso recorrente no fim de semana?
+- você prefere ter fins de semana planejados ou espontâneos?
+- você costuma visitar amigos no fim de semana?
+- você usa o fim de semana para hobbies?
+- você costuma fazer compras no sábado?
+- fim de semana para você é mais de descanso ou organização?
+- você gosta de passear em lugares tranquilos no fim de semana?
+- você aproveita o sábado para resolver pendências?
+- você costuma estudar inglês no fim de semana?
+- você reserva algum tempo do fim de semana para lazer?
+- você gosta de limpar ou organizar a casa no fim de semana?
+- você tem alguma prática de bem-estar no fim de semana?
+- você gosta de ler no fim de semana?
+- você costuma participar de eventos no fim de semana?
+- você aproveita o domingo para recarregar energia?
+- seus fins de semana variam bastante ou seguem uma rotina?
+- você tem algum passatempo típico de fim de semana?
+- você costuma revisar metas no domingo?
+- você prefere ficar em casa no domingo?
+- você usa o fim de semana para estudar temas técnicos?
+- você gosta de socializar no fim de semana?
+- você costuma descansar profundamente no domingo?
+- você tem alguma tradição de sexta à noite?
+- você gosta de aproveitar o sábado à tarde com calma?
+- há algo que você faz sempre no fim de semana?
+- você divide o fim de semana entre descanso e lazer?
+- você gosta de descobrir lugares novos no fim de semana?
+- você usa o domingo para preparar a semana?
+- você gosta de ouvir música no fim de semana?
+- você prefere final de semana movimentado ou tranquilo?
+- você usa o sábado para cuidar de questões pessoais?
+- você gosta de organizar ideias no domingo?
+- seus fins de semana mudam muito ou são estáveis?
+- você costuma fazer refeições especiais no fim de semana?
+- você tem algum projeto pessoal de fim de semana?
+- você gosta de aprender algo novo nesses dias?
+- você usa o fim de semana para revisar estudos?
+- você costuma visitar familiares no fim de semana?
+- você gosta de descansar sem compromissos?
+- você usa o domingo para reflexão?
+- você costuma aproveitar cada minuto do fim de semana?
+- você gosta de planejar pequenos objetivos no domingo?
+- você gosta de fazer caminhadas longas no fim de semana?
+- você busca silêncio ou movimento no fim de semana?
+- o sábado é seu dia de maior descanso?
+- você gosta de assistir algo leve no fim de semana?
+- você costuma fazer listas no fim de semana?
+- o seu ritual de domingo tem algo especial?
+- você gosta de aproveitar ofertas ou eventos no fim de semana?
+- você tem algum hobby específico dos fins de semana?
+- você gosta de cuidar do corpo ou da mente nesses dias?
+- o domingo é seu dia mais calmo?
+- você consegue descansar completamente no fim de semana?
+- você gosta de fazer atividades simples no sábado?
+- você costuma revisar aprendizados no domingo?
+- você separa o fim de semana para organizar projetos?
+- você gosta de explorar cafeterias ou parques nesses dias?
+- você tem algum hábito matinal especial no fim de semana?
+- você prefere rotina ou liberdade no fim de semana?
+- você usa o domingo para desacelerar?
+- você gosta de praticar algo leve no fim de semana?
+- você costuma refletir sobre a semana nesses dias?
+- você gosta de dedicar esses dias para si mesmo?
+- você usa o fim de semana para criatividade?
+- você usa o domingo para avaliar sua semana?
+- você gosta de ter momentos de silêncio no fim de semana?
+- você gosta de pequenas pausas ao longo do fim de semana?
+- você tem alguma atividade que te renova nesses dias?
+- o fim de semana te ajuda a organizar pensamentos?
+- você costuma testar ideias novas nesses dias?
+- você costuma reservar algum momento do fim de semana só para descansar sem pensar em nada?
+- no fim de semana você prefere seguir um ritmo mais lento ou gosta de manter produtividade?
+#en:
+- do you usually keep your weekends flexible or follow a set routine?
+- do weekends help you clear your mind and reset for the week?
+- do you like having slow mornings on weekends?
+- do you take some time on weekends to focus on personal improvement?
+- do you usually disconnect from work completely over the weekend?
+- do you already have any plans for this weekend?
+- how do you usually like to spend your weekends?
+- are you more the type to rest on the weekend or to fully book your schedule?
+- is your Saturday usually more about getting things done or relaxing?
+- do you have any weekend routine, like studying, family time, or leisure?
+- do you usually set aside some time on the weekend to study, or do you prefer to completely disconnect?
+- do you prefer staying at home on weekends or going out somewhere?
+- when you have a free weekend, what do you like to do?
+- do you have any kind of “Sunday ritual” or anything like that?
+- do you normally organize your upcoming week over the weekend, or leave it for Monday?
+- do you rest more on Saturday or Sunday?
+- do you have anything special you like to do on weekends?
+- do you usually wake up later on weekends?
+- do you enjoy using Sunday to recharge?
+- are your weekends usually quiet or busy?
+- do you spend weekends with your family?
+- do you use your weekend to catch up on studying?
+- do you travel on weekends?
+- do you enjoy doing something different on weekends?
+- do you learn new things on weekends?
+- are weekends more for rest or for productivity for you?
+- do you exercise on weekends?
+- do you have any fixed Sunday activity?
+- do you enjoy cooking on weekends?
+- do you watch movies or series on weekends?
+- do you plan your week on Sundays?
+- do you take long walks on weekends?
+- do you have recurring weekend commitments?
+- do you prefer scheduled weekends or spontaneous ones?
+- do you visit friends on weekends?
+- do you use weekends for hobbies?
+- do you shop on Saturdays?
+- is your weekend more for rest or organization?
+- do you enjoy quiet places on weekends?
+- do you spend Saturdays fixing personal tasks?
+- do you study English on weekends?
+- do you schedule leisure time for weekends?
+- do you organize your home on weekends?
+- do you practice any well-being activity on weekends?
+- do you read during weekends?
+- do you attend events on weekends?
+- do you use Sunday to recharge energy?
+- do your weekends follow a routine or change a lot?
+- do you have a typical weekend pastime?
+- do you review goals on Sundays?
+- do you prefer Sunday at home?
+- do you study technical topics on weekends?
+- do you socialize more on weekends?
+- is Sunday your slower day?
+- do you have a Friday night routine?
+- do you enjoy slow Saturday afternoons?
+- do you follow any fixed weekend habit?
+- do you divide your weekend between rest and leisure?
+- do you explore new places on weekends?
+- do you use Sunday to prepare your week?
+- do you listen to music on weekends?
+- do you prefer active or calm weekends?
+- do you handle personal tasks on Saturdays?
+- do you organize ideas on Sundays?
+- are your weekends stable or unpredictable?
+- do you cook special meals on weekends?
+- do you have personal projects for weekends?
+- do you learn new skills these days?
+- do you review study material on weekends?
+- do you visit family on weekends?
+- do you enjoy commitment-free weekends?
+- do you use Sunday for reflection?
+- do you try to make the most of the weekend?
+- do you plan small goals on Sundays?
+- do you take long walks on weekends?
+- do you seek quiet or movement on weekends?
+- is Saturday your main rest day?
+- do you watch light content on weekends?
+- do you make lists on weekends?
+- does your Sunday have any specific ritual?
+- do you enjoy weekend events or fairs?
+- do you have a hobby specific to weekends?
+- do you practice something relaxing these days?
+- do you rest fully on weekends?
+- do you enjoy simple weekend activities?
+- do you review what you learned during the week?
+- do you organize personal projects on weekends?
+- do you explore cafés or parks these days?
+- do you have a special morning habit on weekends?
+- do you prefer routine or total freedom on weekends?
+- do you slow down on Sundays?
+- do you practice anything light on weekends?
+- do you reflect on your week during weekends?
+- do you dedicate weekend time to yourself?
+- do you use weekends for creativity?
+- do you evaluate your week on Sundays?
+- do you enjoy quiet weekend moments?
+- do you take small pauses during the weekend?
+- do you have any activity that renews you on weekends?
+- do weekends help you organize your thoughts?
+- do you test new ideas during weekends?
+#rp_1
+#vr_pt: |
+Geralmente eu tento equilibrar o fim de semana entre descanso, família e estudos. Normalmente reservo um tempo para estudar ou organizar algo de longo prazo, mas também faço questão de desligar um pouco para recarregar as energias.
+#vr_en: |
+I usually try to balance my weekends between rest, family, and studying. I normally set aside some time to study or organize something long-term, but I also make sure to disconnect a bit so I can recharge.
+---

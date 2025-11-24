@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: weekend_plans
+    examples: |
+      - e para esse fim de semana, você já tem algum plano?
+      - como você costuma aproveitar os fins de semana?
+      - você é mais de descansar no fim de semana ou de encher a agenda?
+      - normalmente o seu sábado é mais de resolver coisas ou de relaxar?
+      - você tem alguma rotina de fim de semana, tipo estudo, família, lazer?
+      - você costuma separar um tempo do fim de semana para estudar ou prefere desligar totalmente?
+      - gosta mais de ficar em casa no fim de semana ou de sair para algum lugar?
+      - quando você tem um fim de semana livre, o que gosta de fazer?
+      - você tem algum tipo de “ritual de domingo” ou algo assim?
+      - você costuma organizar a semana seguinte no fim de semana ou deixa para segunda-feira?
+      - você costuma descansar mais no sábado ou no domingo?
+      - você faz algo especial no fim de semana para relaxar?
+      - você tem algum costume fixo no sábado de manhã?
+      - você costuma acordar mais tarde no fim de semana?
+      - você gosta de aproveitar o domingo para descansar?
+      - seus fins de semana costumam ser mais tranquilos ou mais cheios?
+      - você costuma sair com a família no fim de semana?
+      - você aproveita o fim de semana para colocar estudos em dia?
+      - você costuma viajar em fins de semana?
+      - você gosta de fazer algo diferente no final de semana?
+      - você usa o fim de semana para aprender algo novo?
+      - o fim de semana é mais para descanso ou para produtividade?
+      - você costuma treinar ou se exercitar no fim de semana?
+      - você faz alguma atividade fixa no domingo?
+      - você gosta de cozinhar no fim de semana?
+      - você costuma assistir filmes ou séries no fim de semana?
+      - você gosta de planejar a semana no domingo?
+      - você gosta de sair para caminhar no fim de semana?
+      - você tem algum compromisso recorrente no fim de semana?
+      - você prefere ter fins de semana planejados ou espontâneos?
+      - você costuma visitar amigos no fim de semana?
+      - você usa o fim de semana para hobbies?
+      - você costuma fazer compras no sábado?
+      - fim de semana para você é mais de descanso ou organização?
+      - você gosta de passear em lugares tranquilos no fim de semana?
+      - você aproveita o sábado para resolver pendências?
+      - você costuma estudar inglês no fim de semana?
+      - você reserva algum tempo do fim de semana para lazer?
+      - você gosta de limpar ou organizar a casa no fim de semana?
+      - você tem alguma prática de bem-estar no fim de semana?
+      - você gosta de ler no fim de semana?
+      - você costuma participar de eventos no fim de semana?
+      - você aproveita o domingo para recarregar energia?
+      - seus fins de semana variam bastante ou seguem uma rotina?
+      - você tem algum passatempo típico de fim de semana?
+      - você costuma revisar metas no domingo?
+      - você prefere ficar em casa no domingo?
+      - você usa o fim de semana para estudar temas técnicos?
+      - você gosta de socializar no fim de semana?
+      - você costuma descansar profundamente no domingo?
+      - você tem alguma tradição de sexta à noite?
+      - você gosta de aproveitar o sábado à tarde com calma?
+      - há algo que você faz sempre no fim de semana?
+      - você divide o fim de semana entre descanso e lazer?
+      - você gosta de descobrir lugares novos no fim de semana?
+      - você usa o domingo para preparar a semana?
+      - você gosta de ouvir música no fim de semana?
+      - você prefere final de semana movimentado ou tranquilo?
+      - você usa o sábado para cuidar de questões pessoais?
+      - você gosta de organizar ideias no domingo?
+      - seus fins de semana mudam muito ou são estáveis?
+      - você costuma fazer refeições especiais no fim de semana?
+      - você tem algum projeto pessoal de fim de semana?
+      - você gosta de aprender algo novo nesses dias?
+      - você usa o fim de semana para revisar estudos?
+      - você costuma visitar familiares no fim de semana?
+      - você gosta de descansar sem compromissos?
+      - você usa o domingo para reflexão?
+      - você costuma aproveitar cada minuto do fim de semana?
+      - você gosta de planejar pequenos objetivos no domingo?
+      - você gosta de fazer caminhadas longas no fim de semana?
+      - você busca silêncio ou movimento no fim de semana?
+      - o sábado é seu dia de maior descanso?
+      - você gosta de assistir algo leve no fim de semana?
+      - você costuma fazer listas no fim de semana?
+      - o seu ritual de domingo tem algo especial?
+      - você gosta de aproveitar ofertas ou eventos no fim de semana?
+      - você tem algum hobby específico dos fins de semana?
+      - você gosta de cuidar do corpo ou da mente nesses dias?
+      - o domingo é seu dia mais calmo?
+      - você consegue descansar completamente no fim de semana?
+      - você gosta de fazer atividades simples no sábado?
+      - você costuma revisar aprendizados no domingo?
+      - você separa o fim de semana para organizar projetos?
+      - você gosta de explorar cafeterias ou parques nesses dias?
+      - você tem algum hábito matinal especial no fim de semana?
+      - você prefere rotina ou liberdade no fim de semana?
+      - você usa o domingo para desacelerar?
+      - você gosta de praticar algo leve no fim de semana?
+      - você costuma refletir sobre a semana nesses dias?
+      - você gosta de dedicar esses dias para si mesmo?
+      - você usa o fim de semana para criatividade?
+      - você usa o domingo para avaliar sua semana?
+      - você gosta de ter momentos de silêncio no fim de semana?
+      - você gosta de pequenas pausas ao longo do fim de semana?
+      - você tem alguma atividade que te renova nesses dias?
+      - o fim de semana te ajuda a organizar pensamentos?
+      - você costuma testar ideias novas nesses dias?
+      - você costuma reservar algum momento do fim de semana só para descansar sem pensar em nada?
+      - no fim de semana você prefere seguir um ritmo mais lento ou gosta de manter produtividade?
+      - do you usually keep your weekends flexible or follow a set routine?
+      - do weekends help you clear your mind and reset for the week?
+      - do you like having slow mornings on weekends?
+      - do you take some time on weekends to focus on personal improvement?
+      - do you usually disconnect from work completely over the weekend?
+      - do you already have any plans for this weekend?
+      - how do you usually like to spend your weekends?
+      - are you more the type to rest on the weekend or to fully book your schedule?
+      - is your Saturday usually more about getting things done or relaxing?
+      - do you have any weekend routine, like studying, family time, or leisure?
+      - do you usually set aside some time on the weekend to study, or do you prefer to completely disconnect?
+      - do you prefer staying at home on weekends or going out somewhere?
+      - when you have a free weekend, what do you like to do?
+      - do you have any kind of “Sunday ritual” or anything like that?
+      - do you normally organize your upcoming week over the weekend, or leave it for Monday?
+      - do you rest more on Saturday or Sunday?
+      - do you have anything special you like to do on weekends?
+      - do you usually wake up later on weekends?
+      - do you enjoy using Sunday to recharge?
+      - are your weekends usually quiet or busy?
+      - do you spend weekends with your family?
+      - do you use your weekend to catch up on studying?
+      - do you travel on weekends?
+      - do you enjoy doing something different on weekends?
+      - do you learn new things on weekends?
+      - are weekends more for rest or for productivity for you?
+      - do you exercise on weekends?
+      - do you have any fixed Sunday activity?
+      - do you enjoy cooking on weekends?
+      - do you watch movies or series on weekends?
+      - do you plan your week on Sundays?
+      - do you take long walks on weekends?
+      - do you have recurring weekend commitments?
+      - do you prefer scheduled weekends or spontaneous ones?
+      - do you visit friends on weekends?
+      - do you use weekends for hobbies?
+      - do you shop on Saturdays?
+      - is your weekend more for rest or organization?
+      - do you enjoy quiet places on weekends?
+      - do you spend Saturdays fixing personal tasks?
+      - do you study English on weekends?
+      - do you schedule leisure time for weekends?
+      - do you organize your home on weekends?
+      - do you practice any well-being activity on weekends?
+      - do you read during weekends?
+      - do you attend events on weekends?
+      - do you use Sunday to recharge energy?
+      - do your weekends follow a routine or change a lot?
+      - do you have a typical weekend pastime?
+      - do you review goals on Sundays?
+      - do you prefer Sunday at home?
+      - do you study technical topics on weekends?
+      - do you socialize more on weekends?
+      - is Sunday your slower day?
+      - do you have a Friday night routine?
+      - do you enjoy slow Saturday afternoons?
+      - do you follow any fixed weekend habit?
+      - do you divide your weekend between rest and leisure?
+      - do you explore new places on weekends?
+      - do you use Sunday to prepare your week?
+      - do you listen to music on weekends?
+      - do you prefer active or calm weekends?
+      - do you handle personal tasks on Saturdays?
+      - do you organize ideas on Sundays?
+      - are your weekends stable or unpredictable?
+      - do you cook special meals on weekends?
+      - do you have personal projects for weekends?
+      - do you learn new skills these days?
+      - do you review study material on weekends?
+      - do you visit family on weekends?
+      - do you enjoy commitment-free weekends?
+      - do you use Sunday for reflection?
+      - do you try to make the most of the weekend?
+      - do you plan small goals on Sundays?
+      - do you seek quiet or movement on weekends?
+      - is Saturday your main rest day?
+      - do you watch light content on weekends?
+      - do you make lists on weekends?
+      - does your Sunday have any specific ritual?
+      - do you enjoy weekend events or fairs?
+      - do you have a hobby specific to weekends?
+      - do you practice something relaxing these days?
+      - do you rest fully on weekends?
+      - do you enjoy simple weekend activities?
+      - do you review what you learned during the week?
+      - do you organize personal projects on weekends?
+      - do you explore cafés or parks these days?
+      - do you have a special morning habit on weekends?
+      - do you prefer routine or total freedom on weekends?
+      - do you slow down on Sundays?
+      - do you practice anything light on weekends?
+      - do you reflect on your week during weekends?
+      - do you dedicate weekend time to yourself?
+      - do you use weekends for creativity?
+      - do you evaluate your week on Sundays?
+      - do you enjoy quiet weekend moments?
+      - do you take small pauses during the weekend?
+      - do you have any activity that renews you on weekends?
+      - do weekends help you organize your thoughts?
+      - do you test new ideas during weekends?
