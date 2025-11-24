@@ -7,3 +7,8 @@ responses:
             Tudo bem, o importante é que a gente corrigiu.
           vr_en: |
             It’s okay, the important thing is that we fixed it.
+        resp_2:
+          vr_pt: |
+            Sem problema, só vamos tomar mais cuidado pra não repetir o erro.
+          vr_en: |
+            No problem, let’s just be more careful so it does not happen again.

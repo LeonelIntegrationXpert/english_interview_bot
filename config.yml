@@ -22,7 +22,7 @@ pipeline:
 
   # ─ Classificação de Intents (mais treino, menos paranoia)
   - name: DIETClassifier
-    epochs: 5                # antes 5 (pouco), agora treina de verdade
+    epochs: 50                # antes 5 (pouco), agora treina de verdade
     constrain_similarities: true
 
   # ─ FallbackClassifier: só dispara em casos realmente ruins
@@ -41,7 +41,7 @@ pipeline:
 policies:
   # ─ Memoization para histórias exatas
   - name: MemoizationPolicy
-    max_history: 5
+    max_history: 50
 
   # ─ RulePolicy: ainda sabe chamar o fallback, mas menos agressivo
   - name: RulePolicy

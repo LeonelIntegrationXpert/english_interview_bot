@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_future_ten_years_vision:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Daqui a dez anos eu me vejo atuando em um nível sênior ou de arquitetura, com bastante responsabilidade em decisões de integração e de solução. Quero ter uma base sólida de projetos grandes, experiência com times diversos e um histórico de entrega consistente. Além disso, me vejo combinando prática de mercado com estudos avançados, participando de iniciativas estratégicas e ajudando a direcionar a visão técnica dos projetos.
-          vr_en: |
-            Ten years from now I see myself working at a senior or architecture level, with strong responsibility in integration and solution decisions. I want to have a solid background of large projects, experience with diverse teams, and a consistent track record of delivery. I also see myself combining market practice with advanced studies, taking part in strategic initiatives and helping to guide the technical vision of the projects.

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_handling_pressure:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Quando a pressão aumenta, eu tento primeiro organizar o cenário em blocos menores, priorizando o que é realmente crítico e o que pode ser ajustado. Gosto de alinhar expectativas com o time e com as partes interessadas, deixando claro o que é possível entregar com qualidade dentro do prazo e o que precisa ser replanejado. Eu procuro manter a comunicação muito transparente, evitar entrar no modo “desespero” e sempre focar em decisões práticas: o que precisa ser feito agora, por quem e em qual ordem. Isso me ajuda a manter a calma, proteger a qualidade do trabalho e, ao mesmo tempo, dar segurança para o time.
-          vr_en: |
-            When pressure increases, I usually break the situation into smaller pieces and prioritize what is truly critical versus what can be adjusted. I like to align expectations with the team and stakeholders, making it clear what we can deliver with quality within the deadline and what needs to be replanned. I try to keep communication very transparent, avoid going into a panic mode, and focus on practical decisions: what needs to be done now, by whom, and in which order. That approach helps me stay calm, protect the quality of the work, and give the team a sense of stability.

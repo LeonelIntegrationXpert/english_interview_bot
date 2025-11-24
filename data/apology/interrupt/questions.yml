@@ -12,6 +12,96 @@ nlu:
       - desculpa entrar no meio
       - perdão por interromper
       - desculpa, não quis te cortar
+      - desculpa interromper rapidinho
+      - desculpa entrar no assunto no meio
+      - foi mal cortar teu raciocínio
+      - desculpa, te cortei sem querer
+      - desculpa, acabei falando por cima
+      - desculpa, falei em cima de você
+      - desculpa, acho que te interrompi
+      - desculpa, acho que cortei você agora
+      - foi mal, te interrompi sem querer
+      - desculpa, posso só fazer um comentário?
+      - desculpa, posso entrar rapidinho aqui?
+      - desculpa, posso só adicionar uma coisa?
+      - desculpa, vou te cortar um segundinho
+      - desculpa interromper no meio da frase
+      - desculpa, só pra complementar um ponto
+      - desculpa, só pra voltar num ponto antes
+      - desculpa, só pra não perder o gancho
+      - desculpa, só pra não perder essa ideia
+      - desculpa, vou te cortar só um instante
+      - desculpa, prometo ser rápido
+      - desculpa, só uma dúvida rapidinha
+      - desculpa, posso tirar uma dúvida agora?
+      - desculpa entrar no assunto do nada
+      - desculpa, entrando aqui no meio da conversa
+      - foi mal entrar no meio assim
+      - desculpa, falei na tua frente
+      - desculpa, acho que entrei junto com você
+      - perdão, te interrompi no meio do raciocínio
+      - desculpa, não era pra te cortar
+      - desculpa, atropelei um pouco aqui
+      - desculpa, acho que te atropelei na fala
+      - desculpa, acabei falando antes de você terminar
+      - desculpa, entrei antes de você concluir
+      - foi mal, falei em cima de ti
+      - desculpa, foi sem querer mesmo
+      - desculpa, tô só tentando entender melhor
+      - desculpa, posso só voltar num ponto?
+      - desculpa, posso só voltar um passo?
+      - desculpa, vou te interromper bem rapidinho
+      - desculpa, não queria cortar teu fluxo
+      - desculpa, entrei no meio do teu pensamento
+      - desculpa, cortei o assunto pela metade
+      - desculpa, falei junto contigo agora
+      - desculpa, me empolguei e entrei junto
+      - desculpa, tô só entrando pra não esquecer
+      - desculpa interromper, mas fiquei com uma dúvida
+      - desculpa interromper, mas não entendi essa parte
+      - desculpa interromper, mas isso vale pra todos os casos?
+      - desculpa interromper, mas isso é em todo projeto?
+      - desculpa interromper, só pra confirmar uma coisa
+      - desculpa interromper, é só um ponto rápido
+      - desculpa interromper, posso só perguntar uma coisa?
+      - desculpa, posso interromper um segundo?
+      - desculpa, posso só cortar rapidinho?
+      - desculpa, vou te interromper só um segundinho
+      - desculpa te cortar, mas não entendi direito
+      - desculpa te cortar, só pra entender melhor
+      - desculpa te cortar, mas isso é obrigatório?
+      - desculpa te cortar, isso muda algo no processo?
+      - desculpa, vou entrar aqui no meio rapidinho
+      - desculpa, vou entrar aqui na conversa um pouco
+      - desculpa atrapalhar, é só uma dúvida
+      - desculpa atrapalhar, mas fiquei confuso nessa parte
+      - desculpa atrapalhar, mas isso tem exceção?
+      - desculpa atrapalhar, posso só checar um detalhe?
+      - foi mal, entrei no meio da sua frase
+      - foi mal, falei junto sem querer
+      - foi mal, acabei atravessando aqui
+      - foi mal, cortei você sem perceber
+      - perdão por cortar seu raciocínio
+      - perdão por falar em cima de você
+      - perdão, entrei na sua vez de falar
+      - desculpa, atropelando um pouco aqui
+      - desculpa, entrando sem avisar na conversa
+      - desculpa, invadi um pouco tua fala agora
+      - desculpa, tô te interrompendo de novo né
+      - desculpa, tô cortando você de novo
+      - desculpa, vivendo te interrompendo aqui
+      - desculpa interromper de novo, prometo ser rápido
+      - foi mal interromper de novo
+      - desculpa, mais uma interrupçãozinha aqui
+      - desculpa, última interrupção, eu juro
+      - desculpa, deixa eu só interromper mais uma vez
+      - desculpa, posso só cortar de novo rapidinho?
+      - desculpa, vou te cortar de novo só um segundo
+      - desculpa, não queria ficar te interrompendo toda hora
+      - desculpa, sei que já interrompi antes
+      - desculpa, sei que cortei você algumas vezes
+      - desculpa, não quero parecer mal educado te cortando
+      - desculpa se parece que tô cortando muito
       - sorry to interrupt
       - I’m sorry for interrupting
       - sorry to cut you off
@@ -22,3 +112,93 @@ nlu:
       - sorry for jumping in
       - sorry, I didn’t mean to cut you off
       - sorry to interrupt you there
+      - sorry, can I jump in for a second?
+      - sorry to step in like this
+      - sorry, let me just jump in quickly
+      - sorry, can I add something very quickly?
+      - sorry, can I just say one thing?
+      - sorry, I might be interrupting
+      - sorry, I think I interrupted you
+      - sorry, I guess I cut you there
+      - sorry, I talked over you
+      - sorry, I spoke over you just now
+      - sorry, I did not mean to talk over you
+      - sorry, I came in the middle of your sentence
+      - sorry for coming in the middle like that
+      - sorry, I kind of jumped in the middle
+      - sorry to break your line of thought
+      - sorry for cutting your point in half
+      - sorry, I got in the middle of your idea
+      - sorry, I cut you before you finished
+      - sorry, I started talking before you were done
+      - sorry, I overlapped you there
+      - sorry for stepping on your words
+      - my apologies, I talked on top of you
+      - sorry, can I interrupt for a second?
+      - sorry, can I stop you just for a moment?
+      - sorry, can I quickly interrupt you here?
+      - sorry, let me interrupt you for a short moment
+      - sorry to interrupt, I just have a question
+      - sorry to interrupt, I did not understand this part
+      - sorry to interrupt, does that apply to every case?
+      - sorry to interrupt, is that true for all projects?
+      - sorry to interrupt, just to confirm one detail
+      - sorry to interrupt, it is just a quick point
+      - sorry to interrupt, can I ask one thing?
+      - sorry, can I jump in with a question?
+      - sorry, can I quickly jump in here?
+      - sorry, can I cut in for a moment?
+      - sorry, I know I am interrupting
+      - sorry, I am interrupting again
+      - sorry, I keep interrupting you today
+      - sorry for interrupting again, I promise to be quick
+      - sorry for interrupting again
+      - sorry, another small interruption from me
+      - sorry, last interruption, I promise
+      - sorry, let me interrupt one last time
+      - sorry, can I interrupt again, very quick?
+      - sorry, I will cut you again just for a second
+      - sorry, I do not want to keep interrupting you
+      - sorry, I know I already interrupted before
+      - sorry, I know I have cut you a few times
+      - sorry, I do not want to sound rude by interrupting
+      - sorry if it feels like I am cutting you a lot
+      - sorry for butting in
+      - sorry for jumping into the conversation
+      - sorry, I am just butting in here
+      - sorry to jump in out of nowhere
+      - sorry, I kind of barged into the conversation
+      - sorry, I am stepping into the middle here
+      - sorry, I cut in without warning
+      - sorry, I barged in on your point
+      - sorry if I am barging in too much
+      - sorry, I jumped on top of your sentence
+      - sorry, let me cut in in the middle here
+      - sorry, I am just a bit anxious to understand
+      - sorry, I might be over interrupting
+      - sorry, I know I am talking over you
+      - sorry, I keep talking on top of you
+      - sorry, I am cutting too much, I think
+      - sorry, I am kind of overstepping here
+      - sorry, I am pushing in the middle of your speech
+      - sorry, I am entering on your turn to talk
+      - sorry, I am sneaking in a question here
+      - sorry, I am sneaking into your explanation
+      - sorry, I suddenly jumped into your answer
+      - sorry for stepping in the middle of your explanation
+      - sorry, I interrupted your explanation
+      - sorry, I broke your explanation in the middle
+      - sorry, I cut the story in half there
+      - sorry, I stopped you right in the middle
+      - sorry, I should not have interrupted there
+      - sorry, I should have waited you to finish
+      - sorry, I could have waited a bit more
+      - sorry, I did not wait for you to finish speaking
+      - sorry, I rushed in with my question
+      - sorry, I rushed over your answer
+      - sorry, I rushed into your line of thought
+      - sorry for rushing into the conversation
+      - sorry, let me jump quickly, I will be fast
+      - sorry, I know it is annoying I keep interrupting
+      - sorry, I do not want to disturb your flow
+      - sorry, I am breaking your flow a bit

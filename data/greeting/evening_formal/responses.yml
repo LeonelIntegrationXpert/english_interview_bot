@@ -7,3 +7,8 @@ responses:
             Boa noite! Tudo bem por aqui, e aí?
           vr_en: |
             Good evening! I’m doing well, and you?
+        resp_2:
+          vr_pt: |
+            Boa noite! Foi um dia cansativo, mas tô à disposição.
+          vr_en: |
+            Good evening! It’s been a tiring day, but I’m available and ready.

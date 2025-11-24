@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_cancel_process_now:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Entendo, obrigado por ser transparente e por avisar. Fico à disposição caso a vaga seja reaberta no futuro ou surjam outras oportunidades alinhadas ao meu perfil.
-          vr_en: |
-            I understand, thank you for being transparent and for letting me know. I’ll be happy to be considered if the role opens again in the future or if any other opportunity matches my profile.

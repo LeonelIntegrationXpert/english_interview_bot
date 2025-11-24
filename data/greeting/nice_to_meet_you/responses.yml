@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Prazer é meu, muito bom te conhecer.
+            Prazer é meu, muito bom te conhecer também.
           vr_en: |
             Nice to meet you too, it’s really good to meet you.
+        resp_2:
+          vr_pt: |
+            Prazer em te conhecer, mesmo eu estando um pouco cansado hoje.
+          vr_en: |
+            Nice to meet you, even though I’m a bit tired today.

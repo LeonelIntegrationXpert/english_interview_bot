@@ -2,8 +2,6 @@ version: '3.1'
 nlu:
   - intent: evening_formal
     examples: |
-      - boa noite
-      - boa noite, tudo bem?
       - boa noite, como vai?
       - boa noite, como você está?
       - boa noite, tudo certo por aí?
@@ -12,8 +10,98 @@ nlu:
       - boa noite, é um prazer falar com você
       - boa noite a todos
       - boa noite, pessoal
-      - good evening
-      - good evening, how are you?
+      - boa noite, time
+      - boa noite, tudo jóia?
+      - boa noite, tudo beleza aí?
+      - boa noite, tudo tranquilo com você?
+      - boa noite, tudo em ordem por aí?
+      - boa noite, como estão as coisas?
+      - boa noite, como foi o dia?
+      - boa noite, como tá o final do dia?
+      - boa noite, como passou o dia?
+      - boa noite, como foram as coisas hoje?
+      - boa noite, obrigado por esse horário
+      - boa noite, obrigado por falar comigo hoje
+      - boa noite, obrigado por me receber
+      - boa noite, obrigado por participar dessa conversa
+      - boa noite, obrigado por marcar essa entrevista
+      - boa noite, obrigado por marcar essa call
+      - boa noite, obrigado por separar um tempo
+      - boa noite, obrigado por ajustar a agenda
+      - boa noite, obrigado por ficar até mais tarde
+      - boa noite, obrigado por essa oportunidade
+      - boa noite, é um prazer estar aqui
+      - boa noite, é um prazer conversar com você
+      - boa noite, é um prazer participar dessa entrevista
+      - boa noite, é um prazer falar com todos vocês
+      - boa noite, prazer falar com o time
+      - boa noite, prazer falar com a banca
+      - boa noite, pessoal, tudo bem?
+      - boa noite, pessoal, tudo certo com vocês?
+      - boa noite a todos, obrigado pela presença
+      - boa noite a todos, obrigado pelo tempo
+      - boa noite, podemos começar?
+      - boa noite, podemos iniciar a entrevista?
+      - boa noite, pronto pra começar
+      - boa noite, tô pronto pra gente começar
+      - boa noite, por mim podemos começar agora
+      - boa noite, tudo certo pra começarmos?
+      - boa noite, fico à disposição pra suas perguntas
+      - boa noite, fico à disposição de vocês
+      - boa noite, podem ficar à vontade pra perguntar
+      - boa noite, pode seguir com as perguntas quando quiser
+      - boa noite, espero que esteja tudo bem aí
+      - boa noite, espero que tenha sido um bom dia
+      - boa noite, espero que o dia tenha sido tranquilo
+      - boa noite, espero que a correria tenha sido leve
+      - boa noite, o dia foi muito puxado?
+      - boa noite, o dia foi muito corrido?
+      - boa noite, imagino que o dia tenha sido cheio
+      - boa noite, obrigado por encaixar essa conversa no fim do dia
+      - boa noite, obrigado por falar comigo nesse horário
+      - boa noite, obrigado por manter a entrevista mesmo no fim do dia
+      - boa noite, agradeço a oportunidade de me apresentar
+      - boa noite, agradeço por considerar meu perfil
+      - boa noite, agradeço por me incluir no processo
+      - boa noite, agradeço por seguir com o processo comigo
+      - boa noite, feliz de estar aqui com vocês
+      - boa noite, feliz de falar com você hoje
+      - boa noite, feliz de participar dessa etapa
+      - boa noite, é muito bom estar aqui com o time
+      - boa noite, é muito bom poder conversar com vocês
+      - boa noite, obrigado por essa conversa
+      - boa noite, obrigado por esse bate-papo
+      - boa noite, obrigado por essa entrevista
+      - boa noite, vamos aproveitar bem esse tempo
+      - boa noite, vamos aproveitar bem essa conversa
+      - boa noite, vamos aproveitar bem essa entrevista
+      - boa noite, espero contribuir bem hoje
+      - boa noite, espero conseguir explicar bem meu perfil
+      - boa noite, espero responder tudo com clareza
+      - boa noite, estou à disposição para o que precisar
+      - boa noite, estou à disposição para tirar dúvidas
+      - boa noite, estou à disposição da empresa
+      - boa noite, obrigado por confiar em mim para essa conversa
+      - boa noite, obrigado pela paciência hoje
+      - boa noite, obrigado por esse horário mais tarde
+      - boa noite, obrigado por continuar a entrevista hoje
+      - boa noite, obrigado por seguirmos com o processo
+      - boa noite, pronto pra contar um pouco sobre mim
+      - boa noite, pronto pra falar da minha experiência
+      - boa noite, pronto pra falar da minha trajetória
+      - boa noite, pronto pra falar do meu momento atual
+      - boa noite, é um prazer dividir um pouco da minha história
+      - boa noite, é um prazer dividir minha experiência com vocês
+      - boa noite, agradeço a chance de mostrar meu trabalho
+      - boa noite, agradeço a chance de mostrar meu perfil
+      - boa noite, fico feliz por esse convite
+      - boa noite, fico feliz em participar desse processo
+      - boa noite, obrigado por essa oportunidade no fim do dia
+      - boa noite, obrigado por fechar o dia com essa conversa
+      - boa noite, espero que nossa conversa seja bem produtiva
+      - boa noite, espero que nossa entrevista seja bem produtiva
+      - boa noiti, espero que noss entrevista seja bem produtiv
+      - boa noit, esper que noss entrevista seja bem produtiva
       - good evening, how are you doing today?
       - good evening, thanks for your time
       - good evening, thanks for meeting with me
@@ -22,3 +110,95 @@ nlu:
       - good evening, team
       - good evening, hope you’re doing well
       - good evening, hope you had a good day
+      - good evening, how are things?
+      - good evening, how is everything?
+      - good evening, how are things on your side?
+      - good evening, how has your day been?
+      - good evening, how was your day today?
+      - good evening, how is your evening going?
+      - good evening, how are you feeling today?
+      - good evening, how have you been today?
+      - good evening, how is everything going tonight?
+      - good evening, is everything okay with you?
+      - good evening, thank you for your time today
+      - good evening, thank you for taking the time
+      - good evening, thank you for taking the time to meet
+      - good evening, thank you for joining this call
+      - good evening, thank you for joining this meeting
+      - good evening, thank you for joining this interview
+      - good evening, thank you for arranging this call
+      - good evening, thank you for arranging this interview
+      - good evening, thank you for scheduling this conversation
+      - good evening, thank you for scheduling this interview
+      - good evening, thank you for inviting me today
+      - good evening, thanks for inviting me to this interview
+      - good evening, thanks for giving me this opportunity
+      - good evening, thank you for the opportunity to be here
+      - good evening, it is great to be here
+      - good evening, it is nice to be here with you
+      - good evening, it is great to talk with you today
+      - good evening, it is nice to speak with you tonight
+      - good evening, it is great to finally meet you
+      - good evening, it is great to finally speak with you
+      - good evening everyone, thanks for your time
+      - good evening everyone, thanks for being here
+      - good evening everyone, thank you for joining
+      - good evening team, thanks for your time
+      - good evening team, thank you for meeting with me
+      - good evening, I appreciate your time
+      - good evening, I really appreciate your time today
+      - good evening, I appreciate this chance to talk
+      - good evening, I appreciate the opportunity to introduce myself
+      - good evening, we can start whenever you are ready
+      - good evening, I am ready to start when you are
+      - good evening, I am ready for the interview
+      - good evening, I am ready for our conversation
+      - good evening, I am ready for our chat tonight
+      - good evening, feel free to start with your questions
+      - good evening, you can start with the questions when you want
+      - good evening, we can go straight to the questions
+      - good evening, we can go straight to the point
+      - good evening, hope we have a good conversation
+      - good evening, hope we have a productive interview
+      - good evening, hope we have a good talk today
+      - good evening, hope your day was not too busy
+      - good evening, hope your day was not too stressful
+      - good evening, hope your day went well
+      - good evening, hope your meetings went well today
+      - good evening, I know it is late, thanks for your time
+      - good evening, thanks for speaking with me at the end of the day
+      - good evening, thanks for taking this time tonight
+      - good evening, thanks for meeting me after your long day
+      - good evening, thanks for this time in the evening
+      - good evening, I am glad we could speak today
+      - good evening, I am glad we could find this time
+      - good evening, I am glad we could schedule this call
+      - good evening, I am happy to be here
+      - good evening, I am happy to be here with you
+      - good evening, I am happy to speak with you today
+      - good evening, happy to be part of this process
+      - good evening, happy to be here in this stage
+      - good evening, nice to be here with the team
+      - good evening, nice to be here with all of you
+      - good evening, nice to meet you all today
+      - good evening, nice speaking with you tonight
+      - good evening, nice to see you today
+      - good evening, I am happy to answer your questions
+      - good evening, I am happy to share more about my background
+      - good evening, I am happy to talk about my experience
+      - good evening, I am happy to talk about my profile
+      - good evening, everything good with you today?
+      - good evening, is everything good on your side?
+      - good evening, all good there?
+      - good evening, thank you for continuing the process with me
+      - good evening, thanks for moving forward with my application
+      - good evening, thanks for giving me this follow up interview
+      - good evening, thank you for considering my profile
+      - good evening, thnk you for considering my profil
+      - good evening, thank you for looking at my resume
+      - good evening, thank you for including me in this round
+      - good evening, thanks for keeping this interview for tonight
+      - good evening, thanks for closing the day with this conversation
+      - good evening, I hope our conversation will be very productive
+      - good evening, I hope our interview will be very productive
+      - good evening, I hope our intervew will be very productiv

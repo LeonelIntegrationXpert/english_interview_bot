@@ -7,3 +7,8 @@ responses:
             Claro, sem problema nenhum em pedir para repetir.
           vr_en: |
             Of course, there’s no problem at all in asking to repeat.
+        resp_2:
+          vr_pt: |
+            Desculpa mesmo, às vezes fico um pouco nervoso e acabo não entendendo de primeira.
+          vr_en: |
+            I’m really sorry, sometimes I get a bit nervous and do not understand everything at first.

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_ownership_accountability:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Para mim, ownership é olhar para além da tarefa em si e se preocupar com o resultado final. Quando eu assumo algo, eu gosto de acompanhar desde o entendimento do problema até o efeito em produção, ajustando o que for necessário no caminho. Se algo dá errado, eu não tento justificar demais, eu assumo, entendo o que aconteceu e proponho como corrigir e evitar que se repita. Ao mesmo tempo, eu sei que resultado é sempre trabalho de time, então eu busco dividir contexto, delegar quando preciso e criar um ambiente em que todo mundo se sinta responsável, não só uma pessoa.
-          vr_en: |
-            To me, ownership means looking beyond the task itself and caring about the final result. When I take something on, I like to follow it from understanding the problem all the way to the impact in production, adjusting what is needed along the way. If something goes wrong, I do not try to justify too much; I own it, understand what happened, and propose how to fix it and prevent it from happening again. At the same time, I know that results are always a team effort, so I share context, delegate when needed, and try to create an environment where everyone feels responsible, not just one person.

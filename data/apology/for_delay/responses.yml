@@ -7,3 +7,8 @@ responses:
             Sem problemas, eu sei como a correria pode ser.
           vr_en: |
             No problem at all, I know things can get busy.
+        resp_2:
+          vr_pt: |
+            Tranquilo, só vamos tentar manter um retorno mais rápido nas próximas vezes.
+          vr_en: |
+            It’s okay, let’s just try to keep a faster response next time.

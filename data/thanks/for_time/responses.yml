@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Eu que agradeço pelo seu tempo e pela oportunidade de conversar. Fico feliz em poder compartilhar um pouco da minha experiência e estou à disposição caso você precise de qualquer informação adicional depois da entrevista.
+            Eu que agradeço pelo seu tempo e pela oportunidade de conversar.
           vr_en: |
-            Thank you as well for your time and for the opportunity to talk. I am glad I could share a bit of my experience, and I am available if you need any additional information after the interview.
+            Thank you as well for your time and for the opportunity to talk.
+        resp_2:
+          vr_pt: |
+            Obrigado, sei que o tempo é corrido, então realmente valorizo essa oportunidade.
+          vr_en: |
+            Thank you, I know time is tight, so I really value this opportunity.

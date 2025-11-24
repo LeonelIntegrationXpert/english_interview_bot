@@ -12,6 +12,96 @@ nlu:
       - antes da parte técnica, como está sua rotina de trabalho atualmente?
       - vamos começar simples: como foi a sua manhã até agora?
       - para a gente ir aquecendo, como tem sido sua semana?
+      - antes da gente ir pro técnico, como foi sua semana?
+      - pra quebrar o gelo, como tá teu dia?
+      - como tá a correria por aí hoje?
+      - seu dia tá mais tranquilo ou na loucura?
+      - como você acordou hoje, mais animado ou cansado?
+      - pegou muito trânsito hoje ou tá de boa?
+      - tá falando com a gente de que cidade hoje?
+      - tá frio ou calor aí onde você tá?
+      - começou o dia cedo hoje?
+      - já tomou café hoje ou ainda não?
+      - como tá sua energia hoje, de zero a dez?
+      - tá vindo de outra call agora ou essa é a primeira?
+      - como tá sendo sua manhã/tarde por aí?
+      - seu dia tá mais pra tranquilo ou puxado?
+      - como foi sua semana no geral?
+      - como andam as coisas fora do trabalho?
+      - teve algum imprevisto engraçado hoje?
+      - como tá o humor hoje, mais de boa ou tenso?
+      - como foi o início da sua semana?
+      - como tá o ritmo do teu dia hoje?
+      - só pra aquecer, como tá a vida por aí?
+      - teve muito e-mail hoje já ou ainda tá calmo?
+      - você é mais do time manhã ou noite?
+      - começou o dia na correria ou deu pra ir devagar?
+      - como foi seu final de semana, foi mais descanso ou mais correria?
+      - conseguiu descansar bem recentemente?
+      - como você tá se sentindo hoje no geral?
+      - tá falando com a gente do trabalho ou de casa?
+      - tá sozinho aí ou tem mais gente no mesmo ambiente?
+      - como tá o barulho de fundo, tá tranquilo por aí?
+      - bateu muito meeting hoje ou essa é uma das primeiras?
+      - você já tinha muitas calls marcadas pra hoje?
+      - tá com a cabeça muito cheia hoje ou de boa?
+      - conseguiu almoçar/jantar antes dessa entrevista?
+      - pegou chuva pra chegar onde você tá ou escapou?
+      - tá sol, chuva, nublado… como tá o tempo aí?
+      - você é da onde mesmo, qual cidade?
+      - teve alguma coisa boa que aconteceu hoje já?
+      - seu dia começou bem ou meio atrapalhado?
+      - como tá a motivação hoje, alta ou baixa?
+      - nessa semana, teve mais coisa boa ou desafio?
+      - você se considera mais calmo ou agitado no dia a dia?
+      - conseguiu tirar um tempinho pra você hoje?
+      - como tá o nível de cansaço hoje?
+      - você tá mais no modo café ou no modo água hoje?
+      - foi um dia muito cheio de reunião até agora?
+      - tá conseguindo equilibrar trabalho e vida pessoal nessa semana?
+      - teve algum momento mais engraçado do dia que queira contar rapidinho?
+      - seu dia tá passando rápido ou devagar?
+      - essa entrevista caiu num bom momento do teu dia?
+      - tá falando de um lugar silencioso ou meio caótico?
+      - já tinha feito outras entrevistas hoje ou é a primeira?
+      - como tá sendo essa semana no trabalho pra você?
+      - tá conseguindo dormir bem nesses últimos dias?
+      - você se considera mais matinal ou noturno pra trabalhar?
+      - como você geralmente começa o dia, no café ou já no e-mail?
+      - teve alguma conquista pequena hoje que te deixou feliz?
+      - essa semana tá mais leve ou mais puxada pra você?
+      - tá lidando com muitos prazos agora ou nem tanto?
+      - como tá o clima no time onde você trabalha hoje?
+      - conseguiu dar uma pausa antes de entrar aqui?
+      - como tá a cabeça, muito cheia de coisa ou dando pra focar bem?
+      - você já tinha entrevista marcada pra hoje ou essa foi a única?
+      - começou essa semana mais animado ou mais cansado?
+      - como você descreveria seu dia em uma palavra?
+      - tá conseguindo se organizar bem com a rotina ultimamente?
+      - nesses últimos dias, seu ritmo tá mais acelerado ou mais calmo?
+      - você curte esse horário pra entrevista ou prefere outro?
+      - esse horário encaixou bem no meio da sua rotina hoje?
+      - já tá no fim do seu dia ou ainda tem bastante coisa depois daqui?
+      - antes de falar de trabalho, como você tá como pessoa hoje?
+      - teve tempo de fazer algo que gosta hoje, nem que seja pequeno?
+      - como tá sua concentração hoje, boa ou meio dispersa?
+      - no geral, como você avaliaria sua semana até agora?
+      - nessa semana, você teve mais reuniões online ou trabalho focado?
+      - você é mais do tipo que gosta de call ou prefere tudo por mensagem?
+      - como foi seu trajeto até o lugar onde você tá agora?
+      - nessa rotina toda, tem sobrado um tempo pra descanso?
+      - antes da parte séria, como tá o coração e a mente hoje?
+      - tá tudo bem por aí em casa, família tranquila?
+      - você tá conseguindo se cuidar bem no meio da correria?
+      - teve alguma surpresa no seu dia que não tava no plano?
+      - como você se sente nesse horário do dia normalmente?
+      - você tá falando com a gente do notebook, celular ou outro device?
+      - como tá o ambiente por aí, mais silencioso ou cheio de gente?
+      - seu dia começou no escritório, em casa ou em outro lugar?
+      - se pudesse definir sua semana em uma frase, qual seria?
+      - de zero a dez, quanto seu dia tá cansativo hoje?
+      - antes da gente entrar no assunto, como você tá de verdade?
+      - você chegou muito em cima da hora pra essa call ou deu tempo de respirar?
       - before we jump into the questions, how has your day been so far?
       - just to break the ice, how is your week going so far?
       - to start a bit lighter, how has your routine been lately?
@@ -22,3 +112,93 @@ nlu:
       - before the technical part, how has your work routine been lately?
       - let’s start simple: how has your morning been so far?
       - just to get us warmed up, how has your week been so far?
+      - before we go into the technical part, how has your week been?
+      - just to warm things up, how’s your day going?
+      - how’s the rush on your side today?
+      - is your day more calm or kind of crazy?
+      - how did you wake up today, more excited or tired?
+      - did you catch a lot of traffic today or was it okay?
+      - from which city are you talking to us today?
+      - is it cold or hot where you are right now?
+      - did your day start early today?
+      - have you had your coffee yet or not?
+      - how was the start of your day?
+      - how is your energy today from zero to ten?
+      - did you come from another call just now or is this the first one?
+      - how is your morning or afternoon going over there?
+      - is your day more on the relaxed side or the busy side?
+      - how has your week been in general?
+      - how are things going outside of work?
+      - did anything funny or unexpected happen today?
+      - how’s your mood today, more chill or more tense?
+      - how was the beginning of your week?
+      - how’s the pace of your day so far?
+      - just to warm up, how’s life on your side?
+      - did you have a lot of e-mails already today or is it still calm?
+      - are you more of a morning person or a night person?
+      - did your day start in a rush or more slowly?
+      - how was your weekend, more rest or more running around?
+      - have you been able to rest well recently?
+      - how are you feeling today in general?
+      - are you talking to us from home or from the office?
+      - are you alone there or is there more people around you?
+      - how’s the background noise, is it quiet there?
+      - have you had many meetings today so far?
+      - did you already have a lot of calls booked for today?
+      - is your head very full today or are you okay?
+      - did you manage to have lunch or dinner before this interview?
+      - did you get any rain on the way or did you escape it?
+      - is it sunny, raining, cloudy… how’s the weather there?
+      - where are you based, which city?
+      - has anything good happened to you today already?
+      - did your day start well or a bit messy?
+      - how’s your motivation today, high or low?
+      - this week, have you had more good moments or more challenges?
+      - do you consider yourself more calm or more agitated day to day?
+      - were you able to take a little time for yourself today?
+      - how’s your level of tiredness today?
+      - are you more in coffee mode or water mode today?
+      - has it been a very meeting-heavy day so far?
+      - are you managing to balance work and personal life this week?
+      - did you have any funny moment today that you can share quickly?
+      - is your day going by fast or slowly?
+      - did this interview fall in a good moment of your day?
+      - are you in a quiet place right now or a bit chaotic?
+      - have you already done other interviews today or is this the first?
+      - how has this week at work been for you?
+      - have you been sleeping well these last few days?
+      - do you see yourself more as a morning or night person for work?
+      - how do you usually start your day, with coffee or with e-mails?
+      - did you have any small win today that made you happy?
+      - is this week feeling lighter or heavier for you?
+      - are you dealing with a lot of deadlines right now or not so much?
+      - how’s the mood in your team these days?
+      - did you manage to take a short break before joining here?
+      - how’s your mind, very full of things or able to focus well?
+      - did you have more than one interview planned for today?
+      - did you start this week feeling more excited or more tired?
+      - if you had to describe your day in one word, which one would it be?
+      - are you managing your routine well lately?
+      - in these last days, has your pace been more fast or more calm?
+      - do you like this time of the day for interviews or prefer another one?
+      - did this time of the day fit well into your routine today?
+      - are you already at the end of your day or do you still have a lot after this?
+      - before we talk about work, how are you doing as a person today?
+      - did you have time to do something you like today, even something small?
+      - how is your focus today, good or a bit off?
+      - in general, how would you rate your week so far?
+      - this week, did you have more online meetings or more focus time?
+      - are you more the type who likes calls or prefers everything by message?
+      - how was your commute to where you are now?
+      - with all this routine, have you had time to rest?
+      - before the serious part, how is your heart and mind today?
+      - is everything okay at home, is your family doing fine?
+      - are you managing to take care of yourself in the middle of the rush?
+      - did you have any surprise in your day that was not in the plan?
+      - how do you usually feel at this time of the day?
+      - are you talking to us from a laptop, phone, or another device?
+      - how’s the environment around you, more quiet or full of people?
+      - did your day start at the office, at home, or somewhere else?
+      - if you could describe your week in one short phrase, what would it be?
+      - from zero to ten, how tiring has your day been today?
+      - before we dive into the topic, how are you really feeling?

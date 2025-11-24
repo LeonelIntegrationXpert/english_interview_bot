@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_short_notice_reschedule_soon:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu entendo, imprevistos acontecem. Se você me indicar algumas opções alternativas, eu vejo o que consigo ajustar na minha agenda para remarcar.
-          vr_en: |
-            I understand, unexpected things happen. If you share a few alternative options, I’ll see what I can adjust in my schedule to reschedule.

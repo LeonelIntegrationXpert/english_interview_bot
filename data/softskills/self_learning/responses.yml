@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_self_learning:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu tenho o hábito de estudar de forma contínua, combinando documentação oficial, cursos, vídeos e prática em projetos reais ou pessoais. Normalmente eu defino um foco por período, organizo pequenos blocos de estudo e busco aplicar o que aprendo o mais rápido possível, para transformar teoria em prática.
-          vr_en: |
-            I have the habit of studying continuously, combining official documentation, courses, videos, and practice in real or personal projects. I usually define a focus for each period, organize small study blocks, and try to apply what I learn as soon as possible, so that theory quickly becomes practice.

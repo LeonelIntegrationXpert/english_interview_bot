@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_movies_series:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu costumo usar filmes e séries também como uma forma de praticar inglês. Normalmente escolho conteúdos que misturam algo que eu gosto com a oportunidade de aprender vocabulário novo, então acabo assistindo em inglês com legenda em inglês sempre que possível.
-          vr_en: |
-            I usually use movies and series as a way to practice English as well. I tend to choose content that combines something I enjoy with the chance to learn new vocabulary, so I often watch in English with English subtitles whenever possible.

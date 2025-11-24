@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_future_5_years:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Em cinco anos eu me vejo consolidado como uma referência mais forte na área de integrações e plataformas empresariais, com certificações avançadas em Salesforce e iniciando ou já cursando um mestrado ligado à tecnologia. Quero estar assumindo projetos mais estratégicos, com impacto direto no negócio, ajudando times multidisciplinares e participando ativamente de decisões de arquitetura e de desenho de soluções.
-          vr_en: |
-            In five years I see myself as a stronger reference in the area of integrations and enterprise platforms, with advanced Salesforce certifications and either starting or already doing a master’s degree related to technology. I want to be leading more strategic projects with direct business impact, helping cross functional teams and being actively involved in architecture decisions and solution design.

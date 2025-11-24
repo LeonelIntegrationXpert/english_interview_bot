@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_escalation_and_boundary_setting:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu uso critérios objetivos: impacto em cliente, risco de compliance, custo de atraso e dependências externas. Antes de escalar, tento resolver no nível certo, registro o contexto e proponho opções. Na comunicação, foco no problema, nos impactos e nas decisões necessárias, não em culpados. Acompanho por um plano com responsáveis e prazos e revisito as causas para evitar recorrência e escaladas desnecessárias.
-          vr_en: |
-            I use objective criteria: customer impact, compliance risk, cost of delay, and external dependencies. Before escalating, I attempt resolution at the proper level, document context, and propose options. In communication, I focus on the problem, impacts, and needed decisions—not on blame. I follow up with owners and deadlines and revisit root causes to prevent recurrence and unnecessary escalations.

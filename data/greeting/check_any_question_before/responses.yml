@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            No momento está claro, podemos seguir com as suas perguntas. Se surgir alguma dúvida no meio da conversa, eu te aviso.
+            No momento está claro, podemos seguir com as suas perguntas.
           vr_en: |
-            Everything is clear for now, we can go ahead with your questions. If anything comes up during the conversation, I’ll let you know.
+            Everything is clear for now, we can go ahead with your questions.
+        resp_2:
+          vr_pt: |
+            Tenho sim, mas se você preferir posso deixar para o final da entrevista.
+          vr_en: |
+            I do have a question, but I can leave it for the end of the interview if you prefer.

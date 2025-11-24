@@ -12,7 +12,96 @@ nlu:
       - desculpa pelo mal-entendido
       - desculpa, acabei confundindo as coisas
       - desculpa, passei uma informação incorreta
-      - sorry for the mistake
+      - foi mal, eu anotei errado
+      - foi mal, acabei lendo errado
+      - foi mal, me confundi aqui
+      - mal aí, errei na informação
+      - malz, entendi outra coisa
+      - desculpa, eu falei errado
+      - desculpa, eu calculei errado
+      - desculpa, eu interpretei errado
+      - desculpa, respondi coisa nada a ver
+      - desculpa, viajei na resposta
+      - desculpa, eu cliquei no lugar errado
+      - desculpa, mandei o arquivo errado
+      - desculpa, enviei o link errado
+      - desculpa, confundi os horários
+      - desculpa, confundi os dias
+      - desculpa, confundi os nomes
+      - desculpa, confundi os projetos
+      - desculpa, troquei as informações
+      - desculpa, acabei passando dado desatualizado
+      - desculpa, acabei misturando os assuntos
+      - desculpa, não revisei direito antes de enviar
+      - desculpa, não prestei atenção nesse detalhe
+      - desculpa, deixei passar esse ponto
+      - desculpa, não vi esse requisito
+      - desculpa, entendi o pedido errado
+      - desculpa, errei na hora de digitar
+      - desculpa, falei um número errado
+      - desculpa, digitei o valor errado
+      - desculpa, digitei seu nome errado
+      - desculpa, digitei seu e-mail errado
+      - desculpa, esqueci de anexar o arquivo
+      - desculpa, esqueci de responder essa parte
+      - desculpa, esqueci de atualizar o status
+      - desculpa, esqueci de avisar antes
+      - desculpa, esqueci de te marcar na mensagem
+      - desculpa, esqueci de confirmar a informação
+      - desculpa, essa parte foi falha minha
+      - desculpa, essa confusão foi culpa minha
+      - desculpa, eu deveria ter checado melhor
+      - desculpa, eu deveria ter testado antes
+      - desculpa, eu deveria ter revisado o texto
+      - desculpa, eu entendi o contexto errado
+      - desculpa, eu pulei essa linha sem querer
+      - desculpa, eu ignorei esse alerta sem querer
+      - desculpa, eu acabei dando uma resposta incompleta
+      - desculpa, minha resposta anterior ficou confusa
+      - desculpa, acabei te passando uma info errada
+      - desculpa, mandei a mensagem na sala errada
+      - desculpa, respondi na thread errada
+      - desculpa, te marquei na conversa errada
+      - desculpa, fiz a conta errada aqui
+      - desculpa, usei a planilha errada
+      - desculpa, li a coluna errada
+      - desculpa, usei o documento desatualizado
+      - desculpa, peguei a versão errada do arquivo
+      - desculpa, confundi esse caso com outro
+      - desculpa, associei ao cliente errado
+      - desculpa, puxei o registro errado
+      - desculpa, selecionei o ambiente errado
+      - desculpa, subi no ambiente errado
+      - desculpa, fiz o deploy no lugar errado
+      - desculpa, rodei o comando errado
+      - desculpa, alterei o campo errado
+      - desculpa, entendi que o prazo era outro
+      - desculpa, achei que o horário era diferente
+      - desculpa, achei que já tinha te avisado
+      - desculpa, achei que já tinha enviado
+      - desculpa, achei que isso já estava alinhado
+      - desculpa, eu que entendi torto aqui
+      - desculpa, li rápido demais e passei batido
+      - desculpa, acabei confundindo as datas
+      - desculpa, acabei confundindo os valores
+      - desculpa, respondi sem checar primeiro
+      - desculpa, me antecipei na resposta
+      - desculpa, acabei atropelando o processo
+      - desculpa, fugi um pouco do assunto
+      - desculpa, interpretei o tom errado
+      - desculpa, demorei pra perceber o erro
+      - desculpa, só vi o erro depois de enviar
+      - desculpa, revisei correndo e deixei passar
+      - desculpa, essa parte eu entendi totalmente errado
+      - desculpa, eu me confundi no meio das tarefas
+      - desculpa, fiz tudo na pressa e saiu errado
+      - desculpa, errei na hora de copiar os dados
+      - desculpa, errei na hora de colar a informação
+      - desculpa, não conferi o relatório final
+      - desculpa, não validei com você antes
+      - desculpa, devia ter perguntado antes de fazer
+      - desculpa, devia ter pedido ajuda antes
+      - desculpa, devia ter sido mais claro na resposta
       - I’m sorry, I made a mistake
       - my apologies for the mistake
       - sorry, I got that wrong
@@ -22,3 +111,94 @@ nlu:
       - sorry, I gave you the wrong information
       - my apologies, I was mistaken
       - sorry, I got things mixed up
+      - sorry, I read it wrong
+      - sorry, I wrote it wrong
+      - sorry, I typed it wrong
+      - sorry, I sent the wrong file
+      - sorry, I clicked the wrong button
+      - sorry, I picked the wrong option
+      - sorry, I looked at the wrong number
+      - sorry, I looked at the wrong column
+      - sorry, I checked the wrong box
+      - sorry, I mixed the dates
+      - sorry, I mixed the values
+      - sorry, I mixed the names
+      - sorry, I got the days confused
+      - sorry, I got the times confused
+      - sorry, I confused the projects
+      - sorry, I confused the clients
+      - sorry, I confused the tasks
+      - sorry, I passed outdated information
+      - sorry, I did not double check the data
+      - sorry, I did not review before sending
+      - sorry, I did not see that detail
+      - sorry, I did not notice that requirement
+      - sorry, I skipped that part by mistake
+      - sorry, I skipped that line
+      - sorry, I rushed and made a mistake
+      - sorry, I answered too fast
+      - sorry, I answered without checking
+      - sorry, I misunderstood your question
+      - sorry, I misunderstood the context
+      - sorry, that answer was wrong
+      - sorry, that explanation was confusing
+      - sorry, my last message was not clear
+      - sorry, my last answer was incorrect
+      - sorry, I copied the data wrong
+      - sorry, I pasted the data in the wrong place
+      - sorry, I used the wrong template
+      - sorry, I used the wrong document version
+      - sorry, I used the wrong environment
+      - sorry, I deployed to the wrong environment
+      - sorry, I ran the wrong command
+      - sorry, I updated the wrong record
+      - sorry, I changed the wrong field
+      - sorry, I sent it to the wrong chat
+      - sorry, I replied in the wrong thread
+      - sorry, I tagged the wrong person
+      - sorry, I misread your message
+      - sorry, I misheard what you said
+      - sorry, I mixed two cases together
+      - sorry, I gave you an incomplete answer
+      - sorry, I forgot to include that point
+      - sorry, I forgot to attach the file
+      - sorry, I forgot to update the status
+      - sorry, I forgot to answer that part
+      - sorry, I thought the deadline was different
+      - sorry, I thought the time was another one
+      - sorry, I thought this was already aligned
+      - sorry, I thought I had already sent it
+      - sorry, I thought I had already answered
+      - sorry, I totally misread the situation
+      - sorry, I misjudged that
+      - sorry, I got confused with all the info
+      - sorry, the numbers I said were wrong
+      - sorry, the link I sent was wrong
+      - sorry, the file I sent was outdated
+      - sorry, the version I used was old
+      - sorry, my calculation was wrong
+      - sorry, my estimate was wrong
+      - sorry, my assumption was wrong
+      - sorry, I did not test it properly
+      - sorry, I did not validate this with you
+      - sorry, I should have asked before doing it
+      - sorry, I should have checked with you first
+      - sorry, I should have paid more attention
+      - sorry, I should have been more careful
+      - sorry, I mixed up two different topics
+      - sorry, I mixed up two different tickets
+      - sorry, I gave you the wrong status
+      - sorry, I gave you the wrong date
+      - sorry, I gave you the wrong time
+      - sorry, I gave you the wrong name
+      - sorry, I replied to the wrong person
+      - sorry, I opened the wrong task
+      - sorry, I closed the wrong task
+      - sorry, I moved the wrong card
+      - sorry, I dragged the wrong item
+      - sorry, I logged the time incorrectly
+      - sorry, I wrote your name wrong
+      - sorry, I wrote the email wrong
+      - sorry, my explanation was messy
+      - sorry, my answer caused confusion
+      - sorry, that was my fault

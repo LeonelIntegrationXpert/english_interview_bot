@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_system_outage_internal_tools:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Sem problema, eu entendo. Fico à vontade para complementar com o que for necessário na conversa e, se precisar, posso reforçar depois por e-mail.
-          vr_en: |
-            No problem, I understand. I’m comfortable providing whatever information you need during the conversation and can also follow up by email if necessary.

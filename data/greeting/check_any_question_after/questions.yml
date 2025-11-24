@@ -12,6 +12,96 @@ nlu:
       - existe alguma informação adicional que você gostaria de saber sobre o processo?
       - antes de eu encerrar, você tem mais alguma pergunta?
       - tem algo que você queira perguntar sobre os próximos passos ou sobre a posição?
+      - antes de finalizar, ficou alguma dúvida na sua cabeça?
+      - antes de fechar a call, tem mais alguma pergunta?
+      - antes de acabar, quer perguntar mais alguma coisa?
+      - pra gente encerrar, tem alguma dúvida pendente?
+      - tem mais algum ponto que você queira saber antes do fim?
+      - quer que eu detalhe mais algum ponto antes de encerrar?
+      - ficou alguma coisa sem resposta que você queira perguntar?
+      - antes de terminar, tem algo que não ficou tão claro pra você?
+      - quer aproveitar e tirar qualquer dúvida final agora?
+      - tem mais alguma curiosidade sobre a vaga antes da gente fechar?
+      - antes de encerrar aqui, você quer perguntar algo mais?
+      - tem alguma pergunta rapidinha que você queira fazer agora no final?
+      - ficou alguma dúvida sobre o time que eu não comentei?
+      - quer saber mais alguma coisa sobre a cultura da empresa?
+      - tem algo sobre a rotina da função que você ainda queira entender?
+      - antes do encerramento, tem alguma pergunta que faltou?
+      - quer que eu volte em algum ponto pra explicar melhor?
+      - tem mais algum detalhe que te deixaria mais tranquilo saber?
+      - ficou alguma dúvida sobre o processo seletivo?
+      - quer perguntar algo sobre prazos ou próximas etapas?
+      - tem alguma pergunta sobre quem vai falar com você na próxima fase?
+      - antes de terminar, quer que eu repita algum ponto importante?
+      - tem algo que você acha que eu não falei e gostaria de ouvir?
+      - você quer que eu explique melhor como funciona o feedback?
+      - ficou alguma dúvida sobre formato ou duração das próximas entrevistas?
+      - tem alguma pergunta sobre avaliação técnica ou testes?
+      - quer perguntar mais alguma coisa sobre o projeto em si?
+      - tem algum ponto sobre o escopo que você queira confirmar?
+      - antes de finalizar tudo, tem alguma dúvida aberta?
+      - tem mais alguma pergunta, mesmo que pareça simples?
+      - quer aproveitar que ainda temos tempo e perguntar algo?
+      - ficou alguma coisa confusa que eu possa esclarecer agora?
+      - tem algum ponto que você queira que eu detalhe melhor no final?
+      - quer perguntar algo sobre a senioridade esperada pra vaga?
+      - tem alguma dúvida sobre o nível de inglês usado no dia a dia?
+      - antes da gente desligar, quer saber de mais alguma coisa?
+      - tem mais alguma pergunta sobre modelo de trabalho ou local?
+      - quer que eu fale de novo sobre os benefícios principais?
+      - tem algo sobre o time ou gestão que você queira perguntar?
+      - ficou alguma dúvida sobre as responsabilidades principais?
+      - tem mais alguma coisa que você queira confirmar comigo?
+      - quer aproveitar pra perguntar algo sobre a empresa em geral?
+      - tem alguma pergunta que você guardou pro final?
+      - antes de encerrar, tem alguma pergunta mais específica?
+      - tem algo sobre o produto/serviço que você queira saber melhor?
+      - quer que eu explique rapidinho o que acontece depois dessa call?
+      - tem alguma dúvida sobre quem entra em contato com você depois?
+      - ficou alguma coisa em aberto em relação à vaga?
+      - tem alguma pergunta que te ajude a decidir se a vaga faz sentido pra você?
+      - quer que eu detalhe um pouco mais os desafios do começo?
+      - tem alguma pergunta sobre o suporte que você teria no início?
+      - antes do fim, tem algo que você gostaria muito de perguntar?
+      - tem alguma dúvida sobre horários, fuso ou flexibilidade?
+      - quer saber mais alguma coisa sobre como o time se comunica?
+      - tem mais alguma pergunta sobre integrações com outros times?
+      - quer perguntar algo sobre plano de carreira aqui dentro?
+      - ficou alguma dúvida sobre o motivo da abertura da vaga?
+      - tem alguma pergunta sobre estabilidade ou duração do projeto?
+      - quer saber se tem espaço pra sugerir melhorias e ideias?
+      - tem alguma dúvida sobre como medimos resultados nessa função?
+      - antes de finalizar, quer que eu resuma os próximos passos?
+      - tem alguma pergunta sobre documentação ou materiais que você vai receber?
+      - quer saber se existe algum preparo recomendado pra próxima etapa?
+      - tem algo sobre a dinâmica do time que você queira perguntar?
+      - ficou alguma dúvida sobre os tipos de projeto que você pode pegar?
+      - tem alguma pergunta sobre as ferramentas que usamos no dia a dia?
+      - quer que eu explique melhor com quem você vai interagir mais?
+      - tem alguma dúvida sobre viagens ou reuniões presenciais?
+      - quer perguntar algo sobre o ambiente de trabalho no geral?
+      - tem alguma pergunta sobre feedback contínuo ou one-on-one?
+      - antes da gente encerrar mesmo, quer perguntar mais alguma coisa?
+      - ficou alguma coisinha ali sem resposta que você queira puxar?
+      - tem alguma pergunta que você acha boba mas mesmo assim quer fazer?
+      - quer saber mais algum detalhe sobre como o time resolve problemas?
+      - tem alguma dúvida sobre autonomia que você teria na função?
+      - quer perguntar algo sobre o ritmo do time, mais calmo ou acelerado?
+      - tem mais alguma coisa que eu possa esclarecer pra você decidir com calma?
+      - ficou algum ponto mais sensível que você queira confirmar?
+      - tem alguma pergunta final que te ajude a se sentir mais seguro?
+      - quer que eu comente rapidinho sobre o onboarding ou primeiros dias?
+      - tem alguma dúvida sobre ferramentas de comunicação, tipo Slack ou Teams?
+      - quer perguntar algo sobre como funcionam as dailies ou reuniões?
+      - tem mais alguma pergunta sobre prioridades do time hoje?
+      - tem alguma curiosidade extra que não entraria nas perguntas formais?
+      - quer saber algo sobre eventos internos ou iniciativas de cultura?
+      - tem alguma pergunta sobre treinamentos ou certificações apoiadas?
+      - ficou alguma dúvida sobre como é trabalhar com outros fusos?
+      - tem alguma pergunta sobre liderança direta ou indireta?
+      - quer confirmar mais algum ponto sobre salário ou faixa, sem entrar em valores?
+      - tem alguma última pergunta que eu possa responder antes da gente encerrar?
       - before we wrap up, do you have any questions for me?
       - to finish, I’d like to know if you have any questions about the role or the company
       - before we end, is there anything you’d like to ask?
@@ -22,3 +112,93 @@ nlu:
       - is there any additional information you’d like to know about the process?
       - before I close, do you have any other questions?
       - is there anything you’d like to ask about the next steps or the position?
+      - before we close the call, any last questions?
+      - before we finish up, do you have any more questions?
+      - any final question from your side before we end?
+      - before we stop here, is there something else you’d like to ask?
+      - any doubt still on your mind before we wrap up?
+      - would you like me to go over anything again before we finish?
+      - is there anything that still feels unclear that you want to ask about?
+      - before we end the meeting, any questions I didn’t cover?
+      - do you want to use this last minutes to ask anything else?
+      - any other thing you’d like to know about the role?
+      - before we say goodbye, any question from your side?
+      - do you have any quick question you’d like to ask now at the end?
+      - is there any question about the team that I haven’t answered yet?
+      - would you like to know a bit more about the company culture?
+      - any question about the day to day of this position?
+      - before we finish, is there any question still open?
+      - do you want me to revisit any point and explain it better?
+      - is there any extra detail that would help you feel more confident?
+      - any question about the hiring process that is still not clear?
+      - would you like to ask something about timelines or next phases?
+      - any question about who you will talk to in the next step?
+      - before we end, do you want me to repeat any key point?
+      - is there anything you feel I didn’t talk about and you’d like to hear?
+      - would you like me to explain how the feedback process works?
+      - any question about the format or length of the next interviews?
+      - do you have any question about technical assessments or tests?
+      - any other question about the project itself?
+      - is there any part of the role scope you’d like to confirm?
+      - before we completely finish, any open question?
+      - any other question, even a small one, before we wrap up?
+      - do you want to take a moment to ask anything else now?
+      - is there anything that sounded confusing that I can clear up now?
+      - any last point you’d like me to go into a bit more detail?
+      - do you have any question about the expected seniority for this role?
+      - any doubt about the english level used day to day?
+      - before we hang up, is there anything else you’d like to know?
+      - any other question about work model or location?
+      - would you like me to go again over the main benefits?
+      - any question about the team or management style?
+      - any doubt about the main responsibilities of the job?
+      - is there anything else you’d like to confirm with me now?
+      - do you want to ask anything about the company in general?
+      - is there any question you saved for the end?
+      - before we wrap, do you have any more specific questions?
+      - any question about the product or service that I can answer?
+      - would you like me to quickly explain what happens after this call?
+      - any doubt about who will contact you after this conversation?
+      - is there anything still open regarding the position?
+      - any question that could help you decide if this role is a good fit for you?
+      - do you want me to detail a bit more the first challenges you would have?
+      - any question about the support you would get at the beginning?
+      - before we end, is there something you really want to ask?
+      - any doubt about schedule, time zones or flexibility?
+      - do you want to know a bit more about how the team communicates?
+      - any other question about how we work with other teams?
+      - do you have any question about growth or career path here?
+      - any doubt about why this position was opened?
+      - any question about project duration or stability?
+      - do you want to know if there is room to suggest ideas and improvements?
+      - any doubt about how we measure results in this role?
+      - before we close, would you like me to summarize the next steps?
+      - any question about documents or materials you might receive?
+      - would you like to know if there is anything you can prepare for the next step?
+      - any question about the team dynamics that I didn’t cover?
+      - any doubt about the types of projects you might work on?
+      - do you have any question about the tools we use day to day?
+      - would you like me to explain better who you’ll interact with the most?
+      - any question about travel or in person meetings?
+      - do you want to ask something about the work environment in general?
+      - any question about continuous feedback or one on ones?
+      - before we really finish, any last question?
+      - is there any small thing I didn’t answer that you want to bring up?
+      - any question that you think is silly but still want to ask?
+      - do you want to know a bit more about how the team solves problems?
+      - any doubt about how much autonomy you would have in this role?
+      - any question about the team pace, more calm or more fast?
+      - anything else I can clarify to help you decide more calmly?
+      - any sensitive point you’d like to double check before we finish?
+      - any final question that would help you feel more secure?
+      - would you like me to briefly comment on onboarding or your first days?
+      - any doubt about the communication tools we use, like Slack or Teams?
+      - do you have any question about how we run dailies or other meetings?
+      - any other question about the team’s current priorities?
+      - any extra curiosity that didn’t fit into the formal questions?
+      - do you want to know something about internal events or culture programs?
+      - any question about trainings or certifications we support?
+      - any doubt about working with different time zones?
+      - any question about direct or dotted line leadership?
+      - do you want to confirm anything else about salary range, without numbers?
+      - any last question I can answer for you before we close?

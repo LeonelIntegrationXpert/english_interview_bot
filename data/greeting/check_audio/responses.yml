@@ -7,3 +7,8 @@ responses:
             Sim, tô te ouvindo direitinho.
           vr_en: |
             Yes, I can hear you clearly.
+        resp_2:
+          vr_pt: |
+            O áudio tá chegando, mas um pouco baixo. Se puder aumentar um pouco, ajuda.
+          vr_en: |
+            I can hear you, but the sound is a bit low. If you could turn it up a bit, that would help.

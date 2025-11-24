@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_siblings_relationship:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu tenho uma boa relação com o Roberto e com a Suelen. Cada um segue sua rotina, mas a gente procura manter contato e se apoiar quando precisa, o que também reforça em mim essa visão de colaboração e suporte no dia a dia.
-          vr_en: |
-            I have a good relationship with both Roberto and Suelen. Each of us has our own routine, but we try to stay in touch and support each other when needed, and that also reinforces my way of seeing collaboration and support in my daily life.

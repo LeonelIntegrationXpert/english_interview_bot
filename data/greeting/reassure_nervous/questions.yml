@@ -2,23 +2,203 @@ version: '3.1'
 nlu:
   - intent: reassure_nervous
     examples: |
-      - fica tranquilo, é totalmente normal ficar um pouco nervoso em entrevista
-      - não se preocupa se bater um nervosismo, isso acontece com todo mundo
-      - é super comum ficar um pouco tenso no começo, depois a conversa vai fluindo
+      - fica tranquilo, é normal ficar um pouco nervoso em entrevista
+      - fica tranquilo, é muito comum ficar nervoso no começo da entrevista
+      - não se preocupa, é normal sentir um pouco de nervosismo em entrevista
       - não tem problema nenhum se você estiver um pouco nervoso
-      - fica à vontade, aqui é um ambiente seguro para a gente conversar
-      - se você ficar nervoso em algum momento, não tem problema, a gente vai no seu ritmo
-      - não precisa se preocupar em ser perfeito, queremos te conhecer de forma real
-      - se travar em alguma resposta, a gente volta, sem problema
-      - é normal ficar nervoso, a ideia aqui é uma conversa, não um interrogatório
-      - pode respirar com calma, a gente vai conduzindo junto
-      - don’t worry, it’s totally normal to feel a bit nervous in an interview
-      - no need to stress about being nervous, it happens to everyone
-      - it’s very common to feel tense at the beginning, the conversation usually flows later
-      - it’s okay if you’re feeling a little nervous
-      - feel free to relax, this is a safe space for us to talk
-      - if you feel nervous at any point, that’s fine, we’ll go at your pace
-      - you don’t need to be perfect, we just want to get to know you as you are
-      - if you get stuck on an answer, we can always come back to it, no problem
-      - it’s normal to feel nervous, this is meant to be a conversation, not an interrogation
-      - take your time to breathe, we’ll walk through this together
+      - é totalmente normal sentir um pouco de ansiedade em entrevista
+      - é normal ficar um pouco tenso no início, depois a conversa vai ficando mais leve
+      - pode ficar à vontade, é comum ficar nervoso em situações como essa
+      - não precisa se cobrar demais, é normal ficar nervoso em entrevista
+      - é normal o nervosismo aparecer no começo, depois você vai relaxando
+      - pode respirar com calma, é normal sentir um pouco de nervosismo
+      - é normal sentir um friozinho na barriga antes da entrevista
+      - muita gente começa nervosa, fica tranquilo
+      - respira fundo, isso passa rápido
+      - entrevistas deixam qualquer um tenso no começo
+      - você está indo bem, mesmo nervoso
+      - relaxa, essa sensação é normal
+      - é normal a voz tremer um pouco no início
+      - pode ir no seu ritmo, sem pressão
+      - qualquer pessoa ficaria nervosa agora
+      - essa ansiedade inicial acontece com todo mundo
+      - você está seguro aqui, pode relaxar
+      - é comum demorar um pouco para soltar
+      - fica tranquilo, esse começo é mais tenso mesmo
+      - pode ficar calmo, isso é totalmente esperado
+      - essa tensão inicial é natural
+      - muita gente sente o mesmo
+      - relaxa que você está indo muito bem
+      - não precisa se preocupar com o nervosismo
+      - seu corpo só está reagindo ao momento
+      - é ok ficar mais calado no começo
+      - você está em um espaço seguro
+      - é normal se sentir travado no início
+      - pode respirar fundo, está tudo bem
+      - muita gente fica ansiosa no início
+      - é normal pensar mais devagar agora
+      - fica tranquilo, isso acontece com todos
+      - você não está sozinho nesse sentimento
+      - é comum ficar apreensivo no começo
+      - essa sensação diminui logo
+      - você está indo no caminho certo
+      - entrevista sempre gera um pouco de tensão
+      - pode se soltar aos poucos
+      - não tem nada errado com esse nervosismo
+      - você está fazendo um bom trabalho
+      - essa insegurança é normal
+      - pode seguir tranquilo
+      - é normal querer medir as palavras no começo
+      - você está indo bem demais
+      - fica calmo, não tem julgamento aqui
+      - é normal o coração acelerar um pouco
+      - pode ir devagar, sem pressa
+      - a maioria das pessoas sente isso
+      - é normal se sentir pressionado agora
+      - você está em um ambiente tranquilo
+      - leva o tempo que precisar
+      - estar nervoso faz parte
+      - esse início é mais delicado mesmo
+      - tudo bem se você estiver tenso
+      - é normal ficar mais alerta no começo
+      - pode continuar respirando com calma
+      - essa sensação é só temporária
+      - você está indo com naturalidade
+      - é normal sentir essa responsa inicial
+      - está tudo bem com a sua reação
+      - muita gente trava no começo
+      - pode ficar bem tranquilo
+      - completamente normal ficar assim no início
+      - essas primeiras perguntas são as mais difíceis
+      - você está indo firme
+      - relaxa, a conversa vai fluir
+      - é normal pensar duas vezes antes de responder
+      - você está indo excelente
+      - fica calmo, você está seguro
+      - é normal ficar sem saber o que dizer no início
+      - pode responder no seu tempo
+      - essa ansiedade é super comum
+      - você está indo ótimo, mesmo ansioso
+      - fica de boa, isso é natural
+      - não tem nada errado com você sentir isso
+      - entrevistas mexem com a gente
+      - você está performando bem
+      - essa sensação vai diminuindo aos poucos
+      - pode confiar, é normal mesmo
+      - essa tensão inicial é esperada
+      - tudo bem se sua voz falhar um pouco
+      - você não precisa esconder que está nervoso
+      - é normal se sentir observado agora
+      - você está indo tranquilo
+      - leva o tempo que quiser para pensar
+      - não tem problema pausar um pouco
+      - essa leve ansiedade é super esperada
+      - você está mandando bem
+      - pode relaxar que está tudo certo
+      - é normal sentir responsabilidade aqui
+      - você está indo forte, mesmo nervoso
+      - essa tensão faz parte do processo
+      - não precisa se preocupar com a impressão inicial
+      - tudo isso é normal em entrevista
+      - você está indo muito bem mesmo assim
+      - tá tudo certo, pode continuar no seu ritmo
+      - please relax, it is normal to feel a bit nervous in an interview
+      - please do not worry, it is very common to feel nervous at the beginning of an interview
+      - do not worry, it is normal to feel some nervousness in an interview
+      - it is completely fine if you are feeling a little nervous
+      - it is totally normal to feel some anxiety during an interview
+      - it is normal to feel a bit tense at the start, the conversation usually becomes lighter later
+      - you can feel at ease, it is common to feel nervous in situations like this
+      - you do not need to put too much pressure on yourself, it is normal to feel nervous
+      - it is normal for nervousness to appear in the beginning, later you tend to relax
+      - you can take a deep breath, it is normal to feel a bit nervous
+      - it is normal to feel a small chill at the start
+      - many people start nervous, you are not alone
+      - this initial tension is very common
+      - take a breath, it usually fades quickly
+      - interviews make anyone a bit tense
+      - you are doing well, even if nervous
+      - relax, this feeling is normal
+      - it is normal if your voice shakes a little at first
+      - you can go at your own pace, no pressure
+      - anyone would feel a bit nervous right now
+      - this early anxiety happens to everyone
+      - you are safe here, you can relax
+      - it is common to take a bit to warm up
+      - stay calm, the beginning is the hardest part
+      - it is completely expected to feel this way
+      - this tension is natural
+      - many people feel the same thing
+      - relax, you are doing great
+      - do not worry about the nervousness
+      - your body is simply reacting to the moment
+      - it is ok if you feel quiet at the beginning
+      - you are in a safe space
+      - it is normal to feel stuck at first
+      - you can breathe slowly, everything is fine
+      - many people feel anxious at the start
+      - it is normal if your thoughts feel slower now
+      - stay calm, this happens to everyone
+      - you are not alone in this feeling
+      - it is common to feel uneasy early on
+      - this sensation fades soon
+      - you are moving in the right direction
+      - interviews naturally bring some tension
+      - you may loosen up gradually
+      - there is nothing wrong with your nervousness
+      - you are doing a good job
+      - this insecurity is normal
+      - you can continue comfortably
+      - it is normal to choose your words carefully at first
+      - you are doing very well
+      - stay calm, there is no judgment here
+      - it is normal if your heart beats faster
+      - take your time, there is no rush
+      - most people feel this way
+      - it is normal to feel some pressure now
+      - you are in a calm environment
+      - take as much time as you need
+      - being nervous is part of the process
+      - the beginning tends to feel heavier
+      - it is okay if you feel tense
+      - it is normal to feel more alert at first
+      - continue breathing slowly
+      - this sensation is temporary
+      - you are handling this naturally
+      - it is normal to feel this initial weight
+      - everything about your reaction is fine
+      - many people freeze a little at first
+      - you can stay fully relaxed
+      - completely normal to feel this way at the start
+      - these first questions are the hardest
+      - you are moving steadily
+      - relax, the conversation will flow
+      - it is normal to think twice before answering
+      - you are doing excellent
+      - stay calm, you are safe
+      - it is normal not to know what to say at first
+      - answer at your own pace
+      - this anxiety is very common
+      - you are doing great even if anxious
+      - stay easy, this is natural
+      - there is nothing wrong with feeling this
+      - interviews affect everyone a little
+      - you are performing well
+      - this sensation fades gradually
+      - trust me, this is normal
+      - this initial tension is expected
+      - it is okay if your voice cracks a bit
+      - you do not have to hide your nervousness
+      - it is normal to feel observed now
+      - you are doing fine
+      - take all the thinking time you need
+      - pausing for a moment is okay
+      - this mild anxiety is completely expected
+      - you are doing great here
+      - relax, everything is under control
+      - it is normal to feel responsible in this moment
+      - you are doing strong even while nervous
+      - this tension is part of the process
+      - do not worry about the first impression
+      - all of this is normal during an interview
+      - you are doing very well despite the nerves

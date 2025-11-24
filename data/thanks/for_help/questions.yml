@@ -12,6 +12,96 @@ nlu:
       - obrigado por mostrar como você resolveu esse problema
       - obrigado por ajudar a entender melhor seu raciocínio
       - obrigado por compartilhar esse exemplo prático
+      - obrigado por essa explicação, ajudou bastante
+      - valeu por esclarecer essa dúvida
+      - valeu por explicar de um jeito simples
+      - valeu por dar esse contexto a mais
+      - valeu por esse exemplo, ficou bem claro
+      - obrigado por responder tão rápido
+      - obrigado por tirar essa dúvida agora
+      - obrigado por revisar isso comigo
+      - obrigado por ter paciência pra explicar
+      - obrigado por explicar passo a passo
+      - obrigado por mostrar o passo a passo
+      - obrigado por detalhar cada etapa
+      - obrigado por apontar esse detalhe
+      - obrigado por me avisar desse ponto
+      - obrigado por chamar atenção pra isso
+      - obrigado por corrigir esse ponto
+      - obrigado por corrigir esse entendimento
+      - obrigado por ajustar essa explicação
+      - obrigado por complementar essa informação
+      - obrigado por completar o que faltava
+      - obrigado por trazer essa visão diferente
+      - obrigado por trazer esse outro ponto de vista
+      - obrigado por compartilhar sua visão
+      - obrigado por compartilhar seu jeito de pensar
+      - obrigado por compartilhar como você fez na prática
+      - obrigado por mostrar como funciona na prática
+      - obrigado por mostrar um caso real
+      - obrigado por esse exemplo real
+      - obrigado por esse caso prático
+      - valeu por me mostrar outro caminho
+      - valeu por mostrar outra forma de fazer
+      - valeu por sugerir essa abordagem
+      - valeu pela dica, ajudou bastante
+      - valeu pela dica, não tinha pensado nisso
+      - valeu pela ajuda, clareou bem
+      - valeu pela mão aí
+      - valeu pela força nessa parte
+      - valeu por dar uma luz nisso
+      - valeu por ter parado pra explicar
+      - valeu por dedicar um tempo pra isso
+      - muito obrigado por se esforçar pra explicar
+      - muito obrigado por organizar essa explicação
+      - muito obrigado por estruturar assim
+      - muito obrigado por deixar mais simples
+      - muito obrigado por deixar mais claro
+      - muito obrigado por responder tão detalhado
+      - muito obrigado pela paciência com os detalhes
+      - muito obrigado por ir tão fundo na explicação
+      - muito obrigado pelo cuidado na resposta
+      - muito obrigado pela clareza
+      - obrigado, agora fez mais sentido
+      - obrigado, agora entendi de verdade
+      - obrigado, agora ficou bem claro pra mim
+      - obrigado, agora enxerguei melhor o cenário
+      - obrigado, isso tirou minha dúvida
+      - obrigado, isso esclareceu bastante
+      - obrigado, isso ajudou a conectar melhor as ideias
+      - obrigado, isso me ajudou a visualizar melhor
+      - obrigado, isso me ajudou a entender o contexto
+      - obrigado, essa explicação fez muita diferença
+      - obrigado, essa resposta foi bem completa
+      - obrigado, essa explicação foi bem direta
+      - obrigado, essa forma que você explicou foi ótima
+      - obrigado, sua explicação ficou bem didática
+      - valeu, ficou bem mais fácil de entender assim
+      - valeu, desse jeito ficou bem tranquilo
+      - valeu, agora consigo explicar isso pra outra pessoa
+      - valeu, agora sei como responder sobre isso
+      - valeu, agora sei como aplicar isso na prática
+      - agradeço muito pela ajuda
+      - agradeço muito pela explicação
+      - agradeço muito por ter parado pra explicar
+      - agradeço muito pelo cuidado na resposta
+      - agradeço a forma clara que você explicou
+      - agradeço pelo esclarecimento desse ponto
+      - agradeço por todo o contexto que você trouxe
+      - agradeço por alinhar esses detalhes
+      - agradeço por mostrar onde eu estava errando
+      - agradeço por corrigir meu entendimento
+      - agradeço por me mostrar esse outro lado
+      - agradeço por ter sido tão transparente na explicação
+      - agradeço pela orientação
+      - agradeço pela orientação mais detalhada
+      - agradeço por indicar esse caminho
+      - agradeço por mostrar esse passo a passo
+      - foi muito útil essa explicação, obrigado
+      - foi muito útil esse exemplo, valeu
+      - essa explicação ajudou demais, obrigado
+      - essa ajuda foi essencial pra eu entender
+      - essa ajuda salvou aqui, valeu mesmo
       - thank you for clarifying that
       - thanks for explaining that in more detail
       - thank you for helping make that point clearer
@@ -22,3 +112,93 @@ nlu:
       - thank you for showing how you solved that problem
       - thanks for helping us better understand your reasoning
       - thank you for sharing that practical example
+      - thanks, that explanation helped a lot
+      - thanks for making this easier to understand
+      - thank you for breaking it down step by step
+      - thanks for walking me through that
+      - thank you for taking the time to explain
+      - thank you for such a detailed answer
+      - thanks for answering so quickly
+      - thank you for your quick reply and explanation
+      - thanks for clearing that up
+      - thank you for clearing this point
+      - thank you, now it makes more sense
+      - thank you, now I really got it
+      - thank you, now it is much clearer for me
+      - thanks, now I can see the whole picture
+      - thank you for pointing that out
+      - thanks for pointing out that detail
+      - thank you for correcting my understanding
+      - thanks for correcting that part
+      - thank you for fixing my confusion
+      - thank you for adding that extra context
+      - thanks for adding this missing information
+      - thank you for giving more background
+      - thanks for sharing your point of view
+      - thank you for sharing how you think about this
+      - thank you for showing how it works in practice
+      - thanks for showing a real example
+      - thank you for that real life example
+      - thanks for that hands on example
+      - thanks for suggesting this approach
+      - thank you for suggesting another way to do it
+      - thanks for showing another path
+      - thank you for showing a different option
+      - thanks for the tip, it helped a lot
+      - thanks for the tip, I had not thought of that
+      - I really appreciate your explanation
+      - I really appreciate the level of detail
+      - I really appreciate the way you explained it
+      - I really appreciate your patience
+      - I really appreciate you taking the time
+      - I really appreciate you going so deep into this
+      - I really appreciate the clear answer
+      - your explanation was very clear, thank you
+      - your explanation helped a lot, thanks
+      - your answer made things much clearer
+      - your examples made it easier to understand
+      - your step by step really helped me
+      - that was very helpful, thank you
+      - that was super helpful, thanks a lot
+      - that explanation was exactly what I needed
+      - that example made everything click, thanks
+      - that answer cleared up my doubts, thank you
+      - thanks, this helped me understand the context
+      - thanks, this helped me see the big picture
+      - thanks, this helped me understand the details
+      - thanks, this helped me feel more confident
+      - thank you, now I know how to explain this
+      - thank you, now I know how to apply this
+      - thank you, now I know how to answer about this
+      - thank you for guiding me through this
+      - thank you for guiding me step by step
+      - thank you for walking me through your reasoning
+      - thank you for explaining your thought process
+      - thank you for showing your line of thinking
+      - thank you for helping me see where I was wrong
+      - thank you for showing me where I was stuck
+      - thank you for helping me unlock this point
+      - thank you for helping me connect the dots
+      - thanks for staying a bit longer to explain
+      - thanks for taking extra time to help
+      - thanks for helping even with the tight schedule
+      - thanks for helping even though you are busy
+      - thanks for the extra effort, I really apreciate it
+      - thanks for keeping the explanation simple
+      - thanks for keeping it clear and direct
+      - thanks for not skipping the details
+      - thanks for not rushing the explanation
+      - thanks for being so clear about it
+      - thanks for being patient with my questions
+      - thanks for answering all my questions
+      - thanks for answering even the basic questions
+      - thanks for going over this one more time
+      - thanks for revisiting this topic with me
+      - thanks for double checking this with me
+      - thanks, this really made a big difference
+      - thanks, this was very valuable for me
+      - thanks, this will help me a lot in the interview
+      - thanks, this will help me answer better next time
+      - thank you for all the help with this topic
+      - thank you for all the support on this
+      - thank you for the clear and honest explanation

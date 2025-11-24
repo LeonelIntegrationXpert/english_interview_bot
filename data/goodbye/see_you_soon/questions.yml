@@ -12,6 +12,96 @@ nlu:
       - em breve voltamos a falar com você
       - falamos de novo assim que tivermos novidades
       - mantemos contato em breve
+      - assim que fecharmos os pontos internos, te avisamos
+      - assim que tivermos uma posição, falamos com você
+      - assim que o time alinhar tudo, retornamos
+      - assim que o processo andar mais um pouco, te damos retorno
+      - quando tivermos novidades, entramos em contato
+      - quando tiver qualquer novidade, a gente te chama
+      - quando tivermos uma resposta, falamos com você
+      - assim que possível, a gente retorna
+      - assim que for decidido, a gente te avisa
+      - logo que finalizar a análise, falamos com você
+      - logo que tivermos um sinal do time, te avisamos
+      - logo que tivermos um parecer, entramos em contato
+      - logo que a próxima fase for definida, avisamos você
+      - logo que concluirmos essa etapa, damos um retorno
+      - logo que o processo avançar, a gente te manda notícias
+      - logo mais a gente volta a falar com você
+      - em breve você recebe um retorno nosso
+      - em breve você recebe notícias pelo e-mail
+      - em breve mandamos um retorno pelo e-mail
+      - em breve falamos com você pelo e-mail cadastrado
+      - em breve o time de recrutamento fala com você
+      - em breve o time entra em contato pelo e-mail
+      - você deve receber um retorno em breve
+      - você deve receber uma resposta nossa logo
+      - você deve ser contatado em breve pelo time
+      - você deve ouvir da gente em breve
+      - você deve ter notícias nossas em breve
+      - nosso time entra em contato com você em breve
+      - nosso time de pessoas te chama em breve
+      - nosso time de recrutamento retorna pra você em breve
+      - nosso time volta a falar com você assim que possível
+      - assim que tivermos o próximo passo, falamos com você
+      - assim que definirmos os próximos passos, voltamos a falar
+      - assim que decidirmos a próxima fase, te avisamos
+      - assim que fecharmos a próxima etapa, você fica sabendo
+      - assim que tiver qualquer update, a gente te avisa
+      - qualquer atualização, a gente te manda uma mensagem
+      - qualquer novidade, a gente fala com você
+      - qualquer mudança no processo, a gente te comunica
+      - qualquer avanço no processo, você fica sabendo
+      - em alguns dias, devemos falar com você de novo
+      - nos próximos dias a gente entra em contato
+      - nos próximos dias você deve receber um retorno
+      - nos próximos dias a gente atualiza você
+      - nos próximos dias, o time manda notícias
+      - na semana que vem, provavelmente falamos com você
+      - provavelmente na próxima semana entramos em contato
+      - a ideia é falar com você ainda essa semana
+      - a ideia é te dar um retorno o quanto antes
+      - a ideia é não demorar muito pra retornar
+      - vamos tentar te dar retorno o quanto antes
+      - vamos te dar um retorno assim que conseguirmos
+      - a gente tenta não demorar no retorno
+      - prometo que assim que tiver resposta eu te aviso
+      - combinado, assim que eu souber de algo eu te retorno
+      - fechado, assim que tiver novidade eu te chamo
+      - beleza, falamos em breve então
+      - tranquilo, a gente conversa de novo em breve
+      - firmeza, qualquer coisa a gente te chama
+      - show, nos falamos de novo logo logo
+      - fica tranquilo que a gente te avisa
+      - pode ficar tranquilo que a gente retorna
+      - pode deixar que a gente entra em contato
+      - pode deixar que quando tiver resposta a gente fala
+      - pode deixar que você não fica sem retorno
+      - obrigado, em breve a gente se fala
+      - obrigado, já já falamos de novo
+      - obrigado, assim que tiver novidade eu te mando
+      - obrigado, vamos te avisar de qualquer novidade
+      - obrigado, você deve receber um retorno logo
+      - obrigado, ficamos combinados assim, falamos em breve
+      - então tá combinado, a gente fala com você logo
+      - então fechou, falamos de novo assim que der
+      - então por hoje é isso, a gente te retorna em breve
+      - por enquanto é isso, logo mais você recebe retorno
+      - encerramos por aqui e voltamos a falar em breve
+      - encerramos essa etapa e a próxima falamos com você
+      - finalizamos essa fase, a próxima a gente alinhando por mensagem
+      - seguimos analisando e depois retornamos
+      - seguimos com a análise interna e depois te avisamos
+      - seguimos com o processo e, em breve, falamos com você
+      - seguimos daqui e qualquer coisa a gente te chama
+      - seguimos daqui e assim que fechar, te damos retorno
+      - seguimos alinhando com o time e depois te atualizamos
+      - depois dessa conversa, vamos alinhar e te damos retorno
+      - depois da análise completa, a gente te avisa
+      - depois da reunião com o time, falamos com você
+      - depois do alinhamento interno, a gente te retorna
+      - depois dessa etapa, a próxima a gente te avisa por mensagem
+      - logo logo a gente conversa de novo
       - we’ll be in touch soon
       - we’ll get back to you soon
       - we’ll contact you soon about the next steps
@@ -22,3 +112,93 @@ nlu:
       - we’ll speak again soon about the process
       - we’ll follow up with you shortly
       - you can expect to hear from us soon
+      - we’ll get in touch as soon as we can
+      - we’ll reach out as soon as we have more information
+      - we’ll contact you as soon as the team decides
+      - we’ll get back to you once we finish the review
+      - we’ll come back to you after our internal discussion
+      - we’ll reach out again when we finish the analysis
+      - we’ll contact you when we have the next step defined
+      - we’ll update you as soon as there is any news
+      - we’ll update you as soon as things move forward
+      - we’ll update you as soon as the process advances
+      - as soon as we have a decision, we’ll let you know
+      - as soon as we close this stage, we’ll reach out
+      - as soon as things are aligned internally, we’ll contact you
+      - as soon as we have clarity on next steps, we’ll tell you
+      - as soon as we can share more, we’ll get back to you
+      - you should hear back from us in the next few days
+      - you should receive an update from us soon
+      - you should receive a response from us shortly
+      - you should get an email from us soon
+      - you should get some news from us soon
+      - our team will be in touch with you soon
+      - our team will reach out again shortly
+      - our recruiting team will contact you soon
+      - our people team will get back to you soon
+      - our team will follow up with you as soon as possible
+      - we plan to contact you again later this week
+      - we plan to reach out again early next week
+      - we plan to get back to you as soon as possible
+      - we plan to follow up with you once we align internally
+      - once we have an answer, we’ll let you know
+      - once we finish the internal review, we’ll contact you
+      - once we finish talking with the team, we’ll reach out
+      - once we have feedback from the team, we’ll update you
+      - once the next steps are clear, we’ll get back to you
+      - once the process moves forward, we’ll ping you
+      - once everything is aligned, we’ll send you an update
+      - once we are ready to move on, we’ll contact you
+      - in the next few days, we’ll be in touch
+      - in the next few days, you should hear from us
+      - in the next few days, we’ll send you an update
+      - in the next days, our team will reach out again
+      - in the coming days, we’ll follow up with you
+      - in the coming days, you can expect our feedback
+      - next week, we should be able to contact you again
+      - next week, you should receive an update from us
+      - next week, we’ll probably reach out with next steps
+      - hopefully we’ll talk to you again very soon
+      - hopefully you’ll hear from us again soon
+      - our goal is to get back to you as soon as we can
+      - our goal is not to take too long to answer you
+      - we’ll try not to take too long to respond
+      - we’ll try to give you feedback as quickly as possible
+      - we’ll try to return to you as soon as we have clarity
+      - thank you, we’ll follow up with you soon
+      - thank you, we’ll reach out as soon as we can
+      - thank you, we’ll come back to you with an answer soon
+      - thank you, we’ll update you as soon as possible
+      - thank you, we’ll be in touch about the result
+      - thank you, you should hear back from us soon
+      - sounds good, we’ll talk again soon
+      - sounds good, we’ll speak again once we have news
+      - sounds good, we’ll reach out to you with an update
+      - alright, we’ll be in touch as soon as we know more
+      - alright, we’ll send you an update once we’re ready
+      - alright, we’ll get back to you after our review
+      - okay, we’ll follow up with you as soon as we can
+      - okay, we’ll contact you when we have the next step
+      - okay, we’ll let you know what happens next
+      - we’ll continue the process internally and then contact you
+      - we’ll move forward on our side and then update you
+      - we’ll keep reviewing and then we’ll get back to you
+      - we’ll keep your profile in review and contact you soon
+      - we’ll keep your candidacy active and reach out again
+      - we’ll keep you posted about any progress
+      - we’ll keep you updated about how things go
+      - we’ll keep you informed as soon as we move ahead
+      - we’ll keep you informed of any changes in the process
+      - once we finalize this round, we’ll contact you
+      - once we finish this phase, we’ll get back to you
+      - once we discuss with the rest of the team, we’ll reach out
+      - once we close this stage, you’ll receive our feedback
+      - when we have any news, we’ll let you know
+      - when there is any update, we’ll contact you
+      - when we know the next step, we’ll let you know
+      - when everything is decided, we’ll reach out
+      - you’ll get an update from us as soon as we can
+      - you’ll receive our feedback as soon as we have it
+      - you’ll receive an email from us with the next steps
+      - you’ll hear from our team as soon as the review is done
+      - you’ll hear from us regardless of the decision

@@ -7,3 +7,8 @@ responses:
             Boa tarde! Tudo ótimo por aqui, e com você?
           vr_en: |
             Good afternoon! I’m doing great, how about you?
+        resp_2:
+          vr_pt: |
+            Boa tarde! O dia tá meio corrido, mas consigo seguir tranquilo.
+          vr_en: |
+            Good afternoon! My day has been a bit busy, but I can keep going just fine.

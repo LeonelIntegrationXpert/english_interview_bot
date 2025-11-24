@@ -2,8 +2,6 @@ version: '3.1'
 nlu:
   - intent: morning_formal
     examples: |
-      - bom dia
-      - bom dia, tudo bem?
       - bom dia, como vai?
       - bom dia, como você está?
       - bom dia, tudo certo por aí?
@@ -12,8 +10,98 @@ nlu:
       - bom dia, é um prazer falar com você
       - bom dia a todos
       - bom dia, pessoal
-      - good morning
-      - good morning, how are you?
+      - bom dia, tudo tranquilo?
+      - bom dia, tudo joia?
+      - bom dia, como tá por aí?
+      - bom dia, como tá seu dia?
+      - bom dia, como começou o dia?
+      - bom dia, obrigado pela oportunidade
+      - bom dia, obrigado pela conversa
+      - bom dia, obrigado por me receber
+      - bom dia, obrigado pela entrevista
+      - bom dia, obrigado por esse tempo
+      - bom dia, agradeço o convite
+      - bom dia, agradeço o tempo
+      - bom dia, agradeço a oportunidade
+      - bom dia, é um prazer estar aqui
+      - bom dia, é um prazer participar
+      - bom dia, é um prazer conversar com você
+      - bom dia, é um prazer falar com o time
+      - bom dia, é um prazer estar com vocês
+      - bom dia, tudo certo com você?
+      - bom dia, tudo bem por aí com vocês?
+      - bom dia, como vocês estão?
+      - bom dia, como vai o pessoal?
+      - bom dia, como tá a semana?
+      - bom dia, como tá a manhã?
+      - bom dia, como tá corrido por aí?
+      - bom dia, espero que esteja tudo bem
+      - bom dia, espero que esteja tudo certo
+      - bom dia, espero que esteja tudo tranquilo
+      - bom dia, espero que você esteja bem
+      - bom dia, espero que o dia comece bem pra você
+      - bom dia, obrigado por marcar essa conversa
+      - bom dia, obrigado por marcar essa entrevista
+      - bom dia, obrigado por separar um tempo hoje
+      - bom dia, obrigado por esse horário
+      - bom dia pra você
+      - bom dia pra todos
+      - bom dia para o time
+      - bom dia para a equipe
+      - bom dia, prazer estar com vocês hoje
+      - bom dia, prazer falar com vocês hoje
+      - bom dia, prazer em estar aqui com o time
+      - bom dia, prazer em falar com você hoje
+      - bom dia, prazer em participar desse bate papo
+      - bom dia, prazer em participar da entrevista
+      - bom dia, tudo certo com a chamada?
+      - bom dia, tá me ouvindo bem?
+      - bom dia, vocês me escutam bem?
+      - bom dia, o áudio tá ok?
+      - bom dia, obrigado por ajustar o horário
+      - bom dia, obrigado pela flexibilidade de horário
+      - bom dia, valeu pelo convite
+      - bom dia, valeu por esse tempo
+      - bom dia, valeu por me receber hoje
+      - bom dia, valeu pela oportunidade hoje
+      - bom dia, muito obrigado por me receber
+      - bom dia, muito obrigado pelo convite
+      - bom dia, muito obrigado por essa chance
+      - bom dia, muito obrigado pelo tempo de vocês
+      - bom dia, agradeço por poder falar com vocês
+      - bom dia, agradeço por poder estar aqui
+      - bom dia, agradeço muito a oportunidade
+      - bom dia, é uma honra estar aqui
+      - bom dia, é uma honra falar com vocês
+      - bom dia, gente
+      - bom dia, turma
+      - bom dia time
+      - bom dia pessoal, tudo bem?
+      - bom dia pessoal, tudo certo?
+      - bom dia pessoal, obrigado por me receberem
+      - bom dia, estou feliz de estar aqui
+      - bom dia, tô feliz de poder conversar hoje
+      - bom dia, é bom estar aqui com vocês
+      - bom dia, bom falar com você hoje
+      - bom dia, bom falar com o time
+      - bom dia, bom falar com vocês de novo
+      - bom dia, obrigado por continuar com o processo
+      - bom dia, obrigado por essa etapa do processo
+      - bom dia, obrigado por continuarem falando comigo
+      - bom diaa
+      - bom diaaaa
+      - bm dia
+      - bo dia
+      - bom diaaa
+      - bomdia
+      - bomm dia
+      - bom diia
+      - bõm dia
+      - bom dia gente, tudo bem?
+      - bom dia galera
+      - bom dia, desculpa qualquer atraso
+      - bom dia, obrigado por esperar
+      - bom dia, obrigado por aguardar
       - good morning, how are you doing today?
       - good morning, thanks for your time
       - good morning, thanks for meeting with me
@@ -22,3 +110,95 @@ nlu:
       - good morning, team
       - good morning, hope you’re doing well
       - good morning, hope your day is going well
+      - good morning, how are you today?
+      - good morning, how is everything?
+      - good morning, how are things on your side?
+      - good morning, how is your day so far?
+      - good morning, thanks for your time today
+      - good morning, thanks for taking the time
+      - good morning, thanks for having me
+      - good morning, thanks for this opportunity
+      - good morning, thanks for this interview
+      - good morning, thank you for inviting me
+      - good morning, thank you for the call
+      - good morning, thank you for this meeting
+      - good morning, it’s great to be here
+      - good morning, it’s great to talk with you
+      - good morning, it’s great to talk to the team
+      - good morning, it’s great to be here with you
+      - good morning, nice to speak with you
+      - good morning, nice to be here
+      - good morning, nice to meet you all
+      - good morning everyone, nice to meet you
+      - good morning everyone, thanks for your time
+      - good morning team, thanks for having me
+      - good morning, I hope you are doing well
+      - good morning, I hope everything is good
+      - good morning, I hope all is well
+      - good morning, I hope your week is going well
+      - good morning, I hope your morning is going well
+      - good morning, I really appreciate your time
+      - good morning, I really appreciate this opportunity
+      - good morning, I really appreciate you meeting me
+      - good morning, thank you for your time today
+      - good morning, thank you for your time with me
+      - good morning, thank you for this chance
+      - good morning, thank you for scheduling this call
+      - good morning, thank you for scheduling this interview
+      - good morning, thank you for adjusting the time
+      - good morning, thank you for being here
+      - good morning, thank you for joining the call
+      - good morning, thank you for this conversation
+      - good morning, it is a pleasure to be here
+      - good morning, it is a pleasure to talk with you
+      - good morning, it is a pleasure to join this call
+      - good morning, it is a pleasure to be in this interview
+      - good morning everyone, hope you are doing well
+      - good morning everyone, hope you are all good
+      - good morning everyone, hope your day is going well
+      - good morning guys
+      - good morning folks
+      - good morning all
+      - good morning all, thanks for your time
+      - good morning all, thanks for having me
+      - good morning, I am happy to be here
+      - good morning, I am happy to talk with you
+      - good morning, I am glad to be here today
+      - good morning, I am glad to talk to you
+      - good morning, glad to be here
+      - good morning, glad to meet you all
+      - good morning, good to be here
+      - good morning, good to talk with you
+      - good morning, good to see you
+      - good morning, good to see you again
+      - good morning, nice to see you again
+      - good morning, nice to be talking with you today
+      - good morning, nice to be in this meeting
+      - good morning, nice to join this call
+      - good morning, hope the audio is ok
+      - good morning, hope you can hear me well
+      - good morning, can you hear me well?
+      - good morning, is my audio clear?
+      - good morning, sorry if I was a bit late
+      - good morning, thanks for waiting for me
+      - good morning, thanks for your patience
+      - good morning, sorry for any delay
+      - good morning, great to start the day with this conversation
+      - good morning, great to start the day talking to you
+      - good morning, great to be in this interview this morning
+      - good morning, thank you very much for your time
+      - good morning, thank you very much for having me
+      - good morning, thank you very much for this opportunity
+      - god morning, thank you very much for this oppor
+      - good mornig
+      - good mornin
+      - god morn
+      - god mornin
+      - good moning
+      - good morning, hop you are doing well
+      - good morning, hop you ar doing well
+      - good morning, hope you doing well
+      - good morning, thanks for you time
+      - good morning, thanks for meet with me
+      - good morning, tanks for your time today
+      - good morning, it’s a plesure to talk with you

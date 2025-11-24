@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_future_impact_contribution:
-    - custom:
-        resp_1:
-          vr_pt: |
-            No longo prazo, eu quero ter impacto não só entregando projetos, mas ajudando outras pessoas a crescerem também. Eu me vejo compartilhando conhecimento, mentorando, participando de comunidades técnicas e talvez até dando aula ou produzindo conteúdo mais estruturado. Se eu conseguir combinar projetos relevantes, formação acadêmica forte e contribuição para outras pessoas na área, vou sentir que a minha carreira realmente valeu a pena.
-          vr_en: |
-            In the long term, I want to create impact not only by delivering projects, but also by helping other people grow. I see myself sharing knowledge, mentoring, participating in technical communities, and maybe even teaching or creating more structured content. If I can combine relevant projects, strong academic education, and real contribution to other people in the field, I will feel that my career was really worth it.

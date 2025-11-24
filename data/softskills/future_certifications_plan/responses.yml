@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_future_certifications_plan:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Daqui a alguns anos eu me vejo com um conjunto mais robusto de certificações em Salesforce e SAP, não só para colecionar selos, mas para consolidar o que eu aplico na prática. A ideia é avançar em trilhas que façam sentido para arquitetura, integrações e desenho de solução, usando as certificações como marco de conhecimento e como uma forma de manter uma disciplina contínua de estudo.
-          vr_en: |
-            A few years from now I see myself with a stronger set of Salesforce and SAP certifications, not just to collect badges, but to consolidate what I apply in practice. The idea is to move forward in tracks that make sense for architecture, integrations, and solution design, using certifications as knowledge milestones and as a way to keep a continuous study discipline.

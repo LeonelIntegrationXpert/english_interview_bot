@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Obrigado, isso me deixa bem mais tranquilo. Se eu não entender alguma coisa, eu te peço para repetir ou reformular.
+            Obrigado, isso ajuda bastante. Mesmo um pouco nervoso, estou à vontade para seguir com a conversa.
           vr_en: |
-            Thank you, that makes me feel much more comfortable. If I don’t understand something, I’ll ask you to repeat or rephrase it.
+            Thank you, that helps a lot. Even if I am a bit nervous, I feel comfortable moving forward with the conversation.
+        resp_2:
+          vr_pt: |
+            Ótimo saber disso, porque eu ainda travo em algumas partes em inglês.
+          vr_en: |
+            It is very good to know that, because I still get stuck in some parts in English.

@@ -10,8 +10,114 @@ nlu:
       - eu faço parte do time de [área] e vou estar à frente da entrevista com você
       - hoje quem conduz a entrevista com você sou eu, [Nome], do time de recrutamento
       - eu sou [Nome], fico na área de [área], e vou te acompanhar nessa etapa
-      - eu trabalho aqui há alguns anos e hoje vou tocar essa entrevista com você
+      - eu trabalho aqui há alguns anos, e hoje vou tocar essa entrevista com você
       - deixa eu começar me apresentando: eu sou [Nome], do time de talentos
+      - prazer, eu sou [Nome], cuido das entrevistas dessa etapa
+      - oi, eu sou [Nome], faço parte do RH e vou conversar com você hoje
+      - eu sou [Nome], trabalho no time de contratação, e estarei com você nessa call
+      - meu nome é [Nome], sou do time de seleção, e vou conduzir essa conversa
+      - eu sou [Nome], responsável por parte do processo seletivo aqui
+      - eu sou [Nome], e hoje a entrevista é comigo
+      - deixa eu me apresentar, sou [Nome], do time de gente e cultura
+      - oi, eu sou [Nome], vou estar com você nessa entrevista hoje
+      - meu nome é [Nome], sou da equipe que cuida das entrevistas
+      - prazer, aqui é o [Nome], vou guiar essa etapa com você
+      - eu sou [Nome], parte do time de RH técnico, e vou tocar essa entrevista
+      - oi, sou [Nome], vou te acompanhar nesse bate-papo inicial
+      - prazer, sou [Nome], recrutador aqui da empresa
+      - sou [Nome], responsável por te entrevistar nessa fase
+      - deixa eu me apresentar rapidinho: sou [Nome], do time de talentos
+      - sou [Nome], faço parte da equipe de aquisição de talentos
+      - meu nome é [Nome], você vai falar comigo nessa etapa
+      - oi, aqui é o [Nome], sou do time que cuida das entrevistas
+      - eu sou [Nome], do time de recrutamento técnico
+      - prazer, eu sou [Nome], responsável por entrevistas dessa vaga
+      - meu nome é [Nome], e vou fazer essa conversa com você hoje
+      - oi, sou [Nome], do time que conduz essa fase do processo
+      - eu sou [Nome], vou liderar essa etapa da entrevista
+      - oi, aqui é o [Nome], do time de seleção
+      - eu sou [Nome], e vou estar com você nessa call hoje
+      - oi, sou [Nome], faço parte do time de pessoas e cultura
+      - prazer, eu sou [Nome], hoje fico responsável por essa conversa
+      - sou [Nome], da área de recrutamento e seleção
+      - aqui é o [Nome], vou conduzir essa etapa do processo
+      - meu nome é [Nome], e hoje quem conversa com você sou eu
+      - sou [Nome], e faço parte da equipe que vai te avaliar nessa fase
+      - prazer, sou [Nome], cuidando dessa entrevista com você
+      - deixa eu me apresentar, sou [Nome], do jurídico—brincadeira sou do RH mesmo
+      - oi, eu sou [Nome], quem coordena essa etapa aqui
+      - eu sou [Nome], responsável pela primeira fase das entrevistas
+      - sou [Nome], quem vai conversar contigo hoje
+      - aqui é o [Nome], faço parte do time de desenvolvimento de pessoas
+      - sou [Nome], do time de aquisição de talentos
+      - eu sou [Nome], e hoje vamos ter esse bate-papo
+      - prazer, eu sou [Nome], vou acompanhar toda essa etapa com você
+      - oi, eu sou [Nome], você deve falar comigo agora na entrevista
+      - meu nome é [Nome], eu toco as entrevistas dessa área
+      - sou [Nome], quem vai estar com você nessa parte do processo
+      - oi, sou [Nome], cuido das entrevistas de forma geral
+      - eu sou [Nome], responsável pela triagem e entrevistas
+      - deixa eu apresentar: sou [Nome], aqui da empresa
+      - meu nome é [Nome], e fico à frente dessa fase inicial
+      - sou [Nome], faço parte do comitê de contratação
+      - oi, sou [Nome], vou conduzir esse papo de hoje
+      - prazer, sou [Nome], do time de gestão de talentos
+      - sou [Nome], quem acompanha essa etapa do início ao fim
+      - oi, eu sou [Nome], vou estar contigo nessa conversa
+      - meu nome é [Nome], e te acompanho na entrevista hoje
+      - sou [Nome], responsável por entender seu perfil nessa fase
+      - oi, sou [Nome], do time que faz entrevistas técnicas
+      - eu sou [Nome], e sou parte da equipe que cuida dessa vaga
+      - prazer, eu sou [Nome], vai ser eu e você nessa etapa
+      - deixa eu me apresentar formalmente: sou [Nome]
+      - oi, sou [Nome], recrutador da empresa
+      - sou [Nome], e vou falar com você hoje sobre a vaga
+      - prazer, eu sou [Nome], vamos conversar um pouco
+      - meu nome é [Nome], e é comigo que você vai falar agora
+      - oi, sou [Nome], faço parte do processo de entrevistas
+      - eu sou [Nome], responsável pela condução de entrevistas aqui
+      - prazer, sou [Nome], e hoje tenho a missão de te entrevistar
+      - sou [Nome], fazendo parte desse bate-papo inicial
+      - oi, eu sou [Nome], você deve me ver nas próximas fases também
+      - sou [Nome], da área de atração de talentos
+      - eu sou [Nome], quem vai tocar essa etapa contigo
+      - prazer, sou [Nome], a pessoa que vai conduzir nossa conversa
+      - oi, aqui é o [Nome], cheguei pra conduzir essa entrevista
+      - sou [Nome], do time de recursos humanos
+      - deixa eu me destacar aqui: sou [Nome], e a entrevista é comigo
+      - prazer, eu sou [Nome], vamos conversar sobre você hoje
+      - oi, sou [Nome], fico feliz de conduzir essa etapa
+      - meu nome é [Nome], trabalho aqui faz um tempo e vou conversar com você
+      - sou [Nome], e faço parte do time de entrevistas presenciais/virtuais
+      - oi, eu sou [Nome], e te acompanho pela próxima hora
+      - pra começar, sou [Nome], recrutador
+      - sou [Nome], quem faz entrevistas dessa vaga específica
+      - oi, eu sou [Nome], tudo certo? Vamos conversar
+      - deixa eu entrar aqui: sou [Nome], responsável pela etapa de hoje
+      - sou [Nome], e você conversa comigo nessa fase
+      - prazer, sou [Nome], e espero que você esteja confortável pra conversar
+      - oi, aqui é o [Nome], do time que acompanha candidatos nessa etapa
+      - eu sou [Nome], e estou conduzindo entrevistas dessa posição
+      - prazer, sou [Nome], vamos dar início à nossa conversa agora
+      - sou [Nome], faço parte da equipe que cuida desta contratação
+      - oi, sou [Nome], obrigado por estar aqui hoje
+      - deixa eu me apresentar direitinho: sou [Nome]
+      - hi, I’m [Name], happy to guide today’s interview
+      - I’m [Name], here to lead this conversation with you
+      - I’m [Name], and I’ll be your point of contact in this stage
+      - hi, I’m [Name], thanks for being here today
+      - I’m [Name], and I’ll walk you through the next steps of this chat
+      - I’m [Name], your interviewer for this round
+      - hi, I’m [Name], from HR, I’ll be leading the session
+      - I’m [Name], the recruiter assigned to this interview
+      - hi, I’m [Name], and I’ll be walking you through the questions today
+      - my name is [Name], I oversee interviews for this role
+      - I’m [Name], and I’ll guide you through this assessment
+      - hi, I’m [Name], I’ll be your interviewer for the next minutes
+      - I’m [Name], part of the team responsible for this stage
+      - hi, I’m [Name], and I’ll be reviewing your experience today
+      - I’m [Name], joining you to run this conversation
+      - hi, I’m [Name], the person leading your interview today
       - my name is [Name], I’m part of the recruiting team here
       - I’m [Name], and I’ll be conducting your interview today
       - let me quickly introduce myself, I’m [Name] from the people team
@@ -22,3 +128,77 @@ nlu:
       - I’m [Name], I work in the [area] area, and I’ll be with you in this stage
       - I’ve been working here for a few years and I’ll be conducting your interview today
       - let me start by introducing myself: I’m [Name] from the talent team
+      - hi, I’m [Name], part of the HR team
+      - I’m [Name], and I handle interviews for this role
+      - I’m [Name], one of the recruiters here, nice to meet you
+      - this is [Name], I’ll guide you through this interview
+      - I’m [Name], from HR, and I’ll be your interviewer today
+      - let me introduce myself properly, I’m [Name]
+      - I’m [Name], responsible for this interview stage
+      - hi, I’m [Name], I’ll be your interviewer for today
+      - I’m [Name], and I’ll walk you through this part of the process
+      - my name is [Name], I’m on the hiring team here
+      - hey, I’m [Name], thanks for joining today
+      - I’m [Name], from the recruitment area
+      - hi, I’m [Name], I’ll take care of this interview with you
+      - I’m [Name], the person running today’s session
+      - I’m [Name], from the people and culture team
+      - my name is [Name], and we’ll talk today about your experience
+      - I’m [Name], one of the talent partners here
+      - hi, this is [Name], I’ll be leading this conversation
+      - I’m [Name], and I’ll be with you during this stage
+      - I’m [Name], I work with hiring and I’ll run this interview
+      - I’m [Name], and today I’ll be your main contact
+      - let me introduce myself, I’m [Name], your interviewer today
+      - hi, I’m [Name], from the talent acquisition team
+      - I’m [Name], and I’ll guide you through the conversation
+      - I’m [Name], part of the team hiring for this role
+      - I’m [Name], your interviewer for this session
+      - my name’s [Name], and I’ll handle this interview with you
+      - I’m [Name], and I’ll be the one talking with you today
+      - hi, I’m [Name], I handle this stage of the process
+      - I’m [Name], overseeing the interview today
+      - greeting, I’m [Name], thanks for joining
+      - I’m [Name], from the department hiring for this position
+      - hi, I’m [Name], looking forward to talking with you
+      - I’m [Name], pleased to meet you and conduct this interview
+      - I’m [Name], and I’ll support you in this interview stage
+      - I’m [Name], part of the corporate recruiting team
+      - hi, I’m [Name], the interviewer assigned to you today
+      - I’m [Name], running this phase of the interview process
+      - let me introduce myself clearly: I’m [Name]
+      - I’m [Name], and I’ll help you navigate this conversation
+      - I’m [Name], one of the main interviewers here
+      - hi, I’m [Name], coordinating today’s interview
+      - I’m [Name], feel free to call me during the interview
+      - my name is [Name], and I’ll work with you in this step
+      - I’m [Name], taking over your interview today
+      - hi, I’m [Name], part of the hiring committee
+      - I’m [Name], responsible for meeting candidates like you
+      - I’m [Name], thanks for taking the time to meet today
+      - my name’s [Name], and I’ll run the interview now
+      - I’m [Name], one of the HR reps here
+      - hi, I’m [Name], and I’ll be guiding this session
+      - I’m [Name], and today I’ll work with you through this conversation
+      - I’m [Name], the interviewer in charge of this phase
+      - hi, I’m [Name], part of the selection team
+      - I’m [Name], here to walk you through the process
+      - my name is [Name], and I’ll conduct this meeting
+      - I’m [Name], excited to lead this interview with you
+      - I’m [Name], supporting this part of the interview journey
+      - hi, I’m [Name], and I’ll be your contact for this step
+      - I’m [Name], part of the evaluation panel
+      - I’m [Name], working with candidates for this role
+      - hi, I’m [Name], the person you’ll be talking to during this interview
+      - I’m [Name], one of the people responsible for hiring here
+      - I’m [Name], ready to lead this interview with you
+      - my name is [Name], and today we’ll go through your experience together
+      - I’m [Name], you’ll talk with me throughout this stage
+      - hi, I’m [Name], from employee experience and recruiting
+      - I’m [Name], running this step of your application
+      - I’m [Name], feel free to ask me about the process during the interview
+      - my name is [Name], I’ll support you during this phase
+      - I’m [Name], and I’ll be facilitating the interview today
+      - I’m [Name], nice to connect with you in this stage
+      - hi, I’m [Name], responsible for candidate evaluation
+      - I’m [Name], and I’ll take care of this interview today

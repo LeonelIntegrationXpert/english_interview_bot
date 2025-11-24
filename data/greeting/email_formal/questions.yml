@@ -12,6 +12,96 @@ nlu:
       - espero que esteja tudo tranquilo com você
       - espero que este e-mail te encontre bem
       - espero que esteja tudo indo bem com você
+      - espero que esteja bem por aí
+      - espero que vc esteja bem
+      - espero que esteja tudo bem ai com você
+      - espero que seu dia esteja tranquilo
+      - espero que hoje esteja sendo um bom dia
+      - espero que sua semana não esteja tão corrida
+      - espero que esteja tudo certo com você e sua família
+      - espero que esteja tudo bem na sua rotina
+      - espero que esteja tudo ok por aí
+      - espero que esteja tudo bem nesse inicio de semana
+      - espero que esteja tudo bem nesse fim de semana
+      - espero que esteja tudo bem com o trabalho
+      - espero que esteja tudo bem com seus projetos
+      - espero que esteja tudo correndo bem por aí
+      - espero que esteja tudo indo bem no seu lado
+      - espero que por aí esteja tudo bem
+      - espero que esteja tudo bem mesmo com a correria
+      - espero que esteja tudo bem, apesar da agenda cheia
+      - espero que esteja tudo certo com você hoje
+      - espero que esse dia esteja sendo leve pra você
+      - espero que esteja tendo um dia tranquilo
+      - espero que esteja tendo um dia produtivo
+      - espero que você esteja tendo uma boa semana até agora
+      - espero que essa mensagem te encontre bem
+      - espero que essa mensagem chegue em um bom momento
+      - espero que esteja tudo bem desde a última vez que falamos
+      - espero que você esteja bem desde nossa última conversa
+      - espero que esteja tudo bem contigo
+      - espero que você esteja bem hoje
+      - espero que vc esteja bem hoje
+      - espero que esteja tudo bem com você por ai
+      - espero que esteja tudo bem com você nesse momento
+      - espero que esteja tudo bem nesse dia
+      - espero que o seu dia esteja indo tranquilo
+      - espero que o seu dia não esteja tão corrido
+      - espero que esteja tudo bem no seu time
+      - espero que esteja tudo certo no seu trabalho
+      - espero que esteja tudo ok no seu lado aí
+      - espero que esteja tudo bem na empresa
+      - espero que esteja tudo bem com os seus
+      - espero que esteja tudo bem na sua semana
+      - espero que esteja tudo bem na sua agenda
+      - espero que esteja tudo certo nessa semana
+      - espero que esteja tudo andando bem por aí
+      - espero que esteja tudo indo bem na sua rotina
+      - espero que esteja tudo bem com as entregas
+      - espero que esteja tudo bem com os prazos
+      - espero que você esteja tendo um bom começo de semana
+      - espero que você esteja tendo um bom fim de semana
+      - espero que você esteja tendo um bom dia até agora
+      - espero que essa semana esteja sendo positiva pra você
+      - espero que seu dia esteja sendo bem tranquilo
+      - espero que seu dia não esteja tão puxado
+      - espero que por aí esteja tudo certo
+      - espero que por aí esteja tudo tranquilo
+      - espero que esteja tudo bem e em paz por aí
+      - espero que esteja bem, mesmo com a correria
+      - espero que esteja bem, mesmo com a rotina puxada
+      - espero que esteja bem, mesmo com muitos compromissos
+      - espero que esteja tudo bem no seu lado do projeto
+      - espero que esteja tudo bem neste começo de dia
+      - espero que esteja tudo bem neste final de dia
+      - espero que esteja tudo bem com vc
+      - espero que esteja td bem com você
+      - espero que esteja tdo bem por ai
+      - espero que este e mail te encontre bem
+      - espero que essa msg te encontre bem
+      - espero que esteja tudo bem desde o ultimo contato
+      - espero que você esteja bem e saudável
+      - espero que você esteja bem por ai
+      - espero que vc esteja tendo um bom dia
+      - espero que vc esteja tendo uma boa semana
+      - espero que esteja tendo uma semana tranquila
+      - espero que esteja tendo uma semana produtiva
+      - espero que esteja tudo bem no seu lado profissional
+      - espero que esteja tudo bem no seu lado pessoal
+      - espero que esteja tudo bem com você e sua equipe
+      - espero que esteja tudo certo com os projetos
+      - espero que esteja tudo certo com as demandas
+      - espero que esteja tudo certo com o cronograma
+      - espero que esteja tudo certo com o time aí
+      - espero que esteja tudo certo por ai com você
+      - espero que esteja tudo correndo bem na empresa
+      - espero que esteja tudo correndo bem no seu dia
+      - espero que esteja tudo andando bem no projeto
+      - espero que esteja tudo fluindo bem por aí
+      - espero que esteja tudo indo bem com o time
+      - espero que esteja tudo indo bem na area
+      - espero que esteja tudo em ordem por aí
+      - espero que esteja tudo em paz com você
       - I hope you are doing well
       - I hope you’re doing well
       - I hope this message finds you well
@@ -22,3 +112,93 @@ nlu:
       - I hope you’re doing well today
       - I hope all is well with you
       - I hope things are going well on your side
+      - I hope you are well today
+      - hope you are doing well
+      - hope you’re doing good
+      - hope you’re fine today
+      - hope everything is ok with you
+      - I hope everything is fine on your side
+      - I hope you are having a calm day
+      - I hope you are having a productive day
+      - I hope your week is going well so far
+      - I hope your day is going smoothly
+      - I hope your day is not too busy
+      - I hope you are safe and well
+      - I hope you and your family are doing well
+      - I hope all is going well for you this week
+      - I hope things are going smoothly for you
+      - I hope things are going well at work
+      - I hope things are going well in your projects
+      - I hope your schedule is not too heavy today
+      - I hope your day has been good so far
+      - I hope your week has been good so far
+      - I hope you are having a nice morning
+      - I hope you are having a nice afternoon
+      - I hope you are having a nice evening
+      - I hope today is being a good day for you
+      - I hope this note finds you well
+      - I hope this mail finds you well
+      - I hope this email reachs you well
+      - I hope this message reaches you in a good moment
+      - I hope this message comes to you in a good time
+      - I hope you are feeling well today
+      - I hope you are doing okay today
+      - I hope you are doing fine today
+      - I hope you are feeling good, even if it is a busy day
+      - hope you are doing okay there
+      - hope you are doing fine on your side
+      - hope everything is good with you today
+      - hope everything is going ok there
+      - hope everything is going fine with you
+      - hope this message finds you doing well
+      - hope this email finds you doing well
+      - hope all is good with you today
+      - hope you are having a good week so far
+      - hope you are having a calm week
+      - hope you are having a productive week
+      - I hope all is going well since we last spoke
+      - I hope you have been doing well since our last talk
+      - I hope you have been well lately
+      - I hope you have been okay these days
+      - I hope you have been fine, even with a busy routine
+      - I hope your day is going well on your side
+      - I hope your week is not too stressful
+      - I hope your week is not too rush
+      - I hope everything is fine with your team
+      - I hope everything is fine with your projects
+      - I hope everything is fine in your company
+      - I hope everything is going well in your day
+      - I hope everything is going well in your routine
+      - I hope you are having a smooth start of the week
+      - I hope you are having a good end of the week
+      - I hope you are having a light day today
+      - I hope this email gets to you in a good time
+      - I hope this email reach you on a good day
+      - I hope this message reach you well today
+      - I hope all is ok with you and your family
+      - I hope things are not too hectic today
+      - I hope things are calm on your side
+      - I hope you are well, even with a busy agenda
+      - I hope you are okay, even if the day is tiring
+      - I hope you are doing well there
+      - I hope you’re doing well there
+      - I hope you’re ok on your side
+      - I hope you’re fine there today
+      - hope you’re doing well this week
+      - hope you’re having a nice day today
+      - hope you’re having a calm day today
+      - hope you’re having a productive day today
+      - hope everything is going well with your work
+      - hope everything is going well with your tasks
+      - hope everything is going well in your projects
+      - I hope you are doing well on your side today
+      - I hope you are doing well where you are
+      - I hope you are doing well and safe
+      - I hope all is fine on your side today
+      - I hope all is fine for you today
+      - I hope you are feeling okay today
+      - I hope you are feeling good today
+      - I hope your day is going ok so far
+      - I hope your day is going good so far
+      - I hope you are having a good day so far
+      - I hope this short email finds you well

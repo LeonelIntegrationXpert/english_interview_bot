@@ -12,6 +12,96 @@ nlu:
       - você se sente à vontade para a gente começar em inglês?
       - como está o seu nível de ansiedade para essa entrevista?
       - está se sentindo minimamente confortável para a conversa de hoje?
+      - como tá seu coração pra essa entrevista hoje?
+      - você tá muito nervoso ou de boa?
+      - tá batendo aquela ansiedade ou tá tranquilo?
+      - quer me contar se tá mais ansioso ou mais animado?
+      - você dormiu bem pensando nessa entrevista?
+      - como você acordou hoje por causa da entrevista?
+      - tá sentindo muita pressão ou tá conseguindo ficar calmo?
+      - você sente que tá preparado ou ainda meio inseguro?
+      - de zero a dez, quão nervoso você tá agora?
+      - você tá mais confiante agora do que antes da call?
+      - tá conseguindo respirar tranquilo ou tá muito tenso?
+      - quer que a gente comece mais devagar pra ajudar na ansiedade?
+      - você prefere ir com calma no começo pra relaxar?
+      - tá com frio na barriga ou bem tranquilo?
+      - quer me dizer rapidinho como você se sente nesse momento?
+      - tá se sentindo mais animado ou preocupado?
+      - o nervosismo tá atrapalhando ou tá controlado?
+      - você sente que a língua inglesa tá te deixando mais nervoso?
+      - falar inglês te deixa muito travado nessa entrevista?
+      - você acha que o inglês é o que mais dá medo aqui?
+      - você tá com medo de travar nas respostas?
+      - você tá preocupado mais com o inglês ou com as perguntas técnicas?
+      - quer ser sincero sobre o quanto tá nervoso agora?
+      - você sente que precisa de uns minutinhos pra respirar?
+      - você prefere começar com perguntas mais leves pra esquentar?
+      - tá confortável com o formato da entrevista?
+      - o formato online te deixa mais calmo ou mais nervoso?
+      - como você se sente falando em inglês por vídeo?
+      - você fica mais travado em vídeo do que pessoalmente?
+      - você sente que sua voz muda quando fica nervoso?
+      - tá conseguindo pensar direito ou a ansiedade tá pegando?
+      - sua cabeça tá muito cheia ou tá conseguindo focar bem?
+      - você tá preocupado em errar gramática ou vocabulário?
+      - você tá com medo de não entender alguma pergunta?
+      - se eu falar mais devagar, ajuda na sua confiança?
+      - prefere que eu repita se algo ficar confuso pra você?
+      - você se sente à vontade pra pedir pra repetir se não entender?
+      - tá confortável pra me avisar se algo ficar rápido demais?
+      - você sente que consegue ser honesto sobre seu nervosismo?
+      - quer usar os primeiros minutos só pra quebrar o gelo?
+      - você prefere começar com perguntas bem simples pra aquecer?
+      - como você tá emocionalmente agora, mais tenso ou mais calmo?
+      - a entrevista em inglês te deixa muito fora da zona de conforto?
+      - você sente que precisa de mais tempo pra ir se soltando?
+      - você tá tremendo um pouco ou tá fisicamente tranquilo?
+      - sente o coração acelerado por causa da entrevista?
+      - a mão tá suando ou tá de boa?
+      - você sente aquele friozinho na barriga agora?
+      - quer me contar o que mais te deixa nervoso nessa conversa?
+      - o que mais te assusta nessa entrevista, de verdade?
+      - você tá com medo de ficar em branco em alguma resposta?
+      - você tá se sentindo julgado ou acolhido aqui?
+      - você sente que pode errar sem problema ou isso te trava?
+      - você sente que pode ser sincero nas respostas mesmo nervoso?
+      - tá com receio de misturar português e inglês na hora?
+      - você tá tranquilo se escapar uma palavra em português?
+      - você tá bem com a ideia de eu te ajudar se você travar?
+      - você se sente confortável em pedir ajuda se faltar uma palavra?
+      - você acha que consegue ser você mesmo durante a entrevista?
+      - ou você sente que o nervosismo muda muito seu jeito de falar?
+      - você tá mais ansioso com o começo ou com o fim da entrevista?
+      - o momento de falar de experiência técnica te deixa mais tenso?
+      - você tá com medo da parte de perguntas comportamentais?
+      - você sente que o small talk em inglês te deixa mais nervoso?
+      - conversar sobre você em inglês é mais difícil que parte técnica?
+      - você tá se sentindo observado demais ou tá ok?
+      - você sente que a câmera te deixa mais travado?
+      - prefere imaginar que é só um bate-papo e não uma entrevista?
+      - ajuda se a gente levar isso mais como uma conversa?
+      - o jeito como eu tô falando tá ajudando a te acalmar?
+      - você prefere que eu fale mais devagar ou desse jeito tá bom?
+      - como você avalia agora, tá mais calmo que no começo da call?
+      - desde que entrou na call, você ficou mais tranquilo ou não?
+      - o nervosismo melhorou ou ainda tá igual?
+      - tá dando pra respirar fundo entre uma pergunta e outra?
+      - você sente que precisa de uma pausa rápida agora?
+      - tá tudo bem se a gente fizer uma pausinha se você precisar?
+      - quer me avisar se em algum momento ficar demais pra você?
+      - você sente que tá sendo ouvido e respeitado aqui?
+      - emocionalmente, você tá mais pra “tenso” ou “confiante”?
+      - nessa altura da call, você já se sente um pouco mais à vontade?
+      - você acha que essa entrevista pode te ajudar a perder o medo?
+      - você se vê usando essa entrevista como treino pro futuro?
+      - você tá levando isso como teste ou como oportunidade de aprender?
+      - você tá se cobrando muito nessa entrevista?
+      - se cobrar demais tá te deixando mais nervoso agora?
+      - quer combinar que tudo bem errar aqui, só pra aliviar a pressão?
+      - você consegue enxergar essa conversa como um treino seguro?
+      - como você se sente sabendo que tá tudo bem errar aqui?
+      - tá mais tranquilo depois de eu dizer que pode errar sem problema?
       - before we start, how are you feeling about this interview?
       - are you feeling comfortable for our conversation today?
       - how are you feeling about this interview right now?
@@ -22,3 +112,93 @@ nlu:
       - do you feel comfortable for us to start in English?
       - how is your anxiety level about this interview?
       - are you feeling at least reasonably comfortable for today’s conversation?
+      - how’s your heart feeling about this interview today?
+      - are you super nervous or kind of okay?
+      - is the anxiety hitting hard or are you calm?
+      - do you feel more anxious or more excited right now?
+      - did you sleep well thinking about this interview?
+      - how did you wake up today because of this interview?
+      - do you feel a lot of pressure or are you managing to stay calm?
+      - do you feel prepared or still a bit insecure?
+      - from zero to ten, how nervous are you now?
+      - do you feel more confident now than before the call?
+      - are you able to breathe normally or feeling very tense?
+      - would it help you if we go slower at the beginning?
+      - do you prefer to start slowly so you can relax a bit?
+      - do you feel more excited or more worried right now?
+      - is the nervous feeling blocking you or still under control?
+      - do you feel like the English part makes you more nervous?
+      - does speaking English make you feel very blocked in interviews?
+      - would you say English is the main thing scaring you here?
+      - are you afraid you might freeze when answering in English?
+      - are you more worried about English or about technical questions?
+      - do you feel okay being honest about how nervous you are?
+      - do you feel like you need a few seconds just to breathe?
+      - would you like to start with easier questions to warm up?
+      - do you feel comfortable with the interview format?
+      - does the online format make you feel calmer or more nervous?
+      - how do you feel speaking English on video?
+      - do you get more stuck on video calls than in person?
+      - do you feel your voice changes when you’re nervous?
+      - are you able to think clearly or is anxiety getting in the way?
+      - is your mind very full or can you focus well?
+      - are you worried more about grammar or vocabulary?
+      - are you afraid you might not understand some questions?
+      - if I speak slower, does that help your confidence?
+      - would it help if I repeat things when something sounds confusing?
+      - do you feel comfortable asking me to repeat if you don’t understand?
+      - are you okay with telling me if I’m speaking too fast?
+      - do you feel safe to be honest about your nervousness here?
+      - would you like to use the first minutes just to break the ice?
+      - would it help if we start with really simple questions to warm up?
+      - emotionally, are you more tense or more calm right now?
+      - does an interview in English push you far out of your comfort zone?
+      - do you feel like you need more time to open up and relax?
+      - are you physically shaking a bit or feeling okay?
+      - do you feel your heart racing because of the interview?
+      - are your hands sweating or are you fine?
+      - do you feel that classic “butterflies in the stomach” right now?
+      - what is the number one thing making you nervous in this talk?
+      - what scares you the most about this interview, honestly?
+      - are you afraid of going blank when answering a question?
+      - do you feel judged here or more supported?
+      - do you feel like you can make mistakes here without a problem?
+      - do you feel okay mixing a bit of Portuguese if you get stuck?
+      - are you fine if one or two Portuguese words slip out?
+      - are you okay with the idea that I can help you if you freeze?
+      - do you feel comfortable asking for help if a word doesn’t come?
+      - do you think you can still be yourself during this interview?
+      - or do you feel that the nervousness changes how you talk a lot?
+      - are you more anxious about the beginning or the end of the interview?
+      - does the technical part make you more tense than the small talk?
+      - are you more worried about behavioral questions or technical ones?
+      - does small talk in English make you feel extra nervous?
+      - is talking about yourself in English harder than the tech part?
+      - do you feel like the camera makes you more blocked?
+      - would it help if you see this more like a casual chat and less like a test?
+      - does it help if we treat this more like a conversation than an exam?
+      - is the way I’m talking helping you feel more calm?
+      - would you like me to speak slower or is this speed okay?
+      - compared to the start of the call, do you feel a bit more relaxed now?
+      - since you joined the call, did you get calmer or not really?
+      - has your nervousness gone down or is it still the same?
+      - are you able to take deep breaths between questions?
+      - do you feel that you need a tiny pause right now?
+      - is it okay for you if we take a short pause if you ever need one?
+      - can you let me know if at any point it feels like too much?
+      - do you feel that you are being listened to and respected here?
+      - emotionally, would you say you are more “tense” or “confident” now?
+      - at this point of the call, do you feel a little more at ease?
+      - do you think this interview can help you lose fear of English interviews?
+      - do you see this conversation as practice for future opportunities?
+      - are you treating this more like a big test or like a chance to learn?
+      - are you putting a lot of pressure on yourself in this interview?
+      - do you feel that self-pressure is making you more nervous now?
+      - would it help if we agree that it’s totally fine to make mistakes here?
+      - can you see this interview as a safe training space?
+      - how do you feel when you know it’s okay to make mistakes here?
+      - do you feel a bit calmer now that I said mistakes are not a problem?
+      - would it help if we treat this conversation as a space to grow and learn?
+      - do you feel a bit safer knowing that I’m not here to judge you?
+      - how would it feel to see this interview as a practice round, not a test?
+      - can we agree that making mistakes here is totally part of the process?

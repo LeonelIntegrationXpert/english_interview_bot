@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_energy_and_motivation:
-    - custom:
-        resp_1:
-          vr_pt: |
-            No dia a dia, eu me motivo muito quando percebo que estou evoluindo, aprendendo algo novo ou destravando algum problema complexo. Gosto dessa sensação de progresso contínuo e de saber que o que estou fazendo gera impacto real para o time e para o cliente.
-          vr_en: |
-            On a daily basis, I get very motivated when I feel I’m evolving, learning something new, or unlocking a complex problem. I really like that sense of continuous progress and knowing that what I’m doing has a real impact on the team and on the customer.

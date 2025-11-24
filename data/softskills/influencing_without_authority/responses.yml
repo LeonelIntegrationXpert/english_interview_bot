@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_influencing_without_authority:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu foco em problemas e benefícios compartilhados. Começo entendendo as motivações de cada parte, preparo um caso com dados, cenários e impactos, e apresento pequenas vitórias que reduzem risco de adoção. Evito embates diretos: faço perguntas, escuto objeções e incorporo contribuições para aumentar sentimento de coautoria. Quando há resistência, proponho um teste controlado com métricas claras; assim consigo validação objetiva e, a partir dela, escalar a mudança com o grupo.
-          vr_en: |
-            I focus on shared problems and benefits. I start by understanding each party’s motivation, prepare a data-backed case with scenarios and impacts, and propose low-risk pilots that generate quick wins. I avoid direct confrontation: I ask questions, listen to objections, and incorporate contributions to build co-ownership. When resistance persists, I suggest a controlled experiment with clear metrics, using objective results to scale the change with the group.

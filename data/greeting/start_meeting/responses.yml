@@ -7,3 +7,8 @@ responses:
             Sim, podemos começar quando você quiser.
           vr_en: |
             Yes, we can start whenever you’re ready.
+        resp_2:
+          vr_pt: |
+            Se puder, só mais um minutinho e já fico pronto pra começar.
+          vr_en: |
+            If possible, I’d just like one more minute and then I’ll be ready to start.

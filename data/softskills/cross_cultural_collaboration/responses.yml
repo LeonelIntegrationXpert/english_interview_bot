@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_cross_cultural_collaboration:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu gosto bastante de trabalhar com pessoas de diferentes culturas, porque isso amplia muito a forma de enxergar problemas e soluções. Procuro sempre manter uma postura de respeito e curiosidade, fazendo perguntas em vez de assumir que a minha forma de trabalhar é a única correta. Também ajusto meu jeito de me comunicar, sendo mais claro, evitando gírias e checando se a mensagem foi bem entendida. Acredito que ouvir com atenção, ter paciência e estar aberto a aprender são pontos essenciais para colaborar bem em um contexto multicultural.
-          vr_en: |
-            I really enjoy working with people from different cultures because it greatly expands the way I see problems and solutions. I try to keep a respectful and curious attitude, asking questions instead of assuming that my way of working is the only right one. I also adjust my communication style, being clearer, avoiding slang, and checking if the message was well understood. I believe that listening carefully, being patient, and being open to learning are essential points to collaborate well in a multicultural context.

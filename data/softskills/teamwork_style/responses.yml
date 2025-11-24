@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_teamwork_style:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Em time, eu procuro ser alguém que soma, tanto tecnicamente quanto na forma de colaboração. Gosto de compartilhar contexto, alinhar prioridades e deixar claro quem faz o quê, porque isso evita ruído e retrabalho. Quando alguém está com dificuldade, eu tento ajudar sem assumir completamente a tarefa, para que a pessoa também aprenda e ganhe confiança. Ao mesmo tempo, eu não tenho problema em pedir ajuda quando preciso. Para mim, um bom time é aquele em que todo mundo entende o objetivo comum e se sente à vontade para colaborar, discordar com respeito e construir soluções juntos.
-          vr_en: |
-            In a team setting I try to be someone who adds value, both technically and in the way I collaborate. I like to share context, align priorities, and make it clear who is responsible for what, because that reduces noise and rework. When someone is struggling, I try to help without completely taking over the task, so that the person can also learn and build confidence. At the same time, I have no problem asking for help when I need it. For me, a good team is one where everyone understands the common goal and feels comfortable collaborating, disagreeing respectfully, and building solutions together.

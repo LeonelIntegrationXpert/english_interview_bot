@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_stakeholder_management:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu começo mapeando claramente os stakeholders, seus objetivos e níveis de influência. Em seguida, estabeleço um ritual de comunicação objetivo (por exemplo, brief semanal com status, riscos e próximos passos) e um mecanismo de tomada de decisão com critérios visíveis. Quando surgem conflitos, trago dados e impactos para comparar alternativas, proponho trade-offs e busco consenso com quem tem a decisão final. Se houver mudança tardia de escopo, avalio custo, prazo e qualidade, apresento opções com impactos e registro o acordo para manter transparência e previsibilidade.
-          vr_en: |
-            I start by mapping stakeholders, their objectives, and influence levels. Then I establish clear communication rituals (e.g., a weekly brief with status, risks, and next steps) and a visible decision-making mechanism. When conflicts arise, I bring data and impact analysis to compare alternatives, propose trade-offs, and seek alignment with the final decision-owner. If a late scope change appears, I assess cost, schedule, and quality, present options with impacts, and document the agreement to maintain transparency and predictability.

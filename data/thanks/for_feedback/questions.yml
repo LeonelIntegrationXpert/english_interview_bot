@@ -12,6 +12,96 @@ nlu:
       - agradeço o feedback
       - agradeço muito o retorno
       - obrigado por compartilhar sua opinião
+      - valeu pelo feedback
+      - valeu demais pelo feedback
+      - brigado pelo feedback
+      - obrigado pelo feedback de verdade
+      - obrigado pelo feedback, ajudou bastante
+      - obrigado pelo feedback detalhado
+      - obrigado pelo feedback honesto
+      - obrigado pelo feedback construtivo
+      - obrigado pelo feedback rápido
+      - obrigado pelo feedback mesmo sendo crítico
+      - obrigado pelo seu retorno sincero
+      - obrigado por ser tão sincero no feedback
+      - obrigado por apontar esses pontos
+      - obrigado por apontar essas melhorias
+      - obrigado por mostrar onde posso melhorar
+      - obrigado por destacar esses pontos
+      - obrigado por comentar sobre isso
+      - obrigado por revisar meu perfil
+      - obrigado por revisar meu desempenho
+      - obrigado por revisar minhas respostas
+      - muito obrigado pelos seus comentários
+      - muito obrigado pelas suas observações
+      - muito obrigado pelas dicas
+      - muito obrigado pelas sugestões
+      - muito obrigado pelo retorno sincero
+      - valeu pelo retorno
+      - valeu demais pelo retorno
+      - valeu pelos comentários
+      - valeu pelas dicas
+      - valeu pelas sugestões
+      - valeu por esse feedbak
+      - valeu por esse feedback tão claro
+      - valeu por esse feedback direto
+      - valeu por esse feedback aberto
+      - agradeço muito o feedback
+      - agradeço demais o feedback
+      - agradeço muito suas observações
+      - agradeço muito suas sugestões
+      - agradeço pelas críticas construtivas
+      - agradeço pelas dicas pra melhorar
+      - agradeço pelo retorno honesto
+      - agradeço os pontos que você trouxe
+      - agradeço por apontar esses detalhes
+      - agradeço por me mostrar esses pontos de atenção
+      - agradeço por me dar esse retorno
+      - brigado mesmo pelo retorno
+      - brigado mesmo pelo feedback
+      - brigadão pelo feedback
+      - brigadão pelas dicas
+      - brigadão pelas sugestões
+      - obrigado por esse feedback tão completo
+      - obrigado por esse feedback tão sincero
+      - obrigado por esse feedback tão direto
+      - obrigado por esse feedback bem claro
+      - obrigado por esse feedback super detalhado
+      - obrigado por parar um tempo pra dar esse feedback
+      - obrigado por gastar seu tempo com esse feedback
+      - obrigado por ter esse cuidado no feedback
+      - obrigado por estruturar o feedback desse jeito
+      - obrigado por explicar o feedback com calma
+      - obrigado por explicar os pontos positivos e negativos
+      - obrigado por mostrar o que eu posso manter e o que mudar
+      - obrigado por ser transparente no retorno
+      - obrigado por ser direto no retorno
+      - obrigado pelo retorno claro
+      - obrigado pelo retorno transparente
+      - obrigado pelo retorno tão completo
+      - muito obrigado pelo retorno detalhado
+      - muito obrigado pela sinceridade
+      - muito obrigado pela franqueza
+      - muito obrigado por não dourar a pílula
+      - valeu pela sinceridade no feedback
+      - valeu pela franqueza
+      - valeu por não esconder os pontos a melhorar
+      - agradeço sua sinceridade
+      - agradeço a franqueza
+      - agradeço por ser tão claro comigo
+      - agradeço por ser tão direto no retorno
+      - agradeço por não esconder os pontos críticos
+      - obrigado, vou levar esse feedback a sério
+      - obrigado, vou trabalhar nesses pontos
+      - obrigado, vou refletir sobre tudo que você falou
+      - obrigado, vou usar esse retorno pra evoluir
+      - obrigado, isso vai me ajudar a crescer
+      - obrigado, esse feedback é muito importante pra mim
+      - obrigado pelo feedback, mesmo sendo difícil de ouvir
+      - obrigado pelo feedback, mesmo não sendo o resultado que eu queria
+      - obrigado pelo feedback, foi bem valioso
+      - obrigado pelo feedback, clareou bastante coisa
+      - obrigado pelo feedback, deu uma boa visão do que melhorar
       - thank you for the feedback
       - thanks for your feedback
       - thank you for your honest feedback
@@ -19,6 +109,96 @@ nlu:
       - thank you for the suggestions
       - thank you for your input
       - I appreciate your feedback
-      - I really appreciate your feedback
       - thanks for sharing your thoughts
       - thanks for your opinion
+      - thank you for the detailed feedback
+      - thank you for the clear feedback
+      - thank you for the quick feedback
+      - thank you for the constructive feedback
+      - thank you for the direct feedback
+      - thank you for being so honest with your feedback
+      - thank you for pointing out these issues
+      - thank you for showing me where I can improve
+      - thank you for highlighting these points
+      - thank you for reviewing my answers
+      - thank you for reviewing my performance
+      - thank you for taking the time to give feedback
+      - thank you for taking the time to write this
+      - thanks a lot for the feedback
+      - thanks a lot for your comments
+      - thanks a lot for your suggestions
+      - thanks a lot for your input
+      - thanks so much for the feedback
+      - thanks so much for the detailed feedback
+      - thanks so much for the honest feedback
+      - thanks so much for all your comments
+      - thanks, that feedback really helps
+      - thanks, that feedback is very helpful
+      - thanks, that really helps me improve
+      - thanks for being so clear with your feedback
+      - thanks for being so direct
+      - thanks for being transparent with me
+      - thx for the feedback
+      - thx a lot for the feedback
+      - thx for your honest feedbak
+      - thx for your coments
+      - thx for your sugestions
+      - many thanks for the feedback
+      - many thanks for your comments
+      - many thanks for your input
+      - I really value this feedback
+      - I really value what you shared
+      - I really value your comments
+      - I really value your honest opinion
+      - I really value your suggestions
+      - I appreciate the detailed feedback
+      - I appreciate the honest feedback
+      - I appreciate the clear feedback
+      - I appreciate you taking time for this feedback
+      - I appreciate you pointing these things out
+      - I appreciate you showing me these gaps
+      - I appreciate your sincerity
+      - I appreciate your frankness
+      - I appreciate your open feedback
+      - I truly appreciate this feedback
+      - I truly apreciate your comments
+      - I truly apreciate your input
+      - thanks for being so open with your feedback
+      - thanks for not sugarcoating it
+      - thanks for keeping it real with your feedback
+      - thanks for the sincere feedback
+      - thanks for the frank feedback
+      - thanks for this very clear feedback
+      - thank you, I will use this feedback to improve
+      - thank you, I will work on these points
+      - thank you, I will reflect on what you said
+      - thank you, I will try to improve based on this
+      - thank you, this feedback is very important to me
+      - thank you, this feedback gives me a better view
+      - thank you, this feedback helps me grow
+      - thank you, even if it is hard to hear
+      - thank you, even if it is not the result I wanted
+      - thank you, I really needed to hear this
+      - thanks for the feedback, I’ll take it seriously
+      - thanks for the feedback, I’ll look into it
+      - thanks for the feedback, I’ll adjust what I can
+      - thanks for the feedback, I’ll review everything calmly
+      - thanks for the feedback, it cleared up a lot
+      - thanks for the feedback, it showed me what to improve
+      - thx for the feedback, I’ll work on that
+      - thx for the feedback, I’ll check these points
+      - thx for the feedback, I’ll try to fix this
+      - thank you for the feedback, even if it is a bit tough
+      - thank you for the feedback, even if it is not easy
+      - thank you for the feedback, it means a lot
+      - thank you for the feedback, it really helps
+      - thank you for the feedback, it was very clear
+      - thank you for the feedback, it was very detailed
+      - thank you for the feedback, I really apreciate it
+      - thanks again for the feedback
+      - thanks again for your time and feedback
+      - thanks again for sharing your thoughts
+      - thanks, your feedback is very valuable
+      - thanks, your feedback is super helpful
+      - thanks, your feedback gave me a lot to think about
+      - thanks, your feedback gave me a lot to work on

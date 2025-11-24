@@ -7,3 +7,8 @@ responses:
             Imagina, pode interromper sempre que precisar.
           vr_en: |
             No problem, feel free to jump in whenever you need.
+        resp_2:
+          vr_pt: |
+            Sem problema, só vamos alinhando pra não se atropelar muito na conversa.
+          vr_en: |
+            No worries, let’s just keep aligning so we don’t talk over each other too much.

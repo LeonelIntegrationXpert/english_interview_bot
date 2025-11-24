@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_propose_new_slots:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Perfeito, eu tenho certa flexibilidade. Em geral, consigo me organizar melhor em [período do dia/dias da semana], mas posso avaliar as opções que você enviar e ajustar minha agenda.
-          vr_en: |
-            That works great for me, I have some flexibility. In general I can organize myself better in the [time of day/days of the week], but I can look at the options you send and adjust my schedule.

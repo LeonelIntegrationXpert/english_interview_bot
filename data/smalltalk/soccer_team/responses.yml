@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_soccer_team:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Para ser bem sincero, eu praticamente não acompanho futebol. Acabo me conectando mais com outras coisas, como tecnologia, estudos e projetos paralelos. Mas, quando o assunto surge, eu consigo participar de forma leve, sem problema.
-          vr_en: |
-            To be honest, I don’t really follow football. I tend to connect more with other things like technology, studying, and side projects. But when the topic comes up, I can still join the conversation in a light way, no problem.

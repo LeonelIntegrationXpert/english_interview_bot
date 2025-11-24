@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_time_management:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu costumo organizar meu trabalho por prioridade, dividindo tarefas grandes em partes menores e definindo o que é crítico, importante e o que pode esperar. Normalmente planejo o dia e a semana, mas deixo espaço para imprevistos, sempre comunicando o time quando algum prazo pode ser impactado.
-          vr_en: |
-            I usually organize my work by priority, breaking big tasks into smaller parts and defining what is critical, what is important, and what can wait. I plan my day and my week, but I also leave room for unexpected events, and I always communicate with the team when a deadline might be affected.

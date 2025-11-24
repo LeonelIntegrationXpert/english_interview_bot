@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_self_development:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu levo meu desenvolvimento profissional muito a sério. Costumo estudar de forma contínua, combinando documentação oficial, cursos estruturados e prática em projetos reais ou pessoais. Eu priorizo temas que têm impacto direto no meu trabalho e nas minhas próximas metas, como novas tecnologias, certificações e habilidades de comunicação. Normalmente eu reservo blocos fixos na semana para estudo e revisão. Também gosto de registrar o que aprendo, montar resumos e compartilhar com outras pessoas, porque isso reforça ainda mais o conhecimento.
-          vr_en: |
-            I take my professional development very seriously. I study in a continuous way, combining official documentation, structured courses, and practice in real or personal projects. I prioritize topics that have direct impact on my work and on my next goals, such as new technologies, certifications, and communication skills. I usually reserve fixed time blocks during the week for study and review. I also like to document what I learn, build summaries, and share it with other people because that makes the knowledge even stronger for me.

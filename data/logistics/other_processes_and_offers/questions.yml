@@ -1,6 +1,0 @@
-version: '3.1'
-nlu:
-  - intent: other_processes_and_offers
-    examples: |
-      - other processes and offers?
-      - other processes and offers

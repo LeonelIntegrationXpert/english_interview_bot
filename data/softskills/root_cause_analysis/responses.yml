@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_root_cause_analysis:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu estruturo a RCA com dados do incidente, linha do tempo e contexto. Aplico 5 Porquês/Ishikawa para distinguir causa de sintoma e defino ações divididas em contenção imediata e correções estruturais. Mantenho a discussão sem culpa, foco em processo e sinalizo métricas de acompanhamento. Registro tudo em post-mortem acessível e revisito após algumas semanas para validar eficácia e evitar regressão.
-          vr_en: |
-            I structure the RCA with incident data, a timeline, and context. I apply 5 Whys/Ishikawa to separate cause from symptoms and define actions split into immediate containment and structural fixes. I keep it blameless, focus on process, and set follow-up metrics. I publish a clear postmortem and revisit after a few weeks to validate effectiveness and prevent regression.

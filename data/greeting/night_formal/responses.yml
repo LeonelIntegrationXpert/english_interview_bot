@@ -7,3 +7,8 @@ responses:
             Boa noite, foi muito bom falar com você!
           vr_en: |
             Good night, it was great talking to you!
+        resp_2:
+          vr_pt: |
+            Boa noite, obrigado pela conversa, mesmo eu estando bem cansado hoje.
+          vr_en: |
+            Good night, thank you for the conversation, even though I’m really tired today.

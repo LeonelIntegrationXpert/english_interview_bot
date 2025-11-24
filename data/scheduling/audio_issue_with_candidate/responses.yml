@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_audio_issue_with_candidate:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Claro, sem problema. Vou ajustar aqui o microfone e repetir a resposta de forma mais clara e devagar.
-          vr_en: |
-            Sure, no problem. I’ll adjust my microphone here and repeat my answer more clearly and slowly.

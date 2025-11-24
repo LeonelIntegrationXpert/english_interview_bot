@@ -3,22 +3,202 @@ nlu:
   - intent: casual_chat
     examples: |
       - então, como foi seu dia até agora?
-      - você teve um dia muito corrido?
-      - conseguiu chegar tranquilo até aqui?
-      - pegou muito trânsito para chegar?
       - como está o seu dia hoje?
+      - você teve um dia muito corrido?
       - como foi sua semana até agora?
+      - como está sendo a sua semana?
       - teve muita reunião hoje?
-      - antes de começar, como você está se sentindo?
-      - você já tinha participado de um processo com a gente antes?
-      - deu tudo certo para entrar na call?
+      - tá sendo um dia tranquilo ou puxado?
+      - como estão as coisas por aí hoje?
+      - seu dia tá mais calmo ou mais corrido?
+      - como tem sido a sua semana até agora?
+      - como tá o dia por aí?
+      - seu dia tá puxado hoje?
+      - já aconteceu muita coisa hoje?
+      - tá dando conta do dia aí?
+      - e o seu dia, como tá indo?
+      - como foi o começo do seu dia?
+      - seu dia começou muito cedo hoje?
+      - já teve muita call hoje?
+      - hoje foi dia de muita reunião?
+      - como tá o ritmo aí hoje?
+      - seu dia tá mais de boa ou na correria?
+      - como tão as coisas no trabalho hoje?
+      - o dia tá rendendo bem?
+      - como você tá sentindo o dia hoje?
+      - tá sendo um dia tranquilo aí?
+      - teve algum imprevisto no seu dia?
+      - hoje foi mais puxado que o normal?
+      - como tá a agenda hoje, cheia?
+      - seu dia tá bem organizado ou meio bagunçado?
+      - teve tempo pra respirar hoje?
+      - como foi sua manhã?
+      - como foi sua tarde até agora?
+      - como tá sua noite hoje?
+      - já conseguiu fazer o que queria hoje?
+      - tá conseguindo tocar tudo que precisava hoje?
+      - o dia tá passando rápido pra você?
+      - hoje tá arrastado ou voando?
+      - teve algum perrengue no dia?
+      - seu dia tá mais estressante ou mais tranquilo?
+      - como tá o clima aí no seu dia?
+      - você sentiu o dia mais pesado hoje?
+      - conseguiu fazer alguma pausa no meio do dia?
+      - como foi o começo da semana pra você?
+      - a semana começou muito forte aí?
+      - a semana tá mais leve ou pesada?
+      - como você tá fechando o dia hoje?
+      - seu dia terminou melhor do que começou?
+      - como você descreveria seu dia em poucas palavras?
+      - foi um dia mais de reuniões ou de foco?
+      - conseguiu focar bem hoje?
+      - seu dia foi mais produtivo ou cansativo?
+      - hoje rendeu o que você esperava?
+      - teve muita mensagem pra responder hoje?
+      - como tá o volume de trabalho hoje?
+      - seu dia tá cheio de tarefas?
+      - você sente que seu dia tá sob controle?
+      - como tá a correria por aí nesses últimos dias?
+      - essa semana tá mais puxada que a anterior?
+      - essa semana tá mais de boa que a passada?
+      - você sente que essa semana tá rendendo?
+      - como você avaliaria seu dia de um a dez?
+      - foi um dia mais tranquilo emocionalmente?
+      - foi um dia mais cansativo mentalmente?
+      - seu dia teve mais reunião ou mais silêncio?
+      - como tá a sua energia hoje?
+      - você tá se sentindo mais cansado ou mais animado hoje?
+      - seu dia começou bem ou já com pressão?
+      - teve algum momento mais tenso no dia?
+      - aconteceu algo muito bom no seu dia hoje?
+      - aconteceu algo chato no seu dia hoje?
+      - seu dia foi mais rotina ou mais surpresa?
+      - tá conseguindo equilibrar trabalho e descanso hoje?
+      - como estão as coisas por aí na prática hoje?
+      - tá conseguindo encaixar os estudos no meio do dia?
+      - hoje deu tempo de almoçar com calma?
+      - o dia foi mais de home office ou escritório?
+      - como foi o deslocamento hoje, tranquilo?
+      - pegou muito trânsito hoje?
+      - seu dia de hoje tá melhor que o de ontem?
+      - comparado com ontem, hoje tá mais leve ou mais pesado?
+      - como tá esse fim de dia pra você?
+      - fechar o dia tá sendo fácil ou difícil hoje?
+      - seu dia foi mais silencioso ou barulhento?
+      - teve muito imprevisto no meio do dia?
+      - tá conseguindo manter o foco hoje?
+      - seu dia colaborou com seus planos ou atrapalhou?
+      - hoje você conseguiu fazer alguma pausa pra café?
+      - como tá o humor aí depois desse dia?
+      - você saiu de casa hoje ou ficou direto em casa?
+      - o dia parece que passou voando aí também?
+      - tá com a sensação de que não deu tempo de nada hoje?
+      - teve algum momento calmo no seu dia?
+      - como tá agora, o dia tá mais tranquilo?
+      - tá fechando o dia no positivo ou no negativo?
+      - seu dia foi mais de resolver problemas ou de criar coisas?
+      - hoje foi mais dia de apagar incêndio ou de planejar?
+      - teve que improvisar muito hoje no seu dia?
+      - como foi lidar com as demandas de hoje?
+      - seu dia foi mais puxado fisicamente ou mentalmente?
+      - você sente que esse dia te cansou mais que o normal?
       - how has your day been so far?
-      - has your day been very busy?
-      - did you have any trouble getting here?
-      - did you catch a lot of traffic on your way here?
       - how is your day going today?
+      - has your day been very busy?
       - how has your week been so far?
+      - how is your week going?
       - have you had many meetings today?
-      - before we start, how are you feeling?
-      - have you ever been through a process with us before?
-      - did everything work fine for you to join the call?
+      - is your day more relaxed or busy today?
+      - how are things going on your side today?
+      - is your day calm or hectic so far?
+      - how has your week been up to now?
+      - how is your day going there?
+      - your day busy today?
+      - day going crazy or ok?
+      - how your day is going now?
+      - is your day going smooth?
+      - you had a lot of calls today?
+      - many meetings for you today?
+      - how’s your schedule today?
+      - is today a busy day for you?
+      - how is things on your side?
+      - everything calm on your day?
+      - how is your morning going?
+      - how was your morning so far?
+      - how is your afternoon going?
+      - how is your evening going there?
+      - did your day start very early?
+      - did a lot of things happen today?
+      - did the day start rushed for you?
+      - day feeling long or short today?
+      - is time flying for you today?
+      - do you feel the day is heavy today?
+      - how much work do you have today?
+      - are you handling your day ok?
+      - are you keeping up with today?
+      - were there many surprises today?
+      - any big issue in your day today?
+      - any small win in your day today?
+      - is your day going better now?
+      - how is your energy today?
+      - are you feeling more tired today?
+      - today more chill or more stress?
+      - how was the start of your week?
+      - week started strong for you?
+      - is this week lighter than last one?
+      - is this week harder than the last?
+      - how would you rate your day today?
+      - more meetings or more focus today?
+      - was today more productive or tiring?
+      - did your day go like you planned?
+      - did you manage to focus today?
+      - did you get some quiet time today?
+      - lots of messages for you today?
+      - is your workload high today?
+      - are things under control today?
+      - how are things at work today?
+      - office day or home office today?
+      - did you get stuck in traffic today?
+      - was your commute ok today?
+      - day better than yesterday or worse?
+      - compared to yesterday, better today?
+      - is the end of your day calm?
+      - how are you closing your day?
+      - are you closing the day in a good mood?
+      - did you manage to take a break today?
+      - did you have time for lunch today?
+      - long day for you today?
+      - short day or endless day today?
+      - any unexpected meeting popped up?
+      - did any urgent task show up today?
+      - did you have to improvise a lot today?
+      - was today more planning or more fire fight?
+      - did you learn something new today?
+      - did anything funny happen in your day?
+      - did anything annoying happen today?
+      - more routine or more chaos today?
+      - did your day help your plans or block them?
+      - are you feeling mentally tired today?
+      - are you feeling physically tired today?
+      - quiet environment or noisy today?
+      - was it easy to stay focused today?
+      - do you feel you did enough today?
+      - do you feel you did not stop today?
+      - any moment in the day to breathe?
+      - is your day more stable now?
+      - how do you feel about this day?
+      - if you sum up your day in one word, what is it?
+      - if you put your day in one short phrase, what is it?
+      - does today feel like a good day overall?
+      - do you feel today was worth it?
+      - how does today compare to your last days?
+      - same pace as usual or different today?
+      - did you stay home all day today?
+      - did you go out much today?
+      - are you ending the day more relaxed or more stressed?
+      - how is your mood after this day?
+      - was today more about solving problems?
+      - was today more about creating things?
+      - was today more about meetings and talking?
+      - was today more about deep work and focus?
+      - any part of your day you are proud of?

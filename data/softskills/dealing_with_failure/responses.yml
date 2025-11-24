@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_dealing_with_failure:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Quando algo dá errado, eu tento olhar primeiro para o processo e para as decisões que foram tomadas, em vez de focar em culpas individuais. Gosto de entender o que aconteceu, qual era a informação disponível na época, onde estavam os riscos que talvez não tenham sido tratados e o que poderíamos ter feito diferente. A partir disso, eu costumo registrar os aprendizados, ajustar o fluxo de trabalho e, quando faz sentido, compartilhar com o time para que todo mundo cresça junto. Para mim, errar faz parte, o importante é não repetir o mesmo erro e usar a falha como um ponto de virada para melhorar.
-          vr_en: |
-            When something goes wrong, I try to look first at the process and the decisions that were made, instead of focusing on individual blame. I like to understand what happened, which information was available at that time, where the risks were that maybe were not addressed, and what we could have done differently. From there, I usually document the lessons learned, adjust the workflow, and, when it makes sense, share that with the team so everyone can grow together. For me, mistakes are part of the journey; what matters is not repeating the same mistake and using the failure as a turning point to improve.

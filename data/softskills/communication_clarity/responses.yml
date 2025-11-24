@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_communication_clarity:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu tento sempre adaptar a minha comunicação ao público. Com pessoas mais técnicas, eu posso ir mais fundo em detalhes, arquitetura e trade offs. Com pessoas de negócio, eu foco mais em impacto, risco e alternativas, evitando termos muito técnicos. Gosto de reforçar os principais pontos por escrito, registrar decisões e, sempre que possível, pedir para a outra pessoa resumir o que ficou combinado, para ter certeza de que estamos alinhados. Quando percebo que algo não foi claro, eu não tenho problema em voltar, explicar de outro jeito e ajustar a mensagem.
-          vr_en: |
-            I always try to adapt my communication to the audience. With more technical people I can go deeper into details, architecture, and trade offs. With business stakeholders I focus more on impact, risk, and options, and I avoid using too many technical terms. I like to reinforce key points in writing, register decisions, and, whenever possible, ask the other person to summarize what was agreed so that I can confirm we are aligned. When I notice something was not clear, I have no problem going back, explaining in a different way, and adjusting the message.

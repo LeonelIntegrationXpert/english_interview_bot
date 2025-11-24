@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_problem_solving:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Quando aparece um problema, eu primeiro tento entender o contexto e separar fatos de opiniões. Depois, busco a causa raiz, levanto hipóteses, priorizo as mais prováveis e testo de forma organizada. Ao final, valido o resultado e, se possível, registro o aprendizado para o time.
-          vr_en: |
-            When a problem comes up, I first try to understand the context and separate facts from opinions. Then I look for the root cause, raise hypotheses, prioritize the most likely ones, and test them in an organized way. In the end, I validate the result and, if possible, document the learning for the team.

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_feedback_reception:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu enxergo feedback como uma das formas mais rápidas de ajustar rota e crescer. Quando recebo um feedback mais crítico, eu tento primeiro ouvir sem me defender, fazer perguntas para entender o contexto e, depois, traduzir aquilo em ações práticas. Mesmo quando eu não concordo cem por cento, eu procuro entender a percepção da outra pessoa, porque é essa percepção que ela tem do meu trabalho. Em seguida, eu costumo combinar pequenos próximos passos, acompanhar a evolução e mostrar, na prática, que aquele feedback foi levado em consideração.
-          vr_en: |
-            I see feedback as one of the fastest ways to realign and grow. When I receive more critical feedback, I try to listen without being defensive, ask questions to understand the context, and then translate that into practical actions. Even when I do not fully agree, I try to understand the other person’s perspective, because that is the way my work is being perceived. After that, I usually define clear next steps, follow up on the progress, and show in practice that the feedback was taken seriously.

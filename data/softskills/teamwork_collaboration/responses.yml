@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_teamwork_collaboration:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Em trabalho em equipe eu procuro ser colaborativo e transparente. Eu compartilho o que estou fazendo, peço ajuda quando preciso e também me ofereço para apoiar quando vejo alguém com dificuldade. Tento ouvir as opiniões das outras pessoas, mesmo quando são diferentes das minhas, e foco mais no que é melhor para o projeto do que em ter a ideia escolhida. Em reuniões, costumo ser objetivo, trazer informações claras e ajudar a organizar próximos passos para que todos saiam alinhados.
-          vr_en: |
-            When I work in a team I try to be collaborative and transparent. I share what I am doing, I ask for help when I need it, and I also offer support when I see someone struggling. I try to listen to other people’s opinions, even when they are different from mine, and I focus more on what is best for the project than on having my idea chosen. In meetings I try to be objective, bring clear information, and help organize next steps so that everyone leaves aligned.

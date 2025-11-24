@@ -12,6 +12,96 @@ nlu:
       - legal reencontrar você
       - bom reencontrar você
       - bom falar com você de novo
+      - quanto tempo, cê sumiu
+      - e aí, sumido
+      - e aí, sumida
+      - nossa, quanto tempo
+      - nossa, sumiu em
+      - caramba, faz tempo
+      - fazia mó tempão que a gente não falava
+      - tava sumido hein
+      - tava sumida hein
+      - bom te encontrar de novo
+      - que bom encontrar você de novo
+      - bom te ver por aqui de novo
+      - que bom ver você por aqui outra vez
+      - bom ver sua cara de novo
+      - bom ver você de novo na call
+      - bom ver você de novo nessa reunião
+      - bom te ver de novo por aqui
+      - até que enfim a gente se fala de novo
+      - até que enfim a gente se reencontra
+      - quanto tempo que não te via
+      - quanto tempo que não te escutava
+      - achei que nunca mais ia te ver
+      - achei que você tinha sumido do mapa
+      - sumiu e voltou agora, hein
+      - que bom que apareceu de novo
+      - que bom que a gente se cruzou de novo
+      - feliz de te ver de novo
+      - gostei de rever você
+      - bom revê você
+      - bom reve te aqui de novo
+      - tava com saudade desse papo
+      - tava com saudades de falar contigo
+      - fazia tempo que eu não ouvia sua voz
+      - fazia tempo que não aparecia por aqui
+      - fazia um tempinho que a gente não falava
+      - faz um tempão que não falava com você
+      - poxa, quanto tempo sem noticias
+      - poxa, quanto tempo sem falar nada
+      - sumiu ein, bom te ver de novo
+      - sumiu em, bom falar contigo de novo
+      - bom te ver depois de tanto tempo
+      - bom falar de novo depois de tanto tempo
+      - depois de tanto tempo, bom te ver
+      - depois de um tempão, bom reencontrar
+      - quanto tempo, tava fazendo falta
+      - quanto tempo, tava sentindo falta desse papo
+      - nossa, a gente não se via faz seculos
+      - nossa, fazia seculos que não falava com você
+      - que legal a gente se falar de novo
+      - que legal poder conversar de novo
+      - ainda bem que a gente se achou de novo
+      - ainda bem que deu certo de se falar de novo
+      - bom demais te ver de novo
+      - bom demais falar com você de novo
+      - muito bom reencontrar você hoje
+      - muito bom te ver hoje de novo
+      - que bom essa chance de falar denovo
+      - que bom a gente ta junto de novo aqui
+      - tava com saudade de trocar idea
+      - fazia tempo que não trocava ideia contigo
+      - finalmente a gente marcô de novo
+      - finalmente rolou de se falar de novo
+      - que bom que apareceo hoje
+      - que bom que entrou na call de novo
+      - bom te ter de volta aqui
+      - bom te ver de volta na rotina
+      - bom ver você aqui outra vez
+      - bom ver voce de novo por aqui
+      - nossa, quanto tempo sem uma call juntos
+      - nossa, quanto tempo sem reunião com você
+      - a gente não se via faz uma cara
+      - a gente não se falava faz uma cara
+      - fazia uma cara que você não aparecia
+      - fazia uma cara que eu não te via
+      - sumiu mas voltou, ainda bem
+      - sumiu mas reapareceu, bom te ver
+      - tava na hora da gente se falar de novo
+      - tava na hora da gente se reencontrar
+      - bom, pelo menos a gente se viu de novo
+      - bom, pelo menos a gente falou de novo
+      - que bom te reencontrar justamente hoje
+      - que bom te ver logo hoje
+      - te ver de novo já melhorou o dia
+      - falar contigo de novo já anima o dia
+      - legal demais te rever
+      - massa demais falar contigo de novo
+      - da hora te ver de novo
+      - show te reencontrar aqui
+      - bacana demais te rever hoje
+      - muito feliz de te ver de novo
       - nice to see you again
       - great to see you again
       - good to see you again
@@ -22,3 +112,93 @@ nlu:
       - good to talk to you again
       - we haven’t talked in a while
       - it’s nice to catch up again
+      - we did not talk for a long time
+      - long time we dont talk
+      - long time we did not speak
+      - feels like a long time since we talked
+      - wow, long time no talk
+      - wow, it has been so long
+      - wow, it has been a long time
+      - good to see you after so long
+      - nice to see you after so long
+      - great to see you after so long
+      - happy to see you again
+      - really happy to see you again
+      - really good to see you again
+      - so good to see you again
+      - so nice to see you again
+      - nice seeing you again
+      - great seeing you again
+      - good seeing you again
+      - nice to see you back
+      - good to see you back
+      - great to see you back here
+      - nice to see you back here
+      - good to see you here again
+      - nice to see you here again
+      - great to see you here again
+      - nice to hear from you again
+      - good to hear from you again
+      - great to hear from you again
+      - we did not speak for a while
+      - we havent spoken in a while
+      - we have not spoke in a while
+      - feels like ages since we talked
+      - feels like ages since last time
+      - it’s been ages since we spoke
+      - it’s been ages since we last talked
+      - it feels like forever since we talked
+      - it feels like for ever since we spoke
+      - good to catch up again
+      - nice to catch up again
+      - great to catch up again
+      - cool to see you again
+      - cool seeing you again
+      - so cool to talk again
+      - so good to talk again
+      - nice talking to you again
+      - great talking to you again
+      - good talking to you again
+      - happy to talk to you again
+      - really nice to talk again
+      - we finally talk again
+      - finally we talk again
+      - finally talking to you again
+      - finally see you again
+      - finally seeing you again
+      - glad to see you again
+      - glad to talk to you again
+      - glad we can talk again
+      - glad we can chat again
+      - nice to chat with you again
+      - good to chat with you again
+      - great to chat with you again
+      - we are talking again after a long time
+      - we are speaking again after a long time
+      - we are finally talking again
+      - been a long time since last call
+      - long time since our last call
+      - long time since our last meeting
+      - feels like long since our last talk
+      - we did not see each other for a while
+      - we didnt see each other for so long
+      - we have not seen each other in a while
+      - we have not seen each other for so long
+      - nice to see your face again
+      - good to see your face again
+      - nice to see you on screen again
+      - good to see you on screen again
+      - good to see you in this call again
+      - nice to see you in this call again
+      - good to meet you again
+      - nice to meet you again here
+      - great to meet you again here
+      - happy to see you again today
+      - happy to talk to you again today
+      - really nice to see you today again
+      - really nice to talk today again
+      - we are catching up again today
+      - nice to be catching up again
+      - good to be catching up again
+      - good to see you again today
+      - nice to see you again today

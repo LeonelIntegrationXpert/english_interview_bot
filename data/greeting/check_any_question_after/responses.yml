@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Sim, eu gostaria de saber um pouco mais sobre os próximos passos do processo e o tempo estimado para retorno, se possível.
+            Sim, eu gostaria de saber um pouco mais sobre os próximos passos e o prazo de retorno.
           vr_en: |
-            Yes, I’d like to know a bit more about the next steps in the process and the estimated timeline for feedback, if possible.
+            Yes, I’d like to know a bit more about the next steps and the expected timeline for feedback.
+        resp_2:
+          vr_pt: |
+            Por enquanto não, acho que está tudo bem claro.
+          vr_en: |
+            Not at the moment, I think everything is quite clear.

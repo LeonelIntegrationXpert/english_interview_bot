@@ -3,22 +3,202 @@ nlu:
   - intent: offer_break
     examples: |
       - se em algum momento você precisar de uma pausa, é só me avisar
-      - se quiser beber uma água ou levantar um pouco, podemos fazer uma pausa rápida
-      - caso você precise de um minutinho, é só falar que a gente para
-      - se em algum momento se sentir desconfortável, me avisa e a gente faz uma pausa
-      - se precisar ajustar algo aí, como áudio ou câmera, podemos pausar sem problema
-      - se você quiser um tempo rápido para respirar, é só dizer
-      - se em algum momento você quiser uma pausa, podemos parar e retomar depois de um minuto
-      - se estiver muito intenso, me avisa que a gente desacelera um pouco
-      - se precisar interromper rapidinho por qualquer motivo, é só me falar
-      - caso você queira uma pausa no meio da entrevista, não tem problema nenhum
+      - se quiser fazer uma pausa rápida, pode me falar que a gente para
+      - se você precisar de um minutinho para respirar, é só dizer
+      - se em algum momento você quiser beber uma água, podemos pausar
+      - se precisar ajustar algo aí, podemos parar um instante sem problema
+      - se a entrevista ficar cansativa, podemos fazer uma pausa rápida
+      - se você sentir que precisa de uma pausa, é só comentar comigo
+      - se em algum momento estiver desconfortável, podemos pausar e retomar depois
+      - se precisar sair por um minuto, é só avisar que a gente espera
+      - se quiser uma pausa no meio da entrevista, não tem problema nenhum
+      - se quiser levantar um pouco, podemos pausar sem problema
+      - se o ambiente ficar desconfortável, podemos parar por um instante
+      - se precisar alongar, é só avisar
+      - se quiser respirar um pouco, podemos parar
+      - se sentir cansaço, podemos pausar rapidinho
+      - se quiser ajustar sua câmera, podemos parar um momento
+      - se algo interromper aí, podemos esperar
+      - se precisar responder algo urgente, é só pedir pausa
+      - se o fone incomodar, podemos parar enquanto você ajusta
+      - se estiver cansando a visão, podemos dar uma pausa
+      - se quiser descansar um pouco a mente, podemos parar
+      - se a entrevista ficar pesada, a gente pausa
+      - se sentir que está acelerado demais, podemos parar
+      - se quiser relaxar um pouco, é só avisar
+      - se você quiser um minuto só para respirar, podemos dar
+      - se precisar de pausa mental, é só pedir
+      - se tiver qualquer desconforto, podemos parar
+      - se quiser reorganizar suas anotações, a gente pausa
+      - se o ambiente fizer barulho, podemos parar e esperar
+      - se quiser ajustar luz ou posição, podemos pausar
+      - se o computador travar, podemos parar sem pressa
+      - se quiser se recompor, podemos parar
+      - se der vontade de ir ao banheiro, pode avisar
+      - se quiser cinco segundos de silêncio, avisar já basta
+      - se sentir pressão demais, podemos pausar
+      - se quiser uma pausa antes da próxima pergunta, é só falar
+      - se o ritmo estiver rápido, podemos parar e respirar
+      - se quiser dar uma ajeitada geral, podemos pausar
+      - se quiser olhar suas notas com calma, podemos parar
+      - se sentir o corpo tenso, podemos dar uma pausa
+      - se quiser tomar café ou chá, é só pedir
+      - se precisar olhar algo no celular, podemos esperar
+      - se bater ansiedade, a gente pausa
+      - se o ambiente esquentar, você pode ajustar com calma
+      - se quiser descansar a voz, podemos parar
+      - se quiser beber água, sem problema nenhum
+      - se sentir necessidade de se recompor, podemos dar uma pausa
+      - se algo distrair você aí, podemos interromper
+      - se preferir uma pausa estratégica, podemos fazer
+      - se a concentração cair, podemos parar
+      - se sentir a mente cheia, podemos fazer uma pausa breve
+      - se quiser dar uma caminhada rápida, é só avisar
+      - se quiser reorganizar o pensamento, podemos pausar
+      - se bater cansaço mental, podemos parar
+      - se quiser respirar fundo, podemos pausar
+      - se a entrevista ficar longa, podemos dividir com uma pausa
+      - se você quiser, podemos parar alguns segundos
+      - se sentir vontade de dar uma relaxada, pausamos
+      - se quiser limpar os óculos, podemos parar
+      - se o ar ficar pesado, pode ajustar e a gente espera
+      - se quiser mover a cadeira, podemos pausar
+      - se a sala estiver barulhenta, podemos esperar melhorar
+      - se quiser checar algo rápido, podemos pausar
+      - se precisar normalizar a respiração, podemos parar
+      - se quiser tomar um ar, podemos esperar
+      - se sentir que está perdendo o foco, pausa sem problema
+      - se quiser esfriar a cabeça, podemos parar
+      - se quiser só um minuto de calma, podemos dar
+      - se quiser revisar algo mentalmente, a gente pausa
+      - se estiver tudo corrido aí, podemos desacelerar
+      - se quiser pausar antes de responder, fica à vontade
+      - se algo te atrapalhar fisicamente, podemos parar
+      - se precisar ajeitar o microfone, pausamos
+      - se quiser olhar o relógio, podemos parar
+      - se ficar desconfortável sentado, podemos dar pausa
+      - se quiser alinhar algo ao redor, é só falar
+      - se quiser simplesmente respirar, pausamos
+      - se qualquer coisa incomodar, pausa liberada
+      - se precisar recompor raciocínio, podemos parar
+      - se quiser um instante de silêncio, podemos dar
+      - se preferir uma pequena pausa antes de seguir, tudo bem
+      - se quiser ajustar seu ambiente, a gente espera
+      - se quiser mais conforto, pausamos
+      - se sentir que precisa de 30 segundos, é só dizer
+      - se quiser reiniciar sua concentração, pausamos
+      - se perceber que está cansando, podemos parar
+      - se quiser realmente uma pausa, sem problema
+      - se precisar restabelecer foco, podemos parar
+      - se quiser tomar ar fresco, é só avisar
+      - se sentir que precisa organizar ideias, pausamos
+      - se quiser reduzir o ritmo, podemos parar
+      - se estiver sobrecarregado, podemos pausar
+      - se quiser um intervalo de verdade, sem problema
+      - se quiser retomar depois de uma pausa, suportamos
+      - se qualquer coisa incomodar sua atenção, pausamos
+      - se quiser relaxar um pouco a postura, paramos
+      - se precisar relaxar o pescoço, pausamos
+      - se quiser um minuto para reorganizar suas coisas, podemos pausar
+      - se a entrevista ficar longa demais, podemos dividir com uma pausa
+      - se precisar limpar a tela ou câmera, podemos parar um instante
+      - if you want a brief moment to reset, we can pause
+      - if you need a second to adjust your setup, we can stop
+      - if you feel the interview is getting long, we can break it
+      - if you want a short pause to refresh your mind, just say it
+      - if you need to clear your screen or camera, we can pause
+      - if you need to relax a bit before continuing, we can stop
+      - if the pace feels too fast, we can pause anytime
+      - if you need to breathe more slowly, we can stop
+      - if you want a quick moment to settle, we can pause
+      - if you want to stretch briefly, we can stop
+      - if you feel overloaded, we can pause right away
+      - if you want to prepare before answering, we can pause
+      - if you need to slow things down for a moment, we can stop
       - if at any point you need a break, just let me know
-      - if you’d like to grab some water or stand up for a moment, we can take a quick break
-      - if you need a minute at any time, just say it and we’ll pause
-      - if you feel uncomfortable at any point, let me know and we can take a break
-      - if you need to adjust anything on your side, like audio or camera, we can pause, no problem
-      - if you’d like a short moment to breathe, just let me know
-      - if at any time you want a break, we can stop and continue a minute later
-      - if it feels a bit intense, tell me and we’ll slow down a little
-      - if you need to quickly step away for any reason, just say so
-      - if you’d like to have a break in the middle of the interview, that’s totally fine
+      - if you would like to take a short break, you can tell me and we will pause
+      - if you need a minute to breathe, just say it
+      - if at any point you want to get some water, we can pause
+      - if you need to adjust anything on your side, we can stop for a moment without any problem
+      - if the interview feels tiring, we can take a quick break
+      - if you feel that you need a break, just let me know
+      - if at any point you feel uncomfortable, we can pause and continue later
+      - if you need to step away for one minute, just tell me and we will wait
+      - if you would like a break in the middle of the interview, that is totally fine
+      - if you need to stretch a bit, we can pause
+      - if something distracts you, we can stop for a moment
+      - if you need a second to reset, just tell me
+      - if you want to breathe slowly, we can pause
+      - if you get tired, we can take a short break
+      - if you want to adjust your camera, we can stop
+      - if you need to check something quickly, we can pause
+      - if you feel overwhelmed, we can take a break
+      - if you need to fix your headset, we can stop
+      - if your eyes feel tired, we can pause
+      - if you need a moment to relax, just say it
+      - if the call gets too intense, we can pause
+      - if you want to slow down a bit, we can stop
+      - if you need a second of calm, we can pause
+      - if you need to rest your mind, we can take a moment
+      - if at any point things feel too fast, we can pause
+      - if you want a moment of silence, we can stop
+      - if you need to get some air, we can pause
+      - if something interrupts you, we can stop
+      - if you need time to reorganize, we can pause
+      - if you lose focus, we can take a break
+      - if your room gets noisy, we can wait
+      - if the pace feels heavy, we can pause
+      - if you want to drink something, feel free to ask
+      - if you need to think quietly for a moment, we can pause
+      - if you feel stressed, we can take a break
+      - if you need to adjust the lighting, we can pause
+      - if your chair is uncomfortable, we can stop
+      - if you get anxious, we can pause
+      - if you need a moment to recover, just tell me
+      - if you want to reset your thoughts, we can pause
+      - if you need to move a bit, we can stop
+      - if you want to organize your notes, we can pause
+      - if you need to refocus, we can take a moment
+      - if the call gets too long, we can break it
+      - if you need to relax your shoulders, we can pause
+      - if you want to check your phone, we can stop
+      - if your concentration drops, we can take a break
+      - if you need a moment to breathe deeply, we can pause
+      - if you feel mental fatigue, we can stop
+      - if you need to adjust your environment, we can pause
+      - if you want a short mental reset, we can stop
+      - if the pace gets too much, we can take a break
+      - if you want to collect your thoughts, we can pause
+      - if you need to cool your mind, just say it
+      - if you want a few seconds of rest, we can stop
+      - if you feel drained, we can pause
+      - if you want to slow down the flow, we can break
+      - if you need a quick reset, we can pause
+      - if anything feels too intense, we can stop
+      - if your headset bothers you, we can pause
+      - if the air feels heavy, you can adjust and we wait
+      - if you want to rest your voice, we can pause
+      - if you want a bit of quiet time, we can stop
+      - if you lose your rhythm, we can pause
+      - if you need a quick refresh, we can stop
+      - if your thoughts get tangled, we can pause
+      - if you want to stand up for a moment, we can stop
+      - if you need to stretch your back, we can pause
+      - if you want to breathe more calmly, we can stop
+      - if things feel rushed, we can slow down
+      - if you need a bit of space, we can pause
+      - if you want to drink water, we can pause anytime
+      - if something feels off, we can stop
+      - if you want to rest a moment before continuing, we can pause
+      - if your mind feels overloaded, we can take a break
+      - if you want to settle your thoughts, we can pause
+      - if you feel tension in your body, we can stop
+      - if the environment distracts you, we can pause
+      - if you need a small time-out, we can stop
+      - if you feel your focus slipping, we can pause
+      - if you want to relax a second, we can stop
+      - if you need a quick breather, we can take it
+      - if you want to clear your head, we can pause
+      - if you need to adjust your posture, we can stop
+      - if things get overwhelming, we can pause
+      - if you want a small break to breathe, we can take it

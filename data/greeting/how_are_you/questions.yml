@@ -3,15 +3,105 @@ nlu:
   - intent: how_are_you
     examples: |
       - tudo bem?
+      - tudo certo?
+      - tudo tranquilo?
       - como vai?
       - como você tá?
       - como cê tá?
       - como andam as coisas?
       - como tá a correria?
       - firmeza?
-      - tudo certo?
-      - tudo tranquilo?
       - beleza?
+      - tudo bem contigo?
+      - tudo bem com vc?
+      - tudo bem com voce?
+      - tudo bom?
+      - tudo bom com você?
+      - tudo bom com vc?
+      - tá tudo bem?
+      - ta tudo bem?
+      - tá tudo bom?
+      - ta tudo bom?
+      - tá tudo certo?
+      - ta tudo certo?
+      - tá tudo tranquilo por aí?
+      - ta tudo tranquilo por ai?
+      - tudo em paz?
+      - tudo sussa?
+      - tudo de boa?
+      - tudo de boas?
+      - de boa?
+      - de boas?
+      - tá bem?
+      - ta bem?
+      - tá melhor?
+      - ta melhor?
+      - como você está?
+      - como vc está?
+      - como vc ta?
+      - como vc tá?
+      - como voce ta?
+      - como voce tá?
+      - como c ta?
+      - como ce ta?
+      - como cê tá hoje?
+      - como vc tá hoje?
+      - como voce tá hoje?
+      - como tá você hoje?
+      - como ta voce hoje?
+      - como tá teu dia?
+      - como ta teu dia?
+      - teu dia tá bom?
+      - teu dia ta bom?
+      - e aí, tudo bem?
+      - e aí, tudo bom?
+      - e aí, tudo certo?
+      - e aí, tudo tranquilo?
+      - e aí, como vc ta?
+      - eai, tudo bem?
+      - eai, tudo bom?
+      - eae, tudo de boa?
+      - eae, tudo sussa?
+      - eai, firmeza?
+      - e ai, beleza?
+      - e ai, firmeza?
+      - como tão as coisas?
+      - como estao as coisa?
+      - como andam as coisa?
+      - como vai a vida?
+      - como tá a vida?
+      - como ta a vida?
+      - como as coisa por ai?
+      - como estão as coisas por aí?
+      - como estão as coisas com você?
+      - como tão as coisas com vc?
+      - tudo certo contigo?
+      - tudo certo com vc?
+      - tudo certinho?
+      - tudo certin?
+      - tudo ok?
+      - ta ok por ai?
+      - tá ok por aí?
+      - tá tudo em ordem?
+      - ta tudo em ordem?
+      - tá aguentando de boa?
+      - ta aguentando de boa?
+      - tá indo bem?
+      - ta indo bem?
+      - tá segurando firme?
+      - ta segurando firme?
+      - hoje tá de boa?
+      - hoje ta de boa?
+      - hoje tá tranquilo?
+      - hoje ta tranquilo?
+      - hoje tá corrido?
+      - hoje ta corrido?
+      - como tá seu dia hoje?
+      - como ta seu dia hoje?
+      - como cê tá de verdade?
+      - como vc ta de verdade?
+      - você tá bem mesmo?
+      - vc ta bem mesmo?
       - how are you?
       - how are you doing?
       - how’s it going?
@@ -22,3 +112,93 @@ nlu:
       - how’s your day going?
       - how’s your week going?
       - everything good?
+      - are you okay?
+      - are you ok?
+      - you ok?
+      - you okay?
+      - you good?
+      - all good?
+      - all good with you?
+      - everything all right?
+      - everything alright?
+      - is everything okay?
+      - is everything ok?
+      - how you doing?
+      - how you doing today?
+      - how u doing?
+      - how u doing today?
+      - how r you?
+      - how r u?
+      - how are you today?
+      - how are you feeling?
+      - how are you feeling today?
+      - how you feeling today?
+      - how you feel today?
+      - how’s your day?
+      - hows your day?
+      - how’s your day so far?
+      - hows your day so far?
+      - how’s your day going so far?
+      - hows your day going so far?
+      - how is it going?
+      - how is it going today?
+      - how is everything?
+      - how is everything today?
+      - how are things with you?
+      - how are things going?
+      - how are things going today?
+      - how’s life?
+      - hows life?
+      - how’s life going?
+      - hows life going?
+      - how’s life treating you?
+      - hows life treating you?
+      - how you been?
+      - how you been lately?
+      - how have you been lately?
+      - how have u been?
+      - how you doing these days?
+      - how u doing these days?
+      - you doing good?
+      - you doing fine?
+      - you doing alright?
+      - you doing all right?
+      - you doing okay today?
+      - you ok today?
+      - you feeling ok today?
+      - you feeling okay today?
+      - you feeling good today?
+      - are you feeling good today?
+      - are you feeling okay today?
+      - is your day going good?
+      - is your day going well?
+      - is your week going good?
+      - is your week going well?
+      - everything good with you today?
+      - everything ok with you today?
+      - everything fine with you?
+      - all good your side?
+      - all good on your side?
+      - all good there?
+      - all good over there?
+      - how are things on your side?
+      - how are things there?
+      - how are things over there?
+      - how’s your morning going?
+      - hows your morning going?
+      - how’s your afternoon going?
+      - hows your afternoon going?
+      - how’s your evening going?
+      - hows your evening going?
+      - how you holding up?
+      - how are you holding up?
+      - you holding up okay?
+      - you holding up alright?
+      - how are you today, all good?
+      - how you today, all good?
+      - everything calm today?
+      - everything chill today?
+      - day going good?
+      - day going ok?
+      - day going fine?
+      - week going good?

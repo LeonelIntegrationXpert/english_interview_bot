@@ -2,23 +2,203 @@ version: '3.1'
 nlu:
   - intent: english_support
     examples: |
+      - se eu falar muito rapido, pode me perdir para repetir
       - se em algum momento eu falar rápido demais em inglês, pode me pedir para repetir
-      - se eu falar muito rápido, pode pedir para eu desacelerar, sem problema
-      - se tiver qualquer dificuldade com o inglês, é só me avisar, tudo bem?
-      - se alguma palavra em inglês não ficar clara, pode pedir para eu explicar de outra forma
+      - se eu falar muito rápido em inglês, pode pedir para eu falar mais devagar
+      - se tiver qualquer dificuldade com o inglês, é só me avisar
+      - se alguma palavra em inglês não ficar clara, pode pedir para eu explicar de outro jeito
       - se você não entender alguma pergunta em inglês, pode pedir para eu repetir
-      - se precisar, posso reformular as perguntas em inglês para ficar mais fácil
-      - se ficar em dúvida em algum termo, pode perguntar, não tem problema
-      - se quiser que eu repita devagar alguma parte, é só falar
+      - se precisar, eu posso reformular a pergunta em inglês para ficar mais fácil
+      - se ficar em dúvida com algum termo em inglês, pode perguntar sem problema
+      - se quiser que eu repita alguma parte em inglês mais devagar, é só falar
       - se em algum momento o inglês atrapalhar, a gente ajusta o ritmo
-      - não tem problema pedir para repetir a pergunta em inglês se precisar
-      - if at any point I speak too fast in English, feel free to ask me to repeat
-      - if I’m speaking too quickly, you can ask me to slow down, no problem
-      - if you have any difficulty with the English, just let me know, okay?
-      - if any word in English isn’t clear, you can ask me to explain it differently
-      - if you don’t understand a question in English, you can always ask me to repeat it
-      - if needed, I can rephrase the questions in English to make them easier
-      - if you’re unsure about any term, feel free to ask, that’s totally fine
-      - if you want me to repeat something more slowly, just say so
-      - if at any point the English gets in the way, we can adjust the pace
-      - it’s absolutely fine to ask me to repeat a question in English if you need
+      - não tem problema nenhum pedir para repetir a pergunta em inglês se precisar
+      - se quiser, posso repetir só a palavra em inglês que ficou confusa
+      - se preferir, posso falar em inglês mais pausado
+      - se alguma frase em inglês ficar estranha, pode pedir para ajustar
+      - posso explicar qualquer parte em inglês com mais calma
+      - se o inglês pesar, posso simplificar
+      - posso repetir em inglês quantas vezes for preciso
+      - se travar no inglês, é só pedir ajuda
+      - posso falar em inglês mais devagar sem problema
+      - se quiser que eu troque alguma palavra em inglês, posso trocar
+      - posso detalhar melhor qualquer parte em inglês
+      - se eu usar alguma expressão difícil, posso explicar
+      - posso repetir sem pressa se você quiser
+      - posso usar frases mais simples em inglês
+      - posso reduzir a velocidade do inglês a qualquer momento
+      - se algo soar diferente, posso esclarecer rápido
+      - posso reforçar a pronúncia de qualquer palavra
+      - se achar o inglês rápido, me avisa
+      - posso quebrar a frase em partes menores
+      - posso explicar o significado de qualquer termo
+      - posso repetir só a pergunta se preferir
+      - se quiser, posso deixar as frases bem curtas
+      - posso repetir mais devagar quantas vezes precisar
+      - posso ajustar o inglês para ficar mais leve
+      - se o inglês ficar confuso, posso esclarecer
+      - posso usar palavras mais comuns em inglês
+      - posso repetir sem ficar acelerado
+      - posso revisar a frase em inglês com você
+      - se o sotaque atrapalhar, posso corrigir
+      - posso falar bem devagar mesmo
+      - posso explicar parte por parte
+      - posso refazer a pergunta em inglês de um jeito mais simples
+      - se eu atropelar as palavras, pode me avisar
+      - posso substituir expressões difíceis
+      - posso falar inglês em tom mais calmo
+      - posso repetir qualquer trecho isolado
+      - posso detalhar a pergunta em inglês antes de seguir
+      - se precisar, posso falar duas vezes
+      - posso repetir a pronúncia de uma palavra
+      - posso colocar a frase em inglês mais clara
+      - posso ajustar o ritmo sempre que quiser
+      - posso explicar expressões idiomáticas
+      - posso parar e repetir sem problema
+      - posso reformular em inglês com mais clareza
+      - posso usar inglês bem básico se ajudar
+      - posso explicar com exemplos simples
+      - posso repetir com mais ênfase nas palavras
+      - posso falar inglês no seu ritmo
+      - posso repetir devagar até ficar claro
+      - posso trocar a ordem da frase para facilitar
+      - posso explicar o sentido da frase toda
+      - posso deixar o inglês mais direto
+      - posso repetir parte por parte
+      - posso revisar o inglês rapidamente com você
+      - posso explicar qualquer dúvida pequena
+      - posso repetir sem pressão nenhuma
+      - posso ajustar o inglês a qualquer momento
+      - posso refazer tudo mais devagar
+      - posso reforçar o significado da pergunta
+      - posso dar outra versão da mesma frase em inglês
+      - posso explicar gírias se eu usar alguma
+      - posso repetir quantas vezes precisar
+      - posso cortar partes difíceis da frase
+      - posso deixar tudo lento e bem claro
+      - posso simplificar qualquer expressão
+      - posso falar com total calma
+      - posso reexplicar o que precisar
+      - posso dividir a frase em inglês em etapas
+      - posso repetir e confirmar com você
+      - posso revisar vocabulário na hora
+      - posso ajustar tudo se o inglês ficar pesado
+      - posso explicar palavra por palavra
+      - posso falar inglês bem devagarzinho
+      - posso repetir sem soar rápido
+      - posso deixar a pergunta bem clara em inglês
+      - posso trocar qualquer termo complicado
+      - posso explicar o contexto do inglês usado
+      - posso repetir a mesma frase com outras palavras
+      - posso esclarecer qualquer parte confusa
+      - posso transformar frases longas em curtas
+      - posso repetir até você se sentir seguro
+      - posso adaptar meu inglês ao seu nível
+      - posso falar sem acelerar o ritmo
+      - posso repetir e conferir se ficou claro
+      - posso explicar todas as partes técnicas
+      - posso ajustar imediatamente se quiser
+      - posso fazer a pergunta em inglês em duas etapas
+      - posso repetir com mais pausas
+      - posso manter o inglês simples do começo ao fim
+      - posso repetir devagar até você entender tudo
+      - if at any point I speak too fast in English, you cn ask repeat
+      - if at any point I speak too fast in English, you can ask me to repeat
+      - if I speak too quickly in English, you can ask me to slow down
+      - if you have any difficulty with the English, just let me know
+      - if any word in English is not clear, you can ask me to explain it in a different way
+      - if you do not understand any question in English, you can ask me to repeat it
+      - if necessary, I can rephrase the question in English to make it easier
+      - if you are unsure about any term in English, you can ask without any problem
+      - if you want me to repeat any part in English more slowly, just tell me
+      - if at any point the English becomes a problem, we can adjust the pace
+      - it is completely fine to ask me to repeat the question in English if you need
+      - if you want, I can repeat only the English word that was unclear
+      - I can speak more slowly in English if you prefer
+      - if any sentence sounds confusing in English, you can ask me to clarify
+      - I can explain any English part more calmly
+      - if the English feels too heavy, I can simplify
+      - I can repeat the English as many times as needed
+      - if you get stuck in English, just ask for help
+      - I can slow down my English anytime
+      - if you want me to change a word in English, I can do that
+      - I can detail any English part for you
+      - if I use a difficult expression, I can explain it
+      - I can repeat with no rush
+      - I can use simpler English phrases
+      - I can reduce the English speed anytime
+      - if something sounds strange, I can clarify it quickly
+      - I can reinforce the pronunciation of any word
+      - if the English feels fast, let me know
+      - I can break the English sentence into smaller parts
+      - I can explain the meaning of any term
+      - I can repeat only the question if you prefer
+      - if you want, I can keep the English very short
+      - I can repeat more slowly as many times as you need
+      - I can adjust my English to make it lighter
+      - if the English gets confusing, I can clarify
+      - I can use more common English words
+      - I can repeat without speeding up
+      - I can walk through the English sentence with you
+      - if my accent gets in the way, I can correct it
+      - I can speak very slowly in English
+      - I can explain the English step by step
+      - I can reask the question in simpler English
+      - if I rush the English, tell me
+      - I can replace any difficult expressions
+      - I can speak English in a calmer tone
+      - I can repeat any section alone
+      - I can detail the English question before we continue
+      - I can repeat twice if necessary
+      - I can repeat the pronunciation of a word
+      - I can make the English sentence clearer
+      - I can adjust the pace anytime you want
+      - I can explain English idioms
+      - I can pause and repeat without a problem
+      - I can rephrase the English more clearly
+      - I can use very basic English if that helps
+      - I can explain using simple examples
+      - I can repeat with stronger emphasis
+      - I can speak English at your pace
+      - I can repeat slowly until it is clear
+      - I can change the order of the English sentence
+      - I can explain the whole English meaning
+      - I can make the English more direct
+      - I can repeat it piece by piece
+      - I can review the English sentence with you
+      - I can clarify any small English doubt
+      - I can repeat with zero pressure
+      - I can adjust the English anytime
+      - I can redo the English more slowly
+      - I can reinforce the meaning of the question
+      - I can give another version of the same English sentence
+      - I can explain slang if I use any
+      - I can repeat as many times as needed
+      - I can remove difficult parts from the sentence
+      - I can make everything slow and clear
+      - I can simplify any English expression
+      - I can speak very calmly in English
+      - I can re-explain anything you want
+      - I can divide the English sentence into steps
+      - I can repeat and confirm with you
+      - I can review vocabulary on the spot
+      - I can adjust if the English gets heavy
+      - I can explain word by word
+      - I can speak super slowly if needed
+      - I can repeat without sounding fast
+      - I can make the English question very clear
+      - I can replace any complicated term
+      - I can explain the context of the English I use
+      - I can repeat the same sentence with different words
+      - I can clarify any confusing part
+      - I can turn long English sentences into short ones
+      - I can repeat until you feel comfortable
+      - I can adapt my English to your level
+      - I can speak without rushing
+      - I can repeat and check if it is clear
+      - I can explain any technical English parts
+      - I can adjust immediately if you ask
+      - I can ask the question in two English steps
+      - I can repeat with more pauses
+      - I can keep the English simple from start to finish
+      - I can repeat slowly until everything is understood

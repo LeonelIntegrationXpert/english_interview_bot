@@ -12,6 +12,96 @@ nlu:
       - podemos seguir normalmente com a duração planejada da entrevista?
       - esse horário ainda funciona bem para você?
       - antes de começar, tudo certo com o tempo que temos?
+      - só pra checar, o horário ainda tá de boa pra você?
+      - esse horário segue tranquilo pra você?
+      - ainda tá ok pra você ficar até o final da call?
+      - você tem algum horário máximo pra gente encerrar?
+      - preciso te liberar em algum horário específico?
+      - sua agenda tá apertada ou dá pra ir até o fim da entrevista?
+      - vc tem que sair em algum horário certinho?
+      - a gente precisa ser mais rápido por causa do teu tempo?
+      - quer que eu controle o tempo pra você não se atrasar?
+      - tá suave de tempo aí do teu lado?
+      - tá tranquilo de tempo ou tá meio corrido?
+      - dá pra ficar com a gente até o final do slot?
+      - podemos usar a 1 hora inteira que combinamos?
+      - você tem só meia hora livre ou mais tempo?
+      - tá tudo certo se a entrevista for até o horário cheio?
+      - precisa encerrar alguns minutos antes do combinado?
+      - sua agenda permite a gente passar um pouquinho do tempo?
+      - quer que eu te avise quando estiver perto do final?
+      - tá confortável com a duração que planejamos?
+      - esse horário encaixou bem na sua rotina hoje?
+      - cê tá com tempo folgado ou bem contado?
+      - não vai te atrasar pra outro compromisso depois?
+      - ficou alguma coisa em cima desse horário pra você?
+      - você prefere que a gente seja mais objetivo por causa do tempo?
+      - você quer que eu vá mais direto pra não estourar o tempo?
+      - se precisar sair antes, você consegue me avisar?
+      - caso aperte o tempo, quer que eu pule algumas perguntas?
+      - esse horário não conflita com outro meeting seu, né?
+      - sua próxima reunião é logo depois dessa ou tem um intervalo?
+      - preciso liberar você em quantos minutos mais ou menos?
+      - quantos minutos você tem disponível pra essa conversa?
+      - tá ok se a gente usar o tempo todo que foi agendado?
+      - se a entrevista ficar um pouco mais longa, é um problema?
+      - você consegue ficar até o final mesmo se passar uns minutinhos?
+      - se eu estourar cinco minutinhos, isso te atrapalha?
+      - você tem hard stop nesse horário ou dá pra flexibilizar?
+      - você precisa sair no limite exato do horário?
+      - quer combinar um horário máximo pra encerrar?
+      - você tá confortável com o tempo que falta de call?
+      - a duração que combinamos ainda faz sentido pra você hoje?
+      - seu dia tá muito corrido de call ou esse horário tá tranquilo?
+      - esse horário não pegou você no meio de outra atividade, né?
+      - tá tudo certo em relação ao tempo da call pra você?
+      - posso seguir sem me preocupar tanto com o relógio?
+      - prefere uma conversa mais rápida pra não te segurar muito?
+      - você tá com janela suficiente pra gente conversar com calma?
+      - você tá com tempo só pra perguntas principais ou também extras?
+      - quantos minutos você se sente confortável de usar aqui?
+      - não quero te segurar demais, seu tempo tá ok?
+      - esse horário tá pegando bem entre os seus outros compromissos?
+      - sua agenda hoje tá estourada ou esse horário foi de boa?
+      - você teve que encaixar essa call na correria ou tá tranquilo?
+      - tá tudo bem se a gente terminar um pouquinho antes?
+      - se a entrevista terminar mais cedo, ajuda no seu dia?
+      - você prefere que eu respeite bem o horário final?
+      - você se sente mais confortável se eu avisar quando faltar dez minutos?
+      - a gente precisa ser mais pontual por causa da sua agenda?
+      - tem algum horário que você, de jeito nenhum, pode passar?
+      - se eu ver que tá perto do fim, quer que eu acelere?
+      - a gente pode ajustar o ritmo das perguntas conforme seu tempo?
+      - hoje você tem flexibilidade no horário ou tá bem travado?
+      - só pra alinhar, até que horas você consegue ficar?
+      - te atrapalha se a gente usar todo o tempo reservado?
+      - tá ok se a call for um pouco mais curta hoje?
+      - se eu perceber que tá longo, você prefere encerrar logo?
+      - você conseguiu separar esse tempo com calma?
+      - você tá respondendo de algum lugar com tempo contado?
+      - essa entrevista não vai te atrasar pra nada importante, né?
+      - se pintar algum imprevisto de horário, você consegue avisar?
+      - você tá acompanhando o relógio ou prefere que eu acompanhe?
+      - tá com tempo pra responder com calma ou precisa ser mais direto?
+      - sua agenda aguenta se a gente alongar um pouco a conversa?
+      - tem algum alarme ou lembrete aí pro seu próximo compromisso?
+      - a gente precisa fazer uma pausa no meio por causa do seu tempo?
+      - você tem um intervalo depois ou vai emendar em outra call?
+      - esse horário ficou melhor que outros do seu dia?
+      - se esse horário ficar apertado, a gente pode encerrar mais cedo?
+      - tá tudo certo em termos de tempo pra seguir agora?
+      - sua disponibilidade continua a mesma que você combinou?
+      - você consegue ficar até o final sem pressa?
+      - tá tranquilo seguir mais uns minutos nessa conversa?
+      - você sente que ainda tem tempo pra mais algumas perguntas?
+      - quer combinar um horário pra check final antes de encerrar?
+      - não quero te segurar demais, me fala se o tempo apertar, tá?
+      - tá confortável com o tempo que a gente já usou até aqui?
+      - te preocupa a gente estourar um pouco esse horário?
+      - se o tempo ficar muito em cima, prefere priorizar alguns temas?
+      - tem algum sinal que você quer combinar pra avisar que precisa sair?
+      - tá tudo alinhado com o tempo da entrevista aí no teu calendário?
+      - só pra fechar, seu tempo tá bem cuidado pra gente seguir de boa?
       - just to confirm, is this time still good for you?
       - are you okay with the duration of the interview?
       - do you have anything right after this, or can we use the full time?
@@ -22,3 +112,93 @@ nlu:
       - can we proceed with the planned length of the interview?
       - does this time still work well for you?
       - before we start, is everything alright with the time we have?
+      - just checking, is the timing still fine for you?
+      - is this slot still working for you?
+      - are you okay to stay until the end of the call?
+      - do you have a hard stop we need to respect?
+      - do I need to let you go at any specific time?
+      - is your schedule tight or do you have enough time?
+      - do you need to leave at a fixed time?
+      - do we need to go a bit faster because of your time?
+      - do you want me to keep an eye on the clock for you?
+      - is everything okay on your side timewise?
+      - are you relaxed about time or kind of in a rush?
+      - can you stay with us until the end of the booked slot?
+      - is it okay if we use the full hour we planned?
+      - do you have only thirty minutes or more time for this?
+      - is it fine if the interview goes all the way to the end?
+      - do we need to finish a few minutes earlier for you?
+      - does your schedule allow us to go a little over time?
+      - do you want me to warn you when we’re close to the end?
+      - are you comfortable with the duration we planned?
+      - did this time fit well into your day?
+      - are you on a tight schedule or more flexible right now?
+      - this won’t make you late for another meeting, right?
+      - did anything else land on top of this time for you?
+      - would you prefer we keep it more objective because of time?
+      - do you want me to be more direct so we don’t waste time?
+      - if you need to leave earlier, can you let me know?
+      - if time gets tight, do you want me to skip some questions?
+      - this time doesn’t conflict with any other meeting, right?
+      - is your next meeting right after this or do you have a break?
+      - in minutes, how long do you have for this talk?
+      - how many minutes do you feel comfortable spending here?
+      - is it okay if we use all the time that was scheduled?
+      - if the interview runs a bit longer, is that a problem?
+      - can you stay until the end even if we go a few minutes over?
+      - if we go five minutes over, is that going to be an issue?
+      - do you have a hard stop or can you be a bit flexible?
+      - do you need us to end exactly on time?
+      - do you want to agree on a latest time to finish?
+      - are you comfortable with the remaining time in this call?
+      - does the duration we planned still make sense for you today?
+      - is your day packed with calls or is this time okay?
+      - this slot didn’t catch you in the middle of something else, right?
+      - is everything okay regarding the call length for you?
+      - can I go ahead without worrying too much about the clock?
+      - would you prefer a quicker chat so I don’t hold you too long?
+      - do you have enough room in your schedule to talk calmly?
+      - do you have time only for the main questions or also extra ones?
+      - how much time do you feel you can give this interview?
+      - I don’t want to hold you too long, is your time okay?
+      - does this time sit well between your other commitments?
+      - is your schedule today super busy or is this slot fine?
+      - did you have to squeeze this call in, or was it okay?
+      - is it alright if we finish a little bit earlier?
+      - if we end a bit sooner, does that help your day?
+      - would you prefer that I stick closely to the end time?
+      - would it help if I tell you when we have ten minutes left?
+      - do we need to be extra punctual because of your schedule?
+      - is there any time you absolutely cannot go past?
+      - if I see we’re near the end, do you want me to speed up?
+      - can we adjust the pace of the questions to match your time?
+      - do you have some flexibility in your time today or not really?
+      - just to align, until what time can you stay here?
+      - will it bother you if we use all the reserved time?
+      - is it okay if the call is a bit shorter today?
+      - if it feels long, would you rather we close earlier?
+      - were you able to block this time calmly in your calendar?
+      - are you answering from a place where your time is limited?
+      - this interview won’t make you late for anything important, right?
+      - if any time issue comes up, can you let me know quickly?
+      - are you watching the clock or do you prefer that I watch it?
+      - do you have time to answer calmly or do we need to be more straight?
+      - can your schedule handle it if we extend the conversation a bit?
+      - do you have any alarm or reminder set for your next meeting?
+      - do we need to make a break in the middle because of your time?
+      - do you have a gap after this or are you jumping to another call?
+      - was this time better than other options in your day?
+      - if this time gets tight, is it okay if we finish sooner?
+      - is everything set in terms of time so we can continue now?
+      - is your availability still the same as what we agreed?
+      - are you able to stay until the end without feeling rushed?
+      - is it okay to keep going for a few more minutes?
+      - do you feel you still have time for a few more questions?
+      - do you want to agree on a quick time check before we close?
+      - I don’t want to keep you too long, tell me if time gets tight, okay?
+      - are you comfortable with how much time we’ve used so far?
+      - are you worried about us going over the planned time?
+      - if the time gets very short, should we prioritize some topics?
+      - do you want a signal from me when we are really close to the end?
+      - is everything aligned with the interview time in your calendar?
+      - just to wrap up, is your time still okay so we can continue?

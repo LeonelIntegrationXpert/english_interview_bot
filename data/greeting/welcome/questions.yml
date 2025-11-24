@@ -12,6 +12,96 @@ nlu:
       - seja bem-vinda ao time
       - bem-vindo, é bom ter você aqui
       - bem-vinda, é bom ter você aqui
+      - bem-vindo ao time
+      - bem-vinda à equipe
+      - bem vindo à equipe
+      - bem vinda ao projeto
+      - sejá bem-vindo
+      - sejá bem-vinda
+      - seja bem vindo, fique à vontade
+      - seja bem vinda, fique à vontade
+      - bem-vindo à entrevista
+      - bem-vinda à entrevista
+      - bem-vindo à nossa conversa
+      - bem-vinda à nossa conversa
+      - bem vindo, obrigado por participar
+      - bem vinda, obrigado por participar
+      - seja bem-vindo, obrigado pelo tempo
+      - seja bem-vinda, obrigado pelo tempo
+      - seja bem vindo hoje com a gente
+      - seja bem vinda hoje com a gente
+      - bem-vindo, vamos começar
+      - bem-vinda, vamos começar
+      - bem vindo, obrigado por topar falar
+      - bem vinda, obrigado por topar falar
+      - seja muito bem vindo ao processo
+      - seja muito bem vinda ao processo
+      - bem-vindo ao processo seletivo
+      - bem-vinda ao processo seletivo
+      - seja bem-vindo ao nosso papo
+      - seja bem-vinda ao nosso papo
+      - bem-vindo à nossa reunião de hoje
+      - bem-vinda à nossa reunião de hoje
+      - bem vindo, sinta-se em casa
+      - bem vinda, sinta se em casa
+      - seja bem-vindo, a casa é sua
+      - seja bem-vinda, a casa é sua
+      - bem-vindo de novo
+      - bem-vinda de novo
+      - bom ter você aqui, bem-vindo
+      - bom ter você aqui, bem-vinda
+      - legal ter você aqui com a gente, bem-vindo
+      - legal ter você aqui com a gente, bem-vinda
+      - seja muito bem-vindo à empresa
+      - seja muito bem-vinda à empresa
+      - bem-vindo ao nosso time de trabalho
+      - bem-vinda ao nosso time de trabalho
+      - seja bem-vindo ao projeto de hoje
+      - seja bem-vinda ao projeto de hoje
+      - bem vindo, obrigado por tirar um tempo
+      - bem vinda, obrigado por tirar um tempo
+      - seja bem vindo à conversa de hoje
+      - seja bem vinda à conversa de hoje
+      - seja bem-vindo a essa call
+      - seja bem-vinda a essa call
+      - seja bem vindo à entrevista de hoje
+      - seja bem vinda à entrevista de hoje
+      - bem-vindo, obrigado por estar aqui
+      - bem-vinda, obrigado por estar aqui
+      - bem vindo, valeu por colar aqui
+      - bem vinda, valeu por colar aqui
+      - seja bem vindo, valeu por participar
+      - seja bem vinda, valeu por participar
+      - bem-vindo, espero que se sinta à vontade
+      - bem-vinda, espero que se sinta à vontade
+      - seja bem-vindo, fica tranquilo
+      - seja bem-vinda, fica tranquila
+      - seja bem vindo, pode ficar à vontade
+      - seja bem vinda, pode ficar à vontade
+      - bem-vindo, qualquer coisa é só falar
+      - bem-vinda, qualquer coisa é só falar
+      - bem vindo, obrigado por aceitar o convite
+      - bem vinda, obrigado por aceitar o convite
+      - seja bem-vindo, a gente te esperava
+      - seja bem-vinda, a gente te esperava
+      - seja muito bem vindo, tava esperando esse papo
+      - seja muito bem vinda, tava esperando esse papo
+      - bem-vindo, obrigado por chegar na hora
+      - bem-vinda, obrigado por chegar na hora
+      - bem vindo ao nosso bate papo
+      - bem vinda ao nosso bate papo
+      - seja bem-vindo, é uma honra ter você aqui
+      - seja bem-vinda, é uma honra ter você aqui
+      - bem vindo à conversa, obrigado por vir
+      - bem vinda à conversa, obrigado por vir
+      - seja bem vindo, vamos usar esse tempo bem
+      - seja bem vinda, vamos usar esse tempo bem
+      - bem-vindo, obrigado por topar essa entrevista
+      - bem-vinda, obrigado por topar essa entrevista
+      - seja bem vindo, a gente tá feliz de te receber
+      - seja bem vinda, a gente tá feliz de te receber
+      - bem vindo, valeu por separar um tempo hoje
+      - bem vinda, valeu por separar um tempo hoje
       - welcome
       - you’re welcome here
       - welcome to the call
@@ -22,3 +112,93 @@ nlu:
       - welcome, thanks for joining
       - welcome on board
       - welcome, glad you’re here
+      - welcome to our call today
+      - welcome to our meeting today
+      - welcome to our team today
+      - welcome to the interview
+      - welcome to this interview
+      - welcome to our chat
+      - welcome, good to have you here
+      - welcome, happy to have you here
+      - welcome, nice to have you here
+      - welcome, thanks for being here
+      - welcome, thanks for your time
+      - welcome, thanks for taking the time
+      - welcome, thanks for making the time
+      - welcome, thanks for joining the call
+      - welcome, thanks for joining the meeting
+      - welcome, thanks for joining us today
+      - welcome aboard the team
+      - welcome on the team
+      - welcome to the project
+      - welcome to our project
+      - welcome to the company
+      - welcome to our company
+      - big welcome to you
+      - a big welcome from our side
+      - a warm welcome from our team
+      - warm welcome to the team
+      - welcome, feel free to relax
+      - welcome, please feel at home
+      - welcome, please feel comfortable
+      - welcome, good to see you here
+      - welcome, great to see you today
+      - welcome, nice seeing you here
+      - welcome, happy you could join
+      - welcome, glad you could join us
+      - welcome, good that you are here
+      - welcome, really nice to have you
+      - welcome, we are happy you are here
+      - welcome, we are glad you are here
+      - welcome, we appreciate you joining
+      - welcome, we appreciate your time
+      - welcome, thanks for accepting the invite
+      - welcome, thanks for accepting our invitation
+      - welcome, thanks for showing up today
+      - welcome, thanks for being part of this
+      - welcome to this session
+      - welcome to today’s session
+      - welcome to today’s call
+      - welcome to today’s meeting
+      - welcome to this conversation
+      - welcome, let us start
+      - welcome, good to start with you
+      - welcome, nice to start this with you
+      - welcome, it is a pleasure to meet you
+      - welcome, it is a pleasure to talk to you
+      - welcome, it is great to finally meet you
+      - welcome, I am glad to talk to you
+      - welcome, thanks for coming on time
+      - welcome, thanks for joining on time
+      - welcome, thanks for being here today
+      - welcome, happy you are here today
+      - welcome, we are excited to have you
+      - welcome, we are excited you are here
+      - welcome to the team, happy to have you
+      - welcome to the team, great to have you
+      - welcome to the team, glad you joined us
+      - welcome to the team, we are happy with you here
+      - welcome to the call, thanks for joining
+      - welcome to the call, good to see you
+      - welcome to the meeting, thanks for joining
+      - welcome to the meeting, nice to see you
+      - welcome in the call with us
+      - welcome in this meeting with us
+      - welcome in our team today
+      - welcome, you are in the right place
+      - welcome, thanks for jumping in
+      - welcome, thanks for hopping on the call
+      - welcome, thanks for hopping in today
+      - welcome, good that you could make it
+      - welcome, glad you could make it today
+      - welcome, thanks for logging in today
+      - welcome, thanks for connecting with us
+      - welcome, thanks for joining this interview
+      - welcome to this interview round
+      - welcome to this hiring process
+      - welcome to our hiring process
+      - welcome, nice to have you in the process
+      - welcome, we are happy to receive you
+      - welcome, we are really happy you are here
+      - welcome on board with us today
+      - welcome to our side of the screen

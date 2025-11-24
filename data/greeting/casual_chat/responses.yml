@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Tudo certo por aqui, obrigado por perguntar.
+            Meu dia tá sendo bem tranquilo até agora, tudo sob controle.
           vr_en: |
-            All good on my side, thanks for asking.
+            My day has been pretty smooth so far, everything under control.
+        resp_2:
+          vr_pt: |
+            Hoje tá bem corrido, pra ser sincero, mas faz parte da rotina.
+          vr_en: |
+            Today has been quite hectic, to be honest, but that’s part of the routine.

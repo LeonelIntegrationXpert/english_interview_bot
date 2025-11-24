@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_initiative_proactivity:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu procuro ser bem proativo. Quando percebo um problema ou uma oportunidade de melhoria, não fico esperando alguém pedir; eu analiso, proponho alternativas e, quando faz sentido, já começo a estruturar uma solução, sempre alinhando com o time e com a liderança.
-          vr_en: |
-            I try to be very proactive. When I notice a problem or an opportunity for improvement, I do not wait for someone to ask. I analyze it, propose alternatives, and when it makes sense, I start structuring a solution, always aligning with the team and with leadership.

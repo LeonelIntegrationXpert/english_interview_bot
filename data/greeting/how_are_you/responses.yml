@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Tô bem, sim, e você?
+            Tô bem sim, tudo tranquilo, e você?
           vr_en: |
-            I’m doing good, how about you?
+            I’m doing good, everything’s fine, how about you?
+        resp_2:
+          vr_pt: |
+            Pra ser sincero, hoje não tô muito bem, mas dá pra seguir de boa.
+          vr_en: |
+            To be honest, I’m not feeling very well today, but I can still go on.

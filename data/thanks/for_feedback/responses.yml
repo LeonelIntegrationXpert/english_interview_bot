@@ -7,3 +7,8 @@ responses:
             Obrigado pelo feedback, vou usar isso para melhorar.
           vr_en: |
             Thanks for the feedback, I’ll use it to improve.
+        resp_2:
+          vr_pt: |
+            Valeu pelo feedback, mesmo que seja um pouco difícil de ouvir, é importante pra evoluir.
+          vr_en: |
+            Thanks for the feedback, even if it is a bit hard to hear, it’s important for me to grow.

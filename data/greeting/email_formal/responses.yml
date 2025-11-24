@@ -7,3 +7,8 @@ responses:
             Obrigado, estou bem sim. E você, como está?
           vr_en: |
             Thank you, I’m doing well. How about you?
+        resp_2:
+          vr_pt: |
+            Obrigado, tô bem dentro do possível, a rotina tá um pouco puxada.
+          vr_en: |
+            Thank you, I’m doing okay, even though things have been a bit busy.

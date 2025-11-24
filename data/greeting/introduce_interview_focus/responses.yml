@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Perfeito, faz bastante sentido. Fico à vontade para compartilhar minha experiência e os projetos em que atuei.
+            Perfeito, faz todo sentido. Fico à vontade para compartilhar minha experiência.
           vr_en: |
-            That sounds great. I’m comfortable sharing my experience and the projects I’ve worked on.
+            That makes a lot of sense. I feel comfortable sharing my experience.
+        resp_2:
+          vr_pt: |
+            Tudo bem, só pode ser que eu pense um pouco mais em algumas respostas para lembrar dos detalhes.
+          vr_en: |
+            That is fine, I might just need a little more time on some answers to remember the details.

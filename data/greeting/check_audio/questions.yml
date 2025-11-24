@@ -12,6 +12,96 @@ nlu:
       - tá dando pra me ouvir?
       - tá me escutando?
       - o som tá claro aí?
+      - cê tá me ouvindo direito?
+      - tá ouvindo minha voz?
+      - tá escutando de boa?
+      - tá me ouvindo normal?
+      - tá saindo meu áudio aí?
+      - tá chegando meu som pra você?
+      - me fala se tá ouvindo bem
+      - me avisa se o áudio estiver ruim
+      - consegue ouvir sem falhar?
+      - tá ouvindo baixo ou alto?
+      - tá com eco aí no som?
+      - consegue ouvir sem chiado?
+      - tem muito ruído no meu áudio?
+      - quer que eu repita, deu pra ouvir?
+      - tá picotando meu áudio?
+      - meu áudio cortou pra você?
+      - ficou mudo pra você agora?
+      - parou de me ouvir ou ainda tá ok?
+      - meu som travou aí?
+      - tá conseguindo me escutar certinho?
+      - tá ok meu mic?
+      - meu mic tá saindo som?
+      - tô saindo bem no áudio?
+      - tá ouvindo com atraso?
+      - tá com delay no meu som?
+      - tá ouvindo minha voz baixa?
+      - tá ouvindo minha voz estourada?
+      - tá dando retorno de som aí?
+      - cê tá escutando eco de mim?
+      - meu áudio ficou mudo?
+      - tá ouvindo só pedaço do que eu falo?
+      - tá entendendo o que eu falo ou corta?
+      - tá chegando minha voz picada?
+      - tá normal o volume pra você?
+      - precisa que eu aumente o volume?
+      - precisa que eu abaixe o volume?
+      - me avisa se eu estiver muito baixo
+      - me avisa se eu estiver muito alto
+      - tá ouvindo ou ficou sem som?
+      - tá escutando ou caiu meu áudio?
+      - cê tá me ouvindo agora?
+      - agora melhorou o som?
+      - assim tá melhor pra ouvir?
+      - desse jeito tá ok o áudio?
+      - tá ouvindo melhor com fone?
+      - sem fone tá melhor pra você?
+      - tá muito baixo ou dá pra ouvir?
+      - tá muito alto ou tá suave?
+      - tá conseguindo ouvir tranquilo?
+      - tá me ouvindo sem problema?
+      - tá ouvindo ou tá travando ainda?
+      - continua me ouvindo bem?
+      - ainda tá me escutando normal?
+      - tá ouvindo com muito ruído?
+      - tá dando chiado forte aí?
+      - caiu meu som pra você agora?
+      - voltou meu áudio ou ainda não?
+      - quer que eu teste o áudio de novo?
+      - quer que eu fale mais perto do mic?
+      - tá ouvindo melhor agora ou igual?
+      - mudou alguma coisa no áudio pra você?
+      - você me ouve ou só me vê?
+      - tá ouvindo ou só lendo meus lábios?
+      - tá rolando meu áudio ou morreu?
+      - tá saindo som da minha voz?
+      - tá conseguindo ouvir cada palavra?
+      - tá falhando muito o som?
+      - tá muito baixo pra entender?
+      - tá compreendendo o que eu falo?
+      - tá pegando bem meu microfone?
+      - me avisa se cortar de novo
+      - me avisa se parar de ouvir
+      - tá me ouvindo sem delay agora?
+      - assim tá sem eco pra você?
+      - tá ouvindo no note ou no fone?
+      - tá ok o áudio aí do seu lado?
+      - tá bom o áudio aí?
+      - tá razoável pra ouvir?
+      - tá muito ruim meu som?
+      - tá ruim ou dá pra aguentar?
+      - cê prefere que eu ajuste o som?
+      - se eu falar mais alto melhora?
+      - se eu falar mais devagar melhora?
+      - consegue me ouvir mesmo com ruído?
+      - tá ouvindo com barulho de fundo?
+      - tá atrapalhando muito o barulho aqui?
+      - tá escutando com corte ou liso?
+      - tá suave meu áudio ou estranho?
+      - tá bugado meu som pra você?
+      - tá vazando muito som ambiente?
       - can you hear me?
       - can you hear me well?
       - are you able to hear me?
@@ -22,3 +112,93 @@ nlu:
       - can you hear me clearly?
       - is the audio fine on your side?
       - is everything okay with my sound?
+      - can u hear me now?
+      - are you hearing my voice?
+      - can you listen me good?
+      - you hear me or no?
+      - is my audio too low?
+      - is my sound too loud?
+      - do you hear any echo?
+      - do you hear noise in my audio?
+      - is my mic too far?
+      - is my mic volume ok?
+      - am I too quiet for you?
+      - am I too loud for you?
+      - is my voice cutting?
+      - is my audio breaking up?
+      - did my sound just drop?
+      - did I go on mute for you?
+      - are you still hearing me?
+      - did you stop hearing me?
+      - can you hear every word?
+      - is my voice delayed?
+      - is there delay in my audio?
+      - do you hear me with echo?
+      - do you hear me with noise?
+      - can you hear me or only see me?
+      - are you hearing me clearly now?
+      - is my audio better now?
+      - is the sound better like this?
+      - does it sound better with headset?
+      - does it sound better without headset?
+      - can you hear me on your side?
+      - is my sound okay on your side?
+      - is the volume ok for you?
+      - is the volume too high?
+      - is the volume too low?
+      - just tell me if audio is bad?
+      - please tell me if sound cuts
+      - let me know if you stop hearing me
+      - can you still hear me fine?
+      - are you listening me right now?
+      - can you hear me fine to continue?
+      - before we go on, can you hear me?
+      - did you hear what I just said?
+      - did that part cut for you?
+      - did my voice break there?
+      - are you getting my sound?
+      - is my voice coming thru?
+      - is my voice coming through okay?
+      - can you hear me without noise?
+      - can you hear me with this mic?
+      - is my mic picking my voice?
+      - is my microphone too far away?
+      - can you hear me or is it mute?
+      - do you hear me after I unmuted?
+      - did unmute work, can you hear?
+      - is my sound back now?
+      - did the audio return now?
+      - can you confirm you hear me?
+      - just say yes if you hear me
+      - can you hear me better now or same?
+      - did the sound improve now?
+      - is the audio worse now?
+      - are you hearing me with a lot of noise?
+      - is it hard to understand my audio?
+      - is it easy to understand my audio?
+      - can you hear me even with background noise?
+      - are you hearing kids noise behind me?
+      - do you hear traffic behind me?
+      - can you hear me or just the noise?
+      - is my voice clear enough?
+      - is my sound ok for this call?
+      - is my sound ok for this interview?
+      - can you hear me well for us to start?
+      - audio is fine for you?
+      - does my voice sound too low?
+      - does my voice sound too strong?
+      - are you hearing echo from my side?
+      - is there any echo from my mic?
+      - do you hear me double?
+      - do you hear any feedback loop?
+      - can you hear me now or still no sound?
+      - after this change, can you hear me?
+      - after I changed device, do you hear me?
+      - is the new mic better to hear?
+      - is this headset better to hear me?
+      - does it sound ok with this headset?
+      - can you hear me from the laptop mic?
+      - can you hear me from the headset mic?
+      - are you hearing me clearly right now?
+      - is everything fine with my audio now?
+      - is my audio stable now?

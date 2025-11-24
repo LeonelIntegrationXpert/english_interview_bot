@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_prefer_name:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Pode me chamar de Leonel mesmo, é como me sinto mais à vontade em contexto profissional.
-          vr_en: |
-            You can call me Leonel, that’s how I feel most comfortable in a professional context.

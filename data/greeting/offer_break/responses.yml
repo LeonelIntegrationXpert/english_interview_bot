@@ -6,4 +6,9 @@ responses:
           vr_pt: |
             Obrigado, eu agradeço. Se eu precisar de uma pausa, eu te aviso, mas por enquanto podemos seguir normalmente.
           vr_en: |
-            Thank you, I appreciate it. If I need a break, I’ll let you know, but for now we can continue as normal.
+            Thank you, I appreciate that. If I need a break, I will let you know, but for now we can continue as normal.
+        resp_2:
+          vr_pt: |
+            Talvez eu peça uma pausa rápida se eu sentir que estou ficando muito cansado.
+          vr_en: |
+            I might ask for a short break if I feel that I am getting too tired.

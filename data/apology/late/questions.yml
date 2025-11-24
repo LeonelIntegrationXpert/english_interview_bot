@@ -2,8 +2,6 @@ version: '3.1'
 nlu:
   - intent: late
     examples: |
-      - desculpa o atraso
-      - foi mal pelo atraso
       - desculpa, cheguei atrasado
       - peço desculpas por entrar atrasado
       - desculpa, tive um imprevisto
@@ -12,7 +10,98 @@ nlu:
       - desculpa por começar mais tarde
       - desculpa, não consegui chegar na hora
       - desculpa, tive um problema técnico
-      - sorry for being late
+      - desculpa, me enrolei aqui e atrasei
+      - foi mal, acabei me passando no horário
+      - desculpa, perdi a hora
+      - desculpa, o trânsito tava bem ruim
+      - desculpa, o busão atrasou
+      - foi mal, xeguei atrasado mesmo
+      - desculpa, tive que resolver uma coisa de última hora
+      - desculpa, a reunião anterior estendeu
+      - desculpa, acabei entrando alguns minutos atrasado
+      - foi mal, demorei pra conseguir entrar
+      - desculpa, meu pc resolveu atualizar bem na hora
+      - desculpa, o zoom não quis abrir de primeira
+      - desculpa, o teams travou aqui
+      - foi mal, fiquei preso em outra call
+      - desculpa, tava finalizando outra conversa
+      - desculpa por chegar depois do horário combinado
+      - desculpa, me confundi com o horário
+      - desculpa, achei que fosse começar mais tarde
+      - desculpa, confundi o fuso horário
+      - foi mal, cheguei mais tarde do que o combinado
+      - desculpa, tive um problema com a internet
+      - desculpa, a internet caiu bem na hora
+      - desculpa, minha conexão ficou oscilando
+      - foi mal, precisei reiniciar o computador
+      - desculpa, tava sem áudio e levei um tempo pra ajustar
+      - desculpa, precisei resolver algo aqui em casa
+      - desculpa, o elevador travou e atrasei
+      - desculpa, não vi a notificação na hora
+      - foi mal, só vi o convite agora
+      - desculpa, acabei entrando com uns minutos de atraso
+      - desculpa, precisei atender uma ligação urgente
+      - desculpa, tive um imprevisto familiar
+      - desculpa, tive um problema de energia aqui
+      - desculpa, faltou luz e atrasei
+      - foi mal, fiquei preso no trânsito
+      - desculpa, tava em deslocamento e me atrasei
+      - desculpa, tava terminando outra atividade do trabalho
+      - desculpa, tava fechando uma entrega e passou do horário
+      - desculpa, perdi a noção do tempo revisando um documento
+      - foi mal, precisei ajudar em outra demanda rapidinho
+      - desculpa, atrasei uns minutinhos a mais do que eu queria
+      - desculpa, me organizei mal com o horário
+      - desculpa, tive um compromisso logo antes e escorregou o tempo
+      - foi mal, a agenda apertou e acabei entrando tarde
+      - desculpa, precisei pegar um café e atrasei um pouco
+      - desculpa, tava ajustando meu microfone e demorei
+      - desculpa, precisei testar o áudio e o vídeo antes
+      - desculpa, acabei logando na sala errada primeiro
+      - foi mal, entrei no link errado
+      - desculpa, cliquei na call errada aqui
+      - desculpa, meu calendário não me lembrou na hora
+      - desculpa, o alerta do calendário não tocou
+      - desculpa, minha agenda ficou confusa hoje
+      - foi mal, esqueci de dar join na hora certa
+      - desculpa, tive que sair rapidinho e voltei atrasado
+      - desculpa, acabei voltando do almoço um pouco tarde
+      - desculpa, tava terminando o almoço e atrasei
+      - desculpa, precisei resolver algo com a equipe antes
+      - foi mal, travou tudo aqui e demorou pra voltar
+      - desculpa, tive um bug no notebook
+      - desculpa, meu fone não tava funcionando
+      - desculpa, o microfone não conectou de primeira
+      - desculpa, não achei o link da reunião de cara
+      - foi mal, levei um tempo pra achar o invite
+      - desculpa, tava atualizando um sistema e passou do horário
+      - desculpa, precisei encerrar outra call antes de entrar aqui
+      - desculpa, tava em outra entrevista e atrasou
+      - desculpa, precisei alongar um pouco a última conversa
+      - foi mal, a reunião anterior estourou o tempo
+      - desculpa, tava ajustando a câmera e atrasei
+      - desculpa, tive que reiniciar o modem
+      - desculpa, me atrapalhei com o horário de Brasília
+      - desculpa, meu celular descarregou e não vi a hora
+      - desculpa, o despertador não tocou
+      - foi mal, coloquei o alarme errado
+      - desculpa, confundi o horário no calendário
+      - desculpa, acabei lendo o horário errado
+      - desculpa, entrei no link alguns minutos depois do combinado
+      - desculpa, tava fechando um e-mail urgente
+      - desculpa, tava salvando uns arquivos e atrasei
+      - foi mal, atrasei mais do que eu esperava
+      - desculpa, a fila aqui demorou mais que o previsto
+      - desculpa, precisei sair rapidinho do computador
+      - desculpa, tive que cuidar de uma coisa pessoal e atrasei
+      - desculpa, minha filha me chamou bem na hora
+      - desculpa, tive um imprevisto com a família
+      - desculpa, acabei voltando do break mais tarde
+      - foi mal, esse atraso foi por minha culpa mesmo
+      - desculpa, realmente não consegui chegar no horário certinho
+      - desculpa, passei do horário e só vi agora
+      - desculpa, de novo cheguei um pouco atrasado hoje
+      - foi mal pelo atraso, não era minha intenção
       - sorry, I’m late
       - my apologies for joining late
       - sorry for joining the call late
@@ -22,3 +111,94 @@ nlu:
       - I apologize for the delay in joining
       - sorry for starting later than planned
       - sorry, I couldn’t join on time
+      - sorry, I joined a bit late
+      - sorry for the delay, I got stuck in traffic
+      - sorry, my last meeting overran
+      - my bad, I lost track of time
+      - sorry, I mixed up the time
+      - sorry, I read the time wrong in the calendar
+      - sorry, I thought we were starting later
+      - sorry, I confused the time zone
+      - sorry for getting here a few minutes late
+      - sorry, my computer decided to update right before the call
+      - sorry, Zoom wouldn’t open at first
+      - sorry, Teams froze on me
+      - apologies, I was stuck on another call
+      - sorry, I was just wrapping up another conversation
+      - sorry for arriving after the scheduled time
+      - my apologies, I joined later than we agreed
+      - sorry, my internet went down for a bit
+      - sorry, my connection was unstable
+      - sorry, I had to restart my laptop
+      - sorry, I was fixing my audio settings
+      - sorry, I had to sort out a quick issue at home
+      - my apologies, the elevator problem made me late
+      - sorry, I didn’t see the invite in time
+      - sorry, I only saw the calendar alert now
+      - sorry for coming in late, my schedule got tight
+      - sorry, I needed a minute to finish something urgent
+      - sorry for being a few minutes behind
+      - my apologies, I organized my time poorly
+      - sorry, I had to grab a quick coffee and it delayed me
+      - sorry, I was testing my mic and it took longer
+      - sorry, I joined the wrong room at first
+      - my bad, I clicked the wrong link
+      - sorry, I entered another meeting by mistake
+      - sorry, the calendar reminder didn’t pop up
+      - sorry, I was in transit and got delayed
+      - sorry, I was finishing a task for work
+      - apologies, I was closing a delivery and time slipped
+      - sorry, I was reviewing a document and lost track of time
+      - sorry, I had to help with another task quickly
+      - sorry for logging in a bit later than expected
+      - my apologies, today my agenda is a bit messy
+      - sorry, I forgot to hit join at the right time
+      - sorry, I had to step away from the pc for a moment
+      - sorry, I came back from lunch a bit late
+      - sorry, my lunch break ran over
+      - sorry, I had a family thing to handle
+      - sorry, I had a quick emergency at home
+      - sorry, the power went out and I’m late
+      - my apologies, I had a power issue here
+      - sorry, my headset wasn’t working at first
+      - sorry, my mic didn’t connect properly
+      - sorry, I took some time to find the meeting link
+      - sorry, it took me a while to locate the invite
+      - sorry, my system was updating, so I got delayed
+      - my apologies, I had to finish an email before joining
+      - sorry, I was saving some files and time passed
+      - sorry, the line here took longer than expected
+      - sorry, I had to quickly leave my desk
+      - sorry, I had a personal matter and it delayed me
+      - sorry, my kid called me right at the start time
+      - sorry, I had a small family emergency
+      - sorry, I came back from a break later than I planned
+      - sorry again for being late today
+      - my bad, this delay is totally on me
+      - sorry, I really couldn’t make it exactly on time
+      - sorry, I joined later than I intended
+      - sorry, I missed the exact starting time
+      - apologies for this small delay on my side
+      - sry for being late
+      - sry, I joined late
+      - sry, my last call ran over
+      - srry, I had a tech issue
+      - sorry, my wifi was acting up
+      - sorry, my internet was down for a bit
+      - sorry, I had to reboot everything
+      - sorry I got here late, traffic was bad
+      - sorry Im late, just finished another meeting
+      - sorry, I couldnt connect on time
+      - sry, I tought the time was diferent
+      - sorry, I messed up the time zone
+      - sorry, the reminder didnt show up for me
+      - sorry, I had to fix my camera
+      - sorry, my audio wasnt working
+      - sorry, I needed 5 extra minutes to get ready
+      - sorry, I loged in a bit late
+      - sorry for the delay, my schedule is crazy today
+      - sorry, I joined a few minutes after the start
+      - sorry, my previous meeting took longer than expected
+      - sorry, I had to handle something urgent at work
+      - sorry, I entered the meeting a bit late
+      - sorry, I couldnt join right at the start

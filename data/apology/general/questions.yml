@@ -12,6 +12,96 @@ nlu:
       - perdão aí
       - desculpa qualquer coisa
       - desculpa se eu atrapalhei
+      - desculpa o atraso
+      - foi mal pelo atraso
+      - foi mal pela confusão
+      - foi mal msm
+      - foi mal aí
+      - foi mal de verdade
+      - foi mal, não era a intenção
+      - foi mal se pareceu grosso
+      - foi mal se pareceu rude
+      - foi mal se atrapalhei
+      - me desculpa pelo atraso
+      - me desculpa pela confusão
+      - me desculpa por isso
+      - me desculpa mesmo, foi sem querer
+      - me desculpa se eu atrapalhei
+      - mil desculpa, vacilei
+      - mil desculpas pelo atraso
+      - mil desculpas pela demora
+      - peço mil desculpas
+      - peço desculpa
+      - peço desculpas pelo atraso
+      - peço desculpas por qualquer coisa
+      - peço desculpas por esse erro
+      - peço desculpas se entendi errado
+      - peço desculpas pela confusão toda
+      - sinto muito
+      - sinto muito mesmo
+      - sinto muito pelo ocorrido
+      - sinto muito pelo atraso
+      - sinto muito se atrapalhei
+      - fui eu que errei
+      - foi erro meu
+      - foi falha minha
+      - foi falha minha mesmo
+      - falha minha, desculpa
+      - vacilo meu, desculpa
+      - mal aí pelo erro
+      - mal aê
+      - malz aí
+      - malz pelo vacilo
+      - foi sem querer, desculpa
+      - não era minha intenção, desculpa
+      - não era pra ter acontecido, desculpa
+      - de verdade, desculpa
+      - desculpa o vacilo
+      - desculpa o erro
+      - desculpa a demora
+      - desculpa a confusão
+      - desculpa qualquer transtorno
+      - desculpa o incômodo
+      - desculpa por ter atrasado
+      - desculpa por ter confundido
+      - desculpa por ter entendido errado
+      - desculpa se eu entendi errado
+      - desculpa se ficou confuso
+      - desculpa se atrapalhei seu tempo
+      - desculpa se atrapalhei sua agenda
+      - desculpa se passei do limite
+      - desculpa se falei demais
+      - desculpa se falei torto
+      - desculpa se soou grosso
+      - foi mal por qualquer incômodo
+      - foi mal se saiu estranho
+      - foi mal se pareceu desorganizado
+      - foi mal se não ficou claro
+      - me perdoa por isso
+      - me perdoa pelo vacilo
+      - me perdoa pelo atraso
+      - me perdoa se atrapalhei
+      - me perdoa se exagerei
+      - me perdoa se fui confuso
+      - perdão pela demora
+      - perdão pelo atraso
+      - perdão por qualquer coisa
+      - perdão por esse erro
+      - perdão, não era a ideia
+      - perdão, falei errado
+      - perdão, me expressei mal
+      - foi minha culpa, desculpa
+      - culpa minha, desculpa
+      - minha falha, desculpa
+      - eu que acabei errando, desculpa
+      - eu que atrasei tudo, desculpa
+      - eu que causei essa confusão, desculpa
+      - desculpa, não prestei atenção direito
+      - desculpa, acabei me enrolando
+      - desculpa, confundi as informações
+      - desculpa, respondi errado
+      - desculpa, não era isso que eu queria dizer
+      - desculpa, estou aprendendo ainda e posso errar às vezes
       - sorry
       - I’m sorry
       - I’m really sorry
@@ -22,3 +112,93 @@ nlu:
       - I apologize
       - I sincerely apologize
       - I’m sorry if I caused any trouble
+      - so sorry
+      - so so sorry
+      - I am very sorry
+      - I am sorry about that
+      - I am really sorry
+      - I am really sory about that
+      - I am really so sorry
+      - I am sorry for the delay
+      - I am sorry for being late
+      - I am sorry for the confusion
+      - I am sorry for the mistake
+      - I am sorry for mixing that up
+      - I am sorry if I bothered you
+      - I am sorry if I disturbed you
+      - I am sorry if I made it confusing
+      - I am sorry for any inconvenience
+      - I am sorry for the trouble
+      - sorry for the delay
+      - sorry for being late
+      - sorry for the confusion
+      - sorry for the mistake
+      - sorry for the mix up
+      - sorry for the incovinience
+      - really sorry about this
+      - really sorry about that
+      - I am really sorry about this
+      - I am really sorry about that
+      - my bad
+      - that is my bad
+      - that was my mistake
+      - this was my fault
+      - totally my fault
+      - this one is on me
+      - I take the blame for that
+      - I take full responsibility
+      - please forgive me
+      - please, forgive me for that
+      - please accept my apologies
+      - huge apologies for that
+      - big apologies for that
+      - I honestly apologize
+      - I deeply apologize
+      - I deeply regret that
+      - I am afraid that was my fault
+      - I am sorry, that was on me
+      - sorry, that one is on me
+      - sorry, I messed up
+      - sorry, I mixed things up
+      - sorry, I misunderstood
+      - sorry if I misunderstood you
+      - sorry if I was not clear
+      - sorry if that sounded rude
+      - sorry if that came out wrong
+      - sorry if I caused any delay
+      - sorry if I wasted your time
+      - I am sorry for any delay
+      - I am sorry for not being clear
+      - I am truly sorry for that
+      - I am honestly sorry about that
+      - I really apologize for this
+      - I really apologize for that
+      - I really regret that
+      - I am sorry, I will fix it
+      - sorry, I will try to fix this
+      - sorry, I should not have done that
+      - sorry, I should not have said that
+      - I am sorry, that was a mistake
+      - I am sorry, I did not mean that
+      - sory, my mistake
+      - sry about that
+      - sry, my bad
+      - sry for the confusion
+      - sry for the delay
+      - I am sorry if I made things harder
+      - I am sorry if I made you wait
+      - I am sorry if that caused any issue
+      - I am sorry, I will do better next time
+      - sorry, I will pay more attention next time
+      - I am sorry, English is not perfect yet
+      - sorry, my English is not so good yet
+      - sorry, I am still learning this
+      - I am sorry, I might say things wrong
+      - sorry if my answer was weird
+      - sorry, I did not catch that right
+      - I am sorry, I missunderstood
+      - sorry, I am a bit nervous
+      - I am sorry for any confusion I made
+      - sorry if I spoke too fast
+      - sorry if I spoke too slow
+      - I am really sorry if that sounded strange

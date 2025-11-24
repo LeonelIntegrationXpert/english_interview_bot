@@ -2,23 +2,203 @@ version: '3.1'
 nlu:
   - intent: didnt_understand
     examples: |
-      - desculpa, não entendi
+      - descupa, nao entendi
       - foi mal, não peguei muito bem
       - desculpa, não consegui entender direito
-      - você pode repetir, por favor?
+      - vc pode repetir, por favor?
       - pode reformular a pergunta, por favor?
       - desculpa, você pode explicar de outro jeito?
       - não tenho certeza se entendi corretamente
       - desculpa, pode falar de novo um pouco mais devagar?
       - desculpa, acho que perdi uma parte
-      - desculpa, pode repetir a última parte?
-      - sorry, I didn’t understand
+      - descupa, pode repetir a última parte?
+      - desculpa, essa parte passou batido pra mim
+      - foi mal, não alcancei bem a ideia
+      - acho que nao peguei o ponto principal
+      - não entendi muito bem o final
+      - não entendi direito o começo
+      - descupa, me perdi um pouco na explicação
+      - descupa, essa parte ficou confusa pra mim
+      - não consegui acompanhar essa parte
+      - acho que interpretei errado o que você disse
+      - não sei se entendi do jeito certo
+      - pode explicar de novo com outras palavras?
+      - pode dar um exemplo, pfv?
+      - desculpa, pode resumir de novo?
+      - descupa, será que você pode repetir mais devagar?
+      - não captei bem essa informação
+      - acho que perdi o contexto
+      - desculpa, me desconectei um pouco aqui
+      - essa parte passou rápido demais pra mim
+      - descupa, você pode voltar um pouco no assunto?
+      - desculpa, pulei um pedaço sem querer
+      - não peguei o que você falou no começo
+      - não peguei o que você falou no final
+      - não peguei a última frase
+      - pode repetir só a pergunta mesmo?
+      - pode repetir mais devagar, pfv?
+      - não entendi essa sigla
+      - não entendi esse termo técnico
+      - descupa, essa palavra eu não conheço
+      - acho que não entendi o objetivo da pergunta
+      - descupa, fiquei em dúvida no que você quis dizer
+      - descupa, você pode explicar de uma forma mais simples?
+      - pode explicar de um jeito mais direto?
+      - pode explicar de novo, passo a passo?
+      - desculpa, eu me confundi aqui
+      - nao sei se entendi a parte do prazo
+      - não sei se entendi a parte técnica
+      - não sei se entendi a parte do contexto
+      - descupa, essa explicação ficou meio rápida pra mim
+      - pode voltar um pouquinho, pfv?
+      - pode explicar usando um exemplo mais simples?
+      - acho que não entendi o que você espera da resposta
+      - descupa, pode repetir, a conexão falhou aqui
+      - desculpa, travou bem na hora que você falou isso
+      - não ouvi direito, caiu o áudio aqui
+      - não ouvi essa última parte, pode repetir?
+      - acho que falei outra coisa porque não entendi direito
+      - descupa, respondi errado porque entendi outra coisa
+      - descupa, precisei pedir pra repetir pra ter certeza
+      - não captei a pergunta inteira
+      - não captei o meio da frase
+      - não captei o finalzinho
+      - descupa, não entendi o que você quis dizer com isso
+      - pode explicar com outras palavras, pfv?
+      - pode reformular de um jeito mais simples?
+      - foi mal, me perdi na metade da explicação
+      - descupa, você falou rápido demais pra mim
+      - descupa, meu inglês ainda não é tão bom, não entendi tudo
+      - desculpa, fiquei inseguro se entendi certo
+      - não entendi a relação dessa pergunta com o contexto
+      - descupa, não entendi qual parte você quer que eu responda
+      - pode repetir só a pergunta principal?
+      - pode separar em partes menores pra eu entender melhor?
+      - descupa, pode reforçar qual é o foco da pergunta?
+      - descupa, você pode repetir desde o começo?
+      - descupa, eu acho que misturei as coisas aqui
+      - nao peguei esse número que você comentou
+      - não peguei o nome da ferramenta que você citou
+      - não peguei o nome da empresa que você falou
+      - não peguei o nome da tecnologia
+      - pode repetir o nome do sistema, pfv?
+      - pode repetir o nome do cliente, pfv?
+      - descupa, passei batido nessa parte
+      - descupa, acho que minha atenção falhou aqui
+      - foi mal, tava anotando e acabei perdendo um trecho
+      - descupa, eu tava escrevendo e não ouvi bem
+      - descupa, você pode repetir que cortou aqui pra mim
+      - não entendi o que você quis dizer com esse ponto
+      - não entendi o que você espera dessa resposta
+      - pode explicar de novo só essa parte específica?
+      - pode voltar um pouquinho nessa explicação?
+      - descupa, ainda tô com dúvida nessa parte
+      - descupa, posso pedir pra você repetir mais uma vez?
+      - foi mal, vou precisar que você repita
+      - descupa, eu realmente não entendi essa pergunta
+      - não entendi se você quer um exemplo ou uma explicação geral
+      - não entendi se é sobre o projeto ou sobre a empresa
+      - descupa, me perdi quando você falou dos números
+      - descupa, me perdi quando você mudou de assunto
+      - descupa, me perdi um pouco no meio da frase
+      - não entendi se você quer que eu fale do passado ou do presente
+      - sorry, I didnt understand
       - sorry, I didn’t quite get that
       - I’m not sure I understood correctly
       - could you repeat that, please?
       - could you please say that again?
-      - sorry, could you explain that in a different way?
+      - sorry, could u explain that in a different way?
       - sorry, I think I missed part of that
-      - could you repeat the last part, please?
+      - could you repeat the last part, pls?
       - sorry, could you speak a bit slower?
-      - sorry, I didn’t catch that
+      - sorry, I didnt catch that
+      - sorry, that part went over my head
+      - sorry, I did not fully get that
+      - I do not think I caught the main point
+      - I did not really understand the end
+      - I did not really understand the beginning
+      - sorry, I got a bit lost in your explanation
+      - sorry, that part was confusing for me
+      - I could not follow that part very well
+      - I think I interpreted what you said in the wrong way
+      - I am not sure I got it the way you meant
+      - could you explain it again in other words?
+      - could u give me an example, pls?
+      - sorry, could you summarize that again?
+      - sorry, could you maybe repeat it a bit slower?
+      - I did not quite catch that information
+      - I think I lost the context there
+      - sorry, my mind drifted a bit for a second
+      - that part went too fast for me
+      - sorry, could you go back a little bit?
+      - sorry, I think I skipped a piece by accident
+      - I did not catch what you said at the beginning
+      - I did not catch what you said at the end
+      - I did not catch the last sentence
+      - could u repeat just the question, pls?
+      - could you repeat that more slowly, pls?
+      - I did not understand that acronym
+      - I did not understand that technical term
+      - sorry, I do not know that word
+      - I do not think I understood the purpose of the question
+      - sorry, I am a bit unsure what you meant
+      - sorry, could you explain it in a simpler way?
+      - could you explain it in a more direct way?
+      - could you explain it again, step by step?
+      - sorry, I got a bit confused here
+      - Im not sure I understood the part about the deadline
+      - Im not sure I understood the technical part
+      - Im not sure I understood the context part
+      - sorry, that explanation was a bit fast for me
+      - could you go back a little, pls?
+      - could you explain it using a simpler example?
+      - I do not think I understood what you expect from my answer
+      - sorry, could you repeat that, the connection dropped here
+      - sorry, the sound cut off when you said that
+      - I could not hear properly, the audio dropped here
+      - I did not hear the last part, could you repeat it?
+      - I think I said something else because I did not really understand
+      - sorry, I answered wrong because I understood something different
+      - sorry, I needed to ask you to repeat to be sure
+      - I did not catch the whole question
+      - I did not catch the middle of the sentence
+      - I did not catch the very end
+      - sorry, I did not understand what you meant by that
+      - could you explain that with different words, pls?
+      - could you rephrase that in a simpler way?
+      - sorry, I got lost halfway through the explanation
+      - sorry, you spoke a bit too fast for me
+      - sorry, my English is not that strong yet, I did not get everything
+      - sorry, I felt a bit nervous and did not understand it all
+      - I did not understand how this question connects to the context
+      - sorry, I did not understand which part you want me to answer
+      - could you repeat just the main question, pls?
+      - could you break it into smaller parts so I can understand better?
+      - sorry, could you reinforce what the focus of the question is?
+      - sorry, could you repeat it from the beginning, pls?
+      - sorry, I think I mixed things up here
+      - I did not catch the number you mentioned
+      - I did not catch the name of the tool you said
+      - I did not catch the name of the company you mentioned
+      - I did not catch the technology name
+      - could you repeat the system name, pls?
+      - could you repeat the client name, pls?
+      - sorry, I kind of skipped that part
+      - sorry, I think my attention failed there for a second
+      - sorry, I was taking notes and missed a part
+      - sorry, I was writing and did not hear that well
+      - sorry, could you repeat that, it froze here for me
+      - I did not understand what you meant with that point
+      - I did not understand what you expect from this answer
+      - could you explain that specific part again?
+      - could you go back a bit in that explanation?
+      - sorry, I am still confused about that part
+      - sorry, can I ask you to repeat it one more time?
+      - sorry, I will need you to repeat that
+      - sorry, I really did not understand that question
+      - I did not understand if you want an example or a general explanation
+      - I did not understand if it is about the project or the company
+      - sorry, I got lost when you talked about the numbers
+      - sorry, I got lost when you changed the subject
+      - sorry, I got a bit lost in the middle of the sentence
+      - I did not understand if you want me to talk about the past or the present

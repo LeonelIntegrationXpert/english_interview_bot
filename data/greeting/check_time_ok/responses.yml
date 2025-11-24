@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Sim, esse horário funciona bem para mim e eu tenho tempo suficiente para a entrevista.
+            Sim, esse horário funciona bem pra mim e tenho tempo suficiente.
           vr_en: |
-            Yes, this time works well for me and I have enough time for the interview.
+            Yes, this time works well for me and I have enough time.
+        resp_2:
+          vr_pt: |
+            Eu tenho um compromisso depois, então só preciso respeitar o horário de término.
+          vr_en: |
+            I do have something right after this, so I just need us to respect the ending time.

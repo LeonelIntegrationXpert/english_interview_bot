@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_work_style_autonomy:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu gosto de ter autonomia com clareza de objetivos. Consigo me auto organizar bem, definir próximos passos e manter o gestor atualizado sobre o progresso, riscos e decisões importantes. Ao mesmo tempo, valorizo feedbacks e alinhamentos periódicos para garantir que estou indo na direção certa.
-          vr_en: |
-            I like to have autonomy with clear objectives. I can organize myself well, define next steps, and keep my manager updated about progress, risks, and important decisions. At the same time, I value feedback and periodic check ins to make sure I am moving in the right direction.

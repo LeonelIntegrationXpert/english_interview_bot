@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_change_enablement_adoption:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu começo com um caso claro de valor, mapeio impactos por persona e preparo materiais de capacitação. Lanço em ondas com champions locais e indicadores de adoção, monitoro fricções e ajusto o plano conforme feedback e dados. Trato exceções com critérios e prazo para evitar atalhos permanentes, e mantenho a liderança comunicando ganhos e próximos passos.
-          vr_en: |
-            I start with a clear value case, map impacts by persona, and prepare enablement materials. I roll out in waves with local champions and adoption metrics, monitor friction, and adapt the plan based on feedback and data. I handle exceptions with criteria and sunset dates to avoid permanent shortcuts, and keep leadership aligned on wins and next steps.

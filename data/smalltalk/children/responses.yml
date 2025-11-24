@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_children:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Sim, eu tenho duas filhas. Os nomes delas são Alice e Helena.
-          vr_en: |
-            Yes, I have two daughters. Their names are Alice and Helena.

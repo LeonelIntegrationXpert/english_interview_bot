@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_timezone_confusion:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Teve uma pequena diferença, mas está tranquilo para mim agora. Podemos seguir com a entrevista sem problema.
-          vr_en: |
-            There was a small difference, but it’s fine for me now. We can go ahead with the interview without any problem.

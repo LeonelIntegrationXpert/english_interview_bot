@@ -12,6 +12,96 @@ nlu:
       - obrigado por essa introdução, podemos seguir para as perguntas?
       - excelente, a partir daqui eu vou trazer algumas perguntas mais específicas
       - perfeito, vou avançar para as perguntas sobre sua experiência profissional
+      - show, bora pras perguntas entao
+      - então vamos começar com as perguntas agora
+      - certo, vou puxar a primeira pergunta
+      - beleza, vou iniciar com a primeira pergunta
+      - ótimo, vou começar com umas perguntas mais gerais
+      - bom, vou começar te perguntando sobre sua experiência
+      - ok, vamos partir pras perguntas da vaga
+      - legal, agora foco nas perguntas da entrevista
+      - massa, vou engatar aqui na parte das perguntas
+      - então tá, vou iniciar o bloco de perguntas
+      - fechado, vou começar fazendo algumas perguntas
+      - joia, a partir de agora entro nas perguntas
+      - beleza, agora começo com as perguntas de perfil
+      - tranquilo, vou seguir com as perguntas combinadas
+      - então, vou começar pelas perguntas mais básicas
+      - agora vou pra parte das perguntas mais técnicas
+      - então, a partir daqui são algumas perguntas-chave
+      - beleza, vou mandar a primeira pergunta agora
+      - ok, vou disparar as perguntas aqui
+      - legal, vou tocar nas perguntas sobre seus projetos
+      - então, vou começar perguntando do seu último trabalho
+      - agora eu entro na parte de perguntas de carreira
+      - show, vou começar perguntando da sua experiência recente
+      - então, vamos entrar nas perguntas do processo
+      - beleza, agora vem as perguntas mais objetivas
+      - perfeito, vou seguir com as perguntas que preparei
+      - vou começar com umas perguntas mais tranquilas
+      - agora vou subindo um pouco o nível das perguntas
+      - então, vou fazer algumas perguntas em sequência
+      - agora começo com as perguntas em inglês
+      - então, se estiver ok, entro nas perguntas em inglês
+      - beleza, vou seguir nas perguntas sem muita pausa
+      - ok, vou entrar direto nas perguntas do dia a dia
+      - show, agora a gente entra no bloco de perguntas
+      - vou começar com perguntas mais abertas primeiro
+      - agora vou para as perguntas mais diretas
+      - então, deixa eu começar com uma pergunta simples
+      - certo, vou trazer agora algumas perguntas práticas
+      - beleza, vou começar pelas perguntas sobre projetos
+      - então, com isso, vamos pras perguntas principais
+      - agora vou fazer algumas perguntas sobre seu contexto
+      - perfeito, daqui em diante são só perguntas
+      - vou começar com uma pergunta bem tranquila
+      - agora vou te fazer algumas perguntas em sequência
+      - então, vou começar abordando sua experiência anterior
+      - beleza, vou puxar a parte de perguntas comportamentais
+      - ok, vamos dar start nas perguntas
+      - show, vou iniciar as perguntas da entrevista agora
+      - então, vou seguir aqui com as perguntas combinadas
+      - agora vou entrar na parte mais perguntinha mesmo
+      - certo, vou mandar umas perguntas rápidas primeiro
+      - beleza, vou começar pelas perguntas sobre seu perfil
+      - então, vou começar com as perguntas que separei
+      - agora vou fazer umas perguntas mais focadas no cargo
+      - show, então agora é a parte de perguntas
+      - ok, vou começar com a primeira pergunta mais geral
+      - então, se estiver pronto, vou fazer algumas perguntas
+      - agora vou passar para as perguntas sobre experiência
+      - perfeito, agora entram as perguntas de dia a dia
+      - vou iniciar com as perguntas sobre seus projetos
+      - então, vou começar por uma pergunta mais simples
+      - beleza, vou entrar nas perguntas de rotina
+      - agora começo com as perguntas sobre responsabilidade
+      - ok, vou seguir aqui com mais algumas perguntas
+      - então, vou abrir com uma pergunta de contexto
+      - show, a partir de agora vou só fazendo perguntas
+      - agora vou guiando a conversa com algumas perguntas
+      - beleza, vou passando pelas perguntas devagar
+      - então, vou começar pelas perguntas que todo mundo recebe
+      - certo, vou começar com uma pergunta bem clássica
+      - agora vou soltar algumas perguntas mais específicas
+      - ok, agora entramos oficialmente nas perguntas
+      - show, a gente passa pras perguntas então
+      - perfeito, começo agora a parte das perguntas
+      - agora vou te fazer algumas perguntinhas rápidas
+      - então, vou emendar aqui uma sequência de perguntas
+      - beleza, começo perguntando da sua experiência atual
+      - agora vou entrar nas perguntas mais de comportamento
+      - ok, vou trazer algumas perguntas sobre desafios
+      - então, iniciando aqui o bloco de perguntas da vaga
+      - show, agora vou na parte de perguntas que eu preparei
+      - beleza, vou seguir com as perguntas em ordem
+      - agora eu começo as perguntas mais estruturadas
+      - então, vou começar perguntando do seu papel atual
+      - ok, vou disparar aqui a primeira pergunta oficial
+      - agora vou entrar nas perguntas de cenário
+      - beleza, vou puxar algumas perguntas de situação real
+      - então, a partir de agora só pergunta e resposta
+      - ok, vou começar com uma pergunta mais de contexto geral
+      - agora vou fazendo as perguntas conforme o combinado
       - great, so if you’re ready, we can start with the questions
       - perfect, if that’s okay with you, I’ll start with the first question
       - very good, now I’ll move on to the questions about your experience
@@ -22,3 +112,93 @@ nlu:
       - thank you for that introduction, can we move on to the questions?
       - excellent, from here I’ll bring a few more specific questions
       - perfect, I’ll go ahead and move to the questions about your professional experience
+      - okay, I’ll start with the first question now
+      - so, let me start with some questions
+      - alright, I’m gonna start with a few questions
+      - cool, I’ll kick off with the questions now
+      - okay, I’ll begin with some general questions
+      - from here, I’ll go into the interview questions
+      - right, I’ll start asking about your experience
+      - so, I’ll move on to the role questions now
+      - great, I’ll begin with some background questions
+      - okay, I’ll start with some simple questions first
+      - now I’ll go ahead and start the questions
+      - alright, time to move into the questions part
+      - so, I’ll start with a basic question
+      - okay, I’ll start by asking about your last role
+      - from now on I’ll guide with some questions
+      - great, I’ll start with questions about your projects
+      - right, I’ll move to the questions about your profile
+      - so, I’ll start asking a few things about your work
+      - okay, I’ll jump into the main questions now
+      - now I’ll move to some more focused questions
+      - alright, I’ll start with some light questions first
+      - so, I’ll go on with a sequence of questions
+      - okay, I’ll start with the more general questions
+      - now we go into the core interview questions
+      - cool, I’ll now start the interview questions part
+      - great, I’ll begin with some background on your career
+      - right, I’ll ask a couple of questions about your routine
+      - okay, I’ll move into the questions about your day to day
+      - from here, I’ll just go through my question list
+      - so, I’ll start with a question about your current role
+      - now I’ll go on with a few more specific questions
+      - alright, I’ll bring some questions about your last project
+      - okay, let me start with some high level questions
+      - great, I’ll continue with the planned questions now
+      - so, I’ll start the formal question part now
+      - right, I’ll start with some easy questions
+      - okay, I’ll move into the technical questions now
+      - now I’ll start with questions more related to the position
+      - alright, I’ll go ahead and ask the first question
+      - so, I’ll guide the rest with a few questions
+      - okay, I’ll start with questions about your background
+      - from here on, I’ll keep asking some questions
+      - great, I’ll kick off with some experience questions
+      - right, now I’ll go through the questions I prepared
+      - okay, I’ll start with your experience in your current job
+      - so, I’ll begin with a question about your responsibilities
+      - now I’ll ask a few questions more scenario based
+      - alright, I’ll go into some behavior questions now
+      - okay, I’ll start asking about your technical stack
+      - great, I’ll now move to questions about challenges you faced
+      - so, I’ll go ahead and start the main interview questions
+      - right, let me start with a question about your background
+      - okay, I’ll move forward with the next questions
+      - now I’ll ask some more direct questions
+      - alright, I’ll begin with some questions about your results
+      - so, I’ll go step by step with a few questions
+      - okay, I’ll start with questions around your last company
+      - great, I’ll now jump into the more specific questions
+      - right, I’ll continue here with my list of questions
+      - okay, I’ll start now with questions about your projects
+      - from here, I’ll just ask question by question
+      - so, I’ll start with a simple warm up question
+      - alright, I’ll go ahead with some structured questions
+      - okay, I’ll start with questions about your daily tasks
+      - now I’ll move into questions about your main skills
+      - right, I’ll begin with some questions about your journey
+      - okay, I’ll start with a question related to your duties
+      - great, I’ll continue with questions about your experience
+      - so, I’ll go on asking some focused questions
+      - okay, I’ll start with a question about your current stack
+      - now I’ll move to questions about your past roles
+      - alright, I’ll start with a few short questions
+      - so, I’ll begin with some quick questions first
+      - okay, I’ll move ahead with the next set of questions
+      - great, I’ll start with questions more related to the job
+      - right, I’ll go through some questions about your profile
+      - okay, I’ll start with the questions I planned for today
+      - from here I’ll ask questions one by one
+      - so, I’ll start with a straightforward question
+      - alright, let’s move on with the next questions
+      - okay, I’ll start with some questions about your past projects
+      - now I’ll ask you a couple of targeted questions
+      - right, I’ll begin with a question about your role today
+      - okay, I’ll go into some practical questions now
+      - great, I’ll move on to more detailed questions
+      - so, I’ll start with a question about your last experience
+      - okay, I’ll keep going with some follow up questions
+      - now I’ll move to the next block of questions
+      - alright, I’ll start with questions focused on the position
+      - so, I’ll begin with a question about your background story

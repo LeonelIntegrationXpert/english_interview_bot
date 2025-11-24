@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_quality_engineering_mindset:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Qualidade começa no design: padrões, revisões e testes automatizados na base da pirâmide. Eu monitoro indicadores de confiabilidade e experiência, trato dívida técnica visível no planejamento e defino critérios claros de release. Quando necessário, bloqueio entrega e proponho um plano de estabilização. Compartilho aprendizados e promovo prevenção como prática contínua.
-          vr_en: |
-            Quality starts at design: standards, reviews, and automated tests at the base of the pyramid. I monitor reliability and experience indicators, surface tech debt in planning, and define clear release criteria. When needed, I block delivery and propose a stabilization plan. I share learnings and promote prevention as an ongoing practice.

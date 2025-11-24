@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_managing_up_feedback:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu preparo uma mensagem curta baseada em fatos, impactos e alternativas, buscando o momento apropriado. Apresento riscos e benefícios com clareza e proponho caminhos viáveis. Se a decisão se mantiver, reforço alinhamento e foco na execução, registrando acordos. Acompanho efeitos práticos e retorno depois com dados para avaliar se ajustes são necessários.
-          vr_en: |
-            I craft a concise, fact-based message focused on impacts and options, choosing appropriate timing. I present risks and benefits clearly and propose viable paths. If the decision stands, I reinforce alignment and execution, documenting agreements. I then track practical effects and follow up with data to assess whether adjustments are needed.

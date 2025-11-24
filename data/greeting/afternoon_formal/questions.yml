@@ -2,18 +2,106 @@ version: '3.1'
 nlu:
   - intent: afternoon_formal
     examples: |
-      - boa tarde
-      - boa tarde, tudo bem?
       - boa tarde, como vai?
-      - boa tarde, como você está?
       - boa tarde, tudo certo por aí?
       - boa tarde, obrigado pelo seu tempo
       - boa tarde, obrigado por participar
       - boa tarde, é um prazer falar com você
       - boa tarde a todos
       - boa tarde, pessoal
-      - good afternoon
-      - good afternoon, how are you?
+      - boa tarde, time
+      - boa tarde, tudo jóia?
+      - boa tarde, tudo beleza aí?
+      - boa tarde, tudo tranquilo com você?
+      - boa tarde, tudo em ordem por aí?
+      - boa tarde, como estão as coisas?
+      - boa tarde, como tá o seu dia?
+      - boa tarde, como segue seu dia?
+      - boa tarde, obrigado pela oportunidade
+      - boa tarde, obrigado por me receber
+      - boa tarde, obrigado pela entrevista
+      - boa tarde, obrigado por essa conversa
+      - boa tarde, obrigado por separar um tempo
+      - boa tarde, obrigado pela disponibilidade
+      - boa tarde, obrigado por marcar essa call
+      - boa tarde, obrigado por marcar essa reunião
+      - boa tarde, obrigado por encaixar esse horário
+      - boa tarde, agradeço o convite
+      - boa tarde, agradeço a oportunidade
+      - boa tarde, agradeço por me receber hoje
+      - boa tarde, é um prazer estar aqui
+      - boa tarde, é um prazer conversar com você
+      - boa tarde, é um prazer participar dessa entrevista
+      - boa tarde, feliz de estar aqui com vocês
+      - boa tarde, feliz de falar com você hoje
+      - boa tarde, podemos começar quando quiser
+      - boa tarde, pronto pra gente começar
+      - boa tarde, tô pronto pra começar
+      - boa tarde, podemos iniciar a entrevista?
+      - boa tarde, podemos iniciar nossa conversa?
+      - boa tarde, tudo certo pra começarmos?
+      - boa tarde, tudo tranquilo pra seguir?
+      - boa tarde, espero que esteja tudo bem
+      - boa tarde, espero que esteja tudo certo aí
+      - boa tarde, espero que seu dia esteja indo bem
+      - boa tarde, espero que sua tarde esteja tranquila
+      - boa tarde, espero que a correria esteja controlada
+      - boa tarde, como tá a correria hoje?
+      - boa tarde, como tá o ritmo por aí?
+      - boa tarde, o dia tá muito puxado?
+      - boa tarde, o dia tá muito corrido?
+      - boa tarde, obrigado por ajustar sua agenda
+      - boa tarde, obrigado por encaixar essa conversa
+      - boa tarde, obrigado por abrir esse espaço
+      - boa tarde, obrigado por me ouvir hoje
+      - boa tarde, obrigado por essa troca
+      - boa tarde, obrigado por essa oportunidade de me apresentar
+      - boa tarde, é muito bom falar com você
+      - boa tarde, é muito bom estar aqui
+      - boa tarde, é bom estar aqui com o time
+      - boa tarde, prazer falar com todos vocês
+      - boa tarde, prazer falar com o time
+      - boa tarde, prazer falar com a banca
+      - boa tarde, muito obrigado pela recepção
+      - boa tarde, muito obrigado pela atenção
+      - boa tarde, muito obrigado por essa chance
+      - boa tarde, obrigado por considerar meu perfil
+      - boa tarde, obrigado por olhar meu currículo
+      - boa tarde, obrigado por me incluir no processo
+      - boa tarde, obrigado por continuar o processo comigo
+      - boa tarde, obrigado por dar sequência à entrevista
+      - boa tarde, fico à disposição para suas perguntas
+      - boa tarde, fico à disposição pra responder o que precisar
+      - boa tarde, pode ficar à vontade pra perguntar
+      - boa tarde, pode seguir com as perguntas quando quiser
+      - boa tarde, podemos ir direto ao ponto
+      - boa tarde, podemos ir direto para as perguntas
+      - boa tarde, pronto pra começar a responder
+      - boa tarde, pronto pra contar um pouco sobre mim
+      - boa tarde, pronto pra falar da minha experiência
+      - boa tarde, pronto pra falar da minha trajetória
+      - boa tarde, já podemos começar sem problema
+      - boa tarde, por mim podemos começar agora
+      - boa tarde, por mim tudo certo pra começar
+      - boa tarde, estou disponível pra gente iniciar
+      - boa tarde, estou à disposição de vocês
+      - boa tarde, estou à disposição da empresa
+      - boa tarde, agradeço por esse horário depois do almoço
+      - boa tarde, obrigado por marcar essa conversa à tarde
+      - boa tarde, obrigado por esse tempo na parte da tarde
+      - boa tarde, obrigado por conversar comigo agora
+      - boa tarde, obrigado por seguir a entrevista hoje
+      - boa tarde, obrigado por manter esse papo com a gente
+      - boa tarde, espero que essa conversa seja bem produtiva
+      - boa tarde, espero contribuir bem nessa conversa
+      - boa tarde, espero conseguir explicar bem meu perfil
+      - boa tarde, espero que eu consiga responder tudo com clareza
+      - boa tarde, vamos aproveitar bem esse tempo juntos
+      - boa tarde, vamos aproveitar bem essa entrevista
+      - boa tarde, vamos aproveitar essa conversa da melhor forma
+      - boa tarde, obrigado por essa oportunidade de troca
+      - boa tarde, agradeço a confiança em conversar comigo
+      - boa tarde, obrigado pela paciência comigo hoje
       - good afternoon, how are you doing today?
       - good afternoon, how are you this afternoon?
       - good afternoon, thanks for your time
@@ -22,3 +110,95 @@ nlu:
       - good afternoon everyone
       - good afternoon, team
       - good afternoon, hope your day is going well
+      - good afternoon, hope your afternoon is going well
+      - good afternoon, hope everything is good with you
+      - good afternoon, hope everything is fine on your side
+      - good afternoon, hope things are going well there
+      - good afternoon, how is your day going?
+      - good afternoon, how is your afternoon so far?
+      - good afternoon, how are things on your side?
+      - good afternoon, how are things today?
+      - good afternoon, how is everything going today?
+      - good afternoon, how have you been today?
+      - good afternoon, thank you for your time today
+      - good afternoon, thank you for taking the time
+      - good afternoon, thank you for taking this time with me
+      - good afternoon, thank you for meeting with me today
+      - good afternoon, thank you for scheduling this call
+      - good afternoon, thanks for arranging this meeting
+      - good afternoon, thanks for organizing this interview
+      - good afternoon, thank you for inviting me
+      - good afternoon, thanks for the invitation
+      - good afternoon, thank you for the opportunity
+      - good afternoon, thanks for giving me this opportunity
+      - good afternoon, thank you for having me
+      - good afternoon, thanks for having me today
+      - good afternoon, it is great to be here
+      - good afternoon, it is nice to be here with you
+      - good afternoon, it is great to talk with you
+      - good afternoon, it is nice to talk to you today
+      - good afternoon, it is great to finally speak with you
+      - good afternoon, nice to be here with the team
+      - good afternoon, nice to be here with all of you
+      - good afternoon, nice to meet you all
+      - good afternoon, nice speaking with you today
+      - good afternoon, nice to see you today
+      - good afternoon, glad to be here
+      - good afternoon, I am glad to be here today
+      - good afternoon, happy to be here with you
+      - good afternoon, happy to speak with you today
+      - good afternoon, I appreciate your time
+      - good afternoon, I really appreciate your time today
+      - good afternoon, I appreciate this chance to talk
+      - good afternoon, I appreciate the opportunity to be here
+      - good afternoon, we can start whenever you are ready
+      - good afternoon, I am ready to start when you are
+      - good afternoon, I am ready for the interview
+      - good afternoon, I am ready for our conversation
+      - good afternoon, I am ready for our chat
+      - good afternoon, feel free to start with your questions
+      - good afternoon, you can start with the questions when you want
+      - good afternoon, we can go straight to the questions
+      - good afternoon, we can go straight to the point
+      - good afternoon, hope we have a good conversation
+      - good afternoon, hope we have a productive talk
+      - good afternoon, hope we have a good interview today
+      - good afternoon, thanks for fitting me into your schedule
+      - good afternoon, thank you for adjusting your schedule
+      - good afternoon, thanks for taking this time in the afternoon
+      - good afternoon, thanks for joining this call
+      - good afternoon, thank you for joining the call
+      - good afternoon, thanks for joining the meeting
+      - good afternoon, thank you for joining this interview
+      - good afternoon, thanks for connecting today
+      - good afternoon, thanks for jumping on this call
+      - good afternoon, thanks for this chance to introduce myself
+      - good afternoon, thank you for letting me introduce myself
+      - good afternoon, thank you for letting me share my experience
+      - good afternoon, thanks for listening to me today
+      - good afternoon, thank you for hearing my story
+      - good afternoon, I am happy to answer your questions
+      - good afternoon, I am happy to share more about my background
+      - good afternoon, I am happy to talk about my experience
+      - good afternoon, I am happy to talk about my profile
+      - good afternoon, everything good with you today?
+      - good afternoon, is everything okay with you?
+      - good afternoon, all good there?
+      - good afternoon, hope your day is not too busy
+      - good afternoon, hope your afternoon is not too busy
+      - good afternoon, hope your day has been going well
+      - good afternoon, hope your meetings have been going well
+      - good afternoon, I know it is late in the day, thanks for your time
+      - good afternoon, thanks for taking this time at the end of the day
+      - good afternoon, thanks for speaking with me after your meetings
+      - good afternoon, thanks for this time after lunch
+      - good afternoon, I appreciate this time in the afternoon
+      - good afternoon, I am glad we could speak today
+      - good afternoon, I am glad we could find this time
+      - good afternoon, I am glad we could schedule this conversation
+      - good afternoon, great to see you again
+      - good afternoon, nice to talk to you again
+      - good afternoon, good to see you again today
+      - good afternoon, thank you for continuing the process with me
+      - good afternoon, thanks for moving forward with my application
+      - good afternoon, thanks for giving me this follow up interview

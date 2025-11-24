@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_change_interviewer_mid_process:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Tudo bem, sem problema nenhum. Fico à vontade se outra pessoa precisar entrar ou assumir a conversa.
-          vr_en: |
-            That’s completely fine, no problem. I’m comfortable if someone else needs to join or take over the conversation.

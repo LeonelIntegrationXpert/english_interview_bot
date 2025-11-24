@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Verdade, já fazia um tempo mesmo!
+            Verdade, já fazia um tempo mesmo! Bom te ver de novo.
           vr_en: |
-            Yeah, it really has been a while!
+            Yeah, it really has been a while! It’s good to see you again.
+        resp_2:
+          vr_pt: |
+            É, faz tempo mesmo. Hoje o dia tá meio puxado, mas bom reencontrar você.
+          vr_en: |
+            Yeah, it’s been a while. Today has been a bit tough, but it’s nice to see you again.

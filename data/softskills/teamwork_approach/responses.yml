@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_teamwork_approach:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Em um time novo, eu começo ouvindo e entendendo como as coisas já funcionam, quais são as pessoas chave e qual é a cultura daquele grupo. Aos poucos, eu vou contribuindo mais ativamente, fazendo perguntas, oferecendo ajuda e compartilhando o que eu sei, sempre com respeito ao contexto que já existe. Em conflitos de ideia, eu tento focar no problema e nos dados, não nas pessoas, buscando uma solução que faça sentido para o objetivo do projeto. No geral, eu procuro ser alguém que conecta, facilita conversas e ajuda o time a chegar em decisões melhores.
-          vr_en: |
-            In a new team I start by listening and understanding how things already work, who the key people are, and what the team culture looks like. Then I gradually contribute more actively, asking questions, offering help, and sharing what I know, always respecting the context that is already in place. In idea conflicts I try to focus on the problem and on data, not on people, and I look for a solution that makes sense for the project goal. In general I try to be someone who connects people, facilitates conversations, and helps the team reach better decisions.

@@ -2,23 +2,203 @@ version: '3.1'
 nlu:
   - intent: reconnect_after_issue
     examples: |
-      - acho que tivemos um probleminha de conexão, mas agora acho que voltou, você está me ouvindo bem?
-      - tivemos uma queda rápida aqui, mas já estou te ouvindo de novo, tudo certo aí?
-      - acho que a call deu uma travada, mas parece que normalizou, você consegue me ouvir?
-      - tivemos um pequeno problema técnico, mas acho que já está resolvido, está me escutando?
-      - a conexão caiu por um instante, mas já retomamos, tudo bem para você?
-      - acho que sua imagem tinha travado por alguns segundos, mas agora voltou
-      - tivemos uma oscilação na internet, mas já está estável de novo, consegue me ouvir?
-      - parece que a call deu uma pequena falha, mas já está ok, tudo certo aí do seu lado?
-      - a gente teve um glitch rápido, mas já estamos de volta, você está me vendo e ouvindo?
-      - desculpa pelo problema técnico, mas acho que agora está normal, certo?
+      - acho que o áudio voltou a sincronizar agora, podemos seguir
+      - sua imagem reapareceu certinho agora, tudo ok por aí?
+      - acho que tivemos um probleminha de conexão, mas agora parece que voltou, você está me ouvindo bem?
+      - tivemos uma queda rápida aqui, mas já estou te ouvindo de novo, está tudo certo aí?
+      - acho que a call travou por um instante, mas agora parece normal, você consegue me ouvir?
+      - tivemos um pequeno problema técnico, mas acho que já resolveu, você está me escutando?
+      - a conexão caiu por um momento, mas já retornou, tudo bem para você?
+      - acho que sua imagem tinha travado, mas agora voltou ao normal
+      - tivemos uma oscilação na internet, mas já está estável de novo, você consegue me ouvir?
+      - parece que a call falhou por alguns segundos, mas já está ok, tudo certo do seu lado?
+      - tivemos um pequeno glitch na conexão, mas já estamos de volta, você está me vendo e ouvindo?
+      - desculpa pelo problema técnico, mas agora acho que está tudo normal, certo?
+      - sua voz tinha sumido por um instante, mas voltou agora, consegue me ouvir?
+      - acho que seu áudio tinha cortado, mas já está estável de novo
+      - a tela tinha congelado aqui, mas agora carregou certinho
+      - tivemos uma travadinha rápida, mas agora está funcionando
+      - acho que meu áudio falhou, mas voltou ao normal
+      - parece que você estava sem som, mas agora voltou
+      - tivemos um delay rápido, mas estabilizou de novo
+      - a conexão ficou instável por segundos, mas já normalizou
+      - acho que minha internet oscilou, mas já está tudo ok
+      - sua imagem tinha ficado borrada, mas voltou
+      - tivemos um eco estranho, mas desapareceu agora
+      - seu vídeo tinha parado, mas já retomou
+      - acho que perdemos alguns segundos, mas já voltou
+      - tivemos um corte rápido de áudio, mas está ok agora
+      - seu som ficou robótico por um instante, mas normalizou
+      - o aplicativo travou aqui, mas agora está rodando
+      - tivemos uma pequena desincronização, mas já alinhou
+      - seu vídeo e áudio estão sincronizados de novo
+      - parece que sua câmera reiniciou, mas agora está ok
+      - acho que minha tela tinha travado, mas recuperou
+      - tivemos uma lentidão repentina, mas já estabilizou
+      - seu áudio ficou baixo por um momento, mas voltou
+      - tive uma queda rápida aqui, mas reconectei
+      - a call tinha caído, mas já estou de volta
+      - acho que a plataforma deu um bug, mas voltou ao normal
+      - sua imagem ficou preta por alguns segundos, mas normalizou
+      - tivemos uma pausa involuntária, mas já estamos aqui
+      - acho que você tinha ficado mudo sem querer, mas voltou
+      - seu vídeo ficou fora de sincronia, mas ajustou
+      - tivemos uma micro queda na internet, mas está ok agora
+      - acho que houve um atraso no som, mas já corrigiu
+      - sua tela demorou a atualizar, mas carregou agora
+      - tive um mini travamento aqui, mas já foi resolvido
+      - seu áudio tinha sumido completamente, mas voltou
+      - a plataforma reconectou automaticamente, agora está estável
+      - acredito que perdemos alguns segundos de fala, mas seguimos
+      - a conexão voltou com qualidade melhor agora
+      - houve uma falha rápida no microfone, mas normalizou
+      - sua imagem ficou pixelada, mas já ficou nítida
+      - acho que sua rede variou, mas voltou ao normal
+      - tivemos uma quebra de conexão, mas tudo está ok agora
+      - seu vídeo congelou no meio da frase, mas destravou
+      - houve um delay no retorno do áudio, mas ajustou
+      - sua voz voltou clara agora, antes estava cortando
+      - a chamada reassumiu a estabilidade, podemos continuar
+      - a conexão voltou mais forte agora
+      - tivemos um probleminha, mas já sincronizou tudo
+      - seu vídeo demorou para reconectar, mas está ótimo agora
+      - o áudio ficou mudo sozinho, mas voltou normal
+      - acho que meu sinal caiu por segundos, mas já voltou
+      - tivemos uma micro interrupção, mas já estamos bem
+      - tudo carregou de novo, parece ok agora
+      - sua imagem voltou ao foco, tinha desfocado
+      - o buffering atrapalhou um pouco, mas sumiu
+      - tivemos um pequeno lag, mas passou
+      - a voz tinha ficado atrasada, mas sincronizou
+      - acho que houve interferência, mas já corrigiu
+      - sua tela tinha sumido, mas reapareceu
+      - meu vídeo tinha travado, mas normalizou agora
+      - tivemos uma pausa técnica sem querer, mas seguimos
+      - o áudio tinha eco, mas agora está limpo
+      - houve uma queda rápida na chamada, mas retomamos
+      - acho que o app reiniciou a conexão automaticamente
+      - a qualidade caiu por um instante, mas já recuperou
+      - sua imagem estável agora, antes oscilava
+      - tivemos um problema na rede, mas já está resolvido
+      - o vídeo ficou quadro a quadro, mas voltou ao normal
+      - sua voz voltou clara, antes estava metálica
+      - o ganho do microfone variou, mas já estabilizou
+      - a conexão flutuou, mas voltou firme
+      - tivemos uma interrupção mínima, mas já deu tudo certo
+      - sua câmera reconectou e está boa agora
+      - houve perda de pacote rápida, mas já normalizou
+      - seu vídeo estava travado, mas rodou de novo
+      - acredito que o software sincronizou novamente
+      - acho que perdemos 1 ou 2 segundos, mas já está estável
+      - tivemos uma queda do Wi-Fi, mas retornou
+      - sua transmissão está normal agora
+      - o áudio ficou muito baixo, mas voltou ao volume certo
+      - a conexão recuperou a estabilidade completamente
+      - houve interferência visual, mas desapareceu
+      - seu microfone voltou nítido agora
+      - a call reconectou automaticamente, está tudo bem
+      - acho que a plataforma tentou reconectar, mas já voltou
+      - tivemos uma parada súbita, mas recuperou
+      - sua tela voltou a atualizar, podemos seguir
+      - seu áudio voltou a funcionar sem cortes
+      - tivemos um glitch, mas tudo está funcionando de novo
+      - I think the audio synced again now, we can continue
+      - your video just came back properly now, is everything okay?
       - I think we had a small connection issue, but it seems to be back now, can you hear me well?
       - we had a quick drop here, but I can hear you again, is everything okay on your side?
       - I think the call froze for a moment, but it looks stable now, can you hear me?
-      - we had a minor technical issue, but I believe it’s fixed now, can you hear me?
-      - the connection dropped for a second, but we’re back now, is that okay for you?
-      - I think your video had frozen for a few seconds, but it’s back now
+      - we had a minor technical issue, but I believe it is fixed now, can you hear me?
+      - the connection dropped for a moment, but we are back now, is that okay for you?
+      - I think your video was frozen for a few seconds, but it is back now
       - we had a brief internet glitch, but it seems stable again, can you hear me?
-      - it looks like the call had a small failure, but it’s fine now, is everything okay on your side?
-      - we had a quick glitch, but we’re back, can you see and hear me?
-      - sorry about the technical issue, but I think everything is normal now, right?
+      - it looks like the call failed for a few seconds, but it is fine now, is everything okay on your side?
+      - we had a quick glitch, but we are back, can you see and hear me?
+      - I am sorry about the technical issue, but I think everything is normal now, right?
+      - your audio disappeared for a moment, but it is back now
+      - I think your sound had cut out, but it is stable again
+      - your screen had frozen here, but it loaded normally now
+      - we had a tiny freeze, but it is working again
+      - I think my audio failed for a second, but it is back
+      - it looked like your sound was gone, but it returned
+      - we had a quick delay, but it stabilized again
+      - the connection was unstable for a moment, but it normalized
+      - I think my internet fluctuated, but everything is fine now
+      - your image was blurry for a moment, but it is clear again
+      - we had a strange echo, but it is gone now
+      - your video had stopped, but it resumed
+      - I think we lost a few seconds, but we are back
+      - there was a quick audio cut, but it is okay again
+      - your sound got robotic for a moment, but it normalized
+      - the app froze on my side, but it is working now
+      - we had a small desync, but it is fixed
+      - your video and audio are synced again
+      - it looked like your camera restarted, but it is okay now
+      - my screen froze briefly, but recovered
+      - there was sudden lag, but it is stable again
+      - your audio went low for a moment, but it is normal now
+      - I had a drop on my side, but I reconnected
+      - the call had disconnected, but I am back
+      - I think the platform bugged, but it returned
+      - your screen went black for a few seconds, but it is fine now
+      - we had an unintended pause, but we are good
+      - I think you were muted accidentally, but you are back
+      - your video was out of sync, but it aligned
+      - the internet dipped briefly, but it is okay now
+      - it sounded like there was audio delay, but it fixed itself
+      - your screen took long to refresh, but it loaded now
+      - I had a tiny freeze, but it is solved
+      - your audio was completely gone, but it returned
+      - the platform reconnected itself, and it seems stable
+      - I think we lost a few seconds of audio, but we’re fine now
+      - the connection is stronger now
+      - there was a quick mic failure, but it is fine
+      - your image was pixelated, but it is clear again
+      - I think your network varied, but it is stable now
+      - we had a connection break, but everything is okay
+      - your video froze mid-sentence, but resumed
+      - there was a delay returning the audio, but it synced
+      - your voice is clear again, it was cutting before
+      - the call regained stability, we can continue
+      - the connection came back stronger
+      - we had a small issue, but it is synced now
+      - your video took a moment to reconnect, but it is fine now
+      - the audio was muted for a bit, but it is back
+      - I think my signal dropped briefly, but it is okay
+      - we had a micro interruption, but it is fine now
+      - everything reloaded, and it seems ok now
+      - your camera regained focus, it was blurry
+      - there was buffering, but it is gone now
+      - we had a small lag spike, but it is gone
+      - the voice was delayed, but it synced again
+      - I think there was interference, but it is fixed
+      - your screen had disappeared, but it reappeared
+      - my video froze earlier, but it is normal now
+      - we had a technical pause, but we’re back
+      - your audio had echo, but it's clear now
+      - the call dropped briefly, but we resumed
+      - I think the app reconnected automatically
+      - the quality dropped for a moment, but recovered
+      - your video is stable again
+      - there was a network issue, but it is resolved now
+      - the video was choppy, but it is smooth again
+      - your voice is clean now, it was metallic before
+      - the microphone level fluctuated, but it is stable
+      - the connection dipped, but it is steady again
+      - we had a minimal interruption, but it is fine now
+      - your camera reconnected properly
+      - there was packet loss briefly, but it normalized
+      - your video was frozen, but it started again
+      - I think the software resynced everything
+      - we might have lost a second or two, but it's stable now
+      - the Wi-Fi dropped for a moment, but we’re back
+      - your stream is normal now
+      - your audio volume corrected itself
+      - the stability is fully restored
+      - we had visual interference, but it disappeared
+      - your mic is clear again
+      - the call auto-reconnected, and it looks good
+      - I think the platform attempted reconnection
+      - we had a sudden stop, but it's okay now
+      - your screen resumed updating
+      - your audio is flowing without cuts now
+      - we had a glitch, but everything works again

@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_future_10_years:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Daqui a dez anos eu me vejo em um nível bem mais avançado, tanto em formação quanto em responsabilidade. Quero ter concluído um mestrado e um doutorado na área de tecnologia ou engenharia de software, além de ter várias certificações avançadas em Salesforce e também em SAP. Eu me vejo atuando em posições de liderança técnica ou de arquitetura, ajudando a definir estratégia, apoiando times e, ao mesmo tempo, continuando muito conectado à parte prática de solução de problemas.
-          vr_en: |
-            In ten years I see myself at a much more advanced level, both in education and in responsibility. I want to have completed a master’s degree and a doctorate in technology or software engineering, and I also want to have several advanced certifications in Salesforce and in SAP. I see myself in a technical leadership or architecture position, helping to define strategy, supporting teams, and at the same time staying very close to the practical side of solving problems.

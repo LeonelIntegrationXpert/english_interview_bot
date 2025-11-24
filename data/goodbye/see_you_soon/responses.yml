@@ -7,3 +7,8 @@ responses:
             Perfeito, falamos em breve então.
           vr_en: |
             Sounds good, talk to you soon then.
+        resp_2:
+          vr_pt: |
+            Tudo bem, ficarei no aguardo do retorno.
+          vr_en: |
+            Alright, I’ll be waiting for your feedback.

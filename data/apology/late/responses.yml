@@ -7,3 +7,8 @@ responses:
             Tranquilo, obrigado por avisar.
           vr_en: |
             No worries, thanks for letting me know.
+        resp_2:
+          vr_pt: |
+            Tudo bem, o importante é que agora a gente conseguiu se falar.
+          vr_en: |
+            It’s okay, the important thing is that we were able to talk now.

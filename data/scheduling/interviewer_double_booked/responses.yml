@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_interviewer_double_booked:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Sem problema, eu entendo como essas coisas acontecem. Se for preciso encurtar um pouco ou remarcar uma parte, podemos ajustar sem problema.
-          vr_en: |
-            No worries, I know these things happen. If we need to shorten a bit or reschedule part of it, I’m totally fine adjusting.

@@ -12,6 +12,96 @@ nlu:
       - desculpa, a rotina tá bem corrida
       - desculpa por não ter respondido antes
       - desculpa, demorei para retornar
+      - me desculpa pela demora na resposta
+      - foi mal, só vi tua mensagem agora
+      - malz a demora pra te responder
+      - desculpa, meu dia foi bem corrido
+      - desculpa, fiquei enrolado e respondi tarde
+      - foi mal por demorar pra retornar
+      - desculpa ter sumido um pouco
+      - foi mal, deixei sua mensagem parada
+      - desculpa responder em cima da hora
+      - desculpa por ter demorado tanto pra responder
+      - desculpa mesmo, acabei esquecendo de retornar
+      - me perdoa pela demora toda
+      - foi mal, essa semana foi uma correria
+      - desculpa o atraso pra te dar um retorno
+      - desculpa, só consegui parar agora pra responder
+      - desculpa a demora, minha agenda tava cheia
+      - desculpa, tive alguns imprevistos e atrasei a resposta
+      - foi mal, acabei deixando pra depois e esqueci
+      - desculpa por não ter visto sua mensagem antes
+      - desculpa o sumiço, tô respondendo só agora
+      - perdão, deixei acumular as mensagens
+      - desculpa, a caixa de entrada tá cheia e passou batido
+      - foi mal, misturei os horários e atrasei
+      - desculpa, tava em reunião o dia inteiro
+      - desculpa a demora, tava em outro compromisso
+      - desculpa, minha rotina tava bem puxada
+      - foi mal, precisei priorizar outras coisas antes
+      - desculpa responder tão tarde assim
+      - peço desculpas por esse atraso todo
+      - desculpa, o dia virou e acabei esquecendo de responder
+      - desculpa, precisei me organizar melhor pra responder
+      - foi mal pelo tempo que levou pra eu responder
+      - desculpa pela resposta chegar só agora
+      - desculpa, só tive tempo agora de olhar com calma
+      - me desculpa, fiquei offline um tempo
+      - desculpa pelo atraso na devolutiva
+      - perdão pela demora pra te dar um retorno
+      - desculpa, tinha visto e não respondi na hora
+      - foi mal, acabei procrastinando a resposta
+      - desculpa ter deixado você esperando
+      - desculpa mesmo, não era minha intenção demorar
+      - desculpa, a mensagem se perdeu no meio das outras
+      - foi mal, viajei e fiquei sem responder
+      - desculpa, tava resolvendo outras pendências
+      - desculpa a demora, tava finalizando umas entregas
+      - desculpa, precisei priorizar uns prazos antes
+      - foi mal, o dia fugiu do controle aqui
+      - me desculpa, me atrasei pra te responder
+      - desculpa, não consegui responder mais cedo
+      - desculpa a demora, só agora consegui parar
+      - desculpa, passou batido aqui na correria
+      - foi mal, acabei deixando pra depois
+      - desculpa, tinha anotado pra responder e esqueci
+      - me desculpa mesmo pela demora toda
+      - perdão, essa resposta veio bem atrasada
+      - desculpa responder só agora no fim do dia
+      - desculpa, o tempo acabou encurtando pra mim hoje
+      - foi mal, o dia virou um caos e atrasei
+      - desculpa, fiquei longe do computador hoje
+      - desculpa, tava longe do celular
+      - desculpa por ter ficado tanto tempo sem responder
+      - desculpa, demorei mais do que o esperado
+      - foi mal por ter deixado isso parado
+      - desculpa, ainda não tinha conseguido parar pra ver
+      - me desculpa, precisei resolver umas coisas pessoais
+      - desculpa, tive uns imprevistos aqui
+      - desculpa o atraso, o dia foi bem cheio
+      - foi mal, esse retorno veio bem em cima
+      - desculpa, deixei a mensagem pra depois e passou
+      - desculpa, tava focado em outra demanda
+      - desculpa, só lembrei de responder agora
+      - foi mal, li e esqueci de responder
+      - desculpa a demora, tô respondendo tudo agora
+      - desculpa, me enrolei todo nos horários
+      - desculpa, acabei priorizando outras urgências
+      - perdão, não respondi no tempo ideal
+      - desculpa, acabei me atrasando bastante
+      - foi mal, demorou mais que o normal pra eu responder
+      - desculpa, tava com a cabeça cheia e atrasou
+      - desculpa responder só agora de noite
+      - desculpa, só consegui ver a mensagem agora há pouco
+      - me desculpa, o dia foi bem pesado
+      - desculpa o tempo sem retorno
+      - desculpa, acabei deixando passar alguns dias
+      - foi mal, tive uns dias bem corridos
+      - desculpa a demora, precisava organizar umas coisas
+      - desculpa, essa resposta demorou mais do que eu queria
+      - perdão pela demora, tava cheio de demandas
+      - desculpa, precisei dar atenção pra outros temas antes
+      - desculpa, só encaixei esse retorno agora
       - sorry for the late reply
       - sorry for the late response
       - I’m sorry for replying so late
@@ -22,3 +112,93 @@ nlu:
       - my apologies for the late reply
       - I’m sorry for the delay in getting back to you
       - sorry for the delay, things have been busy
+      - sorry for answering only now
+      - sorry, I saw it and forgot to answer
+      - my bad for the slow reply
+      - sorry, my day was really busy
+      - sorry, I got caught up and answered late
+      - sorry it took so long to respond
+      - sorry for taking so long to get back to you
+      - I’m really sorry for the delay
+      - sorry, I let your message sit there
+      - sorry for replying at the last minute
+      - sorry this answer is coming so late
+      - I apologize, I completely missed your message
+      - sorry, this week has been a bit crazy
+      - sorry for the late answer
+      - sorry, I only had time to reply now
+      - sorry for the delay, my schedule was full
+      - sorry, I had some unexpected issues and got delayed
+      - sorry, I meant to answer earlier and forgot
+      - sorry for not seeing your message before
+      - sorry for disappearing and replying just now
+      - my apologies, I let the messages pile up
+      - sorry, my inbox is full and I missed it
+      - sorry, I mixed up my times and got late
+      - sorry, I was in meetings all day
+      - sorry for the delay, I was in another appointment
+      - sorry, my routine has been really intense
+      - sorry, I had to prioritize a few things first
+      - sorry for replying so late today
+      - I truly apologize for all this delay
+      - sorry, the day went by and I forgot to respond
+      - sorry, I needed more time before I could answer
+      - sorry for the time it took me to reply
+      - sorry this response is only arriving now
+      - sorry, I just now had time to look calmly
+      - sorry, I was offline for a while
+      - sorry for the lag in my reply
+      - my apologies for taking so long to respond
+      - sorry, I saw it but did not answer right away
+      - sorry, I kind of procrastinated the answer
+      - sorry for keeping you waiting
+      - sorry, it really was not my intention to be so late
+      - sorry, your message got lost between the others
+      - sorry, I was traveling and did not answer
+      - sorry, I was dealing with other tasks
+      - sorry for the delay, I was finishing some work
+      - sorry, I had to focus on a few deadlines first
+      - sorry, the day got out of control here
+      - sorry, I got delayed answering you
+      - sorry, I could not reply earlier
+      - sorry for the delay, I only managed to stop now
+      - sorry, it slipped by in the rush
+      - sorry, I ended up leaving it for later
+      - sorry, I wrote down to answer and forgot
+      - I’m really sorry for all this delay
+      - my apologies, this answer is very late
+      - sorry for replying only now at the end of the day
+      - sorry, my time got very short today
+      - sorry, the day turned chaotic and I got late
+      - sorry, I was away from the computer today
+      - sorry, I was away from my phone
+      - sorry for taking so long to respond to you
+      - sorry, I took longer than I expected
+      - sorry for leaving this pending for so long
+      - sorry, I had not been able to stop to read it
+      - sorry, I had to handle some personal things first
+      - sorry, I had some unexpected situations here
+      - sorry for the delay, today was really full
+      - sorry, this reply is very last minute
+      - sorry, I left your message for later and forgot
+      - sorry, I was focused on another task
+      - sorry, I only remembered to answer now
+      - sorry, I read it and forgot to reply
+      - sorry for the delay, I am answering everything now
+      - sorry, I really messed up my times
+      - sorry, I ended up prioritizing other urgencies
+      - my apologies, I did not reply in the ideal time
+      - sorry, I ended up getting quite delayed
+      - sorry, it took longer than usual for me to answer
+      - sorry, my head was full and I got late
+      - sorry for replying only now at night
+      - sorry, I only saw your message a little while ago
+      - sorry, today was a really heavy day for me
+      - sorry for the time with no reply
+      - sorry, I let a few days go by without answering
+      - sorry, I had some really busy days
+      - sorry for the delay, I needed to organize some things
+      - sorry, this answer took longer than I wanted
+      - my apologies for the delay, I had many tasks
+      - sorry, I had to focus on other topics first
+      - sorry, I’m only fitting this reply in now

@@ -9,9 +9,99 @@ nlu:
       - até a próxima
       - fui
       - a gente se fala
-      - qualquer dúvida, pode me chamar
       - beleza, até mais
       - valeu, até a próxima
+      - valeu, até logo
+      - até breve
+      - até amanhã
+      - até já
+      - até depois
+      - até mais tarde
+      - até qualquer hora
+      - até semana que vem
+      - tchau tchau
+      - xau
+      - tchauzinho
+      - flw
+      - flw, abraço
+      - falou, abraço
+      - falou, até mais
+      - falou, boa noite
+      - falou, bom dia
+      - falou, boa tarde
+      - falou, até amanhã
+      - falou, até depois
+      - falou, até a próxima
+      - valeu, tchau
+      - valeu, falou
+      - valeu demais, até mais
+      - valeu pela conversa, até mais
+      - valeu pela call, até a próxima
+      - valeu pelo tempo, até logo
+      - vlw, até mais
+      - vlw, até a proxima
+      - vlw, brigadão, até mais
+      - brigado, até mais
+      - brigado, até a próxima
+      - obrigado, até mais
+      - obrigado, até logo
+      - obrigado, até a próxima
+      - obrigado pela conversa, até mais
+      - obrigado pela reunião, até logo
+      - obrigado pelo tempo, até a próxima
+      - obrigada, até mais
+      - obrigada, até logo
+      - até a próxima reunião
+      - até a próxima conversa
+      - até a próxima call
+      - até a próxima entrevista
+      - até nossa próxima conversa
+      - até nosso próximo papo
+      - até nosso próximo encontro
+      - até o próximo bate papo
+      - até o próximo papo
+      - até o próximo alinhamento
+      - até o próximo contato
+      - até o próximo encontro
+      - tô indo nessa, até mais
+      - tô indo nessa, valeu
+      - tô indo, até mais
+      - tô indo, a gente se fala
+      - tô indo, valeu demais
+      - tô saindo aqui, até mais
+      - tô saindo da call, até a próxima
+      - tô saindo, obrigado
+      - tô indo nessa, bom resto de dia
+      - fui nessa, até mais
+      - fui nessa, abraço
+      - fui, bom dia pra você
+      - fui, boa tarde pra você
+      - fui, boa noite pra você
+      - fui, obrigado pela conversa
+      - fui, qualquer coisa me chama
+      - acho que é isso, até mais
+      - acho que fechamos, até a próxima
+      - por hoje é isso, até mais
+      - por hoje é isso, valeu
+      - por hoje é só, até logo
+      - por hoje encerramos, até a próxima
+      - encerramos por aqui, até mais
+      - encerramos por hoje, até logo
+      - vou ficando por aqui, até mais
+      - vou ficando por aqui, tchau
+      - vou voltar pra correria aqui, até mais
+      - vou voltar pro trabalho aqui, até a próxima
+      - vou voltar pras tarefas aqui, até mais
+      - a gente se fala depois
+      - a gente se fala em breve
+      - falamos de novo em breve
+      - qualquer coisa, me chama, até mais
+      - qualquer coisa, estou à disposição, até a próxima
+      - bom restante de dia, até mais
+      - bom fim de dia, até a próxima
+      - bom fim de semana, até mais
+      - boa semana pra você, até logo
+      - bom descanso, até a próxima
       - bye
       - bye bye
       - see you
@@ -22,3 +112,93 @@ nlu:
       - see you around
       - I’ll talk to you later
       - alright, see you
+      - see you soon
+      - see ya
+      - see ya later
+      - see u
+      - see u later
+      - cya
+      - cya later
+      - talk soon
+      - talk to you soon
+      - talk to u later
+      - talk with you later
+      - see you tomorrow
+      - see you on the next call
+      - see you on the next meeting
+      - see you in the next interview
+      - see you in the next round
+      - see you in a bit
+      - see you in a few
+      - see you in a while
+      - see you some other time
+      - hope to see you again
+      - hope we talk again soon
+      - hope to speak with you again
+      - hope to see you next time
+      - it was nice talking, bye
+      - it was great talking, bye
+      - it was good to talk to you, bye
+      - it was nice meeting you, bye
+      - it was great meeting you, bye
+      - thanks, bye
+      - thank you, bye
+      - thanks for your time, bye
+      - thanks for the chat, bye
+      - thanks for the call, bye
+      - thanks for the meeting, bye
+      - thanks for the interview, bye
+      - thanks again, bye
+      - thanks a lot, bye
+      - alright then, bye
+      - alright, talk later
+      - alright, talk to you later
+      - alright, see ya
+      - ok, bye
+      - ok, see you later
+      - ok, talk later
+      - okay, I will go now, bye
+      - okay, I will leave now, bye
+      - I will go now, bye
+      - I will leave now, bye
+      - I have to go now, bye
+      - I need to go now, bye
+      - I need to run now, bye
+      - gotta go now, bye
+      - got to run, bye
+      - I’ll head out now, bye
+      - I’ll jump off now, bye
+      - I’ll drop off here, bye
+      - I’ll leave the call now, bye
+      - I’m going back to work, bye
+      - I’m going back to my day, bye
+      - I’m going back to my tasks, bye
+      - I’m heading out now, bye
+      - I’m logging off now, bye
+      - I’m signing off now, bye
+      - I’m closing here, bye
+      - we can finish here, bye
+      - we can stop here, bye
+      - let’s close here, bye
+      - let’s wrap up here, bye
+      - we’ll stop for today, bye
+      - we’ll stop here today, bye
+      - that’s it for today, bye
+      - that’s all for now, bye
+      - that’s all from my side, bye
+      - that’s all on my side, bye
+      - have a good day, bye
+      - have a great day, bye
+      - have a nice day, bye
+      - have a good evening, bye
+      - have a great evening, bye
+      - have a good night, bye
+      - enjoy the rest of your day, bye
+      - enjoy your evening, bye
+      - enjoy your night, bye
+      - wish you a nice day, bye
+      - talk later ok, bye
+      - talk later, thanks
+      - talk later, tks
+      - see you later then, bye
+      - see you next time then, bye

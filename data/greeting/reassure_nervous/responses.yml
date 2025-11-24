@@ -6,4 +6,9 @@ responses:
           vr_pt: |
             Obrigado, isso ajuda bastante. Mesmo um pouco nervoso, estou à vontade para seguir com a conversa.
           vr_en: |
-            Thank you, that really helps. Even if I’m a bit nervous, I feel comfortable moving forward with the conversation.
+            Thank you, that helps a lot. Even if I am a bit nervous, I feel comfortable moving forward with the conversation.
+        resp_2:
+          vr_pt: |
+            Valeu por falar isso, eu realmente estou bem nervoso, mas vou fazendo o meu melhor.
+          vr_en: |
+            Thank you for saying that, I am actually quite nervous, but I will do my best.

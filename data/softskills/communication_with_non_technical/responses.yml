@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_communication_with_non_technical:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Quando preciso falar com alguém não técnico, eu procuro simplificar a linguagem, evitar siglas e usar exemplos próximos da realidade da pessoa. Em vez de entrar em detalhes muito profundos, eu foco no impacto para o negócio, nos riscos e nos benefícios de cada opção. Se eu percebo que a explicação não ficou clara, eu reformulo, uso analogias e faço perguntas para confirmar se a mensagem foi entendida. Meu objetivo é sempre garantir que a pessoa consiga tomar decisões melhores, mesmo sem conhecer toda a parte técnica.
-          vr_en: |
-            When I need to talk to someone who is not technical, I try to simplify the language, avoid acronyms, and use examples that are close to the person’s reality. Instead of going too deep into details, I focus on the business impact, the risks, and the benefits of each option. If I notice that the explanation is not clear, I rephrase it, use analogies, and ask questions to confirm if the message was understood. My goal is always to make sure the person can make better decisions, even without knowing all the technical aspects.

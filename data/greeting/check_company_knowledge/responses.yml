@@ -6,4 +6,9 @@ responses:
           vr_pt: |
             Sim, eu pesquisei sobre a empresa antes da entrevista. Olhei o site, algumas notícias e também o LinkedIn, e gostei bastante da forma como vocês atuam no mercado.
           vr_en: |
-            Yes, I did some research about the company before the interview. I went through your website, some news, and also your LinkedIn page, and I really liked the way you position yourselves in the market.
+            Yes, I researched the company before the interview. I looked at the website, some news, and also your LinkedIn page, and I really liked the way you position yourselves in the market.
+        resp_2:
+          vr_pt: |
+            Eu confesso que ainda não consegui pesquisar tanto quanto eu gostaria, mas já vi o básico sobre a empresa.
+          vr_en: |
+            I must admit that I have not been able to research as much as I would like, but I have already seen the basic information about the company.

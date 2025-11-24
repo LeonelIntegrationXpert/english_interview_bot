@@ -3,15 +3,105 @@ nlu:
   - intent: nice_to_meet_you
     examples: |
       - prazer
-      - prazer em te conhecer
       - muito prazer
+      - prazer em te conhecer
       - prazer em conhecer você
-      - é um prazer falar com você
+      - muito bom te conhecer
       - legal te conhecer
       - que bom conhecer você
+      - é um prazer falar com você
       - honra te conhecer
-      - muito bom te conhecer
       - prazer, eu sou do time de recrutamento
+      - prazer em te conhecer hoje
+      - prazer em falar contigo
+      - prazerzão em te conhecer
+      - prazerzao em te conhecer
+      - mto prazer
+      - muito praze em te conhecer
+      - prazer conhecer vc
+      - prazer conhecer você
+      - prazer em conhecer vc
+      - prazer em te conhecer tbm
+      - prazer em te conhecer também
+      - prazer em conhecer vcs
+      - prazer te conhecer
+      - prazer te conhecer hoje
+      - prazer falar com você
+      - prazer falar contigo
+      - prazer falar com vc
+      - prazer em estar aqui
+      - muito prazer em estar aqui
+      - muito prazer em falar com você
+      - muito prazer em falar contigo
+      - muito prazer em conversar com você
+      - muito prazer em conversar contigo
+      - muito legal te conhecer
+      - muito bom conhecer vc
+      - muito bom conhecer você
+      - legal conhecer vc
+      - legal conhecer você
+      - legal estar falando com você
+      - legal estar falando contigo
+      - que legal te conhecer
+      - que bom te conhecer
+      - que bom conhecer vc
+      - que bom estar aqui com você
+      - que honra te conhecer
+      - uma honra te conhecer
+      - uma honra estar falando com você
+      - grande prazer te conhecer
+      - grande prazer falar contigo
+      - grande prazer falar com você
+      - enorme prazer te conhecer
+      - é um prazer te conhecer
+      - é um prazer conhecer você
+      - é um prazer estar aqui
+      - é um prazer falar com vc
+      - é um prazer estar falando com você hoje
+      - pra mim é um prazer te conhecer
+      - pra mim é um prazer falar contigo
+      - muito prazer, obrigado pela oportunidade
+      - muito prazer, obrigado pelo convite
+      - prazer em participar dessa conversa
+      - prazer em participar dessa entrevista
+      - prazer em estar nessa entrevista
+      - prazer em estar conversando com você
+      - prazer estar aqui hoje
+      - prazer estar aqui com você
+      - prazer estar falando com vc
+      - prazer tá falando com você
+      - prazer ta falando contigo
+      - prazer em estar aqui com o time
+      - prazer em estar aqui com vcs
+      - prazer em estar falando com o time
+      - prazer em estar falando com vocês
+      - prazer em estar com vocês hoje
+      - prazer, meu nome é Leonel
+      - prazer, eu sou o Leonel
+      - prazer, eu sou candidato pra vaga
+      - prazer, obrigado por falar comigo hoje
+      - prazer, valeu pelo tempo
+      - prazer te conhecer, valeu pelo convite
+      - prazer te conhecer, obrigado pelo tempo
+      - prazer te conhecer, obrigado pela conversa
+      - prazer te conhecer, obrigado pela entrevista
+      - prazer em te conhecer, valeu mesmo
+      - prazer em te conhecer, fico feliz de estar aqui
+      - prazer em te conhecer, obrigado pela oportunidade hoje
+      - prazer em te conhecer, obrigado pela atenção
+      - muito prazer em te conhecer, de verdade
+      - muito prazer, fico feliz de estar aqui
+      - muito prazer, obrigado por me receber
+      - prazer enorme em te conhecer hoje
+      - prazer enorme falar com você
+      - prazer enorme falar contigo
+      - prazer gigante estar aqui
+      - prazerzaço em te conhecer
+      - praze em te conhecer
+      - praser em te conhecer
+      - praser em falar com você
+      - prazer em finalmente te conhecer
+      - prazer em finalmente falar contigo
       - nice to meet you
       - great to meet you
       - it’s a pleasure to meet you
@@ -22,3 +112,93 @@ nlu:
       - it’s nice to meet you in person
       - nice meeting you today
       - such a pleasure to meet you
+      - nice to meet u
+      - nice 2 meet you
+      - nice meet you
+      - very nice to meet you
+      - so nice to meet you
+      - so good to meet you
+      - good to meet you
+      - good meeting you
+      - great meeting you
+      - really great to meet you
+      - really happy to meet you
+      - I’m happy to meet you
+      - I am happy to meet you
+      - I’m glad to meet you
+      - I am glad to meet you
+      - glad to meet you
+      - glad meeting you
+      - nice to meet you today
+      - nice to meet you here
+      - nice to meet you online
+      - nice to meet you finally
+      - nice to finally meet you
+      - nice finally meet you
+      - great to meet you today
+      - great to meet you here
+      - great to finally meet you in person
+      - really nice to meet you today
+      - really nice to finally meet you
+      - really glad to meet you today
+      - it’s very nice to meet you
+      - it’s really nice to meet you
+      - it is really nice to meet you
+      - it’s a great pleasure to meet you
+      - it’s a big pleasure to meet you
+      - it’s a huge pleasure to meet you
+      - it’s a pleasure meeting you
+      - it’s a pleasure to meet u
+      - it’s a pleasure to meet you today
+      - happy to meet you today
+      - happy to finally meet you
+      - happy to be meeting you
+      - I’m really happy to meet you
+      - I am really happy to meet you
+      - I’m very happy to meet you
+      - I’m really glad to meet you
+      - I’m so glad to meet you
+      - I’m so happy to meet you
+      - I’m pleased to meet you
+      - I’m very pleased to meet you
+      - very pleased to meet you
+      - so pleased to meet you
+      - nice meeting you
+      - nice meeting you here
+      - nice meeting you today, thanks
+      - nice meeting you, thanks for the time
+      - nice meeting you, thanks for this call
+      - nice to meet you, thanks for your time
+      - nice to meet you, thanks for this interview
+      - nice to meet you, thanks for meeting me
+      - nice to meet you, thanks for having me
+      - nice to meet you, thanks for inviting me
+      - nice to meet you, thanks for the opportunity
+      - great to meet you, thanks for your time
+      - great to meet you, thanks for this call
+      - great to meet you, thanks for the opportunity
+      - really nice to meet you, thanks for today
+      - really nice to meet you, thanks for this talk
+      - really nice to meet you, thanks for your time today
+      - it’s great to meet you, thanks for this interview
+      - it’s great to meet you, thanks for receiving me
+      - it’s great to meet you, thanks for this opportunity
+      - it’s a pleasure to meet you here
+      - it’s a pleasure to meet you, thanks for your time
+      - it is a pleasure to meet you, thanks for this
+      - happy to meet you, thanks for the chance
+      - happy to meet you, thanks for inviting me
+      - happy to meet you, thanks for talking with me
+      - I’m happy to meet you, thanks for your time
+      - I’m glad to meet you, thanks for this opportunity
+      - glad to meet you, thanks for the interview
+      - glad to meet you, thanks for your time
+      - so nice to meet you today
+      - so nice to meet you, thanks for being here
+      - so nice to meet you, thanks for this time
+      - very nice to meet you, thanks for the interview
+      - very nice to meet you, thanks for today
+      - very nice to meet you, thanks for this chance
+      - nice to meet you, I’m Leonel
+      - nice to meet you, my name is Leonel
+      - nice to meet you, I’m the candidate today

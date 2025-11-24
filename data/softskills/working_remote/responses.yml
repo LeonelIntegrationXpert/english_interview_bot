@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_working_remote:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu já estou bem acostumado com o modelo remoto. No dia a dia, eu mantenho uma rotina clara, com horários definidos, lista de prioridades e momentos específicos para responder mensagens e e mails, para não ficar o tempo todo no modo reativo. Procuro usar bem as ferramentas de comunicação, deixar o status sempre atualizado e participar ativamente das cerimônias do time. Também tento ter momentos informais, mesmo que rápidos, para manter a conexão humana. E, ao mesmo tempo, cuido para respeitar limites de horário, justamente para não misturar demais trabalho e vida pessoal.
-          vr_en: |
-            I am already very used to working in a remote model. In my daily routine I keep clear working hours, a prioritized task list, and specific moments to answer messages and emails, so that I am not in a reactive mode all the time. I try to use communication tools well, keep my status updated, and participate actively in team ceremonies. I also look for informal moments, even short ones, to keep a human connection with colleagues. At the same time I take care to respect time boundaries, so that work and personal life do not blend in an unhealthy way.

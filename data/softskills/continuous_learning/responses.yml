@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_continuous_learning:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu acredito muito em aprendizagem contínua. Normalmente eu combino estudo estruturado, como cursos e certificações, com prática em projetos reais. Costumo reservar um tempo fixo da semana para estudar, revisar materiais e testar coisas novas em ambientes de laboratório ou em pequenos protótipos. Também aprendo bastante com comunidades, colegas de trabalho e documentação oficial. Para mim, continuar estudando é uma forma de manter a carreira viva e de gerar mais valor para os times e para os clientes.
-          vr_en: |
-            I believe strongly in continuous learning. I usually combine structured study, such as courses and certifications, with practice in real projects. I try to reserve a fixed time during the week to study, review material, and test new things in lab environments or in small prototypes. I also learn a lot from communities, coworkers, and official documentation. For me, continuing to study is a way to keep my career alive and to generate more value for teams and for clients.

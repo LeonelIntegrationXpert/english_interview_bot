@@ -7,3 +7,8 @@ responses:
             Valeu, até a próxima!
           vr_en: |
             Thanks, see you next time!
+        resp_2:
+          vr_pt: |
+            Até mais, vou voltar pra correria aqui.
+          vr_en: |
+            See you later, I’ll get back to my busy day here.

@@ -3,22 +3,202 @@ nlu:
   - intent: confirm_recording
     examples: |
       - essa entrevista vai ser gravada apenas para uso interno, tudo bem para você?
-      - antes de começarmos, gostaria de avisar que vamos gravar essa conversa, está ok?
-      - só para informar, a entrevista será gravada para fins de avaliação interna, tudo bem?
-      - essa call está sendo gravada para compartilharmos com o time de recrutamento, tudo certo?
-      - você se importa se gravarmos essa entrevista para revisão posterior?
+      - antes de começarmos, gostaria de avisar que vamos gravar essa conversa, está ok para você?
+      - só para informar, a entrevista será gravada para fins internos, tudo bem?
+      - essa call está sendo gravada para uso interno do time, tudo certo para você?
+      - você se importa se gravarmos essa entrevista para revisão interna?
       - vamos gravar essa conversa para apoiar o processo seletivo, tudo bem para você?
-      - essa entrevista pode ser ouvida depois por outros avaliadores, tudo bem?
-      - só para alinhar, a gravação é usada apenas para o processo, está ok?
+      - essa entrevista pode ser ouvida depois pelo time interno, tudo bem para você?
+      - só para alinhar, a gravação é usada apenas no processo seletivo, está ok?
       - antes de começar, confirmo que vamos gravar a entrevista, está tudo bem?
       - a gravação é só para uso interno do processo, você concorda?
-      - this interview will be recorded for internal use only, is that okay with you?
-      - before we start, I’d like to let you know we’ll record this conversation, is that alright?
-      - just so you know, the interview will be recorded for internal evaluation purposes, is that okay?
-      - this call is being recorded so we can share it with the recruiting team, is that alright?
-      - do you mind if we record this interview for later review?
-      - we’ll record this conversation to support the hiring process, is that okay with you?
-      - this interview may be reviewed later by other evaluators, is that alright?
-      - just to align, the recording is only used for the process, is that okay?
-      - before we begin, I’d like to confirm that we’ll record the interview, is that fine?
-      - the recording is for internal use in the process only, do you agree?
+      - vamos gravar essa chamada apenas para registro interno, tudo bem?
+      - aviso rápido: essa conversa será gravada, tudo certo?
+      - confirmando, a gravação será usada só pela equipe interna, tudo bem?
+      - essa conversa fica registrada para apoio do time, está ok para você?
+      - vamos registrar essa entrevista em áudio, tudo bem?
+      - só para formalizar, essa call será gravada, tudo certo para você?
+      - a gravação é padrão do processo, tudo bem para você?
+      - essa entrevista fica salva internamente, está ok para você?
+      - vamos manter essa conversa gravada no sistema interno, tudo bem?
+      - tudo bem para você se essa conversa ficar registrada no processo?
+      - essa gravação é apenas para revisão do time, concorda?
+      - confirmo que o áudio será armazenado internamente, ok?
+      - essa call fica disponível só para o time, tudo bem para você?
+      - o time interno pode ouvir depois, tudo bem?
+      - deixo avisado que essa entrevista será registrada, tudo certo?
+      - a gravação serve só para conferência interna, tudo bem?
+      - se estiver tudo certo, vamos gravar a conversa
+      - podemos manter a entrevista gravada, está ok para você?
+      - é parte do processo gravar essa call, tudo bem?
+      - vamos manter essa chamada registrada, tudo bem com isso?
+      - só lembrando que essa entrevista será gravada, ok?
+      - esse áudio vai para o time interno, está tudo bem?
+      - tudo certo para você se gravarmos somente para controle interno?
+      - essa gravação serve para melhorar nosso processo, está ok?
+      - podemos registrar essa call, tudo certo?
+      - antes de seguir, confirmo a gravação, tudo bem?
+      - essa entrevista fica arquivada internamente, pode ser?
+      - o sistema grava automaticamente, está tudo bem?
+      - confirmo que o áudio é só para auditoria interna, tudo certo?
+      - essa conversa será salva no sistema, tudo ok para você?
+      - tudo bem se deixarmos essa entrevista registrada?
+      - podemos gravar sem problema?
+      - aviso que a chamada está sendo gravada, tudo bem?
+      - só reforçando: gravação interna, tudo certo?
+      - você concorda que a entrevista seja gravada?
+      - vamos deixar tudo registrado para o processo, ok?
+      - essa gravação é padrão e segura, tudo bem?
+      - antes de continuar, tudo bem com a gravação?
+      - essa entrevista será registrada no processo, tudo bem?
+      - a gravação fica restrita ao time interno, está ok?
+      - podemos seguir com a gravação?
+      - deixo avisado que tudo será gravado, tudo certo?
+      - o áudio será usado só internamente, tudo bem?
+      - esta call entra no sistema interno, tudo ok?
+      - vai ser gravado para análise do time, tudo bem?
+      - a gravação não sai do time, ok?
+      - confirmo o registro da call, tudo certo?
+      - esse áudio vai só para auditoria interna, tudo bem?
+      - posso gravar essa conversa, tudo bem?
+      - essa call é salva automaticamente, está ok para você?
+      - é prática padrão gravar essa entrevista, tudo bem?
+      - vou registrar essa call, pode ser?
+      - guardaremos essa conversa no processo, tudo certo?
+      - o time pode ouvir depois, tudo bem para você?
+      - confirmo que essa call será gravada, ok?
+      - podemos deixar o áudio salvo no sistema?
+      - essa gravação serve só para validação interna, ok?
+      - tudo certo se o áudio ficar disponível internamente?
+      - deixo registrado que gravaremos, tudo bem?
+      - não se preocupe, é só uma gravação interna, tudo certo?
+      - o áudio não é compartilhado fora do time, tudo bem?
+      - podemos continuar com a gravação ativa?
+      - aviso que a gravação já está ativa, tudo ok?
+      - essa entrevista será arquivada, tudo bem?
+      - vamos salvar a conversa, está ok?
+      - gravação apenas para cumprimento do processo, tudo bem?
+      - essa entrevista faz parte do registro interno, tudo certo?
+      - confirmo o uso interno da gravação, tudo bem?
+      - o áudio será visto só pela equipe, ok?
+      - essa gravação é obrigatória no processo, tudo bem?
+      - seguimos com a gravação ativa, tudo certo?
+      - vou manter a gravação ligada, tudo bem?
+      - sua entrevista será registrada, ok?
+      - confirmação rápida: gravação interna, tudo bem?
+      - tudo certo com a gravação dessa conversa?
+      - podemos arquivar esse áudio?
+      - entrevista gravada apenas para compliance, tudo bem?
+      - gravação restrita ao RH e ao time, tudo certo?
+      - vou gravar para registrar o processo, tudo ok?
+      - esse registro é só do time interno, tudo bem?
+      - vamos continuar gravando, está tudo certo?
+      - a gravação é só para consulta interna, tudo bem?
+      - call gravada para revisão, tudo ok?
+      - fica tranquilo, é só um registro interno, ok?
+      - mantendo a call gravada, tudo bem?
+      - posso confirmar que está tudo certo com a gravação?
+      - vamos armazenar essa entrevista, tudo bem?
+      - a gravação é apenas para registro interno, pode ser?
+      - tudo certo se essa entrevista for gravada só para auditoria?
+      - confirmo que o áudio será mantido interno, tudo bem?
+      - the recording will be kept internally only, is that okay?
+      - the audio will be stored securely inside the process, is that fine?
+      - this interview will remain recorded only for internal review, is that okay?
+      - just confirming, the recording stays internal only, is that fine?
+      - this interview will be recorded for internal use only, is that okay for you?
+      - before we start, I would like to let you know that we will record this conversation, is that alright for you?
+      - just so you know, the interview will be recorded for internal purposes, is that okay?
+      - this call is being recorded for internal team use, is that okay for you?
+      - do you mind if we record this interview for internal review?
+      - we will record this conversation to support the hiring process, is that okay for you?
+      - this interview may be reviewed later by the internal team, is that alright for you?
+      - just to align, the recording will be used only in the selection process, is that okay?
+      - before we begin, I would like to confirm that we will record the interview, is that fine?
+      - the recording is for internal use in this process only, do you agree?
+      - this call will be recorded only for documentation, is that okay?
+      - quick notice: this conversation will be recorded, is that alright?
+      - confirming that the recording is for internal use only, is that okay?
+      - this conversation will be recorded and stored internally, is that alright for you?
+      - we will register this interview in audio, is that okay?
+      - just to formalize, this call will be recorded, is that fine for you?
+      - recording is part of the process, is that okay for you?
+      - this interview will be archived internally, is that fine?
+      - the call will be stored in our system, is that okay?
+      - is it okay for you if this conversation is kept on record?
+      - the recording is only for team review, do you agree?
+      - I confirm the audio will be stored internally, is that okay?
+      - this call may be accessed by the internal team, is that fine?
+      - just letting you know that this interview will be recorded, is that okay?
+      - the recording is for internal validation, is that alright?
+      - if everything is okay, we will record the conversation
+      - we would like to keep this interview recorded, is that fine?
+      - recording this call is part of the process, is that okay?
+      - we will keep this conversation on record, is that alright?
+      - a reminder that this interview will be recorded, is that okay?
+      - this audio will be available only to our internal team, is that fine?
+      - is it okay if we record this for internal control?
+      - this recording is only to improve our process, is that okay?
+      - may we record this call, is that alright?
+      - before continuing, I confirm the recording, is that okay?
+      - this interview will be stored internally, is that fine?
+      - the system will record automatically, is that okay?
+      - audio is for internal audit only, is that alright?
+      - this conversation will be saved in our system, is that okay?
+      - is it okay if this interview is kept recorded?
+      - may we record without any issue?
+      - this call is being recorded, is that fine for you?
+      - just to reinforce: internal recording only, is that okay?
+      - do you agree with the interview being recorded?
+      - we will keep everything registered for the process, is that okay?
+      - the recording is standard and secure, is that fine?
+      - before continuing, is the recording okay for you?
+      - this interview will be registered for the process, is that okay?
+      - the recording will remain internal only, is that fine?
+      - may we proceed with the recording?
+      - letting you know that everything is being recorded, is that alright?
+      - the audio will be used only internally, is that fine?
+      - this call will be saved in our internal system, is that okay?
+      - it will be recorded for team analysis, is that okay?
+      - this recording will not leave the internal team, is that fine?
+      - confirming the call is registered, is that okay?
+      - this audio is only for internal audit, is that fine?
+      - may I record this conversation, is that okay?
+      - this call is saved automatically, is that alright?
+      - recording this interview is standard procedure, is that okay?
+      - I will register this call, is that fine?
+      - we will store this conversation in the process, is that alright?
+      - the team may listen later, is that okay?
+      - confirming that this call will be recorded, is that fine?
+      - may we keep the audio saved?
+      - this recording is only for internal validation, is that okay?
+      - is it okay if the audio remains internal?
+      - letting you know we will record this, is that fine?
+      - don’t worry, it is just an internal recording, is that okay?
+      - the audio will not be shared outside the team, is that fine?
+      - may we continue with the active recording?
+      - the recording is already on, is that okay for you?
+      - this interview will be archived, is that fine?
+      - we will save the conversation, is that okay?
+      - recording is only for process compliance, is that okay?
+      - this interview is part of the internal record, is that fine?
+      - confirming internal use of the recording, is that okay?
+      - the audio will be reviewed only by the team, is that fine?
+      - this recording is required in the process, is that okay?
+      - we will keep the recording active, is that alright?
+      - I will keep the recording on, is that okay?
+      - your interview will be registered, is that okay?
+      - quick confirmation: internal recording, is that fine?
+      - is everything okay with this recording?
+      - may we archive this audio?
+      - this interview is recorded only for compliance, is that fine?
+      - recording is restricted to HR and the team, is that okay?
+      - I will record this for process documentation, is that alright?
+      - this record stays only with our internal team, is that okay?
+      - we will continue recording, is that fine?
+      - this recording is only for internal consultation, is that okay?
+      - call recorded for review, is that alright?
+      - no worries, this is only an internal record, is that okay?
+      - keeping the call recorded, is that fine?
+      - may I confirm the recording is okay for you?
+      - we will store this interview, is that okay?

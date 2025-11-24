@@ -7,3 +7,8 @@ responses:
             Eu que agradeço, foi muito bom falar com você.
           vr_en: |
             Thank you as well, it was great talking with you.
+        resp_2:
+          vr_pt: |
+            Obrigado, mesmo com a rotina corrida foi muito legal ter essa conversa.
+          vr_en: |
+            Thank you, even with my busy schedule it was really nice to have this conversation.

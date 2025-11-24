@@ -7,3 +7,8 @@ responses:
             Muito obrigado, fico à disposição para qualquer dúvida.
           vr_en: |
             Thank you very much, I’m available if you have any questions.
+        resp_2:
+          vr_pt: |
+            Obrigado, fico no aguardo do retorno assim que possível.
+          vr_en: |
+            Thank you, I’ll be waiting for your reply when possible.

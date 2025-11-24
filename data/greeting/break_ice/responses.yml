@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Meu dia está sendo tranquilo, com bastante coisa para fazer, mas tudo sob controle. Essa entrevista, inclusive, é um dos pontos importantes do dia.
+            Meu dia tá sendo tranquilo, com bastante coisa pra fazer, mas tudo sob controle.
           vr_en: |
-            My day has been pretty good, a bit busy but under control. This interview is actually one of the most important parts of my day.
+            My day has been pretty good, a bit busy but under control.
+        resp_2:
+          vr_pt: |
+            Pra ser sincero, tá bem corrido e cansativo, mas faz parte.
+          vr_en: |
+            To be honest, it’s been quite busy and exhausting, but that’s part of it.

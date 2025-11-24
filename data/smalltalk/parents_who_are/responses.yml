@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_parents_who_are:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Meus pais se chamam Taylor Gomes Porto e Cleusa Maria Dorneles Porto.
-          vr_en: |
-            My parents’ names are Taylor Gomes Porto and Cleusa Maria Dorneles Porto.

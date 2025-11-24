@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_future_academic_path:
-    - custom:
-        resp_1:
-          vr_pt: |
-            No meu plano de longo prazo eu me vejo fazendo primeiro um mestrado, em uma área ligada a tecnologia, integrações ou engenharia de software, e depois seguindo para um doutorado. A ideia é usar a pesquisa para aprofundar problemas que eu já vejo na prática, conectando teoria e mercado. Eu não quero estudar só pelo título, mas para ganhar ferramentas melhores de análise e de solução, que eu possa aplicar em projetos complexos e em decisões de arquitetura.
-          vr_en: |
-            In my long term plan I see myself first doing a master’s degree in an area related to technology, integrations, or software engineering, and then moving on to a PhD. The idea is to use research to go deeper into problems that I already see in practice, connecting theory and the market. I do not want to study only for the title, but to gain better tools for analysis and problem solving that I can apply in complex projects and architecture decisions.

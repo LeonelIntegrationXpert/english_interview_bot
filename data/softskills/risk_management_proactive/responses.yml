@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_risk_management_proactive:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu mantenho um registro vivo de riscos com probabilidade e impacto, dono e planos de mitigação. Monitoro sinais precoces (atrasos, erros, gargalos) e reviso rotineiramente. Quando um risco ocorre, aciono o plano de contingência, comunico impactos e replanejo com base em dados. Estimulo o time a reportar riscos cedo, valorizando transparência e aprendizado sem culpa.
-          vr_en: |
-            I keep a living risk register with probability, impact, owner, and mitigation plans. I monitor early signals (delays, errors, bottlenecks) and review regularly. When a risk happens, I trigger the contingency plan, communicate impacts, and replan based on data. I encourage early risk reporting by valuing transparency and blameless learning.

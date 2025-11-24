@@ -7,3 +7,8 @@ responses:
             Prazer, [Nome]. Obrigado por conduzir a entrevista, é um prazer falar com você.
           vr_en: |
             Nice to meet you, [Name]. Thank you for conducting the interview, it’s a pleasure to speak with you.
+        resp_2:
+          vr_pt: |
+            Prazer, [Nome]. Tô um pouco nervoso, mas feliz de estar aqui.
+          vr_en: |
+            Nice to meet you, [Name]. I’m a bit nervous, but I’m glad to be here.

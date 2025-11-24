@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Estou um pouco ansioso, mas me sinto preparado e feliz pela oportunidade. Conforme a conversa for andando, acredito que vou ficando mais à vontade.
+            Estou um pouco ansioso, mas me sinto preparado e feliz pela oportunidade.
           vr_en: |
-            I’m a bit nervous, but I feel prepared and really happy about the opportunity. I’m sure I’ll get more comfortable as the conversation goes on.
+            I’m a bit nervous, but I feel prepared and really happy about the opportunity.
+        resp_2:
+          vr_pt: |
+            Pra ser sincero, tô bem nervoso ainda, mas vou fazendo o meu melhor ao longo da conversa.
+          vr_en: |
+            To be honest, I’m still quite nervous, but I’ll do my best as the conversation goes on.

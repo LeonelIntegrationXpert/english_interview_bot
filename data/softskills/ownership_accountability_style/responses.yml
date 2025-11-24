@@ -1,8 +1,0 @@
-version: '3.1'
-responses:
-  utter_ownership_accountability_style:
-    - custom:
-        vr_pt: |
-          Eu levo a responsabilidade pelo trabalho de forma séria. Quando algo não sai como esperado, eu procuro primeiro entender o que aconteceu, assumo a minha parte no problema e trabalho para corrigir o mais rápido possível, sem ficar procurando culpados. Para mim, ter senso de dono é acompanhar a entrega do início ao fim, cuidar dos detalhes, comunicar riscos com antecedência e garantir que o resultado final faça sentido para quem está recebendo. Também procuro alinhar bem com as pessoas de quem dependo, para que todos estejam na mesma página e o compromisso seja coletivo.
-        vr_en: |
-          I take responsibility for my work very seriously. When something does not go as expected, I first try to understand what happened, I take my part in the problem, and I work to correct it as quickly as possible, without looking for someone to blame. For me, having a sense of ownership means following the delivery from beginning to end, taking care of the details, communicating risks in advance, and making sure the final result makes sense for the person who is receiving it. I also try to align well with the people I depend on, so that everyone is on the same page and the commitment is shared.

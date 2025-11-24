@@ -3,22 +3,202 @@ nlu:
   - intent: introduce_interview_focus
     examples: |
       - hoje vamos focar principalmente na sua experiência profissional, tudo bem?
-      - nessa entrevista, a ideia é entender melhor a sua trajetória e seus projetos
-      - o foco da nossa conversa hoje será a sua experiência e seu jeito de trabalhar
-      - vamos falar bastante sobre os desafios que você já enfrentou na carreira
-      - nessa etapa, queremos conhecer melhor suas experiências mais relevantes
-      - hoje o objetivo é entender como você trabalha no dia a dia
-      - nessa entrevista vamos explorar seus projetos recentes e suas responsabilidades
-      - a ideia é que você conte bastante sobre situações práticas que já viveu
-      - vamos falar sobre sua experiência técnica e também sobre seu lado mais comportamental
-      - o foco aqui é entender se o seu perfil se conecta bem com essa vaga
-      - today we’ll mainly focus on your professional experience, is that okay?
-      - in this interview, the idea is to better understand your background and projects
-      - the focus of our conversation today will be your experience and how you work
-      - we’ll talk a lot about the challenges you’ve faced in your career
-      - in this stage, we want to get to know your most relevant experiences
-      - today our goal is to understand how you work on a day-to-day basis
-      - in this interview we’ll explore your recent projects and responsibilities
-      - the idea is for you to share real situations you’ve been through
-      - we’ll talk about your technical experience and also your soft skills
-      - the main focus here is to see how your profile connects with this role
+      - hoje vamos focar na sua experiência profissional e nos seus projetos, tudo bem?
+      - hoje vamos focar na sua experiência profissional e no seu jeito de trabalhar, tudo bem?
+      - hoje vamos focar na sua experiência profissional e nos desafios que você já enfrentou, tudo bem?
+      - hoje vamos focar na sua experiência profissional e nas suas responsabilidades, tudo bem?
+      - hoje o objetivo é entender melhor a sua experiência profissional, tudo bem?
+      - hoje o foco da nossa conversa é a sua experiência profissional, tudo bem?
+      - hoje o foco é entender melhor a sua experiência profissional, tudo bem?
+      - hoje queremos conhecer melhor a sua experiência profissional, tudo bem?
+      - hoje vamos conversar principalmente sobre a sua experiência profissional, tudo bem?
+      - hoje vamos olhar mais fundo na sua experiência profissional, pode ser?
+      - hoje quero saber mais do seu histórico profissional, tudo certo?
+      - hoje vamos falar mais da sua vivência profissional, tranquilo?
+      - hoje vamos explorar sua trajetória profissional, tudo bem?
+      - hoje quero entender como foi sua jornada profissional, beleza?
+      - hoje vamos entrar mais nos detalhes da sua carreira, tudo certo?
+      - hoje o papo é mais voltado pra sua experiência, pode ser?
+      - hoje vamos focar mais no seu caminho profissional, ok?
+      - hoje quero conhecer melhor seu background profissional, tudo bem?
+      - hoje vamos falar mais do seu dia a dia de trabalho, tudo certo?
+      - hoje a conversa é sobre seu histórico de projetos, tudo bem?
+      - hoje vamos falar sobre as coisas que você já fez na carreira, ok?
+      - hoje vamos focar nos seus aprendizados profissionais, beleza?
+      - hoje quero entender como você cresceu na carreira, pode ser?
+      - hoje vou te perguntar mais sobre seu trabalho anterior, tudo bem?
+      - hoje vamos falar de situações reais que você viveu profissionalmente, certo?
+      - hoje o foco é conhecer como você trabalha, tudo certo?
+      - hoje quero entender como você pensa no ambiente profissional, tudo bem?
+      - hoje vamos explorar como você lida com desafios no trabalho, ok?
+      - hoje vamos falar de experiências práticas que você teve, tudo bem?
+      - hoje a ideia é ver como você atua no dia a dia, tranquilo?
+      - hoje quero saber como você organiza seu trabalho, beleza?
+      - hoje vamos entender seu estilo profissional, ok?
+      - hoje vou querer saber como você encara problemas no trabalho, tudo bem?
+      - hoje a gente vai mergulhar mais nas suas experiências reais, certo?
+      - hoje quero ouvir sobre seus projetos mais importantes, tudo bem?
+      - hoje vamos revisar momentos-chave da sua carreira, beleza?
+      - hoje quero saber o que você já construiu profissionalmente, tudo bem?
+      - hoje o foco é entendimento profundo do seu histórico, ok?
+      - hoje quero entender como você contribuiu nos últimos projetos, tudo certo?
+      - hoje vamos falar do que você fez, como fez e por quê fez, tudo bem?
+      - hoje vamos explorar seus pontos fortes profissionais, pode ser?
+      - hoje quero saber mais sobre suas responsabilidades anteriores, beleza?
+      - hoje vamos entender como você resolve problemas no trabalho, ok?
+      - hoje quero analisar sua experiência técnica e comportamental, tudo bem?
+      - hoje vamos olhar para suas experiências mais recentes, certo?
+      - hoje quero ver como foi sua evolução profissional ao longo do tempo, tudo bem?
+      - hoje vamos conversar sobre os trabalhos que marcaram sua trajetória, beleza?
+      - hoje a gente vai focar no que você já entregou na carreira, ok?
+      - hoje quero saber mais do seu perfil profissional, combinado?
+      - hoje vamos falar da prática, da rotina e dos desafios, tudo bem?
+      - hoje quero entender como você toma decisões no trabalho, tudo bem?
+      - hoje o foco é sua performance no ambiente profissional, ok?
+      - hoje quero saber como você lida com pressão no trabalho, certo?
+      - hoje vamos conversar sobre suas vivências como profissional, tudo bem?
+      - hoje o foco é seu histórico de entregas, tudo certo?
+      - hoje quero ver como você conduz suas tarefas profissionais, ok?
+      - hoje vamos entender como você trabalha em equipe, tudo bem?
+      - hoje quero saber como você lidera, influencia ou apoia projetos, certo?
+      - hoje vamos focar nas experiências que moldaram seu jeito de trabalhar
+      - hoje quero saber o que você já vivenciou em projetos grandes, tudo bem?
+      - hoje vamos olhar sua bagagem profissional com mais cuidado, ok?
+      - hoje quero saber como você atua em situações difíceis, certo?
+      - hoje vamos focar nas responsabilidades que você já assumiu, beleza?
+      - hoje quero ouvir histórias reais da sua vida profissional, tudo bem?
+      - hoje o assunto é a sua carreira — tudo certo seguir?
+      - hoje quero saber como você enfrentou desafios na sua trajetória, ok?
+      - hoje vamos analisar sua experiência de ponta a ponta, beleza?
+      - hoje vou explorar seu dia a dia em projetos anteriores, tudo bem?
+      - hoje quero ver como você lida com diferentes cenários no trabalho, ok?
+      - hoje vamos focar na prática, não só na teoria, tudo certo?
+      - hoje vou querer entender como você contribuiu para seus times, tudo bem?
+      - hoje vamos conversar sobre resultados que você já gerou, ok?
+      - hoje quero saber como você cresceu tecnicamente, tudo bem?
+      - hoje o foco é sua experiência direta com ferramentas e projetos, ok?
+      - hoje vamos olhar para sua maturidade profissional, tudo certo?
+      - hoje quero entender sua participação em diferentes tipos de projetos, beleza?
+      - hoje vamos falar sobre situações que marcaram seu desenvolvimento profissional
+      - hoje quero saber como você trabalha sob prazos, tudo bem?
+      - hoje vamos focar em projetos onde você fez a diferença, ok?
+      - hoje o papo é sério: vamos olhar sua experiência real, tudo bem?
+      - hoje quero saber como você entrega valor nos projetos, certo?
+      - hoje vamos explorar seu conhecimento aplicado, beleza?
+      - hoje quero entender como você estrutura seu trabalho, tudo bem?
+      - hoje vamos falar sobre suas responsabilidades técnicas, ok?
+      - hoje quero entender sua forma de trabalhar e pensar, tudo certo?
+      - hoje vamos analisar seu estilo de trabalho, beleza?
+      - hoje quero saber da sua vivência prática em diferentes contextos, ok?
+      - hoje o foco é sua experiência sólida construida ao longo da carreira
+      - hoje quero revisar seu caminho profissional com você, tudo bem?
+      - hoje vamos focar naquilo que você já fez, não no que você acha, combinado?
+      - hoje quero ver o que te torna um bom profissional, tudo bem?
+      - hoje vamos olhar sua experiência sem pressa, pode ser?
+      - hoje quero saber tudo que você já vivenciou no trabalho, ok?
+      - hoje vou focar mais no que você já fez nos seus últimos trabalhos, tudo bem?
+      - hoje quero entender melhor como você atua nos projetos de forma prática, pode ser?
+      - hoje vamos olhar mais para o que você já executou na sua carreira, tudo certo?
+      - hoje vou te perguntar sobre situações reais que você viveu no trabalho, tudo bem?
+      - hoje o foco é sua prática profissional, não se preocupe em responder perfeito
+      - hoje quero saber mais do seu jeito de trabalhar no dia a dia, ok?
+      - today I want to understand how you handle your daily work tasks, is that okay?
+      - today we’ll focus on what you have actually done in your previous roles, alright?
+      - today I want to hear about real situations you dealt with at work, okay?
+      - today I'll ask more about what you delivered in your last positions, is that fine?
+      - today the goal is to understand how you work in practice, okay?
+      - today we’ll focus on the hands-on part of your experience, is that alright?
+      - today I’d like to hear about your real contributions to past projects, okay?
+      - today I want to see how you worked through different challenges, is that fine?
+      - today we’ll focus on your actual responsibilities, not theory, okay?
+      - today I’d like to understand how you manage your work routine, okay?
+      - today we’ll talk more about your practical background, is that alright?
+      - today I want to know how you collaborate with others at work, okay?
+      - today we’ll explore the way you organize your tasks, okay?
+      - today we’re focusing on the most relevant moments of your career, is that fine?
+      - today I want to hear examples of how you handled real work situations, okay?
+      - today we will mainly focus on your professional experience, is that okay?
+      - today we will focus on your professional experience and your projects, is that okay?
+      - today we will focus on your professional experience and the way you work, is that okay?
+      - today we will focus on your professional experience and the challenges you have faced, is that okay?
+      - today we will focus on your professional experience and your responsibilities, is that okay?
+      - today the main goal is to understand your professional experience better, is that okay?
+      - today the focus of our conversation is your professional experience, is that okay?
+      - today the focus is to understand your professional experience better, is that okay?
+      - today we would like to get to know your professional experience better, is that okay?
+      - today we will talk mainly about your professional experience, is that okay?
+      - today we will go deeper into your professional background, is that okay?
+      - today we’ll focus more on your work history, is that fine?
+      - today I’d like to learn more about how you work, is that okay?
+      - today we’ll explore your career path, is that okay?
+      - today we’ll look closely at your professional journey, is that okay?
+      - today is about your experience — is that fine for you?
+      - today we want to understand how you work, is that good?
+      - today we’ll talk mainly about your day-to-day experience, okay?
+      - today I’d like to hear more about your projects, is that okay?
+      - today we’ll talk about what you’ve actually worked on, is that okay?
+      - today we’ll focus on the experience you've built over the years, is that alright?
+      - today we will dig more into your real work experience, okay?
+      - today I want to know more about your responsibilities, is that okay?
+      - today we’ll talk about situations you lived professionally, okay?
+      - today the point is to understand your hands-on experience, okay?
+      - today I’d like to understand your working style, is that fine?
+      - today we want to see how you handle real projects, is that okay?
+      - today we’ll look at your growth in your career, is that okay?
+      - today I want to hear about the challenges you faced, is that okay?
+      - today we will look into your previous roles, is that okay?
+      - today we’ll analyze your technical and soft-skill experience, okay?
+      - today I want to understand how you solve problems at work, is that okay?
+      - today we’ll talk about what you have delivered in your career, okay?
+      - today we would like to know how you behave in real work situations, is that alright?
+      - today we’ll explore how you work and think, okay?
+      - today we’ll focus on your job responsibilities, okay?
+      - today I want to understand your contribution to past teams, is that okay?
+      - today we're going to look at the projects you’ve taken part in, is that okay?
+      - today we’ll review key moments of your professional life, okay?
+      - today the conversation is about your experience, is that alright?
+      - today I want to know how you handle challenges in the workplace, okay?
+      - today we’ll focus on the tasks you’ve been responsible for, alright?
+      - today I want to hear real stories from your work life, okay?
+      - today is all about your professional journey, okay?
+      - today we’ll talk about your practical experience, okay?
+      - today we want to learn more about your work environment habits, is that okay?
+      - today we’ll dive into your background and projects, okay?
+      - today we want to talk about your most important projects, is that fine?
+      - today I want to know how you faced difficult work scenarios, okay?
+      - today we’ll focus on the things that shaped your career, alright?
+      - today I want to understand how you deliver value, okay?
+      - today we want to look at how you make decisions at work, okay?
+      - today we will analyze your applied knowledge, alright?
+      - today I want to know how you organize your work, is that okay?
+      - today we’ll look into your professional maturity, okay?
+      - today we will look at the things you’ve built professionally, okay?
+      - today we will talk about your technical responsibilities, okay?
+      - today I want to understand your professional thinking, okay?
+      - today we want to hear about your work routines, okay?
+      - today we’ll go into detail about your past job roles, okay?
+      - today we want to understand your relevant experience, okay?
+      - today I’d like to hear about meaningful work moments, okay?
+      - today the focus is your applied experience, okay?
+      - today we’ll talk about your practical skill set, okay?
+      - today we want to understand your growth over time, alright?
+      - today I’ll ask questions focused on your experience, okay?
+      - today we’ll go over your work background carefully, alright?
+      - today I want to know what makes you effective at your job, okay?
+      - today we’ll analyze your performance across different roles, okay?
+      - today the purpose is to understand your experience end-to-end, alright?
+      - today I’d like to hear about your day-to-day tasks, okay?
+      - today we’ll focus on how you approach work challenges, okay?
+      - today we’ll talk about moments where you made real impact, okay?
+      - today I want to understand how you evolved professionally, okay?
+      - today we’ll talk about the experience you’ve built so far, okay?
+      - today I want to see how you work under pressure, okay?
+      - today we’ll look at your collaboration experience with teams, okay?
+      - today we will explore how you think and act professionally, okay?
+      - today we want to see your hands-on experience, okay?
+      - today we’ll focus on the most important things you’ve done at work
+      - today I want to go through your professional story with you, okay?
+      - today we’ll evaluate your real-world working experience, alright?
+      - today we want to better understand your profile through your experience
+      - today I’ll explore your past contributions to projects, okay?
+      - today we’ll talk about how you handled different work environments, okay?

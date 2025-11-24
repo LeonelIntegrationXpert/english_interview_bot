@@ -12,6 +12,96 @@ nlu:
       - antes das perguntas, tem alguma curiosidade sobre a empresa ou o time?
       - quer que eu explique mais alguma coisa antes de avançarmos?
       - você tem alguma pergunta inicial que queira fazer antes de continuarmos?
+      - antes da primeira pergunta, quer tirar alguma dúvida?
+      - tem alguma pergunta rapidinha antes da gente começar?
+      - aproveita agora, tem algo que vc quer perguntar?
+      - antes de eu seguir, alguma coisa não ficou clara pra você?
+      - quer perguntar algo sobre como funciona o processo?
+      - tem alguma coisa sobre a vaga que você queira entender melhor?
+      - vc ficou com alguma dúvida do que eu expliquei até agora?
+      - antes de entrar no técnico, tem alguma pergunta geral?
+      - quer saber mais alguma coisa sobre o time antes da gente começar?
+      - tem alguma coisa que você gostaria que eu explicasse melhor?
+      - antes de tudo, tem algum ponto que você quer confirmar?
+      - você gostaria de tirar alguma dúvida sobre o escopo da função?
+      - tem alguma pergunta sobre a rotina desse papel?
+      - quer que eu detalhe um pouco mais o contexto do projeto?
+      - tem alguma coisa que não ficou muito clara pra você?
+      - antes de eu seguir, quer perguntar algo sobre a cultura da empresa?
+      - você tem alguma dúvida sobre o formato da entrevista?
+      - tem algo sobre benefícios ou modelo de trabalho que queira perguntar?
+      - quer perguntar alguma coisa sobre o stack ou tecnologias usadas?
+      - antes de começar formalmente, tem alguma pergunta sua?
+      - alguma dúvida que você prefere tirar logo no início?
+      - tem alguma pergunta que já estava na sua cabeça antes da call?
+      - você quer que eu explique melhor como será o nosso tempo aqui hoje?
+      - quer perguntar algo sobre o cronograma das próximas etapas?
+      - ficou alguma dúvida sobre como vamos conduzir a conversa?
+      - quer confirmar alguma coisa sobre horário ou duração da entrevista?
+      - tem alguma pergunta sobre com quem você trabalharia?
+      - antes de eu direcionar, você quer puxar algum assunto ou dúvida?
+      - alguma pergunta que você considere importante fazer agora?
+      - quer aproveitar pra perguntar algo sobre o time de tecnologia?
+      - tem alguma dúvida sobre onde essa vaga se encaixa na estrutura da empresa?
+      - quer que eu explique um pouco melhor o contexto de negócio do projeto?
+      - você tem alguma pergunta sobre home office, híbrido ou presencial?
+      - quer saber algo sobre o estilo de gestão do time?
+      - tem alguma coisa que você gostaria de alinhar antes das perguntas?
+      - alguma dúvida sobre o que já foi combinado até agora?
+      - antes de avançar, você quer esclarecer algum ponto específico?
+      - tem alguma pergunta sobre a senioridade esperada pra essa vaga?
+      - quer perguntar algo sobre os desafios principais da função?
+      - você tem alguma dúvida sobre como é o dia a dia nesse papel?
+      - antes de eu começar a perguntar, quer que eu detalhe melhor alguma coisa?
+      - tem algo que você não entendeu muito bem e queira que eu retome?
+      - quer perguntar algo sobre as ferramentas que usamos no time?
+      - tem alguma pergunta sobre treinamento ou onboarding?
+      - alguma dúvida sobre horário de trabalho ou flexibilidade?
+      - quer que eu fale um pouco mais sobre o time que você pode entrar?
+      - tem alguma pergunta sobre crescimento ou plano de carreira?
+      - antes de seguir, tem algo que esteja te deixando inseguro e queira perguntar?
+      - quer tirar alguma dúvida sobre o idioma usado no dia a dia?
+      - tem alguma pergunta sobre a localização ou fuso horário do time?
+      - quer que eu explique rapidinho o motivo da abertura dessa vaga?
+      - alguma dúvida sobre o tipo de contrato ou modelo de contratação?
+      - quer perguntar algo sobre com quem você vai se reportar?
+      - tem alguma pergunta sobre a stack de projetos que você participaria?
+      - antes de ir pras perguntas, quer entender melhor o momento da empresa?
+      - tem algo sobre a cultura que você ache importante perguntar?
+      - quer saber mais algum detalhe sobre o produto ou serviço da empresa?
+      - tem alguma dúvida sobre viagens, plantões ou horas extras?
+      - quer aproveitar pra perguntar algo que ainda não comentei?
+      - alguma pergunta que possa te deixar mais confortável pra seguir?
+      - quer que eu explique de novo rapidinho o formato da entrevista?
+      - tem alguma pergunta sobre como vamos avaliar seu perfil?
+      - quer saber algo sobre feedback e prazos de retorno?
+      - tem alguma dúvida sobre número de etapas ou quem participa delas?
+      - antes de eu entrar nos detalhes, quer perguntar algo mais geral?
+      - alguma pergunta que você considere essencial antes de seguir?
+      - quer perguntar algo sobre o tipo de projeto que você pegaria primeiro?
+      - tem alguma dúvida sobre as expectativas para os primeiros meses?
+      - quer que eu fale um pouco mais sobre os desafios técnicos?
+      - tem alguma pergunta sobre integrações com outros times?
+      - antes de seguir, você quer confirmar alguma coisa que eu falei?
+      - tem algo que você esteja curioso pra saber antes das perguntas?
+      - quer perguntar algo sobre soft skills que valorizamos aqui?
+      - tem alguma dúvida sobre como funciona o processo de performance?
+      - quer saber algo sobre a stack de comunicação interna (Slack, Teams, etc.)?
+      - tem alguma pergunta sobre ferramentas de gestão que usamos?
+      - antes de começar nas perguntas difíceis, quer perguntar algo mais leve?
+      - tem alguma dúvida sobre a postura esperada no dia a dia?
+      - quer que eu comente um pouco sobre o ambiente do time?
+      - tem alguma pergunta sobre projetos futuros da empresa?
+      - quer saber se a vaga é mais mão na massa ou mais estratégica?
+      - alguma dúvida sobre o equilíbrio entre trabalho solo e em equipe?
+      - quer perguntar algo sobre o tamanho do time hoje?
+      - tem alguma pergunta sobre a relação com outros squads?
+      - antes de avançar, quer tirar alguma dúvida geral sobre tudo isso?
+      - tem algo que você queira confirmar antes de eu seguir o roteiro?
+      - quer perguntar algo sobre ferramentas de código ou repositórios?
+      - tem alguma pergunta sobre testes, provas técnicas ou cases?
+      - quer que eu detalhe melhor como funciona a etapa técnica?
+      - tem alguma dúvida sobre horários de entrevista nas próximas fases?
       - before we start, do you have any questions for me?
       - before I move on to my questions, is there anything you’d like to know about the role or the company?
       - do you have any initial questions about the process or the team?
@@ -22,3 +112,93 @@ nlu:
       - before the questions, do you have any questions about the company or the team?
       - would you like me to explain anything else before we move forward?
       - do you have any initial questions you’d like to ask before we continue?
+      - before the first question, do you want to ask something?
+      - any quick question before we start?
+      - wanna ask anything before we get started?
+      - before I go on, is there anything not clear for you?
+      - do you want to ask something about the role details?
+      - is there anything about the position you’d like to understand better?
+      - did you get any doubts from what I explained so far?
+      - before we jump into the technical part, any general question?
+      - do you want to know a bit more about the team before we start?
+      - is there anything you’d like me to explain better?
+      - before anything else, is there any point you want to confirm?
+      - would you like to clear up any doubt about the role scope?
+      - do you have any question about the daily routine of this role?
+      - do you want me to give a bit more detail about the project context?
+      - is there something that is not very clear for you yet?
+      - before I go ahead, do you want to ask something about the company culture?
+      - do you have any question about the interview format?
+      - is there anything about benefits or work model you want to ask?
+      - do you want to ask something about the tech stack we use?
+      - before we officially start, any question from your side?
+      - any doubt you prefer to clear right at the beginning?
+      - do you have any question that was already on your mind before this call?
+      - do you want me to explain how we’ll use our time here today?
+      - do you want to ask something about the next steps timeline?
+      - is there any doubt about how we’ll run this conversation?
+      - do you want to confirm anything about timing or interview duration?
+      - any question about who you would be working with?
+      - before I drive the talk, anything you want to bring up?
+      - is there any question that you think is important to ask now?
+      - do you want to ask something about the tech team?
+      - any doubt about where this role fits inside the company?
+      - do you want me to explain a bit more of the business context of the project?
+      - do you have any question about remote, hybrid or on-site work?
+      - would you like to know something about the leadership style in the team?
+      - is there anything you’d like to align before we go to the questions?
+      - any doubt about what we already agreed so far?
+      - before we move on, is there any specific point you want to clarify?
+      - do you have any question about the seniority expected for this role?
+      - do you want to ask something about the main challenges of the position?
+      - any doubt about what the day to day of this job looks like?
+      - before I start asking, do you want me to detail anything else?
+      - is there something you didn’t fully get and want me to repeat?
+      - do you want to ask something about the tools we use in the team?
+      - any question about training or onboarding?
+      - any doubt about work hours or flexibility?
+      - do you want me to talk a bit more about the team you might join?
+      - any question about growth or career path here?
+      - before we continue, is there anything making you unsure that you want to ask?
+      - do you want to clear up any doubt about the language we use day to day?
+      - any question about location or time zone of the team?
+      - do you want me to quickly explain why this role is open?
+      - any doubt about contract type or hiring model?
+      - do you want to ask who you would report to?
+      - any question about the type of projects you would work on?
+      - before we go on, do you want to understand the company moment a bit better?
+      - is there anything about the culture you’d like to ask?
+      - do you want to know more details about the product or service?
+      - any doubt about travel, on-call or overtime expectations?
+      - do you want to ask something that I didn’t cover yet?
+      - any question that could make you feel more confortable to continue?
+      - do you want me to explain again how the interview will work?
+      - any question about how we’re going to evaluate your profile?
+      - do you want to ask something about feedback and response time?
+      - any doubt about number of rounds or who joins them?
+      - before I go into details, any more general question?
+      - any question that you feel is essencial before we move on?
+      - do you want to ask something about the first project you might handle?
+      - any doubt about expectations for your first months?
+      - do you want me to talk a bit more about the technical challenges?
+      - any question about interactions with other teams?
+      - before we continue, do you want to confirm anything I said?
+      - is there anything you’re curious about before the questions?
+      - do you want to ask something about soft skills we value here?
+      - any doubt about how performance reviews work?
+      - do you want to know what tools we use for internal communication?
+      - any question about project management tools we use?
+      - before the harder questions, any lighter question you want to ask?
+      - any doubt about expected behavior in the day to day?
+      - do you want me to comment a bit about the team environment?
+      - any question about future projects the company is planning?
+      - do you want to know if the role is more hands on or more strategic?
+      - any doubt about balance between solo work and team work?
+      - do you want to ask something about the team size today?
+      - any question about how we work with other squads?
+      - before we move ahead, any general doubt about all this?
+      - is there anything you want to confirm before I follow the script?
+      - any question about tools for code or repositories we use?
+      - any doubt about tests, technical challenges or cases?
+      - do you want me to detail a bit more how the technical step works?
+      - any question about interview times in the next rounds?

@@ -12,6 +12,96 @@ nlu:
       - agradeço por ter separado esse tempo para falar com a gente
       - obrigado por participar do processo seletivo
       - foi muito bom conhecer mais sobre o seu perfil, obrigado
+      - vamos finalizar por hoje, muito obrigado
+      - vamos encerrar nossa conversa, obrigado pelo seu tempo
+      - obrigado por essa conversa tão aberta
+      - obrigado pela disponibilidade hoje
+      - obrigado por ter topado falar com a gente
+      - obrigado pelo papo de hoje
+      - agradeço pela conversa de hoje
+      - foi um bate-papo muito bom, obrigado
+      - foi ótimo te ouvir, muito obrigado
+      - obrigado por dividir sua jornada com a gente
+      - obrigado por compartilhar sua trajetória
+      - obrigado por contar mais da sua experiência
+      - obrigado por todas as informações que você trouxe
+      - obrigado por responder tudo com tanta calma
+      - obrigado pela transparência nas respostas
+      - agradeço pela clareza nas respostas
+      - foi muito rico te ouvir, obrigado
+      - foi uma conversa bem valiosa, obrigado
+      - obrigado por se abrir tanto na conversa
+      - obrigado pela sinceridade nas respostas
+      - obrigado por tirar esse tempo na agenda
+      - brigado por separar esse tempo pra gente
+      - muito obrigado pela troca de hoje
+      - obrigado pela troca de ideias
+      - obrigado por dividir seus pontos de vista
+      - obrigado pelas contribuições na conversa
+      - agradeço por toda a atenção de hoje
+      - agradeço pelo cuidado nas respostas
+      - foi um prazer conduzir essa conversa com você
+      - foi um prazer ter essa entrevista com você
+      - foi um prazer entender melhor seu perfil, obrigado
+      - foi ótimo conhecer um pouco mais da sua história
+      - foi ótimo esse papo, obrigado
+      - muito obrigado pela conversa de hoje
+      - muito obrigado por tudo que você compartilhou
+      - muito obrigado pela paciência com as perguntas
+      - obrigado pela participação hoje
+      - obrigado por acompanhar todo o processo até aqui
+      - obrigado pela parceria durante essa conversa
+      - foi um prazer te ouvir, muito obrigado
+      - foi ótimo ter você aqui hoje, obrigado
+      - agradeço muito pelo seu tempo hoje
+      - agradeço muito por ter participado
+      - agradeço de verdade pela conversa
+      - agradeço pela disponibilidade e atenção
+      - brigado pela atenção de hoje
+      - brigado por ter vindo pra essa entrevista
+      - brigado por falar com a gente hoje
+      - valeu demais pela conversa de hoje
+      - valeu pelo tempo dedicado aqui
+      - valeu pela disponibilidade na correria do dia
+      - valeu pela presença hoje
+      - valeu por topar conversar com a gente
+      - obrigado, vamos ficando por aqui
+      - obrigado, encerramos por hoje
+      - obrigado, podemos encerrar por aqui então
+      - obrigado, vamos fechar a entrevista por aqui
+      - obrigado, a gente encerra nossa conversa agora
+      - muito obrigado, ficamos por aqui hoje
+      - muito obrigado, finalizamos por aqui
+      - agradeço, vamos encerrar a call então
+      - agradeço, podemos finalizar a reunião
+      - agradeço, encerramos esse bate-papo por aqui
+      - obrigado, qualquer coisa a gente volta a se falar
+      - obrigado, em breve a gente te dá um retorno
+      - obrigado, logo mais entramos em contato
+      - obrigado, em breve você recebe um retorno do time
+      - obrigado, vamos analisar com calma e retornamos
+      - obrigado, logo o time de recrutamento fala com você
+      - obrigado, nosso time vai te posicionar em breve
+      - obrigado por ter se ajustado no horário da reunião
+      - obrigado por ter remarcado com a gente quando precisou
+      - obrigado por ter esperado a gente ajustar o horário
+      - obrigado por ter sido tão pontual hoje
+      - muito obrigado por manter o compromisso com a entrevista
+      - muito obrigado por tudo que você trouxe pra conversa
+      - obrigado por ajudar a deixar a conversa leve
+      - obrigado por manter uma postura tão profissional
+      - obrigado por ter sido tão claro nas respostas
+      - obrigado por ter sido tão objetivo nas respostas
+      - agradeço por toda a abertura que você deu
+      - agradeço por ter confiado na gente pra contar sua história
+      - agradeço por ter trazido exemplos tão concretos
+      - agradeço por ter explicado tudo com tanto detalhe
+      - foi uma conversa bem completa, obrigado
+      - foi um papo muito esclarecedor, obrigado
+      - foi um encontro bem produtivo, obrigado
+      - foi uma entrevista bem produtiva, obrigado
+      - foi realmente um prazer falar com você hoje
+      - foi muito legal conhecer mais do seu jeito de trabalhar
       - thank you very much for your time today
       - thank you for taking part in this interview
       - thank you for sharing your experience with us
@@ -22,3 +112,93 @@ nlu:
       - I appreciate you taking the time to speak with us
       - thank you for participating in the hiring process
       - it was great to learn more about your profile, thank you
+      - thanks a lot for your time today
+      - thanks for your time, we really appreciate it
+      - thank you for making time to talk to us
+      - thank you for joining the call today
+      - thank you for joining this interview
+      - thank you for joining the meeting today
+      - thanks for being here with us today
+      - thanks for taking the time in your busy day
+      - thanks for fitting this interview into your schedule
+      - thanks for taking the time to meet with us
+      - thank you for the great chat today
+      - thank you for this open conversation
+      - thank you for being so open in this talk
+      - thank you for sharing so many details
+      - thank you for walking us through your experience
+      - thank you for going through everything with us
+      - thanks for walking us through your background
+      - thanks for sharing your story with us
+      - thanks for sharing your journey with us
+      - thanks for explaining your experience so clearly
+      - thank you for all the information you shared
+      - thank you for all the context you brought
+      - thank you for answering all of our questions
+      - thank you for answering everything so calmly
+      - thank you for being so patient with the questions
+      - thank you for your patience during this interview
+      - thanks for staying with us for the whole call
+      - thanks for staying until the end of the meeting
+      - thanks for staying a bit longer with us
+      - thanks for bearing with us through all the questions
+      - it was really nice talking to you today, thank you
+      - it was really nice to hear about your experience, thanks
+      - it was very helpful to talk to you, thank you
+      - it was a very good discussion, thank you
+      - it was a very productive conversation, thanks a lot
+      - it was a very valuable conversation, thank you
+      - this was a very useful conversation, thank you
+      - this was a very rich conversation, thank you
+      - this was super helpful, thank you for your time
+      - this was very insightful, thank you so much
+      - I really appreciate your time and openness today
+      - I really appreciate everything you shared
+      - I really appreciate your honesty in this conversation
+      - I really appreciate your transparency in the answers
+      - I really appreciate the level of detail you brought
+      - we really appreciate your time and energy today
+      - we really appreciate your participation in this process
+      - we really appreciate your interest in this role
+      - we really appreciate your interest in the company
+      - thanks again for taking the time today
+      - thanks again for meeting with us today
+      - thanks again for your time and patience
+      - thanks again for your thoughtful answers
+      - thank you, we will end the call here
+      - thank you, we will stop here for today
+      - thank you, we can wrap up the interview now
+      - thank you, we are going to close the meeting now
+      - thank you, we will finish our conversation here
+      - thank you, we will close the session here
+      - thank you, that’s all from our side for today
+      - thank you, that was our last question for today
+      - thanks, we reached the end of our questions
+      - thanks, that was the final question from us
+      - thank you, we will now wrap things up
+      - thank you, we can now move to closing
+      - thank you, we are done with the interview questions
+      - thank you, that brings us to the end of the interview
+      - from our side, that’s it for today, thank you
+      - from our side, we are done, thank you very much
+      - we will finish the interview here, thank you
+      - we will close our conversation now, thanks a lot
+      - we will end the meeting here, thank you again
+      - thanks for adjusting your schedule to join us
+      - thanks for rescheduling with us when needed
+      - thanks for waiting while we fixed the connection
+      - thanks for your flexibility with the time today
+      - thanks for being on time for this interview
+      - thanks for being so punctual today
+      - thank you for your professionalism during this call
+      - thank you for how professional you were today
+      - thank you for keeping such a professional attitude
+      - thank you for being so clear in your answers
+      - thank you for being so objective in your answers
+      - thank you for giving us so many concrete examples
+      - thank you for explaining everything in such detail
+      - this was a very complete conversation, thank you
+      - this was a very clear interview, thanks a lot
+      - it was a very productive interview, thank you
+      - it was honestly a pleasure talking to you today
+      - it was really great to hear how you work, thank you

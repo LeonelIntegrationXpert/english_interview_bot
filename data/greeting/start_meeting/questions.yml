@@ -12,6 +12,96 @@ nlu:
       - pronto para a entrevista?
       - pronto para começar?
       - podemos começar agora?
+      - vamos começar a entrevista?
+      - bora iniciar?
+      - a gente pode começar agora?
+      - tudo certo pra começar?
+      - top começar agora?
+      - podemos ir começando?
+      - vamos iniciar oficialmente?
+      - vamos dar início a call?
+      - vamos dar inicio a reunião?
+      - vamos dar inicio a entrevista?
+      - tá pronto pra começar?
+      - tá pronta pra começar?
+      - cê tá pronto pra gente começar?
+      - cê tá pronta pra gente começar?
+      - podemos começar a conversa?
+      - vamos começar a nossa conversa?
+      - podemos começar a call?
+      - bora iniciar a call?
+      - podemos começar a reunião agora?
+      - vamos seguir e começar?
+      - seguimos e começamos?
+      - vamo começar?
+      - vamo iniciar?
+      - vamos lá, começar?
+      - vamos lá, bora começar?
+      - tudo certo pra gente iniciar?
+      - tudo ok pra gente começar?
+      - tudo ok pra começar agora?
+      - já podemos começar?
+      - já tá pronto pra começar?
+      - já tá preparada pra começar?
+      - já podemos dar início?
+      - a gente já pode iniciar?
+      - começamos agora?
+      - que tal a gente começar?
+      - podemos ir em frente e começar?
+      - a gente inicia agora?
+      - vamos iniciar esse papo?
+      - bora começar esse papo?
+      - podemos começar a parte formal?
+      - vamos começar a parte formal?
+      - você tá pronto pra entrevista?
+      - você tá pronta pra entrevista?
+      - tudo certo pra entrevista começar?
+      - já podemos começar a entrevista?
+      - vamos iniciar a entrevista agora?
+      - podemos iniciar o bate-papo?
+      - vamos iniciar o bate papo?
+      - começamos a entrevista agora?
+      - podemos seguir e iniciar?
+      - podemos dar start agora?
+      - vamos dar start na entrevista?
+      - se importa da gente começar agora?
+      - tudo bem começar agora?
+      - se a gente começar agora, tudo bem?
+      - quer que a gente comece?
+      - podemos realmente começar agora?
+      - bora realmente começar?
+      - vamos tocar a entrevista?
+      - vamos tocar a reunião?
+      - bora tocar essa call?
+      - bora iniciar de vez?
+      - podemos começar oficialmente agora?
+      - vamos começar oficial?
+      - topa começar agora?
+      - você topa a gente começar?
+      - vamo que vamo começar?
+      - simbora começar?
+      - bora ir começando devagar?
+      - podemos ir começando devagar?
+      - a gente pode iniciar a qualquer momento, começamos?
+      - tá tranquilo pra gente começar agora?
+      - tá de boa começar agora?
+      - pra você tá ok começar agora?
+      - fechou, vamos começar?
+      - combinando, podemos começar?
+      - ok, vamos dar inicio agora?
+      - ok, vamos começar então?
+      - se estiver pronto, a gente começa
+      - se tiver tudo ok, podemos começar
+      - caso esteja pronto, vamos começar
+      - se estiver tudo certo, a gente começa
+      - quando você disser, a gente começa
+      - me avisa se posso começar
+      - fala quando posso começar
+      - digo pra começar agora?
+      - você prefere que eu comece agora?
+      - quer que eu já comece?
+      - pronto mesmo pra começar?
+      - quer mais um tempo ou podemos começar?
       - shall we start?
       - can we start?
       - are you ready to start?
@@ -22,3 +112,93 @@ nlu:
       - are you ready to begin?
       - is it okay if we start now?
       - can we start now?
+      - are you okay to start?
+      - are you ok to start now?
+      - ready to start the meeting?
+      - ready to start the interview?
+      - can we start the call?
+      - shall we start the call?
+      - can we start the session?
+      - shall we start the session?
+      - is it a good time to start?
+      - is now a good time to start?
+      - are you ready so we can start?
+      - are you ready so we start?
+      - can we go ahead and start?
+      - shall we go ahead and start?
+      - can we get started now?
+      - let’s start?
+      - let us start now?
+      - if you are ready, we can start
+      - if you are ok, we can start now
+      - would you like to start now?
+      - is it fine if we start now?
+      - is it fine to start now?
+      - may we start now?
+      - may we begin now?
+      - can we please start?
+      - can we please begin?
+      - okay, shall we start now?
+      - okay, can we start now?
+      - are you ready to go ahead and start?
+      - are you ready to kick off?
+      - ready to kick off the meeting?
+      - ready to kick off the interview?
+      - can we kick off now?
+      - shall we kick off now?
+      - can we start the interview now?
+      - can we start the meeting now?
+      - are you ready for us to start?
+      - are you ready for the interview to start?
+      - are you ready for the meeting to start?
+      - can we start the talk now?
+      - can we start our chat now?
+      - shall we start our conversation?
+      - can we begin our conversation?
+      - is it okay if we begin now?
+      - is it ok to begin now?
+      - are you okay if we start?
+      - do you mind if we start now?
+      - do you mind if we start the interview?
+      - do you mind if we begin the meeting?
+      - should we start now?
+      - should we begin now?
+      - shall we get this started?
+      - shall we get started with the interview?
+      - can we get started with the meeting?
+      - can we get started with this call?
+      - are you all set to start?
+      - are you all set now?
+      - are you all set so we can start?
+      - are you already to start?
+      - are you read to start?
+      - ready if we start now?
+      - ready if we begin now?
+      - can we maybe start now?
+      - I would like to start, is it ok?
+      - can I start now?
+      - can I start the interview now?
+      - can I start asking questions?
+      - is it okay if I start asking now?
+      - is this a good moment to start?
+      - is this a good time to begin?
+      - can we start officialy now?
+      - can we oficially start?
+      - let’s start the meeting now?
+      - let’s start the interview now?
+      - let us begin the meeting now?
+      - let us begin the interview now?
+      - shall we finally start?
+      - can we finally start now?
+      - okay, we start now?
+      - okay, we begin now?
+      - so, can we start?
+      - so, shall we start now?
+      - so, we can start now, right?
+      - if you are fine, we start now
+      - if you are ready, we start now
+      - if it is okay, we can begin
+      - can we start this now?
+      - can we start this interview now?
+      - can we start this meeting now?
+      - can we start the process now?

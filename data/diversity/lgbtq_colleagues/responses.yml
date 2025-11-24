@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_lgbtq_colleagues:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu não tenho nenhum problema em trabalhar com colegas LGBTQIA+. Para mim, o que importa no ambiente profissional é o caráter, o respeito e a qualidade do trabalho, independentemente de orientação sexual ou identidade de gênero. Eu procuro sempre tratar todos com o mesmo nível de respeito e profissionalismo.
-          vr_en: |
-            I have absolutely no problem working with LGBTQIA+ colleagues. For me, what matters in a professional environment is character, respect, and the quality of the work, regardless of sexual orientation or gender identity. I always try to treat everyone with the same level of respect and professionalism.

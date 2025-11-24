@@ -12,6 +12,96 @@ nlu:
       - boa noite, até a próxima
       - boa noite, muito obrigado pelo seu tempo
       - boa noite, encerramos por aqui
+      - boa noite, qualquer coisa estou à disposição
+      - boa noite, nos falamos em breve
+      - boa noite, até amanhã então
+      - boa noite, foi um prazer participar
+      - boa noite, obrigado pela oportunidade
+      - boa noite, obrigado pela entrevista
+      - boa noite, obrigado por hoje
+      - boa noite, obrigado pelo papo
+      - boa noite, obrigado pelo bate-papo
+      - boa noite, agradeço muito o seu tempo
+      - boa noite, agradeço pela atenção
+      - boa noite, agradeço pela conversa de hoje
+      - boa noite, agradeço pela entrevista de hoje
+      - boa noite, muito obrigado pela atenção
+      - boa noite, muito obrigado pela oportunidade
+      - boa noite, fico aguardando um retorno
+      - boa noite, fico no aguardo do próximo passo
+      - boa noite, fico no aguardo de vocês
+      - boa noite, qualquer novidade é só me avisar
+      - boa noite, qualquer dúvida pode me chamar
+      - boa noite, estou à disposição para próximos passos
+      - boa noite, estou à disposição para outras etapas
+      - boa noite, obrigado por encaixar esse horário
+      - boa noite, obrigado por ficar até mais tarde hoje
+      - boa noite, obrigado por fechar o dia comigo
+      - boa noite, obrigado por continuarmos a conversa hoje
+      - boa noite, foi uma conversa bem produtiva
+      - boa noite, gostei muito da nossa conversa
+      - boa noite, gostei bastante da entrevista
+      - boa noite, gostei de conhecer mais sobre a empresa
+      - boa noite, foi ótimo conhecer um pouco do time
+      - boa noite, foi ótimo entender melhor a vaga
+      - boa noite, foi ótimo entender melhor o contexto
+      - boa noite, obrigado por compartilhar detalhes da vaga
+      - boa noite, obrigado por explicar melhor o projeto
+      - boa noite, obrigado por todas as explicações
+      - boa noite, obrigado pelas perguntas
+      - boa noite, obrigado pelos feedbacks de hoje
+      - boa noite, agradeço o feedback e o tempo
+      - boa noite, agradeço a transparência na conversa
+      - boa noite, agradeço a sinceridade nas colocações
+      - boa noite, obrigado pela paciência com meu inglês
+      - boa noite, obrigado por me ouvir com calma
+      - boa noite, obrigado por respeitar meu ritmo
+      - boa noite, foi desafiador mas muito bom
+      - boa noite, mesmo cansado foi uma conversa boa
+      - boa noite, apesar do dia corrido foi muito bom falar com você
+      - boa noite, mesmo no fim do dia a conversa foi ótima
+      - boa noite, espero não ter tomado tempo demais
+      - boa noite, espero ter conseguido me explicar bem
+      - boa noite, espero ter conseguido responder tudo
+      - boa noite, espero ter esclarecido suas dúvidas
+      - boa noite, espero ter correspondido às expectativas
+      - boa noite, espero ter contribuído bem nessa etapa
+      - boa noite, espero ter deixado uma boa impressão
+      - boa noite, foi um prazer contar um pouco da minha história
+      - boa noite, foi um prazer falar da minha experiência
+      - boa noite, foi um prazer falar da minha trajetória
+      - boa noite, foi um prazer conversar sobre o meu momento profissional
+      - boa noite, desejo um bom descanso pra você
+      - boa noite, desejo um bom descanso pro time
+      - boa noite, bom descanso e até logo
+      - boa noite, bom descanso e boa semana
+      - boa noite, tenha um ótimo descanso
+      - boa noite, tenha uma excelente noite de descanso
+      - boa noite, tenha uma ótima continuação de semana
+      - boa noite, tenha uma ótima continuação de noite
+      - boa noite, uma boa noite pra você e pro time
+      - boa noite, obrigado de coração pelo tempo
+      - boa noite, muito obrigado por tudo hoje
+      - boa noite, agradeço de verdade pela conversa
+      - boa noite, agradeço muito pela oportunidade de me apresentar
+      - boa noite, qualquer coisa posso responder por mensagem
+      - boa noite, se precisar posso mandar mais detalhes depois
+      - boa noite, se precisar envio materiais complementares
+      - boa noite, se for preciso posso esclarecer mais por e-mail
+      - boa noite, obrigado por considerar meu perfil com carinho
+      - boa noite, obrigado por todo o cuidado no processo
+      - boa noite, até breve
+      - boa noite, até a próxima etapa
+      - boa noite, até o próximo contato
+      - boa noite, até nossa próxima conversa
+      - boa noite, boa noite pra todo mundo aí
+      - boa noite, boa noite pro pessoal do time
+      - boa noite, bom restante de noite pra você
+      - boa noite, bom restante de dia pra vocês aí
+      - boa noite, boa continuação por aí
+      - boa noite, vou ficando por aqui então
+      - boa noite, por hoje é isso, muito obrigado
+      - boa noite, podemos encerrar por hoje
       - good night
       - good night, it was a pleasure talking to you
       - good night, thanks for your time
@@ -22,3 +112,93 @@ nlu:
       - good night, see you next time
       - good night, thank you for your time
       - good night, we’ll stop here for today
+      - good night, it was very nice to talk to you
+      - good night, it was really nice meeting you
+      - good night, it was really nice speaking with you
+      - good night, it was very good to talk today
+      - good night, thanks for the conversation
+      - good night, thanks for the chat
+      - good night, thanks for the call
+      - good night, thanks for staying a bit longer today
+      - good night, thanks for taking the time tonight
+      - good night, thanks for making time after your day
+      - good night, thank you for the opportunity
+      - good night, thank you for this interview
+      - good night, thank you for this call
+      - good night, thank you for this meeting today
+      - good night, thank you for considering my profile
+      - good night, thank you for the chance to introduce myself
+      - good night, thank you for listening to me
+      - good night, thank you for your patience with my English
+      - good night, thank you for all the questions
+      - good night, thank you for all the explanations
+      - good night, I really appreciate your time
+      - good night, I really appreciate this opportunity
+      - good night, I really appreciate the feedback
+      - good night, I really appreciate the conversation today
+      - good night, it was a very good discussion
+      - good night, it was a very productive conversation
+      - good night, it was a very productive interview
+      - good night, I enjoyed our conversation
+      - good night, I enjoyed talking with you
+      - good night, I enjoyed learning more about the role
+      - good night, I enjoyed learning more about the company
+      - good night, it was great to hear more about the team
+      - good night, it was great to hear more about the projects
+      - good night, it was great to understand the context better
+      - good night, I hope I answered your questions well
+      - good night, I hope I could explain my background clearly
+      - good night, I hope I could show my experience clearly
+      - good night, I hope I could give you a good overview
+      - good night, I hope this was helpful for you
+      - good night, I hope this conversation was useful
+      - good night, I will wait for the next steps
+      - good night, I will wait for your feedback
+      - good night, I will wait for your answer
+      - good night, I will wait for your email
+      - good night, I look forward to hearing from you
+      - good night, I look forward to your feedback
+      - good night, I look forward to the next step
+      - good night, I look forward to the next conversation
+      - good night, I look forward to working with you one day
+      - good night, I look forward to maybe joining the team
+      - good night, feel free to contact me if you need anything
+      - good night, feel free to reach out if you have questions
+      - good night, feel free to send me any follow up
+      - good night, you can message me if you need more details
+      - good night, you can email me if you need more information
+      - good night, I am available for any other questions
+      - good night, I am available for other steps in the process
+      - good night, I am available if you need another call
+      - good night, I am available if you need more details
+      - good night, hope you have a good rest
+      - good night, hope you have a restful night
+      - good night, hope you have a peaceful evening
+      - good night, hope you get some good rest
+      - good night, hope you can relax after this long day
+      - good night, have a good rest of your evening
+      - good night, have a good rest of your night
+      - good night, have a good rest of the week
+      - good night, have a good evening with your family
+      - good night, wish you a great night
+      - good night, wish you a relaxing night
+      - good night, wish you a calm and quiet night
+      - good night, thank you again for your time today
+      - good night, thanks again for talking with me
+      - good night, thanks again for the nice conversation
+      - good night, thanks again for this opportunity
+      - good night, I really enjoyed this time with you
+      - good night, I really liked our conversation today
+      - good night, this was very helpful for me, thank you
+      - good night, I appreciate all the information you shared
+      - good night, I appreciate the clarity about the process
+      - good night, we can continue in the next meeting
+      - good night, we can continue in the next call
+      - good night, we can continue this conversation another day
+      - good night, for today that is all from my side
+      - good night, that is all from me for today
+      - good night, we can close here, thank you
+      - good night, we can finish here, thanks a lot
+      - good night, we will talk again soon I hope
+      - good night, hope to talk to you again soon
+      - good night, thanks again and have a good night

@@ -12,13 +12,193 @@ nlu:
       - conto com seu retorno
       - agradeço o retorno
       - muito obrigado pela atenção
+      - desde já agradeço o retorno
+      - desde ja, agradeço sua resposta
+      - desde já, agradeço o retorno assim que possível
+      - desde ja, agradeço qualquer posicionamento
+      - desde já agradeço a consideração
+      - desde ja obrigado pela atenção
+      - desde já, muito obrigado pela atenção
+      - desde já agradeço pela oportunidade
+      - desde já, agradeço pelo feedback
+      - desde já agradeço qualquer retorno
+      - agradeço a atenção dispensada
+      - agradeço pela atenção e pelo tempo
+      - agradeço pela atenção e retorno
+      - agradeço pela oportunidade e pela atenção
+      - agradeço pela análise do meu perfil
+      - agradeço pela análise do currículo
+      - agradeço pela devolutiva quando possivel
+      - agradeço pela resposta assim que for viável
+      - agradeço pela ajuda
+      - agradeço pela consideração
+      - agradeço pela oportunidade de participar do processo
+      - agradeço pela oportunidade desta conversa
+      - agradeço pela oportunidade de entrevista
+      - agradeço pelo tempo dedicado
+      - agradeço pelo tempo e pela atenção
+      - agradeço pelo retorno assim que tiverem uma posição
+      - agradeço pelo feedback quando possível
+      - agradeço pela resposta, mesmo que seja negativa
+      - agradeço se puderem me retornar
+      - agradeço caso possam me dar um retorno
+      - fico à disposição para qualquer informação adicional
+      - fico à disposição para enviar mais detalhes se necessário
+      - fico à disposição para eventuais esclarecimentos
+      - fico à disposição para futuras etapas
+      - fico à disposição para uma nova conversa
+      - fico à disposição para uma próxima entrevista
+      - fico à disposição para conversar quando precisarem
+      - fico à disposição para ajustar qualquer ponto necessário
+      - fico totalmente à disposição
+      - fico à disposição para o que precisarem
+      - continuo à disposição para dúvidas
+      - continuo à disposição para qualquer esclarecimento
+      - permaneço à disposição para novos contatos
+      - permaneço à disposição para futuras oportunidades
+      - permaneço à disposição para novas conversas
+      - permaneço à disposição para entrevistas futuras
+      - qualquer dúvida, por favor me avise
+      - qualquer dúvida, é só me chamar
+      - qualquer dúvida, estou à disposição por aqui
+      - qualquer dúvida, pode entrar em contato comigo
+      - qualquer dúvida, pode me enviar um e-mail
+      - qualquer dúvida, pode me responder por aqui mesmo
+      - qualquer duvida, por gentileza me retorne
+      - qualquer dúvida, fico aguardando seu contato
+      - qualquer dúvida, estou por aqui
+      - em caso de dúvidas, fico à disposição
+      - em caso de dúvidas, por favor me contate
+      - em caso de dúvidas, estou à disposição
+      - em caso de dúvidas, pode contar comigo
+      - caso precise de algo, estou à disposição
+      - caso tenham qualquer dúvida, fico à disposição
+      - caso precise de mais informações, posso enviar
+      - caso precisem de mais detalhes, to à disposição
+      - caso seja necessário, posso esclarecer melhor
+      - caso seja necessário, posso marcar uma nova conversa
+      - aguardo seu retorno assim que possível
+      - aguardo seu retorno quando tiverem uma posição
+      - aguardo seu retorno com os próximos passos
+      - aguardo um retorno sobre o processo
+      - aguardo uma posição sobre a vaga
+      - aguardo uma devolutiva sobre esta oportunidade
+      - aguardo um contado assim que tiverem novidades
+      - aguardo novidades sobre o processo seletivo
+      - aguardo sua resposta, mesmo que rápida
+      - aguardo seu retorno por e-mail
+      - fico no aguardo de um retorno
+      - fico no aguardo da sua resposta
+      - fico no aguardo de novidades
+      - fico no aguardo de qualquer atualização
+      - fico no aguardo do próximo passo
+      - fico no aguardo da próxima etapa
+      - fico no aguardo de uma confirmacao
+      - fico no aguardo de um posicionamento
+      - fico no aguardo do feedback
+      - fico no aguardo de notícias
+      - mais uma vez, agradeço a atenção
+      - mais uma vez, muito obrigado
+      - mais uma vez agradeço pela oportunidade
+      - reforço meu agradecimento pela atenção
+      - agradeço pela paciência em ler este e-mail
       - thank you in advance
       - thank you for your attention
       - I appreciate your attention
       - I remain at your disposal for any questions
-      - I’m available for any further clarification
-      - please let me know if you have any questions
-      - I look forward to your reply
+      - I’m avaliable for any further clarification
+      - please let me now if you have any questions
+      - I look foward to your reply
       - I look forward to hearing from you
       - thank you for your kind attention
       - many thanks for your attention
+      - thank you in advance for your reply
+      - thank you in advance for your feedback
+      - thank you in advance for your time
+      - thank you in advance for your help
+      - thank you in advance for your response
+      - thank you very much for your attention
+      - thank you very much for your time and attention
+      - thanks a lot for your attention
+      - thanks a lot for taking the time to read this
+      - thanks a lot for your help
+      - thank you for taking the time to read this email
+      - thank you for taking the time to review my profile
+      - thank you for taking the time to consider my application
+      - thank you for taking the time to answer
+      - thank you for taking the time to get back to me
+      - thank you for your time and consideration
+      - thank you for your time and support
+      - thank you for your time and feedback
+      - thank you for your time on this matter
+      - thank you for your time and help
+      - I really appreciate your time and attention
+      - I really appreciate your help with this
+      - I really appreciate your feedback
+      - I really appreciate your consideration
+      - I really appreciate you getting back to me
+      - I really appreciate your support
+      - I really appreciate your quick response
+      - I appreciate your time and attention
+      - I appreciate your time and feedback
+      - I appreciate your help with this matter
+      - I am available if you need any further information
+      - I am available if you need anything else
+      - I am available for any further questions
+      - I am available for any clarification you might need
+      - I am available to provide more details if needed
+      - I am available to discuss this further if necessary
+      - I remain at your disposal for any further information
+      - I remain at your disposal if you need anything else
+      - I remain at your disposal for any clarification
+      - I remain at your disposal for any further questions
+      - please feel free to contact me if you have any questions
+      - please feel free to reach out if you need anything
+      - please feel free to ask if you need more details
+      - please feel free to reply if something is not clear
+      - please feel free to let me know if you need anything else
+      - please do not hesitate to contact me
+      - please do not hesitate to contact me if you have any questions
+      - please do not hesitate to reach out if you need more information
+      - please do not hesitate to let me know if something is unclear
+      - please do not hesitate to ask if you need more details
+      - I look forward to your feedback
+      - I look forward to your answer
+      - I look forward to your response
+      - I look forward to your comments
+      - I look forward to your update
+      - I look forward to hearing from you soon
+      - I look forward to your reply soon
+      - I look foward to your response as soon as possible
+      - I look forward to your feedback when you have time
+      - I look forward to your update on this
+      - I will be wainting for your reply
+      - I will be waiting for your response
+      - I will be waiting for your feedback
+      - I will be waiting for your update
+      - I will be waiting for your answer
+      - I will be waiting for your email
+      - I will be waiting for your contact
+      - I will be waiting for your message
+      - I will be waiting for your decision
+      - I will be waiting for your position on this
+      - thank you again for your attention
+      - thank you again for your time
+      - thank you again for your support
+      - thank you again for your help
+      - thank you again for considering my application
+      - once again, thank you for your attention
+      - once again, thank you for your time
+      - once again, thank you for your support
+      - once again, thank you for your help
+      - once again, thank you for your feedback
+      - many thanks in advance for you reply
+      - many thanks in advance for your help
+      - many thanks in advance for your feedback
+      - many thanks in advance for your time
+      - many thanks in advance for your answer
+      - thanks again for your attention and your time
+      - thanks again for reading this message
+      - thanks again for your quick reply
+      - thanks again for your feedback on this
+      - thanks again for taking the time to answear me

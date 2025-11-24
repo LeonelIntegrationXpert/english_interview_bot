@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_decision_making_style:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Na hora de tomar decisões, eu gosto de combinar análise com bom senso prático. Normalmente eu coleto as informações essenciais, avalio riscos, impacto para o time e para o negócio e, quando faz sentido, discuto alternativas com as pessoas envolvidas. Quando o cenário é incerto, eu tomo a melhor decisão possível com os dados disponíveis e deixo claro que podemos ajustar o rumo depois, se necessário. Se uma decisão não sai como esperado, eu assumo a responsabilidade, aprendo com o resultado e trabalho para corrigir o caminho rapidamente.
-          vr_en: |
-            When I need to make decisions, I like to combine analysis with practical common sense. Normally I gather the essential information, evaluate risks, and look at the impact on the team and on the business. When it makes sense, I discuss alternatives with the people involved. When the scenario is uncertain, I make the best possible decision with the data available and I am clear that we can adjust the direction later if needed. If a decision does not work as expected, I take responsibility, learn from the result, and work to correct the course quickly.

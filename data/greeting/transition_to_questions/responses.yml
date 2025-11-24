@@ -4,6 +4,11 @@ responses:
     - custom:
         resp_1:
           vr_pt: |
-            Perfeito, podemos começar. Fico à vontade para responder às perguntas sobre minha experiência.
+            Perfeito, podemos começar, fico à vontade para responder.
           vr_en: |
-            Perfect, we can start. I feel comfortable answering your questions about my experience.
+            Perfect, we can start, I feel comfortable answering your questions.
+        resp_2:
+          vr_pt: |
+            Podemos seguir sim, só peço um pouco de paciência se eu demorar em alguma resposta.
+          vr_en: |
+            We can move on, I just ask for a bit of patience if I take a little longer on some answers.

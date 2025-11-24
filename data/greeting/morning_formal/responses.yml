@@ -7,3 +7,8 @@ responses:
             Bom dia! Tudo ótimo por aqui, e com você?
           vr_en: |
             Good morning! I’m doing great, and you?
+        resp_2:
+          vr_pt: |
+            Bom dia! Confesso que o dia tá um pouco puxado, mas tô aqui focado.
+          vr_en: |
+            Good morning! I have to admit the day has been a bit tough, but I’m focused and here.

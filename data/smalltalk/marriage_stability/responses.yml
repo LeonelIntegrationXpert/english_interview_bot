@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_marriage_stability:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Esses cerca de dez anos de casamento trazem bastante estabilidade para a minha vida. Eu acabo tomando decisões pensando na família como um todo, e isso me ajuda a ser mais responsável e consistente nas minhas escolhas profissionais.
-          vr_en: |
-            These roughly ten years of marriage bring a lot of stability to my life. I tend to make decisions thinking about my family as a whole, and that helps me be more responsible and consistent in my professional choices.

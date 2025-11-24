@@ -7,3 +7,8 @@ responses:
             Oi, tudo bem sim, e você?
           vr_en: |
             Hi, I’m good, and you?
+        resp_2:
+          vr_pt: |
+            Oi, hoje não estou nos meus melhores dias, mas vamos lá.
+          vr_en: |
+            Hi, I’m not at my best today, but let’s go.

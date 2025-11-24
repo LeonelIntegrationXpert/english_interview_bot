@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_confirm_role:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Sim, exatamente, é essa posição mesmo. Pelo que vi na descrição, ela se encaixa bem com o que eu venho buscando.
-          vr_en: |
-            Yes, exactly, that’s the one. From what I saw in the job description, it fits well with what I’ve been looking for.

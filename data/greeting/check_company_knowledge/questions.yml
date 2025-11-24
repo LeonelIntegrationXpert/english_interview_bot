@@ -5,20 +5,200 @@ nlu:
       - você chegou a pesquisar um pouco sobre a nossa empresa antes da entrevista?
       - você já conhecia a nossa empresa antes de se inscrever para a vaga?
       - o quanto você já conhece sobre a nossa empresa hoje?
-      - você teve a chance de olhar nosso site ou nossas redes antes da entrevista?
+      - você teve a chance de olhar o nosso site antes da entrevista?
       - você está familiarizado com o que a nossa empresa faz?
-      - você já tinha ouvido falar da gente antes desse processo?
-      - você conseguiu dar uma olhada nos nossos produtos ou serviços?
-      - você conhece um pouco sobre o nosso mercado de atuação?
+      - você já tinha ouvido falar da nossa empresa antes desse processo?
+      - você conseguiu ver um pouco sobre os nossos produtos ou serviços?
+      - você conhece um pouco sobre o mercado em que a nossa empresa atua?
       - você teve tempo de pesquisar sobre a empresa e sobre essa posição?
       - o que você já conhecia da empresa antes de aplicar para a vaga?
+      - você chegou a ler algo sobre a nossa história ou trajetória?
+      - você conseguiu entender um pouco do nosso posicionamento no mercado?
+      - você viu algo sobre os nossos valores ou cultura?
+      - você chegou a pesquisar sobre os setores em que atuamos?
+      - você deu uma olhada nas nossas redes sociais?
+      - você viu alguma notícia recente sobre a empresa?
+      - você pesquisou algo sobre nossos principais serviços?
+      - você sabe mais ou menos o tamanho da nossa empresa?
+      - você chegou a ver alguns dos nossos cases ou projetos?
+      - você pesquisou quem são nossos principais clientes?
+      - você viu algum artigo ou publicação sobre a empresa?
+      - você já tinha alguma referência da nossa área de atuação?
+      - você viu algum vídeo institucional da empresa?
+      - você chegou a pesquisar nossa presença internacional?
+      - você viu algo relacionado à visão e missão da empresa?
+      - você pesquisou sobre o time ou sobre a área da vaga?
+      - você conhece um pouco sobre como a empresa cresceu?
+      - você viu algo sobre nossos diferenciais?
+      - você pesquisou como é trabalhar aqui?
+      - você chegou a ver depoimentos de colaboradores?
+      - você olhou nossa página de carreiras?
+      - você viu informações sobre a estrutura da empresa?
+      - você pesquisou sobre nossos principais produtos?
+      - você viu como nossa empresa se posiciona no setor?
+      - você chegou a pesquisar concorrentes do nosso mercado?
+      - você viu algo no Glassdoor sobre a empresa?
+      - você pesquisou sobre nossas certificações ou premiações?
+      - você viu como funcionam nossas unidades ou escritórios?
+      - você chegou a ler a descrição da vaga com calma?
+      - você pesquisou o tipo de tecnologia que usamos?
+      - você viu algo sobre o time que está recrutando?
+      - você pesquisou a respeito do que oferecemos aos clientes?
+      - você já sabia em que segmento estamos inseridos?
+      - você chegou a pesquisar os desafios do setor?
+      - você viu algum conteúdo institucional da empresa?
+      - você pesquisou sobre o fundador ou liderança?
+      - você viu como nossa empresa se diferencia no mercado?
+      - você chegou a ler nossos comunicados ou blog?
+      - você viu informações sobre nossos serviços principais?
+      - você pesquisou onde atuamos geograficamente?
+      - você viu algo sobre nossos objetivos estratégicos?
+      - você conhece alguma iniciativa ou projeto da empresa?
+      - você chegou a pesquisar sobre nossas tecnologias internas?
+      - você viu dados sobre nosso crescimento?
+      - você pesquisou a reputação da empresa no mercado?
+      - você viu algo sobre nossa estrutura de times?
+      - você pesquisou como a empresa está evoluindo?
+      - você chegou a olhar nossas páginas de produto?
+      - você viu como a empresa interage com clientes?
+      - você pesquisou algum relatório ou material público nosso?
+      - você viu algum podcast ou entrevista sobre a empresa?
+      - você sabia algo sobre nossa cultura antes do processo?
+      - você pesquisou nossa presença no setor digital?
+      - você viu alguma postagem que chamou sua atenção?
+      - você chegou a entender um pouco do que fazemos no dia a dia?
+      - você pesquisou quem são nossos principais parceiros?
+      - você viu nossas iniciativas sociais ou ESG?
+      - você pesquisou algo sobre nossa reputação técnica?
+      - você viu informações sobre nossas soluções principais?
+      - você pesquisou detalhes sobre a área que está contratando?
+      - você tinha alguma impressão prévia da empresa?
+      - você viu comentários de clientes ou avaliações?
+      - você pesquisou como nossa marca é posicionada?
+      - você viu nossos diferenciais competitivos?
+      - você chegou a pesquisar algum relatório anual?
+      - você viu algum vídeo de apresentação corporativa?
+      - você pesquisou como a empresa iniciou?
+      - você viu algo sobre nossa estratégia de inovação?
+      - você pesquisou sobre nossos serviços complementares?
+      - você viu algo que te chamou a atenção sobre a empresa?
+      - você chegou a pesquisar os desafios da área?
+      - você viu algum conteúdo técnico da empresa?
+      - você pesquisou sobre nossa estrutura de departamentos?
+      - você viu algum destaque nosso na mídia?
+      - você pesquisou um pouco da nossa história recente?
+      - você viu algo sobre nossas metas ou roadmap?
+      - você pesquisou como a empresa se posiciona competitivamente?
+      - você viu informações sobre nossas unidades ou polos?
+      - você pesquisou sobre nossas soluções digitais?
+      - você viu algo sobre a empresa no LinkedIn?
+      - você pesquisou como a empresa vem crescendo?
+      - você viu algum benchmark envolvendo a empresa?
+      - você pesquisou nossas áreas de expansão?
+      - você viu algum estudo de caso relacionado à empresa?
+      - você pesquisou sobre nossa atuação global?
+      - você viu como a empresa se organiza internamente?
+      - você pesquisou sobre os times com que pode trabalhar?
+      - você chegou a pesquisar algum material oficial da empresa?
+      - você viu algo sobre como a empresa se posiciona diante da concorrência?
+      - você pesquisou algum conteúdo recente sobre nossos projetos?
+      - did you check any official material from the company?
+      - did you see anything about how the company positions itself against competitors?
+      - did you look into any recent updates related to our projects?
       - did you have the chance to research our company before this interview?
       - were you already familiar with our company before applying for this role?
       - how much do you know about our company today?
-      - have you had the chance to look at our website or social media before the interview?
+      - did you have the chance to look at our website before the interview?
       - are you familiar with what our company does?
-      - had you heard about us before starting this process?
-      - were you able to take a look at our products or services?
-      - do you know a bit about the market we operate in?
-      - did you have time to read about the company and this position?
+      - had you heard about our company before starting this process?
+      - were you able to see some information about our products or services?
+      - do you know a bit about the market in which our company operates?
+      - did you have time to read about the company and about this position?
       - what did you already know about the company before you applied?
+      - did you read anything about our company history?
+      - were you able to understand a bit of our market position?
+      - did you check any information about our culture or values?
+      - did you look into the sectors we operate in?
+      - did you take a look at our social media pages?
+      - did you see any recent news about the company?
+      - did you research anything about our main services?
+      - do you know roughly the size of our company?
+      - did you check any of our cases or projects?
+      - did you research who our key clients are?
+      - did you come across any articles about us?
+      - did you have any reference about our field before?
+      - did you watch any institutional video of the company?
+      - did you check our international presence?
+      - did you look at our mission and vision statements?
+      - did you research the team or the area of the role?
+      - do you know how the company has evolved over time?
+      - did you check any information about our differentiators?
+      - did you look into what it is like to work here?
+      - did you see any employee testimonials?
+      - did you look at our careers page?
+      - did you see any information about our structure?
+      - did you research our main solutions?
+      - did you see how the company positions itself in the market?
+      - did you check competitors in our sector?
+      - did you see anything about the company on Glassdoor?
+      - did you look into our certifications or awards?
+      - did you research our offices or locations?
+      - did you check the job description carefully?
+      - did you look up the technologies the company uses?
+      - did you research anything about the hiring team?
+      - did you see information about what we offer to clients?
+      - did you already know which segment we operate in?
+      - did you research challenges of the market we are in?
+      - did you see any institutional content from us?
+      - did you research anything about our leadership?
+      - did you see how the company differentiates itself?
+      - did you read any of our blog posts?
+      - did you check our main service lines?
+      - did you look into where we operate geographically?
+      - did you see anything about our strategic goals?
+      - did you research any project or initiative of ours?
+      - did you check any of our technology capabilities?
+      - did you find information about our growth?
+      - did you research our market reputation?
+      - did you see anything about how our teams are structured?
+      - did you research how the company is evolving?
+      - did you check our product pages?
+      - did you see how we interact with customers?
+      - did you check any public reports or materials?
+      - did you watch any podcast or interview about the company?
+      - did you know anything about our culture before this?
+      - did you research our digital presence?
+      - did you see any post that caught your attention?
+      - did you understand a bit of what we do day to day?
+      - did you look into our partnerships?
+      - did you research any social or ESG initiative?
+      - did you check anything about our technical reputation?
+      - did you see information about our main offerings?
+      - did you research details about the department hiring?
+      - did you have any prior impression of the company?
+      - did you see any customer reviews or comments?
+      - did you research how our brand is positioned?
+      - did you check our competitive differentiators?
+      - did you see any annual report from us?
+      - did you watch any company presentation video?
+      - did you research how the company started?
+      - did you check anything about our innovation strategy?
+      - did you review our complementary services?
+      - did you see anything that stood out to you?
+      - did you look into challenges of the area?
+      - did you check any technical content from the company?
+      - did you research how our departments are organized?
+      - did you see any media highlights about us?
+      - did you look into our recent company history?
+      - did you see anything about our roadmap or goals?
+      - did you research how we are positioned competitively?
+      - did you check our offices or hubs?
+      - did you look into our digital solutions?
+      - did you see anything about us on LinkedIn?
+      - did you research how the company has been growing?
+      - did you see any benchmark involving the company?
+      - did you research our areas of expansion?
+      - did you look at any case study connected to the company?
+      - did you research our global presence?
+      - did you see how the company organizes its teams?
+      - did you research the teams you might work with?

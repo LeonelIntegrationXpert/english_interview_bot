@@ -7,3 +7,8 @@ responses:
             Sem problemas, tá tudo certo.
           vr_en: |
             No worries, it’s all good.
+        resp_2:
+          vr_pt: |
+            Tudo bem, só é importante a gente alinhar melhor da próxima vez.
+          vr_en: |
+            It’s okay, it’s just important that we align things better next time.

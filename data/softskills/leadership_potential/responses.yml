@@ -1,9 +1,0 @@
-version: '3.1'
-responses:
-  utter_leadership_potential:
-    - custom:
-        resp_1:
-          vr_pt: |
-            Eu já tive algumas oportunidades de atuar como liderança técnica, mesmo sem ter necessariamente o cargo formal. Nessas situações, eu foco em dar clareza de direção, organizar o trabalho em etapas viáveis e, principalmente, criar um ambiente em que o time se sinta à vontade para trazer dúvidas e ideias. Eu me vejo, nos próximos anos, evoluindo cada vez mais nessa linha de liderança técnica e, no futuro, combinando isso com uma atuação estratégica maior. Para mim, liderança é muito menos sobre o título e muito mais sobre responsabilidade, exemplo e capacidade de desenvolver outras pessoas.
-          vr_en: |
-            I have already had some opportunities to act in a technical leadership role, even without having the formal title. In those situations I focus on giving a clear direction, organizing the work into manageable steps, and, above all, creating an environment where the team feels comfortable bringing questions and ideas. I see myself in the next years evolving more and more in this technical leadership path and, in the future, combining that with a broader strategic role. For me, leadership is much less about the title and much more about responsibility, leading by example, and helping other people grow.
