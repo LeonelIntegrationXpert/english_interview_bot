@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_family_support_career:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, o apoio da minha família sempre foi importante. Mesmo não estando tão perto da área técnica, eles valorizam muito estudo, dedicação e constância, e isso me deu bastante base para buscar crescimento profissional.
+          vr_en: |
+            Yes, my family’s support has always been important. Even though they are not directly in the technical area, they really value studying, dedication, and consistency, and that gave me a strong foundation to keep pursuing professional growth.

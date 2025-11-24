@@ -356,3 +356,39 @@ stories:
     steps:
       - intent: children
       - action: utter_children
+  - story: story_family_overview
+    steps:
+      - intent: family_overview
+      - action: utter_family_overview
+  - story: story_parents_who_are
+    steps:
+      - intent: parents_who_are
+      - action: utter_parents_who_are
+  - story: story_parents_brief_context
+    steps:
+      - intent: parents_brief_context
+      - action: utter_parents_brief_context
+  - story: story_siblings_who_are
+    steps:
+      - intent: siblings_who_are
+      - action: utter_siblings_who_are
+  - story: story_siblings_relationship
+    steps:
+      - intent: siblings_relationship
+      - action: utter_siblings_relationship
+  - story: story_family_origin_city
+    steps:
+      - intent: family_origin_city
+      - action: utter_family_origin_city
+  - story: story_family_support_career
+    steps:
+      - intent: family_support_career
+      - action: utter_family_support_career
+  - story: story_current_city_where_live
+    steps:
+      - intent: current_city_where_live
+      - action: utter_current_city_where_live
+  - story: story_address_more_details
+    steps:
+      - intent: address_more_details
+      - action: utter_address_more_details

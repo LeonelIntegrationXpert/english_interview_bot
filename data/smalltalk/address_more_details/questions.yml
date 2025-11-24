@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: address_more_details
+    examples: |
+      - você pode me falar com um pouco mais de detalhe onde você mora?
+      - poderia compartilhar seu endereço completo, só para registro?
+      - em qual bairro você mora atualmente?
+      - você lembra o endereço completo, com bairro e número?
+      - só para fins de cadastro, qual é o seu endereço?
+      - poderia me dizer seu endereço com bairro, número, cidade e estado?
+      - em qual bairro de Pelotas você está morando hoje?
+      - seu endereço atual é em qual bairro e qual número?
+      - você poderia descrever seu endereço atual para eu anotar?
+      - para registro interno, qual é o seu endereço residencial?
+      - você pode confirmar seu endereço completo?
+      - qual é o endereço onde você vive hoje?
+      - qual é o bairro da sua residência atual?
+      - pode me passar seu endereço com mais detalhes?
+      - onde exatamente fica sua casa?
+      - qual é o número da sua residência?
+      - seu endereço inclui qual bairro mesmo?
+      - você mora em qual zona da cidade?
+      - qual é o endereço onde você está baseado hoje?
+      - você pode confirmar o bairro onde vive?
+      - só para validar, qual é o número da sua casa?
+      - seu endereço é em bairro central ou mais afastado?
+      - sua casa fica em qual parte do bairro?
+      - qual é o nome completo do seu bairro hoje?
+      - você mora mais perto de qual avenida?
+      - sua rua fica em que região da cidade?
+      - você mora em prédio ou casa? Qual o endereço?
+      - seu endereço tem complemento?
+      - só para checagem, qual é sua rua e número?
+      - onde fica sua residência dentro do bairro?
+      - qual é a referência próxima do seu endereço?
+      - seu endereço atual mudou recentemente?
+      - você pode compartilhar rua e bairro?
+      - seu endereço é próximo do centro?
+      - qual é o nome da rua onde mora hoje?
+      - seu endereço tem fácil acesso pela cidade?
+      - onde exatamente em Pelotas você reside?
+      - seu bairro é próximo de qual ponto conhecido?
+      - você mora em qual setor do bairro?
+      - poderia confirmar rua, número e bairro?
+      - seu endereço atual fica mais ao norte ou ao sul da cidade?
+      - sua localização é em qual parte de Pelotas?
+      - você pode me passar rua e complemento?
+      - fica em qual quadra do bairro?
+      - você lembra o CEP da sua residência?
+      - sua casa fica perto de qual rua principal?
+      - seu endereço é perto de mercado ou escola?
+      - seu bairro é considerado central?
+      - como você descreve a localização da sua casa?
+      - qual a região exata do bairro onde mora?
+      - você mora em rua movimentada ou tranquila?
+      - qual é o ponto de referência da sua rua?
+      - pode me dizer o nome da via onde mora?
+      - sua casa fica perto de quais pontos conhecidos?
+      - seu endereço é de fácil acesso?
+      - qual a localização aproximada da sua residência?
+      - você mora perto de praças ou avenidas?
+      - seu bairro tem qual característica principal?
+      - sua residência é perto de algum marco conhecido?
+      - você fica em qual lado da cidade?
+      - seu endereço atual é definitivo?
+      - você poderia compartilhar o endereço da sua casa?
+      - onde exatamente se localiza sua residência?
+      - poderia confirmar a rua exata onde mora?
+      - seu endereço é próximo de transporte público?
+      - você está em qual microárea do bairro?
+      - sua rua faz parte de qual loteamento?
+      - o endereço informado inclui apartamento?
+      - sua residência fica em qual direção da cidade?
+      - o endereço tem bloco ou unidade?
+      - poderia citar novamente rua e bairro?
+      - sua rua é mais acima ou mais abaixo da avenida principal?
+      - você sabe o número exato da residência?
+      - seu endereço fica em qual altitude da rua?
+      - sua casa é de esquina ou meio de quadra?
+      - sua rua cruza com qual outra?
+      - você poderia repetir a localização da sua casa?
+      - seu endereço é recente ou antigo?
+      - sua moradia fica em qual trecho do bairro?
+      - seu endereço é próximo à Vila Francesa?
+      - você se lembra do nome do loteamento?
+      - você mora em qual setor da Vila Francesa?
+      - poderia me dizer o endereço aproximado?
+      - sua rua é pavimentada?
+      - seu endereço é residencial ou misto?
+      - você vive em qual parte da Vila Francesa?
+      - qual é a rua exata da sua moradia?
+      - sua casa fica em qual zona da Vila Francesa?
+      - o número da sua residência é qual mesmo?
+      - sua rua tem qual nome completo?
+      - sua casa fica perto do número 1300?
+      - o endereço é próximo da avenida principal?
+      - seu bairro tem qual delimitação?
+      - sua casa fica mais perto do centro ou distante?
+      - pode confirmar rua e casa?
+      - sua localização é fixa em Vila Francesa?
+      - em qual rua da Vila Francesa você está?
+      - seu endereço fica mais perto de qual ponto conhecido da cidade?
+      - você poderia confirmar novamente o bairro e o número da sua residência?
+      - sua casa fica localizada em qual referência principal da região?
+      - is your home close to any well-known spot in the city?
+      - could you confirm your neighborhood and house number once again?
+      - which main reference point is your home near?
+      - is your residence located close to any major road?
+      - could you remind me of the exact location of your home?
+      - is your address near any landmark in your area?
+      - could you tell me in a bit more detail where you live?
+      - could you share your full address, just for our records?
+      - which neighborhood do you live in currently?
+      - do you remember your full address, including neighborhood and number?
+      - just for registration purposes, what is your address?
+      - could you tell me your address with neighborhood, number, city, and state?
+      - in which neighborhood in Pelotas are you living today?
+      - what is your current residential address, including the number?
+      - could you describe your current address so I can write it down?
+      - for internal records, what is your home address?
+      - could you confirm your complete address?
+      - what is the address where you live today?
+      - which neighborhood is your residence in?
+      - could you give me your address with more detail?
+      - where exactly is your home located?
+      - what is the number of your residence?
+      - which neighborhood are you based in?
+      - is your address central or farther from downtown?
+      - which area of the city do you live in?
+      - could you confirm the neighborhood you live in?
+      - just to verify, what is your house number?
+      - is your home located in a central neighborhood?
+      - which part of the neighborhood do you live in?
+      - what’s the full name of your neighborhood?
+      - is your street close to any main avenue?
+      - which zone of the city do you live in today?
+      - do you live in a house or an apartment? What’s the address?
+      - does your address have any complement?
+      - could you confirm your street and number?
+      - which reference point is closest to your home?
+      - is your address near the city center?
+      - which street do you live on?
+      - is your address easily accessible?
+      - where exactly in Pelotas do you reside?
+      - is your neighborhood near any known location?
+      - which sector of the neighborhood do you live in?
+      - can you confirm your street, number, and neighborhood?
+      - is your home located north or south of the city?
+      - what part of Pelotas do you currently live in?
+      - could you give me your street and complement?
+      - which block of the neighborhood are you on?
+      - do you remember your home ZIP code?
+      - is your house close to any main street?
+      - is your address near a market or school?
+      - is your neighborhood considered central?
+      - how would you describe the location of your home?
+      - which exact region of the neighborhood do you live in?
+      - is your street busy or quiet?
+      - what's a good reference point near your home?
+      - could you tell me the name of the road you live on?
+      - is your home near any landmarks?
+      - is your address easy to find?
+      - what's the approximate location of your residence?
+      - is your home close to plazas or avenues?
+      - what’s the main characteristic of your neighborhood?
+      - is your house near any well-known place?
+      - which side of the city are you on?
+      - is your current address permanent?
+      - can you share the address of your residence?
+      - where exactly is your home located today?
+      - could you confirm the exact street you live on?
+      - is your address near public transportation?
+      - which micro-area of the neighborhood do you live in?
+      - which subdivision is your street part of?
+      - does your address include an apartment number?
+      - is your residence in the north or south part of the city?
+      - does the address have a block or unit?
+      - could you repeat your street and neighborhood?
+      - is your street above or below the main avenue?
+      - do you know the exact house number?
+      - is your home on a corner or mid-block?
+      - does your street intersect with another known street?
+      - could you repeat the location of your home?
+      - is your address recent or long-term?
+      - which stretch of the neighborhood is your home in?
+      - is your address near Vila Francesa?
+      - do you know the name of the residential area?
+      - which sector of Vila Francesa do you live in?
+      - could you give me the approximate address?
+      - is your street paved?
+      - is your address in a residential or mixed zone?
+      - which part of Vila Francesa do you reside in?
+      - what is the exact street of your home?
+      - which zone of Vila Francesa is your house in?
+      - what is the exact number of your residence?
+      - what is the full name of your street?
+      - is your house near number 1300?
+      - is your address close to the main avenue?
+      - what are the boundaries of your neighborhood?
+      - is your residence closer to downtown or farther?
+      - could you confirm your street and house number?
+      - is your location fixed in Vila Francesa?
+      - which street in Vila Francesa do you live on?
+      - where exactly is your residence located?

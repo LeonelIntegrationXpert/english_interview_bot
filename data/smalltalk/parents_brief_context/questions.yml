@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: parents_brief_context
+    examples: |
+      - você pode falar um pouco, bem brevemente, sobre seus pais?
+      - como você descreveria seus pais em poucas palavras?
+      - se você tivesse que resumir seus pais, como você falaria deles?
+      - qual é o tipo de ambiente que seus pais ajudaram a construir para você?
+      - o que você considera mais marcante na forma como seus pais te criaram?
+      - olhando para a sua história, qual o papel dos seus pais na sua formação?
+      - como a forma de ser dos seus pais influenciou quem você é hoje?
+      - que tipo de valores você sente que vieram diretamente dos seus pais?
+      - em poucas frases, como você falaria da sua família de origem?
+      - tem algo nos seus pais que você admira e leva para a sua vida profissional?
+      - como você resumiria a essência dos seus pais?
+      - o que mais define seus pais na sua visão?
+      - o que seus pais sempre fizeram que te marcou?
+      - qual era o clima geral na casa onde você cresceu?
+      - seus pais eram mais rígidos ou mais flexíveis?
+      - como seus pais lidavam com estudo e disciplina?
+      - qual valor mais forte você herdou dos seus pais?
+      - seus pais eram mais tranquilos ou mais exigentes?
+      - o que seus pais sempre repetiam para você?
+      - como seus pais mostravam apoio para você?
+      - como seus pais influenciaram seu caráter?
+      - você diria que cresceu em um ambiente acolhedor?
+      - seus pais eram mais práticos ou emocionais?
+      - qual característica dos seus pais você mais vê em você?
+      - seus pais sempre incentivaram seus estudos?
+      - como seus pais reagiam quando você tinha desafios?
+      - qual era o ritmo da casa quando você era criança?
+      - como você descreve a personalidade dos seus pais?
+      - seus pais eram mais comunicativos ou reservados?
+      - o que seus pais consideravam importante na vida?
+      - seus pais influenciaram seu senso de responsabilidade?
+      - há algo que seus pais faziam que você repete hoje?
+      - como seus pais tratavam trabalho e esforço?
+      - seus pais valorizavam rotina?
+      - seus pais valorizavam respeito?
+      - seus pais valorizavam honestidade?
+      - quais valores dos seus pais você leva para frente?
+      - seus pais te ensinaram a importância do estudo?
+      - como você aprendeu sobre disciplina em casa?
+      - seus pais falavam sobre futuro e carreira com você?
+      - você cresceu em um ambiente organizado?
+      - você cresceu em um ambiente simples?
+      - você cresceu em um ambiente estável?
+      - seus pais eram mais tradicionais?
+      - seus pais eram mais modernos?
+      - como era a dinâmica entre seus pais?
+      - como você se sentia crescendo com seus pais?
+      - o que mais moldou sua personalidade na infância?
+      - seus pais eram presentes no dia a dia?
+      - você tinha muito diálogo com seus pais?
+      - o que seus pais faziam no cotidiano que influenciou você?
+      - como você descreve o estilo de educação dos seus pais?
+      - qual era o tom geral das conversas em casa?
+      - seus pais tinham expectativas altas?
+      - seus pais tinham expectativas equilibradas?
+      - seus pais te incentivavam a pensar por conta própria?
+      - seus pais valorizavam humildade?
+      - seus pais valorizavam esforço?
+      - seus pais valorizavam respeito ao próximo?
+      - o que você sente que aprendeu diretamente com seus pais?
+      - seus pais tinham hobbies que influenciaram você?
+      - seus pais eram mais calmos ou agitados?
+      - seus pais eram mais analíticos ou intuitivos?
+      - como era o comportamento dos seus pais no dia a dia?
+      - seus pais te davam liberdade?
+      - seus pais te davam estrutura?
+      - seus pais te incentivavam a buscar conhecimento?
+      - seus pais comemoravam suas conquistas?
+      - seus pais lidavam como com erros?
+      - que tipo de exemplo seus pais deixaram para você?
+      - como seus pais tratavam responsabilidade?
+      - como seus pais tratavam disciplina?
+      - seus pais tinham algum lema marcante?
+      - o que resumiria o espírito da sua família de origem?
+      - qual era a energia geral do lar onde cresceu?
+      - você diria que sua casa era organizada?
+      - você diria que sua casa era acolhedora?
+      - você diria que sua casa era tranquila?
+      - você diria que sua casa era movimentada?
+      - seus pais tinham prioridades bem definidas?
+      - seus pais eram muito trabalhadores?
+      - seus pais tinham uma relação forte?
+      - como você recorda seus pais no dia a dia?
+      - seus pais moldaram sua ética profissional?
+      - o que mais se destaca quando você lembra deles?
+      - seus pais sempre buscaram ensinar algo?
+      - seus pais tinham uma visão prática da vida?
+      - seus pais tinham uma visão emocional da vida?
+      - você aprendeu com seus pais a importância da constância?
+      - você aprendeu com seus pais a importância da honestidade?
+      - você aprendeu com seus pais a importância da dedicação?
+      - como seus pais lidavam com dificuldades financeiras/emocionais?
+      - seus pais passaram segurança para você?
+      - seus pais construíram uma base sólida pra você?
+      - como você encaixa seus pais na sua história pessoal?
+      - como você explicaria o impacto deles na sua trajetória?
+      - o que sua família representava para você quando criança?
+      - como você apresentaria o contexto dos seus pais em poucas linhas?
+      - qual foi o principal ensinamento que seus pais te passaram?
+      - olhando para trás, o que mais representa seus pais para você?
+      - what is the main lesson your parents taught you?
+      - looking back, what do your parents represent the most to you?
+      - what do you think is the strongest influence your parents had on you?
+      - in your view, what best summarizes who your parents are?
+      - could you briefly talk about your parents and how they influenced you?
+      - how would you describe your parents in a few words?
+      - if you had to summarize your parents, how would you talk about them?
+      - what kind of environment did your parents help create for you?
+      - what do you consider most important about the way your parents raised you?
+      - looking back, what role did your parents play in shaping who you are today?
+      - how did your parents’ way of being influence the person you are now?
+      - what kind of values do you feel came directly from your parents?
+      - in a few sentences, how would you describe your family background?
+      - is there anything about your parents that you admire and bring into your professional life?
+      - how would you summarize your parents’ essence?
+      - what defines your parents the most in your view?
+      - what did your parents often do that stuck with you?
+      - what was the general atmosphere at home growing up?
+      - were your parents more strict or flexible?
+      - how did your parents handle study and discipline?
+      - which value do you think you inherited most strongly?
+      - were your parents more calm or demanding?
+      - did your parents have any guiding phrases?
+      - how did your parents show support for you?
+      - how did your parents shape your character?
+      - would you say you grew up in a warm home?
+      - were your parents more practical or emotional?
+      - what personal trait do you think came from them?
+      - did your parents encourage your studies?
+      - how did your parents react when you struggled?
+      - how would you describe the pace of your home life?
+      - were your parents communicative or reserved?
+      - what did your parents see as important in life?
+      - did your parents shape your sense of responsibility?
+      - is there something you do today that came from them?
+      - how did your parents treat work and effort?
+      - did your parents value routine?
+      - did your parents value honesty?
+      - did your parents value respect?
+      - which values do you carry from your parents?
+      - did your parents teach you the importance of studying?
+      - how did you learn discipline at home?
+      - did your parents talk about future and career?
+      - did you grow up in an organized home?
+      - did you grow up in a simple home?
+      - did you grow up in a stable home?
+      - were your parents more traditional?
+      - were your parents more modern?
+      - how was the dynamic between your parents?
+      - how did you feel growing up with them?
+      - what shaped your personality in childhood?
+      - were your parents present daily?
+      - did you have open conversations with your parents?
+      - what everyday habits of your parents influenced you?
+      - how would you describe their parenting style?
+      - what was the tone of daily conversations at home?
+      - did your parents have high expectations?
+      - did they have balanced expectations?
+      - did your parents encourage independence?
+      - did your parents value humility?
+      - did your parents value dedication?
+      - did your parents value kindness?
+      - what did you learn directly from your parents?
+      - did your parents have hobbies that influenced you?
+      - were your parents more calm or energetic?
+      - were they more analytical or intuitive?
+      - what was their everyday behavior like?
+      - did your parents give you freedom?
+      - did your parents provide structure?
+      - did your parents encourage learning?
+      - did they celebrate your achievements?
+      - how did they handle your mistakes?
+      - what example did your parents set for you?
+      - how did they treat responsibility?
+      - how did they treat discipline?
+      - did they have any memorable sayings?
+      - what best describes your family atmosphere?
+      - was your home calm?
+      - was your home lively?
+      - was your home organized?
+      - was your home supportive?
+      - did your parents have clear priorities?
+      - were your parents very hardworking?
+      - did your parents have a strong bond?
+      - how do you remember them in everyday life?
+      - did your parents shape your work ethic?
+      - what stands out most when you think of them?
+      - did your parents teach you life principles?
+      - were your parents practical about life?
+      - were they emotional about life?
+      - did you learn consistency from your parents?
+      - did you learn honesty from your parents?
+      - did you learn dedication from your parents?
+      - how did they handle challenges at home?
+      - did your parents provide stability?
+      - did they create a solid base for you?
+      - how do you fit your parents' story into yours?
+      - how would you explain their impact on your journey?
+      - what did your family represent to you growing up?
+      - how would you describe your parents’ context in a short way?

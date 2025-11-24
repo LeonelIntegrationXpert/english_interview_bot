@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_siblings_who_are:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim, eu tenho dois irmãos. O nome do meu irmão é Roberto Dorneles Porto e o nome da minha irmã é Suelen Dorneles Porto.
+          vr_en: |
+            Yes, I have two siblings. My brother’s name is Roberto Dorneles Porto and my sister’s name is Suelen Dorneles Porto.

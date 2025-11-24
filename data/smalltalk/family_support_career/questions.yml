@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: family_support_career
+    examples: |
+      - sua família te apoiou nas suas escolhas de carreira?
+      - como seus pais reagiram quando você escolheu essa área?
+      - seus pais entenderam sua escolha de carreira de primeira?
+      - sua família incentivou você a seguir esse caminho?
+      - você sentiu apoio quando decidiu mudar de área?
+      - seus pais sempre valorizaram estudo e carreira?
+      - sua família entendia suas decisões profissionais?
+      - seus irmãos apoiaram suas escolhas de trabalho?
+      - sua família te motivou a estudar mais?
+      - o incentivo da sua família fez diferença na sua carreira?
+      - seus pais achavam importante você ter uma profissão técnica?
+      - sua família acreditava no seu potencial profissional?
+      - alguém da sua família influenciou sua área de atuação?
+      - seus pais ficaram tranquilos com sua escolha profissional?
+      - a opinião da sua família pesou na sua decisão de carreira?
+      - você teve liberdade da família para escolher sua profissão?
+      - seus pais sempre te incentivaram a estudar?
+      - sua família ficou orgulhosa quando você começou na área?
+      - sua família te apoia até hoje profissionalmente?
+      - sua família te dá suporte emocional para sua carreira?
+      - seus pais conversavam com você sobre futuro profissional?
+      - sua família te motivava a buscar estabilidade?
+      - seus pais te apoiavam mesmo sem entender tecnologia?
+      - teve alguém da família que discordou da sua carreira?
+      - seus familiares entendem mais ou menos o que você faz?
+      - você sente que sua família torce pelo seu progresso?
+      - seu pai influenciou sua visão sobre trabalho?
+      - sua mãe incentivou você a continuar estudando?
+      - seus irmãos acham legal sua área de atuação?
+      - sua família entende a importância das certificações?
+      - sua família te ajudou durante fases de estudo intenso?
+      - quando você enfrentou desafios, sua família ajudou?
+      - sua família sempre respeitou suas escolhas profissionais?
+      - seus pais apoiaram você trabalhar com tecnologia?
+      - sua família vibra com suas conquistas profissionais?
+      - você sente orgulho da base que sua família te deu?
+      - sua família elogiou seu crescimento na carreira?
+      - seus pais comentam sobre seu trabalho com outras pessoas?
+      - seus irmãos te incentivam nas suas metas?
+      - sua família reconhece seu esforço diário?
+      - sua família ajudou na sua disciplina de estudos?
+      - alguém da sua família te apresentou ao mundo da tecnologia?
+      - sua família acompanha suas certificações?
+      - seus pais entendem sua rotina pesada de trabalho?
+      - sua família compreende seus horários de estudo?
+      - sua família respeita sua dedicação profissional?
+      - sua família acha sua carreira promissora?
+      - seus pais sempre defenderam você estudar?
+      - seus irmãos têm orgulho da sua trajetória?
+      - sua família comenta que você é dedicado?
+      - sua família entende quando você está focado em projetos?
+      - seus pais ficaram felizes quando você cresceu na carreira?
+      - sua família apoiou você mudar de empresa?
+      - sua família incentiva você a continuar evoluindo?
+      - você fala sobre suas metas com sua família?
+      - sua família acha sua rotina técnica difícil?
+      - seus pais perguntam sobre seus projetos?
+      - alguém da sua família tem curiosidade sobre tecnologia?
+      - sua família entende sua vontade de estudar sempre?
+      - seus pais acham bonito seu compromisso profissional?
+      - seus irmãos conversam com você sobre carreira?
+      - sua família te dá tranquilidade para trabalhar?
+      - sua família valorizou cedo sua responsabilidade?
+      - seus pais te ensinaram a importância de esforço?
+      - sua família nota suas conquistas na carreira?
+      - você compartilha vitórias profissionais com sua família?
+      - sua família vibra com seus resultados?
+      - seus pais gostam de saber sobre sua evolução?
+      - sua família te apoiaria em uma mudança de área?
+      - seus pais influenciaram sua ética de trabalho?
+      - sua família deu base emocional para sua carreira?
+      - sua família contribuiu para sua resiliência profissional?
+      - você sente que sua família confia nas suas escolhas?
+      - sua família acredita no seu futuro profissional?
+      - seus pais incentivaram você a ser independente?
+      - alguém da família te inspirou a buscar mais?
+      - sua família celebra suas certificações?
+      - seus irmãos comentam sobre seu esforço?
+      - sua família te apoia mesmo quando está cansado?
+      - sua família entende seus desafios técnicos?
+      - sua família te deu força em momentos difíceis?
+      - seus pais sempre reforçaram a importância de constância?
+      - sua família te apoiou quando você iniciou seus estudos?
+      - sua família acompanha sua trajetória com orgulho?
+      - sua família acredita no seu potencial?
+      - alguém da sua família te ajudou a manter foco?
+      - seus pais criaram um ambiente que valorizava estudo?
+      - sua família demonstra orgulho da sua trajetória?
+      - você sente que sua família admira sua evolução?
+      - sua família te motiva a continuar crescendo?
+      - seus pais comentam que você é dedicado?
+      - sua família compreende seus compromissos profissionais?
+      - sua família tem papel na sua motivação diária?
+      - seus pais reforçaram disciplina que você usa hoje?
+      - sua família te ensinou valores importantes para sua carreira?
+      - sua família influencia seu jeito de trabalhar?
+      - sua família acompanha suas vitórias com carinho?
+      - sua família sempre reforçou a importância de nunca desistir?
+      - alguém da sua família te motivou a continuar mesmo nos momentos difíceis?
+      - sua família acredita que você ainda vai crescer muito profissionalmente?
+      - has your family encouraged you to keep going even in hard moments?
+      - does your family believe you still have a lot of room to grow professionally?
+      - did anyone in your family teach you resilience that helps you today?
+      - does your family admire your commitment to learning?
+      - does your family see your professional future as promising?
+      - has anyone in your family pushed you to aim higher in your career?
+      - has your family supported your career choices?
+      - how did your parents react when you chose this field?
+      - did your parents understand your career choice right away?
+      - did your family encourage you to follow this path?
+      - did you feel supported when you changed areas?
+      - have your parents always valued education and career?
+      - did your family understand your professional decisions?
+      - did your siblings support your work choices?
+      - did your family push you to study more?
+      - did your family’s support make a difference in your career?
+      - did your parents think a technical job was a good idea?
+      - did your family believe in your professional potential?
+      - did someone in your family influence your area of work?
+      - were your parents calm about your career decision?
+      - did your family’s opinion affect your professional path?
+      - did you have freedom to choose your profession?
+      - did your parents always promote studying?
+      - was your family proud when you started in the field?
+      - does your family support you professionally today?
+      - does your family give you emotional support for your career?
+      - did your parents talk to you about your professional future?
+      - did your family motivate you to pursue stability?
+      - did your parents support you even without understanding tech?
+      - did anyone in your family disagree with your career choice?
+      - do your relatives understand what you do at work?
+      - do you feel your family cheers for your progress?
+      - did your father impact your view of work?
+      - did your mother encourage your study habits?
+      - do your siblings like your line of work?
+      - does your family understand the importance of certifications?
+      - did your family help you during intense study periods?
+      - when facing challenges, did your family support you?
+      - has your family always respected your career choices?
+      - did your parents support you working in tech?
+      - does your family celebrate your achievements?
+      - are you proud of the foundation your family gave you?
+      - does your family praise your career growth?
+      - do your parents talk about your job to others?
+      - do your siblings encourage your goals?
+      - does your family recognize your daily effort?
+      - did your family help you build study discipline?
+      - did anyone in your family introduce you to technology?
+      - does your family follow your certification progress?
+      - do your parents understand your heavy workload?
+      - does your family understand your study schedule?
+      - does your family respect your professional dedication?
+      - does your family see your job as promising?
+      - did your parents always defend your education?
+      - are your siblings proud of your path?
+      - does your family say you are dedicated?
+      - does your family understand your project focus?
+      - were your parents happy with your career growth?
+      - did your family support you switching jobs?
+      - does your family encourage you to keep evolving?
+      - do you talk to your family about your goals?
+      - does your family think your routine is hard?
+      - do your parents ask about your projects?
+      - is anyone in your family curious about tech?
+      - does your family understand your desire to keep learning?
+      - do your parents admire your commitment?
+      - do your siblings talk with you about work?
+      - does your family give you space to work well?
+      - did your family value responsibility early on?
+      - did your parents teach you effort as a value?
+      - does your family notice your achievements?
+      - do you share your professional wins with your family?
+      - does your family celebrate your results?
+      - do your parents like hearing about your evolution?
+      - would your family support a future career shift?
+      - did your parents influence your work ethic?
+      - did your family provide emotional stability for your career?
+      - did your family help build your resilience?
+      - does your family trust your choices?
+      - does your family believe in your professional future?
+      - did someone in your family inspire you?
+      - does your family celebrate your certifications?
+      - do your siblings notice your effort?
+      - does your family support you when you’re tired?
+      - does your family understand your technical challenges?
+      - did your family help you through hard times?
+      - did your parents reinforce consistency as a value?
+      - did your family support you early in your studies?
+      - does your family follow your journey proudly?
+      - does your family believe in your potential?
+      - did someone in your family help you keep focus?
+      - did your parents create an environment that valued learning?
+      - does your family admire your professional evolution?
+      - does your family motivate you to keep growing?
+      - do your parents describe you as dedicated?
+      - does your family understand your commitments?
+      - does your family play a role in your daily motivation?
+      - did your parents teach values you use at work?
+      - does your family influence your way of working?
+      - does your family celebrate your victories with care?

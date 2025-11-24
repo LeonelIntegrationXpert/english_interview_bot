@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: siblings_relationship
+    examples: |
+      - como é a sua relação com seus irmãos hoje?
+      - você tem bastante contato com seus irmãos?
+      - você diria que é próximo dos seus irmãos?
+      - como foi crescer com seus irmãos?
+      - seus irmãos ainda moram perto de você ou em outra cidade?
+      - você costuma falar com seus irmãos com frequência?
+      - sua relação com seus irmãos influenciou de alguma forma o seu jeito de trabalhar em equipe?
+      - você sente que aprendeu algo importante convivendo com seus irmãos?
+      - quando pensa nos seus irmãos, o que mais vem à sua cabeça?
+      - você se considera um irmão mais protetor, mais tranquilo ou mais desligado?
+      - vocês se falam mais por mensagem ou por ligação?
+      - vocês se encontram com frequência?
+      - a relação de vocês melhorou depois de adultos?
+      - vocês eram mais próximos na infância ou agora?
+      - vocês dividiam muitas coisas quando pequenos?
+      - você sente saudade do tempo em que moravam juntos?
+      - vocês discutiam muito quando crianças?
+      - hoje vocês têm uma convivência mais leve?
+      - vocês conseguem conversar sobre qualquer assunto?
+      - vocês têm personalidades parecidas?
+      - você sente que seus irmãos te entendem bem?
+      - vocês se apoiam em momentos difíceis?
+      - vocês trocam conselhos no dia a dia?
+      - vocês conseguem manter contato mesmo com a correria?
+      - vocês têm uma relação mais calma ou mais intensa?
+      - vocês já passaram longos períodos sem se ver?
+      - vocês se preocupam muito uns com os outros?
+      - vocês compartilham muitas memórias da infância?
+      - vocês preferem conversas rápidas ou longas?
+      - vocês têm rituais de família juntos?
+      - vocês comemoram datas especiais juntos?
+      - você costuma visitar seus irmãos?
+      - seus irmãos costumam te visitar?
+      - vocês se conectam mais pessoalmente ou online?
+      - vocês têm conversas descontraídas?
+      - vocês têm brincadeiras internas de infância?
+      - vocês lembram de histórias antigas juntos?
+      - você confia nos seus irmãos?
+      - seus irmãos confiam em você?
+      - vocês resolvem conflitos facilmente?
+      - vocês têm estilos de vida parecidos?
+      - vocês têm estilos de vida bem diferentes?
+      - vocês mantêm contato mesmo morando longe?
+      - seus irmãos demonstram orgulho de você?
+      - sua relação com seus irmãos te ajudou a amadurecer?
+      - vocês aprenderam a dividir espaço e rotina?
+      - vocês aprenderam a dividir responsabilidades?
+      - você já ajudou muito seus irmãos?
+      - seus irmãos já te ajudaram muito?
+      - vocês se tornaram mais unidos com o tempo?
+      - vocês têm percepções parecidas sobre a família?
+      - vocês têm caminhos profissionais muito diferentes?
+      - vocês têm valores parecidos?
+      - vocês aprenderam a respeitar diferenças?
+      - você considera seus irmãos como referência?
+      - seus irmãos te inspiram em algum aspecto?
+      - você acha que inspira seus irmãos?
+      - vocês falam com naturalidade sobre sonhos e planos?
+      - vocês cresceram em harmonia?
+      - vocês tiveram fases difíceis na convivência?
+      - vocês se divertiam muito juntos?
+      - vocês se apoiam nas decisões importantes?
+      - seu relacionamento com irmãos mudou muito ao longo da vida?
+      - você gostaria de estar mais perto deles fisicamente?
+      - você sente que sua família ficou mais unida com o tempo?
+      - vocês encontram equilíbrio mesmo com rotinas diferentes?
+      - você se sente confortável sendo você mesmo com seus irmãos?
+      - seus irmãos te motivam de alguma forma?
+      - vocês passam por fases de maior distância?
+      - vocês conseguem retomar a conexão rapidamente?
+      - vocês têm laços fortes mesmo com pouco tempo juntos?
+      - você guarda boas lembranças com seus irmãos?
+      - vocês falam sobre o futuro?
+      - vocês têm planos de fazer algo juntos?
+      - vocês têm uma relação tranquila?
+      - vocês têm uma relação cheia de energia?
+      - vocês têm espontaneidade ao conversar?
+      - vocês conversam sobre metas e objetivos?
+      - vocês têm uma conexão emocional forte?
+      - você percebe evolução na relação com o tempo?
+      - os ensinamentos entre vocês continuam até hoje?
+      - vocês acompanham a vida um do outro?
+      - vocês celebram pequenas conquistas juntos?
+      - vocês respeitam muito o espaço um do outro?
+      - vocês conseguem ser sinceros nas conversas?
+      - vocês se apoiam em mudanças importantes?
+      - vocês mantêm a conexão mesmo em silêncio?
+      - vocês valorizam a união da família?
+      - vocês compartilham aprendizado da vida adulta?
+      - vocês têm uma dinâmica leve e natural?
+      - você sente que evoluiu muito na relação com seus irmãos ao longo dos anos?
+      - vocês têm uma relação mais pessoal ou mais prática?
+      - vocês se apoiam mesmo quando cada um está em um momento diferente da vida?
+      - vocês conversam bastante quando algo importante acontece?
+      - vocês conseguem manter a união mesmo com rotinas diferentes?
+      - vocês se sentem confortáveis falando sobre qualquer assunto?
+      - vocês fortalecem muito o vínculo em datas especiais?
+      - vocês compartilham decisões importantes da vida?
+      - vocês têm lembranças marcantes da infância juntos?
+      - vocês conseguem retomar o contato de forma natural mesmo depois de dias corridos?
+      - do you feel your relationship with your siblings has evolved over the years?
+      - do you support each other even when life phases are different?
+      - do you talk more about personal topics or practical ones?
+      - do you stay united even with very different routines?
+      - do you feel comfortable talking to your siblings about anything?
+      - do you naturally reconnect after busy days?
+      - do you keep strong bonds even with distance?
+      - do you share important life decisions with them?
+      - do you keep meaningful childhood memories together?
+      - what is your relationship with your siblings like today?
+      - would you say you are close to your siblings?
+      - do you keep in touch with your brother and sister often?
+      - how was it for you growing up with your siblings?
+      - do your siblings live near you or in another city?
+      - do you talk to your siblings frequently?
+      - do you feel that your relationship with your siblings influenced how you work in teams?
+      - is there anything important you learned from living with your siblings?
+      - when you think about your siblings, what comes to your mind first?
+      - would you say you are a more protective, relaxed, or distant type of sibling?
+      - do you usually talk more by message or by call?
+      - do you meet your siblings often?
+      - did your relationship improve as adults?
+      - were you closer in childhood or now?
+      - did you share many things growing up?
+      - do you miss the time when you lived together?
+      - did you argue a lot as kids?
+      - is your relationship more peaceful today?
+      - can you talk about anything with your siblings?
+      - do you have similar personalities?
+      - do you feel your siblings understand you well?
+      - do you support each other in difficult moments?
+      - do you exchange advice regularly?
+      - do you have hobbies in common?
+      - are you able to stay in touch despite busy routines?
+      - is your relationship calm or more intense?
+      - have you gone long periods without seeing each other?
+      - do you worry a lot about each other?
+      - do you share many childhood memories?
+      - do you prefer short or long conversations with them?
+      - do you have family rituals together?
+      - do you celebrate special dates together?
+      - do you visit your siblings?
+      - do your siblings visit you?
+      - do you connect more in person or online?
+      - do you have casual, relaxed conversations?
+      - do you talk about personal life with them?
+      - do you have inside jokes from childhood?
+      - do you often recall old stories together?
+      - do you trust your siblings?
+      - do your siblings trust you?
+      - do you solve conflicts easily?
+      - do you have similar lifestyles?
+      - do you have very different lifestyles?
+      - do you stay connected even living far apart?
+      - are you proud of your siblings?
+      - are your siblings proud of you?
+      - did they help you mature?
+      - did you learn to share space and routine with them?
+      - did you learn to share responsibilities?
+      - have you helped your siblings in important moments?
+      - have your siblings helped you a lot too?
+      - did you become closer over time?
+      - do you have similar views about family?
+      - do you have very different professional paths?
+      - do you share similar values?
+      - did you learn to respect differences?
+      - do you see your siblings as a reference?
+      - do your siblings inspire you?
+      - do you feel you inspire your siblings?
+      - do you talk naturally about dreams and plans?
+      - did you grow up in harmony with them?
+      - did you have tough phases together?
+      - did you have lots of fun growing up?
+      - do you support each other in big decisions?
+      - did your sibling relationship change a lot over the years?
+      - would you like to live closer to them?
+      - do you feel your family bond has grown over time?
+      - do you find balance even with different routines?
+      - do you feel comfortable being yourself around them?
+      - do your siblings motivate you somehow?
+      - do you go through phases of more distance?
+      - do you reconnect easily afterwards?
+      - do you have a strong bond even with little time together?
+      - do you keep good memories with them?
+      - do you talk about the future?
+      - do you have plans to do something together?
+      - do you have a calm relationship?
+      - do you have a more energetic relationship?
+      - do you have spontaneous conversations?
+      - do you talk about goals and ambitions?
+      - do you share adult-life learnings?
+      - do you follow each other’s lives closely?
+      - do you celebrate achievements together?
+      - do you respect each other’s space?
+      - can you be honest with each other?
+      - do you support each other through changes?
+      - do you keep the connection even in silence?
+      - do you value your family unity?
+      - do you share growth experiences in adulthood?
+      - do you maintain a natural, easy dynamic?

@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: family_overview
+    examples: |
+      - você pode me contar rapidamente como é a sua família hoje?
+      - como é a sua estrutura familiar atualmente?
+      - fala um pouco da sua família, se você se sentir à vontade
+      - você mora com família, sozinho ou com outras pessoas?
+      - sua rotina de vida pessoal envolve esposa e filhos?
+      - como é o seu contexto familiar hoje em dia?
+      - você poderia resumir um pouco como é a sua vida em família?
+      - a sua organização do dia a dia leva em conta esposa e filhos?
+      - olhando para a sua vida pessoal, como está a parte de família?
+      - você se sente à vontade para falar um pouco sobre sua família?
+      - sua família é grande ou pequena?
+      - você mora com sua esposa e filhos?
+      - sua casa é composta por quantas pessoas?
+      - você divide a rotina com sua esposa?
+      - sua rotina envolve filhos pequenos?
+      - sua vida familiar influencia seu dia a dia?
+      - sua rotina em casa é tranquila?
+      - você costuma passar bastante tempo com sua família?
+      - sua família te acompanha em decisões importantes?
+      - você costuma estar presente nas rotinas das crianças?
+      - sua dinâmica familiar é bem estruturada?
+      - sua família é sua base no dia a dia?
+      - você tem uma rotina forte com esposa e filhas?
+      - seu núcleo familiar mora todo junto?
+      - sua família depende de você na rotina?
+      - você consegue equilibrar bem família e trabalho?
+      - seu ambiente familiar é estável?
+      - sua família é próxima de você?
+      - sua vida familiar é bem movimentada?
+      - sua casa costuma ser mais tranquila ou agitada?
+      - você vive com esposa e filhas diariamente?
+      - sua família costuma participar das suas conquistas?
+      - sua família te dá suporte no dia a dia?
+      - sua esposa te apoia nos projetos profissionais?
+      - suas filhas influenciam sua organização de horários?
+      - você costuma organizar sua agenda pensando na família?
+      - sua rotina familiar interfere nos seus horários?
+      - você tem tempo reservado para a família na semana?
+      - você costuma equilibrar trabalho e família bem?
+      - sua família é bem presente na sua rotina?
+      - suas filhas ainda são pequenas?
+      - você tem uma rotina estruturada por causa da família?
+      - seu dia a dia leva em conta as necessidades das crianças?
+      - sua esposa participa das decisões familiares com você?
+      - sua vida pessoal gira bastante em torno da família?
+      - você se considera muito família?
+      - sua casa é bem movimentada por causa das filhas?
+      - você se sente bem com a estrutura familiar que tem hoje?
+      - sua família mora toda na mesma cidade?
+      - seus parentes próximos vivem perto?
+      - sua família costuma se reunir nos fins de semana?
+      - sua esposa trabalha também?
+      - a rotina das suas filhas interfere na sua agenda?
+      - você tem ajuda familiar no dia a dia?
+      - sua família é unida?
+      - você costuma viajar com sua família?
+      - você tem uma rotina estável com esposa e filhas?
+      - sua família participa das suas decisões de carreira?
+      - você divide bem o tempo entre trabalho e família?
+      - sua família costuma acompanhar suas mudanças profissionais?
+      - sua família é sua principal prioridade?
+      - você costuma planejar o futuro pensando nas filhas?
+      - sua vida familiar é tranquila?
+      - sua casa é organizada para rotina de crianças?
+      - sua esposa participa das tarefas com você?
+      - você consegue manter uma boa rotina com as filhas?
+      - você acompanha de perto o crescimento das filhas?
+      - você ajuda nas rotinas escolares das crianças?
+      - sua família tem uma rotina fixa?
+      - você reserva sempre tempo para as meninas?
+      - suas filhas influenciam suas escolhas de horários?
+      - você mora com sua família todos os dias?
+      - sua esposa te acompanha nas rotinas mais importantes?
+      - sua dinâmica familiar é bem equilibrada?
+      - você tem uma rotina conjunta com sua esposa?
+      - suas filhas ainda demandam bastante atenção?
+      - a rotina das suas filhas é intensa?
+      - você acompanha atividades das filhas?
+      - sua família te motiva no dia a dia?
+      - sua família te dá energia para trabalhar?
+      - sua casa tem uma rotina ajustada para todos?
+      - você costuma tomar decisões junto com sua esposa?
+      - você participa ativamente da rotina das crianças?
+      - sua família é a base do seu equilíbrio?
+      - sua relação com esposa e filhas é próxima?
+      - você tem tempo de qualidade com a família?
+      - sua rotina familiar é prioridade para você?
+      - você divide tempo entre estudos e família?
+      - sua família faz parte de todas as suas escolhas?
+      - sua esposa participa do seu dia a dia?
+      - você costuma organizar o fim de semana com a família?
+      - sua vida familiar é bem estruturada hoje?
+      - você consegue estar presente mesmo com rotina corrida?
+      - sua família é parte importante da sua rotina diária?
+      - sua rotina familiar é bem definida hoje?
+      - você costuma dividir tarefas com sua esposa?
+      - suas filhas influenciam bastante sua rotina?
+      - você passa bastante tempo com a família durante a semana?
+      - sua família te ajuda a manter equilíbrio no dia a dia?
+      - sua rotina pessoal gira bastante ao redor das suas filhas?
+      - is your family routine well defined today?
+      - do you usually share tasks with your wife?
+      - do your daughters influence your daily routine a lot?
+      - do you spend a good amount of time with your family during the week?
+      - does your family help you stay balanced day to day?
+      - would you say your personal routine revolves around your daughters?
+      - is your family a big part of how you organize your week?
+      - could you briefly tell me what your family looks like today?
+      - what does your family situation look like at the moment?
+      - if you feel comfortable, could you tell me a bit about your family?
+      - do you live with your family, alone, or with others?
+      - does your personal routine involve a spouse and children?
+      - how would you describe your family context nowadays?
+      - could you summarize what your family life is like?
+      - does your day-to-day routine take your wife and kids into account?
+      - looking at your personal life, how is the family side today?
+      - would you feel comfortable sharing a bit about your family?
+      - is your family big or small?
+      - do you live with your wife and kids?
+      - how many people live in your home?
+      - do you share your daily routine with your spouse?
+      - does your routine involve young children?
+      - does your family influence your daily life?
+      - is your home routine peaceful?
+      - do you spend a lot of time with your family?
+      - is your family involved in important decisions?
+      - are you present in your children's routines?
+      - is your family dynamic well structured?
+      - is your family your foundation day to day?
+      - do you live with your wife and daughters daily?
+      - does your family rely on you in the routine?
+      - are you able to balance work and family well?
+      - is your family environment stable?
+      - is your family close to you?
+      - is your family life busy?
+      - is your home more calm or more active?
+      - do your daughters live with you full-time?
+      - does your family celebrate your achievements with you?
+      - does your family support your projects?
+      - does your wife support your professional goals?
+      - do your daughters influence your schedule?
+      - do you plan your agenda with your family in mind?
+      - does your family routine affect your hours?
+      - do you save time weekly for your family?
+      - do you maintain a good balance between work and family?
+      - is your family present in your routine?
+      - are your daughters still young?
+      - is your family routine structured?
+      - does your day-to-day include childcare needs?
+      - does your wife help with daily decisions?
+      - does your personal life revolve around your family?
+      - would you describe yourself as family-oriented?
+      - is your home lively because of your daughters?
+      - are you happy with your family structure today?
+      - does your family live in the same city?
+      - do your closest relatives live nearby?
+      - does your family usually meet on weekends?
+      - does your wife work as well?
+      - does your daughters’ routine impact your schedule?
+      - do you have family help during the day?
+      - is your family united?
+      - do you usually travel with your family?
+      - do you have a stable routine with your wife and kids?
+      - does your family take part in your career decisions?
+      - do you balance time between work and family?
+      - does your family follow your professional changes?
+      - is your family your main priority?
+      - do you plan your future thinking about your kids?
+      - is your family life calm?
+      - is your home set up for children’s routines?
+      - does your wife share responsibilities with you?
+      - do you maintain a good routine with your daughters?
+      - are you involved in your daughters’ growth?
+      - do you help with school routines?
+      - does your family have a fixed routine?
+      - do you always reserve time for your daughters?
+      - do your daughters influence your choice of schedules?
+      - do you live with your family every day?
+      - does your wife take part in your routines?
+      - is your family dynamic balanced?
+      - do you share routines with your spouse?
+      - do your daughters still need a lot of attention?
+      - is your daughters’ routine intense?
+      - are you involved in their activities?
+      - does your family motivate you?
+      - does your family give you energy?
+      - is your home routine balanced for everyone?
+      - do you make decisions together with your wife?
+      - are you present in your children's daily tasks?
+      - is your family your source of stability?
+      - do you have a close relationship with your wife and daughters?
+      - do you make time for quality moments?
+      - is your family life a priority for you?
+      - do you divide your time between study and family?
+      - does your family influence all your choices?
+      - does your wife take part in your daily life?
+      - do you plan your weekends with your family?
+      - is your family life well structured today?
+      - are you able to stay present even with a busy routine?
+      - is your family an important part of your daily rhythm?

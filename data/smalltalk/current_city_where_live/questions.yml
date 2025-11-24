@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: current_city_where_live
+    examples: |
+      - atualmente, em que cidade você mora?
+      - você está morando em qual cidade hoje?
+      - onde você mora atualmente?
+      - em que cidade e estado você está hoje?
+      - só para registrar, onde você mora hoje?
+      - sua residência fica em qual cidade?
+      - você continua na mesma cidade ou mudou?
+      - hoje você está morando em qual lugar?
+      - onde você está baseado atualmente?
+      - você pode me dizer a cidade onde mora hoje?
+      - você segue morando na mesma cidade?
+      - você vive em qual cidade no momento?
+      - sua casa fica em qual cidade hoje?
+      - você mora em qual região atualmente?
+      - em qual cidade você está hoje no Brasil?
+      - você está morando em qual ponto do estado?
+      - você vive mais ao sul, centro ou norte do estado?
+      - sua localização atual é qual cidade?
+      - você mora perto da sua família hoje?
+      - você mudou de cidade recentemente?
+      - você está na cidade onde cresceu?
+      - você vive em cidade grande ou menor?
+      - você mora mais no interior ou na capital?
+      - sua cidade é próxima a qual região?
+      - em qual cidade você estabeleceu sua base?
+      - você está fixo em qual cidade?
+      - você mora em cidade próxima ao trabalho?
+      - qual cidade você chama de casa hoje?
+      - você vive em qual município atualmente?
+      - sua cidade atual é a mesma de sempre?
+      - você mudou de cidade por trabalho?
+      - você está morando em qual cidade do RS?
+      - você mora no sul do estado?
+      - sua casa fica em qual parte do estado?
+      - sua cidade atual é muito distante da capital?
+      - onde você está morando oficialmente hoje?
+      - você pode confirmar sua cidade atual?
+      - você reside em qual cidade agora?
+      - qual é a cidade onde você vive hoje?
+      - você mora em uma cidade grande ou média?
+      - você está vivendo em qual localização?
+      - sua cidade atual tem quantos habitantes, mais ou menos?
+      - você prefere morar nessa cidade atual?
+      - você está confortável morando nessa cidade?
+      - a cidade onde você está é tranquila?
+      - você está morando aí faz quanto tempo?
+      - você mora nessa cidade há muitos anos?
+      - sua mudança para essa cidade foi recente?
+      - você já morou em outras cidades?
+      - essa cidade atual te agrada?
+      - sua rotina hoje é nessa cidade mesmo?
+      - onde você está fixado atualmente?
+      - qual é o nome da cidade onde você mora hoje?
+      - você reside no interior ou na capital?
+      - você está morando no sul do Brasil?
+      - sua cidade atual fica em qual região do país?
+      - você mora em cidade litorânea ou interior?
+      - sua cidade é perto de Pelotas?
+      - você vive em qual ponto do mapa hoje?
+      - você permanece morando na mesma cidade de antes?
+      - está morando onde nos dias de hoje?
+      - você mora perto de qual cidade maior?
+      - sua conexão hoje é de qual cidade?
+      - onde você chama de lar atualmente?
+      - você mora em zona urbana ou rural?
+      - sua moradia atual fica em qual cidade?
+      - você está instalado em qual cidade?
+      - sua vida hoje está em qual cidade?
+      - você mora em qual cidade do sul do país?
+      - você vive em qual localidade hoje?
+      - você pode compartilhar sua cidade atual?
+      - está morando em qual canto do estado?
+      - sua localização fixa é qual cidade?
+      - de onde você está falando hoje, cidade?
+      - onde você está residindo atualmente?
+      - sua cidade atual é qual mesmo?
+      - qual cidade aparece no seu endereço hoje?
+      - sua vida pessoal hoje é nessa cidade?
+      - você ainda mora na mesma região?
+      - você mora longe da sua família hoje?
+      - você escolheu essa cidade para morar por algum motivo?
+      - está há muito tempo morando nessa cidade?
+      - mora em qual cidade do Brasil hoje?
+      - você está próximo de qual grande centro?
+      - sua cidade é referência em qual região?
+      - você permanece em Pelotas ou mudou?
+      - qual é sua base de residência atual?
+      - você está vivendo em qual cidade exatamente?
+      - sua rotina diária é nessa cidade?
+      - você segue morando no Rio Grande do Sul?
+      - em que cidade você passa a maior parte do tempo?
+      - onde está sua residência fixa atualmente?
+      - onde você se estabeleceu hoje?
+      - qual é sua cidade atual de moradia?
+      - sua residência oficial é em qual cidade?
+      - está morando onde agora?
+      - mora em qual cidade no momento?
+      - onde você vive hoje em dia?
+      - qual é a cidade onde você está hoje?
+      - você pode confirmar em qual cidade você está morando hoje?
+      - could you tell me where you are based right now?
+      - which city should I consider as your current location?
+      - what city do you call home at the moment?
+      - where is your residence at this time?
+      - where exactly are you living these days?
+      - in which city do you currently live?
+      - where do you live at the moment?
+      - which city and state are you living in right now?
+      - just for the record, where are you living nowadays?
+      - where are you currently based in Brazil?
+      - what city do you live in today?
+      - do you still live in your hometown or somewhere else now?
+      - where are you living at the moment?
+      - could you tell me which city you live in?
+      - what is your current city of residence?
+      - where is your home located today?
+      - which city are you settled in right now?
+      - what city are you located in today?
+      - do you live in a large city or a smaller one?
+      - where do you stay most of the time?
+      - where are you officially living now?
+      - where are you currently located?
+      - in which region of the country do you live?
+      - do you live close to your family today?
+      - did you recently move cities?
+      - are you still living in the same city as before?
+      - what is the name of the city you live in now?
+      - do you live in the south of the state?
+      - do you live in the countryside or the capital?
+      - which part of the state do you live in?
+      - how long have you lived in your current city?
+      - have you lived in other cities before?
+      - do you like the city you live in today?
+      - are you comfortable living in that city?
+      - is your current city a quiet place?
+      - is your routine based in that city?
+      - what area of the state do you live in?
+      - what region are you located in now?
+      - is your home in the southern region of Brazil?
+      - is your city close to any major city?
+      - where on the map are you currently living?
+      - what location do you call home today?
+      - do you live in an urban or rural area?
+      - where is your fixed residence now?
+      - what area do you live in today?
+      - what town are you living in currently?
+      - do you live near Pelotas or somewhere else?
+      - do you stay mostly in that city?
+      - is your personal life centered in that city?
+      - do you still live in Rio Grande do Sul?
+      - which city do you spend most of your time in?
+      - where are you based most days?
+      - what is your exact living location?
+      - where have you settled at the moment?
+      - what city is your current home?
+      - do you live in a coastal city or inland?
+      - do you live near your original hometown?
+      - do you live near any major region?
+      - where are you speaking from today?
+      - what is your primary living city now?
+      - where do you currently reside?
+      - which city matches your current address?
+      - do you prefer living in your current city?
+      - what is your main city of residence today?
+      - which region do you live in exactly?
+      - where do you base your daily routine?
+      - is your residence still in the same city?
+      - do you live in southern Brazil today?
+      - what city are you located in these days?
+      - is your home close to any large center?
+      - in which locality do you currently live?
+      - what is your living city at the moment?
+      - where do you spend your daily life?
+      - are you established in that city now?
+      - which city do you consider home today?
+      - do you live in a stable location now?
+      - what area are you living in currently?
+      - do you still live in the same area?
+      - have you stayed long in your current city?
+      - where do you physically live today?
+      - do you live near your family now?
+      - are you in a different city from before?
+      - what part of the state is your home?
+      - are you living far from your hometown?
+      - is your current residence in Pelotas?
+      - do you continue living in Pelotas?
+      - do you live anywhere else in RS?
+      - which city is your base right now?
+      - where exactly do you live today?
+      - where is your current home base?
+      - what city do you live in presently?
+      - could you share the city where you live?
+      - what region do you live in nowadays?
+      - what is your home city today?
+      - where is your residence located?
+      - do you live in a more central area?
+      - do you live closer to the interior?
+      - in which city are you settled now?
+      - where is your day-to-day location?
+      - what’s the city you live in currently?

@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: family_origin_city
+    examples: |
+      - de que cidade você é originalmente?
+      - onde você nasceu e cresceu?
+      - qual é a sua cidade de origem?
+      - você ainda mora perto da sua família de origem?
+      - sua família é toda da mesma cidade ou espalhada?
+      - você poderia dizer de que região você vem?
+      - de onde é a sua família, principalmente seus pais e irmãos?
+      - você costuma visitar sua cidade de origem com frequência?
+      - você ainda tem família morando na sua cidade natal?
+      - sua história familiar é mais ligada ao interior, capital ou outra região?
+      - você nasceu em cidade grande ou pequena?
+      - sua infância foi mais urbana ou rural?
+      - você morou a vida toda na mesma cidade?
+      - você já mudou de cidade muitas vezes?
+      - sua família continua na mesma cidade de antes?
+      - você sente saudade da sua cidade de origem?
+      - você costuma viajar para visitar sua família?
+      - sua família é mais do sul, sudeste, norte, nordeste ou centro-oeste?
+      - você veio de uma região mais fria ou mais quente?
+      - sua cidade de origem é perto ou longe de onde você mora hoje?
+      - você passou toda a infância na mesma cidade?
+      - ainda existem muitos parentes seus na cidade natal?
+      - sua família tem raízes profundas nessa cidade?
+      - você considera sua cidade natal um lugar tranquilo?
+      - sua cidade de origem influenciou muito quem você é?
+      - você cresceu em bairro simples ou mais movimentado?
+      - você se mudou cedo da sua cidade natal?
+      - você mantém laços fortes com sua cidade de origem?
+      - costuma passar feriados lá?
+      - sua família tem tradição de viver na mesma cidade por gerações?
+      - você lembra bastante da sua cidade natal?
+      - sua cidade natal é turística ou mais reservada?
+      - você acha sua cidade natal diferente de onde mora hoje?
+      - você sente que sua origem ajudou na sua personalidade?
+      - você tem lembranças marcantes da cidade onde nasceu?
+      - sua família ainda se reúne na cidade de origem?
+      - você considera voltar para morar lá algum dia?
+      - sua cidade de origem é referência importante para você?
+      - você pensa muito na cultura da sua cidade de origem?
+      - você sente que cresceu em uma comunidade unida?
+      - sua cidade natal tem algum costume marcante?
+      - sua infância na cidade natal foi tranquila?
+      - você estudou na mesma cidade onde nasceu?
+      - sua cidade natal influencia sua visão de mundo?
+      - você acha sua história muito ligada ao lugar onde cresceu?
+      - como você descreve sua cidade de origem?
+      - você passou muitos anos na sua cidade natal?
+      - você migrou por trabalho ou estudo?
+      - sua família permanece raiz na cidade natal?
+      - você tem memórias fortes com amigos de infância de lá?
+      - sua cidade natal tem clima parecido com onde mora hoje?
+      - você considera sua origem algo que te acompanha até hoje?
+      - sua família mantém vínculos fortes com a região?
+      - você já levou seus filhos para conhecer sua cidade natal?
+      - você fala muito sobre sua cidade de origem com outras pessoas?
+      - sua cidade natal fica próxima de capitais grandes?
+      - sua família veio de áreas urbanas ou mais rurais?
+      - você tem orgulho da sua cidade de origem?
+      - você lembra de tradições locais da sua cidade natal?
+      - sua cidade era mais calma ou agitada?
+      - você tinha muito contato com vizinhos na infância?
+      - você considera sua origem simples ou mais estruturada?
+      - você mantinha uma vida mais comunitária na cidade natal?
+      - você sente que sua cidade natal moldou sua disciplina?
+      - sua infância foi segura e acolhedora na cidade onde cresceu?
+      - seus pais continuam morando lá?
+      - seus irmãos ainda vivem na cidade de origem?
+      - você foi criado perto de avós e tios?
+      - sua cidade tem sotaque forte?
+      - você mantém esse sotaque até hoje?
+      - você gosta da culinária típica da sua cidade?
+      - você visitou recentemente sua cidade natal?
+      - você se mudou definitivamente ou pensa em voltar?
+      - sua cidade de origem é mais industrial ou mais agrícola?
+      - você estudou em escola pública ou particular na sua cidade natal?
+      - você lembra dos lugares onde brincava quando pequeno?
+      - sua família tem casa própria nessa cidade até hoje?
+      - você considera a cidade onde nasceu parte importante da sua identidade?
+      - sua cidade natal é conhecida por algo específico?
+      - você fala com carinho da sua origem?
+      - você percebe diferenças culturais fortes entre lá e aqui?
+      - sua família é tradicional na cidade de origem?
+      - você fez amigos de vida toda lá?
+      - você sente que aprendeu muito com a sua comunidade de origem?
+      - sua cidade era pequena ao ponto de todos se conhecerem?
+      - você se sente pertencente à sua cidade de origem?
+      - você se mudou por necessidade ou escolha?
+      - a mudança de cidade influenciou seu crescimento pessoal?
+      - você guarda lembranças visuais fortes do lugar?
+      - você acha que sua origem influenciou sua ética de trabalho?
+      - você sente que sua cidade natal te deu boas bases?
+      - sua família mantém histórias antigas sobre a cidade de vocês?
+      - sua cidade ainda tem o mesmo clima de quando você cresceu?
+      - você fala da sua origem com orgulho?
+      - sua cidade continua importante para você emocionalmente?
+      - sua cidade natal influenciou sua forma de ver o mundo?
+      - você sente orgulho da cidade onde nasceu?
+      - sua família mantém raízes fortes na sua cidade de origem?
+      - você ainda acompanha notícias da sua cidade natal?
+      - você sente que sua cidade de origem ainda faz parte de quem você é?
+      - do you feel your hometown shaped your worldview?
+      - are you proud of the city where you were born?
+      - does your family still have strong roots in your hometown?
+      - do you still follow news from your hometown?
+      - do you feel your hometown is still part of who you are today?
+      - does your hometown come to mind often in your daily life?
+      - is your hometown a place you still feel connected to?
+      - do you think growing up there shaped your personality?
+      - do you feel nostalgia when you think of your hometown?
+      - is your hometown still meaningful to your identity?
+      - which city are you originally from?
+      - where were you born and raised?
+      - what is your hometown?
+      - do you still live close to your family of origin?
+      - is your family mostly from the same city or spread out?
+      - could you tell me which region you come from?
+      - where is your family from, especially your parents and siblings?
+      - do you usually visit your hometown often?
+      - do you still have family living in your hometown?
+      - is your family story more connected to the countryside, the capital, or another region?
+      - were you born in a big city or a small one?
+      - was your childhood more urban or rural?
+      - did you live in the same city your whole childhood?
+      - have you moved cities many times?
+      - does your family still live in your hometown?
+      - do you miss your hometown?
+      - do you travel back there often?
+      - is your family mostly from the south, southeast, north, northeast, or midwest?
+      - do you come from a colder or warmer region?
+      - is your hometown far from where you live now?
+      - did you spend your whole childhood there?
+      - do you still have many relatives living in your hometown?
+      - does your family have deep roots in that city?
+      - would you say your hometown is a quiet place?
+      - did your hometown shape a lot of who you are?
+      - did you grow up in a busy or peaceful area?
+      - did you leave your hometown early in life?
+      - do you keep strong ties with your hometown?
+      - do you spend holidays there sometimes?
+      - is your family used to staying in the same city for generations?
+      - do you remember your hometown clearly?
+      - is your hometown touristic or more low-key?
+      - is your hometown different from where you live today?
+      - do you feel your origin shaped your personality?
+      - do you still carry strong memories of the city where you were born?
+      - does your family still gather there?
+      - would you ever move back to your hometown?
+      - do you consider your hometown an important reference?
+      - do you think often about the culture of your origin?
+      - did you grow up in a close-knit community?
+      - does your hometown have particular traditions?
+      - was your childhood peaceful there?
+      - did you study in your hometown?
+      - does your hometown influence your worldview?
+      - do you think your background is strongly tied to where you grew up?
+      - how would you describe your hometown in a few words?
+      - did you live there for many years?
+      - did you move for work or study?
+      - does your family keep strong ties to that region?
+      - have you taken your daughters to visit your hometown?
+      - do you talk much about your hometown when meeting new people?
+      - is your hometown close to major cities?
+      - is your family from a more urban or more rural area?
+      - are you proud of your hometown?
+      - do you remember typical food from where you came from?
+      - was your hometown calm or more lively?
+      - did you have strong bonds with neighbors growing up?
+      - would you describe your origin as simple or more structured?
+      - did you grow up in a strong community environment?
+      - do you feel your hometown shaped your discipline?
+      - was your childhood safe and warm there?
+      - do your parents still live there?
+      - do your siblings still live in your hometown?
+      - did you grow up near grandparents and relatives?
+      - does your hometown have a strong accent?
+      - do you still carry that accent today?
+      - do you like the traditional food from your hometown?
+      - have you visited recently?
+      - did you move permanently or do you consider going back someday?
+      - was your hometown more industrial or more agricultural?
+      - did you study in public or private school there?
+      - do you remember the places you used to play?
+      - does your family still have a house there?
+      - is your hometown an important part of your identity?
+      - is the place you were born known for something?
+      - do you speak fondly of your origin?
+      - do you notice strong cultural differences between there and here?
+      - is your family traditional in that city?
+      - did you make lifelong friends there?
+      - do you feel you learned important values growing up there?
+      - was your hometown small enough for everyone to know each other?
+      - do you feel you belong to that place?
+      - did you move by choice or necessity?
+      - did changing cities impact your personal growth?
+      - do you still have strong visual memories of the place?
+      - did your origin influence your work ethic?
+      - did your hometown give you strong foundations?
+      - does your family share old stories about the city?
+      - has your hometown changed a lot since you left?
+      - is your hometown still meaningful to you emotionally?

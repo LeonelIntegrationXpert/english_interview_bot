@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: siblings_who_are
+    examples: |
+      - você tem irmãos?
+      - quantos irmãos você tem?
+      - pode me contar um pouco sobre seus irmãos?
+      - como se chamam seus irmãos?
+      - você cresceu com irmãos em casa?
+      - você poderia falar o nome dos seus irmãos?
+      - você é filho único ou tem irmãos?
+      - quem são seus irmãos, se você se sentir à vontade para compartilhar?
+      - você tem irmãos mais velhos, mais novos ou os dois?
+      - pode me dizer quantos e quais são seus irmãos?
+      - você convive muito com seus irmãos hoje?
+      - você mantém contato frequente com seus irmãos?
+      - você e seus irmãos são próximos?
+      - você tem boa relação com seus irmãos?
+      - sua relação com seus irmãos é mais próxima ou mais distante?
+      - seus irmãos moram na mesma cidade que você?
+      - seus irmãos seguiram caminhos parecidos com o seu?
+      - vocês cresceram juntos e próximos?
+      - você dividia responsabilidades com seus irmãos?
+      - você costumava brincar muito com seus irmãos?
+      - você tem mais afinidade com algum irmão específico?
+      - seus irmãos são mais velhos que você?
+      - seus irmãos são mais novos que você?
+      - você é o mais velho da família?
+      - você é o mais novo da família?
+      - como era a dinâmica com seus irmãos na infância?
+      - você aprendeu algo importante com seus irmãos?
+      - seus irmãos influenciaram sua personalidade?
+      - seus irmãos ajudaram a moldar quem você é hoje?
+      - você costuma se reunir com seus irmãos em datas especiais?
+      - sua família é grande por parte de irmãos?
+      - você cresceu em um lar com muitos irmãos ou poucos?
+      - como era o dia a dia entre você e seus irmãos?
+      - vocês tinham responsabilidades divididas em casa?
+      - seus irmãos têm filhos também?
+      - seus irmãos trabalham em que área?
+      - você e seus irmãos conversam com frequência?
+      - você sente orgulho dos seus irmãos?
+      - seus irmãos participaram muito da sua infância?
+      - você protegeu seus irmãos quando criança?
+      - seus irmãos te protegiam?
+      - como você descreve a personalidade dos seus irmãos?
+      - seus irmãos são mais tranquilos ou agitados?
+      - vocês têm jeitos parecidos?
+      - vocês têm jeitos diferentes?
+      - vocês costumam resolver coisas juntos?
+      - seus irmãos sabem do seu trabalho atual?
+      - você aprendeu lições importantes convivendo com seus irmãos?
+      - você viaja com seus irmãos às vezes?
+      - vocês têm hobbies em comum?
+      - vocês têm gostos completamente diferentes?
+      - seus irmãos se davam bem entre si?
+      - você era mais próximo de qual irmão?
+      - seus irmãos moraram com você por muito tempo?
+      - vocês estudaram juntos em algum período?
+      - vocês dividiam quarto quando crianças?
+      - vocês tinham muitas histórias juntos?
+      - você sente saudade da convivência com seus irmãos?
+      - qual memória mais forte você tem com seus irmãos?
+      - como você resumiria sua relação com seus irmãos?
+      - seus irmãos te influenciaram em algo profissionalmente?
+      - você costuma dar conselhos para seus irmãos?
+      - seus irmãos costumam te pedir conselhos?
+      - vocês têm uma relação equilibrada?
+      - vocês passam por fases mais distantes e mais próximas?
+      - você conversa mais por mensagem ou pessoalmente com seus irmãos?
+      - seus irmãos têm personalidades fortes?
+      - seus irmãos têm personalidades calmas?
+      - você tem irmãos que moram longe?
+      - você tem irmãos que moram perto?
+      - seus irmãos são casados?
+      - seus irmãos trabalham em áreas diferentes?
+      - você tem irmãos que também têm filhos?
+      - você costuma celebrar datas importantes com seus irmãos?
+      - vocês costumam se reunir em família?
+      - seus irmãos sabem das suas conquistas recentes?
+      - seus irmãos torcem pelas suas vitórias?
+      - você sente que cresceu em sintonia com seus irmãos?
+      - como você apresentaria seus irmãos para alguém novo?
+      - o que você mais admira nos seus irmãos?
+      - você tem histórias marcantes com seus irmãos?
+      - vocês conversam sobre trabalho?
+      - vocês conversam sobre vida pessoal?
+      - seus irmãos tiveram grande impacto na sua infância?
+      - seus irmãos influenciaram seus gostos pessoais?
+      - você sente que seus irmãos te ajudaram a amadurecer?
+      - sua relação com seus irmãos mudou na fase adulta?
+      - vocês são unidos hoje?
+      - vocês apoiam uns aos outros?
+      - você se sente confortável falando dos seus irmãos?
+      - você cresceu com irmãos presentes todos os dias?
+      - seus irmãos têm trajetórias diferentes da sua?
+      - você tem muito orgulho dos seus irmãos?
+      - seus irmãos são parte importante da sua história?
+      - sua família com irmãos é algo que você valoriza muito?
+      - seus irmãos influenciaram muito sua vida?
+      - você convivia diariamente com seus irmãos?
+      - você tem contato frequente com seus irmãos hoje?
+      - sua relação com seus irmãos mudou ao longo dos anos?
+      - você considera seus irmãos parte importante da sua história?
+      - do your siblings play an important role in your life today?
+      - did you spend a lot of time with your siblings growing up?
+      - do you stay in touch with your siblings often?
+      - has your relationship with your siblings changed over the years?
+      - would you say your siblings shaped your personality in some way?
+      - do your siblings influence your life today?
+      - are your siblings part of your support system?
+      - did you learn important lessons from your siblings?
+      - do you consider your siblings an important part of your story?
+      - do you have any brothers or sisters?
+      - how many siblings do you have?
+      - could you tell me a bit about your siblings?
+      - what are your siblings’ names?
+      - did you grow up with brothers or sisters at home?
+      - could you share the names of your siblings?
+      - are you an only child, or do you have siblings?
+      - who are your siblings, if you feel comfortable sharing?
+      - do you have older siblings, younger siblings, or both?
+      - could you tell me how many siblings you have and their names?
+      - are you close to your siblings?
+      - do you keep frequent contact with your siblings?
+      - would you say you have a strong relationship with them?
+      - do your siblings live in the same city as you?
+      - did your siblings follow similar career paths?
+      - did you grow up very close to your siblings?
+      - did you share responsibilities with them?
+      - did you play a lot with your siblings as a child?
+      - are you closer to one sibling in particular?
+      - are your siblings older than you?
+      - are your siblings younger than you?
+      - are you the oldest child?
+      - are you the youngest child?
+      - what was the dynamic like with your siblings growing up?
+      - did you learn something important from them?
+      - did your siblings influence your personality?
+      - would you say your siblings shaped who you are today?
+      - do you usually meet your siblings on special dates?
+      - is your sibling group large or small?
+      - what was daily life like with your siblings?
+      - did your siblings share chores with you?
+      - do your siblings have children too?
+      - what do your siblings do for a living?
+      - do you talk often with your siblings?
+      - do you feel proud of your siblings?
+      - were your siblings very present in your childhood?
+      - did you protect your siblings when you were young?
+      - did they protect you?
+      - how would you describe your siblings’ personalities?
+      - are your siblings calm or energetic?
+      - do you share similar traits with them?
+      - do you have very different personalities?
+      - do you solve things together sometimes?
+      - do your siblings know about your current work?
+      - did you learn important lessons through your siblings?
+      - do you travel with your siblings?
+      - do you share hobbies with your siblings?
+      - do your siblings have completely different interests?
+      - did your siblings get along well with each other?
+      - were you closer to one sibling?
+      - did your siblings live with you for many years?
+      - did you study together at any point?
+      - did you share a bedroom growing up?
+      - do you have many memories with your siblings?
+      - do you miss living close to your siblings?
+      - what’s your strongest memory with your siblings?
+      - how would you summarize your relationship with them?
+      - did your siblings influence you professionally?
+      - do you give advice to your siblings?
+      - do they ask you for advice?
+      - do you have a balanced relationship?
+      - do you go through phases of being closer or more distant?
+      - do you talk more by message or in person?
+      - do your siblings have strong personalities?
+      - do they have calmer personalities?
+      - do you have siblings who live far away?
+      - do you have siblings who live nearby?
+      - are your siblings married?
+      - do your siblings work in different fields?
+      - do your siblings have children as well?
+      - do you celebrate important dates with them?
+      - do you have family gatherings with your siblings?
+      - do your siblings know about your recent achievements?
+      - do your siblings cheer for your success?
+      - do you feel you grew in sync with them?
+      - how would you introduce your siblings to someone new?
+      - what do you admire most about your siblings?
+      - do you have memorable stories with your siblings?
+      - do you talk about work with them?
+      - do you talk about personal life?
+      - did your siblings have a big impact on your childhood?
+      - did they shape your preferences or tastes?
+      - do you feel your siblings helped you mature?
+      - has your relationship with your siblings changed in adulthood?
+      - are you united today?
+      - do you support each other?
+      - do you feel comfortable talking about them?
+      - were your siblings present daily growing up?
+      - do your siblings have very different life paths?
+      - are your siblings an important part of your story?
+      - is your sibling relationship something you deeply value?

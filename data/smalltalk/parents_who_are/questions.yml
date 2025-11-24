@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: parents_who_are
+    examples: |
+      - você pode me contar quem são seus pais?
+      - como se chamam seus pais?
+      - você poderia falar rapidamente sobre o seu pai e a sua mãe?
+      - qual é o nome do seu pai e da sua mãe?
+      - só para te conhecer um pouco melhor, quem são seus pais?
+      - você se sente à vontade para dizer o nome dos seus pais?
+      - como se chama seu pai? E sua mãe?
+      - quem são seus pais, se puder compartilhar?
+      - pode me falar o nome do seu pai e da sua mãe?
+      - como você apresentaria seus pais para alguém que não os conhece?
+      - seus pais se chamam como?
+      - você poderia me dizer o nome dos seus pais?
+      - posso perguntar quem são seus pais?
+      - qual é o nome completo dos seus pais?
+      - você tem como compartilhar o nome do seu pai?
+      - você tem como compartilhar o nome da sua mãe?
+      - quais são os nomes dos seus pais?
+      - seus pais têm nomes fáceis de lembrar?
+      - como você apresentaria seu pai?
+      - como você apresentaria sua mãe?
+      - quem é seu pai?
+      - quem é sua mãe?
+      - seu pai se chama como?
+      - sua mãe se chama como?
+      - você pode me contar só os nomes dos seus pais?
+      - seus pais são conhecidos por quais nomes?
+      - me diz o nome do seu pai?
+      - me diz o nome da sua mãe?
+      - como você falaria o nome dos seus pais em uma apresentação simples?
+      - seus pais têm nomes tradicionais?
+      - você lembra facilmente o nome dos seus pais? (pergunta leve)
+      - como você responderia se alguém perguntasse quem são seus pais?
+      - seus pais se chamam de forma parecida ou bem diferente?
+      - como você descreveria seus pais pelo nome?
+      - qual o primeiro nome do seu pai?
+      - qual o primeiro nome da sua mãe?
+      - seus pais costumam usar nome completo?
+      - você fala o nome dos seus pais com frequência?
+      - você gostaria de compartilhar o nome dos seus pais?
+      - se não se importar, quem são seus pais?
+      - seus pais têm nomes curtos?
+      - seus pais têm nomes longos?
+      - os nomes dos seus pais são comuns?
+      - os nomes dos seus pais são diferentes?
+      - você cresceu com seus pais Taylor e Cleusa?
+      - como você apresentaria Taylor e Cleusa?
+      - você pode confirmar os nomes do seu pai e da sua mãe?
+      - você poderia repetir os nomes dos seus pais?
+      - seus pais se chamam Taylor e Cleusa, certo?
+      - só para registro, os nomes são Taylor e Cleusa?
+      - seus pais, Taylor e Cleusa, são como na sua vida?
+      - quando perguntam seus pais, você diz Taylor e Cleusa?
+      - como você conta para alguém quem são Taylor e Cleusa?
+      - você poderia falar o nome da sua mãe de novo?
+      - você poderia falar o nome do seu pai de novo?
+      - os nomes Taylor e Cleusa têm algum significado especial pra você?
+      - você apresenta seus pais pelo primeiro nome apenas?
+      - como você costuma mencionar seus pais no dia a dia?
+      - você se sente confortável dizendo que seus pais são Taylor e Cleusa?
+      - você costuma falar dos seus pais pelo nome?
+      - qual é o nome da sua mãe mesmo?
+      - qual é o nome do seu pai mesmo?
+      - você apresenta seus pais com orgulho?
+      - você fala com frequência de Taylor e Cleusa?
+      - você poderia confirmar: seu pai é Taylor?
+      - você poderia confirmar: sua mãe é Cleusa?
+      - seus pais têm nomes comuns no Brasil?
+      - o nome Taylor é comum na sua família?
+      - o nome Cleusa é comum na sua família?
+      - você gostaria de falar mais sobre Taylor e Cleusa?
+      - como você descreveria seus pais começando pelos nomes?
+      - seus pais são conhecidos pelos nomes Taylor e Cleusa?
+      - você se refere aos seus pais como Taylor e Cleusa no dia a dia?
+      - como você apresentaria seus pais para o entrevistador?
+      - se alguém perguntar “quem são seus pais?”, o que você responde?
+      - seus pais fazem parte da sua vida hoje?
+      - seus pais moram perto de você?
+      - seus pais moram em Pelotas também?
+      - você tem facilidade de falar dos seus pais?
+      - você se sente bem mencionando seus pais na entrevista?
+      - seus pais influenciaram sua trajetória?
+      - você mantém contato frequente com seus pais?
+      - seus pais te apoiaram na carreira?
+      - seus pais te influenciaram nos estudos?
+      - seus pais participaram da sua educação?
+      - você é próximo do seu pai e da sua mãe?
+      - sua relação com Taylor e Cleusa é boa?
+      - sua família inclui seus pais de forma ativa?
+      - você costuma visitar seus pais?
+      - seus pais ainda moram juntos?
+      - seus pais fazem parte do seu círculo próximo?
+      - sua história com seus pais é tranquila?
+      - você cresceu em um lar com Taylor e Cleusa?
+      - posso confirmar: seus pais são Taylor e Cleusa?
+      - você costuma mencionar seus pais pelo nome?
+      - quem são seus pais na sua família?
+      - seus pais fazem parte do seu dia a dia?
+      - os nomes dos seus pais são importantes para você?
+      - você apresenta seus pais com esses nomes mesmo?
+      - seus pais usam esses nomes no cotidiano?
+      - can you confirm your parents are Taylor and Cleusa?
+      - do you usually mention your parents by name?
+      - who are your parents in your family context?
+      - do your parents play an active role in your life?
+      - are those the names your parents use daily?
+      - would you say these are the names your parents prefer?
+      - how do people usually refer to your parents?
+      - are Taylor and Cleusa their everyday names?
+      - are these the names your parents go by publicly?
+      - do people around you know your parents by these names?
+      - how do you usually introduce your parents in English?
+      - how would you explain who your parents are?
+      - what names do your parents prefer to be called?
+      - do your parents present themselves with those names?
+      - can you talk briefly about how you refer to your parents?
+      - could you tell me who your parents are?
+      - what are your parents’ names?
+      - could you briefly talk about your father and your mother?
+      - what is your father’s name and your mother’s name?
+      - just to know you a bit better, who are your parents?
+      - would you feel comfortable sharing your parents’ names?
+      - what is your dad’s name? And your mom’s?
+      - who are your parents, if you don’t mind sharing?
+      - could you tell me the names of your father and mother?
+      - how would you introduce your parents to someone who doesn’t know them?
+      - what are your parents called?
+      - can you share your parents' full names?
+      - may I ask who your parents are?
+      - could you confirm your parents’ names?
+      - what’s your father's full name?
+      - what’s your mother's full name?
+      - what are the first names of your parents?
+      - are your parents’ names easy to remember?
+      - how would you introduce your dad?
+      - how would you introduce your mom?
+      - who is your father?
+      - who is your mother?
+      - what’s your father’s first name?
+      - what’s your mother’s first name?
+      - can you tell me just their names?
+      - how do you usually mention your parents?
+      - what names do your parents go by?
+      - could you tell me your dad’s name?
+      - could you tell me your mom’s name?
+      - how would you state your parents’ names simply?
+      - do your parents have traditional names?
+      - are your parents' names common?
+      - are your parents' names unusual?
+      - do you talk about your parents often?
+      - do you feel comfortable sharing your parents’ names?
+      - could you repeat your parents’ names?
+      - your parents are Taylor and Cleusa, right?
+      - you grew up with Taylor and Cleusa?
+      - could you confirm your father's name: Taylor?
+      - could you confirm your mother's name: Cleusa?
+      - do your parents have short names?
+      - do your parents have long names?
+      - how do you introduce Taylor and Cleusa?
+      - are Taylor and Cleusa important in your daily life?
+      - how do you refer to your parents?
+      - do you usually call them by their first names?
+      - how do you mention your parents in conversations?
+      - does your family include your parents actively?
+      - are you close to your parents?
+      - do you keep frequent contact with your parents?
+      - did your parents influence your career?
+      - did your parents support your studies?
+      - were your parents involved in your upbringing?
+      - are you comfortable introducing Taylor and Cleusa?
+      - what do Taylor and Cleusa mean to you?
+      - do your parents still live together?
+      - do your parents live in the same city as you?
+      - do you visit your parents often?
+      - do your parents live nearby?
+      - is your relationship with your parents good?
+      - do you feel proud introducing your parents?
+      - do you talk about your parents in interviews?
+      - do people often ask you about your parents?
+      - do others usually know your parents’ names?
+      - would you say Taylor and Cleusa shaped who you are?
+      - do you feel connected to Taylor and Cleusa?
+      - are your parents active in your life today?
+      - do your parents follow your professional journey?
+      - do you talk to your parents regularly?
+      - is your family bond strong with your parents?
+      - how would you present your parents in a social setting?
+      - if someone asks “who are your parents?”, what do you say?
+      - do you describe your parents as Taylor and Cleusa?
+      - are your parents supportive?
+      - do your parents motivate you?
+      - did your parents inspire you growing up?
+      - are your parents still active in your life?
+      - do you include your parents in life milestones?
+      - are you proud of your parents?
+      - are your parents still important figures to you?
+      - do your parents know about your current career path?
+      - do your parents influence your decisions today?
+      - do you talk openly about your parents?
+      - how would you describe your parents in one line?
+      - do your parents have a strong presence in your history?

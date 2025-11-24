@@ -89,6 +89,15 @@ intents:
   - birthdate
   - marital_status
   - children
+  - family_overview
+  - parents_who_are
+  - parents_brief_context
+  - siblings_who_are
+  - siblings_relationship
+  - family_origin_city
+  - family_support_career
+  - current_city_where_live
+  - address_more_details
 actions:
   - action_fallback
 session_config:
