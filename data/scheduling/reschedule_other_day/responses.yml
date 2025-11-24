@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_reschedule_other_day:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sem problema eu entendo que imprevistos acontecem. Podemos sim remarcar é só me indicar alguns dias e horários que funcionem melhor para você que eu me organizo.
+          vr_en: |
+            No problem at all I understand that unexpected things happen. I am happy to reschedule just let me know a few days and times that work for you and I will adjust here.
+        resp_2:
+          vr_pt: |
+            Tudo certo podemos remarcar sem problema algum é só me passar as opções de datas que eu me ajusto.
+          vr_en: |
+            That is totally fine we can reschedule without any issue just send me the date options that work for you and I will adapt.

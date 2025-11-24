@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: comment_linkedin_profile
+    examples: |
+      - eu também dei uma olhada no seu LinkedIn para entender melhor a sua trajetória
+      - seu perfil no LinkedIn ajudou a complementar bem o seu currículo
+      - pelo seu LinkedIn, deu para ver claramente a evolução das suas experiências
+      - eu vi algumas coisas interessantes no seu perfil do LinkedIn
+      - olhando o seu LinkedIn, deu para perceber que você se mantém ativo na área
+      - seu LinkedIn mostra bastante envolvimento com a comunidade da sua área
+      - eu vi no seu LinkedIn alguns projetos que não aparecem tão detalhados no currículo
+      - percebi pelo LinkedIn que você investe bastante em desenvolvimento contínuo
+      - notei no seu LinkedIn que você tem certificações bem relevantes
+      - seu perfil no LinkedIn passa uma imagem bem profissional
+      - seu LinkedIn mostra uma trajetória muito consistente
+      - percebi no LinkedIn que você participou de iniciativas bem interessantes
+      - o seu LinkedIn mostra bastante evolução ao longo do tempo
+      - seu perfil demonstra boa presença profissional online
+      - notei no LinkedIn que você compartilha conteúdos relevantes
+      - seu LinkedIn mostra que você se mantém atualizado
+      - eu vi boas recomendações no seu perfil
+      - percebi no LinkedIn que você tem experiência diversificada
+      - seu LinkedIn traz detalhes que complementam bem o currículo
+      - notei no LinkedIn uma boa organização das suas experiências
+      - seu perfil mostra bastante clareza na sua jornada
+      - eu vi no LinkedIn alguns pontos que reforçam seu perfil técnico
+      - seu LinkedIn mostra participação em projetos importantes
+      - percebi engajamento com temas da área no seu LinkedIn
+      - seu perfil demonstra uma presença ativa no mercado
+      - eu vi cursos e certificações bem recentes lá
+      - seu LinkedIn exibe uma linha do tempo bem estruturada
+      - percebi que você tem constância de atualizações no LinkedIn
+      - seu perfil mostra bom alinhamento com a vaga
+      - eu vi no LinkedIn algumas habilidades bem valorizadas
+      - seu LinkedIn demonstra bastante profissionalismo
+      - percebi que seu LinkedIn está sempre atualizado
+      - seu LinkedIn mostra uma boa visão de carreira
+      - notei que você usa o LinkedIn como ferramenta de evolução
+      - seu perfil traz um bom resumo da sua trajetória
+      - no LinkedIn, vi experiências que agregam bastante
+      - seu LinkedIn mostra boas conexões profissionais
+      - percebi que você interage com conteúdos relevantes
+      - seu perfil demonstra consistência nas experiências
+      - eu vi no LinkedIn que você participa de eventos da área
+      - seu perfil traz uma imagem muito sólida
+      - notei que você destaca bem seus projetos
+      - seu LinkedIn mostra bastante dedicação
+      - seu perfil é bem completo e detalhado
+      - percebi boa evolução profissional no seu LinkedIn
+      - notei que você organiza bem suas conquistas por lá
+      - seu LinkedIn reflete bem a sua trajetória profissional
+      - eu vi no seu perfil trabalhos que agregam muito valor
+      - seu LinkedIn apresenta resultados bem claros
+      - percebi no LinkedIn que você tem forte lado técnico
+      - seu perfil mostra boa capacidade de comunicação
+      - vi no LinkedIn que você segue referências da área
+      - seu LinkedIn demonstra visão estratégica
+      - percebi no seu LinkedIn estabilidade na carreira
+      - seu perfil está bem alinhado com o mercado atual
+      - vi no LinkedIn competências importantes destacadas
+      - seu LinkedIn mostra engajamento contínuo
+      - percebi uma linha cronológica muito clara no seu perfil
+      - seu LinkedIn evidencia suas conquistas
+      - notei diversos pontos positivos no seu perfil
+      - percebi que seu LinkedIn é bem objetivo
+      - seu perfil representa bem suas experiências principais
+      - vi no LinkedIn que você acompanha tendências da área
+      - seu perfil mostra variedade de projetos
+      - percebi no LinkedIn que você tem boa reputação
+      - notei boas recomendações profissionais lá
+      - seu LinkedIn reforça sua postura profissional
+      - seu perfil mostra constância na atualização
+      - percebi no LinkedIn que você tem bons resultados listados
+      - vi participação em comunidades e grupos
+      - seu LinkedIn mostra aprendizado contínuo
+      - percebi clareza na forma como você descreve sua carreira
+      - seu perfil é bem estruturado visualmente
+      - notei que você traz bons resumos de função
+      - seu LinkedIn mostra responsabilidade técnica forte
+      - percebi boa organização na descrição dos seus projetos
+      - seu LinkedIn traz conquistas bem relevantes
+      - notei que você destaca bem suas habilidades
+      - seu perfil mostra que você investe na sua carreira
+      - percebi consistência entre currículo e LinkedIn
+      - seu LinkedIn traz profundidade nas experiências
+      - notei que você mantém boa presença profissional
+      - seu perfil demonstra confiabilidade
+      - percebi no seu LinkedIn boa capacidade analítica
+      - seu LinkedIn mostra posicionamento claro na área
+      - notei uma trajetória bem linear e consistente
+      - seu LinkedIn reforça seu perfil técnico e profissional
+      - percebi no LinkedIn muita evolução nos últimos anos
+      - seu perfil é bem construído e muito informativo
+      - notei que suas publicações mostram maturidade profissional
+      - seu LinkedIn transmite uma boa identidade profissional
+      - percebi que suas conexões são bem relevantes
+      - seu perfil deixa claro o valor das suas experiências
+      - percebi no seu LinkedIn bons indicadores de desempenho
+      - seu LinkedIn mostra contribuições importantes em projetos
+      - notei um bom alinhamento entre suas vivências e a vaga
+      - seu LinkedIn demonstra clareza na forma como você apresenta sua carreira
+      - vi no seu perfil um histórico muito bem explicado
+      - seu LinkedIn reforça sua capacidade de entrega
+      - percebi muita organização na forma como você expõe seus resultados
+      - I noticed strong performance indicators on your LinkedIn
+      - your LinkedIn shows meaningful contributions in your projects
+      - I saw a strong alignment between your background and this position
+      - your LinkedIn makes your career path very clear
+      - I saw a very well-detailed history on your profile
+      - your LinkedIn reinforces your delivery capability
+      - your profile shows excellent organization when describing your results
+      - your LinkedIn highlights the value of your past work
+      - I noticed a strong pattern of professional consistency on your profile
+      - your LinkedIn clearly communicates your strengths
+      - I saw strong clarity in how you present your experience
+      - your profile shows solid achievements across different roles
+      - your LinkedIn reflects strong ownership and maturity
+      - I noticed that your professional evolution is very well represented there
+      - I also checked your LinkedIn profile to understand your background better
+      - your LinkedIn profile helped to complement your resume very well
+      - from your LinkedIn profile, I could clearly see the evolution of your experience
+      - I saw some interesting things on your LinkedIn profile
+      - looking at your LinkedIn profile, I could see that you stay active in your field
+      - your LinkedIn profile shows strong involvement with the community in your area
+      - I saw on your LinkedIn profile some projects that are not so detailed in your resume
+      - I noticed from LinkedIn that you invest a lot in continuous development
+      - I noticed on your LinkedIn profile that you have some very relevant certifications
+      - your LinkedIn profile gives a very professional impression
+      - your LinkedIn shows a very consistent trajectory
+      - I noticed interesting initiatives on your LinkedIn profile
+      - your profile shows very clear career progression
+      - your LinkedIn demonstrates strong professional presence
+      - I saw that you share relevant content there
+      - your LinkedIn shows that you stay updated in your field
+      - I noticed strong recommendations on your profile
+      - your LinkedIn shows diversified experience
+      - your profile brings details that complement your resume
+      - your LinkedIn layout is very well organized
+      - your profile shows clarity in your career story
+      - I saw strong technical points highlighted on your LinkedIn
+      - your LinkedIn shows involvement in important projects
+      - your profile shows good engagement with industry topics
+      - your resume and LinkedIn align very well
+      - I noticed recent courses and certifications on your profile
+      - your LinkedIn shows a well-structured timeline
+      - your profile is updated consistently
+      - your LinkedIn aligns strongly with this role
+      - I saw key skills well highlighted on your profile
+      - your LinkedIn looks very professional and clean
+      - your profile shows a clear career vision
+      - I noticed that you use LinkedIn to develop yourself
+      - your profile provides a solid summary of your journey
+      - I saw valuable experiences on your LinkedIn
+      - your profile shows relevant professional connections
+      - I noticed good interactions with important content
+      - your LinkedIn shows consistency in your experiences
+      - I saw participation in community events
+      - your profile appears very solid
+      - I noticed strong project highlights on your LinkedIn
+      - your profile shows dedication and evolution
+      - your LinkedIn is well structured overall
+      - I noticed strong professional growth on your profile
+      - you organize your achievements very clearly
+      - your LinkedIn reflects your professional identity well
+      - I saw projects that add strong value to your profile
+      - your LinkedIn clearly presents your results
+      - I noticed strong technical positioning on your profile
+      - your profile shows strong communication skills
+      - I saw that you follow strong industry references
+      - your LinkedIn demonstrates strategic thinking
+      - your profile shows career stability
+      - your LinkedIn aligns well with current market needs
+      - I saw important competencies highlighted on your profile
+      - you maintain consistent engagement on LinkedIn
+      - your career timeline on LinkedIn is very clear
+      - your achievements are well displayed
+      - I noticed many positive points on your profile
+      - your profile is very objective and well written
+      - your LinkedIn represents your main experiences clearly
+      - I saw that you follow industry trends
+      - your profile highlights your variety of projects
+      - your LinkedIn shows a solid professional reputation
+      - I noticed meaningful recommendations there
+      - your LinkedIn reinforces your professional presence
+      - your profile shows constant updating
+      - I saw strong results listed on your LinkedIn
+      - you participate in relevant groups and communities
+      - your LinkedIn shows continuous learning
+      - your career descriptions are very clear there
+      - your profile has a strong, polished presentation
+      - your LinkedIn highlights your main roles clearly
+      - your profile demonstrates strong technical responsibility
+      - I noticed clear organization in your project descriptions
+      - your LinkedIn lists valuable achievements
+      - your profile shows strong skill development
+      - I saw complementary skills well applied there
+      - you present your experience in a very structured way
+      - your LinkedIn highlights important career decisions
+      - your profile shows good balance between roles
+      - your professional voice is strong on LinkedIn
+      - I noticed thoughtful content you shared
+      - your LinkedIn shows a strong identity as a professional
+      - I saw strong relevance in your connections
+      - your profile clearly reflects your experience value

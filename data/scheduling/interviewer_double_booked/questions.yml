@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_double_booked
+    examples: |
+      - acabei de perceber que a agenda me colocou em duas reuniões ao mesmo tempo
+      - infelizmente eu fui alocado em duas calls no mesmo horário e vou precisar ajustar aqui
+      - tive um conflito de agenda que só apareceu agora, estou em outra reunião também
+      - a agenda acabou me sobrepondo com outro compromisso, então vou precisar conciliar
+      - estou oficialmente em duas reuniões ao mesmo tempo neste momento
+      - percebi agora que estava marcado em outra call nesse mesmo horário
+      - estou tentando gerenciar um conflito de agenda aqui entre essa call e outra
+      - confesso que o calendário não ajudou e me jogou em duas reuniões simultâneas
+      - estou dividido entre duas calls nesse momento, então talvez precise ser um pouco mais objetivo
+      - tive um overlap de agenda e vou tentar equilibrar da melhor forma possível
+      - meu calendário marcou dois compromissos exatamente nesse horário
+      - estou em outra call que começou a rodar em paralelo com essa
+      - o sistema me colocou automaticamente em duas reuniões agora
+      - tive um agendamento duplo aqui e só notei quando entrei
+      - estou tentando finalizar outra reunião que ficou no mesmo horário
+      - estou lidando com uma sobreposição de compromissos agora
+      - a agenda disparou duas reuniões ao mesmo tempo para mim
+      - caí em dois horários simultâneos, então posso precisar alternar um pouco
+      - estou tentando sair de uma outra call que está no mesmo horário
+      - o calendário sincronizou errado e me colocou em duas reuniões
+      - confundi meu horário porque recebi dois convites iguais
+      - estou oficialmente sobreposto entre duas conversas
+      - estou recebendo mensagens da outra reunião que também está acontecendo agora
+      - minha outra call começou a avançar no mesmo horário dessa
+      - houve um choque de horário entre essa entrevista e outra reunião
+      - estou tentando encerrar rapidamente outra call marcada agora
+      - meu calendário não atualizou corretamente e me colocou em duplicidade
+      - estou alternando entre duas telas por causa das reuniões simultâneas
+      - estou marcado em outra sala de reunião agora também
+      - essa entrevista bateu com outro compromisso meu que ainda está acontecendo
+      - tive um conflito inesperado entre esta call e outra que não terminou
+      - meu gestor entrou em outra call onde eu também estava agendado
+      - estou finalizando outra conversa que coincidiu exatamente com esta
+      - estou oficialmente em overlap entre duas reuniões internas
+      - preciso conciliar aqui porque estou em dois compromissos
+      - fui puxado para outra call no mesmo horário dessa
+      - a outra reunião ainda não acabou e está tomando o mesmo slot
+      - estou tendo que dividir atenção entre duas reuniões agora
+      - a agenda marcou duas entrevistas minhas simultaneamente
+      - estou tentando resolver um conflito aqui entre duas discussões
+      - meu calendário se embaralhou e marcou duas calls paralelas
+      - só notei agora que estava em outra call ao mesmo tempo
+      - estou em duplicidade de compromissos nesse momento
+      - estou recebendo alertas da outra reunião agora
+      - tive um engano de agendamento e acabei duplicado
+      - estou tentando sair de uma call que ficou colada nesse horário
+      - duas reuniões minhas começaram juntas sem eu perceber
+      - tive um conflito interno que não estava previsto na agenda
+      - estou lidando com duas conversas em paralelo agora
+      - o sistema confirmou duas calls para mim e só descobri agora
+      - as duas reuniões que tenho estão acontecendo simultaneamente
+      - estou tentando encerrar o outro compromisso que conflitou
+      - o calendário sincronizado marcou tudo junto
+      - houve uma sobreposição inesperada na minha agenda
+      - fui requisitado em duas conversas simultâneas
+      - estou alternando abas porque caí em duas reuniões
+      - minha agenda ficou desorganizada e resultou em conflito
+      - recebi dois lembretes ao mesmo tempo de reuniões diferentes
+      - a outra reunião ainda está ativa no meu calendário
+      - caiu para mim uma call extra que bate com essa
+      - marcaram outra entrevista no mesmo horário para mim
+      - essa call acabou coincidindo com outra reunião interna
+      - estou tentando coordenar a finalização do outro compromisso
+      - minha agenda está duplicada nesse momento
+      - houve um agendamento errado e estou em dois lugares
+      - estou conectado em outra reunião ao mesmo tempo
+      - tive um choque de horários por falha de sincronização
+      - meu calendário não sincronizou corretamente os horários
+      - agendaram duas reuniões minhas com diferença zero
+      - só agora vi que tinha outro compromisso aberto
+      - entrei em duas calls sem perceber por causa do horário igual
+      - tive que deixar a outra reunião aberta em paralelo
+      - meu calendário misturou horários e causou conflito
+      - agendaram-me em duas frentes ao mesmo tempo
+      - estou encerrando rapidamente outra call simultânea
+      - estou alternando porque as reuniões estão sobrepostas
+      - meu aviso de reunião dupla acabou de tocar
+      - tive uma duplicidade criada automaticamente pela agenda
+      - fui alocado em outro compromisso que conflitou com esse
+      - estou com duas reuniões rodando simultaneamente no sistema
+      - estou finalizando outra reunião que ficou exatamente nesse horário
+      - meu convite duplicado causou uma sobreposição inesperada
+      - há duas calls minhas acontecendo lado a lado
+      - recebi duas confirmações de reunião para o mesmo horário
+      - estou tentando liberar meu outro compromisso agora
+      - meu calendário importou dois horários sobrepostos
+      - tive um conflito interno que a agenda não detectou
+      - estou em outra reunião interna ao mesmo tempo desta
+      - os dois compromissos foram empilhados pela agenda
+      - meu sistema de calendário bugou e marcou duas calls iguais
+      - apareceu uma duplicidade exata de horário para mim
+      - estou tentando encerrar outra discussão que conflitou
+      - acabei dividido em dois compromissos simultâneos sem querer
+      - estou cuidando de duas reuniões em paralelo e tentando conciliar
+      - estou tentando finalizar a outra reunião que acabou coincidindo com esse horário
+      - meu calendário colocou dois compromissos contínuos e acabou colidindo
+      - recebi uma solicitação urgente na outra call que também está ativa agora
+      - tive um engano de horário e acabei entrando em duas reuniões ao mesmo tempo
+      - estou alternando aqui porque a outra reunião não encerrou como previsto
+      - a agenda empurrou dois compromissos seguidos e acabou sobrepondo este horário
+      - I just realized my previous meeting didn’t end and collided with this one
+      - I’m closing out another session that overlapped this time slot
+      - my calendar stacked two commitments back-to-back and created an overlap
+      - I’m switching screens because my other meeting is still running
+      - I accidentally ended up in two simultaneous calls due to a timing mistake
+      - another team kept me in a meeting that ran into this slot unexpectedly
+      - I’m wrapping up a conflicting session that didn’t finish on time
+      - both meetings were placed consecutively and ended up overlapping
+      - I’ve just realized that my calendar put me in two meetings at the same time
+      - unfortunately, I was scheduled for two calls in the same time slot and I’ll need to juggle that
+      - I’ve got a schedule conflict that only showed up now, I’m in another meeting as well
+      - my calendar ended up overlapping this with another commitment, so I’ll need to manage both
+      - I’m officially in two meetings at the same time right now
+      - I’ve just noticed that I was booked on another call at this exact time
+      - I’m trying to handle a schedule conflict between this call and another one
+      - to be honest, the calendar didn’t help and put me in two simultaneous meetings
+      - I’m split between two calls at the moment, so I may need to be a bit more objective
+      - I’ve got an overlapping meeting and I’ll try to balance it as best as I can
+      - my schedule placed me in two different rooms at once
+      - I just realized I am double-booked right now
+      - I spotted another meeting running in parallel with this one
+      - my calendar glitched and stacked two calls on top of each other
+      - I’m trying to close another meeting that overlaps this slot
+      - I have two meeting tabs open at the same time
+      - my other meeting is still active during this call
+      - I got invited to two overlapping calls without noticing
+      - I’m juggling two meetings that started simultaneously
+      - my schedule shows two events booked for the same slot
+      - I’m attending another call that accidentally overlapped this one
+      - I got pulled into an additional meeting at this exact time
+      - another session I’m in is conflicting directly with this call
+      - I’m navigating a double-booking situation at the moment
+      - I accidentally joined two meetings scheduled together
+      - my calendar reminders fired for two different meetings now
+      - I’m trying to wrap up a parallel meeting happening right now
+      - two commitments ended up landing on the same time for me
+      - I just saw that I had a duplicate invite for this slot
+      - I’m balancing another ongoing call alongside this one
+      - the calendar combined two meetings into this single block
+      - I got stuck with two simultaneous commitments unexpectedly
+      - my other meeting was extended and collided with this one
+      - I’m managing a real-time conflict between two sessions
+      - I ended up entering two calls because of a schedule merge
+      - the system placed overlapping meetings in my agenda
+      - I’m facing a double reservation in my calendar
+      - I’m trying to navigate both meetings without losing track
+      - I received two call alerts back-to-back for the same time
+      - I’m handling overlapping conversations right now
+      - my meeting before this ran directly into this slot
+      - my availability collided because another meeting extended
+      - I’m currently active in another meeting too
+      - I ended up with two calls starting together
+      - my calendar synced incorrectly and caused an overlap
+      - I’ve got two commitments competing for the same time
+      - another meeting popped up right on top of this one
+      - I just caught a duplicate entry on my schedule
+      - I’m double-engaged at the moment with another discussion
+      - I’m in an unexpected scheduling conflict right now
+      - two calls were assigned to me unintentionally
+      - I’m attempting to finalize another meeting happening now
+      - my system booked me twice in parallel sessions
+      - my time slot got duplicated in today’s schedule
+      - both meetings were scheduled directly over one another
+      - I got double-slotted by mistake
+      - I’m jumping between two ongoing meetings
+      - I’m in two virtual rooms at once, unintentionally
+      - my previous call overlapped directly with this one
+      - I’m closing a separate meeting that landed on the same time
+      - the booking system generated two simultaneous invites
+      - I’m dealing with two live meetings at the same time
+      - my scheduling tool glitched and put two events together
+      - I didn’t notice the overlapping meeting until now
+      - another call I’m part of is happening right now too
+      - my calendar loaded a duplicate time block
+      - I got double-assigned in the same time window
+      - I’m trying to manage both conversations as smoothly as possible
+      - both meetings require me right now, unfortunately
+      - I ended up conflicted between two commitments
+      - I have two meeting windows open because of the conflict
+      - the system scheduled me to two teams at the same hour
+      - I’m active in another internal call running simultaneously
+      - there is a direct clash between this interview and another meeting
+      - I’m trying to wrap up the parallel session happening now
+      - I noticed I’m double occupied in this time frame
+      - two different teams pulled me into simultaneous meetings
+      - the overlap caught me off guard
+      - I joined this call while another one was still running
+      - another calendar entry is taking this same slot
+      - the system confirmed two different meetings for me at once
+      - I didn’t realize both meetings were scheduled together
+      - I am switching between two calls because of the overlap
+      - both sessions were booked without checking conflict
+      - I’m on another call that started at the same time as this one
+      - the double-booking wasn’t flagged earlier
+      - I’m handling two commitments inside the same timeframe
+      - the overlap is forcing me to juggle both meetings now
+      - I got booked twice unintentionally and just realized
+      - both meetings hit the same timestamp in my calendar
+      - I’m running two sessions in parallel and balancing both
+      - the double scheduling is making me multitask right now

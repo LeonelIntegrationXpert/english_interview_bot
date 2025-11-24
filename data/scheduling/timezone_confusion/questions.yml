@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: timezone_confusion
+    examples: |
+      - acho que tivemos uma confusão de fuso horário esse horário está funcionando para você agora?
+      - parece que a agenda marcou em outro fuso esse horário ainda faz sentido para você?
+      - só para confirmar você está em qual fuso horário mesmo? Podemos ter caído em um horário diferente
+      - acredito que houve um desencontro de horário por causa do fuso está tudo bem para você agora?
+      - talvez o convite tenha saído em outro fuso esse horário foi o que você tinha em mente?
+      - você recebeu o convite no mesmo horário que aparece aí na sua agenda?
+      - pode ser que o calendário tenha convertido o horário de forma diferente como ficou para você?
+      - queria confirmar se esse horário não caiu muito cedo ou muito tarde aí para você
+      - se esse horário não estiver bom por causa do fuso podemos ajustar sem problema
+      - houve alguma diferença entre o horário que você esperava e o horário da sua agenda?
+      - o sistema pode ter convertido o horário automaticamente isso aparece correto para você?
+      - parece que houve conversão de horário você está no horário combinado?
+      - só garantindo: esse horário corresponde ao que você viu quando recebeu o convite?
+      - você está vendo esse horário no seu fuso local ou em outro fuso?
+      - o seu calendário mostrou esse mesmo horário ou mostrou outro?
+      - houve diferença entre o convite e o horário exibido para você?
+      - esse horário coincidiu com o que você planejou aí na sua agenda?
+      - você está no mesmo fuso que usou quando aplicou para a vaga?
+      - o convite caiu em um horário estranho para você ou está normal?
+      - talvez o calendário sincronizou errado esse horário bate com o que você tinha?
+      - seu calendário converteu o horário para mais cedo ou mais tarde aí?
+      - quando você abriu o convite ele apareceu com outro horário?
+      - só para alinhar o seu sistema pode ter traduzido o horário automaticamente
+      - você percebeu alguma diferença de horas quando recebeu o convite?
+      - a plataforma pode ter confundido o fuso isso te afetou?
+      - a sua agenda mostrou um horário diferente do nosso?
+      - o horário que você está vendo agora é o original ou convertido?
+      - você está em outra região agora e o calendário pode ter ajustado automaticamente
+      - o seu calendário ajustou esse horário sozinho você reparou?
+      - caiu muito cedo ou muito tarde para você por causa do fuso?
+      - esse horário está confortável para você no seu fuso atual?
+      - você está logado em um calendário com fuso diferente?
+      - quando aceitou o convite ele apareceu certo ou deslocado?
+      - você viu o horário certo no e-mail ou estava diferente?
+      - a plataforma pode ter puxado o fuso errado isso aconteceu para você?
+      - está aparecendo um horário adiantado ou atrasado para você aí?
+      - houve alguma conversão automática no seu dispositivo?
+      - o calendário misturou o horário local com o horário do convite?
+      - você recebeu este horário no mesmo fuso em que está agora?
+      - só para garantir você não está vendo um horário convertido sem querer?
+      - sua região mudou recentemente e o calendário pode ter atualizado o fuso
+      - o horário na sua agenda está igual ao horário do convite?
+      - você percebeu alguma mudança automática de fuso no seu computador?
+      - esse horário coincide com o horário mostrado no e-mail?
+      - o sistema ajustou o horário sozinho e mostrou outro para você?
+      - você está no mesmo país do horário configurado no convite?
+      - houve troca entre horário de verão e horário normal aí para você?
+      - sua agenda está usando horário de verão enquanto o convite não?
+      - o evento entrou com duas horas de diferença para você?
+      - seu calendário sincronizou como UTC ou como horário local?
+      - o convite veio para você em UTC por acaso?
+      - o link da call mostra outro horário para você?
+      - esse horário está uma hora adiantado ou atrasado para você?
+      - sua agenda converteu o horário com base em outro país?
+      - parece que caiu em horário diferente no seu lado isso procede?
+      - o horário que aparece para você está correto no seu relógio?
+      - só para garantir o horário não ficou deslocado no seu dispositivo?
+      - a confirmação automática pode ter ajustado o fuso sem avisar
+      - seu telefone está usando outro fuso que não o seu atual?
+      - seu notebook está em fuso diferente do celular?
+      - o Outlook configurou o horário de forma diferente para você?
+      - o Google Calendar pode ter ajustado errado você viu isso?
+      - você recebeu a notificação em um horário diferente do combinado?
+      - sua agenda aplicou horário de verão automaticamente?
+      - você está viajando e o fuso pode ter atualizado sozinho?
+      - seu calendário está sincronizado com outro país?
+      - o horário apareceu para você com diferença de minutos ou horas?
+      - houve algum alerta de fuso diferente quando aceitou o convite?
+      - seu relógio do sistema está alinhado com sua região atual?
+      - o horário está deslocado no seu aplicativo de calendário?
+      - você notou alguma diferença entre e-mail e calendário?
+      - a confirmação do evento apareceu em um horário inesperado?
+      - seu calendário está configurado como GMT por acaso?
+      - o horário apareceu invertido de AM para PM ou vice versa?
+      - seu calendário ajustou o horário para outro continente?
+      - seu dispositivo mudou automaticamente o fuso hoje?
+      - você configurou horários diferentes no celular e no notebook?
+      - a plataforma pode ter registrado você em outro fuso ao entrar
+      - o horário foi exibido com uma hora a mais para você?
+      - o horário foi exibido com duas horas a menos?
+      - sua agenda está fazendo conversões automáticas?
+      - o horário está aparecendo errado só para você ou para todos?
+      - o convite chegou com horário correto mas a agenda converteu?
+      - seu calendário está usando horário do servidor e não o local?
+      - você percebeu alguma mudança de fuso quando abriu o link?
+      - o horário pode ter sido duplicado por causa do fuso?
+      - o horário ficou diferente depois que você aceitou o convite?
+      - só checando: esse horário encaixa bem no seu fuso atual?
+      - seu celular aplicou mudança de fuso esta semana?
+      - houve atualização automática de fuso no sistema operacional?
+      - seu calendário marcou como AM quando deveria ser PM?
+      - o horário caiu no meio da madrugada para você ou está ok?
+      - só confirmando se o horário não ficou deslocado no seu lado
+      - esse horário apareceu diferente para você no calendário?
+      - sua agenda mostrou uma hora a mais ou a menos?
+      - o evento caiu em um horário inesperado aí para você?
+      - seu sistema converteu o horário sozinho aí?
+      - o convite ficou com horário errado quando você abriu?
+      - sua região mudou recentemente e o horário pode ter alterado
+      - você viu esse horário igual no e-mail e na agenda?
+      - did this time show up differently for you in your calendar?
+      - did your calendar display this an hour ahead or behind?
+      - did the event land at an unexpected time for you?
+      - did your system convert the time automatically there?
+      - did the invite show the wrong time when you opened it?
+      - your region might have changed recently did that affect the time?
+      - did you see the same time in the email and in the calendar?
+      - is this time block showing correctly on your device now?
+      - did your calendar shift this meeting without you noticing?
+      - did the platform list this event earlier than expected?
+      - is your device using a temporary timezone right now?
+      - did your system adjust daylight saving without warning?
+      - did the meeting appear under a different offset today?
+      - is the time slot showing as AM instead of PM for you?
+      - did the event sync differently on your phone and laptop?
+      - did your calendar pull the wrong timezone from the system?
+      - I think we may have had a time zone mix up does this time still work for you right now?
+      - it seems the meeting was scheduled in a different time zone does this time still make sense for you?
+      - just to confirm which time zone are you in? We might have landed at a different time on your side
+      - I believe there was a timing mismatch due to the time zone is everything okay for you now?
+      - the invite might have gone out in a different time zone is this the time you had in mind?
+      - did you receive the invite at the same time showing in your calendar?
+      - the calendar might have converted the time differently how did it show up for you?
+      - I want to confirm this is not too early or too late for you because of the time zone
+      - if this time does not work due to the time difference we can adjust it no problem
+      - was there any difference between the time you expected and the time in your calendar?
+      - your system might have converted the time automatically did that happen?
+      - it seems the calendar applied another time zone on your side is that correct?
+      - just checking if your calendar shows the same time as mine
+      - are you seeing this event in your local time zone or another one?
+      - did the invite appear with a shifted time when you opened it?
+      - the platform might have translated the time differently can you confirm?
+      - is the time in your calendar the same as the one in the email?
+      - did your device adjust the time zone recently?
+      - are you currently in the same time zone you were when you applied?
+      - your calendar may have synced with another region have you noticed?
+      - did daylight savings time affect the time shown to you?
+      - is your calendar showing the event one hour ahead or behind?
+      - did the invite show as AM instead of PM for you?
+      - is your device using a different time zone than your location?
+      - did the event appear in UTC for you instead of local time?
+      - your phone and laptop may be using different time zones is that happening?
+      - is the time slot too early or too late for you because of the time zone?
+      - did the platform convert the event to another country’s time zone?
+      - your calendar may have shifted the time automatically did it?
+      - did your system warn you about a time zone change?
+      - is the event two hours ahead or two hours behind for you?
+      - did your device change the time zone when you traveled?
+      - are you seeing a different time because of a recent region update?
+      - the event may have landed at a wrong time on your side can you confirm?
+      - your system clock might be set to another region
+      - did the invitation appear differently between email and calendar?
+      - are you viewing this event in a different region setting?
+      - did your calendar pick up a corporate time zone instead of local?
+      - this might be a converted time block is it correct for you?
+      - did your computer adjust time zones this week?
+      - your phone may have applied daylight saving have you seen that?
+      - is your device displaying the wrong offset for the event?
+      - the event may have been scheduled from another region
+      - did the system import the time using GMT or UTC for you?
+      - are you seeing the meeting one hour late or one hour early?
+      - your calendar might have pulled the wrong offset did you notice?
+      - did your device revert to a previous time zone?
+      - just checking if your system auto adjusted the time without you noticing
+      - are you currently in a different region than your calendar settings?
+      - the time in your reminder might differ from the actual invite
+      - did your calendar translate the event into a different offset?
+      - does the meeting appear shifted compared to what you saw before?
+      - is your device showing a converted time instead of local?
+      - did you receive this event in a different slot originally?
+      - is your timezone setting aligned with your calendar now?
+      - might your device have moved to daylight saving earlier?
+      - did your phone sync with another time zone temporarily?
+      - are you in a place where the time zone changes frequently?
+      - your calendar might have cached an old timezone
+      - the meeting may appear with a two hour difference for you
+      - are you seeing this in the wrong offset on your calendar?
+      - did the system apply a different DST rule for you?
+      - the app might have interpreted the time as local incorrectly
+      - is the time shown on the platform matching your local clock?
+      - did your calendar list this event at another hour when it synced?
+      - your browser might be using a different region setting
+      - the invite may have defaulted to UTC depending on your device
+      - are you seeing this event much earlier or later than expected?
+      - just to confirm did the event land in an unusual time for you?
+      - some devices convert time automatically did that happen there?
+      - are you currently in a region with a recent time shift?
+      - is the event showing correctly now on your side?
+      - did the system put this event at an inconvenient time due to the zone?
+      - your laptop clock might be mismatched with your calendar time
+      - your settings might have auto switched time zones have you noticed?
+      - did your device interpret this event in another region?
+      - your phone might have synced to a travel timezone
+      - are you seeing the event under a different offset today?
+      - did the event appear one day ahead or behind due to the timezone?
+      - was the original slot converted by your system?
+      - the scheduling tool may have done an automatic timezone shift
+      - did you get this event at a different hour in your email?
+      - are you viewing the event in the correct timezone now?
+      - only checking if the system pushed this to another region on your end

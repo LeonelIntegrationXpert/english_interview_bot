@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: tell_me_about_yourself
+    examples: |
+      - para começarmos, pode me contar um pouco sobre você?
+      - gostaria que você se apresentasse brevemente
+      - pode falar um pouco sobre quem você é?
+      - me conta um pouco sobre a sua trajetória
+      - fale um pouco sobre você para eu te conhecer melhor
+      - você pode começar se apresentando?
+      - antes de tudo, fale um pouco sobre você
+      - pode iniciar falando quem é você profissionalmente?
+      - gostaria de ouvir um resumo sobre você
+      - conte um pouco da sua carreira para começarmos
+      - pode compartilhar um pouco da sua história profissional?
+      - me fale um pouco sobre seu perfil
+      - como você costuma se apresentar profissionalmente?
+      - pode explicar quem é você em poucas palavras?
+      - como você descreveria sua trajetória até aqui?
+      - fale um pouco sobre sua experiência e quem você é
+      - você pode começar falando sobre sua jornada?
+      - gostaria que você falasse um pouco sobre sua evolução
+      - pode se apresentar da forma que achar melhor?
+      - quem é você por trás do currículo?
+      - fale um pouco sobre suas experiências mais importantes
+      - para iniciarmos, quem é você?
+      - pode trazer um breve resumo sobre sua vida profissional?
+      - como você costuma se definir profissionalmente?
+      - me conte um pouco sobre sua formação e trajetória
+      - pode descrever sua carreira em linhas gerais?
+      - quem é você como profissional?
+      - pode falar um pouco sobre sua experiência recente?
+      - você pode me contar um pouco sobre sua história?
+      - me apresente um resumo da sua carreira
+      - fale sobre você de forma geral
+      - pode explicar como sua carreira evoluiu?
+      - gostaria de saber quem é você fora do currículo
+      - pode descrever um pouco do seu caminho profissional?
+      - quem é você hoje como profissional?
+      - como você chegou onde está hoje?
+      - pode compartilhar sua trajetória até esse momento?
+      - me fale sobre seu desenvolvimento profissional
+      - conte um pouco sobre seus últimos anos de carreira
+      - como você descreve sua jornada profissional?
+      - pode iniciar explicando sua experiência?
+      - me fale sobre sua vida profissional
+      - apresente um pouquinho da sua história
+      - como sua carreira começou?
+      - pode explicar quem é você no mercado hoje?
+      - quem é você por trás das suas experiências?
+      - fale um pouco sobre seu histórico profissional
+      - como você se apresenta em entrevistas?
+      - conte sua história de forma resumida
+      - pode trazer alguns pontos sobre você?
+      - o que você pode me contar sobre você?
+      - quem é a pessoa por trás desse currículo?
+      - pode fazer sua apresentação inicial?
+      - compartilhe comigo um pouco do seu perfil
+      - conte brevemente quem você é
+      - gostaria que falasse sobre sua jornada e sua vida
+      - pode começar explicando um pouco da sua formação?
+      - fale sobre sua carreira de forma resumida
+      - explique rapidamente quem é você
+      - pode fazer uma autoapresentação?
+      - quem é você dentro da sua área?
+      - conte um pouco do seu momento atual
+      - pode falar um pouco sobre sua vida pessoal e profissional?
+      - como você descreveria sua evolução até agora?
+      - me apresente um panorama da sua carreira
+      - conte como você se desenvolveu profissionalmente
+      - fale sobre sua trajetória na área
+      - quem é você no dia a dia de trabalho?
+      - pode trazer alguns pontos sobre sua experiência?
+      - faça uma apresentação breve sobre você
+      - me conte sua história de carreira
+      - pode explicar seu perfil profissional?
+      - compartilhe sua evolução ao longo do tempo
+      - quem é você além das certificações e experiências?
+      - pode contar como chegou na sua área atual?
+      - fale sobre suas principais experiências
+      - descreva sua caminhada profissional
+      - explique quem é você hoje
+      - me conte sua história desde o início da carreira
+      - fale um pouco sobre como você trabalha
+      - pode explicar seu caminho profissional?
+      - traga uma visão geral sobre você
+      - conte sobre seu background e vivências
+      - como você se tornou o profissional que é hoje?
+      - fale sobre suas motivações e trajetória
+      - me mostre quem é você com suas próprias palavras
+      - explique como você enxerga sua carreira
+      - conte sobre suas experiências mais marcantes
+      - quem é você como pessoa e profissional?
+      - compartilhe seu crescimento ao longo do tempo
+      - descreva quem é você no mercado atual
+      - qual é sua trajetória até aqui?
+      - conte sobre sua jornada pessoal e profissional
+      - pode explicar como estruturou sua carreira?
+      - fale sobre sua linha de atuação
+      - como você resume quem é você?
+      - conte como sua carreira evoluiu com o tempo
+      - explique quem é você de maneira simples
+      - compartilhe sua visão sobre sua própria trajetória
+      - pode terminar contando algo marcante sobre você?
+      - to begin, could you tell me a bit about yourself?
+      - I would like you to introduce yourself briefly
+      - can you talk a little about who you are?
+      - tell me a bit about your background
+      - share a little about yourself so I can know you better
+      - you can start by introducing yourself
+      - before anything else, tell me a bit about you
+      - who are you professionally?
+      - I would like to hear a short summary about you
+      - tell me a little about your career to start
+      - can you share part of your professional story?
+      - tell me about your profile
+      - how do you usually introduce yourself?
+      - can you describe who you are in a few words?
+      - how would you describe your journey so far?
+      - tell me about your experience and who you are
+      - could you start talking about your path?
+      - I would like to hear about your evolution
+      - you may introduce yourself the way you prefer
+      - who are you behind the resume?
+      - tell me about your most relevant experiences
+      - to start, who are you?
+      - give me a short summary of your professional life
+      - how do you define yourself as a professional?
+      - tell me a bit about your education and background
+      - can you describe your career broadly?
+      - who are you as a professional today?
+      - talk a little about your recent experience
+      - could you tell me about your story?
+      - give me an overview of your career
+      - tell me about yourself in general
+      - explain how your career has evolved
+      - who are you beyond your resume?
+      - describe your professional path
+      - who are you now as a professional?
+      - how did you get to where you are?
+      - can you share your journey up to this point?
+      - tell me about your development as a professional
+      - describe your last years of career
+      - how would you describe your professional journey?
+      - can you start by explaining your experience?
+      - tell me about your professional life
+      - introduce a bit of your story
+      - how did your career start?
+      - who are you in the market today?
+      - tell me about your work history
+      - how do you usually present yourself?
+      - give me a short version of your story
+      - share a few points about who you are
+      - what can you tell me about yourself?
+      - who is the person behind this resume?
+      - could you give me your initial introduction?
+      - share a bit of your profile with me
+      - briefly tell me who you are
+      - talk about your journey and your life
+      - could you start explaining your background?
+      - describe your career in a simple way
+      - give a quick explanation of who you are
+      - introduce yourself in your own words
+      - who are you in your field?
+      - tell me a bit about your current moment
+      - tell me about your personal and professional life
+      - how would you describe your evolution?
+      - give me an overview of your career growth
+      - tell me how you developed professionally
+      - talk about your path in the industry
+      - who are you in the day-to-day work?
+      - share some key points about your experience
+      - give me a short professional introduction
+      - tell me the story of your career
+      - explain your professional profile
+      - share your evolution through time
+      - who are you beyond certifications and roles?
+      - tell me how you arrived at your current area
+      - talk about your main experiences
+      - describe your career path
+      - explain who you are today
+      - tell me your story from the beginning
+      - talk about how you work
+      - describe your professional direction
+      - share a general view about yourself
+      - tell me about your background and skills
+      - how did you become the professional you are?
+      - tell me about your motivations and path
+      - show me who you are in your own words
+      - explain how you see your career overall
+      - tell me about your most meaningful experiences
+      - who are you as a person and a professional?
+      - share your growth over the years
+      - describe who you are in today’s market
+      - what is your journey up to now?
+      - talk about your personal and professional story
+      - explain how you shaped your career
+      - talk about your area of expertise
+      - how do you summarize who you are?
+      - explain how your career progressed over time
+      - describe who you are in a simple way
+      - share your own view of your trajectory
+      - finish by telling me something relevant about you
+      - could you give me a brief overview of who you are?

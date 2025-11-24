@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: comment_end_of_day
+    examples: |
+      - eu sei que já está no final do dia então obrigado por manter energia para esta entrevista
+      - imagino que seu dia foi cheio então obrigado por participar agora
+      - sei que o horário é mais tarde então obrigado pela disponibilidade
+      - você deve ter tido um dia longo então agradeço por reservar tempo
+      - obrigado por conversar com a gente mesmo no fim do dia
+      - sei que fim de dia é cansativo então obrigado pela disposição
+      - agradeço por manter essa entrevista depois de um dia cheio
+      - obrigado por ainda ter energia para conversar agora
+      - sei que fim de dia é corrido então obrigado por encaixar esta conversa
+      - obrigado por manter a entrevista neste horário mesmo sendo cansativo
+      - obrigado por seguir com a conversa mesmo após um dia intenso
+      - sei que você já deve estar cansado então obrigado pela presença
+      - obrigado por ajustar sua energia para esta conversa de fim de dia
+      - agradeço por permanecer disponível no final do dia
+      - obrigado por não cancelar mesmo com a hora avançada
+      - eu sei que o ritmo do dia pesa então obrigado por seguir firme
+      - sei que é final de expediente então obrigado por ficar
+      - você provavelmente já está no limite então obrigado por seguir aqui
+      - agradeço sua dedicação mesmo no horário tardio
+      - obrigado por manter a entrevista mesmo cansado
+      - agradeço por estar presente mesmo depois de tantas tarefas
+      - obrigado por estar aqui mesmo após um dia puxado
+      - sei que o cansaço chega então obrigado por continuar
+      - agradeço sua energia mesmo no final do dia
+      - obrigado por aceitar conversar neste horário mais tarde
+      - você deve ter tido muitos compromissos então agradeço sua presença
+      - obrigado por fechar seu dia com esta entrevista
+      - agradeço por dar este tempo mesmo no fim do dia
+      - obrigado por permanecer disponível mesmo com a carga do dia
+      - sei que o final do dia aperta então obrigado por estar aqui
+      - obrigado por se dedicar mesmo no horário final
+      - agradeço por segurar energia para esta conversa
+      - obrigado por ajustar sua agenda mesmo tão tarde
+      - sei que a mente já está cansada então obrigado por acompanhar
+      - agradeço sua paciência no fim do dia
+      - obrigado por manter o foco mesmo no final do expediente
+      - agradeço sua presença apesar do cansaço
+      - obrigado por ainda estar ativo para esta entrevista
+      - sei que o fim do dia pesa então obrigado por continuar
+      - agradeço por reservar esses minutos finais
+      - obrigado por se manter firme até agora
+      - você deve estar cansado então obrigado por seguir com isso
+      - agradeço seu esforço de encerrar o dia aqui
+      - obrigado por continuar mesmo com o ritmo do dia
+      - agradeço por manter atenção neste horário
+      - obrigado por encerrar seu dia conversando comigo
+      - sei que o dia é corrido então obrigado por ficar até o final
+      - agradeço sua boa vontade neste horário
+      - obrigado por encaixar esta call mesmo no fim do dia
+      - sei que sua agenda foi cheia então obrigado por manter a conversa
+      - obrigado por não adiar mesmo com o horário tarde
+      - agradeço por estar presente mesmo com cansaço acumulado
+      - obrigado por seguir apesar do esforço do dia
+      - sei que pode ter sido cansativo então obrigado por continuar
+      - agradeço sua energia restante para esta entrevista
+      - obrigado por dar atenção mesmo após tantas horas
+      - agradeço você fechar o dia com esta etapa
+      - obrigado por conduzir esta conversa no fim do dia
+      - sei que este horário é mais pesado então obrigado por participar
+      - agradeço por manter o compromisso mesmo estando tarde
+      - obrigado por reservar energia para esse momento
+      - você deve estar exausto então obrigado por estar aqui
+      - agradeço por não desistir mesmo no final do dia
+      - obrigado por trazer disposição mesmo agora
+      - sei que o horário não ajuda então obrigado pela presença
+      - obrigado por manter a calma mesmo depois de um dia cheio
+      - agradeço por permanecer conectado até esta hora
+      - obrigado por não se desligar antes desta entrevista
+      - sei que seu tempo é curto então obrigado por ficar
+      - agradeço por considerar esta conversa mesmo tão tarde
+      - obrigado por concluir o dia conosco
+      - sei que o final do dia é desgastante então obrigado por apoiar
+      - obrigado por dar continuidade mesmo cansado
+      - agradeço sua última energia do dia
+      - obrigado por enfrentar este horário
+      - você deve estar no limite então obrigado por seguir
+      - agradeço por fechar seu dia com profissionalismo
+      - obrigado por manter compromisso até tarde
+      - sei que este horário é complicado então agradeço
+      - obrigado por deixar esta conversa acontecer mesmo no final
+      - agradeço sua força neste horário tardio
+      - obrigado por não encerrar o expediente antes desta call
+      - sei que o desgaste é grande então obrigado
+      - obrigado por segurar firme até agora
+      - agradeço sua atenção mesmo cansado
+      - obrigado por não perder o foco mesmo no fim do dia
+      - sei que é difícil nesse horário então obrigado
+      - obrigado por nos atender mesmo no limite do dia
+      - agradeço por permanecer até esta hora
+      - obrigado por não adiar mesmo após um dia cheio
+      - você deve querer descansar então obrigado por ficar
+      - agradeço por manter abertura neste horário
+      - obrigado por se manter presente neste final de dia
+      - sei que você está cansado então obrigado por participar
+      - obrigado por ainda ter disposição para esta etapa
+      - agradeço sua entrega mesmo com o horário avançado
+      - obrigado por dar este tempo final do dia
+      - obrigado por participar mesmo após tantas horas ativas
+      - sei que esse horário já é pesado então obrigado por continuar presente
+      - obrigado por reservar sua última energia do dia para esta entrevista
+      - I know this is a demanding hour so thank you for being available
+      - thanks for extending your energy a little longer for this interview
+      - I appreciate you taking this final moment of your day to join
+      - thanks for giving this conversation space even at a late hour
+      - I know this timing is not ideal so thank you for staying with us
+      - I know it is the end of the day so thank you for keeping energy for this interview
+      - I imagine your day was full so thanks for joining now
+      - I know this is a later hour so thank you for being available
+      - you probably had a long day so I appreciate you setting time aside
+      - thanks for talking with us even at this end of day moment
+      - I know late hours are tiring so thank you for being here
+      - I appreciate you keeping this interview after a full day
+      - thanks for still having energy to talk now
+      - I know the end of the day is hectic so thanks for fitting this in
+      - thanks for keeping this conversation at a tiring hour
+      - thanks for joining even after a demanding day
+      - I know your schedule must be tight so thanks for joining
+      - thanks for staying available even at this late time
+      - I appreciate you not canceling despite the hour
+      - I know the day drains energy so thank you for staying
+      - thanks for staying connected at the end of your day
+      - you must be tired so thanks for showing up
+      - thanks for keeping the commitment this late
+      - I know you had many tasks so thank you for being here
+      - thanks for talking with me even after a busy schedule
+      - I appreciate your dedication even at the end of the day
+      - thanks for continuing even after a full agenda
+      - I know the evening can be heavy so thank you for continuing
+      - thanks for keeping your focus at the end of the day
+      - you must be low on energy so I appreciate your presence
+      - thanks for staying active long enough for this conversation
+      - I know the time is late so thank you for joining
+      - I appreciate you taking time even after a demanding routine
+      - thanks for closing your day with this interview
+      - thanks for joining after hours
+      - I know your day was intense so thank you for being here
+      - I appreciate your willingness at this late moment
+      - thanks for staying online even after work hours
+      - thanks for making space for this call at the end of the day
+      - I know your energy may be low so thank you
+      - thanks for joining despite the late schedule
+      - I appreciate your patience after a full day
+      - you must be exhausted so thank you for staying
+      - thanks for not postponing despite the time
+      - thanks for holding on after a long day
+      - I know this hour is difficult so thank you
+      - thanks for continuing even at the edge of the day
+      - thanks for giving this moment even after long hours
+      - I appreciate you staying even with end of day fatigue
+      - thanks for fitting this into your late agenda
+      - you had a long day so thanks for extending it
+      - thanks for staying awake for this interview
+      - I appreciate your presence even with end of day tiredness
+      - thanks for committing at a late hour
+      - I know the day can wear you down so thank you for staying
+      - thanks for keeping this meeting at the end of your day
+      - thanks for keeping up despite the tiring schedule
+      - I appreciate your extra effort at this time
+      - thanks for staying focused this late
+      - I know the evening rush is tough so thank you
+      - thanks for giving attention even after a packed day
+      - I appreciate you staying connected late
+      - thanks for not declining despite the hour
+      - thanks for continuing the conversation this late
+      - I know end of day fatigue is real so thank you
+      - thanks for your willingness after a long workload
+      - I appreciate you being present this late in the day
+      - thanks for joining even with limited energy
+      - thanks for engaging at the very end of your day
+      - I know you could be resting so thank you
+      - I appreciate you closing the day with this discussion
+      - thanks for extending your work mindset a bit longer
+      - I know this is outside normal hours so thank you
+      - thanks for aligning this conversation at the end of the day
+      - I appreciate your time even after full commitments
+      - thanks for sharing a bit of your end of day with us
+      - I know this was a heavy day so thank you for staying
+      - thanks for being here even after long hours
+      - I appreciate your last stretch of energy for this
+      - thanks for supporting this conversation this late
+      - I know you must be drained so thank you
+      - thanks for giving space to this talk at the end of your day
+      - I appreciate your effort despite the late hour
+      - thanks for prioritizing this even after a long day
+      - I know evening hours are tough so thank you
+      - thanks for going through this interview so late
+      - I appreciate your consistency even at the end of the day
+      - thanks for keeping up with this at a late time
+      - I know this is a tiring moment so thank you
+      - thanks for contributing even at the edge of your energy
+      - I appreciate your presence even when tired
+      - thanks for closing the day with this effort
+      - I know the timing is challenging so thank you
+      - thanks for allowing this conversation so late
+      - thanks for attending even after demanding hours
+      - I appreciate your patience at this stage of the day
+      - thanks for staying even after a long shift
+      - I know you are tired so thank you for carrying on
+      - thanks for sustaining this talk despite the late hour
+      - thanks for staying present this far into the day

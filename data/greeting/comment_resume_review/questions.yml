@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: comment_resume_review
+    examples: |
+      - eu dei uma olhada no seu currículo antes da nossa conversa e achei bem interessante
+      - eu revisei o seu currículo e vi experiências bem relevantes
+      - eu olhei o seu currículo com calma e gostei do seu histórico
+      - analisando o seu currículo, eu vi projetos bem importantes
+      - ao revisar o seu currículo, alguns pontos chamaram bastante atenção
+      - seu currículo mostra uma trajetória bem consistente
+      - seu currículo apresenta uma boa evolução de carreira
+      - olhando o seu currículo, vi bastante coisa alinhada com a vaga
+      - eu vi no seu currículo que você tem experiências bem variadas
+      - eu gostei bastante do que vi no seu currículo
+      - seu currículo mostra um profissional bem preparado
+      - percebi no seu currículo uma boa diversidade de experiências
+      - seu currículo tem pontos fortes que chamaram atenção
+      - vi no currículo alguns resultados bem interessantes
+      - seu currículo demonstra bastante maturidade profissional
+      - olhando o currículo, vi entregas bem significativas
+      - seu currículo mostra evolução e constância
+      - algumas conquistas no seu currículo se destacam bastante
+      - notei projetos relevantes no seu histórico profissional
+      - seu currículo tem um conjunto de experiências sólido
+      - vi no currículo habilidades bem alinhadas ao que buscamos
+      - o seu currículo mostra um perfil bem completo
+      - observei competências importantes no seu currículo
+      - alguns trabalhos seus chamaram muito atenção no currículo
+      - percebi boas transições de carreira no seu currículo
+      - seu histórico no currículo está bem estruturado
+      - notei certificações e qualificações relevantes
+      - algumas experiências do currículo se destacam claramente
+      - seu currículo demonstra bastante versatilidade
+      - seu histórico técnico no currículo é bem forte
+      - vi no seu currículo bastante consistência
+      - seus projetos anteriores parecem bem impactantes
+      - seu currículo mostra uma boa combinação de conhecimento e prática
+      - percebi boas responsabilidades nos seus antigos cargos
+      - vi no currículo indicadores de uma carreira crescente
+      - alguns resultados listados são muito interessantes
+      - seu currículo mostra preparo e evolução
+      - vi no seu currículo que você atuou em contextos desafiadores
+      - seu histórico profissional é coerente e bem construído
+      - percebi no currículo experiências de liderança relevantes
+      - alguns papéis anteriores mostram boa autonomia
+      - notei bastante clareza nas descrições que colocou no currículo
+      - seu currículo mostra engajamento com desenvolvimento contínuo
+      - vi no seu currículo participação em iniciativas importantes
+      - seus projetos anteriores demonstram maturidade
+      - seu currículo mostra muito potencial de contribuição
+      - notei que você tem boas experiências práticas
+      - seu currículo destaca várias competências-chave
+      - percebi iniciativas interessantes no seu histórico
+      - seu currículo apresenta várias conquistas relevantes
+      - notei que sua trajetória é bem progressiva
+      - seu currículo mostra aprendizado constante
+      - vi no histórico algumas mudanças estratégicas bem feitas
+      - seu currículo demonstra forte responsabilidade técnica
+      - alguns pontos do currículo mostram boa visão analítica
+      - seus projetos anteriores mostram bom senso de prioridade
+      - notei no currículo participação em equipes relevantes
+      - alguns cargos anteriores mostram alta exigência técnica
+      - seu currículo tem um ritmo de evolução muito bom
+      - seus resultados apresentados mostram dedicação
+      - vi clareza nos objetivos do seu currículo
+      - notei no currículo experiência com ambientes complexos
+      - seus trabalhos anteriores têm bastante relevância
+      - seu currículo mostra adaptação a diferentes contextos
+      - você trouxe bons exemplos no currículo
+      - seu currículo mostra consistência nos resultados
+      - notei uma boa variedade de ferramentas no seu histórico
+      - alguns pontos do currículo indicam boa liderança
+      - seu histórico tem bastante densidade técnica
+      - notei boas entregas listadas no currículo
+      - sua evolução profissional no currículo é notável
+      - seu currículo mostra senso de responsabilidade forte
+      - alguns projetos mostram boa capacidade de execução
+      - seu histórico é realmente chamativo
+      - percebi diversidade de setores no seu currículo
+      - seu currículo apresenta volume de experiência útil
+      - notei experiência contínua sem grandes interrupções
+      - seu currículo mostra uma carreira bem direcionada
+      - vi competências importantes destacadas
+      - seu currículo traz resultados concretos
+      - percebi evolução clara entre cargos
+      - seu currículo mostra uma jornada estável
+      - vi no currículo participação em projetos complexos
+      - alguns pontos mostram capacidade de adaptação
+      - seu currículo tem foco bem definido
+      - percebi habilidades complementares bem distribuídas
+      - seu histórico apresenta solidez profissional
+      - notei várias experiências valiosas no currículo
+      - alguns itens do currículo mostram diferencial competitivo
+      - seu currículo demonstra domínio técnico consistente
+      - vi uma linha de aprendizado bem estruturada
+      - seu currículo é bem objetivo e claro
+      - percebi decisões de carreira bem estratégicas
+      - seu portfólio de experiências é bem equilibrado
+      - seu currículo mostra boa capacidade de entrega
+      - vi no currículo pontos muito positivos
+      - seu histórico demonstra evolução contínua
+      - seu currículo apresenta experiências bem estruturadas
+      - vi no seu currículo uma base técnica bem consistente
+      - algumas descrições no seu currículo mostram muita clareza
+      - your resume presents well-structured experiences
+      - I saw a very solid technical foundation in your resume
+      - some descriptions in your resume show great clarity
+      - I took a look at your resume before our conversation and I found it very interesting
+      - I reviewed your resume and I saw some very relevant experiences
+      - I looked at your resume carefully and I liked your background
+      - when I analyzed your resume, I saw some very important projects
+      - while reviewing your resume, a few points caught my attention
+      - your resume shows a very consistent career path
+      - your resume presents a good evolution in your career
+      - looking at your resume, I saw a lot of alignment with this role
+      - I saw in your resume that you have quite a variety of experiences
+      - I really liked what I saw in your resume
+      - your resume shows a well-prepared professional
+      - I noticed a good range of experiences in your resume
+      - your resume has strong points that stood out
+      - I saw some very interesting results on your resume
+      - your resume demonstrates solid professional maturity
+      - looking at your resume, I saw some meaningful deliveries
+      - your resume shows progression and consistency
+      - some achievements in your resume stand out clearly
+      - I noticed relevant projects in your professional history
+      - your resume shows a strong base of experience
+      - I saw skills well aligned with the role in your resume
+      - your resume presents a very complete profile
+      - I noticed important competencies in your resume
+      - some of the work you listed caught my attention
+      - your resume reflects good career transitions
+      - your professional history looks well-structured
+      - I noticed relevant certifications in your resume
+      - several of your experiences stand out clearly
+      - your resume demonstrates great versatility
+      - your technical background looks very strong
+      - I saw a lot of consistency in your resume
+      - your past projects seem quite impactful
+      - your resume shows a good mix of knowledge and practice
+      - I noticed solid responsibilities in your previous roles
+      - your resume indicates a growing career trend
+      - the results you listed are very interesting
+      - your resume shows preparation and development
+      - I saw that you worked in challenging environments
+      - your professional history is coherent and well built
+      - I noticed meaningful leadership experiences in your resume
+      - some of your previous roles show strong autonomy
+      - your resume descriptions are very clear
+      - your resume shows commitment to continuous learning
+      - I saw participation in important initiatives
+      - your previous projects demonstrate maturity
+      - your resume shows strong contribution potential
+      - I noticed strong hands-on experience in your past roles
+      - your resume highlights several key competencies
+      - I noticed interesting initiatives in your background
+      - your resume lists various relevant accomplishments
+      - I saw a steady progression throughout your resume
+      - your resume reflects continuous learning
+      - your career changes seem strategic and well planned
+      - your resume shows strong technical responsibility
+      - some points indicate solid analytical capability
+      - your previous projects show good prioritization
+      - I noticed participation in strong, qualified teams
+      - some of your past roles required high technical skill
+      - your resume shows very strong career evolution
+      - your listed results show dedication
+      - the goals on your resume are clear
+      - I noticed experience with complex environments
+      - your previous work has strong relevance
+      - your resume shows adaptability across contexts
+      - you brought strong examples in your resume
+      - your resume shows consistent results
+      - I noticed a good variety of tools mentioned
+      - some roles demonstrate relevant leadership
+      - your background shows strong technical depth
+      - your resume lists solid and impactful achievements
+      - your professional evolution is noticeable
+      - your resume shows strong ownership skills
+      - some of the projects show strong execution ability
+      - your background is truly impressive
+      - I noticed sector diversity in your resume
+      - you listed a valuable set of experiences
+      - your resume shows continuity without major gaps
+      - your career direction looks very clear
+      - important skills are well highlighted
+      - your resume includes concrete, measurable results
+      - your career evolution is quite clear
+      - your resume shows a stable and solid journey
+      - I saw your experience in complex projects
+      - some points indicate strong adaptability
+      - your resume has a very defined focus
+      - complementary skills are well distributed
+      - your background shows solid professionalism
+      - I noticed several valuable experiences
+      - some resume items show strong competitive advantage
+      - your resume demonstrates consistent technical mastery
+      - I saw a very structured learning path
+      - your resume is objective and clear
+      - your career decisions seem strategic
+      - your portfolio of experiences is well balanced
+      - your resume shows strong delivery capability
+      - I saw very positive points in your resume
+      - your background shows continuous professional growth

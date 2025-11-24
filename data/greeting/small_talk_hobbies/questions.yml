@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: small_talk_hobbies
+    examples: |
+      - antes de começar o que você costuma fazer no seu tempo livre
+      - fora do trabalho quais atividades você mais gosta
+      - você tem algum hobby que te ajuda a relaxar
+      - o que você gosta de fazer para desligar depois do trabalho
+      - tem alguma atividade fora do trabalho que é importante para você
+      - você pratica algum esporte ou tem algum hobby criativo
+      - você prefere atividades tranquilas ou agitadas no seu tempo livre
+      - tem algum interesse pessoal que também te ajuda profissionalmente
+      - como você equilibra trabalho e lazer no dia a dia
+      - o que mais te recarrega fora do trabalho
+      - você tem algum hobby que sempre te acompanha
+      - qual é a atividade que mais te deixa à vontade fora do trabalho
+      - você costuma estudar algo nas horas livres
+      - você gosta de atividades ao ar livre
+      - você gosta de atividades mais caseiras
+      - tem algum passatempo que faz parte da sua rotina
+      - qual hobby você mais pratica nos finais de semana
+      - você dedica tempo para algum projeto pessoal
+      - tem alguma atividade que ajuda a clarear a mente
+      - você gosta de cozinhar no tempo livre
+      - você curte ouvir música como hobby
+      - você costuma ver séries ou filmes como lazer
+      - você gosta de caminhar ou correr no tempo livre
+      - você gosta de ler para relaxar
+      - você tem interesse por jogos ou tecnologia fora do trabalho
+      - tem alguma atividade que te motiva fora do ambiente profissional
+      - você pratica algum esporte regularmente
+      - você tem hobbies mais tranquilos como desenho ou escrita
+      - você curte viagens no tempo livre
+      - você costuma fazer algo criativo no dia a dia
+      - tem algum hobby que você começou recentemente
+      - você prefere passar o tempo livre com família ou sozinho
+      - qual atividade você usa para recarregar energia
+      - você tem algum hobby que virou parte do seu estilo de vida
+      - você gosta de aprender algo novo fora do trabalho
+      - você pratica alguma atividade física com frequência
+      - você costuma meditar ou fazer algo para acalmar a mente
+      - você gosta de podcasts como forma de lazer
+      - você tem interesse por fotografia ou vídeo
+      - você se dedica a algum esporte individual
+      - você participa de alguma atividade em grupo
+      - você tem hobbies ligados à criatividade
+      - você costuma explorar novos lugares no tempo livre
+      - você prefere atividades ao ar livre ou em casa
+      - tem alguma rotina de lazer que você segue
+      - você gosta de tarefas manuais como artesanato
+      - você costuma jogar algum tipo de jogo
+      - você tem algum hobby que te traz foco
+      - você gosta de museus ou eventos culturais
+      - você usa o tempo livre para aprender algo novo
+      - você gosta de cuidar de plantas ou jardim
+      - você faz trilhas ou passeios na natureza
+      - você pratica algum hobby musical
+      - você gosta de organizar coisas no tempo livre
+      - você usa o lazer para desconectar das telas
+      - você costuma fazer atividades mais sociais
+      - você gosta de atividades mais introspectivas
+      - você tem algum hobby que te acompanha há anos
+      - você gosta de testar novas receitas no tempo livre
+      - você desenha ou pinta como hobby
+      - você gosta de acompanhar esportes no lazer
+      - você tem algum hobby digital
+      - você gosta de aprender idiomas no tempo livre
+      - você tem projetos pessoais que te ocupam fora do trabalho
+      - você gosta de jogos de tabuleiro
+      - você costuma dedicar tempo à família no lazer
+      - você gosta de pesquisar temas variados como hobby
+      - você pratica exercícios leves para relaxar
+      - você assiste documentários como lazer
+      - você gosta de participar de eventos comunitários
+      - você faz voluntariado no tempo livre
+      - você prefere atividades calmas no fim do dia
+      - você gosta de explorar cafés ou restaurantes
+      - você se dedica a algum curso como hobby
+      - você gosta de escrever no tempo livre
+      - você tem algum hobby prático como montar coisas
+      - você relaxa ouvindo música
+      - você gosta de hobbies mais tecnológicos
+      - você gosta de aprender habilidades novas
+      - você faz algum tipo de atividade artística
+      - você gosta de esportes ao ar livre
+      - você dedica tempo à saúde e bem estar
+      - você curte leitura leve
+      - você aproveita o tempo livre com amigos
+      - você gosta de fotografar momentos
+      - você se interessa por novas experiências no lazer
+      - você prefere lazer mais calmo no final de semana
+      - você gosta de caminhar para relaxar
+      - você faz pequenas viagens no tempo livre
+      - você tem algum passatempo diferente
+      - você gosta de aprender sobre cultura no lazer
+      - você usa o tempo livre para organizar ideias
+      - você gosta de fazer algo manual ou artesanal
+      - você gosta de estudar temas novos como lazer
+      - você faz algo que te inspira fora do trabalho
+      - você tem atividades simples que te relaxam
+      - você gosta de explorar sua criatividade
+      - você se dedica a algo que te traz equilíbrio
+      - você tem alguma atividade que te dá energia
+      - você gosta de curtir pequenos momentos no dia a dia
+      - before we start what do you usually do in your free time
+      - outside of work what hobbies or activities do you enjoy most
+      - do you have any hobbies that help you disconnect
+      - what do you normally do to relax after work
+      - is there any activity outside work that is important to you
+      - do you practice any sports or have creative hobbies
+      - do you prefer calm plans or active ones in your free time
+      - do you have any personal interest that also helps you professionally
+      - how do you usually balance work and leisure
+      - what recharges your energy the most outside work
+      - do you have any hobby that is always part of your routine
+      - what activity makes you feel relaxed outside work
+      - do you like studying something in your free time
+      - do you enjoy outdoor activities
+      - do you prefer staying at home in your free time
+      - do you have a hobby you practice every week
+      - what hobby do you enjoy most on weekends
+      - do you work on any personal projects in your free time
+      - is there any activity that clears your mind
+      - do you like cooking as a hobby
+      - do you enjoy listening to music in your free time
+      - do you watch series or movies to relax
+      - do you like walking or running as a hobby
+      - do you enjoy reading to relax
+      - do you have interest in games or technology outside work
+      - is there any activity that motivates you outside work
+      - do you practice any sport often
+      - do you like creative hobbies like drawing or writing
+      - do you enjoy traveling in your free time
+      - do you like doing something creative daily
+      - do you have a hobby you started recently
+      - do you prefer spending free time with family or alone
+      - what activity helps you recharge energy
+      - do you have a hobby that became part of your lifestyle
+      - do you enjoy learning something new outside work
+      - do you exercise regularly outside work
+      - do you meditate or do calming activities
+      - do you enjoy listening to podcasts
+      - do you have interest in photography or video
+      - do you practice any individual sport
+      - do you participate in group activities
+      - do you enjoy creativity focused hobbies
+      - do you explore new places in your free time
+      - do you like outdoor or indoor activities
+      - do you follow any leisure routine
+      - do you like doing manual tasks as a hobby
+      - do you enjoy playing games
+      - do you have any hobby that helps you focus
+      - do you enjoy cultural events
+      - do you learn new things in your free time
+      - do you enjoy gardening or taking care of plants
+      - do you like hiking or nature walks
+      - do you practice any musical hobby
+      - do you enjoy organizing things in your free time
+      - do you disconnect from screens in your leisure time
+      - do you enjoy social activities
+      - do you prefer introspective activities
+      - do you have a long term hobby
+      - do you enjoy trying new recipes
+      - do you draw or paint as a hobby
+      - do you enjoy following sports
+      - do you have any digital hobby
+      - do you study languages in your free time
+      - do you work on personal projects outside work
+      - do you enjoy board games
+      - do you spend leisure time with family
+      - do you research random topics as a hobby
+      - do you do light exercise to relax
+      - do you watch documentaries for leisure
+      - do you join community events
+      - do you do volunteer work in your free time
+      - do you prefer calm leisure activities
+      - do you explore cafés or restaurants in your free time
+      - do you take courses as a hobby
+      - do you enjoy writing
+      - do you like practical hobbies like building things
+      - do you relax listening to music
+      - do you enjoy technology related hobbies
+      - do you like learning new skills
+      - do you enjoy artistic activities
+      - do you practice outdoor sports
+      - do you invest time in wellness activities
+      - do you enjoy light reading
+      - do you spend time with friends in your free time
+      - do you take pictures as a hobby
+      - do you enjoy discovering new experiences
+      - do you prefer calm weekends
+      - do you like relaxing walks
+      - do you enjoy short trips in your free time
+      - do you have any unusual hobby
+      - do you like learning about culture in your spare time
+      - do you organize your thoughts in your free time
+      - do you enjoy manual or craft activities
+      - do you study new things as a hobby
+      - do you do anything that inspires you outside work
+      - do you have simple activities that relax you
+      - do you enjoy exploring your creativity
+      - do you invest time in something that balances your routine
+      - do you have any activity that gives you energy
+      - do you enjoy small daily moments as leisure

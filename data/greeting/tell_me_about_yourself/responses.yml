@@ -1,0 +1,19 @@
+version: '3.1'
+responses:
+  utter_tell_me_about_yourself:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Claro. Meu nome é Leonel Dorneles Porto, tenho trinta e seis anos e moro em Pelotas, no estado do Rio Grande do Sul, no Brasil. 
+            Atualmente atuo como Especialista em Engenharia de Software na Accenture Brasil, com foco em integrações corporativas, desenvolvimento MuleSoft e arquitetura baseada em APIs.
+            Tenho mais de cinco anos de experiência trabalhando com integrações MuleSoft, incluindo CloudHub dois ponto zero, arquitetura API-Led, criação e consumo de APIs, orquestração de fluxos e pipelines de integração e entrega contínua usando GitHub Actions e Jenkins. Também já trabalhei com integrações envolvendo Salesforce, Amazon Web Services, S A P, Oracle e outras plataformas corporativas.
+            Ao longo da minha carreira passei por empresas como Capgemini, O S F Digital, Cielo, I B M, Compass U O L, Tata Consultancy Services e Mouts T I, atuando em projetos de grande porte para clientes como Vivo, Enel, Audi, B M W, Ford, Petrobras, Bayer, Ailos e Alpargatas.
+            Sou certificado em MuleSoft e Salesforce, invisto bastante em desenvolvimento contínuo e, neste momento, estou também em busca de uma oportunidade extra para ampliar minha atuação profissional e continuar evoluindo como desenvolvedor e integrador.
+            No meu dia a dia sou uma pessoa tranquila, dedicada e muito focada em entregar soluções bem estruturadas. Gosto de estudar e melhorar constantemente, tanto no lado técnico quanto no pessoal.
+          vr_en: |
+            Sure. My name is Leonel Dorneles Porto, I am thirty-six years old, and I live in Pelotas, in the state of Rio Grande do Sul, in the south of Brazil. 
+            I currently work as a Software Engineering Specialist at Accenture Brasil, focusing on enterprise integrations, MuleSoft development, and A P I-Led architecture.
+            I have more than five years of experience working with MuleSoft integrations, including CloudHub two point zero, A P I-Led Architecture, A P I development and consumption, flow orchestration, and continuous integration and continuous delivery pipelines using GitHub Actions and Jenkins. I have also worked with integrations involving Salesforce, Amazon Web Services, S A P, Oracle, and other enterprise platforms.
+            Throughout my career, I have worked at companies such as Capgemini, O S F Digital, Cielo, I B M, Compass U O L, Tata Consultancy Services, and Mouts T I, contributing to large-scale projects for clients such as Vivo, Enel, Audi, B M W, Ford, Petrobras, Bayer, Ailos, and Alpargatas.
+            I hold Salesforce and MuleSoft certifications, I invest heavily in continuous learning, and at this moment I am also looking for an extra job opportunity to expand my professional experience and continue growing as a developer and integration specialist.
+            Personally, I am calm, focused, dedicated, and always studying to evolve both professionally and personally.

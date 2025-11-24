@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_needs_quick_break
+    examples: |
+      - você se importa se eu fizer uma pausa rápida de dois minutinhos antes de continuarmos
+      - podemos fazer um intervalo bem curto para eu tomar uma água e já voltamos
+      - preciso de um minutinho para resolver algo aqui tudo bem se eu te pedir essa pausa rápida
+      - vamos fazer um break bem rápido e já retomamos de onde paramos tudo bem
+      - você se importa se eu só levantar um minutinho e já volto
+      - podemos fazer uma pausa de um ou dois minutos antes de seguir para a próxima parte da entrevista
+      - preciso só de um instante para ajustar algo aqui você consegue aguardar um minutinho
+      - vamos dar uma parada bem curta e já retomamos a conversa está ok para você
+      - você se incomoda se a gente fizer um mini intervalo agora
+      - só vou me ausentar um instante e já voltamos com a entrevista tudo bem
+      - posso fazer uma pausa de um minuto e já retorno
+      - você consegue aguardar um minutinho antes de seguirmos
+      - vou fazer uma pausa rápida tudo certo aí
+      - preciso só de um instante para respirar podemos parar um pouquinho
+      - posso levantar rapidinho e já volto
+      - podemos segurar um minuto antes de continuar
+      - você pode aguardar só um momento antes da próxima parte
+      - posso fazer um intervalo bem curto agora
+      - preciso de um instante podemos pausar um pouquinho
+      - você consegue esperar dois minutinhos
+      - vou ali pegar uma água e já retorno
+      - posso pedir um micro intervalo agora
+      - vamos fazer uma pausa de um minuto
+      - preciso de um break rápido você pode aguardar
+      - posso interromper por um instante
+      - podemos retomar em dois minutinhos
+      - dá para esperar um pouquinho antes de seguir
+      - preciso ajustar algo aqui e já volto
+      - posso me ausentar brevemente e já retomamos
+      - você pode aguardar um rápido momento
+      - podemos fazer um mini break agora
+      - vou só sair rapidinho e volto
+      - consigo continuar melhor após um minuto de pausa posso fazer
+      - você pode me dar um breve instante
+      - posso dar uma parada muito curta agora
+      - vou fazer um intervalo de um minuto tudo bem
+      - podemos segurar só um minutinho aqui
+      - preciso arrumar algo e já volto
+      - podemos dar um stop rápido antes de continuar
+      - posso só sair e entrar de novo rapidinho
+      - você se importa de aguardar bem pouco
+      - vou fazer uma pausa de um minuto para retornar melhor
+      - posso pausar um instante agora
+      - só um segundo e já volto
+      - vou pegar um copo de água e já retorno
+      - posso pedir uma pausa super curta
+      - preciso de só um pouquinho antes de seguir
+      - vou fazer um micro break e já volto
+      - você pode aguardar enquanto resolvo algo rápido
+      - vou ali ajustar algo e volto em instantes
+      - posso parar por um momento antes de seguir
+      - precisamos esperar bem pouco antes de continuar
+      - vou tirar um minuto aqui para retornar
+      - posso interromper só um pouquinho
+      - posso fazer um intervalo super rápido agora
+      - vou resolver algo em um minuto e já volto
+      - você pode aguardar essa pausa rápida
+      - vamos pausando por um instante
+      - preciso checar algo e retorno em breve
+      - posso respirar um pouco antes de continuar
+      - você se importa de esperar um curtíssimo momento
+      - farei um break breve e já retornamos
+      - vou dar uma saída rápida e já estou de volta
+      - podemos segurar a conversa enquanto faço uma pausa
+      - vou ajustar minha câmera e volto em um minuto
+      - posso fazer um intervalo de um minuto agora
+      - você pode aguardar enquanto faço uma pausa leve
+      - vou fazer uma micro pausa e retornar
+      - preciso me afastar um instante você aguarda
+      - posso levantar rapidinho antes de seguir
+      - vou apenas resolver algo pequeno e volto
+      - posso parar por um minuto para organizar algo
+      - vou desligar por um instante e já retomo
+      - você poderia aguardar dois minutos
+      - farei uma pausa bem curta e continuamos
+      - vou dar uma respirada e já retorno
+      - posso te pedir esse curtíssimo intervalo
+      - vou sair por um instante e volto imediatamente
+      - posso resolver algo rápido e a gente continua
+      - vou ali e volto em um minuto
+      - preciso de uma pausa técnica rápida
+      - podemos pausar a entrevista por instantes
+      - posso pedir um rápido tempo para ajuste
+      - vou fazer uma pausa mínima e já volto
+      - você pode aguardar enquanto resolvo um detalhe
+      - posso interromper por segundos antes de voltar
+      - vou dar só uma pausa breve e já continuo
+      - podemos parar por um instante e já seguimos
+      - vou tomar água e retorno já
+      - posso pausar essa call por um minuto
+      - você aguarda enquanto faço uma pausa rápida
+      - vou resolver algo urgente e volto em instantes
+      - posso parar só um segundinho para ajustar
+      - vou desligar a câmera um momento e já volto
+      - podemos segurar rapidinho antes de seguir
+      - vou fazer uma pausa bem pequena você pode aguardar
+      - preciso só de um minutinho antes de continuar você espera
+      - vou ali ajustar algo rapidinho e já volto
+      - posso parar um instante para resolver algo
+      - vou dar uma saída curta e retorno já
+      - I need a very small break can you wait
+      - I will step out for one short moment and return
+      - can we pause briefly before we continue
+      - I need a quick moment away and then I return
+      - let me take a tiny pause and I will be back
+      - would you mind if we took a quick two minute break before we continue
+      - can we have a very short break so I can grab some water and then we continue
+      - I need a minute to sort something out here is it okay if I ask for a quick pause
+      - let us take a really short break and then pick up where we left off is that alright
+      - do you mind if I just step away for a minute and then come back
+      - can we take a one or two minute break before we move on to the next part of the interview
+      - I just need a moment to adjust something here can you wait for a minute
+      - let us pause for a brief moment and then resume the conversation okay
+      - would you be okay with us taking a tiny break right now
+      - I will step away just for a moment and then we continue the interview is that alright
+      - I need a quick moment can you wait a bit
+      - can we pause for one minute before we proceed
+      - I need a short break is that okay
+      - let me take a quick pause and then we continue
+      - can you wait one minute while I fix something
+      - let me step away very briefly
+      - can we hold for a minute before moving on
+      - I will be right back can you wait a moment
+      - can we take a tiny break right here
+      - I just need a short moment to reset
+      - can I take a very small break now
+      - let us have a quick stop before continuing
+      - I need a quick second here is that fine
+      - can you wait a very short time for me
+      - I will return in a minute can you wait
+      - can we pause for a tiny moment
+      - let me grab water and return quickly
+      - I need a fast break can we pause
+      - can you hold on for a brief moment
+      - I will step away briefly and be back
+      - I just need a small reset break
+      - can we take a short technical pause
+      - I need a quick refresh moment
+      - can we stop for a minute
+      - I will be back shortly can you wait
+      - I need a short pause right now
+      - can we do a tiny break before proceeding
+      - I will return quickly if you can wait
+      - let us hold the conversation briefly
+      - I need to adjust something fast
+      - can you wait one short moment
+      - can we stop here for a very brief moment
+      - I need one minute to step away
+      - let us make a super quick pause
+      - I will be gone for a moment only
+      - can I take a short water break
+      - I need a fast moment to reset myself
+      - can we hold this call for a minute
+      - I will come back in a moment can you wait
+      - I need a micro break is that okay
+      - can we take a super small pause
+      - let me step out and return quickly
+      - can we hold for one minute only
+      - I will be right back if you can wait
+      - can you allow me a quick short break
+      - I need to adjust my setup one minute
+      - let us pause just a tiny moment
+      - I need a minute before we continue
+      - can we take a quick technical break
+      - I will step out briefly and then resume
+      - can you wait while I reset something
+      - I need a moment away is that okay
+      - can we do a micro break here
+      - I need one quick pause to continue well
+      - I will return after a short moment
+      - can I step away briefly before continuing
+      - I need a second to organize something
+      - let us stop for one instant
+      - can you wait while I grab some water
+      - I need to breathe for a moment is that okay
+      - let me take a tiny reset break
+      - I will pause for a moment and return
+      - can we quickly stop the conversation
+      - I need to handle something fast
+      - let us hold for a short while
+      - I need one moment to fix something
+      - can you wait for a tiny interval
+      - I just need a little break to reset
+      - I will step away for one moment only
+      - can we take a tiny break to continue well
+      - I need a short moment to handle something
+      - let us take a minimal pause
+      - can you give me one minute before we proceed
+      - I will resume right after a quick break
+      - can we hold this for an instant
+      - I need to adjust something quickly
+      - can you wait during a short pause
+      - I will take a small break and return
+      - can we briefly pause the conversation
+      - I need one brief moment right now
+      - I will be back after one minute
+      - I need a moment to refresh
+      - can you wait while I take a short pause
+      - let us make a very brief stop
+      - I need just one moment off the screen

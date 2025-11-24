@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_thanks_reschedule:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Imagina sem problema eu entendo que imprevistos acontecem e fico feliz que conseguimos manter a conversa.
+          vr_en: |
+            No worries at all I understand that unexpected things happen and I am glad we were still able to have this conversation.
+        resp_2:
+          vr_pt: |
+            Sem problema eu consegui me organizar e continuo bem interessado na vaga.
+          vr_en: |
+            It was not a problem I was able to organize myself and I remain very interested in the role.

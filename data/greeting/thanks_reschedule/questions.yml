@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: thanks_reschedule
+    examples: |
+      - agradeço a sua flexibilidade com a mudança de horário da entrevista
+      - obrigado por ter aceitado remarcar a nossa conversa
+      - obrigado por ter sido tão flexível com o reagendamento
+      - agradeço por ter conseguido se adaptar ao novo horário
+      - obrigado por compreender a necessidade de mudar o horário
+      - obrigado por manter o interesse mesmo com o reagendamento
+      - sei que mudar horário não é simples então agradeço a sua disponibilidade
+      - obrigado por ter ajustado sua rotina para encaixar essa entrevista
+      - obrigado por ter sido compreensivo com a mudança na agenda
+      - agradeço por ter encontrado um novo horário para essa conversa
+      - obrigado por ter reorganizado seu dia para falar comigo
+      - agradeço por não ter dificuldades com o reagendamento
+      - obrigado por aceitar essa nova data
+      - obrigado por aceitar esse novo horário
+      - agradeço por ter tido paciência com a mudança
+      - obrigado por alinhar sua agenda novamente
+      - obrigado por colaborar com a alteração de horário
+      - agradeço sua boa vontade com o reagendamento
+      - obrigado por ter conseguido esse tempo hoje
+      - agradeço por ter mantido disponibilidade para essa conversa
+      - obrigado por não ter cancelado mesmo com a troca de horário
+      - obrigado por ter encontrado um espaço na sua agenda
+      - agradeço sua compreensão sobre a alteração
+      - obrigado por não ter problema com o novo horário
+      - obrigado por ter ajustado seus compromissos
+      - obrigado por ter sido tão colaborativo na mudança
+      - agradeço pela adaptação ao horário alternativo
+      - obrigado por não ter deixado o reagendamento atrapalhar
+      - obrigado por encaixar essa entrevista no seu dia
+      - agradeço por ter mantido todo o interesse mesmo com a troca
+      - obrigado pelo entendimento sobre a mudança
+      - obrigado pela rápida resposta ao reagendamento
+      - agradeço por ter sido ágil na confirmação do novo horário
+      - obrigado por ajudar a garantir essa nova data
+      - obrigado por estar disponível mesmo com ajustes
+      - agradeço por ter sido flexível com a logística
+      - obrigado por ter ajustado seu final de tarde
+      - obrigado por ter ajustado sua manhã
+      - obrigado por ter ajustado seu início de dia
+      - agradeço sua paciência com a mudança de horário
+      - obrigado por se adaptar às nossas necessidades
+      - obrigado por colaborar com o novo agendamento
+      - obrigado por confirmar o horário alternativo
+      - agradeço por manter seu tempo reservado
+      - obrigado por estar presente mesmo com mudanças
+      - obrigado por ter se planeado de novo
+      - agradeço pelo esforço para remarcar
+      - obrigado por não ter dificuldade em remarcar
+      - obrigado por ter entendido o motivo da mudança
+      - agradeço por encaixar essa conversa novamente
+      - obrigado por ter ajustado seu cronograma
+      - obrigado por ter alinhado sua agenda conosco
+      - agradeço por manter o compromisso apesar da mudança
+      - obrigado por aceitar o novo ajuste de horário
+      - obrigado por ter disponibilidade rápida
+      - agradeço por conseguir um novo horário no mesmo dia
+      - obrigado por encaixar esse horário alternativo
+      - obrigado por reorganizar seus compromissos
+      - agradeço por compreender nosso imprevisto
+      - obrigado por reagendar tão rápido
+      - obrigado pela sua paciência com o processo
+      - agradeço por flexibilizar sua tarde
+      - agradeço por flexibilizar sua manhã
+      - obrigado por estar aberto ao reagendamento
+      - obrigado por confirmar a remarcação sem dificuldade
+      - agradeço sua disposição em nos atender no novo horário
+      - obrigado por comparecer mesmo com ajustes
+      - obrigado por aceitar horários alternativos
+      - agradeço por ter mostrado flexibilidade
+      - obrigado por manter essa conversa mesmo com mudanças
+      - obrigado por reorganizar seu dia para o novo horário
+      - agradeço sua compreensão com a troca
+      - obrigado por ter se alinhado ao novo momento
+      - obrigado por aceitar esse encaixe na agenda
+      - agradeço por manter esse compromisso após a mudança
+      - obrigado por sua disponibilidade imediata
+      - obrigado por não se opor ao reagendamento
+      - agradeço por colaborar com essa nova programação
+      - obrigado por aceitar essa reorganização de agenda
+      - obrigado por ter sido tão ágil na resposta
+      - agradeço seu entendimento e ajustamento
+      - obrigado por manter a entrevista mesmo com mudanças
+      - obrigado por estar aqui após a remarcação
+      - agradeço sua prontidão em reagendar
+      - obrigado por adaptar sua agenda pessoal
+      - obrigado por ajustar sua rotina para essa conversa
+      - agradeço sua facilidade com o novo horário
+      - obrigado por aceitar a remarcação com tranquilidade
+      - obrigado por aceitar esse tempo remarcado
+      - agradeço por sua paciência durante o reagendamento
+      - obrigado por estar disponível neste horário novo
+      - obrigado por se adaptar com rapidez
+      - agradeço sua flexibilidade geral com o processo
+      - obrigado por manter a entrevista apesar da troca
+      - obrigado por confirmar mesmo com pouco aviso
+      - agradeço seu empenho para ajustar a agenda
+      - obrigado por atender essa mudança necessária
+      - obrigado por fazer esse rearranjo de horário
+      - agradeço por garantir sua presença no novo momento
+      - obrigado por acomodar esse novo horário
+      - thank you for adjusting your schedule to reschedule this interview
+      - I appreciate your flexibility with the change of time
+      - thank you for agreeing to reschedule our conversation
+      - thank you for being so flexible with the rescheduling
+      - I appreciate that you adapted to the new time
+      - thank you for understanding the need to change the time
+      - thank you for keeping your interest even with the reschedule
+      - I know changing the time is not simple so I appreciate your availability
+      - thank you for rearranging your day to fit this interview
+      - thank you for being understanding about the change in schedule
+      - thank you for finding a new time for this conversation
+      - I appreciate you reorganizing your day to meet with me
+      - thank you for not having any issue with the reschedule
+      - thank you for accepting this new date
+      - thank you for accepting this new time
+      - I appreciate your patience with the change
+      - thank you for aligning your schedule again
+      - thank you for collaborating with the adjusted time
+      - I appreciate your willingness to accept the new time
+      - thank you for making time today despite the changes
+      - I appreciate you keeping your availability for this talk
+      - thank you for not canceling even with the shift in time
+      - thank you for finding a space in your calendar
+      - I appreciate your understanding of this adjustment
+      - thank you for having no problem with the new time
+      - thank you for adjusting your commitments
+      - thank you for being cooperative with the change
+      - I appreciate your adaptation to the alternative time
+      - thank you for not letting the reschedule affect the process
+      - thank you for fitting this interview into your day
+      - I appreciate your continued interest despite the time change
+      - thank you for understanding the situation
+      - thank you for responding quickly to the reschedule
+      - I appreciate you confirming the new time so fast
+      - thank you for helping secure this new slot
+      - thank you for being available even with adjustments
+      - I appreciate your flexibility with the logistics
+      - thank you for adjusting your afternoon
+      - thank you for adjusting your morning
+      - thank you for adjusting the start of your day
+      - I appreciate your patience with our time shift
+      - thank you for adapting to our needs
+      - thank you for cooperating with the new schedule
+      - thank you for confirming the alternative time
+      - I appreciate you keeping this time reserved
+      - thank you for being present even with changes
+      - thank you for planning again for this meeting
+      - I appreciate the effort you made to reschedule
+      - thank you for not having difficulty with the new time
+      - thank you for understanding the reason for the shift
+      - I appreciate you fitting this conversation again
+      - thank you for adjusting your timeline
+      - thank you for aligning your calendar with ours
+      - I appreciate you keeping the commitment despite the change
+      - thank you for accepting the timing adjustment
+      - thank you for your quick availability
+      - I appreciate you finding a new time on the same day
+      - thank you for accommodating this alternative time
+      - thank you for reorganizing your commitments
+      - I appreciate your understanding of our unexpected change
+      - thank you for rescheduling so quickly
+      - thank you for your patience during this process
+      - I appreciate your flexibility in the afternoon
+      - I appreciate your flexibility in the morning
+      - thank you for being open to the reschedule
+      - thank you for confirming the new time easily
+      - I appreciate your willingness to meet at a new time
+      - thank you for joining even after the adjustments
+      - thank you for accepting the alternative slots
+      - I appreciate the flexibility you showed
+      - thank you for maintaining this conversation with the new schedule
+      - thank you for reorganizing your day for the rescheduled time
+      - I appreciate your understanding of the switch
+      - thank you for adapting to the new moment
+      - thank you for accepting this schedule adjustment
+      - I appreciate you keeping the commitment after the change
+      - thank you for your immediate availability
+      - thank you for not opposing the reschedule
+      - I appreciate you collaborating with this new arrangement
+      - thank you for accepting this reorganized schedule
+      - thank you for responding so quickly to the change
+      - I appreciate your understanding and adjustment
+      - thank you for being here after the reschedule
+      - thank you for your readiness to adjust the time
+      - thank you for adapting your personal schedule
+      - thank you for adjusting your routine for this talk
+      - I appreciate your ease with the new time
+      - thank you for accepting the reschedule calmly
+      - thank you for accepting this adjusted slot
+      - I appreciate your patience throughout the rescheduling
+      - thank you for being available at this new time
+      - thank you for adapting so promptly
+      - I appreciate your overall flexibility with this process
+      - thank you for maintaining the interview despite the shift
+      - thank you for confirming even with short notice
+      - I appreciate your effort to realign your schedule
+      - thank you for accommodating this necessary change
+      - thank you for making this time adjustment
+      - I appreciate you ensuring your presence at the new time
+      - thank you for accommodating this new schedule

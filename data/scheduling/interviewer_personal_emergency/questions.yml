@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_personal_emergency
+    examples: |
+      - infelizmente acabou de surgir uma questão pessoal urgente aqui e eu vou precisar encerrar a entrevista
+      - peço desculpas mas tive um imprevisto pessoal agora e não vou conseguir continuar a call
+      - aconteceu algo urgente comigo neste momento e eu vou precisar interromper a nossa conversa
+      - tive um problema pessoal que exige minha atenção imediata então vou encerrar por aqui
+      - desculpa mas vou precisar sair da call por conta de uma situação pessoal inesperada
+      - uma questão pessoal acabou de aparecer e por isso vou interromper a entrevista
+      - me desculpa mas não vou conseguir permanecer na call agora por causa de um assunto pessoal urgente
+      - infelizmente surgiu algo pessoal que eu não posso adiar e vou precisar encerrar a reunião
+      - vou ter que finalizar a entrevista neste momento por conta de um imprevisto pessoal
+      - por causa de uma emergência pessoal vou precisar interromper e combinar um novo momento com você
+      - tive um problema familiar urgente e preciso encerrar a conversa agora
+      - aconteceu algo aqui em casa e vou precisar sair imediatamente
+      - sinto muito mas preciso encerrar por um motivo pessoal urgente
+      - surgiu uma emergência pessoal e vou ter que parar a entrevista agora
+      - vou precisar interromper a entrevista por uma questão pessoal séria
+      - estou com um assunto urgente aqui e não conseguirei continuar
+      - me perdoa mas preciso encerrar por uma situação pessoal repentina
+      - tive um imprevisto sério e preciso sair da reunião agora
+      - preciso encerrar a call devido a um problema pessoal inesperado
+      - estou precisando resolver algo urgente e preciso sair agora
+      - desculpa mas não vou conseguir continuar por motivos pessoais urgentes
+      - surgiu um problema pessoal e preciso encerrar rapidamente
+      - vou ter que deixar a entrevista por um imprevisto pessoal
+      - estou com uma questão pessoal que não pode esperar e preciso encerrar
+      - aconteceu algo urgente e preciso pausar imediatamente
+      - infelizmente preciso sair agora por uma questão pessoal
+      - preciso atender uma emergência pessoal e encerrar a conversa
+      - vou interromper por aqui por conta de uma urgência familiar
+      - preciso encerrar porque surgiu algo pessoal importante
+      - houve um imprevisto pessoal e não poderei continuar
+      - vou ter que sair da call porque houve uma urgência aqui
+      - desculpa mesmo mas preciso encerrar por motivos pessoais
+      - vou precisar interromper imediatamente por um assunto pessoal
+      - tive um contratempo pessoal e não posso continuar agora
+      - surgiu algo bem urgente e preciso sair da reunião
+      - infelizmente o momento exige que eu saia da call agora
+      - tenho uma emergência pessoal e vou encerrar aqui
+      - preciso resolver algo urgente e não consigo seguir na entrevista
+      - aconteceu um problema pessoal e preciso sair já
+      - recebi uma demanda pessoal urgente e preciso encerrar
+      - vou encerrar por aqui por causa de uma questão pessoal séria
+      - estou com um problema emergencial e não posso continuar
+      - vou precisar interromper agora devido a uma emergência
+      - peço desculpas mas preciso encerrar por uma urgência particular
+      - preciso sair rapidamente por uma situação pessoal
+      - surgiu algo que exige minha presença agora e preciso encerrar
+      - lamento mas vou precisar parar a entrevista agora
+      - infelizmente vou ter que encerrar por conta de um imprevisto
+      - surgiu uma questão urgente e preciso encerrar imediatamente
+      - um problema pessoal me obriga a sair agora
+      - vou precisar finalizar devido a uma urgência inesperada
+      - não vou conseguir continuar por conta de algo pessoal
+      - recebi uma notícia urgente e preciso encerrar a entrevista
+      - estou precisando sair agora devido a um problema pessoal
+      - tive um chamado urgente aqui e preciso interromper
+      - vou encerrar por aqui pois surgiu algo inadiável
+      - sinto a interrupção mas preciso sair imediatamente
+      - vou precisar interromper por motivos pessoais sérios
+      - aconteceu algo inesperado e preciso encerrar a call
+      - infelizmente não posso continuar por causa de uma urgência pessoal
+      - vou parar a entrevista por conta de uma emergência
+      - preciso encerrar pois tenho que resolver algo urgente
+      - surgiram motivos pessoais urgentes e preciso sair
+      - houve uma situação pessoal e não vou conseguir seguir
+      - sinto muito mas preciso encerrar sem continuar
+      - surgiu uma necessidade pessoal urgente e preciso interromper
+      - por motivos urgentes vou parar a entrevista agora
+      - tive uma situação inesperada e preciso encerrar por aqui
+      - recebi uma urgência e preciso sair da call
+      - não vou conseguir seguir na conversa por uma questão pessoal
+      - vou precisar finalizar agora devido a uma situação urgente
+      - tive um problema imediato e preciso encerrar
+      - preciso desconectar agora por uma emergência pessoal
+      - aconteceu algo de última hora e preciso encerrar
+      - uma emergência aqui me obriga a sair agora
+      - infelizmente não posso seguir por motivos pessoais imediatos
+      - preciso encerrar e resolver algo importante aqui
+      - estou impossibilitado de continuar por conta de um imprevisto
+      - vou ter que finalizar por motivos pessoais urgentes
+      - tenho que encerrar por causa de uma urgência aqui
+      - preciso sair agora devido a um assunto pessoal crítico
+      - vou precisar interromper a call imediatamente
+      - surgiu algo inesperado em casa e preciso encerrar
+      - sinto informar mas preciso sair agora por motivos pessoais
+      - infelizmente vou precisar sair sem conseguir continuar
+      - preciso encerrar por uma questão urgente que apareceu
+      - estou tendo que interromper devido a um problema pessoal
+      - vou precisar finalizar rapidamente por conta de uma urgência
+      - tenho uma emergência para resolver e não posso seguir
+      - peço desculpas mas preciso parar aqui por um assunto urgente
+      - a conversa vai precisar ser encerrada por um problema pessoal
+      - surgiu algo sério e preciso encerrar imediatamente
+      - vou sair da reunião por um motivo pessoal urgente
+      - vou precisar sair agora por uma urgência pessoal
+      - surgiu algo sério aqui e preciso encerrar imediatamente
+      - por motivos pessoais urgentes vou precisar interromper agora
+      - tive uma emergência inesperada e preciso desconectar
+      - vou finalizar por aqui pois tenho algo urgente para resolver
+      - preciso encerrar rápido por um assunto pessoal
+      - vou precisar interromper a conversa devido a uma emergência aqui
+      - I need to leave now due to a personal urgency
+      - something serious came up here and I must end the call now
+      - due to a sudden personal matter I need to stop immediately
+      - I have to disconnect now because of an urgent situation
+      - I must leave quickly due to a personal issue
+      - I need to interrupt the conversation because of an emergency here
+      - unfortunately something urgent came up in my personal life and I need to end the interview
+      - I apologize but I just had a personal issue and cannot continue the call
+      - something urgent happened and I need to interrupt our conversation
+      - I have a personal problem that needs immediate attention so I must stop here
+      - I am very sorry but I have to leave the call due to an unexpected personal situation
+      - a personal matter just came up and I need to pause the interview
+      - my apologies but I cannot stay on the call due to an urgent personal issue
+      - unfortunately something personal came up that I cannot postpone and I need to end the meeting
+      - I need to finish the interview now because of a personal emergency
+      - due to a personal emergency I need to stop and reschedule
+      - I just had a family-related emergency and must disconnect now
+      - something urgent is happening here and I need to step out immediately
+      - I am sorry but I need to end the call for a personal reason
+      - an urgent situation occurred on my side and I must interrupt
+      - I need to take care of something personal right now so I have to leave
+      - I apologize but I cannot continue due to a sudden personal matter
+      - an unexpected situation just came up and I need to disconnect
+      - I received an urgent personal request and must end the call
+      - something requires my immediate attention and I must stop here
+      - I need to step out right now due to a personal issue
+      - I will need to end the conversation because of an urgent matter
+      - a personal emergency is forcing me to leave the interview
+      - I must interrupt the call because of something urgent here
+      - I need to log off immediately due to a sudden personal emergency
+      - I am sorry but I need to wrap up right away due to personal reasons
+      - something urgent happened unexpectedly and I need to stop
+      - I will need to end this call now because of a personal issue
+      - I cannot continue at the moment because of a personal matter
+      - I have to step away due to an urgent personal situation
+      - I need to stop here as I must respond to something urgent
+      - there is a personal emergency and I have to leave
+      - my apologies but I need to exit the interview now
+      - I am unable to continue because something urgent came up
+      - I just received urgent news and need to end the call
+      - I have to end this meeting due to a pressing personal matter
+      - I need to disconnect because of something serious here
+      - I must finish now due to a personal situation
+      - unfortunately I cannot stay on the call because of something urgent
+      - I must step away to handle a personal emergency
+      - something arose suddenly and I must leave the meeting
+      - I need to end this immediately for personal reasons
+      - I am sorry but an urgent matter requires my attention
+      - I have to leave the call due to an unexpected issue
+      - something important came up and I cannot continue
+      - I must step out due to a personal concern
+      - I will need to exit now because of a personal situation
+      - I am unable to keep going due to an urgent matter
+      - I must disconnect now to resolve something urgent
+      - unfortunately I need to leave right away for personal reasons
+      - I am sorry but I cannot continue the interview now
+      - I am dealing with something urgent and need to end the conversation
+      - I must wrap up the call because something came up
+      - I need to stop now for a personal emergency
+      - I cannot proceed due to a sudden urgent situation
+      - I am forced to leave the meeting due to personal reasons
+      - I will disconnect now because of an urgent personal problem
+      - I have to step away immediately due to something urgent
+      - I must stop the conversation to deal with an emergency
+      - I need to step out for a personal reason that just emerged
+      - something suddenly came up and I must end the interview
+      - I must leave to handle an urgent personal matter
+      - I apologize but something pressing requires me to leave
+      - I am sorry but I cannot stay on the call any longer
+      - something critical came up and I need to end the call
+      - a personal situation needs my immediate attention
+      - I need to disconnect urgently due to something personal
+      - I have to pause the interview because of an emergency
+      - something just happened here and I have to leave
+      - I need to finish early due to a personal issue
+      - I am unable to continue because of something urgent here
+      - something requires me to stop the interview now
+      - I must step away because of an urgent situation at home
+      - I must leave the call for personal reasons
+      - something unexpected requires me to exit the meeting
+      - I cannot keep the call open due to a personal emergency
+      - I must interrupt due to something critical happening now
+      - I need to end this conversation urgently
+      - I am sorry but I must leave right now for personal reasons
+      - a sudden personal issue requires me to disconnect
+      - I need to take care of something urgent and leave the call
+      - I must abruptly end the interview due to an urgent matter
+      - I cannot continue the session due to a personal emergency
+      - I am sorry but I need to exit immediately
+      - a personal issue is forcing me to stop the call now
+      - I must log off now due to an unexpected personal issue
+      - something serious came up and I must end our conversation
+      - I am unable to proceed because of an urgent personal situation
+      - I need to leave the meeting for a personal emergency
+      - I need to urgently address something personal and end the call
+      - something requires immediate attention and I must leave
+      - I must finalize the call due to a personal emergency
+      - I am sorry but I need to disconnect at this moment
+      - an urgent issue came up and I have to leave
+      - a personal emergency will require me to end this now

@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: comment_morning_energy
+    examples: |
+      - estamos no começo do dia então obrigado por já começar com essa entrevista
+      - obrigado por encaixar essa conversa logo pela manhã
+      - sei que começo de dia é corrido então agradeço por estar aqui
+      - obrigado por começar o seu dia falando com a gente
+      - imagino que seu dia está começando então obrigado pelo tempo
+      - valeu por topar essa entrevista logo cedo
+      - obrigado por se organizar para estar aqui nesse primeiro horário
+      - sei que manhã exige preparação então obrigado pela disponibilidade
+      - obrigado por abrir o dia com essa conversa
+      - começando o dia juntos obrigado pela presença
+      - obrigado por estar com a gente logo no início do dia
+      - sei que manhã pode ser apertada então obrigado por participar
+      - obrigado por dedicar esse primeiro tempo do dia
+      - agradeço por iniciar sua manhã com esta entrevista
+      - obrigado por reservar seu início de dia para nós
+      - sei que acordar e já entrevistar exige energia então obrigado
+      - obrigado por estar aqui logo ao despertar do dia
+      - obrigado por começar cedo com essa etapa do processo
+      - agradeço sua disposição logo pela manhã
+      - obrigado por iniciar seu expediente com essa conversa
+      - sei que o ritmo da manhã é forte então obrigado pela presença
+      - obrigado por abrir espaço na sua manhã
+      - agradeço por iniciar o dia focado nesta entrevista
+      - obrigado por já estar preparado tão cedo
+      - sei que entrevistas de manhã exigem atenção então obrigado
+      - obrigado por disponibilizar seu começo do dia
+      - obrigado por priorizar essa conversa logo cedo
+      - agradeço por seguir firme no início da manhã
+      - obrigado por manter energia neste começo do dia
+      - obrigado por estar alerta tão cedo para discutir a vaga
+      - sei que manhãs são rápidas então obrigado por estar aqui
+      - obrigado por colocar essa entrevista como primeiro compromisso
+      - agradeço sua energia neste horário inicial
+      - obrigado por conversar conosco logo no amanhecer
+      - obrigado por dedicar sua primeira hora útil
+      - agradeço por estar disponível antes das outras atividades
+      - obrigado por começar seu dia com foco
+      - obrigado por ajustar sua manhã para essa conversa
+      - sei que a manhã demanda organização então obrigado por vir
+      - obrigado por priorizar esta entrevista tão cedo
+      - agradeço pelo esforço de estar aqui logo cedo
+      - obrigado por iniciar o dia com essa etapa
+      - obrigado por reservar sua manhã para o processo
+      - agradeço sua disposição nesse horário inicial
+      - obrigado por estar aqui enquanto o dia ainda começa
+      - sei que manhã exige energia então obrigado por oferecer a sua
+      - obrigado por iniciar bem cedo conosco
+      - agradeço por participar logo no primeiro horário
+      - obrigado por disponibilizar esse tempo matinal
+      - obrigado por iniciar o dia com essa fase do processo
+      - agradeço por encaixar essa conversa antes das outras tarefas
+      - obrigado por estar presente no início da jornada
+      - obrigado por abrir sua agenda da manhã para isso
+      - agradeço por vir tão cedo para conversar
+      - obrigado por colocar essa entrevista antes de tudo
+      - sei que manhã é um período curto então obrigado pela presença
+      - obrigado por agendar essa conversa no início do dia
+      - agradeço por estar com energia logo cedo
+      - obrigado por comparecer nesse horário inicial
+      - obrigado por começar o dia com esse compromisso
+      - sei que manhãs são intensas então obrigado por reservar tempo
+      - obrigado por participar assim que o dia começa
+      - agradeço por iniciar o dia comigo nesta entrevista
+      - obrigado por seguir conosco na primeira hora
+      - obrigado por ajustar sua rotina da manhã
+      - agradeço sua presença antes do dia engrenar
+      - obrigado por manter concentração tão cedo
+      - obrigado por dar prioridade a esta conversa matinal
+      - agradeço por estar ativo nesse início de dia
+      - obrigado por iniciar o dia presente e atento
+      - sei que manhã é um momento agitado então obrigado
+      - obrigado por se disponibilizar logo cedo
+      - agradeço por vir mesmo no primeiro horário
+      - obrigado por ser pontual logo pela manhã
+      - obrigado por dedicar foco enquanto o dia está começando
+      - agradeço sua disposição antes das demandas do dia
+      - obrigado por iniciar a manhã com essa etapa
+      - obrigado por participar antes dos compromissos do dia
+      - sei que não é fácil começar cedo então obrigado
+      - obrigado por estar disposto tão cedo
+      - agradeço por iniciar o processo na primeira hora
+      - obrigado por conversar conosco no começo da manhã
+      - obrigado por encaixar a entrevista nesse início
+      - agradeço você começar o dia motivado para esta conversa
+      - obrigado por vir mesmo com a manhã apertada
+      - obrigado por iniciar o dia com essa oportunidade
+      - agradeço sua energia matinal nesta entrevista
+      - obrigado por conduzir isso logo no início do expediente
+      - obrigado por estar presente logo no amanhecer
+      - sei que manhãs cansam então obrigado por manter o ritmo
+      - obrigado por participar com energia logo cedo
+      - agradeço por estar aqui antes de tudo
+      - obrigado por priorizar isso no começo do seu dia
+      - obrigado por dedicar sua manhã à entrevista
+      - agradeço por abrir mão de parte da sua manhã
+      - obrigado por participar mesmo com o ritmo acelerado da manhã
+      - obrigado por estar atento tão cedo
+      - agradeço por se manter disponível no início do dia
+      - obrigado por estar aqui enquanto o dia ainda se organiza
+      - obrigado por começar o dia com essa energia logo na primeira conversa
+      - thanks for bringing your morning energy to this first conversation
+      - we are at the beginning of the day so thank you for starting with this interview
+      - thanks for fitting this conversation first thing in the morning
+      - I know mornings are busy so I appreciate you being here
+      - thank you for starting your day talking with us
+      - your day is just starting so thanks for setting aside time
+      - thanks for agreeing to this interview early in the day
+      - thank you for organizing yourself for this early time slot
+      - I know morning interviews need preparation so thanks for being available
+      - thank you for opening your day with this conversation
+      - we are starting the day together thanks for being here
+      - thanks for joining us at the start of your day
+      - mornings can be tight so thank you for making time
+      - thanks for giving this first part of your day
+      - I appreciate you starting your morning with this interview
+      - thank you for reserving your early hours for this
+      - thanks for bringing energy to the start of the day
+      - I know mornings require effort so thank you for joining
+      - thanks for being here right at the beginning of the day
+      - thank you for showing up early for this conversation
+      - thanks for keeping focus this early
+      - I appreciate your presence in the first hour of the day
+      - thank you for making yourself available early
+      - thanks for prioritizing this morning conversation
+      - mornings can be demanding so thank you for being here
+      - thanks for taking the time before your day gets busy
+      - thank you for joining while the day is still starting
+      - thanks for being prepared so early
+      - I appreciate you sharing part of your morning with us
+      - thank you for staying attentive at this early time
+      - thanks for adjusting your morning schedule
+      - I know early hours can be intense so thank you
+      - thank you for participating right at the start of the day
+      - thanks for being here even before the day accelerates
+      - I appreciate you joining during your first hour
+      - thank you for dedicating this beginning of day time
+      - thanks for starting the day with this step of the process
+      - thank you for being present before your routine begins
+      - thanks for giving us part of your morning focus
+      - I know mornings move fast so thank you for joining
+      - thank you for showing up as the day starts
+      - thanks for being available during this first slot
+      - I appreciate your early morning disposition
+      - thank you for maintaining energy right at the start
+      - thanks for starting your workday with this conversation
+      - early hours can be challenging so thank you
+      - thank you for choosing to start your day with us
+      - thanks for joining as your day begins
+      - I appreciate your early engagement today
+      - thank you for participating even in the first hour
+      - thanks for taking this slot at the start of the day
+      - thank you for setting aside morning time
+      - thanks for opening your schedule early
+      - I know mornings require organization so thank you
+      - thank you for beginning your day here
+      - thanks for making space in your morning routine
+      - I appreciate you being active this early
+      - thank you for handling this interview early in the day
+      - thanks for keeping this morning commitment
+      - I know it is an early start so thank you
+      - thank you for aligning your morning schedule with us
+      - thanks for taking this early opportunity
+      - your day is just beginning so thank you for joining
+      - thanks for being ready so early
+      - morning hours are precious so thank you for sharing them
+      - thanks for staying focused in this first moment
+      - thank you for using your morning energy here
+      - I appreciate your effort to join at this hour
+      - thanks for opening your agenda with this interview
+      - thank you for being here while the day is fresh
+      - thanks for engaging right at the start
+      - I appreciate your presence so early in the day
+      - thanks for being part of this morning step
+      - thank you for dedicating time before the rush
+      - thanks for offering your first minutes of the day
+      - I appreciate you managing your morning for this
+      - thanks for being punctual so early
+      - thank you for attending this morning conversation
+      - I appreciate your readiness at the beginning of the day
+      - thanks for taking on this interview early
+      - thank you for adjusting your early routine
+      - mornings can be overwhelming so thank you
+      - thanks for being attentive at the start of the day
+      - thank you for investing morning energy here
+      - thanks for joining before other commitments
+      - I appreciate you participating while the day wakes up
+      - thank you for being here at this initial hour
+      - thanks for bringing focus in the early morning
+      - your morning just started so thank you for showing up
+      - thank you for staying available this early
+      - thanks for accepting this early morning interview
+      - I appreciate you making time before your day builds up
+      - thank you for taking part even with early timing
+      - thanks for giving attention at the beginning of the day
+      - thank you for showing commitment this early
+      - mornings demand discipline so thank you for being here
+      - thanks for making this conversation part of your morning
+      - I appreciate your early day dedication
+      - thank you for beginning the day with this step
+      - thanks for your presence in the first part of the day

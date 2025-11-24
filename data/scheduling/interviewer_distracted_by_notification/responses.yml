@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_interviewer_distracted_by_notification:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sem problema eu entendo. Pode ficar à vontade para checar o que for necessário eu sigo tranquilo com as respostas.
+          vr_en: |
+            No problem I understand. Feel free to check whatever you need I will continue calmly with my answers.
+        resp_2:
+          vr_pt: |
+            Tudo certo pode verificar o que precisar. Eu aguardo aqui sem problemas.
+          vr_en: |
+            All good feel free to check anything you need. I will wait here without any problem.

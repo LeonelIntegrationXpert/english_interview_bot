@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: audio_issue_with_candidate
+    examples: |
+      - seu áudio está com um chiado constante, você consegue verificar isso?
+      - acho que seu microfone não está captando bem, pode testar novamente?
+      - estou ouvindo sua voz muito distante, você consegue chegar mais perto?
+      - parece que o som está estourando um pouco, pode ajustar o volume aí?
+      - seu áudio ficou mudo de repente, você pode ver se o microfone está ativado?
+      - seu som está duplicando aqui, você está usando dois dispositivos ao mesmo tempo?
+      - eu não estou te ouvindo muito bem você pode repetir por favor
+      - seu áudio está bem baixo aqui para mim você consegue ajustar o microfone
+      - acho que seu microfone está falhando um pouco você pode tentar falar de novo
+      - estou com dificuldade para entender seu áudio você consegue chegar um pouco mais perto do microfone
+      - seu som está cortando bastante você pode tentar falar um pouco mais devagar
+      - parece que o áudio está com ruído você consegue verificar seu microfone ou fone
+      - o volume está bem baixo aqui você consegue aumentar um pouco aí do seu lado
+      - não consegui ouvir a última parte do que você disse pode repetir por favor
+      - acho que a conexão afetou seu áudio você pode dizer de novo o que comentou
+      - seu som está indo e voltando você consegue testar rapidamente outro dispositivo de áudio
+      - seu áudio está um pouco abafado você pode ajustar a posição do microfone
+      - estou ouvindo apenas parte da sua fala você pode repetir mais devagar
+      - tem um chiado forte no seu áudio você pode conferir o cabo do microfone
+      - parece que o microfone está distante você pode aproximar um pouco
+      - sua voz está bem baixa você consegue aumentar a sensibilidade do microfone
+      - estou ouvindo alguns cortes você pode reiniciar o áudio
+      - seu som está com eco você pode verificar o ambiente aí
+      - estou ouvindo muita interferência você pode tentar falar novamente
+      - seu áudio está instável você pode testar sem o fone
+      - não estou entendendo muito bem você pode repetir com mais clareza
+      - estou ouvindo sua voz muito distante você pode ajustar o microfone
+      - o volume oscilou bastante você pode tentar falar novamente
+      - há muito ruído ao fundo você pode tentar mudar de posição
+      - sua voz está sumindo às vezes você pode falar mais perto do microfone
+      - estou recebendo o áudio muito baixo você pode aumentar o volume aí
+      - seu microfone parece tampado você pode verificar se há algo cobrindo
+      - o áudio está distorcendo você pode tentar falar mais devagar
+      - estou ouvindo falhas curtas você pode repetir por favor
+      - o som está metálico você pode testar outro dispositivo
+      - sua fala está picotando muito você pode tentar repetir
+      - estou ouvindo apenas partes soltas você pode tentar novamente
+      - seu áudio está muito baixo mesmo com meu volume alto você pode ajustar
+      - estou percebendo muito ruído de fundo você pode isolar o microfone
+      - o som parece longe você pode aproximar o microfone
+      - sua voz está com muita oscilação você pode tentar outra posição
+      - estou ouvindo você bem fraco você pode aumentar o ganho
+      - tem um barulho constante no fundo você pode verificar
+      - seu som está com atraso você pode repetir lentamente
+      - seu microfone pode estar desconectando você pode conferir
+      - estou ouvindo cortes longos você pode reiniciar o áudio
+      - você pode testar tirar e colocar o fone novamente
+      - estou ouvindo algo como um eco você pode ajustar aí
+      - sua voz aparece e some você pode tentar falar de forma contínua
+      - parece que há vento no microfone você pode ajustar
+      - estou ouvindo vibração no áudio você pode mudar a posição
+      - seu som está estalando você pode tentar falar novamente
+      - o áudio está com falha repetida você pode reiniciar o app
+      - não estou entendendo claramente você pode repetir pausadamente
+      - sua voz está muito distante você pode aproximar o microfone
+      - seu áudio está tremido você pode tentar outro headset
+      - estou ouvindo muita interferência você pode checar o cabo
+      - parece que há um ruído forte você pode repetir mais perto do microfone
+      - seu áudio está instável você pode tentar outro dispositivo
+      - estou ouvindo você bem baixinho você pode ajustar o microfone
+      - seu som está travando você pode tentar falar novamente
+      - acho que seu microfone não está captando bem você pode testar outro
+      - estou ouvindo falha contínua você pode repetir a frase
+      - seu áudio parece comprimido você pode ajustar o dispositivo
+      - estou ouvindo como se estivesse longe você pode se aproximar
+      - seu microfone parece fechado você pode verificar
+      - o som está esquisito você pode trocar de fone
+      - estou ouvindo uma interferência forte você pode tentar outra porta USB
+      - seu áudio não está limpo você pode tentar reconectar
+      - estou ouvindo cortes longos você pode repetir com calma
+      - sua voz está baixa demais você pode falar mais próximo
+      - o som está muito ruído você pode checar o ambiente
+      - parece que seu fone não está funcionando bem você pode tentar sem ele
+      - estou ouvindo apenas partes quebradas você pode tentar de novo
+      - seu microfone pode estar mal conectado você pode conferir
+      - estou ouvindo sua fala com eco você pode ajustar aí
+      - seu áudio está com queda constante você pode reiniciar o microfone
+      - estou ouvindo ruído intermitente você pode tentar outra posição
+      - sua voz está saindo tremida você pode repetir lentamente
+      - o áudio está distorcido você pode aproximar o microfone
+      - estou ouvindo interferências repetidas você pode ajustar
+      - seu microfone parece muito longe você pode aproximar
+      - o som está falhando direto você pode repetir por favor
+      - sua voz está baixa e cortando você pode ajustar
+      - estou ouvindo com muito atraso você pode repetir
+      - o áudio não está estável você pode tentar reconectar
+      - seu som está com variação grande você pode repetir com calma
+      - estou ouvindo ruído metálico você pode checar seu microfone
+      - sua voz está oscilando muito você pode tentar outra posição
+      - parece que tem barulho no ambiente você pode tentar mudar de local
+      - estou ouvindo ruído como vento você pode reposicionar o microfone
+      - seu áudio está quase inaudível você pode falar mais perto
+      - estou ouvindo falha na conexão você pode repetir a frase
+      - seu som não está vindo limpo você pode ajustar o dispositivo
+      - estou ouvindo apenas ruídos você pode tentar falar de novo
+      - o áudio sumiu por um instante você pode repetir a última frase
+      - sua voz está distante e fraca você consegue aproximar mais
+      - estou ouvindo som muito abafado você pode reposicionar o microfone
+      - seu áudio está muito sensível você pode ajustar o volume
+      - estou percebendo falha contínua no som você pode repetir
+      - your audio has a constant static noise, could you check that?
+      - I think your mic isn’t capturing properly, could you test it again?
+      - I’m hearing you from very far away, could you get closer to the microphone?
+      - it sounds like your audio is clipping a bit, could you adjust your volume?
+      - your sound went silent suddenly, could you check if your mic is still on?
+      - your audio seems to be echoing, are you using two devices at once?
+      - I am having trouble hearing you could you repeat please
+      - your audio is quite low on my side could you adjust your microphone
+      - I think your microphone is cutting out could you try speaking again
+      - I am struggling to hear you clearly could you move closer to the mic
+      - your sound is breaking up could you try speaking more slowly
+      - there is noise on your audio could you check your mic or headset
+      - the volume is very low here could you turn it up on your side
+      - I did not catch the last part could you repeat please
+      - I think the connection affected your audio could you say that again
+      - your sound is coming and going could you test another audio device
+      - your audio sounds muffled could you adjust your microphone position
+      - I can only hear parts of your sentence could you repeat slowly
+      - there is a strong hiss on your audio could you check the cable
+      - your mic seems far could you move a little closer
+      - your voice is very low could you increase the mic sensitivity
+      - your audio is cutting repeatedly could you restart the input
+      - your sound has echo could you check your environment
+      - I hear interference could you try speaking again
+      - your audio is unstable could you test without the headset
+      - I cannot understand clearly could you repeat more slowly
+      - your voice sounds distant could you adjust the mic
+      - the volume fluctuated could you try again
+      - I hear background noise could you change your position
+      - your voice is fading could you speak closer to the mic
+      - your audio is too low even with my volume high could you adjust
+      - there is noise behind your voice could you check the microphone
+      - your sound is distorted could you speak a little slower
+      - I hear short dropouts could you repeat that
+      - the sound is metallic could you try another device
+      - your voice is heavily breaking could you repeat
+      - I hear only fragments could you try again
+      - your audio is too quiet could you increase the gain
+      - there is constant noise could you verify your setup
+      - your voice sounds far away could you get closer
+      - the sound has heavy oscillation could you reposition your mic
+      - I hear you very faintly could you raise the volume
+      - there is a rumble on your audio could you adjust it
+      - your sound has delay could you repeat slowly
+      - your mic may be disconnecting could you check it
+      - I hear long gaps could you restart your audio
+      - could you try unplugging and plugging your headset
+      - I hear echo could you adjust the audio settings
+      - your voice appears and disappears could you try again
+      - there is wind noise on your mic could you adjust it
+      - I hear vibration on your audio could you reposition your mic
+      - your sound is crackling could you try again
+      - your audio keeps failing could you restart the app
+      - I cannot hear clearly could you repeat at a slower pace
+      - your voice sounds too distant could you move closer
+      - your audio is unstable could you try another headset
+      - I hear interference could you check the cable
+      - there is loud noise could you speak closer to the mic
+      - your audio is fluctuating could you test another device
+      - your volume is very low could you adjust your mic
+      - your sound is freezing could you try again
+      - I think your mic is not capturing well could you test another
+      - I hear constant failure could you repeat the sentence
+      - your audio sounds compressed could you adjust your device
+      - your voice sounds far could you move closer please
+      - your mic may be blocked could you check if something is covering it
+      - the sound is strange could you try switching your headset
+      - there is strong interference could you try another port
+      - your audio is not clean could you try reconnecting
+      - I hear long dropouts could you repeat calmly
+      - your voice is very soft could you move closer to the mic
+      - the sound is noisy could you check your environment
+      - your headset may not be working could you try without it
+      - I hear broken parts could you try again
+      - your mic may be loose could you check the connection
+      - I hear echo could you adjust your room
+      - your audio keeps dropping could you restart it
+      - I hear intermittent noise could you adjust your microphone
+      - your voice sounds shaky could you repeat slowly
+      - your audio is distorted could you reposition the mic
+      - I hear repeated interference could you adjust it
+      - your microphone seems far could you bring it closer
+      - the audio keeps failing could you repeat please
+      - your voice is low and breaking could you adjust your mic
+      - your sound is delayed could you repeat please
+      - your audio is unstable could you reconnect
+      - your sound is fluctuating could you repeat calmly
+      - I hear metallic noise could you check your microphone
+      - your voice is oscillating could you try another position
+      - there is noise in your environment could you try moving
+      - I hear wind noise could you reposition your mic
+      - your audio is almost inaudible could you speak closer
+      - I hear connection failure could you repeat the phrase
+      - your sound is not clear could you adjust the device
+      - I hear mostly noise could you try again
+      - your audio disappeared for a second could you repeat
+      - your voice is faint could you speak closer
+      - your sound is muffled could you reposition the mic
+      - your audio is too sensitive could you lower the gain
+      - your audio is failing consistently could you repeat

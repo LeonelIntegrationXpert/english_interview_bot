@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: candidate_not_joined_yet
+    examples: |
+      - oi estou aqui na call e ainda não te vejo você está com algum problema para entrar
+      - só para confirmar você está conseguindo acessar o link da reunião
+      - vi que ainda não entrou na call está tudo certo por aí
+      - se estiver com alguma dificuldade técnica para entrar posso tentar te ajudar de alguma forma
+      - não te vejo conectado ainda você conseguiu abrir a plataforma
+      - caso esteja com problema no link posso reenviar o convite sem problema
+      - você está tendo algum problema de acesso ou de conexão para entrar na call
+      - ainda não apareceste aqui na reunião está tudo bem com o horário e o link
+      - se precisar de mais alguns minutos para conseguir entrar sem problema é só me avisar
+      - queria confirmar se você está tentando entrar na call ou se teve algum imprevisto aí
+      - percebi que você ainda não entrou você conseguiu carregar a página
+      - estou aguardando sua entrada você teve alguma dificuldade
+      - você conseguiu clicar no link correto da reunião
+      - seu acesso está demorando você precisa de ajuda
+      - ainda não vi sua entrada você está conseguindo entrar
+      - sua conexão pode estar lenta você quer tentar novamente
+      - posso checar aqui se necessário você precisa que eu espere mais um pouco
+      - você está com dificuldade para abrir o navegador
+      - o horário está correto para você você ainda pretende entrar
+      - não vejo seu nome na sala você está tentando acessar agora
+      - você conseguiu autenticar na plataforma
+      - pode estar faltando permissão aí você quer tentar de novo
+      - ainda estou aqui na sala você conseguiu iniciar a call
+      - seu áudio e vídeo não aparecem talvez você ainda não entrou
+      - se quiser posso esperar você configurar tudo sem pressa
+      - posso te mandar o link novamente caso ajude
+      - você está recebendo a notificação da reunião
+      - ainda não entrou tudo certo com o dispositivo
+      - você teve algum problema no computador
+      - estou aguardando aqui você pretende entrar em breve
+      - você conseguiu liberar a permissão do navegador
+      - seu acesso não apareceu aqui você está tentando novamente
+      - se a plataforma travou tente abrir de novo eu aguardo
+      - não vejo seu status online você está por aí
+      - você está com problema no microfone ou na câmera
+      - posso esperar mais alguns minutos sem problema
+      - você está entrando pelo celular ou pelo computador
+      - você abriu o link dentro do navegador correto
+      - você precisa reiniciar o app para conseguir entrar
+      - posso te pedir para tentar pelo mesmo link novamente
+      - você já está tentando conectar ou ainda vai começar
+      - não apareceu nenhuma solicitação sua aqui você tentou entrar
+      - sua chamada não chegou aqui você está com instabilidade
+      - seu dispositivo pode ter travado você quer tentar outro
+      - ainda não vi seu acesso você pode avisar se estiver com problema
+      - você está no horário correto e com o link correto
+      - o link está funcionando para mim você talvez precise atualizar
+      - se estiver configurando algo é só avisar estou aguardando
+      - você já clicou no botão de entrar na reunião
+      - você precisa que eu confirme algo do meu lado
+      - seu nome não aparece na sala você quer tentar de novo
+      - posso esperar você reiniciar sua conexão sem problema
+      - você está conseguindo abrir o app da reunião
+      - houve algum imprevisto aí quer que eu aguarde mais um pouco
+      - você está tentando entrar pelo link mais recente
+      - a plataforma pode ter caído você quer verificar por aí
+      - ainda não estou vendo sua entrada aqui você confirma se está tentando
+      - posso ficar na sala até você conseguir conectar
+      - você quer que eu envie o link também por email
+      - você está recebendo a mensagem de carregamento
+      - se o navegador falhou você pode tentar outro
+      - você precisa ajustar alguma coisa no sistema
+      - ainda não recebemos sua solicitação de entrada
+      - você está tentando mas algo está bloqueando aí
+      - posso aguardar sua conexão sem problema nenhum
+      - você precisa mais um momento para resolver o acesso
+      - sua entrada não apareceu aqui você quer tentar reiniciar
+      - se o dispositivo não entrar você pode trocar de aparelho
+      - não vejo sua tentativa aqui você pode confirmar
+      - você está conseguindo autenticar na plataforma
+      - posso mandar o link encurtado se facilitar
+      - você quer tentar abrir a reunião em aba anônima
+      - ainda estou aqui na sala aguardando sua entrada
+      - você está com lentidão no sistema para entrar
+      - você precisa de mais tempo para ajustar algo aí
+      - ainda nada por aqui você está tentando acessar
+      - posso te ajudar verificando algum detalhe do link
+      - você quer tentar conectar sem câmera primeiro
+      - sua tentativa não chegou aqui você quer tentar outra vez
+      - está tudo certo com o horário você confirma
+      - estou aqui aguardando se quiser tentar de novo
+      - você está conseguindo liberar as permissões
+      - você quer tentar entrar por outro navegador
+      - seu login parece não ter entrado você confirma
+      - posso esperar quantos minutos você precisar
+      - você já iniciou o processo de entrada na reunião
+      - ainda não apareceu aqui você está tentando acessar
+      - você está conseguindo abrir o link da call agora
+      - seu nome não apareceu na sala você está entrando
+      - estou vendo a sala vazia você pretende entrar
+      - você está com dificuldade para carregar a página
+      - ainda não vi sua tentativa você pode confirmar
+      - você está tentando conectar agora ou ainda não iniciou
+      - a plataforma está aguardando você você está entrando
+      - não vejo seu status aqui você está tentando abrir
+      - posso esperar mais um pouco até você conseguir entrar
+      - você está acessando pelo dispositivo correto aí
+      - você está com atraso para entrar quer que eu aguarde
+      - seu login não subiu aqui você quer tentar novamente
+      - você está enfrentando lentidão ao abrir o link
+      - I still do not see you are you trying to join
+      - are you able to open the meeting page now
+      - your name has not appeared are you entering
+      - the room is empty are you joining soon
+      - are you having trouble loading the page
+      - I have not seen your attempt can you confirm
+      - are you trying to connect now or not yet
+      - the platform is waiting for you are you joining
+      - I do not see your status are you opening the link
+      - I can wait a bit longer if you are trying to join
+      - are you using the correct device to enter
+      - are you delayed to join should I wait
+      - your login did not show want to retry
+      - are you facing slow loading on the link
+      - still no sign of you are you joining now
+      - are you on the meeting page at this moment
+      - the system shows no attempt are you trying
+      - do you need time to get into the meeting
+      - nothing on my side yet are you entering
+      - did you manage to click the join button now
+      - I do not see an entry request are you trying again
+      - are you able to start the connection from your side
+      - the call is open for you are you joining
+      - hi I am already in the call but I cannot see you yet are you having trouble joining
+      - just to confirm are you able to access the meeting link
+      - I noticed you have not joined the call yet is everything okay on your side
+      - if you are having any technical difficulty joining I can help if needed
+      - I do not see you connected yet were you able to open the platform
+      - if you are having issues with the link I can resend the invite no problem
+      - are you facing any access or connection issues to join the call
+      - you have not appeared in the meeting yet is everything okay with the time and link
+      - if you need a few more minutes to join that is fine just let me know
+      - I just wanted to confirm if you are trying to join or if something unexpected happened
+      - I do not see your name in the room are you trying to enter now
+      - are you able to load the meeting page correctly
+      - your connection might be slow do you need a moment
+      - I am waiting here for you are you trying to join
+      - did you manage to click the join button on your side
+      - your audio and video are not showing maybe you are not in yet
+      - if you need time to configure things take your time
+      - the link is active here are you opening it correctly
+      - are you having trouble with the browser or the device
+      - your access did not come through are you trying again
+      - if the platform froze you can restart I will wait
+      - I do not see your status online are you there
+      - is your device having issues loading the room
+      - I can wait a few more minutes no problem
+      - are you joining from mobile or computer
+      - did you open the link in the right browser
+      - do you need to restart the app to get in
+      - you can try the same link again if needed
+      - are you already trying to connect or not yet
+      - I have not seen any join request from you
+      - maybe your device crashed do you want to retry
+      - your call is not showing here are you trying
+      - are you having mic or camera issues before joining
+      - I can stay in the room until you enter
+      - are you receiving the meeting notification
+      - the link works here maybe you need to refresh
+      - are you configuring something before joining
+      - I am not seeing your attempt to connect
+      - can I help confirming something from my side
+      - do you need to adjust permissions to enter
+      - did you try joining from another device
+      - I do not see your login attempt here
+      - I can wait while you restart your connection
+      - is the meeting app loading for you
+      - did something unexpected happen on your side
+      - are you using the most recent link
+      - maybe the platform crashed can you check
+      - still not seeing your entry are you trying
+      - I can wait here until your connection works
+      - do you want me to send the link by email
+      - is the page stuck on loading for you
+      - if the browser failed try another one
+      - do you need to configure your system first
+      - I have not received your join request yet
+      - maybe something is blocking your access
+      - I can wait until you resolve the access issue
+      - do you need more time to set things up
+      - your attempt is not visible here want to retry
+      - if the device does not enter try switching
+      - I do not see your access do you confirm
+      - are you authenticating correctly on the platform
+      - I can send a shortened version of the link
+      - want to try joining in incognito mode
+      - I am still in the room waiting for you
+      - is your system too slow to load the meeting
+      - do you need time to adjust your setup
+      - still nothing here are you trying to enter
+      - I can help verify link details if needed
+      - want to try joining without camera first
+      - your join attempt did not arrive want to retry
+      - is the time correct for you can you confirm
+      - I am here waiting if you want to try again
+      - are your permissions allowed for the meeting
+      - want to try a different browser
+      - your login did not reach here do you confirm
+      - I can wait as long as you need
+      - have you started the join process already

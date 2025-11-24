@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: check_start_availability
+    examples: |
+      - se tudo der certo no processo quando você imagina que poderia começar
+      - qual seria o seu prazo de saída da empresa atual se for aprovado
+      - você tem algum período de aviso prévio que precise cumprir
+      - você está disponível para começar em curto prazo ou precisa de mais tempo
+      - tem alguma data mínima ou máxima para iniciar em uma nova oportunidade
+      - você teria alguma restrição de data para começar a trabalhar com a gente
+      - se recebesse uma proposta em quanto tempo conseguiria fazer a transição
+      - você está trabalhando ou está disponível imediatamente
+      - você tem algum compromisso que impacte sua data de início
+      - qual seria uma data confortável para você começar caso avance no processo
+      - qual é a sua disponibilidade real para início
+      - você poderia começar logo ou precisa esperar o aviso
+      - você consegue iniciar rapidamente após a aprovação
+      - você precisaria cumprir aviso prévio integral
+      - quanto tempo levaria para você ficar disponível
+      - você poderia iniciar ainda este mês
+      - você teria condições de iniciar no próximo mês
+      - qual é a sua previsão de disponibilidade
+      - sua agenda permite início rápido
+      - você precisa organizar algo antes de iniciar
+      - há algum limite de data para você começar
+      - você poderia iniciar em prazo reduzido
+      - você tem flexibilidade para a data de início
+      - qual é sua melhor estimativa de data para começar
+      - você começaria imediatamente se fosse aprovado
+      - você tem algum período obrigatório de saída
+      - você poderia iniciar durante o aviso
+      - você prefere iniciar após encerrar tudo na empresa atual
+      - há algum impedimento para início rápido
+      - você consegue negociar seu aviso
+      - você tem alguma viagem marcada que impacte o início
+      - você pode iniciar mesmo durante transição
+      - você conseguiria iniciar em duas semanas
+      - você conseguiria iniciar em três semanas
+      - você conseguiria iniciar em quatro semanas
+      - você está livre para iniciar sem muita espera
+      - você tem contrato que exige algum prazo de saída
+      - você está totalmente disponível para início imediato
+      - você está parcialmente disponível nesse período
+      - você poderia alinhar um início antecipado
+      - você teria condições de começar neste trimestre
+      - você teria condições de começar no próximo trimestre
+      - você poderia iniciar sem restrições de data
+      - seu aviso prévio é trabalhado ou indenizado
+      - seu aviso prévio afeta muito sua data de início
+      - você está cumprindo aviso no momento
+      - você tem previsão concreta de saída
+      - você conseguiria iniciar antes do aviso acabar
+      - você tem algum projeto que precisa finalizar antes
+      - você poderia iniciar ao final do mês atual
+      - você poderia iniciar no início do próximo mês
+      - você tem alguma limitação pessoal que afete o início
+      - você gostaria de uma data específica para iniciar
+      - você precisa alinhar com a empresa atual sua saída
+      - você tem flexibilidade para antecipar o início
+      - você prefere um início mais rápido ou mais planejado
+      - você consegue planejar o início com antecedência curta
+      - você tem liberdade para iniciar assim que aprovado
+      - você poderia iniciar após encerrar um último compromisso
+      - você já tem ideia da sua liberação na empresa atual
+      - sua saída depende de aprovações internas
+      - seu aviso prévio é de quanto tempo
+      - você consegue adiantar sua saída se necessário
+      - sua disponibilidade depende de negociação
+      - sua disponibilidade depende do aviso atual
+      - você pode iniciar durante transição parcial
+      - você pode iniciar em meio período até liberar o restante
+      - você tem alguma pauta pessoal que afete a data de início
+      - você está preparado para iniciar em curto prazo
+      - você estima que poderia começar em poucas semanas
+      - você precisaria de organização extra antes de iniciar
+      - você pode iniciar logo após a assinatura da proposta
+      - você precisa encerrar responsabilidades antes de iniciar
+      - você tem algum projeto pessoal que impacte o início
+      - você tem disponibilidade total para o início
+      - você poderia iniciar assim que tudo estiver acertado
+      - você já sabe quando poderia sair da empresa atual
+      - você conseguiria iniciar antes do previsto
+      - você preferiria iniciar mais tarde
+      - você pode iniciar na primeira semana do mês
+      - você pode iniciar na segunda semana do mês
+      - você pode iniciar na terceira semana do mês
+      - você pode iniciar na quarta semana do mês
+      - sua previsão de início é firme
+      - sua previsão de início pode mudar
+      - você poderia iniciar após férias programadas
+      - você pode iniciar antes das férias se necessário
+      - você está em contrato que impede saída imediata
+      - você já tem liberação prevista para breve
+      - você tem liberdade de negociação na empresa atual
+      - você conseguiria alinhar a saída de forma rápida
+      - qual seria o caminho mais realista para seu início
+      - sua transição é simples ou mais complexa
+      - você consegue indicar uma janela segura para início
+      - você pretende iniciar o quanto antes
+      - você prefere seguir o tempo do aviso prévio
+      - você poderia acelerar o processo de saída
+      - você tem disponibilidade gradual ou direta
+      - você conseguiria iniciar sem impacto pessoal
+      - qual é sua estimativa final para começar
+      - if everything goes well in the process when do you think you could start
+      - what would your notice period be at your current company if approved
+      - do you have any notice period that you need to serve
+      - are you available to start in the short term or do you need more time
+      - do you have any minimum or maximum date to start a new opportunity
+      - would you have any restrictions regarding a potential start date with us
+      - if you received an offer how long would it take you to transition
+      - are you currently employed or are you immediately available
+      - do you have any commitments that would affect your start date
+      - what would be a comfortable starting date for you if you move forward
+      - what is your actual availability to start
+      - could you start soon or do you need to finish your notice
+      - can you start quickly after approval
+      - do you need to serve your full notice period
+      - how long would it take for you to become available
+      - could you start within this month
+      - could you start next month
+      - what is your estimated availability for starting
+      - does your schedule allow a quick start
+      - do you need to organize anything before starting
+      - do you have a limit for your start date
+      - could you start in a reduced timeframe
+      - do you have flexibility for the start date
+      - what is your best estimate to begin
+      - would you start immediately if approved
+      - do you have a mandatory departure time
+      - could you start during your notice period
+      - do you prefer starting after completing everything
+      - do you have any barrier for a quick start
+      - can you negotiate your notice period
+      - do you have any trip planned that impacts the start
+      - could you start even during the transition
+      - could you start in two weeks
+      - could you start in three weeks
+      - could you start in four weeks
+      - are you free to start without much delay
+      - does your contract require a long notice period
+      - are you fully available for immediate start
+      - are you partially available for the moment
+      - could you plan an early start date
+      - would starting this quarter be possible
+      - would starting next quarter be possible
+      - could you start with no date restrictions
+      - is your notice period worked or paid
+      - does your notice period affect your start a lot
+      - are you currently serving your notice period
+      - do you have a confirmed release date
+      - could you start before the notice ends
+      - do you have any project to finalize before starting
+      - could you start at the end of this month
+      - could you start at the beginning of next month
+      - do you have any personal limitation for the start
+      - do you have a specific date in mind to begin
+      - do you have flexibility to anticipate your start
+      - do you prefer a faster start or a more planned one
+      - could you start with short preparation time
+      - do you have freedom to start once approved
+      - could you start after closing a last commitment
+      - do you already know your release timing
+      - does your departure depend on internal approval
+      - have you talked to your company about a possible departure
+      - how long is your notice period
+      - could you anticipate your release if needed
+      - is your availability dependent on negotiation
+      - is your availability dependent on your current notice
+      - could you start during a partial transition
+      - could you start part time until the transition ends
+      - do you have any personal plans affecting the start date
+      - are you prepared for a short term start
+      - do you estimate starting in a few weeks
+      - do you need extra preparation before starting
+      - could you start right after signing the offer
+      - do you need to wrap up responsibilities before starting
+      - do you have any personal project that affects your start
+      - are you fully available for the start
+      - could you start as soon as everything is agreed
+      - do you know when you could leave your current job
+      - could you start earlier than expected
+      - do you prefer a later start date
+      - could you start in the first week of the month
+      - could you start in the second week of the month
+      - could you start in the third week of the month
+      - could you start in the fourth week of the month
+      - is your start estimation firm
+      - could your start estimation change
+      - could you start after planned vacation
+      - could you start before vacation if needed
+      - does your contract prevent immediate start
+      - do you already have a release date expected
+      - could you handle a fast transition
+      - what seems the most realistic start date for you
+      - is your transition simple or more complex
+      - can you indicate a safe start window
+      - do you aim to start as soon as possible
+      - do you prefer starting after notice
+      - could you accelerate your departure
+      - are you available gradually or fully
+      - could you start without personal impact
+      - what is your final estimate to begin
+      - could you start within a reasonable time frame

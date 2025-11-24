@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: check_previous_stage
+    examples: |
+      - você já teve alguma conversa anterior com alguém do nosso time antes dessa entrevista
+      - você já passou por alguma etapa anterior desse processo seletivo
+      - alguém já tinha falado com você sobre a vaga antes dessa entrevista
+      - você teve algum papo inicial com recrutamento antes de chegar nesta etapa
+      - essa é sua primeira conversa com a gente ou você já teve outro contato antes
+      - você já teve alguma entrevista com outro gestor da empresa
+      - você veio por uma triagem do RH antes de chegar aqui
+      - alguém já tinha explicado para você como seria essa etapa
+      - você já tinha recebido algum tipo de retorno antes desta entrevista
+      - você já teve alguma outra interação com a empresa antes desta call
+      - você chegou a falar com alguém da empresa antes desta entrevista
+      - você já teve contato com o RH antes desta etapa
+      - essa entrevista é sua primeira conversa aqui
+      - alguém do nosso time já tinha conversado com você antes
+      - sua jornada neste processo começou hoje ou antes
+      - você passou por alguma validação prévia
+      - você teve alguma reunião inicial antes desta etapa
+      - você já fez alguma etapa de triagem
+      - você participou de alguma fase preliminar
+      - essa é sua primeira entrevista com a empresa
+      - você já tinha recebido alguma orientação anterior
+      - você teve algum alinhamento inicial antes desta etapa
+      - você deu entrada no processo em alguma etapa anterior
+      - você já tinha tido algum toque inicial com nosso time
+      - alguém já tinha apresentado o processo para você
+      - você passou por algum filtro inicial antes de chegar aqui
+      - você já tinha tido algum contato pequeno antes desta call
+      - você falou com recrutamento antes desta conversa
+      - você teve alguma reunião prévia com outro time
+      - você passou por alguma fase inicial antes dessa
+      - você foi entrevistado por alguém daqui antes
+      - você recebeu algum briefing inicial antes de hoje
+      - você já tinha tido algum retorno do processo
+      - alguém já tinha adiantado informações da vaga
+      - você participou de alguma etapa informativa
+      - você falou com RH por chamada ou mensagem antes desta etapa
+      - você teve algum contato oficial antes desta entrevista
+      - você já tinha conversado com outra pessoa da empresa
+      - você já foi introduzido ao processo antes de hoje
+      - você já tinha participado de algum alinhamento inicial
+      - você já teve algum contato rápido com recrutamento
+      - você recebeu alguma explicação anterior sobre a vaga
+      - esta etapa é sua primeira interação conosco
+      - você participou de alguma conversa anterior ao agendamento
+      - você recebeu algum retorno inicial do processo
+      - você já sabe algo sobre este processo por alguém do time
+      - você já foi orientado antes por alguém daqui
+      - você teve algum contato breve com o RH antes
+      - você iniciou o processo por alguma etapa preliminar
+      - você teve alguma triagem por formulário ou chamada
+      - você conversou com algum gestor antes desta entrevista
+      - você passou por algum bate papo inicial
+      - você já tinha alguma interação com a empresa antes
+      - você participou de alguma fase introdutória
+      - alguém comentou com você sobre a dinâmica desta etapa
+      - você teve alguma conversa curta com recrutamento antes
+      - você recebeu algum aviso sobre fases anteriores
+      - esta conversa é sua primeira etapa real
+      - você já teve contato com outro entrevistador antes
+      - você já tinha algum alinhamento sobre o processo
+      - alguém te explicou algo sobre a seleção antes
+      - você fez alguma fase de avaliação inicial
+      - você já cumpriu alguma fase antes desta
+      - você já enfrentou alguma etapa antes de hoje
+      - você já entrou em outra conversa antes desta
+      - você recebeu algum material informativo antes
+      - você teve alguma apresentação prévia do processo
+      - esta é de fato sua primeira conversa detalhada
+      - alguém já tinha feito um pre-screening com você
+      - você já passou por algum pré filtro
+      - você conversou com alguém do RH antes desta etapa
+      - você teve alguma call rápida antes desta
+      - você participou de alguma etapa mais curta antes
+      - você teve alguma checagem inicial antes de hoje
+      - alguém entrou em contato com você antes desta entrevista
+      - você já tinha alguma etapa completada
+      - você já falou sobre a vaga com outra pessoa
+      - você entrou em outra etapa do processo antes desta
+      - você já teve algum ponto de contato com a empresa
+      - esta etapa marca seu primeiro contato ou não
+      - você recebeu alguma explicação inicial sobre o fluxo
+      - você veio de alguma etapa de pré entrevista
+      - você passou por alguma conferência prévia
+      - você teve algum checklist inicial antes de chegar aqui
+      - alguém alinhou contigo a vaga antes de hoje
+      - essa é sua primeira interação formal conosco
+      - alguém fez uma introdução rápida da empresa para você
+      - alguém te encaminhou para esta etapa a partir de outra
+      - você já tinha iniciado a seleção por outra fase
+      - houve algum toque inicial antes desta call
+      - alguém revisou seu perfil antes desta entrevista
+      - você passou por alguma avaliação ou não
+      - você entrou direto nesta etapa ou veio de outra
+      - você participou de alguma triagem automatizada
+      - você recebeu alguma mensagem explicando fases anteriores
+      - você interagiu com outro recrutador antes de mim
+      - você completou algum passo antes do agendamento
+      - você já tinha recebido um primeiro contato da empresa
+      - esta entrevista é realmente sua primeira etapa aqui
+      - você passou por alguma validação rápida antes de chegar nesta entrevista
+      - did you complete any quick step before arriving at this interview
+      - have you already had any previous conversation with someone from our team before this interview
+      - have you gone through any earlier stage in this selection process
+      - has anyone spoken to you about this position before this interview
+      - did you have an initial conversation with recruiting before reaching this stage
+      - is this your first conversation with us or have you had contact before
+      - have you had any interview with another manager at the company
+      - did you go through an HR screening before arriving at this stage
+      - did anyone explain to you how this stage would work
+      - had you received any type of feedback before this interview
+      - have you had any interaction with the company before this call
+      - had you talked to someone from the company before this interview
+      - did you have any prior contact with HR before reaching this step
+      - is this truly your first conversation here
+      - had someone from our team already spoken to you
+      - did your journey in the process start today or earlier
+      - did you go through any pre evaluation
+      - did you have any short call before this stage
+      - did you complete any pre screening step
+      - did you participate in any preliminary phase
+      - is this your first interview with the company
+      - had you received any orientation before
+      - did you have any early alignment before arriving here
+      - did you enter the process through any previous step
+      - had you had any initial touch with our team
+      - did anyone introduce the process to you before
+      - did you go through any first filter before reaching this interview
+      - had you had any brief contact before this call
+      - did you speak with recruiting before this conversation
+      - did you have any meeting with another team before
+      - did you participate in any starting phase before this one
+      - had you been interviewed by someone else here
+      - did you get any initial briefing before today
+      - had you received any update from the process before
+      - had someone commented about the role before this interview
+      - did you go through any informational stage
+      - did you have any chat or message with HR before
+      - did you have any official contact before this interview
+      - had you spoken to anyone else from the company
+      - had you been introduced to the process earlier
+      - did you participate in any earlier alignment conversation
+      - had you had any quick screening with recruitment
+      - did you receive any explanation about the role earlier
+      - is this truly your first interaction with us
+      - did you participate in any conversation before scheduling
+      - had you received any preliminary feedback
+      - had someone briefed you about how the process works
+      - had anyone guided you before this conversation
+      - did you have any short exchange with HR before
+      - did you begin the process in any prior phase
+      - did you complete any triage before reaching here
+      - did you talk to any manager before this interview
+      - did you take part in any initial interview
+      - had you had any other interaction with the company
+      - did you participate in any introductory stage
+      - did someone explain the stage structure to you before
+      - did you have any short conversation with recruiting before
+      - had you received any notice about previous phases
+      - is this your actual first real stage
+      - had you spoken with another interviewer before
+      - had you had any alignment about the process before
+      - did anyone explain something about the selection earlier
+      - did you complete any early evaluation
+      - had you done any step before this one
+      - did you complete any phase before today
+      - did you attend any prior meeting
+      - had you received any informative material before
+      - did you receive any initial process introduction
+      - is this your first detailed conversation today
+      - had you done any pre screening conversation
+      - did you go through any earlier filter
+      - did you talk with HR before this stage
+      - did you have any quick call before this interview
+      - did you join any shorter stage before this
+      - did you take part in any initial check
+      - had anyone contacted you before this interview
+      - had you completed any phase before this one
+      - had you discussed the role with someone else before
+      - did you enter another stage before reaching this one
+      - had you had any point of contact with the company
+      - is this step your first real contact or not
+      - had you received any explanation about the process flow
+      - did you participate in any pre interview stage
+      - did you go through any prior confirmation
+      - did you complete any checklist before arriving here
+      - had someone aligned the vacancy details with you
+      - is this your first formal interaction with us
+      - had anyone given you a quick introduction to the company
+      - had someone forwarded you to this stage from another
+      - did you begin the selection through another step
+      - did you have any touch point before this call
+      - had someone reviewed your profile before this stage
+      - had you passed any evaluation before today
+      - did you reach this stage directly or through another
+      - did you join any automated screening phase
+      - did you receive any message explaining previous phases
+      - did you interact with another recruiter before me
+      - did you complete any step before scheduling this call
+      - had you received any initial contact from the company
+      - is this interview actually your first step here

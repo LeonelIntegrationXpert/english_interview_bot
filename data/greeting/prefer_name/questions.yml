@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: prefer_name
+    examples: |
+      - antes de começar como você prefere que eu te chame
+      - você gosta mais que te chamem pelo nome completo ou por um apelido
+      - você prefere que eu use o seu primeiro nome na entrevista
+      - tem alguma forma específica que você gosta que te chamem no trabalho
+      - você prefere um tratamento mais formal ou mais informal
+      - no dia a dia como as pessoas costumam te chamar
+      - qual é a forma mais confortável para eu me referir a você
+      - você prefere que eu use um diminutivo do seu nome
+      - tem algum nome ou pronome que você prefira que eu use
+      - você prefere ser chamado pelo seu nome completo
+      - você prefere ser chamado só pelo primeiro nome
+      - você prefere que eu use um apelido
+      - você tem algum apelido que gosta de usar em entrevistas
+      - você prefere que eu use o nome social
+      - você prefere que eu siga como está no seu currículo
+      - você prefere que eu use a forma mais curta do seu nome
+      - você prefere uma forma mais formal de tratamento
+      - você prefere uma forma mais direta de tratamento
+      - você quer que eu confirme como devo te chamar
+      - qual nome você prefere ouvir na entrevista
+      - você quer que eu use o nome que está no seu perfil
+      - você prefere ser chamado da mesma forma que no trabalho atual
+      - você prefere ser chamado da forma que usa no dia a dia
+      - você prefere um nome mais informal aqui
+      - você prefere manter um tom mais formal na entrevista
+      - como posso me referir a você de forma confortável
+      - qual nome deixa você mais à vontade na conversa
+      - você prefere ser chamado pelo nome de registro
+      - você prefere outro nome além do que está no currículo
+      - você tem algum nome usado pela família que prefere aqui
+      - você quer manter o nome profissional nesta conversa
+      - você prefere que eu use sempre o mesmo nome
+      - você deseja corrigir alguma forma como devo te chamar
+      - qual nome representa melhor você nesta entrevista
+      - existe algum nome que você não gosta de usar
+      - você prefere um nome mais curto
+      - você prefere um nome mais longo
+      - você quer definir como devo te chamar antes de começarmos
+      - seu nome tem alguma pronúncia específica que devo usar
+      - tem algum detalhe sobre o seu nome que devo saber
+      - você prefere que eu confirme a pronúncia do seu nome
+      - você prefere que eu repita o nome escolhido durante a entrevista
+      - você quer indicar como devo chamá-lo logo no início
+      - você prefere um tratamento mais direto pelo nome
+      - quer que eu use senhor ou senhora
+      - prefere que eu não use senhor ou senhora
+      - você prefere um tratamento neutro
+      - você prefere que eu use seu nome sem formalidade
+      - quer que eu verifique se estou pronunciando certo
+      - você prefere uma forma curta do seu nome
+      - você prefere a forma completa do seu nome
+      - existe algum apelido profissional que você usa
+      - existe algum nome que você prefere que eu não use
+      - como você gosta de ser chamado entre colegas
+      - como você gosta de ser chamado em entrevistas
+      - você prefere a forma mais conhecida do seu nome
+      - você prefere ser chamado pela forma escrita no LinkedIn
+      - você prefere a forma que usa em documentos
+      - você prefere um endereço mais neutro pelo nome
+      - você prefere que eu use seu nome como está digitado
+      - você prefere que eu pergunte antes de usar algum apelido
+      - como posso chamar você de forma respeitosa
+      - como posso chamar você de forma natural
+      - você prefere ser chamado pelo nome profissional
+      - você prefere ser chamado pelo nome de uso diário
+      - você tem alguma preferência específica para esta entrevista
+      - gostaria que eu evitasse alguma forma do seu nome
+      - você prefere o nome formal ou o diminutivo
+      - seu nome tem preferência de uso no ambiente profissional
+      - sua equipe costuma te chamar de algum jeito específico
+      - como posso chamar você da maneira mais confortável
+      - como devo me referir a você oficialmente
+      - como devo me referir a você informalmente
+      - qual nome transmite mais conforto para você
+      - você quer alinhar isso antes de começarmos
+      - deseja que eu confirme qual nome devo usar
+      - existe algum nome social que devo usar
+      - você prefere ser chamado pela abreviação do nome
+      - você prefere ser chamado pela inicial e nome
+      - você prefere que eu não use apelidos
+      - você permite o uso de apelido profissional
+      - você prefere que eu mantenha o tom neutro
+      - você prefere que eu personalize a forma de te chamar
+      - como você está acostumado a ser chamado em reuniões
+      - você prefere que eu ajuste a forma de chamar ao longo da entrevista
+      - você tem alguma orientação sobre seu nome
+      - como você gostaria de ser tratado pelo nome aqui
+      - qual nome deixa você mais seguro na conversa
+      - qual nome devo usar para facilitar a entrevista
+      - como você prefere que eu me dirija a você diretamente
+      - posso confirmar qual nome você prefere usar
+      - você prefere o nome completo por clareza
+      - você prefere o nome curto por praticidade
+      - você prefere que eu pergunte sempre antes de abreviar
+      - existe algum nome afetivo que você prefere evitar profissionalmente
+      - existe algum nome afetivo que você aceita usar aqui
+      - podemos alinhar como vou te chamar
+      - como posso te chamar de maneira que te deixe tranquilo
+      - como posso te chamar para manter o profissionalismo
+      - qual forma de tratamento mais combina com você
+      - before we start how do you prefer that I address you
+      - do you prefer being called by your full name or a nickname
+      - do you prefer that I use your first name during the interview
+      - is there a specific way you like to be addressed at work
+      - do you prefer a more formal or more informal way of address
+      - in your daily life how do people usually call you
+      - what is the most comfortable way for me to address you here
+      - do you prefer that I use a shorter version of your name
+      - is there any name or pronoun you would like me to use
+      - do you prefer being addressed by your full name
+      - do you prefer being addressed only by your first name
+      - do you prefer that I use a nickname
+      - do you have a nickname you like to use in interviews
+      - do you prefer that I use your social name
+      - do you prefer that I follow the name on your resume
+      - do you prefer that I use the shorter form of your name
+      - do you prefer a more formal treatment
+      - do you prefer a more direct treatment
+      - do you want me to confirm how I should call you
+      - which name do you prefer to hear in the interview
+      - do you want me to use the name shown in your profile
+      - do you prefer the name used in your current job
+      - do you prefer the name you use every day
+      - do you want a more informal name here
+      - do you prefer keeping a more formal tone
+      - how can I address you in a comfortable way
+      - which name feels natural for you in this conversation
+      - do you prefer being called by your legal name
+      - do you prefer a different name from your resume
+      - is there a family name you prefer to use here
+      - do you want to keep your professional name in this talk
+      - do you prefer that I always use the same name
+      - do you want to correct how I should call you
+      - which name represents you best for this interview
+      - is there any name you dislike hearing
+      - do you prefer a shorter name
+      - do you prefer a longer name
+      - do you want to set how I should call you before we start
+      - does your name have a pronunciation I should follow
+      - is there any detail about your name I should know
+      - do you prefer that I confirm the pronunciation
+      - do you want me to repeat the chosen name during the interview
+      - do you want to define how I should call you at the start
+      - do you prefer that I call you directly by your name
+      - should I use sir or ma’am when addressing you
+      - would you rather that I avoid sir or ma’am
+      - do you prefer a neutral form of address
+      - do you prefer that I use your name without formality
+      - should I verify if the pronunciation is correct
+      - do you prefer the short version of your name
+      - do you prefer the full version of your name
+      - is there a professional nickname you use
+      - is there any name you prefer I do not use
+      - how do colleagues usually call you
+      - how do people call you in interviews
+      - do you prefer the most common version of your name
+      - do you prefer the name shown on LinkedIn
+      - do you prefer the name used in documents
+      - do you prefer a neutral address using your name
+      - do you prefer that I use your written name
+      - do you prefer that I ask before using a nickname
+      - how can I call you respectfully
+      - how can I call you naturally
+      - do you prefer your professional name
+      - do you prefer your everyday name
+      - do you have any preference for this interview
+      - is there any form of your name you want me to avoid
+      - do you prefer the formal version or the short one
+      - is there a preferred name used in your workplace
+      - do your colleagues call you in a specific way
+      - how can I address you in the most comfortable way
+      - how should I refer to you officially
+      - how should I refer to you informally
+      - which name feels more comfortable for you
+      - do you want to align this before we begin
+      - do you want me to confirm the name you prefer
+      - is there a social name I should use
+      - do you prefer being addressed by initials
+      - do you prefer being addressed by initial and name
+      - do you prefer that I avoid nicknames
+      - do you allow professional nicknames
+      - do you prefer a neutral tone using your name
+      - do you prefer a personalized way of being called
+      - how do people call you in meetings
+      - do you want me to adjust how I call you during the interview
+      - do you have any instruction about your name
+      - how would you like to be addressed here
+      - which name makes you feel more secure
+      - which name should I use to keep the conversation natural
+      - how do you prefer that I refer to you directly
+      - may I confirm the name you prefer to use
+      - do you prefer the full name for clarity
+      - do you prefer the short name for practicality
+      - do you want me to always ask before shortening your name
+      - is there any affectionate name you avoid professionally
+      - is there any affectionate name you allow here
+      - can we align how I will call you
+      - how can I call you in a way that feels respectful
+      - how can I call you to keep professionalism
+      - which form of address suits you best

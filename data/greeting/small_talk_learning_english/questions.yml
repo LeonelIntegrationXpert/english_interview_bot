@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: small_talk_learning_english
+    examples: |
+      - aproveitando que estamos em inglês como tem sido a sua jornada no idioma
+      - você estuda inglês há muito tempo
+      - você tem focado mais em conversação leitura ou escrita
+      - você sente que tem evoluído bem no inglês nos últimos meses
+      - como você pratica inglês no dia a dia
+      - você faz algum curso de inglês ou estuda sozinho
+      - você usa inglês no trabalho ou só em estudos
+      - qual habilidade do inglês você considera mais forte
+      - você tem alguma estratégia para melhorar o inglês
+      - você ainda está construindo o idioma ou já se sente confiante
+      - qual foi seu primeiro contato com inglês
+      - você estuda inglês todos os dias
+      - qual é a parte mais difícil do inglês para você
+      - você pratica inglês com outras pessoas
+      - você consome conteúdo em inglês com frequência
+      - você sente que falar inglês ainda te desafia
+      - você prefere aprender inglês sozinho ou com professor
+      - você tem alguma meta pessoal no inglês
+      - você acompanha vídeos em inglês
+      - você lê artigos em inglês como prática
+      - você pratica inglês com aplicativos
+      - você usa filmes e séries para estudar
+      - você escuta podcasts em inglês
+      - você escreve textos em inglês
+      - você conversa com nativos às vezes
+      - você já fez algum intercâmbio
+      - você pretende fazer intercâmbio para melhorar
+      - você pratica inglês mais pela manhã ou à noite
+      - você revisa vocabulário com frequência
+      - você pratica inglês em entrevistas de treino
+      - você tenta manter contato com o idioma todos os dias
+      - como você organiza seus estudos de inglês
+      - você usa anotações para aprender inglês
+      - você pratica inglês ouvindo músicas
+      - você usa legendas em inglês para aprender
+      - você revisa expressões inglesas com frequência
+      - sua leitura em inglês é confortável
+      - sua escrita em inglês é confortável
+      - sua escuta em inglês é confortável
+      - sua fala em inglês é confortável
+      - você se sente mais forte na parte de compreensão
+      - você se sente mais forte na parte de fala
+      - você se sente mais forte na parte de leitura
+      - você se sente mais forte na parte de escrita
+      - o que mais te ajuda a evoluir no inglês
+      - você já tentou aulas particulares
+      - você usa inglês em reuniões algumas vezes
+      - você tenta praticar inglês com colegas
+      - você se sente motivado a melhorar o inglês
+      - você acompanha canais educativos em inglês
+      - você sente que seu vocabulário tem crescido
+      - você busca aprender inglês no ritmo diário
+      - você estuda gramática com frequência
+      - você pratica inglês em conversas curtas
+      - você tenta pensar em inglês durante o dia
+      - você tem rotina sólida de prática
+      - você sente que seu inglês está mais natural
+      - você usa inglês em tarefas pequenas
+      - você tenta usar inglês sempre que possível
+      - você revisa frases e expressões no inglês
+      - você lê livros simples em inglês
+      - você assiste vídeos curtos para treinar escuta
+      - você tenta falar inglês mesmo com dificuldade
+      - você percebe melhora na sua clareza em inglês
+      - você usa inglês para aprender outras coisas
+      - você gosta de desafios de compreensão
+      - você fez algum teste de nível recentemente
+      - você acompanha influenciadores que falam sobre inglês
+      - você pratica com exercícios de repetição
+      - você usa anotações de vocabulário diariamente
+      - você tenta falar inglês quando está sozinho
+      - você usa inglês para consumir conteúdo técnico
+      - você gosta de treinar sotaque em inglês
+      - você faz leitura em voz alta
+      - você pratica diálogo estruturado
+      - você estuda inglês com vídeos explicativos
+      - você tenta manter constância no aprendizado
+      - você busca corrigir erros do inglês diariamente
+      - você revisa suas dificuldades com frequência
+      - você tem uma rotina definida de estudo
+      - você mistura métodos diferentes para aprender
+      - você identifica avanços no inglês com facilidade
+      - você sente que seu inglês está se consolidando
+      - você usa inglês para resolver pequenas tarefas
+      - você experimenta métodos novos para aprender
+      - você tenta evoluir mesmo em dias difíceis
+      - você reconhece seus avanços recentes
+      - você usa inglês como parte da rotina profissional
+      - você se sente mais confortável estudando sozinho
+      - você prefere orientação estruturada no inglês
+      - você estuda inglês pensando em oportunidades
+      - você pratica frases úteis no dia a dia
+      - você busca corrigir pronúncias
+      - você pratica por repetição diária
+      - você usa tempo livre para evoluir no inglês
+      - você dedica parte da semana só ao inglês
+      - você pensa em estudar inglês mais profundamente
+      - você compara sua evolução ao longo do tempo
+      - você acredita que pode acelerar seu inglês
+      - você sente que sua disciplina tem ajudado
+      - since we are speaking in English how has your learning journey been
+      - have you been studying English for a long time
+      - have you been focusing more on speaking reading or writing
+      - do you feel you have been progressing well in English
+      - how do you usually practice English in your daily routine
+      - are you taking any English course or studying on your own
+      - do you use English at work or mainly in studies
+      - which English skill do you feel is strongest
+      - do you use any strategy to improve your English
+      - do you feel you are still building your skills or feel confident
+      - when was your first contact with English
+      - do you study English every day
+      - what part of English is hardest for you
+      - do you practice English with other people
+      - do you consume content in English often
+      - do you feel speaking English still challenges you
+      - do you prefer studying English alone or with a teacher
+      - do you have any personal goals in English
+      - do you watch videos in English
+      - do you read articles in English to practice
+      - do you use English learning apps
+      - do you use movies and shows to study
+      - do you listen to podcasts in English
+      - do you write texts in English
+      - do you speak with native speakers sometimes
+      - have you done any exchange program
+      - do you plan to do an exchange to improve
+      - do you practice English in the morning or at night
+      - do you review vocabulary often
+      - do you practice English for interview preparation
+      - do you try to keep daily exposure to English
+      - how do you organize your English study
+      - do you use notes to learn English
+      - do you practice English with music
+      - do you use English subtitles to study
+      - do you review English expressions often
+      - is reading in English comfortable for you
+      - is writing in English comfortable for you
+      - is listening in English comfortable for you
+      - is speaking in English comfortable for you
+      - do you feel stronger in comprehension
+      - do you feel stronger in speaking
+      - do you feel stronger in reading
+      - do you feel stronger in writing
+      - what helps you evolve most in English
+      - have you tried private lessons
+      - do you use English in meetings sometimes
+      - do you practice English with colleagues
+      - do you feel motivated to improve your English
+      - do you follow educational channels in English
+      - do you feel your vocabulary growing
+      - do you learn English daily in small steps
+      - do you study grammar often
+      - do you practice English with short dialogues
+      - do you try to think in English during the day
+      - do you have a strong practice routine
+      - do you feel your English getting more natural
+      - do you use English in small tasks
+      - do you try to use English whenever possible
+      - do you review sentences in English regularly
+      - do you read simple books in English
+      - do you watch short videos to train listening
+      - do you try speaking English even if difficult
+      - do you notice clearer English progress
+      - do you use English to learn other things
+      - do you enjoy comprehension challenges
+      - have you taken a level test recently
+      - do you follow influencers who teach English
+      - do you practice repetition exercises
+      - do you use vocabulary notes every day
+      - do you talk to yourself in English
+      - do you use English to consume technical content
+      - do you practice English accent
+      - do you read aloud to improve
+      - do you practice structured dialogues
+      - do you study English with tutorials
+      - do you try to stay consistent with English
+      - do you work to fix mistakes daily
+      - do you review difficulties often
+      - do you have a defined study routine
+      - do you mix methods to learn English
+      - do you identify progress clearly
+      - do you feel your English getting stable
+      - do you use English for small work tasks
+      - do you feel comfortable studying alone
+      - do you prefer structured guidance
+      - do you study English aiming at new opportunities
+      - do you practice useful phrases daily
+      - do you correct your pronunciation actively
+      - do you practice through daily repetition
+      - do you use free time to improve English
+      - do you dedicate part of the week only to English
+      - do you think about studying English more deeply
+      - do you compare your evolution over time
+      - do you believe you can accelerate your English
+      - do you feel discipline is helping you
+      - do you feel your confidence in English has increased recently
+      - do you try to practice English even on busy days
+      - do you feel that English has opened new opportunities for you
+      - do you feel your English improves faster with daily exposure

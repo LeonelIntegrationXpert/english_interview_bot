@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_check_previous_stage:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu tive uma conversa inicial com recrutamento onde falaram um pouco sobre a vaga e sobre o processo. Hoje é a primeira entrevista mais aprofundada.
+          vr_en: |
+            I had an initial conversation with recruiting where they talked a bit about the role and the process. Today is my first more in depth interview.
+        resp_2:
+          vr_pt: |
+            Não esta é a primeira etapa do processo que estou fazendo com vocês.
+          vr_en: |
+            No this is the first stage of the process that I am doing with you.

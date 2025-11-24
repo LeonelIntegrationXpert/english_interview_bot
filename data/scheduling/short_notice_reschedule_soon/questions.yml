@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: short_notice_reschedule_soon
+    examples: |
+      - eu sei que está bem em cima da hora, mas você se importaria se a gente remarcasse essa entrevista para mais tarde hoje?
+      - peço desculpas pelo curto prazo, mas surgiu uma urgência agora e vou precisar mover essa conversa
+      - sei que é em cima, mas você teria disponibilidade para remarcar para amanhã no mesmo horário?
+      - desculpa te avisar tão em cima, mas não vou conseguir manter esse horário de agora
+      - surgiu uma reunião urgente de última hora, você se incomodaria se a gente reagendasse?
+      - sei que não é o ideal avisar tão perto do horário, mas vou precisar alterar essa entrevista
+      - te atrapalha muito se a gente mover essa call para outro horário ainda hoje ou para amanhã?
+      - estou te avisando em cima da hora, eu sei, mas houve uma mudança aqui e preciso remarcar
+      - infelizmente, por conta de algo que apareceu agora, não consigo manter esse horário
+      - eu entendo que é curto prazo, por isso queria saber se você consegue flexibilidade para remarcar
+      - estou com uma urgência inesperada agora, você consegue remarcar?
+      - apareceu um conflito de agenda de última hora, podemos reagendar?
+      - houve um imprevisto agora mesmo, você teria outro horário disponível?
+      - sei que é muito em cima, mas teria como mover essa conversa?
+      - minha agenda mudou de repente, você pode remarcar comigo?
+      - essa reunião estourou, posso te pedir para remarcar rapidinho?
+      - estou com um bloqueio de horário inesperado, você pode ajustar?
+      - o horário ficou inviável para mim agora, você tem alternativa?
+      - aconteceu uma demanda urgente agora, consigo falar mais tarde?
+      - não vou conseguir nesse horário, posso te sugerir outro?
+      - está muito em cima, mas preciso alterar esse horário agora
+      - teve um evento urgente aqui, podemos mover para mais tarde?
+      - eu sei que é repentino, mas podemos escolher outro horário?
+      - uma nova reunião entrou de última hora, consigo falar mais tarde
+      - algo urgente caiu na minha agenda, podemos ajustar o horário?
+      - minha disponibilidade mudou agora, você consegue mover a call?
+      - tive uma mudança inesperada, posso reagendar contigo?
+      - vou precisar alterar essa entrevista agora, você pode adequar?
+      - estou com uma demanda crítica agora, você aceita remarcar?
+      - sei que é súbito, mas vamos precisar mover essa conversa
+      - apareceu um imprevisto de última hora, posso mover para amanhã?
+      - tive que realinhar minha agenda, pode remarcar comigo?
+      - sei que é logo antes do horário, mas não consigo continuar agora
+      - posso pedir para mudar essa call para mais tarde hoje?
+      - minha reunião anterior estendeu demais, pode remarcar comigo?
+      - algo urgente entrou bem agora, tenho como falar depois
+      - o horário encavalou aqui, você pode mover para amanhã?
+      - estou com uma urgência interna neste momento, consegue remarcar?
+      - o tempo ficou muito apertado, posso reagendar?
+      - me desculpa avisar tão em cima, posso alterar esse horário?
+      - tive uma mudança crítica na agenda, consigo falar mais tarde
+      - no meu lado o horário não vai funcionar, posso propor outro?
+      - algo urgente tomou este bloco, podemos reagendar?
+      - não vou conseguir entrar agora, você tem outro horário hoje?
+      - aconteceu algo urgente neste minuto, posso remarcar?
+      - o bloco foi cancelado internamente, posso mover contigo?
+      - minha equipe pediu uma reunião imediata, conseguimos reagendar?
+      - estou com um impacto imediato na agenda, tem como ajustar?
+      - surgiram novas prioridades agora, posso te sugerir outro horário?
+      - não vou conseguir continuar agora, podemos escolher outro dia?
+      - minha rotina mudou nos últimos minutos, pode remarcar?
+      - entrou algo não previsto aqui, posso mudar o horário?
+      - minha disponibilidade caiu agora, posso reagendar?
+      - tive um problema de última hora, pode ajustar comigo?
+      - esse horário deixou de funcionar agora, posso mudar?
+      - estou com uma chamada urgente, posso remarcar?
+      - esse bloco ficou indisponível para mim agora, pode reagendar?
+      - tive um alerta de reunião imediata, consigo te chamar depois?
+      - estou com um conflito inesperado, posso propor outro horário?
+      - tive uma mudança abrupta na agenda, consigo falar mais tarde
+      - uma urgência pediu minha atenção, posso reagendar contigo?
+      - minha agenda travou agora, podemos mover a entrevista?
+      - recebi um chamado urgente, podemos remarcar?
+      - tive uma mudança séria aqui, posso ajustar o horário?
+      - aconteceu uma prioridade imediata, conseguimos reagendar?
+      - preciso sair deste horário agora, pode mover a call?
+      - o horário virou conflito agora, posso sugerir outro?
+      - entrou algo crítico aqui, conseguimos remarcar rápido?
+      - esse horário não vai ser possível para mim, posso ajustar?
+      - estourou uma necessidade interna, posso remarcar?
+      - minha agenda não permite mais este horário, posso mover?
+      - houve uma troca de prioridades, você aceita remarcar?
+      - meu tempo ficou limitado agora, posso propor outro bloco?
+      - recebi um pedido urgente, temos como reagendar?
+      - esse horário ficou inviável repentinamente, pode ajustar?
+      - meu tempo acabou agora, posso remarcar?
+      - tive uma chamada de emergência, podemos reagendar?
+      - aconteceu algo que exige minha atenção imediata, posso mover?
+      - este horário foi consumido aqui, conseguimos reagendar?
+      - precisei realocar meu horário, posso te mandar novas opções?
+      - tenho de encerrar agora, você consegue remarcar comigo?
+      - algo urgente chegou na minha agenda, posso ajustar depois?
+      - houve replanejamento imediato, pode remarcar comigo?
+      - estou com sobreposição de horários, você tem alternativa?
+      - meu dia mudou de repente, posso mover essa entrevista?
+      - o horário não encaixa mais, posso sugerir outro momento?
+      - entrou algo inesperado na minha agenda, posso remarcar?
+      - sei que ficou muito em cima, mas você consegue remarcar comigo ainda hoje?
+      - tive uma urgência real agora, você teria outro horário disponível?
+      - esse horário ficou impossível para mim agora, podemos mover?
+      - devido a algo que surgiu agora, posso te pedir para reagendar?
+      - eu sei que não é o ideal, mas preciso alterar esse horário imediatamente
+      - minha disponibilidade mudou neste minuto, podemos ajustar o horário?
+      - surgiu um bloqueio de agenda agora, você pode escolher outro horário?
+      - minha reunião anterior estendeu inesperadamente, podemos mover essa?
+      - o tempo apertou demais aqui, você tem outro horário hoje?
+      - recebi um alerta urgente, consigo falar em outro horário
+      - o compromisso anterior atrasou, você pode remarcar comigo?
+      - estou com uma demanda inesperada, podemos reagendar ainda hoje?
+      - teve um problema bem agora e não vou conseguir, posso sugerir outro horário?
+      - I know it is very last minute, but could we move this interview to another time?
+      - something urgent just blocked this slot, can we reschedule soon?
+      - my previous meeting ran over, would you be able to pick another time?
+      - I need to shift this immediately due to a sudden issue, can we adjust?
+      - this time is no longer possible for me, could we move it to later today?
+      - an urgent matter popped up right now, could we choose another slot?
+      - I am sorry for the last second change, but I need to reschedule
+      - something critical is happening here, can we delay this conversation?
+      - I have an unexpected conflict now, would another time today work?
+      - my schedule changed abruptly, can we choose a different moment?
+      - I must adjust this meeting time now, could we reschedule shortly?
+      - I know this is very short notice, but would you mind if we rescheduled this interview for later today?
+      - I am sorry for the short notice, but something urgent just came up and I will need to move this conversation
+      - I realize it is last minute, but would you be available to reschedule for the same time tomorrow?
+      - sorry to let you know so close to the time, but I will not be able to keep this slot now
+      - a last minute urgent meeting came up, would you mind if we rescheduled?
+      - I know it is not ideal to let you know this late, but I will need to change this interview time
+      - would it be too inconvenient if we moved this call to another time today or to tomorrow?
+      - I am aware this is very short notice, but there has been a change here and I need to reschedule
+      - unfortunately, because of something that just came up, I cannot keep this time
+      - I understand it is last minute, which is why I want to check if you have any flexibility to reschedule
+      - I just had an urgent issue come up, can we move this interview?
+      - something unexpected happened right now, could we pick another time?
+      - I need to adjust this slot due to a last minute conflict, can we reschedule?
+      - my schedule changed suddenly, do you have another available time?
+      - I am sorry for the last minute change, but I need to move this call
+      - a new priority came up, can we shift this interview?
+      - I will not make it for this time, can we choose another?
+      - I just got pulled into something urgent, could we talk later?
+      - this time no longer works on my side, can we pick a new one?
+      - I had a sudden scheduling issue, could we rearrange this?
+      - I will need another slot due to a last minute situation
+      - I need to adjust my time due to an urgent update
+      - this window became unavailable, could we reschedule?
+      - something urgent blocked this hour, can we move it?
+      - I am facing a schedule change, can we shift the interview?
+      - I got a last minute request here, can we rearrange?
+      - I must move this interview because of a sudden conflict
+      - my availability changed unexpectedly, could we reschedule?
+      - I had an unplanned situation, can we find another time?
+      - this slot is no longer viable, can we pick a new one?
+      - I just received an urgent call, can we reschedule?
+      - a last minute issue came up, can we push this conversation?
+      - my meeting overlapped, could we shift the interview?
+      - I need to adjust this because of an urgent change
+      - something unexpected happened now, would another day work?
+      - I will not be available at this hour, could we reschedule?
+      - I got a sudden calendar conflict, can we delay?
+      - I need another time due to an urgent interruption
+      - this block got disrupted, could we use another?
+      - an urgent matter came up, can we choose a new slot?
+      - this time collided with something else, can we adjust?
+      - I am dealing with an immediate issue, could we move this?
+      - this turned into a conflict, could we pick another time?
+      - I cannot join now due to an urgent change, can we reschedule?
+      - I need to shift the schedule due to a sudden update
+      - something just interfered with this time, can we adjust?
+      - I must move this meeting because of a new priority
+      - an urgent internal request came in, can we reschedule?
+      - my schedule compressed unexpectedly, could we shift?
+      - I need another slot because of an immediate conflict
+      - I have a sudden agenda change, can we move the call?
+      - this schedule is no longer possible, can we shift it?
+      - I need to reschedule due to an urgent overlap
+      - an immediate meeting just appeared, could we delay?
+      - something urgent happened here, can we find another slot?
+      - my schedule just got blocked, can we adjust this?
+      - I must push this interview due to a time conflict
+      - this hour became unavailable, can we reschedule soon?
+      - I am dealing with a last minute demand, could we move this?
+      - something unexpected is happening now, can we switch times?
+      - I have an immediate agenda change, could we move this interview?
+      - this call conflicts with something urgent, can we reschedule?
+      - my availability dropped suddenly, could we pick another hour?
+      - I just got assigned to something urgent, can we delay this?
+      - I need more flexibility due to a sudden calendar change
+      - this time will not work anymore, could we shift it?
+      - a last second issue came up, would another time be okay?
+      - the schedule changed abruptly, could we reschedule soon?
+      - I must attend something urgent now, can we postpone?
+      - I cannot commit to this time anymore, could we adjust?
+      - this slot no longer fits, can we choose another?
+      - an urgent meeting replaced this hour, can we move?
+      - something immediate needs my attention, can we reschedule?
+      - I was pulled into a priority matter, could we use another slot?
+      - a sudden change hit my schedule, can we postpone this?
+      - something critical came up now, can we pick another time?
+      - I have to shift due to an emergency update on my side
+      - an urgent situation is unfolding here, can we reschedule?
+      - I am tied up unexpectedly, could we pick another day?
+      - something came up out of nowhere, can we move this call?
+      - this time is now impossible for me, could we reschedule?
+      - I need to cancel this slot due to a sudden event
+      - an urgent call just came in, can we push this interview?
+      - my calendar shifted unexpectedly, can we rearrange?
+      - this schedule will not hold, could we choose another one?
+      - something last minute disrupted this time, can we move?
+      - I have to free this block now, could we reschedule?
+      - a sudden obligation appeared here, can we move this interview?
+      - I must step away now, can we pick a new time soon?

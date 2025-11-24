@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_change_platform:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sem problema podemos mudar de plataforma. É só me enviar o novo link que eu entro por lá.
+          vr_en: |
+            No problem we can switch platforms. Just send me the new link and I will join there.
+        resp_2:
+          vr_pt: |
+            Claro sem problema. Assim que você enviar o novo link eu acesso pela outra plataforma.
+          vr_en: |
+            Sure no problem. Once you send the new link I will join through the other platform.

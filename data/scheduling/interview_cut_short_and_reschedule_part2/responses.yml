@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_interview_cut_short_and_reschedule_part2:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Por mim tudo bem eu não vejo problema em dividir em duas partes. Podemos marcar uma segunda conversa sim é só me indicar alguns horários que eu me organizo.
+          vr_en: |
+            That is totally fine for me I do not mind splitting it into two parts. We can definitely schedule a second conversation just let me know some time slots and I will organize myself.
+        resp_2:
+          vr_pt: |
+            Sem problema podemos continuar em uma segunda etapa sim. É só me enviar as opções de horário que eu ajusto por aqui.
+          vr_en: |
+            No problem we can continue in a second stage. Just send me the time options and I will adjust on my side.

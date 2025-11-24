@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: sound_suggestion_turn_off_camera
+    examples: |
+      - sua imagem está bem travada aqui, você se importa se a gente desligar as câmeras para melhorar o áudio?
+      - para tentar melhorar a qualidade do som, você poderia desligar a câmera por alguns minutos?
+      - acho que a banda não está ajudando muito, podemos seguir só com áudio para ficar mais estável?
+      - o vídeo está cortando bastante, você toparia continuar com a câmera desligada?
+      - se desligarmos o vídeo, provavelmente o áudio vai ficar mais limpo, tudo bem para você?
+      - você se incomoda se a gente fizer o restante da entrevista apenas por voz?
+      - para evitar mais travamentos, você pode desligar a câmera por enquanto?
+      - podemos testar alguns minutos só com áudio para ver se melhora a conexão?
+      - o vídeo está bem atrasado em relação ao som, então eu sugeriria a gente focar só no áudio
+      - se for ok para você, podemos manter só o áudio ligado até o final da call
+      - seu vídeo está congelado, podemos tentar só o áudio?
+      - a conexão está bem pesada, você poderia desligar a câmera?
+      - seu vídeo não está carregando, podemos seguir só com som?
+      - o vídeo está instável, podemos ficar no áudio apenas?
+      - seu vídeo está falhando, você pode apagar a câmera por agora?
+      - seu vídeo está desfocado e travando, podemos ir só de áudio?
+      - a qualidade caiu bastante, vamos tentar sem vídeo?
+      - seu vídeo não está acompanhando o áudio, você pode desligar?
+      - acho que a câmera está pesando a conexão, podemos desativar?
+      - a imagem está muito lenta, podemos seguir sem vídeo?
+      - seu vídeo não está sincronizado, vamos tentar só áudio?
+      - o som fica melhor sem câmera, podemos testar?
+      - seu vídeo está com delay forte, dá para desligar ele?
+      - a chamada fica mais estável sem vídeo, vamos assim?
+      - seu vídeo não aparece direito, vamos no áudio?
+      - o vídeo está travando toda hora, desliga por favor?
+      - sua imagem está quadriculada, podemos ficar só com áudio?
+      - o vídeo não está fluindo, você consegue desligar?
+      - acho melhor desativar o vídeo para melhorar tudo
+      - a conexão está puxada, vamos sem câmera?
+      - sua câmera está com baixa resolução, vamos só com voz?
+      - vídeo ruim está prejudicando o som, desliga ele?
+      - sua tela está congelada há um tempo, pode desligar a câmera?
+      - está picotando muito, vamos testar sem vídeo?
+      - sua imagem sumiu, podemos seguir só falando?
+      - o vídeo não está estável, desliga por alguns minutos?
+      - há muito atraso no vídeo, vamos seguir sem ele?
+      - o vídeo está travando o tempo inteiro, dá para desligar?
+      - está muito fora de sincronismo, vamos usar só áudio?
+      - acho que vai fluir melhor sem vídeo, tudo bem?
+      - sua câmera oscilou várias vezes, podemos deixar só o som?
+      - vídeo ruim compromete a call, vamos sem ele?
+      - seu vídeo está intermitente, vamos pausar?
+      - a qualidade do vídeo caiu muito, desliga ele um pouco?
+      - áudio é prioridade agora, vamos manter só ele?
+      - seu vídeo está piscando, pode desligar?
+      - a imagem não carrega, vamos só no áudio?
+      - o vídeo está lento demais, podemos desligar?
+      - sua câmera está travando direto, dá para apagar ela?
+      - o áudio some quando o vídeo trava, vamos tirar ele?
+      - a conexão está no limite, melhor sem vídeo
+      - vídeo atrapalhando bastante, vamos sem câmera?
+      - sua câmera não estabiliza, podemos desligar?
+      - podemos manter sem vídeo até estabilizar?
+      - sua imagem está borrada e travada, melhor desligar
+      - ficou pesado aqui com vídeo, podemos remover?
+      - seu vídeo caiu e voltou, melhor ficar só em áudio
+      - conexão ruim com vídeo, vamos simplificar?
+      - está difícil manter o vídeo ligado, podemos tirar?
+      - seu vídeo está em baixa taxa, vamos desativar?
+      - a câmera está causando delay, dá para desligar?
+      - vídeo piorando o áudio, vamos pausar?
+      - seu vídeo está indo e voltando, vamos sem ele?
+      - a câmera trava sempre, vamos só com voz?
+      - vídeo está sobrecarregando tudo, vamos tirar?
+      - sua imagem está estática, pode desligar?
+      - vídeo quebrando toda hora, melhor sem ele
+      - sem vídeo melhora bastante, vamos assim?
+      - vídeo atrapalhando, podemos desligar?
+      - seu vídeo sumindo o tempo inteiro, vamos audio only?
+      - desliga o vídeo para ver se melhora o eco?
+      - sua webcam não responde, vamos seguir assim?
+      - imagem travada, vou sugerir desativar o vídeo
+      - vídeo com muito lag, podemos tentar sem ele?
+      - vídeo está fora de foco e travado, desliga?
+      - a chamada deve ficar melhor sem vídeo
+      - vídeo está pesado para a conexão, vamos tirar?
+      - sua imagem trava quando você fala, pode desligar?
+      - vídeo está instável desde o início, vamos pausar?
+      - dificuldade com vídeo, vamos só som?
+      - sua imagem está congelada há minutos, desliga?
+      - vídeo caiu completamente aqui, vamos áudio?
+      - a conexão melhora muito sem vídeo, podemos?
+      - vídeo do seu lado está inconsistente, vamos tirar?
+      - imagem irregular, vamos seguir sem câmera?
+      - vídeo está prejudicando a conversa, desativa?
+      - está tudo desalinhado com vídeo, melhor desligar
+      - vídeo atrapalhou de novo, pode tirar?
+      - podemos seguir sem vídeo até o final?
+      - vídeo bagunçando a comunicação, vamos áudio?
+      - sem vídeo deve estabilizar tudo, vamos assim?
+      - acho melhor pausar o vídeo agora, pode ser?
+      - sua câmera não está respondendo bem, desliga por favor
+      - vídeo está claramente sobrecarregando a call, vamos sem ele?
+      - vamos evitar vídeo para garantir clareza no áudio?
+      - sua imagem não carregou mais, melhor desligar a câmera
+      - sua câmera está com muito atraso, podemos desligar só para estabilizar o áudio?
+      - o vídeo está distorcendo bastante, você consegue pausar ele?
+      - a imagem está travando direto, acho melhor seguir só com áudio
+      - o vídeo não está acompanhando, podemos focar só na voz?
+      - your camera is very delayed, can we turn it off just to stabilize the audio?
+      - the video is heavily distorted on my side, could you pause it?
+      - your image keeps freezing, I suggest we stay with audio only
+      - your camera is lagging a lot, can you disable it for now?
+      - the video is not keeping up, can we focus only on voice?
+      - your feed is extremely delayed, could we switch to audio only?
+      - the video is dropping frames constantly, can you turn it off?
+      - your picture is skipping a lot, can we stay audio only?
+      - the video stream is not stable enough, could you disable it?
+      - your video is really frozen on my side, would you mind if we both turned off our cameras to improve the audio?
+      - to try and improve sound quality, could you turn your camera off for a few minutes?
+      - I do not think the bandwidth is helping much, can we continue with audio only to make it more stable?
+      - the video is cutting out a lot, would you be okay with keeping the camera off?
+      - if we switch off the video the audio will probably be clearer, is that alright for you?
+      - would you mind if we did the rest of the interview using only voice?
+      - to avoid more freezing could you turn your camera off for now?
+      - can we test a few minutes with audio only to see if the connection gets better?
+      - the video is very delayed compared to the sound so I suggest we focus on audio only
+      - if it is okay for you we can keep just the audio on until the end of the call
+      - your video is stuck could you turn the camera off?
+      - the image is frozen here can we switch to audio only?
+      - your camera is not responding well can we disable it?
+      - video is causing instability can we stay on audio?
+      - your video keeps lagging could you try turning it off?
+      - the picture is not loading well let us continue without video
+      - your video is pixelated can we remove it?
+      - video is not syncing with your voice can we go audio only?
+      - your frame is frozen can we disable the camera?
+      - the connection gets better without video can we try that?
+      - your feed is unstable let us stay on audio
+      - video keeps dropping can we continue without it?
+      - your video is very slow can we switch to audio only?
+      - I am getting heavy lag from your video could you turn it off?
+      - your camera is struggling can we keep it off?
+      - video is hurting sound quality can we stay with audio?
+      - your video froze again can we go audio only?
+      - your image is stuck on screen could you disable the camera?
+      - video is not stable enough can we keep it off?
+      - your video keeps glitching can we avoid using it?
+      - your picture is not updating can we drop the video?
+      - video is affecting clarity can we turn it off?
+      - your camera keeps freezing let us switch to audio only
+      - your frame is not moving let us disable video
+      - video is too unstable can we finish on audio?
+      - your image is not coming through can we remove video?
+      - the feed is lagging too much could you turn off your video?
+      - your video jumps a lot can you turn it off?
+      - video is not loading properly let us skip it
+      - your picture is distorted let us keep only audio
+      - video keeps getting stuck can we leave it off?
+      - your video is slowing the call down can we remove it?
+      - I am seeing a big delay in your video could we switch to audio only?
+      - your camera is cutting out a lot can we disable it?
+      - the video stream is too heavy for the connection can we go audio only?
+      - your video froze completely can we continue with sound only?
+      - video interference is affecting the conversation can we turn it off?
+      - your feed keeps freezing let us pause the video
+      - video is struggling today can we drop it?
+      - audio should improve without video can we try?
+      - your image is out of sync let us stay on audio
+      - video quality is too low can we remove it?
+      - your picture froze during your sentence can we go audio only?
+      - video is unstable from your side can you disable it?
+      - your video is causing echo can you turn it off?
+      - I think video is overloading your connection can we disable it?
+      - your camera seems overloaded let us stay with audio
+      - the video is flickering could you switch it off?
+      - your frame is frozen let us use audio only
+      - video keeps freezing on my screen let us drop it
+      - your camera is not keeping up can you turn it off?
+      - the video lag is too high can we go sound only?
+      - your image broke again can we stay on audio?
+      - video seems too heavy let us keep only voice
+      - your video never recovered can you switch it off?
+      - your camera froze when you spoke can we disable it?
+      - video interruptions are constant can we finish on audio?
+      - your video turned black let us keep only the audio
+      - your picture is unstable let us turn video off
+      - video is too inconsistent can we avoid it?
+      - your camera is not stabilizing let us stay on audio
+      - your video is disappearing frequently can we disable it?
+      - the video is not coming through properly can we turn it off?
+      - I cannot see your video anymore can we go audio only?
+      - the video stream broke again can you turn the camera off?
+      - your camera froze badly can we continue without video?
+      - your video seems to slow the call let us disable it
+      - connection improves without video can we try audio only?
+      - your frame is not updating can we remove the video?
+      - video is stopping your audio can you switch it off?
+      - your video crashed here can we keep only voice?
+      - your camera is unstable let us proceed with audio
+      - video is not viable right now can we turn it off?
+      - your feed froze completely can we continue via audio?
+      - your image lagged too much can we disable the video?
+      - your video flickered out can we stick to audio?
+      - video is causing too much delay can we drop it?
+      - your camera cut out again can we go audio only?
+      - video is failing repeatedly let us switch to sound only
+      - your image froze again can we disable video now?
+      - your video is too inconsistent let us finish without it

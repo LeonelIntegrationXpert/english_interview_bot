@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_short_notice_reschedule_soon:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu entendo imprevistos acontecem. Se você me indicar algumas opções alternativas eu vejo o que consigo ajustar na minha agenda para remarcar.
+          vr_en: |
+            I understand unexpected things happen. If you share a few alternative options I will see what I can adjust in my schedule to reschedule.
+        resp_2:
+          vr_pt: |
+            Sem problema posso me adaptar. Me envie os horários disponíveis e eu verifico o que consigo ajustar aqui.
+          vr_en: |
+            No problem I can adapt. Send me the available times and I will check what I can adjust on my side.

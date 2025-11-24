@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_connection_issue
+    examples: |
+      - estou com um problema de conexão aqui você está conseguindo me ouvir bem
+      - minha internet deu uma oscilada se travar um pouco você me avisa por favor
+      - se a chamada cair podemos tentar reconectar pelo mesmo link tudo bem
+      - acho que a conexão aqui não está muito estável você está me vendo e ouvindo direitinho
+      - se em algum momento o áudio falhar você pode me sinalizar
+      - caso a call caia por instabilidade você consegue entrar de novo pelo mesmo convite
+      - minha câmera e microfone estão oscilando um pouco você está recebendo bem aí
+      - pode ser que a conexão fique ruim se isso acontecer a gente tenta reconectar combinado
+      - tive alguns problemas de internet hoje se a call travar vamos insistir mais uma vez tudo bem
+      - se a conexão piorar muito você se importa se a gente continuar só por áudio
+      - minha imagem está travando aí você consegue me confirmar
+      - o áudio deu uma cortada você conseguiu entender o que eu disse
+      - acho que meu vídeo caiu você ainda está na call
+      - você está me ouvindo com atraso ou está normal
+      - minha tela ficou preta por aqui você ainda me vê
+      - talvez minha voz esteja robotizada me avise se continuar assim
+      - a internet caiu há pouco pode ser que aconteça de novo
+      - estou ouvindo um eco você me escuta bem
+      - pode ser que eu fique mudo por instantes é instabilidade aqui
+      - meu som está picotando você percebe isso também
+      - minha conexão está irregular hoje obrigado pela paciência
+      - estou tentando estabilizar aqui você consegue aguardar um minuto
+      - se travar de novo posso desligar o vídeo
+      - minha internet está alternando entre estável e instável
+      - estou notando lentidão você também está percebendo isso
+      - o áudio falhou agora pouco você recebeu normal
+      - meu vídeo ficou congelado você está me vendo agora
+      - estou reconectando o fone me diga se melhorar
+      - tive uma queda rápida de internet agora
+      - se eu ficar inaudível me avise para eu repetir
+      - estou com pequeno delay aqui você também está
+      - minha rede parece saturada hoje pode oscilar
+      - você está percebendo algum ruído ou falha no áudio
+      - estou com latência alta então posso demorar a te ouvir
+      - meu sinal está fraco posso precisar tentar outra rede
+      - você me confirma quando a imagem estabilizar
+      - se ficar muito ruim podemos tentar reiniciar a call
+      - a plataforma aqui travou você ainda está online
+      - minha voz ficou baixa aí ou está normal
+      - meu vídeo ficou muito lento você quer que eu desligue
+      - o compartilhamento de tela pode falhar por instabilidade
+      - estou tentando reconectar a câmera
+      - minha conexão alternou para dados móveis pode oscilar
+      - a qualidade do vídeo caiu você ainda vê bem
+      - estou percebendo falhas pequenas aqui você confirma
+      - a chamada travou um pouco você percebeu isso também
+      - vou tentar ajustar o roteador rapidinho
+      - meu áudio parece abafado aí
+      - estou com interferência aqui você recebe normal
+      - se eu sumir por segundos é reconexão automática
+      - minha tela voltou agora você vê normal
+      - o aplicativo aqui reiniciou sozinho desculpa se travar
+      - tive uma queda de sinal mas já voltou
+      - estou com ruído no fundo você está ouvindo limpo
+      - minha conexão falhou na última frase quer que eu repita
+      - se o delay ficar muito grande eu aviso
+      - meu áudio pode vir com atraso hoje
+      - a imagem está muito borrada aí
+      - estou tentando trocar de rede para estabilizar
+      - tive perda de pacote aqui talvez falhe
+      - minha plataforma congelou estou voltando
+      - minha conexão flutuou agora pouco pode acontecer de novo
+      - o áudio duplicou aqui você está ouvindo normal
+      - estou com instabilidade mas sigo na call
+      - minha internet está alternando entre boa e ruim
+      - o vídeo sumiu por um instante você percebeu
+      - o microfone ficou mudo sozinho aguarda um segundo
+      - estou vendo tudo travado aqui e você
+      - meu retorno está atrasado você me escuta normal
+      - minha banda está baixa então pode distorcer
+      - você está recebendo minha voz sem cortes
+      - minha conexão caiu e voltou rápido
+      - estou com perda de estabilidade aqui você confirma
+      - meu vídeo piscou aqui um segundo
+      - pode ser que eu precise recarregar a página
+      - estou com lentidão extrema agora
+      - minha imagem deve congelar por instantes
+      - posso alternar para só áudio se facilitar
+      - minha internet reiniciou sozinha há pouco
+      - o aplicativo está lento aqui
+      - minha câmera apareceu preta aí
+      - meu áudio subiu e desceu você notou
+      - minha rede está variando muito agora
+      - pode ser que eu caia da call mas volto
+      - estou com pings altos hoje
+      - minha tela está desincronizada
+      - se a call fechar sozinha eu retorno
+      - minha conexão ficou instável de novo
+      - minha voz está chegando metálica aí
+      - meu vídeo está com muitos quadros perdidos
+      - talvez eu precise reiniciar o app
+      - estou com falhas contínuas aqui
+      - minha transmissão pode oscilar mais um pouco
+      - meu áudio pode cair de novo se isso ocorrer eu aviso
+      - minha tela está piscando você ainda me vê
+      - a plataforma está lenta aqui você percebe algo aí
+      - meu vídeo está com atraso você confirma se está ouvindo
+      - estou com falha no microfone pode repetir se eu não ouvir
+      - a conexão sumiu por segundos mas voltou agora
+      - posso precisar trocar de dispositivo se continuar instável
+      - my audio may drop again if it happens I will let you know
+      - my screen is flickering can you still see me
+      - the platform is slow on my side do you notice anything there
+      - my video has delay can you confirm you hear me
+      - I am having mic issues please repeat if I do not hear
+      - the connection vanished for seconds but it is back now
+      - I may need to switch devices if instability continues
+      - my camera may freeze again let me know if it happens
+      - I am seeing visual glitches are you seeing me clearly
+      - the audio may distort again please tell me if it does
+      - I am having some connection issues are you able to hear me well
+      - my internet is a bit unstable if it freezes please let me know
+      - if the call drops can we reconnect using the same link is that okay
+      - I do not think my connection is stable can you see and hear me properly
+      - if the audio cuts out at any point please let me know
+      - if the call disconnects due to instability can you join again using the same invite
+      - my camera and microphone are unstable are you receiving me clearly
+      - the connection might get bad if that happens we try to reconnect okay
+      - I have had some internet issues today if the call freezes we try again
+      - if the connection gets too bad would you mind if we continue with audio only
+      - my video seems to be freezing can you confirm you see me
+      - the audio glitched did you catch what I said
+      - I think my video dropped are you still there
+      - are you hearing me with delay or normally
+      - my screen turned black for a moment can you still see me
+      - my voice may sound robotic please tell me if it continues
+      - my internet dropped briefly it might happen again
+      - I am hearing echo can you hear me well
+      - I might go silent for seconds it is instability here
+      - my sound is breaking up are you noticing it
+      - my connection is irregular today thanks for your patience
+      - I am trying to stabilize it please hold a moment
+      - if it freezes again I might turn off the video
+      - my network is switching between stable and unstable
+      - I am noticing lag are you seeing it too
+      - the audio cut a moment ago did it reach you
+      - my video froze did you see that
+      - reconnecting my headset tell me if it improves
+      - I had a quick internet drop just now
+      - if I become inaudible please tell me so I repeat
+      - I have a small delay do you notice it
+      - my network seems overloaded it may oscillate
+      - can you confirm when the image stabilizes
+      - if it gets too bad we can restart the call
+      - the platform froze are you still online
+      - did my voice get too low on your side
+      - my video is very slow do you want me to turn it off
+      - screen share may fail due to instability
+      - I am trying to reconnect the camera
+      - my internet switched to mobile data it may fluctuate
+      - the video quality dropped can you still see me well
+      - I am noticing minor glitches can you confirm
+      - the call froze briefly did you see that too
+      - trying to adjust the router one moment
+      - my audio sounds muffled do you hear it too
+      - I have interference here are you receiving me clearly
+      - if I disappear for seconds it is auto reconnection
+      - my screen is back can you see me now
+      - the app restarted itself sorry if it freezes
+      - I had a signal drop but it is back
+      - I have background noise do you hear it clean
+      - the last sentence failed do you want me to repeat
+      - if delay gets too high I will tell you
+      - my audio may arrive late today
+      - is my image blurry on your side
+      - switching networks trying to stabilize
+      - I had packet loss it might fail again
+      - the platform froze I am coming back
+      - my connection fluctuated it may recur
+      - the audio duplicated did you hear it
+      - unstable connection but I am still here
+      - my internet is going from good to bad
+      - my video disappeared for a second
+      - my mic muted itself wait a moment
+      - everything is frozen here what about you
+      - my return is delayed do you hear me normally
+      - my bandwidth is low audio may distort
+      - are you receiving my voice without cuts
+      - my connection dropped and returned
+      - instability here can you confirm
+      - my video flashed for a moment
+      - I may need to reload the page
+      - experiencing heavy lag now
+      - my image may freeze briefly
+      - we can switch to audio only if needed
+      - my internet restarted earlier
+      - the app is slow on my side
+      - is my camera showing black for you
+      - my audio volume dropped did you notice
+      - my network is varying a lot right now
+      - I may drop but I will return
+      - I am getting high ping today
+      - my screen is desynced
+      - if the call closes I will rejoin
+      - my connection just turned unstable again
+      - is my voice sounding metallic to you
+      - my video is losing many frames
+      - I may need to restart the app
+      - constant glitches here sorry
+      - my transmission might oscillate a bit more

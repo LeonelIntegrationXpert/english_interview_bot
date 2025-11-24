@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: soccer_team
+    examples: |
+      - você acompanha futebol só em grandes eventos ou nem assim?
+      - futebol aparece nas conversas da sua família ou quase nunca?
+      - você já trabalhou com colegas muito apaixonados por futebol?
+      - uma pergunta mais descontraída: você torce para algum time de futebol?
+      - só por curiosidade, qual time de futebol você torce?
+      - você acompanha futebol? Tem algum time do coração?
+      - você gosta de futebol ou não é muito a sua praia?
+      - aqui o pessoal fala bastante de futebol, você entra nas conversas ou prefere outros assuntos?
+      - você costuma assistir jogos de futebol nos fins de semana?
+      - tem algum clube que você acompanha mais, brasileiro ou de fora?
+      - futebol é algo que faz parte do seu dia a dia ou quase nada?
+      - no café do time, o pessoal fala de futebol, você participa ou passa longe?
+      - você se considera fã de futebol ou nem tanto?
+      - você costuma discutir futebol com amigos ou não costuma acompanhar?
+      - quando alguém puxa assunto de futebol, você anima ou muda de tema?
+      - você acompanha campeonato brasileiro ou mais o futebol internacional?
+      - você costuma ver a seleção brasileira jogar ou não acompanha muito?
+      - você torce para algum time da sua cidade?
+      - você acompanha mais jogos presenciais ou só pela TV?
+      - qual foi o último jogo que você assistiu, se você costuma ver futebol?
+      - quando tem final de campeonato, você acompanha ou não liga muito?
+      - você participa de bolões de futebol ou não é seu interesse?
+      - você costuma assistir Copa do Mundo ou não faz parte da sua rotina?
+      - você segue páginas de futebol nas redes sociais?
+      - você tem amigos muito fanáticos por futebol?
+      - você já foi a algum estádio assistir jogo ao vivo?
+      - você prefere acompanhar campeonatos nacionais ou europeus?
+      - você já jogou futebol alguma vez ou só acompanha?
+      - você tem costume de debater futebol com colegas de trabalho?
+      - quando tem clássico importante, você costuma acompanhar?
+      - você acompanha futebol mais por diversão ou quase nada?
+      - você costuma ouvir podcasts ou programas de futebol?
+      - você já torceu para algum time quando era mais novo?
+      - você joga futebol com amigos ou não costuma praticar?
+      - você acompanha tabela de jogos ou resultados?
+      - você gosta de conversar sobre futebol mesmo não sendo fã?
+      - você prefere assistir futebol sozinho ou com outras pessoas?
+      - você tem algum jogador preferido ou não acompanha a fundo?
+      - você já participou de campeonatos amadores?
+      - você acompanha transmissões esportivas no streaming?
+      - futebol entra na sua rotina semanal ou raramente?
+      - quando tem jogo importante, isso chama sua atenção?
+      - você torce para algum time estrangeiro?
+      - você costuma ver highlights de jogos ou não acompanha nada?
+      - você gosta mais de assistir jogos ou ouvir comentários esportivos?
+      - você segue algum comentarista ou jornalista esportivo?
+      - você costuma acompanhar notícias de futebol no dia a dia?
+      - futebol é uma conversa que te interessa ou passa batido?
+      - você entra em debates sobre futebol ou evita para não causar?
+      - você prefere campeonato estadual ou nacional?
+      - você costuma acompanhar Libertadores ou Champions League?
+      - futebol é um assunto comum entre seus amigos?
+      - quando alguém pergunta seu time, você tem um ou diz que não acompanha?
+      - você acompanha mais jogos de manhã, tarde ou noite?
+      - você tem algum time que simpatiza mesmo sem acompanhar muito?
+      - você já pensou em começar a acompanhar futebol mais a fundo?
+      - você prefere ver resumos dos jogos ou partidas completas?
+      - você já colecionou figurinhas de Copa?
+      - você já visitou algum estádio famoso?
+      - você acompanha futebol feminino também ou não muito?
+      - você gosta de ver finais, mesmo não acompanhando toda a temporada?
+      - futebol te ajuda a relaxar ou não está entre seus interesses?
+      - você discute futebol com familiares?
+      - você costuma entrar em grupos que falam de futebol?
+      - você já participou de mesas-redondas entre amigos sobre futebol?
+      - quando alguém fala de futebol no trabalho, você reage?
+      - futebol ocupa algum espaço no seu lazer?
+      - você identifica algum time com sua cidade ou região?
+      - você já viajou para ver jogo?
+      - você acompanha canais esportivos na TV?
+      - você tem interesse específico por algum campeonato?
+      - você acompanha transferências e mercado da bola?
+      - você já jogou futebol virtual, tipo FIFA ou PES?
+      - você já trabalhou em empresa com ambiente muito futebolístico?
+      - você tem algum colega que tenta te converter para o time dele?
+      - você acha futebol um tema leve ou polêmico?
+      - você gosta da atmosfera de estádio ou prefere ver de casa?
+      - futebol mexe com você emocionalmente ou não tanto?
+      - você presta atenção em estatísticas de jogadores?
+      - você acompanha rivalidades do futebol?
+      - você sabe qual é o time mais comum na sua região?
+      - quando te perguntam seu time, você responde qual?
+      - você gosta mais de ataque ou defesa quando assiste um jogo?
+      - futebol afeta sua rotina de alguma forma?
+      - você gosta de acompanhar jogos decisivos?
+      - quando tem Copa América ou Eurocopa, você vê?
+      - você costuma ver futebol com amigos em bares?
+      - você participa de discussões de futebol online?
+      - você tem alguma camisa de time?
+      - você já foi convidado para eventos de futebol?
+      - futebol é parte do seu círculo social?
+      - você gosta de acompanhar futebol apenas em grandes eventos?
+      - você já fez aposta de futebol alguma vez?
+      - você acompanha categorias de base?
+      - você acompanha futebol mais pela diversão ou por tradição familiar?
+      - quando tem derby ou clássico, você acompanha?
+      - futebol faz parte das conversas que você gosta de puxar?
+      - você acompanha notícias de contratação e venda de jogadores?
+      - você já torceu para um time e depois mudou?
+      - você costuma lembrar nomes de jogadores ou não acompanha?
+      - do you follow football only during big events or not even then?
+      - does football show up in your family conversations or almost never?
+      - have you worked with colleagues who are very passionate about football?
+      - a more casual question: do you support any football (soccer) team?
+      - just out of curiosity, do you have a favorite football team?
+      - do you follow football at all? Any team you root for?
+      - do you enjoy football, or is it not really your thing?
+      - people here talk a lot about football, do you usually join those conversations or not really?
+      - do you usually watch football matches on the weekend?
+      - is there any club you follow more closely, either from Brazil or abroad?
+      - is football part of your daily life, or almost not at all?
+      - when the team is talking about football over coffee, do you jump in or stay quiet?
+      - would you say you’re a football fan, or not really?
+      - do you ever discuss football with friends or not so much?
+      - when someone brings up football, do you join or change the subject?
+      - do you follow national leagues or more international ones?
+      - do you watch the national team play or not very often?
+      - do you support a team from your hometown?
+      - do you prefer watching matches live or on TV?
+      - what was the last match you watched, if you follow football?
+      - during finals, do you watch or not really care?
+      - do you join football pools or prediction games?
+      - do you usually watch the World Cup?
+      - do you follow football pages on social media?
+      - do you have friends who are huge football fans?
+      - have you ever been to a stadium to watch a match?
+      - do you prefer national or European leagues?
+      - have you ever played football or do you just watch?
+      - do you debate football with coworkers?
+      - do you follow big rivalry matches?
+      - do you follow football just for fun or rarely?
+      - do you listen to football podcasts or shows?
+      - did you have a favorite team when you were younger?
+      - do you play football with friends?
+      - do you track match schedules or results?
+      - do you join football conversations even if you’re not a fan?
+      - do you prefer watching football alone or with others?
+      - do you have a favorite player or not really?
+      - have you ever joined amateur football tournaments?
+      - do you watch football through streaming platforms?
+      - does football fit your weekly routine or not so much?
+      - do big matches catch your attention?
+      - do you support any international team?
+      - do you watch match highlights or not at all?
+      - do you prefer watching games or hearing commentary?
+      - do you follow any sports commentator?
+      - do you track football news?
+      - is football a topic that interests you or not really?
+      - do you join football debates or avoid them?
+      - do you prefer state leagues or national ones?
+      - do you follow the Libertadores or the Champions League?
+      - is football a common topic among your friends?
+      - when someone asks your team, do you have one?
+      - do you watch morning, afternoon, or evening matches?
+      - do you sympathize with any club even if you don’t follow closely?
+      - have you ever thought about following football more?
+      - do you prefer match summaries or full games?
+      - did you ever collect World Cup stickers?
+      - have you visited any famous stadiums?
+      - do you follow women’s football as well?
+      - do you enjoy watching finals even if you don’t follow the whole season?
+      - does football help you relax or not really?
+      - do you talk about football with family?
+      - are you part of any football-related group chats?
+      - have you ever joined football roundtables with friends?
+      - when people talk football at work, do you jump in?
+      - does football take space in your leisure time?
+      - do you relate any team to your hometown?
+      - have you traveled to watch a match?
+      - do you follow sports channels on TV?
+      - do you have interest in specific leagues?
+      - do you track transfer windows and signings?
+      - have you played football video games like FIFA or PES?
+      - have you worked in a football-heavy environment?
+      - do colleagues try to recruit you to their team?
+      - do you see football as a light or divisive topic?
+      - do you like stadium atmosphere or prefer watching at home?
+      - does football affect your emotions or not much?
+      - do you focus on stats when watching football?
+      - do you follow famous football rivalries?
+      - do you know which team is most popular in your region?
+      - when people ask your team, what do you say?
+      - do you prefer offensive or defensive teams?
+      - does football impact your routine in any way?
+      - do you enjoy watching decisive matches?
+      - do you watch Copa América or Euro?
+      - do you watch matches with friends in bars?
+      - do you participate in online football discussions?
+      - do you own any football jerseys?
+      - have you been invited to football events?
+      - is football part of your social circle?
+      - do you watch football mainly during big tournaments?
+      - have you ever placed football bets?
+      - do you follow youth divisions?
+      - do you follow football more for fun or family tradition?
+      - do you watch derby or rivalry matches?
+      - do you bring football conversations when meeting people?
+      - do you track player transfers?
+      - have you ever switched teams?
+      - do you remember players’ names or not much?

@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_ask_how_found_role:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu conheci a vaga através do LinkedIn e, quando li a descrição, percebi que havia uma boa aderência com o meu perfil, por isso resolvi me inscrever.
+          vr_en: |
+            I first found the role on LinkedIn, and when I read the description I felt it matched my profile well, so I decided to apply.
+        resp_2:
+          vr_pt: |
+            Eu fui indicado por uma pessoa que já trabalha na empresa e achei a oportunidade bem interessante.
+          vr_en: |
+            I was referred by someone who already works at the company, and I found the opportunity very interesting.

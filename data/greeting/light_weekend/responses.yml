@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_light_weekend:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Foi um final de semana tranquilo consegui descansar e organizar algumas coisas pessoais então começo a semana com uma energia boa.
+          vr_en: |
+            It was a calm weekend I managed to rest and take care of some personal things so I start the week with good energy.
+        resp_2:
+          vr_pt: |
+            Foi um final de semana corrido mas mesmo assim consegui desligar um pouco e recuperar parte da energia.
+          vr_en: |
+            It was a busy weekend but I still managed to disconnect a bit and recover some energy.

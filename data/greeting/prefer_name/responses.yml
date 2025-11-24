@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_prefer_name:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Pode me chamar de Leonel é como me sinto mais à vontade em contexto profissional.
+          vr_en: |
+            You can call me Leonel that is how I feel most comfortable in a professional context.
+        resp_2:
+          vr_pt: |
+            No dia a dia o pessoal costuma me chamar de Leo então pode usar assim se preferir.
+          vr_en: |
+            In my daily life people usually call me Leo so you can use that if you prefer.

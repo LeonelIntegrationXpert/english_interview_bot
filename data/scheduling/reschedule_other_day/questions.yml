@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: reschedule_other_day
+    examples: |
+      - aconteceu um imprevisto aqui e não vou conseguir fazer a entrevista hoje podemos remarcar para outro dia
+      - peço desculpas mas surgiu uma urgência e preciso remarcar a nossa conversa para outro dia
+      - infelizmente eu não vou conseguir seguir com a entrevista hoje você teria disponibilidade em outro dia
+      - tivemos uma mudança de agenda e não vou conseguir manter o horário de hoje podemos reagendar
+      - estou com um conflito de agenda e vou precisar passar a entrevista para outro dia tudo bem para você
+      - tive um imprevisto pessoal e não vou conseguir continuar hoje podemos combinar um novo dia
+      - a equipe precisou de mim em outra reunião urgente você se importa se a gente remarcar para outro dia
+      - não vou conseguir tocar a entrevista hoje podemos encontrar outro dia que funcione para você
+      - houve uma mudança de prioridades e vamos precisar reagendar essa entrevista tudo bem
+      - posso te pedir desculpas mas não vou conseguir manter a entrevista hoje podemos remarcar
+      - precisei assumir uma demanda urgente e não conseguirei manter o horário de hoje podemos reagendar
+      - surgiu uma reunião crítica e não vou conseguir ficar hoje podemos reagendar para outro dia
+      - acabei de receber uma demanda urgente e preciso mudar o horário podemos reagendar
+      - não vou conseguir participar hoje podemos alinhar outra data
+      - apareceu um compromisso inesperado e preciso adiar podemos remarcar
+      - tive um problema de última hora e não consigo seguir hoje podemos reagendar
+      - estou preso em outra reunião e não vou conseguir hoje podemos marcar outro dia
+      - meu horário estourou e não vou conseguir manter a entrevista podemos reagendar
+      - tive um imprevisto com a minha agenda podemos remarcar para outro dia
+      - minha tarde virou e não consigo mais manter o horário podemos reagendar
+      - meu planejamento mudou agora e preciso remarcar está tudo bem
+      - meu dia saiu do controle e não consigo participar hoje podemos reagendar
+      - houve um ajuste urgente na agenda e preciso adiar essa entrevista
+      - meu calendário foi reorganizado e preciso passar a entrevista para outro dia
+      - minha reunião anterior atrasou e não conseguirei chegar a tempo podemos reagendar
+      - surgiu uma entrega urgente e não vou conseguir manter este horário
+      - estou com um atraso inesperado e preciso remarcar podemos ver outra data
+      - tive uma sobreposição de compromissos e não conseguirei participar hoje
+      - infelizmente a agenda não fechou e vou precisar reagendar tudo bem
+      - uma reunião urgente foi colocada no meu horário posso remarcar com você
+      - estou em outra demanda que se estendeu e não vou conseguir hoje
+      - a prioridade mudou agora e não conseguirei estar presente hoje podemos reagendar
+      - estou preso em um bloqueio de agenda posso remarcar com você
+      - tive uma situação interna aqui e preciso reagendar tudo bem para você
+      - meu dia virou corrido de repente e não conseguirei manter o horário podemos remarcar
+      - houve um atraso generalizado aqui e preciso transferir a entrevista
+      - não vou conseguir encerrar o que estou fazendo a tempo podemos reagendar
+      - uma atividade urgente entrou agora e terei que remarcar tudo bem
+      - estou finalizando algo inadiável e não vou conseguir hoje podemos reagendar
+      - meu tempo fechou completamente hoje posso passar essa entrevista para outro dia
+      - precisei assumir outra demanda e não conseguirei hoje podemos reagendar
+      - estou em um imprevisto operacional e preciso remarcar
+      - minha agenda mudou repentinamente e não consigo manter este horário
+      - encontrei um conflito direto no meu horário podemos reagendar
+      - tive uma emergência pequena aqui e precisamos remarcar
+      - a empresa me chamou para outra demanda posso remarcar com você
+      - estou resolvendo algo urgente e não poderei participar hoje
+      - meu dia atrasou inteiro posso reagendar a entrevista
+      - tive uma questão familiar agora e preciso remarcar
+      - algo urgente aconteceu agora e não vou conseguir seguir com a entrevista
+      - surgiu um bloqueio inesperado aqui e preciso reagendar está ok
+      - fui chamado para uma reunião imediata podemos remarcar outro dia
+      - estou com uma sobrecarga repentina na agenda podemos reagendar
+      - algo tomou meu horário completamente posso reagendar com você
+      - estou impossibilitado de participar hoje podemos ver outra data
+      - tive um choque de horários e não consigo manter o combinado podemos remarcar
+      - me apareceu uma pendência urgente e preciso reagendar tudo bem para você
+      - houve uma alteração interna de última hora posso remarcar a entrevista
+      - estou resolvendo algo urgente e não conseguirei chegar
+      - meu horário foi tomado por outra tarefa urgente podemos reagendar
+      - não vou conseguir comparecer podemos alinhar outro dia
+      - preciso reagendar por causa de uma interseção de agenda
+      - uma demanda crítica entrou no meu horário podemos reagendar
+      - estou preso em um alinhamento interno posso mover a entrevista para outro dia
+      - minha equipe precisou de mim agora preciso remarcar
+      - tive de assumir outra frente e não posso fazer hoje podemos reagendar
+      - ocorreu uma falha no planejamento e vou precisar remarcar
+      - não vou conseguir cumprir o horário posso propor outra data
+      - estou enfrentando um atraso grande e não consigo manter a entrevista
+      - uma reunião invadiu meu horário posso reagendar contigo
+      - estou no meio de um chamado urgente podemos reagendar a entrevista
+      - houve um desvio no planejamento posso remarcar
+      - estou resolvendo algo que não pode esperar posso reagendar
+      - surgiu uma demanda inesperada posso mover essa entrevista
+      - minha manhã fugiu do controle posso remarcar
+      - uma tarefa urgente caiu agora posso reagendar para você
+      - tive uma situação interna crítica posso reagendar
+      - o tempo apertou muito aqui posso jogar para outro dia
+      - estou impossibilitado neste horário posso remarcar
+      - houve um realinhamento de prioridades posso reagendar
+      - não vou conseguir encerrar a tempo posso remarcar
+      - minha agenda explodiu hoje posso remarcar
+      - recebi uma reunião emergencial posso mover para outro dia
+      - tive uma exigência rápida aqui posso remarcar
+      - um imprevisto ocupou meu horário posso reagendar
+      - o fluxo de hoje mudou posso agendar outra data
+      - estou com a agenda comprometida posso remarcar
+      - o tempo ficou curto demais posso passar para outro dia
+      - um atraso geral me pegou posso reagendar
+      - surgiu uma pendência urgente posso movimentar essa entrevista
+      - não tenho mais o horário disponível posso reagendar
+      - fui chamado para uma entrega urgente posso remarcar
+      - fiquei sem janela hoje posso reagendar a entrevista
+      - minha agenda travou podemos reagendar
+      - estou preso em outra atividade podemos marcar outro dia
+      - acabou entrando uma demanda obrigatória posso reagendar
+      - aconteceu algo fora do previsto posso realocar esta entrevista
+      - tive um ajuste inesperado aqui e preciso remarcar podemos ver outra data
+      - algo alterou minha agenda de repente e preciso reagendar está tudo bem
+      - não vou conseguir manter este horário e preciso mover para outro dia podemos alinhar
+      - something shifted on my end and I need to move this interview to another day
+      - I cannot keep this slot anymore can we choose a different day
+      - an unexpected change affected my schedule can we reschedule
+      - I am not able to attend at this time can we move it to another day
+      - a priority came up on my side and I need another day for the interview
+      - something unexpected came up and I cannot do the interview today can we reschedule
+      - I am sorry but an internal urgency came up and I need to move our conversation to another day
+      - unfortunately I cannot proceed with the interview today are you available on another day
+      - we had a last minute schedule change and I cannot keep today’s slot can we reschedule
+      - I have a schedule conflict and need to push the interview to another day would that be okay
+      - a personal issue just came up and I cannot continue today can we set a new date
+      - the team needs me in another urgent meeting would you mind if we move this interview
+      - I cannot run the interview today as planned can we find another day that works
+      - there has been a change in priorities and we need to move this interview to another day
+      - I have to apologize but I cannot keep today’s interview can we reschedule
+      - an urgent task came up and I cannot make the interview today can we move it
+      - an unexpected meeting was added to my schedule can we find another date
+      - something urgent pulled me away and I cannot join today can we reschedule
+      - I am stuck in another meeting and cannot attend today can we move it
+      - my schedule shifted suddenly and I need to change our time can we reschedule
+      - my day got rearranged and I will need another date for the interview
+      - a critical task came in and I cannot keep this time can we find another day
+      - my previous meeting extended and I will not make it today can we reschedule
+      - I had a sudden scheduling overlap and cannot join can we move it
+      - my agenda changed and I need another day for the interview
+      - I got pulled into another commitment can we reschedule
+      - something urgent is happening on my side and I cannot join today
+      - I had an urgent alignment come up and need to reschedule
+      - my timing collapsed today can we move this interview
+      - I have an internal shift and need to reschedule this meeting
+      - my current call is running late can we move this interview
+      - something urgent blocked my schedule can we reschedule
+      - I will not be available today due to a conflict can we find another date
+      - an unexpected priority took my slot can we reschedule
+      - my workload shifted and I need another day for this
+      - my schedule tightened and I cannot keep our time today
+      - I have a pressing issue and cannot attend can we reschedule
+      - something time sensitive came up and I must move this
+      - I am dealing with an urgent request can we push this to another day
+      - my schedule was reorganized can we reschedule this interview
+      - I need to shift our interview to another day due to a conflict
+      - a last minute urgency came in and I must move this interview
+      - I am tied up in something unexpected can we reschedule
+      - something on my end changed and I need another date
+      - I cannot join the interview today due to a last minute issue
+      - my calendar got blocked unexpectedly can we move this interview
+      - I have an overlap on my agenda can we reschedule
+      - a sudden need arose and I cannot participate today can we move it
+      - I am dealing with unexpected changes and cannot attend can we reschedule
+      - something urgent is being handled here and I must move this
+      - I cannot make this time today can we pick another
+      - an internal matter came up can we move the interview
+      - I must shift our time due to an urgent situation
+      - my meeting overflowed into this slot can we reschedule
+      - I received an emergency request and cannot make the interview
+      - I am in a mandatory meeting and cannot join can we move it
+      - something important demanded my attention can we reschedule
+      - my team's priorities changed and I need another date
+      - an internal change requires us to reschedule this interview
+      - my time was consumed by something urgent can we reschedule
+      - I cannot be available today due to a new conflict
+      - my schedule has been rearranged and I need another day
+      - I was pulled into something I cannot leave can we reschedule
+      - I need to postpone due to an unexpected situation
+      - I am unavailable now due to an urgent shift can we move it
+      - something urgent interrupted my plans can we reschedule
+      - I got called into another meeting can we reschedule
+      - I cannot join today due to a conflict in timing
+      - something immediate needs my attention can we move this
+      - I am wrapped up in a critical task can we reschedule
+      - I must push this interview forward due to a conflict
+      - an urgent update changed my schedule can we move it
+      - something forced a change here can we reschedule
+      - my availability today was affected can we move this interview
+      - I am unable to attend today can we arrange another day
+      - I need another date because of an urgent matter
+      - I am stuck on a task that cannot be paused can we reschedule
+      - my day shifted completely can we move this conversation
+      - something urgent took my time can we reschedule
+      - my meeting queue exploded can we move this
+      - something came up and I must change our appointment
+      - my internal meeting extended can we move this interview
+      - I am in a priority discussion and cannot join today
+      - something essential is happening and I cannot attend
+      - I must reschedule due to an unexpected workload
+      - something urgent required my attention can we move this
+      - my plans were disrupted so can we reschedule
+      - my team needs me right now can we move this interview
+      - something made me unavailable can we reschedule
+      - urgent changes here prevent me from attending can we move it
+      - I need another time slot due to a sudden change
+      - my schedule does not allow me to join today can we move it
+      - something urgent took over this time can we reschedule
+      - I am handling an immediate situation can we move this
+      - a critical meeting is happening and I cannot attend
+      - I need to shift the interview due to a new conflict
+      - my timing window closed can we reschedule
+      - something demanded my priority can we move the interview
+      - my workload escalated and I cannot join today can we reschedule
+      - I am unavailable due to a sudden shift can we choose another day

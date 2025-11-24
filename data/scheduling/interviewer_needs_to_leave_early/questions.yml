@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_needs_to_leave_early
+    examples: |
+      - só te avisando que hoje eu tenho um compromisso em seguida então talvez a nossa conversa precise terminar mais cedo
+      - por causa de um imprevisto eu vou precisar encurtar um pouco a entrevista de hoje
+      - tivemos uma reunião marcada depois dessa então vou ter que ser mais objetivo hoje
+      - vou precisar encerrar no horário certinho porque tenho outro compromisso tudo bem
+      - hoje vou ter um tempo mais limitado do que o planejado
+      - podemos focar nos pontos principais porque vou precisar te liberar um pouco antes
+      - só para alinhar expectativa nossa conversa hoje pode ser um pouco mais curta
+      - vou ter que encerrar alguns minutos antes por causa de outro compromisso
+      - infelizmente não vou conseguir estender a entrevista hoje preciso terminar no horário
+      - pode ser que eu precise fechar a call um pouco antes mas vou cobrir os pontos principais
+      - hoje meu tempo está um pouco mais apertado então talvez eu encerre antes
+      - só para avisar vou precisar terminar a conversa no horário exato
+      - estamos com uma reunião logo depois então preciso ser mais breve hoje
+      - tive um ajuste de última hora e vou precisar reduzir o tempo da entrevista
+      - meu tempo de hoje está mais enxuto então vou precisar encurtar um pouco
+      - posso precisar finalizar alguns minutos antes espero que não seja um problema
+      - vou ter que fechar esta conversa sem estender além do horário planejado
+      - meu próximo compromisso está bem perto então vou ser mais direto hoje
+      - tivemos um aperto na agenda e preciso deixar a entrevista mais curta
+      - só para prevenir caso eu precise encerrar alguns minutos antes
+      - hoje preciso seguir o horário com mais rigor então vou ser mais objetivo
+      - minha agenda apertou agora então vou precisar reduzir o tempo
+      - não vou conseguir fazer uma entrevista longa hoje preciso encerrar no horário
+      - meu próximo compromisso começa logo então vamos ser mais diretos hoje
+      - estou com uma janela menor hoje então vou focar no essencial
+      - vou ter que encerrar rapidamente no final da conversa
+      - só alinhando vou precisar manter o horário sem estender
+      - hoje eu não consigo passar nem um minuto do horário posso precisar encurtar
+      - minha agenda está mais rígida hoje então vou ser mais curto nas perguntas
+      - tive uma mudança aqui e preciso encerrar a entrevista mais cedo
+      - hoje estou com um compromisso próximo então nossa conversa será mais curta
+      - só para você se organizar a entrevista de hoje deve ser mais direta
+      - não vou conseguir passar do horário então vou manter o ritmo mais rápido
+      - caso eu encerre alguns minutos antes já deixo alinhado aqui
+      - minha próxima reunião está muito perto então preciso acelerar um pouco
+      - vou precisar manter o cronograma rígido e terminar no horário
+      - meu tempo hoje é bem limitado então temos que focar no principal
+      - se eu precisar encerrar antes já fica alinhado desde o início
+      - estou com meu dia mais apertado então serei mais objetivo
+      - temos pouco tempo hoje então vou guiar a conversa de forma mais direta
+      - só avisando para você não se surpreender se eu encerrar mais cedo
+      - vou ter outra call logo depois então preciso concluir no horário
+      - hoje não tenho tanta flexibilidade no final da entrevista
+      - caso você note que estou acelerando é por causa do próximo compromisso
+      - meu tempo disponível diminuiu então vou conduzir de forma mais rápida
+      - tivemos uma reorganização interna e preciso finalizar sem atrasos
+      - minha agenda encurtou hoje então vou cortar algumas partes da conversa
+      - posso ter que interromper alguns minutos antes por causa do próximo compromisso
+      - hoje vou seguir um ritmo mais direto por causa do horário
+      - estou com limite de tempo então vou tentar manter a entrevista mais objetiva
+      - só para antecipar vou precisar terminar sem estender além do previsto
+      - minha reunião seguinte está marcada bem próxima então vou conduzir de forma enxuta
+      - meu horário ficou mais apertado então nossa conversa será mais curta
+      - caso eu precise encerrar rápido já está alinhado
+      - hoje não posso ultrapassar o tempo combinado
+      - minha agenda foi comprimida então vou focar nas perguntas principais
+      - preciso começar outro compromisso na sequência então termino exatamente no horário
+      - não vou conseguir alongar a conversa hoje
+      - minha tarde ficou apertada então vamos manter a conversa mais rápida
+      - tivemos um atraso geral então tenho menos tempo hoje
+      - posso precisar ser breve por causa da agenda
+      - hoje preciso fazer tudo dentro do tempo exato
+      - estou com pouco tempo antes da próxima call então serei mais direto
+      - minha janela de hoje é menor então preciso encurtar a entrevista
+      - só para você saber vou precisar encerrar assim que der o horário
+      - vou manter a conversa mais concisa hoje por causa do compromisso depois
+      - hoje preciso ser mais objetivo por causa do próximo compromisso
+      - preciso terminar sem atraso hoje
+      - hoje o ritmo será mais acelerado por causa do meu horário
+      - meu tempo está contado hoje então vou ser mais curto nas perguntas
+      - não consigo ficar além do horário hoje então preciso ser breve
+      - tive uma encomenda de reunião na sequência então termino no horário exato
+      - posso precisar cortar alguns minutos da conversa por causa do tempo
+      - meu dia está mais corrido então a entrevista será um pouco mais curta
+      - a próxima reunião está logo ali então não conseguirei estender
+      - hoje vou conduzir de forma mais prática por causa do meu próximo compromisso
+      - minha agenda está justa então vou precisar manter o limite de tempo
+      - só para reforçar não consigo ultrapassar o horário hoje
+      - vou ter que fechar a entrevista no horário por causa de outra demanda
+      - hoje o tempo está mais limitado então vou agilizar um pouco
+      - meu compromisso seguinte exige que eu termine sem atraso
+      - não vou conseguir prolongar a conversa hoje
+      - posso precisar ser breve por conta da agenda apertada
+      - meu horário está justo hoje então vou manter o ritmo rápido
+      - estou com outro compromisso chegando então vou precisar terminar cedo
+      - hoje preciso ficar estrito no horário por causa de outra reunião
+      - tivemos um ajuste na agenda e meu tempo diminuiu então vou resumir algumas partes
+      - hoje o tempo será mais curto então vou direto aos pontos principais
+      - meu próximo compromisso está muito próximo então vamos focar no essencial
+      - não vou conseguir ficar até mais tarde então preciso manter a conversa mais curta
+      - hoje não tenho flexibilidade de horário no final da entrevista
+      - posso precisar encerrar com alguns minutos de antecedência
+      - vou precisar terminar exatamente no horário hoje
+      - meu tempo diminuiu agora então vou ser mais objetivo
+      - estou com a agenda mais apertada então precisamos otimizar o tempo
+      - só para garantir nossa conversa será um pouco mais rápida hoje
+      - minha janela de tempo encurtou então preciso manter a objetividade
+      - não posso atrasar para o próximo compromisso então termino pontualmente hoje
+      - hoje preciso terminar sem nenhum minuto extra então vou conduzir de forma mais direta
+      - meu tempo está bem contado nesta entrevista então posso precisar encerrar antes
+      - today I must leave exactly on time so I may keep a faster pace
+      - my time is very tight today so I might need to end earlier
+      - I cannot stay beyond the set time so I will keep the conversation focused
+      - my next meeting requires punctuality so I may wrap up sooner
+      - my schedule is constrained today so I must shorten the discussion
+      - I may have to end right away at the scheduled time due to my next call
+      - I have limited availability today so the interview may need to be shorter
+      - just to let you know I have another commitment right after this so we may need to finish earlier today
+      - due to a schedule issue I will need to shorten today’s interview a little
+      - we had a last minute meeting added so I will need to be more objective today
+      - I will need to finish right on time because I have another commitment is that okay
+      - today I have a slightly more limited time than planned
+      - can we focus on the main points as I need to wrap up a bit earlier
+      - just to set expectations our conversation today might be a little shorter
+      - I will need to end the call a few minutes earlier because of another commitment
+      - unfortunately I cannot extend the interview today I need to finish on time
+      - I might have to close the call earlier but I will cover the key points
+      - I have a tighter schedule today so I may need to end a bit sooner
+      - just letting you know I must keep the timing strict today
+      - we have a meeting right after this so I need to be brief today
+      - an urgent adjustment came up so I need to reduce the interview time
+      - my available time today is shorter so I will need to be more direct
+      - I may need to finish some minutes early just as a heads up
+      - I cannot stay past the scheduled time today
+      - my next meeting starts soon so I will be more direct today
+      - a schedule change reduced my available time so I need to keep it short
+      - just informing you in advance in case I need to end before the time
+      - today I need to follow the schedule exactly so I will be more objective
+      - my agenda tightened so I will need to reduce the time a bit
+      - I cannot stay long today so I need to finish on the scheduled time
+      - my next commitment is very close so I need to be faster today
+      - I have less time today so I will focus on the essential points
+      - I will need to end this conversation without extending
+      - just aligning expectations I may need to wrap up a little earlier
+      - today I cannot go past the exact end time
+      - my schedule is strict today so I will keep the questions short
+      - a change in my agenda means I need to finish earlier today
+      - my time is limited today so our conversation will be more concise
+      - just letting you know the interview may be shorter today
+      - I cannot extend the meeting so I will keep a faster pace
+      - in case I end a bit early I wanted to let you know in advance
+      - the next meeting is close so I need to move quicker today
+      - I must finish on schedule due to another commitment
+      - my time today is tight so I will have to shorten the interview
+      - if I need to end earlier please be aware it is because of my next meeting
+      - I must keep the conversation brief today due to my schedule
+      - I cannot stay later today so the interview will be more direct
+      - my time block is limited so I will focus on the main topics
+      - just alerting you I cannot extend the call today
+      - I have another meeting lined up so I will need to wrap up right on time
+      - today I have no flexibility to extend the interview
+      - if I seem faster than usual it is because of a following commitment
+      - my schedule compressed today so I need to reduce the duration a bit
+      - I may need to interrupt a little earlier than planned
+      - I need to conduct the conversation in a shorter format today
+      - just to set expectations I need to end at the exact time
+      - my next commitment leaves me with limited time so I will be quick
+      - today the conversation will be shorter due to a schedule constraint
+      - I cannot stay for long so I will keep things concise
+      - I must end before the hour because of another meeting
+      - the next commitment is approaching so I need to guide this faster
+      - my time window shrank today so the conversation will be more direct
+      - I may have to finish abruptly due to the next meeting
+      - today I must keep a strict time boundary
+      - I have a commitment shortly so I need to move efficiently today
+      - I cannot run over time today so we will stay focused
+      - today my timing is limited so I will ask shorter questions
+      - I may need to finish early due to another engagement
+      - my time allocation today is short so I need to compress the interview
+      - I cannot go beyond the end time so I will keep the pace steady
+      - due to a scheduling shift I must finish promptly today
+      - I need to end sharply on time because of my next call
+      - today I am working with reduced time so I will be concise
+      - I might close the conversation early due to timing limits
+      - I need to keep today’s conversation shorter than usual
+      - I cannot extend this discussion today due to my next meeting
+      - today I must finish without any delays
+      - I have a back to back schedule so I will need to end on time
+      - I might need to wrap up before the planned ending time
+      - today I have to be more direct due to schedule constraints
+      - I need to stay within the exact time limit today
+      - I may end sooner than expected because of the next commitment
+      - I need to keep the session short today due to my agenda
+      - my next meeting demands punctuality so I must finish right on time
+      - I cannot push the interview longer today
+      - I might shorten the conversation because of time pressure
+      - my time is restricted today so we will stay focused
+      - today the agenda is tight so our talk will be shorter
+      - I cannot extend past the ending time today
+      - I need to finish a bit earlier due to a schedule conflict
+      - I need to run a tighter schedule today
+      - I may wrap up faster than usual because of my agenda
+      - today I have a compressed timeline so I will be brief
+      - I cannot go over the set time today
+      - my commitments today require me to end promptly
+      - I need to stay within my schedule so I may finish early
+      - today I cannot prolong the conversation because of my next meeting
+      - I may need to finalize sooner today due to time limitations
+      - I must wrap this up right on schedule today
+      - I have limited time between meetings today so I need to be concise

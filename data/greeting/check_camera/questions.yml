@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: check_camera
+    examples: |
+      - se estiver confortável você pode ligar a câmera
+      - para você tudo bem manter a câmera ligada na entrevista
+      - se a conexão permitir você pode deixar a câmera ligada
+      - você está à vontade para deixar a câmera ligada
+      - se não for um problema você consegue ligar a câmera
+      - você prefere ficar com a câmera desligada ou ligada
+      - se preferir podemos seguir só com áudio sem câmera
+      - a sua conexão suporta usar vídeo sem travar muito
+      - você pode ativar a câmera se estiver tudo bem
+      - você quer manter a câmera desligada ou ligada
+      - você está confortável em aparecer em vídeo
+      - você está à vontade para ligar a câmera agora
+      - você consegue deixar sua câmera ligada neste momento
+      - prefere manter a câmera desligada por enquanto
+      - sua conexão fica estável com vídeo ligado
+      - você tem preferência por câmera ligada ou desligada
+      - você pode abrir a câmera se estiver tranquilo
+      - você prefere seguir só com áudio hoje
+      - está tudo bem deixar a câmera ligada no início
+      - você pode testar a câmera rapidamente
+      - sua conexão está estável para vídeo
+      - você se sente confortável usando vídeo nesta conversa
+      - prefere usar a câmera só se for necessário
+      - você deseja seguir sem vídeo nesta entrevista
+      - você pode abrir vídeo sem problema
+      - você está pronto para ligar a câmera agora
+      - você pode ficar com a câmera ligada pelo menos no início
+      - prefere que eu confirme antes de pedir a câmera
+      - você está confortável com vídeo hoje
+      - sua câmera está funcionando bem
+      - podemos usar vídeo nesta entrevista
+      - prefere conversa com vídeo ou só áudio
+      - sua conexão permite vídeo sem interrupções
+      - você quer manter a entrevista sem câmera
+      - você pode ligar a câmera para começarmos
+      - você pode deixar a câmera ativa por alguns minutos
+      - podemos testar seu vídeo antes de iniciar
+      - seu ambiente está ok para aparecer em vídeo
+      - você está com iluminação adequada para vídeo
+      - você quer evitar vídeo por causa da conexão
+      - prefere ativar a câmera só se eu pedir
+      - você consegue ativar o vídeo sem travar
+      - você quer prosseguir com vídeo ligado
+      - está tudo certo para aparecer na câmera
+      - posso pedir que ligue a câmera agora
+      - você quer manter o vídeo desligado
+      - sua câmera está disponível hoje
+      - você está confortável com vídeo no início
+      - sua conexão está forte o suficiente para vídeo
+      - você consegue abrir o vídeo por alguns instantes
+      - você prefere deixar vídeo desligado pela qualidade
+      - você pode iniciar com câmera ligada
+      - precisamos de vídeo ou só áudio resolve para você
+      - você pode ligar a câmera se estiver tudo certo aí
+      - você pode manter a câmera ativa sem desconforto
+      - você prefere manter a privacidade sem vídeo
+      - você pode ligar seu vídeo se estiver confortável
+      - sua conexão suporta vídeo de forma estável
+      - você quer fazer esta entrevista com vídeo
+      - você tem preferência sobre usar câmera
+      - você pode aparecer em vídeo neste momento
+      - seu ambiente está adequado para vídeo agora
+      - você quer ativar a câmera gradualmente
+      - você pode ligar a câmera sem pressa
+      - você pode abrir vídeo ou prefere não usar
+      - você consegue usar vídeo mesmo com conexão média
+      - podemos seguir com vídeo se você quiser
+      - prefere que eu não peça vídeo
+      - você quer ativar vídeo apenas quando necessário
+      - você está em um lugar adequado para vídeo
+      - você pode usar vídeo mesmo se a conexão oscilar
+      - seu dispositivo está pronto para vídeo
+      - prefere deixar tudo só no áudio
+      - você tem tranquilidade para abrir câmera agora
+      - você pode abrir sua câmera quando estiver pronto
+      - você quer manter sua câmera desligada por conforto
+      - você prefere não usar vídeo nesta conversa
+      - seu local está pronto para vídeo neste momento
+      - podemos tentar vídeo e ver se funciona bem
+      - você prefere evitar vídeo por estabilidade
+      - você deseja usar vídeo por alguns minutos
+      - você consegue testar vídeo rapidamente
+      - você está com ambiente adequado para vídeo
+      - você pode ligar câmera enquanto falamos
+      - prefere deixar câmera para o final
+      - você tem algum impedimento para ligar vídeo
+      - sua internet suporta vídeo de boa qualidade
+      - podemos abrir vídeo para alinhar melhor
+      - você prefere manter câmera desligada sem problema
+      - você pode ativar o vídeo quando quiser
+      - você se sente caminhando melhor com vídeo
+      - você deseja ativar vídeo depois
+      - você pode iniciar sem vídeo e ligar depois
+      - você está confortável com vídeo na maior parte do tempo
+      - prefere evitar vídeo por privacidade
+      - você pode abrir vídeo caso ache útil
+      - seu espaço está adequado para vídeo hoje
+      - você quer testar câmera antes de começarmos
+      - você pode ativar vídeo se isso ajudar
+      - você pode manter vídeo desligado se preferir
+      - if you feel comfortable could you turn your camera on
+      - is it okay for you to keep your camera on during the interview
+      - if the connection allows can you keep your camera on
+      - are you comfortable leaving your camera on
+      - if it is not a problem would you turn your camera on
+      - would you prefer to keep the camera off or on
+      - if you prefer we can continue with audio only
+      - does your connection handle video without freezing
+      - could you turn your camera on if that is okay
+      - would you like to keep your camera off for now
+      - are you comfortable appearing on video
+      - are you okay turning your camera on now
+      - can you keep your camera on at this moment
+      - would you rather keep the camera off right now
+      - is your connection stable enough for video
+      - do you have a preference for camera on or off
+      - could you enable your camera if you are comfortable
+      - would you prefer audio only today
+      - is it fine for you to keep the camera on at the start
+      - could you test your camera quickly
+      - is your connection stable for video use
+      - do you feel okay using video in this conversation
+      - would you use the camera only if needed
+      - do you want to proceed without video
+      - could you enable video with no issue
+      - are you ready to turn your camera on now
+      - can you keep your video on at least at the beginning
+      - would you like me to confirm before asking for camera
+      - are you comfortable with video today
+      - is your camera working well
+      - can we use video in this interview
+      - do you prefer video or audio only
+      - does your connection handle video interruptions
+      - do you want to keep the interview without camera
+      - can you turn your camera on so we can start
+      - can you keep your camera on for a few minutes
+      - can we test your video before beginning
+      - is your environment okay for video
+      - do you have enough light for video
+      - do you want to avoid video because of connection
+      - would you turn on your camera only if needed
+      - can you use video without freezing
+      - would you like to proceed with video on
+      - is it okay for you to appear on camera
+      - may I ask you to turn your camera on now
+      - would you rather keep video off
+      - is your camera available today
+      - are you comfortable with video at the start
+      - is your connection strong enough for video
+      - can you enable video for a short moment
+      - do you prefer video off to keep stability
+      - can you start with camera on
+      - do we need video or is audio enough for you
+      - can you turn your camera on if everything is okay
+      - can you stay with the camera on without discomfort
+      - do you prefer privacy with camera off
+      - could you enable video if you feel fine with it
+      - does your connection support video well
+      - do you want to use video in this interview
+      - do you have a preference about using camera
+      - can you appear on video at this moment
+      - is your environment good for video right now
+      - would you like to enable video gradually
+      - can you enable camera without rushing
+      - could you turn video on or keep it off
+      - can you use video even with a medium connection
+      - we can use video if you want
+      - would you like me not to request video
+      - do you want video only when needed
+      - are you in a place suitable for video
+      - can you use video even if the connection fluctuates
+      - is your device ready for video
+      - would you rather stay on audio only
+      - are you comfortable opening your camera now
+      - can you enable your camera when you are ready
+      - would you like to keep your camera off for comfort
+      - do you prefer not to use video in this conversation
+      - is your location okay for video right now
+      - can we try video and see if it works well
+      - do you prefer to avoid video for stability
+      - do you want to use video only for a moment
+      - could you test video quickly now
+      - is your space ready for video
+      - can you turn video on while we talk
+      - would you prefer video at the end
+      - do you have any issue turning video on
+      - does your internet support good video quality
+      - can we use video to align better
+      - do you want to keep video off without any problem
+      - can you enable your video whenever you want
+      - do you feel better communicating with video
+      - would you like to enable video later
+      - can you start without video and turn it on later
+      - are you comfortable with video most of the time
+      - would you rather avoid video for privacy
+      - could you enable video if it helps
+      - is your space okay for video today
+      - would you like to test camera before starting
+      - can you enable video if it helps the flow
+      - you can keep video off if you prefer

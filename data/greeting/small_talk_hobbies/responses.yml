@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_small_talk_hobbies:
+    - custom:
+        resp_1:
+          vr_pt: |
+            No meu tempo livre eu gosto de ficar com a família estudar por conta própria e também ter momentos leves como séries música ou caminhada. Isso me ajuda a equilibrar a rotina.
+          vr_en: |
+            In my free time I enjoy spending time with my family studying on my own and having lighter moments like watching series listening to music or going for a walk. That helps me keep a good balance.

@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: confirm_role
+    examples: |
+      - só para alinhar hoje estamos falando da vaga de [nome da vaga] tudo bem
+      - apenas confirmando você está aqui para a posição de [nome da vaga] certo
+      - antes de começarmos você pode confirmar se é a vaga de [nome da vaga]
+      - hoje o nosso foco é a posição de [nome da vaga] está alinhado com o que te passaram
+      - só para garantir que estamos na mesma página estamos falando da vaga de [nome da vaga] correto
+      - você aplicou especificamente para a posição de [nome da vaga] certo
+      - essa é a vaga de [nome da vaga] para a qual você se candidatou certo
+      - você pode me confirmar se está participando do processo para [nome da vaga]
+      - a nossa conversa hoje é focada em [nome da vaga] tudo certo para você
+      - essa é a posição de [nome da vaga] que você viu no anúncio correto
+      - você pode confirmar que estamos falando da vaga de [nome da vaga]
+      - essa entrevista é para a vaga de [nome da vaga] certo
+      - o processo que você está fazendo é para [nome da vaga] correto
+      - esta etapa é referente à vaga de [nome da vaga]
+      - só validando você está aqui por [nome da vaga]
+      - estamos alinhados na vaga de [nome da vaga]
+      - você aplicou para [nome da vaga] certo
+      - você está seguindo o processo de [nome da vaga]
+      - só checando esta é a vaga de [nome da vaga]
+      - podemos confirmar que esta conversa é sobre [nome da vaga]
+      - qual é a vaga que você entende como a sua você pode confirmar se é [nome da vaga]
+      - estamos tratando da posição [nome da vaga] tudo bem
+      - você pode validar se seu processo é para [nome da vaga]
+      - seu interesse é na vaga de [nome da vaga] correto
+      - você entrou para o processo de [nome da vaga]
+      - só alinhando é sobre [nome da vaga] que estamos falando
+      - você está concorrendo à posição de [nome da vaga]
+      - sua candidatura registrada está na vaga [nome da vaga]
+      - o agendamento foi para [nome da vaga] certo
+      - você recebeu o convite referente à vaga de [nome da vaga]
+      - você confirma que seu processo é para a vaga [nome da vaga]
+      - você está participando da seleção para [nome da vaga]
+      - você sabe que esta entrevista é para a vaga de [nome da vaga]
+      - só quero confirmar sua vaga é [nome da vaga]
+      - esta conversa se refere à posição de [nome da vaga]
+      - seu processo ativo é para a vaga [nome da vaga]
+      - esta fase é da vaga [nome da vaga]
+      - só revisando a vaga alvo é [nome da vaga]
+      - você identificou que esta etapa é para [nome da vaga]
+      - seu interesse principal está em [nome da vaga] certo
+      - seu processo atual está vinculado à vaga [nome da vaga]
+      - você pode validar a posição [nome da vaga] como a correta
+      - estamos falando sobre a vaga [nome da vaga] tudo certo
+      - você recebeu confirmação da vaga [nome da vaga]
+      - você pretende seguir na vaga [nome da vaga]
+      - você pode confirmar se foi indicado para [nome da vaga]
+      - só confirmando esta call é sobre [nome da vaga]
+      - sua agenda marcava entrevista para [nome da vaga]
+      - você está seguindo o fluxo da vaga [nome da vaga]
+      - esta é a posição que o RH passou para você [nome da vaga]
+      - esta entrevista é sobre a posição [nome da vaga]
+      - seu processo corresponde à vaga [nome da vaga]
+      - você está no pipeline de [nome da vaga]
+      - você chegou até aqui pela vaga [nome da vaga]
+      - você tem ciência de que esta é a vaga [nome da vaga]
+      - sua inscrição foi registrada para [nome da vaga]
+      - só acertando os detalhes estamos na vaga [nome da vaga]
+      - você pode confirmar se não houve troca de vaga e é [nome da vaga]
+      - sua triagem anterior foi para [nome da vaga]
+      - seu fluxo atual é da vaga [nome da vaga]
+      - você está em processo competitivo para [nome da vaga]
+      - esta posição que estamos discutindo é [nome da vaga]
+      - aqui vamos avaliar você para [nome da vaga]
+      - seu interesse registrado é para [nome da vaga]
+      - você pode confirmar se seu foco é [nome da vaga]
+      - seu processo está classificado na vaga [nome da vaga]
+      - esta conversa avalia seu perfil para [nome da vaga]
+      - só para não ter confusão estamos na posição [nome da vaga]
+      - esta entrevista é a etapa inicial para [nome da vaga]
+      - você confirma que esta é a vaga que buscava [nome da vaga]
+      - você viu esta vaga como [nome da vaga] na plataforma
+      - seu processo deve avançar na vaga [nome da vaga]
+      - você se inscreveu para a vaga [nome da vaga] correto
+      - você veio da triagem da vaga [nome da vaga]
+      - seu interesse declarado foi na vaga [nome da vaga]
+      - você confirma que não é outra vaga além de [nome da vaga]
+      - esta é a posição que você escolheu [nome da vaga]
+      - sua intenção era participar da vaga [nome da vaga]
+      - seu perfil foi encaminhado para [nome da vaga]
+      - você está concorrendo para a vaga [nome da vaga] nesta call
+      - você está sendo avaliado para a vaga [nome da vaga]
+      - você entrou no processo selecionado para [nome da vaga]
+      - você está com foco em [nome da vaga]
+      - sua confirmação é para a vaga [nome da vaga]
+      - esta é a vaga da sua candidatura [nome da vaga]
+      - você quer confirmar se falaremos sobre [nome da vaga]
+      - você pode validar se este é o processo certo para [nome da vaga]
+      - esta entrevista conecta você à vaga [nome da vaga]
+      - só revisando sua posição alvo é [nome da vaga]
+      - você está ciente de que esta etapa é de [nome da vaga]
+      - sua aprovação prévia foi para [nome da vaga]
+      - este agendamento se refere à vaga [nome da vaga]
+      - você confirma que a vaga correta é [nome da vaga]
+      - esta chamada é da vaga [nome da vaga]
+      - seu processo está vinculado ao cargo [nome da vaga]
+      - você reconhece esta posição como [nome da vaga]
+      - estamos examinando seu perfil para [nome da vaga]
+      - esta confirmação é apenas para garantir que estamos na vaga de [nome da vaga]
+      - você recebeu o convite mencionando a vaga de [nome da vaga] certo
+      - só para validar você está inscrito na vaga de [nome da vaga]
+      - just confirming your application was for the [role name] position
+      - can you validate that this call matches the [role name] role
+      - we scheduled this interview for the [role name] position correct
+      - is your recorded application tied to the [role name] role
+      - can you confirm there is no mismatch and the role is [role name]
+      - your invitation email referenced the [role name] position right
+      - are you advancing in the process for the [role name] role
+      - this discussion aligns with the [role name] position correct
+      - just to align today we are talking about the [role name] position is that okay
+      - just confirming you are here for the [role name] role right
+      - before we start can you confirm that this is about the [role name] position
+      - today our focus is the [role name] role is that aligned with what you were told
+      - just to make sure we are on the same page we are discussing the [role name] role correct
+      - you applied specifically for the [role name] position right
+      - this is the [role name] role that you applied for correct
+      - can you confirm that you are in the process for the [role name] role
+      - our conversation today is focused on the [role name] position is that okay for you
+      - this is the same [role name] position that you saw in the job posting correct
+      - can you confirm that this interview is for the [role name] position
+      - this stage is for the [role name] role right
+      - your process is set for the [role name] role correct
+      - this step refers to the [role name] role
+      - just validating you are here for the [role name] position
+      - we are aligned on the [role name] role
+      - you applied for the [role name] role right
+      - you are following the [role name] process
+      - just checking this is the [role name] position
+      - can we confirm that this talk is about the [role name] role
+      - which role are you expecting can you confirm it is [role name]
+      - we are treating the [role name] role today is that okay
+      - can you validate that your process is for [role name]
+      - your interest is in the [role name] role correct
+      - you entered the process for the [role name] position
+      - just aligning this is about the [role name] role
+      - you are competing for the [role name] position
+      - your registered application is for the [role name] role
+      - your schedule was set for the [role name] interview right
+      - you received the invite for the [role name] role correct
+      - can you confirm that your process is for the [role name] role
+      - you are participating in the selection for the [role name] role
+      - you know this interview is for the [role name] role right
+      - I want to confirm your role is [role name]
+      - this conversation refers to the [role name] position
+      - your active process is for the [role name] role
+      - this stage is for the [role name] role
+      - reviewing the target role it is [role name]
+      - you understand that this phase relates to [role name]
+      - your main interest is the [role name] role right
+      - your process is tied to the [role name] role
+      - can you validate that [role name] is the correct position
+      - we are here to talk about [role name] is that okay
+      - you received confirmation for the [role name] role
+      - you intend to proceed with the [role name] role
+      - can you confirm that you were referred to the [role name] role
+      - confirming this call is about [role name]
+      - your calendar shows interview for [role name]
+      - you are following the [role name] pipeline
+      - this is the position that HR shared with you [role name]
+      - this interview concerns the [role name] role
+      - your process matches the [role name] position
+      - you are in the pipeline for the [role name] role
+      - you reached this stage through the [role name] role
+      - you are aware that this is the [role name] role
+      - your application was registered for [role name]
+      - adjusting details we are on the [role name] role
+      - can you confirm there was no mix up and it is [role name]
+      - your previous screening was for [role name]
+      - your current flow is for the [role name] role
+      - you are in competition for [role name]
+      - this is the position we are analyzing [role name]
+      - we will evaluate you for [role name]
+      - your interest recorded was for [role name]
+      - can you confirm your focus is [role name]
+      - your process is assigned to the [role name] role
+      - this conversation evaluates you for [role name]
+      - just to avoid confusion this is the [role name] role
+      - this interview is the first stage for [role name]
+      - can you confirm this is the role you were pursuing [role name]
+      - you saw this role as [role name] in the platform correct
+      - your process is expected to advance in [role name]
+      - you came from the screening of the [role name] role
+      - your intention was to participate in the [role name] role
+      - your profile was forwarded to [role name]
+      - you are being assessed for the [role name] role
+      - you entered the selection process for [role name]
+      - you are focused on the [role name] position
+      - your confirmation aligns with the [role name] role
+      - this is the role of your application [role name]
+      - do you want to confirm that we will talk about [role name]
+      - can you validate if this is the correct process for [role name]
+      - this interview connects you to the [role name] role
+      - reviewing your target role it matches [role name]
+      - you know this stage refers to [role name]
+      - your pre approval was for [role name]
+      - this scheduling refers to the [role name] role
+      - can you confirm that the correct role is [role name]
+      - this call is about the [role name] role
+      - your process is linked to the [role name] role
+      - you recognize this position as [role name]
+      - we are evaluating your profile for [role name]

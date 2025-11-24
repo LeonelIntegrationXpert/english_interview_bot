@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_confirm_role:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sim exatamente é essa posição mesmo. Pelo que vi na descrição ela se encaixa bem com o que eu venho buscando.
+          vr_en: |
+            Yes exactly it is this position. From what I saw in the description it fits well with what I have been looking for.
+        resp_2:
+          vr_pt: |
+            Acho que pode ter havido algum engano a vaga que eu vi parecia ser diferente então talvez seja bom alinhar.
+          vr_en: |
+            I think there may have been a misunderstanding the role I saw seemed different so it might be good to align it.

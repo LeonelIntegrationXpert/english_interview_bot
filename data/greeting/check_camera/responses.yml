@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_check_camera:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Para mim tudo bem ligar a câmera sim. Se a conexão piorar eu te aviso e podemos ajustar.
+          vr_en: |
+            It is fine for me to turn the camera on. If the connection gets worse I will let you know and we can adjust.
+        resp_2:
+          vr_pt: |
+            Minha conexão não está muito boa hoje então prefiro manter a câmera desligada se não for um problema.
+          vr_en: |
+            My connection is not very good today so I prefer to keep the camera off if that is not a problem.

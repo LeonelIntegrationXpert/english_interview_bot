@@ -180,3 +180,459 @@ rules:
     steps:
       - intent: nlu_fallback
       - action: action_fallback
+  - rule: rule_comment_resume_review
+    steps:
+      - intent: comment_resume_review
+      - action: utter_comment_resume_review
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_comment_linkedin_profile
+    steps:
+      - intent: comment_linkedin_profile
+      - action: utter_comment_linkedin_profile
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_ask_how_found_role
+    steps:
+      - intent: ask_how_found_role
+      - action: utter_ask_how_found_role
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_tell_me_about_yourself
+    steps:
+      - intent: tell_me_about_yourself
+      - action: utter_tell_me_about_yourself
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_check_location_timezone
+    steps:
+      - intent: check_location_timezone
+      - action: utter_check_location_timezone
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_light_weekend
+    steps:
+      - intent: light_weekend
+      - action: utter_light_weekend
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_thanks_reschedule
+    steps:
+      - intent: thanks_reschedule
+      - action: utter_thanks_reschedule
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_check_camera
+    steps:
+      - intent: check_camera
+      - action: utter_check_camera
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_prefer_name
+    steps:
+      - intent: prefer_name
+      - action: utter_prefer_name
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_check_previous_stage
+    steps:
+      - intent: check_previous_stage
+      - action: utter_check_previous_stage
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_confirm_role
+    steps:
+      - intent: confirm_role
+      - action: utter_confirm_role
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_check_start_availability
+    steps:
+      - intent: check_start_availability
+      - action: utter_check_start_availability
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_small_talk_hobbies
+    steps:
+      - intent: small_talk_hobbies
+      - action: utter_small_talk_hobbies
+  - rule: rule_small_talk_learning_english
+    steps:
+      - intent: small_talk_learning_english
+      - action: utter_small_talk_learning_english
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_comment_end_of_day
+    steps:
+      - intent: comment_end_of_day
+      - action: utter_comment_end_of_day
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_comment_morning_energy
+    steps:
+      - intent: comment_morning_energy
+      - action: utter_comment_morning_energy
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_reschedule_other_day
+    steps:
+      - intent: reschedule_other_day
+      - action: utter_reschedule_other_day
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_reschedule_other_time_same_day
+    steps:
+      - intent: reschedule_other_time_same_day
+      - action: utter_reschedule_other_time_same_day
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_interviewer_needs_to_leave_early
+    steps:
+      - intent: interviewer_needs_to_leave_early
+      - action: utter_interviewer_needs_to_leave_early
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_interviewer_late_warning
+    steps:
+      - intent: interviewer_late_warning
+      - action: utter_interviewer_late_warning
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_cancel_process_now
+    steps:
+      - intent: cancel_process_now
+      - action: utter_cancel_process_now
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_propose_new_slots
+    steps:
+      - intent: propose_new_slots
+      - action: utter_propose_new_slots
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_interviewer_connection_issue
+    steps:
+      - intent: interviewer_connection_issue
+      - action: utter_interviewer_connection_issue
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_candidate_not_joined_yet
+    steps:
+      - intent: candidate_not_joined_yet
+      - action: utter_candidate_not_joined_yet
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_change_platform
+    steps:
+      - intent: change_platform
+      - action: utter_change_platform
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_interviewer_needs_quick_break
+    steps:
+      - intent: interviewer_needs_quick_break
+      - action: utter_interviewer_needs_quick_break
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_interview_cut_short_and_reschedule_part2
+    steps:
+      - intent: interview_cut_short_and_reschedule_part2
+      - action: utter_interview_cut_short_and_reschedule_part2
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_interviewer_personal_emergency
+    steps:
+      - intent: interviewer_personal_emergency
+      - action: utter_interviewer_personal_emergency
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_change_interviewer_mid_process
+    steps:
+      - intent: change_interviewer_mid_process
+      - action: utter_change_interviewer_mid_process
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_audio_issue_with_candidate
+    steps:
+      - intent: audio_issue_with_candidate
+      - action: utter_audio_issue_with_candidate
+  - rule: rule_interviewer_distracted_by_notification
+    steps:
+      - intent: interviewer_distracted_by_notification
+      - action: utter_interviewer_distracted_by_notification
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_interviewer_camera_issue
+    steps:
+      - intent: interviewer_camera_issue
+      - action: utter_interviewer_camera_issue
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_background_noise_or_interruption
+    steps:
+      - intent: background_noise_or_interruption
+      - action: utter_background_noise_or_interruption
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_timezone_confusion
+    steps:
+      - intent: timezone_confusion
+      - action: utter_timezone_confusion
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_system_outage_internal_tools
+    steps:
+      - intent: system_outage_internal_tools
+      - action: utter_system_outage_internal_tools
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_short_notice_reschedule_soon
+    steps:
+      - intent: short_notice_reschedule_soon
+      - action: utter_short_notice_reschedule_soon
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_sound_suggestion_turn_off_camera
+    steps:
+      - intent: sound_suggestion_turn_off_camera
+      - action: utter_sound_suggestion_turn_off_camera
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_interviewer_double_booked
+    steps:
+      - intent: interviewer_double_booked
+      - action: utter_interviewer_double_booked
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback
+  - rule: rule_soccer_team
+    steps:
+      - intent: soccer_team
+      - action: utter_soccer_team
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_fallback

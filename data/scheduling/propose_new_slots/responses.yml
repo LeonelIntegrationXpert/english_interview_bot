@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_propose_new_slots:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Perfeito, eu tenho flexibilidade. Posso avaliar as opções que você enviar e ajustar a minha agenda conforme necessário.
+          vr_en: |
+            That works for me, I have flexibility. I can review the options you share and adjust my schedule as needed.
+        resp_2:
+          vr_pt: |
+            Sem problema, posso me adaptar. É só me enviar os horários disponíveis que eu ajusto por aqui.
+          vr_en: |
+            No problem, I can adapt. Just send me the available times and I will adjust on my side.

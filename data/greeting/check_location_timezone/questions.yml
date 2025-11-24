@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: check_location_timezone
+    examples: |
+      - só por curiosidade em que cidade você está hoje
+      - você está falando de qual cidade agora
+      - em que região você está neste momento
+      - em que fuso horário você está hoje
+      - você está no brasil neste momento
+      - você está fora do brasil neste momento
+      - de onde você está participando da entrevista hoje
+      - qual é a sua localização atual só para eu me situar
+      - você costuma trabalhar dessa mesma cidade
+      - você mora aí há bastante tempo ou se mudou há pouco
+      - em que estado você está agora
+      - você está em casa ou em outro lugar neste momento
+      - você está na sua cidade de origem hoje
+      - você está em qual parte do país agora
+      - você está em qual região do país hoje
+      - você está em qual ponto do seu dia agora
+      - você está em qual horário local neste momento
+      - seu horário local está adiantado ou atrasado em relação ao meu
+      - sua cidade está com clima tranquilo hoje
+      - você está em uma área urbana ou mais tranquila
+      - você está longe do seu local de trabalho
+      - você está trabalhando da sua cidade hoje
+      - você está em viagem ou está em casa
+      - você está em qual parte do estado hoje
+      - você está conectado do seu escritório
+      - você está conectado da sua casa
+      - você está em algum coworking
+      - você está remoto de outra cidade hoje
+      - sua localização muda com frequência
+      - você está sempre nesse fuso horário
+      - sua cidade tem o mesmo horário daqui
+      - seu horário mudou recentemente
+      - você está em qual horário local agora
+      - você está participando de onde hoje
+      - você está falando de onde exatamente
+      - sua localização influencia seu horário de trabalho
+      - você está no mesmo fuso horário que eu
+      - você está em um fuso horário diferente
+      - seu horário atual está cedo ou tarde
+      - você está em algum deslocamento hoje
+      - você está fixo nessa cidade
+      - você costuma se mover entre cidades
+      - você está em algum polo tecnológico hoje
+      - você está em qual zona do país
+      - sua cidade está com o mesmo horário de brasília
+      - você está perto de grandes centros
+      - você está longe de grandes centros
+      - sua cidade costuma ter mudanças de horário
+      - sua região segue horário de verão
+      - sua região tem fuso diferente do padrão
+      - você está no hemisfério sul hoje
+      - você está no hemisfério norte hoje
+      - você está em clima quente neste momento
+      - você está em clima frio neste momento
+      - você está em região litorânea
+      - você está em região serrana
+      - você está em região metropolitana
+      - você está conectado de área rural
+      - você está conectado de área central
+      - você está em local com bom sinal hoje
+      - sua localização muda no decorrer da semana
+      - essa é a cidade onde você trabalha normalmente
+      - essa é a cidade onde você vive atualmente
+      - você está na cidade onde você cresceu
+      - você está em cidade temporária hoje
+      - sua cidade atual é sua base de trabalho
+      - você está em capital ou interior
+      - você está em área com fuso padronizado
+      - você está em área com fuso variável
+      - você está em qual horário útil agora
+      - seu horário atual é de manhã ou tarde
+      - você está amanhecendo ou anoitecendo aí
+      - seu horário já avançou bastante hoje
+      - sua região está começando o dia
+      - sua região está finalizando o dia
+      - você está perto de casa no momento
+      - você está longe de casa hoje
+      - você está usando o horário da sua cidade
+      - você ajustou o horário recentemente
+      - sua cidade tem diferença grande de fuso
+      - sua cidade tem diferença pequena de fuso
+      - sua localização tem horário estável
+      - sua localização tem horário variável
+      - você está em qual parte do continente
+      - você está no mesmo continente que eu
+      - você está em outro continente hoje
+      - você está realizando a entrevista perto de casa
+      - você está realizando a entrevista longe de casa
+      - sua cidade atual é fixa no seu trabalho
+      - sua cidade atual é temporária
+      - sua região tem muitas mudanças de horário
+      - sua região segue o horário padrão nacional
+      - sua região tem exceções de fuso
+      - você está no seu horário normal hoje
+      - você está em uma cidade nova hoje
+      - você está na mesma cidade da semana passada
+      - sua localização hoje é definitiva
+      - sua localização hoje é temporária
+      - sua localização facilita ou dificulta seu horário
+      - seu horário local interfere na entrevista
+      - just out of curiosity in which city are you today
+      - from which city are you speaking right now
+      - in which region are you at the moment
+      - in which time zone are you today
+      - are you currently in brazil
+      - are you currently outside brazil
+      - from where are you joining this interview today
+      - what is your current location just so I can understand
+      - do you usually work from this same city
+      - have you been living there for long or did you move recently
+      - in which state are you right now
+      - are you at home or somewhere else at the moment
+      - are you in your hometown today
+      - in which part of the country are you now
+      - in which area of the country are you today
+      - what part of your day is it now
+      - what is your local time at the moment
+      - is your local time ahead or behind mine
+      - is the weather calm in your city today
+      - are you in an urban area or a quieter place
+      - are you far from your workplace
+      - are you working from your city today
+      - are you traveling or at home right now
+      - in which part of your state are you today
+      - are you connecting from your office
+      - are you connecting from your home
+      - are you in a coworking space
+      - are you remote from another city today
+      - does your location change often
+      - are you always in this time zone
+      - does your city share the same time as mine
+      - has your local time changed recently
+      - what is your current local time
+      - from where exactly are you joining today
+      - from where exactly are you speaking
+      - does your location influence your working hours
+      - are you in the same time zone as me
+      - are you in a different time zone today
+      - is it early or late in your local time
+      - are you on the move today
+      - are you settled in that city
+      - do you often move between cities
+      - are you in a tech hub today
+      - in which zone of the country are you
+      - does your city follow the same time as brasilia
+      - are you near major urban centers
+      - are you far from major urban centers
+      - does your city switch time often
+      - does your region follow daylight saving time
+      - does your region have a different time pattern
+      - are you in the southern hemisphere today
+      - are you in the northern hemisphere today
+      - are you in a warm climate right now
+      - are you in a cold climate right now
+      - are you in a coastal area today
+      - are you in a mountain area today
+      - are you in a metropolitan area
+      - are you connecting from a rural zone
+      - are you connecting from a central zone
+      - do you have strong signal where you are
+      - does your location change during the week
+      - is this the city where you usually work
+      - is this the city where you live now
+      - are you in the city where you grew up
+      - are you in a temporary city today
+      - is this city your work base
+      - are you in the capital or countryside
+      - are you in a standard time zone area
+      - are you in a variable time zone area
+      - what part of the day is it for you now
+      - is it morning or afternoon for you
+      - is it sunrise or sunset where you are
+      - has your day advanced a lot already
+      - is your region starting the day now
+      - is your region ending the day now
+      - are you near home at the moment
+      - are you far from home today
+      - are you using your local time right now
+      - have you adjusted your clock recently
+      - does your city have a large time difference
+      - does your city have a small time difference
+      - is your local time stable
+      - is your local time variable
+      - in which part of the continent are you now
+      - are you on the same continent as me
+      - are you on a different continent today
+      - are you attending the interview close to home
+      - are you attending the interview far from home
+      - is this city your permanent location
+      - is this city a temporary location
+      - does your region change its time often
+      - does your region have time zone exceptions
+      - are you on your usual local time today
+      - are you in a new city today
+      - are you in the same city as last week
+      - is your location today permanent
+      - is your location today temporary
+      - does your region follow the company time zone
+      - does your local time make your schedule easier
+      - does your local time make your schedule harder

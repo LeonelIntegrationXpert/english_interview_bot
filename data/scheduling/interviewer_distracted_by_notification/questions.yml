@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_distracted_by_notification
+    examples: |
+      - se eu der uma olhada rápida no celular, é só por conta de uma notificação urgente, mas sigo prestando atenção
+      - caso eu precise checar algo rapidinho aqui, não se preocupe, continuo acompanhando sua resposta
+      - se eu me distrair por um segundo, é apenas alguma notificação interna aparecendo por aqui
+      - se eu olhar para o lado em algum momento é só porque pode aparecer alguma notificação urgente aqui mas estou focado na sua entrevista
+      - pode ser que eu precise dar uma olhada rápida em uma mensagem mas isso não tira a atenção da nossa conversa
+      - se você me vir checando algo na tela é só para acompanhar uma notificação interna tá
+      - talvez eu precise responder algo bem rápido durante a call mas a prioridade é a entrevista
+      - se eu ficar alguns segundos em silêncio é possível que eu esteja só vendo uma mensagem urgente
+      - ao longo da conversa pode aparecer alguma notificação de trabalho mas estou concentrado em você
+      - se em algum momento eu parecer distraído é só algo pontual aqui pode continuar tranquilo
+      - pode ser que eu precise conferir um alerta da empresa mas continuo acompanhando suas respostas
+      - se você perceber que estou olhando para outra tela é por causa de uma mensagem rápida não se preocupe
+      - talvez eu tenha que checar um aviso interno rápido mas sigo focado na entrevista
+      - se eu mover os olhos rapidamente pode ser só uma notificação aparecendo
+      - caso apareça um alerta aqui eu posso olhar por um instante mas continuo atento
+      - pode surgir uma mensagem urgente e eu posso precisar checar rapidamente
+      - se eu fizer uma pausa curta pode ser só um aviso interno aparecendo
+      - talvez surja um alerta de sistema e eu precise confirmar algo
+      - se houver um aviso prioritário eu posso precisar olhar rapidamente
+      - pode ser que uma notificação importante apareça enquanto conversamos
+      - se uma mensagem crítica surgir eu posso olhar por um breve instante
+      - caso apareça um aviso urgente no sistema eu vou precisar checar
+      - talvez eu precise verificar um painel interno por alguns segundos
+      - posso receber uma notificação de outra equipe mas sigo na entrevista
+      - às vezes pode surgir um comunicado interno e eu confirmo rapidamente
+      - se entrar um alerta de operação eu posso desviar o olhar rapidinho
+      - posso ter que ler uma notificação rápida mas continuo ouvindo você
+      - se houver uma mensagem relevante eu posso precisar ver rapidamente
+      - pode aparecer um lembrete urgente e eu confiro rapidamente
+      - às vezes a empresa envia alertas imediatos e eu verifico rapidinho
+      - se eu olhar para cima é só um alerta passando na tela
+      - posso checar uma atualização de sistema mas sigo aqui com você
+      - se surgir um aviso sensível eu paro um segundo para ver
+      - posso precisar aprovar rapidamente uma notificação interna
+      - caso entre uma mensagem de prioridade alta eu verifico no momento
+      - posso receber um chamado urgente e olho por um instante
+      - se eu parecer atento a outra janela é por causa de um aviso interno
+      - posso checar uma notificação de status mas sigo ouvindo
+      - se surgir algo crítico eu dou uma olhada rápida
+      - pode ser que um alerta de segurança apareça e eu precise ver
+      - posso precisar conferir uma mensagem operacional urgente
+      - se eu ficar imóvel um instante é porque estou lendo algo rápido
+      - posso checar algo bem pontual mas continuo acompanhando você
+      - se eu olhar o monitor lateral é por causa de uma atualização rápida
+      - posso precisar validar uma notificação que surgiu agora
+      - às vezes aparece um alerta automático e eu leio rapidamente
+      - posso ver uma tela secundária mas não perco o foco em você
+      - caso eu estique o pescoço é só por causa de uma mensagem curta
+      - posso precisar conferir um pop up urgente no sistema
+      - se vier uma notificação imediata eu vejo em segundos
+      - posso receber um aviso da liderança e conferir no momento
+      - se eu abrir outra aba é só para checar algo rápido
+      - posso verificar uma mensagem técnica e voltar imediatamente
+      - se surgir algo inesperado eu checo minimalmente
+      - posso estar olhando uma notificação mas sigo na conversa
+      - se eu olhar para outro monitor é por causa de um aviso instantâneo
+      - posso precisar validar uma mensagem crítica bem rápido
+      - se surgir um alerta de suporte eu vejo sem interromper você
+      - posso checar uma notificação operacional por alguns segundos
+      - caso entre um aviso de sistema eu verifico rapidamente
+      - posso precisar acompanhar um alerta automatizado
+      - se surgir uma mensagem de alta prioridade eu confiro
+      - posso desviar o olhar para checar um painel de notificações
+      - se eu tocar no teclado é só para confirmar um alerta
+      - posso precisar ver uma notificação de infraestrutura
+      - se surgir algo importante eu verifico e retorno rápido
+      - posso confirmar uma mensagem urgente da empresa
+      - se eu tocar no mouse é só para mover uma notificação
+      - posso verificar um aviso de manutenção mas sigo focado
+      - caso apareça algo urgente eu leio sem perder a conversa
+      - posso checar um alerta de entrega interna rapidamente
+      - se surgir uma atualização crítica eu vejo no ato
+      - posso olhar o celular da empresa por causa de uma notificação
+      - se eu desviar o olhar brevemente é por causa de um aviso
+      - posso precisar validar um alerta de prioridade média
+      - se aparecer algo inesperado eu paro por um segundo
+      - posso receber uma notificação automática e conferir
+      - se eu abrir um painel lateral é só para ver um alerta
+      - posso estar olhando uma notificação corporativa urgente
+      - se houver uma atualização sensível eu vejo bem rápido
+      - posso checar um aviso externo que surgiu agora
+      - caso eu pare um instante é só por causa de uma janela pop up
+      - posso receber alertas do time e olhar rapidamente
+      - se eu parecer pensativo é só porque li algo urgente
+      - posso acompanhar notificações internas enquanto seguimos
+      - se surgir um aviso crítico eu vejo por um instante
+      - posso precisar validar um item urgente enquanto falo
+      - se eu levantar a sobrancelha é por estar lendo algo rápido
+      - posso receber um aviso no canto da tela e verificar
+      - se vier algo marcante eu paro um segundo para ver
+      - posso checar uma mensagem técnica enquanto você fala
+      - se surgir uma notificação imediata eu vejo rápido
+      - posso validar uma mensagem interna sem perder atenção
+      - se eu mexer o mouse é só para limpar uma notificação
+      - posso olhar uma atualização que apareceu agora
+      - se surgir algo prioritário eu vejo de forma rápida
+      - posso monitorar um painel interno enquanto sigo atento
+      - se aparecer um alerta importante eu verifico rapidamente
+      - posso ver uma mensagem crítica e continuar ouvindo você
+      - caso haja uma notificação sensível eu olho na hora
+      - if I glance at my phone for a second, it’s just because an urgent alert popped up, but I'm still focused
+      - if I quickly check something here, don’t worry, I’m still following everything you say
+      - if I pause for a moment, it’s only because a notification just came in
+      - if I look slightly away for a second, it's just a quick internal update showing up
+      - you might see me checking something briefly, but I'm still fully engaged in the interview
+      - if I shift my attention for a moment, it's only due to a quick message coming through
+      - if I tap on my keyboard for a second, it's just me clearing a notification
+      - in case I look off-screen briefly, it’s only because a system alert appeared
+      - if I seem distracted for a moment, it’s just a quick notification I need to acknowledge
+      - if I check another window for a second, it’s just an urgent internal message coming in
+      - if you see me looking to the side at some point it is only because an urgent notification may pop up but I am focused on your interview
+      - I might need to quickly check a message during the call but that does not take my attention away from our conversation
+      - if you see me checking something on the screen it is only to keep an eye on an internal notification okay
+      - I may need to answer something very quickly but the interview remains my main priority
+      - if I am quiet for a few seconds I might just be looking at an urgent message
+      - during our conversation I may get a work notification but I am concentrated on you
+      - if at any point I seem a bit distracted it is just something brief on my side you can keep going
+      - I might have to check a company alert quickly but I will still be following your answers
+      - if you see me looking at another screen it is because of a quick message do not worry
+      - I may need to check an internal notice for a moment but I remain focused on the interview
+      - if I glance away briefly it may be due to a quick notification
+      - I might need to confirm a short alert but I will keep listening
+      - if I pause slightly I may just be reading a quick internal note
+      - I could get an urgent system alert and look for a second
+      - if I turn my eyes to another monitor it is because of an internal pop up
+      - I might need to confirm a fast update but I remain here with you
+      - if something critical pops up I may check it briefly
+      - I might have to read a short message while we continue
+      - if you notice a small pause it is probably a notification
+      - I could receive an operational alert and check quickly
+      - if I move my eyes away it could be a system update
+      - I may check a rapid internal ping while listening
+      - if I look to another window it is just an alert
+      - I may need to review a short system notice
+      - if something urgent appears I may read it
+      - I could check a quick company message
+      - if I slow down briefly it may be a notification
+      - I might get a high priority alert and glance at it
+      - if you see me tap the keyboard it is only for a notification
+      - I might need to verify a rapid update
+      - if a message pops up I may check it instantly
+      - I may receive a system ping that I need to read
+      - if I turn to the side for a second it is only an alert
+      - I may need to approve a quick internal message
+      - if I click something fast it is because of a notification
+      - I might get an automated alert that I need to check
+      - if I appear focused elsewhere it is because of a quick ping
+      - I may need to acknowledge a notification here
+      - if something urgent flashes I may read it quickly
+      - I could get a security alert and look rapidly
+      - if I shift attention slightly it is due to a pop up
+      - I may check a short alert and return immediately
+      - if you see me looking upward it is because of a banner
+      - I may need to scan an internal update for a second
+      - if something appears on another screen I may check it
+      - I might receive a fast internal message
+      - if a critical alert shows up I might read it
+      - I may need to confirm an instant pop up
+      - if you see a brief pause it is because of a quick alert
+      - I may check a rapid technical notification
+      - if I raise my eyes it is because of an alert
+      - I may get a quick operational update
+      - if I pause a moment it might be due to a message
+      - I may need to verify a small internal prompt
+      - if a system note appears I might look briefly
+      - I could check a short internal message
+      - if something appears suddenly I might read it
+      - I may need to monitor an internal feed
+      - if a company alert pops up I will check it
+      - I may receive a small urgent note and glance at it
+      - if you see me tap the mouse it is for a pop up
+      - I might look away for a moment due to a notification
+      - if I check another screen it is because of an update
+      - I may need to read a quick company notice
+      - if I lean slightly it is because of an alert
+      - I might get a brief ping and check it instantly
+      - if something urgent shows I will check it quickly
+      - I may need to validate a very short message
+      - if a banner appears I may read it silently
+      - I might confirm a short alert behind the scenes
+      - if something flashes on my monitor I may check it
+      - I may need to read a tiny internal popup
+      - if I tilt my head it may be a notification
+      - I may check a minimal system update
+      - if something pops fast I may need to check it
+      - I might get a quick alert and review it
+      - if you notice a micro pause it is a notification
+      - I may need to handle a short internal message
+      - if an automated ping comes in I may read it
+      - I might look aside because of a small pop up
+      - if a quick alert shows I may verify it
+      - I could receive a short system message
+      - if you see my eyes shift it is due to an alert
+      - I may need to handle an urgent short ping
+      - if I press a key it might be for a notification
+      - I might get a fast blinking alert
+      - if something demands a glance I will check it
+      - I could need to acknowledge a quick popup
+      - if something draws my attention briefly it is an alert
+      - I may get a fast operational message

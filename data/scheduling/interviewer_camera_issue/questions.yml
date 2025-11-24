@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_camera_issue
+    examples: |
+      - só para avisar minha câmera não está funcionando direito hoje então vou ficar só no áudio tudo bem
+      - estou com um problema na webcam você se importa se a gente seguir só por voz
+      - por questão técnica eu não vou conseguir ligar a câmera hoje mas estou te ouvindo normalmente
+      - a câmera aqui está com defeito então a entrevista deve ficar só com o meu áudio
+      - se você não se importar vou conduzir a conversa sem vídeo hoje
+      - tive um problema com a câmera do notebook então vou manter somente o áudio tudo bem para você
+      - por algum motivo a câmera não está sendo reconhecida mas podemos seguir por voz
+      - hoje vou ficar sem a câmera ligada mas estou totalmente presente na conversa
+      - não vou conseguir abrir o vídeo mas isso não impacta o andamento da entrevista
+      - só para você não estranhar estarei sem câmera mas acompanhando tudo normalmente
+      - a câmera não está iniciando você se importa se eu ficar só na voz
+      - meu vídeo não está carregando então vou seguir apenas com áudio
+      - estou com falha na câmera hoje então fico sem vídeo
+      - a webcam travou aqui então sigo só no áudio
+      - minha imagem não está aparecendo mas o áudio está ok
+      - a câmera não abre de jeito nenhum então sigo sem vídeo
+      - estou com erro no driver da câmera vou ficar só com áudio
+      - o vídeo não está funcionando então vou permanecer no modo áudio
+      - a câmera está instável mas o áudio está normal
+      - não consigo ativar a webcam então sigo sem vídeo
+      - estou com falha no dispositivo de imagem então continuo só com som
+      - a câmera simplesmente não liga mas posso falar normalmente
+      - o vídeo não inicia aqui então continuo apenas pelo áudio
+      - não estou conseguindo ativar a câmera mas sigo ouvindo você
+      - minha câmera está desconectando então vou evitar ligar
+      - estou com problema físico na webcam então fico sem vídeo hoje
+      - o aplicativo não reconheceu minha câmera mas o áudio está estável
+      - o vídeo está bugado então prefiro seguir só com áudio
+      - minha câmera pisca e desliga então não vou ligar
+      - não consegui configurar a câmera então sigo sem vídeo
+      - o vídeo está congelando então vou manter desligado
+      - estou recebendo erro de câmera no sistema então sigo só na voz
+      - a câmera está travando o app então vou permanecer sem vídeo
+      - minha imagem está totalmente preta então prefiro não ligar
+      - a luz da câmera não acende então sigo sem vídeo
+      - a qualidade está ruim demais então vou desativar a câmera
+      - meu vídeo está muito instável então sigo apenas no áudio
+      - a câmera está com ruído visual então não vou ativar
+      - o software da câmera não está abrindo então vou sem vídeo
+      - estou com lentidão ao ligar a câmera então prefiro não usar
+      - minha câmera causa travamento então deixo desligada
+      - o vídeo está distorcido então sigo sem ativar
+      - a webcam está desconectada então não vou usar hoje
+      - minha câmera não é detectada então fico no áudio
+      - estou com conflito no driver da câmera então sigo sem vídeo
+      - o vídeo está completamente travado então vou deixar desligado
+      - minha câmera liga e desliga sozinha então vou evitar usar
+      - a imagem não aparece em nenhum teste então fico só com som
+      - o app não acessa minha câmera então sigo sem vídeo
+      - minha câmera caiu e quebrou então hoje fico sem imagem
+      - estou em um computador sem webcam então sigo no áudio
+      - estou em um setup improvisado sem câmera
+      - hoje estou sem equipamento de vídeo mas posso falar normalmente
+      - não tenho câmera disponível agora então sigo apenas com som
+      - estou em um ambiente sem webcam então fico só na voz
+      - a câmera deste computador não funciona então sigo sem vídeo
+      - este dispositivo não tem câmera então vamos só no áudio
+      - a resolução da câmera está inutilizável então não vou ativar
+      - estou com a câmera desabilitada por segurança então fico sem vídeo
+      - a política da empresa bloqueou minha webcam então sigo sem imagem
+      - o cabo da câmera quebrou então sigo no áudio
+      - esqueci a webcam externa então hoje fico sem vídeo
+      - estou com problema de energia na câmera então sigo sem ligar
+      - minha câmera está com mau contato então deixo desligado
+      - o vídeo está invertido e bugado então não vou ativar
+      - a câmera não estabiliza o foco então sigo só com som
+      - estou recebendo erro de dispositivo então a câmera não abre
+      - minha câmera está lenta demais então não vou ligar
+      - a luz da webcam pisca e trava tudo então sigo no áudio
+      - a imagem está borrada e sem cor então prefiro manter desligada
+      - o vídeo está com ruído forte então sigo sem câmera
+      - estou com problema de permissão no navegador então não uso vídeo
+      - o sistema bloqueou minha câmera então sigo só falando
+      - o vídeo está extremamente atrasado então vou desativar
+      - a câmera não responde a nenhum comando então sigo sem ligar
+      - estou com problema técnico aqui e o vídeo não abre
+      - minha webcam não inicia desde cedo então sigo só no áudio
+      - a câmera não conecta ao software então sigo sem imagem
+      - estou com atualização pendente da câmera então não abre
+      - o vídeo está piscando muito então vou evitar usar
+      - minha imagem está travando toda hora então sigo sem vídeo
+      - estou com a câmera ocupada em outro app então não consigo ativar
+      - a lente da câmera está suja e inutilizável então sigo sem vídeo
+      - o vídeo está muito lento então prefiro manter desligado
+      - minha câmera está em manutenção então fico só no áudio
+      - este dispositivo bloqueia a webcam automaticamente então sigo sem vídeo
+      - estou com problema na porta USB da câmera então não consigo ligar
+      - o vídeo não carrega de jeito nenhum então sigo só com áudio
+      - minha câmera está em mau estado então vou deixar desligada
+      - estou em um ambiente com a câmera danificada então sigo sem vídeo
+      - não estou com câmera acessível agora então fico só na voz
+      - o sistema não autoriza o uso da câmera então sigo sem vídeo
+      - meu vídeo está completamente inutilizado então sigo sem imagem
+      - minha câmera está travando bastante hoje, então vou manter só o áudio, tudo bem?
+      - por algum motivo a webcam não está iniciando, mas podemos seguir sem vídeo
+      - a imagem está congelando aqui, então prefiro deixar somente o áudio para não atrapalhar
+      - estou com um problema no driver da câmera, então vou ficar sem vídeo nesta call
+      - minha câmera não está sendo detectada pelo sistema, mas consigo falar normalmente
+      - a iluminação aqui também não está ajudando, então vou deixar apenas o áudio
+      - estou enfrentando uma falha no vídeo, mas sigo acompanhando 100% por áudio
+      - my camera keeps freezing today, so I’ll stay on audio only if that’s alright
+      - for some reason the webcam isn’t starting, but we can continue without video
+      - my video is lagging a lot on this side, so I’ll keep only the audio to avoid issues
+      - I’m having a driver problem with the camera, so I won’t have video during this call
+      - my camera isn’t being detected by the system, but I can speak normally
+      - the image is stuck on my end, so I’ll stay off video to keep things smooth
+      - the lighting here isn’t great either, so I’ll remain on audio only
+      - my video feed is unstable today, but I’m fully present through audio
+      - my webcam is glitching a lot, so I’ll conduct the interview without turning it on
+      - I’m experiencing a video failure, but I’m still here following everything by audio
+      - the camera software is crashing, so I’ll need to continue without video
+      - my camera won’t initialize properly, but I’m ready to continue the conversation via audio
+      - just to let you know my camera is not working today so I will stay on audio only is that okay
+      - I am having an issue with my webcam do you mind if we continue with audio only
+      - due to a technical problem I cannot turn on my camera today but I can hear you normally
+      - my camera is malfunctioning so the interview will likely be audio only on my side
+      - if you do not mind I will conduct the conversation without video today
+      - I had an issue with my laptop camera so I will stay on audio only is that alright
+      - for some reason the camera is not being recognized but we can continue by audio
+      - I will be without my camera today but I am fully present in the conversation
+      - I cannot turn on my video but that should not affect the flow of the interview
+      - just so you do not find it strange I will be off camera but following everything normally
+      - my video is not loading so I will stay on audio
+      - the webcam is failing so I will stay without video
+      - the camera will not start so I will keep audio only
+      - my image is not showing so I will stay off camera
+      - the camera is freezing so I prefer to keep it off
+      - the video signal is unstable so I will turn it off
+      - I cannot activate the webcam so I will continue with audio
+      - the device is not detecting my camera so I will stay on audio
+      - the system is blocking my camera so I will remain audio only
+      - my camera software is crashing so I will avoid using it
+      - the camera does not respond so I will keep it off
+      - the video is too laggy so I will disable it
+      - my webcam is not connecting so I cannot use video
+      - the camera view is distorted so I will turn it off
+      - the video looks completely static so I prefer audio only
+      - I am on a device without a camera so I will stay on audio
+      - my webcam is unavailable so I will remain without video
+      - the camera is not functioning at all today
+      - I cannot get the video to work but I am listening
+      - the camera light will not turn on so I am staying on audio
+      - my external camera is not detected so I will continue without video
+      - there is a driver issue with my camera so I cannot use it
+      - the video will not initialize so I am using audio only
+      - my camera is acting strangely so I will keep it off
+      - the image is black so I will remain on audio
+      - my webcam keeps disconnecting so I will avoid using it
+      - the video is frozen so I will proceed without the camera
+      - the app cannot access my camera so I will stay on voice
+      - the lens is not working so I will stay off camera
+      - the camera caused a crash so I will disable it
+      - the video quality is unusable so I will turn it off
+      - the system cannot detect any camera input so I will stay on audio
+      - my camera is extremely unstable so audio only today
+      - the webcam refuses to start so I cannot show video
+      - the video encoder is failing so I will remain on audio
+      - I cannot fix the camera issue in time so I will proceed without it
+      - the camera is glitching so I prefer not to turn it on
+      - the video keeps flickering so I will disable it
+      - I have a webcam malfunction so video will be off
+      - the camera freezes the app so I cannot use it
+      - I lost access to my video so I will continue by audio
+      - my integrated camera is broken so I will remain without video
+      - I am using a device that does not support video right now
+      - the webcam drivers failed so audio only on my side
+      - the camera is too unstable to use so I will stay on audio
+      - the app crashed when opening my camera so I will disable it
+      - my video feed is corrupted so I will stay off camera
+      - the webcam connection is failing so I will not turn it on
+      - I cannot maintain a video signal so I will continue only by audio
+      - the camera setup is not working so I will not use video
+      - my video is unusable today so I will proceed without it
+      - the camera has a hardware issue so I will stay on voice only
+      - the webcam is restarting repeatedly so I cannot use it
+      - this device does not allow camera access so I will stay audio only
+      - my camera software failed so I will not enable video
+      - the image is jumping too much so I prefer to stay off camera
+      - I cannot configure the camera right now so I will stay without it
+      - the camera refuses to open so I will stay on audio
+      - the video seems completely broken today so no camera
+      - my webcam is too slow so I will avoid using it
+      - the sensor is malfunctioning so I will continue without video
+      - the camera is overheating so I will keep it disabled
+      - the app is blocking my video so I will remain on audio
+      - the camera flickers constantly so I will leave it off
+      - I cannot stabilize the video signal so I will stay audio only
+      - the video preview does not load so I will disable it
+      - my camera keeps giving errors so I will not use it
+      - the webcam crashed during startup so I will stay off camera
+      - my camera requires maintenance so I will keep it off
+      - the device lost camera access so I will continue on audio
+      - the video stream is unusable so I will leave it off
+      - my camera configuration failed so I cannot enable it
+      - the webcam is freezing constantly so I will skip the video
+      - my video is not responding so I will stay on audio only
+      - the camera component is damaged so I will not activate it
+      - the video connection is failing so I will stay off camera
+      - I am unable to initialize my camera so I will stay on audio
+      - the camera is not compatible with this app so I will stay without video

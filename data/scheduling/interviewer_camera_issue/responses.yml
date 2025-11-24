@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_interviewer_camera_issue:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sem problema nenhum para mim está tudo certo seguir apenas com áudio. O importante é que a conversa aconteça bem.
+          vr_en: |
+            That is totally fine for me I am comfortable continuing with audio only. What matters is that the conversation flows well.
+        resp_2:
+          vr_pt: |
+            Tudo certo posso seguir normalmente mesmo sem o seu vídeo. Fico à vontade para continuar a conversa assim.
+          vr_en: |
+            All good I can continue normally even without your video. I am comfortable keeping the conversation this way.

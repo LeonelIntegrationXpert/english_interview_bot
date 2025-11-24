@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_reschedule_other_time_same_day:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Tudo bem eu consigo me adaptar. Se você me indicar um horário alternativo hoje eu vejo aqui e ajusto para manter a entrevista.
+          vr_en: |
+            That is okay I can adapt. If you suggest an alternative time today I will check on my side and adjust to keep the interview.
+        resp_2:
+          vr_pt: |
+            Sem problema algum posso ajustar meu dia para um horário mais tarde hoje é só me informar o período que funciona melhor.
+          vr_en: |
+            No problem at all I can adjust my day for a later time today just let me know the time that works best for you.

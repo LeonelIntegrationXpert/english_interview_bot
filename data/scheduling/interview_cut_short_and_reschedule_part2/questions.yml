@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: interview_cut_short_and_reschedule_part2
+    examples: |
+      - eu não vou conseguir abordar tudo o que eu gostaria hoje você toparia marcar uma segunda parte da entrevista
+      - por conta do tempo vou precisar encurtar aqui e sugerir uma próxima conversa para complementar
+      - não vamos conseguir falar de todos os temas hoje então gostaria de combinar uma segunda etapa com você
+      - temos pouco tempo restante então queria propor uma outra call em outro dia para concluir
+      - ao invés de correr com tudo agora prefiro dividir em duas conversas tudo bem para você
+      - você se importa se tratarmos só dos principais pontos hoje e deixarmos o restante para uma próxima entrevista
+      - por causa da agenda essa entrevista vai ficar mais curta mas eu gostaria de agendar uma continuação
+      - podemos encerrar um pouco mais cedo hoje e marcar uma segunda conversa para aprofundar mais
+      - em vez de estender demais hoje quero propor uma segunda parte da entrevista
+      - você teria disponibilidade para uma próxima call em que a gente continue de onde parou
+      - gostaria de dividir essa entrevista em duas etapas podemos marcar a segunda parte
+      - hoje nosso tempo está curto podemos remarcar uma continuação
+      - não vamos conseguir finalizar tudo hoje posso sugerir uma segunda conversa
+      - prefiro concluir com calma então queria marcar outra call
+      - podemos seguir em uma parte dois para completar tudo
+      - nosso tempo está acabando podemos continuar em outra data
+      - acho melhor dividir essa entrevista podemos remarcar a continuação
+      - gostaria de propor uma segunda reunião para concluir os tópicos
+      - se você puder podemos continuar essa entrevista em outro dia
+      - vamos precisar de uma parte extra podemos marcar
+      - não quero atropelar assuntos podemos agendar outra conversa
+      - hoje o tempo ficou apertado podemos marcar a sequência
+      - podemos continuar esse papo em uma segunda chamada
+      - podemos retomar esse tema em uma parte dois
+      - não quero deixar assuntos para trás vamos marcar outra call
+      - podemos encerrar agora e continuar em outro momento
+      - quero complementar depois podemos agendar
+      - quero continuar essa entrevista numa segunda parte você topa
+      - podemos agendar uma continuação para finalizar tudo
+      - nosso tempo não permite fechar tudo hoje podemos remarcar
+      - podemos marcar outra sessão para concluir
+      - vamos dividir em duas etapas podemos marcar a segunda
+      - gostaria de pedir uma segunda conversa para seguir
+      - por hoje precisamos encerrar mas quero continuar
+      - ficou faltando tema para cobrir podemos marcar outra
+      - podemos aprofundar mais na parte dois posso agendar
+      - você toparia continuar essa conversa em outro horário
+      - nosso tempo já está no fim vamos marcar parte dois
+      - posso abrir uma agenda para continuar mais tarde
+      - podemos complementar em outra reunião
+      - sugiro dividir esse processo em duas partes
+      - quero reservar outro horário para finalizar
+      - você aceita continuar esse papo em outro encontro
+      - podemos deixar a segunda parte para outro dia
+      - posso propor uma continuação dessa entrevista
+      - hoje não vamos conseguir finalizar quero marcar a segunda
+      - gostaria de levantar uma nova call para seguir
+      - podemos retomar esse assunto em outra data
+      - podemos organizar uma conversa complementar
+      - você pode reservar outro horário para parte dois
+      - quero continuar esse papo em outro momento
+      - podemos marcar uma continuação formal dessa entrevista
+      - podemos programar outra sessão para encerrar
+      - você pode organizar um tempo para a sequência
+      - posso te convidar para parte dois em outra data
+      - podemos continuar essa avaliação num segundo encontro
+      - podemos fazer um follow up para finalizar
+      - podemos prosseguir em outro momento agendado
+      - quero evitar pressa então quero remarcar o restante
+      - posso propor uma próxima etapa para concluir
+      - por hoje cobrimos só parte posso sugerir continuação
+      - vamos manter a qualidade marcando uma parte dois
+      - posso dividir esse bate papo em dois dias
+      - podemos retomar com calma em outra chamada
+      - posso agendar outro horário para completar a avaliação
+      - você pode me confirmar um horário para continuação
+      - quero continuar essa linha de conversa mais tarde
+      - podemos encerrar agora e tratar o restante depois
+      - sugiro marcar o restante dos temas para outra sessão
+      - posso te convidar para uma continuidade desta entrevista
+      - podemos deixar a parte final para um outro dia
+      - posso sugerir uma segunda rodada dessa conversa
+      - parte do conteúdo ficou pendente podemos remarcar
+      - podemos precisar de mais tempo por isso quero agendar de novo
+      - quero dar continuidade com mais profundidade em outra conversa
+      - posso marcar uma entrevista complementar
+      - podemos completar a avaliação em uma segunda parte
+      - posso sugerir nova call para fechar os temas restantes
+      - podemos retomar essa pauta numa continuação
+      - quero marcar mais um momento para seguirmos
+      - posso reservar tempo outro dia para complementar
+      - podemos planejar a continuação dessa entrevista
+      - posso abrir um segundo horário para fechar tudo
+      - podemos agendar uma extensão da entrevista
+      - quero seguir essa conversa com mais tempo depois
+      - posso propor outra call para finalizarmos
+      - podemos retomar essa entrevista em uma etapa dois
+      - posso abrir espaço na agenda para segunda parte
+      - podemos fechar os pontos restantes em outra reunião
+      - posso marcar essa continuação com você
+      - podemos continuar essa pauta em um segundo bloco
+      - podemos marcar uma continuação para finalizar os últimos pontos
+      - vamos precisar de mais uma conversa para cobrir tudo
+      - deixamos a parte final para outra call e concluímos com calma
+      - posso propor seguir em outra data para encerrar o restante
+      - acho melhor não correr podemos concluir na parte dois
+      - parte do conteúdo fica para a continuação tudo bem
+      - podemos dividir os próximos tópicos na segunda parte
+      - sugiro deixar o restante para outra etapa da entrevista
+      - podemos continuar essa avaliação em outro horário
+      - can we schedule a continuation to finish the remaining points
+      - we will need another conversation to cover everything
+      - let us leave the final part for another call and finish calmly
+      - may I propose continuing on another date to complete the rest
+      - it is better not to rush we can complete this in part two
+      - we can leave the remaining content for the follow up
+      - we can handle the next topics in the second part
+      - I suggest leaving the rest for the next interview stage
+      - we can continue this evaluation at another time
+      - I will not be able to cover everything today would you be open to a second part
+      - due to time I need to wrap here and propose a follow up
+      - we will not get through all topics so I would like a second stage
+      - we are running low on time so I suggest another call to finish
+      - instead of rushing I prefer two conversations is that okay
+      - would you mind if we cover the main points now and the rest later
+      - the schedule is tight so I would like to arrange a follow up
+      - can we end earlier and set a deeper second conversation
+      - instead of extending too long today I propose a part two
+      - would you be available for another call to continue
+      - I would like to split this interview into two parts can we schedule the next
+      - today our time is short can we set a continuation
+      - we will not finish everything today can we book a second call
+      - I prefer to conclude calmly so let us mark a second meeting
+      - can we continue this discussion in a part two
+      - our time is almost over can we finish another day
+      - I suggest dividing this process into two sessions
+      - I would like to set another time to finalize
+      - are you okay continuing this conversation later
+      - can we leave the remaining topics for a second meeting
+      - let us continue this interview in a follow up
+      - can we schedule another conversation for the remaining points
+      - I would like to propose another session for this interview
+      - can we move the final part to another day
+      - can we arrange a second round for this discussion
+      - part of the content remains can we schedule another call
+      - we may need more time so I suggest another meeting
+      - I want to continue this with more depth later
+      - can we schedule a complementary interview
+      - can we complete the evaluation in a second part
+      - can we plan a follow up to close the remaining points
+      - let us continue the discussion in another session
+      - can we find another moment to move forward
+      - can I propose an additional time slot for part two
+      - can we handle the rest of the topics later
+      - I would like to book a continuation if possible
+      - let us keep the second part for another day
+      - may I propose a second round of this conversation
+      - we still have pending topics can we schedule a follow up
+      - can we continue with more time in a second call
+      - can we arrange an additional meeting for this interview
+      - can we finish this conversation later with more calm
+      - can you confirm availability for a second part
+      - let us continue the evaluation in a follow up
+      - we may need a continuation can we book it
+      - I would like more time with you in part two
+      - let us continue this in another conversation
+      - can we resume this interview in a next session
+      - let us plan the continuation for another slot
+      - we can keep the remaining discussion for later
+      - may I arrange a second step for this interview
+      - let us continue the pending matters later
+      - I would like to continue where we stop in a second call
+      - can we schedule extension time for this interview
+      - let us plan a second call to finish
+      - can you meet again for the remaining topics
+      - I would like to propose completing this in a second round
+      - let us move remaining subjects to a next meeting
+      - can we finish the rest in a second part
+      - can we follow up this discussion in another session
+      - can we continue with part two later
+      - can we mark a continuation on another day
+      - I want to finish this properly in a follow up
+      - we will proceed better with a second call
+      - let us schedule a follow up session
+      - can we take the remaining points in a next call
+      - can we resume the conversation in a second round
+      - I would like to propose scheduling part two
+      - can we carry on this interview on another date
+      - let us continue this agenda in a follow up
+      - can we revisit the remaining items later
+      - I want to move to a second stage with you
+      - can we keep the leftover points for another call
+      - I would like to close everything in a part two
+      - let us handle the pending topics in another meeting
+      - can we move the continuation to next time
+      - let us plan part two as a follow up
+      - can we finish the remaining topics calmly later
+      - I would like to propose one more conversation
+      - let us proceed with the continuation soon
+      - can we meet again to complete this
+      - I want to continue this interview later
+      - can you join another meeting for the rest
+      - let us divide this into two steps and schedule the second
+      - can we follow up to finish everything
+      - let us complete what is missing in part two
+      - I would like to pick this up again in a new call
+      - can we finalize the conversation in a follow up
+      - let us move the second half to another session
+      - can we keep going in part two soon
+      - can we wrap this up in an additional meeting

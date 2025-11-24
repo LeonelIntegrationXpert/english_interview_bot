@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_interviewer_needs_quick_break:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Claro sem problema podemos fazer uma pausa rápida. Eu aguardo aqui até você retornar.
+          vr_en: |
+            Sure no problem at all we can take a quick break. I will wait here until you come back.
+        resp_2:
+          vr_pt: |
+            Sem problema faça a pausa que precisar. Eu fico aguardando aqui até você retornar.
+          vr_en: |
+            No problem take the break you need. I will be waiting here until you return.

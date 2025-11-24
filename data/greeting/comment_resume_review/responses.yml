@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_comment_resume_review:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Fico feliz em saber disso, obrigado. Posso te contar um pouco mais sobre esses projetos e como eles se conectam com a vaga.
+          vr_en: |
+            I am glad to hear that, thank you. I can walk you through these projects in more detail and explain how they connect to this role.
+        resp_2:
+          vr_pt: |
+            Que bom saber, eu posso detalhar melhor qualquer ponto do currículo que você achar relevante.
+          vr_en: |
+            It is good to know that, I can give more detail on any part of the resume that you find relevant.

@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: change_interviewer_mid_process
+    examples: |
+      - só para te avisar pode ser que em algum momento outro colega entre na call para continuar a entrevista
+      - em parte da nossa conversa outro entrevistador pode assumir tudo bem para você
+      - talvez eu precise sair antes e um colega meu deve seguir com a entrevista
+      - ao longo da call pode ser que outra pessoa do time entre para complementar as perguntas
+      - se eu precisar sair outro membro da equipe vai continuar a entrevista com você
+      - vou começar a entrevista mas um colega pode entrar depois para conduzir outra parte
+      - pode ser que em algum momento outra pessoa assuma a condução da entrevista está ok
+      - em determinado ponto um gestor do time pode entrar para fazer mais algumas perguntas
+      - existe a possibilidade de outro entrevistador entrar e continuar de onde paramos
+      - caso eu precise sair não se assuste se outra pessoa aparecer para seguir a conversa
+      - um colega pode assumir a entrevista em algum momento da call
+      - talvez outra pessoa do time entre para fazer perguntas específicas
+      - pode acontecer de outro entrevistador conduzir a parte final
+      - em algum ponto um gestor pode assumir a entrevista
+      - posso precisar sair então outro colega pode continuar
+      - pode ser que outra pessoa entre para liderar a próxima parte
+      - se houver troca de agenda outro colega assume a call
+      - um membro da equipe pode entrar para a etapa seguinte
+      - pode ser que outra pessoa finalize a entrevista comigo
+      - talvez outro entrevistador continue essa conversa
+      - pode haver mudança de entrevistador no meio da call
+      - um colega pode entrar e assumir a conversa se necessário
+      - posso pedir para outro membro continuar a entrevista
+      - pode ser que outra pessoa complete as perguntas finais
+      - em caso de ajuste interno outro colega assume
+      - posso ter que sair então outro entrevistador segue daqui
+      - outro profissional pode entrar e complementar a análise
+      - em algum momento outro colega pode te entrevistar
+      - se houver demanda interna outro entrevistador entra
+      - pode ser que outra pessoa conduza a última parte
+      - um colega pode continuar se eu precisar encerrar
+      - posso transferir a condução para outro membro da equipe
+      - pode haver substituição e outro entrevistador assume
+      - um gestor pode entrar em uma segunda parte da entrevista
+      - um colega pode se juntar para continuar a avaliação
+      - caso eu tenha outro compromisso outro membro segue
+      - podemos trocar de entrevistador durante a call
+      - posso passar a conversa para outro colega se necessário
+      - alguém do time pode entrar para completar a etapa final
+      - uma segunda pessoa pode assumir perguntas específicas
+      - caso haja mudança aqui outra pessoa te entrevista
+      - posso não conseguir ficar até o fim então outra pessoa continua
+      - outro entrevistador pode assumir a qualquer momento
+      - pode ocorrer de outro colega liderar a próxima fase
+      - um segundo entrevistador pode aparecer para continuar
+      - talvez eu precise transferir a entrevista para outro membro
+      - pode ser que a condução passe para uma segunda pessoa
+      - outro gestor pode assumir se eu for chamado
+      - pode haver alternância de entrevistador durante o processo
+      - um colega pode assumir quando chegarmos à segunda parte
+      - posso não conseguir seguir e outro entrevistador continua
+      - possivelmente outro membro vai conduzir parte da conversa
+      - caso eu saia outro profissional segue com a entrevista
+      - posso delegar uma parte da conversa para outra pessoa
+      - a continuidade pode ser feita por outro entrevistador
+      - em algum momento um colega pode assumir minhas perguntas
+      - posso entregar a próxima etapa para outro membro da equipe
+      - por uma questão interna posso passar a call adiante
+      - alguém do time pode complementar a entrevista no meu lugar
+      - um entrevistador adicional pode entrar e assumir
+      - se eu for chamado aqui outro colega segue com você
+      - posso pedir para outro gestor finalizar a entrevista
+      - outra pessoa pode assumir a avaliação em uma das etapas
+      - possivelmente a última parte será conduzida por outra pessoa
+      - existe chance de mudança de entrevistador durante a conversa
+      - posso iniciar mas outro membro pode finalizar
+      - o final pode ser conduzido por outro profissional
+      - posso dividir a condução com outro entrevistador
+      - alguém do time pode entrar só para concluir a análise
+      - outro membro pode assumir se minha agenda apertar
+      - posso passar o encerramento para outro entrevistador
+      - a transição de entrevistador pode acontecer no meio da call
+      - posso ter que transferir o comando da conversa
+      - outro gestor pode participar para complementar a etapa
+      - talvez outro colega conduza a próxima sequência de perguntas
+      - posso iniciar a call mas não garantir a finalização
+      - existe chance de substituição parcial do entrevistador
+      - posso deixar outra pessoa continuar de onde pararmos
+      - outro membro da equipe pode entrar mais para o final
+      - posso não seguir até o fim então outro entrevistador continua
+      - um colega pode assumir se surgir algo urgente aqui
+      - posso delegar o restante da conversa para outro entrevistador
+      - pode acontecer de outro profissional fechar a entrevista
+      - caso eu tenha um chamado outro membro segue com você
+      - posso repassar parte da condução para outra pessoa
+      - outro entrevistador pode aparecer para concluir a call
+      - existe possibilidade de alternância na condução
+      - posso passar o restante da call para outra pessoa
+      - alguém pode entrar para concluir a avaliação técnica
+      - posso precisar sair então outro colega conduz a parte final
+      - outro entrevistador pode liderar a parte técnica da conversa
+      - pode ocorrer entrada de outro membro para finalizar
+      - talvez outra pessoa conduza os minutos finais
+      - posso transferir o encerramento para outro colega
+      - existe a chance de outro profissional assumir a condução
+      - posso deixar a call antes e outro entrevistador continua
+      - outro gestor pode entrar para revisar os últimos pontos
+      - posso passar a conversa adiante caso necessário
+      - talvez outro entrevistador entre só para concluir a etapa final
+      - se houver necessidade outro colega pode assumir por alguns minutos
+      - another colleague may join briefly to close the final part
+      - a different interviewer may appear to complete the last stage
+      - someone else may take over a short section of the interview
+      - a second interviewer may guide a small part of the call
+      - another person may join briefly to continue the discussion
+      - someone else could take over if I am redirected here
+      - another teammate may appear to finalize a segment
+      - a different colleague may lead a short portion of the interview
+      - another interviewer may join for a brief continuation
+      - just to let you know at some point another colleague may join the call to continue the interview
+      - during part of our conversation another interviewer might take over is that okay for you
+      - I might need to leave earlier and one of my colleagues will probably continue the interview
+      - at some point in the call someone else from the team may join to add a few questions
+      - if I need to leave another team member will carry on with the interview
+      - I will start the interview but a colleague may join later to lead another part
+      - it is possible that at some point another person will take over the interview is that alright
+      - at a certain point a manager from the team might join to ask a few more questions
+      - there is a chance another interviewer will join and continue from where we stopped
+      - if I have to leave do not be surprised if someone else appears to continue the conversation
+      - a colleague may step in to continue the interview if needed
+      - another person might join later to cover additional topics
+      - a different interviewer may handle the final part
+      - a manager could join the call to lead a section
+      - I may need to pass the interview to another colleague
+      - someone else might take over the next segment
+      - another teammate could step in for the continuation
+      - another interviewer may join midway through the call
+      - a second interviewer might assist with later questions
+      - we might rotate interviewers during the call
+      - another person might carry on if I cannot stay
+      - I may hand the interview off to someone else
+      - someone else may join to handle the final questions
+      - another colleague might finish the interview
+      - a different interviewer could join for the second half
+      - a teammate may step in to complete the conversation
+      - another team member may lead the next stage
+      - another interviewer might continue if I am called away
+      - a colleague may take over the call if needed
+      - someone else might join for a short segment
+      - another person could run a portion of the interview
+      - I might start but another interviewer may finish
+      - a different colleague may join to continue our talk
+      - someone else may step in later to guide the next part
+      - another team member might handle a specific block
+      - we may see another interviewer joining us shortly
+      - I may need another colleague to continue the interview
+      - someone else may appear to complete the process
+      - another manager may join later in the interview
+      - a teammate might take over if my schedule shifts
+      - a second interviewer might join to follow up
+      - another colleague could continue where I stop
+      - I may hand off the interview mid call
+      - another interviewer might enter at some point
+      - someone else could assist with the final part
+      - another person may continue this session
+      - a different colleague might take the lead next
+      - I may transition the call to someone else
+      - someone else might step in at the end
+      - another interviewer could complete the remainder
+      - I might need support from another colleague
+      - a manager may continue the interview from here
+      - another team member may guide the next section
+      - I may need to swap with another interviewer
+      - someone else may temporarily take over
+      - another colleague might conduct the closing part
+      - a different interviewer may jump in to continue
+      - a collaborator may join to help with questions
+      - a second colleague might assist later on
+      - someone else may take control of the next part
+      - another interviewer may join to wrap up
+      - a teammate might join to follow the next steps
+      - someone else could finish the interview
+      - I may switch roles with another colleague
+      - another colleague might guide a later block
+      - another interviewer may pick it up from here
+      - someone else might join to cover one section
+      - a manager might step in at a later moment
+      - another team member might join mid process
+      - someone else may continue this interview
+      - a different colleague could join and assist
+      - another interviewer may handle a few questions
+      - someone else might join shortly to support
+      - another person might cover the next questions
+      - someone else may continue if I disconnect
+      - another colleague might appear in the call
+      - I may hand off the remaining part to someone else
+      - someone else might join to complete the assessment
+      - another interviewer could join during the call
+      - a teammate may take over this part of the process
+      - another team member may follow up the next steps
+      - someone else might be responsible for the next block
+      - I might delegate this stage to another colleague
+      - another interviewer may come in to continue
+      - someone else might finalize the session
+      - a colleague may join later to continue
+      - someone else might take over if needed
+      - another person may conduct the last minutes
+      - another interviewer might assume the lead
+      - a second colleague might complete the final stage
+      - another team member may close the conversation

@@ -40,6 +40,45 @@ intents:
   - offer_break
   - reconnect_after_issue
   - check_company_knowledge
+  - comment_resume_review
+  - comment_linkedin_profile
+  - ask_how_found_role
+  - tell_me_about_yourself
+  - check_location_timezone
+  - light_weekend
+  - thanks_reschedule
+  - check_camera
+  - prefer_name
+  - check_previous_stage
+  - confirm_role
+  - check_start_availability
+  - small_talk_hobbies
+  - small_talk_learning_english
+  - comment_end_of_day
+  - comment_morning_energy
+  - reschedule_other_day
+  - reschedule_other_time_same_day
+  - interviewer_needs_to_leave_early
+  - interviewer_late_warning
+  - cancel_process_now
+  - propose_new_slots
+  - interviewer_connection_issue
+  - candidate_not_joined_yet
+  - change_platform
+  - interviewer_needs_quick_break
+  - interview_cut_short_and_reschedule_part2
+  - interviewer_personal_emergency
+  - change_interviewer_mid_process
+  - audio_issue_with_candidate
+  - interviewer_distracted_by_notification
+  - interviewer_camera_issue
+  - background_noise_or_interruption
+  - timezone_confusion
+  - system_outage_internal_tools
+  - short_notice_reschedule_soon
+  - sound_suggestion_turn_off_camera
+  - interviewer_double_booked
+  - soccer_team
 actions:
   - action_fallback
 session_config:

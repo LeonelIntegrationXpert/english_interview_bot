@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: interviewer_late_warning
+    examples: |
+      - peço desculpas mas vou me atrasar alguns minutinhos para a nossa call
+      - só para avisar estou terminando outra reunião e devo entrar alguns minutos depois
+      - estou finalizando uma conversa aqui e já entro na entrevista em poucos minutos
+      - provavelmente vou entrar um pouco atrasado na call mas chego assim que possível
+      - tive um pequeno atraso na reunião anterior mas já estou a caminho
+      - só para te contar posso me atrasar uns minutos mas a entrevista está mantida
+      - estou com um pequeno atraso mas em breve entro na call com você
+      - vou atrasar um pouquinho mas não mais do que alguns minutos tudo bem
+      - estou encerrando outra call e já entro na nossa entrevista
+      - obrigado por aguardar devo entrar com alguns minutos de atraso
+      - estou finalizando um ponto importante aqui e devo entrar logo na sequência
+      - minha call anterior estendeu um pouco mas já estou indo para a sua
+      - só para avisar pode ser que eu entre dois ou três minutos atrasado
+      - estou terminando uma conversa interna e já entro na nossa call
+      - meu alinhamento anterior passou um pouco do tempo mas já estou chegando
+      - estou em outra reunião que está finalizando agora entro na sequência
+      - pode ser que eu chegue com alguns minutos de atraso mas estarei lá
+      - tive um atraso rápido aqui mas já estou me preparando para entrar
+      - estou concluindo um alinhamento e entro na nossa call em instantes
+      - só um aviso posso entrar um pouco depois mas não deve demorar
+      - minha agenda virou um pouco mas já estou chegando na call
+      - meu ponto anterior atrasou um pouco mas entro logo
+      - estou terminando um ajuste aqui e já entro para a entrevista
+      - só para te informar vou entrar alguns minutos depois
+      - estou em encerramento de reunião mas entro logo na nossa call
+      - minha call anterior ultrapassou o previsto mas estou chegando
+      - pode ser que eu entre um pouco fora do horário mas já estou indo
+      - estou fechando outra conversa aqui mas entro em breve
+      - tive um pequeno atraso operacional mas entro logo
+      - estou só alinhando algo rápido e entro na call em minutos
+      - vou me atrasar um pouco mas sigo para a call na sequência
+      - estou organizando algo aqui e já entro na entrevista
+      - minha reunião atual estendeu mas devo entrar logo
+      - só ajustando algo aqui e já entro na nossa conversa
+      - meu tempo escorregou alguns minutos mas já estou chegando
+      - estou finalizando um detalhe e entro em breve
+      - só para você saber posso entrar com dois ou três minutos de atraso
+      - minha reunião anterior não terminou ainda mas já estou indo
+      - vou entrar um pouquinho mais tarde mas nada demais
+      - tive uma demora de minutos mas já estou me encaminhando
+      - estou encerrando outro ponto e entro logo
+      - preciso terminar algo aqui e já entro na call
+      - estou fechando outra agenda e entro assim que possível
+      - minha conversa anterior atrasou mas já estou vindo
+      - estou concluindo um alinhamento interno e já entro
+      - tive um atraso muito pequeno mas já estou chegando
+      - estou na finalização da outra call e entro em seguida
+      - só para te avisar devo entrar alguns minutos atrasado hoje
+      - meu ponto anterior acabou agora estou indo para a call
+      - estou nos últimos minutos da reunião anterior
+      - minha agenda empurrou um pouco o horário mas já estou indo
+      - só preciso concluir algo rápido e já entro
+      - posso entrar um pouco mais tarde mas continuo no horário próximo
+      - minha reunião está fechando agora e entro logo
+      - estou com leve atraso mas já estou no caminho
+      - estou saindo de outra call agora e indo para a sua
+      - minha outra reunião se estendeu um pouco mas chego logo
+      - posso entrar um pouco mais tarde do que o previsto
+      - finalizei quase tudo aqui e entro em poucos minutos
+      - minha reunião anterior está no final mas entro logo
+      - pode ser que eu leve um ou dois minutos a mais
+      - estou concluindo um alinhamento e em seguida entro
+      - tive uma pausa mais longa na call anterior e devo entrar depois
+      - minha agenda puxou alguns minutos a mais mas estarei lá
+      - estou apenas finalizando um tópico antes de entrar
+      - meu tempo derrapou um pouco mas já estou indo
+      - estou resolvendo algo rápido e entro logo
+      - meu cronograma atrasou alguns minutos hoje
+      - vou ter uma entrada um pouco mais tardia mas estarei na call
+      - estou fechando um alinhamento final e já entro
+      - só para você ajustar vou entrar alguns minutos mais tarde
+      - tive um atraso leve mas sigo para a call
+      - estou concluindo outra conversa e entro na sequência
+      - minha reunião atual está finalizando já estou indo
+      - vou precisar de alguns minutos extras antes de entrar
+      - estou terminando um assunto aqui e logo entro
+      - minha agenda atrasou por poucos minutos mas estou chegando
+      - estou quase encerrando e entro em instantes
+      - meu ponto anterior demorou um pouco mais mas estarei lá
+      - só para informar entrei em um atraso pequeno mas já venho
+      - minha reunião puxou um pouco mas entro logo
+      - estou finalizando uma call e entro assim que terminar
+      - pode ser que eu entre um pouco fora do previsto mas chego
+      - estou amarrando um fechamento aqui e já entro
+      - minha agenda acumulou alguns minutos mas já estou indo
+      - preciso terminar algo urgente mas entro logo
+      - estou apenas completando um ponto antes de entrar
+      - minha reunião anterior consumiu alguns minutos mas estou a caminho
+      - estou com atraso de minutos mas já estou vindo
+      - estou concluindo aqui e já entro para a entrevista
+      - só para avisar chego alguns minutos depois do horário
+      - meu alinhamento interno atrasou mas já estou indo
+      - estou no final de outra call e devo entrar logo
+      - minha agenda correu um pouco mas já estou chegando
+      - vou me atrasar um pouco mas sigo para a call o quanto antes
+      - estou resolvendo algo rápido e em seguida entro
+      - só mais um instante e já estarei na call
+      - estou em um pequeno atraso mas já entro na call em instantes
+      - minha reunião passou um pouco do tempo prometo entrar o mais rápido possível
+      - tive um atraso leve aqui mas chego na call em poucos minutos
+      - I am dealing with a brief delay but I will join the call very soon
+      - I am sorry but I will be a few minutes late for our call
+      - just letting you know I am finishing another meeting and should join a few minutes late
+      - I am wrapping up a conversation here and will join in a few minutes
+      - I will probably join the call a bit late but I will be there as soon as I can
+      - my previous meeting is running over but I am on my way
+      - just so you know I might be a few minutes late but the interview is still confirmed
+      - I am running a little behind but I will join shortly
+      - I will be a bit late but only by a few minutes is that okay
+      - I am closing another call and will join ours right after
+      - thanks for waiting I should join with a slight delay
+      - I am just finalizing a meeting and should join shortly
+      - my earlier call stretched a bit but I am heading to ours
+      - I might join a couple of minutes late just as a heads up
+      - I am ending another discussion and will be there soon
+      - my schedule slipped a bit but I am on my way to the call
+      - I am finishing a quick alignment and will join in a moment
+      - I may be a few minutes behind schedule but I am coming
+      - I am wrapping up something urgent and will join shortly
+      - another meeting is still closing but I will join as soon as possible
+      - I might need a few extra minutes before joining the call
+      - I am finishing something here and will join in a few minutes
+      - my call before this is still running but I am joining soon
+      - I am stuck in a meeting that is ending now and will join soon
+      - my previous meeting pushed a bit but I am heading your way
+      - I have a slight delay but I am joining shortly
+      - just to let you know I might join a couple of minutes late today
+      - I am handling a quick task and will join shortly
+      - my timeline slipped slightly but I am on my way
+      - my previous meeting overlapped a bit but I will join soon
+      - I am finishing something and will connect shortly
+      - I may enter the call a bit late but I’m coming
+      - wrapping up my last point here and then I join
+      - I am closing a discussion here and then joining
+      - my earlier call is still ongoing but I will join soon
+      - I am dealing with a small delay but I will join
+      - I may be a bit behind but I will join shortly
+      - I am stuck in another call but joining right after
+      - I am completing a task and will join in a moment
+      - something ran longer but I will join soon
+      - I might be slightly delayed but will connect soon
+      - my agenda pushed a little but I am coming
+      - finishing up now and I will join shortly
+      - I am in the last minutes of a meeting and then joining
+      - my schedule ran over a bit but I will join soon
+      - I need a few minutes before joining but I am on the way
+      - my earlier meeting lasted longer than planned but I am heading in
+      - I am about to finish the previous call and then join
+      - I may need a short delay before joining
+      - my last alignment took longer than expected but I am joining
+      - I am just wrapping something up and will be there shortly
+      - my timing slipped a few minutes but I will join
+      - something extended into this slot but I am joining soon
+      - I might come in a few minutes late just giving a heads up
+      - I am finalizing another task and will connect soon
+      - I am running late by a few minutes but I am coming
+      - my meeting before this is running late but I will join shortly
+      - I am just closing this point and joining right after
+      - I got held up for a moment but I am on the way
+      - finishing one last item and then joining the call
+      - I might join slightly later than planned but not by much
+      - my meeting queue shifted but I am joining shortly
+      - I am concluding a call and will be there soon
+      - I need a couple more minutes and then I will join
+      - I am wrapping up a task and heading to the call
+      - my schedule is trailing a bit but I am coming
+      - closing another agenda point and joining soon
+      - I am stuck for a moment but joining shortly
+      - may join a few minutes late but the call is confirmed
+      - I am in the final stretch of the previous meeting
+      - I am taking a bit longer than expected but joining soon
+      - my earlier call expanded but I am joining next
+      - just running a little late but I am almost there
+      - I may need a tiny delay but I am joining soon
+      - I am closing another meeting and will join right away
+      - my time slipped but I am heading to the call now
+      - dealing with a slight extension but I am on my way
+      - finishing the previous item and joining shortly
+      - I might connect a few minutes later than planned
+      - being held up briefly but joining soon
+      - my timing shifted by minutes but I am on the way
+      - ending another meeting now I will join next
+      - I may arrive slightly late but still joining today
+      - my previous task ran over but I am coming now
+      - I need a short moment before joining the call
+      - finishing some remaining points and then I join
+      - I have a brief delay but I will join the call soon
+      - almost done here and I will join in a moment
+      - my schedule is slightly behind but I am coming
+      - something took a bit longer but I am joining right after
+      - may be delayed by a few minutes but still joining
+      - resolving a quick issue and then I join
+      - I am closing everything now and coming to the call
+      - small delay on my end but I will join
+      - finalizing here and heading to the call
+      - last call is ending now and then I connect
+      - brief delay on my agenda but I am joining shortly
+      - small extension from the last meeting but I will join soon
+      - my last commitment stretched a bit but I am nearly joining
+      - wrapping up a few details and then joining

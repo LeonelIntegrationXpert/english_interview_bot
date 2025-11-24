@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: change_platform
+    examples: |
+      - estamos com problema na plataforma desta call você se importa se a gente mudar para outra ferramenta
+      - você conseguiria continuar essa conversa pelo Zoom em vez do Teams
+      - você tem acesso ao Google Meet podemos transferir a entrevista para lá
+      - a plataforma aqui está instável você se importaria se eu te enviasse outro link em outra ferramenta
+      - podemos migrar essa entrevista para outra plataforma parece que essa não está ajudando muito hoje
+      - se eu te mandar um novo link por email você consegue entrar por lá
+      - você teria alguma restrição em usar outra ferramenta de reunião como Zoom ou Meet
+      - para evitar mais problemas técnicos queria sugerir mudar a plataforma tudo bem para você
+      - vou te enviar um novo link em outra solução de reunião tudo bem se continuarmos por lá
+      - você consegue trocar de plataforma agora caso eu te envie outro link
+      - essa ferramenta não está respondendo bem você consegue mudar para outra
+      - a call está travando podemos tentar outra plataforma
+      - minha plataforma caiu você pode migrar comigo para outra
+      - o vídeo não carregou aqui podemos trocar de solução
+      - podemos tentar outra ferramenta para ver se estabiliza
+      - seu áudio não chega aqui posso sugerir outra plataforma
+      - você consegue acessar um link novo se eu enviar
+      - a plataforma está lenta podemos mudar rapidamente
+      - você está confortável em entrar por outra ferramenta
+      - o sistema aqui travou posso te mandar outro link
+      - essa call não está estável vamos trocar de solução
+      - posso te mandar um convite novo para outra plataforma
+      - você tem acesso ao Zoom posso enviar link
+      - podemos retomar a entrevista em outra ferramenta
+      - a plataforma reiniciou podemos trocar para outra
+      - ficou impossível continuar aqui vamos para outro app
+      - você consegue alternar para o Meet agora
+      - você quer tentar outra solução para evitar quedas
+      - a ferramenta não responde podemos mudar
+      - eu posso te mandar um link direto por email
+      - podemos testar outra plataforma mais estável
+      - a conexão ficou muito ruim aqui vamos mudar
+      - você pode entrar em outro link se eu enviar agora
+      - podemos trocar para uma plataforma mais leve
+      - estou com dificuldade aqui podemos migrar
+      - posso criar uma sala nova em outra ferramenta
+      - podemos pular para o Zoom se isso ajudar
+      - você está confortável em mudar agora
+      - podemos alternar para outra ferramenta rapidamente
+      - você consegue abrir o Meet ou Zoom aí
+      - podemos seguir em outro ambiente
+      - posso te mandar um link alternativo
+      - essa plataforma não está funcionando posso mudar
+      - podemos continuar em um link novo
+      - a ferramenta travou podemos mudar já
+      - você abre outra plataforma sem problema
+      - se eu criar uma call nova você entra
+      - podemos reiniciar em outra solução
+      - posso acionar outra ferramenta para continuar
+      - seu áudio não voltou podemos trocar
+      - você está com outra plataforma disponível
+      - posso migrar essa reunião para outro app
+      - você consegue acessar outro link agora
+      - a plataforma ficou instável vamos mudar
+      - posso iniciar outra sala mais estável
+      - podemos fazer a transição para outra ferramenta
+      - posso te enviar um atalho para outra call
+      - você prefere Meet ou Zoom para continuar
+      - posso reabrir a call em outro lugar
+      - sua tela não aparece aqui podemos mudar
+      - vamos evitar essa plataforma e usar outra
+      - você tem alguma ferramenta preferida para trocar
+      - posso abrir o Meet rapidinho e te mandar
+      - podemos tentar um ambiente que funcione melhor
+      - o sistema caiu aqui vamos mudar
+      - posso te mandar um ID de reunião novo
+      - você consegue abrir link de outra plataforma
+      - podemos tentar uma solução menos pesada
+      - estou com falha aqui vamos mudar de ambiente
+      - posso te criar nova call agora mesmo
+      - você pode migrar comigo para outra plataforma
+      - podemos ir para um link alternativo
+      - o áudio não voltou aqui podemos trocar
+      - posso enviar um link mais estável para você
+      - podemos deslocar esta entrevista para outro app
+      - seu vídeo não carregou podemos mudar
+      - posso te enviar outro convite
+      - podemos retomar em plataforma diferente
+      - eu abro uma nova reunião e você entra
+      - podemos reiniciar a conversa em outro app
+      - te mando outro link para continuar sem travar
+      - você acessa o Zoom se eu mandar o link
+      - vamos trocar de ferramenta para finalizar bem
+      - posso te chamar em outra plataforma
+      - conseguimos continuar por um app alternativo
+      - estou migrando a reunião você consegue acompanhar
+      - posso transferir a conversa para o Meet
+      - você tem acesso a outra plataforma para entrar
+      - vou iniciar outra call você entra lá
+      - você pode abrir outro link agora mesmo
+      - vamos usar outra ferramenta para concluir a conversa
+      - posso ajustar tudo em outra plataforma e te chamar
+      - você consegue me acompanhar em um link novo
+      - essa plataforma não carregou bem podemos mudar
+      - seu vídeo não abriu aqui vamos trocar de ferramenta
+      - posso mover a reunião para outra plataforma agora
+      - a call travou de vez podemos seguir em outro link
+      - a ferramenta está falhando você consegue abrir outra
+      - posso iniciar uma call nova em outra solução
+      - você tem outra plataforma disponível aí
+      - this platform did not load well can we switch
+      - your video did not appear can we use another tool
+      - I can move the meeting to another platform now
+      - the call froze completely can we continue in another link
+      - the tool is failing can you open another platform
+      - I can start a fresh call in another solution
+      - do you have another tool available on your side
+      - this platform is not responding can we switch quickly
+      - your feed is not loading can we change tools
+      - I can send a replacement link on another platform
+      - we are having issues with this platform would you mind if we switch to another tool
+      - would you be able to continue this conversation on Zoom instead of Teams
+      - do you have access to Google Meet we can move the interview there
+      - this platform is unstable would you mind if I sent you another link on a different tool
+      - can we move this interview to another platform it seems this one is not helping today
+      - if I send you a new link by email can you join from there
+      - would you have any problem using another meeting tool like Zoom or Meet
+      - to avoid more technical issues I would like to suggest changing the platform is that okay
+      - I will send you a new link on another meeting solution is it okay if we continue there
+      - can you switch platforms now if I share a different link
+      - this tool is failing can you move to another platform
+      - the call is freezing can we try a different solution
+      - my platform crashed can you migrate with me
+      - the video is not loading can we switch tools
+      - can we switch tools to stabilize the meeting
+      - your audio is not coming through can we change platforms
+      - can you access a fresh link if I send it now
+      - this platform is slow can we move quickly to another
+      - are you comfortable entering through another tool
+      - my system froze can I send a new link
+      - the call is unstable let us switch solutions
+      - can I send you a new invite for another platform
+      - do you have Zoom access I can send a link
+      - can we continue the interview in another tool
+      - the platform restarted can we switch
+      - it is hard to continue here let us move tools
+      - can you join a Meet link now
+      - do you want to try another tool to avoid crashes
+      - this tool is not responding can we move
+      - I can email you another link right now
+      - can we test another platform that is more stable
+      - the connection is too bad let us switch
+      - can you enter a new link if I create one
+      - can we move to a lighter tool
+      - I am having trouble can we migrate
+      - I can create a new room in another tool
+      - can we jump to Zoom if that helps
+      - are you okay switching now
+      - can we alternate to another platform quickly
+      - can you open Meet or Zoom on your side
+      - can we continue in another environment
+      - I can send an alternative link
+      - this tool is failing can I switch
+      - can we continue in a new link
+      - the platform froze can we change now
+      - can you open another tool easily
+      - if I create a new call can you enter
+      - can we restart in a different platform
+      - I can move this meeting to another tool
+      - can you access another link now
+      - the tool became unstable let us change
+      - I can start another room for us
+      - can we transition to another tool
+      - I can send a shortcut to a new call
+      - do you prefer Meet or Zoom to continue
+      - I can reopen the meeting elsewhere
+      - your screen is not appearing can we move
+      - let us avoid this platform and use another
+      - do you have a preferred tool to switch to
+      - I can open Meet and send the link
+      - can we try an environment that works better
+      - the system crashed let us switch
+      - I can send a new meeting ID
+      - can you open a different platform
+      - can we try a less heavy tool
+      - I am having failures let us change
+      - I can create a fresh call
+      - can you migrate to another tool now
+      - can we go to an alternate link
+      - your audio is still gone can we switch
+      - I can send a more stable link for you
+      - can we move this interview to another app
+      - your video did not load can we change
+      - I can send another invite
+      - can we resume on a different platform
+      - I will open a new meeting you join
+      - can we restart the conversation in another tool
+      - I will send a new link to avoid freezes
+      - can you access Zoom if I send the link
+      - let us use another tool to finish the conversation
+      - I can call you on another platform
+      - can we continue through an alternate app
+      - I am migrating the meeting can you follow
+      - I can transfer the conversation to Meet
+      - do you have access to a secondary tool
+      - I will start another call you join there
+      - can you open another link right now
+      - let us use another platform to continue
+      - I can move everything to another tool
+      - can you follow me on a new link

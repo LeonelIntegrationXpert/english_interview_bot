@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: reschedule_other_time_same_day
+    examples: |
+      - tivemos um pequeno atraso aqui você se importa se a gente remarcar para um horário mais tarde hoje
+      - minha reunião anterior estendeu além do previsto você consegue conversar em outro horário ainda hoje
+      - estou com um conflito agora mas consigo falar mais tarde hoje isso funcionaria para você
+      - se for possível para você eu gostaria de remarcar essa entrevista para mais tarde hoje tudo bem
+      - surgiu uma demanda urgente nesse horário você teria disponibilidade em outro horário hoje
+      - posso te pedir para ajustar esse horário para mais tarde hoje tive um imprevisto agora
+      - eu não vou conseguir nesse exato horário mas ainda posso hoje em outro horário isso faz sentido para você
+      - tivemos um atraso na agenda você toparia remarcar essa conversa para um pouco mais tarde hoje
+      - você consegue adiar essa entrevista para um horário mais tarde hoje
+      - se não for um problema podemos deslocar essa conversa para outro horário hoje
+      - precisei assumir algo urgente neste horário podemos jogar a entrevista para mais tarde hoje
+      - estou preso em outra reunião agora mas fico livre mais tarde hoje podemos remarcar
+      - meu compromisso atual atrasou um pouco conseguimos reagendar ainda hoje
+      - houve um atraso inesperado aqui podemos mover a conversa para mais tarde hoje
+      - minha agenda virou agora mas tenho disponibilidade mais tarde hoje funciona para você
+      - estou finalizando algo urgente conseguimos falar mais tarde hoje
+      - minha reunião anterior atrasou tudo podemos remarcar este horário para mais tarde hoje
+      - estou em um bloqueio de agenda agora mas libero mais tarde hoje podemos ajustar
+      - acabei entrando em outra demanda você consegue falar mais tarde hoje
+      - minha janela atual fechou mas tenho outra hoje podemos remarcar
+      - meu tempo estourou agora você pode conversar mais tarde hoje
+      - apareceu uma urgência rápida podemos remarcar para um horário mais tarde hoje
+      - estou em outra ligação agora mas depois fico livre podemos mover para mais tarde
+      - meu ritmo adiantou uma coisa aqui você pode falar mais tarde hoje
+      - não vou conseguir neste minuto mas posso depois hoje que tal
+      - uma entrega urgente caiu agora você pode adiar para mais tarde hoje
+      - meu alinhamento interno esticou você pode remarcar para mais tarde hoje
+      - tive uma sobreposição de horário você consegue conversar depois hoje
+      - meu compromisso tomou este horário você tem outro horário hoje
+      - estou impossibilitado agora mas fico disponível mais tarde hoje
+      - precisei realocar algo aqui podemos remarcar ainda hoje
+      - algo mudou rápido na agenda você consegue mais tarde hoje
+      - neste momento não vai dar mas consigo mais tarde hoje
+      - preciso mover este horário para mais tarde hoje funciona para você
+      - houve uma demanda súbita você consegue adiar para mais tarde hoje
+      - meu fluxo atrasou você consegue um horário mais tarde hoje
+      - estou em uma conversa que estendeu podemos reagendar mais tarde
+      - minha tarefa empurrou o horário podemos marcar depois hoje
+      - meu tempo travou agora você pode falar mais tarde hoje
+      - estou em algo urgente mas fico disponível depois hoje
+      - minha agenda mexeu agora você teria outro horário hoje
+      - estou com um contratempo podemos mover para mais tarde hoje
+      - minha reunião se prolongou você consegue outro horário hoje
+      - tive uma mudança rápida aqui podemos passar a entrevista para mais tarde hoje
+      - estou preso em um ajuste de última hora podemos reagendar mais tarde
+      - meu alinhamento atual estendeu você pode conversar depois hoje
+      - meu tempo está apertado agora mas abro mais tarde hoje funciona
+      - estou atendendo outra prioridade podemos mover para mais tarde hoje
+      - tive um atraso técnico você pode falar depois hoje
+      - estou ocupando este horário com outra demanda você tem outro horário hoje
+      - meu fluxo do dia empurrou este horário podemos falar depois hoje
+      - estou reorganizando algo aqui podemos mover a entrevista para mais tarde hoje
+      - estou ajustando a agenda agora mas tenho intervalo mais tarde hoje
+      - estou preso em uma demanda interna você poderia mais tarde hoje
+      - este horário ficou inviável mas tenho janela depois hoje
+      - estou bloqueado agora mas libero mais tarde hoje podemos remarcar
+      - algo consumiu minha janela atual podemos falar mais tarde hoje
+      - um atraso ocupou este horário você tem disponibilidade depois hoje
+      - não vou conseguir agora podemos reagendar mais tarde hoje
+      - preciso mover a conversa para mais tarde hoje tudo bem para você
+      - uma urgência impactou este horário podemos falar mais tarde hoje
+      - minha agenda embolou aqui você pode hoje mais tarde
+      - estou acertando algo urgente agora mas fico livre depois hoje
+      - tive um atraso inesperado você consegue um horário mais tarde hoje
+      - meu horário foi tomado agora mas tenho um intervalo hoje podemos remarcar
+      - minha ligação esticou você pode conversar depois hoje
+      - preciso realocar este horário conseguimos mais tarde hoje
+      - estou ajustando outro compromisso você teria outro horário hoje
+      - surgiu uma demanda imediata você poderia mais tarde hoje
+      - esta janela ficou indisponível para mim mas tenho outra hoje funciona
+      - meu tempo acabou pegando outra tarefa você pode depois hoje
+      - estou em outra entrega agora conseguimos mover para mais tarde hoje
+      - estou em chamada contínua aqui você poderia falar depois hoje
+      - minha agenda se deslocou você pode hoje mais tarde
+      - tive que assumir algo neste horário mas fico livre depois hoje
+      - acabei ficando preso em outro ponto você consegue depois hoje
+      - estou impossibilitado neste instante mas posso mais tarde hoje
+      - esta hora virou conflito conseguimos reagendar mais tarde hoje
+      - minha manhã estourou mas libero mais tarde hoje podemos ajustar
+      - minha tarde virou mas tenho horário mais tarde hoje funciona
+      - estou em reorganização de agenda você pode mais tarde hoje
+      - meu fluxo apertou agora conseguimos falar depois hoje
+      - algo tomou meu horário mas tenho disponibilidade mais tarde hoje
+      - estou no meio de outra demanda mas posso mais tarde hoje funciona para você
+      - meu compromisso atual cresceu você consegue um horário mais tarde hoje
+      - algo comeu minha janela atual podemos remarcar para depois hoje
+      - estou preso mas consigo depois hoje que tal
+      - não vou conseguir neste minuto mas posso depois hoje conseguimos mover
+      - estou encerrando outro assunto mas depois fico livre hoje
+      - minha agenda sobrepôs horários conseguimos jogar para depois hoje
+      - estou em tempo crítico agora mas posso mais tarde hoje
+      - fiquei sem horário agora mas tenho um depois hoje funciona
+      - minha revisão estendeu você pode falar mais tarde hoje
+      - meu alinhamento não terminou podemos reagendar mais tarde hoje
+      - preciso apenas deslocar para mais tarde hoje funciona para você
+      - estou ultrapassado neste horário você pode hoje mais tarde
+      - tive um prolongamento inesperado você consegue conversar depois hoje
+      - tive um atraso pontual aqui você consegue falar mais tarde hoje
+      - estou fechando algo urgente agora você pode conversar depois ainda hoje
+      - este horário não vai funcionar para mim mas posso mais tarde hoje isso serve
+      - my schedule is blocked right now could we speak later today
+      - I cannot step out at the moment could we move this to later today
+      - something came into this slot could we shift the interview later today
+      - I need a later slot today if that works for you
+      - I am handling something right now would later today be possible
+      - I am tied to another task could we talk later today
+      - this time became unavailable can we move it to a later time today
+      - I need to push this a bit can we continue later today
+      - we are running a bit behind would you mind moving this to later today
+      - my previous meeting ran longer could we talk at a different time today
+      - I have a conflict now but I am available later today would that work
+      - if possible I would like to move this interview to later today is that okay
+      - something urgent came up would you be available later today
+      - can I ask you to move this to a later slot today something unexpected came up
+      - I cannot do it right now but I am free later today does that make sense for you
+      - our schedule is running late would you be open to moving this later today
+      - would you be able to push this interview to a later time today
+      - if it is not a problem can we shift this conversation to later today
+      - my schedule changed can we talk at a later time today
+      - I am stuck in another meeting could we move this to later today
+      - something is blocking my time now could we talk later today
+      - I am handling something urgent now but later today works for me
+      - this time no longer works for me can we move it later today
+      - I am tied up at the moment could we reschedule for later today
+      - something overlapped in my agenda can we talk later today
+      - I cannot attend right now but I can later today can we move it
+      - my call is extending can we talk a bit later today
+      - I need to shift this time slot can we move it to later today
+      - something time sensitive came up could we move to a later time today
+      - my timing got pushed can we talk later today
+      - I must handle something now could we speak later today
+      - my current task expanded can we reschedule to later today
+      - my meeting ran late can we move this to later today
+      - I am unavailable now but can join later today
+      - this time turned into a conflict can we move it later today
+      - an urgent item took my time can we talk later today
+      - my agenda is blocked now but frees up later today can that work
+      - I cannot join right now could we talk later today
+      - something redirected my schedule can we move to later today
+      - my schedule shifted can we push this to later today
+      - I must reschedule this slot can we talk later today
+      - something extended here can we move the interview later today
+      - my priorities shifted I can talk later today can that work
+      - I have to postpone this for a few hours can we talk later today
+      - I am dealing with a time conflict can we talk later today
+      - this slot is no longer possible could we move it later today
+      - I got pulled into something urgent can we speak later today
+      - an internal delay happened can we adjust this to later today
+      - something is taking longer than expected can we talk later today
+      - I cannot join at this exact time can we move it later today
+      - I need to shift our conversation to later today does that work
+      - my current discussion extended can we reschedule for later today
+      - I will be free later today can we move it
+      - something immediate came up can we move this interview later today
+      - I need a bit more time can we talk later today
+      - I am finishing another matter can we talk later today
+      - something disrupted my schedule can we talk later today
+      - my timeline slipped can we reschedule to later today
+      - I cannot step away right now could we talk later today
+      - I am still in a meeting can we move this to later today
+      - something is taking my time now but later today works
+      - I need a slight delay could we move this to later today
+      - my availability changed can we talk later today
+      - my meeting queue shifted can we reschedule to later today
+      - I have to handle something first can we talk later today
+      - I am finishing something critical can we meet later today
+      - this time is not doable anymore can we shift it to later today
+      - a scheduling issue came up could we talk later today
+      - I cannot be present right now can we move this for later today
+      - something extended my tasks can we talk later today
+      - I must adjust the schedule can we speak later today
+      - I am short on time now but free later today can that work
+      - something expanded into this slot can we move it later today
+      - I need to push this conversation a bit later today if possible
+      - I am currently busy but later today works for me
+      - I cannot join this moment can we push this later today
+      - something urgent blocked this time can we reschedule to later today
+      - my task ran over can we talk later today
+      - I need to reorganize this slot can we move it later today
+      - something unexpected is happening can we talk later today
+      - my team needed me now can we move this later today
+      - I am handling something pressing can we shift this later today
+      - I need to adjust this time a bit can we talk later today
+      - I cannot free myself now can we move it later today
+      - something urgent filled my time can we talk later today
+      - I must delay this call can we speak later today
+      - I am still tied up can we meet later today
+      - my planning slipped can we talk later today
+      - something stretched into this hour can we move the interview later today
+      - I am running late can we talk later today
+      - I need to push this a little can we talk later today
+      - this time is not ideal anymore can we meet later today
+      - I am still resolving something can we reschedule later today
+      - I got stuck in another task can we move this for later today
+      - something urgent expanded can we talk later today
+      - I cannot exit my current commitment can we talk later today
+      - I need more time before joining can we talk later today
+      - something consumed this time can we move this later today
+      - I am in the middle of something can we talk later today
+      - my day shifted and I need a later time today can that work

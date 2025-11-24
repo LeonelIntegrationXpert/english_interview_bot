@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_interviewer_late_warning:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Tudo bem sem problema. Eu aguardo aqui na call obrigado por avisar.
+          vr_en: |
+            That is totally fine no problem. I will wait on the call thanks for letting me know.
+        resp_2:
+          vr_pt: |
+            Tranquilo obrigado pelo aviso. Eu fico aguardando por aqui sem problema algum.
+          vr_en: |
+            No worries thanks for the update. I will be here waiting without any issue.

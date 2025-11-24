@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: background_noise_or_interruption
+    examples: |
+      - se você ouvir algum barulho de fundo peço desculpas o escritório está um pouco movimentado hoje
+      - pode ser que você escute algum ruído porque tem uma obra acontecendo perto daqui
+      - se em algum momento tiver barulho ao fundo é por causa do ambiente aqui mas estou focado em você
+      - pode ser que ouça pessoas falando ao fundo o espaço hoje está um pouco mais cheio
+      - desculpa qualquer ruído estamos com alguns ajustes acontecendo no escritório
+      - se ouvir um cachorro latindo ou algum som estranho é porque estou em home office hoje
+      - talvez você escute alguns avisos no alto falante mas isso não deve atrapalhar nossa conversa
+      - o ambiente aqui não está silencioso mas vou garantir que você consiga me ouvir bem
+      - pode acontecer algum barulho inesperado mas vou tentar minimizar ao máximo
+      - peço desculpas antecipadamente por qualquer ruído de fundo que possa aparecer
+      - tem um pouco de movimento aqui então talvez você ouça passos no corredor
+      - pode ser que você escute cadeiras arrastando aqui perto
+      - tem uma conversa paralela acontecendo ao lado então pode gerar algum ruído
+      - se ouvir teclados ou cliques é por causa do time que está trabalhando aqui perto
+      - talvez você escute impressoras funcionando aqui no ambiente
+      - tem algumas portas abrindo e fechando por aqui então pode gerar barulho
+      - se você escutar notificações é por causa do ambiente de trabalho compartilhado
+      - o ar condicionado está fazendo um ruído então pode aparecer no seu áudio
+      - pode ser que você escute algum telefone tocando aqui no escritório
+      - tem pessoas entrando e saindo da sala então pode gerar pequenos ruídos
+      - se ouvir passos rápidos é porque o time está circulando bastante hoje
+      - tem uma limpeza acontecendo então pode rolar algum barulho de fundo
+      - o ambiente está um pouco ecoado então alguns sons podem aparecer
+      - se você escutar carros é porque a janela está próxima da rua
+      - tem uma reunião acontecendo ao lado então pode vazar alguma fala
+      - o corredor está movimentado e isso pode gerar ruídos pontuais
+      - tem alguém digitando forte por aqui então pode aparecer no áudio
+      - se ouvir risadas ao fundo é o pessoal do time conversando
+      - tem uma porta que range um pouco então o som pode aparecer
+      - hoje tem bastante trânsito aqui perto então pode surgir algum barulho externo
+      - a ventilação está forte e pode gerar um sopro no microfone
+      - pode ser que você escute um alarme de prédio que dispara às vezes
+      - tem notificações internas tocando aqui então pode vazar um som
+      - o time está arrumando mesas aqui perto e pode gerar batidas
+      - tem entrega chegando no escritório então pode ter algum barulho externo
+      - o interfone está tocando às vezes então pode aparecer um som
+      - talvez você ouça uma furadeira mais tarde por causa da manutenção
+      - tem alguém movendo equipamentos aqui então pode gerar ruídos
+      - o pessoal está reorganizando caixas então pode sair som de arrasto
+      - tem forte barulho de chuva aqui então pode atrapalhar um pouco
+      - pode ser que você escute trovões porque está chovendo forte
+      - tem um ventilador ligado aqui e ele faz um pouco de ruído
+      - meu microfone pode captar barulho do teclado quando eu faço anotações
+      - caiu algo aqui perto então pode ter feito um som forte agora
+      - tem obras no prédio então alguns barulhos podem aparecer de repente
+      - se ouvir batidas é por causa da reforma no andar de cima
+      - o portão do prédio faz barulho quando abre então pode aparecer no áudio
+      - tem carro de som passando na rua então talvez você ouça algo
+      - tem um helicóptero passando agora então pode gerar ruído forte
+      - o ônibus que passa na frente faz bastante barulho às vezes
+      - tem alguém usando aspirador aqui perto então pode surgir um ruído
+      - o elevador está bem barulhento hoje então pode aparecer no fundo
+      - o pessoal está montando uma mesa então pode gerar batidas
+      - pode ser que você ouça o microondas porque o pessoal está usando a copa
+      - estou próximo da cozinha e alguns ruídos podem surgir
+      - tem gente abrindo e fechando gavetas aqui perto
+      - pode sair som de portas de armário batendo de vez em quando
+      - se escutar passos mais fortes é porque o piso aqui ecoa bastante
+      - tem crianças passando pelo corredor do prédio hoje então pode aparecer algum som
+      - tem música baixa tocando no ambiente então pode surgir no fundo
+      - alguém está testando caixas de som então alguns ruídos podem aparecer
+      - tem uma notificação urgente no meu computador que pode tocar
+      - o prédio está fazendo manutenção no elevador e pode gerar barulho
+      - tem um caminhão descarregando aqui perto então pode ser que você ouça
+      - o pessoal está mexendo em cadeiras aqui e faz um pouco de ruído
+      - tem gente falando alto no corredor então pode vazar no microfone
+      - os alarmes de incêndio do prédio às vezes disparam para teste
+      - a campainha do escritório toca bastante então pode surgir algum som
+      - tem alguém batendo na porta agora então pode aparecer esse ruído
+      - há uma máquina ligada aqui perto fazendo um pouco de barulho
+      - tem notificações sonoras de sistemas internos que podem surgir
+      - se ouvir algo metálico é por causa da manutenção do prédio
+      - tem obras no estacionamento então pode surgir vibração ou som forte
+      - o sistema de ar tem um chiado que pode aparecer no fundo
+      - tem um ventilador barulhento aqui e pode interferir no áudio
+      - estou perto de uma janela aberta e pode entrar ruído de rua
+      - tem buzina de carros passando frequentemente aqui
+      - o time está celebrando algo e pode vir alguma palminha ao fundo
+      - alguém deixou uma porta bater aqui então pode ter um som alto
+      - tem um rádio ligado no andar de baixo e talvez você escute algo
+      - estou com crianças em casa hoje então pode rolar algum barulho
+      - um cachorro do vizinho está latindo e pode aparecer no fundo
+      - tem um pássaro fazendo barulho aqui perto da janela
+      - se ouvir vento é porque a janela está entreaberta
+      - há alguém arrastando móveis e pode gerar som de arrasto
+      - tem uma entrega chegando agora então pode ter barulho na porta
+      - o portão eletrônico está funcionando e faz bastante ruído
+      - tem reformas no prédio e alguns sons podem surgir do nada
+      - tem pessoas circulando bastante hoje então pode gerar ruído ocasional
+      - talvez você ouça algum barulho externo mas seguimos normalmente
+      - pode surgir um ruído breve aqui mas não deve atrapalhar
+      - se ouvir algum som metálico é por causa do prédio
+      - pode acontecer um barulho repentino do corredor
+      - talvez você escute passos ao fundo mas é normal por aqui
+      - pode ter um alarme rápido mas não interfere na nossa conversa
+      - se surgir algum som alto é só movimentação interna
+      - pode ouvir uma porta batendo mas continuo te ouvindo bem
+      - talvez haja um anúncio rápido mas sigo atento às suas respostas
+      - pode aparecer um som de vento porque uma janela está aberta
+      - se der algum ruído eletrônico é só equipamento do escritório
+      - you may hear some outside noise but we can continue normally
+      - a brief noise may appear here but it should not interfere
+      - if you hear a metallic sound it is from the building
+      - there might be a sudden hallway noise
+      - you may hear some footsteps in the background
+      - a quick alarm might go off but it will not affect our conversation
+      - if a loud sound appears it is just internal movement
+      - you might hear a door closing but I can still hear you well
+      - there may be a quick announcement but I remain focused on you
+      - you might hear wind noise because a window is open
+      - if you hear an electronic beep it is office equipment
+      - some ambient noise may show up but I am still here with you
+      - you may hear short bursts of sound from the workspace
+      - if you hear any background noise I apologize the office is a bit busy today
+      - you might hear some noise because there is construction going on nearby
+      - if there is noise in the background at any point it is due to the environment here but I am focused on you
+      - you may hear people talking in the background the space is a bit crowded today
+      - sorry for any noise we have some adjustments happening in the office
+      - if you hear a dog barking or some odd sounds it is because I am working from home today
+      - you might hear some announcements in the background but that should not disrupt our conversation
+      - the environment here is not completely quiet but I will make sure you can hear me clearly
+      - there might be some unexpected noise but I will try to minimize it as much as possible
+      - I apologize in advance for any background noise that might come up
+      - you may hear footsteps because the floor is noisy today
+      - the chairs around me are being moved so you may hear that
+      - a side conversation is happening near me so some noise might come through
+      - you may hear keyboard sounds from people working close by
+      - the printer is running here so the sound might appear
+      - some doors are opening and closing and that can generate noise
+      - you may hear some internal notifications coming from the office system
+      - the air conditioner is loud so it might show up in the audio
+      - someone’s phone may ring near me so you could hear it
+      - people are entering and leaving the room so that could create noise
+      - you may hear quick footsteps because the team is moving a lot today
+      - cleaning is happening nearby so you may hear some background sounds
+      - the room has some echo so you may hear more noise than usual
+      - you might hear cars outside because I am near a window
+      - there is a meeting next door so some voices might come through
+      - the hallway is busy and that can cause occasional noise
+      - someone is typing loudly near me so you may hear it
+      - you may hear laughter from people in the team
+      - a door here makes a loud creaking noise so it might appear
+      - traffic is loud outside so some sounds may come in
+      - the ventilation system makes noise so it may come through
+      - the building alarm sometimes beeps and you might hear it
+      - internal notifications might play some sounds
+      - the team is organizing desks here so that can be noisy
+      - deliveries are arriving and that can cause some background noise
+      - the intercom rings often so you may hear it
+      - workers might use a drill soon so you might hear construction
+      - someone is moving equipment nearby so it might make noise
+      - boxes are being moved so you may hear dragging sounds
+      - it is raining heavily here so you may hear rain noise
+      - thunder is loud today so it might show up in the audio
+      - a desk fan is on and it makes a constant noise
+      - my mic might pick up typing sounds if I take notes
+      - something fell here so a loud noise may have appeared
+      - there is renovation happening in the building so noises may occur
+      - you may hear knocking from construction above
+      - the building gate makes noise when opening so it may appear
+      - a loud vehicle is passing by the street so you might hear it
+      - a helicopter just flew over so it might have been noisy
+      - buses passing by can be quite loud so you might hear them
+      - someone is vacuuming nearby so noise might occur
+      - the elevator is loud today so you might hear it
+      - people are adjusting chairs and that can be noisy
+      - the microwave in the kitchen may beep so you might hear it
+      - I am near the break room so some sounds might come through
+      - drawers are opening and closing here so noise may appear
+      - the floor echoes footsteps so you may hear them
+      - children are passing through the corridor today so you may hear them
+      - there is low music playing in the background so it might show up
+      - someone is testing speakers here so noise may occur
+      - my computer may play urgent notifications
+      - elevator maintenance is happening so noise might appear
+      - a truck is unloading outside so you might hear it
+      - people are talking loudly in the hallway so some audio might leak
+      - fire alarms are tested sometimes so you might hear a beep
+      - the office doorbell rings frequently so noise might come through
+      - someone is knocking on the door now so that noise might appear
+      - there is a machine running near me making some noise
+      - system alerts may play sounds during the call
+      - metallic noises may appear because of building maintenance
+      - parking renovations are causing vibrations and noise
+      - the air system has a hiss that may come through
+      - a loud fan is running here so you might hear it
+      - my window is open so street noise may come in
+      - car horns outside may appear in the audio
+      - the team is celebrating something so you may hear clapping
+      - a door here just slammed so you may hear that
+      - music from another floor might come through lightly
+      - I am at home and kids might make some noise
+      - a neighbor’s dog is barking so it may appear in the audio
+      - birds are chirping near my window so you might hear them
+      - wind is strong outside so some noise may show up
+      - someone is dragging furniture nearby so you might hear it
+      - a delivery is arriving now so some noise might occur
+      - the building gate is operating and it is loud
+      - building repairs might cause random loud sounds
+      - people are moving around a lot today so noises may occur

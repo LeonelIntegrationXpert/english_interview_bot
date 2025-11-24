@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: light_weekend
+    examples: |
+      - hoje é segunda como foi o seu final de semana
+      - como foi o seu fim de semana deu para descansar um pouco
+      - você conseguiu descansar bem no final de semana
+      - seu final de semana foi mais tranquilo ou mais corrido
+      - você conseguiu desligar um pouco do trabalho no fim de semana
+      - como foi o seu sábado e domingo deu para relaxar
+      - o final de semana ajudou a recarregar as energias
+      - você fez algo legal no fim de semana ou preferiu descansar
+      - como você usou o seu final de semana mais descanso ou mais compromissos
+      - você entrou nesta semana se sentindo mais descansado depois do fim de semana
+      - você conseguiu aproveitar o final de semana para relaxar
+      - seu final de semana foi leve ou mais puxado
+      - você teve um final de semana tranquilo
+      - seu final de semana foi produtivo ou mais calmo
+      - o fim de semana rendeu algum descanso
+      - você descansou o suficiente no fim de semana
+      - você relaxou um pouco no sábado e domingo
+      - como foi o clima do seu final de semana
+      - você teve algum compromisso no final de semana
+      - seu final de semana teve mais descanso ou mais tarefas
+      - você conseguiu fazer algo que gosta no fim de semana
+      - o fim de semana ajudou a aliviar a rotina
+      - você teve tempo para você no final de semana
+      - o fim de semana passou rápido ou devagar para você
+      - você conseguiu organizar algo no fim de semana
+      - seu fim de semana teve algum momento especial
+      - você aproveitou o fim de semana para recuperar energia
+      - você teve algum compromisso familiar no fim de semana
+      - você conseguiu dormir bem no fim de semana
+      - você conseguiu espairecer um pouco no fim de semana
+      - seu fim de semana teve algum passeio
+      - seu final de semana teve alguma atividade diferente
+      - o fim de semana foi mais caseiro ou mais movimentado
+      - seu fim de semana teve alguma pausa necessária
+      - você se sente renovado depois do final de semana
+      - você entrou na semana com mais energia por causa do fim de semana
+      - você fez algo simples para relaxar no fim de semana
+      - seu sábado foi tranquilo
+      - seu domingo foi tranquilo
+      - você passou o final de semana em casa
+      - você passou o final de semana fora
+      - você teve visitas no final de semana
+      - você visitou alguém no final de semana
+      - você reservou tempo para descanso no fim de semana
+      - o fim de semana trouxe um ritmo mais leve
+      - o fim de semana foi útil para respirar um pouco
+      - seu final de semana teve equilíbrio entre descanso e tarefas
+      - o fim de semana renovou um pouco suas forças
+      - você teve uma boa pausa no fim de semana
+      - você conseguiu fazer nada no fim de semana
+      - você aproveitou algum hobby no final de semana
+      - você tirou um tempo para você no fim de semana
+      - você ficou mais offline no fim de semana
+      - você conseguiu se desconectar no sábado e domingo
+      - como você se sentiu durante o fim de semana
+      - seu humor melhorou no fim de semana
+      - seu fim de semana ajudou a aliviar a semana anterior
+      - você teve uma refeição especial no final de semana
+      - seu final de semana teve alguma rotina diferente
+      - seu sábado foi mais agitado
+      - seu domingo foi mais agitado
+      - você adotou um ritmo mais leve no final de semana
+      - você conseguiu descansar a mente no fim de semana
+      - você começou o dia hoje mais leve por causa do fim de semana
+      - seu final de semana deu espaço para você respirar
+      - você fez algo simples no fim de semana
+      - seu fim de semana foi mais familiar
+      - seu fim de semana foi mais pessoal
+      - você aproveitou o clima do final de semana
+      - seu fim de semana foi mais introspectivo
+      - você fez algo ativo no final de semana
+      - você ficou mais parado no fim de semana
+      - você dedicou tempo a algo importante no fim de semana
+      - seu final de semana teve pausas boas
+      - você teve algum momento marcante no fim de semana
+      - seu final de semana teve algum imprevisto
+      - o fim de semana ajudou a clarear a mente
+      - o fim de semana ajudou a descansar o corpo
+      - seu sábado foi leve
+      - seu domingo foi leve
+      - você teve algum descanso prolongado no final de semana
+      - você reservou parte do fim de semana para lazer
+      - você reservou parte do fim de semana para tarefas
+      - o final de semana trouxe uma pausa boa para você
+      - como você avaliaria seu final de semana
+      - você chegou hoje mais disposto por causa do fim de semana
+      - você teve companhia no final de semana
+      - você ficou mais sozinho no fim de semana
+      - você tirou alguma pausa importante no fim de semana
+      - você teve um domingo tranquilo
+      - você teve um sábado tranquilo
+      - você aproveitou pequenos momentos no fim de semana
+      - você fez algo diferente dos outros finais de semana
+      - o fim de semana trouxe algum equilíbrio para você
+      - você recarregou um pouco no sábado e domingo
+      - você deu alguma pausa mental no final de semana
+      - você fez algo leve no final de semana
+      - seu fim de semana teve alguma novidade
+      - seu fim de semana atendeu suas expectativas
+      - você iniciou hoje mais calmo por causa do fim de semana
+      - today is monday how was your weekend
+      - how was your weekend were you able to rest a bit
+      - did you manage to rest well over the weekend
+      - was your weekend more calm or more busy
+      - were you able to disconnect from work during the weekend
+      - how were your saturday and sunday did you relax
+      - did the weekend help you recharge your energy
+      - did you do anything nice over the weekend or did you rest
+      - how did you use your weekend with more rest or more tasks
+      - are you starting this week feeling more rested after the weekend
+      - did you get a calm weekend
+      - was your weekend productive or more relaxed
+      - did your weekend give you some rest
+      - did you sleep well during the weekend
+      - did you have time for yourself over the weekend
+      - did you enjoy any quiet moment during the weekend
+      - did your weekend feel fast or slow
+      - did you get any personal task done on the weekend
+      - did your weekend include any special moment
+      - did you recover some energy during the weekend
+      - did you have family time over the weekend
+      - did you relax your mind during the weekend
+      - did you feel better after the weekend
+      - did you start your day lighter because of the weekend
+      - was your saturday calm
+      - was your sunday calm
+      - did you stay home during the weekend
+      - did you spend the weekend outside
+      - did you receive any visit on the weekend
+      - did you visit someone on the weekend
+      - did you take time to rest on the weekend
+      - did the weekend bring a lighter rhythm for you
+      - did you breathe a bit during the weekend
+      - did your weekend balance rest and tasks
+      - did your weekend renew your strength
+      - did you take a good pause during the weekend
+      - did you enjoy a hobby on the weekend
+      - did you take time for yourself on the weekend
+      - did you stay more offline on the weekend
+      - did you disconnect during saturday and sunday
+      - how did you feel through the weekend
+      - did your mood improve over the weekend
+      - did your weekend help ease the previous week
+      - did you have a special meal on the weekend
+      - did your weekend follow a different routine
+      - was your saturday busy
+      - was your sunday busy
+      - did you adopt a slower rhythm during the weekend
+      - did you rest your mind over the weekend
+      - did the weekend make today easier for you
+      - did the weekend give you space to breathe
+      - did you do something simple during the weekend
+      - was your weekend more about family
+      - was your weekend more personal
+      - did you enjoy the weekend weather
+      - was your weekend more introspective
+      - did you do something active on the weekend
+      - did you stay more still during the weekend
+      - did you dedicate time to something important on the weekend
+      - did your weekend offer good pauses
+      - did your weekend have any highlight
+      - did your weekend have any unexpected event
+      - did the weekend help you clear your mind
+      - did the weekend help you rest your body
+      - was your saturday light
+      - was your sunday light
+      - did you get extended rest over the weekend
+      - did you reserve part of the weekend for leisure
+      - did you reserve part of the weekend for tasks
+      - did the weekend give you a needed break
+      - how would you rate your weekend
+      - did you start today more energized because of the weekend
+      - did you have company during the weekend
+      - did you spend the weekend more alone
+      - did you get an important pause on the weekend
+      - did you have a peaceful sunday
+      - did you have a peaceful saturday
+      - did you enjoy small moments over the weekend
+      - did you do something different this weekend
+      - did the weekend bring balance to you
+      - did you recharge a bit during saturday and sunday
+      - did you take a mental break on the weekend
+      - did you do something light on the weekend
+      - did you experience something new on the weekend
+      - did your weekend meet your expectations
+      - did you start today calmer because of the weekend
+      - how did you perceive the rhythm of your weekend
+      - did the weekend close the previous week well
+      - did your weekend give you the rest you needed
+      - did your weekend refresh your mind
+      - did your weekend refresh your body
+      - did you get any useful pause during the weekend
+      - did you enjoy your saturday
+      - did you enjoy your sunday
+      - did you get enough downtime on the weekend
+      - did your weekend improve your week start
+      - did your weekend bring a positive mood
+      - did your weekend follow your plans
+      - did you end the weekend feeling better
+      - did you end the weekend wishing for more rest

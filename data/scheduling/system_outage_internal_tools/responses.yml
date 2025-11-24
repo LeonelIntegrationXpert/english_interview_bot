@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_system_outage_internal_tools:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sem problema eu entendo. Posso complementar o que for necessário na conversa e se precisar posso reforçar depois por e-mail.
+          vr_en: |
+            No problem I understand. I can provide any information you need during the conversation and can also follow up by email if necessary.
+        resp_2:
+          vr_pt: |
+            Tudo certo podemos seguir mesmo com a instabilidade. Se faltar algum detalhe eu te passo depois sem problema.
+          vr_en: |
+            All good we can continue even with the instability. If anything is missing I can share it later without any problem.

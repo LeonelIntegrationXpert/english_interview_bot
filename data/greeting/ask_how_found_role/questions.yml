@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: ask_how_found_role
+    examples: |
+      - como você ficou sabendo dessa vaga?
+      - onde você encontrou essa oportunidade pela primeira vez?
+      - você viu essa vaga em qual plataforma?
+      - foi alguém que te indicou para essa posição?
+      - você chegou até essa vaga por indicação ou por anúncio?
+      - você encontrou essa vaga no LinkedIn ou em outro lugar?
+      - como essa oportunidade apareceu para você?
+      - alguém comentou com você sobre essa vaga?
+      - você se inscreveu direto no nosso site para essa vaga?
+      - você aplicou para essa vaga por anúncio ou por indicação?
+      - onde você viu essa oportunidade pela primeira vez?
+      - você encontrou a vaga navegando ou alguém te enviou?
+      - essa vaga apareceu para você em alguma rede social?
+      - você viu a vaga em algum portal de emprego?
+      - você já acompanhava nossa empresa quando viu a vaga?
+      - a vaga apareceu como sugestão para você?
+      - você estava pesquisando vagas da área e encontrou essa?
+      - alguém compartilhou essa vaga com você?
+      - você viu essa vaga em algum grupo ou comunidade?
+      - você ficou sabendo da vaga por e-mail ou notificação?
+      - como essa vaga chegou até o seu radar?
+      - você estava procurando oportunidades parecidas quando viu essa?
+      - alguém do seu networking te enviou essa vaga?
+      - você encontrou essa oportunidade em algum site de carreira?
+      - você viu essa vaga em vagas patrocinadas?
+      - você recebeu essa vaga como recomendação do LinkedIn?
+      - como você descobriu que essa posição estava aberta?
+      - você viu essa vaga por acaso ou estava buscando algo específico?
+      - essa vaga apareceu na sua timeline?
+      - você chegou até essa vaga através de busca ativa?
+      - você encontrou a vaga pesquisando nossa empresa?
+      - a oportunidade surgiu enquanto você olhava novas vagas?
+      - você viu essa vaga em algum app de emprego?
+      - como essa vaga chamou sua atenção pela primeira vez?
+      - você já estava acompanhando nossa página quando viu a vaga?
+      - alguém interno te avisou sobre essa vaga?
+      - você viu essa vaga em alguma newsletter?
+      - você encontrou essa vaga em algum canal oficial nosso?
+      - foi algum colega que te passou essa oportunidade?
+      - você encontrou a vaga em algum grupo profissional?
+      - essa vaga apareceu em sugestões personalizadas?
+      - você estava olhando vagas da área e encontrou essa aqui?
+      - você viu essa vaga em listas de recomendação?
+      - como essa vaga entrou no seu radar de busca?
+      - você viu essa posição enquanto pesquisava empresas da área?
+      - alguém te convidou para aplicar nessa vaga?
+      - você achou essa vaga em busca por palavras-chave?
+      - você encontrou a vaga enquanto explorava o LinkedIn?
+      - você viu a vaga em alguma publicação compartilhada?
+      - essa oportunidade apareceu enquanto você procurava outra coisa?
+      - você viu essa vaga por meio de divulgação externa?
+      - essa vaga apareceu em alguma campanha de anúncio?
+      - você encontrou essa vaga em plataformas específicas da área?
+      - você viu essa vaga em algum canal de talentos?
+      - alguém mencionou essa vaga informalmente para você?
+      - essa vaga apareceu quando você buscou o nome da empresa?
+      - você viu essa vaga entre as mais recomendadas?
+      - você encontrou essa oportunidade sem procurar?
+      - você viu essa vaga na sua caixa de sugestões?
+      - você viu essa vaga em listas de “vagas em alta”?
+      - você achou essa vaga em algum grupo no WhatsApp ou Telegram?
+      - você viu essa vaga em alguma comunidade técnica?
+      - você encontrou essa vaga por meio de algum evento da área?
+      - você viu essa vaga enquanto pesquisava empresas da região?
+      - você encontrou essa vaga por busca avançada?
+      - alguém te marcou na postagem dessa vaga?
+      - você viu essa vaga em alguma publicação patrocinada?
+      - você encontrou essa vaga no feed de alguém?
+      - você viu a vaga no site de parceiros?
+      - você descobriu a vaga por algoritmo de recomendação?
+      - você ouviu falar da vaga por algum contato próximo?
+      - a vaga apareceu em oportunidades recomendadas para você?
+      - você achou essa vaga em alguma interface de emprego?
+      - você viu a vaga em algum vídeo ou live sobre carreiras?
+      - você encontrou essa vaga na página da empresa?
+      - você descobriu essa vaga através de um link compartilhado?
+      - você viu essa vaga enquanto navegava casualmente?
+      - você encontrou essa vaga olhando outras posições similares?
+      - você viu essa vaga no seu painel de empregos?
+      - essa vaga apareceu por filtro de buscas?
+      - você encontrou essa vaga no Explore do LinkedIn?
+      - alguém comentou dessa vaga em uma conversa informal?
+      - essa vaga chegou até você por automação de alertas?
+      - você viu a vaga em alguma curadoria de oportunidades?
+      - você encontrou essa vaga em algum fórum profissional?
+      - você viu essa vaga em uma lista de vagas destacadas?
+      - você encontrou essa vaga dentro da trilha de carreira da área?
+      - você viu essa vaga na aba “para você”?
+      - você encontrou a vaga sem estar procurando exatamente algo?
+      - você ouviu falar dessa vaga em algum evento?
+      - você viu essa oportunidade em um banner ou anúncio?
+      - você encontrou essa vaga por recomendação de algoritmo?
+      - você viu essa vaga após pesquisar “vagas da empresa”?
+      - você ficou sabendo da vaga por colegas da área?
+      - você achou essa vaga dentro de um agregador de emprego?
+      - você encontrou a vaga pelo motor de busca do LinkedIn?
+      - você encontrou essa vaga em algum filtro específico de busca?
+      - você viu essa vaga quando pesquisava empresas do setor?
+      - alguém compartilhou essa vaga em alguma rede que você participa?
+      - essa vaga apareceu para você por meio de alertas automáticos?
+      - did you find this role through a specific keyword search?
+      - did this job appear when you were exploring companies in the sector?
+      - did someone share this opening in a group you follow?
+      - did this role appear through automated job recommendations?
+      - did this opportunity show up in your saved job alerts?
+      - did a recruiter share this position directly with you?
+      - did you find this role after following our company page?
+      - did you see this vacancy while exploring similar openings?
+      - did a coworker or ex-colleague mention this job?
+      - did you come across this role when checking industry trends?
+      - did this opportunity appear while you were browsing job articles?
+      - did this job show up in your “recommended for you” list?
+      - did you discover this role through an industry-specific platform?
+      - did you see this job opening in a curated career list?
+      - did this opportunity appear while you were researching competitors?
+      - how did you find out about this role?
+      - where did you first see this opportunity?
+      - on which platform did you see this vacancy?
+      - was this position recommended to you by someone?
+      - did you reach this role through a referral or through an advertisement?
+      - did you find this vacancy on LinkedIn or somewhere else?
+      - how did this opportunity appear to you?
+      - did anyone mention this role to you?
+      - did you apply for this role directly on our website?
+      - did you apply for this role through an advertisement or through a referral?
+      - where did you come across this role for the first time?
+      - did you find this role while browsing job posts?
+      - did this position appear on any of your job alerts?
+      - did someone send you this opportunity?
+      - did you see this opening on any job platform?
+      - were you already following the company when you saw the role?
+      - did this role appear as a recommendation to you?
+      - did you find this role while searching for something similar?
+      - did someone share this opportunity with you?
+      - did you find this role in a group or community?
+      - did you hear about this role through email or alert?
+      - how did this job get on your radar?
+      - were you searching for jobs in the area when you found this one?
+      - did someone in your network mention this opening?
+      - did you see this role on a career website?
+      - did you find it through sponsored job listings?
+      - did LinkedIn recommend this opportunity to you?
+      - how did you discover that this position was available?
+      - did you find this role unexpectedly?
+      - did you come across this role in your feed?
+      - did you find this opening through active search?
+      - did you find this role while researching our company?
+      - did this position appear while you were browsing LinkedIn?
+      - did you find this job through a job board?
+      - did this role appear in your job suggestions?
+      - did you see this role through someone’s shared post?
+      - did this role show up in recommended opportunities?
+      - did you discover this position while exploring companies?
+      - did someone inside the company mention this role?
+      - did you find this opening through an online community?
+      - did you see this role in a Telegram or WhatsApp group?
+      - did you find this through job alerts you set?
+      - did this role appear on your “for you” jobs page?
+      - did you find this role in a curated job list?
+      - did you see this job mentioned in a live or video?
+      - did you come across this opportunity on a partner site?
+      - did the role appear due to your search preferences?
+      - did someone tag you in a post about this role?
+      - did LinkedIn surface this role through its algorithm?
+      - did this opening show up in your personalized feed?
+      - did you find it in a list of trending jobs?
+      - did you see this role in a career-focused newsletter?
+      - did you find it through a discussion forum?
+      - did you come across the role in a professional event?
+      - did you find this opportunity indirectly?
+      - did you come across this role while researching the market?
+      - did someone casually mention this opportunity?
+      - did you see this role after looking for similar jobs?
+      - did you discover it through a job recommendation tool?
+      - did you find this opening while browsing company pages?
+      - did you find it on a job aggregator?
+      - did this role appear through a keyword search?
+      - did you hear about the role in a technical community?
+      - did this job come up in industry content?
+      - did you see this job on a list of highlighted openings?
+      - did this role appear when you searched for our company name?
+      - did you find it after adjusting your job filters?
+      - did you come across this opening in a job suggestions panel?
+      - did someone outside the company mention it to you?
+      - did you hear about this role through a career event?
+      - did you find this opening in a jobs summary page?
+      - did the job appear when you looked at similar positions?
+      - did you find the role through an automated alert?
+      - did you see it in a relevant jobs collection?
+      - did this opportunity come from a job-matching algorithm?
+      - did you find the role after searching for our field?
+      - did you see this position through community networking?
+      - did you hear about the job from peers in the area?
+      - did you find this job through external job partners?
+      - did this role appear through a promoted job listing?
+      - did you come across the role during a casual search?
+      - did the opportunity appear in your LinkedIn homepage feed?
+      - did you find this opening while evaluating new companies?
+      - did you discover this vacancy while checking job trends?
+      - did you see this role featured in a job roundup?

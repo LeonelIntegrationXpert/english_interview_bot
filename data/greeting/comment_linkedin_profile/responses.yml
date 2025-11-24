@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_comment_linkedin_profile:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Que bom que você pôde ver meu perfil por lá. Eu uso o LinkedIn justamente para complementar o currículo e manter projetos e certificações atualizados.
+          vr_en: |
+            I am glad you were able to see my profile there. I use LinkedIn exactly to complement my resume and to keep projects and certifications up to date.
+        resp_2:
+          vr_pt: |
+            Legal saber disso, eu tento manter o LinkedIn sempre o mais atualizado possível.
+          vr_en: |
+            It is nice to hear that, I try to keep my LinkedIn profile as up to date as possible.

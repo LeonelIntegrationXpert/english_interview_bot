@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: system_outage_internal_tools
+    examples: |
+      - só para você saber alguns dos nossos sistemas internos estão fora do ar hoje então talvez eu não consiga abrir todos os detalhes da vaga
+      - estamos com uma instabilidade nas ferramentas internas então posso não conseguir consultar tudo em tempo real
+      - nossos sistemas de RH estão um pouco lentos hoje então pode ser que algumas informações demorem para carregar
+      - caso eu demore um pouco para responder é porque o sistema está carregando aqui
+      - algumas telas não estão abrindo corretamente para mim então pode ser que eu peça para você repetir algo que já estava no formulário
+      - estamos passando por uma manutenção interna então talvez eu não consiga ver todo o seu histórico completo
+      - se eu não tiver acesso a algum detalhe agora posso complementar depois por e-mail
+      - hoje as ferramentas não estão ajudando muito então vou tentar conduzir a conversa mais na base do papo mesmo
+      - se alguma informação não aparecer para mim vou te avisar e a gente contorna juntos
+      - por causa dessa instabilidade vou focar mais nas suas respostas do que nos sistemas tudo bem?
+      - alguns módulos estão instáveis então posso não conseguir abrir tudo agora
+      - o sistema está em manutenção parcial então posso ter limitações de acesso
+      - minhas ferramentas estão lentas hoje então talvez eu precise de alguns segundos extras
+      - algumas páginas estão travando então posso pular certos detalhes agora
+      - o servidor interno está oscilando então posso perder o acesso em alguns momentos
+      - minha tela está carregando lentamente então posso não conseguir ver tudo imediatamente
+      - alguns dados não estão sincronizando então posso pedir confirmação verbal
+      - estamos com queda parcial no sistema então posso ter dificuldade em verificar informações
+      - talvez eu não consiga acessar seu histórico completo por causa dessa instabilidade
+      - parte das ferramentas está indisponível então vou me apoiar mais na conversa
+      - se o sistema não abrir aqui eu vou te avisar
+      - se o sistema cair no meio da resposta podemos seguir assim mesmo no diálogo
+      - se a ferramenta continuar lenta posso pedir para repetir algum ponto
+      - estou vendo algumas falhas de carregamento então posso pular alguns campos
+      - alguns dados não estão atualizando então posso pedir mais detalhes seus
+      - minha ferramenta principal está fora do ar então estou usando um recurso alternativo
+      - estou com acesso limitado então posso não ver tudo como deveria
+      - o sistema está demorando para autenticar então posso demorar um pouco em certas partes
+      - algumas abas não estão carregando então vou me guiar mais pela conversa
+      - o portal está instável então posso não conseguir checar tudo agora
+      - parece que parte do sistema caiu então vou seguir só com o que tenho disponível
+      - hoje a plataforma está muito lenta então posso pedir algumas confirmações
+      - estou com falha no módulo de candidatos então posso não ver todas as informações
+      - algumas informações estão incompletas por causa do sistema então posso pedir mais contexto
+      - meu painel não está mostrando tudo então vou seguir com o básico
+      - o portal interno está travando bastante então vou focar no diálogo
+      - tive perda de conexão com o sistema então posso não consultar nada por alguns minutos
+      - estou sem acesso ao painel completo então vou perguntar diretamente para você
+      - o sistema falhou no login então estou limitado a poucas informações
+      - minha ferramenta congelou então vou retomar só com suas respostas
+      - o servidor interno não está respondendo então sigo sem parte dos dados
+      - algumas informações sumiram do painel por causa da instabilidade
+      - o sistema não está puxando os dados do formulário agora
+      - a área de informações do candidato não está carregando
+      - meu dashboard está indisponível então vou seguir manualmente
+      - o sistema reiniciou sozinho então posso ter perdido parte do acesso
+      - tenho acesso parcial hoje por causa de manutenção interna
+      - alguns recursos estão indisponíveis então posso não validar tudo
+      - o painel de entrevista está incompleto então conto mais com você hoje
+      - o formulário não está abrindo então vou te perguntar diretamente
+      - parte dos dados não carregou então peço sua ajuda nas informações
+      - o módulo de vagas está fora então não vejo os detalhes completos
+      - meu acesso está limitado por causa de falha no servidor
+      - o sistema não está salvando mudanças então vou anotar manualmente
+      - tive erro de autenticação no sistema então vou seguir com o básico
+      - o painel não está atualizando então vou me guiar pela conversa
+      - as ferramentas internas não estão sincronizando hoje
+      - a plataforma está em manutenção e trouxe informações incompletas
+      - estou com falha de carregamento no ambiente interno
+      - o sistema está retornando erro e não abre certas telas
+      - alguns dados essenciais não estão disponíveis agora
+      - minha consulta interna está fora do ar neste momento
+      - talvez eu não consiga validar nada técnico agora por causa do sistema
+      - o acesso está caindo toda hora então posso ter interrupções
+      - estou com falha no painel de análise de candidatos
+      - algumas sessões estão expirando sozinhas então estou tendo quedas
+      - o servidor está congestionado e torna tudo muito lento
+      - hoje os dados estão carregando de forma muito instável
+      - alguns arquivos internos não estão abrindo
+      - estou com erro no painel de documentos internos
+      - a plataforma está mandando mensagens de falha de conexão
+      - parte da infraestrutura interna está em manutenção
+      - os relatórios não estão abrindo hoje
+      - o backend está demorando muito para responder
+      - o sistema virou somente leitura para mim por causa da falha
+      - estou com acesso restrito por causa da instabilidade
+      - algumas permissões não estão funcionando hoje
+      - meu painel administrativo está fora do ar
+      - a página de detalhes está mostrando erro
+      - o sistema está em modo degradado então posso perder algumas funções
+      - a busca interna não está funcionando
+      - o servidor derrubou minha sessão e estou sem parte dos dados
+      - o sistema está retornando informações incompletas hoje
+      - estou com falha ao carregar histórico de candidatos
+      - a sincronização de dados não está funcionando
+      - parte da análise automática está fora do ar
+      - estou vendo vários erros no painel interno então vou improvisar
+      - o módulo de entrevistas está indisponível então sigo manualmente
+      - o acesso às notas está fora para mim agora
+      - o sistema interno caiu por completo alguns minutos atrás
+      - tive quedas repetidas no sistema hoje
+      - o ambiente interno está todo instável hoje
+      - não estou conseguindo consultar nada com segurança agora
+      - vou ter que fazer tudo manual por causa da instabilidade
+      - estou com falhas intermitentes na ferramenta de RH
+      - o sistema está no limite hoje então posso ter mais erros
+      - alguns dados não estão aparecendo para mim hoje
+      - estou com erro ao abrir parte das informações internas
+      - o painel interno está carregando de forma incompleta
+      - estou vendo informações inconsistentes por causa da instabilidade
+      - some data is not appearing for me today
+      - I am getting an error when opening part of the internal information
+      - the internal panel is loading incompletely
+      - I am seeing inconsistent information because of the instability
+      - the internal dashboard is failing to load correctly
+      - the tool is returning partial data on my side
+      - the system view is not showing everything today
+      - some internal fields are blank due to the outage
+      - the platform is not pulling the full information now
+      - the internal system is loading fragmented data
+      - my view of the role details is incomplete right now
+      - some records are not accessible because of the current issue
+      - the internal tools are returning unstable results
+      - I am seeing partial errors while trying to load your information
+      - just so you know some of our internal systems are down today so I might not be able to open all the details of the role
+      - we are experiencing some instability with our internal tools so I may not be able to check everything in real time
+      - our HR systems are a bit slow today so some information may take a while to load
+      - if I take a bit longer to answer it is because the system is loading on my side
+      - some screens are not opening properly for me so I might ask you to repeat something from the form
+      - we are going through some internal maintenance so I may not see your full history now
+      - if I do not have access to a specific detail at the moment I can follow up later by email
+      - our tools are not helping much today so I will try to conduct the conversation more through our dialogue
+      - if some information does not show up for me I will let you know and we will work around it together
+      - because of this instability I will focus more on your answers than on the systems is that okay?
+      - some modules are unstable so I may not access everything
+      - the system is under partial maintenance so I may have limited access
+      - my tools are slow today so I may need a few extra seconds
+      - some pages are freezing so I may skip certain details now
+      - the internal server is unstable so I might lose access at times
+      - my screen is loading slowly so I may not see everything immediately
+      - some data is not syncing so I may ask for verbal confirmation
+      - we have partial outage so I may struggle to verify information
+      - I might not access your full history because of this instability
+      - part of the tools is unavailable so I will rely more on conversation
+      - if the system does not open I will let you know
+      - if the system drops we can continue the dialogue normally
+      - if the tool stays slow I may ask you to repeat some points
+      - pages are not loading so I will guide myself mostly by your answers
+      - the portal is unstable so I may not check everything right now
+      - part of the system crashed so I will continue only with what I have
+      - the platform is very slow today so I might ask for some confirmations
+      - the candidate module is down so I may not see everything
+      - some details are incomplete because of the system so I may ask more
+      - my panel is not showing everything so I will proceed with the basics
+      - the internal portal is freezing a lot today so I will focus on talking
+      - I lost connection to the system so I may not consult anything for a while
+      - I have partial access today because of internal maintenance
+      - some resources are unavailable so I may not validate everything
+      - the interview panel is incomplete so I count on your answers today
+      - the form is not opening so I will ask you directly
+      - some information did not load so I will need your help
+      - the role module is down so I cannot see all the details
+      - my access is limited because of a server failure
+      - the system is not saving changes so I will take notes manually
+      - I had an authentication error so I will continue with the basics
+      - the panel is not updating so I will follow the conversation
+      - the internal tools are not syncing today
+      - the platform is in maintenance and brought incomplete information
+      - I am getting load errors in the internal environment
+      - the system is returning error and not opening some screens
+      - some data is unavailable now
+      - my internal view is offline at the moment
+      - I may not validate anything technical now because of the outage
+      - access is dropping so I may have interruptions
+      - I have errors in the candidate analysis panel
+      - some sessions are expiring so I am getting disconnected
+      - the server is overloaded and everything is slow
+      - today data is loading very inconsistently
+      - some internal files are not opening
+      - I am getting errors in the internal document panel
+      - the platform is showing connection failure messages
+      - part of the infrastructure is under maintenance
+      - reports are not opening today
+      - the backend is taking too long to respond
+      - the system switched to read only for me
+      - I have restricted access because of instability
+      - some permissions are not working today
+      - my admin panel is down at the moment
+      - the detail page is showing error
+      - the system is running in degraded mode so I may lose functions
+      - the internal search is not working
+      - the server dropped my session so I lost some data
+      - the system is returning incomplete information today
+      - I am failing to load candidate history
+      - data synchronization is not working
+      - part of the automated analysis is offline
+      - I am seeing many internal errors so I will improvise
+      - the interview module is unavailable so I continue manually
+      - the notes panel is offline for me now
+      - the internal system crashed a few minutes ago
+      - I had repeated outages today
+      - the internal environment is unstable today
+      - I cannot consult anything reliably now
+      - I will have to do everything manually today
+      - I have intermittent failures in the HR tool
+      - the system is at its limit today so I may have more errors
+      - part of the internal data is not loading correctly
+      - the dashboards are failing to refresh
+      - my panel is returning load timeout
+      - the system tools are not responding consistently

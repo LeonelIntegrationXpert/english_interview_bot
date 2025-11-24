@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_small_talk_learning_english:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu tenho estudado inglês de forma consistente principalmente focando em conversação e compreensão. Ainda estou em construção mas já me sinto bem mais confiante do que antes e busco oportunidades como esta para praticar em contexto real.
+          vr_en: |
+            I have been studying English consistently mainly focusing on speaking and comprehension. I am still building my skills but I feel much more confident than before and I look for opportunities like this to practice in a real context.
+        resp_2:
+          vr_pt: |
+            Eu ainda estou em um nível intermediário então foco muito em prática diária para manter o ritmo e melhorar aos poucos.
+          vr_en: |
+            I am still at an intermediate level so I focus a lot on daily practice to keep the pace and improve gradually.

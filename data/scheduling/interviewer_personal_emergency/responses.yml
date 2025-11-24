@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_interviewer_personal_emergency:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu entendo perfeitamente, imprevistos pessoais acontecem mesmo. Obrigado por avisar e, se for possível, fico à disposição para remarcar em um outro momento.
+          vr_en: |
+            I completely understand, personal emergencies do happen. Thank you for letting me know and I’m available to reschedule whenever it works for you.
+        resp_2:
+          vr_pt: |
+            Sem problema algum, espero que dê tudo certo por aí. Podemos remarcar quando você estiver disponível novamente.
+          vr_en: |
+            No worries at all, I hope everything is okay on your side. We can reschedule whenever you’re available again.

@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_interviewer_connection_issue:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Estou te ouvindo bem sim. Se a conexão piorar ou a call cair eu entro de novo pelo mesmo link sem problema.
+          vr_en: |
+            I can hear you well. If the connection gets worse or the call drops I will join again using the same link no problem.
+        resp_2:
+          vr_pt: |
+            Sem problema eu aguardo aqui. Se cair ou travar eu fico online até você retornar.
+          vr_en: |
+            No problem I will wait here. If it drops or freezes I will stay online until you return.

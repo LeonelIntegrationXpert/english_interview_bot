@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_background_noise_or_interruption:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Sem problema eu entendo. O áudio está claro e consigo te ouvir bem então podemos seguir tranquilos.
+          vr_en: |
+            No worries I completely understand. Your audio is clear and I can hear you well so we can continue.
+        resp_2:
+          vr_pt: |
+            Tudo certo pode ficar tranquilo com o barulho eu continuo entendendo bem.
+          vr_en: |
+            All good do not worry about the noise I can still understand you well.

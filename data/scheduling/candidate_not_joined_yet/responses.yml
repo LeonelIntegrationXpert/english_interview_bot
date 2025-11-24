@@ -1,0 +1,14 @@
+version: '3.1'
+responses:
+  utter_candidate_not_joined_yet:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Desculpa a demora tive um pequeno problema para entrar mas já estou ajustando e devo conseguir conectar em instantes.
+          vr_en: |
+            Sorry for the delay I had a small issue joining the call but I am fixing it now and should be able to connect in a moment.
+        resp_2:
+          vr_pt: |
+            Peço desculpas tive uma dificuldade aqui para acessar mas já estou entrando.
+          vr_en: |
+            Sorry about that I had a small access issue but I am joining now.

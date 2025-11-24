@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: cancel_process_now
+    examples: |
+      - depois de revisar o contexto interno decidimos encerrar o processo por agora
+      - tivemos uma mudança de prioridade e vamos pausar o processo dessa vaga
+      - a vaga entrou em revisão e não vamos seguir com novas etapas
+      - por reorganização interna essa posição foi colocada em pausa
+      - infelizmente a vaga foi congelada então não vamos avançar hoje
+      - houve uma mudança no planejamento e a oportunidade foi suspensa
+      - neste momento não vamos continuar com o processo dessa vaga
+      - a posição está sendo reavaliada e o processo foi interrompido
+      - por decisão interna essa vaga não seguirá adiante agora
+      - houve alteração de escopo e o processo atual foi pausado
+      - o processo seletivo dessa vaga foi suspenso pela área
+      - a prioridade da vaga mudou então precisamos interromper o processo
+      - a posição não seguirá mais neste ciclo de contratação
+      - tivemos mudança no direcionamento e a vaga foi pausada
+      - a área decidiu suspender essa contratação por enquanto
+      - por ajustes internos essa vaga foi interrompida
+      - a oportunidade foi congelada e o processo interrompido
+      - a vaga passou por revisão estratégica e foi pausada
+      - o processo desta posição foi fechado neste momento
+      - não vamos avançar com esta vaga no momento
+      - o recrutamento dessa posição foi suspenso
+      - a área pediu para pausar o andamento desta vaga
+      - o processo foi encerrado pela gestão por agora
+      - a vaga saiu da lista de prioridades e foi suspensa
+      - o processo está oficialmente pausado pela empresa
+      - recebemos orientação para interromper o andamento da vaga
+      - a posição foi retirada do ciclo ativo de seleção
+      - a vaga está congelada até novo aviso
+      - o processo não seguirá devido a ajustes internos
+      - tivemos realocação de prioridades e esta vaga parou
+      - a oportunidade foi retirada temporariamente da agenda
+      - houve redefinição interna e a vaga foi pausada
+      - não teremos avanços neste processo por decisão da área
+      - por alinhamento interno decidimos suspender esta vaga
+      - o processo foi encerrado para esta posição específica
+      - tivemos análise interna e a vaga foi interrompida
+      - a área redefiniu a necessidade e pausou o processo
+      - a vaga entrou em espera e o processo está parado
+      - não vamos seguir com o processo após revisão interna
+      - houve replanejamento e essa vaga foi suspensa
+      - por mudanças internas precisamos fechar o processo hoje
+      - a vaga não continuará avançando no momento
+      - o processo não seguirá para novas etapas
+      - houve reposicionamento da vaga e o processo foi pausado
+      - a posição foi congelada após discussão interna
+      - o processo está interrompido devido à priorização interna
+      - a área solicitou pausa imediata no processo
+      - a vaga foi colocada em análise e parou por agora
+      - o processo seletivo foi encerrado para esta vaga
+      - essa contratação foi adiada e o processo pausado
+      - por agora a gente não vai avançar com essa posição
+      - a vaga passou por ajustes e foi interrompida
+      - não teremos continuidade no processo desta vaga
+      - houve mudança no roadmap e a vaga parou
+      - a vaga deixou de ser prioridade e foi pausada
+      - estamos encerrando este processo por reestruturação
+      - por atualização interna o processo foi suspenso
+      - o processo não vai avançar por determinação da área
+      - por planejamento interno paramos o processo desta vaga
+      - a vaga não seguirá para próximas fases
+      - o processo está oficialmente cancelado por agora
+      - houve mudança estratégica e a vaga foi interrompida
+      - a posição foi pausada após revisão da liderança
+      - não vamos seguir devido a reavaliação interna
+      - a oportunidade foi congelada após revisão
+      - não teremos próximos passos nesta vaga
+      - o processo foi interrompido sem previsão de retorno
+      - estamos cancelando temporariamente este processo
+      - tivemos uma pausa geral nas vagas e esta foi incluída
+      - por mudanças estruturais esta posição parou
+      - a vaga saiu do escopo imediato então o processo parou
+      - o processo seletivo está suspenso por orientação interna
+      - houve nova definição de prioridades e esta vaga parou
+      - estamos interrompendo o processo por tempo indeterminado
+      - não vamos dar continuidade à seleção deste cargo
+      - estamos congelando esta vaga até novo alinhamento
+      - houve ajuste de planejamento e a vaga foi pausada
+      - essa contratação não seguirá neste momento
+      - a vaga foi retirada do plano de contratação atual
+      - estamos encerrando esta etapa por mudança interna
+      - houve mudança operacional e o processo foi parado
+      - o processo não continua devido a revisão estratégica
+      - a vaga está fora do ciclo de contratação por agora
+      - essa seleção foi pausada após nova análise
+      - a área suspendeu a contratação hoje
+      - por alinhamento estratégico estamos pausando a vaga
+      - o processo foi congelado antes das próximas etapas
+      - estamos encerrando o processo devido a priorização interna
+      - a vaga não avança mais neste trimestre
+      - o processo foi interrompido a pedido da gestão
+      - houve reclassificação da vaga e o processo parou
+      - a contratação está adiada então o processo foi interrompido
+      - não teremos continuidade por replanejamento interno
+      - a posição foi suspensa pela área responsável
+      - o processo está parado por reorganização interna
+      - a vaga foi bloqueada e o processo não segue
+      - estamos encerrando o processo desta vaga após nova definição interna
+      - a vaga deixou de fazer parte das demandas imediatas então o processo foi parado
+      - a contratação foi suspensa pela área responsável e não seguirá agora
+      - por revisão interna decidimos não avançar mais com esta seleção
+      - the role has been removed from the immediate priorities so the process will not continue
+      - internal guidance requires us to stop this hiring process for now
+      - after reviewing our internal context we decided to put this hiring process on hold
+      - there has been a change in internal priorities and we are pausing this process
+      - the role is under internal review so we are not moving forward at the moment
+      - due to internal reorganization this position has been put on hold
+      - unfortunately the vacancy has been frozen so we will not move forward today
+      - a change in the area’s planning has suspended this opportunity
+      - at this moment we will not continue with the process for this role
+      - the position is being reassessed so the process has been paused
+      - by internal decision this role will not move forward now
+      - there has been a scope change and the process was paused
+      - this hiring process has been suspended by the area
+      - the role lost priority so we are stopping the process
+      - the position will not continue in this hiring cycle
+      - internal direction changed and the process is paused
+      - the team decided to suspend this hiring for now
+      - internal adjustments required the process to stop
+      - the opportunity has been frozen and the process ended
+      - the role went through strategic review and was paused
+      - the selection process for this role is being closed
+      - we are not moving forward with this vacancy now
+      - the recruitment for this position has been suspended
+      - the team asked us to pause the progress for this role
+      - the process was closed by the leadership team
+      - the role was removed from the priority list
+      - the process is officially on hold internally
+      - we received guidance to interrupt the process
+      - the role was removed from the active hiring cycle
+      - the position is frozen until further notice
+      - the process will not move forward due to internal changes
+      - priority shifts paused this role
+      - this opportunity was pulled from the hiring roadmap
+      - the role was paused after internal review
+      - no further steps will follow for this position
+      - the process is officially stopped for this role
+      - internal reassessment required the process to pause
+      - hiring needs changed and this role was suspended
+      - the role is now under evaluation so the process paused
+      - we are stopping the process after internal alignment
+      - this opportunity is frozen for now
+      - the team suspended the hiring due to reprioritization
+      - internal changes forced us to pause this position
+      - this role will not advance to the next stages
+      - the selection process has been interrupted internally
+      - we are stopping the process due to planning changes
+      - the hiring was paused after budget review
+      - leadership decided to freeze the position
+      - the process cannot proceed due to internal planning
+      - the vacancy is suspended until a new decision
+      - we will not proceed further with this hiring
+      - the process is being closed temporarily
+      - hiring for this role is halted for now
+      - the position was removed from the immediate hiring plan
+      - internal shifts paused this opportunity
+      - the process is suspended because of strategy changes
+      - the role has been put on standby
+      - this position was paused after internal assessment
+      - the process cannot continue under current priorities
+      - this hiring is officially paused
+      - we are freezing this opportunity for now
+      - the position is no longer progressing in this cycle
+      - the team decided to close the process temporarily
+      - the process stopped due to internal refocus
+      - this role is paused due to resource planning
+      - the vacancy will not move ahead for the time being
+      - internal restructuring halted the process
+      - the position has been temporarily stopped
+      - this hiring cycle for the role is closed
+      - we are discontinuing the process for now
+      - the opportunity was suspended due to internal shifts
+      - the role is stalled because of operational changes
+      - this process is paused by internal request
+      - no further progress will be made for this vacancy
+      - the role has been put in suspension
+      - the hiring timeline changed and paused this process
+      - we are not advancing the position because of internal review
+      - this process is stopped until new guidance
+      - internal priorities shifted and halted the hiring
+      - we are pausing the selection steps for this position
+      - the opportunity is frozen pending internal review
+      - team alignment resulted in pausing the process
+      - the role will not continue for now
+      - we are stopping recruitment efforts for this vacancy
+      - internal planning halted the hiring cycle
+      - the process is being paused without a new date
+      - we received notice to suspend this role
+      - this position will stay on hold until further decision
+      - hiring for this role is on pause due to strategy updates
+      - the role’s evaluation paused the process
+      - we are freezing the process after leadership review
+      - the vacancy has been taken off the active hiring board
+      - internal direction requires stopping this process
+      - the position will not continue to next phases
+      - the hiring pipeline for this role is paused
+      - this role is not progressing further today
+      - the position will not be considered further for now
+      - internal restructuring paused this job opening
+      - the role was put in inactive status
+      - hiring for this vacancy has been suspended

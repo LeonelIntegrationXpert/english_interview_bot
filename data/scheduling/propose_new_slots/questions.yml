@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: propose_new_slots
+    examples: |
+      - para remarcar queria te sugerir alguns horários você pode me dizer quais funcionam melhor
+      - posso te passar algumas opções de dia e horário para você escolher o que for melhor
+      - se puder me diga quais períodos do dia funcionam melhor para você
+      - você prefere manhã tarde ou final do dia para uma nova entrevista
+      - se eu te mandar algumas janelas de horário você consegue dizer qual encaixa melhor
+      - temos horários vagos nos próximos dias você tem alguma preferência
+      - quais seriam os melhores dias da semana para remarcar essa entrevista
+      - você poderia me indicar horários em que você estaria disponível
+      - se depender de você qual seria o melhor dia e horário para conversarmos
+      - você prefere remarcar ainda essa semana ou deixar para a próxima
+      - posso te enviar alternativas de horários você me diz qual funciona
+      - quais horários costumam funcionar melhor para você em dias úteis
+      - posso te sugerir algumas janelas e você escolhe a melhor
+      - você tem alguma faixa de horário que costuma ser mais tranquila
+      - quais períodos do dia são mais fáceis para você agendar
+      - posso montar algumas opções de agenda você me confirma a melhor
+      - você pode me dizer quais horários você quer evitar
+      - tem algum dia que costuma ser mais favorável para você
+      - posso te enviar listas de horários disponíveis
+      - você prefere horários mais cedo ou mais ao final do dia
+      - tem alguma restrição de horário que eu precise considerar
+      - posso abrir algumas janelas e você escolhe a ideal
+      - você pode me dizer os dias da semana mais práticos para você
+      - posso te mandar três opções para você escolher a melhor
+      - você prefere início de semana ou final de semana útil
+      - você tem algum período preferencial entre manhã e tarde
+      - posso te enviar horários fixos ou mais flexíveis qual prefere
+      - você teria horários alternativos caso os primeiros não funcionem
+      - podemos trabalhar com manhã ou tarde qual você prefere
+      - você prefere horários mais amplos ou mais específicos
+      - gostaria que você me dissesse seus melhores períodos
+      - posso te passar horários segmentados para facilitar
+      - você consegue me dizer seus horários livres da semana
+      - podemos tentar ajustar conforme seus dias disponíveis
+      - você prefere janelas curtas ou mais amplas para remarcar
+      - qual período do dia te dá mais conforto para conversar
+      - posso propor algumas alternativas você só escolhe
+      - você tem preferência por início ou final de turno
+      - posso te mandar horários de manhã tarde e final do dia
+      - você teria preferência por dias consecutivos ou alternados
+      - posso listar dias e horários e você marca o melhor
+      - você quer que eu sugira opções diárias ou semanais
+      - posso enviar horários mais cedo ou mais tarde dependendo de você
+      - você prefere que eu selecione alguns horários livres
+      - você consegue me dizer seu período mais estável do dia
+      - posso te passar agendas de dois ou três dias seguidos
+      - você tem disponibilidade mais firme em algum período
+      - você prefere entrevistas antes ou depois do almoço
+      - posso preparar um bloco de horários e você filtra
+      - você pode me dizer se prefere horários fixos ou variáveis
+      - posso te mandar horários mais espaçados
+      - quais horários você evitaria totalmente
+      - posso trabalhar com manhã ou tarde você indica qual é melhor
+      - você prefere marcar no início da semana ou depois
+      - posso enviar um conjunto de opções para você avaliar
+      - você pode me indicar seus horários possíveis para esta semana
+      - posso te mandar horários de dias alternados
+      - você prefere que eu selecione janelas mais específicas
+      - você tem preferência por horários mais tranquilos
+      - posso te enviar algumas combinações de dias e horários
+      - você pode indicar dias que não funcionam de jeito nenhum
+      - posso te oferecer opções curtas e longas qual prefere
+      - você tem disponibilidade parcial ou total em algum dia
+      - posso montar agendas em dois turnos para você escolher
+      - você prefere marcar cedo ou mais próximo do final do dia
+      - posso te mandar horários contínuos para facilitar sua escolha
+      - quais seriam seus horários mais leves durante a semana
+      - posso enviar opções agrupadas por turno
+      - você prefere horários repetidos ou alternados
+      - posso abrir horários amanhã ou no dia seguinte
+      - você tem preferência por dias mais vazios
+      - posso mandar horários mais confortáveis conforme padrão
+      - você pode me dizer qual turno funciona melhor hoje
+      - posso oferecer horários apenas em períodos específicos
+      - você prefere marcar rápido ou aguardar janelas melhores
+      - posso te enviar horários disponíveis por blocos
+      - você tem horários rígidos ou mais flexíveis
+      - posso mandar opções pela manhã tarde e noite
+      - você prefere períodos mais calmos durante a semana
+      - posso listar horários de maior probabilidade de encaixe
+      - você poderia indicar seus horários possíveis nos próximos dias
+      - posso propor um conjunto reduzido de horários
+      - você prefere horários maiores ou menores
+      - posso enviar horários por ordem de facilidade de encaixe
+      - você tem algum turno que seja sempre melhor
+      - posso te mandar sugestões ordenadas por período
+      - você prefere que eu filtre horários por turno
+      - posso te mandar alternativas em sequência
+      - você prefere horários no meio do dia ou mais cedo
+      - posso te enviar horários programados com antecedência
+      - quais horários você considera ideais para remarcar
+      - posso montar opções baseadas no seu horário mais livre
+      - você pode me indicar dois ou três dias viáveis
+      - posso oferecer horários distribuídos ao longo da semana
+      - posso te enviar alguns horários livres e você escolhe o melhor
+      - você tem algum período mais estável para encaixar essa entrevista
+      - posso sugerir horários próximos ou mais tarde conforme você preferir
+      - você consegue me dizer dois períodos que funcionam melhor
+      - posso listar horários de manhã e tarde você escolhe o ideal
+      - você prefere opções mais cedo ou mais distribuídas ao longo do dia
+      - I can send a few open times and you choose the best one
+      - do you have any stable periods where scheduling is easier
+      - I can suggest earlier or later times depending on what you prefer
+      - could you share two periods that usually work well for you
+      - I can list morning and afternoon slots you choose the ideal
+      - would you rather get grouped options or separated ones
+      - I can share a small set of times for you to pick from
+      - do you prefer options earlier in the day or more spread out
+      - to reschedule I would like to suggest a few time slots could you tell me which work best
+      - I can send some date and time options so you can pick what suits you best
+      - if you can tell me which times of day usually work better we can try to match
+      - do you prefer mornings afternoons or end of day for a new interview
+      - if I send time windows can you point which fits you best
+      - we have some open slots in the next days do you have any preference
+      - which days of the week work best for rescheduling this interview
+      - could you share times when you are normally available
+      - if it depended on you what day and time would be ideal to talk
+      - would you rather reschedule for this week or next week
+      - I can send you a list of possible slots would that help
+      - do you have any preferred time ranges for interviews
+      - if you want I can propose a few windows and you pick one
+      - which time of the day usually works best for you
+      - I can send a few morning afternoon and evening options
+      - could you tell me which times you prefer to avoid
+      - do you have specific days that usually work better
+      - I can suggest a few slots and you confirm the best
+      - would you prefer earlier times or later ones
+      - can you share your general weekly availability
+      - I can send grouped time options if that helps
+      - do you prefer structured slots or flexible ones
+      - can you tell me your best days in the week
+      - I can send three options for you to choose
+      - would you prefer start-of-week or end-of-week
+      - do you have morning or afternoon preference
+      - I can send fixed or flexible times which works better
+      - do you have backup times if the first ones do not work
+      - can we work with morning or afternoon which you prefer
+      - do you like broader windows or shorter ones
+      - can you tell me your preferred periods
+      - I can provide segmented time windows if needed
+      - do you have available slots during weekdays
+      - we can adjust based on days you prefer
+      - do you want narrow or wide options
+      - what part of the day works best for you
+      - I can share a few alternatives for you to check
+      - do you prefer early or late slots
+      - I can send morning afternoon and end-of-day options
+      - would consecutive days or spaced days work better
+      - I can list a set of possible days and times
+      - do you want daily options or weekly options
+      - I can send early or late hours depending on your preference
+      - do you prefer that I select some available windows
+      - can you tell me your most stable part of the day
+      - I can send windows across two or three days
+      - do you have stronger availability in a specific period
+      - do you prefer before or after lunch
+      - I can prepare a block of options for you
+      - do you want fixed hour options or variable ones
+      - I can send spaced time options
+      - which times would you rather avoid
+      - can we try morning or afternoon which you prefer
+      - do you prefer early-week or late-week scheduling
+      - I can send multiple time alternatives
+      - could you share your availability for this week
+      - I can send alternating day options
+      - do you prefer narrow or more specific windows
+      - do you have interest in calmer time periods
+      - I can send combinations of days and time windows
+      - could you mark days that never work for you
+      - do you want short or long windows
+      - do you have partial or full availability on any day
+      - I can build two-shift options for you to choose
+      - do you prefer early or late times
+      - I can send continuous time ranges for you to review
+      - which weekly times are easier for you
+      - I can send options grouped by shift
+      - do you prefer repeating or alternating times
+      - I can open times tomorrow or the next day
+      - do you prefer lighter days of the week
+      - I can send comfortable options based on patterns
+      - what times work best for you today
+      - I can send period-specific options
+      - do you prefer quick scheduling or later windows
+      - I can send block-based options
+      - do you have rigid or flexible availability
+      - I can send morning afternoon and evening time ranges
+      - do you prefer calmer periods in the week
+      - I can list options with higher match chance
+      - could you share availability for the next few days
+      - I can propose reduced option sets
+      - do you want broader or narrower time slots
+      - I can send ordered options by period
+      - do you prefer filtered options by shift
+      - I can send options in sequence
+      - do you prefer mid-day or early times
+      - I can send advanced scheduled options
+      - which slots do you consider ideal for rescheduling
+      - I can build options based on your free times
+      - could you share two or three workable days
+      - I can offer time ranges distributed across the week
