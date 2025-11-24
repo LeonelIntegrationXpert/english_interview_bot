@@ -35,7 +35,7 @@ pipeline:
 
   # ─ FallbackClassifier: só dispara em casos realmente ruins
   - name: FallbackClassifier
-    threshold: 0.25           # confiança mínima pra aceitar uma intent
+    threshold: 0.6           # confiança mínima pra aceitar uma intent
     ambiguity_threshold: 0.05 # ambíguo só quando intents muito próximas
 
   # ─ Sinônimos de entidades
