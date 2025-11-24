@@ -13,7 +13,9 @@ Com parâmetros:
         --input-file input.txt \
         --rasa-url http://localhost:5005/model/parse \
         --max 50 \
-        --errors-file errors_report.csv
+        --errors-file errors_report.csv \
+        --workers 8 \
+        --progress-every 50
 """
 
 import os
@@ -24,6 +26,7 @@ import time
 import argparse
 import subprocess
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Dependências mínimas
 REQUIRED_PACKAGES = ["requests"]
@@ -199,47 +202,134 @@ def call_rasa_parse(rasa_url: str, text: str, timeout: float = 10.0):
 def run_tests(test_cases,
               rasa_url: str,
               sleep_between: float = 0.0,
-              max_tests: int | None = None):
+              max_tests: int | None = None,
+              progress_every: int = 25,
+              workers: int = 4):
     """
     Executa os testes contra o Rasa e devolve:
       - stats_por_intent
       - lista_de_erros
+
+    Com suporte a multithreading (workers) e progresso em tempo real.
     """
     total_cases = len(test_cases)
     if max_tests is not None:
         test_cases = test_cases[:max_tests]
 
-    print(f"🔎 Rodando testes em {len(test_cases)} exemplos (de {total_cases} disponíveis)...")
+    n_cases = len(test_cases)
+    print(f"🔎 Rodando testes em {n_cases} exemplos (de {total_cases} disponíveis)...")
+
     stats = defaultdict(lambda: {"total": 0, "correct": 0, "wrong": 0})
     errors = []
 
-    for idx, case in enumerate(test_cases, 1):
+    # Se workers <= 1, volta pro modo sequencial
+    if workers <= 1:
+        for idx, case in enumerate(test_cases, 1):
+            expected = case["intent"]
+            text = case["text"]
+            lang = case["lang"]
+
+            pred, conf, raw = call_rasa_parse(rasa_url, text)
+            ok = (pred == expected)
+
+            stats[expected]["total"] += 1
+            if ok:
+                stats[expected]["correct"] += 1
+            else:
+                stats[expected]["wrong"] += 1
+                errors.append({
+                    "lang": lang,
+                    "text": text,
+                    "expected": expected,
+                    "predicted": pred,
+                    "confidence": conf,
+                    "raw": raw,
+                })
+
+            if progress_every > 0 and (idx % progress_every == 0 or idx == n_cases):
+                current_total = sum(v["total"] for v in stats.values())
+                current_correct = sum(v["correct"] for v in stats.values())
+                acc = (current_correct / current_total * 100.0) if current_total else 0.0
+                pct = idx / n_cases * 100.0
+                print(
+                    f"  • {idx}/{n_cases} exemplos processados "
+                    f"({pct:5.1f}%) | acurácia parcial: {acc:5.2f}%"
+                )
+
+            if sleep_between > 0:
+                time.sleep(sleep_between)
+
+        return stats, errors
+
+    # ---------- MODO MULTITHREAD ----------
+    def worker(case):
+        """Função executada em cada thread."""
         expected = case["intent"]
         text = case["text"]
         lang = case["lang"]
 
         pred, conf, raw = call_rasa_parse(rasa_url, text)
-        ok = (pred == expected)
+        return {
+            "expected": expected,
+            "lang": lang,
+            "text": text,
+            "predicted": pred,
+            "confidence": conf,
+            "raw": raw,
+        }
 
-        stats[expected]["total"] += 1
-        if ok:
-            stats[expected]["correct"] += 1
-        else:
-            stats[expected]["wrong"] += 1
-            errors.append({
-                "lang": lang,
-                "text": text,
-                "expected": expected,
-                "predicted": pred,
-                "confidence": conf,
-                "raw": raw,
-            })
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(worker, case) for case in test_cases]
 
-        if idx % 25 == 0 or idx == len(test_cases):
-            print(f"  • {idx}/{len(test_cases)} exemplos processados...")
+        for idx, fut in enumerate(as_completed(futures), 1):
+            try:
+                res = fut.result()
+            except Exception as e:
+                # Se der erro inesperado na thread, registra como erro genérico
+                res = {
+                    "expected": "UNKNOWN",
+                    "lang": "??",
+                    "text": "",
+                    "predicted": None,
+                    "confidence": 0.0,
+                    "raw": {"error": f"worker exception: {e}"},
+                }
 
-        if sleep_between > 0:
-            time.sleep(sleep_between)
+            expected = res["expected"]
+            lang = res["lang"]
+            text = res["text"]
+            pred = res["predicted"]
+            conf = res["confidence"]
+            raw = res["raw"]
+
+            ok = (pred == expected)
+
+            stats[expected]["total"] += 1
+            if ok:
+                stats[expected]["correct"] += 1
+            else:
+                stats[expected]["wrong"] += 1
+                errors.append({
+                    "lang": lang,
+                    "text": text,
+                    "expected": expected,
+                    "predicted": pred,
+                    "confidence": conf,
+                    "raw": raw,
+                })
+
+            if progress_every > 0 and (idx % progress_every == 0 or idx == n_cases):
+                current_total = sum(v["total"] for v in stats.values())
+                current_correct = sum(v["correct"] for v in stats.values())
+                acc = (current_correct / current_total * 100.0) if current_total else 0.0
+                pct = idx / n_cases * 100.0
+                print(
+                    f"  • {idx}/{n_cases} exemplos processados "
+                    f"({pct:5.1f}%) | acurácia parcial: {acc:5.2f}%"
+                )
+
+            if sleep_between > 0:
+                time.sleep(sleep_between)
 
     return stats, errors
 
@@ -362,6 +452,20 @@ def main():
         default=None,
         help="Se informado, salva erros em CSV neste caminho.",
     )
+    parser.add_argument(
+        "--progress-every",
+        dest="progress_every",
+        type=int,
+        default=25,
+        help="A cada quantos exemplos mostrar andamento (default: 25).",
+    )
+    parser.add_argument(
+        "--workers",
+        dest="workers",
+        type=int,
+        default=4,
+        help="Número de threads (workers) para chamadas paralelas ao Rasa (default: 4).",
+    )
 
     args = parser.parse_args()
 
@@ -389,6 +493,8 @@ def main():
         rasa_url=args.rasa_url,
         sleep_between=args.sleep,
         max_tests=args.max_tests,
+        progress_every=args.progress_every,
+        workers=args.workers,
     )
 
     # 3) Mostra relatório
