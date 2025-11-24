@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: birthdate
+    examples: |
+      - qual é a sua data de nascimento?
+      - que dia você nasceu?
+      - você pode me dizer sua data de nascimento completa?
+      - só para registrar, qual é a sua data de nascimento?
+      - você nasceu em que dia, mês e ano?
+      - em que ano você nasceu?
+      - qual é a sua data de nascimento, por favor?
+      - você poderia confirmar sua data de nascimento?
+      - você nasceu em que dia?
+      - pode me passar sua data de nascimento?
+      - qual é o seu aniversário?
+      - sua data de nascimento é qual?
+      - você nasceu em qual mês?
+      - você nasceu em qual ano?
+      - sua data de nascimento é quando?
+      - pode confirmar o dia em que você nasceu?
+      - pode confirmar o mês em que você nasceu?
+      - pode confirmar o ano em que você nasceu?
+      - qual é o dia exato do seu nascimento?
+      - qual é o mês exato do seu nascimento?
+      - qual é o ano exato do seu nascimento?
+      - qual foi o dia do seu nascimento?
+      - qual foi o mês do seu nascimento?
+      - qual foi o ano do seu nascimento?
+      - você nasceu em qual data mesmo?
+      - qual é sua data de nascimento atualizada?
+      - sua data de nascimento está em qual registro?
+      - seu aniversário cai em qual dia?
+      - seu aniversário cai em qual mês?
+      - seu aniversário cai em qual ano?
+      - quando você faz aniversário?
+      - sua data de aniversário é qual?
+      - qual é a data oficial do seu nascimento?
+      - qual é a data completa do seu aniversário?
+      - qual dia representa seu nascimento?
+      - que data representa seu nascimento?
+      - que dia marca seu nascimento?
+      - qual data marca seu nascimento?
+      - você poderia dizer sua data de nascimento exata?
+      - você poderia dizer seu dia de nascimento?
+      - você poderia dizer seu mês de nascimento?
+      - você poderia dizer seu ano de nascimento?
+      - qual é o registro do seu nascimento?
+      - qual é a certidão do seu nascimento?
+      - sua data de aniversário é quando?
+      - você tem como me dizer seu aniversário completo?
+      - posso registrar sua data de nascimento?
+      - posso confirmar sua data completa?
+      - qual é sua data oficial?
+      - qual é a data completa do seu nascimento?
+      - você nasceu em que momento do ano?
+      - você nasceu no começo do ano?
+      - você nasceu no meio do ano?
+      - você nasceu no fim do ano?
+      - sua data de nascimento é próxima de algum feriado?
+      - seu aniversário é no começo do mês?
+      - seu aniversário é no final do mês?
+      - sua data de nascimento é fácil de lembrar?
+      - sua data de nascimento muda alguma coisa para você?
+      - você comemora seu aniversário no dia exato?
+      - posso anotar o dia em que você nasceu?
+      - posso anotar o mês em que você nasceu?
+      - posso anotar o ano em que você nasceu?
+      - você nasceu em um dia marcante?
+      - sua data de nascimento tem algum significado?
+      - seu aniversário é em que período?
+      - seu aniversário é em que estação?
+      - seu aniversário é em que fase do ano?
+      - você tem orgulho da sua data de nascimento?
+      - sua data de nascimento é comum?
+      - sua data de nascimento é rara?
+      - sua data de nascimento é fácil?
+      - sua data de nascimento é complicada?
+      - qual é o número do seu aniversário?
+      - qual é o número do dia em que você nasceu?
+      - qual é o número do mês em que você nasceu?
+      - qual é o número do ano em que você nasceu?
+      - que dia marca o seu aniversário?
+      - que data marca o seu aniversário?
+      - qual é o dia certo do seu aniversário?
+      - qual é o mês certo do seu aniversário?
+      - qual é o ano certo do seu aniversário?
+      - qual é o dia oficial do seu aniversário?
+      - qual é o mês oficial do seu aniversário?
+      - qual é o ano oficial do seu aniversário?
+      - quando exatamente você nasceu?
+      - qual é o dia exato do seu aniversário?
+      - posso confirmar quando você nasceu?
+      - posso validar sua data de nascimento?
+      - sua data de nascimento está correta no registro?
+      - você poderia dizer a data exata do seu aniversário?
+      - você poderia dizer sua data exata de nascimento?
+      - qual é sua data completa mesmo?
+      - você poderia me lembrar sua data de nascimento?
+      - posso saber o dia exato que representa seu nascimento?
+      - você compartilha sua data de nascimento?
+      - sua data de nascimento é pública?
+      - qual é seu aniversário oficial?
+      - qual é sua data oficial de aniversário?
+      - qual é sua data exata de nascimento?
+      - what is your birth date exactly?
+      - could you tell me your birth date in full?
+      - when exactly is your date of birth?
+      - may I confirm your birth date now?
+      - could you restate your exact birth date?
+      - which exact day marks your birthday?
+      - could you clarify your full birth date?
+      - is your exact birth date available?
+      - would you mind sharing your precise birth date?
+      - when does your birth date fall?
+      - could you confirm the precise day you were born?
+      - may I record your exact date of birth?
+      - what is your date of birth?
+      - on which day were you born?
+      - could you tell me your full date of birth?
+      - just to register, what is your date of birth?
+      - what day, month, and year were you born?
+      - in which year were you born?
+      - could you please confirm your date of birth?
+      - what is your exact date of birth?
+      - when is your birthday?
+      - could you share your date of birth with me?
+      - what is your birth date?
+      - may I know your date of birth?
+      - when exactly were you born?
+      - which day were you born on?
+      - which month were you born in?
+      - which year were you born in?
+      - what is the full date of your birth?
+      - can you confirm the day you were born?
+      - can you confirm the month you were born?
+      - can you confirm the year you were born?
+      - what is your official birth date?
+      - what is the recorded date of your birth?
+      - when do you celebrate your birthday?
+      - is your birthday at the start of the month?
+      - is your birthday at the end of the month?
+      - is your birthday early in the year?
+      - is your birthday late in the year?
+      - what number represents your birth day?
+      - what number represents your birth month?
+      - what number represents your birth year?
+      - what is the date shown on your birth record?
+      - what does your birth certificate say?
+      - what is your complete birth date?
+      - can you share your birth date details?
+      - what is the official date of your birth?
+      - what is the exact date that marks your birth?
+      - what day marks your birthday?
+      - what month marks your birthday?
+      - what year marks your birthday?
+      - when is your official birthday?
+      - may I confirm your full birth date?
+      - may I validate your date of birth?
+      - is your date of birth accurate in the record?
+      - when were you officially born?
+      - what exact day marks your birth?
+      - what exact date represents your birthday?
+      - could you remind me of your birth date?
+      - could you repeat your date of birth?
+      - what period of the year were you born?
+      - were you born early in the year?
+      - were you born mid-year?
+      - were you born late in the year?
+      - is your birthday easy to remember?
+      - is your birthday memorable?
+      - is your date of birth simple?
+      - is your date of birth specific?
+      - could you clarify your date of birth?
+      - could you restate your birth date?
+      - could you share the exact birth date?
+      - what is the full date that represents your birth?
+      - what is the day linked to your birthday?
+      - what is the month linked to your birthday?
+      - what is the year linked to your birthday?
+      - could you confirm when exactly you were born?
+      - may I write down your date of birth?
+      - may I note the day you were born?
+      - may I note the month you were born?
+      - may I note the year you were born?
+      - when was your birth registered?
+      - when was your birthday recorded?
+      - can you share the exact moment you were born?
+      - is your birth date public?
+      - is your birth date private?
+      - what is your known birth date?
+      - what is your documented birth date?
+      - can you tell me the date you celebrate?
+      - can you tell me the date you consider your birthday?
+      - what exact date identifies your birth?
+      - what exact date is your birthday?
+      - when exactly is your birth anniversary?
+      - what is the precise date of your birth?
+      - what is the precise day you were born?
+      - what is the precise month you were born?
+      - what is the precise year you were born?
+      - what date appears on your birth certificate?
+      - what is your legal date of birth?
+      - could you confirm your birth date details?
+      - could you confirm the exact date you were born?

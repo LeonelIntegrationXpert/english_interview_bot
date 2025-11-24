@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: children
+    examples: |
+      - você tem filhos?
+      - posso perguntar se você tem filhos?
+      - como é, você tem crianças em casa?
+      - você já é pai ou ainda não?
+      - quantos filhos você tem, se tiver?
+      - você poderia me dizer se tem filhos?
+      - sua rotina envolve filhos também ou não?
+      - você tem filhos pequenos ou maiores?
+      - sua família inclui filhos ou é só o casal?
+      - você se sente à vontade para falar se tem filhos?
+      - você é pai?
+      - você tem filhos em casa hoje?
+      - você é pai de quantos?
+      - você tem crianças na sua rotina?
+      - você tem filhos atualmente?
+      - você já tem filhos ou não?
+      - você tem bebê em casa?
+      - você tem filhos em idade escolar?
+      - você tem filhos adolescentes?
+      - você tem filhos adultos?
+      - você vive rotina com filhos?
+      - você cuida de crianças em casa?
+      - você tem filhos que moram com você?
+      - seus filhos moram com você ou com outra pessoa?
+      - você tem filhos que dependem de você?
+      - você tem filhos pequenos que precisam de atenção?
+      - você tem filhos maiores e independentes?
+      - sua rotina diária inclui filhos?
+      - seus filhos demandam tempo na sua rotina?
+      - você divide tarefas com seus filhos?
+      - você tem filhos e concilia com o trabalho?
+      - você tem filhos em casa durante o home office?
+      - seus filhos estudam em casa ou fora?
+      - você tem filhos que estudam em escola?
+      - você tem filhos que fazem atividades?
+      - seus filhos têm rotina pesada?
+      - você já é pai há muito tempo?
+      - você é pai recente?
+      - você tem filhos de idades diferentes?
+      - seus filhos são pequenos?
+      - seus filhos são grandes?
+      - você tem só um filho?
+      - você tem mais de um filho?
+      - você tem família com filhos?
+      - você tem filhos e família estruturada?
+      - você tem filhos de casamento atual?
+      - você tem filhos de relação anterior?
+      - você tem filhos que moram longe?
+      - seus filhos moram com você?
+      - você tem filhos que visitam nos fins de semana?
+      - você tem filhos e divide guarda?
+      - você tem filhos que estudam bastante?
+      - você tem filhos que ainda são bebês?
+      - você tem filhos que estão crescendo rápido?
+      - você tem filhos em fase escolar?
+      - você tem filhos em fase de creche?
+      - você tem filhos adolescentes que demandam atenção?
+      - você tem filhos adultos que já trabalham?
+      - sua família tem crianças pequenas?
+      - sua família tem filhos maiores?
+      - sua família inclui filhos jovens?
+      - seus filhos participam do seu dia a dia?
+      - seus filhos são tranquilos?
+      - seus filhos são agitados?
+      - seus filhos têm rotina organizada?
+      - seus filhos te motivam?
+      - seus filhos influenciam sua agenda?
+      - seus filhos afetam seu horário de trabalho?
+      - seus filhos aparecem durante o home office?
+      - seus filhos exigem atenção no dia a dia?
+      - seus filhos são independentes?
+      - seus filhos são dependentes?
+      - seus filhos têm muitas atividades?
+      - seus filhos têm hobbies?
+      - seus filhos gostam de tecnologia?
+      - seus filhos acompanham sua rotina?
+      - seus filhos estudam inglês?
+      - você tem quantos filhos mesmo?
+      - seus filhos já ajudam em casa?
+      - seus filhos têm quantos anos?
+      - seus filhos são próximos de você?
+      - seus filhos têm boa rotina escolar?
+      - seus filhos são tranquilos para lidar?
+      - seus filhos gostam de brincar?
+      - seus filhos são carinhosos?
+      - seus filhos exigem muito tempo?
+      - seus filhos ficam com você durante o dia?
+      - seus filhos ficam com outra pessoa?
+      - seus filhos passam parte do dia com você?
+      - você cuida muito dos filhos no dia a dia?
+      - você divide o cuidado dos filhos?
+      - você tem boa relação com seus filhos?
+      - você se sente à vontade para falar dos filhos?
+      - posso perguntar mais sobre seus filhos?
+      - seus filhos fazem parte da sua rotina diária?
+      - seus filhos impactam seu planejamento?
+      - seus filhos influenciam sua semana?
+      - sua vida familiar envolve seus filhos bastante?
+      - seus filhos participam bastante da sua rotina diária?
+      - você divide bastante seu tempo entre trabalho e filhos?
+      - do your kids usually stay with you during the week?
+      - are your kids part of your daily routine?
+      - do your children depend a lot on your schedule?
+      - do your kids require a lot of attention during the day?
+      - are your kids in your care most of the time?
+      - do you manage both work and children at home?
+      - do you have any children?
+      - can I ask if you have kids?
+      - do you have children at home?
+      - are you a father yet or not yet?
+      - how many children do you have, if any?
+      - could you tell me whether you have kids?
+      - does your routine involve children too?
+      - do you have young children or older ones?
+      - does your family include children or just the couple?
+      - would you feel comfortable sharing if you have children?
+      - are you a father?
+      - do you have kids living with you?
+      - are you a father of how many?
+      - do you have kids in your routine?
+      - do you currently have children?
+      - do you have babies at home?
+      - do you have school-age children?
+      - do you have teenage children?
+      - do you have adult children?
+      - do you live a routine with kids?
+      - do you take care of children at home?
+      - do your children live with you?
+      - do your kids depend on you daily?
+      - do you have small children needing attention?
+      - do you have older independent kids?
+      - is your daily routine influenced by your kids?
+      - do your kids take part in your day?
+      - do your kids need a lot of attention?
+      - are your kids independent?
+      - are your kids young?
+      - are your kids older?
+      - do you have just one child?
+      - do you have more than one child?
+      - is your family a family with kids?
+      - do you have children from your current marriage?
+      - do you have children from a previous relationship?
+      - do your children live far from you?
+      - do your children visit you often?
+      - do your kids stay with you on weekends?
+      - do you share custody of your kids?
+      - do your kids study at school?
+      - do your kids study at home?
+      - do your kids have many activities?
+      - do your kids have hobbies?
+      - are your kids calm?
+      - are your kids energetic?
+      - do your kids have a structured routine?
+      - do your kids influence your schedule?
+      - do your kids appear during home office?
+      - are your kids around during calls?
+      - do your kids spend part of the day with you?
+      - do your kids stay with someone else?
+      - do your kids enjoy technology?
+      - do your kids learn English?
+      - how old are your kids?
+      - do your kids help at home?
+      - are your kids close to you?
+      - do your kids have good school routines?
+      - are your kids easy to handle?
+      - do your kids like to play?
+      - are your kids affectionate?
+      - do your kids need constant attention?
+      - do your kids stay with you a lot?
+      - do your kids live full-time with you?
+      - do your kids split time between homes?
+      - do your kids demand a lot of energy from you?
+      - do your kids motivate you?
+      - are your kids part of your weekly planning?
+      - do your kids influence your work week?
+      - are your kids included in your daily rhythm?
+      - do you manage your schedule around your children?
+      - do your kids grow fast?
+      - do your kids require supervision?
+      - do your kids require guidance?
+      - do your kids need support with school?
+      - do your kids handle school well?
+      - are your kids disciplined?
+      - are your kids creative?
+      - do your kids enjoy family time?
+      - do your kids enjoy studying?
+      - do your kids like cartoons?
+      - do your kids like movies?
+      - do your kids spend weekends with you?
+      - do your kids participate in family activities?
+      - do you take care of your kids daily?
+      - do you split responsibilities with your spouse?
+      - do you talk about your kids often?
+      - are you comfortable sharing about your kids?
+      - may I ask more about your children?
+      - are your children an active part of your life?
+      - do your children impact your long-term plans?
+      - does your family dynamic include young children?
+      - does your family dynamic include older children?
+      - do your kids shape your home routine?

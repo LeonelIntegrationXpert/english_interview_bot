@@ -10,25 +10,33 @@ pipeline:
     use_word_boundaries: true
   - name: LexicalSyntacticFeaturizer
 
-  # ─ Count Vectors (palavras e subpalavras)
+  # ─ Count Vectors (palavras)
   - name: CountVectorsFeaturizer
     analyzer: word
     min_ngram: 1
     max_ngram: 1
+    min_df: 2              # ignora palavras que aparecem só 1x (ruído, reduz vocabulário)
+    OOV_token: "__oov__"   # termo fora de vocabulário cai aqui
+
+  # ─ Count Vectors (subpalavras / char n-grams)
   - name: CountVectorsFeaturizer
     analyzer: char_wb
-    min_ngram: 1
-    max_ngram: 4
+    min_ngram: 3           # começa em 3 letras (mais sinal, menos lixo)
+    max_ngram: 5
+    min_df: 5              # só mantém n-grams que aparecem pelo menos 5x
 
-  # ─ Classificação de Intents (mais treino, menos paranoia)
+  # ─ Classificação de Intents (DIET bem treinado)
   - name: DIETClassifier
-    epochs: 50                # antes 5 (pouco), agora treina de verdade
+    epochs: 50             # 50 epochs pra ~60k exemplos é um bom equilíbrio
+    batch_size: [64, 256]  # minibatch aumenta com o tempo (treino mais estável)
+    learning_rate: 0.001
+    embedding_dimension: 128
     constrain_similarities: true
 
   # ─ FallbackClassifier: só dispara em casos realmente ruins
   - name: FallbackClassifier
-    threshold: 0.25           # antes 0.85: fallback dominava tudo
-    ambiguity_threshold: 0.05 # só considera ambíguo se intents muito próximas
+    threshold: 0.25           # confiança mínima pra aceitar uma intent
+    ambiguity_threshold: 0.05 # ambíguo só quando intents muito próximas
 
   # ─ Sinônimos de entidades
   - name: EntitySynonymMapper
@@ -41,20 +49,20 @@ pipeline:
 policies:
   # ─ Memoization para histórias exatas
   - name: MemoizationPolicy
-    max_history: 50
+    max_history: 10          # 50 é overkill; 10 já cobre bem teu fluxo de entrevista
 
   # ─ RulePolicy: ainda sabe chamar o fallback, mas menos agressivo
   - name: RulePolicy
     core_fallback_action_name: "action_fallback"
     enable_fallback_prediction: true
-    core_fallback_threshold: 0.3   # antes 0.85
+    core_fallback_threshold: 0.3
 
-  # ─ Lida com intents inesperadas
+  # ─ Lida com intents inesperadas / comportamento estranho
   - name: UnexpecTEDIntentPolicy
     nlu_intent_threshold: 0.3
 
   # ─ TED para generalização de diálogos
   - name: TEDPolicy
     max_history: 5
-    epochs: 20
+    epochs: 30               # um pouco mais de treino pra 300 intents
     constrain_similarities: true

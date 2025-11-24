@@ -324,3 +324,35 @@ stories:
     steps:
       - intent: weekend_plans
       - action: utter_weekend_plans
+  - story: story_movies_series
+    steps:
+      - intent: movies_series
+      - action: utter_movies_series
+  - story: story_music_preferences
+    steps:
+      - intent: music_preferences
+      - action: utter_music_preferences
+  - story: story_work_location_home_office
+    steps:
+      - intent: work_location_home_office
+      - action: utter_work_location_home_office
+  - story: story_energy_and_motivation
+    steps:
+      - intent: energy_and_motivation
+      - action: utter_energy_and_motivation
+  - story: story_age
+    steps:
+      - intent: age
+      - action: utter_age
+  - story: story_birthdate
+    steps:
+      - intent: birthdate
+      - action: utter_birthdate
+  - story: story_marital_status
+    steps:
+      - intent: marital_status
+      - action: utter_marital_status
+  - story: story_children
+    steps:
+      - intent: children
+      - action: utter_children

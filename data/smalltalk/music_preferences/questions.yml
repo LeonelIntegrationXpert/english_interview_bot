@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: music_preferences
+    examples: |
+      - você costuma ouvir música enquanto trabalha ou prefere silêncio?
+      - que tipo de música você gosta de ouvir no dia a dia?
+      - tem algum estilo musical que te ajuda a focar?
+      - você costuma trabalhar ouvindo playlist ou acha que atrapalha?
+      - tem algum artista ou banda que você gosta bastante?
+      - você ouve música em inglês para treinar o idioma também?
+      - você é mais de música agitada ou algo mais tranquilo para relaxar?
+      - costuma ouvir rádio, streaming ou quase não ouve música?
+      - tem algum tipo de música que você evita completamente?
+      - se eu abrisse sua playlist agora, o que provavelmente apareceria lá?
+      - você costuma ouvir música para estudar?
+      - você prefere músicas instrumentais ou com letra?
+      - você já tentou usar playlists de concentração?
+      - música te ajuda ou te distrai no trabalho?
+      - você gosta de descobrir artistas novos?
+      - você gosta de músicas nostálgicas?
+      - você costuma ouvir música logo cedo?
+      - você prefere rock, pop ou eletrônica?
+      - qual foi a última música que você ouviu?
+      - você gosta de ouvir música enquanto dirige?
+      - você costuma ouvir música para relaxar antes de dormir?
+      - você curte músicas mais antigas ou mais atuais?
+      - você tem algum gênero que nunca falta na sua playlist?
+      - você gosta de músicas acústicas?
+      - você prefere ouvir álbuns inteiros ou faixas soltas?
+      - você tem alguma música que sempre te anima?
+      - você ouve música quando faz atividades domésticas?
+      - você gosta de playlists temáticas?
+      - você ouve mais música nacional ou internacional?
+      - você costuma montar suas próprias playlists?
+      - você gosta de música ambiente?
+      - você prefere músicas energéticas para treinar?
+      - você já usou música para melhorar o foco?
+      - você gosta de música clássica?
+      - você curte lo-fi?
+      - você gosta de descobrir trilhas sonoras?
+      - você costuma ouvir música para pensar?
+      - você tem algum artista que acompanha há anos?
+      - você prefere músicas curtas ou longas?
+      - você gosta de ouvir músicas ao vivo?
+      - você gosta de covers?
+      - você escuta podcasts ou só música?
+      - você prefere fones ou caixa de som?
+      - você ouve música no volume baixo ou alto?
+      - você tem curiosidade musical ou fica no básico?
+      - você gosta de músicas românticas?
+      - você gosta de músicas eletrônicas para trabalhar?
+      - você tem algum estilo que te irrita?
+      - você costuma ouvir músicas internacionais?
+      - você gosta de música brasileira?
+      - você acompanha lançamentos musicais?
+      - você ouve música para passar o tempo?
+      - você gosta de trilhas de filmes e séries?
+      - você tem uma banda favorita?
+      - você gosta de músicas de videogame?
+      - você usa música para entrar no ritmo?
+      - você já parou para aprender letras em inglês?
+      - você gosta de músicas motivacionais?
+      - você gosta de músicas melancólicas?
+      - você gosta de músicas de festa?
+      - você escuta música no banho?
+      - você ouve música logo ao acordar?
+      - você aproveita silêncio quando pode?
+      - você curte funk, rap ou hip-hop?
+      - você gosta de samba ou pagode?
+      - você gosta de sertanejo?
+      - você gosta de indie?
+      - você costuma ouvir música no ônibus?
+      - música te ajuda a concentrar?
+      - você alterna estilos durante o dia?
+      - você já ouviu músicas de meditação?
+      - você usa música para reduzir estresse?
+      - você gosta de playlists personalizadas?
+      - você gosta de músicas de piano?
+      - você ouve música para escrever ou estudar?
+      - você tem algum artista que sempre volta a escutar?
+      - você gosta de músicas reflexivas?
+      - você ouve música enquanto cozinha?
+      - você prefere músicas rápidas?
+      - você prefere músicas tranquilas?
+      - você gosta de músicas que contam histórias?
+      - você gosta de duetos musicais?
+      - você gosta de músicas com letras profundas?
+      - você gosta de batidas fortes?
+      - você gosta de músicas minimalistas?
+      - você costuma ouvir música no intervalo do trabalho?
+      - você gosta de músicas para academia?
+      - você gosta de músicas para caminhar?
+      - você tem alguma música que usa para animar o dia?
+      - você prefere músicas felizes?
+      - você prefere músicas calmas?
+      - você gosta de ouvir música estrangeira diferente?
+      - você já descobriu músicas por acaso e gostou?
+      - você usa playlists feitas por algoritmos?
+      - você gosta de cantar junto com as músicas?
+      - você costuma ouvir música no fone no trabalho?
+      - você gosta de dividir músicas com amigos?
+      - você tem alguma música que usa para começar o dia bem?
+      - você costuma ouvir música enquanto faz exercícios?
+      - você tem algum artista que descobriu recentemente e está gostando bastante?
+      - do you have any song you use to start your day in a good mood?
+      - do you usually listen to music while exercising?
+      - is there any artist you recently discovered and have been enjoying?
+      - do you have any go-to playlist you always return to?
+      - do you usually listen to music while you work, or do you prefer silence?
+      - what kind of music do you like to listen to on a daily basis?
+      - is there any music style that helps you focus?
+      - do you normally work with a playlist on, or do you feel it gets in the way?
+      - is there any artist or band you really like?
+      - do you listen to music in English to practice the language as well?
+      - do you prefer more upbeat music or something calmer to relax?
+      - do you usually listen to radio, streaming services, or barely listen to music at all?
+      - is there any type of music you completely avoid?
+      - if I opened your playlist right now, what would probably be there?
+      - do you listen to music while studying?
+      - do you prefer instrumental or vocal music?
+      - have you tried focus playlists?
+      - does music help you or distract you at work?
+      - do you enjoy discovering new artists?
+      - do you like nostalgic music?
+      - do you usually listen to music in the morning?
+      - do you prefer rock, pop, or electronic?
+      - what was the last song you listened to?
+      - do you listen to music while driving?
+      - do you listen to music to relax before sleeping?
+      - do you enjoy older songs or more current ones?
+      - do you have any genre that’s always in your playlist?
+      - do you like acoustic music?
+      - do you prefer full albums or individual tracks?
+      - do you have a song that always boosts your mood?
+      - do you listen to music while doing chores?
+      - do you enjoy themed playlists?
+      - do you listen more to national or international music?
+      - do you usually create your own playlists?
+      - do you enjoy ambient music?
+      - do you prefer energetic music for workouts?
+      - have you used music to improve focus?
+      - do you like classical music?
+      - do you enjoy lo-fi?
+      - do you like movie soundtracks?
+      - do you listen to music to think?
+      - do you have an artist you’ve followed for years?
+      - do you prefer short or long songs?
+      - do you enjoy live versions?
+      - do you enjoy covers?
+      - do you listen to podcasts or only music?
+      - do you prefer headphones or speakers?
+      - do you listen to music at low or high volume?
+      - are you more musically curious or basic?
+      - do you enjoy romantic songs?
+      - do you enjoy electronic music while working?
+      - do you have a style you dislike?
+      - do you listen to international music?
+      - do you enjoy Brazilian music?
+      - do you follow music releases?
+      - do you listen to music to pass time?
+      - do you enjoy film and series soundtracks?
+      - do you have a favorite band?
+      - do you enjoy video game music?
+      - do you use music to get in the zone?
+      - have you ever learned lyrics in English?
+      - do you like motivational songs?
+      - do you enjoy melancholic music?
+      - do you enjoy party music?
+      - do you listen to music in the shower?
+      - do you listen to music right after waking up?
+      - do you enjoy complete silence sometimes?
+      - do you enjoy funk, rap, or hip-hop?
+      - do you like jazz?
+      - do you enjoy indie music?
+      - do you listen to music on the bus?
+      - does music help you concentrate?
+      - do you switch genres throughout the day?
+      - have you tried meditation music?
+      - do you use music to reduce stress?
+      - do you enjoy curated playlists?
+      - do you enjoy piano music?
+      - do you listen to music while writing or studying?
+      - do you have an artist you always return to?
+      - do you like reflective songs?
+      - do you listen to music while cooking?
+      - do you prefer fast-paced music?
+      - do you prefer calm music?
+      - do you enjoy storytelling songs?
+      - do you enjoy musical duets?
+      - do you like songs with deep lyrics?
+      - do you enjoy heavy beats?
+      - do you like minimalist music?
+      - do you listen to music during work breaks?
+      - do you enjoy workout playlists?
+      - do you enjoy walking playlists?
+      - do you have a song that lifts your mood?
+      - do you prefer happy songs?
+      - do you prefer mellow songs?
+      - do you enjoy foreign music from different cultures?
+      - have you discovered songs by accident and liked them?
+      - do you listen to algorithm-created playlists?
+      - do you enjoy singing along?
+      - do you listen to music at work using headphones?
+      - do you enjoy sharing songs with friends?

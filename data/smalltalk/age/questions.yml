@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: age
+    examples: |
+      - só por curiosidade, quantos anos você tem?
+      - posso perguntar a sua idade?
+      - qual é a sua idade hoje?
+      - você está com quantos anos atualmente?
+      - em termos de idade, onde você se encaixa mais ou menos?
+      - você poderia me dizer quantos anos você tem?
+      - falando um pouco de você, qual é a sua idade?
+      - hoje você está com quantos anos?
+      - você se sente à vontade para compartilhar sua idade?
+      - em que faixa de idade você está?
+      - qual é sua idade atual?
+      - posso saber quantos anos você tem?
+      - você está em qual fase da vida?
+      - você já mencionou sua idade?
+      - pode me dizer a sua idade hoje?
+      - você se sente confortável dizendo sua idade?
+      - qual é a sua idade aproximada?
+      - quantos anos você tem agora?
+      - você está em qual faixa etária?
+      - posso confirmar sua idade?
+      - só para entender, qual é sua idade?
+      - qual é seu número de anos de vida?
+      - você tem quantos anos de experiência de vida?
+      - você está em qual década?
+      - você diria que está na casa dos trinta ou quarenta?
+      - sua idade é qual mesmo?
+      - pode compartilhar sua idade atual?
+      - hoje você está com que idade?
+      - posso perguntar em que idade você está?
+      - qual é sua idade neste momento?
+      - você se importa de dizer sua idade?
+      - sua idade fica em qual faixa?
+      - você está mais perto dos trinta ou dos quarenta?
+      - você está mais para novo ou experiente?
+      - você está em idade adulta jovem?
+      - você está em fase madura?
+      - você está em qual momento da vida?
+      - você está com idade estável?
+      - você está com idade avançada ou não?
+      - você está mais para iniciante ou veterano de vida?
+      - só para alinhar, quantos anos você tem?
+      - você se classifica em qual idade hoje?
+      - sua idade atual seria qual?
+      - qual é o número da sua idade?
+      - você está com idade acima de trinta?
+      - você está com idade abaixo de quarenta?
+      - você está na fase dos trinta?
+      - você está na fase dos quarenta?
+      - sua idade está em qual etapa?
+      - pode me dizer sua faixa etária precisa?
+      - sua idade é um número alto ou baixo?
+      - você se acha jovem para sua idade?
+      - você se considera maduro para sua idade?
+      - sua idade combina com sua experiência?
+      - você está com idade adulta consolidada?
+      - você ainda está na juventude madura?
+      - qual faixa etária representa você?
+      - você está com idade confortável?
+      - você está com idade tranquila?
+      - você sente sua idade influenciar algo?
+      - sua idade te define de alguma forma?
+      - você acha sua idade relevante para o trabalho?
+      - como você se sente na sua idade atual?
+      - qual é seu sentimento sobre sua idade?
+      - você sente que sua idade te ajuda no trabalho?
+      - você sente que sua idade te dá vantagem?
+      - sua idade te dá maturidade?
+      - sua idade te dá motivação?
+      - sua idade te traz mais calma?
+      - sua idade te trouxe experiência?
+      - você se sente bem com sua idade?
+      - você gosta da sua idade atual?
+      - você mudaria sua idade se pudesse?
+      - sua idade influencia sua rotina?
+      - sua idade influencia seu estilo?
+      - sua idade influencia seu ritmo?
+      - você acha que sua idade importa aqui?
+      - você acha sua idade um ponto neutro?
+      - sua idade faz diferença para você?
+      - você acha que sua idade importa na carreira?
+      - você tem orgulho da sua idade?
+      - você esconde sua idade ou fala normalmente?
+      - sua idade te ajuda em decisões?
+      - sua idade te deixa confiante?
+      - você já teve outra fase de idade marcante?
+      - sua idade atual te define bem?
+      - você sente que sua idade te representa?
+      - sua idade te trouxe foco?
+      - sua idade te trouxe visão?
+      - sua idade trouxe equilíbrio?
+      - sua idade trouxe clareza?
+      - qual é a idade que você vive agora?
+      - sua idade é confortável para você?
+      - sua idade vem sendo positiva?
+      - sua idade te coloca em boa fase?
+      - sua idade faz sentido para você?
+      - posso confirmar quantos anos você tem hoje?
+      - você está em qual fase etária neste momento?
+      - qual é sua idade exata hoje?
+      - você se encontra em qual etapa de idade?
+      - may I confirm your exact age today?
+      - which age stage are you currently in?
+      - what is your precise age right now?
+      - can you tell me your exact age range?
+      - what age do you identify yourself with today?
+      - how old are you exactly at this moment?
+      - which age category would you say you belong to?
+      - can you share the exact age you are today?
+      - just out of curiosity, how old are you?
+      - can I ask how old you are?
+      - how old are you at the moment?
+      - what is your age today?
+      - could you tell me how old you are?
+      - in terms of age, where do you roughly fit?
+      - speaking a bit about you, how old are you?
+      - how many years old are you now?
+      - would you feel comfortable sharing your age?
+      - what age range are you in?
+      - what is your current age?
+      - may I know your age?
+      - which stage of life are you in?
+      - have you mentioned your age yet?
+      - what age are you right now?
+      - are you comfortable saying your age?
+      - what’s your approximate age?
+      - how old are you right now?
+      - which age group are you in?
+      - can I confirm your age?
+      - just to understand, what is your age?
+      - what is your number of years?
+      - how many years of life do you have?
+      - what decade are you in?
+      - are you in your thirties or forties?
+      - what’s your age again?
+      - can you share your age today?
+      - what age are you at the moment?
+      - mind telling me your age?
+      - which age bracket are you in?
+      - are you closer to thirty or forty?
+      - would you say you're young or experienced?
+      - are you in early adulthood?
+      - are you in a mature phase?
+      - which moment of life are you in?
+      - are you at a stable age?
+      - are you in an advanced age?
+      - are you more beginner or veteran in life?
+      - just to align, how old are you?
+      - which exact age do you fall into?
+      - what number represents your age?
+      - are you above thirty?
+      - are you below forty?
+      - are you in your thirties?
+      - are you in your forties?
+      - which age stage are you in?
+      - can you tell me your precise age range?
+      - is your age high or low?
+      - do you feel young for your age?
+      - do you feel mature for your age?
+      - does your age match your experience?
+      - are you in your consolidated adulthood?
+      - are you in a mature youth phase?
+      - which age segment represents you?
+      - are you at a comfortable age?
+      - do you feel stable at your age?
+      - does your age influence your work?
+      - does your age matter to you?
+      - how do you feel about your current age?
+      - what’s your view on your age?
+      - does your age help you at work?
+      - does your age give you an advantage?
+      - does your age give you maturity?
+      - does your age give you motivation?
+      - does your age bring calm?
+      - does your age bring experience?
+      - do you feel good at your age?
+      - do you like your current age?
+      - would you change your age if you could?
+      - does your age influence your routine?
+      - does your age influence your style?
+      - does your age influence your pace?
+      - do you think your age matters here?
+      - do you think your age is neutral?
+      - does your age make a difference to you?
+      - does your age matter in your career?
+      - are you proud of your age?
+      - do you hide your age or share it normally?
+      - does your age help you make decisions?
+      - does your age give you confidence?
+      - did another age phase mark you?
+      - does your current age define you?
+      - do you feel your age represents you?
+      - does your age bring you focus?
+      - does your age bring you vision?
+      - does your age bring you balance?
+      - does your age bring you clarity?
+      - what age are you living right now?
+      - is your age comfortable for you?
+      - has your age been positive for you?
+      - does your age put you in a good phase?
+      - does your age make sense for you?

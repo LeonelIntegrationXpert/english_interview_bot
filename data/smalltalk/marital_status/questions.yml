@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: marital_status
+    examples: |
+      - você é casado, solteiro ou qual é o seu estado civil?
+      - posso perguntar qual é o seu estado civil?
+      - você é casado no momento?
+      - você está em um relacionamento estável?
+      - como está sua vida familiar hoje, você é casado?
+      - você se sente à vontade para dizer seu estado civil?
+      - você é solteiro, casado ou vive com alguém?
+      - só por curiosidade, você é casado?
+      - você tem companheira ou companheiro?
+      - como você descreve seu estado civil atual?
+      - você está em um relacionamento hoje?
+      - você vive com alguém atualmente?
+      - você tem esposa ou parceiro?
+      - você está em união estável?
+      - você está solteiro neste momento?
+      - seu estado civil é qual?
+      - você é divorciado ou casado?
+      - você está casado há bastante tempo?
+      - você mora com sua família?
+      - você vive junto com alguém?
+      - você tem relacionamento formal?
+      - você tem relacionamento assumido?
+      - seu estado civil mudou recentemente?
+      - você está em fase solteira?
+      - você está em fase casada?
+      - você está comprometido hoje?
+      - posso registrar seu estado civil?
+      - você pode confirmar seu estado civil?
+      - sua vida familiar é estável hoje?
+      - você está vivendo com seu parceiro?
+      - você tem relacionamento ativo?
+      - seu relacionamento é oficializado?
+      - seu relacionamento é recente?
+      - você tem parceria fixa?
+      - você tem laço familiar direto?
+      - você tem vínculo conjugal?
+      - você tem vínculo afetivo estável?
+      - você é oficialmente casado?
+      - você é oficialmente solteiro?
+      - você tem relação estável há anos?
+      - você tem relação estável recente?
+      - você se considera comprometido?
+      - você se considera solteiro hoje?
+      - você tem família própria?
+      - você tem núcleo familiar ativo?
+      - você vive em casa com esposa?
+      - você vive em casa com parceiro?
+      - você vive sozinho?
+      - você vive acompanhado?
+      - seu lar é compartilhado?
+      - seu lar é individual?
+      - você assumiu união estável?
+      - você formalizou casamento?
+      - seu estado civil é simples?
+      - seu estado civil é complexo?
+      - você está em fase de união?
+      - você está em fase de separação?
+      - você está em fase de estabilidade?
+      - você está em fase de transição?
+      - você é solteiro com relacionamento?
+      - você é solteiro sem relacionamento?
+      - você é casado com filhos?
+      - você é casado sem filhos?
+      - você tem parceria de longa data?
+      - você tem parceria curta?
+      - seu relacionamento é estruturado?
+      - seu relacionamento é novo?
+      - você está aberto a falar disso?
+      - você prefere não detalhar seu estado civil?
+      - posso saber se você é casado?
+      - posso saber se você é solteiro?
+      - posso saber se você está em união?
+      - seu estado civil interfere na sua rotina?
+      - seu estado civil é estável?
+      - seu estado civil é recente?
+      - sua relação atual é contínua?
+      - sua relação atual é sólida?
+      - sua situação afetiva é qual?
+      - sua situação conjugal é qual?
+      - sua vida afetiva é ativa?
+      - sua vida afetiva é reservada?
+      - sua vida afetiva é estável?
+      - você se considera em relacionamento?
+      - você se considera solteiro?
+      - você tem relação fixa?
+      - você tem relação aberta?
+      - você vive relação tradicional?
+      - você vive relação moderna?
+      - seu relacionamento exige mudança?
+      - seu relacionamento é flexível?
+      - seu relacionamento afeta sua rotina?
+      - você convive com alguém diariamente?
+      - você divide a casa com parceiro?
+      - você mora só?
+      - você mora com família?
+      - você está construindo família?
+      - você está em fase de estabilidade familiar?
+      - você está em fase de crescimento familiar?
+      - seu estado civil está estável hoje?
+      - você está em um relacionamento formal no momento?
+      - is your marital status stable today?
+      - are you in a formal relationship right now?
+      - do you currently share your life with a partner?
+      - are you in any committed relationship at the moment?
+      - could you tell me if you are in a relationship today?
+      - are you married, single, or what is your marital status?
+      - can I ask what your marital status is?
+      - are you married at the moment?
+      - are you currently in a stable relationship?
+      - how is your family life today, are you married?
+      - would you feel comfortable sharing your marital status?
+      - are you single, married, or living with a partner?
+      - just out of curiosity, are you married?
+      - do you have a spouse or partner?
+      - how would you describe your current marital status?
+      - are you in a relationship right now?
+      - are you living with someone at the moment?
+      - do you have a wife or partner?
+      - are you in a civil partnership?
+      - are you currently single?
+      - what is your marital status today?
+      - are you divorced or married?
+      - have you been married for a long time?
+      - do you live with your family?
+      - do you live with a partner?
+      - do you have an official relationship?
+      - do you have a committed relationship?
+      - has your marital status changed recently?
+      - are you in a single phase?
+      - are you in a married phase?
+      - are you committed today?
+      - may I register your marital status?
+      - can you confirm your marital status?
+      - is your family life stable today?
+      - are you living with your partner?
+      - do you have an active relationship?
+      - is your relationship formalized?
+      - is your relationship recent?
+      - do you have a steady partner?
+      - do you have a close family tie?
+      - do you have a marital bond?
+      - do you have a stable emotional bond?
+      - are you officially married?
+      - are you officially single?
+      - have you been in a long-term relationship?
+      - are you in a recent relationship?
+      - do you consider yourself committed?
+      - do you consider yourself single?
+      - do you have your own family?
+      - do you have an active household?
+      - do you share your home with a spouse?
+      - do you share your home with a partner?
+      - do you live by yourself?
+      - do you live accompanied?
+      - is your home shared?
+      - is your home individual?
+      - are you in a civil union?
+      - have you formalized a marriage?
+      - is your marital status simple?
+      - is your marital status complex?
+      - are you in a union phase?
+      - are you in a separation phase?
+      - are you in a stable phase?
+      - are you in a transition phase?
+      - are you single but in a relationship?
+      - are you single without a relationship?
+      - are you married with children?
+      - are you married without children?
+      - do you have a long-term partner?
+      - do you have a short-term partner?
+      - is your relationship structured?
+      - is your relationship new?
+      - are you open to sharing this?
+      - would you prefer not to detail your marital status?
+      - may I know if you are married?
+      - may I know if you are single?
+      - may I know if you are in a union?
+      - does your marital status affect your routine?
+      - is your marital status stable?
+      - is your marital status recent?
+      - is your current relationship continuous?
+      - is your current relationship solid?
+      - what is your emotional situation?
+      - what is your conjugal situation?
+      - is your emotional life active?
+      - is your emotional life reserved?
+      - is your emotional life stable?
+      - do you consider yourself in a relationship?
+      - do you have a fixed relationship?
+      - do you have an open relationship?
+      - is your relationship traditional?
+      - is your relationship modern?
+      - does your relationship require changes?
+      - is your relationship flexible?
+      - does your relationship influence your routine?
+      - do you live with someone daily?
+      - do you live alone?
+      - are you building a family?
+      - are you in a stable family phase?
+      - are you in a growing family phase?

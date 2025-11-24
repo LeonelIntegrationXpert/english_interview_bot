@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: work_location_home_office
+    examples: |
+      - hoje você está em home office ou no escritório?
+      - você costuma trabalhar mais de casa ou presencialmente?
+      - você se adapta bem ao trabalho remoto?
+      - como é a sua rotina trabalhando de casa?
+      - você sente que produz melhor em home office ou no escritório?
+      - tem algum cantinho específico onde você trabalha em casa?
+      - como você costuma organizar seu ambiente de trabalho remoto?
+      - você sente falta do escritório ou gosta mais do modelo remoto?
+      - na sua rotina atual, o trabalho é mais remoto, híbrido ou presencial?
+      - você acha que o modelo remoto influenciou de alguma forma no seu foco ou produtividade?
+      - você prefere trabalhar de casa ou no escritório?
+      - seu ambiente de home office é silencioso?
+      - você costuma alternar entre home office e escritório?
+      - você sente que se concentra mais no home office?
+      - como você lida com distrações trabalhando de casa?
+      - você divide o espaço de trabalho com alguém em casa?
+      - você costuma fazer pausas curtas quando está em home office?
+      - seu home office é confortável para longas horas?
+      - você tem alguma rotina fixa no home office?
+      - trabalha melhor de manhã ou à tarde no home office?
+      - você sente mais autonomia trabalhando de casa?
+      - você já trabalhou 100% remoto antes?
+      - você costuma ajustar a iluminação do seu home office?
+      - você usa dois monitores em casa?
+      - você gosta de trabalhar perto da janela?
+      - você trabalha sempre no mesmo lugar em casa?
+      - você já teve dificuldade de internet no home office?
+      - você acha o home office mais produtivo?
+      - você tem separação clara entre trabalho e casa?
+      - você sente que rende mais no escritório?
+      - como você organiza seu horário no home office?
+      - você usa fone para trabalhar em casa?
+      - você trabalha com porta fechada para focar?
+      - você acha o ambiente do escritório mais motivador?
+      - você já montou seu setup ideal de home office?
+      - você costuma arrumar a mesa antes de trabalhar?
+      - você gosta do silêncio do home office?
+      - você sente falta de ver as pessoas do time pessoalmente?
+      - você trabalha melhor sem deslocamento?
+      - você acorda mais tranquilo trabalhando remoto?
+      - você já trabalhou no modelo híbrido?
+      - você prefere reuniões online ou presenciais?
+      - você tem uma cadeira ergonômica em casa?
+      - você tem rotina de alongamento trabalhando remoto?
+      - seu home office tem boa acústica?
+      - você costuma deixar água ou café perto quando trabalha?
+      - você usa teclado e mouse separados no home office?
+      - você trabalha com música ou silêncio em casa?
+      - como você lida com interrupções em casa?
+      - você acha o home office mais flexível?
+      - você acompanha melhor o tempo no home office?
+      - você sente que pausa menos trabalhando de casa?
+      - o home office atrapalha ou ajuda sua disciplina?
+      - você usa monitor extra no home office?
+      - você mantém uma rotina fixa mesmo remoto?
+      - você tem horário certo para começar no home office?
+      - você evita trabalhar no sofá ou na cama?
+      - você organiza sua mesa no final do dia?
+      - você acha que o home office reduz estresse?
+      - você sente mais conforto em casa para trabalhar?
+      - você coloca lembretes para não perder o ritmo?
+      - você trabalha com janela aberta ou fechada?
+      - você usa luz natural no home office?
+      - você acha o escritório muito barulhento?
+      - você prefere a privacidade do home office?
+      - você ajusta a temperatura do ambiente em casa?
+      - você já fez home office em outros lugares?
+      - você consegue manter foco fácil em casa?
+      - você usa timer ou técnicas de foco?
+      - você acha que o home office ajuda no bem-estar?
+      - você sente que o escritório ajuda na colaboração?
+      - você acha o home office mais econômico?
+      - você gosta de trabalhar com roupa confortável?
+      - você sente menos pressão no home office?
+      - você sente falta do networking do escritório?
+      - você acha que o home office te dá mais energia?
+      - o escritório te ajuda a separar vida pessoal?
+      - você costuma configurar o ambiente antes de começar?
+      - você acha o home office mais silencioso?
+      - você rende bem no remoto mesmo com demandas altas?
+      - você gosta da liberdade do modelo remoto?
+      - você acha que o home office melhora sua saúde mental?
+      - você sente que fica mais produtivo sem deslocamento?
+      - você já teve problemas técnicos frequentes no remoto?
+      - você acha o escritório mais prático para reuniões?
+      - você sente mais autonomia no home office?
+      - você já teve que reorganizar o ambiente para trabalhar?
+      - você evita usar o celular durante o home office?
+      - você sente que o home office permite mais concentração?
+      - você trabalha com luz quente ou fria em casa?
+      - você sente que a ergonomia melhora o seu desempenho no home office?
+      - você cria limites claros para não estender demais o horário?
+      - você gostaria de manter o modelo remoto no futuro?
+      - você segue bem sua agenda trabalhando de casa?
+      - você tem mais tempo livre no home office?
+      - você sente que trabalhando de casa o dia passa mais rápido ou mais devagar?
+      - no home office você consegue manter uma rotina bem organizada?
+      - você acha que o ambiente da sua casa te ajuda a se concentrar?
+      - quando você precisa focar mais, o home office funciona bem para você?
+      - você sente que trabalhando de casa tem mais autonomia sobre seu ritmo?
+      - do you feel the day goes by faster or slower when you work from home?
+      - are you able to maintain a well-structured routine while working from home?
+      - do you feel your home environment helps you concentrate?
+      - when you need deep focus, does working from home help you?
+      - do you feel you have more control over your pace when working from home?
+      - are you working from home or from the office today?
+      - do you usually work more from home or on-site?
+      - do you adapt well to remote work?
+      - what is your routine like when you’re working from home?
+      - do you feel you’re more productive working from home or at the office?
+      - do you have a specific setup or spot at home where you usually work?
+      - how do you usually organize your remote work environment?
+      - do you miss the office environment, or do you prefer remote work?
+      - in your current routine, is your work mostly remote, hybrid, or on-site?
+      - do you think the remote model has influenced your focus or productivity in any way?
+      - do you prefer working from home?
+      - is your home office quiet?
+      - do you switch between remote and on-site often?
+      - do you concentrate better working from home?
+      - how do you handle distractions at home?
+      - do you share your workspace with someone at home?
+      - do you take short breaks while working remotely?
+      - is your home office comfortable for long hours?
+      - do you follow a fixed routine when working from home?
+      - do you perform better in the morning or afternoon at home?
+      - does remote work give you more autonomy?
+      - have you worked fully remote before?
+      - do you adjust the lighting in your home workspace?
+      - do you use two monitors at home?
+      - do you like working near a window?
+      - do you always work in the same spot at home?
+      - do you ever struggle with internet issues at home?
+      - do you find remote work more productive?
+      - do you keep a clear separation between work and home?
+      - do you feel you perform better at the office?
+      - how do you manage your schedule when working from home?
+      - do you work with headphones on at home?
+      - do you close the door to stay focused?
+      - do you find the office more motivating?
+      - have you set up your ideal home office?
+      - do you tidy your desk before starting the day?
+      - do you enjoy the quiet of working from home?
+      - do you miss seeing your teammates in person?
+      - does skipping commuting improve your day?
+      - do you feel calmer working from home?
+      - have you worked in a hybrid model before?
+      - do you prefer online or in-person meetings?
+      - do you have an ergonomic chair at home?
+      - do you stretch during remote workdays?
+      - does your home office have good acoustics?
+      - do you keep water or coffee nearby while working?
+      - do you use an external keyboard and mouse at home?
+      - do you work with music or silence?
+      - how do you deal with interruptions at home?
+      - is remote work more flexible for you?
+      - do you track your time better working remotely?
+      - do you take fewer breaks when working from home?
+      - does remote work improve your discipline?
+      - do you use an extra monitor at home?
+      - do you maintain structure even working remotely?
+      - do you start work at a fixed time at home?
+      - do you avoid working on the couch or bed?
+      - do you organize your desk at the end of the day?
+      - does remote work reduce your stress?
+      - do you feel more comfortable working from home?
+      - do you use reminders to stay on track?
+      - do you work with windows open or closed?
+      - do you use natural light at home?
+      - do you find the office too noisy sometimes?
+      - do you prefer the privacy of working from home?
+      - do you control the room temperature at home?
+      - have you done remote work from different places?
+      - do you stay focused easily at home?
+      - do you use time-management techniques?
+      - does remote work improve your well-being?
+      - do you feel the office helps with collaboration?
+      - is remote work more cost-effective for you?
+      - do you enjoy working in comfortable clothes?
+      - do you feel less pressure at home?
+      - do you miss the networking at the office?
+      - does remote work give you more energy?
+      - does the office help you separate work and personal life?
+      - do you adjust your workspace before starting?
+      - do you find home office quieter?
+      - do you stay productive remotely even with high workload?
+      - do you enjoy the freedom of remote work?
+      - does remote work help your mental health?
+      - do you feel more productive without commuting?
+      - have you had frequent technical issues working remotely?
+      - is the office more practical for meetings?
+      - do you feel more autonomy working from home?
+      - have you ever reorganized your workspace to improve focus?
+      - do you avoid using your phone while working remotely?
+      - do you find it easier to concentrate at home?
+      - do you use warm or cool lighting at home?
+      - does ergonomics improve your performance at home?
+      - do you set boundaries to avoid overworking at home?
+      - would you like to keep remote work in the future?
+      - do you follow your schedule well working from home?
+      - do you get more free time with remote work?

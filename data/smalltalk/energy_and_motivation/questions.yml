@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: energy_and_motivation
+    examples: |
+      - o que te motiva no dia a dia?
+      - o que te dá energia para trabalhar?
+      - o que te deixa animado no trabalho?
+      - o que te ajuda nos dias difíceis?
+      - o que mantém seu ritmo na semana?
+      - o que te faz continuar quando cansa?
+      - o que te dá sensação de progresso?
+      - o que te deixa satisfeito no fim do dia?
+      - o que te deixa feliz após uma semana cheia?
+      - como você lida com dias puxados?
+      - como você se motiva em semanas pesadas?
+      - o que te recarrega de verdade?
+      - você se sente mais disciplinado ou motivado?
+      - o que te empurra para frente?
+      - o que te anima em novos desafios?
+      - o que te move em projetos novos?
+      - o que te motiva em aprender algo novo?
+      - o que te dá energia para resolver problemas?
+      - o que te inspira a começar o dia?
+      - o que te ajuda a manter constância?
+      - o que te faz sentir que valeu a pena?
+      - o que te deixa orgulhoso no trabalho?
+      - como você volta ao foco quando desanima?
+      - o que te ajuda a retomar motivação?
+      - o que te ajuda a não perder o ritmo?
+      - como você reage a uma semana difícil?
+      - o que te dá aquele “boost” no dia?
+      - o que te motiva quando está cansado?
+      - o que te anima em entregar resultados?
+      - o que te empolga em ver progresso?
+      - como você recupera energia?
+      - de onde vem sua motivação diária?
+      - como você encontra motivação rápida?
+      - o que evita que você desanime?
+      - como você mantém boa energia?
+      - o que te atrai em novos projetos?
+      - o que te motiva: desafio ou estabilidade?
+      - você gosta de metas rápidas?
+      - projetos longos te motivam?
+      - o que te motiva: impacto ou aprendizado?
+      - você busca reconhecimento?
+      - qual tipo de reconhecimento te motiva?
+      - você gosta de feedback?
+      - o que te faz sentir que está indo bem?
+      - o que te ajuda a manter disciplina?
+      - o que te energiza logo cedo?
+      - o que te dá motivação na segunda-feira?
+      - o que te motiva a seguir estudando?
+      - o que te anima a continuar aprendendo?
+      - o que te motiva a evoluir sempre?
+      - ver progresso te motiva?
+      - resolver problemas te motiva?
+      - ajudar pessoas te motiva?
+      - entregar valor te motiva?
+      - impacto do trabalho te motiva?
+      - você gosta da sensação de missão cumprida?
+      - o que te dá mais energia: desafio ou rotina?
+      - o que faz seu dia valer a pena?
+      - o que te traz satisfação rápida?
+      - o que te traz satisfação profunda?
+      - o que te ajuda a manter clareza mental?
+      - o que te incentiva a dar o seu melhor?
+      - o que rende mais motivação para você?
+      - pequenas vitórias te motivam?
+      - resultados grandes te motivam?
+      - você gosta de metas diárias?
+      - você gosta de metas semanais?
+      - você se motiva mais com autonomia?
+      - autonomia te dá energia?
+      - aprendizado te motiva?
+      - trabalhar com foco te motiva?
+      - produtividade te motiva?
+      - você gosta de desafios técnicos?
+      - resolver bugs te motiva?
+      - criar soluções te motiva?
+      - fazer entregas te motiva?
+      - colaborar com o time te motiva?
+      - ver impacto no cliente te motiva?
+      - seguir rotina te ajuda?
+      - quebrar rotina te anima?
+      - mudar de projeto te motiva?
+      - estabilidade te motiva?
+      - ambiente calmo te motiva?
+      - ambiente dinâmico te motiva?
+      - metas claras te motivam?
+      - resultados mensuráveis te motivam?
+      - feedback rápido te motiva?
+      - reconhecimento do time te motiva?
+      - reconhecimento do gestor te motiva?
+      - desafios novos te animam?
+      - aprender soft skills te anima?
+      - aprender hard skills te anima?
+      - ver crescimento pessoal te motiva?
+      - ver crescimento profissional te motiva?
+      - sentir evolução diária te motiva?
+      - entregar algo difícil te motiva?
+      - superar limites te motiva?
+      - construir algo novo te motiva?
+      - fazer parte do time te motiva?
+      - o que te ajuda a manter motivação mesmo em dias mais lentos?
+      - what motivates you day to day?
+      - what gives you energy at work?
+      - what keeps you going daily?
+      - what helps you on tough days?
+      - what keeps your pace strong?
+      - what pushes you when you're tired?
+      - what gives you a sense of progress?
+      - what satisfies you at the end of the day?
+      - what makes you happy after a long week?
+      - how do you handle low-energy days?
+      - how do you stay motivated in hard weeks?
+      - what recharges you the most?
+      - are you more motivated or disciplined?
+      - what pushes you forward?
+      - what excites you in new challenges?
+      - what motivates you in new projects?
+      - what drives you to learn more?
+      - what gives you energy to solve problems?
+      - what inspires you to start the day?
+      - what helps you stay consistent?
+      - what makes work feel worth it?
+      - what makes you feel proud at work?
+      - how do you reset your motivation?
+      - what helps you regain momentum?
+      - what keeps your rhythm stable?
+      - how do you deal with busy weeks?
+      - what gives you a daily energy boost?
+      - what motivates you when you're tired?
+      - what excites you about delivering results?
+      - what excites you about progress?
+      - how do you recover energy?
+      - where does your motivation come from?
+      - how do you find quick motivation?
+      - what prevents you from giving up?
+      - how do you maintain good energy?
+      - what attracts you in new projects?
+      - do challenges motivate you?
+      - does stability motivate you?
+      - do quick results motivate you?
+      - do long-term goals motivate you?
+      - does impact motivate you more?
+      - does learning motivate you more?
+      - do you like recognition?
+      - what kind of recognition motivates you?
+      - do you enjoy receiving feedback?
+      - what makes you feel you’re doing well?
+      - what helps you stay disciplined?
+      - what energizes your mornings?
+      - what motivates you on Mondays?
+      - what motivates you to keep studying?
+      - what motivates you to keep learning?
+      - what motivates your growth?
+      - does progress motivate you?
+      - does problem-solving motivate you?
+      - does helping others motivate you?
+      - does delivering value motivate you?
+      - does customer impact motivate you?
+      - do you like the “mission accomplished” feeling?
+      - do challenges give you more energy?
+      - does routine give you more energy?
+      - what makes your day worth it?
+      - what gives you quick satisfaction?
+      - what gives you deep satisfaction?
+      - what helps your mental clarity?
+      - what encourages you to give your best?
+      - what brings you the most motivation?
+      - do small wins motivate you?
+      - do big wins motivate you?
+      - do you like daily goals?
+      - do you like weekly goals?
+      - does autonomy motivate you?
+      - does freedom give you energy?
+      - does learning motivate you?
+      - does focused work motivate you?
+      - does productivity motivate you?
+      - do technical challenges motivate you?
+      - does debugging motivate you?
+      - does creating solutions motivate you?
+      - does delivering features motivate you?
+      - does teamwork motivate you?
+      - does customer value motivate you?
+      - does routine help you?
+      - does change help you?
+      - do project switches motivate you?
+      - does stability help you?
+      - do calm environments help you?
+      - do dynamic environments help you?
+      - do clear goals motivate you?
+      - do measurable results motivate you?
+      - does quick feedback motivate you?
+      - does team recognition motivate you?
+      - does manager recognition motivate you?
+      - do new challenges excite you?
+      - do soft skills motivate you?
+      - do hard skills motivate you?
+      - does personal growth motivate you?
+      - does professional growth motivate you?
+      - does daily improvement motivate you?
+      - does overcoming challenges motivate you?
+      - does building new things motivate you?

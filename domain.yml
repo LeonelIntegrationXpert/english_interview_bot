@@ -81,6 +81,14 @@ intents:
   - soccer_team
   - hobbies_general
   - weekend_plans
+  - movies_series
+  - music_preferences
+  - work_location_home_office
+  - energy_and_motivation
+  - age
+  - birthdate
+  - marital_status
+  - children
 actions:
   - action_fallback
 session_config:

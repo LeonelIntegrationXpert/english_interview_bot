@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: movies_series
+    examples: |
+      - você costuma assistir filmes ou séries no seu tempo livre?
+      - tem alguma série que você está acompanhando no momento?
+      - você prefere mais filmes, séries ou documentários?
+      - qual foi a última série ou filme que você assistiu e gostou bastante?
+      - você costuma assistir algo em inglês para praticar o idioma?
+      - tem algum tipo de conteúdo que você gosta de ver para relaxar depois do trabalho?
+      - você é mais de maratonar série ou de ver episódios aos poucos?
+      - tem algum gênero que você mais gosta, tipo ação, drama, ficção científica ou comédia?
+      - você gosta de rever coisas que já viu ou sempre procura algo novo?
+      - tem alguma recomendação de série ou filme que você normalmente indica para as pessoas?
+      - você costuma acompanhar lançamentos de filmes e séries?
+      - você prefere séries curtas ou longas?
+      - você gosta de assistir documentários no tempo livre?
+      - você acompanha produções brasileiras?
+      - você tem algum serviço de streaming preferido?
+      - você gosta de ver trailers antes de escolher algo?
+      - você costuma assistir conteúdo mais leve ou mais intenso?
+      - você gosta de ver filmes clássicos?
+      - você prefere episódios curtos ou longos?
+      - você acompanha séries de comédia?
+      - você costuma assistir séries policiais?
+      - você gosta de filmes de suspense?
+      - você acompanha produções de ficção científica?
+      - você gosta de séries baseadas em fatos reais?
+      - você prefere animações ou produções live-action?
+      - você assiste séries ou filmes para aprender inglês?
+      - você gosta de ver filmes de ação?
+      - você é fã de séries médicas ou jurídicas?
+      - você acompanha séries documentais?
+      - você vê reality shows ou não costuma acompanhar?
+      - você gosta de ver filmes antigos?
+      - você tem algum gênero que evita?
+      - você acompanha lançamentos semanais?
+      - você costuma ver filmes no sábado?
+      - você gosta de assistir algo antes de dormir?
+      - você tem alguma série que marcou sua vida?
+      - você acompanha séries famosas ou prefere produções menores?
+      - você gosta de ver séries em família?
+      - você prefere assistir sozinho ou acompanhado?
+      - você gosta de ver conteúdos de viagem?
+      - você assiste programas culinários?
+      - você costuma ver filmes longos?
+      - você gosta de curtas-metragens?
+      - você vê séries de fantasia?
+      - você gosta de filmes biográficos?
+      - você acompanha minisséries?
+      - você costuma ver produções internacionais?
+      - você acompanha produções asiáticas?
+      - você gosta de cinema europeu?
+      - você vê séries de investigação?
+      - você gosta de filmes tristes ou evita?
+      - você vê produções de comédia romântica?
+      - você acompanha séries de suspense psicológico?
+      - você costuma ver desenhos animados?
+      - você gosta de séries históricas?
+      - você assiste conteúdo para aprender algo específico?
+      - você vê documentários de tecnologia?
+      - você acompanha séries premiadas?
+      - você gosta de filmes independentes?
+      - você segue recomendações ou escolhe sozinho?
+      - você costuma ver listas de melhores séries?
+      - você gosta de acompanhar tendências de streaming?
+      - você usa filmes para estudar inglês?
+      - você prefere produções rápidas ou complexas?
+      - você gosta de ver making-of ou bastidores?
+      - você vê crítica de filmes ou não se interessa?
+      - você acompanha canais de análise de séries?
+      - você gosta de ver séries de época?
+      - você assiste conteúdos mais curtos durante a semana?
+      - você vê filmes apenas no fim de semana?
+      - você gosta de ver conteúdos inspiradores?
+      - você assiste conteúdos que ajudam no aprendizado?
+      - você costuma ver séries de ficção política?
+      - você gosta de filmes com muita ação?
+      - você gosta de produções voltadas para mistério?
+      - você acompanha séries de super-heróis?
+      - você gosta de ver remakes?
+      - você vê produções infantis com alguém?
+      - você gosta de animações adultas?
+      - você costuma assistir conteúdos de humor?
+      - você gosta de ver especiais de comédia?
+      - você vê filmes que ensinam idiomas?
+      - você gosta de revisar cenas para aprender inglês?
+      - você consome séries curtas durante a semana?
+      - você gosta de acompanhar trilhas sonoras?
+      - você vê filmes inspirados em livros?
+      - você acompanha adaptações literárias?
+      - você gosta de ver conteúdos motivacionais?
+      - você gosta de assistir séries com tramas mais lentas?
+      - você prefere histórias rápidas e objetivas?
+      - você acompanha notícias sobre cinema?
+      - você gosta de conhecer novos diretores?
+      - você assiste conteúdos por indicação de amigos?
+      - você usa filmes como forma de descanso mental?
+      - você costuma acompanhar filmes indicados ao Oscar?
+      - você gosta de assistir lançamentos logo que saem?
+      - você vê críticas antes de escolher um filme?
+      - você gosta de assistir séries curtas quando está com pouco tempo?
+      - você costuma ver filmes de animação mais modernos?
+      - você segue algum canal de resenhas de filmes ou séries?
+      - do you usually follow movies that get Oscar nominations?
+      - do you enjoy watching new releases as soon as they come out?
+      - do you check reviews before choosing a movie?
+      - do you like watching short series when you don’t have much time?
+      - do you enjoy watching modern animated films?
+      - do you follow any movie or series review channels?
+      - do you look for ratings before picking something to watch?
+      - do you usually watch movies or series in your free time?
+      - is there any series you are currently watching?
+      - do you prefer movies, series, or documentaries?
+      - what was the last series or movie you watched and really enjoyed?
+      - do you watch any content in English to practice the language?
+      - is there any kind of content you like to watch to relax after work?
+      - are you more of a binge-watcher or do you prefer watching episodes slowly over time?
+      - do you have a favorite genre, like action, drama, sci-fi, or comedy?
+      - do you like rewatching things you’ve already seen, or do you always look for something new?
+      - do you have any series or movie you usually recommend to people?
+      - do you follow new releases of movies or series?
+      - do you prefer short series or long ones?
+      - do you watch documentaries in your free time?
+      - do you follow Brazilian productions?
+      - do you have a preferred streaming service?
+      - do you like watching trailers before choosing something?
+      - do you prefer light content or more intense stories?
+      - do you enjoy watching classic films?
+      - do you prefer short or long episodes?
+      - do you watch comedy series?
+      - do you usually watch crime shows?
+      - do you enjoy suspense movies?
+      - do you watch science fiction productions?
+      - do you like series based on true events?
+      - do you prefer animations or live-action?
+      - do you watch movies to practice English?
+      - do you enjoy action films?
+      - do you like medical or legal dramas?
+      - do you watch documentary series?
+      - do you follow reality shows or not really?
+      - do you enjoy older movies?
+      - do you have any genre you avoid?
+      - do you watch weekly releases?
+      - do you usually watch movies on Saturdays?
+      - do you watch something before going to sleep?
+      - do you have a series that marked your life?
+      - do you follow popular shows or prefer smaller productions?
+      - do you watch series with your family?
+      - do you prefer watching alone or with someone?
+      - do you watch travel-related content?
+      - do you enjoy cooking shows?
+      - do you watch long films?
+      - do you enjoy short films?
+      - do you watch fantasy series?
+      - do you enjoy biographical films?
+      - do you follow miniseries?
+      - do you watch international productions?
+      - do you like Asian dramas?
+      - do you enjoy European cinema?
+      - do you watch investigation shows?
+      - do you like sad movies or avoid them?
+      - do you enjoy romantic comedies?
+      - do you watch psychological thrillers?
+      - do you watch animated shows?
+      - do you enjoy historical series?
+      - do you watch content to learn specific skills?
+      - do you watch tech documentaries?
+      - do you follow award-winning series?
+      - do you enjoy independent films?
+      - do you follow recommendations or choose alone?
+      - do you check best-series lists?
+      - do you follow streaming trends?
+      - do you use movies to study English?
+      - do you prefer fast-paced or complex stories?
+      - do you like behind-the-scenes content?
+      - do you watch film criticism?
+      - do you follow series analysts online?
+      - do you enjoy period dramas?
+      - do you watch shorter content on weekdays?
+      - do you save movies for the weekend?
+      - do you enjoy inspiring content?
+      - do you watch content that helps you learn?
+      - do you follow political fiction series?
+      - do you enjoy action-heavy movies?
+      - do you follow mystery-driven shows?
+      - do you watch superhero series?
+      - do you enjoy remakes?
+      - do you watch children’s content with someone?
+      - do you enjoy adult animations?
+      - do you watch comedy specials?
+      - do you watch content that helps with language learning?
+      - do you rewatch scenes to study English?
+      - do you watch short episodes during busy weeks?
+      - do you enjoy soundtracks while watching?
+      - do you watch book-based films?
+      - do you follow literary adaptations?
+      - do you enjoy motivational content?
+      - do you like slow-paced series?
+      - do you prefer fast-moving stories?
+      - do you follow movie-related news?
+      - do you explore new directors?
+      - do you watch content recommended by friends?
+      - do you use movies for mental relaxation?
