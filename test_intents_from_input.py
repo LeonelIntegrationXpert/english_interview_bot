@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-Testa todos os exemplos do input.txt contra um modelo Rasa rodando via HTTP
-e gera um relatório de acertos/erros por intent.
+Testa exemplos contra um modelo Rasa rodando via HTTP
+e gera um relatório de acertos/erros (modo rotulado)
+ou apenas de previsões (modo texto livre).
 
-Uso básico:
+Uso básico (dataset rotulado tipo input.txt):
     python test_intents_from_input.py
 
 Com parâmetros:
@@ -13,7 +14,15 @@ Com parâmetros:
         --input-file input.txt \
         --rasa-url http://localhost:5005/model/parse \
         --max 50 \
-        --errors-file errors_report.csv \
+        --errors-file reports/errors_labeled.csv \
+        --workers 8 \
+        --progress-every 50
+
+Dataset de texto livre (ex: input_val.txt, só perguntas):
+    python test_intents_from_input.py \
+        --input-file input_val.txt \
+        --rasa-url http://localhost:5005/model/parse \
+        --errors-file reports/predictions_free.csv \
         --workers 8 \
         --progress-every 50
 """
@@ -109,7 +118,7 @@ def parse_input_examples(file_path: str,
                          global_max_en: int | None,
                          global_max: int | None):
     """
-    Lê o input.txt e devolve uma lista de casos de teste:
+    Lê o input.txt e devolve uma lista de casos de teste (modo ROTULADO):
 
     [
       {"intent": "greeting/hello", "lang": "pt", "text": "oi"},
@@ -141,7 +150,7 @@ def parse_input_examples(file_path: str,
 
         m_intent = re.search(r'(?mi)^\s*#intent\s*:\s*(.+)$', block)
         if not m_intent:
-            print(f"⚠️  Bloco {idx} ignorado (sem #intent:). Prévia: {block[:120].replace(os.linesep, ' ')}")
+            # Aqui é ok ignorar, esse modo é só pra arquivo rotulado
             ignored_blocks += 1
             continue
         intent = m_intent.group(1).strip()
@@ -168,9 +177,35 @@ def parse_input_examples(file_path: str,
             test_cases.append({"intent": intent, "lang": "en", "text": ex})
 
     if ignored_blocks:
-        print(f"ℹ️  {ignored_blocks} bloco(s) ignorados por falta de #intent:.")
+        print(f"ℹ️  {ignored_blocks} bloco(s) ignorados por falta de #intent: (modo rotulado).")
 
     return test_cases
+
+
+# =============== PARSE DE ARQUIVO TEXTO LIVRE (SEM #intent) =============== #
+
+def parse_unlabeled_file(file_path: str):
+    """
+    Lê um arquivo com perguntas livres, uma por linha (sem #intent),
+    e devolve casos de teste com intent=None:
+
+    [
+      {"intent": None, "lang": "?", "text": "oi, tudo bem com você hoje?"},
+      ...
+    ]
+    """
+    cases = []
+    with open(file_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            text = line.strip()
+            if not text:
+                continue
+            # Se quiser, dá pra ignorar comentários começando com '#'
+            if text.startswith('#'):
+                continue
+            cases.append({"intent": None, "lang": "?", "text": text})
+
+    return cases
 
 
 # =============== TESTE CONTRA O RASA VIA HTTP ================== #
@@ -204,40 +239,62 @@ def run_tests(test_cases,
               sleep_between: float = 0.0,
               max_tests: int | None = None,
               progress_every: int = 25,
-              workers: int = 4):
+              workers: int = 4,
+              labeled: bool = True):
     """
     Executa os testes contra o Rasa e devolve:
-      - stats_por_intent
-      - lista_de_erros
+      - stats
+      - records (erros em modo rotulado, ou todas as previsões em modo texto livre)
 
-    Com suporte a multithreading (workers) e progresso em tempo real.
+    labeled=True  -> compara expected vs predicted, calcula acurácia.
+    labeled=False -> ignora expected, só conta distribuição de intents preditas.
     """
     total_cases = len(test_cases)
     if max_tests is not None:
         test_cases = test_cases[:max_tests]
 
     n_cases = len(test_cases)
+    modo = "ROTULADO (#intent)" if labeled else "TEXTO LIVRE (sem #intent)"
+    print(f"🔎 Modo: {modo}")
     print(f"🔎 Rodando testes em {n_cases} exemplos (de {total_cases} disponíveis)...")
 
     stats = defaultdict(lambda: {"total": 0, "correct": 0, "wrong": 0})
-    errors = []
+    records = []  # erros (labeled) ou todas as previsões (unlabeled)
 
-    # Se workers <= 1, volta pro modo sequencial
+    # Se workers <= 1, modo sequencial
     if workers <= 1:
+
         for idx, case in enumerate(test_cases, 1):
-            expected = case["intent"]
+            expected = case["intent"]  # pode ser None em modo unlabeled
             text = case["text"]
             lang = case["lang"]
 
             pred, conf, raw = call_rasa_parse(rasa_url, text)
-            ok = (pred == expected)
 
-            stats[expected]["total"] += 1
-            if ok:
-                stats[expected]["correct"] += 1
+            if labeled:
+                ok = (pred == expected)
+                key = expected
             else:
-                stats[expected]["wrong"] += 1
-                errors.append({
+                ok = True  # não faz sentido "erro" aqui
+                key = pred or "__NO_INTENT__"
+
+            stats[key]["total"] += 1
+            if labeled:
+                if ok:
+                    stats[key]["correct"] += 1
+                else:
+                    stats[key]["wrong"] += 1
+                    records.append({
+                        "lang": lang,
+                        "text": text,
+                        "expected": expected,
+                        "predicted": pred,
+                        "confidence": conf,
+                        "raw": raw,
+                    })
+            else:
+                # Em modo texto livre, guardamos TODAS as previsões em records
+                records.append({
                     "lang": lang,
                     "text": text,
                     "expected": expected,
@@ -248,18 +305,25 @@ def run_tests(test_cases,
 
             if progress_every > 0 and (idx % progress_every == 0 or idx == n_cases):
                 current_total = sum(v["total"] for v in stats.values())
-                current_correct = sum(v["correct"] for v in stats.values())
-                acc = (current_correct / current_total * 100.0) if current_total else 0.0
-                pct = idx / n_cases * 100.0
-                print(
-                    f"  • {idx}/{n_cases} exemplos processados "
-                    f"({pct:5.1f}%) | acurácia parcial: {acc:5.2f}%"
-                )
+                if labeled:
+                    current_correct = sum(v["correct"] for v in stats.values())
+                    acc = (current_correct / current_total * 100.0) if current_total else 0.0
+                    pct = idx / n_cases * 100.0
+                    print(
+                        f"  • {idx}/{n_cases} exemplos processados "
+                        f"({pct:5.1f}%) | acurácia parcial: {acc:5.2f}%"
+                    )
+                else:
+                    pct = idx / n_cases * 100.0
+                    print(
+                        f"  • {idx}/{n_cases} exemplos processados "
+                        f"({pct:5.1f}%)"
+                    )
 
             if sleep_between > 0:
                 time.sleep(sleep_between)
 
-        return stats, errors
+        return stats, records
 
     # ---------- MODO MULTITHREAD ----------
     def worker(case):
@@ -287,7 +351,7 @@ def run_tests(test_cases,
             except Exception as e:
                 # Se der erro inesperado na thread, registra como erro genérico
                 res = {
-                    "expected": "UNKNOWN",
+                    "expected": None,
                     "lang": "??",
                     "text": "",
                     "predicted": None,
@@ -302,14 +366,29 @@ def run_tests(test_cases,
             conf = res["confidence"]
             raw = res["raw"]
 
-            ok = (pred == expected)
-
-            stats[expected]["total"] += 1
-            if ok:
-                stats[expected]["correct"] += 1
+            if labeled:
+                ok = (pred == expected)
+                key = expected
             else:
-                stats[expected]["wrong"] += 1
-                errors.append({
+                ok = True
+                key = pred or "__NO_INTENT__"
+
+            stats[key]["total"] += 1
+            if labeled:
+                if ok:
+                    stats[key]["correct"] += 1
+                else:
+                    stats[key]["wrong"] += 1
+                    records.append({
+                        "lang": lang,
+                        "text": text,
+                        "expected": expected,
+                        "predicted": pred,
+                        "confidence": conf,
+                        "raw": raw,
+                    })
+            else:
+                records.append({
                     "lang": lang,
                     "text": text,
                     "expected": expected,
@@ -320,90 +399,121 @@ def run_tests(test_cases,
 
             if progress_every > 0 and (idx % progress_every == 0 or idx == n_cases):
                 current_total = sum(v["total"] for v in stats.values())
-                current_correct = sum(v["correct"] for v in stats.values())
-                acc = (current_correct / current_total * 100.0) if current_total else 0.0
-                pct = idx / n_cases * 100.0
-                print(
-                    f"  • {idx}/{n_cases} exemplos processados "
-                    f"({pct:5.1f}%) | acurácia parcial: {acc:5.2f}%"
-                )
+                if labeled:
+                    current_correct = sum(v["correct"] for v in stats.values())
+                    acc = (current_correct / current_total * 100.0) if current_total else 0.0
+                    pct = idx / n_cases * 100.0
+                    print(
+                        f"  • {idx}/{n_cases} exemplos processados "
+                        f"({pct:5.1f}%) | acurácia parcial: {acc:5.2f}%"
+                    )
+                else:
+                    pct = idx / n_cases * 100.0
+                    print(
+                        f"  • {idx}/{n_cases} exemplos processados "
+                        f"({pct:5.1f}%)"
+                    )
 
             if sleep_between > 0:
                 time.sleep(sleep_between)
 
-    return stats, errors
+    return stats, records
 
 
-def print_report(stats, errors):
-    """Mostra relatório no console."""
-    total = sum(v["total"] for v in stats.values())
-    total_correct = sum(v["correct"] for v in stats.values())
-    total_wrong = sum(v["wrong"] for v in stats.values())
-
-    acc = (total_correct / total * 100.0) if total else 0.0
-
+def print_report(stats, records, labeled: bool):
+    """Mostra relatório no console, adaptado para modo rotulado ou texto livre."""
     print("\n==================== RESULTADO GERAL ====================")
-    print(f"Total de exemplos testados : {total}")
-    print(f"Total de acertos           : {total_correct}")
-    print(f"Total de erros             : {total_wrong}")
-    print(f"Acurácia global            : {acc:.2f}%")
 
-    print("\n==================== POR INTENT =========================")
-    # ordena intents pelas que mais erraram (acurácia crescente)
-    for intent, v in sorted(stats.items(),
-                            key=lambda kv: (kv[1]["correct"] / kv[1]["total"]
-                                            if kv[1]["total"] else 0.0)):
-        t = v["total"]
-        if t == 0:
-            intent_acc = 0.0
-        else:
-            intent_acc = v["correct"] / t * 100.0
-        print(f"- {intent:40s}  total={t:4d}  "
-              f"ok={v['correct']:4d}  nok={v['wrong']:4d}  acc={intent_acc:6.2f}%")
+    if labeled:
+        total = sum(v["total"] for v in stats.values())
+        total_correct = sum(v["correct"] for v in stats.values())
+        total_wrong = sum(v["wrong"] for v in stats.values())
+        acc = (total_correct / total * 100.0) if total else 0.0
 
-    if errors:
-        print("\n==================== ERROS (AMOSTRA) ====================")
-        max_show = min(30, len(errors))
-        for i, e in enumerate(errors[:max_show], 1):
-            print(f"{i:02d}. [{e['lang']}] \"{e['text']}\"")
-            print(f"      esperado : {e['expected']}")
-            print(f"      predito  : {e['predicted']}  (conf={e['confidence']:.3f})")
-        if len(errors) > max_show:
-            print(f"... (+{len(errors) - max_show} erros adicionais não listados)")
+        print(f"Total de exemplos testados : {total}")
+        print(f"Total de acertos           : {total_correct}")
+        print(f"Total de erros             : {total_wrong}")
+        print(f"Acurácia global            : {acc:.2f}%")
+
+        print("\n==================== POR INTENT (esperada) ==============")
+        for intent, v in sorted(
+            stats.items(),
+            key=lambda kv: (kv[1]["correct"] / kv[1]["total"]
+                            if kv[1]["total"] else 0.0)
+        ):
+            t = v["total"]
+            intent_acc = (v["correct"] / t * 100.0) if t else 0.0
+            print(
+                f"- {str(intent):40s}  total={t:4d}  "
+                f"ok={v['correct']:4d}  nok={v['wrong']:4d}  acc={intent_acc:6.2f}%"
+            )
+
+        if records:
+            print("\n==================== ERROS (AMOSTRA) ====================")
+            max_show = min(30, len(records))
+            for i, e in enumerate(records[:max_show], 1):
+                print(f"{i:02d}. [{e['lang']}] \"{e['text']}\"")
+                print(f"      esperado : {e['expected']}")
+                print(f"      predito  : {e['predicted']}  (conf={e['confidence']:.3f})")
+            if len(records) > max_show:
+                print(f"... (+{len(records) - max_show} erros adicionais não listados)")
+
+    else:
+        # Modo texto livre: stats está como distribuição por intent predita
+        total = sum(v["total"] for v in stats.values())
+        print(f"Total de exemplos testados : {total}")
+        print("\n==================== DISTRIBUIÇÃO POR INTENT PREDITA ===")
+        for intent, v in sorted(
+            stats.items(),
+            key=lambda kv: kv[1]["total"],
+            reverse=True
+        ):
+            t = v["total"]
+            pct = (t / total * 100.0) if total else 0.0
+            print(f"- {str(intent):40s}  hits={t:4d}  ({pct:6.2f}%)")
+
+        print("\n(Em modo texto livre não há acurácia, só distribuição de previsões.)")
 
 
-def save_errors_csv(errors, path: str):
-    """Salva os erros em CSV pra você abrir no Excel/Sheets."""
+def save_records_csv(records, path: str):
+    """
+    Salva registros em CSV pra você abrir no Excel/Sheets.
+
+    Em modo rotulado: só erros.
+    Em modo texto livre: todas as previsões.
+    """
     import csv
 
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f, delimiter=';')
-        writer.writerow(["lang", "text", "expected_intent",
-                         "predicted_intent", "confidence", "raw_json"])
-        for e in errors:
+        writer.writerow([
+            "lang", "text", "expected_intent",
+            "predicted_intent", "confidence", "raw_json"
+        ])
+        for e in records:
             writer.writerow([
-                e["lang"],
-                e["text"],
-                e["expected"],
-                e["predicted"],
-                f"{e['confidence']:.6f}",
-                json.dumps(e["raw"], ensure_ascii=False),
+                e.get("lang", ""),
+                e.get("text", ""),
+                "" if e.get("expected") is None else e.get("expected"),
+                e.get("predicted"),
+                f"{e.get('confidence', 0.0):.6f}",
+                json.dumps(e.get("raw", {}), ensure_ascii=False),
             ])
-    print(f"💾 Arquivo de erros salvo em: {path}")
+    print(f"💾 Arquivo salvo em: {path}")
 
 
 # ========================= MAIN ========================== #
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Testa exemplos do input.txt contra um modelo Rasa via HTTP"
+        description="Testa exemplos de um arquivo contra um modelo Rasa via HTTP"
     )
     parser.add_argument(
         "--input-file",
         dest="input_file",
         default="input.txt",
-        help="Arquivo de entrada no formato com #intent/#pt/#en (default: input.txt)",
+        help="Arquivo de entrada. Pode ser rotulado (#intent/#pt/#en) ou texto livre.",
     )
     parser.add_argument(
         "--rasa-url",
@@ -416,21 +526,21 @@ def main():
         dest="max_both",
         type=int,
         default=None,
-        help="Limite global de exemplos por idioma (pt/en) por bloco (#max).",
+        help="Limite global de exemplos por idioma (pt/en) por bloco (#max). Só afeta modo rotulado.",
     )
     parser.add_argument(
         "--max-pt",
         dest="max_pt",
         type=int,
         default=None,
-        help="Limite global só para exemplos em PT (#max_pt).",
+        help="Limite global só para exemplos em PT (#max_pt). Só afeta modo rotulado.",
     )
     parser.add_argument(
         "--max-en",
         dest="max_en",
         type=int,
         default=None,
-        help="Limite global só para exemplos em EN (#max_en).",
+        help="Limite global só para exemplos em EN (#max_en). Só afeta modo rotulado.",
     )
     parser.add_argument(
         "--sleep",
@@ -450,7 +560,7 @@ def main():
         "--errors-file",
         dest="errors_file",
         default=None,
-        help="Se informado, salva erros em CSV neste caminho.",
+        help="Se informado, salva CSV com erros (modo rotulado) ou todas as previsões (modo texto livre).",
     )
     parser.add_argument(
         "--progress-every",
@@ -473,7 +583,7 @@ def main():
         print(f"❌ Arquivo de entrada não encontrado: {args.input_file}")
         sys.exit(1)
 
-    # 1) Monta dataset a partir do input.txt
+    # 1) Tenta ler como arquivo ROTULADO (input.txt-style)
     cases = parse_input_examples(
         args.input_file,
         global_max_pt=args.max_pt,
@@ -481,28 +591,37 @@ def main():
         global_max=args.max_both,
     )
 
+    labeled = True
     if not cases:
-        print("⚠️ Nenhum exemplo encontrado no input. Verifique o formato.")
+        # 2) Se não achou #intent, cai para modo TEXTO LIVRE
+        print("⚠️ Nenhum bloco com #intent encontrado. "
+              "Interpretando arquivo como perguntas soltas (sem rótulo)...")
+        cases = parse_unlabeled_file(args.input_file)
+        labeled = False
+
+    if not cases:
+        print("⚠️ Nenhuma linha utilizável encontrada no arquivo. Verifique o conteúdo.")
         sys.exit(1)
 
     print(f"✅ {len(cases)} exemplos carregados de {args.input_file}")
 
     # 2) Roda testes contra o Rasa
-    stats, errors = run_tests(
+    stats, records = run_tests(
         cases,
         rasa_url=args.rasa_url,
         sleep_between=args.sleep,
         max_tests=args.max_tests,
         progress_every=args.progress_every,
         workers=args.workers,
+        labeled=labeled,
     )
 
     # 3) Mostra relatório
-    print_report(stats, errors)
+    print_report(stats, records, labeled=labeled)
 
-    # 4) Salva CSV de erros, se pedido
-    if args.errors_file and errors:
-        save_errors_csv(errors, args.errors_file)
+    # 4) Salva CSV, se pedido
+    if args.errors_file and records:
+        save_records_csv(records, args.errors_file)
 
 
 if __name__ == "__main__":
