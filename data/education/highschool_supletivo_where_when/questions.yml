@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: highschool_supletivo_where_when
+    examples: |
+      - depois do fundamental, onde você concluiu o ensino médio ou supletivo?
+      - você pode me contar onde fez supletivo?
+      - em qual escola você fez o supletivo?
+      - onde você terminou o supletivo?
+      - você concluiu o ensino médio por supletivo? Onde foi?
+      - em que lugar você finalizou o supletivo?
+      - qual foi a instituição onde você fez supletivo?
+      - você lembra onde estudou quando fez supletivo?
+      - onde você estudou para concluir o supletivo?
+      - em qual escola você se formou no supletivo?
+      - você fez supletivo presencial ou EAD?
+      - o supletivo que você fez era em qual bairro?
+      - o supletivo foi feito na sua cidade ou fora?
+      - você concluiu o supletivo em quanto tempo?
+      - você fez o supletivo em escola particular?
+      - o supletivo foi feito à noite ou durante o dia?
+      - você lembra o endereço da instituição do supletivo?
+      - você fez supletivo sozinho ou com amigos?
+      - sua escola do supletivo era grande?
+      - o supletivo foi em qual estado?
+      - você concluiu o supletivo em Pelotas?
+      - sua turma do supletivo era grande?
+      - você mudou de instituição durante o supletivo?
+      - o supletivo tinha provas presenciais?
+      - o ambiente da escola do supletivo era tranquilo?
+      - o supletivo exigia muita dedicação?
+      - você concluiu o supletivo rápido?
+      - tinha laboratório ou estrutura extra na escola do supletivo?
+      - você estudou quantos meses para o supletivo?
+      - a instituição do supletivo era reconhecida na cidade?
+      - você foi aprovado direto no supletivo?
+      - o supletivo exigiu muitas avaliações?
+      - você lembra o nome de algum professor do supletivo?
+      - o supletivo foi uma decisão sua?
+      - você buscou o supletivo para acelerar os estudos?
+      - a escola do supletivo era perto da sua casa?
+      - havia muitos alunos adultos no supletivo?
+      - você estudava e trabalhava durante o supletivo?
+      - o supletivo foi concluído em sala ou online?
+      - você concluiu o supletivo antes dos dezoito anos?
+      - você fez o supletivo em um colégio conhecido?
+      - o supletivo tinha aulas práticas?
+      - tinha material didático próprio no supletivo?
+      - o supletivo exigia presença?
+      - você estudava quanto tempo por dia no supletivo?
+      - você fez supletivo em mais de um módulo?
+      - o supletivo tinha prova final unificada?
+      - havia intervalo entre as aulas no supletivo?
+      - você estudava com professores ou só com material?
+      - a escola do supletivo tinha biblioteca?
+      - você concluiu o supletivo no mesmo ano em que começou?
+      - a instituição oferecia acompanhamento pedagógico?
+      - o supletivo era dividido por matérias?
+      - você precisou recuperar alguma disciplina?
+      - você estudava português e matemática no supletivo?
+      - o supletivo teve formatura?
+      - havia entrega de certificado presencial?
+      - o certificado do supletivo saiu rápido?
+      - o supletivo exigiu TCC ou algo parecido?
+      - você lembra quantas pessoas se formaram com você?
+      - sua sala do supletivo tinha qual faixa etária?
+      - você estudou com pessoas mais velhas no supletivo?
+      - a escola tinha bom suporte para dúvidas?
+      - você precisou fazer reforço no supletivo?
+      - o supletivo foi concluído sem interrupções?
+      - você lembra qual foi seu maior desafio no supletivo?
+      - o supletivo ajudou na sua trajetória profissional?
+      - você estudava sozinho ou com grupo?
+      - você estudava mais em casa ou na instituição?
+      - seu supletivo tinha avaliações semanais?
+      - a escola do supletivo tinha boa reputação?
+      - você escolheu o Uni Colégio por indicação?
+      - levou quanto tempo para validar o certificado?
+      - o supletivo era dividido em módulos rápidos?
+      - você teve aula de ciência no supletivo?
+      - sua instituição do supletivo tinha secretaria ativa?
+      - você estudava com apostilas impressas?
+      - o supletivo acontecia em qual turno?
+      - você lembra a sala onde estudava?
+      - o prédio do supletivo tinha quantos andares?
+      - o supletivo era muito rígido com horários?
+      - você se dava bem com os professores do supletivo?
+      - você concluiu o supletivo com boas notas?
+      - o supletivo teve cerimônia simbólica?
+      - o certificado do supletivo veio digital?
+      - você guarda o certificado até hoje?
+      - o supletivo foi concluído em dois mil e oito?
+      - você entrou no supletivo em qual ano?
+      - qual foi a duração total do seu supletivo?
+      - você fez o supletivo em quantas matérias?
+      - você lembra a sala de prova final?
+      - sua instituição tinha muitos alunos em supletivo?
+      - havia atividades extras no supletivo?
+      - você estudava em carteiras individuais?
+      - sua escola tinha computadores?
+      - o supletivo que você fez era rápido ou semestral?
+      - você chegou a mudar de turma no período do supletivo?
+      - o supletivo tinha provas finais longas?
+      - o certificado do supletivo saiu logo após a conclusão?
+      - você fez o supletivo inteiro em Pelotas?
+      - was your supletivo a fast-track program?
+      - did you ever switch classes during your adult education?
+      - did the program include long final exams?
+      - was your supletivo certificate issued right after completion?
+      - did you complete the whole program in Pelotas?
+      - was the adult education course flexible in schedule?
+      - did you take evening classes for the supletivo?
+      - was attendance required every week?
+      - did you study multiple subjects at once?
+      - was the program recognized by employers?
+      - did you have to redo any subject?
+      - did the school offer online materials?
+      - was the building easy to access?
+      - did your supletivo require ID verification for exams?
+      - did you have classmates from different age groups?
+      - did you receive feedback on your tests?
+      - did the program follow a fixed curriculum?
+      - did you finish the supletivo earlier than planned?
+      - was the certificate accepted without issues?
+      - after elementary school, where did you complete your high school or adult education program?
+      - could you tell me where you did your adult education or equivalency program?
+      - at which school did you complete your supletivo or high school equivalency?
+      - where did you finish your supletivo studies?
+      - did you complete high school through an adult education program, and where was that?
+      - which institution did you attend for your supletivo?
+      - do you remember where you studied when you did your supletivo?
+      - where did you go to complete your high school through supletivo?
+      - could you share where you finished your supletivo program?
+      - what was the name of the school where you completed your supletivo?
+      - was your supletivo in-person or online?
+      - which neighborhood was the program located in?
+      - was your adult education course in your hometown?
+      - did you finish the supletivo quickly?
+      - was the program offered in the evening?
+      - do you remember the address of the institution?
+      - did you attend supletivo alone or with friends?
+      - was it a large institution?
+      - was the program in Pelotas?
+      - were there many adults studying with you?
+      - did you switch schools during the program?
+      - did the program require in-person exams?
+      - was the environment calm during supletivo?
+      - did the program require a lot of dedication?
+      - did you complete it on your first attempt?
+      - were there many tests?
+      - do you remember any teacher from the supletivo?
+      - was the decision to take supletivo yours?
+      - did you choose supletivo to accelerate your studies?
+      - was it close to your home?
+      - were there many working students?
+      - did the program include practical activities?
+      - did they provide their own study materials?
+      - did you have mandatory attendance?
+      - how many hours did you study per day?
+      - was the supletivo split into modules?
+      - was there a final unified exam?
+      - did the institution have a library?
+      - did you finish in the same year you started?
+      - did they offer academic support?
+      - was the program divided by subjects?
+      - did you need to recover any subjects?
+      - did you study math and Portuguese there?
+      - was there a graduation ceremony?
+      - was the certificate issued in person?
+      - did you receive the certificate quickly?
+      - was there any final project required?
+      - do you remember how many graduated with you?
+      - were your classmates older or younger?
+      - was the institution supportive with questions?
+      - did you need extra tutoring?
+      - was the supletivo completed without interruptions?
+      - what was your biggest challenge in the program?
+      - did supletivo help your professional trajectory?
+      - did you study alone or in groups?
+      - were there weekly tests?
+      - did the institution have a good reputation?
+      - was Uni Colégio your first choice?
+      - was the certificate validated quickly?
+      - was the program modular and fast?
+      - did you have science classes?
+      - did the institution have an active front desk?
+      - did you use printed study materials?
+      - which shift were your classes?
+      - do you remember the classroom layout?
+      - how many floors did the building have?
+      - was the school strict with schedules?
+      - did you get along with the teachers?
+      - did you finish with good grades?
+      - was there any symbolic ceremony?
+      - did you get a digital certificate?
+      - do you still keep the certificate?
+      - did you finish supletivo in two thousand and eight?
+      - what year did you start the program?
+      - what was the total duration?
+      - how many subjects did you complete?
+      - do you remember the final exam room?
+      - was the institution popular for supletivo?
+      - were there extra activities?
+      - did you use individual desks?
+      - did the institution have computers?

@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: basic_school_where_when
+    examples: |
+      - você pode me contar onde você fez o ensino fundamental?
+      - em qual escola você cursou o ensino fundamental?
+      - onde você estudou no ensino fundamental?
+      - em que escola você terminou o ensino fundamental?
+      - onde você concluiu o ensino fundamental?
+      - qual foi a escola do seu ensino fundamental?
+      - você lembra onde estudou no fundamental?
+      - em qual escola você se formou no ensino fundamental?
+      - onde você fez a maior parte do seu ensino fundamental?
+      - em que lugar você finalizou o ensino fundamental?
+      - sua escola de ensino fundamental ficava em qual bairro?
+      - você estudou em escola pública ou particular no fundamental?
+      - você mudou de escola no fundamental ou ficou na mesma?
+      - em quantas escolas você estudou durante o fundamental?
+      - você estudou em Pelotas no fundamental?
+      - sua escola do fundamental ainda existe hoje?
+      - você lembra o nome completo da escola do fundamental?
+      - seu ensino fundamental foi em escola grande ou pequena?
+      - você cursou o fundamental perto de casa?
+      - sua escola ficava longe da sua residência?
+      - você estudou em turno da manhã ou tarde no fundamental?
+      - você ficou muitos anos na mesma escola no fundamental?
+      - você começou e terminou na mesma escola?
+      - sua escola do fundamental era tradicional?
+      - você lembra a localização da sua escola do fundamental?
+      - onde ficava a sua sala de aula no fundamental?
+      - como era a estrutura da sua escola do fundamental?
+      - sua escola era conhecida na cidade?
+      - você frequentava atividades extras no fundamental?
+      - sua escola tinha quantos alunos mais ou menos?
+      - era uma escola estadual ou municipal?
+      - você lembra qual série gostava mais no fundamental?
+      - você teve muitos professores no fundamental?
+      - você estudava com os mesmos colegas todos os anos?
+      - você trocou de turno no fundamental?
+      - você mudou de bairro durante o fundamental?
+      - sua escola era perto de algum ponto conhecido?
+      - seu caminho até a escola era longo?
+      - sua escola do fundamental era simples ou maior?
+      - você lembra da fachada da escola?
+      - você estudou com irmãos no fundamental?
+      - seus irmãos também estudaram na mesma escola?
+      - sua escola tinha quantas turmas por série?
+      - você participava de eventos escolares no fundamental?
+      - sua escola fazia feiras ou apresentações?
+      - sua escola era perto do centro da cidade?
+      - seu fundamental foi concluído em qual ano?
+      - você repetiu alguma série no fundamental?
+      - você gostava da escola do fundamental?
+      - qual professor marcou seu fundamental?
+      - você lembra a cor do uniforme?
+      - sua escola tinha uniforme obrigatório?
+      - você ia a pé para a escola?
+      - alguém te acompanhava até a escola?
+      - sua escola era organizada?
+      - você lembra os nomes de colegas do fundamental?
+      - seu fundamental teve quantos anos na mesma escola?
+      - você estudava em escola mista?
+      - sua escola tinha biblioteca?
+      - sua escola tinha laboratório?
+      - havia quadra esportiva na sua escola?
+      - sua escola fazia excursões?
+      - sua escola tinha merenda?
+      - você estudava em tempo integral no fundamental?
+      - sua turma tinha quantos alunos?
+      - sua escola tinha diretora ou diretor conhecido?
+      - seu fundamental teve algum momento marcante?
+      - você mudaria algo da sua escola do fundamental?
+      - sua experiência no fundamental foi tranquila?
+      - você lembra a rua da sua escola?
+      - sua escola ficava em bairro central?
+      - você estudou com primos no fundamental?
+      - tinha transporte escolar?
+      - sua escola tinha aula de informática?
+      - sua escola dava reforço?
+      - você participava de atividades esportivas no fundamental?
+      - tinha música ou artes na sua escola?
+      - sua escola tinha recreio grande?
+      - você estudou com muita disciplina no fundamental?
+      - você gostava da rotina do fundamental?
+      - seu fundamental influenciou sua carreira?
+      - você estudava mais em casa ou na escola?
+      - você lembra alguma história marcante do fundamental?
+      - a escola te dava suporte nos estudos?
+      - seus pais participavam da escola?
+      - sua escola tinha reunião frequente?
+      - você chegou a mudar de cidade no fundamental?
+      - você estudou em escola rural ou urbana?
+      - sua escola era pequena e familiar?
+      - você manteve amigos do fundamental?
+      - quantos anos você tinha quando terminou o fundamental?
+      - você estudou até qual série na mesma escola?
+      - você se formou com quantos colegas?
+      - sua escola tinha cerimônia de formatura?
+      - você lembra da diretora da escola?
+      - sua escola tinha slogan?
+      - sua escola tinha boas instalações?
+      - sua escola ficava em qual zona da cidade?
+      - sua escola do fundamental ficava em qual região da cidade?
+      - você concluiu o fundamental com quantos anos?
+      - was your elementary school close to your neighborhood?
+      - did you complete elementary school at the usual age for your region?
+      - was your school located in a busy or quiet area?
+      - did your school have many classrooms or just a few?
+      - was it a well-known school in your city?
+      - could you tell me where you went to elementary school?
+      - which school did you attend for your elementary education?
+      - where did you study during your elementary school years?
+      - at which school did you complete your elementary schooling?
+      - where did you finish your basic education?
+      - what was the name of your elementary school?
+      - do you remember where you studied in elementary school?
+      - at which school did you graduate from elementary school?
+      - where did you spend most of your elementary school years?
+      - could you share where you completed your elementary education?
+      - which neighborhood was your elementary school in?
+      - did you study in a public or private school?
+      - did you stay in the same school during elementary years?
+      - did you switch schools in elementary school?
+      - was your elementary school located in Pelotas?
+      - does your elementary school still exist today?
+      - do you remember the full name of your elementary school?
+      - was your school big or small?
+      - was your elementary school close to your home?
+      - was the walk to school long for you?
+      - did you study in the morning or afternoon?
+      - did you stay many years in the same school?
+      - did you start and finish in the same school?
+      - was your elementary school well known in the city?
+      - do you remember the location of the school?
+      - what was the structure of your elementary school like?
+      - did your school hold events or fairs?
+      - how many students were in your school?
+      - was it a state or city school?
+      - did you have many teachers in elementary school?
+      - did you study with the same classmates each year?
+      - did your school have different buildings?
+      - did you move houses during elementary school?
+      - was your school near any known landmarks?
+      - how long was your commute to school?
+      - was your school simple or large?
+      - do you remember how the school looked?
+      - did you study with siblings in elementary school?
+      - did your siblings attend the same school?
+      - how many classes per grade did your school have?
+      - did your school have performances or presentations?
+      - was your school close to downtown?
+      - what year did you finish elementary school?
+      - did you repeat any grade in elementary school?
+      - did you enjoy your school years?
+      - which teacher marked your elementary years?
+      - do you remember the uniform?
+      - did your school require uniforms?
+      - did you walk to school?
+      - did someone accompany you?
+      - was your school well organized?
+      - do you remember classmates from that time?
+      - how many years did you spend in the same school?
+      - was your school co-ed?
+      - did your school have a library?
+      - did it have a science lab?
+      - did it have a sports court?
+      - did your school have field trips?
+      - did your school provide meals?
+      - did you study full-time?
+      - how many students were in your class?
+      - did your school have a well-known principal?
+      - was there any memorable event during your elementary years?
+      - would you change anything about your elementary school?
+      - was your experience positive overall?
+      - do you remember the street of your school?
+      - was your school in a central neighborhood?
+      - did you study with cousins there?
+      - was there school transportation?
+      - did the school have computer classes?
+      - did they offer tutoring?
+      - did you participate in sports activities?
+      - did the school have music or arts?
+      - was the recess large?
+      - did you study more at home or at school?
+      - did your elementary years influence your career?
+      - did the school support you academically?
+      - did your parents engage with the school?
+      - were there frequent parent meetings?
+      - did you ever change cities during elementary school?
+      - was the school rural or urban?
+      - was the school small and familiar?
+      - did you keep friends from elementary school?
+      - how old were you when you finished?
+      - how many students graduated with you?
+      - did your school hold a graduation ceremony?
+      - do you remember the principal’s name?
+      - did your school have a motto?
+      - were the school’s facilities good?
+      - was your school in the north or south of the city?
+      - could you confirm the exact name of the school?
+      - was your school recognized for anything?
+      - did the school have a playground?
+      - did the school have a garden area?
+      - did your school have a cafeteria?

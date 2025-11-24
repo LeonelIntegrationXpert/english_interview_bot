@@ -392,3 +392,11 @@ stories:
     steps:
       - intent: address_more_details
       - action: utter_address_more_details
+  - story: story_basic_school_where_when
+    steps:
+      - intent: basic_school_where_when
+      - action: utter_basic_school_where_when
+  - story: story_highschool_supletivo_where_when
+    steps:
+      - intent: highschool_supletivo_where_when
+      - action: utter_highschool_supletivo_where_when

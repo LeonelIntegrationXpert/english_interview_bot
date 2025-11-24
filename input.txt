@@ -20902,3 +20902,422 @@ Hoje eu moro em Pelotas, no bairro Vila Francesa, número mil trezentos e sessen
 #vr_en: |
 Right now I live in Pelotas, in the Vila Francesa neighborhood, number one thousand three hundred and sixty, in the state of Rio Grande do Sul, in Brazil.
 ---
+#intent: education/basic_school_where_when
+#pt:
+- você pode me contar onde você fez o ensino fundamental?
+- em qual escola você cursou o ensino fundamental?
+- onde você estudou no ensino fundamental?
+- em que escola você terminou o ensino fundamental?
+- onde você concluiu o ensino fundamental?
+- qual foi a escola do seu ensino fundamental?
+- você lembra onde estudou no fundamental?
+- em qual escola você se formou no ensino fundamental?
+- onde você fez a maior parte do seu ensino fundamental?
+- em que lugar você finalizou o ensino fundamental?
+- sua escola de ensino fundamental ficava em qual bairro?
+- você estudou em escola pública ou particular no fundamental?
+- você mudou de escola no fundamental ou ficou na mesma?
+- em quantas escolas você estudou durante o fundamental?
+- você estudou em Pelotas no fundamental?
+- sua escola do fundamental ainda existe hoje?
+- você lembra o nome completo da escola do fundamental?
+- seu ensino fundamental foi em escola grande ou pequena?
+- você cursou o fundamental perto de casa?
+- sua escola ficava longe da sua residência?
+- você estudou em turno da manhã ou tarde no fundamental?
+- você ficou muitos anos na mesma escola no fundamental?
+- você começou e terminou na mesma escola?
+- sua escola do fundamental era tradicional?
+- você lembra a localização da sua escola do fundamental?
+- onde ficava a sua sala de aula no fundamental?
+- como era a estrutura da sua escola do fundamental?
+- sua escola era conhecida na cidade?
+- você frequentava atividades extras no fundamental?
+- sua escola tinha quantos alunos mais ou menos?
+- era uma escola estadual ou municipal?
+- você lembra qual série gostava mais no fundamental?
+- você teve muitos professores no fundamental?
+- você estudava com os mesmos colegas todos os anos?
+- você trocou de turno no fundamental?
+- você mudou de bairro durante o fundamental?
+- sua escola era perto de algum ponto conhecido?
+- seu caminho até a escola era longo?
+- sua escola do fundamental era simples ou maior?
+- você lembra da fachada da escola?
+- você estudou com irmãos no fundamental?
+- seus irmãos também estudaram na mesma escola?
+- sua escola tinha quantas turmas por série?
+- você participava de eventos escolares no fundamental?
+- sua escola fazia feiras ou apresentações?
+- sua escola era perto do centro da cidade?
+- seu fundamental foi concluído em qual ano?
+- você repetiu alguma série no fundamental?
+- você gostava da escola do fundamental?
+- qual professor marcou seu fundamental?
+- você lembra a cor do uniforme?
+- sua escola tinha uniforme obrigatório?
+- você ia a pé para a escola?
+- alguém te acompanhava até a escola?
+- sua escola era organizada?
+- você lembra os nomes de colegas do fundamental?
+- seu fundamental teve quantos anos na mesma escola?
+- você estudava em escola mista?
+- sua escola tinha biblioteca?
+- sua escola tinha laboratório?
+- havia quadra esportiva na sua escola?
+- sua escola fazia excursões?
+- sua escola tinha merenda?
+- você estudava em tempo integral no fundamental?
+- sua turma tinha quantos alunos?
+- sua escola tinha diretora ou diretor conhecido?
+- seu fundamental teve algum momento marcante?
+- você mudaria algo da sua escola do fundamental?
+- sua experiência no fundamental foi tranquila?
+- você lembra a rua da sua escola?
+- sua escola ficava em bairro central?
+- você estudou com primos no fundamental?
+- tinha transporte escolar?
+- sua escola tinha aula de informática?
+- sua escola dava reforço?
+- você participava de atividades esportivas no fundamental?
+- tinha música ou artes na sua escola?
+- sua escola tinha recreio grande?
+- você estudou com muita disciplina no fundamental?
+- você gostava da rotina do fundamental?
+- seu fundamental influenciou sua carreira?
+- você estudava mais em casa ou na escola?
+- você lembra alguma história marcante do fundamental?
+- a escola te dava suporte nos estudos?
+- seus pais participavam da escola?
+- sua escola tinha reunião frequente?
+- você chegou a mudar de cidade no fundamental?
+- você estudou em escola rural ou urbana?
+- sua escola era pequena e familiar?
+- você manteve amigos do fundamental?
+- quantos anos você tinha quando terminou o fundamental?
+- você estudou até qual série na mesma escola?
+- você se formou com quantos colegas?
+- sua escola tinha cerimônia de formatura?
+- você lembra da diretora da escola?
+- sua escola tinha slogan?
+- sua escola tinha boas instalações?
+- sua escola ficava em qual zona da cidade?
+- sua escola do fundamental ficava em qual região da cidade?
+- você concluiu o fundamental com quantos anos?
+#en:
+- was your elementary school close to your neighborhood?
+- did you complete elementary school at the usual age for your region?
+- was your school located in a busy or quiet area?
+- did your school have many classrooms or just a few?
+- was it a well-known school in your city?
+- could you tell me where you went to elementary school?
+- which school did you attend for your elementary education?
+- where did you study during your elementary school years?
+- at which school did you complete your elementary schooling?
+- where did you finish your basic education?
+- what was the name of your elementary school?
+- do you remember where you studied in elementary school?
+- at which school did you graduate from elementary school?
+- where did you spend most of your elementary school years?
+- could you share where you completed your elementary education?
+- which neighborhood was your elementary school in?
+- did you study in a public or private school?
+- did you stay in the same school during elementary years?
+- did you switch schools in elementary school?
+- was your elementary school located in Pelotas?
+- does your elementary school still exist today?
+- do you remember the full name of your elementary school?
+- was your school big or small?
+- was your elementary school close to your home?
+- was the walk to school long for you?
+- did you study in the morning or afternoon?
+- did you stay many years in the same school?
+- did you start and finish in the same school?
+- was your elementary school well known in the city?
+- do you remember the location of the school?
+- what was the structure of your elementary school like?
+- did your school hold events or fairs?
+- how many students were in your school?
+- was it a state or city school?
+- did you have many teachers in elementary school?
+- did you study with the same classmates each year?
+- did your school have different buildings?
+- did you move houses during elementary school?
+- was your school near any known landmarks?
+- how long was your commute to school?
+- was your school simple or large?
+- do you remember how the school looked?
+- did you study with siblings in elementary school?
+- did your siblings attend the same school?
+- how many classes per grade did your school have?
+- did your school have performances or presentations?
+- was your school close to downtown?
+- what year did you finish elementary school?
+- did you repeat any grade in elementary school?
+- did you enjoy your school years?
+- which teacher marked your elementary years?
+- do you remember the uniform?
+- did your school require uniforms?
+- did you walk to school?
+- did someone accompany you?
+- was your school well organized?
+- do you remember classmates from that time?
+- how many years did you spend in the same school?
+- was your school co-ed?
+- did your school have a library?
+- did it have a science lab?
+- did it have a sports court?
+- did your school have field trips?
+- did your school provide meals?
+- did you study full-time?
+- how many students were in your class?
+- did your school have a well-known principal?
+- was there any memorable event during your elementary years?
+- would you change anything about your elementary school?
+- was your experience positive overall?
+- do you remember the street of your school?
+- was your school in a central neighborhood?
+- did you study with cousins there?
+- was there school transportation?
+- did the school have computer classes?
+- did they offer tutoring?
+- did you participate in sports activities?
+- did the school have music or arts?
+- was the recess large?
+- did you study more at home or at school?
+- did your elementary years influence your career?
+- did the school support you academically?
+- did your parents engage with the school?
+- were there frequent parent meetings?
+- did you ever change cities during elementary school?
+- was the school rural or urban?
+- was the school small and familiar?
+- did you keep friends from elementary school?
+- how old were you when you finished?
+- how many students graduated with you?
+- did your school hold a graduation ceremony?
+- do you remember the principal’s name?
+- did your school have a motto?
+- were the school’s facilities good?
+- was your school in the north or south of the city?
+- could you confirm the exact name of the school?
+- was your school recognized for anything?
+- did the school have a playground?
+- did the school have a garden area?
+- did your school have a cafeteria?
+#rp_1
+#vr_pt: |
+Eu fiz o ensino fundamental na escola Hipólito Leite, em Pelotas, e me formei lá em dois mil e cinco.
+#vr_en: |
+I went to Hipólito Leite School, in Pelotas, for my elementary education, and I graduated from there in two thousand and five.
+---
+#intent: education/highschool_supletivo_where_when
+#pt:
+- depois do fundamental, onde você concluiu o ensino médio ou supletivo?
+- você pode me contar onde fez supletivo?
+- em qual escola você fez o supletivo?
+- onde você terminou o supletivo?
+- você concluiu o ensino médio por supletivo? Onde foi?
+- em que lugar você finalizou o supletivo?
+- qual foi a instituição onde você fez supletivo?
+- você lembra onde estudou quando fez supletivo?
+- onde você estudou para concluir o supletivo?
+- em qual escola você se formou no supletivo?
+- você fez supletivo presencial ou EAD?
+- o supletivo que você fez era em qual bairro?
+- o supletivo foi feito na sua cidade ou fora?
+- você concluiu o supletivo em quanto tempo?
+- você fez o supletivo em escola particular?
+- o supletivo foi feito à noite ou durante o dia?
+- você lembra o endereço da instituição do supletivo?
+- você fez supletivo sozinho ou com amigos?
+- sua escola do supletivo era grande?
+- o supletivo foi em qual estado?
+- você concluiu o supletivo em Pelotas?
+- sua turma do supletivo era grande?
+- você mudou de instituição durante o supletivo?
+- o supletivo tinha provas presenciais?
+- o ambiente da escola do supletivo era tranquilo?
+- o supletivo exigia muita dedicação?
+- você concluiu o supletivo rápido?
+- tinha laboratório ou estrutura extra na escola do supletivo?
+- você estudou quantos meses para o supletivo?
+- a instituição do supletivo era reconhecida na cidade?
+- você foi aprovado direto no supletivo?
+- o supletivo exigiu muitas avaliações?
+- você lembra o nome de algum professor do supletivo?
+- o supletivo foi uma decisão sua?
+- você buscou o supletivo para acelerar os estudos?
+- a escola do supletivo era perto da sua casa?
+- havia muitos alunos adultos no supletivo?
+- você estudava e trabalhava durante o supletivo?
+- o supletivo foi concluído em sala ou online?
+- você concluiu o supletivo antes dos dezoito anos?
+- você fez o supletivo em um colégio conhecido?
+- o supletivo tinha aulas práticas?
+- tinha material didático próprio no supletivo?
+- o supletivo exigia presença?
+- você estudava quanto tempo por dia no supletivo?
+- você fez supletivo em mais de um módulo?
+- o supletivo tinha prova final unificada?
+- havia intervalo entre as aulas no supletivo?
+- você estudava com professores ou só com material?
+- a escola do supletivo tinha biblioteca?
+- você concluiu o supletivo no mesmo ano em que começou?
+- a instituição oferecia acompanhamento pedagógico?
+- o supletivo era dividido por matérias?
+- você precisou recuperar alguma disciplina?
+- você estudava português e matemática no supletivo?
+- o supletivo teve formatura?
+- havia entrega de certificado presencial?
+- o certificado do supletivo saiu rápido?
+- o supletivo exigiu TCC ou algo parecido?
+- você lembra quantas pessoas se formaram com você?
+- sua sala do supletivo tinha qual faixa etária?
+- você estudou com pessoas mais velhas no supletivo?
+- a escola tinha bom suporte para dúvidas?
+- você precisou fazer reforço no supletivo?
+- o supletivo foi concluído sem interrupções?
+- você lembra qual foi seu maior desafio no supletivo?
+- o supletivo ajudou na sua trajetória profissional?
+- você estudava sozinho ou com grupo?
+- você estudava mais em casa ou na instituição?
+- seu supletivo tinha avaliações semanais?
+- a escola do supletivo tinha boa reputação?
+- você escolheu o Uni Colégio por indicação?
+- levou quanto tempo para validar o certificado?
+- o supletivo era dividido em módulos rápidos?
+- você teve aula de ciência no supletivo?
+- sua instituição do supletivo tinha secretaria ativa?
+- você estudava com apostilas impressas?
+- o supletivo acontecia em qual turno?
+- você lembra a sala onde estudava?
+- o prédio do supletivo tinha quantos andares?
+- o supletivo era muito rígido com horários?
+- você se dava bem com os professores do supletivo?
+- você concluiu o supletivo com boas notas?
+- o supletivo teve cerimônia simbólica?
+- o certificado do supletivo veio digital?
+- você guarda o certificado até hoje?
+- o supletivo foi concluído em dois mil e oito?
+- você entrou no supletivo em qual ano?
+- qual foi a duração total do seu supletivo?
+- você fez o supletivo em quantas matérias?
+- você lembra a sala de prova final?
+- sua instituição tinha muitos alunos em supletivo?
+- havia atividades extras no supletivo?
+- você estudava em carteiras individuais?
+- sua escola tinha computadores?
+- o supletivo que você fez era rápido ou semestral?
+- você chegou a mudar de turma no período do supletivo?
+- o supletivo tinha provas finais longas?
+- o certificado do supletivo saiu logo após a conclusão?
+- você fez o supletivo inteiro em Pelotas?
+#en:
+- was your supletivo a fast-track program?
+- did you ever switch classes during your adult education?
+- did the program include long final exams?
+- was your supletivo certificate issued right after completion?
+- did you complete the whole program in Pelotas?
+- was the adult education course flexible in schedule?
+- did you take evening classes for the supletivo?
+- was attendance required every week?
+- did you study multiple subjects at once?
+- was the program recognized by employers?
+- did you have to redo any subject?
+- did the school offer online materials?
+- was the building easy to access?
+- did your supletivo require ID verification for exams?
+- did you have classmates from different age groups?
+- did you receive feedback on your tests?
+- did the program follow a fixed curriculum?
+- did you finish the supletivo earlier than planned?
+- was the certificate accepted without issues?
+- after elementary school, where did you complete your high school or adult education program?
+- could you tell me where you did your adult education or equivalency program?
+- at which school did you complete your supletivo or high school equivalency?
+- where did you finish your supletivo studies?
+- did you complete high school through an adult education program, and where was that?
+- which institution did you attend for your supletivo?
+- do you remember where you studied when you did your supletivo?
+- where did you go to complete your high school through supletivo?
+- could you share where you finished your supletivo program?
+- what was the name of the school where you completed your supletivo?
+- was your supletivo in-person or online?
+- which neighborhood was the program located in?
+- was your adult education course in your hometown?
+- did you finish the supletivo quickly?
+- was the program offered in the evening?
+- do you remember the address of the institution?
+- did you attend supletivo alone or with friends?
+- was it a large institution?
+- was the program in Pelotas?
+- were there many adults studying with you?
+- did you switch schools during the program?
+- did the program require in-person exams?
+- was the environment calm during supletivo?
+- did the program require a lot of dedication?
+- did you complete it on your first attempt?
+- were there many tests?
+- do you remember any teacher from the supletivo?
+- was the decision to take supletivo yours?
+- did you choose supletivo to accelerate your studies?
+- was it close to your home?
+- were there many working students?
+- did the program include practical activities?
+- did they provide their own study materials?
+- did you have mandatory attendance?
+- how many hours did you study per day?
+- was the supletivo split into modules?
+- was there a final unified exam?
+- did the institution have a library?
+- did you finish in the same year you started?
+- did they offer academic support?
+- was the program divided by subjects?
+- did you need to recover any subjects?
+- did you study math and Portuguese there?
+- was there a graduation ceremony?
+- was the certificate issued in person?
+- did you receive the certificate quickly?
+- was there any final project required?
+- do you remember how many graduated with you?
+- were your classmates older or younger?
+- was the institution supportive with questions?
+- did you need extra tutoring?
+- was the supletivo completed without interruptions?
+- what was your biggest challenge in the program?
+- did supletivo help your professional trajectory?
+- did you study alone or in groups?
+- did you study more at home or at school?
+- were there weekly tests?
+- did the institution have a good reputation?
+- was Uni Colégio your first choice?
+- was the certificate validated quickly?
+- was the program modular and fast?
+- did you have science classes?
+- did the institution have an active front desk?
+- did you use printed study materials?
+- which shift were your classes?
+- do you remember the classroom layout?
+- how many floors did the building have?
+- was the school strict with schedules?
+- did you get along with the teachers?
+- did you finish with good grades?
+- was there any symbolic ceremony?
+- did you get a digital certificate?
+- do you still keep the certificate?
+- did you finish supletivo in two thousand and eight?
+- what year did you start the program?
+- what was the total duration?
+- how many subjects did you complete?
+- do you remember the final exam room?
+- was the institution popular for supletivo?
+- were there extra activities?
+- did you use individual desks?
+- did the institution have computers?
+#rp_1
+#vr_pt: |
+Depois do fundamental, eu conclui o supletivo no Uni Colégio, e terminei essa etapa em dois mil e oito.
+#vr_en: |
+After elementary school, I completed my adult education program, the supletivo, at Uni Colégio, and I finished that stage in two thousand and eight.
+---

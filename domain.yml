@@ -98,6 +98,8 @@ intents:
   - family_support_career
   - current_city_where_live
   - address_more_details
+  - basic_school_where_when
+  - highschool_supletivo_where_when
 actions:
   - action_fallback
 session_config:
