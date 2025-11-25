@@ -6,25 +6,17 @@ Testa exemplos contra um modelo Rasa rodando via HTTP
 e gera um relatório de acertos/erros (modo rotulado)
 ou apenas de previsões (modo texto livre).
 
-Uso básico (dataset rotulado tipo input.txt):
-    python test_intents_from_input.py
+- Cria pasta automática por teste: reports/test_XXX_YYYYMMDD_HHMMSS
+- Salva CSV dentro da pasta
+- Gera report.html dentro da pasta, lendo o CSV via JS
 
-Com parâmetros:
-    python test_intents_from_input.py \
-        --input-file input.txt \
-        --rasa-url http://localhost:5005/model/parse \
-        --max 50 \
-        --errors-file reports/errors_labeled.csv \
-        --workers 8 \
-        --progress-every 50
+Exemplo de uso:
 
-Dataset de texto livre (ex: input_val.txt, só perguntas):
-    python test_intents_from_input.py \
-        --input-file input_val.txt \
-        --rasa-url http://localhost:5005/model/parse \
-        --errors-file reports/predictions_free.csv \
-        --workers 8 \
-        --progress-every 50
+python test_intents_from_input.py \
+  --input-file input.txt \
+  --rasa-url http://localhost:5005/model/parse \
+  --workers 15 \
+  --progress-every 100
 """
 
 import os
@@ -53,6 +45,29 @@ def install_missing_packages():
 
 install_missing_packages()
 import requests  # noqa: E402
+
+
+# =============== HELPERS DE PASTA / RUN ================== #
+
+def create_test_run_dir(base_dir: str = "reports") -> str:
+    """
+    Cria uma pasta única para este teste.
+
+    Ex: reports/test_001_20251125_230501
+    """
+    os.makedirs(base_dir, exist_ok=True)
+    timestamp = time.strftime("%Y%m%d_%H%M%S")
+    existing = [
+        d for d in os.listdir(base_dir)
+        if os.path.isdir(os.path.join(base_dir, d)) and d.startswith("test_")
+    ]
+    # índice sequencial simples (não precisa ser perfeito)
+    idx = len(existing) + 1
+    run_name = f"test_{idx:03d}_{timestamp}"
+    run_dir = os.path.join(base_dir, run_name)
+    os.makedirs(run_dir, exist_ok=True)
+    print(f"📁 Pasta deste teste: {run_dir}")
+    return run_dir
 
 
 # =============== PARSE DO INPUT.TXT (FORMATO LEONEL) ================== #
@@ -277,7 +292,7 @@ def run_tests(test_cases,
     print(f"🔎 Rodando testes em {n_cases} exemplos (de {total_cases} disponíveis)...")
 
     stats = defaultdict(lambda: {"total": 0, "correct": 0, "wrong": 0})
-    records = []  # erros (labeled) ou todas as previsões (unlabeled)
+    records = []  # aqui vão os ERROS (labeled) ou TODAS as previsões (unlabeled)
 
     # Se workers <= 1, modo sequencial
     if workers <= 1:
@@ -522,7 +537,624 @@ def save_records_csv(records, path: str):
                 f"{e.get('confidence', 0.0):.6f}",
                 json.dumps(e.get("raw", {}), ensure_ascii=False),
             ])
-    print(f"💾 Arquivo salvo em: {path}")
+    print(f"💾 CSV salvo em: {path}")
+
+
+def save_html_report(stats, labeled: bool, run_dir: str, csv_filename: str | None):
+    """
+    Gera um report.html dentro da pasta do teste.
+
+    - Usa STATS embutido em JS para mostrar totais e acurácia por intent.
+    - Lê o CSV (erros/predictions) via fetch(CSV_FILENAME) para listar exemplos.
+    """
+    html_path = os.path.join(run_dir, "report.html")
+    stats_json = json.dumps(stats, ensure_ascii=False)
+    csv_js = json.dumps(csv_filename)  # pode ser None
+    labeled_js = "true" if labeled else "false"
+
+    html = f"""<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rasa NLU Test Report</title>
+  <style>
+    :root {{
+      --bg: #0b1020;
+      --bg-card: #151a2c;
+      --bg-soft: #1d2338;
+      --accent: #4f46e5;
+      --accent-soft: rgba(79,70,229,0.15);
+      --accent-danger: #dc2626;
+      --accent-warn: #ea580c;
+      --text-main: #e5e7eb;
+      --text-soft: #9ca3af;
+      --border-subtle: #1f2937;
+      --radius-lg: 14px;
+    }}
+    * {{
+      box-sizing: border-box;
+    }}
+    body {{
+      margin: 0;
+      padding: 24px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #1f2937 0, #020617 45%, #000 100%);
+      color: var(--text-main);
+    }}
+    .container {{
+      max-width: 1200px;
+      margin: 0 auto;
+    }}
+    h1 {{
+      font-size: 26px;
+      margin: 0 0 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }}
+    h1 span.badge {{
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid rgba(79,70,229,0.4);
+    }}
+    .subtitle {{
+      font-size: 13px;
+      color: var(--text-soft);
+      margin-bottom: 20px;
+    }}
+    .grid-summary {{
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
+    }}
+    .card {{
+      background: rgba(15,23,42,0.9);
+      border-radius: var(--radius-lg);
+      padding: 12px 14px;
+      border: 1px solid rgba(148,163,184,0.15);
+      box-shadow: 0 14px 40px rgba(15,23,42,0.7);
+      backdrop-filter: blur(10px);
+    }}
+    .card h2 {{
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-soft);
+      margin: 0 0 6px;
+    }}
+    .card .value {{
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }}
+    .card .helper {{
+      font-size: 11px;
+      color: var(--text-soft);
+    }}
+    .value.good {{
+      color: #22c55e;
+    }}
+    .value.warn {{
+      color: var(--accent-warn);
+    }}
+    .value.bad {{
+      color: var(--accent-danger);
+    }}
+    .section-title {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 20px 0 8px;
+    }}
+    .section-title h3 {{
+      margin: 0;
+      font-size: 16px;
+    }}
+    .chip {{
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: var(--bg-soft);
+      color: var(--text-soft);
+      border: 1px solid var(--border-subtle);
+    }}
+    table {{
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }}
+    thead {{
+      background: rgba(15,23,42,0.9);
+    }}
+    th, td {{
+      padding: 8px 10px;
+      text-align: left;
+      border-bottom: 1px solid rgba(31,41,55,0.7);
+      vertical-align: top;
+    }}
+    th {{
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-soft);
+    }}
+    tr:nth-child(even) td {{
+      background: rgba(15,23,42,0.5);
+    }}
+    tr:hover td {{
+      background: rgba(30,64,175,0.2);
+    }}
+    .table-wrapper {{
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(148,163,184,0.2);
+      overflow: hidden;
+      background: rgba(15,23,42,0.8);
+      box-shadow: 0 18px 40px rgba(15,23,42,0.9);
+    }}
+    .pill {{
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      border: 1px solid rgba(148,163,184,0.4);
+      background: rgba(15,23,42,0.9);
+    }}
+    .pill.ok {{
+      border-color: rgba(34,197,94,0.6);
+      color: #bbf7d0;
+      background: rgba(22,163,74,0.2);
+    }}
+    .pill.bad {{
+      border-color: rgba(239,68,68,0.6);
+      color: #fecaca;
+      background: rgba(239,68,68,0.15);
+    }}
+    .pill.mid {{
+      border-color: rgba(245,158,11,0.6);
+      color: #fef3c7;
+      background: rgba(245,158,11,0.15);
+    }}
+    .tag-intent {{
+      font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 11px;
+      padding: 3px 6px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(148,163,184,0.4);
+      color: #e5e7eb;
+      white-space: nowrap;
+    }}
+    .layout-two-cols {{
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.8fr);
+      gap: 16px;
+      align-items: flex-start;
+    }}
+    .filters {{
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }}
+    .filters input {{
+      flex: 1;
+      min-width: 180px;
+      padding: 6px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.4);
+      background: rgba(15,23,42,0.9);
+      color: var(--text-main);
+      font-size: 12px;
+    }}
+    .filters select {{
+      padding: 6px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.4);
+      background: rgba(15,23,42,0.9);
+      color: var(--text-main);
+      font-size: 12px;
+    }}
+    .muted {{
+      color: var(--text-soft);
+      font-size: 12px;
+    }}
+    .intent-row.active td {{
+      background: rgba(79,70,229,0.2) !important;
+    }}
+    .pill-dot {{
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      margin-right: 6px;
+      background: #22c55e;
+    }}
+    .pill-dot.bad {{
+      background: #ef4444;
+    }}
+    .pill-dot.mid {{
+      background: #eab308;
+    }}
+    .alert-soft {{
+      margin-top: 6px;
+      font-size: 11px;
+      color: var(--text-soft);
+    }}
+    .badge-soft {{
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(148,163,184,0.3);
+      color: var(--text-soft);
+    }}
+    @media (max-width: 960px) {{
+      .grid-summary {{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }}
+      .layout-two-cols {{
+        grid-template-columns: minmax(0, 1fr);
+      }}
+    }}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>
+        Rasa NLU Test Report
+        <span class="badge">{'Rotulado' if labeled else 'Texto livre'}</span>
+      </h1>
+      <div class="subtitle">
+        Visão consolidada da qualidade das intents, com breakdown por intent e exemplos de erros.
+      </div>
+    </header>
+
+    <section class="grid-summary" id="summary-cards">
+      <!-- Populado via JS -->
+    </section>
+
+    <section class="layout-two-cols">
+      <div>
+        <div class="section-title">
+          <h3>Intents &amp; Acurácia</h3>
+          <span class="chip" id="intents-count-chip"></span>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Intent (esperada)</th>
+                <th>Total</th>
+                <th>OK</th>
+                <th>Erros</th>
+                <th>Acurácia</th>
+              </tr>
+            </thead>
+            <tbody id="intent-rows">
+              <!-- Populado via JS -->
+            </tbody>
+          </table>
+        </div>
+        <div class="alert-soft">
+          Clique em uma intent para filtrar a tabela de exemplos de erro ao lado.
+        </div>
+      </div>
+
+      <div id="errors-section">
+        <div class="section-title">
+          <h3>Exemplos de Erro</h3>
+          <span class="chip" id="errors-count-chip"></span>
+        </div>
+        <div class="filters">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Filtrar por texto, intent esperada ou predita..."
+          />
+          <select id="filter-intent">
+            <option value="">Todas as intents</option>
+          </select>
+        </div>
+        <div class="table-wrapper" id="errors-table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Lang</th>
+                <th>Texto</th>
+                <th>Esperada</th>
+                <th>Predita</th>
+                <th>Conf.</th>
+              </tr>
+            </thead>
+            <tbody id="error-rows">
+              <!-- Populado via JS -->
+            </tbody>
+          </table>
+        </div>
+        <div class="alert-soft" id="errors-hint">
+          São mostrados apenas exemplos com mismatch (esperada ≠ predita) em modo rotulado.
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const LABELED = {labeled_js};
+    const CSV_FILENAME = {csv_js};
+    const STATS = {stats_json};
+
+    function computeGlobalStats(stats) {{
+      let total = 0;
+      let correct = 0;
+      let wrong = 0;
+      let intentsCount = 0;
+
+      for (const [intent, v] of Object.entries(stats)) {{
+        if (intent === "__NO_INTENT__") continue;
+        total += v.total || 0;
+        correct += v.correct || 0;
+        wrong += v.wrong || 0;
+        intentsCount += 1;
+      }}
+
+      const acc = total > 0 ? (correct / total) * 100 : 0;
+      return {{ total, correct, wrong, acc, intentsCount }};
+    }}
+
+    function createSummaryCards() {{
+      const s = computeGlobalStats(STATS);
+      const container = document.getElementById('summary-cards');
+      container.innerHTML = '';
+
+      function classifyAcc(acc) {{
+        if (acc >= 95) return 'good';
+        if (acc >= 85) return 'mid';
+        return 'bad';
+      }}
+
+      const accClass = classifyAcc(s.acc);
+
+      const cards = [
+        {{
+          title: 'Acurácia Global',
+          value: s.acc.toFixed(2) + '%',
+          valueClass: accClass,
+          helper: 'Com base em ' + s.total + ' exemplos testados.'
+        }},
+        {{
+          title: 'Total de Exemplos',
+          value: s.total.toString(),
+          valueClass: '',
+          helper: 'Acertos: ' + s.correct + ' • Erros: ' + s.wrong
+        }},
+        {{
+          title: 'Quantidade de Intents',
+          value: s.intentsCount.toString(),
+          valueClass: '',
+          helper: 'Apenas intents esperadas (sem __NO_INTENT__).'
+        }},
+        {{
+          title: 'Modo de Teste',
+          value: LABELED ? 'Rotulado' : 'Texto livre',
+          valueClass: '',
+          helper: LABELED
+            ? 'Comparando expected_intent vs predicted_intent.'
+            : 'Somente distribuição de intents preditas.'
+        }}
+      ];
+
+      for (const c of cards) {{
+        const card = document.createElement('div');
+        card.className = 'card';
+        const valClass = c.valueClass ? 'value ' + c.valueClass : 'value';
+        card.innerHTML = `
+          <h2>${{c.title}}</h2>
+          <div class="${{valClass}}">${{c.value}}</div>
+          <div class="helper">${{c.helper}}</div>
+        `;
+        container.appendChild(card);
+      }}
+    }}
+
+    function buildIntentTable() {{
+      const tbody = document.getElementById('intent-rows');
+      const selectFilter = document.getElementById('filter-intent');
+      const chip = document.getElementById('intents-count-chip');
+      tbody.innerHTML = '';
+      selectFilter.innerHTML = '<option value="">Todas as intents</option>';
+
+      const intents = [];
+      for (const [intent, v] of Object.entries(STATS)) {{
+        if (intent === "__NO_INTENT__") continue;
+        const total = v.total || 0;
+        const correct = v.correct || 0;
+        const wrong = v.wrong || 0;
+        const acc = total > 0 ? (correct / total) * 100 : 0;
+        intents.push({{ intent, total, correct, wrong, acc }});
+      }}
+
+      // Ordena por acurácia crescente (pior primeiro)
+      intents.sort((a, b) => a.acc - b.acc);
+
+      const totalIntents = intents.length;
+      chip.textContent = `${{totalIntents}} intents`;
+
+      // Popular select de filtro
+      for (const item of intents) {{
+        const opt = document.createElement('option');
+        opt.value = item.intent;
+        opt.textContent = item.intent;
+        selectFilter.appendChild(opt);
+      }}
+
+      for (const item of intents) {{
+        const tr = document.createElement('tr');
+        tr.dataset.intent = item.intent;
+
+        let pillCls = 'pill mid';
+        let pillDotCls = 'pill-dot mid';
+        if (item.acc >= 95) {{
+          pillCls = 'pill ok';
+          pillDotCls = 'pill-dot';
+        }} else if (item.acc < 85) {{
+          pillCls = 'pill bad';
+          pillDotCls = 'pill-dot bad';
+        }}
+
+        tr.innerHTML = `
+          <td><span class="tag-intent">${{item.intent}}</span></td>
+          <td>${{item.total}}</td>
+          <td>${{item.correct}}</td>
+          <td>${{item.wrong}}</td>
+          <td>
+            <span class="${{pillCls}}">
+              <span class="${{pillDotCls}}"></span>
+              ${{item.acc.toFixed(2)}}%
+            </span>
+          </td>
+        `;
+        tr.addEventListener('click', () => {{
+          // marca linha ativa
+          document.querySelectorAll('#intent-rows tr').forEach(r => r.classList.remove('active'));
+          tr.classList.add('active');
+          // aplica filtro na tabela de erros
+          const filterSelect = document.getElementById('filter-intent');
+          filterSelect.value = item.intent;
+          applyErrorFilters();
+        }});
+        tbody.appendChild(tr);
+      }}
+    }}
+
+    function parseCsv(text) {{
+      const lines = text.trim().split(/\\r?\\n/);
+      if (!lines.length) return {{ header: [], rows: [] }};
+      const header = lines[0].split(';');
+      const rows = [];
+      for (let i = 1; i < lines.length; i++) {{
+        const line = lines[i];
+        if (!line.trim()) continue;
+        const cols = line.split(';');
+        if (cols.length < header.length) continue;
+        const obj = {{}};
+        header.forEach((h, idx) => {{
+          obj[h] = cols[idx];
+        }});
+        rows.push(obj);
+      }}
+      return {{ header, rows }};
+    }}
+
+    let ERROR_ROWS = [];
+
+    async function loadErrorsCsv() {{
+      const wrapper = document.getElementById('errors-table-wrapper');
+      const section = document.getElementById('errors-section');
+      const chip = document.getElementById('errors-count-chip');
+
+      if (!CSV_FILENAME) {{
+        section.style.display = 'none';
+        return;
+      }}
+
+      try {{
+        const resp = await fetch(CSV_FILENAME);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const text = await resp.text();
+        const parsed = parseCsv(text);
+        ERROR_ROWS = parsed.rows || [];
+
+        chip.textContent = `${{ERROR_ROWS.length}} exemplo(s)`;
+        renderErrorTable(ERROR_ROWS);
+      }} catch (e) {{
+        console.error('Erro ao carregar CSV de erros:', e);
+        wrapper.innerHTML = '<div class="muted" style="padding: 12px;">Não foi possível carregar o CSV de erros. Abra este relatório via servidor HTTP local (ex: <code>python -m http.server</code>) ou use o input file.</div>';
+      }}
+    }}
+
+    function renderErrorTable(rows) {{
+      const tbody = document.getElementById('error-rows');
+      tbody.innerHTML = '';
+
+      if (!rows.length) {{
+        tbody.innerHTML = '<tr><td colspan="5" class="muted">Nenhum erro registrado para os filtros atuais.</td></tr>';
+        return;
+      }}
+
+      for (const r of rows) {{
+        const tr = document.createElement('tr');
+        const conf = parseFloat(r.confidence || '0');
+        let confClass = 'pill ok';
+        let dotClass = 'pill-dot';
+        if (conf < 0.7) {{
+          confClass = 'pill bad';
+          dotClass = 'pill-dot bad';
+        }} else if (conf < 0.9) {{
+          confClass = 'pill mid';
+          dotClass = 'pill-dot mid';
+        }}
+        tr.innerHTML = `
+          <td>${{r.lang || ''}}</td>
+          <td>${{r.text || ''}}</td>
+          <td><span class="tag-intent">${{r.expected_intent || ''}}</span></td>
+          <td><span class="tag-intent">${{r.predicted_intent || ''}}</span></td>
+          <td>
+            <span class="${{confClass}}">
+              <span class="${{dotClass}}"></span>
+              ${{conf.toFixed(3)}}
+            </span>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      }}
+    }}
+
+    function applyErrorFilters() {{
+      const text = (document.getElementById('search-input').value || '').toLowerCase();
+      const intentFilter = document.getElementById('filter-intent').value || '';
+
+      const filtered = ERROR_ROWS.filter(r => {{
+        const haystack = [
+          r.text || '',
+          r.expected_intent || '',
+          r.predicted_intent || ''
+        ].join(' ').toLowerCase();
+
+        const matchesText = !text || haystack.includes(text);
+        const matchesIntent = !intentFilter || (r.expected_intent === intentFilter);
+        return matchesText && matchesIntent;
+      }});
+
+      renderErrorTable(filtered);
+      const chip = document.getElementById('errors-count-chip');
+      chip.textContent = `${{filtered.length}} exemplo(s) filtrados`;
+    }}
+
+    document.addEventListener('DOMContentLoaded', () => {{
+      createSummaryCards();
+      buildIntentTable();
+      loadErrorsCsv();
+
+      const input = document.getElementById('search-input');
+      const select = document.getElementById('filter-intent');
+
+      if (input) input.addEventListener('input', applyErrorFilters);
+      if (select) select.addEventListener('change', applyErrorFilters);
+    }});
+  </script>
+</body>
+</html>
+"""
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"📊 Relatório HTML salvo em: {html_path}")
 
 
 # ========================= MAIN ========================== #
@@ -582,7 +1214,7 @@ def main():
         "--errors-file",
         dest="errors_file",
         default=None,
-        help="Se informado, salva CSV com erros (modo rotulado) ou todas as previsões (modo texto livre).",
+        help="Nome do CSV dentro da pasta de teste (default: errors_labeled.csv ou predictions_free.csv).",
     )
     parser.add_argument(
         "--progress-every",
@@ -638,12 +1270,26 @@ def main():
         labeled=labeled,
     )
 
-    # 3) Mostra relatório
+    # 3) Cria pasta do teste
+    run_dir = create_test_run_dir()
+
+    # 4) Salva CSV de erros/previsões (se houver registros)
+    csv_filename = None
+    if records:
+        if args.errors_file:
+            csv_filename = os.path.basename(args.errors_file)
+        else:
+            csv_filename = "errors_labeled.csv" if labeled else "predictions_free.csv"
+        csv_path = os.path.join(run_dir, csv_filename)
+        save_records_csv(records, csv_path)
+    else:
+        print("ℹ️ Nenhum registro para CSV (sem erros em modo rotulado ou sem previsões em texto livre).")
+
+    # 5) Mostra relatório em texto
     print_report(stats, records, labeled=labeled)
 
-    # 4) Salva CSV, se pedido
-    if args.errors_file and records:
-        save_records_csv(records, args.errors_file)
+    # 6) Gera HTML bonito
+    save_html_report(stats, labeled, run_dir, csv_filename)
 
 
 if __name__ == "__main__":

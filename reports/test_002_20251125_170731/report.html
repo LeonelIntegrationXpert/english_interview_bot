@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rasa NLU Test Report</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --bg-card: #151a2c;
+      --bg-soft: #1d2338;
+      --accent: #4f46e5;
+      --accent-soft: rgba(79,70,229,0.15);
+      --accent-danger: #dc2626;
+      --accent-warn: #ea580c;
+      --text-main: #e5e7eb;
+      --text-soft: #9ca3af;
+      --border-subtle: #1f2937;
+      --radius-lg: 14px;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #1f2937 0, #020617 45%, #000 100%);
+      color: var(--text-main);
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 26px;
+      margin: 0 0 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h1 span.badge {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid rgba(79,70,229,0.4);
+    }
+    .subtitle {
+      font-size: 13px;
+      color: var(--text-soft);
+      margin-bottom: 20px;
+    }
+    .grid-summary {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: rgba(15,23,42,0.9);
+      border-radius: var(--radius-lg);
+      padding: 12px 14px;
+      border: 1px solid rgba(148,163,184,0.15);
+      box-shadow: 0 14px 40px rgba(15,23,42,0.7);
+      backdrop-filter: blur(10px);
+    }
+    .card h2 {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-soft);
+      margin: 0 0 6px;
+    }
+    .card .value {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .card .helper {
+      font-size: 11px;
+      color: var(--text-soft);
+    }
+    .value.good {
+      color: #22c55e;
+    }
+    .value.warn {
+      color: var(--accent-warn);
+    }
+    .value.bad {
+      color: var(--accent-danger);
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 20px 0 8px;
+    }
+    .section-title h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+    .chip {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: var(--bg-soft);
+      color: var(--text-soft);
+      border: 1px solid var(--border-subtle);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    thead {
+      background: rgba(15,23,42,0.9);
+    }
+    th, td {
+      padding: 8px 10px;
+      text-align: left;
+      border-bottom: 1px solid rgba(31,41,55,0.7);
+      vertical-align: top;
+    }
+    th {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-soft);
+    }
+    tr:nth-child(even) td {
+      background: rgba(15,23,42,0.5);
+    }
+    tr:hover td {
+      background: rgba(30,64,175,0.2);
+    }
+    .table-wrapper {
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(148,163,184,0.2);
+      overflow: hidden;
+      background: rgba(15,23,42,0.8);
+      box-shadow: 0 18px 40px rgba(15,23,42,0.9);
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      border: 1px solid rgba(148,163,184,0.4);
+      background: rgba(15,23,42,0.9);
+    }
+    .pill.ok {
+      border-color: rgba(34,197,94,0.6);
+      color: #bbf7d0;
+      background: rgba(22,163,74,0.2);
+    }
+    .pill.bad {
+      border-color: rgba(239,68,68,0.6);
+      color: #fecaca;
+      background: rgba(239,68,68,0.15);
+    }
+    .pill.mid {
+      border-color: rgba(245,158,11,0.6);
+      color: #fef3c7;
+      background: rgba(245,158,11,0.15);
+    }
+    .tag-intent {
+      font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 11px;
+      padding: 3px 6px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(148,163,184,0.4);
+      color: #e5e7eb;
+      white-space: nowrap;
+    }
+    .layout-two-cols {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.8fr);
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .filters {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .filters input {
+      flex: 1;
+      min-width: 180px;
+      padding: 6px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.4);
+      background: rgba(15,23,42,0.9);
+      color: var(--text-main);
+      font-size: 12px;
+    }
+    .filters select {
+      padding: 6px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.4);
+      background: rgba(15,23,42,0.9);
+      color: var(--text-main);
+      font-size: 12px;
+    }
+    .muted {
+      color: var(--text-soft);
+      font-size: 12px;
+    }
+    .intent-row.active td {
+      background: rgba(79,70,229,0.2) !important;
+    }
+    .pill-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      margin-right: 6px;
+      background: #22c55e;
+    }
+    .pill-dot.bad {
+      background: #ef4444;
+    }
+    .pill-dot.mid {
+      background: #eab308;
+    }
+    .alert-soft {
+      margin-top: 6px;
+      font-size: 11px;
+      color: var(--text-soft);
+    }
+    .badge-soft {
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(148,163,184,0.3);
+      color: var(--text-soft);
+    }
+    @media (max-width: 960px) {
+      .grid-summary {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .layout-two-cols {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>
+        Rasa NLU Test Report
+        <span class="badge">Rotulado</span>
+      </h1>
+      <div class="subtitle">
+        Visão consolidada da qualidade das intents, com breakdown por intent e exemplos de erros.
+      </div>
+    </header>
+
+    <section class="grid-summary" id="summary-cards">
+      <!-- Populado via JS -->
+    </section>
+
+    <section class="layout-two-cols">
+      <div>
+        <div class="section-title">
+          <h3>Intents &amp; Acurácia</h3>
+          <span class="chip" id="intents-count-chip"></span>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Intent (esperada)</th>
+                <th>Total</th>
+                <th>OK</th>
+                <th>Erros</th>
+                <th>Acurácia</th>
+              </tr>
+            </thead>
+            <tbody id="intent-rows">
+              <!-- Populado via JS -->
+            </tbody>
+          </table>
+        </div>
+        <div class="alert-soft">
+          Clique em uma intent para filtrar a tabela de exemplos de erro ao lado.
+        </div>
+      </div>
+
+      <div id="errors-section">
+        <div class="section-title">
+          <h3>Exemplos de Erro</h3>
+          <span class="chip" id="errors-count-chip"></span>
+        </div>
+        <div class="filters">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Filtrar por texto, intent esperada ou predita..."
+          />
+          <select id="filter-intent">
+            <option value="">Todas as intents</option>
+          </select>
+        </div>
+        <div class="table-wrapper" id="errors-table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Lang</th>
+                <th>Texto</th>
+                <th>Esperada</th>
+                <th>Predita</th>
+                <th>Conf.</th>
+              </tr>
+            </thead>
+            <tbody id="error-rows">
+              <!-- Populado via JS -->
+            </tbody>
+          </table>
+        </div>
+        <div class="alert-soft" id="errors-hint">
+          São mostrados apenas exemplos com mismatch (esperada ≠ predita) em modo rotulado.
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const LABELED = true;
+    const CSV_FILENAME = "predictions_free.csv";
+    const STATS = {"greeting/hello": {"total": 200, "correct": 173, "wrong": 27}, "greeting/how_are_you": {"total": 200, "correct": 200, "wrong": 0}, "greeting/nice_to_meet_you": {"total": 200, "correct": 200, "wrong": 0}, "greeting/morning_formal": {"total": 200, "correct": 199, "wrong": 1}, "greeting/afternoon_formal": {"total": 200, "correct": 200, "wrong": 0}, "greeting/evening_formal": {"total": 200, "correct": 195, "wrong": 5}, "greeting/night_formal": {"total": 200, "correct": 181, "wrong": 19}, "greeting/casual_chat": {"total": 200, "correct": 182, "wrong": 18}, "greeting/welcome": {"total": 200, "correct": 200, "wrong": 0}, "greeting/see_you_again": {"total": 200, "correct": 200, "wrong": 0}, "greeting/start_meeting": {"total": 200, "correct": 200, "wrong": 0}, "greeting/check_audio": {"total": 200, "correct": 198, "wrong": 2}, "greeting/email_formal": {"total": 200, "correct": 200, "wrong": 0}, "goodbye/bye_general": {"total": 200, "correct": 198, "wrong": 2}, "goodbye/end_meeting": {"total": 200, "correct": 180, "wrong": 20}, "goodbye/see_you_soon": {"total": 200, "correct": 197, "wrong": 3}, "goodbye/email_formal": {"total": 200, "correct": 187, "wrong": 13}, "thanks/for_help": {"total": 200, "correct": 191, "wrong": 9}, "thanks/for_time": {"total": 200, "correct": 166, "wrong": 34}, "thanks/for_feedback": {"total": 200, "correct": 192, "wrong": 8}, "apology/general": {"total": 200, "correct": 171, "wrong": 29}, "apology/for_delay": {"total": 200, "correct": 198, "wrong": 2}, "apology/for_mistake": {"total": 200, "correct": 193, "wrong": 7}, "apology/didnt_understand": {"total": 200, "correct": 195, "wrong": 5}, "apology/late": {"total": 200, "correct": 185, "wrong": 15}, "apology/interrupt": {"total": 200, "correct": 197, "wrong": 3}, "greeting/check_feeling_interview": {"total": 200, "correct": 197, "wrong": 3}, "greeting/check_time_ok": {"total": 200, "correct": 195, "wrong": 5}, "greeting/break_ice": {"total": 200, "correct": 181, "wrong": 19}, "greeting/transition_to_questions": {"total": 200, "correct": 200, "wrong": 0}, "greeting/check_any_question_before": {"total": 200, "correct": 3, "wrong": 197}, "greeting/check_any_question_after": {"total": 200, "correct": 193, "wrong": 7}, "greeting/introduce_interviewer": {"total": 200, "correct": 200, "wrong": 0}, "greeting/introduce_interview_focus": {"total": 200, "correct": 200, "wrong": 0}, "greeting/reassure_nervous": {"total": 200, "correct": 199, "wrong": 1}, "greeting/english_support": {"total": 200, "correct": 199, "wrong": 1}, "greeting/confirm_recording": {"total": 200, "correct": 200, "wrong": 0}, "greeting/offer_break": {"total": 200, "correct": 199, "wrong": 1}, "greeting/reconnect_after_issue": {"total": 200, "correct": 198, "wrong": 2}, "greeting/check_company_knowledge": {"total": 200, "correct": 199, "wrong": 1}, "greeting/comment_resume_review": {"total": 200, "correct": 190, "wrong": 10}, "greeting/comment_linkedin_profile": {"total": 200, "correct": 199, "wrong": 1}, "greeting/ask_how_found_role": {"total": 200, "correct": 200, "wrong": 0}, "greeting/tell_me_about_yourself": {"total": 200, "correct": 198, "wrong": 2}, "greeting/check_location_timezone": {"total": 200, "correct": 193, "wrong": 7}, "greeting/light_weekend": {"total": 200, "correct": 199, "wrong": 1}, "greeting/thanks_reschedule": {"total": 200, "correct": 187, "wrong": 13}, "greeting/check_camera": {"total": 200, "correct": 200, "wrong": 0}, "greeting/prefer_name": {"total": 200, "correct": 200, "wrong": 0}, "greeting/check_previous_stage": {"total": 200, "correct": 199, "wrong": 1}, "greeting/confirm_role": {"total": 200, "correct": 200, "wrong": 0}, "greeting/check_start_availability": {"total": 200, "correct": 199, "wrong": 1}, "greeting/small_talk_hobbies": {"total": 200, "correct": 171, "wrong": 29}, "greeting/small_talk_learning_english": {"total": 200, "correct": 197, "wrong": 3}, "greeting/comment_end_of_day": {"total": 200, "correct": 199, "wrong": 1}, "greeting/comment_morning_energy": {"total": 200, "correct": 184, "wrong": 16}, "scheduling/reschedule_other_day": {"total": 200, "correct": 169, "wrong": 31}, "scheduling/reschedule_other_time_same_day": {"total": 200, "correct": 199, "wrong": 1}, "scheduling/interviewer_needs_to_leave_early": {"total": 200, "correct": 199, "wrong": 1}, "scheduling/interviewer_late_warning": {"total": 200, "correct": 199, "wrong": 1}, "scheduling/cancel_process_now": {"total": 200, "correct": 198, "wrong": 2}, "scheduling/propose_new_slots": {"total": 200, "correct": 200, "wrong": 0}, "scheduling/interviewer_connection_issue": {"total": 200, "correct": 197, "wrong": 3}, "scheduling/candidate_not_joined_yet": {"total": 200, "correct": 197, "wrong": 3}, "scheduling/change_platform": {"total": 200, "correct": 198, "wrong": 2}, "scheduling/interviewer_needs_quick_break": {"total": 200, "correct": 198, "wrong": 2}, "scheduling/interview_cut_short_and_reschedule_part2": {"total": 200, "correct": 197, "wrong": 3}, "scheduling/interviewer_personal_emergency": {"total": 200, "correct": 200, "wrong": 0}, "scheduling/change_interviewer_mid_process": {"total": 200, "correct": 200, "wrong": 0}, "scheduling/interviewer_distracted_by_notification": {"total": 200, "correct": 200, "wrong": 0}, "scheduling/audio_issue_with_candidate": {"total": 200, "correct": 198, "wrong": 2}, "scheduling/interviewer_camera_issue": {"total": 200, "correct": 199, "wrong": 1}, "scheduling/background_noise_or_interruption": {"total": 200, "correct": 199, "wrong": 1}, "scheduling/timezone_confusion": {"total": 200, "correct": 199, "wrong": 1}, "scheduling/system_outage_internal_tools": {"total": 200, "correct": 200, "wrong": 0}, "scheduling/short_notice_reschedule_soon": {"total": 200, "correct": 187, "wrong": 13}, "scheduling/sound_suggestion_turn_off_camera": {"total": 200, "correct": 192, "wrong": 8}, "scheduling/interviewer_double_booked": {"total": 200, "correct": 196, "wrong": 4}, "smalltalk/soccer_team": {"total": 200, "correct": 199, "wrong": 1}, "smalltalk/hobbies_general": {"total": 200, "correct": 109, "wrong": 91}, "smalltalk/weekend_plans": {"total": 200, "correct": 197, "wrong": 3}, "smalltalk/movies_series": {"total": 200, "correct": 193, "wrong": 7}, "smalltalk/music_preferences": {"total": 200, "correct": 199, "wrong": 1}, "smalltalk/work_location_home_office": {"total": 200, "correct": 199, "wrong": 1}, "smalltalk/energy_and_motivation": {"total": 200, "correct": 197, "wrong": 3}, "smalltalk/age": {"total": 200, "correct": 200, "wrong": 0}, "smalltalk/birthdate": {"total": 200, "correct": 200, "wrong": 0}, "smalltalk/marital_status": {"total": 200, "correct": 194, "wrong": 6}, "smalltalk/children": {"total": 200, "correct": 200, "wrong": 0}, "smalltalk/family_overview": {"total": 200, "correct": 168, "wrong": 32}, "smalltalk/parents_who_are": {"total": 200, "correct": 193, "wrong": 7}, "smalltalk/parents_brief_context": {"total": 200, "correct": 191, "wrong": 9}, "smalltalk/siblings_who_are": {"total": 200, "correct": 186, "wrong": 14}, "smalltalk/siblings_relationship": {"total": 200, "correct": 130, "wrong": 70}, "smalltalk/family_origin_city": {"total": 200, "correct": 197, "wrong": 3}, "smalltalk/family_support_career": {"total": 200, "correct": 199, "wrong": 1}, "smalltalk/current_city_where_live": {"total": 200, "correct": 189, "wrong": 11}, "smalltalk/address_more_details": {"total": 200, "correct": 189, "wrong": 11}, "education/basic_school_where_when": {"total": 200, "correct": 192, "wrong": 8}, "education/highschool_supletivo_where_when": {"total": 200, "correct": 191, "wrong": 9}, "education/college_tech_internet_systems": {"total": 200, "correct": 197, "wrong": 3}, "smalltalk/marriage_how_long": {"total": 200, "correct": 199, "wrong": 1}, "smalltalk/marriage_stability": {"total": 200, "correct": 200, "wrong": 0}, "smalltalk/personal_life_summary_short": {"total": 200, "correct": 195, "wrong": 5}, "diversity/general_view": {"total": 200, "correct": 171, "wrong": 29}, "diversity/lgbtq_colleagues": {"total": 200, "correct": 196, "wrong": 4}, "diversity/cultural_backgrounds": {"total": 200, "correct": 200, "wrong": 0}, "diversity/company_values": {"total": 200, "correct": 193, "wrong": 7}, "diversity/respect_conflicting_opinions": {"total": 200, "correct": 198, "wrong": 2}, "softskills/communication_style": {"total": 200, "correct": 181, "wrong": 19}, "softskills/time_management": {"total": 200, "correct": 197, "wrong": 3}, "softskills/working_under_pressure": {"total": 200, "correct": 0, "wrong": 200}, "softskills/adaptability_change": {"total": 200, "correct": 0, "wrong": 200}, "softskills/receiving_feedback": {"total": 200, "correct": 0, "wrong": 200}, "softskills/self_learning": {"total": 200, "correct": 0, "wrong": 200}, "softskills/initiative_proactivity": {"total": 200, "correct": 0, "wrong": 200}, "softskills/problem_solving": {"total": 200, "correct": 0, "wrong": 200}, "softskills/empathy_collaboration": {"total": 200, "correct": 0, "wrong": 200}, "softskills/learning_from_mistakes": {"total": 200, "correct": 0, "wrong": 200}, "softskills/motivation_drivers": {"total": 200, "correct": 0, "wrong": 200}};
+
+    function computeGlobalStats(stats) {
+      let total = 0;
+      let correct = 0;
+      let wrong = 0;
+      let intentsCount = 0;
+
+      for (const [intent, v] of Object.entries(stats)) {
+        if (intent === "__NO_INTENT__") continue;
+        total += v.total || 0;
+        correct += v.correct || 0;
+        wrong += v.wrong || 0;
+        intentsCount += 1;
+      }
+
+      const acc = total > 0 ? (correct / total) * 100 : 0;
+      return { total, correct, wrong, acc, intentsCount };
+    }
+
+    function createSummaryCards() {
+      const s = computeGlobalStats(STATS);
+      const container = document.getElementById('summary-cards');
+      container.innerHTML = '';
+
+      function classifyAcc(acc) {
+        if (acc >= 95) return 'good';
+        if (acc >= 85) return 'mid';
+        return 'bad';
+      }
+
+      const accClass = classifyAcc(s.acc);
+
+      const cards = [
+        {
+          title: 'Acurácia Global',
+          value: s.acc.toFixed(2) + '%',
+          valueClass: accClass,
+          helper: 'Com base em ' + s.total + ' exemplos testados.'
+        },
+        {
+          title: 'Total de Exemplos',
+          value: s.total.toString(),
+          valueClass: '',
+          helper: 'Acertos: ' + s.correct + ' • Erros: ' + s.wrong
+        },
+        {
+          title: 'Quantidade de Intents',
+          value: s.intentsCount.toString(),
+          valueClass: '',
+          helper: 'Apenas intents esperadas (sem __NO_INTENT__).'
+        },
+        {
+          title: 'Modo de Teste',
+          value: LABELED ? 'Rotulado' : 'Texto livre',
+          valueClass: '',
+          helper: LABELED
+            ? 'Comparando expected_intent vs predicted_intent.'
+            : 'Somente distribuição de intents preditas.'
+        }
+      ];
+
+      for (const c of cards) {
+        const card = document.createElement('div');
+        card.className = 'card';
+        const valClass = c.valueClass ? 'value ' + c.valueClass : 'value';
+        card.innerHTML = `
+          <h2>${c.title}</h2>
+          <div class="${valClass}">${c.value}</div>
+          <div class="helper">${c.helper}</div>
+        `;
+        container.appendChild(card);
+      }
+    }
+
+    function buildIntentTable() {
+      const tbody = document.getElementById('intent-rows');
+      const selectFilter = document.getElementById('filter-intent');
+      const chip = document.getElementById('intents-count-chip');
+      tbody.innerHTML = '';
+      selectFilter.innerHTML = '<option value="">Todas as intents</option>';
+
+      const intents = [];
+      for (const [intent, v] of Object.entries(STATS)) {
+        if (intent === "__NO_INTENT__") continue;
+        const total = v.total || 0;
+        const correct = v.correct || 0;
+        const wrong = v.wrong || 0;
+        const acc = total > 0 ? (correct / total) * 100 : 0;
+        intents.push({ intent, total, correct, wrong, acc });
+      }
+
+      // Ordena por acurácia crescente (pior primeiro)
+      intents.sort((a, b) => a.acc - b.acc);
+
+      const totalIntents = intents.length;
+      chip.textContent = `${totalIntents} intents`;
+
+      // Popular select de filtro
+      for (const item of intents) {
+        const opt = document.createElement('option');
+        opt.value = item.intent;
+        opt.textContent = item.intent;
+        selectFilter.appendChild(opt);
+      }
+
+      for (const item of intents) {
+        const tr = document.createElement('tr');
+        tr.dataset.intent = item.intent;
+
+        let pillCls = 'pill mid';
+        let pillDotCls = 'pill-dot mid';
+        if (item.acc >= 95) {
+          pillCls = 'pill ok';
+          pillDotCls = 'pill-dot';
+        } else if (item.acc < 85) {
+          pillCls = 'pill bad';
+          pillDotCls = 'pill-dot bad';
+        }
+
+        tr.innerHTML = `
+          <td><span class="tag-intent">${item.intent}</span></td>
+          <td>${item.total}</td>
+          <td>${item.correct}</td>
+          <td>${item.wrong}</td>
+          <td>
+            <span class="${pillCls}">
+              <span class="${pillDotCls}"></span>
+              ${item.acc.toFixed(2)}%
+            </span>
+          </td>
+        `;
+        tr.addEventListener('click', () => {
+          // marca linha ativa
+          document.querySelectorAll('#intent-rows tr').forEach(r => r.classList.remove('active'));
+          tr.classList.add('active');
+          // aplica filtro na tabela de erros
+          const filterSelect = document.getElementById('filter-intent');
+          filterSelect.value = item.intent;
+          applyErrorFilters();
+        });
+        tbody.appendChild(tr);
+      }
+    }
+
+    function parseCsv(text) {
+      const lines = text.trim().split(/\r?\n/);
+      if (!lines.length) return { header: [], rows: [] };
+      const header = lines[0].split(';');
+      const rows = [];
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i];
+        if (!line.trim()) continue;
+        const cols = line.split(';');
+        if (cols.length < header.length) continue;
+        const obj = {};
+        header.forEach((h, idx) => {
+          obj[h] = cols[idx];
+        });
+        rows.push(obj);
+      }
+      return { header, rows };
+    }
+
+    let ERROR_ROWS = [];
+
+    async function loadErrorsCsv() {
+      const wrapper = document.getElementById('errors-table-wrapper');
+      const section = document.getElementById('errors-section');
+      const chip = document.getElementById('errors-count-chip');
+
+      if (!CSV_FILENAME) {
+        section.style.display = 'none';
+        return;
+      }
+
+      try {
+        const resp = await fetch(CSV_FILENAME);
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const text = await resp.text();
+        const parsed = parseCsv(text);
+        ERROR_ROWS = parsed.rows || [];
+
+        chip.textContent = `${ERROR_ROWS.length} exemplo(s)`;
+        renderErrorTable(ERROR_ROWS);
+      } catch (e) {
+        console.error('Erro ao carregar CSV de erros:', e);
+        wrapper.innerHTML = '<div class="muted" style="padding: 12px;">Não foi possível carregar o CSV de erros. Abra este relatório via servidor HTTP local (ex: <code>python -m http.server</code>) ou use o input file.</div>';
+      }
+    }
+
+    function renderErrorTable(rows) {
+      const tbody = document.getElementById('error-rows');
+      tbody.innerHTML = '';
+
+      if (!rows.length) {
+        tbody.innerHTML = '<tr><td colspan="5" class="muted">Nenhum erro registrado para os filtros atuais.</td></tr>';
+        return;
+      }
+
+      for (const r of rows) {
+        const tr = document.createElement('tr');
+        const conf = parseFloat(r.confidence || '0');
+        let confClass = 'pill ok';
+        let dotClass = 'pill-dot';
+        if (conf < 0.7) {
+          confClass = 'pill bad';
+          dotClass = 'pill-dot bad';
+        } else if (conf < 0.9) {
+          confClass = 'pill mid';
+          dotClass = 'pill-dot mid';
+        }
+        tr.innerHTML = `
+          <td>${r.lang || ''}</td>
+          <td>${r.text || ''}</td>
+          <td><span class="tag-intent">${r.expected_intent || ''}</span></td>
+          <td><span class="tag-intent">${r.predicted_intent || ''}</span></td>
+          <td>
+            <span class="${confClass}">
+              <span class="${dotClass}"></span>
+              ${conf.toFixed(3)}
+            </span>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      }
+    }
+
+    function applyErrorFilters() {
+      const text = (document.getElementById('search-input').value || '').toLowerCase();
+      const intentFilter = document.getElementById('filter-intent').value || '';
+
+      const filtered = ERROR_ROWS.filter(r => {
+        const haystack = [
+          r.text || '',
+          r.expected_intent || '',
+          r.predicted_intent || ''
+        ].join(' ').toLowerCase();
+
+        const matchesText = !text || haystack.includes(text);
+        const matchesIntent = !intentFilter || (r.expected_intent === intentFilter);
+        return matchesText && matchesIntent;
+      });
+
+      renderErrorTable(filtered);
+      const chip = document.getElementById('errors-count-chip');
+      chip.textContent = `${filtered.length} exemplo(s) filtrados`;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      createSummaryCards();
+      buildIntentTable();
+      loadErrorsCsv();
+
+      const input = document.getElementById('search-input');
+      const select = document.getElementById('filter-intent');
+
+      if (input) input.addEventListener('input', applyErrorFilters);
+      if (select) select.addEventListener('change', applyErrorFilters);
+    });
+  </script>
+</body>
+</html>
