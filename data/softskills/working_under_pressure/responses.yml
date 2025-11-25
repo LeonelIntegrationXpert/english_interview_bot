@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_working_under_pressure:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Em momentos de pressão, eu procuro manter a calma, revisar as prioridades e alinhar expectativas com o time e com os envolvidos. Em vez de entrar em pânico, eu foco em agir de forma estruturada, comunicando riscos e ajustando o plano para entregar o melhor possível dentro do prazo.
+          vr_en: |
+            In high pressure moments, I try to stay calm, review priorities, and align expectations with the team and with the stakeholders. Instead of panicking, I focus on acting in a structured way, communicating risks, and adjusting the plan to deliver the best possible result within the deadline.

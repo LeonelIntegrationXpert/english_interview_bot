@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_receiving_feedback:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu encaro feedback como uma oportunidade de ajuste e crescimento. Mesmo quando não concordo totalmente, eu procuro ouvir com atenção, fazer perguntas para entender melhor e refletir com calma antes de responder. Depois disso, avalio o que faz sentido aplicar e incorporo no meu jeito de trabalhar.
+          vr_en: |
+            I see feedback as an opportunity for adjustment and growth. Even when I do not fully agree, I try to listen carefully, ask questions to understand better, and reflect calmly before reacting. After that, I evaluate what makes sense to apply and then incorporate it into the way I work.

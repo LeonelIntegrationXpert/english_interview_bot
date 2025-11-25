@@ -400,3 +400,59 @@ stories:
     steps:
       - intent: highschool_supletivo_where_when
       - action: utter_highschool_supletivo_where_when
+  - story: story_college_tech_internet_systems
+    steps:
+      - intent: college_tech_internet_systems
+      - action: utter_college_tech_internet_systems
+  - story: story_marriage_how_long
+    steps:
+      - intent: marriage_how_long
+      - action: utter_marriage_how_long
+  - story: story_marriage_stability
+    steps:
+      - intent: marriage_stability
+      - action: utter_marriage_stability
+  - story: story_personal_life_summary_short
+    steps:
+      - intent: personal_life_summary_short
+      - action: utter_personal_life_summary_short
+  - story: story_general_view
+    steps:
+      - intent: general_view
+      - action: utter_general_view
+  - story: story_lgbtq_colleagues
+    steps:
+      - intent: lgbtq_colleagues
+      - action: utter_lgbtq_colleagues
+  - story: story_cultural_backgrounds
+    steps:
+      - intent: cultural_backgrounds
+      - action: utter_cultural_backgrounds
+  - story: story_company_values
+    steps:
+      - intent: company_values
+      - action: utter_company_values
+  - story: story_respect_conflicting_opinions
+    steps:
+      - intent: respect_conflicting_opinions
+      - action: utter_respect_conflicting_opinions
+  - story: story_communication_style
+    steps:
+      - intent: communication_style
+      - action: utter_communication_style
+  - story: story_time_management
+    steps:
+      - intent: time_management
+      - action: utter_time_management
+  - story: story_working_under_pressure
+    steps:
+      - intent: working_under_pressure
+      - action: utter_working_under_pressure
+  - story: story_adaptability_change
+    steps:
+      - intent: adaptability_change
+      - action: utter_adaptability_change
+  - story: story_receiving_feedback
+    steps:
+      - intent: receiving_feedback
+      - action: utter_receiving_feedback

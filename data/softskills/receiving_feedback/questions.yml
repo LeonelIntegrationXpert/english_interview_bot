@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: receiving_feedback
+    examples: |
+      - como você lida com feedback, principalmente quando ele é mais crítico?
+      - você se sente à vontade em receber feedbacks diretos sobre o seu trabalho?
+      - o que você faz quando recebe um feedback com o qual não concorda totalmente?
+      - como você costuma reagir quando alguém aponta um ponto de melhoria seu?
+      - você poderia explicar como incorpora feedbacks no seu dia a dia?
+      - qual foi a sua atitude em situações em que recebeu um feedback difícil?
+      - você costuma pedir feedback ou espera ele chegar espontaneamente?
+      - como você diferencia um feedback construtivo de uma crítica apenas negativa?
+      - o que você considera essencial para um bom processo de feedback?
+      - como você mostra que está realmente ouvindo e considerando o feedback?
+      - como você reage quando alguém te dá um feedback inesperado?
+      - quando o feedback vem em um momento ruim, como você age?
+      - o que você faz quando recebe feedback em público?
+      - você prefere feedback privado ou aberto?
+      - como você se sente quando alguém aponta algo que você não percebeu?
+      - o que você faz quando o feedback é muito direto?
+      - como você reage quando discordam da sua abordagem?
+      - você recebe bem feedback vindo de pares?
+      - como você lida com feedback vindo de alguém mais júnior?
+      - o que você faz quando o feedback parece exagerado?
+      - como você reage quando dizem que você precisa melhorar algo urgente?
+      - você costuma anotar feedbacks importantes?
+      - como você revisita feedbacks antigos?
+      - o que você faz com feedbacks que se repetem?
+      - como você reage quando um líder aponta um ponto fraco?
+      - você lida bem com feedback técnico?
+      - como você encara feedback comportamental?
+      - você se incomoda quando o feedback é muito detalhado?
+      - como você lida com feedback curto demais?
+      - quando o feedback é vago, o que você faz?
+      - como você pede exemplos para entender melhor um feedback?
+      - você costuma agradecer pelo feedback?
+      - como você valida que entendeu o feedback corretamente?
+      - como você garante que não leva feedback para o lado pessoal?
+      - o que você faz quando o feedback é emocional?
+      - como você reage quando alguém te corrige na hora?
+      - o que você faz quando discordam da sua solução?
+      - como você lida com feedback que exige mudança rápida?
+      - você aceita feedback sobre comunicação?
+      - como você reage a feedback sobre postura?
+      - você incorpora feedback que não pediu?
+      - como você lida com feedback em situações de conflito?
+      - o que você faz ao receber feedback de múltiplas pessoas?
+      - como você reage a feedback contraditório?
+      - como você organiza feedbacks importantes?
+      - você revisa feedback periodicamente?
+      - como você reage quando o feedback vem fora do contexto?
+      - o que você faz quando recebe feedback de surpresa?
+      - como você lida com feedback que afeta sua rotina?
+      - você busca entender o motivo do feedback?
+      - como você reage quando um cliente dá feedback?
+      - como você lida com feedback que pede urgência?
+      - o que você faz quando o feedback exige estudo novo?
+      - como você lida com feedback em reuniões grandes?
+      - você pede esclarecimentos quando não entende o feedback?
+      - como você reage quando o feedback é duro demais?
+      - o que você faz quando o feedback não parece justo?
+      - como você separa crítica pessoal de profissional?
+      - você filtra feedback antes de aplicar?
+      - como você prioriza quais feedbacks aplicar?
+      - o que você faz quando o feedback exige mudança de processo?
+      - como você reage quando sua entrega é criticada?
+      - você lida bem com feedback repetido várias vezes?
+      - como você reage quando alguém dá feedback sem contexto?
+      - o que você faz quando o feedback é superficial?
+      - como você reage quando alguém não gosta da sua solução?
+      - você aceita feedback de pessoas externas ao time?
+      - como você lida com feedback em avaliações formais?
+      - como você reage quando o feedback é positivo mas com ressalvas?
+      - você pede exemplos concretos no feedback?
+      - como você organiza um plano de ação após um feedback?
+      - o que você faz quando recebe feedback sobre priorização?
+      - como você reage quando o feedback envolve comportamento em reuniões?
+      - você lida bem com feedback sobre velocidade de entrega?
+      - como você age quando dizem que você precisa comunicar mais?
+      - como você lida com feedback sobre documentação?
+      - você revisa sua postura após um feedback?
+      - como você lida com feedback sobre colaboração?
+      - o que você faz quando dizem que você precisa delegar mais?
+      - como você reage quando dizem que você poderia ouvir mais?
+      - como você lida com feedback sobre perfis diferentes?
+      - você entende bem feedback vindo de pessoas diretas?
+      - como você lida com feedback vindo de pessoas mais diplomáticas?
+      - o que você faz quando o feedback te pega de surpresa?
+      - como você lida quando o feedback vem durante um momento tenso?
+      - você tenta aplicar feedback imediatamente?
+      - como você registra feedbacks importantes?
+      - o que você faz quando recebe feedback por escrito?
+      - como você reage quando pedem para você mudar algo rápido?
+      - você valida depois com a pessoa se melhorou?
+      - como você lida com feedback contínuo do mesmo colega?
+      - como você reage a feedback que muda sua forma de trabalhar?
+      - o que você faz quando o feedback é muito subjetivo?
+      - como você reage quando alguém critica seu processo?
+      - como você lida quando dizem que você poderia simplificar algo?
+      - você ajusta seu comportamento após feedback?
+      - como você reage quando o feedback é totalmente inesperado?
+      - como você reage quando recebe feedback em um momento de alta pressão?
+      - você já mudou uma forma de trabalhar por causa de um feedback?
+      - o que você faz depois de receber um feedback muito específico sobre sua entrega?
+      - how do you react when you receive feedback during a high pressure moment?
+      - have you ever changed the way you work because of feedback?
+      - what do you usually do after receiving very specific feedback about your delivery?
+      - how do you handle feedback, especially when it is more critical?
+      - do you feel comfortable receiving direct feedback about your work?
+      - what do you do when you receive feedback that you do not fully agree with?
+      - how do you usually react when someone points out an area of improvement for you?
+      - could you explain how you incorporate feedback into your daily routine?
+      - what has been your attitude in situations where you received difficult feedback?
+      - do you usually ask for feedback, or do you wait for it to come naturally?
+      - how do you distinguish constructive feedback from purely negative criticism?
+      - what do you consider essential for a good feedback process?
+      - how do you show that you are truly listening to and considering the feedback?
+      - how do you react when someone gives you unexpected feedback?
+      - what do you do when feedback comes at a bad moment?
+      - how do you handle receiving feedback in public?
+      - do you prefer private or open feedback?
+      - how do you feel when someone highlights something you had not noticed?
+      - how do you react when feedback is very direct?
+      - what do you do when someone disagrees with your approach?
+      - do you receive peer feedback well?
+      - how do you handle feedback from someone more junior?
+      - what do you do when feedback feels exaggerated?
+      - how do you react when someone says you need urgent improvement?
+      - do you usually write down important feedback?
+      - how do you revisit old feedback?
+      - what do you do when feedback keeps repeating?
+      - how do you react when a leader points out a weakness?
+      - do you handle technical feedback well?
+      - how do you react to behavioral feedback?
+      - do you get bothered when feedback is too detailed?
+      - how do you deal with feedback that is too short?
+      - what do you do when feedback is vague?
+      - how do you ask for examples to understand feedback better?
+      - do you usually thank the person giving feedback?
+      - how do you validate that you understood feedback correctly?
+      - how do you avoid taking feedback personally?
+      - what do you do when feedback becomes emotional?
+      - how do you react when corrected on the spot?
+      - what do you do when someone disagrees with your solution?
+      - how do you handle feedback that requires quick change?
+      - do you accept communication-related feedback well?
+      - how do you react to posture-related feedback?
+      - do you apply feedback you did not ask for?
+      - how do you deal with feedback during conflict situations?
+      - what do you do when feedback comes from multiple people?
+      - how do you react to contradictory feedback?
+      - how do you organize important feedback?
+      - do you review feedback regularly?
+      - how do you react when feedback comes out of context?
+      - what do you do when feedback arrives unexpectedly?
+      - how do you handle feedback that affects your routine?
+      - do you try to understand the reason behind the feedback?
+      - how do you react when a client gives feedback?
+      - how do you handle feedback that requires urgency?
+      - what do you do when feedback requires new study?
+      - how do you react to feedback in large meetings?
+      - do you ask for clarification when you do not understand feedback?
+      - how do you react when feedback is too harsh?
+      - what do you do when feedback feels unfair?
+      - how do you separate personal criticism from professional feedback?
+      - do you filter feedback before applying it?
+      - how do you prioritize which feedback to apply?
+      - what do you do when feedback requires process changes?
+      - how do you react when your delivery is criticized?
+      - do you handle repeated feedback well?
+      - how do you react when someone gives feedback without context?
+      - what do you do when feedback is superficial?
+      - how do you react when someone dislikes your solution?
+      - do you accept feedback from people outside the team?
+      - how do you handle feedback in formal evaluations?
+      - how do you react when feedback is positive but with caveats?
+      - do you ask for concrete examples in feedback?
+      - how do you build an action plan after receiving feedback?
+      - what do you do when you receive feedback about prioritization?
+      - how do you react when feedback involves meeting behavior?
+      - do you handle feedback about delivery speed well?
+      - how do you react when told you need to communicate more?
+      - how do you handle feedback about documentation?
+      - do you review your posture after feedback?
+      - how do you handle feedback about collaboration?
+      - what do you do when told you need to delegate more?
+      - how do you react when told you should listen more?
+      - how do you deal with feedback about working with different profiles?
+      - do you understand direct feedback easily?
+      - how do you handle feedback from very diplomatic people?
+      - what do you do when feedback catches you completely off guard?
+      - how do you react when feedback comes during tense moments?
+      - do you try to apply feedback immediately?
+      - how do you store important feedback?
+      - what do you do when feedback comes in written form?
+      - how do you react when asked to change something quickly?
+      - do you follow up later to confirm improvement?
+      - how do you handle continuous feedback from the same person?
+      - how do you react when feedback changes the way you work?
+      - what do you do when feedback is very subjective?
+      - how do you react when someone criticizes your process?
+      - how do you deal when told you should simplify something?
+      - do you adjust your behavior after feedback?
+      - how do you react when feedback is completely unexpected?

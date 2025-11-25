@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: lgbtq_colleagues
+    examples: |
+      - como você se sente em relação a trabalhar com colegas LGBTQIA+?
+      - você teria algum problema em trabalhar com colegas homossexuais ou LGBTQIA+?
+      - como é para você atuar em times com pessoas de diferentes orientações sexuais?
+      - em um time com pessoas LGBTQIA+, como você encara essa diversidade?
+      - você se sente confortável em ambientes onde existem pessoas LGBTQIA+?
+      - você já trabalhou com colegas LGBTQIA+? Como foi essa experiência?
+      - para você, faz diferença a orientação sexual dos colegas no trabalho?
+      - como você lida com a diversidade de orientação sexual no dia a dia profissional?
+      - você teria alguma dificuldade em colaborar diretamente com pessoas LGBTQIA+?
+      - qual é a sua postura em relação a respeito à orientação sexual dos colegas?
+      - trabalhar com pessoas LGBTQIA+ é tranquilo para você?
+      - orientação sexual dos colegas impacta algo no seu dia a dia?
+      - você se sente confortável em ambientes inclusivos?
+      - diversidade de orientação sexual muda algo para você?
+      - você trabalha bem em times diversos nesse sentido?
+      - conviver com colegas LGBTQIA+ faz diferença na sua rotina?
+      - como você encara colegas com orientações diversas?
+      - você vê algum problema em ambientes com pessoas LGBTQIA+?
+      - trabalhar com diversidade sexual é natural para você?
+      - você respeita todas as orientações sexuais no trabalho?
+      - já participou de equipes com bastante diversidade?
+      - você já teve líderes LGBTQIA+? Como foi?
+      - você trata colegas LGBTQIA+ da mesma forma que qualquer outro?
+      - inclusão de pessoas LGBTQIA+ é algo importante para você?
+      - você vê valor em times com diversidade de orientação sexual?
+      - já teve experiências positivas com colegas LGBTQIA+?
+      - convivência com colegas LGBTQIA+ te incomoda de alguma forma?
+      - você se adapta bem a times muito diversos?
+      - diversidade de orientação sexual é tranquila para você?
+      - como você reage quando encontra colegas LGBTQIA+?
+      - trabalhar com diferentes identidades te parece natural?
+      - você acredita que orientação sexual não interfere na competência?
+      - colegas LGBTQIA+ influenciam seu comportamento de trabalho?
+      - você ficaria desconfortável em times com muitas pessoas LGBTQIA+?
+      - seu respeito por colegas independe de identidade de gênero?
+      - você acredita que todos devem ser tratados igualmente?
+      - trabalhar com pessoas diversas agrega para você?
+      - você apoia ambientes inclusivos?
+      - equipes LGBTQIA+ te parecem ambientes saudáveis?
+      - você percebeu algo diferente trabalhando com pessoas LGBTQIA+?
+      - você considera importante não discriminar no trabalho?
+      - diversidade sexual te incomoda ou é indiferente?
+      - você consegue colaborar bem com pessoas LGBTQIA+?
+      - você fica tranquilo em conversas com colegas LGBTQIA+?
+      - identidade de gênero influencia seu comportamento?
+      - ambientes diversos te trazem mais confiança?
+      - você sente empatia por causas LGBTQIA+?
+      - inclusão sexual é natural para você?
+      - você segue princípios de respeito e igualdade?
+      - você vê preconceito como algo inaceitável?
+      - colegas LGBTQIA+ já te ensinaram algo?
+      - convivência diversa te parece enriquecedora?
+      - diversidade sexual complementa o trabalho?
+      - orientação sexual afeta a produtividade do time na sua visão?
+      - você acredita que diversidade amplia visão?
+      - já viu benefícios diretos em times diversos?
+      - identidade sexual de colegas te importa profissionalmente?
+      - você trataria um colega LGBTQIA+ de forma diferente?
+      - você tem abertura para ouvir colegas LGBTQIA+?
+      - você se sente seguro em ambientes inclusivos?
+      - você vê inclusão como parte do respeito humano?
+      - diversidade sexual te parece um tema importante?
+      - inclusão LGBTQIA+ deveria ser padrão para empresas?
+      - conviver com pessoas diferentes te fortalece?
+      - você vê times diversos como mais colaborativos?
+      - respeito por identidade é parte essencial do trabalho?
+      - diversidade sexual muda alguma dinâmica para você?
+      - você acredita que times LGBTQIA+ são valiosos?
+      - você trataria um líder LGBTQIA+ normalmente?
+      - já presenciou questões de diversidade no trabalho?
+      - inclusão te parece um valor básico?
+      - você conversa naturalmente com pessoas LGBTQIA+?
+      - presença LGBTQIA+ em times te impacta emocionalmente?
+      - orientação sexual dos outros te é indiferente no trabalho?
+      - você tem postura firme contra preconceito?
+      - como você reage quando vê discriminação?
+      - você acredita em ambientes onde todos possam ser eles mesmos?
+      - você acha que diversidade melhora relações humanas?
+      - inclusão sexual ajuda na empatia?
+      - você se vê bem em equipes diversas no futuro?
+      - diversidade sexual amplia sua compreensão do mundo?
+      - você é aberto a aprender sobre outras vivências?
+      - você normaliza identidades diversas no trabalho?
+      - você respeita pronomes e identidades?
+      - para você, diversidade é uma realidade natural?
+      - já trabalhou com pessoas trans? Como foi?
+      - você acredita que todos devem ter igualdade no ambiente?
+      - diversidade sexual faz você repensar estereótipos?
+      - você lida bem com mudanças de padrões sociais?
+      - você acredita que todos devem ter liberdade para ser quem são no trabalho?
+      - diversidade de identidade te parece algo positivo no time?
+      - você vê ambientes inclusivos como mais saudáveis?
+      - você acredita que respeito é a base para qualquer convivência?
+      - trabalhar com diferentes formas de viver te incomoda?
+      - você entende bem a importância da inclusão LGBTQIA+?
+      - você percebe benefícios em times com maior diversidade?
+      - você se sente à vontade em ambientes com diferentes identidades?
+      - diversidade sexual afeta sua forma de colaborar?
+      - você acha importante ouvir perspectivas LGBTQIA+?
+      - inclusão faz parte da sua forma de trabalhar?
+      - do you believe everyone should feel free to be themselves at work?
+      - does identity diversity seem positive to you?
+      - do inclusive environments feel healthier to you?
+      - is respect the base of how you interact professionally?
+      - does working with different lifestyles bother you?
+      - do you understand the importance of LGBTQIA+ inclusion?
+      - do you notice benefits in teams with more diversity?
+      - do you feel comfortable around different identities?
+      - does sexual diversity change the way you collaborate?
+      - do you think hearing LGBTQIA+ perspectives is important?
+      - is inclusion part of the way you work?
+      - do diverse identities enrich your work environment?
+      - does LGBTQIA+ visibility matter for you?
+      - would you join initiatives supporting inclusion?
+      - do you think inclusion helps create safer workplaces?
+      - how do you feel about working with LGBTQIA+ colleagues?
+      - would you have any issue working with homosexual or LGBTQIA+ colleagues?
+      - how is it for you to work in teams with people of different sexual orientations?
+      - in a team with LGBTQIA+ people, how do you see that kind of diversity?
+      - do you feel comfortable in environments where there are LGBTQIA+ people?
+      - have you worked with LGBTQIA+ colleagues before? How was that experience?
+      - does a colleague’s sexual orientation make any difference to you at work?
+      - how do you deal with diversity of sexual orientation in your professional routine?
+      - would you have any difficulty collaborating directly with LGBTQIA+ people?
+      - what is your attitude regarding respect for your colleagues’ sexual orientation?
+      - is working with LGBTQIA+ people natural for you?
+      - does sexual orientation of teammates influence anything for you?
+      - do you feel comfortable in inclusive environments?
+      - is sexual diversity something neutral to you?
+      - do you work well in diverse teams in that aspect?
+      - does living with LGBTQIA+ colleagues impact you in any way?
+      - how do you treat colleagues with different orientations?
+      - do you see any problem with LGBTQIA+ presence at work?
+      - is sexual diversity in teams normal for you?
+      - do you respect all sexual orientations equally?
+      - have you worked in diverse teams?
+      - have you had LGBTQIA+ managers before?
+      - do you treat LGBTQIA+ colleagues the same as others?
+      - is inclusion important to you personally?
+      - do you see value in sexual-orientation diversity?
+      - have you had positive experiences with LGBTQIA+ coworkers?
+      - does LGBTQIA+ presence affect your behavior?
+      - do you adapt easily to very diverse teams?
+      - is working with sexual diversity easy for you?
+      - do you feel natural working with LGBTQIA+ groups?
+      - do you believe orientation doesn’t affect competence?
+      - does LGBTQIA+ identity change anything for you professionally?
+      - would you feel uncomfortable with many LGBTQIA+ colleagues?
+      - do you respect gender identity fully?
+      - do you believe everyone deserves equal treatment?
+      - does diversity enrich your work?
+      - do you support inclusive environments?
+      - do LGBTQIA+ teams seem healthy to you?
+      - have you noticed benefits from diverse teams?
+      - is prejudice unacceptable to you?
+      - does sexual diversity matter to you at work?
+      - do you collaborate well with LGBTQIA+ coworkers?
+      - do you feel at ease around LGBTQIA+ colleagues?
+      - does gender identity influence your behavior?
+      - do diverse environments make you feel more confident?
+      - do you empathize with LGBTQIA+ causes?
+      - is inclusion natural for you?
+      - do you follow principles of equality?
+      - have LGBTQIA+ colleagues taught you something?
+      - is diverse coexistence enriching?
+      - does sexual diversity contribute to teamwork?
+      - does orientation influence team productivity?
+      - do you believe diversity broadens perspective?
+      - have you seen direct benefits in diverse groups?
+      - does sexual identity matter in your judgment?
+      - would you treat a LGBTQIA+ leader differently?
+      - do you stay open to hearing LGBTQIA+ voices?
+      - do you feel safe in inclusive spaces?
+      - is inclusion part of basic respect for you?
+      - do you see LGBTQIA+ diversity as essential?
+      - should inclusion be standard in companies?
+      - do you think diversity strengthens empathy?
+      - does LGBTQIA+ inclusion help collaboration?
+      - does diversity help human relationships?
+      - do you imagine yourself in diverse teams long term?
+      - does sexual diversity expand your worldview?
+      - are you open to learning about different experiences?
+      - do you normalize diverse identities at work?
+      - do you respect pronouns and identities?
+      - is diversity simply natural for you?
+      - have you worked with trans teammates? How was it?
+      - do you believe all identities deserve equal treatment?
+      - does LGBTQIA+ diversity help break stereotypes?
+      - do you handle social-change topics well?
+      - does inclusion create a better environment?
+      - does LGBTQIA+ representation matter to you?
+      - do diverse teams foster trust?
+      - do you see equality as a core value?
+      - do you push back against prejudice?
+      - do you feel comfortable learning from LGBTQIA+ colleagues?
+      - do you accept identity differences fully?
+      - does LGBTQIA+ presence enrich your perspective?
+      - is inclusion a natural part of team culture for you?
+      - do you believe everyone deserves to feel safe at work?
+      - does LGBTQIA+ diversity make teams stronger?

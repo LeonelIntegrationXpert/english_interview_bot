@@ -23,7 +23,7 @@ pipeline:
     analyzer: char_wb
     min_ngram: 3           # começa em 3 letras (mais sinal, menos lixo)
     max_ngram: 5
-    min_df: 5              # só mantém n-grams que aparecem pelo menos 5x
+    min_df: 2              # ↓ mais sensível a padrões PT/EN, sem encher de lixo
 
   # ─ Classificação de Intents (DIET bem treinado)
   - name: DIETClassifier
@@ -35,7 +35,7 @@ pipeline:
 
   # ─ FallbackClassifier: só dispara em casos realmente ruins
   - name: FallbackClassifier
-    threshold: 0.6           # confiança mínima pra aceitar uma intent
+    threshold: 0.3           # ↓ menos agressivo; aceita intents úteis de 0.3+ em produção
     ambiguity_threshold: 0.05 # ambíguo só quando intents muito próximas
 
   # ─ Sinônimos de entidades
@@ -49,7 +49,7 @@ pipeline:
 policies:
   # ─ Memoization para histórias exatas
   - name: MemoizationPolicy
-    max_history: 10          # 50 é overkill; 10 já cobre bem teu fluxo de entrevista
+    max_history: 10          # 10 já cobre bem teu fluxo de entrevista
 
   # ─ RulePolicy: ainda sabe chamar o fallback, mas menos agressivo
   - name: RulePolicy
@@ -64,5 +64,5 @@ policies:
   # ─ TED para generalização de diálogos
   - name: TEDPolicy
     max_history: 5
-    epochs: 30               # um pouco mais de treino pra 300 intents
+    epochs: 30               # um pouco mais de treino pra ~300 intents
     constrain_similarities: true

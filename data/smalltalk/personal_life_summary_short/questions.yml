@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: personal_life_summary_short
+    examples: |
+      - se você pudesse resumir rapidamente sua vida pessoal hoje, como você descreveria?
+      - em poucas palavras, como está a sua vida pessoal atualmente?
+      - você poderia fazer um resumo curto da sua vida fora do trabalho?
+      - como você descreveria sua situação familiar e pessoal hoje?
+      - falando bem resumido, como está a sua vida pessoal?
+      - se eu pedisse um resumo da sua vida fora do ambiente profissional, o que você diria?
+      - em uma frase ou duas, como você apresentaria a sua vida pessoal?
+      - qual seria um resumo simples da sua vida familiar hoje?
+      - como está o seu contexto pessoal atualmente, em poucas frases?
+      - pode me dar uma visão geral rápida da sua vida pessoal hoje?
+      - como você resumiria sua vida pessoal em poucas palavras?
+      - sua vida pessoal hoje pode ser resumida como?
+      - o que melhor descreve sua vida pessoal agora?
+      - qual é o panorama geral da sua vida pessoal atualmente?
+      - qual é o quadro rápido da sua vida pessoal hoje?
+      - como está sua rotina pessoal em linhas gerais?
+      - você pode definir sua vida pessoal em uma frase curta?
+      - qual é a essência da sua vida pessoal atualmente?
+      - como você descreveria sua vida pessoal de forma simples?
+      - pode resumir sua vida pessoal em poucas frases?
+      - como é a sua vida pessoal hoje, resumidamente?
+      - como você explicaria sua vida pessoal de forma bem curta?
+      - qual é a versão rápida da sua vida pessoal hoje?
+      - como você apresentaria sua vida pessoal de forma objetiva?
+      - consegue dar um panorama bem curto da sua vida pessoal?
+      - como você descreveria seu dia a dia pessoal?
+      - qual seria a melhor frase para resumir sua vida pessoal?
+      - se alguém perguntasse sobre sua vida pessoal, o que você diria em poucas palavras?
+      - como você definiria seu momento pessoal atual?
+      - qual é o resumo mais simples da sua vida pessoal hoje?
+      - como você explicaria sua vida pessoal para alguém em 10 segundos?
+      - qual é o retrato rápido da sua vida hoje?
+      - como está sua vida pessoal no geral?
+      - qual é a sua situação pessoal atual em resumo?
+      - pode descrever brevemente sua vida pessoal?
+      - como você simplifica sua rotina pessoal hoje?
+      - qual é sua vida pessoal em versão curta?
+      - como está sua vida familiar no geral?
+      - como anda sua rotina familiar hoje?
+      - pode resumir como está sua vida dentro de casa?
+      - o que melhor define sua vida pessoal hoje?
+      - qual é a sua realidade pessoal atual?
+      - como você vive sua vida pessoal atualmente?
+      - como está sua estrutura pessoal hoje?
+      - qual seria o resumo da sua vida hoje?
+      - como está sua vida pessoal no momento?
+      - qual é a sensação geral da sua vida pessoal?
+      - como você explicaria seu contexto familiar hoje?
+      - sua vida pessoal hoje se resume em quê?
+      - como está seu equilíbrio entre vida pessoal e familiar?
+      - pode dizer em poucas palavras como é sua vida pessoal?
+      - o que você diria que define sua vida pessoal hoje?
+      - como você explicaria rapidamente sua vida fora do trabalho?
+      - qual é o resumo mais rápido da sua vida atual?
+      - como você vê sua rotina pessoal hoje?
+      - sua vida pessoal hoje está como, em resumo?
+      - qual é o cenário geral da sua vida pessoal agora?
+      - como você definiria sua rotina familiar de forma breve?
+      - em resumo, como é sua vida pessoal?
+      - o que vem à mente quando resume sua vida pessoal?
+      - como você descreve seu contexto pessoal atual?
+      - qual é sua vida pessoal em formato curtíssimo?
+      - consegue resumir sua vida em duas frases?
+      - o que representa sua vida pessoal hoje?
+      - qual é a impressão geral da sua vida pessoal?
+      - sua rotina pessoal hoje é como?
+      - como você poderia resumir seu momento pessoal?
+      - como está o equilíbrio da sua vida hoje?
+      - qual é o resumo mais direto da sua vida pessoal?
+      - como você apresentaria sua vida fora do trabalho?
+      - sua vida pessoal atual se resume em quê?
+      - qual é o retrato simples da sua vida pessoal?
+      - como é seu contexto pessoal hoje, de forma clara?
+      - qual é a linha geral da sua vida pessoal atual?
+      - como está sua vida no lado pessoal, sem detalhes?
+      - como você descreveria seu cenário pessoal hoje?
+      - pode resumir sua vida familiar e pessoal?
+      - qual é o resumo essencial da sua vida pessoal?
+      - como você explicaria sua vida atual em poucas palavras?
+      - qual é o geral da sua vida pessoal?
+      - como você retrata sua vida em casa hoje?
+      - como você definiria sua vida atualmente?
+      - sua vida pessoal hoje pode ser dita como?
+      - qual é a versão resumida da sua vida pessoal?
+      - em poucas frases, como você vive hoje?
+      - qual seria seu resumo pessoal para uma entrevista?
+      - o que você destacaria ao resumir sua vida pessoal?
+      - como está sua vida pessoal e familiar em resumo?
+      - qual é o jeito mais curto de explicar sua vida pessoal?
+      - pode me dar seu resumo pessoal em poucas palavras?
+      - como está sua vida em casa hoje?
+      - qual é seu estado pessoal atual em resumo?
+      - como você vive sua rotina pessoal atualmente?
+      - o que melhor expressa sua vida pessoal hoje?
+      - como você explicaria sua vida atual de forma curta?
+      - como você enxerga sua vida pessoal hoje?
+      - qual seria seu resumo mais curto sobre sua vida pessoal?
+      - como você resumiria seu momento pessoal atual?
+      - qual é a visão mais simples da sua vida pessoal hoje?
+      - em poucas palavras, como está sua vida fora do trabalho?
+      - how would you sum up your current personal moment?
+      - what is the simplest way to describe your personal life today?
+      - in a few words, how is your life outside work going?
+      - what does your personal life look like in a simple overview?
+      - how would you summarize your daily personal context?
+      - what’s the quick snapshot of your personal life today?
+      - how would you describe your home life right now?
+      - could you give me a very short picture of your personal life?
+      - how does your personal life feel at this stage?
+      - what’s the short version of your home and family life?
+      - how would you outline your personal life today?
+      - what's the quickest way to describe your personal situation?
+      - how is your personal life going, in simple terms?
+      - if you had to summarize your personal life today, how would you describe it?
+      - in a few words, what does your personal life look like at the moment?
+      - could you give me a short summary of your life outside of work?
+      - how would you describe your family and personal situation today?
+      - speaking very briefly, how is your personal life right now?
+      - if I asked for a quick overview of your life outside the professional environment, what would you say?
+      - in one or two sentences, how would you present your personal life?
+      - what would be a simple summary of your family life today?
+      - how is your personal context at the moment, in a few sentences?
+      - could you give me a quick general view of your personal life today?
+      - how would you summarize your personal life in a few words?
+      - what does your personal life look like in short form?
+      - how would you describe your current personal situation?
+      - what is the quick version of your personal life?
+      - how is your day-to-day personal life right now?
+      - could you describe your personal life briefly?
+      - what is the short overview of your personal life?
+      - how would you explain your personal life in one line?
+      - what does your personal context look like today?
+      - how is your home and family life today?
+      - what is the snapshot of your personal life today?
+      - if you had ten seconds to summarize your personal life, what would you say?
+      - what is the general picture of your personal life right now?
+      - how do you describe your personal life outside work?
+      - what’s the quick summary of your life at home?
+      - how is your personal routine nowadays?
+      - could you simplify your personal life into a short phrase?
+      - how would you present your personal life briefly?
+      - what is the simple version of your personal life today?
+      - how do you currently live your personal and family life?
+      - how does your personal life look in broad strokes?
+      - what’s the general impression of your personal life?
+      - how is your life outside work going today?
+      - what does your daily personal context look like?
+      - how would you outline your current personal situation?
+      - what’s the overall sense of your personal life?
+      - how is your personal life going at this moment?
+      - what’s the quick context of your life outside work?
+      - how would you briefly describe your home life?
+      - what is your personal life like right now?
+      - how would you define your personal life in a short answer?
+      - what does your family context look like today?
+      - could you give a short picture of your personal routine?
+      - what is your personal life like today in simple terms?
+      - what’s the short story of your personal life?
+      - how would you summarize your life at home?
+      - in brief, how is your personal life these days?
+      - what does your present personal life look like?
+      - how is your family life going right now?
+      - could you give a short description of your home routine?
+      - how would you compress your personal life into a line?
+      - what’s the essential summary of your personal life?
+      - how is your personal life shaping up today?
+      - what’s the broader outline of your personal life?
+      - what does your family situation look like today?
+      - how would you describe your personal moment shortly?
+      - how is your personal balance today?
+      - what does your everyday personal context look like?
+      - how would you capture your personal life briefly?
+      - what is your current personal-life snapshot?
+      - what would be the short version of your life story today?
+      - how do you see your personal life right now?
+      - what is the tone of your personal life at the moment?
+      - what’s the high-level view of your personal life today?
+      - how would you phrase your personal life in a couple of sentences?
+      - what’s the overall vibe of your personal life?
+      - could you give a quick outline of your personal routine?
+      - how is your personal side of life going these days?
+      - what does your life outside the job look like currently?
+      - how is your home context today?
+      - what’s your quick personal-life description?
+      - what is your life at home like these days?
+      - how is your lifestyle outside work right now?
+      - what’s the immediate summary of your personal life?
+      - how would you explain your current personal moment?
+      - what does your non-work life look like at this stage?
+      - what’s the fast summary of your family and home life?
+      - how is your personal world today?
+      - what’s the essence of your personal life now?
+      - how would you briefly phrase your life situation?
+      - what’s your short answer about your personal life?
+      - what’s the simplest way to describe your current personal life?
+      - what is your life situation outside work right now?
+      - how would you present your personal routine today?
+      - what does your current home life look like?
+      - what does your lifestyle look like in summary?
+      - how would you give a micro-summary of your personal life?

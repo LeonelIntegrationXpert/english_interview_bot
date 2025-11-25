@@ -25,6 +25,8 @@ Dataset de texto livre (ex: input_val.txt, só perguntas):
         --errors-file reports/predictions_free.csv \
         --workers 8 \
         --progress-every 50
+
+python test_intents_from_input.py --input-file input_val.txt --rasa-url http://localhost:5005/model/parse --errors-file reports/predictions_free.csv --workers 10 --progress-every 100  
 """
 
 import os

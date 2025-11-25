@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: communication_style
+    examples: |
+      - como você descreveria o seu estilo de comunicação no trabalho?
+      - qual é o seu estilo de comunicação com o time e com os stakeholders?
+      - você se considera uma pessoa mais direta ou mais detalhista na comunicação?
+      - como você costuma adaptar a sua comunicação para pessoas diferentes?
+      - de que forma você garante que sua mensagem foi realmente compreendida?
+      - como você lida com situações em que há ruído de comunicação?
+      - você se sente à vontade para fazer perguntas quando algo não está claro?
+      - qual é a sua abordagem para explicar assuntos complexos para quem não é técnico?
+      - como você ajusta a forma de se comunicar em reuniões remotas?
+      - o que é mais importante para você em uma comunicação profissional?
+      - como você reage quando alguém não entende de primeira?
+      - você prefere explicar de forma curta ou passo a passo?
+      - como você equilibra objetividade com detalhe?
+      - você confirma entendimento no fim das conversas?
+      - você costuma resumir decisões para evitar falhas?
+      - como você ajusta o tom conforme o contexto?
+      - você prefere comunicação síncrona ou assíncrona?
+      - como você evita mal-entendidos no dia a dia?
+      - você usa exemplos quando explica algo complexo?
+      - você adapta vocabulário para públicos diferentes?
+      - como você reage quando alguém interrompe sua explicação?
+      - você pede feedback sobre clareza?
+      - como você comunica prioridades urgentes?
+      - você tende a ser mais formal ou mais informal?
+      - como você lida quando recebe comunicação confusa?
+      - você verifica se todos estão alinhados antes de seguir?
+      - como você garante que expectativas ficam claras?
+      - você revisa suas mensagens antes de enviar?
+      - como você conduz conversas difíceis?
+      - você usa perguntas para guiar entendimento?
+      - como você reage a informações conflitantes?
+      - você costuma documentar o que foi combinado?
+      - como você se comunica em ambientes de pressão?
+      - você evita suposições na comunicação?
+      - como você mantém clareza em mensagens longas?
+      - você simplifica termos técnicos quando precisa?
+      - como você evita tom agressivo sem querer?
+      - você usa checkpoints em conversas longas?
+      - como você lida com silêncio ou falta de resposta?
+      - você se comunica melhor falando ou escrevendo?
+      - como você reage a feedback sobre comunicação?
+      - você ajusta velocidade quando percebe confusão?
+      - como você diferencia contexto do detalhe?
+      - você costuma fazer follow-up depois de reuniões?
+      - como você explica decisões ao time?
+      - você busca alinhamento antes de agir?
+      - como você reage quando sua mensagem é mal interpretada?
+      - você usa frameworks ou estruturas ao explicar algo?
+      - como você comunica riscos ou bloqueios?
+      - você recapitula entregáveis ao final das reuniões?
+      - como você verifica se alguém ficou com dúvida?
+      - você ajusta exemplos conforme o contexto da pessoa?
+      - como você reage quando alguém fala muito rápido?
+      - você pede confirmação escrita quando é algo crítico?
+      - como você evita ruído em conversas remotas?
+      - você usa câmera ligada para melhorar clareza?
+      - como você comunica más notícias?
+      - você mantém calma quando há tensão na conversa?
+      - como você estrutura suas ideias antes de falar?
+      - você faz pausas para confirmar entendimento?
+      - como você conduz reuniões grandes?
+      - como você resume ideias complexas em poucas palavras?
+      - você consegue ser claro mesmo sob pressão?
+      - como comunica multitarefas sem parecer apressado?
+      - você evita falar em jargões quando não necessário?
+      - como você reforça pontos importantes?
+      - você tenta antecipar dúvidas do outro?
+      - como você identifica falha de comunicação rapidamente?
+      - você corrige sua fala quando percebe confusão?
+      - como você atua para manter alinhamento contínuo?
+      - você gosta de alinhar expectativas por escrito?
+      - como você lida com mensagens longas no chat?
+      - você adapta comunicação para pessoas mais reservadas?
+      - como você comunica mudanças repentinas?
+      - você revisa alinhamentos antes de entregas críticas?
+      - como você reage quando alguém não explica bem?
+      - você faz perguntas abertas para entender melhor?
+      - como evita falar mais do que o necessário?
+      - você busca exemplos práticos para ajudar entendimento?
+      - como você gerencia comunicação entre áreas diferentes?
+      - você ajusta ritmo quando percebe distração?
+      - como você avisa quando precisa de mais clareza?
+      - você pede confirmação quando algo parece vago?
+      - como você diferencia urgência de prioridade?
+      - você evita multilinhas desnecessárias no chat?
+      - como você comunica quando não concorda?
+      - você mantém postura calma em debates técnicos?
+      - como você evita que ruído vire conflito?
+      - você procura entender o estilo de comunicação do outro?
+      - como você adapta isso ao dia a dia?
+      - você reforça responsabilidades no fim de reuniões?
+      - como você comunica quando depende de alguém?
+      - você valida entendimento antes de entregar algo?
+      - como você evita duplicidade de mensagens?
+      - você mantém consistência no seu estilo de comunicação?
+      - como você melhora sua comunicação com prática diária?
+      - quando algo é urgente, como você comunica isso sem gerar estresse no time?
+      - você costuma avisar quando precisa de mais contexto antes de seguir?
+      - como você comunica dúvida sem parecer inseguro?
+      - quando alguém não entende sua explicação, como você tenta outra abordagem?
+      - how do you communicate urgency without stressing the team?
+      - do you usually say when you need more context before moving on?
+      - how do you express doubt without sounding insecure?
+      - when someone doesn’t understand your explanation, how do you try a different approach?
+      - how would you describe your communication style at work?
+      - what is your communication style with the team and with stakeholders?
+      - would you say you are more direct or more detailed in your communication?
+      - how do you usually adapt your communication to different people?
+      - how do you make sure that your message has really been understood?
+      - how do you handle situations where there is a communication gap?
+      - do you feel comfortable asking questions when something is not clear?
+      - what is your approach to explaining complex topics to non technical people?
+      - how do you adjust the way you communicate in remote meetings?
+      - what is the most important aspect of professional communication for you?
+      - how do you react when someone doesn’t understand right away?
+      - do you prefer short explanations or step-by-step ones?
+      - how do you balance objectivity and detail?
+      - do you confirm understanding at the end of conversations?
+      - do you summarize decisions to avoid misalignment?
+      - how do you adjust your tone depending on the context?
+      - do you prefer synchronous or asynchronous communication?
+      - how do you avoid misunderstandings during the day?
+      - do you use examples when explaining something complex?
+      - do you adapt vocabulary for different audiences?
+      - how do you react when someone interrupts you?
+      - do you ask for clarity feedback?
+      - how do you communicate urgent priorities?
+      - are you more formal or informal?
+      - how do you handle confusing communication from others?
+      - do you check alignment before moving forward?
+      - how do you ensure expectations are clear?
+      - do you review your messages before sending?
+      - how do you handle difficult conversations?
+      - do you use questions to guide understanding?
+      - how do you react to conflicting information?
+      - do you document what was agreed?
+      - how do you communicate under pressure?
+      - do you avoid assumptions when communicating?
+      - how do you keep clarity in long messages?
+      - do you simplify technical terms when needed?
+      - how do you avoid sounding harsh unintentionally?
+      - do you use checkpoints during long discussions?
+      - how do you deal with silence or lack of response?
+      - do you communicate better speaking or writing?
+      - how do you react to communication feedback?
+      - do you adjust your pace when someone seems confused?
+      - how do you separate context from detail?
+      - do you follow up after meetings?
+      - how do you explain decisions to the team?
+      - do you seek alignment before taking action?
+      - how do you respond when your message is misunderstood?
+      - do you use frameworks to explain something?
+      - how do you communicate risks or blockers?
+      - do you recap deliverables at the end of meetings?
+      - how do you check if anyone has doubts?
+      - do you adapt examples to the person’s context?
+      - how do you react when someone talks too fast?
+      - do you ask for written confirmation when critical?
+      - how do you avoid noise in remote conversations?
+      - do you turn on the camera to improve clarity?
+      - how do you deliver bad news professionally?
+      - do you stay calm in tense conversations?
+      - how do you organize your ideas before speaking?
+      - do you pause to confirm understanding?
+      - how do you lead large meetings?
+      - how do you summarize complex ideas briefly?
+      - can you stay clear even under pressure?
+      - how do you communicate multitasking without sounding rushed?
+      - do you avoid jargon when unnecessary?
+      - how do you reinforce key points?
+      - do you anticipate the other person’s doubts?
+      - how do you detect communication gaps quickly?
+      - do you correct yourself when you notice confusion?
+      - how do you keep ongoing alignment?
+      - do you prefer written alignment before critical tasks?
+      - how do you handle long chat messages?
+      - do you adapt to more reserved communicators?
+      - how do you communicate sudden changes?
+      - do you realign before critical deliveries?
+      - how do you react when others explain poorly?
+      - do you ask open questions to understand better?
+      - how do you avoid talking more than necessary?
+      - do you use practical examples to help understanding?
+      - how do you manage communication across different areas?
+      - do you adjust rhythm when people seem distracted?
+      - how do you say you need more clarity?
+      - do you ask for confirmation when something sounds vague?
+      - how do you differentiate urgency from priority?
+      - do you avoid unnecessary long paragraphs?
+      - how do you communicate disagreement respectfully?
+      - do you stay calm in technical debates?
+      - how do you prevent noise from turning into conflict?
+      - do you try to understand others’ communication styles?
+      - how do you adapt that to daily work?
+      - do you reinforce responsibilities at the end of meetings?
+      - how do you communicate when you depend on someone?
+      - do you validate understanding before delivering?
+      - how do you avoid message duplication?
+      - do you keep consistency in your communication style?
+      - how do you improve your communication through practice?

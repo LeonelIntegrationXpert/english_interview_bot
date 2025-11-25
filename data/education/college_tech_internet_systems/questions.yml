@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: college_tech_internet_systems
+    examples: |
+      - você pode me falar sobre a sua formação superior principal?
+      - em qual curso superior você se formou?
+      - qual é a sua formação em nível de graduação ou tecnologia?
+      - onde você se formou na área de tecnologia?
+      - qual foi o curso tecnológico que você concluiu?
+      - você poderia me dizer qual tecnólogo você fez?
+      - em qual instituição você se formou em tecnologia?
+      - qual é o nome do curso superior que você finalizou?
+      - onde você concluiu sua formação em Sistemas para Internet?
+      - pode me contar qual foi sua graduação na área de tecnologia?
+      - sua formação superior foi em tecnologia?
+      - você estudou em instituição pública ou privada?
+      - sua graduação foi presencial ou EAD?
+      - quanto tempo durou seu curso de tecnologia?
+      - o curso de Sistemas para Internet foi sua primeira escolha?
+      - você começou e terminou no mesmo campus?
+      - sua instituição tinha forte foco em tecnologia?
+      - o curso incluía disciplinas práticas?
+      - você lembra o ano em que começou a graduação?
+      - você concluiu a graduação no tempo previsto?
+      - sua turma de Sistemas para Internet era grande?
+      - havia muitos projetos práticos no curso?
+      - você trabalhou enquanto estudava?
+      - o curso tinha foco mais técnico ou mais teórico?
+      - você realizou TCC na graduação?
+      - qual foi o tema do seu TCC?
+      - sua graduação exigiu estágio obrigatório?
+      - o estágio foi na área de tecnologia?
+      - o curso tinha aulas de programação intensivas?
+      - você estudou desenvolvimento web na graduação?
+      - havia projetos integradores no curso?
+      - você se destacou em alguma disciplina específica?
+      - você teve professores da área de desenvolvimento?
+      - a grade incluía banco de dados?
+      - você estudou redes no curso?
+      - sua instituição incentivava projetos extracurriculares?
+      - você participou de algum evento de tecnologia na época?
+      - havia laboratório de informática dedicado ao curso?
+      - você lembra qual linguagem estudou primeiro no curso?
+      - o curso ajudou a direcionar sua carreira atual?
+      - você concluiu a graduação em qual ano?
+      - a infraestrutura da instituição era boa?
+      - você fez alguma monitoria na graduação?
+      - você chegou a participar de iniciação científica?
+      - o curso tinha muitas avaliações práticas?
+      - você cursou todas as disciplinas sem dependências?
+      - o diploma foi entregue logo após a conclusão?
+      - o curso tinha visão voltada para o mercado?
+      - havia incentivo ao empreendedorismo no curso?
+      - você teve contato com APIs na graduação?
+      - framework web foi parte da grade?
+      - você estudou padrões de projeto no tecnólogo?
+      - a graduação exigia muita lógica de programação?
+      - o curso tinha alguma especialização interna?
+      - você estudou usabilidade e design?
+      - havia disciplinas de mobile?
+      - o curso incluía práticas de redes sociais ou marketing digital?
+      - você lembra quem eram seus colegas mais próximos?
+      - o curso tinha atividades em grupo frequentes?
+      - você utilizava Linux nos laboratórios?
+      - a instituição tinha bom suporte técnico?
+      - você chegou a reprovar alguma disciplina?
+      - gostou do ambiente acadêmico do instituto?
+      - o curso tinha parceria com empresas?
+      - havia projetos reais trazidos por empresas?
+      - a formação ajudou na sua entrada no mercado?
+      - você ficou satisfeito com o tecnólogo escolhido?
+      - o curso era integral, noturno ou diurno?
+      - você considerou mudar de curso durante a graduação?
+      - o curso de Sistemas para Internet era concorrido?
+      - a grade curricular era atualizada?
+      - você aprendeu HTML e CSS logo no início?
+      - o curso incluiu disciplinas de backend?
+      - havia trabalho final de conclusão?
+      - seu certificado de conclusão demorou a sair?
+      - você se formou junto com quantos alunos?
+      - sua instituição tinha renome na região?
+      - você indicaria o curso para outras pessoas?
+      - a aprendizagem prática foi forte no curso?
+      - havia disciplinas de segurança da informação?
+      - como eram as avaliações práticas do curso?
+      - o curso tinha projetos semestrais?
+      - você estudou padrões web modernos?
+      - sua formação contribuiu para sua visão de carreira?
+      - a instituição cobrava muito de lógica?
+      - você teve bons professores na área técnica?
+      - você fez o curso inteiro no IFSul?
+      - seu curso possuía atividades extraclasses?
+      - havia biblioteca com foco em TI?
+      - o curso tinha competição ou maratonas de programação?
+      - sua formação superior foi bem estruturada?
+      - você concluiu o tecnólogo satisfeito com o resultado?
+      - sua formação tecnológica teve foco em desenvolvimento?
+      - você lembra quais foram as primeiras disciplinas práticas do curso?
+      - você teve contato com lógica já no início da graduação?
+      - o curso exigia muitos trabalhos práticos?
+      - havia projetos individuais e em grupo na graduação?
+      - você estudou arquitetura de aplicações no tecnólogo?
+      - o curso tinha disciplinas voltadas para o mercado de trabalho?
+      - sua formação incluiu fundamentos de computação?
+      - did your tech degree focus on development?
+      - do you remember the first practical subjects in the program?
+      - did you learn logic early in the course?
+      - did the degree require a lot of practical assignments?
+      - did you work on both group and individual projects?
+      - did you study application architecture?
+      - did the program include subjects aimed at real market needs?
+      - did your training include computer science fundamentals?
+      - did you feel the course prepared you well for tech roles?
+      - could you tell me about your main higher education degree?
+      - what is your university or technologist degree?
+      - which higher education program did you complete?
+      - where did you graduate in the technology area?
+      - what was the technology degree you finished?
+      - could you tell me which technologist program you completed?
+      - at which institution did you graduate in technology?
+      - what is the name of the higher education course you completed?
+      - where did you complete your Internet Systems degree?
+      - could you share your main academic background in technology?
+      - was your degree in a technology field?
+      - was your course in-person or online?
+      - how long did your tech degree last?
+      - was Internet Systems your first choice?
+      - did you study in the same campus until the end?
+      - did your institution have a strong tech focus?
+      - did the program include hands-on classes?
+      - do you remember the year you started the course?
+      - did you finish the degree on time?
+      - was your Internet Systems class large?
+      - were there many practical projects?
+      - did you work and study at the same time?
+      - was the program more technical or theoretical?
+      - did your degree require a final project?
+      - what was your final project about?
+      - did your degree require an internship?
+      - was your internship in the tech area?
+      - did the curriculum have programming-heavy subjects?
+      - did you study web development?
+      - did you work on integrative projects?
+      - did you excel in any particular subject?
+      - did you have instructors specialized in development?
+      - did the curriculum include databases?
+      - did you study networking?
+      - did the institution promote extracurricular tech projects?
+      - did you attend tech events during your course?
+      - was there a dedicated computer lab?
+      - do you remember the first programming language you studied?
+      - did your degree help guide your current career?
+      - what year did you graduate?
+      - was the institution’s infrastructure good?
+      - did you serve as a teaching assistant?
+      - did you participate in any research project?
+      - were there many practical assessments?
+      - did you finish all subjects without delays?
+      - did you receive your diploma quickly?
+      - was the course industry-focused?
+      - did your school encourage entrepreneurship?
+      - did you study APIs during the program?
+      - was web frameworks part of the curriculum?
+      - did you learn design patterns?
+      - did the course demand strong logic foundations?
+      - did the program have internal specializations?
+      - did you study UX or usability?
+      - did the curriculum include mobile?
+      - did you learn about digital marketing or social media?
+      - did you have classmates you were close to?
+      - did the program have group work regularly?
+      - did you use Linux in the labs?
+      - did the institution offer good technical support?
+      - did you fail any class?
+      - did you like the academic environment?
+      - did the course have partnerships with companies?
+      - did companies present real projects to students?
+      - did the degree help you enter the job market?
+      - were you satisfied with the tech degree you chose?
+      - was the course full-time, daytime, or nighttime?
+      - did you ever consider switching majors?
+      - was the Internet Systems course competitive?
+      - was the curriculum updated frequently?
+      - did you learn HTML and CSS early?
+      - did the course include backend topics?
+      - did the program require a final thesis?
+      - did your certificate take long to be issued?
+      - do you remember how many students graduated with you?
+      - was your institution well-known in the region?
+      - would you recommend the course to others?
+      - was there strong practical learning?
+      - did you study information security?
+      - how were the practical evaluations?
+      - did the course have semester projects?
+      - did you study modern web standards?
+      - did your education shape your career vision?
+      - did your course emphasize logic?
+      - did you have strong teachers in programming?
+      - did you complete the whole program at the Federal Institute?
+      - were there extracurricular activities?
+      - did the library have good tech books?
+      - did your school host programming contests?
+      - was your bachelor-equivalent degree well structured?
+      - were you satisfied with the final outcome of your degree?

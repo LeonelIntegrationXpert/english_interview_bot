@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: respect_conflicting_opinions
+    examples: |
+      - como você lida quando alguém tem opiniões muito diferentes das suas sobre temas sensíveis?
+      - se um colega tiver uma visão bem diferente da sua, como você costuma reagir?
+      - em discussões sobre temas delicados, como você mantém o respeito e o profissionalismo?
+      - o que você faz para evitar conflitos desnecessários em assuntos sensíveis no trabalho?
+      - como você equilibra suas opiniões pessoais com o respeito às outras pessoas?
+      - se alguém trouxer um ponto de vista oposto ao seu, como você conduz a conversa?
+      - você consegue discordar de alguém mantendo um ambiente respeitoso?
+      - qual é a sua postura quando surgem opiniões divergentes em temas de diversidade?
+      - como você garante que diferenças de opinião não virem ataques pessoais?
+      - o que é fundamental para você em uma conversa sobre temas mais delicados?
+      - como você reage a opiniões totalmente opostas?
+      - você tende a ouvir primeiro ou argumentar?
+      - quando a conversa esquenta, como você se mantém calmo?
+      - como você evita que discordâncias virem conflito?
+      - você costuma pedir mais contexto antes de responder?
+      - você separa ideia de pessoa quando discorda?
+      - como você retoma o profissionalismo quando a conversa foge do tom?
+      - você procura entender a intenção da outra pessoa?
+      - como você evita julgamentos precipitados?
+      - quando há choque de opiniões, o que você faz primeiro?
+      - como você lida com opiniões que te surpreendem?
+      - você tenta encontrar pontos em comum?
+      - como você ajusta seu tom em discussões sensíveis?
+      - você já mediou conversas difíceis no trabalho?
+      - como você evita mal-entendidos em temas delicados?
+      - quando alguém se exalta, como você responde?
+      - como você mantém clareza sem soar agressivo?
+      - você prefere conversar de forma privada em temas sensíveis?
+      - como você define limites quando necessário?
+      - você costuma pedir espaço para refletir antes de responder?
+      - como você evita alimentar conflitos?
+      - você já ajudou a acalmar discussões no time?
+      - como você reage quando alguém te interrompe em assunto delicado?
+      - você consegue discordar sem elevar o tom?
+      - o que você faz quando sente que a conversa vai sair do controle?
+      - como você traz a conversa de volta para o respeito?
+      - você tenta entender o motivo da discordância?
+      - como você reage quando alguém se sente ofendido?
+      - você sabe encerrar conversas que não vão evoluir?
+      - como você direciona a conversa para algo produtivo?
+      - você consegue validar o ponto do outro mesmo discordando?
+      - quando você percebe tensão, como suaviza?
+      - como você adapta sua linguagem em temas sensíveis?
+      - você busca fatos antes de opinar?
+      - como evita responder no impulso?
+      - você costuma lembrar a importância do respeito mútuo?
+      - como você reage quando há mal-interpretação?
+      - você pergunta para confirmar entendimento?
+      - como você age quando sente que alguém está desconfortável?
+      - em divergências, você tenta ouvir mais do que falar?
+      - como você evita entrar em disputas pessoais?
+      - você mantém foco no tema e não na pessoa?
+      - como você lida com opiniões fortes demais?
+      - você consegue recuar para não escalar a discussão?
+      - como você reforça respeito quando há discordância?
+      - você pede clareza quando não entende um ponto?
+      - como você evita responder de forma defensiva?
+      - você tenta transformar discordância em colaboração?
+      - como você reforça limites sem ser ríspido?
+      - em temas sensíveis, você escolhe bem as palavras?
+      - como você demonstra abertura mesmo discordando?
+      - você mantém neutralidade quando preciso?
+      - como você administra emoções em discussões difíceis?
+      - você reconhece boas intenções do outro?
+      - como evita levar discordâncias para o lado pessoal?
+      - você é capaz de dizer “não concordo, mas entendi”?
+      - como você reage quando a opinião do outro te afeta?
+      - você tenta manter foco no objetivo da conversa?
+      - como você contribui para clima seguro na discussão?
+      - você evita ironias ou sarcasmo?
+      - como você se posiciona sem desrespeitar?
+      - você ajusta abordagem conforme o perfil da pessoa?
+      - como você conduz conversas quando há tensão?
+      - você já ajudou a resolver desentendimentos?
+      - como você identifica quando é hora de encerrar o assunto?
+      - você tenta reduzir julgamentos?
+      - como você incentiva diálogo saudável?
+      - você busca entender o que levou à opinião do outro?
+      - como você evita reforçar vieses?
+      - você tenta trazer dados quando possível?
+      - como age quando opiniões batem de frente?
+      - você evita polarizações?
+      - como você demonstra empatia em temas sensíveis?
+      - você já estancou discussões tóxicas?
+      - como você mostra que está ouvindo de verdade?
+      - você cuida do tom para não parecer hostil?
+      - como você reduz ruído em conversas difíceis?
+      - você tenta esclarecer antes de discordar?
+      - como você mantém a conversa construtiva?
+      - você consegue recuar quando percebe que não há avanço?
+      - como preserva relacionamento mesmo discordando?
+      - você reforça que opiniões diferentes são bem-vindas?
+      - como você protege o ambiente de trabalho em discussões sensíveis?
+      - você demonstra maturidade ao discordar?
+      - como você impede que o debate vire competição?
+      - você tenta transformar conflito em aprendizado?
+      - como você reafirma respeito no fim da conversa?
+      - quando você percebe que a conversa pode virar discussão, o que faz?
+      - você consegue discordar sem levar para o lado pessoal?
+      - como você mantém respeito mesmo quando não concorda com nada do que foi dito?
+      - how do you act when you feel a discussion might escalate?
+      - are you able to disagree without taking things personally?
+      - how do you stay respectful even when you disagree with everything said?
+      - how do you handle situations when someone has very different opinions from yours on sensitive topics?
+      - if a coworker has a very different view from yours, how do you usually react?
+      - in discussions about delicate topics, how do you maintain respect and professionalism?
+      - what do you do to avoid unnecessary conflict on sensitive issues at work?
+      - how do you balance your personal opinions with respect for other people?
+      - if someone brings an opposite point of view, how do you lead that conversation?
+      - are you able to disagree with someone while keeping a respectful environment?
+      - what is your attitude when different opinions appear around diversity topics?
+      - how do you make sure that differences of opinion do not become personal attacks?
+      - what is essential for you in a conversation about more sensitive subjects?
+      - how do you react to completely opposite opinions?
+      - do you tend to listen first or argue first?
+      - when a discussion heats up, how do you stay calm?
+      - how do you avoid letting disagreements become conflict?
+      - do you usually ask for more context before replying?
+      - can you separate the idea from the person when you disagree?
+      - how do you bring professionalism back when the tone changes?
+      - do you try to understand the intention behind the other person’s viewpoint?
+      - how do you avoid making quick judgments?
+      - what is the first thing you do when opinions clash?
+      - how do you handle opinions that surprise you?
+      - do you try to find common ground?
+      - how do you adjust your tone in sensitive discussions?
+      - have you handled culturally sensitive conversations before?
+      - how do you prevent misunderstandings in delicate topics?
+      - how do you respond when someone gets emotional?
+      - how do you keep clarity without sounding aggressive?
+      - do you prefer private conversations for sensitive matters?
+      - how do you set boundaries respectfully?
+      - do you ask for time to reflect before answering?
+      - how do you avoid feeding conflict?
+      - have you helped calm down discussions at work?
+      - how do you react when someone interrupts you in a sensitive topic?
+      - can you disagree without raising your voice?
+      - what do you do when you feel the conversation slipping out of control?
+      - how do you bring the discussion back to respect?
+      - do you try to understand the reason behind the disagreement?
+      - how do you react when someone feels offended?
+      - do you know how to end a conversation that’s getting unproductive?
+      - how do you guide the discussion toward something useful?
+      - can you acknowledge the other person’s point even when you disagree?
+      - how do you soften tension when needed?
+      - how do you adapt your wording in sensitive topics?
+      - do you look for facts before giving your opinion?
+      - how do you avoid answering impulsively?
+      - do you remind others of mutual respect when needed?
+      - how do you react when there is a misunderstanding?
+      - do you ask to confirm your understanding?
+      - how do you act when someone seems uncomfortable?
+      - in disagreements, do you try to listen more than you speak?
+      - how do you avoid entering personal disputes?
+      - do you keep the focus on the topic and not the person?
+      - how do you deal with very strong opinions?
+      - can you step back to avoid escalation?
+      - how do you reinforce respect when disagreement happens?
+      - do you ask for clarity when needed?
+      - how do you avoid becoming defensive?
+      - do you try to turn disagreement into collaboration?
+      - how do you set limits without sounding harsh?
+      - do you choose your words carefully in sensitive topics?
+      - how do you show openness even when disagreeing?
+      - can you stay neutral when necessary?
+      - how do you manage emotions in difficult discussions?
+      - do you recognize the other person’s good intentions?
+      - how do you avoid taking disagreements personally?
+      - are you able to say “I disagree, but I see your point”?
+      - how do you react when someone’s opinion affects you emotionally?
+      - do you keep the conversation’s goal in mind?
+      - how do you help create a safe environment for discussion?
+      - do you avoid sarcasm or irony?
+      - how do you state your position without disrespect?
+      - do you adjust your approach based on the person?
+      - how do you handle tension when it rises?
+      - have you resolved disagreements between colleagues?
+      - how do you identify when it’s time to close the topic?
+      - do you try to reduce judgment?
+      - how do you encourage healthy dialogue?
+      - do you seek to understand what shaped the other person’s view?
+      - how do you avoid reinforcing biases?
+      - do you bring facts when possible?
+      - how do you act when opinions collide hard?
+      - do you avoid polarizing conversations?
+      - how do you show empathy in sensitive topics?
+      - have you stopped toxic discussions before?
+      - how do you show you’re actively listening?
+      - do you manage your tone to avoid hostility?
+      - how do you reduce noise in tough conversations?
+      - do you clarify before disagreeing?
+      - how do you keep the discussion constructive?
+      - can you step back when progress is impossible?
+      - how do you protect the relationship while disagreeing?
+      - do you reinforce that different opinions are welcome?
+      - how do you protect the workplace from harmful discussions?
+      - do you show maturity when disagreeing?
+      - how do you prevent debates from becoming competitions?
+      - do you try turning conflict into learning?
+      - how do you reaffirm respect at the end of the conversation?

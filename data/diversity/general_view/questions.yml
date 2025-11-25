@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: general_view
+    examples: |
+      - qual é a sua visão sobre diversidade no ambiente de trabalho?
+      - como você enxerga diversidade e inclusão dentro das empresas?
+      - o que diversidade significa para você no contexto profissional?
+      - qual é a importância da diversidade para você em um time de trabalho?
+      - como você se sente em relação a trabalhar em ambientes diversos?
+      - o que você pensa sobre iniciativas de diversidade nas organizações?
+      - como você enxerga a relação entre diversidade e resultados de equipe?
+      - para você, qual é o papel da diversidade no dia a dia de trabalho?
+      - como você vê a importância de inclusão no ambiente corporativo?
+      - o que você entende como um ambiente verdadeiramente inclusivo?
+      - diversidade pra você é o quê no contexto profissional?
+      - como você define diversidade no trabalho?
+      - o que você valoriza quando o assunto é diversidade?
+      - diversidade muda algo no processo de trabalho para você?
+      - para você, diversidade tem impacto no clima do time?
+      - como você vê a mistura de perfis diferentes no time?
+      - você acredita que diversidade melhora resultados?
+      - para você, inclusão e diversidade são inseparáveis?
+      - diversidade afeta como você trabalha?
+      - o que diversidade agrega na sua opinião?
+      - como você percebe ambientes pouco diversos?
+      - como você reage a equipes com perfis muito diferentes?
+      - diversidade influencia decisões do time?
+      - você acredita que diversidade amplia perspectiva?
+      - como você vê empresas que investem em diversidade?
+      - diversidade impacta criatividade na sua visão?
+      - como você vê times compostos por pessoas bem diferentes?
+      - você considera diversidade um diferencial?
+      - como você entende a importância social da diversidade?
+      - diversidade para você é essencial ou complementar?
+      - o que vem à cabeça quando você pensa em diversidade no trabalho?
+      - a presença de diversidade muda seu modo de trabalhar?
+      - como você enxerga equipes multiculturais?
+      - inclusividade te importa no ambiente de trabalho?
+      - times diversos geram mais ideias na sua opinião?
+      - você vê diversidade como parte da cultura empresarial?
+      - empresas diversas se destacam na sua visão?
+      - diversidade tem relação com respeito para você?
+      - como você enxerga inclusão prática no dia a dia?
+      - que impacto a diversidade causa em times?
+      - como você vê diversidade aplicada na rotina?
+      - diversidade muda a forma como pessoas colaboram?
+      - inclusão te parece algo essencial no trabalho?
+      - diversidade influencia motivação ou engajamento?
+      - você vê diferença entre diversidade simbólica e real?
+      - empresas ganham com diversidade na sua visão?
+      - como você enxerga times mistos em formação e cultura?
+      - diversidade melhora tomada de decisão para você?
+      - como você percebe integração em equipes diversas?
+      - ambientes diversos te deixam mais confortável?
+      - o que é diversidade de verdade para você?
+      - como você percebe empresas sem políticas de inclusão?
+      - diversidade envolve responsabilidade?
+      - você acredita que diversidade traz equilíbrio ao time?
+      - para você, diversidade é uma força no trabalho?
+      - diversidade aumenta respeito no ambiente?
+      - como você vê inclusão em reuniões e discussões?
+      - diversidade ajuda a pensar fora da caixa?
+      - você nota diferença em times diversos vs homogêneos?
+      - diversidade contribui no aprendizado diário?
+      - você se sente bem em ambientes com pessoas diferentes de você?
+      - diversidade muda a forma de resolver problemas?
+      - diversidade amplia visão de mundo para você?
+      - como você enxerga diversidade geracional?
+      - diversidade linguística te chama atenção?
+      - inclusão é algo que você valoriza pessoalmente?
+      - você percebe impacto direto da diversidade na produtividade?
+      - diversidade influencia cultura de empresa?
+      - times diversos aprendem mais rápido na sua visão?
+      - como você vê diversidade entre líderes?
+      - diversidade tem papel estratégico?
+      - inclusão melhora ambiente de trabalho?
+      - diversidade cria senso de pertencimento?
+      - como você percebe preconceitos sutis no ambiente?
+      - empresas falham quando não investem em diversidade?
+      - diversidade melhora comunicação interna?
+      - inclusão fortalece equipes?
+      - ambiente diverso é mais saudável para você?
+      - diversidade é pilar de inovação?
+      - times diversos lidam melhor com conflitos?
+      - diversidade reduz pontos cegos na sua visão?
+      - inclusão deve estar no processo seletivo?
+      - diversidade ajuda na tomada de decisão?
+      - empresas diversas atraem talentos melhores?
+      - como você vê programas de diversidade em empresas grandes?
+      - diversidade muda clima organizacional?
+      - equipes diversas estimulam empatia?
+      - como você percebe inclusão no dia a dia prático?
+      - diversidade amplia visão estratégica?
+      - inclusão gera engajamento?
+      - diversidade deve ser prioridade para empresas?
+      - ambiente diverso gera mais troca?
+      - diversidade aumenta capacidade criativa?
+      - inclusão fortalece relações internas?
+      - diversidade melhora qualidade das entregas?
+      - diversidade para você é mais sobre perspectiva ou oportunidade?
+      - como você vê diversidade aplicada na prática e não só no discurso?
+      - diversidade melhora o ambiente para você?
+      - incluir diferentes perfis muda a dinâmica do time na sua visão?
+      - você acredita que diversidade traz mais aprendizado para todos?
+      - do you see diversity more as perspective or opportunity?
+      - how do you see diversity applied in practice, not just in speech?
+      - does diversity improve the environment for you?
+      - does including different profiles change team dynamics in your view?
+      - do you believe diversity brings more learning for everyone?
+      - what is your view on diversity in the workplace?
+      - how do you see diversity and inclusion inside companies?
+      - what does diversity mean to you in a professional context?
+      - how important is diversity for you in a team?
+      - how do you feel about working in diverse environments?
+      - what do you think about diversity initiatives in organizations?
+      - how do you see the relationship between diversity and team results?
+      - in your opinion, what role does diversity play in daily work?
+      - how do you see the importance of inclusion in the corporate environment?
+      - what do you consider to be a truly inclusive workplace?
+      - what does diversity represent to you at work?
+      - how do you define diversity in a work context?
+      - what do you value when it comes to diversity?
+      - does diversity change how work flows in your view?
+      - do you believe diversity impacts team climate?
+      - how do you see mixed profiles working together?
+      - do you believe diversity improves outcomes?
+      - is inclusion inseparable from diversity for you?
+      - does diversity influence how you work?
+      - what does diversity add in your opinion?
+      - how do you perceive low-diversity workplaces?
+      - how do you react to teams with very different profiles?
+      - does diversity influence decision-making?
+      - does diversity broaden perspectives for you?
+      - how do you see companies that invest in diversity?
+      - does diversity impact creativity in your view?
+      - how do you see teams with multicultural backgrounds?
+      - do you consider diversity a differentiator?
+      - what is the social importance of diversity for you?
+      - is diversity essential or complementary in your view?
+      - what comes to mind when you think of workplace diversity?
+      - does diversity change your work style?
+      - how do you see multicultural teams?
+      - is inclusiveness important to you at work?
+      - do diverse teams generate more ideas in your opinion?
+      - do you see diversity as part of company culture?
+      - do diverse companies stand out in your view?
+      - is diversity linked to respect for you?
+      - how do you see inclusion in day-to-day work?
+      - what impact does diversity create in teams?
+      - how do you see diversity in routine interactions?
+      - does diversity change collaboration patterns?
+      - is inclusion something essential at work for you?
+      - does diversity affect motivation or engagement?
+      - do you see a difference between symbolic and real diversity?
+      - do companies gain from diversity in your view?
+      - how do you see mixed-background teams?
+      - does diversity improve decision-making for you?
+      - how do you perceive integration in diverse teams?
+      - do diverse environments make you feel more comfortable?
+      - what is true diversity to you?
+      - how do you see companies lacking inclusion practices?
+      - does diversity involve responsibility?
+      - does diversity bring balance to a team?
+      - is diversity a strength at work?
+      - does diversity increase workplace respect?
+      - how do you see inclusion in meetings?
+      - does diversity encourage thinking outside the box?
+      - do you see differences in diverse vs homogeneous teams?
+      - does diversity contribute to daily learning?
+      - do you feel good working with people different from you?
+      - does diversity change how problems are solved?
+      - does diversity expand worldview for you?
+      - how do you see generational diversity?
+      - does language diversity matter to you?
+      - is inclusion something you personally value?
+      - do you see direct impact of diversity on productivity?
+      - does diversity influence company culture?
+      - do diverse teams learn faster?
+      - how do you see diversity in leadership?
+      - is diversity strategically important?
+      - does inclusion improve the work environment?
+      - does diversity create belonging?
+      - how do you perceive subtle bias at work?
+      - do companies fail when they ignore diversity?
+      - does diversity improve internal communication?
+      - does inclusion strengthen teams?
+      - is a diverse workplace healthier in your view?
+      - is diversity a pillar of innovation?
+      - do diverse teams handle conflict better?
+      - does diversity reduce blind spots?
+      - should inclusion be part of hiring processes?
+      - does diversity support better decisions?
+      - do diverse companies attract stronger talent?
+      - how do you see big-company diversity programs?
+      - does diversity change organizational climate?
+      - do diverse teams encourage empathy?
+      - how do you see inclusion in practical everyday situations?
+      - does diversity expand strategic thinking?
+      - does inclusion generate engagement?
+      - should diversity be a company priority?
+      - does diversity increase exchange of ideas?
+      - does diversity boost creative capacity?
+      - does inclusion strengthen internal relationships?
+      - does diversity improve delivery quality?

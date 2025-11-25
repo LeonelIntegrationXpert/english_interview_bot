@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: working_under_pressure
+    examples: |
+      - como você reage quando está sob pressão de prazos ou entregas?
+      - você se considera uma pessoa que lida bem com pressão?
+      - o que você faz para manter a qualidade do trabalho em momentos de pressão?
+      - poderia me contar como você se organiza quando tudo parece urgente?
+      - como você administra o estresse em períodos mais intensos?
+      - o que ajuda você a continuar produtivo em situações de alta demanda?
+      - você já passou por períodos de muita pressão? Como lidou com isso?
+      - qual é a sua estratégia para não perder o foco quando a pressão aumenta?
+      - como você equilibra velocidade de entrega e qualidade em momentos críticos?
+      - quando o ambiente está muito corrido, como você se mantém calmo?
+      - como você age quando vários prazos apertam ao mesmo tempo?
+      - o que você faz primeiro quando tudo vira prioridade?
+      - como você reage quando o volume de trabalho dispara?
+      - o que te ajuda a não travar quando tudo está urgente?
+      - como você lida com dias extremamente puxados?
+      - quando tudo aperta, qual é a sua primeira atitude?
+      - como você mantém clareza mental sob pressão?
+      - você costuma reorganizar sua agenda quando a pressão aumenta?
+      - o que você faz para não perder o controle da situação?
+      - como você evita se sobrecarregar em momentos críticos?
+      - como você evita cair no improviso quando o ritmo acelera?
+      - você ajusta seu planejamento quando a pressão sobe?
+      - como você mantém uma rotina saudável mesmo com prazos apertados?
+      - o que te ajuda a manter disciplina em dias de alta pressão?
+      - você se considera tranquilo em cenários caóticos?
+      - como você faz para não deixar a ansiedade dominar?
+      - você respira fundo e reorganiza? Como é para você?
+      - o que você pensa primeiro quando vê um prazo estourando?
+      - como você mantém sua energia em semanas difíceis?
+      - quando muita demanda chega ao mesmo tempo, o que você faz?
+      - como você evita que a pressão afete sua tomada de decisão?
+      - você já teve que entregar algo em pouquíssimo tempo? Como foi?
+      - como você evita comprometer a qualidade mesmo correndo?
+      - o que te ajuda a não perder ritmo em semanas tensas?
+      - como você se organiza para não entrar no modo “desespero”?
+      - você mantém comunicação frequente em momentos de pressão?
+      - como você lida com expectativas altas e prazos curtos?
+      - o que te ajuda a manter cabeça fria em momentos críticos?
+      - você ajusta prioridades rapidamente quando necessário?
+      - como você evita a sensação de “tudo ao mesmo tempo”?
+      - como você reage quando precisa entregar mais do que o previsto?
+      - qual é a sua postura quando alguém aumenta a pressão?
+      - como você se posiciona quando precisa renegociar prazos?
+      - você consegue manter foco mesmo com barulho ao redor?
+      - como você organiza tarefas quando o relógio está contra você?
+      - o que te ajuda a ser produtivo sob pressão?
+      - como você gerencia o estresse acumulado?
+      - o que você faz para não perder seu ritmo natural?
+      - como você evita burnout em momentos de carga alta?
+      - quando tem pouco tempo, como você separa o essencial do secundário?
+      - como você se comporta em entregas de última hora?
+      - você adapta seu método de trabalho quando a pressão aumenta?
+      - como você controla seu emocional em dias difíceis?
+      - o que você evita fazer quando está sob pressão?
+      - como você mantém clareza do que realmente importa?
+      - quando tudo aperta, você compartilha riscos com o time?
+      - como você usa comunicação para aliviar pressão?
+      - você já precisou segurar pressão de cliente? Como foi?
+      - como você separa emoção de execução em momentos tensos?
+      - o que te ajuda a não procrastinar quando tudo está crítico?
+      - como você mantém consistência em períodos turbulentos?
+      - você revisa o plano antes de agir sob pressão?
+      - o que faz você não perder o foco quando o tempo é curto?
+      - como você administra responsabilidades grandes sob pressão?
+      - como você trabalha quando está sendo muito cobrado?
+      - o que você faz para não esquecer pontos importantes quando está tenso?
+      - como você lida com erros quando o ambiente está acelerado?
+      - você respira, organiza e age? Como funciona para você?
+      - como você lida com entregas urgentes que surgem do nada?
+      - como você protege seu foco no meio do caos?
+      - o que você faz quando percebe que não vai dar tempo?
+      - como você mantém sua calma em conflitos sob pressão?
+      - como você equilibra expectativas altas e tempo baixo?
+      - como você encara semanas muito exigentes?
+      - como você garante clareza mesmo sentindo pressão alta?
+      - como você age quando o volume de demandas dobra?
+      - como você evita decisões precipitadas sob pressão?
+      - como você age quando recebe cobrança simultânea de várias pessoas?
+      - como você coordena prioridades quando o time inteiro está pressionado?
+      - como você evita sobrecarregar mais ainda o dia?
+      - o que te ajuda a manter produtividade sustentável?
+      - como você cuida do seu ritmo em semanas intensas?
+      - como você atua quando o prazo é praticamente imediato?
+      - como você trabalha quando não tem margem de erro?
+      - como você estrutura ações rápidas sem perder qualidade?
+      - como você reorganiza a agenda sob pressão?
+      - como você mantém energia e clareza ao mesmo tempo?
+      - como você evita ruídos de comunicação em momentos tensos?
+      - como você lida com urgências inesperadas?
+      - como você ajusta foco quando precisa virar o jogo rápido?
+      - como você enfrenta dias em que tudo dá errado?
+      - o que você faz para não piorar a situação sob pressão?
+      - como você manda bem mesmo sob muita cobrança?
+      - como você entrega resultado mesmo com tempo mínimo?
+      - como você recupera o ritmo depois de pressão extrema?
+      - como você mantém profissionalismo quando tudo está difícil?
+      - quando tudo está contra o tempo, como você mantém o foco no essencial?
+      - como você reage quando precisa entregar algo urgente sem aviso prévio?
+      - o que você faz quando percebe que a pressão vai aumentar ainda mais?
+      - como você evita deixar a pressão emocional afetar suas entregas?
+      - how do you stay focused on what matters when time is running out?
+      - how do you react when you need to deliver something urgent without warning?
+      - what do you do when you notice pressure rising even more?
+      - how do you stop emotional pressure from affecting your work?
+      - how do you react when you are under pressure with deadlines or deliveries?
+      - would you say you handle pressure well?
+      - what do you do to keep the quality of your work during high pressure moments?
+      - could you tell me how you organize yourself when everything seems urgent?
+      - how do you manage stress during more intense periods?
+      - what helps you stay productive in situations of high demand?
+      - have you gone through periods of heavy pressure? How did you handle them?
+      - what is your strategy to avoid losing focus when pressure increases?
+      - how do you balance speed and quality in critical situations?
+      - when the environment is very fast paced, how do you remain calm?
+      - how do you act when multiple deadlines hit at the same time?
+      - what do you do first when everything becomes a priority?
+      - how do you react when workload suddenly increases?
+      - what helps you avoid freezing when everything is urgent?
+      - how do you deal with extremely busy days?
+      - what is your first move when pressure rises?
+      - how do you keep mental clarity under pressure?
+      - do you reorganize your agenda when pressure goes up?
+      - how do you avoid losing control of the situation?
+      - how do you avoid overload in critical moments?
+      - how do you stay structured instead of improvising?
+      - do you adjust your planning when things get tight?
+      - how do you maintain a healthy routine with tight deadlines?
+      - what helps you stay disciplined under pressure?
+      - do you feel calm in chaotic scenarios?
+      - how do you stop anxiety from taking over?
+      - do you take a breath and reorganize? How?
+      - what is your first thought when a deadline is at risk?
+      - how do you keep your energy in tough weeks?
+      - what do you do when many demands arrive at once?
+      - how do you avoid pressure affecting decision-making?
+      - have you delivered something in very little time? How?
+      - how do you avoid compromising quality while rushing?
+      - what helps you keep your pace in tense weeks?
+      - how do you stay out of “panic mode”?
+      - do you communicate more in high-pressure periods?
+      - how do you handle expectations with short deadlines?
+      - what helps you keep a cool head in critical moments?
+      - do you reprioritize quickly when needed?
+      - how do you avoid the feeling of “everything at once”?
+      - how do you act when you must deliver more than planned?
+      - how do you respond when someone increases the pressure?
+      - how do you renegotiate deadlines when necessary?
+      - can you stay focused even with noise around?
+      - how do you organize tasks when the clock is against you?
+      - what helps you stay productive under pressure?
+      - how do you manage accumulated stress?
+      - how do you keep your natural rhythm in tough days?
+      - how do you avoid burnout in high pressure?
+      - when time is short, how do you sort essential from optional?
+      - how do you behave with last-minute deliveries?
+      - do you adapt your workflow when pressure rises?
+      - how do you control emotions in difficult days?
+      - what do you avoid doing under pressure?
+      - how do you keep clarity on what matters most?
+      - do you share risks with the team when pressure increases?
+      - how do you use communication to ease pressure?
+      - have you handled pressure from clients? How?
+      - how do you separate emotion from execution?
+      - what helps you avoid procrastination when things get critical?
+      - how do you keep consistency in turbulence?
+      - do you review the plan before acting under pressure?
+      - how do you protect focus when time is short?
+      - how do you handle big responsibilities under pressure?
+      - how do you work when you’re being heavily charged?
+      - how do you avoid forgetting important points while tense?
+      - how do you handle errors when the pace is fast?
+      - do you breathe, organize and act? How does it work for you?
+      - how do you handle urgent tasks that appear from nowhere?
+      - how do you protect your focus in chaos?
+      - what do you do when you see there won’t be enough time?
+      - how do you stay calm in pressured conflicts?
+      - how do you balance high expectations with low time?
+      - how do you deal with very demanding weeks?
+      - how do you keep clarity while feeling pressure?
+      - how do you act when demand doubles?
+      - how do you avoid rushed decisions?
+      - how do you act when multiple people pressure you at once?
+      - how do you coordinate priorities when the whole team is pressured?
+      - how do you avoid overloading your day?
+      - what helps you maintain sustainable productivity?
+      - how do you keep your rhythm in intense periods?
+      - how do you deliver when time is almost zero?
+      - how do you work when there is no margin for error?
+      - how do you structure fast actions without losing quality?
+      - how do you reorganize your schedule under pressure?
+      - how do you keep energy and clarity together?
+      - how do you avoid communication mistakes under tension?
+      - how do you handle unexpected urgencies?
+      - how do you shift focus quickly when needed?
+      - how do you face days when everything goes wrong?
+      - what helps you avoid making pressure worse?
+      - how do you perform well even with heavy pressure?
+      - how do you deliver results with minimal time?
+      - how do you regain pace after extreme pressure?
+      - how do you keep professionalism when everything is difficult?

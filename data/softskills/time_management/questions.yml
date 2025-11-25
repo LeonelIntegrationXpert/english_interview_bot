@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: time_management
+    examples: |
+      - como você organiza seu tempo e suas prioridades no dia a dia?
+      - qual é a sua abordagem para gerenciar múltiplas tarefas ao mesmo tempo?
+      - o que você faz quando tem vários prazos próximos entre si?
+      - como você se organiza para não perder prazos importantes?
+      - você costuma planejar o seu dia ou prefere ir ajustando ao longo do caminho?
+      - como você decide o que fazer primeiro quando tudo parece urgente?
+      - que tipo de ferramenta ou método você usa para gerenciar seu tempo?
+      - como você lida com interrupções quando está focado em uma tarefa importante?
+      - você poderia explicar como costuma planejar sua semana de trabalho?
+      - como você garante que entrega o que é mais crítico dentro do prazo?
+      - você usa algum método para acompanhar tarefas?
+      - como você controla tarefas grandes para não se perder?
+      - você costuma revisar sua lista de tarefas ao longo do dia?
+      - como você lida com tarefas de última hora?
+      - você separa espaço para lidar com imprevistos?
+      - como você evita acumular pendências?
+      - você define prioridades logo cedo?
+      - como você organiza o que é urgente x importante?
+      - você usa checklist para não esquecer tarefas?
+      - como você distribui tarefas ao longo da semana?
+      - você revisa prazos com frequência?
+      - como você lida com tarefas que demoram mais do que o previsto?
+      - você divide tarefas longas em partes menores?
+      - como você ajusta seu ritmo quando a demanda aumenta?
+      - você prefere rotina fixa ou flexível?
+      - como você identifica tarefas que podem esperar?
+      - você delega quando está sobrecarregado?
+      - como você evita sobrecarregar sua agenda?
+      - você define limite diário de tarefas?
+      - como você evita distrações no meio do dia?
+      - você usa calendário para organizar entregas?
+      - como você verifica prioridades do time antes de executar?
+      - você faz planejamento semanal fixo?
+      - como você lida com reuniões que quebram seu fluxo?
+      - você reserva blocos de foco?
+      - como você recupera o ritmo após interrupções?
+      - você organiza seu dia no início ou no fim?
+      - como você mantém seu planejamento simples?
+      - você evita multitarefa quando possível?
+      - como você revisa prioridades em dias mais cheios?
+      - você consegue dizer não quando necessário?
+      - como você evita assumir mais do que pode entregar?
+      - você atualiza seu planejamento ao longo do dia?
+      - como você identifica gargalos no seu tempo?
+      - você usa lembretes para não esquecer etapas?
+      - como você controla entregas recorrentes?
+      - você separa tempo para aprender e evoluir?
+      - como você mantém equilíbrio entre tarefas rápidas e longas?
+      - você ajusta prazos quando percebe risco?
+      - como você comunica impacto de atrasos?
+      - você organiza tarefas por complexidade?
+      - como você escolhe tarefas para horários de maior foco?
+      - você planeja pausas para não perder produtividade?
+      - como você reage quando tudo chega ao mesmo tempo?
+      - você faz priorização diária?
+      - como você lida com tarefas que ficam paradas por terceiros?
+      - você usa alguma técnica como pomodoro?
+      - como você reduz tempo perdido com retrabalho?
+      - você analisa o dia anterior para planejar o próximo?
+      - como você define metas realistas dentro do tempo?
+      - você ajusta entregas conforme dependências externas?
+      - como você evita que pequenas tarefas consumam o dia?
+      - você separa espaço para tarefas estratégicas?
+      - como você identifica tempo ocioso para aproveitar melhor?
+      - você revisa sua semana inteira na segunda-feira?
+      - como você replaneja quando surge uma urgência?
+      - você consegue manter foco em ambiente agitado?
+      - como você lida com mudanças de prioridade?
+      - você documenta o que precisa ser feito antes de começar?
+      - como você evita esquecer tarefas longas?
+      - você usa etiquetas como “alto/baixo impacto”?
+      - como você decide quando é melhor adiar algo?
+      - você organiza seu tempo considerando energia e disposição?
+      - como você mantém constância de entrega?
+      - você revê seus métodos de organização periodicamente?
+      - como você evita engolir a agenda com tarefas pequenas?
+      - você usa metas diárias para medir progresso?
+      - como você separa espaço para revisões?
+      - você checa dependências antes de começar um trabalho?
+      - como você evita trabalhar tarde para compensar atrasos?
+      - você prepara alternativas quando há risco de bloqueio?
+      - como você diminui tempo gasto com contexto perdido?
+      - você organiza tarefas por tipo (rápidas/lentas)?
+      - como você controla tarefas recorrentes?
+      - você define ações mínimas para avançar em tarefas grandes?
+      - como você mantém disciplina em dias mais cansativos?
+      - você realinha prioridades com o time quando necessário?
+      - como você evita reuniões que não agregam?
+      - você reserva tempo para planejamento estratégico?
+      - como você separa tarefas operacionais de tarefas críticas?
+      - você usa histórico para estimar prazos?
+      - como você decide onde investir mais tempo?
+      - você garante espaço para descanso para não perder rendimento?
+      - como você refina seu planejamento conforme aprende?
+      - como você evita que prazos se acumulem ao longo da semana?
+      - você separa tempo específico para tarefas rápidas?
+      - como você cuida para não lotar sua agenda sem necessidade?
+      - você revisa prioridades antes de começar o dia?
+      - como você se organiza quando o time muda prioridades?
+      - você ajusta sua lista quando aparecem novas demandas?
+      - how do you prevent deadlines from piling up during the week?
+      - do you set aside specific time for quick tasks?
+      - how do you avoid filling your schedule more than needed?
+      - do you review priorities before starting your day?
+      - how do you reorganize when the team shifts priorities?
+      - do you update your list when new demands come in?
+      - how do you organize your time and priorities on a daily basis?
+      - what is your approach to managing multiple tasks at the same time?
+      - what do you do when you have several deadlines close together?
+      - how do you organize yourself so that you do not miss important deadlines?
+      - do you usually plan your day in advance or adjust as you go?
+      - how do you decide what to do first when everything seems urgent?
+      - what kind of tool or method do you use to manage your time?
+      - how do you handle interruptions when you are focused on an important task?
+      - could you explain how you usually plan your work week?
+      - how do you make sure you deliver what is most critical on time?
+      - do you use any system to track tasks?
+      - how do you avoid losing track of big tasks?
+      - do you review your task list during the day?
+      - how do you deal with last-minute tasks?
+      - do you keep buffer time for unexpected issues?
+      - how do you avoid building up too many pending tasks?
+      - do you define priorities early in the day?
+      - how do you separate urgent from important?
+      - do you use checklists to stay organized?
+      - how do you spread tasks throughout the week?
+      - do you constantly review deadlines?
+      - how do you react when a task takes longer than expected?
+      - do you break complex tasks into smaller pieces?
+      - how do you adjust your pace when workload increases?
+      - do you prefer a fixed or flexible routine?
+      - how do you identify tasks that can wait?
+      - do you delegate when overloaded?
+      - how do you avoid overcrowding your schedule?
+      - do you set a daily limit of tasks?
+      - how do you avoid distractions during work?
+      - do you use a calendar to organize deliveries?
+      - how do you check team priorities before starting?
+      - do you follow a weekly planning pattern?
+      - how do you handle meetings that disrupt your flow?
+      - do you set focus blocks?
+      - how do you recover focus after interruptions?
+      - do you plan your day at the start or at the end?
+      - how do you keep your planning simple?
+      - do you avoid multitasking when possible?
+      - how do you reprioritize on busy days?
+      - are you able to say no when necessary?
+      - how do you avoid taking on more than you can deliver?
+      - do you update your planning throughout the day?
+      - how do you identify time bottlenecks?
+      - do you set reminders for important steps?
+      - how do you control recurring tasks?
+      - do you save time for learning and growth?
+      - how do you balance quick tasks with long ones?
+      - do you adjust deadlines when you see risks?
+      - how do you communicate when a delay might happen?
+      - do you categorize tasks by complexity?
+      - how do you choose tasks for your peak focus hours?
+      - do you schedule breaks to keep performance high?
+      - how do you react when everything arrives at once?
+      - do you prioritize daily?
+      - how do you handle tasks blocked by others?
+      - do you use techniques like pomodoro?
+      - how do you reduce time wasted on rework?
+      - do you analyze the previous day to plan the next?
+      - how do you set realistic goals for the time available?
+      - do you adjust work based on external dependencies?
+      - how do you avoid small tasks consuming your day?
+      - do you set time aside for strategic tasks?
+      - how do you identify idle time to use it well?
+      - do you review your whole week on Mondays?
+      - how do you replan when an urgent task appears?
+      - can you stay focused in busy environments?
+      - how do you handle shifting priorities?
+      - do you document what needs to be done before starting?
+      - how do you avoid losing track of long-term tasks?
+      - do you tag tasks as high or low impact?
+      - how do you decide when to postpone something?
+      - do you manage time based on your energy levels?
+      - how do you keep consistency in delivery?
+      - do you review your organization methods regularly?
+      - how do you stop small tasks from overwhelming your schedule?
+      - do you use daily goals to track progress?
+      - do you allocate time for reviews?
+      - do you check dependencies before starting?
+      - how do you avoid working late to compensate?
+      - do you prepare alternatives when there’s risk of blockage?
+      - how do you reduce time lost in context switching?
+      - do you group tasks by type?
+      - how do you manage recurring commitments?
+      - do you define minimum steps to move big tasks forward?
+      - how do you stay disciplined on low-energy days?
+      - do you realign priorities with the team when needed?
+      - how do you avoid unnecessary meetings?
+      - do you save time for strategic planning?
+      - how do you separate operational from critical tasks?
+      - do you use past experience to estimate deadlines?
+      - how do you decide where to invest more time?
+      - do you make sure to rest enough to stay productive?
+      - how do you refine your planning as you learn?

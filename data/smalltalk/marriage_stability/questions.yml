@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: marriage_stability
+    examples: |
+      - você sente que seu casamento fortaleceu sua base emocional?
+      - estar casado te ajudou a ver a vida de forma mais estável?
+      - o casamento mudou sua forma de lidar com responsabilidades?
+      - você acha que esses anos trouxeram mais equilíbrio para sua rotina?
+      - o casamento te deu uma visão mais madura do futuro?
+      - esses anos casado te deixaram mais estável no dia a dia?
+      - seu casamento influencia seu foco e organização hoje?
+      - estar casado te ajudou a fazer escolhas mais seguras?
+      - você sente que sua vida ficou mais sólida depois do casamento?
+      - você sente que esses anos de casamento trouxeram estabilidade para a sua vida?
+      - como esses anos de casamento impactaram a sua rotina e suas prioridades?
+      - você diria que o seu casamento tem um papel importante na sua vida hoje?
+      - de que forma o fato de você ser casado há tantos anos influencia suas decisões?
+      - olhando para a sua vida hoje, qual o peso desses anos de casamento para você?
+      - você acredita que o seu casamento ajuda na sua organização de vida e carreira?
+      - como esses dez anos de casamento se refletem no seu dia a dia?
+      - você sente que, depois de tantos anos de casado, suas escolhas ficaram mais maduras?
+      - o seu casamento de longo prazo influencia a forma como você encara desafios?
+      - qual é a importância desses anos de casamento para a sua trajetória pessoal?
+      - o casamento trouxe mais equilíbrio para você?
+      - esses anos casado mudaram sua forma de ver prioridades?
+      - o casamento deixou sua rotina mais estável?
+      - esses anos trouxeram mais serenidade para você?
+      - você acha que o casamento te tornou mais responsável?
+      - o casamento te ajudou a amadurecer mais rápido?
+      - sua vida ficou mais organizada depois do casamento?
+      - esses anos influenciaram sua forma de planejar?
+      - o casamento trouxe mais foco para você?
+      - você se sente emocionalmente mais estável por estar casado?
+      - você percebe mais estabilidade por causa do casamento?
+      - o casamento mudou sua forma de enfrentar problemas?
+      - sua maturidade aumentou com o casamento?
+      - o casamento trouxe mais clareza para suas decisões?
+      - você sente que virou alguém mais constante depois de casado?
+      - o casamento te tornou mais disciplinado?
+      - esses anos casado influenciam seu comportamento diário?
+      - você acha que o casamento fortaleceu sua estrutura emocional?
+      - o casamento ajudou no seu equilíbrio pessoal?
+      - esses anos a dois te deixaram mais resiliente?
+      - o casamento facilitou seu foco em metas?
+      - você se sente mais centrado por causa do casamento?
+      - sua vida ganhou mais direção com o casamento?
+      - o casamento afetou sua forma de gerir tempo?
+      - você acha que o casamento trouxe mais segurança?
+      - como o casamento ajudou sua estabilidade geral?
+      - você percebe impacto do casamento na sua produtividade?
+      - o casamento moldou sua forma de tomar decisões?
+      - você se sente mais consistente por estar casado?
+      - o casamento te levou a ter escolhas mais maduras?
+      - você sente que pensa mais no longo prazo hoje?
+      - o casamento modificou sua rotina para melhor?
+      - esses anos casado te ajudaram a evoluir como pessoa?
+      - você sente que lida melhor com desafios por causa do casamento?
+      - o casamento ajudou a definir suas prioridades?
+      - esses anos mudaram sua forma de organizar a vida?
+      - o casamento trouxe mais estrutura ao seu dia a dia?
+      - você sente que a convivência te amadureceu?
+      - estar casado tanto tempo influenciou seu estilo de vida?
+      - esses anos ajudaram sua estabilidade emocional?
+      - você acha que virou alguém mais ponderado?
+      - o casamento facilitou seu equilíbrio entre vida pessoal e trabalho?
+      - esses anos trouxeram mais constância para sua rotina?
+      - o casamento impactou seu jeito de resolver problemas?
+      - você se tornou mais estrategista depois de casado?
+      - esses anos moldaram seu senso de responsabilidade?
+      - o casamento trouxe mais estabilidade financeira?
+      - estar casado influenciou suas decisões profissionais?
+      - o casamento fortaleceu sua visão de futuro?
+      - esses anos afetaram sua forma de enxergar desafios?
+      - você acha que o casamento te ajudou a crescer?
+      - esses anos a dois tornaram sua vida mais estável?
+      - o casamento te deixou mais seguro de si?
+      - você sente que seu casamento influenciou seus hábitos?
+      - estar casado tanto tempo te ajudou a ter mais disciplina?
+      - esses anos fortaleceram sua capacidade de foco?
+      - você se sente mais preparado para decisões difíceis?
+      - o casamento mudou sua forma de agir no dia a dia?
+      - esses anos te ensinaram mais sobre constância?
+      - estar casado impactou sua maturidade emocional?
+      - você acha que sua vida ficou mais fluida com o casamento?
+      - esses anos moldaram seu jeito de lidar com rotina?
+      - você sente que ficou mais organizado depois de casado?
+      - o casamento ajudou seu senso de planejamento?
+      - estar casado tanto tempo te fez ver prioridades diferentes?
+      - você percebe mais estabilidade mental por estar casado?
+      - o casamento influenciou sua visão de propósito?
+      - esses anos deixaram suas escolhas mais firmes?
+      - estar casado melhorou sua forma de administrar tempo?
+      - o casamento te tornou alguém mais perseverante?
+      - esses anos afetaram seu jeito de lidar com imprevistos?
+      - você acha que sua vida ganhou mais estabilidade geral?
+      - estar casado influenciou seu jeito de aprender e evoluir?
+      - esses anos fortaleceram sua autoconfiança?
+      - o casamento trouxe mais harmonia para seu dia a dia?
+      - você sente que está mais maduro emocionalmente?
+      - esses anos ajudaram sua capacidade de priorizar?
+      - estar casado te deu mais direção na carreira?
+      - o casamento te tornou alguém mais racional nas decisões?
+      - esses anos moldaram sua constância como profissional?
+      - você se sente mais equilibrado por estar casado?
+      - do you feel that these years of marriage have brought stability to your life?
+      - how have these years of marriage impacted your routine and your priorities?
+      - would you say that your marriage plays an important role in your life today?
+      - in what ways does being married for so many years influence your decisions?
+      - looking at your life now, how important are these years of marriage to you?
+      - do you feel that your marriage helps you organize your life and career?
+      - how do these ten years of marriage show up in your day-to-day life?
+      - after so many years of marriage, do you feel your choices have become more mature?
+      - does your long-term marriage influence how you face challenges?
+      - what is the importance of these years of marriage for your personal journey?
+      - has marriage brought more balance to your life?
+      - do you feel more emotionally stable because of your marriage?
+      - has marriage improved your sense of direction?
+      - do you feel more responsible thanks to marriage?
+      - has marriage made your routine more structured?
+      - do you feel your priorities have changed because of marriage?
+      - has marriage helped you mature as a person?
+      - do you feel more grounded because of marriage?
+      - has married life made you more consistent?
+      - has marriage helped you manage stress better?
+      - do you feel that marriage strengthened your emotional base?
+      - has marriage influenced how you plan your future?
+      - do you feel marriage improved your focus?
+      - has marriage helped you handle challenges more calmly?
+      - does marriage play a role in how you set priorities?
+      - has marriage helped you become more intentional?
+      - do you feel that marriage improved your decision-making?
+      - how much stability has marriage added to your life?
+      - do you feel marriage boosted your maturity?
+      - has marriage helped you stay more organized?
+      - do you feel more resilient because of marriage?
+      - has marriage shaped your long-term thinking?
+      - do you feel more clarity in your choices due to marriage?
+      - has married life made you more focused?
+      - do you feel that marriage helps you stay consistent?
+      - has your marriage influenced your professional decisions?
+      - do you think marriage adds structure to your life?
+      - has marriage influenced your emotional stability?
+      - do you feel more secure thanks to your long-term marriage?
+      - has marriage improved your personal stability?
+      - do you feel more intentional with your goals?
+      - has marriage helped your long-term planning?
+      - do you feel marriage supports your personal growth?
+      - has marriage strengthened your sense of responsibility?
+      - do you feel that marriage shaped your maturity?
+      - has marriage helped you manage your routine better?
+      - do you feel marriage made you more disciplined?
+      - has long-term marriage influenced your confidence?
+      - do you feel more direction in life thanks to marriage?
+      - has marriage brought more harmony to your days?
+      - has marriage changed how you approach decisions?
+      - do you feel that married life improved your emotional control?
+      - has marriage influenced the way you face difficulties?
+      - do you feel more stable in general because of marriage?
+      - has marriage improved your mental balance?
+      - do you feel marriage helps you stay centered?
+      - has marriage shaped your approach to challenges?
+      - do you feel more clarity in your routine thanks to marriage?
+      - has marriage helped you become more strategic?
+      - do you feel marriage strengthened your resilience?
+      - has marriage helped you build better habits?
+      - do you think marriage improved your focus overall?
+      - has marriage influenced how you manage your time?
+      - do you feel more emotionally consistent because of marriage?
+      - has marriage contributed to your long-term stability?
+      - has your marriage helped shape your goals?
+      - do you feel marriage gives you a stronger foundation?
+      - has marriage influenced your self-discipline?
+      - do you feel your choices have become more mature?
+      - has marriage improved your balance between work and life?
+      - do you feel marriage taught you to prioritize better?
+      - has marriage helped you act with more intention?
+      - do you feel more prepared to face challenges because of marriage?
+      - has marriage made your day-to-day more stable?
+      - do you feel marriage improved your decision-making maturity?
+      - has marriage influenced your emotional resilience?
+      - do you feel marriage strengthened your internal stability?
+      - has marriage changed your perspective over time?
+      - do you feel marriage helped you become more consistent?
+      - has your marriage shaped your emotional maturity?
+      - do you feel more stability in how you handle life?
+      - has marriage influenced your overall growth?
+      - do you feel more secure in your decisions because of marriage?
+      - has marriage helped shape your personal development?
+      - do you think marriage strengthened your priorities?
+      - has marriage influenced how you handle pressure?
+      - do you feel that marriage supports your long-term goals?
+      - do you feel marriage strengthened your emotional base?
+      - has being married helped you see life more steadily?
+      - do you think marriage changed how you handle responsibilities?
+      - has marriage brought more balance to your daily routine?
+      - do you feel marriage gave you a more mature view of the future?
+      - has long-term marriage made your life more stable?
+      - does your marriage influence your focus and organization today?
+      - has being married helped you make safer decisions?
+      - do you feel your life became more solid after marriage?
+      - has marriage improved your emotional balance overall?
+      - do you think marriage helped you grow personally?
+      - has marriage shaped the way you plan long term?
+      - do you feel more grounded in life because of your marriage?

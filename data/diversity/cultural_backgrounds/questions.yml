@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: cultural_backgrounds
+    examples: |
+      - como você lida com pessoas de culturas, religiões ou origens diferentes da sua?
+      - você se sente à vontade em times multiculturais?
+      - como é para você trabalhar com pessoas de países ou contextos culturais diferentes?
+      - você já trabalhou em times com muita diversidade cultural? Como foi?
+      - a diferença cultural dos colegas impacta a forma como você se relaciona no time?
+      - como você reage quando alguém tem costumes ou valores culturais diferentes dos seus?
+      - para você, qual é o principal cuidado ao trabalhar com pessoas de culturas distintas?
+      - você se adapta bem a ambientes com realidades culturais diferentes da sua?
+      - como você enxerga o respeito às diferenças culturais no trabalho?
+      - você vê vantagem em ter pessoas de diferentes origens no mesmo time?
+      - trabalhar com culturas diferentes é tranquilo para você?
+      - diversidade cultural muda algo no seu jeito de trabalhar?
+      - você já teve líderes de outra cultura?
+      - trabalhar com pessoas de outras religiões te incomoda?
+      - você já teve dificuldades com diferenças culturais?
+      - você conversa bem com pessoas de outras origens?
+      - você respeita tradições diferentes das suas?
+      - você busca entender costumes diferentes?
+      - ambientes multiculturais te deixam confortável?
+      - culturas diferentes trazem desafios para você?
+      - você já participou de reuniões com pessoas de vários países?
+      - sotaques diferentes te atrapalham?
+      - diferenças culturais mudam sua comunicação?
+      - você sabe lidar com hábitos culturais muito distintos?
+      - times multiculturais te motivam?
+      - você tem curiosidade sobre outras culturas?
+      - trabalhar com estrangeiros é natural para você?
+      - tradições de outros países influenciam a colaboração?
+      - você já aprendeu algo útil com diferenças culturais?
+      - você consegue adaptar sua forma de falar em contextos multiculturais?
+      - cultura influencia sua leitura de equipe?
+      - você respeita feriados religiosos diferentes dos seus?
+      - diversidade cultural te desafia ou te ajuda?
+      - você sabe ser sensível culturalmente?
+      - colegas estrangeiros mudam sua dinâmica de trabalho?
+      - você já treinou times de países diferentes?
+      - hábitos culturais te surpreendem?
+      - diferenças de costumes mudam sua forma de agir?
+      - você evita julgamentos em ambientes multiculturais?
+      - culturas distintas ampliam sua visão de mundo?
+      - você já participou de projetos internacionais?
+      - trabalhar com múltiplas culturas exige paciência?
+      - como você reage a opiniões culturais muito diferentes?
+      - você já conviveu com valores culturais opostos?
+      - você enxerga cultura como uma força no trabalho?
+      - diversidade cultural te ajuda a colaborar melhor?
+      - você já adaptou horários por causa de diferenças culturais?
+      - você respeita códigos e normas culturais?
+      - trabalhar com gente de fora te faz evoluir?
+      - cultura afeta expectativas de trabalho na sua visão?
+      - diferenças culturais criam conflitos para você?
+      - culturas diferentes exigem mais cuidado na comunicação?
+      - trabalhar com religiões diferentes te impacta?
+      - você acolhe bem colegas de outras origens?
+      - diversidade cultural mexe com seus hábitos?
+      - você reconhece costumes que não entende?
+      - você já conversou sobre tradições com colegas de fora?
+      - hábitos culturais diferentes te irritam?
+      - você enxerga cultura como aprendizado?
+      - diferenças culturais te deixam desconfortável?
+      - trabalhar com pessoas de fora do Brasil te empolga?
+      - culturas distintas geram mais criatividade na sua visão?
+      - você já lidou com tabu cultural sem perceber?
+      - como você reage quando não entende um costume?
+      - você respeita comidas e tradições diferentes?
+      - diferenças culturais melhoram o time?
+      - trabalhar com cultura global te atrai?
+      - culturas diferentes influenciam ritmo de trabalho?
+      - você lida bem com diferenças religiosas?
+      - você aprende rápido códigos culturais novos?
+      - ambientes multiculturais te exigem mais empatia?
+      - você já mudou seu comportamento por respeito cultural?
+      - diversidade cultural exige flexibilidade?
+      - você costuma perguntar sobre tradições de colegas?
+      - diferenças de origem geram ruído na comunicação?
+      - você ajusta sua linguagem ao falar com estrangeiros?
+      - cultura afeta a forma de receber feedback?
+      - culturas diferentes influenciam reuniões?
+      - você já teve choque cultural no trabalho?
+      - culturas estrangeiras te inspiram?
+      - você trabalha bem com pessoas com valores distantes dos seus?
+      - culturas diferentes mudam a expectativa de prazos?
+      - você entende a importância da sensibilidade cultural?
+      - trabalhar com multiculturalidade exige mais escuta?
+      - você consegue evitar estereótipos culturais?
+      - culturas diferentes enriquecem sua vida?
+      - você já recebeu feedback culturalmente diferente?
+      - trabalhar com diversidade cultural é positivo para você?
+      - você enxerga cada cultura como uma oportunidade de aprender?
+      - diferenças culturais ajudam a inovar?
+      - você consegue trabalhar bem com pessoas de culturas muito diferentes?
+      - diferenças culturais mudam sua forma de colaborar?
+      - você já participou de treinamentos sobre diversidade cultural?
+      - você vê valor em ter visões culturais contrastantes no time?
+      - diferenças culturais exigem mais paciência na sua opinião?
+      - culturas diferentes mudam a forma de comunicar prioridades?
+      - você acha fácil criar conexão com pessoas de outras culturas?
+      - diferenças religiosas já exigiram adaptação sua no trabalho?
+      - você consegue ajustar seu tom em contextos multiculturais?
+      - culturas diversas ajudam você a evoluir como profissional?
+      - can you work well with people from very different cultures?
+      - do cultural differences change the way you collaborate?
+      - have you taken any cultural diversity training before?
+      - do you see value in contrasting cultural perspectives?
+      - do cultural differences require more patience in your opinion?
+      - do different cultures change how you communicate priorities?
+      - do you find it easy to connect with people from other cultures?
+      - have religious differences ever required adaptation from you?
+      - can you adjust your tone in multicultural environments?
+      - do diverse cultures help you grow professionally?
+      - how do you handle working with people from different cultures, religions, or backgrounds?
+      - do you feel comfortable in multicultural teams?
+      - what is it like for you to work with people from different countries or cultural contexts?
+      - have you worked in teams with a lot of cultural diversity? How was that?
+      - does cultural difference affect the way you relate to coworkers on the team?
+      - how do you react when someone has customs or cultural values different from yours?
+      - in your opinion, what is the main care to have when working with people from different cultures?
+      - do you adapt well to environments with cultural realities different from your own?
+      - how do you see respect for cultural differences in the workplace?
+      - do you see benefits in having people from different backgrounds on the same team?
+      - is working with people from different cultures easy for you?
+      - does cultural diversity change your work style?
+      - have you had leaders from other cultures?
+      - does working with people from other religions bother you?
+      - have you ever had difficulties with cultural differences?
+      - do you communicate well with people from other backgrounds?
+      - do you respect traditions different from yours?
+      - do you try to understand different customs?
+      - do multicultural environments make you comfortable?
+      - do cultural differences bring challenges to you?
+      - have you participated in meetings with people from many countries?
+      - do different accents affect you?
+      - do cultural differences change how you communicate?
+      - can you handle very distinct cultural habits?
+      - do multicultural teams motivate you?
+      - are you curious about other cultures?
+      - is working with foreigners natural for you?
+      - do foreign traditions influence teamwork?
+      - have you learned something valuable from cultural differences?
+      - can you adapt your communication in multicultural settings?
+      - does culture influence how you read team dynamics?
+      - do you respect religious holidays different from your own?
+      - does cultural diversity challenge you or help you?
+      - are you culturally sensitive?
+      - do foreign colleagues change your work rhythm?
+      - have you trained teams from other countries?
+      - do cultural habits surprise you?
+      - do different customs change how you act?
+      - do you avoid judgment in multicultural environments?
+      - do different cultures broaden your worldview?
+      - have you worked on international projects?
+      - does working across cultures require patience?
+      - how do you react to very different cultural opinions?
+      - have you lived with opposite cultural values?
+      - do you see culture as a strength at work?
+      - does cultural diversity help teamwork?
+      - have you adapted schedules due to cultural differences?
+      - do you respect cultural codes and norms?
+      - does working with people from abroad help you grow?
+      - does culture affect work expectations for you?
+      - do cultural differences create conflict for you?
+      - do different cultures require more care in communication?
+      - do religious differences affect your routine?
+      - do you welcome colleagues from other backgrounds?
+      - does cultural diversity change your habits?
+      - do you acknowledge customs you don’t understand?
+      - have you talked about traditions with foreign colleagues?
+      - do different cultural habits annoy you?
+      - do you see culture as learning?
+      - do cultural differences make you uncomfortable?
+      - does working with people from abroad excite you?
+      - do different cultures increase creativity in your view?
+      - have you ever hit a cultural taboo without noticing?
+      - how do you react when you don’t understand a custom?
+      - do you respect foods or traditions you don’t share?
+      - do cultural differences improve teams?
+      - does global culture attract you?
+      - do different cultures influence work pace?
+      - do you handle religious differences well?
+      - do you learn cultural codes quickly?
+      - do multicultural environments demand more empathy?
+      - have you changed your behavior out of cultural respect?
+      - does cultural diversity require flexibility?
+      - do you usually ask colleagues about their traditions?
+      - do origin differences cause communication noise?
+      - do you adjust your language when talking to foreigners?
+      - does culture influence how feedback is given?
+      - do different cultures influence meetings?
+      - have you experienced cultural shock at work?
+      - do foreign cultures inspire you?
+      - do you work well with people whose values differ from yours?
+      - does culture change deadline expectations?
+      - do you understand the importance of cultural sensitivity?
+      - does multicultural work require more listening?
+      - can you avoid cultural stereotypes?
+      - do different cultures enrich your life?
+      - have you received culturally influenced feedback?
+      - is working with cultural diversity positive for you?
+      - do you see every culture as an opportunity to learn?
+      - do cultural differences help innovation?

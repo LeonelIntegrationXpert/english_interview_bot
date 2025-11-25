@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: marriage_how_long
+    examples: |
+      - há quanto tempo você é casado?
+      - você pode me dizer há quantos anos você é casado?
+      - quanto tempo de casamento você tem hoje?
+      - só por curiosidade, há quanto tempo você está casado?
+      - você está casado há quantos anos?
+      - em termos de tempo, quanto tempo de casamento você já tem?
+      - você poderia me contar há quanto tempo vocês são casados?
+      - falando da sua vida pessoal, há quanto tempo você é casado?
+      - hoje você tem quantos anos de casamento?
+      - quanto tempo faz desde que você se casou?
+      - você lembra quando vocês completaram o primeiro ano de casamento?
+      - já faz bastante tempo que você é casado?
+      - seu casamento já ultrapassou uma década ou ainda não?
+      - você conta seu tempo de casamento em anos ou meses?
+      - faz quanto tempo que vocês oficializaram a união?
+      - vocês estão casados há muito tempo?
+      - quanto tempo de vida conjugal vocês já construíram?
+      - você celebrou quantos aniversários de casamento?
+      - vocês têm muitos anos juntos no papel?
+      - desde o casamento, quanto tempo já passou?
+      - vocês já passaram da marca de cinco anos de casados?
+      - vocês já chegaram na marca de dez anos de casamento?
+      - seu casamento tem mais de oito anos?
+      - já faz quase quanto tempo que vocês casaram?
+      - quanto tempo você e sua esposa têm oficialmente de casamento?
+      - quando você pensa no casamento, quanto tempo já vem na sua cabeça?
+      - o casamento de vocês já tem bastante estrada?
+      - vocês se casaram há quanto tempo exatamente?
+      - dá para dizer que já fazem anos e anos de casamento?
+      - hoje você acumula quantos anos como casado?
+      - desde o dia da cerimônia, quanto tempo já passou?
+      - você lembra há quantos anos você assinou os papéis?
+      - quanto tempo faz desde o dia do casamento civil?
+      - quanto tempo você já está nessa caminhada de casamento?
+      - faz muito tempo que vocês deram o “sim”?
+      - hoje vocês têm quantos anos de união formal?
+      - desde a festa de casamento até hoje, quanto tempo se passou?
+      - vocês já chegaram à fase de muitos anos de casamento?
+      - você considera seu tempo de casado longo ou recente?
+      - já se passaram quantos anos desde a cerimônia?
+      - quanto tempo dura o seu casamento até agora?
+      - vocês já comemoraram quantos aniversários de casamento?
+      - o seu casamento já chegou em quantos anos?
+      - vocês têm um casamento de longa data?
+      - dá para dizer que seu casamento tem quanto tempo?
+      - você está casado há mais de uma década?
+      - o casamento já é de longa duração?
+      - vocês têm uma trajetória de casamento de quantos anos?
+      - você lembra quantos anos tinha quando se casou?
+      - desde o “sim”, quantos anos já se passaram?
+      - quanto tempo leva sua história como casado?
+      - seu casamento ultrapassou qual marca de anos?
+      - vocês têm um casamento recente ou mais consolidado?
+      - qual é a idade do seu casamento hoje?
+      - você já completou quantos anos de casado?
+      - em números, quanto tempo você carrega como marido?
+      - seu casamento está com quantos anos exatos?
+      - você sabe dizer há quanto tempo está nessa união?
+      - há quanto tempo você e a Denise são casados?
+      - vocês já passaram por quantas fases ao longo desses anos?
+      - oficialmente, há quantos anos vocês são marido e mulher?
+      - já são quantos anos desde o dia da cerimônia oficial?
+      - vocês estão completando quantos anos em breve?
+      - qual é o total de anos do seu casamento atualmente?
+      - quanto tempo existe a união no papel?
+      - a vida de casado já soma quantos anos?
+      - você consegue resumir em quantos anos sua vida de casado?
+      - você se casou há quantos anos mesmo?
+      - dá para dizer quanto tempo de casado você já acumulou?
+      - hoje seu casamento é de quantos anos?
+      - você está há quanto tempo nessa jornada de casamento?
+      - seu tempo de casado passa de quantos anos?
+      - quantos anos completos você já tem de casamento?
+      - desde o começo, quantos anos já passaram no casamento?
+      - o casamento de vocês já tem quantos anos no total?
+      - vocês contam quantos anos de casados?
+      - quanto tempo vocês celebram de união?
+      - seu casamento já ultrapassou quantos anos de história?
+      - o tempo total de casamento é de quantos anos?
+      - você pode lembrar quantos anos completou de casado?
+      - desde o início da união formal, quanto tempo se passou?
+      - vocês comemoraram recentemente quantos anos?
+      - vocês têm quantos anos de vida matrimonial?
+      - já fazem quantos anos de parceria no casamento?
+      - seu vínculo matrimonial tem quantos anos hoje?
+      - hoje você está casado há exatamente quantos anos?
+      - a vida conjugal começou há quantos anos?
+      - desde o registro civil, quanto tempo se passou?
+      - seu casamento tem quantos anos somados até hoje?
+      - vocês já chegaram a quantos anos juntos formalmente?
+      - qual é o total de anos que você tem de casamento confirmado?
+      - há quanto tempo a união de vocês está oficializada?
+      - vocês já têm quantos anos de casamento registrados?
+      - desde o início da vida de casado, quantos anos se passaram
+      - seu casamento já completou quantos anos?
+      - vocês estão casados há quanto tempo exatamente?
+      - você já chegou a contar quantos anos tem de casado?
+      - o casamento de vocês tem quantos anos agora?
+      - hoje seu casamento soma quantos anos?
+      - você está vivendo quantos anos de vida matrimonial?
+      - how long have you been in this marriage exactly?
+      - how many full years have you completed as a married couple?
+      - how long does your marriage add up to right now?
+      - how many years have built your married life so far?
+      - how long has your formal relationship been active?
+      - how many years has your marriage been progressing?
+      - how long has your union lasted up to this point?
+      - how long have you been married?
+      - could you tell me how many years you have been married?
+      - how many years of marriage do you have today?
+      - just out of curiosity, how long have you been married?
+      - for how many years have you been married now?
+      - in terms of time, how long have you been married?
+      - could you share how long you and your wife have been married?
+      - speaking about your personal life, how long have you been married?
+      - how many years of marriage do you have at the moment?
+      - how long has it been since you got married?
+      - how long has your marriage lasted so far?
+      - is your marriage already over a decade?
+      - how many anniversaries have you celebrated?
+      - how many years have passed since your wedding day?
+      - how long has your official union existed?
+      - how many years of marriage do you count today?
+      - how long has your married life been going on?
+      - how many years have you and your wife built together?
+      - how long has your relationship been formalized?
+      - how long has your legal marriage been in place?
+      - how long since you two signed the papers?
+      - how many years have you lived as a married couple?
+      - how many years of union do you currently have?
+      - has your marriage already passed several milestones?
+      - how many years have you completed as a married man?
+      - how long has your marital journey been so far?
+      - how long have you shared married life?
+      - how long has your wedding been in effect?
+      - how many years since your civil ceremony?
+      - how long has your official marriage lasted?
+      - how many years have you and Denise been married?
+      - are you already past the ten-year mark?
+      - how long have you held the title of “married”?
+      - how long has your commitment been formal?
+      - how many years have already gone by in your marriage?
+      - how long is the duration of your marriage at this point?
+      - how long have you been building your married life?
+      - how long is your marriage in total years?
+      - how many years do you celebrate as a married couple?
+      - how long has your union been recognized?
+      - how many total years have passed since your wedding?
+      - how long has your marital partnership existed?
+      - how long has the official bond been in place?
+      - how many years of marriage are on record today?
+      - how long have you lived under the married status?
+      - how many years of matrimony do you currently have?
+      - how long has your marital bond lasted?
+      - how long has your formal union endured?
+      - how many years of commitment have you and your wife?
+      - how long has your married phase lasted?
+      - how long since you made your marriage official?
+      - how many years into the marriage are you?
+      - how long have you sustained your marriage?
+      - how many years have built your marital story?
+      - how long has the wedding been part of your life?
+      - how many marriage anniversaries have you marked?
+      - how far along are you in your married years?
+      - how long has your union been active?
+      - how many years define your marriage right now?
+      - how long has your couple life been official?
+      - how long is your marriage in calendar years?
+      - how many years have you been living as husband and wife?
+      - how long has your marital timeline been?
+      - how many years since you formalized your union?
+      - how long since you two became legally married?
+      - how many years has your marriage accumulated?
+      - how long has your home life as a married man lasted?
+      - how many years of marital experience do you have?
+      - how long has your shared marital journey been?
+      - how many years have you completed in this marriage?
+      - how long has your structured family life lasted?
+      - how many years have passed since you entered married life?
+      - how long has your marriage traveled so far?
+      - how many full years have you and your wife been married?
+      - how long is your official marital timeline?
+      - how many years old is your marriage today?
+      - how many years does your marriage add up to?
+      - how long have you maintained your marital commitment?
+      - how long have you been in this marital stage?
+      - how many years have you lived this married chapter?
+      - how much time has your marriage accumulated?
+      - how long since your marriage became official?
+      - how long has your formal relationship endured?
+      - how long has your marital bond been active?
+      - how long in total have you been married?
+      - how many years have gone by since your wedding?
+      - how long has your marriage been developing?
+      - how long is your marriage running so far?
+      - how long has your shared legal union lasted?
+      - how long has the marriage been sustained?
+      - how long have you been in a formal marriage?
+      - how long is the bond you have in marriage?
+      - how many years have built your official union?

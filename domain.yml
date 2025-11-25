@@ -100,6 +100,20 @@ intents:
   - address_more_details
   - basic_school_where_when
   - highschool_supletivo_where_when
+  - college_tech_internet_systems
+  - marriage_how_long
+  - marriage_stability
+  - personal_life_summary_short
+  - general_view
+  - lgbtq_colleagues
+  - cultural_backgrounds
+  - company_values
+  - respect_conflicting_opinions
+  - communication_style
+  - time_management
+  - working_under_pressure
+  - adaptability_change
+  - receiving_feedback
 actions:
   - action_fallback
 session_config:

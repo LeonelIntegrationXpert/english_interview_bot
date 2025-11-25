@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: company_values
+    examples: |
+      - para você, é importante que a empresa tenha políticas claras de diversidade e inclusão?
+      - como você se sente em relação a trabalhar em uma empresa que valoriza diversidade?
+      - qual é a sua opinião sobre empresas que investem em diversidade e inclusão?
+      - você se identifica com ambientes que têm programas formais de diversidade?
+      - a cultura de diversidade da empresa influencia a sua decisão de permanecer nela?
+      - o quanto pesa para você a questão de diversidade na hora de escolher uma empresa?
+      - você prefere trabalhar em empresas com uma cultura mais diversa e inclusiva?
+      - como você enxerga empresas que têm grupos de afinidade e ações pró-diversidade?
+      - diversidade e inclusão são temas importantes para você em uma cultura organizacional?
+      - o quanto você valoriza a postura da empresa em relação à diversidade?
+      - diversidade da empresa influencia sua motivação?
+      - políticas de inclusão fazem diferença para você?
+      - você observa diversidade antes de aceitar um emprego?
+      - ambientes inclusivos te deixam mais à vontade?
+      - cultura pró-diversidade te atrai?
+      - programas de inclusão pesam na sua escolha?
+      - ações internas de diversidade te impactam?
+      - você sente segurança em empresas diversas?
+      - empresas diversas te passam mais confiança?
+      - diversidade é fator decisivo para você?
+      - você se sente melhor em ambientes com respeito às diferenças?
+      - empresas inclusivas te motivam mais?
+      - diversidade influencia sua sensação de pertencimento?
+      - diversidade pesa no clima organizacional?
+      - ações de inclusão afetam sua visão da empresa?
+      - iniciativas de diversidade aumentam seu engajamento?
+      - políticas claras de diversidade te tranquilizam?
+      - empresas pouco diversas te desanimam?
+      - você liga para representatividade interna?
+      - você enxerga vantagem em empresas diversas?
+      - igualdade de oportunidades é essencial para você?
+      - respeito às diferenças te influencia na escolha?
+      - diversidade é parte da sua decisão profissional?
+      - a postura da empresa sobre inclusão importa para você?
+      - diversidade te ajuda a ver sentido no trabalho?
+      - você nota diversidade na liderança?
+      - empresas com inclusão forte te atraem mais?
+      - diversidade afeta seu nível de confiança?
+      - culturas inclusivas aumentam sua produtividade?
+      - falta de diversidade te preocupa?
+      - diversidade é critério na hora de decidir ficar?
+      - diversidade melhora seu bem-estar?
+      - inclusão interna te ajuda a se sentir parte?
+      - você valoriza empresas que investem em equidade?
+      - diversidade muda sua percepção sobre a empresa?
+      - empresas diversas te passam mais seriedade?
+      - você apoia programas de inclusão corporativa?
+      - empresas com vieses te afastam?
+      - diversidade aumenta sua sensação de respeito?
+      - inclusão te dá segurança psicológica?
+      - ambiente hostil à diversidade te incomoda?
+      - diversidade é parte da sua visão de empresa ideal?
+      - programas de diversidade influenciam sua admiração?
+      - inclusão afeta sua visão de carreira?
+      - você consome informações sobre diversidade da empresa?
+      - você nota se a empresa tem grupos de afinidade?
+      - empresas com valores inclusivos te representam mais?
+      - você procura ambientes com pluralidade?
+      - diversidade aumenta sua confiança no time?
+      - você prefere empresas abertas ao diálogo?
+      - iniciativas de inclusão te inspiram?
+      - diversidade é prioridade para você como profissional?
+      - inclusão influencia seu senso de justiça interna?
+      - políticas firmes de diversidade te motivam?
+      - falta de inclusão te gera insegurança?
+      - diversidade impacta a cultura do time para você?
+      - empresas inclusivas facilitam sua adaptação?
+      - diversidade traz mais equilíbrio para o ambiente?
+      - inclusão te ajuda a ser você mesmo no trabalho?
+      - empresas que ignoram diversidade te frustram?
+      - programas contínuos de inclusão te chamam atenção?
+      - diversidade na liderança te importa?
+      - respeito às diferenças é indispensável para você?
+      - ambientes diversos reduzem conflitos na sua visão?
+      - políticas de equidade te passam seriedade?
+      - inclusão melhora sua visão da empresa?
+      - diversidade muda seu nível de conforto?
+      - inclusão tem impacto direto no seu dia a dia?
+      - empresas que acolhem minorias te parecem mais seguras?
+      - diversidade estrutura sua decisão de continuar?
+      - ambientes inclusivos criam mais confiança para você?
+      - diversidade ajuda você a trabalhar melhor?
+      - cultura inclusiva te faz sentir valorizado?
+      - diversidade te ajuda a se conectar com o time?
+      - empresas que discriminam te afastam?
+      - inclusão te dá liberdade de expressão?
+      - diversidade te ajuda a inovar?
+      - inclusão melhora seu engajamento?
+      - você acredita que diversidade fortalece times?
+      - inclusão te faz ter orgulho da empresa?
+      - diversidade te faz querer contribuir mais?
+      - empresas com diversidade real te conquistam?
+      - você sente que diversidade cria ambientes justos?
+      - inclusão te faz permanecer mais tempo?
+      - diversidade deve ser prioridade empresarial?
+      - postura anti-diversidade te desmotiva?
+      - cultura inclusiva te faz sentir pertencente?
+      - você acredita que diversidade aumenta a inovação no time?
+      - políticas de inclusão influenciam sua percepção de justiça interna?
+      - empresas diversas te fazem sentir mais seguro para ser você mesmo?
+      - do you believe diversity boosts innovation in teams?
+      - do inclusion policies influence your sense of fairness at work?
+      - do diverse workplaces make you feel safer to be yourself?
+      - is it important for you that a company has clear diversity and inclusion policies?
+      - how do you feel about working for a company that values diversity?
+      - what is your opinion about companies that invest in diversity and inclusion?
+      - do you identify with environments that have formal diversity programs?
+      - does the company’s diversity culture influence your decision to stay there?
+      - how important is diversity for you when choosing a company to work for?
+      - do you prefer to work in companies with a more diverse and inclusive culture?
+      - how do you see companies that have affinity groups and pro-diversity actions?
+      - are diversity and inclusion important topics for you in an organizational culture?
+      - how much do you value a company’s stance on diversity?
+      - does diversity in a company motivate you?
+      - do inclusion policies matter to you?
+      - do you check diversity before accepting a job?
+      - do inclusive environments make you more comfortable?
+      - does a pro-diversity culture attract you?
+      - do inclusion programs influence your choice?
+      - do internal diversity actions impact you?
+      - do diverse environments make you feel safer?
+      - do diverse companies give you more confidence?
+      - is diversity a decisive factor for you?
+      - do you feel better in environments that respect differences?
+      - do inclusive companies motivate you more?
+      - does diversity influence your sense of belonging?
+      - does diversity affect workplace climate for you?
+      - do inclusion initiatives affect how you see the company?
+      - do diversity programs increase your engagement?
+      - do clear diversity policies reassure you?
+      - do companies with little diversity discourage you?
+      - do you care about internal representation?
+      - do you see advantages in diverse companies?
+      - is equal opportunity essential for you?
+      - does respect for differences influence your choices?
+      - is diversity part of your professional decision-making?
+      - does a company’s inclusion stance matter to you?
+      - does diversity help you find meaning at work?
+      - do you notice diversity in leadership?
+      - do companies with strong inclusion attract you more?
+      - does diversity affect your trust in the company?
+      - do inclusive cultures increase your productivity?
+      - does lack of diversity concern you?
+      - is diversity a factor in deciding to stay?
+      - does diversity improve your well-being?
+      - does inclusion help you feel part of the team?
+      - do you value companies that invest in equity?
+      - does diversity change your perception of the company?
+      - do diverse companies feel more trustworthy to you?
+      - do you support corporate inclusion programs?
+      - do biased companies push you away?
+      - does diversity increase your feeling of being respected?
+      - does inclusion give you psychological safety?
+      - do non-inclusive environments bother you?
+      - is diversity part of your ideal workplace?
+      - do inclusion programs influence your admiration?
+      - does inclusion affect your career view?
+      - do you check company diversity information?
+      - do you notice if a company has affinity groups?
+      - do inclusive companies represent you better?
+      - do you look for places with plurality?
+      - does diversity increase your trust in the team?
+      - do you prefer companies open to dialogue?
+      - do inclusion initiatives inspire you?
+      - is diversity a priority for you as a professional?
+      - does inclusion influence your sense of fairness?
+      - do strong diversity policies motivate you?
+      - does lack of inclusion create insecurity for you?
+      - does diversity impact team culture in your view?
+      - do inclusive companies make adaptation easier for you?
+      - do you believe diversity improves results?
+      - does diversity bring more balance to the workplace?
+      - does inclusion help you be yourself at work?
+      - do non-diverse companies frustrate you?
+      - do continuous inclusion programs get your attention?
+      - does diversity in leadership matter to you?
+      - is respect for differences essential to you?
+      - do diverse environments reduce conflict for you?
+      - do equity policies seem serious to you?
+      - does inclusion improve your view of the company?
+      - does diversity change your comfort level?
+      - does inclusion affect your daily experience?
+      - do companies that welcome minorities feel safer to you?
+      - is diversity part of your decision to stay longer?
+      - do inclusive environments create trust for you?
+      - does diversity help you work better?
+      - do inclusive cultures make you feel valued?
+      - does diversity help you connect with the team?
+      - do discriminatory companies push you away?
+      - does inclusion give you freedom to express yourself?
+      - does diversity help you innovate?
+      - does inclusion increase your engagement?
+      - do you believe diversity strengthens teams?
+      - does inclusion make you proud of the company?
+      - does diversity make you want to contribute more?
+      - do companies with real diversity win you over?
+      - do you feel diversity creates fairness?
+      - does inclusion make you stay longer?
+      - does anti-diversity culture demotivate you?
+      - do inclusive cultures make you feel you belong?

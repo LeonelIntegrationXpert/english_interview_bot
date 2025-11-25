@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: adaptability_change
+    examples: |
+      - como você lida com mudanças de prioridade ou de direção em um projeto?
+      - você se considera uma pessoa flexível quando as coisas mudam de última hora?
+      - o que você faz quando o escopo muda no meio do caminho?
+      - como você reage quando precisa aprender algo novo rapidamente para o projeto?
+      - mudanças frequentes te incomodam ou você se adapta bem a elas?
+      - você pode explicar como se adapta a contextos novos ou pouco claros?
+      - como você enxerga mudanças de estratégia vindas da liderança?
+      - o que te ajuda a se adaptar a novos times ou novas formas de trabalho?
+      - como você lida com situações em que o plano precisa ser refeito?
+      - qual é a sua atitude quando algo foge do planejado?
+      - como você reage a mudanças repentinas no cronograma?
+      - você ajusta rápido quando a demanda muda?
+      - como você lida com instruções novas no meio da tarefa?
+      - mudanças inesperadas te afetam muito?
+      - você se adapta bem quando tudo muda de repente?
+      - o que você faz quando o plano original deixa de funcionar?
+      - como você age quando surge uma nova prioridade urgente?
+      - você revisa o plano sempre que aparece uma mudança?
+      - como você enfrenta mudanças que chegam do nada?
+      - você consegue manter ritmo mesmo com mudanças constantes?
+      - como você lida quando o cliente muda a necessidade?
+      - quando muda o prazo, o que você faz primeiro?
+      - como você reage quando um requisito é removido ou adicionado?
+      - você prefere estabilidade ou lida bem com ambientes dinâmicos?
+      - mudanças de ferramenta te afetam ou você se adapta rápido?
+      - como você aprende algo novo sob pressão?
+      - você se incomoda quando o time altera o plano?
+      - o que você faz quando tudo muda no mesmo dia?
+      - como você encara tarefas que mudam de direção?
+      - você costuma reagrupar prioridades quando muda o contexto?
+      - como você lida com alterações de última hora?
+      - quando o escopo dobra, como você se reorganiza?
+      - como você ajusta seu ritmo quando o cliente muda a rota?
+      - você revisa expectativas com o time em mudanças?
+      - como você segue quando faltam informações claras?
+      - contextos incertos te travam ou você avança mesmo assim?
+      - como você trabalha quando nada está totalmente definido?
+      - o que você faz quando precisa mudar totalmente a abordagem?
+      - você costuma questionar ou só adaptar e seguir?
+      - como você lida com mudanças vindas de outras áreas?
+      - quando a liderança realinha o projeto, como você age?
+      - mudanças grandes te assustam ou motivam?
+      - como você se adapta quando troca de squad?
+      - o que você faz quando entra em um time totalmente novo?
+      - como você reage a processos novos?
+      - mudanças de ferramenta atrapalham ou te motivam?
+      - como você lida quando a empresa muda padrões?
+      - você aprende rápido novos fluxos?
+      - como você reage a novas metodologias?
+      - quando a prioridade muda, você renegocia algo?
+      - como você mantém foco mesmo com mudanças?
+      - o que te ajuda a lidar com ambientes instáveis?
+      - você se adapta bem ao estilo de trabalho de outras pessoas?
+      - como você trabalha com lideranças diferentes?
+      - mudanças de gestão te incomodam?
+      - como você lida quando o roadmap vira de cabeça para baixo?
+      - você revisa riscos quando tudo muda?
+      - como você lida com mudanças que impactam o time todo?
+      - quando há pivô no projeto, como você reage?
+      - você encara mudança como problema ou oportunidade?
+      - como você age em ambientes muito dinâmicos?
+      - mudanças te fazem perder produtividade?
+      - como você lida com diretrizes novas?
+      - você absorve mudança rápido?
+      - como você reage quando precisa começar algo do zero?
+      - como você lida com retrabalho inesperado?
+      - você ajusta comunicação em mudanças?
+      - como você ajuda o time a se adaptar?
+      - o que você faz quando o cliente muda tudo?
+      - como você se posiciona quando a mudança não é clara?
+      - mudanças constantes te cansam?
+      - o que te ajuda a não perder o controle em mudanças?
+      - você busca entender o motivo da mudança?
+      - como você reage quando algo contradiz o plano?
+      - quando precisa mudar o rumo, você faz como?
+      - você adapta métodos de trabalho quando necessário?
+      - como você busca informação em mudanças confusas?
+      - como você lida com instruções diferentes da liderança?
+      - você reorganiza tarefas facilmente?
+      - mudanças te deixam ansioso?
+      - você ajuda colegas a se adaptarem?
+      - como você lida quando precisa abandonar uma solução?
+      - você se adapta bem a novos horizontes técnicos?
+      - como você reage a mudanças rápidas de escopo?
+      - quando tudo muda, o que te guia?
+      - você ajusta cronograma facilmente?
+      - como você reage a mudanças de prioridade no mesmo dia?
+      - quando você não concorda com a mudança, como age?
+      - você consegue aprender algo novo só pelo contexto?
+      - como você age quando muda o dono da tarefa?
+      - você acompanha mudança sem perder ritmo?
+      - mudanças te tiram o foco?
+      - como você ajuda o time a não travar na mudança?
+      - quando tudo muda, você pergunta ou age?
+      - você consegue pivotar rápido quando necessário?
+      - como você incorpora mudanças no seu fluxo?
+      - quando a mudança vem sem aviso, como você costuma reagir?
+      - você consegue redefinir suas tarefas rapidamente quando o contexto muda?
+      - como você lida quando precisa se adaptar a uma nova rotina de trabalho?
+      - quando as prioridades mudam várias vezes, como você mantém organização?
+      - how do you react when a change comes without warning?
+      - can you quickly redefine your tasks when the context shifts?
+      - how do you handle adapting to a new work routine?
+      - when priorities change multiple times, how do you stay organized?
+      - how do you handle changes in priorities or direction in a project?
+      - would you say you are flexible when things change at the last minute?
+      - what do you do when the scope changes halfway through?
+      - how do you react when you need to learn something new quickly for a project?
+      - do frequent changes bother you, or do you adapt well to them?
+      - can you explain how you adapt to new or unclear contexts?
+      - how do you see strategy changes coming from leadership?
+      - what helps you adapt to new teams or new ways of working?
+      - how do you deal with situations where the plan needs to be redone?
+      - what is your attitude when something does not go as planned?
+      - how do you react to sudden schedule changes?
+      - do you adjust quickly when requirements shift?
+      - how do you behave when instructions change mid-task?
+      - do unexpected changes affect you a lot?
+      - do you adapt easily when everything changes suddenly?
+      - what do you do when the original plan stops working?
+      - how do you act when a new urgent priority appears?
+      - do you review the impact every time something changes?
+      - how do you handle changes that come out of nowhere?
+      - can you keep your pace even with constant change?
+      - how do you deal when the client changes the needs?
+      - when deadlines shift, what do you do first?
+      - how do you respond when a requirement is added or removed?
+      - do you handle well dynamic and unstable environments?
+      - do tool changes affect your performance?
+      - how do you learn something new under pressure?
+      - do you get bothered when the team changes the plan?
+      - what do you do when everything changes on the same day?
+      - how do you face tasks that change direction?
+      - do you quickly regroup priorities when the context shifts?
+      - how do you respond to last-minute adjustments?
+      - how do you reorganize when the scope doubles?
+      - how do you adjust when the client changes the direction?
+      - do you realign expectations during changes?
+      - how do you continue when you lack clear information?
+      - do unclear contexts block you or do you move anyway?
+      - how do you work when nothing is fully defined?
+      - what do you do when you need a completely new approach?
+      - do you question or adapt and move on?
+      - how do you handle changes coming from other areas?
+      - how do you respond when leadership realigns the project?
+      - do big changes scare or motivate you?
+      - how do you adapt when switching squads?
+      - how do you act when joining a totally new team?
+      - how do you respond to new processes?
+      - do new tools motivate you or slow you?
+      - how do you manage when the company changes standards?
+      - do you learn new workflows quickly?
+      - how do you react to new methodologies?
+      - do you renegotiate when priorities shift?
+      - how do you keep focus in constant change?
+      - what helps you handle unstable environments?
+      - do you adapt well to different work styles?
+      - how do you deal with new leadership?
+      - do management changes bother you?
+      - how do you handle a roadmap turning upside down?
+      - do you reassess risks when everything changes?
+      - how do you handle changes that impact the whole team?
+      - how do you respond to a project pivot?
+      - do you see change as a problem or an opportunity?
+      - how do you work in highly dynamic environments?
+      - does change reduce your productivity?
+      - how do you deal with new guidelines?
+      - do you absorb change quickly?
+      - how do you react when starting something from scratch?
+      - how do you manage unexpected rework?
+      - do you adjust communication when things change?
+      - how do you help the team adapt?
+      - what do you do when the client changes everything?
+      - how do you behave when a change is unclear?
+      - do constant changes drain you?
+      - how do you avoid losing control in changing contexts?
+      - do you try to understand the reason behind a change?
+      - how do you respond when something contradicts the plan?
+      - how do you pivot when the direction changes?
+      - do you adapt your workflow when necessary?
+      - how do you seek information in unclear changes?
+      - how do you react to new instructions from leadership?
+      - do you reorganize tasks easily?
+      - do changes make you anxious?
+      - do you help others adapt as well?
+      - how do you behave when you must drop a solution?
+      - do you adapt well to new technical horizons?
+      - how do you handle fast scope changes?
+      - when everything changes, what guides you?
+      - do you adjust timelines easily?
+      - how do you react to multiple priority changes in the same day?
+      - how do you behave when you disagree with a change?
+      - can you learn something new from context alone?
+      - how do you respond when task ownership shifts?
+      - do you keep your pace during big changes?
+      - do changes distract you?
+      - how do you help the team avoid freezing?
+      - when everything shifts, do you ask or act?
+      - can you pivot quickly when needed?
+      - how do you incorporate changes into your workflow?

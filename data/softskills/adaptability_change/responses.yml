@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_adaptability_change:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu procuro encarar mudanças como parte natural do trabalho. Quando algo muda, eu reviso o impacto, ajusto o plano e alinho com o time e com os stakeholders. Em vez de resistir, eu tento entender o motivo da mudança e focar em como contribuir da melhor forma dentro do novo cenário.
+          vr_en: |
+            I try to see change as a natural part of the job. When something changes, I review the impact, adjust the plan, and align with the team and the stakeholders. Instead of resisting, I try to understand the reason for the change and focus on how I can contribute in the best way in the new scenario.
