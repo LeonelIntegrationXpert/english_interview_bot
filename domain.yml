@@ -114,6 +114,12 @@ intents:
   - working_under_pressure
   - adaptability_change
   - receiving_feedback
+  - self_learning
+  - initiative_proactivity
+  - problem_solving
+  - empathy_collaboration
+  - learning_from_mistakes
+  - motivation_drivers
 actions:
   - action_fallback
 session_config:

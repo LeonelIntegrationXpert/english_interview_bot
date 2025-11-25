@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_learning_from_mistakes:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Quando eu erro, eu procuro assumir, entender a causa, corrigir o mais rápido possível e refletir sobre o que poderia ter sido feito diferente. Eu encaro erro como parte do processo de evolução, desde que exista responsabilidade, transparência e um esforço real para não repetir.
+          vr_en: |
+            When I make a mistake, I try to own it, understand the cause, fix it as fast as possible, and reflect on what could have been done differently. I see mistakes as part of the learning process, as long as there is responsibility, transparency, and a real effort not to repeat them.

@@ -1,0 +1,9 @@
+version: '3.1'
+responses:
+  utter_motivation_drivers:
+    - custom:
+        resp_1:
+          vr_pt: |
+            Eu me sinto muito motivado quando vejo que o meu trabalho gera impacto real, seja para o time, para o cliente ou para o produto. Gosto de desafios que me façam aprender algo novo e, ao mesmo tempo, de ambientes onde exista transparência, respeito e possibilidade de crescimento contínuo.
+          vr_en: |
+            I feel very motivated when I see that my work creates real impact, whether for the team, for the client, or for the product. I like challenges that make me learn something new and, at the same time, environments where there is transparency, respect, and room for continuous growth.

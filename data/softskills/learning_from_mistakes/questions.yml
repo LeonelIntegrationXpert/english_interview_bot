@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: learning_from_mistakes
+    examples: |
+      - como você lida com os seus próprios erros?
+      - o que você costuma fazer depois que percebe que cometeu um erro?
+      - você consegue aprender com situações em que algo não saiu como esperado?
+      - pode me contar como transforma um erro em aprendizado?
+      - você tem o hábito de revisar o que poderia ter sido feito diferente?
+      - como você reage quando alguém aponta um erro seu de forma direta?
+      - para você, qual é a principal lição que um erro pode trazer?
+      - você costuma compartilhar aprendizados de erros com o time?
+      - o que você faz para evitar repetir o mesmo erro no futuro?
+      - você enxerga erro como fracasso ou como parte do processo?
+      - quando algo dá errado, você revisa o caminho ou segue adiante?
+      - você costuma registrar os aprendizados depois de um erro?
+      - como você evita personalizar um erro e transformar isso em culpa?
+      - você conversa com o time quando percebe que errou?
+      - como você identifica a causa real de um erro?
+      - você já cometeu erro em entrega importante? Como lidou?
+      - quando erra, você prefere corrigir sozinho ou pedir ajuda?
+      - como você separa erro técnico de erro de comunicação?
+      - você aceita críticas quando elas apontam um erro seu?
+      - você dá transparência quando algo deu errado no seu lado?
+      - você vê erro como parte natural do crescimento?
+      - como você controla a ansiedade depois de um erro?
+      - você busca feedback sobre como poderia ter feito melhor?
+      - como você age quando percebe que errou tarde demais?
+      - você se culpa muito quando erra ou encara de forma prática?
+      - como você reage quando seu erro afeta o time?
+      - quando erra, você tenta entender o impacto antes de agir?
+      - você já revisou um processo inteiro por causa de um erro?
+      - como você evita agir por impulso ao corrigir um erro?
+      - você conversa com a liderança quando identifica que errou?
+      - você tenta corrigir rápido ou prefere entender tudo antes?
+      - como você reage quando alguém te corrige na frente de outros?
+      - você aprende melhor sozinho ou com orientação após um erro?
+      - você analisa dados ou baseia-se em intuição ao revisar um erro?
+      - quando erra, você procura entender o que te levou àquele caminho?
+      - você transforma erros em pequenas melhorias diárias?
+      - como você evita repetir os mesmos padrões de erro?
+      - você aceita quando precisa pedir desculpas?
+      - como você lida com um erro que poderia ter sido evitado?
+      - você já ajudou alguém a aprender com um erro parecido?
+      - quando algo dá errado, você muda o processo?
+      - você revisa passo a passo ou olha só o resultado?
+      - como você controla o emocional depois de errar?
+      - quando erro envolve outra pessoa, você alinha diretamente?
+      - você gosta de revisar o erro sozinho antes de falar com o time?
+      - como você reage quando percebe que subestimou um risco?
+      - você assume rapidamente quando algo foi responsabilidade sua?
+      - como você lida quando o erro gera retrabalho?
+      - você prefere documentar aprendizados ou só corrigir?
+      - quando alguém aponta um erro seu, você agradece ou rebate?
+      - você costuma antecipar correções para evitar novos erros?
+      - como você trabalha erros que surgem por falta de informação?
+      - você já reviu seu próprio processo por falhas frequentes?
+      - você pede ajuda antes que o erro cresça?
+      - como você identifica padrões em erros repetidos?
+      - quando erra, você revê prioridades?
+      - você faz retrospectivas pessoais depois de um erro?
+      - como você lida quando o erro impacta um cliente?
+      - você evita esconder erros?
+      - como você transforma erro em melhoria prática?
+      - você revisa documentação quando percebe que errou?
+      - você costuma atualizar o time quando corrige algo?
+      - como você evita agir defensivamente após um erro?
+      - quando fala sobre um erro, você é objetivo ou detalhista?
+      - você já criou rotina de checagem por causa de erros anteriores?
+      - como você evita repetir falhas de comunicação?
+      - você busca entender o contexto antes de julgar seu próprio erro?
+      - quando erra, você conversa com alguém para refletir?
+      - você revisa soluções alternativas depois do erro?
+      - como você lida quando o erro foge do seu controle?
+      - você assume o erro mesmo quando ninguém percebeu?
+      - como você avalia se o erro foi falta de atenção ou falta de conhecimento?
+      - você faz autoavaliação periódica?
+      - como você reage quando algo que você testou falha depois?
+      - você busca processos mais sólidos após um erro?
+      - como você lida com erros pequenos que acumulam impacto?
+      - você já implementou melhoria que nasceu de um erro seu?
+      - como você mantém calma ao corrigir algo urgente?
+      - você pede opinião de terceiros ao revisar um erro complexo?
+      - como você diferencia erro honesto de descuido?
+      - você consegue reconhecer aprendizado mesmo em erros grandes?
+      - como você mantém confiança após um erro?
+      - você trabalha com checagens extras depois de um erro crítico?
+      - como você reage quando percebe que repetiu um erro antigo?
+      - você costuma pedir revisão dupla quando está inseguro?
+      - como você organiza o que aprendeu depois do erro?
+      - você faz checklist para evitar erros futuros?
+      - como você lida com erros causados por pressa?
+      - você percebe quando está prestes a errar novamente?
+      - como você transforma frustração em aprendizado?
+      - você conversa sobre seu erro com o time para evitar que outros repitam?
+      - como você age quando um erro revela uma falha no processo?
+      - você usa erros como motivação para melhorar?
+      - como você lida quando outra pessoa é impactada pelo seu erro?
+      - quando erra, você revisa o raciocínio que te levou àquele caminho?
+      - como você evita transformar um erro pequeno em algo maior?
+      - você consegue perceber sinais de que um erro pode acontecer antes dele surgir?
+      - quando alguém te alerta sobre um possível erro, como você reage?
+      - você adapta seus métodos depois de aprender com um erro?
+      - como você mantém sua confiança depois de uma sequência de erros?
+      - when you make a mistake, do you review the reasoning that led you there?
+      - how do you prevent a small mistake from becoming a bigger issue?
+      - are you able to notice early signs that a mistake might happen?
+      - how do you react when someone warns you about a potential mistake?
+      - do you adjust your methods after learning from a mistake?
+      - how do you maintain confidence after a sequence of mistakes?
+      - how do you deal with your own mistakes?
+      - what do you usually do after you realize you made a mistake?
+      - are you able to learn from situations where things did not go as planned?
+      - can you tell me how you turn a mistake into learning?
+      - do you have the habit of reviewing what could have been done differently?
+      - how do you react when someone points out a mistake of yours directly?
+      - for you, what is the main lesson that a mistake can bring?
+      - do you usually share lessons from mistakes with your team?
+      - what do you do to avoid repeating the same mistake in the future?
+      - do you see a mistake as a failure or as part of the process?
+      - do you review the path or just fix the result?
+      - do you document what you learned from mistakes?
+      - how do you avoid turning a mistake into self-blame?
+      - do you talk to the team when you realize you made a mistake?
+      - how do you identify the real root of a mistake?
+      - have you made a mistake in an important delivery? How did you handle it?
+      - when you make a mistake, do you fix it alone or ask for help?
+      - how do you separate technical error from communication error?
+      - do you accept criticism that points out a mistake of yours?
+      - do you give transparency when something goes wrong on your side?
+      - do you see mistakes as natural parts of growth?
+      - how do you control anxiety after making a mistake?
+      - do you ask for feedback on how you could have done better?
+      - what do you do when you realize a mistake too late?
+      - do you blame yourself a lot or take a practical approach?
+      - how do you react when your mistake affects the team?
+      - do you assess the impact of a mistake before acting?
+      - have you ever reviewed a whole process because of a mistake?
+      - how do you avoid acting impulsively when fixing a mistake?
+      - do you align with leadership when you identify a mistake?
+      - do you prefer to fix fast or fully understand first?
+      - how do you react when someone corrects you in front of others?
+      - do you learn better alone or with guidance after a mistake?
+      - do you rely on data or intuition when reviewing a mistake?
+      - do you analyze what led you to the mistake?
+      - do you turn mistakes into small improvements?
+      - how do you avoid repeating behavioral patterns?
+      - can you apologize easily when necessary?
+      - how do you handle a mistake that could have been avoided?
+      - have you helped someone learn from a mistake similar to yours?
+      - do you adjust processes when something goes wrong?
+      - do you recheck steps or only the final output?
+      - how do you control your emotions after a mistake?
+      - when the mistake involves others, do you align directly?
+      - do you prefer reviewing the mistake alone first?
+      - how do you react when you underestimated a risk?
+      - do you take ownership quickly when something is your responsibility?
+      - how do you handle rework caused by your mistake?
+      - do you document improvements or just correct the issue?
+      - when someone points out your mistake, do you thank them or resist?
+      - do you anticipate corrections to avoid new mistakes?
+      - how do you handle mistakes caused by lack of information?
+      - have you reviewed your workflow because of recurring errors?
+      - do you ask for help before the mistake grows?
+      - how do you identify patterns in repeated mistakes?
+      - do you reprioritize work when a mistake happens?
+      - do you run personal retrospectives after big mistakes?
+      - how do you react when the mistake reaches a customer?
+      - do you avoid hiding mistakes?
+      - how do you turn mistakes into practical improvement?
+      - do you review documentation when something goes wrong?
+      - do you update the team after you fix a mistake?
+      - how do you avoid being defensive after a mistake?
+      - do you talk about your mistake objectively or in detail?
+      - have you created check routines because of past errors?
+      - how do you avoid repeating communication mistakes?
+      - do you try to understand context before judging your own error?
+      - do you talk to someone to reflect after a mistake?
+      - do you explore alternative solutions after something failed?
+      - how do you deal with mistakes outside your control?
+      - do you admit a mistake even if no one noticed?
+      - how do you assess if the mistake was lack of attention or lack of knowledge?
+      - do you run self-evaluation regularly?
+      - how do you react when something you tested later fails?
+      - do you build stronger processes after a mistake?
+      - how do you handle small mistakes that have large impact?
+      - have you implemented improvements born from your mistakes?
+      - how do you stay calm when you need to fix something urgent?
+      - do you ask for a second opinion on complex mistakes?
+      - how do you differentiate honest error from carelessness?
+      - can you recognize learning even from big mistakes?
+      - how do you maintain confidence after an error?
+      - do you use extra checks after a critical mistake?
+      - how do you react when you repeat an old mistake?
+      - do you ask for double review when you feel insecure?
+      - how do you organize what you learned from the mistake?
+      - do you use checklists to avoid future mistakes?
+      - how do you handle mistakes caused by rush?
+      - do you notice when you're about to make the same mistake again?
+      - how do you turn frustration into learning?
+      - do you talk about your mistake to avoid others repeating it?
+      - how do you react when a mistake reveals a process flaw?
+      - do you use mistakes as motivation to improve?
+      - how do you deal with mistakes that impact someone else?

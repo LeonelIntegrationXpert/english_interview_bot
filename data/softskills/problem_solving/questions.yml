@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: problem_solving
+    examples: |
+      - como você costuma abordar a solução de problemas no trabalho?
+      - qual é o seu primeiro passo quando se depara com um problema mais complexo?
+      - você pode me explicar como estrutura o seu raciocínio para resolver um problema?
+      - como você faz quando não conhece a solução de imediato?
+      - o que é mais importante para você em um processo de resolução de problemas?
+      - você costuma envolver outras pessoas quando está resolvendo um problema?
+      - como você diferencia causa raiz de sintoma em um problema?
+      - poderia me contar como você valida se a solução realmente funcionou?
+      - como você se organiza quando precisa testar diferentes alternativas?
+      - na sua visão, o que caracteriza um bom resolvedor de problemas?
+      - quando algo quebra, qual é seu primeiro movimento?
+      - você prefere investigar sozinho primeiro ou já chama o time?
+      - como você organiza informações quando tudo está confuso?
+      - qual é o seu método para analisar problemas técnicos?
+      - como você valida se uma hipótese faz sentido?
+      - o que você faz quando o problema não é reproduzível?
+      - você costuma documentar o processo de investigação?
+      - como você evita pular direto para conclusões?
+      - como separa fatos de interpretações?
+      - quando há pouca informação, como você começa?
+      - como você age quando tudo parece urgente ao mesmo tempo?
+      - você cria lista de hipóteses ou vai direto ao teste?
+      - como você prioriza o que investigar primeiro?
+      - você revisa histórico antes de começar?
+      - como você identifica padrões recorrentes?
+      - quando o problema envolve outra equipe, como você procede?
+      - como você coleta evidências antes de decidir?
+      - você usa logs como primeira ou última etapa?
+      - como você registra seus achados durante a investigação?
+      - você costuma reproduzir o problema em ambiente isolado?
+      - como você testa cada hipótese sem perder o controle do processo?
+      - você cria checkpoints para não se perder?
+      - como evita retrabalho durante a análise?
+      - quando o problema é intermitente, qual estratégia usa?
+      - como você confirma que a correção não gerou efeitos colaterais?
+      - quando descobre a causa, qual é seu próximo passo?
+      - você consulta documentação antes de testar algo?
+      - como comunica progresso durante a investigação?
+      - quando precisa pedir ajuda, como decide o momento certo?
+      - você envolve o time cedo ou só no final?
+      - como evita investigar só o sintoma?
+      - quando identifica a causa, como garante que é de fato a raiz?
+      - como você testa soluções sem causar impacto?
+      - você cria rollback rápido antes de alterar algo?
+      - como você usa diagramas para resolver problemas?
+      - você costuma criar pequenos experimentos para validar hipóteses?
+      - como você verifica impacto em outras partes do sistema?
+      - quando o problema é ambíguo, qual técnica usa?
+      - como você divide um problema grande em partes menores?
+      - você usa métodos como 5 Whys ou Fishbone?
+      - como confirma que o entendimento inicial estava correto?
+      - quando falha uma hipótese, como você reavalia?
+      - você faz retrospectiva após problemas difíceis?
+      - como evita que o mesmo problema aconteça de novo?
+      - você registra lições aprendidas para o time?
+      - como decide quando parar de investigar e partir para ação?
+      - quando o cliente está aguardando, como lida com pressão?
+      - como você garante transparência durante o processo?
+      - como organiza timelines e reproduções para entender falhas?
+      - você usa testes automatizados para validar cenários?
+      - como você diferencia falha humana de falha técnica?
+      - quando algo parece impossível, como você desbloqueia pensamento?
+      - você compara comportamentos entre ambientes?
+      - como analisa impacto de configuração versus código?
+      - como detecta race conditions ou falhas intermitentes?
+      - você usa logs avançados como correlação e tracing?
+      - como você estrutura checklists de investigação?
+      - você revisa mudanças recentes como primeiro passo?
+      - como você avalia se um problema é técnico ou de processo?
+      - quando algo gera dúvidas, você consulta quem primeiro?
+      - como você lida com problemas que envolvem múltiplas integrações?
+      - como identifica quando uma causa é apenas parcial?
+      - você revisa documentação externa para confirmar comportamento?
+      - como você cria uma árvore lógica de investigação?
+      - você usa debugging ativo ou análise passiva primeiro?
+      - como evita viés de confirmação na análise?
+      - quando está travado, qual é sua primeira ação?
+      - você monitora métricas enquanto investiga?
+      - como identifica regressões após correções?
+      - como você valida comportamento esperado versus real?
+      - você escreve testes adicionais para entender o problema?
+      - como você garante que um bug não apareça de novo?
+      - você gera dados controlados para testar cenários?
+      - como você confirma que encontrou *todas* as causas?
+      - quando o problema é causado por terceiros, como age?
+      - como você comunica a solução para o time ou stakeholders?
+      - você cria documentação preventiva depois de resolver?
+      - como você garante que a solução é sustentável?
+      - como você mede se o fix realmente resolveu o problema?
+      - você valida o comportamento final com o cliente?
+      - como você finaliza um ciclo completo de troubleshooting?
+      - o que você faz para melhorar seu processo de investigação?
+      - como você transforma problemas recorrentes em melhorias permanentes?
+      - você mantém repositório de análises complexas?
+      - como você treina o time usando investigações que você já fez?
+      - como você evolui seu método ao longo do tempo?
+      - você considera troubleshooting uma habilidade técnica ou comportamental?
+      - como você enxerga seu papel em resolver problemas difíceis?
+      - quando você identifica riscos no meio da investigação, como decide o próximo passo?
+      - como você age quando o problema envolve algo fora do seu controle direto?
+      - when you identify risks during the investigation, how do you decide the next step?
+      - how do you act when the problem involves something outside your direct control?
+      - how do you usually approach problem solving at work?
+      - what is your first step when you face a more complex problem?
+      - could you explain how you structure your thinking to solve a problem?
+      - what do you do when you do not know the solution right away?
+      - what is most important to you in a problem solving process?
+      - do you usually involve other people when solving a problem?
+      - how do you differentiate root cause from symptom in a problem?
+      - could you tell me how you validate if your solution really worked?
+      - how do you organize yourself when you need to test different options?
+      - in your view, what makes someone good at solving problems?
+      - when something breaks, what is your first movement?
+      - do you prefer investigating alone first or involving the team?
+      - how do you organize information when things are unclear?
+      - what method do you use to analyze technical problems?
+      - how do you validate whether a hypothesis makes sense?
+      - what do you do when the problem cannot be reproduced?
+      - do you document the investigation process?
+      - how do you avoid jumping to conclusions?
+      - how do you separate facts from interpretations?
+      - what do you do when there is very little information?
+      - how do you react when everything feels urgent at the same time?
+      - do you list hypotheses or jump straight into testing?
+      - how do you prioritize what to analyze first?
+      - do you check history before investigating?
+      - how do you identify recurring patterns?
+      - how do you proceed when the problem involves another team?
+      - how do you gather evidence before deciding?
+      - do you use logs early or late in the process?
+      - how do you record findings during troubleshooting?
+      - do you try to reproduce the issue in isolation?
+      - how do you test hypotheses without losing track?
+      - do you create checkpoints to stay organized?
+      - how do you avoid rework during analysis?
+      - what is your strategy for intermittent issues?
+      - how do you confirm the fix has no side effects?
+      - what is your next step after finding the cause?
+      - do you check documentation before testing changes?
+      - how do you communicate progress during investigation?
+      - how do you know when to ask for help?
+      - do you involve people early or later?
+      - how do you avoid solving only the symptom?
+      - how do you confirm that you found the true root cause?
+      - how do you test solutions without causing impact?
+      - do you prepare rollback options before changes?
+      - do you use diagrams when solving problems?
+      - do you create small experiments to validate ideas?
+      - how do you check impact on other system areas?
+      - what technique do you use for ambiguous problems?
+      - how do you break large problems into smaller ones?
+      - do you use methods like 5 Whys or Fishbone?
+      - how do you confirm the initial understanding was correct?
+      - what do you do when a hypothesis fails?
+      - do you run retrospectives after tough problems?
+      - how do you prevent the same issue from returning?
+      - do you document learnings for the team?
+      - how do you decide when to stop analyzing and start acting?
+      - how do you deal with pressure from clients while investigating?
+      - how do you ensure transparency during troubleshooting?
+      - do you map timelines to understand failures?
+      - do you use automated tests to validate scenarios?
+      - how do you differentiate human error from technical error?
+      - how do you unlock thinking when something looks impossible?
+      - do you compare behavior across environments?
+      - how do you evaluate config issues versus code issues?
+      - how do you detect intermittent race conditions?
+      - do you use correlation IDs and tracing?
+      - how do you structure investigation checklists?
+      - do you review recent changes first?
+      - how do you evaluate whether the issue is process related?
+      - who do you consult when you need more context?
+      - how do you handle problems involving multiple integrations?
+      - how do you detect partial root causes?
+      - do you review external documentation to confirm behavior?
+      - how do you build a logical tree of investigation?
+      - do you use active debugging or passive logs first?
+      - how do you avoid confirmation bias?
+      - what is your first move when you are stuck?
+      - do you monitor metrics while investigating?
+      - how do you detect regressions after fixes?
+      - how do you validate expected vs actual behavior?
+      - do you write tests to understand the issue?
+      - how do you guarantee a bug will not return?
+      - do you generate controlled data for testing?
+      - how do you confirm you found all root causes?
+      - how do you act when the issue comes from a third party?
+      - how do you communicate the solution to stakeholders?
+      - do you create preventive documentation afterward?
+      - how do you ensure the solution is sustainable?
+      - how do you measure whether the fix really worked?
+      - do you validate final behavior with the client?
+      - how do you close a troubleshooting cycle?
+      - how do you improve your investigation process?
+      - how do you turn recurring problems into permanent improvements?
+      - do you maintain a repository of complex investigations?
+      - how do you teach the team using past cases?
+      - how do you evolve your method over time?
+      - do you see troubleshooting as a technical or behavioral skill?
+      - how do you see your role in solving hard problems?

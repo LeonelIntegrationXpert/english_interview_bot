@@ -456,3 +456,27 @@ rules:
     steps:
       - intent: receiving_feedback
       - action: utter_receiving_feedback
+  - rule: rule_self_learning
+    steps:
+      - intent: self_learning
+      - action: utter_self_learning
+  - rule: rule_initiative_proactivity
+    steps:
+      - intent: initiative_proactivity
+      - action: utter_initiative_proactivity
+  - rule: rule_problem_solving
+    steps:
+      - intent: problem_solving
+      - action: utter_problem_solving
+  - rule: rule_empathy_collaboration
+    steps:
+      - intent: empathy_collaboration
+      - action: utter_empathy_collaboration
+  - rule: rule_learning_from_mistakes
+    steps:
+      - intent: learning_from_mistakes
+      - action: utter_learning_from_mistakes
+  - rule: rule_motivation_drivers
+    steps:
+      - intent: motivation_drivers
+      - action: utter_motivation_drivers

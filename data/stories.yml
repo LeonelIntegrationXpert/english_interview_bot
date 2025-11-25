@@ -456,3 +456,27 @@ stories:
     steps:
       - intent: receiving_feedback
       - action: utter_receiving_feedback
+  - story: story_self_learning
+    steps:
+      - intent: self_learning
+      - action: utter_self_learning
+  - story: story_initiative_proactivity
+    steps:
+      - intent: initiative_proactivity
+      - action: utter_initiative_proactivity
+  - story: story_problem_solving
+    steps:
+      - intent: problem_solving
+      - action: utter_problem_solving
+  - story: story_empathy_collaboration
+    steps:
+      - intent: empathy_collaboration
+      - action: utter_empathy_collaboration
+  - story: story_learning_from_mistakes
+    steps:
+      - intent: learning_from_mistakes
+      - action: utter_learning_from_mistakes
+  - story: story_motivation_drivers
+    steps:
+      - intent: motivation_drivers
+      - action: utter_motivation_drivers

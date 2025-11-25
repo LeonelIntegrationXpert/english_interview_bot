@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: initiative_proactivity
+    examples: |
+      - você se considera uma pessoa proativa?
+      - como você costuma tomar iniciativa no dia a dia de trabalho?
+      - você espera ser direcionado o tempo todo ou costuma antecipar necessidades?
+      - pode me contar um exemplo em que você tomou iniciativa sem alguém pedir?
+      - o que te motiva a ir além do que foi pedido?
+      - como você identifica oportunidades de melhoria no seu trabalho?
+      - quando você percebe um problema, você espera ou age?
+      - você costuma sugerir ideias novas para o time?
+      - como você lida quando vê algo que poderia ser melhor feito?
+      - na prática, como sua proatividade aparece no dia a dia?
+      - você costuma se adiantar às demandas antes delas virarem urgência?
+      - quando vê um risco, você já alerta o time ou espera mais contexto?
+      - como você age quando percebe que alguém precisa de ajuda?
+      - você tem o hábito de assumir responsabilidade mesmo sem alguém pedir?
+      - quando algo não está claro, você busca informação ou espera instrução?
+      - você costuma organizar atividades mesmo quando não é o responsável direto?
+      - como você enxerga seu papel quando vê um gargalo no processo?
+      - você costuma propor melhorias em ferramentas, processos ou fluxo?
+      - quando uma tarefa trava, você procura alternativas sozinho?
+      - você toma iniciativa para destravar o time quando necessário?
+      - como você age quando precisa assumir liderança informal?
+      - você é do tipo que vê algo fora do lugar e corrige, ou deixa para depois?
+      - como você percebe que é hora de agir sem esperar orientação?
+      - quando algo não faz sentido, você questiona ou deixa passar?
+      - você costuma trazer informações importantes antes que alguém peça?
+      - como você se organiza para antecipar o que o projeto vai precisar?
+      - você busca contexto extra para tomar decisões melhores?
+      - quando você vê uma oportunidade de otimizar algo, como reage?
+      - você costuma testar ideias pequenas antes de sugerir oficialmente?
+      - como você toma iniciativa quando entra em um time novo?
+      - você contribui com documentação mesmo sem alguém solicitar?
+      - como você identifica espaços onde sua ajuda pode fazer diferença?
+      - você se antecipa a problemas de comunicação?
+      - como você age quando vê dependências travando o projeto?
+      - você costuma apresentar planos quando o time está indeciso?
+      - você busca aprender ferramentas novas sem alguém mandar?
+      - como você reage quando vê que algo pode ser automatizado?
+      - você faz perguntas proativas para entender o que ainda não está claro?
+      - você inicia conversas para evitar mal-entendidos?
+      - como você desarma um problema antes dele virar uma crise?
+      - você assume tarefas que ninguém quer fazer para ajudar o time?
+      - como você decide quando vale puxar uma responsabilidade para si?
+      - você antecipa impacto das mudanças antes do time perceber?
+      - como você age quando está tudo parado esperando alguém?
+      - você traz alternativas quando apresenta um problema?
+      - como você ajuda o time a ganhar velocidade?
+      - você faz follow-up voluntariamente quando algo está pendente?
+      - como você reforça prioridades para evitar retrabalho?
+      - você cria pequenas melhorias sem esperar projeto formal?
+      - como você organiza algo que está confuso para todos?
+      - você ajuda novos colegas com onboarding sem alguém pedir?
+      - como você age quando um risco ainda não foi comunicado?
+      - você propõe rituais ou ajustes quando vê falhas no processo?
+      - como você enxerga seu papel em manter o time fluindo?
+      - você inicia conversas difíceis quando são necessárias?
+      - como você apresenta sugestões de forma construtiva?
+      - você se movimenta rápido quando vê oportunidade?
+      - como você entende que é hora de assumir o protagonismo?
+      - você toma iniciativa para aprender antes do projeto começar?
+      - como você lida quando percebe que uma entrega está atrasando?
+      - você age para reduzir dependências entre times?
+      - como você busca contexto para antecipar problemas?
+      - você propõe caminhos quando o time trava?
+      - como você organiza informações que ninguém estruturou ainda?
+      - você inicia documentação quando percebe que está faltando?
+      - como você traz clareza ao notar que o time está perdido?
+      - você ajuda a evitar erros repetidos com ações proativas?
+      - como você antecipa impacto de mudanças técnicas?
+      - você toma iniciativa para validar algo antes de expor ao cliente?
+      - como você reage quando percebe que o time está sobrecarregado?
+      - você automatiza algo manual sem esperarem isso de você?
+      - como você prioriza quando tudo parece urgente?
+      - você sugere práticas melhores quando identifica uma brecha?
+      - como você conduz um assunto que ninguém quer puxar?
+      - você ativa conversas importantes sem esperar reunião oficial?
+      - como você enxerga iniciativa como parte do seu trabalho?
+      - você se antecipa a dúvidas que o cliente pode ter?
+      - como você age quando um risco está só começando a aparecer?
+      - você ajuda o time a manter cadência?
+      - como você mantém ritmo mesmo quando o projeto está parado?
+      - você toma iniciativa para buscar feedback?
+      - como você decide agir sem depender de aprovação constante?
+      - você se antecipa a problemas de alinhamento?
+      - como você toma iniciativa em entregas complexas?
+      - você começa uma análise sem esperar instrução formal?
+      - como você age quando percebe que um processo pode ser otimizado?
+      - você cria propostas concretas ou só sugestões abstratas?
+      - como você transforma observações em ações práticas?
+      - você levanta dependências antes de elas explodirem?
+      - como você organiza informações dispersas para ajudar o time?
+      - você se adianta em preparar ambiente, testes ou documentação?
+      - como você ajuda o time a ganhar clareza quando tudo está nebuloso?
+      - você inicia conversas com stakeholders quando necessário?
+      - como você transforma proatividade em impacto real?
+      - quando algo está parado, você costuma puxar o andamento?
+      - você valida suas próprias ideias antes de sugerir para o time?
+      - você inicia pequenos testes quando percebe que algo pode melhorar?
+      - você costuma organizar tarefas soltas para ajudar o fluxo do time?
+      - você avança sozinho quando já tem contexto suficiente?
+      - você antecipa riscos mesmo antes deles aparecerem claramente?
+      - do you move things forward when they seem stuck?
+      - do you validate your own ideas before suggesting them to the team?
+      - do you start small tests when you notice something could improve?
+      - do you organize loose tasks to help the team’s flow?
+      - do you move ahead on your own when you already have enough context?
+      - do you anticipate risks even before they are fully visible?
+      - would you say you are a proactive person?
+      - how do you usually take initiative in your daily work?
+      - do you wait for direction all the time, or do you anticipate needs?
+      - can you tell me about a time when you took initiative without being asked?
+      - what motivates you to go beyond what was initially requested?
+      - how do you identify improvement opportunities in your work?
+      - when you notice a problem, do you wait or do you act?
+      - do you usually suggest new ideas to the team?
+      - how do you behave when you see something that could be done better?
+      - in practice, how does your proactivity show up in your daily routine?
+      - do you tend to get ahead of tasks before they become urgent?
+      - when you see a risk, do you warn the team early?
+      - how do you act when you notice someone needs help?
+      - do you normally take responsibility without being asked?
+      - when something is unclear, do you seek info or wait for direction?
+      - do you organize tasks even when you are not the owner?
+      - how do you see your role when you notice a bottleneck?
+      - do you propose improvements to processes or workflows?
+      - when a task gets stuck, do you look for alternatives?
+      - do you step up to unblock the team?
+      - how do you act when informal leadership is needed?
+      - if you see something wrong, do you fix it or leave it for later?
+      - how do you judge when it is time to act without waiting?
+      - when something does not make sense, do you question it?
+      - do you bring important info before being asked?
+      - how do you anticipate what the project will need next?
+      - do you search for extra context to make better decisions?
+      - how do you react when you see an optimization opportunity?
+      - do you test small ideas before suggesting them?
+      - how do you take initiative when joining a new team?
+      - do you contribute documentation even without request?
+      - how do you identify places where your help will matter?
+      - do you anticipate communication gaps?
+      - how do you act when dependencies slow the project down?
+      - do you present plans when the team is undecided?
+      - do you learn new tools before the project demands it?
+      - how do you act when something could be automated?
+      - do you ask proactive questions when something is unclear?
+      - how do you start conversations to avoid misunderstandings?
+      - do you defuse issues before they escalate?
+      - do you take tasks others avoid?
+      - how do you decide when to pull responsibility to yourself?
+      - do you anticipate impact of changes early?
+      - how do you act when everything is waiting on someone else?
+      - do you bring alternatives when raising a problem?
+      - how do you help the team gain speed?
+      - do you follow up when something is pending?
+      - how do you reinforce priorities to avoid rework?
+      - do you create small improvements without formal requests?
+      - how do you organize things that are messy?
+      - do you help new teammates onboard without being asked?
+      - how do you act when a risk hasn’t been communicated?
+      - do you propose rituals or adjustments in processes?
+      - how do you see your role in keeping the team flowing?
+      - do you start difficult conversations when needed?
+      - how do you present suggestions constructively?
+      - do you move fast when you see an opportunity?
+      - how do you know when to take the lead?
+      - do you prepare early learning before projects begin?
+      - how do you react when a delivery is getting delayed?
+      - do you work to reduce cross team dependencies?
+      - how do you gather context to anticipate issues?
+      - do you offer paths forward when the team is stuck?
+      - how do you organize unstructured information?
+      - do you start documentation when you see it is missing?
+      - how do you help the team regain clarity?
+      - do you help prevent repeated mistakes proactively?
+      - how do you anticipate impact of technical changes?
+      - do you validate things before exposing to the client?
+      - how do you act when the team is overloaded?
+      - do you automate repetitive tasks on your own?
+      - how do you prioritize when everything feels urgent?
+      - do you propose better practices when you see gaps?
+      - how do you handle a topic no one wants to own?
+      - do you initiate important conversations before meetings exist?
+      - how do you see initiative as part of your role?
+      - do you anticipate questions the client might have?
+      - how do you act when a risk is just starting to appear?
+      - do you help the team maintain cadence?
+      - how do you sustain momentum when the project slows?
+      - do you ask for feedback proactively?
+      - how do you act without relying on constant approvals?
+      - do you anticipate alignment problems early?
+      - how do you take initiative in complex deliveries?
+      - do you start an analysis before formal request?
+      - how do you act when you see a process that could be better?
+      - do you bring concrete proposals or only ideas?
+      - how do you turn observations into action?
+      - do you raise dependencies before they explode?
+      - how do you organize scattered information for the team?
+      - do you prepare environments, tests, or docs ahead of time?
+      - how do you bring clarity when things are confusing?
+      - do you initiate communication with stakeholders when necessary?
+      - how do you turn proactivity into real impact?

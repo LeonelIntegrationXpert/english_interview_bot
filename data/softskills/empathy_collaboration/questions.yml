@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: empathy_collaboration
+    examples: |
+      - como você pratica empatia no ambiente de trabalho?
+      - o que você faz para entender melhor o ponto de vista dos outros?
+      - como você reage quando alguém do time está passando por um momento difícil?
+      - você consegue se adaptar ao ritmo de pessoas diferentes?
+      - como a empatia influencia na forma como você trabalha em equipe?
+      - o que você faz para não julgar rapidamente uma situação ou uma pessoa?
+      - como você equilibra empatia com a necessidade de entregar resultados?
+      - pode me contar como você costuma ouvir alguém que pensa diferente de você?
+      - na sua visão, qual é o papel da empatia em um time saudável?
+      - você já recebeu feedback em relação à sua empatia ou escuta?
+      - como você demonstra apoio quando alguém não está bem?
+      - quando um colega está frustrado, como você costuma agir?
+      - você costuma perguntar como a pessoa está antes de falar de tarefas?
+      - como você identifica que alguém precisa de ajuda?
+      - quando alguém fala, você interrompe ou deixa terminar?
+      - você tenta entender a intenção da pessoa antes de responder?
+      - como você reage quando percebe que alguém está sobrecarregado?
+      - você ajuda colegas que têm mais dificuldade em algum ponto?
+      - como você evita respostas duras em momentos tensos?
+      - você tenta ajustar seu tom dependendo da pessoa?
+      - como você adapta sua comunicação quando alguém está mais sensível?
+      - você presta atenção em sinais não verbais dos colegas?
+      - quando há uma discussão, você tenta ouvir os dois lados?
+      - como você age quando alguém tem menos experiência que você?
+      - você costuma validar o que ouviu para garantir entendimento?
+      - quando alguém desabafa, você dá espaço para a pessoa falar?
+      - você consegue separar comportamento de intenção?
+      - quando você discorda, você mantém um tom respeitoso?
+      - como você mostra que está aberto ao ponto de vista dos outros?
+      - você tenta entender a pressão que a outra pessoa está vivendo?
+      - como você evita que seus julgamentos pessoais interfiram?
+      - quando alguém se irrita, você tenta entender o motivo?
+      - você evita falar de forma impulsiva em discussões?
+      - como você reage quando um colega comete um erro?
+      - você tenta entender a causa antes de criticar?
+      - quando alguém te pede ajuda, você tenta estar disponível?
+      - como você adapta sua colaboração a diferentes perfis?
+      - você percebe quando alguém está se sentindo excluído?
+      - como você inclui pessoas mais quietas na conversa?
+      - você dá espaço para colegas falarem antes de decidir algo?
+      - quando alguém é tímido, você tenta facilitar a comunicação?
+      - como você age quando nota que alguém não entendeu algo?
+      - você faz perguntas empáticas antes de opinar?
+      - quando a pessoa está nervosa, você tenta acalmar ou acelerar?
+      - você oferece ajuda sem soar invasivo?
+      - como você evita parecer indiferente às dificuldades dos outros?
+      - você tenta reconhecer o esforço de colegas sempre que possível?
+      - como você demonstra respeito pelas limitações dos outros?
+      - quando alguém está inseguro, você tenta encorajar?
+      - você ajusta seu ritmo para acompanhar quem está aprendendo?
+      - como você reage quando alguém precisa de mais tempo?
+      - você evita pressionar colegas que já estão no limite?
+      - como você mostra paciência em dias difíceis?
+      - quando há conflito, você tenta aproximar as pessoas?
+      - você busca entender a causa do comportamento antes de julgar?
+      - como você reage quando um colega se fecha?
+      - você tenta criar um ambiente seguro para os outros falarem?
+      - como você demonstra que está ouvindo de verdade?
+      - você repete parte do que ouviu para validar entendimento?
+      - como você expressa compreensão sem perder objetividade?
+      - você sabe reconhecer quando não entendeu algo?
+      - como você mostra que não está ali para competir, mas colaborar?
+      - você tenta ajustar sua postura com cada perfil do time?
+      - quando alguém exagera, você tenta compreender antes de corrigir?
+      - como você dá feedback sem ferir a pessoa?
+      - você tenta suavizar a forma de falar quando o tema é delicado?
+      - você é capaz de reconhecer o mérito alheio com facilidade?
+      - como você reage quando alguém está emocionalmente abalado?
+      - você ajusta suas expectativas quando vê alguém no limite?
+      - como você ajuda um colega a se reorganizar quando está perdido?
+      - você compartilha conhecimento sem arrogância?
+      - como você evita se fechar quando está cansado?
+      - você tenta manter empatia mesmo sob pressão?
+      - como você evita criar clima de tensão desnecessária?
+      - você tenta entender por que a pessoa está reagindo de certa forma?
+      - como você mantém respeito mesmo em discussões firmes?
+      - você sabe pedir desculpas quando percebe que pegou pesado?
+      - como você reage quando alguém tem menos velocidade que você?
+      - você tenta ajudar a pessoa a se sentir valorizada?
+      - como você demonstra que se importa com o bem-estar do time?
+      - você comunica impacto sem atacar a pessoa?
+      - como você mostra boa vontade em conversas difíceis?
+      - você tenta entender o histórico antes de opinar sobre alguém?
+      - como você evita conclusões precipitadas?
+      - quando percebe injustiça, você tenta intervir de forma respeitosa?
+      - você tenta ser uma ponte entre pessoas com opiniões diferentes?
+      - como você atua para melhorar o clima do time?
+      - você trata todos com o mesmo nível de respeito?
+      - como você demonstra empatia com colegas mais novos?
+      - você ajusta seu tempo para ajudar quando necessário?
+      - como você acolhe ideias diferentes das suas?
+      - você considera o lado humano antes da cobrança?
+      - como você equilibra firmeza e humanidade nas decisões?
+      - você consegue enxergar além do comportamento imediato?
+      - como você evita julgamentos rápidos em situações confusas?
+      - você tenta criar relações baseadas em confiança?
+      - como você incentiva colaboração saudável no time?
+      - quando alguém está quieto demais, você tenta entender o motivo?
+      - você ajusta sua abordagem quando percebe que alguém está mais sensível?
+      - como você mantém empatia mesmo quando você também está sob pressão?
+      - do you adjust your approach when you notice someone is more sensitive?
+      - how do you stay empathetic even when you are also under pressure?
+      - do you try to understand when someone becomes unusually quiet?
+      - how do you practice empathy in the workplace?
+      - what do you do to better understand other people's points of view?
+      - how do you react when a teammate is going through a tough moment?
+      - are you able to adapt to different people's pace?
+      - how does empathy influence the way you work in a team?
+      - what do you do to avoid judging a situation or person too quickly?
+      - how do you balance empathy with the need to deliver results?
+      - how do you usually listen to someone who thinks differently from you?
+      - in your view, what is the role of empathy in a healthy team?
+      - have you ever received feedback about your empathy or listening?
+      - how do you show support when someone is not well?
+      - how do you act when a colleague is frustrated?
+      - do you ask how someone is before talking about tasks?
+      - how do you notice when someone needs help?
+      - do you interrupt or let people finish speaking?
+      - do you try to understand intention before responding?
+      - how do you react when someone is overloaded?
+      - do you help teammates who struggle in something?
+      - how do you avoid giving harsh responses in tense moments?
+      - do you adapt your tone depending on the person?
+      - how do you adjust communication when someone is more sensitive?
+      - do you pay attention to colleagues’ non verbal signals?
+      - when there is a discussion, do you listen to both sides?
+      - how do you act with people who have less experience?
+      - do you validate what you heard to ensure understanding?
+      - do you give space when someone needs to vent?
+      - can you separate behavior from intention?
+      - do you keep a respectful tone even when disagreeing?
+      - how do you show openness to other viewpoints?
+      - do you try to understand the pressure someone is under?
+      - how do you avoid letting personal judgments interfere?
+      - how do you react when someone gets upset?
+      - do you avoid impulsive answers in discussions?
+      - how do you react when a colleague makes a mistake?
+      - do you understand the cause before criticizing?
+      - do you try to be available when someone asks for help?
+      - how do you adapt collaboration to different personalities?
+      - do you notice when someone feels excluded?
+      - how do you include quieter people in the conversation?
+      - do you give others room to talk before deciding?
+      - how do you support people who are shy?
+      - how do you act when someone didn’t understand something?
+      - do you ask empathetic questions before giving your opinion?
+      - when someone is nervous, do you calm them down or rush them?
+      - do you offer help without sounding invasive?
+      - how do you avoid sounding indifferent to others’ struggles?
+      - do you recognize people’s effort whenever possible?
+      - how do you show respect for others’ limitations?
+      - do you encourage teammates who feel insecure?
+      - do you adjust your pace for someone who is learning?
+      - how do you react when someone needs more time?
+      - do you avoid pressuring colleagues who are at their limit?
+      - how do you show patience on difficult days?
+      - do you try to connect people when there is conflict?
+      - do you try to understand behavior before judging?
+      - how do you act when someone shuts down emotionally?
+      - do you create a safe space for people to speak?
+      - how do you show that you are truly listening?
+      - do you repeat key points to confirm understanding?
+      - how do you express understanding without losing objectivity?
+      - can you admit when you did not understand something?
+      - how do you show you are there to collaborate, not compete?
+      - do you adjust your posture depending on each teammate?
+      - how do you respond when someone overreacts?
+      - how do you give feedback without hurting the person?
+      - do you soften your tone when the topic is sensitive?
+      - do you easily recognize others’ merit?
+      - how do you react when someone is emotionally shaken?
+      - do you adjust expectations when someone is at their limit?
+      - how do you help someone reorganize when they are lost?
+      - do you share knowledge without arrogance?
+      - how do you avoid shutting down when tired?
+      - do you keep empathy even under pressure?
+      - how do you avoid creating unnecessary tension?
+      - do you try to understand why someone is reacting a certain way?
+      - how do you maintain respect in firm discussions?
+      - can you apologize when you realize you were too harsh?
+      - how do you react when someone works slower than you?
+      - do you help people feel valued in the team?
+      - how do you show you care about the team’s well being?
+      - do you communicate impact without attacking anyone?
+      - how do you show goodwill in difficult conversations?
+      - do you consider someone’s history before forming an opinion?
+      - how do you avoid quick assumptions?
+      - do you intervene respectfully when you see injustice?
+      - do you act as a bridge between people with different views?
+      - how do you help improve the team environment?
+      - do you treat everyone with the same level of respect?
+      - how do you show empathy toward younger colleagues?
+      - do you adjust your time to help someone who needs?
+      - how do you welcome ideas different from yours?
+      - do you consider the human side before charging results?
+      - how do you balance firmness and humanity?
+      - can you see beyond someone’s immediate behavior?
+      - how do you avoid snap judgments in unclear situations?
+      - do you build relationships based on trust?
+      - how do you encourage healthy collaboration?

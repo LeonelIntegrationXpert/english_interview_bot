@@ -24249,3 +24249,1263 @@ Eu encaro feedback como uma oportunidade de ajuste e crescimento. Mesmo quando n
 #vr_en: |
 I see feedback as an opportunity for adjustment and growth. Even when I do not fully agree, I try to listen carefully, ask questions to understand better, and reflect calmly before reacting. After that, I evaluate what makes sense to apply and then incorporate it into the way I work.
 ---
+#intent: softskills/self_learning
+#pt:
+- como você se mantém atualizado na sua área?
+- qual é a sua abordagem para aprender coisas novas por conta própria?
+- você pode me contar como organiza seus estudos fora do horário de trabalho?
+- que tipo de material você costuma usar para se desenvolver profissionalmente?
+- você tem o hábito de estudar ou praticar algo regularmente?
+- como você escolhe o que vale a pena estudar em determinado momento?
+- você prefere cursos estruturados, documentação, vídeos ou prática direta?
+- o que te motiva a continuar aprendendo ao longo da carreira?
+- como você aplica, na prática, aquilo que você estuda?
+- pode me dar uma visão de como é o seu processo de autoaprendizado?
+- você costuma estudar todos os dias ou em blocos semanais?
+- como você organiza suas prioridades de estudo?
+- quando precisa aprender algo urgente, como você faz?
+- como você lida quando o conteúdo é difícil?
+- como você mantém consistência nos estudos?
+- você revisa conteúdos antigos ou só aprende o novo?
+- como você escolhe suas fontes de estudo?
+- você usa trilhas de estudo prontas ou monta as suas?
+- como você estuda quando está cansado?
+- o que te faz continuar estudando mesmo sem motivação?
+- você usa metas de curto prazo para organizar o estudo?
+- como você controla sua evolução ao longo do tempo?
+- você compara várias fontes ou segue uma só?
+- como você evita esquecer o que aprendeu?
+- você estuda mais por necessidade ou por curiosidade?
+- como você decide que dominou um assunto?
+- o que você faz quando não entende um conteúdo?
+- como você transforma leitura em prática real?
+- você tem métodos para reter conhecimento?
+- como você ajusta sua rotina quando o estudo aumenta?
+- você estuda mais sozinho ou em grupo?
+- como você reage quando precisa aprender algo totalmente novo?
+- você mistura teoria com prática no mesmo dia?
+- como você organiza seu ambiente de estudo?
+- você registra o que aprende?
+- como você revisa seus estudos ao longo do mês?
+- você usa listas, quadros ou anotações?
+- como você mantém disciplina nos estudos longos?
+- você tem um ritual antes de estudar?
+- como você evita distrações enquanto estuda?
+- você aprende melhor lendo, ouvindo ou fazendo?
+- como você lida com conteúdos avançados?
+- você costuma testar o que aprendeu no mesmo dia?
+- como você avalia se vale a pena fazer um curso ou não?
+- você separa seus estudos por tema?
+- como você distribui estudo entre teoria e prática?
+- você combina estudo técnico com soft skills?
+- como você aprende novas ferramentas rapidamente?
+- você usa resumos ou mapas mentais?
+- como você escolhe qual assunto estudar primeiro?
+- você volta a estudar assuntos antigos quando precisa?
+- como você cria constância mesmo com rotina cheia?
+- você sabe quando precisa parar e descansar?
+- como você incorpora aprendizado no seu trabalho?
+- você estuda mais de manhã ou de noite?
+- como você define objetivos de estudo realistas?
+- você mede impacto do que aprendeu?
+- como você retoma estudos depois de uma pausa longa?
+- você usa exemplos reais para aprender mais rápido?
+- como você evita ficar consumindo conteúdo sem praticar?
+- você cria projetos pessoais para aplicar estudo?
+- como você evita se sobrecarregar com muitos temas?
+- você prioriza profundidade ou variedade?
+- como você mantém foco quando o conteúdo é extenso?
+- você busca mentores ou referências?
+- como você faz quando precisa aprender sob pressão?
+- você revisa suas dificuldades de tempos em tempos?
+- como você identifica lacunas no seu conhecimento?
+- você aprende com erros e retrabalhos?
+- como você transforma teoria em experiência?
+- você consulta documentação oficial regularmente?
+- como você valida se aprendeu da forma correta?
+- você aprende melhor lendo código ou escrevendo código?
+- como você lida com excesso de informação?
+- você sabe quando mudar de estratégia de estudo?
+- como você balanceia estudo e descanso?
+- você adapta seu método conforme o tema?
+- como você aprende com exemplos práticos?
+- você cria desafios pessoais para estudar?
+- como você integra estudo ao seu dia a dia?
+- você escolhe temas por demanda do mercado?
+- como você estuda para certificações?
+- você usa simulados como parte do estudo?
+- como você revisa erros em simulados ou testes?
+- você procura entender o “porquê” do conteúdo?
+- como você lida com temas que não gosta muito?
+- você estuda com vídeos longos ou curtos?
+- como você aprende com tutoriais práticos?
+- você busca aprender continuamente ou por ciclos?
+- como você mantém o hábito de estudar sem parar?
+- você usa técnicas de memorização?
+- como você transforma conhecimento em habilidade?
+- você registra o que funcionou e o que não funcionou?
+- como você compartilha aprendizado com outras pessoas?
+- você usa seu dia a dia no trabalho como laboratório de estudo?
+- como você garante que realmente fixou o conteúdo estudado?
+- você revisa seu aprendizado depois de algumas semanas?
+- quando aprende algo novo, você testa logo em seguida?
+- como você identifica que precisa aprofundar um assunto?
+- você usa alguma rotina para manter o estudo ativo?
+#en:
+- how do you make sure you truly absorbed what you studied?
+- do you review what you learned after a few weeks?
+- when you learn something new, do you test it right away?
+- how do you identify when you need to go deeper into a topic?
+- do you follow any routine to keep your learning active?
+- how do you stay up to date in your field?
+- what is your approach to learning new things on your own?
+- could you tell me how you organize your studies outside working hours?
+- what kind of material do you usually use for your professional development?
+- do you have the habit of studying or practicing something regularly?
+- how do you choose what is worth studying at a given moment?
+- do you prefer structured courses, documentation, videos, or hands on practice?
+- what motivates you to keep learning throughout your career?
+- how do you apply in practice what you study?
+- could you give me an overview of your self learning process?
+- do you study every day or in weekly blocks?
+- how do you organize your study priorities?
+- what do you do when you need to learn something urgently?
+- how do you deal with difficult content?
+- how do you maintain consistency in your studies?
+- do you review old content or focus only on new topics?
+- how do you choose your learning sources?
+- do you follow predefined learning paths or create your own?
+- how do you study when you feel tired?
+- what keeps you learning even without motivation?
+- do you use short term goals for your study routine?
+- how do you track your progress over time?
+- do you compare multiple sources or follow just one?
+- how do you avoid forgetting what you learned?
+- do you study more out of necessity or curiosity?
+- how do you decide when you have mastered a topic?
+- what do you do when you do not understand something?
+- how do you turn reading into real practice?
+- do you have methods to retain knowledge?
+- how do you adjust your routine when study increases?
+- do you study more alone or with others?
+- how do you react when you need to learn something completely new?
+- do you mix theory and practice in the same day?
+- how do you organize your study environment?
+- do you record what you learn?
+- how do you review your studies throughout the month?
+- do you use lists, boards, or notes?
+- how do you maintain discipline during long study periods?
+- do you have a routine before studying?
+- how do you avoid distractions while studying?
+- do you learn better by reading, listening, or doing?
+- how do you deal with advanced content?
+- do you test what you learn on the same day?
+- how do you evaluate whether a course is worth it?
+- do you separate your studies by theme?
+- how do you distribute theory and practice?
+- do you combine technical study with soft skills?
+- how do you learn new tools quickly?
+- do you use summaries or mind maps?
+- how do you choose which topic to study first?
+- do you revisit old subjects when needed?
+- how do you stay consistent with a busy routine?
+- do you know when you need to stop and rest?
+- how do you incorporate learning into your work?
+- do you study more in the morning or at night?
+- how do you define realistic study goals?
+- do you measure the impact of what you learn?
+- how do you resume study after a long break?
+- do you use real examples to learn faster?
+- how do you avoid consuming content without practicing?
+- do you build personal projects to apply learning?
+- how do you avoid overload when studying many topics?
+- do you prioritize depth or variety?
+- how do you stay focused when the content is long?
+- do you look for mentors or references?
+- how do you learn under pressure?
+- do you review your difficulties from time to time?
+- how do you identify knowledge gaps?
+- do you learn from mistakes and rework?
+- how do you turn theory into experience?
+- do you check official documentation regularly?
+- how do you validate that you learned correctly?
+- do you learn better by reading code or writing code?
+- how do you handle information overload?
+- do you know when to change your study strategy?
+- how do you balance study and rest?
+- do you adapt your method depending on the topic?
+- do you learn from practical examples?
+- do you create personal study challenges?
+- how do you integrate learning into your daily life?
+- do you choose topics based on market demand?
+- how do you study for certifications?
+- do you use practice exams as part of learning?
+- how do you review mistakes in practice tests?
+- do you try to understand the “why” behind topics?
+- how do you handle topics you do not enjoy?
+- do you learn better with long videos or short ones?
+- how do you learn from hands on tutorials?
+- do you learn continuously or in cycles?
+- how do you keep the habit of studying without stopping?
+- do you use memorization techniques?
+- how do you turn knowledge into skill?
+- do you record what works and what doesn’t?
+- how do you share what you learn with others?
+- do you use your daily work as a learning lab?
+#rp_1
+#vr_pt: |
+Eu tenho o hábito de estudar de forma contínua, combinando documentação oficial, cursos, vídeos e prática em projetos reais ou pessoais. Normalmente eu defino um foco por período, organizo pequenos blocos de estudo e busco aplicar o que aprendo o mais rápido possível, para transformar teoria em prática.
+#vr_en: |
+I have the habit of studying continuously, combining official documentation, courses, videos, and practice in real or personal projects. I usually define a focus for each period, organize small study blocks, and try to apply what I learn as soon as possible, so that theory quickly becomes practice.
+---
+#intent: softskills/initiative_proactivity
+#pt:
+- você se considera uma pessoa proativa?
+- como você costuma tomar iniciativa no dia a dia de trabalho?
+- você espera ser direcionado o tempo todo ou costuma antecipar necessidades?
+- pode me contar um exemplo em que você tomou iniciativa sem alguém pedir?
+- o que te motiva a ir além do que foi pedido?
+- como você identifica oportunidades de melhoria no seu trabalho?
+- quando você percebe um problema, você espera ou age?
+- você costuma sugerir ideias novas para o time?
+- como você lida quando vê algo que poderia ser melhor feito?
+- na prática, como sua proatividade aparece no dia a dia?
+- você costuma se adiantar às demandas antes delas virarem urgência?
+- quando vê um risco, você já alerta o time ou espera mais contexto?
+- como você age quando percebe que alguém precisa de ajuda?
+- você tem o hábito de assumir responsabilidade mesmo sem alguém pedir?
+- quando algo não está claro, você busca informação ou espera instrução?
+- você costuma organizar atividades mesmo quando não é o responsável direto?
+- como você enxerga seu papel quando vê um gargalo no processo?
+- você costuma propor melhorias em ferramentas, processos ou fluxo?
+- quando uma tarefa trava, você procura alternativas sozinho?
+- você toma iniciativa para destravar o time quando necessário?
+- como você age quando precisa assumir liderança informal?
+- você é do tipo que vê algo fora do lugar e corrige, ou deixa para depois?
+- como você percebe que é hora de agir sem esperar orientação?
+- quando algo não faz sentido, você questiona ou deixa passar?
+- você costuma trazer informações importantes antes que alguém peça?
+- como você se organiza para antecipar o que o projeto vai precisar?
+- você busca contexto extra para tomar decisões melhores?
+- quando você vê uma oportunidade de otimizar algo, como reage?
+- você costuma testar ideias pequenas antes de sugerir oficialmente?
+- como você toma iniciativa quando entra em um time novo?
+- você contribui com documentação mesmo sem alguém solicitar?
+- como você identifica espaços onde sua ajuda pode fazer diferença?
+- você se antecipa a problemas de comunicação?
+- como você age quando vê dependências travando o projeto?
+- você costuma apresentar planos quando o time está indeciso?
+- você busca aprender ferramentas novas sem alguém mandar?
+- como você reage quando vê que algo pode ser automatizado?
+- você faz perguntas proativas para entender o que ainda não está claro?
+- você inicia conversas para evitar mal-entendidos?
+- como você desarma um problema antes dele virar uma crise?
+- você assume tarefas que ninguém quer fazer para ajudar o time?
+- como você decide quando vale puxar uma responsabilidade para si?
+- você antecipa impacto das mudanças antes do time perceber?
+- como você age quando está tudo parado esperando alguém?
+- você traz alternativas quando apresenta um problema?
+- como você ajuda o time a ganhar velocidade?
+- você faz follow-up voluntariamente quando algo está pendente?
+- como você reforça prioridades para evitar retrabalho?
+- você cria pequenas melhorias sem esperar projeto formal?
+- como você organiza algo que está confuso para todos?
+- você ajuda novos colegas com onboarding sem alguém pedir?
+- como você age quando um risco ainda não foi comunicado?
+- você propõe rituais ou ajustes quando vê falhas no processo?
+- como você enxerga seu papel em manter o time fluindo?
+- você inicia conversas difíceis quando são necessárias?
+- como você apresenta sugestões de forma construtiva?
+- você se movimenta rápido quando vê oportunidade?
+- como você entende que é hora de assumir o protagonismo?
+- você toma iniciativa para aprender antes do projeto começar?
+- como você lida quando percebe que uma entrega está atrasando?
+- você age para reduzir dependências entre times?
+- como você busca contexto para antecipar problemas?
+- você propõe caminhos quando o time trava?
+- como você organiza informações que ninguém estruturou ainda?
+- você inicia documentação quando percebe que está faltando?
+- como você traz clareza ao notar que o time está perdido?
+- você ajuda a evitar erros repetidos com ações proativas?
+- como você antecipa impacto de mudanças técnicas?
+- você toma iniciativa para validar algo antes de expor ao cliente?
+- como você reage quando percebe que o time está sobrecarregado?
+- você automatiza algo manual sem esperarem isso de você?
+- como você prioriza quando tudo parece urgente?
+- você sugere práticas melhores quando identifica uma brecha?
+- como você conduz um assunto que ninguém quer puxar?
+- você ativa conversas importantes sem esperar reunião oficial?
+- como você enxerga iniciativa como parte do seu trabalho?
+- você se antecipa a dúvidas que o cliente pode ter?
+- como você age quando um risco está só começando a aparecer?
+- você ajuda o time a manter cadência?
+- como você mantém ritmo mesmo quando o projeto está parado?
+- você toma iniciativa para buscar feedback?
+- como você decide agir sem depender de aprovação constante?
+- você se antecipa a problemas de alinhamento?
+- como você toma iniciativa em entregas complexas?
+- você começa uma análise sem esperar instrução formal?
+- como você age quando percebe que um processo pode ser otimizado?
+- você cria propostas concretas ou só sugestões abstratas?
+- como você transforma observações em ações práticas?
+- você levanta dependências antes de elas explodirem?
+- como você organiza informações dispersas para ajudar o time?
+- você se adianta em preparar ambiente, testes ou documentação?
+- como você ajuda o time a ganhar clareza quando tudo está nebuloso?
+- você inicia conversas com stakeholders quando necessário?
+- como você transforma proatividade em impacto real?
+- quando algo está parado, você costuma puxar o andamento?
+- você valida suas próprias ideias antes de sugerir para o time?
+- você inicia pequenos testes quando percebe que algo pode melhorar?
+- você costuma organizar tarefas soltas para ajudar o fluxo do time?
+- você avança sozinho quando já tem contexto suficiente?
+- você antecipa riscos mesmo antes deles aparecerem claramente?
+#en:
+- do you move things forward when they seem stuck?
+- do you validate your own ideas before suggesting them to the team?
+- do you start small tests when you notice something could improve?
+- do you organize loose tasks to help the team’s flow?
+- do you move ahead on your own when you already have enough context?
+- do you anticipate risks even before they are fully visible?
+- would you say you are a proactive person?
+- how do you usually take initiative in your daily work?
+- do you wait for direction all the time, or do you anticipate needs?
+- can you tell me about a time when you took initiative without being asked?
+- what motivates you to go beyond what was initially requested?
+- how do you identify improvement opportunities in your work?
+- when you notice a problem, do you wait or do you act?
+- do you usually suggest new ideas to the team?
+- how do you behave when you see something that could be done better?
+- in practice, how does your proactivity show up in your daily routine?
+- do you tend to get ahead of tasks before they become urgent?
+- when you see a risk, do you warn the team early?
+- how do you act when you notice someone needs help?
+- do you normally take responsibility without being asked?
+- when something is unclear, do you seek info or wait for direction?
+- do you organize tasks even when you are not the owner?
+- how do you see your role when you notice a bottleneck?
+- do you propose improvements to processes or workflows?
+- when a task gets stuck, do you look for alternatives?
+- do you step up to unblock the team?
+- how do you act when informal leadership is needed?
+- if you see something wrong, do you fix it or leave it for later?
+- how do you judge when it is time to act without waiting?
+- when something does not make sense, do you question it?
+- do you bring important info before being asked?
+- how do you anticipate what the project will need next?
+- do you search for extra context to make better decisions?
+- how do you react when you see an optimization opportunity?
+- do you test small ideas before suggesting them?
+- how do you take initiative when joining a new team?
+- do you contribute documentation even without request?
+- how do you identify places where your help will matter?
+- do you anticipate communication gaps?
+- how do you act when dependencies slow the project down?
+- do you present plans when the team is undecided?
+- do you learn new tools before the project demands it?
+- how do you act when something could be automated?
+- do you ask proactive questions when something is unclear?
+- how do you start conversations to avoid misunderstandings?
+- do you defuse issues before they escalate?
+- do you take tasks others avoid?
+- how do you decide when to pull responsibility to yourself?
+- do you anticipate impact of changes early?
+- how do you act when everything is waiting on someone else?
+- do you bring alternatives when raising a problem?
+- how do you help the team gain speed?
+- do you follow up when something is pending?
+- how do you reinforce priorities to avoid rework?
+- do you create small improvements without formal requests?
+- how do you organize things that are messy?
+- do you help new teammates onboard without being asked?
+- how do you act when a risk hasn’t been communicated?
+- do you propose rituals or adjustments in processes?
+- how do you see your role in keeping the team flowing?
+- do you start difficult conversations when needed?
+- how do you present suggestions constructively?
+- do you move fast when you see an opportunity?
+- how do you know when to take the lead?
+- do you prepare early learning before projects begin?
+- how do you react when a delivery is getting delayed?
+- do you work to reduce cross team dependencies?
+- how do you gather context to anticipate issues?
+- do you offer paths forward when the team is stuck?
+- how do you organize unstructured information?
+- do you start documentation when you see it is missing?
+- how do you help the team regain clarity?
+- do you help prevent repeated mistakes proactively?
+- how do you anticipate impact of technical changes?
+- do you validate things before exposing to the client?
+- how do you act when the team is overloaded?
+- do you automate repetitive tasks on your own?
+- how do you prioritize when everything feels urgent?
+- do you propose better practices when you see gaps?
+- how do you handle a topic no one wants to own?
+- do you initiate important conversations before meetings exist?
+- how do you see initiative as part of your role?
+- do you anticipate questions the client might have?
+- how do you act when a risk is just starting to appear?
+- do you help the team maintain cadence?
+- how do you sustain momentum when the project slows?
+- do you ask for feedback proactively?
+- how do you act without relying on constant approvals?
+- do you anticipate alignment problems early?
+- how do you take initiative in complex deliveries?
+- do you start an analysis before formal request?
+- how do you act when you see a process that could be better?
+- do you bring concrete proposals or only ideas?
+- how do you turn observations into action?
+- do you raise dependencies before they explode?
+- how do you organize scattered information for the team?
+- do you prepare environments, tests, or docs ahead of time?
+- how do you bring clarity when things are confusing?
+- do you initiate communication with stakeholders when necessary?
+- how do you turn proactivity into real impact?
+#rp_1
+#vr_pt: |
+Eu procuro ser bem proativo. Quando percebo um problema ou uma oportunidade de melhoria, não fico esperando alguém pedir; eu analiso, proponho alternativas e, quando faz sentido, já começo a estruturar uma solução, sempre alinhando com o time e com a liderança.
+#vr_en: |
+I try to be very proactive. When I notice a problem or an opportunity for improvement, I do not wait for someone to ask. I analyze it, propose alternatives, and when it makes sense, I start structuring a solution, always aligning with the team and with leadership.
+---
+#intent: softskills/problem_solving
+#pt:
+- como você costuma abordar a solução de problemas no trabalho?
+- qual é o seu primeiro passo quando se depara com um problema mais complexo?
+- você pode me explicar como estrutura o seu raciocínio para resolver um problema?
+- como você faz quando não conhece a solução de imediato?
+- o que é mais importante para você em um processo de resolução de problemas?
+- você costuma envolver outras pessoas quando está resolvendo um problema?
+- como você diferencia causa raiz de sintoma em um problema?
+- poderia me contar como você valida se a solução realmente funcionou?
+- como você se organiza quando precisa testar diferentes alternativas?
+- na sua visão, o que caracteriza um bom resolvedor de problemas?
+- quando algo quebra, qual é seu primeiro movimento?
+- você prefere investigar sozinho primeiro ou já chama o time?
+- como você organiza informações quando tudo está confuso?
+- qual é o seu método para analisar problemas técnicos?
+- como você valida se uma hipótese faz sentido?
+- o que você faz quando o problema não é reproduzível?
+- você costuma documentar o processo de investigação?
+- como você evita pular direto para conclusões?
+- como separa fatos de interpretações?
+- quando há pouca informação, como você começa?
+- como você age quando tudo parece urgente ao mesmo tempo?
+- você cria lista de hipóteses ou vai direto ao teste?
+- como você prioriza o que investigar primeiro?
+- você revisa histórico antes de começar?
+- como você identifica padrões recorrentes?
+- quando o problema envolve outra equipe, como você procede?
+- como você coleta evidências antes de decidir?
+- você usa logs como primeira ou última etapa?
+- como você registra seus achados durante a investigação?
+- você costuma reproduzir o problema em ambiente isolado?
+- como você testa cada hipótese sem perder o controle do processo?
+- você cria checkpoints para não se perder?
+- como evita retrabalho durante a análise?
+- quando o problema é intermitente, qual estratégia usa?
+- como você confirma que a correção não gerou efeitos colaterais?
+- quando descobre a causa, qual é seu próximo passo?
+- você consulta documentação antes de testar algo?
+- como comunica progresso durante a investigação?
+- quando precisa pedir ajuda, como decide o momento certo?
+- você envolve o time cedo ou só no final?
+- como evita investigar só o sintoma?
+- quando identifica a causa, como garante que é de fato a raiz?
+- como você testa soluções sem causar impacto?
+- você cria rollback rápido antes de alterar algo?
+- como você usa diagramas para resolver problemas?
+- você costuma criar pequenos experimentos para validar hipóteses?
+- como você verifica impacto em outras partes do sistema?
+- quando o problema é ambíguo, qual técnica usa?
+- como você divide um problema grande em partes menores?
+- você usa métodos como 5 Whys ou Fishbone?
+- como confirma que o entendimento inicial estava correto?
+- quando falha uma hipótese, como você reavalia?
+- você faz retrospectiva após problemas difíceis?
+- como evita que o mesmo problema aconteça de novo?
+- você registra lições aprendidas para o time?
+- como decide quando parar de investigar e partir para ação?
+- quando o cliente está aguardando, como lida com pressão?
+- como você garante transparência durante o processo?
+- como organiza timelines e reproduções para entender falhas?
+- você usa testes automatizados para validar cenários?
+- como você diferencia falha humana de falha técnica?
+- quando algo parece impossível, como você desbloqueia pensamento?
+- você compara comportamentos entre ambientes?
+- como analisa impacto de configuração versus código?
+- como detecta race conditions ou falhas intermitentes?
+- você usa logs avançados como correlação e tracing?
+- como você estrutura checklists de investigação?
+- você revisa mudanças recentes como primeiro passo?
+- como você avalia se um problema é técnico ou de processo?
+- quando algo gera dúvidas, você consulta quem primeiro?
+- como você lida com problemas que envolvem múltiplas integrações?
+- como identifica quando uma causa é apenas parcial?
+- você revisa documentação externa para confirmar comportamento?
+- como você cria uma árvore lógica de investigação?
+- você usa debugging ativo ou análise passiva primeiro?
+- como evita viés de confirmação na análise?
+- quando está travado, qual é sua primeira ação?
+- você monitora métricas enquanto investiga?
+- como identifica regressões após correções?
+- como você valida comportamento esperado versus real?
+- você escreve testes adicionais para entender o problema?
+- como você garante que um bug não apareça de novo?
+- você gera dados controlados para testar cenários?
+- como você confirma que encontrou *todas* as causas?
+- quando o problema é causado por terceiros, como age?
+- como você comunica a solução para o time ou stakeholders?
+- você cria documentação preventiva depois de resolver?
+- como você garante que a solução é sustentável?
+- como você mede se o fix realmente resolveu o problema?
+- você valida o comportamento final com o cliente?
+- como você finaliza um ciclo completo de troubleshooting?
+- o que você faz para melhorar seu processo de investigação?
+- como você transforma problemas recorrentes em melhorias permanentes?
+- você mantém repositório de análises complexas?
+- como você treina o time usando investigações que você já fez?
+- como você evolui seu método ao longo do tempo?
+- você considera troubleshooting uma habilidade técnica ou comportamental?
+- como você enxerga seu papel em resolver problemas difíceis?
+- quando você identifica riscos no meio da investigação, como decide o próximo passo?
+- como você age quando o problema envolve algo fora do seu controle direto?
+#en:
+- when you identify risks during the investigation, how do you decide the next step?
+- how do you act when the problem involves something outside your direct control?
+- how do you usually approach problem solving at work?
+- what is your first step when you face a more complex problem?
+- could you explain how you structure your thinking to solve a problem?
+- what do you do when you do not know the solution right away?
+- what is most important to you in a problem solving process?
+- do you usually involve other people when solving a problem?
+- how do you differentiate root cause from symptom in a problem?
+- could you tell me how you validate if your solution really worked?
+- how do you organize yourself when you need to test different options?
+- in your view, what makes someone good at solving problems?
+- when something breaks, what is your first movement?
+- do you prefer investigating alone first or involving the team?
+- how do you organize information when things are unclear?
+- what method do you use to analyze technical problems?
+- how do you validate whether a hypothesis makes sense?
+- what do you do when the problem cannot be reproduced?
+- do you document the investigation process?
+- how do you avoid jumping to conclusions?
+- how do you separate facts from interpretations?
+- what do you do when there is very little information?
+- how do you react when everything feels urgent at the same time?
+- do you list hypotheses or jump straight into testing?
+- how do you prioritize what to analyze first?
+- do you check history before investigating?
+- how do you identify recurring patterns?
+- how do you proceed when the problem involves another team?
+- how do you gather evidence before deciding?
+- do you use logs early or late in the process?
+- how do you record findings during troubleshooting?
+- do you try to reproduce the issue in isolation?
+- how do you test hypotheses without losing track?
+- do you create checkpoints to stay organized?
+- how do you avoid rework during analysis?
+- what is your strategy for intermittent issues?
+- how do you confirm the fix has no side effects?
+- what is your next step after finding the cause?
+- do you check documentation before testing changes?
+- how do you communicate progress during investigation?
+- how do you know when to ask for help?
+- do you involve people early or later?
+- how do you avoid solving only the symptom?
+- how do you confirm that you found the true root cause?
+- how do you test solutions without causing impact?
+- do you prepare rollback options before changes?
+- do you use diagrams when solving problems?
+- do you create small experiments to validate ideas?
+- how do you check impact on other system areas?
+- what technique do you use for ambiguous problems?
+- how do you break large problems into smaller ones?
+- do you use methods like 5 Whys or Fishbone?
+- how do you confirm the initial understanding was correct?
+- what do you do when a hypothesis fails?
+- do you run retrospectives after tough problems?
+- how do you prevent the same issue from returning?
+- do you document learnings for the team?
+- how do you decide when to stop analyzing and start acting?
+- how do you deal with pressure from clients while investigating?
+- how do you ensure transparency during troubleshooting?
+- do you map timelines to understand failures?
+- do you use automated tests to validate scenarios?
+- how do you differentiate human error from technical error?
+- how do you unlock thinking when something looks impossible?
+- do you compare behavior across environments?
+- how do you evaluate config issues versus code issues?
+- how do you detect intermittent race conditions?
+- do you use correlation IDs and tracing?
+- how do you structure investigation checklists?
+- do you review recent changes first?
+- how do you evaluate whether the issue is process related?
+- who do you consult when you need more context?
+- how do you handle problems involving multiple integrations?
+- how do you detect partial root causes?
+- do you review external documentation to confirm behavior?
+- how do you build a logical tree of investigation?
+- do you use active debugging or passive logs first?
+- how do you avoid confirmation bias?
+- what is your first move when you are stuck?
+- do you monitor metrics while investigating?
+- how do you detect regressions after fixes?
+- how do you validate expected vs actual behavior?
+- do you write tests to understand the issue?
+- how do you guarantee a bug will not return?
+- do you generate controlled data for testing?
+- how do you confirm you found all root causes?
+- how do you act when the issue comes from a third party?
+- how do you communicate the solution to stakeholders?
+- do you create preventive documentation afterward?
+- how do you ensure the solution is sustainable?
+- how do you measure whether the fix really worked?
+- do you validate final behavior with the client?
+- how do you close a troubleshooting cycle?
+- how do you improve your investigation process?
+- how do you turn recurring problems into permanent improvements?
+- do you maintain a repository of complex investigations?
+- how do you teach the team using past cases?
+- how do you evolve your method over time?
+- do you see troubleshooting as a technical or behavioral skill?
+- how do you see your role in solving hard problems?
+#rp_1
+#vr_pt: |
+Quando aparece um problema, eu primeiro tento entender o contexto e separar fatos de opiniões. Depois, busco a causa raiz, levanto hipóteses, priorizo as mais prováveis e testo de forma organizada. Ao final, valido o resultado e, se possível, registro o aprendizado para o time.
+#vr_en: |
+When a problem comes up, I first try to understand the context and separate facts from opinions. Then I look for the root cause, raise hypotheses, prioritize the most likely ones, and test them in an organized way. In the end, I validate the result and, if possible, document the learning for the team.
+---
+#intent: softskills/empathy_collaboration
+#pt:
+- como você pratica empatia no ambiente de trabalho?
+- o que você faz para entender melhor o ponto de vista dos outros?
+- como você reage quando alguém do time está passando por um momento difícil?
+- você consegue se adaptar ao ritmo de pessoas diferentes?
+- como a empatia influencia na forma como você trabalha em equipe?
+- o que você faz para não julgar rapidamente uma situação ou uma pessoa?
+- como você equilibra empatia com a necessidade de entregar resultados?
+- pode me contar como você costuma ouvir alguém que pensa diferente de você?
+- na sua visão, qual é o papel da empatia em um time saudável?
+- você já recebeu feedback em relação à sua empatia ou escuta?
+- como você demonstra apoio quando alguém não está bem?
+- quando um colega está frustrado, como você costuma agir?
+- você costuma perguntar como a pessoa está antes de falar de tarefas?
+- como você identifica que alguém precisa de ajuda?
+- quando alguém fala, você interrompe ou deixa terminar?
+- você tenta entender a intenção da pessoa antes de responder?
+- como você reage quando percebe que alguém está sobrecarregado?
+- você ajuda colegas que têm mais dificuldade em algum ponto?
+- como você evita respostas duras em momentos tensos?
+- você tenta ajustar seu tom dependendo da pessoa?
+- como você adapta sua comunicação quando alguém está mais sensível?
+- você presta atenção em sinais não verbais dos colegas?
+- quando há uma discussão, você tenta ouvir os dois lados?
+- como você age quando alguém tem menos experiência que você?
+- você costuma validar o que ouviu para garantir entendimento?
+- quando alguém desabafa, você dá espaço para a pessoa falar?
+- você consegue separar comportamento de intenção?
+- quando você discorda, você mantém um tom respeitoso?
+- como você mostra que está aberto ao ponto de vista dos outros?
+- você tenta entender a pressão que a outra pessoa está vivendo?
+- como você evita que seus julgamentos pessoais interfiram?
+- quando alguém se irrita, você tenta entender o motivo?
+- você evita falar de forma impulsiva em discussões?
+- como você reage quando um colega comete um erro?
+- você tenta entender a causa antes de criticar?
+- quando alguém te pede ajuda, você tenta estar disponível?
+- como você adapta sua colaboração a diferentes perfis?
+- você percebe quando alguém está se sentindo excluído?
+- como você inclui pessoas mais quietas na conversa?
+- você dá espaço para colegas falarem antes de decidir algo?
+- quando alguém é tímido, você tenta facilitar a comunicação?
+- como você age quando nota que alguém não entendeu algo?
+- você faz perguntas empáticas antes de opinar?
+- quando a pessoa está nervosa, você tenta acalmar ou acelerar?
+- você oferece ajuda sem soar invasivo?
+- como você evita parecer indiferente às dificuldades dos outros?
+- você tenta reconhecer o esforço de colegas sempre que possível?
+- como você demonstra respeito pelas limitações dos outros?
+- quando alguém está inseguro, você tenta encorajar?
+- você ajusta seu ritmo para acompanhar quem está aprendendo?
+- como você reage quando alguém precisa de mais tempo?
+- você evita pressionar colegas que já estão no limite?
+- como você mostra paciência em dias difíceis?
+- você faz perguntas abertas para entender melhor?
+- quando há conflito, você tenta aproximar as pessoas?
+- você busca entender a causa do comportamento antes de julgar?
+- como você reage quando um colega se fecha?
+- você tenta criar um ambiente seguro para os outros falarem?
+- como você demonstra que está ouvindo de verdade?
+- você repete parte do que ouviu para validar entendimento?
+- como você expressa compreensão sem perder objetividade?
+- você sabe reconhecer quando não entendeu algo?
+- como você mostra que não está ali para competir, mas colaborar?
+- você tenta ajustar sua postura com cada perfil do time?
+- quando alguém exagera, você tenta compreender antes de corrigir?
+- como você dá feedback sem ferir a pessoa?
+- você tenta suavizar a forma de falar quando o tema é delicado?
+- você é capaz de reconhecer o mérito alheio com facilidade?
+- como você reage quando alguém está emocionalmente abalado?
+- você ajusta suas expectativas quando vê alguém no limite?
+- como você ajuda um colega a se reorganizar quando está perdido?
+- você compartilha conhecimento sem arrogância?
+- como você evita se fechar quando está cansado?
+- você tenta manter empatia mesmo sob pressão?
+- como você evita criar clima de tensão desnecessária?
+- você tenta entender por que a pessoa está reagindo de certa forma?
+- como você mantém respeito mesmo em discussões firmes?
+- você sabe pedir desculpas quando percebe que pegou pesado?
+- como você reage quando alguém tem menos velocidade que você?
+- você tenta ajudar a pessoa a se sentir valorizada?
+- como você demonstra que se importa com o bem-estar do time?
+- você comunica impacto sem atacar a pessoa?
+- como você mostra boa vontade em conversas difíceis?
+- você tenta entender o histórico antes de opinar sobre alguém?
+- como você evita conclusões precipitadas?
+- quando percebe injustiça, você tenta intervir de forma respeitosa?
+- você tenta ser uma ponte entre pessoas com opiniões diferentes?
+- como você atua para melhorar o clima do time?
+- você trata todos com o mesmo nível de respeito?
+- como você demonstra empatia com colegas mais novos?
+- você ajusta seu tempo para ajudar quando necessário?
+- como você acolhe ideias diferentes das suas?
+- você considera o lado humano antes da cobrança?
+- como você equilibra firmeza e humanidade nas decisões?
+- você consegue enxergar além do comportamento imediato?
+- como você evita julgamentos rápidos em situações confusas?
+- você tenta criar relações baseadas em confiança?
+- como você incentiva colaboração saudável no time?
+- quando alguém está quieto demais, você tenta entender o motivo?
+- você ajusta sua abordagem quando percebe que alguém está mais sensível?
+- como você mantém empatia mesmo quando você também está sob pressão?
+#en:
+- do you adjust your approach when you notice someone is more sensitive?
+- how do you stay empathetic even when you are also under pressure?
+- do you try to understand when someone becomes unusually quiet?
+- how do you practice empathy in the workplace?
+- what do you do to better understand other people's points of view?
+- how do you react when a teammate is going through a tough moment?
+- are you able to adapt to different people's pace?
+- how does empathy influence the way you work in a team?
+- what do you do to avoid judging a situation or person too quickly?
+- how do you balance empathy with the need to deliver results?
+- how do you usually listen to someone who thinks differently from you?
+- in your view, what is the role of empathy in a healthy team?
+- have you ever received feedback about your empathy or listening?
+- how do you show support when someone is not well?
+- how do you act when a colleague is frustrated?
+- do you ask how someone is before talking about tasks?
+- how do you notice when someone needs help?
+- do you interrupt or let people finish speaking?
+- do you try to understand intention before responding?
+- how do you react when someone is overloaded?
+- do you help teammates who struggle in something?
+- how do you avoid giving harsh responses in tense moments?
+- do you adapt your tone depending on the person?
+- how do you adjust communication when someone is more sensitive?
+- do you pay attention to colleagues’ non verbal signals?
+- when there is a discussion, do you listen to both sides?
+- how do you act with people who have less experience?
+- do you validate what you heard to ensure understanding?
+- do you give space when someone needs to vent?
+- can you separate behavior from intention?
+- do you keep a respectful tone even when disagreeing?
+- how do you show openness to other viewpoints?
+- do you try to understand the pressure someone is under?
+- how do you avoid letting personal judgments interfere?
+- how do you react when someone gets upset?
+- do you avoid impulsive answers in discussions?
+- how do you react when a colleague makes a mistake?
+- do you understand the cause before criticizing?
+- do you try to be available when someone asks for help?
+- how do you adapt collaboration to different personalities?
+- do you notice when someone feels excluded?
+- how do you include quieter people in the conversation?
+- do you give others room to talk before deciding?
+- how do you support people who are shy?
+- how do you act when someone didn’t understand something?
+- do you ask empathetic questions before giving your opinion?
+- when someone is nervous, do you calm them down or rush them?
+- do you offer help without sounding invasive?
+- how do you avoid sounding indifferent to others’ struggles?
+- do you recognize people’s effort whenever possible?
+- how do you show respect for others’ limitations?
+- do you encourage teammates who feel insecure?
+- do you adjust your pace for someone who is learning?
+- how do you react when someone needs more time?
+- do you avoid pressuring colleagues who are at their limit?
+- how do you show patience on difficult days?
+- do you ask open questions to understand better?
+- do you try to connect people when there is conflict?
+- do you try to understand behavior before judging?
+- how do you act when someone shuts down emotionally?
+- do you create a safe space for people to speak?
+- how do you show that you are truly listening?
+- do you repeat key points to confirm understanding?
+- how do you express understanding without losing objectivity?
+- can you admit when you did not understand something?
+- how do you show you are there to collaborate, not compete?
+- do you adjust your posture depending on each teammate?
+- how do you respond when someone overreacts?
+- how do you give feedback without hurting the person?
+- do you soften your tone when the topic is sensitive?
+- do you easily recognize others’ merit?
+- how do you react when someone is emotionally shaken?
+- do you adjust expectations when someone is at their limit?
+- how do you help someone reorganize when they are lost?
+- do you share knowledge without arrogance?
+- how do you avoid shutting down when tired?
+- do you keep empathy even under pressure?
+- how do you avoid creating unnecessary tension?
+- do you try to understand why someone is reacting a certain way?
+- how do you maintain respect in firm discussions?
+- can you apologize when you realize you were too harsh?
+- how do you react when someone works slower than you?
+- do you help people feel valued in the team?
+- how do you show you care about the team’s well being?
+- do you communicate impact without attacking anyone?
+- how do you show goodwill in difficult conversations?
+- do you consider someone’s history before forming an opinion?
+- how do you avoid quick assumptions?
+- do you intervene respectfully when you see injustice?
+- do you act as a bridge between people with different views?
+- how do you help improve the team environment?
+- do you treat everyone with the same level of respect?
+- how do you show empathy toward younger colleagues?
+- do you adjust your time to help someone who needs?
+- how do you welcome ideas different from yours?
+- do you consider the human side before charging results?
+- how do you balance firmness and humanity?
+- can you see beyond someone’s immediate behavior?
+- how do you avoid snap judgments in unclear situations?
+- do you build relationships based on trust?
+- how do you encourage healthy collaboration?
+#rp_1
+#vr_pt: |
+Eu procuro ouvir de verdade antes de responder, tentando entender o contexto e a realidade da outra pessoa. Acredito que empatia não significa concordar com tudo, mas considerar o impacto das decisões nas pessoas e buscar soluções que sejam firmes com o problema e respeitosas com quem está envolvido.
+#vr_en: |
+I try to really listen before I respond, and I do my best to understand the other person's context and reality. I believe empathy does not mean agreeing with everything, but considering the impact of decisions on people and looking for solutions that are firm with the problem and respectful with those involved.
+---
+#intent: softskills/learning_from_mistakes
+#pt:
+- como você lida com os seus próprios erros?
+- o que você costuma fazer depois que percebe que cometeu um erro?
+- você consegue aprender com situações em que algo não saiu como esperado?
+- pode me contar como transforma um erro em aprendizado?
+- você tem o hábito de revisar o que poderia ter sido feito diferente?
+- como você reage quando alguém aponta um erro seu de forma direta?
+- para você, qual é a principal lição que um erro pode trazer?
+- você costuma compartilhar aprendizados de erros com o time?
+- o que você faz para evitar repetir o mesmo erro no futuro?
+- você enxerga erro como fracasso ou como parte do processo?
+- quando algo dá errado, você revisa o caminho ou segue adiante?
+- você costuma registrar os aprendizados depois de um erro?
+- como você evita personalizar um erro e transformar isso em culpa?
+- você conversa com o time quando percebe que errou?
+- como você identifica a causa real de um erro?
+- você já cometeu erro em entrega importante? Como lidou?
+- quando erra, você prefere corrigir sozinho ou pedir ajuda?
+- como você separa erro técnico de erro de comunicação?
+- você aceita críticas quando elas apontam um erro seu?
+- você dá transparência quando algo deu errado no seu lado?
+- você vê erro como parte natural do crescimento?
+- como você controla a ansiedade depois de um erro?
+- você busca feedback sobre como poderia ter feito melhor?
+- como você age quando percebe que errou tarde demais?
+- você se culpa muito quando erra ou encara de forma prática?
+- como você reage quando seu erro afeta o time?
+- quando erra, você tenta entender o impacto antes de agir?
+- você já revisou um processo inteiro por causa de um erro?
+- como você evita agir por impulso ao corrigir um erro?
+- você conversa com a liderança quando identifica que errou?
+- você tenta corrigir rápido ou prefere entender tudo antes?
+- como você reage quando alguém te corrige na frente de outros?
+- você aprende melhor sozinho ou com orientação após um erro?
+- você analisa dados ou baseia-se em intuição ao revisar um erro?
+- quando erra, você procura entender o que te levou àquele caminho?
+- você transforma erros em pequenas melhorias diárias?
+- como você evita repetir os mesmos padrões de erro?
+- você aceita quando precisa pedir desculpas?
+- como você lida com um erro que poderia ter sido evitado?
+- você já ajudou alguém a aprender com um erro parecido?
+- quando algo dá errado, você muda o processo?
+- você revisa passo a passo ou olha só o resultado?
+- como você controla o emocional depois de errar?
+- quando erro envolve outra pessoa, você alinha diretamente?
+- você gosta de revisar o erro sozinho antes de falar com o time?
+- como você reage quando percebe que subestimou um risco?
+- você assume rapidamente quando algo foi responsabilidade sua?
+- como você lida quando o erro gera retrabalho?
+- você prefere documentar aprendizados ou só corrigir?
+- quando alguém aponta um erro seu, você agradece ou rebate?
+- você costuma antecipar correções para evitar novos erros?
+- como você trabalha erros que surgem por falta de informação?
+- você já reviu seu próprio processo por falhas frequentes?
+- você pede ajuda antes que o erro cresça?
+- como você identifica padrões em erros repetidos?
+- quando erra, você revê prioridades?
+- você faz retrospectivas pessoais depois de um erro?
+- como você lida quando o erro impacta um cliente?
+- você evita esconder erros?
+- como você transforma erro em melhoria prática?
+- você revisa documentação quando percebe que errou?
+- você costuma atualizar o time quando corrige algo?
+- como você evita agir defensivamente após um erro?
+- quando fala sobre um erro, você é objetivo ou detalhista?
+- você já criou rotina de checagem por causa de erros anteriores?
+- como você evita repetir falhas de comunicação?
+- você busca entender o contexto antes de julgar seu próprio erro?
+- quando erra, você conversa com alguém para refletir?
+- você revisa soluções alternativas depois do erro?
+- como você lida quando o erro foge do seu controle?
+- você assume o erro mesmo quando ninguém percebeu?
+- como você avalia se o erro foi falta de atenção ou falta de conhecimento?
+- você faz autoavaliação periódica?
+- como você reage quando algo que você testou falha depois?
+- você busca processos mais sólidos após um erro?
+- como você lida com erros pequenos que acumulam impacto?
+- você já implementou melhoria que nasceu de um erro seu?
+- como você mantém calma ao corrigir algo urgente?
+- você pede opinião de terceiros ao revisar um erro complexo?
+- como você diferencia erro honesto de descuido?
+- você consegue reconhecer aprendizado mesmo em erros grandes?
+- como você mantém confiança após um erro?
+- você trabalha com checagens extras depois de um erro crítico?
+- como você reage quando percebe que repetiu um erro antigo?
+- você costuma pedir revisão dupla quando está inseguro?
+- como você organiza o que aprendeu depois do erro?
+- você faz checklist para evitar erros futuros?
+- como você lida com erros causados por pressa?
+- você percebe quando está prestes a errar novamente?
+- como você transforma frustração em aprendizado?
+- você conversa sobre seu erro com o time para evitar que outros repitam?
+- como você age quando um erro revela uma falha no processo?
+- você usa erros como motivação para melhorar?
+- como você lida quando outra pessoa é impactada pelo seu erro?
+- quando erra, você revisa o raciocínio que te levou àquele caminho?
+- como você evita transformar um erro pequeno em algo maior?
+- você consegue perceber sinais de que um erro pode acontecer antes dele surgir?
+- quando alguém te alerta sobre um possível erro, como você reage?
+- você adapta seus métodos depois de aprender com um erro?
+- como você mantém sua confiança depois de uma sequência de erros?
+#en:
+- when you make a mistake, do you review the reasoning that led you there?
+- how do you prevent a small mistake from becoming a bigger issue?
+- are you able to notice early signs that a mistake might happen?
+- how do you react when someone warns you about a potential mistake?
+- do you adjust your methods after learning from a mistake?
+- how do you maintain confidence after a sequence of mistakes?
+- how do you deal with your own mistakes?
+- what do you usually do after you realize you made a mistake?
+- are you able to learn from situations where things did not go as planned?
+- can you tell me how you turn a mistake into learning?
+- do you have the habit of reviewing what could have been done differently?
+- how do you react when someone points out a mistake of yours directly?
+- for you, what is the main lesson that a mistake can bring?
+- do you usually share lessons from mistakes with your team?
+- what do you do to avoid repeating the same mistake in the future?
+- do you see a mistake as a failure or as part of the process?
+- do you review the path or just fix the result?
+- do you document what you learned from mistakes?
+- how do you avoid turning a mistake into self-blame?
+- do you talk to the team when you realize you made a mistake?
+- how do you identify the real root of a mistake?
+- have you made a mistake in an important delivery? How did you handle it?
+- when you make a mistake, do you fix it alone or ask for help?
+- how do you separate technical error from communication error?
+- do you accept criticism that points out a mistake of yours?
+- do you give transparency when something goes wrong on your side?
+- do you see mistakes as natural parts of growth?
+- how do you control anxiety after making a mistake?
+- do you ask for feedback on how you could have done better?
+- what do you do when you realize a mistake too late?
+- do you blame yourself a lot or take a practical approach?
+- how do you react when your mistake affects the team?
+- do you assess the impact of a mistake before acting?
+- have you ever reviewed a whole process because of a mistake?
+- how do you avoid acting impulsively when fixing a mistake?
+- do you align with leadership when you identify a mistake?
+- do you prefer to fix fast or fully understand first?
+- how do you react when someone corrects you in front of others?
+- do you learn better alone or with guidance after a mistake?
+- do you rely on data or intuition when reviewing a mistake?
+- do you analyze what led you to the mistake?
+- do you turn mistakes into small improvements?
+- how do you avoid repeating behavioral patterns?
+- can you apologize easily when necessary?
+- how do you handle a mistake that could have been avoided?
+- have you helped someone learn from a mistake similar to yours?
+- do you adjust processes when something goes wrong?
+- do you recheck steps or only the final output?
+- how do you control your emotions after a mistake?
+- when the mistake involves others, do you align directly?
+- do you prefer reviewing the mistake alone first?
+- how do you react when you underestimated a risk?
+- do you take ownership quickly when something is your responsibility?
+- how do you handle rework caused by your mistake?
+- do you document improvements or just correct the issue?
+- when someone points out your mistake, do you thank them or resist?
+- do you anticipate corrections to avoid new mistakes?
+- how do you handle mistakes caused by lack of information?
+- have you reviewed your workflow because of recurring errors?
+- do you ask for help before the mistake grows?
+- how do you identify patterns in repeated mistakes?
+- do you reprioritize work when a mistake happens?
+- do you run personal retrospectives after big mistakes?
+- how do you react when the mistake reaches a customer?
+- do you avoid hiding mistakes?
+- how do you turn mistakes into practical improvement?
+- do you review documentation when something goes wrong?
+- do you update the team after you fix a mistake?
+- how do you avoid being defensive after a mistake?
+- do you talk about your mistake objectively or in detail?
+- have you created check routines because of past errors?
+- how do you avoid repeating communication mistakes?
+- do you try to understand context before judging your own error?
+- do you talk to someone to reflect after a mistake?
+- do you explore alternative solutions after something failed?
+- how do you deal with mistakes outside your control?
+- do you admit a mistake even if no one noticed?
+- how do you assess if the mistake was lack of attention or lack of knowledge?
+- do you run self-evaluation regularly?
+- how do you react when something you tested later fails?
+- do you build stronger processes after a mistake?
+- how do you handle small mistakes that have large impact?
+- have you implemented improvements born from your mistakes?
+- how do you stay calm when you need to fix something urgent?
+- do you ask for a second opinion on complex mistakes?
+- how do you differentiate honest error from carelessness?
+- can you recognize learning even from big mistakes?
+- how do you maintain confidence after an error?
+- do you use extra checks after a critical mistake?
+- how do you react when you repeat an old mistake?
+- do you ask for double review when you feel insecure?
+- how do you organize what you learned from the mistake?
+- do you use checklists to avoid future mistakes?
+- how do you handle mistakes caused by rush?
+- do you notice when you're about to make the same mistake again?
+- how do you turn frustration into learning?
+- do you talk about your mistake to avoid others repeating it?
+- how do you react when a mistake reveals a process flaw?
+- do you use mistakes as motivation to improve?
+- how do you deal with mistakes that impact someone else?
+#rp_1
+#vr_pt: |
+Quando eu erro, eu procuro assumir, entender a causa, corrigir o mais rápido possível e refletir sobre o que poderia ter sido feito diferente. Eu encaro erro como parte do processo de evolução, desde que exista responsabilidade, transparência e um esforço real para não repetir.
+#vr_en: |
+When I make a mistake, I try to own it, understand the cause, fix it as fast as possible, and reflect on what could have been done differently. I see mistakes as part of the learning process, as long as there is responsibility, transparency, and a real effort not to repeat them.
+---
+#intent: softskills/motivation_drivers
+#pt:
+- o que mais te motiva no trabalho no dia a dia?
+- que tipo de atividade te dá mais energia?
+- você se sente mais motivado por desafios técnicos ou por impacto no negócio?
+- o que faz você se sentir realizado profissionalmente?
+- em momentos difíceis, o que te ajuda a continuar motivado?
+- qual é o tipo de projeto que mais te engaja?
+- como você se mantém motivado em tarefas mais repetitivas?
+- o que você procura em um ambiente de trabalho para se sentir motivado?
+- reconhecimento é algo importante para a sua motivação? Como?
+- na sua visão, qual é o equilíbrio ideal entre desafio e segurança?
+- o que te faz levantar animado para trabalhar?
+- quando você está desmotivado, o que te ajuda a retomar o ritmo?
+- resultados rápidos te motivam mais do que projetos longos?
+- você se sente mais motivado quando tem autonomia?
+- o que te dá sensação de progresso?
+- metas claras aumentam sua motivação?
+- aprender algo novo te motiva?
+- como você reage quando um projeto tem propósito forte?
+- trabalhar com boas pessoas te motiva?
+- colaboração te dá energia?
+- você gosta de desafios difíceis ou progressos constantes?
+- o que te faz sentir que valeu a pena o esforço?
+- impacto direto no cliente te motiva?
+- evolução profissional te motiva mais do que estabilidade?
+- você se sente motivado quando vê reconhecimento do time?
+- participar de decisões aumenta sua motivação?
+- desafios inesperados te motivam ou travam?
+- ter clareza de expectativas te deixa mais motivado?
+- resolver problemas complexos te motiva?
+- qual tipo de entrega te deixa mais satisfeito?
+- o que mais mantém sua energia ao longo da semana?
+- você se motiva com aprendizado contínuo?
+- ambientes calmos ou dinâmicos te motivam mais?
+- receber feedback positivo te motiva?
+- assumir responsabilidade te motiva?
+- inovação te motiva?
+- metas bem definidas aumentam seu foco?
+- trabalhar com propósito te motiva?
+- você se sente mais motivado quando pode ajudar alguém?
+- progresso visível te motiva?
+- como você se motiva em fases difíceis?
+- projetos longos ou curtos te motivam mais?
+- desafios técnicos te energizam?
+- te motiva mais autonomia ou orientação clara?
+- quando você acerta algo difícil, isso te motiva?
+- crescimento constante te motiva?
+- aprender algo que resolve um problema real te motiva?
+- quando o time está motivado, isso te inspira também?
+- você precisa entender o "porquê" para se motivar?
+- como você mantém motivação após um erro?
+- o que te motiva mais: criar, resolver ou melhorar?
+- reconhecimento público te motiva?
+- bater metas te motiva?
+- contribuir para o sucesso do time te motiva?
+- você se sente motivado quando suas ideias são ouvidas?
+- estabilidade te motiva ou te acomoda?
+- se sentir útil te motiva?
+- participar de algo maior te motiva?
+- assumir novos desafios te motiva?
+- evoluir tecnicamente te motiva?
+- impacto real te motiva?
+- ver resultados claros te motiva?
+- autonomia aumenta sua motivação?
+- confiança da liderança te motiva?
+- expectativa alta te impulsiona ou te trava?
+- crescimento da carreira te motiva?
+- boas relações no time te motivam?
+- aprender algo sozinho te motiva?
+- resolver algo que ninguém conseguiu te motiva?
+- objetivos alcançáveis te motivam?
+- impacto no cliente te motiva?
+- responsabilidades maiores te motivam?
+- trabalhar em algo significativo te motiva?
+- ritmo acelerado te motiva?
+- novas tecnologias te motivam?
+- ajudar o time te motiva?
+- saber que seu trabalho evita problemas te motiva?
+- desafios constantes te motivam?
+- ver evolução todo dia te motiva?
+- mentorias te motivam?
+- trabalhar em equipe te motiva?
+- inovação te motiva mais que rotina?
+- entregar resultado consistente te motiva?
+- ensinar algo a alguém te motiva?
+- resolver problemas urgentes te motiva?
+- participar da estratégia te motiva?
+- sentir que está crescendo te motiva?
+- feedback honesto te motiva?
+- metas alcançáveis te animam?
+- autonomia criativa te motiva?
+- encontrar soluções simples te motiva?
+- trabalhar em projetos complexos te motiva?
+- oportunidades novas te motivam?
+- fazer diferença no produto te motiva?
+- trabalhar com líderes inspiradores te motiva?
+- você se motiva quando vê que está evoluindo constantemente?
+- desafios que fogem da rotina aumentam sua motivação?
+- quando você recebe autonomia total, isso te motiva mais?
+- você se sente motivado quando consegue destravar algo difícil?
+- saber que seu trabalho é útil para o time te motiva?
+- quando você aprende algo novo que resolve um problema real, isso te motiva?
+#en:
+- does seeing your own constant progress motivate you?
+- do out of routine challenges increase your motivation?
+- does having full autonomy make you more motivated?
+- do you feel motivated when you manage to unlock something difficult?
+- does knowing your work helps the team increase your motivation?
+- does learning something new that fixes a real issue motivate you?
+- do you stay motivated when you see long term progress?
+- do purpose driven challenges motivate you even more?
+- what motivates you the most in your day to day work?
+- what kind of activity gives you the most energy?
+- do you feel more motivated by technical challenges or by business impact?
+- what makes you feel professionally fulfilled?
+- in difficult moments, what helps you stay motivated?
+- what type of project engages you the most?
+- how do you keep yourself motivated during more repetitive tasks?
+- what do you look for in a work environment to feel motivated?
+- is recognition important for your motivation, and in what way?
+- in your view, what is the ideal balance between challenge and stability?
+- what makes you excited to start your workday?
+- when you feel low energy, what helps you recover motivation?
+- do quick wins motivate you more than long projects?
+- does autonomy make you more motivated?
+- what gives you a sense of progress?
+- do clear goals boost your motivation?
+- does learning something new motivate you?
+- how do you react to purpose-driven projects?
+- does working with good people motivate you?
+- does collaboration give you energy?
+- do you feel more motivated by difficult challenges or steady progress?
+- what makes you feel your effort was worth it?
+- does direct customer impact motivate you?
+- do you feel more motivated by growth or stability?
+- does team recognition increase your motivation?
+- does participating in decisions motivate you?
+- do unexpected challenges motivate you or slow you down?
+- does clarity of expectations increase your motivation?
+- do complex problems motivate you?
+- what type of delivery makes you feel satisfied?
+- what keeps your energy throughout the week?
+- does continuous learning motivate you?
+- do calm or dynamic environments motivate you more?
+- does positive feedback motivate you?
+- does taking ownership motivate you?
+- does innovation motivate you?
+- do well-defined goals boost your focus?
+- does working with purpose motivate you?
+- does helping someone motivate you?
+- does visible progress motivate you?
+- how do you keep motivation during tough phases?
+- do long or short projects motivate you more?
+- do technical challenges energize you?
+- do you prefer autonomy or clear guidance to feel motivated?
+- does succeeding at something hard motivate you?
+- does constant improvement motivate you?
+- does learning something useful motivate you?
+- does a motivated team inspire you too?
+- do you need to understand the “why” to feel motivated?
+- how do you regain motivation after a mistake?
+- what motivates you more: creating, solving, or improving?
+- does public recognition motivate you?
+- do goals motivate you?
+- does contributing to team success motivate you?
+- does being heard increase your motivation?
+- does stability motivate you or make you comfortable?
+- does feeling useful motivate you?
+- does being part of something bigger motivate you?
+- do new challenges motivate you?
+- does technical evolution motivate you?
+- does real impact motivate you?
+- do clear results motivate you?
+- does autonomy increase your motivation?
+- does leadership trust motivate you?
+- do high expectations push you or block you?
+- does career growth motivate you?
+- do good relationships with teammates motivate you?
+- does self-learning motivate you?
+- does solving something no one could solve motivate you?
+- do achievable goals motivate you?
+- does customer impact increase your drive?
+- do bigger responsibilities motivate you?
+- does meaningful work motivate you?
+- does a fast pace motivate you?
+- do new technologies motivate you?
+- does helping the team motivate you?
+- does knowing your work prevents problems motivate you?
+- do constant challenges motivate you?
+- does daily improvement motivate you?
+- does mentoring motivate you?
+- does teamwork motivate you?
+- does innovation motivate you more than routine?
+- does delivering consistent results motivate you?
+- does teaching someone motivate you?
+- does solving urgent issues motivate you?
+- does being part of strategy discussions motivate you?
+- does feeling that you’re growing motivate you?
+- does honest feedback motivate you?
+- do reachable goals energize you?
+- does creative autonomy motivate you?
+- does finding simple solutions motivate you?
+- do complex projects motivate you?
+- do new opportunities motivate you?
+- does making a difference in the product motivate you?
+- do inspiring leaders motivate you?
+#rp_1
+#vr_pt: |
+Eu me sinto muito motivado quando vejo que o meu trabalho gera impacto real, seja para o time, para o cliente ou para o produto. Gosto de desafios que me façam aprender algo novo e, ao mesmo tempo, de ambientes onde exista transparência, respeito e possibilidade de crescimento contínuo.
+#vr_en: |
+I feel very motivated when I see that my work creates real impact, whether for the team, for the client, or for the product. I like challenges that make me learn something new and, at the same time, environments where there is transparency, respect, and room for continuous growth.
+---

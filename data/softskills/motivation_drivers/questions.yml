@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: motivation_drivers
+    examples: |
+      - o que mais te motiva no trabalho no dia a dia?
+      - que tipo de atividade te dá mais energia?
+      - você se sente mais motivado por desafios técnicos ou por impacto no negócio?
+      - o que faz você se sentir realizado profissionalmente?
+      - em momentos difíceis, o que te ajuda a continuar motivado?
+      - qual é o tipo de projeto que mais te engaja?
+      - como você se mantém motivado em tarefas mais repetitivas?
+      - o que você procura em um ambiente de trabalho para se sentir motivado?
+      - reconhecimento é algo importante para a sua motivação? Como?
+      - na sua visão, qual é o equilíbrio ideal entre desafio e segurança?
+      - o que te faz levantar animado para trabalhar?
+      - quando você está desmotivado, o que te ajuda a retomar o ritmo?
+      - resultados rápidos te motivam mais do que projetos longos?
+      - você se sente mais motivado quando tem autonomia?
+      - metas claras aumentam sua motivação?
+      - aprender algo novo te motiva?
+      - como você reage quando um projeto tem propósito forte?
+      - trabalhar com boas pessoas te motiva?
+      - colaboração te dá energia?
+      - você gosta de desafios difíceis ou progressos constantes?
+      - o que te faz sentir que valeu a pena o esforço?
+      - impacto direto no cliente te motiva?
+      - evolução profissional te motiva mais do que estabilidade?
+      - você se sente motivado quando vê reconhecimento do time?
+      - participar de decisões aumenta sua motivação?
+      - desafios inesperados te motivam ou travam?
+      - ter clareza de expectativas te deixa mais motivado?
+      - resolver problemas complexos te motiva?
+      - qual tipo de entrega te deixa mais satisfeito?
+      - o que mais mantém sua energia ao longo da semana?
+      - você se motiva com aprendizado contínuo?
+      - ambientes calmos ou dinâmicos te motivam mais?
+      - receber feedback positivo te motiva?
+      - assumir responsabilidade te motiva?
+      - inovação te motiva?
+      - metas bem definidas aumentam seu foco?
+      - trabalhar com propósito te motiva?
+      - você se sente mais motivado quando pode ajudar alguém?
+      - progresso visível te motiva?
+      - como você se motiva em fases difíceis?
+      - projetos longos ou curtos te motivam mais?
+      - desafios técnicos te energizam?
+      - te motiva mais autonomia ou orientação clara?
+      - quando você acerta algo difícil, isso te motiva?
+      - crescimento constante te motiva?
+      - aprender algo que resolve um problema real te motiva?
+      - quando o time está motivado, isso te inspira também?
+      - você precisa entender o "porquê" para se motivar?
+      - como você mantém motivação após um erro?
+      - o que te motiva mais: criar, resolver ou melhorar?
+      - reconhecimento público te motiva?
+      - bater metas te motiva?
+      - contribuir para o sucesso do time te motiva?
+      - você se sente motivado quando suas ideias são ouvidas?
+      - estabilidade te motiva ou te acomoda?
+      - se sentir útil te motiva?
+      - participar de algo maior te motiva?
+      - assumir novos desafios te motiva?
+      - evoluir tecnicamente te motiva?
+      - impacto real te motiva?
+      - ver resultados claros te motiva?
+      - autonomia aumenta sua motivação?
+      - confiança da liderança te motiva?
+      - expectativa alta te impulsiona ou te trava?
+      - crescimento da carreira te motiva?
+      - boas relações no time te motivam?
+      - aprender algo sozinho te motiva?
+      - resolver algo que ninguém conseguiu te motiva?
+      - objetivos alcançáveis te motivam?
+      - impacto no cliente te motiva?
+      - responsabilidades maiores te motivam?
+      - trabalhar em algo significativo te motiva?
+      - ritmo acelerado te motiva?
+      - novas tecnologias te motivam?
+      - ajudar o time te motiva?
+      - saber que seu trabalho evita problemas te motiva?
+      - desafios constantes te motivam?
+      - ver evolução todo dia te motiva?
+      - mentorias te motivam?
+      - trabalhar em equipe te motiva?
+      - inovação te motiva mais que rotina?
+      - entregar resultado consistente te motiva?
+      - ensinar algo a alguém te motiva?
+      - resolver problemas urgentes te motiva?
+      - participar da estratégia te motiva?
+      - sentir que está crescendo te motiva?
+      - feedback honesto te motiva?
+      - metas alcançáveis te animam?
+      - autonomia criativa te motiva?
+      - encontrar soluções simples te motiva?
+      - trabalhar em projetos complexos te motiva?
+      - oportunidades novas te motivam?
+      - fazer diferença no produto te motiva?
+      - trabalhar com líderes inspiradores te motiva?
+      - você se motiva quando vê que está evoluindo constantemente?
+      - desafios que fogem da rotina aumentam sua motivação?
+      - quando você recebe autonomia total, isso te motiva mais?
+      - você se sente motivado quando consegue destravar algo difícil?
+      - saber que seu trabalho é útil para o time te motiva?
+      - quando você aprende algo novo que resolve um problema real, isso te motiva?
+      - does seeing your own constant progress motivate you?
+      - do out of routine challenges increase your motivation?
+      - does having full autonomy make you more motivated?
+      - do you feel motivated when you manage to unlock something difficult?
+      - does knowing your work helps the team increase your motivation?
+      - does learning something new that fixes a real issue motivate you?
+      - do you stay motivated when you see long term progress?
+      - do purpose driven challenges motivate you even more?
+      - what motivates you the most in your day to day work?
+      - what kind of activity gives you the most energy?
+      - do you feel more motivated by technical challenges or by business impact?
+      - what makes you feel professionally fulfilled?
+      - in difficult moments, what helps you stay motivated?
+      - what type of project engages you the most?
+      - how do you keep yourself motivated during more repetitive tasks?
+      - what do you look for in a work environment to feel motivated?
+      - is recognition important for your motivation, and in what way?
+      - in your view, what is the ideal balance between challenge and stability?
+      - what makes you excited to start your workday?
+      - when you feel low energy, what helps you recover motivation?
+      - do quick wins motivate you more than long projects?
+      - does autonomy make you more motivated?
+      - do clear goals boost your motivation?
+      - does learning something new motivate you?
+      - how do you react to purpose-driven projects?
+      - does working with good people motivate you?
+      - does collaboration give you energy?
+      - do you feel more motivated by difficult challenges or steady progress?
+      - what makes you feel your effort was worth it?
+      - does direct customer impact motivate you?
+      - do you feel more motivated by growth or stability?
+      - does team recognition increase your motivation?
+      - does participating in decisions motivate you?
+      - do unexpected challenges motivate you or slow you down?
+      - does clarity of expectations increase your motivation?
+      - do complex problems motivate you?
+      - what type of delivery makes you feel satisfied?
+      - what keeps your energy throughout the week?
+      - does continuous learning motivate you?
+      - do calm or dynamic environments motivate you more?
+      - does positive feedback motivate you?
+      - does taking ownership motivate you?
+      - does innovation motivate you?
+      - do well-defined goals boost your focus?
+      - does working with purpose motivate you?
+      - does helping someone motivate you?
+      - does visible progress motivate you?
+      - how do you keep motivation during tough phases?
+      - do long or short projects motivate you more?
+      - do technical challenges energize you?
+      - do you prefer autonomy or clear guidance to feel motivated?
+      - does succeeding at something hard motivate you?
+      - does constant improvement motivate you?
+      - does learning something useful motivate you?
+      - does a motivated team inspire you too?
+      - do you need to understand the “why” to feel motivated?
+      - how do you regain motivation after a mistake?
+      - what motivates you more: creating, solving, or improving?
+      - does public recognition motivate you?
+      - do goals motivate you?
+      - does contributing to team success motivate you?
+      - does being heard increase your motivation?
+      - does stability motivate you or make you comfortable?
+      - does feeling useful motivate you?
+      - does being part of something bigger motivate you?
+      - do new challenges motivate you?
+      - does technical evolution motivate you?
+      - does real impact motivate you?
+      - do clear results motivate you?
+      - does autonomy increase your motivation?
+      - does leadership trust motivate you?
+      - do high expectations push you or block you?
+      - does career growth motivate you?
+      - do good relationships with teammates motivate you?
+      - does self-learning motivate you?
+      - does solving something no one could solve motivate you?
+      - do achievable goals motivate you?
+      - does customer impact increase your drive?
+      - do bigger responsibilities motivate you?
+      - does meaningful work motivate you?
+      - does a fast pace motivate you?
+      - do new technologies motivate you?
+      - does helping the team motivate you?
+      - does knowing your work prevents problems motivate you?
+      - do constant challenges motivate you?
+      - does mentoring motivate you?
+      - does innovation motivate you more than routine?
+      - does delivering consistent results motivate you?
+      - does teaching someone motivate you?
+      - does solving urgent issues motivate you?
+      - does being part of strategy discussions motivate you?
+      - does feeling that you’re growing motivate you?
+      - does honest feedback motivate you?
+      - do reachable goals energize you?
+      - does creative autonomy motivate you?
+      - does finding simple solutions motivate you?
+      - do complex projects motivate you?
+      - do new opportunities motivate you?
+      - does making a difference in the product motivate you?
+      - do inspiring leaders motivate you?

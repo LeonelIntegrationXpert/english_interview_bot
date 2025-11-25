@@ -1,0 +1,204 @@
+version: '3.1'
+nlu:
+  - intent: self_learning
+    examples: |
+      - como você se mantém atualizado na sua área?
+      - qual é a sua abordagem para aprender coisas novas por conta própria?
+      - você pode me contar como organiza seus estudos fora do horário de trabalho?
+      - que tipo de material você costuma usar para se desenvolver profissionalmente?
+      - você tem o hábito de estudar ou praticar algo regularmente?
+      - como você escolhe o que vale a pena estudar em determinado momento?
+      - você prefere cursos estruturados, documentação, vídeos ou prática direta?
+      - o que te motiva a continuar aprendendo ao longo da carreira?
+      - como você aplica, na prática, aquilo que você estuda?
+      - pode me dar uma visão de como é o seu processo de autoaprendizado?
+      - você costuma estudar todos os dias ou em blocos semanais?
+      - como você organiza suas prioridades de estudo?
+      - quando precisa aprender algo urgente, como você faz?
+      - como você lida quando o conteúdo é difícil?
+      - como você mantém consistência nos estudos?
+      - você revisa conteúdos antigos ou só aprende o novo?
+      - como você escolhe suas fontes de estudo?
+      - você usa trilhas de estudo prontas ou monta as suas?
+      - como você estuda quando está cansado?
+      - o que te faz continuar estudando mesmo sem motivação?
+      - você usa metas de curto prazo para organizar o estudo?
+      - como você controla sua evolução ao longo do tempo?
+      - você compara várias fontes ou segue uma só?
+      - como você evita esquecer o que aprendeu?
+      - você estuda mais por necessidade ou por curiosidade?
+      - como você decide que dominou um assunto?
+      - o que você faz quando não entende um conteúdo?
+      - como você transforma leitura em prática real?
+      - você tem métodos para reter conhecimento?
+      - como você ajusta sua rotina quando o estudo aumenta?
+      - você estuda mais sozinho ou em grupo?
+      - como você reage quando precisa aprender algo totalmente novo?
+      - você mistura teoria com prática no mesmo dia?
+      - como você organiza seu ambiente de estudo?
+      - você registra o que aprende?
+      - como você revisa seus estudos ao longo do mês?
+      - você usa listas, quadros ou anotações?
+      - como você mantém disciplina nos estudos longos?
+      - você tem um ritual antes de estudar?
+      - como você evita distrações enquanto estuda?
+      - você aprende melhor lendo, ouvindo ou fazendo?
+      - como você lida com conteúdos avançados?
+      - você costuma testar o que aprendeu no mesmo dia?
+      - como você avalia se vale a pena fazer um curso ou não?
+      - você separa seus estudos por tema?
+      - como você distribui estudo entre teoria e prática?
+      - você combina estudo técnico com soft skills?
+      - como você aprende novas ferramentas rapidamente?
+      - você usa resumos ou mapas mentais?
+      - como você escolhe qual assunto estudar primeiro?
+      - você volta a estudar assuntos antigos quando precisa?
+      - como você cria constância mesmo com rotina cheia?
+      - você sabe quando precisa parar e descansar?
+      - como você incorpora aprendizado no seu trabalho?
+      - você estuda mais de manhã ou de noite?
+      - como você define objetivos de estudo realistas?
+      - você mede impacto do que aprendeu?
+      - como você retoma estudos depois de uma pausa longa?
+      - você usa exemplos reais para aprender mais rápido?
+      - como você evita ficar consumindo conteúdo sem praticar?
+      - você cria projetos pessoais para aplicar estudo?
+      - como você evita se sobrecarregar com muitos temas?
+      - você prioriza profundidade ou variedade?
+      - como você mantém foco quando o conteúdo é extenso?
+      - você busca mentores ou referências?
+      - como você faz quando precisa aprender sob pressão?
+      - você revisa suas dificuldades de tempos em tempos?
+      - como você identifica lacunas no seu conhecimento?
+      - você aprende com erros e retrabalhos?
+      - como você transforma teoria em experiência?
+      - você consulta documentação oficial regularmente?
+      - como você valida se aprendeu da forma correta?
+      - você aprende melhor lendo código ou escrevendo código?
+      - como você lida com excesso de informação?
+      - você sabe quando mudar de estratégia de estudo?
+      - como você balanceia estudo e descanso?
+      - você adapta seu método conforme o tema?
+      - como você aprende com exemplos práticos?
+      - você cria desafios pessoais para estudar?
+      - como você integra estudo ao seu dia a dia?
+      - você escolhe temas por demanda do mercado?
+      - como você estuda para certificações?
+      - você usa simulados como parte do estudo?
+      - como você revisa erros em simulados ou testes?
+      - você procura entender o “porquê” do conteúdo?
+      - como você lida com temas que não gosta muito?
+      - você estuda com vídeos longos ou curtos?
+      - como você aprende com tutoriais práticos?
+      - você busca aprender continuamente ou por ciclos?
+      - como você mantém o hábito de estudar sem parar?
+      - você usa técnicas de memorização?
+      - como você transforma conhecimento em habilidade?
+      - você registra o que funcionou e o que não funcionou?
+      - como você compartilha aprendizado com outras pessoas?
+      - você usa seu dia a dia no trabalho como laboratório de estudo?
+      - como você garante que realmente fixou o conteúdo estudado?
+      - você revisa seu aprendizado depois de algumas semanas?
+      - quando aprende algo novo, você testa logo em seguida?
+      - como você identifica que precisa aprofundar um assunto?
+      - você usa alguma rotina para manter o estudo ativo?
+      - how do you make sure you truly absorbed what you studied?
+      - do you review what you learned after a few weeks?
+      - when you learn something new, do you test it right away?
+      - how do you identify when you need to go deeper into a topic?
+      - do you follow any routine to keep your learning active?
+      - how do you stay up to date in your field?
+      - what is your approach to learning new things on your own?
+      - could you tell me how you organize your studies outside working hours?
+      - what kind of material do you usually use for your professional development?
+      - do you have the habit of studying or practicing something regularly?
+      - how do you choose what is worth studying at a given moment?
+      - do you prefer structured courses, documentation, videos, or hands on practice?
+      - what motivates you to keep learning throughout your career?
+      - how do you apply in practice what you study?
+      - could you give me an overview of your self learning process?
+      - do you study every day or in weekly blocks?
+      - how do you organize your study priorities?
+      - what do you do when you need to learn something urgently?
+      - how do you deal with difficult content?
+      - how do you maintain consistency in your studies?
+      - do you review old content or focus only on new topics?
+      - how do you choose your learning sources?
+      - do you follow predefined learning paths or create your own?
+      - how do you study when you feel tired?
+      - what keeps you learning even without motivation?
+      - do you use short term goals for your study routine?
+      - how do you track your progress over time?
+      - do you compare multiple sources or follow just one?
+      - how do you avoid forgetting what you learned?
+      - do you study more out of necessity or curiosity?
+      - how do you decide when you have mastered a topic?
+      - what do you do when you do not understand something?
+      - how do you turn reading into real practice?
+      - do you have methods to retain knowledge?
+      - how do you adjust your routine when study increases?
+      - do you study more alone or with others?
+      - how do you react when you need to learn something completely new?
+      - do you mix theory and practice in the same day?
+      - how do you organize your study environment?
+      - do you record what you learn?
+      - how do you review your studies throughout the month?
+      - do you use lists, boards, or notes?
+      - how do you maintain discipline during long study periods?
+      - do you have a routine before studying?
+      - how do you avoid distractions while studying?
+      - do you learn better by reading, listening, or doing?
+      - how do you deal with advanced content?
+      - do you test what you learn on the same day?
+      - how do you evaluate whether a course is worth it?
+      - do you separate your studies by theme?
+      - how do you distribute theory and practice?
+      - do you combine technical study with soft skills?
+      - how do you learn new tools quickly?
+      - do you use summaries or mind maps?
+      - how do you choose which topic to study first?
+      - do you revisit old subjects when needed?
+      - how do you stay consistent with a busy routine?
+      - do you know when you need to stop and rest?
+      - how do you incorporate learning into your work?
+      - do you study more in the morning or at night?
+      - how do you define realistic study goals?
+      - do you measure the impact of what you learn?
+      - how do you resume study after a long break?
+      - do you use real examples to learn faster?
+      - how do you avoid consuming content without practicing?
+      - do you build personal projects to apply learning?
+      - how do you avoid overload when studying many topics?
+      - do you prioritize depth or variety?
+      - how do you stay focused when the content is long?
+      - do you look for mentors or references?
+      - how do you learn under pressure?
+      - do you review your difficulties from time to time?
+      - how do you identify knowledge gaps?
+      - do you learn from mistakes and rework?
+      - how do you turn theory into experience?
+      - do you check official documentation regularly?
+      - how do you validate that you learned correctly?
+      - do you learn better by reading code or writing code?
+      - how do you handle information overload?
+      - do you know when to change your study strategy?
+      - how do you balance study and rest?
+      - do you adapt your method depending on the topic?
+      - do you learn from practical examples?
+      - do you create personal study challenges?
+      - how do you integrate learning into your daily life?
+      - do you choose topics based on market demand?
+      - how do you study for certifications?
+      - do you use practice exams as part of learning?
+      - how do you review mistakes in practice tests?
+      - do you try to understand the “why” behind topics?
+      - how do you handle topics you do not enjoy?
+      - do you learn better with long videos or short ones?
+      - how do you learn from hands on tutorials?
+      - do you learn continuously or in cycles?
+      - how do you keep the habit of studying without stopping?
+      - do you use memorization techniques?
+      - how do you turn knowledge into skill?
+      - do you record what works and what doesn’t?
+      - how do you share what you learn with others?
+      - do you use your daily work as a learning lab?
