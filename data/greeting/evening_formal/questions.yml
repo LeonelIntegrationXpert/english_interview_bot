@@ -2,6 +2,8 @@ version: '3.1'
 nlu:
   - intent: evening_formal
     examples: |
+      - boa noite
+      - boa noite, tudo bem?
       - boa noite, como vai?
       - boa noite, como você está?
       - boa noite, tudo certo por aí?
@@ -102,6 +104,8 @@ nlu:
       - boa noite, espero que nossa entrevista seja bem produtiva
       - boa noiti, espero que noss entrevista seja bem produtiv
       - boa noit, esper que noss entrevista seja bem produtiva
+      - good evening
+      - good evening, how are you?
       - good evening, how are you doing today?
       - good evening, thanks for your time
       - good evening, thanks for meeting with me

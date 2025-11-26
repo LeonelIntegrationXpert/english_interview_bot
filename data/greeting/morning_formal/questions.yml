@@ -2,6 +2,8 @@ version: '3.1'
 nlu:
   - intent: morning_formal
     examples: |
+      - bom dia
+      - bom dia, tudo bem?
       - bom dia, como vai?
       - bom dia, como você está?
       - bom dia, tudo certo por aí?
@@ -102,6 +104,8 @@ nlu:
       - bom dia, desculpa qualquer atraso
       - bom dia, obrigado por esperar
       - bom dia, obrigado por aguardar
+      - good morning
+      - good morning, how are you?
       - good morning, how are you doing today?
       - good morning, thanks for your time
       - good morning, thanks for meeting with me

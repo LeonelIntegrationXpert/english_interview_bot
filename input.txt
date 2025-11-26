@@ -1,206 +1,224 @@
 #intent: greeting/hello
 #pt:
 - oi
-- olá
-- ola
-- oie
 - oii
 - oiii
-- oi tudo bom
-- oi tudo bem
-- oi, tudo bem?
-- oi, tudo certo?
-- oi, como vai?
-- oi, como você tá?
-- oi, como ce tá?
-- oi, como cê tá?
-- oi, como que você tá?
-- oi, beleza?
-- oi, tudo beleza?
-- oi, tranquilo?
-- oi, tudo tranquilo?
-- oi, bom dia
-- oi, boa tarde
-- oi, boa noite
-- olá, tudo bem?
-- olá, como vai você?
-- olá, tudo certo por aí?
-- olá, tudo bom com você?
-- olá, como cê tá hoje?
-- olá, beleza por aí?
-- olá, como você está se sentindo hoje?
-- eae
-- eai
-- iae
-- e aê, tudo bem?
-- e aí, tranquilo?
-- e aí, como você tá?
-- e aí, como você está hoje?
-- e ae, tudo certo?
-- e aew, beleza?
-- fala
-- fala aí
-- fala, tudo bem?
-- fala, como você tá?
-- fala comigo
-- fala, beleza?
-- fala, como vão as coisas?
-- fala, como cê tá hoje?
-- fala, tudo certo por aí?
-- salve
-- salve, tudo bem?
-- salve, como você tá?
-- salve, tranquilo?
+- oi oi
+- oi oii
+- oi oiii
+- oii oi
+- oiii oi
+- oii oiii
+- oiii oii
+- oi?
+- oi!
+- oi??
+- oi!!!
+- oi oi?
+- oi oi!
+- oi?? oi
+- oi!! oi
+- oii!
+- oiii?
+- olá
+- ola
+- olaa
+- oolá
+- olá olá
+- olá ola
+- ola olá
+- ola ola
+- olá!
+- olá?
+- olá!!
+- olá??
+- olá olaa
+- olaa olá
+- ola!
+- ola?
+- ola!!
+- ola??
 - opa
-- opa, tudo bem?
-- opa, tudo certo?
-- opa, como você tá?
-- opa, beleza?
-- opa, tudo tranquilo com você?
-- alô
-- alo
-- alô, tá me ouvindo?
-- alô, tudo certo aí?
-- alô, como você tá?
-- bom dia
-- bom dia, tudo bem?
-- bom dia, como você tá?
-- bom dia, tudo certinho?
-- boa tarde
-- boa tarde, tudo bem?
-- boa tarde, como você está?
-- boa noite
-- boa noite, tudo bem?
-- boa noite, como você tá hoje?
-- oi, bom dia tudo bem?
-- oi, boa tarde tudo bem?
-- oi, boa noite tudo bem?
-- oii, tudo serto?
-- oi, tudo bem com voce?
-- oi tudo ben com você?
-- oi, tudo bém?
-- oi, tudo bom com vc?
-- oi, voce tá bem?
-- oi, vc tá bem?
-- oi, como voce ta hoje?
-- oi, como vc ta hoje?
-- ola, tudo bem com voce?
-- ola, tudo bem com vc?
-- olá, tudo bom com vc?
-- eai, tudo bem com vc?
-- eae, como vc ta?
-- eai, como voce tá hoje?
-- fala, tudo bem com vc?
-- fala ae, tudo certo?
-- opa, tudo bem com vc hoje?
-- bom dia, tudo bem com vc?
-- boa tarde, tudo bem com vc?
-- boa noite, tudo bem com vc?
-- oi, como vai seu dia?
-- oi, seu dia como vai?
-- oi, como tá sendo seu dia?
-- oi, tudo certo pra gente começar?
+- opaa
+- oopa
+- opa opa
+- opa opaa
+- opaa opa
+- opa?
+- opa!
+- opa??
+- opa!!
+- opaa?
+- opaa!
+- e aí
+- eaí
+- e ai
+- e aí?
+- e aí!
+- e ai?
+- e ai!
+- e aí e aí
+- e ai e ai
+- e aí??
+- e ai!!
+- eae
+- eaee
+- eae eae
+- eae?
+- eae!
+- eae??
+- eae!!
+- eae eaee
+- eaee eae
+- fala
+- falaa
+- ffala
+- fala fala
+- falaa fala
+- fala falaa
+- fala?
+- fala!
+- fala??
+- fala!!
+- salve
+- ssalve
+- salvee
+- salve salve
+- salve?
+- salve!
+- salve!!
+- salve??
+- salvee salve
+- salve salvee
+- olá oi
+- oi olá
+- opa oi
+- oi opa
+- eae oi
+- oi eae
+- fala oi
+- oi fala
+- salve oi
+- oi salve
 #en:
 - hi
+- hii
+- hiii
+- hi hi
+- hi hii
+- hi hiii
+- hii hi
+- hiii hi
+- hii hiii
+- hiii hii
+- hi?
+- hi!
+- hi??
+- hi!!!
+- hi hi?
+- hi hi!
+- hi?? hi
+- hi!! hi
+- hii!
+- hiii?
 - hey
+- heyy
+- hey hey
+- hey heyy
+- heyy hey
+- hey?
+- hey!
+- hey??
+- hey!!!
+- hey hey?
+- hey hi
+- hi hey
+- hey hi hi
+- hi hey hey
 - hello
-- hi there
-- hey there
-- hello there
-- hiya
-- yo
-- sup
-- what's up
-- whats up
-- what's up?
-- howdy
-- hi, how are you?
-- hi how are you?
-- hi, how you doing?
-- hi, how you doin?
-- hi, how you doing today?
-- hi, how are you doing today?
-- hi, how are u today?
-- hi, how r you today?
-- hi, how u doing?
-- hi, how is it going?
-- hi, hows it going?
-- hi, how's it going today?
-- hey, how are you?
-- hey, how you doing?
-- hey, hows you?
-- hey, how r you?
-- hey, how u doing today?
-- hey, how is your day going?
-- hey, how's your day going?
-- hello, how are you?
-- hello, how are u?
-- hello, how you doing?
-- hello, how is it going today?
-- hello, how's everything?
-- good morning
-- good morning, how are you?
-- good morning, how are you doing?
-- good morning, how you doing today?
-- good afternoon
-- good afternoon, how are you?
-- good afternoon, how you doing?
-- good evening
-- good evening, how are you?
-- good evening, how you doing today?
-- hi, good morning
-- hi, good afternoon
-- hi, good evening
-- hi there, how are you today?
-- hi there, how you doing?
-- hi there, how is your day?
-- hey there, how are you doing?
-- hey there, how u doing?
-- hey there, how is your day going?
-- yo, how you doing?
-- yo, how u doing today?
-- yo, what's up?
-- yo, whats up today?
-- sup, how you doing?
-- sup, how u doing?
-- sup, you good?
-- hey, you good?
-- hey, you ok?
-- hey, everything good?
-- hi, everything good with you?
-- hi, everything alright?
-- hi, all good?
-- hello, all good?
-- hello, you doing ok?
-- hello, you okay today?
-- hi, can you hear me?
-- hi, can u hear me?
-- hello, can you hear me?
-- hello, can u hear me?
-- hi, ready to start?
-- hi, are you ready to start?
-- hi, ready for the interview?
-- hi, are you ready for the interview?
-- hey, ready to start?
-- hey, ready for our chat?
-- hey, ready for the interview today?
-- good morning, ready to start?
-- good afternoon, ready to start?
-- good evening, ready to start?
-- hi, thanks for joining today
-- hi, thanks for joining
-- hi, thanks for be here
-- hi, thanks for being here today
-- hi, thank you for joining the call
-- hello, thank you for joining
-- hello, thanks for being here
-- hey, thanks for joining us today
-- hey, thanks to be here
-- hi, nice to meet you
-- hello, nice to meet you
-- hey, nice to meet you today
-- hi, glad to meet you
-- hi, happy to talk with you today
+- helloo
+- hellooo
+- hello hello
+- hello helloo
+- helloo hello
+- hello?
+- hello!
+- hello??
+- hello!!!
+- hello hi
+- hi hello
+- hey hello
+- hello hey
+- hi hello hi
+- hello hi hello
+- hey hey hi
+- hi hi hey
+- hey hi
+- hi hey
+- hi??
+- hey??
+- hello??
+- hi!
+- hey!
+- hello!
+- hi hi!
+- hey hey!
+- hello hello!
+- hi hi??
+- hey hey??
+- hello hello??
+- hii?
+- heyy?
+- helloo?
+- hii!
+- heyy!
+- helloo!
+- hii??
+- heyy??
+- helloo??
+- hii hi
+- heyy hey
+- helloo hello
+- hi hii
+- hey heyy
+- hello helloo
+- hi hiii
+- hey heyyy
+- hello hellooo
+- hi-hi
+- hey-hey
+- hello-hello
+- hi! hi!
+- hey! hey!
+- hello! hello!
+- hiii!
+- heyyy!
+- hellooo!
+- hiii?
+- heyyy?
+- hellooo?
+- hi hello!
+- hello hi!
+- hey hello!
+- hello hey!
+- hi hi hi
+- hii hii hi
+- hiii hi hii
+- hi hiii hii
+- hey hey hi hi
+- hey heyy hey
+- heyy hey heyy
+- hey heyy heyyy
+- hello hello hi
+- hello helloo hello
+- helloo hello helloo
+- hello hellooo hello
+- hellooo hello helloo
+- hi hey hello
+- hey hello hi
+- hello hey hi
+- hey hi hello
+- hi hello hey
 #rp_1
 #vr_pt: |
 Oi, tudo bem sim, e você?

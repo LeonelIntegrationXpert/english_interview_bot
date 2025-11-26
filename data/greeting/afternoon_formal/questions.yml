@@ -2,7 +2,10 @@ version: '3.1'
 nlu:
   - intent: afternoon_formal
     examples: |
+      - boa tarde
+      - boa tarde, tudo bem?
       - boa tarde, como vai?
+      - boa tarde, como você está?
       - boa tarde, tudo certo por aí?
       - boa tarde, obrigado pelo seu tempo
       - boa tarde, obrigado por participar
@@ -102,6 +105,8 @@ nlu:
       - boa tarde, obrigado por essa oportunidade de troca
       - boa tarde, agradeço a confiança em conversar comigo
       - boa tarde, obrigado pela paciência comigo hoje
+      - good afternoon
+      - good afternoon, how are you?
       - good afternoon, how are you doing today?
       - good afternoon, how are you this afternoon?
       - good afternoon, thanks for your time
