@@ -16920,207 +16920,210 @@ To be honest, I don’t really follow football. I tend to connect more with othe
 ---
 #intent: smalltalk/hobbies_general
 #pt:
-- fora do trabalho, quais são os seus principais hobbies?
-- o que você gosta de fazer no seu tempo livre?
-- quando você não está trabalhando, como costuma ocupar o seu tempo?
-- quais atividades você faz para relaxar depois de um dia cheio?
-- você tem algum hobby que leva mais a sério, tipo estudo, curso ou projeto pessoal?
-- o que normalmente você gosta de fazer nos fins de semana?
-- tem alguma coisa que você faz por prazer e que te ajuda a desligar um pouco do trabalho?
-- você se considera mais caseiro ou mais de sair? O que costuma fazer?
-- você tem algum passatempo que te empolga bastante?
 - tem algum hobby recente que você começou e está curtindo?
-- você tem algum tipo de hobby criativo?
-- você gosta de aprender coisas novas no seu tempo livre?
-- você costuma fazer atividades ao ar livre?
-- você tem algum interesse que te acompanha há anos?
-- você gosta de assistir séries ou filmes no tempo livre?
-- leitura faz parte da sua rotina?
-- você gosta de cozinhar nas horas vagas?
-- gosta de jogar videogame de vez em quando?
-- você faz algum tipo de exercício físico por hobby?
-- fotografia é algo que você gosta?
-- você tem algum hobby ligado a música?
-- você costuma tocar algum instrumento?
-- você gosta de praticar algum tipo de esporte?
-- você tem algum projeto pessoal que movimenta seu tempo livre?
-- tem algum curso que você faz por prazer?
-- você gosta de aprender idiomas como hobby?
-- você gosta de estudar temas diferentes por curiosidade?
-- você faz atividades de artesanato ou manuais?
-- jardinagem é um hobby que te atrai?
-- você gosta de escrever no tempo livre?
-- você tem algum hobby tecnológico?
-- programação é algo que você faz como hobby?
-- você gosta de fazer pequenas viagens no fim de semana?
-- gosta de explorar cafés ou lugares novos?
-- tem algum hobby tranquilo como quebra-cabeça ou leitura leve?
-- você se interessa por temas de ciência ou tecnologia?
-- você pratica meditação ou algo parecido?
-- você gosta de ouvir podcasts?
-- você acompanha algum canal de conteúdo educacional?
-- você gosta de atividades mais calmas ou mais movimentadas?
-- você costuma testar receitas novas?
-- você gosta de jogos de tabuleiro?
-- você gosta de caminhadas ou trilhas?
-- existem atividades que te ajudam a relaxar rapidamente?
-- você gosta de atividades que exigem concentração?
-- você tem algum hobby que faz há muitos anos?
-- você começou algum hobby novo recentemente?
-- você usa seu tempo livre para planejar projetos?
-- você gosta de organizar coisas como hobby?
-- você gosta de desenhar?
-- pintura faz parte do seu lazer?
-- você gosta de ouvir música para relaxar?
-- você gosta de aprender ferramentas novas?
-- você explora plataformas de cursos no tempo livre?
-- você usa seu tempo livre para estudar temas específicos?
-- você gosta de cuidar de animais ou plantas?
-- você pratica esportes individuais?
-- você gosta de praticar yoga ou alongamento?
-- você costuma ler artigos técnicos por hobby?
-- você gosta de testar aplicações ou softwares?
-- você gosta de acompanhar eventos de tecnologia?
-- você gosta de fazer anotações ou estudar com profundidade?
-- você gosta de se aprofundar em algum assunto nas horas vagas?
-- você gosta de temas de criatividade?
-- você faz listas ou planejamentos como hobby?
-- você gosta de ouvir música enquanto trabalha nos hobbies?
-- você gosta de hobbies que envolvem resolver problemas?
-- você gosta de atividades que envolvem lógica?
-- você usa o tempo livre para explorar novas ideias?
-- você gosta de explorar temas relacionados a carreira?
-- você costuma ver documentários?
-- você tem algum hobby ligado ao bem-estar?
-- você gosta de praticar leitura técnica mesmo fora do trabalho?
-- você gosta de aprender sobre produtividade?
-- você gosta de participar de comunidades online?
-- você acompanha tendências do seu setor por hobby?
-- você gosta de hobbies que envolvem criação?
-- você usa o tempo livre para revisar metas pessoais?
-- você faz cursos por conta própria?
-- você gosta de testar ferramentas novas de IA?
-- você gosta de criar pequenos projetos no computador?
-- você tem algum hobby que gostaria de aprofundar?
-- você gosta de assistir conteúdo sobre desenvolvimento pessoal?
-- você pratica algum tipo de atividade leve diária?
-- você gosta de pequenos desafios de aprendizado?
-- você usa aplicativos de estudo como hobby?
-- você gosta de criar conteúdo por diversão?
-- você tem algum hobby que combina lazer e aprendizado?
-- você gosta de assistir vídeos educativos no tempo livre?
-- você gosta de explorar novidades em tecnologia?
-- você gosta de ter momentos silenciosos como hobby?
-- você gosta de planejar viagens simples?
-- você gosta de reorganizar espaço ou ambiente?
-- você gosta de aprender sobre inglês no tempo livre?
-- você gosta de revisar materiais de estudo por hobby?
-- você tem algum hobby que te ajuda a pensar melhor?
-- você gosta de aprender frameworks ou plataformas novas?
-- existe algum hobby que você considera essencial no seu dia a dia?
-- você tem algum hobby que faça parte da sua rotina diária?
-- existe alguma atividade simples que você faz só por prazer?
+- tem algum hobby recente que você começou e está curtino?
+- tem algum hobby recente que você começou e tá curtindo?
+- tem algum hobby recente que você comecou e está curtindo?
+- tem algum hobby recnte que você começou e está curtindo?
+- tem algum hobby recente que voce começou e está curtindo?
+- tem algum hobby recente que você começou e está curtindo
+- tem algum hobby recente que vc começou e está curtindo?
+- tem algum hobby recente que você começou e está curtind?
+- tem algum hobby recente que você começo e está curtindo?
+- algum hobby recente você tem que começou e está curtindo?
+- algum hobby recente você começou e está curtindo?
+- algum hobby você tem que começou e está curtindo recente?
+- hobby recente você tem que começou e está curtindo?
+- hobby você tem algum recente que começou e está curtindo?
+- você tem algum hobby recente que começou e está curtindo?
+- você tem hobby algum recente que começou e está curtindo?
+- você começou algum hobby recente e está curtindo?
+- começou algum hobby recente que você está curtindo?
+- começou algum hobby recente e você está curtindo?
+- começou hobby recente que você está curtindo?
+- hobby recente que você começou e está curtindo, tem?
+- hobby recente começou e está curtindo você tem algum?
+- você começou e está curtindo algum hobby recente?
+- está curtindo algum hobby recente que você começou?
+- está curtindo hobby algum recente que você começou?
+- está curtindo hobby recente que você começou?
+- curtindo está algum hobby recente que você começou?
+- curtindo você está algum hobby recente que começou?
+- você está curtindo algum hobby recente que começou?
+- você está curtindo hobby recente que começou?
+- algum hobby está você curtindo que começou recente?
+- algum hobby começou você e está curtindo recente?
+- algum hobby você está curtindo que começou recente?
+- tem hobby recente que você começou e está curtind?
+- tem hobby recente que você começou e tá curtino?
+- tem hobby recente que você começou e está curtndo?
+- tem hobby recente q você começou e está curtindo?
+- tem hobby recnte que você começou e está curtindo?
+- tem hobby recente que voce começou e está curtino?
+- tem hobby recente você começou e está curtindo?
+- tem hobby você começou recente e está curtindo?
+- hobby tem algum recente que você começou e está curtindo?
+- hobby algum recente que você começou e está curtindo tem?
+- hobby que você começou recente está curtindo algum?
+- hobby recente você começou e tá curtindo?
+- hobby recente você começou e está curtinu?
+- hobby você começou e está curtindo recente algum?
+- hobby você está curtindo que começou algum recente?
+- começou você algum hobby recente e está curtindo?
+- começou você hobby recente que está curtindo algum?
+- começou algum hobby você e está curtindo recente?
+- começou hobby algum você recente e está curtindo?
+- começou hobby recente você e está curtindo?
+- recente hobby você começou e está curtindo?
+- recente você começou hobby e está curtindo?
+- recente começou hobby que você está curtindo?
+- recente que você começou hobby está curtindo?
+- recente hobby que você começou está curtindo?
+- algum você tem hobby recente que começou e está curtindo?
+- algum recente hobby você começou e está curtindo?
+- algum hobby você está curtindo e começou recente?
+- algum hobby você começou e está curtindo recente?
+- algum hobby começou e você está curtindo recente?
+- você tem algum hobby que começou recente e está curtindo?
+- você tem algum hobby que está curtindo e começou recente?
+- você tem algum hobby começou recente e está curtindo?
+- você tem está curtindo algum hobby recente que começou?
+- você tem está curtindo hobby algum recente que começou?
+- você tem está curtindo hobby recente que começou?
+- está você curtindo algum hobby que começou recente?
+- está você curtindo hobby recente que começou algum?
+- está você curtindo hobby que você começou recente?
+- está você curtindo hobby recente começou você?
+- está curtindo você hobby recente que começou?
+- está curtindo você algum hobby recente que começou?
+- curtindo algum hobby você está que começou recente?
+- curtindo algum hobby recente você está que começou?
+- curtindo algum hobby recente começou você?
+- curtindo hobby recente você começou e está?
+- curtindo hobby que você começou recente está?
+- curtindo você hobby recente que começou algum?
+- curtindo você hobby algum recente que começou?
+- hobby começou você recente e está curtindo algum?
+- hobby começou recente você e está curtindo?
+- hobby começou recente e você está curtindo algum?
+- hobby começou você e está curtindo recente algum?
+- hobby você começou recente e está curtind?
+- hobby você começou e está curtindo recnte?
+- hobby você está curtindo que começou recnte?
+- hobby você está curtindo e começou recente?
+- hobby você está curtindo algum que começou recente?
+- hobby algum você está curtindo e começou recente?
+- hobby algum você começou e está curtindo recnte?
+- hobby algum começou você recente e está curtindo?
+- hobby recente você está curtindo e começou?
+- hobby recente começou você e está curtindo?
+- hobby recente está você curtindo e começou?
+- hobby recente está curtindo você e começou?
+- hobby recente está você começou e curtindo?
 #en:
-- do you have any hobby that is part of your daily routine?
-- is there any simple activity you do just for pleasure?
-- outside of work, what are your main hobbies?
-- what do you like to do in your free time?
-- when you’re not working, how do you usually spend your time?
-- what kind of activities do you do to relax after a busy day?
-- do you have any hobbies you take more seriously, like studying, courses, or personal projects?
-- what do you normally enjoy doing on weekends?
-- is there anything you do for fun that helps you disconnect from work a bit?
-- would you say you’re more of a home person or someone who likes to go out? What do you usually do?
-- do you have any hobbies you’re really passionate about?
-- is there any new hobby you’ve started recently and are enjoying?
-- do you enjoy creative hobbies?
-- do you like learning new things in your free time?
-- do you spend time outdoors as a hobby?
-- do you have any interest that has been with you for years?
-- do you enjoy watching series or movies as a hobby?
-- is reading part of your routine?
-- do you enjoy cooking in your spare time?
-- do you play video games sometimes?
-- do you practice any physical activity as a hobby?
-- is photography something you enjoy?
-- do you have any music-related hobby?
-- do you play any musical instrument?
-- do you practice any sports?
-- do you work on personal projects in your free time?
-- do you take courses for fun?
-- do you enjoy learning languages as a hobby?
-- do you study different topics out of curiosity?
-- do you enjoy craft or manual activities?
-- is gardening something you like?
-- do you enjoy writing during your free time?
-- do you have any tech-related hobby?
-- do you code as a hobby?
-- do you like taking short weekend trips?
-- do you enjoy exploring new cafés or places?
-- do you enjoy quiet hobbies like puzzles or light reading?
-- are you interested in science or technology?
-- do you practice meditation or similar activities?
-- do you enjoy listening to podcasts?
-- do you follow educational content channels?
-- do you prefer calm or high-energy activities?
-- do you test new recipes for fun?
-- do you enjoy board games?
-- do you like going on walks or trails?
-- do you have activities that help you relax quickly?
-- do you enjoy hobbies that require focus?
-- do you have any longtime hobby?
-- have you started any new hobby recently?
-- do you use your free time to plan projects?
-- do you enjoy organizing things as a hobby?
-- do you like drawing?
-- is painting something you enjoy?
-- do you listen to music to relax?
-- do you enjoy learning new tools?
-- do you explore course platforms in your free time?
-- do you study specific topics as a hobby?
-- do you enjoy caring for plants or animals?
-- do you practice individual sports?
-- do you enjoy yoga or stretching?
-- do you read technical articles for fun?
-- do you test apps or software in your free time?
-- do you follow tech events?
-- do you like taking deep study notes?
-- do you enjoy diving into topics outside work?
-- do you enjoy creative activities?
-- do you make plans or lists as a hobby?
-- do you listen to music while doing hobbies?
-- do you enjoy problem-solving hobbies?
-- do you like logic-based hobbies?
-- do you explore new ideas during your free time?
-- do you enjoy learning about career development?
-- do you watch documentaries for fun?
-- do you enjoy well-being activities?
-- do you read technical content outside work?
-- do you enjoy learning about productivity?
-- do you participate in online communities?
-- do you follow trends in your field for fun?
-- do you enjoy creation-related hobbies?
-- do you review personal goals as a hobby?
-- do you take self-paced courses?
-- do you test new AI tools?
-- do you create small personal projects on your computer?
-- do you have any hobby you’d like to deepen?
-- do you enjoy watching personal development content?
-- do you practice light daily activities?
-- do you enjoy small learning challenges?
-- do you use study apps as a hobby?
-- do you create content just for fun?
-- do you have any hobby that mixes learning and leisure?
-- do you watch educational videos in your free time?
-- do you explore new tech releases?
-- do you enjoy having quiet moments as a hobby?
-- do you plan simple trips?
-- do you reorganize your environment for fun?
-- do you enjoy studying English in your free time?
-- do you review study material as a hobby?
-- do you have any hobby that helps you think better?
-- do you enjoy learning new frameworks or platforms?
-- is there any hobby you consider essential in your daily routine?
+- enjoying you any hobby you started recent?
+- any recent hobby enjoying you started?
+- any hobby you started enjoying recent?
+- do you have any recent hobby you started and are enjoying?
+- do you have any recent hobby you started and are enjoyin?
+- do you have any recent hobby you started and r enjoying?
+- have you any recent hobby you started and are enjoying?
+- any recent hobby you started and are enjoying?
+- any recent hobby you started and are enjoyin?
+- any hobby you started recent and are enjoying?
+- any hobby you started and are enjoying recent?
+- you have any recent hobby you started and are enjoying?
+- you started any recent hobby and are enjoying?
+- you started any hobby recent and are enjoying?
+- you are enjoying any recent hobby you started?
+- you are enjoying any hobby you started recent?
+- you enjoying any recent hobby you started?
+- enjoying any recent hobby you started?
+- enjoying any hobby you started recent?
+- enjoying hobby you started recent?
+- enjoying hobby recent you started?
+- enjoying recent hobby you started?
+- are you enjoying any recent hobby you started?
+- are you enjoying any hobby you started recent?
+- are you enjoying hobby recent you started?
+- any recent hobby are you enjoying that you started?
+- recent hobby you started are you enjoying?
+- hobby you started recent are you enjoying?
+- hobby recent you started are you enjoying?
+- you started recent hobby are you enjoying?
+- you started hobby recent are you enjoying?
+- recent hobby you are enjoying you started?
+- recent hobby you are enjoying that you started?
+- recent hobby you are enjoying started you?
+- you are enjoying recent hobby you started?
+- you are enjoying hobby recent you started?
+- you are enjoying hobby you started recent?
+- hobby you started you are enjoying recent?
+- any hobby you started are you enjoying recent?
+- any hobby you started recent are you enjoying?
+- any hobby recent you started are you enjoying?
+- any hobby you are enjoying you started recent?
+- any hobby you are enjoying recent you started?
+- any recent hobby you are enjoying that you started?
+- you enjoying any hobby you started recent?
+- you enjoying hobby you started recent?
+- you enjoying recent hobby you started?
+- enjoying you any recent hobby you started?
+- enjoying you hobby recent you started?
+- enjoying you hobby you started recent?
+- enjoying you recent hobby you started?
+- started you any recent hobby you are enjoying?
+- started you any hobby recent you are enjoying?
+- started you hobby recent you are enjoying?
+- started you recent hobby you are enjoying?
+- any recent hobby you started you are enjoying?
+- any recent hobby you are enjoying started you?
+- any hobby you started you are enjoying recent?
+- any hobby you are enjoying you started recent?
+- any hobby you are enjoying recent you started?
+- recent hobby you started you are enjoying?
+- hobby recent you started you are enjoying?
+- hobby you started recent you are enjoying?
+- hobby you are enjoying recent you started?
+- hobby you are enjoying you started recent?
+- you have any hobby recent you started and are enjoying?
+- have you hobby recent you started and are enjoying?
+- have you any hobby recent you started and are enjoying?
+- have you any recent hobby you started and are enjoying?
+- you have any recent hobby are enjoying you started?
+- any recent hobby you have you started and are enjoying?
+- any hobby recent you have started and are enjoying?
+- hobby any recent you started and are enjoying?
+- hobby you recent started and are enjoying?
+- hobby recent you started and are enjoyin?
+- hobby recent you started and are enjoying
+- hobby you are enjoying recent started you?
+- any recent hobby you are enjoyin you started?
+- any recent hobby you started are enjoyin?
+- any hobby recent you started are enjoyin?
+- any hobby you started are enjoyin recent?
+- recent hobby enjoyin you started?
+- recent hobby you started enjoyin?
+- recent hobby you enjoying started?
+- you are enjoyin hobby recent you started?
+- you are enjoyin recent hobby you started?
+- you enjoyin any recent hobby you started?
+- enjoyin any recent hobby you started?
+- enjoyin any hobby you started recent?
+- enjoyin hobby recent you started?
+- enjoyin hobby you started recent?
+- enjoyin recent hobby you started?
+- started any recent hobby you are enjoying?
+- started recent hobby you are enjoying?
+- started hobby recent you are enjoying?
+- started hobby you are enjoying recent?
+- started hobby you are enjoying?
+- you are enjoying hobby you started?
+- you enjoying hobby you started?
+- enjoying hobby you started?
+- any hobby you enjoying you started recent?
+- any hobby recent enjoying you started?
+- recent hobby enjoying you started?
 #rp_1
 #vr_pt: |
 No meu tempo livre, eu gosto bastante de estudar, organizar projetos pessoais e trabalhar em ideias relacionadas a tecnologia e integração. Também reservo um tempo para minha família e para aprender coisas novas, principalmente em inglês e na área técnica.
@@ -19852,212 +19855,207 @@ Yes, I have two siblings. My brother’s name is Roberto Dorneles Porto and my s
 ---
 #intent: smalltalk/siblings_relationship
 #pt:
+- hoje com seus irmãos como é a sua relação?
+- hoje com seus irmãos relação sua como é?
+- relação sua com seus irmãos hoje como é?
 - como é a sua relação com seus irmãos hoje?
-- você tem bastante contato com seus irmãos?
-- você diria que é próximo dos seus irmãos?
-- como foi crescer com seus irmãos?
-- seus irmãos ainda moram perto de você ou em outra cidade?
-- você costuma falar com seus irmãos com frequência?
-- sua relação com seus irmãos influenciou de alguma forma o seu jeito de trabalhar em equipe?
-- você sente que aprendeu algo importante convivendo com seus irmãos?
-- quando pensa nos seus irmãos, o que mais vem à sua cabeça?
-- você se considera um irmão mais protetor, mais tranquilo ou mais desligado?
-- vocês se falam mais por mensagem ou por ligação?
-- vocês se encontram com frequência?
-- a relação de vocês melhorou depois de adultos?
-- vocês eram mais próximos na infância ou agora?
-- vocês dividiam muitas coisas quando pequenos?
-- você sente saudade do tempo em que moravam juntos?
-- vocês discutiam muito quando crianças?
-- hoje vocês têm uma convivência mais leve?
-- vocês conseguem conversar sobre qualquer assunto?
-- vocês têm personalidades parecidas?
-- você sente que seus irmãos te entendem bem?
-- vocês se apoiam em momentos difíceis?
-- vocês trocam conselhos no dia a dia?
-- vocês têm hobbies em comum?
-- vocês conseguem manter contato mesmo com a correria?
-- vocês têm uma relação mais calma ou mais intensa?
-- vocês já passaram longos períodos sem se ver?
-- vocês se preocupam muito uns com os outros?
-- vocês compartilham muitas memórias da infância?
-- vocês preferem conversas rápidas ou longas?
-- vocês têm rituais de família juntos?
-- vocês comemoram datas especiais juntos?
-- você costuma visitar seus irmãos?
-- seus irmãos costumam te visitar?
-- vocês se conectam mais pessoalmente ou online?
-- vocês têm conversas descontraídas?
-- vocês conversam sobre trabalho?
-- vocês conversam sobre vida pessoal?
-- vocês têm brincadeiras internas de infância?
-- vocês lembram de histórias antigas juntos?
-- você confia nos seus irmãos?
-- seus irmãos confiam em você?
-- vocês resolvem conflitos facilmente?
-- vocês têm estilos de vida parecidos?
-- vocês têm estilos de vida bem diferentes?
-- vocês mantêm contato mesmo morando longe?
-- você sente orgulho dos seus irmãos?
-- seus irmãos demonstram orgulho de você?
-- sua relação com seus irmãos te ajudou a amadurecer?
-- vocês aprenderam a dividir espaço e rotina?
-- vocês aprenderam a dividir responsabilidades?
-- você já ajudou muito seus irmãos?
-- seus irmãos já te ajudaram muito?
-- vocês se tornaram mais unidos com o tempo?
-- vocês têm percepções parecidas sobre a família?
-- vocês têm caminhos profissionais muito diferentes?
-- vocês têm valores parecidos?
-- vocês aprenderam a respeitar diferenças?
-- você considera seus irmãos como referência?
-- seus irmãos te inspiram em algum aspecto?
-- você acha que inspira seus irmãos?
-- vocês falam com naturalidade sobre sonhos e planos?
-- vocês cresceram em harmonia?
-- vocês tiveram fases difíceis na convivência?
-- vocês se divertiam muito juntos?
-- vocês se apoiam nas decisões importantes?
-- seu relacionamento com irmãos mudou muito ao longo da vida?
-- você gostaria de estar mais perto deles fisicamente?
-- você sente que sua família ficou mais unida com o tempo?
-- vocês encontram equilíbrio mesmo com rotinas diferentes?
-- você se sente confortável sendo você mesmo com seus irmãos?
-- seus irmãos te motivam de alguma forma?
-- vocês passam por fases de maior distância?
-- vocês conseguem retomar a conexão rapidamente?
-- vocês têm laços fortes mesmo com pouco tempo juntos?
-- você guarda boas lembranças com seus irmãos?
-- vocês falam sobre o futuro?
-- vocês têm planos de fazer algo juntos?
-- vocês têm uma relação tranquila?
-- vocês têm uma relação cheia de energia?
-- vocês têm espontaneidade ao conversar?
-- vocês conversam sobre metas e objetivos?
-- vocês têm uma conexão emocional forte?
-- você percebe evolução na relação com o tempo?
-- os ensinamentos entre vocês continuam até hoje?
-- vocês acompanham a vida um do outro?
-- vocês celebram pequenas conquistas juntos?
-- vocês respeitam muito o espaço um do outro?
-- vocês conseguem ser sinceros nas conversas?
-- vocês se apoiam em mudanças importantes?
-- vocês mantêm a conexão mesmo em silêncio?
-- vocês valorizam a união da família?
-- vocês compartilham aprendizado da vida adulta?
-- vocês têm uma dinâmica leve e natural?
-- você sente que evoluiu muito na relação com seus irmãos ao longo dos anos?
-- vocês têm uma relação mais pessoal ou mais prática?
-- vocês se apoiam mesmo quando cada um está em um momento diferente da vida?
-- vocês conversam bastante quando algo importante acontece?
-- vocês conseguem manter a união mesmo com rotinas diferentes?
-- vocês se sentem confortáveis falando sobre qualquer assunto?
-- vocês fortalecem muito o vínculo em datas especiais?
-- vocês compartilham decisões importantes da vida?
-- vocês têm lembranças marcantes da infância juntos?
-- vocês conseguem retomar o contato de forma natural mesmo depois de dias corridos?
+- como é a relação com seus irmãos hoje sua?
+- como é a relação hoje com seus irmãos?
+- como é sua relação com seus irmãos hoje?
+- como é seus irmãos relação com a sua hoje?
+- como é com seus irmãos a sua relação hoje?
+- como é hoje a sua relação com seus irmãos?
+- como é relação sua com seus irmãos hoje?
+- como é relação com seus irmãos hoje a sua?
+- como é a sua relação hoje com irmãos seus?
+- como sua relação é com seus irmãos hoje?
+- como relação é a sua com seus irmãos hoje?
+- como relação é com seus irmãos sua hoje?
+- como relação sua com seus irmãos é hoje?
+- como relação sua hoje é com seus irmãos?
+- como relação com seus irmãos é sua hoje?
+- como relação com seus irmãos hoje é sua?
+- como relação hoje com seus irmãos é sua?
+- como a sua relação é com seus irmãos hoje?
+- como a sua relação hoje é com seus irmãos?
+- como a relação sua é com seus irmãos hoje?
+- como a relação hoje é com seus irmãos sua?
+- como seus irmãos relação é com a sua hoje?
+- como seus irmãos relação é hoje com a sua?
+- como seus irmãos relação hoje é com a sua?
+- como seus irmãos hoje relação é com a sua?
+- como hoje é a sua relação com seus irmãos?
+- como hoje é relação sua com seus irmãos?
+- como hoje é relação com seus irmãos sua?
+- como hoje relação é a sua com seus irmãos?
+- como hoje relação é com seus irmãos sua?
+- como hoje relação sua é com seus irmãos?
+- é como a sua relação com seus irmãos hoje?
+- é como sua relação com seus irmãos hoje?
+- é como relação sua com seus irmãos hoje?
+- é como relação com seus irmãos hoje sua?
+- é como relação hoje com seus irmãos sua?
+- é como hoje sua relação com seus irmãos?
+- é como hoje relação sua com seus irmãos?
+- é sua relação como com seus irmãos hoje?
+- é sua relação hoje como com seus irmãos?
+- é relação como sua com seus irmãos hoje?
+- é relação como com seus irmãos sua hoje?
+- é relação hoje como com seus irmãos sua?
+- é relação sua como com seus irmãos hoje?
+- é relação sua hoje como com seus irmãos?
+- é relação com seus irmãos como sua hoje?
+- é relação com seus irmãos hoje como sua?
+- é relação hoje com seus irmãos como sua?
+- sua relação como é com seus irmãos hoje?
+- sua relação como é hoje com seus irmãos?
+- sua relação hoje como é com seus irmãos?
+- sua relação hoje é como com seus irmãos?
+- sua relação é como com seus irmãos hoje?
+- sua relação é hoje como com seus irmãos?
+- sua relação com seus irmãos como é hoje?
+- sua relação com seus irmãos hoje como é?
+- relação sua como é com seus irmãos hoje?
+- relação sua hoje como é com seus irmãos?
+- relação hoje como é com seus irmãos sua?
+- relação hoje é como com seus irmãos sua?
+- relação é como sua com seus irmãos hoje?
+- relação é hoje como sua com seus irmãos?
+- relação é como com seus irmãos sua hoje?
+- relação com seus irmãos como é sua hoje?
+- relação com seus irmãos hoje como é sua?
+- relação com seus irmãos hoje é como sua?
+- relação com seus irmãos sua como é hoje?
+- seus irmãos como é sua relação hoje?
+- seus irmãos como é relação sua hoje?
+- seus irmãos relação como é sua hoje?
+- seus irmãos relação hoje como é sua?
+- seus irmãos relação é como a sua hoje?
+- seus irmãos relação hoje é como a sua?
+- seus irmãos hoje como é sua relação?
+- seus irmãos hoje relação como é sua?
+- hoje como é sua relação com seus irmãos?
+- hoje como é relação sua com seus irmãos?
+- hoje como é relação com seus irmãos sua?
+- hoje relação como é sua com seus irmãos?
+- hoje relação como é com seus irmãos sua?
+- hoje relação sua como é com seus irmãos?
+- hoje relação sua é como com seus irmãos?
+- hoje é como sua relação com seus irmãos?
+- hoje é como relação sua com seus irmãos?
+- hoje é como relação com seus irmãos sua?
+- hoje é relação como sua com seus irmãos?
+- hoje é relação sua como com seus irmãos?
+- hoje é relação com seus irmãos como sua?
+- hoje é a relação sua com seus irmãos como?
+- hoje é a relação com seus irmãos sua como?
+- com seus irmãos como é a sua relação hoje?
+- com seus irmãos como é relação sua hoje?
+- com seus irmãos relação como é sua hoje?
+- com seus irmãos relação hoje como é sua?
+- com seus irmãos hoje como é sua relação?
+- com seus irmãos hoje relação como é sua?
 #en:
-- do you feel your relationship with your siblings has evolved over the years?
-- do you support each other even when life phases are different?
-- do you talk more about personal topics or practical ones?
-- do you stay united even with very different routines?
-- do you feel comfortable talking to your siblings about anything?
-- do you naturally reconnect after busy days?
-- do you keep strong bonds even with distance?
-- do you share important life decisions with them?
-- do you keep meaningful childhood memories together?
-- what is your relationship with your siblings like today?
-- would you say you are close to your siblings?
-- do you keep in touch with your brother and sister often?
-- how was it for you growing up with your siblings?
-- do your siblings live near you or in another city?
-- do you talk to your siblings frequently?
-- do you feel that your relationship with your siblings influenced how you work in teams?
-- is there anything important you learned from living with your siblings?
-- when you think about your siblings, what comes to your mind first?
-- would you say you are a more protective, relaxed, or distant type of sibling?
-- do you usually talk more by message or by call?
-- do you meet your siblings often?
-- did your relationship improve as adults?
-- were you closer in childhood or now?
-- did you share many things growing up?
-- do you miss the time when you lived together?
-- did you argue a lot as kids?
-- is your relationship more peaceful today?
-- can you talk about anything with your siblings?
-- do you have similar personalities?
-- do you feel your siblings understand you well?
-- do you support each other in difficult moments?
-- do you exchange advice regularly?
-- do you have hobbies in common?
-- are you able to stay in touch despite busy routines?
-- is your relationship calm or more intense?
-- have you gone long periods without seeing each other?
-- do you worry a lot about each other?
-- do you share many childhood memories?
-- do you prefer short or long conversations with them?
-- do you have family rituals together?
-- do you celebrate special dates together?
-- do you visit your siblings?
-- do your siblings visit you?
-- do you connect more in person or online?
-- do you have casual, relaxed conversations?
-- do you talk about work with them?
-- do you talk about personal life with them?
-- do you have inside jokes from childhood?
-- do you often recall old stories together?
-- do you trust your siblings?
-- do your siblings trust you?
-- do you solve conflicts easily?
-- do you have similar lifestyles?
-- do you have very different lifestyles?
-- do you stay connected even living far apart?
-- are you proud of your siblings?
-- are your siblings proud of you?
-- did they help you mature?
-- did you learn to share space and routine with them?
-- did you learn to share responsibilities?
-- have you helped your siblings in important moments?
-- have your siblings helped you a lot too?
-- did you become closer over time?
-- do you have similar views about family?
-- do you have very different professional paths?
-- do you share similar values?
-- did you learn to respect differences?
-- do you see your siblings as a reference?
-- do your siblings inspire you?
-- do you feel you inspire your siblings?
-- do you talk naturally about dreams and plans?
-- did you grow up in harmony with them?
-- did you have tough phases together?
-- did you have lots of fun growing up?
-- do you support each other in big decisions?
-- did your sibling relationship change a lot over the years?
-- would you like to live closer to them?
-- do you feel your family bond has grown over time?
-- do you find balance even with different routines?
-- do you feel comfortable being yourself around them?
-- do your siblings motivate you somehow?
-- do you go through phases of more distance?
-- do you reconnect easily afterwards?
-- do you have a strong bond even with little time together?
-- do you keep good memories with them?
-- do you talk about the future?
-- do you have plans to do something together?
-- do you have a calm relationship?
-- do you have a more energetic relationship?
-- do you have spontaneous conversations?
-- do you talk about goals and ambitions?
-- do you share adult-life learnings?
-- do you follow each other’s lives closely?
-- do you celebrate achievements together?
-- do you respect each other’s space?
-- can you be honest with each other?
-- do you support each other through changes?
-- do you keep the connection even in silence?
-- do you value your family unity?
-- do you share growth experiences in adulthood?
-- do you maintain a natural, easy dynamic?
+- how your relationship with your siblings today is?
+- how relationship with your siblings today your is?
+- how today your siblings relationship is with you?
+- how today siblings your relationship is with you?
+- today how your siblings relationship is with you?
+- today how siblings your relationship is with you?
+- your relationship with siblings today how is?
+- your relationship with siblings today is how?
+- relationship your with siblings today how is?
+- relationship your with siblings today is how?
+- relationship with siblings your today how is?
+- relationship with siblings your today is how?
+- siblings your today relationship how is?
+- siblings today your relationship is how?
+- siblings today relationship your is how?
+- today siblings your relationship is how?
+- today relationship your with siblings how is?
+- today relationship with siblings your how is?
+- with siblings your today relationship is how?
+- how is your relationship with your siblings today?
+- how is relationship your with your siblings today?
+- how is your relationship today with your siblings?
+- how is your siblings relationship with you today?
+- how is relationship with your siblings today your?
+- how is today your relationship with your siblings?
+- how is today relationship your with your siblings?
+- how is your relationship with siblings your today?
+- how is relationship your today with your siblings?
+- how your relationship is with your siblings today?
+- how relationship your is with your siblings today?
+- how relationship is your with your siblings today?
+- how your relationship today is with your siblings?
+- how relationship today is your with your siblings?
+- how relationship with your siblings is your today?
+- how relationship with your siblings today is your?
+- how relationship today with your siblings is your?
+- how your siblings relationship is with you today?
+- how siblings your relationship is with you today?
+- how siblings relationship your is with you today?
+- how siblings relationship today is with you your?
+- how siblings today relationship is with you your?
+- how today is your relationship with your siblings?
+- how today your relationship is with your siblings?
+- how today relationship your is with your siblings?
+- how today relationship is your with your siblings?
+- how today relationship with your siblings is your?
+- is how your relationship with your siblings today?
+- is how relationship your with your siblings today?
+- is how your relationship today with your siblings?
+- is how relationship today your with your siblings?
+- is your relationship how with your siblings today?
+- is your relationship today how with your siblings?
+- is your relationship with your siblings how today?
+- is relationship your how with your siblings today?
+- is relationship with your siblings how your today?
+- is relationship today how your with your siblings?
+- your relationship how is with your siblings today?
+- your relationship today how is with your siblings?
+- your relationship with your siblings how is today?
+- relationship your how is with your siblings today?
+- relationship your today how is with your siblings?
+- relationship today how is your with your siblings?
+- relationship with your siblings how is your today?
+- relationship with your siblings today how is your?
+- today how is your relationship with your siblings?
+- today how relationship is your with your siblings?
+- today how your relationship is with your siblings?
+- today relationship how is your with your siblings?
+- today relationship your how is with your siblings?
+- today relationship with your siblings how is your?
+- today your relationship how is with your siblings?
+- today your relationship with siblings your how is?
+- with your siblings how is your relationship today?
+- with your siblings your relationship how is today?
+- with your siblings relationship your how is today?
+- with siblings your relationship how is today your?
+- siblings your relationship how is today with you?
+- siblings relationship your how is today with you?
+- siblings today relationship your how is with you?
+- siblings today your relationship how is with you?
+- how is siblings your relationship with you today?
+- how is siblings relationship your with you today?
+- how is siblings relationship today with you your?
+- how your siblings today relationship is with you?
+- how relationship siblings your is with you today?
+- how relationship siblings today is with you your?
+- today siblings relationship your how is with you?
+- today relationship siblings your how is with you?
+- is today your relationship how with your siblings?
+- is today relationship your how with your siblings?
+- is today relationship with your siblings how your?
+- today is your relationship how with your siblings?
+- today is relationship your how with your siblings?
+- today is relationship with your siblings how your?
+- relationship today your how is with your siblings?
+- relationship today with your siblings how is your?
+- today with your siblings relationship how is your?
+- siblings with your today relationship how is your?
+- your siblings today relationship how is with you?
+- your siblings relationship today how is with you?
 #rp_1
 #vr_pt: |
 Eu tenho uma boa relação com o Roberto e com a Suelen. Cada um segue sua rotina, mas a gente procura manter contato e se apoiar quando precisa, o que também reforça em mim essa visão de colaboração e suporte no dia a dia.

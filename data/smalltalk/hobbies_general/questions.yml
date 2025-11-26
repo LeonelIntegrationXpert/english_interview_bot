@@ -2,203 +2,203 @@ version: '3.1'
 nlu:
   - intent: hobbies_general
     examples: |
-      - fora do trabalho, quais são os seus principais hobbies?
-      - o que você gosta de fazer no seu tempo livre?
-      - quando você não está trabalhando, como costuma ocupar o seu tempo?
-      - quais atividades você faz para relaxar depois de um dia cheio?
-      - você tem algum hobby que leva mais a sério, tipo estudo, curso ou projeto pessoal?
-      - o que normalmente você gosta de fazer nos fins de semana?
-      - tem alguma coisa que você faz por prazer e que te ajuda a desligar um pouco do trabalho?
-      - você se considera mais caseiro ou mais de sair? O que costuma fazer?
-      - você tem algum passatempo que te empolga bastante?
       - tem algum hobby recente que você começou e está curtindo?
-      - você tem algum tipo de hobby criativo?
-      - você gosta de aprender coisas novas no seu tempo livre?
-      - você costuma fazer atividades ao ar livre?
-      - você tem algum interesse que te acompanha há anos?
-      - você gosta de assistir séries ou filmes no tempo livre?
-      - leitura faz parte da sua rotina?
-      - você gosta de cozinhar nas horas vagas?
-      - gosta de jogar videogame de vez em quando?
-      - você faz algum tipo de exercício físico por hobby?
-      - fotografia é algo que você gosta?
-      - você tem algum hobby ligado a música?
-      - você costuma tocar algum instrumento?
-      - você gosta de praticar algum tipo de esporte?
-      - você tem algum projeto pessoal que movimenta seu tempo livre?
-      - tem algum curso que você faz por prazer?
-      - você gosta de aprender idiomas como hobby?
-      - você gosta de estudar temas diferentes por curiosidade?
-      - você faz atividades de artesanato ou manuais?
-      - jardinagem é um hobby que te atrai?
-      - você gosta de escrever no tempo livre?
-      - você tem algum hobby tecnológico?
-      - programação é algo que você faz como hobby?
-      - você gosta de fazer pequenas viagens no fim de semana?
-      - gosta de explorar cafés ou lugares novos?
-      - tem algum hobby tranquilo como quebra-cabeça ou leitura leve?
-      - você se interessa por temas de ciência ou tecnologia?
-      - você pratica meditação ou algo parecido?
-      - você gosta de ouvir podcasts?
-      - você acompanha algum canal de conteúdo educacional?
-      - você gosta de atividades mais calmas ou mais movimentadas?
-      - você costuma testar receitas novas?
-      - você gosta de jogos de tabuleiro?
-      - você gosta de caminhadas ou trilhas?
-      - existem atividades que te ajudam a relaxar rapidamente?
-      - você gosta de atividades que exigem concentração?
-      - você tem algum hobby que faz há muitos anos?
-      - você começou algum hobby novo recentemente?
-      - você usa seu tempo livre para planejar projetos?
-      - você gosta de organizar coisas como hobby?
-      - você gosta de desenhar?
-      - pintura faz parte do seu lazer?
-      - você gosta de ouvir música para relaxar?
-      - você gosta de aprender ferramentas novas?
-      - você explora plataformas de cursos no tempo livre?
-      - você usa seu tempo livre para estudar temas específicos?
-      - você gosta de cuidar de animais ou plantas?
-      - você pratica esportes individuais?
-      - você gosta de praticar yoga ou alongamento?
-      - você costuma ler artigos técnicos por hobby?
-      - você gosta de testar aplicações ou softwares?
-      - você gosta de acompanhar eventos de tecnologia?
-      - você gosta de fazer anotações ou estudar com profundidade?
-      - você gosta de se aprofundar em algum assunto nas horas vagas?
-      - você gosta de temas de criatividade?
-      - você faz listas ou planejamentos como hobby?
-      - você gosta de ouvir música enquanto trabalha nos hobbies?
-      - você gosta de hobbies que envolvem resolver problemas?
-      - você gosta de atividades que envolvem lógica?
-      - você usa o tempo livre para explorar novas ideias?
-      - você gosta de explorar temas relacionados a carreira?
-      - você costuma ver documentários?
-      - você tem algum hobby ligado ao bem-estar?
-      - você gosta de praticar leitura técnica mesmo fora do trabalho?
-      - você gosta de aprender sobre produtividade?
-      - você gosta de participar de comunidades online?
-      - você acompanha tendências do seu setor por hobby?
-      - você gosta de hobbies que envolvem criação?
-      - você usa o tempo livre para revisar metas pessoais?
-      - você faz cursos por conta própria?
-      - você gosta de testar ferramentas novas de IA?
-      - você gosta de criar pequenos projetos no computador?
-      - você tem algum hobby que gostaria de aprofundar?
-      - você gosta de assistir conteúdo sobre desenvolvimento pessoal?
-      - você pratica algum tipo de atividade leve diária?
-      - você gosta de pequenos desafios de aprendizado?
-      - você usa aplicativos de estudo como hobby?
-      - você gosta de criar conteúdo por diversão?
-      - você tem algum hobby que combina lazer e aprendizado?
-      - você gosta de assistir vídeos educativos no tempo livre?
-      - você gosta de explorar novidades em tecnologia?
-      - você gosta de ter momentos silenciosos como hobby?
-      - você gosta de planejar viagens simples?
-      - você gosta de reorganizar espaço ou ambiente?
-      - você gosta de aprender sobre inglês no tempo livre?
-      - você gosta de revisar materiais de estudo por hobby?
-      - você tem algum hobby que te ajuda a pensar melhor?
-      - você gosta de aprender frameworks ou plataformas novas?
-      - existe algum hobby que você considera essencial no seu dia a dia?
-      - você tem algum hobby que faça parte da sua rotina diária?
-      - existe alguma atividade simples que você faz só por prazer?
-      - do you have any hobby that is part of your daily routine?
-      - is there any simple activity you do just for pleasure?
-      - outside of work, what are your main hobbies?
-      - what do you like to do in your free time?
-      - when you’re not working, how do you usually spend your time?
-      - what kind of activities do you do to relax after a busy day?
-      - do you have any hobbies you take more seriously, like studying, courses, or personal projects?
-      - what do you normally enjoy doing on weekends?
-      - is there anything you do for fun that helps you disconnect from work a bit?
-      - would you say you’re more of a home person or someone who likes to go out? What do you usually do?
-      - do you have any hobbies you’re really passionate about?
-      - is there any new hobby you’ve started recently and are enjoying?
-      - do you enjoy creative hobbies?
-      - do you like learning new things in your free time?
-      - do you spend time outdoors as a hobby?
-      - do you have any interest that has been with you for years?
-      - do you enjoy watching series or movies as a hobby?
-      - is reading part of your routine?
-      - do you enjoy cooking in your spare time?
-      - do you play video games sometimes?
-      - do you practice any physical activity as a hobby?
-      - is photography something you enjoy?
-      - do you have any music-related hobby?
-      - do you play any musical instrument?
-      - do you practice any sports?
-      - do you work on personal projects in your free time?
-      - do you take courses for fun?
-      - do you enjoy learning languages as a hobby?
-      - do you study different topics out of curiosity?
-      - do you enjoy craft or manual activities?
-      - is gardening something you like?
-      - do you enjoy writing during your free time?
-      - do you have any tech-related hobby?
-      - do you code as a hobby?
-      - do you like taking short weekend trips?
-      - do you enjoy exploring new cafés or places?
-      - do you enjoy quiet hobbies like puzzles or light reading?
-      - are you interested in science or technology?
-      - do you practice meditation or similar activities?
-      - do you enjoy listening to podcasts?
-      - do you follow educational content channels?
-      - do you prefer calm or high-energy activities?
-      - do you test new recipes for fun?
-      - do you enjoy board games?
-      - do you like going on walks or trails?
-      - do you have activities that help you relax quickly?
-      - do you enjoy hobbies that require focus?
-      - do you have any longtime hobby?
-      - have you started any new hobby recently?
-      - do you use your free time to plan projects?
-      - do you enjoy organizing things as a hobby?
-      - do you like drawing?
-      - is painting something you enjoy?
-      - do you listen to music to relax?
-      - do you enjoy learning new tools?
-      - do you explore course platforms in your free time?
-      - do you study specific topics as a hobby?
-      - do you enjoy caring for plants or animals?
-      - do you practice individual sports?
-      - do you enjoy yoga or stretching?
-      - do you read technical articles for fun?
-      - do you test apps or software in your free time?
-      - do you follow tech events?
-      - do you like taking deep study notes?
-      - do you enjoy diving into topics outside work?
-      - do you enjoy creative activities?
-      - do you make plans or lists as a hobby?
-      - do you listen to music while doing hobbies?
-      - do you enjoy problem-solving hobbies?
-      - do you like logic-based hobbies?
-      - do you explore new ideas during your free time?
-      - do you enjoy learning about career development?
-      - do you watch documentaries for fun?
-      - do you enjoy well-being activities?
-      - do you read technical content outside work?
-      - do you enjoy learning about productivity?
-      - do you participate in online communities?
-      - do you follow trends in your field for fun?
-      - do you enjoy creation-related hobbies?
-      - do you review personal goals as a hobby?
-      - do you take self-paced courses?
-      - do you test new AI tools?
-      - do you create small personal projects on your computer?
-      - do you have any hobby you’d like to deepen?
-      - do you enjoy watching personal development content?
-      - do you practice light daily activities?
-      - do you enjoy small learning challenges?
-      - do you use study apps as a hobby?
-      - do you create content just for fun?
-      - do you have any hobby that mixes learning and leisure?
-      - do you watch educational videos in your free time?
-      - do you explore new tech releases?
-      - do you enjoy having quiet moments as a hobby?
-      - do you plan simple trips?
-      - do you reorganize your environment for fun?
-      - do you enjoy studying English in your free time?
-      - do you review study material as a hobby?
-      - do you have any hobby that helps you think better?
-      - do you enjoy learning new frameworks or platforms?
-      - is there any hobby you consider essential in your daily routine?
+      - tem algum hobby recente que você começou e está curtino?
+      - tem algum hobby recente que você começou e tá curtindo?
+      - tem algum hobby recente que você comecou e está curtindo?
+      - tem algum hobby recnte que você começou e está curtindo?
+      - tem algum hobby recente que voce começou e está curtindo?
+      - tem algum hobby recente que você começou e está curtindo
+      - tem algum hobby recente que vc começou e está curtindo?
+      - tem algum hobby recente que você começou e está curtind?
+      - tem algum hobby recente que você começo e está curtindo?
+      - algum hobby recente você tem que começou e está curtindo?
+      - algum hobby recente você começou e está curtindo?
+      - algum hobby você tem que começou e está curtindo recente?
+      - hobby recente você tem que começou e está curtindo?
+      - hobby você tem algum recente que começou e está curtindo?
+      - você tem algum hobby recente que começou e está curtindo?
+      - você tem hobby algum recente que começou e está curtindo?
+      - você começou algum hobby recente e está curtindo?
+      - começou algum hobby recente que você está curtindo?
+      - começou algum hobby recente e você está curtindo?
+      - começou hobby recente que você está curtindo?
+      - hobby recente que você começou e está curtindo, tem?
+      - hobby recente começou e está curtindo você tem algum?
+      - você começou e está curtindo algum hobby recente?
+      - está curtindo algum hobby recente que você começou?
+      - está curtindo hobby algum recente que você começou?
+      - está curtindo hobby recente que você começou?
+      - curtindo está algum hobby recente que você começou?
+      - curtindo você está algum hobby recente que começou?
+      - você está curtindo algum hobby recente que começou?
+      - você está curtindo hobby recente que começou?
+      - algum hobby está você curtindo que começou recente?
+      - algum hobby começou você e está curtindo recente?
+      - algum hobby você está curtindo que começou recente?
+      - tem hobby recente que você começou e está curtind?
+      - tem hobby recente que você começou e tá curtino?
+      - tem hobby recente que você começou e está curtndo?
+      - tem hobby recente q você começou e está curtindo?
+      - tem hobby recnte que você começou e está curtindo?
+      - tem hobby recente que voce começou e está curtino?
+      - tem hobby recente você começou e está curtindo?
+      - tem hobby você começou recente e está curtindo?
+      - hobby tem algum recente que você começou e está curtindo?
+      - hobby algum recente que você começou e está curtindo tem?
+      - hobby que você começou recente está curtindo algum?
+      - hobby recente você começou e tá curtindo?
+      - hobby recente você começou e está curtinu?
+      - hobby você começou e está curtindo recente algum?
+      - hobby você está curtindo que começou algum recente?
+      - começou você algum hobby recente e está curtindo?
+      - começou você hobby recente que está curtindo algum?
+      - começou algum hobby você e está curtindo recente?
+      - começou hobby algum você recente e está curtindo?
+      - começou hobby recente você e está curtindo?
+      - recente hobby você começou e está curtindo?
+      - recente você começou hobby e está curtindo?
+      - recente começou hobby que você está curtindo?
+      - recente que você começou hobby está curtindo?
+      - recente hobby que você começou está curtindo?
+      - algum você tem hobby recente que começou e está curtindo?
+      - algum recente hobby você começou e está curtindo?
+      - algum hobby você está curtindo e começou recente?
+      - algum hobby você começou e está curtindo recente?
+      - algum hobby começou e você está curtindo recente?
+      - você tem algum hobby que começou recente e está curtindo?
+      - você tem algum hobby que está curtindo e começou recente?
+      - você tem algum hobby começou recente e está curtindo?
+      - você tem está curtindo algum hobby recente que começou?
+      - você tem está curtindo hobby algum recente que começou?
+      - você tem está curtindo hobby recente que começou?
+      - está você curtindo algum hobby que começou recente?
+      - está você curtindo hobby recente que começou algum?
+      - está você curtindo hobby que você começou recente?
+      - está você curtindo hobby recente começou você?
+      - está curtindo você hobby recente que começou?
+      - está curtindo você algum hobby recente que começou?
+      - curtindo algum hobby você está que começou recente?
+      - curtindo algum hobby recente você está que começou?
+      - curtindo algum hobby recente começou você?
+      - curtindo hobby recente você começou e está?
+      - curtindo hobby que você começou recente está?
+      - curtindo você hobby recente que começou algum?
+      - curtindo você hobby algum recente que começou?
+      - hobby começou você recente e está curtindo algum?
+      - hobby começou recente você e está curtindo?
+      - hobby começou recente e você está curtindo algum?
+      - hobby começou você e está curtindo recente algum?
+      - hobby você começou recente e está curtind?
+      - hobby você começou e está curtindo recnte?
+      - hobby você está curtindo que começou recnte?
+      - hobby você está curtindo e começou recente?
+      - hobby você está curtindo algum que começou recente?
+      - hobby algum você está curtindo e começou recente?
+      - hobby algum você começou e está curtindo recnte?
+      - hobby algum começou você recente e está curtindo?
+      - hobby recente você está curtindo e começou?
+      - hobby recente começou você e está curtindo?
+      - hobby recente está você curtindo e começou?
+      - hobby recente está curtindo você e começou?
+      - hobby recente está você começou e curtindo?
+      - enjoying you any hobby you started recent?
+      - any recent hobby enjoying you started?
+      - any hobby you started enjoying recent?
+      - do you have any recent hobby you started and are enjoying?
+      - do you have any recent hobby you started and are enjoyin?
+      - do you have any recent hobby you started and r enjoying?
+      - have you any recent hobby you started and are enjoying?
+      - any recent hobby you started and are enjoying?
+      - any recent hobby you started and are enjoyin?
+      - any hobby you started recent and are enjoying?
+      - any hobby you started and are enjoying recent?
+      - you have any recent hobby you started and are enjoying?
+      - you started any recent hobby and are enjoying?
+      - you started any hobby recent and are enjoying?
+      - you are enjoying any recent hobby you started?
+      - you are enjoying any hobby you started recent?
+      - you enjoying any recent hobby you started?
+      - enjoying any recent hobby you started?
+      - enjoying any hobby you started recent?
+      - enjoying hobby you started recent?
+      - enjoying hobby recent you started?
+      - enjoying recent hobby you started?
+      - are you enjoying any recent hobby you started?
+      - are you enjoying any hobby you started recent?
+      - are you enjoying hobby recent you started?
+      - any recent hobby are you enjoying that you started?
+      - recent hobby you started are you enjoying?
+      - hobby you started recent are you enjoying?
+      - hobby recent you started are you enjoying?
+      - you started recent hobby are you enjoying?
+      - you started hobby recent are you enjoying?
+      - recent hobby you are enjoying you started?
+      - recent hobby you are enjoying that you started?
+      - recent hobby you are enjoying started you?
+      - you are enjoying recent hobby you started?
+      - you are enjoying hobby recent you started?
+      - you are enjoying hobby you started recent?
+      - hobby you started you are enjoying recent?
+      - any hobby you started are you enjoying recent?
+      - any hobby you started recent are you enjoying?
+      - any hobby recent you started are you enjoying?
+      - any hobby you are enjoying you started recent?
+      - any hobby you are enjoying recent you started?
+      - any recent hobby you are enjoying that you started?
+      - you enjoying any hobby you started recent?
+      - you enjoying hobby you started recent?
+      - you enjoying recent hobby you started?
+      - enjoying you any recent hobby you started?
+      - enjoying you hobby recent you started?
+      - enjoying you hobby you started recent?
+      - enjoying you recent hobby you started?
+      - started you any recent hobby you are enjoying?
+      - started you any hobby recent you are enjoying?
+      - started you hobby recent you are enjoying?
+      - started you recent hobby you are enjoying?
+      - any recent hobby you started you are enjoying?
+      - any recent hobby you are enjoying started you?
+      - any hobby you started you are enjoying recent?
+      - recent hobby you started you are enjoying?
+      - hobby recent you started you are enjoying?
+      - hobby you started recent you are enjoying?
+      - hobby you are enjoying recent you started?
+      - hobby you are enjoying you started recent?
+      - you have any hobby recent you started and are enjoying?
+      - have you hobby recent you started and are enjoying?
+      - have you any hobby recent you started and are enjoying?
+      - you have any recent hobby are enjoying you started?
+      - any recent hobby you have you started and are enjoying?
+      - any hobby recent you have started and are enjoying?
+      - hobby any recent you started and are enjoying?
+      - hobby you recent started and are enjoying?
+      - hobby recent you started and are enjoyin?
+      - hobby recent you started and are enjoying
+      - hobby you are enjoying recent started you?
+      - any recent hobby you are enjoyin you started?
+      - any recent hobby you started are enjoyin?
+      - any hobby recent you started are enjoyin?
+      - any hobby you started are enjoyin recent?
+      - recent hobby enjoyin you started?
+      - recent hobby you started enjoyin?
+      - recent hobby you enjoying started?
+      - you are enjoyin hobby recent you started?
+      - you are enjoyin recent hobby you started?
+      - you enjoyin any recent hobby you started?
+      - enjoyin any recent hobby you started?
+      - enjoyin any hobby you started recent?
+      - enjoyin hobby recent you started?
+      - enjoyin hobby you started recent?
+      - enjoyin recent hobby you started?
+      - started any recent hobby you are enjoying?
+      - started recent hobby you are enjoying?
+      - started hobby recent you are enjoying?
+      - started hobby you are enjoying recent?
+      - started hobby you are enjoying?
+      - you are enjoying hobby you started?
+      - you enjoying hobby you started?
+      - enjoying hobby you started?
+      - any hobby you enjoying you started recent?
+      - any hobby recent enjoying you started?
+      - recent hobby enjoying you started?
